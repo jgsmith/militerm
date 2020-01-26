@@ -3,5 +3,8 @@ title: Militerm
 description: |
   A storytelling MUD engine in Elixir.
 show_downloads: true
+github:
+  zip_url: "https://github.com/jgsmith/militerm/zipball/master"
+  tar_url: "https://github.com/jgsmith/militerm/tarball/master"
 exclude:
   - CNAME
