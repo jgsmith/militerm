@@ -1,1 +1,7 @@
 theme: jekyll-theme-hacker
+title: Militerm
+description: |
+  A storytelling MUD engine in Elixir.
+show_downloads: true
+exclude:
+  - CNAME
