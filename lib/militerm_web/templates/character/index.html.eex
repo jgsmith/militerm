@@ -1,0 +1,27 @@
+<h1>Listing Characters</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cap name</th>
+      <th>Gender</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for character <- @characters do %>
+    <tr>
+      <td><%= character.cap_name %></td>
+      <td><%= character.gender %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.character_path(@conn, :show, character.name) %></span>
+        <span><%= link "Play", to: Routes.live_path(@conn, MilitermWeb.GameLive, character.name) %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Character", to: Routes.character_path(@conn, :new) %></span>

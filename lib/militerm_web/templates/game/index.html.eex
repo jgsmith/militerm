@@ -1,0 +1,16 @@
+<div>
+  <!-- show list of characters to play - whether or not we allow multiple characters at the
+       same time should be a game configuration or something restricted to admins and
+       game testers -->
+  <div>
+    <ol>
+      <%= for {name, cap_name} <- @characters do %>
+        <li><a href="/game/<%= name %>"><%= cap_name %></a></li>
+      <% end %>
+    </ol>
+  </div>
+
+  <div>
+    <div class=""><a class="border border-solid border-blue rounded bg-blue-700 hover:bg-blue-900 text-white inline-block p-2 m-2" href="/game/new">Create Character</a></div>
+  </div>
+</div>

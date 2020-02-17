@@ -1,0 +1,12 @@
+<div>
+  <h1><%= @identity.name %></h1>
+
+  <dl>
+    <dt>Pronouns</dt>
+    <dd>
+      <%= @identity.nominative %>, <%= @identity.objective %>, <%= @identity.possessive %>
+    </dd>
+  </dl>
+
+  <a href="/game/<%= @character.name %>/play">Enter Game</a>
+</div>
