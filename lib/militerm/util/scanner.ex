@@ -24,9 +24,8 @@ defmodule Militerm.Util.Scanner do
   def new({:ok, string}), do: new(string)
 
   def new(string) do
-    with {:ok, pid} <- start_link(string) do
-      pid
-    else
+    case start_link(string) do
+      {:ok, pid} -> pid
       _ -> nil
     end
   end
@@ -174,33 +173,37 @@ defmodule Militerm.Util.Scanner do
   end
 
   def handle_call({:scan_until, regex, discard_match}, _from, state) do
-    with {new_state, value} <- do_scan_until(regex, discard_match, state) do
-      {:reply, value, new_state}
-    else
-      _ -> {:reply, nil, state}
+    case do_scan_until(regex, discard_match, state) do
+      {new_state, value} ->
+        {:reply, value, new_state}
+
+      _ ->
+        {:reply, nil, state}
     end
   end
 
   def handle_call({:skip, regex}, _from, {string, kept_matches, positions, pos} = state) do
-    with {:ok, fixed_regex} <- fix_regex("\\A", regex) do
-      case Regex.run(fixed_regex, string) do
-        ["" | _] ->
-          {:reply, false, state}
+    case fix_regex("\\A", regex) do
+      {:ok, fixed_regex} ->
+        case Regex.run(fixed_regex, string) do
+          ["" | _] ->
+            {:reply, false, state}
 
-        [match | _] ->
-          {:reply, true,
-           {
-             String.replace_leading(string, match, ""),
-             kept_matches,
-             positions,
-             pos + String.length(match)
-           }}
+          [match | _] ->
+            {:reply, true,
+             {
+               String.replace_leading(string, match, ""),
+               kept_matches,
+               positions,
+               pos + String.length(match)
+             }}
 
-        _ ->
-          {:reply, false, state}
-      end
-    else
-      _ -> {:reply, false, state}
+          _ ->
+            {:reply, false, state}
+        end
+
+      _ ->
+        {:reply, false, state}
     end
   end
 
@@ -217,10 +220,11 @@ defmodule Militerm.Util.Scanner do
     message_tuple =
       {message, state_coords(state), string |> String.slice(0, 20) |> escape_escapes}
 
-    with {new_state, _} <- do_scan_until(regex, true, state) do
-      # TODO: put in line/column
-      {:reply, message_tuple, new_state}
-    else
+    case do_scan_until(regex, true, state) do
+      {new_state, _} ->
+        # TODO: put in line/column
+        {:reply, message_tuple, new_state}
+
       _ ->
         {:reply, message_tuple, state}
     end
@@ -231,13 +235,15 @@ defmodule Militerm.Util.Scanner do
   end
 
   def handle_call({:match?, regex}, _from, {string, _, _, _} = state) do
-    with {:ok, fixed_regex} <- fix_regex("\\A", regex) do
-      case Regex.run(fixed_regex, string) do
-        nil -> {:reply, false, state}
-        _ -> {:reply, true, state}
-      end
-    else
-      _ -> {:reply, false, state}
+    case fix_regex("\\A", regex) do
+      {:ok, fixed_regex} ->
+        case Regex.run(fixed_regex, string) do
+          nil -> {:reply, false, state}
+          _ -> {:reply, true, state}
+        end
+
+      _ ->
+        {:reply, false, state}
     end
   end
 
@@ -280,60 +286,64 @@ defmodule Militerm.Util.Scanner do
   defp escape_escapes(<<x::utf8, rest::binary>>, acc), do: escape_escapes(rest, acc <> <<x>>)
 
   defp do_scan_until(regex, false, {string, kept_matches, positions, pos} = state) do
-    with {:ok, fixed_regex} <- fix_regex("\\A(.*?)", regex) do
-      case Regex.run(fixed_regex, string) do
-        nil ->
-          nil
+    case fix_regex("\\A(.*?)", regex) do
+      {:ok, fixed_regex} ->
+        case Regex.run(fixed_regex, string) do
+          nil ->
+            nil
 
-        [full | []] ->
-          {state, ""}
+          [full | []] ->
+            {state, ""}
 
-        [full | [value | _]] ->
-          {
+          [full | [value | _]] ->
             {
-              String.replace_leading(string, value, ""),
-              kept_matches,
-              positions,
-              pos + String.length(value)
-            },
-            value
-          }
-      end
-    else
-      _ -> nil
+              {
+                String.replace_leading(string, value, ""),
+                kept_matches,
+                positions,
+                pos + String.length(value)
+              },
+              value
+            }
+        end
+
+      _ ->
+        nil
     end
   end
 
   defp do_scan_until(regex, true, {string, kept_matches, positions, pos} = state) do
-    with {:ok, fixed_regex} <- fix_regex("\\A(.*?)", regex) do
-      case Regex.run(fixed_regex, string) do
-        nil ->
-          nil
+    case fix_regex("\\A(.*?)", regex) do
+      {:ok, fixed_regex} ->
+        case Regex.run(fixed_regex, string) do
+          nil ->
+            nil
 
-        [full | []] ->
-          {
+          [full | []] ->
             {
-              String.replace_leading(string, full, ""),
-              kept_matches,
-              positions,
-              pos + String.length(full)
-            },
-            ""
-          }
+              {
+                String.replace_leading(string, full, ""),
+                kept_matches,
+                positions,
+                pos + String.length(full)
+              },
+              ""
+            }
 
-        [full | [value | _]] ->
-          {
+          [full | [value | _]] ->
             {
-              String.replace_leading(string, full, ""),
-              kept_matches,
-              positions,
-              pos + String.length(full)
-            },
-            value
-          }
-      end
-    else
-      _ -> nil
+              {
+                String.replace_leading(string, full, ""),
+                kept_matches,
+                positions,
+                pos + String.length(full)
+              },
+              value
+            }
+        end
+
+      _ ->
+        nil
     end
   end
 

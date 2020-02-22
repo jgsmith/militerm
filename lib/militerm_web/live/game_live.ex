@@ -105,10 +105,12 @@ defmodule MilitermWeb.GameLive do
   end
 
   defp render_mml(entity_id, text) when is_binary(text) do
-    with {:ok, binding} = Militerm.Systems.MML.bind(text, %{"this" => {:thing, entity_id}}) do
-      render_mml(entity_id, binding)
-    else
-      _ -> text
+    case Militerm.Systems.MML.bind(text, %{"this" => {:thing, entity_id}}) do
+      {:ok, binding} ->
+        render_mml(entity_id, binding)
+
+      _ ->
+        text
     end
   end
 

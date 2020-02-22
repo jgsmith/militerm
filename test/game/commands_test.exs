@@ -71,7 +71,6 @@ defmodule Game.CommandsTest do
       |> Entity.send_input("look at the floor")
       |> Entity.await_event("post-scan:item:brief")
       |> Entity.get_output()
-      |> IO.inspect()
     end
   end
 end

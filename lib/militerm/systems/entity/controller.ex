@@ -59,28 +59,29 @@ defmodule Militerm.Systems.Entity.Controller do
 
     old_value = property(thing, full_path, args)
 
-    if not is_nil(validated_value) do
+    if is_nil(validated_value) do
+      old_value
+    else
       component_atom = String.to_existing_atom(component)
 
-      with {:ok, module} <- Map.fetch(Militerm.Config.components(), component_atom) do
-        module.set_value(entity_id, path, validated_value, args)
+      case Map.fetch(Militerm.Config.components(), component_atom) do
+        {:ok, module} ->
+          module.set_value(entity_id, path, validated_value, args)
 
-        if old_value != validated_value do
-          # trigger change event
-          event = "change:#{Enum.join(full_path, ":")}"
+          if old_value != validated_value do
+            # trigger change event
+            event = "change:#{Enum.join(full_path, ":")}"
 
-          Militerm.Systems.Events.trigger(entity_id, event, %{
-            "observed" => [thing],
-            "prior" => old_value,
-            "value" => validated_value
-          })
-        end
-      else
-        _ -> nil
+            Militerm.Systems.Events.trigger(entity_id, event, %{
+              "observed" => [thing],
+              "prior" => old_value,
+              "value" => validated_value
+            })
+          end
+
+        _ ->
+          nil
       end
-    else
-      # unchanged
-      old_value
     end
   end
 
@@ -98,10 +99,12 @@ defmodule Militerm.Systems.Entity.Controller do
   def reset_property({:thing, entity_id}, [component | path], args) do
     component_atom = String.to_existing_atom(component)
 
-    with {:ok, module} <- Map.fetch(Militerm.Config.components(), component_atom) do
-      module.reset_value(entity_id, path, args)
-    else
-      _ -> nil
+    case Map.fetch(Militerm.Config.components(), component_atom) do
+      {:ok, module} ->
+        module.reset_value(entity_id, path, args)
+
+      _ ->
+        nil
     end
   end
 
@@ -143,26 +146,32 @@ defmodule Militerm.Systems.Entity.Controller do
   def raw_property({:thing, entity_id}, [component | path], args) do
     component_atom = String.to_existing_atom(component)
 
-    with {:ok, module} <- Map.fetch(Militerm.Config.components(), component_atom) do
-      module.get_value(entity_id, path, args)
-    else
-      _ -> nil
+    case Map.fetch(Militerm.Config.components(), component_atom) do
+      {:ok, module} ->
+        module.get_value(entity_id, path, args)
+
+      _ ->
+        nil
     end
   end
 
   def calculates?({:thing, entity_id}, path) do
-    with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-      apply(module, :calculates?, [entity_id, path])
-    else
-      _ -> false
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :calculates?, [entity_id, path])
+
+      _ ->
+        false
     end
   end
 
   def calculate({:thing, entity_id}, path, args) do
-    with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-      apply(module, :calculate, [entity_id, path, args])
-    else
-      _ -> nil
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :calculate, [entity_id, path, args])
+
+      _ ->
+        nil
     end
   end
 
@@ -171,18 +180,22 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def pre_event({:thing, entity_id} = entity, event, role, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :handle_event, [entity_id, "pre-" <> event, role, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :handle_event, [entity_id, "pre-" <> event, role, args])
+
+            _ ->
+              false
+          end
         else
-          _ -> false
+          GenServer.call(pid, {:pre_event, event, role, args})
         end
-      else
-        GenServer.call(pid, {:pre_event, event, role, args})
-      end
-    else
-      _ -> false
+
+      _ ->
+        false
     end
   end
 
@@ -193,18 +206,22 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def event({:thing, entity_id} = entity, event, role, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :handle_event, [entity_id, event, role, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :handle_event, [entity_id, event, role, args])
+
+            _ ->
+              nil
+          end
         else
-          _ -> nil
+          GenServer.call(pid, {:event, event, role, args})
         end
-      else
-        GenServer.call(pid, {:event, event, role, args})
-      end
-    else
-      _ -> nil
+
+      _ ->
+        nil
     end
   end
 
@@ -218,20 +235,24 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def async_event({:thing, entity_id} = entity, event, role, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          Task.start(module, :handle_event, [entity_id, event, role, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              Task.start(module, :handle_event, [entity_id, event, role, args])
+
+            _ ->
+              Task.start(fn -> nil end)
+          end
         else
-          _ -> Task.start(fn -> nil end)
+          Task.start(fn ->
+            GenServer.call(pid, {:event, event, role, args})
+          end)
         end
-      else
-        Task.start(fn ->
-          GenServer.call(pid, {:event, event, role, args})
-        end)
-      end
-    else
-      _ -> nil
+
+      _ ->
+        nil
     end
   end
 
@@ -242,18 +263,22 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def post_event({:thing, entity_id} = entity, event, role, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :handle_event, [entity_id, "post-" <> event, role, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :handle_event, [entity_id, "post-" <> event, role, args])
+
+            _ ->
+              nil
+          end
         else
-          _ -> nil
+          GenServer.call(pid, {:post_event, event, role, args})
         end
-      else
-        GenServer.call(pid, {:post_event, event, role, args})
-      end
-    else
-      _ -> nil
+
+      _ ->
+        nil
     end
   end
 
@@ -264,18 +289,20 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def can?({:thing, entity_id} = entity, ability, role, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :can?, [entity_id, ability, role, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :can?, [entity_id, ability, role, args])
+
+            _ ->
+              false
+          end
         else
-          _ ->
-            false
+          GenServer.cast(pid, {:can, ability, role, args})
         end
-      else
-        GenServer.cast(pid, {:can, ability, role, args})
-      end
-    else
+
       _ ->
         false
     end
@@ -290,52 +317,64 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def is?({:thing, entity_id} = entity, trait, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :is?, [entity_id, trait, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :is?, [entity_id, trait, args])
+
+            _ ->
+              false
+          end
         else
-          _ -> false
+          GenServer.call(pid, {:is, trait, args})
         end
-      else
-        GenServer.call(pid, {:is, trait, args})
-      end
-    else
-      _ -> false
+
+      _ ->
+        false
     end
   end
 
   def is?(_, _, _), do: false
 
   def validates?({:thing, entity_id} = entity, path) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :validates?, [entity_id, path])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :validates?, [entity_id, path])
+
+            _ ->
+              false
+          end
         else
-          _ -> false
+          GenServer.call(pid, {:validates?, path})
         end
-      else
-        GenServer.call(pid, {:validates?, path})
-      end
-    else
-      _ -> false
+
+      _ ->
+        false
     end
   end
 
   def validate({:thing, entity_id} = entity, path, value, args) do
-    with {:ok, pid} <- Entity.whereis(entity) do
-      if pid == self() do
-        with {:ok, module} <- Militerm.Components.Entity.module(entity_id) do
-          apply(module, :validate, [entity_id, path, value, args])
+    case Entity.whereis(entity) do
+      {:ok, pid} ->
+        if pid == self() do
+          case Militerm.Components.Entity.module(entity_id) do
+            {:ok, module} ->
+              apply(module, :validate, [entity_id, path, value, args])
+
+            _ ->
+              false
+          end
         else
-          _ -> false
+          GenServer.call(pid, {:validate, path, value, args})
         end
-      else
-        GenServer.call(pid, {:validate, path, value, args})
-      end
-    else
-      _ -> false
+
+      _ ->
+        false
     end
   end
 

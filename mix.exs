@@ -49,7 +49,8 @@ defmodule Militerm.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:swarm, "~> 3.0"},
       {:libcluster, "~> 3.1.1"},
-      {:yaml_elixir, "~> 2.0"}
+      {:yaml_elixir, "~> 2.0"},
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
 

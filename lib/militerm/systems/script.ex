@@ -11,7 +11,6 @@ defmodule Militerm.Systems.Script do
         apply(module, fctn, args ++ [objects] ++ extra_args)
 
       _ ->
-        # TODO: log warning about undefined function
         Logger.warn("Unable to find #{function_name}/#{arity}")
         nil
     end

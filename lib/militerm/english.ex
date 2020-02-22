@@ -44,7 +44,7 @@ defmodule Militerm.English do
   def pluralize(""), do: ""
 
   def pluralize(word) when is_binary(word) do
-    if(Map.has_key?(@abnormal_plurals, word)) do
+    if Map.has_key?(@abnormal_plurals, word) do
       Map.get(@abnormal_plurals, word)
     else
       word

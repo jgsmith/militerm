@@ -28,18 +28,22 @@ defmodule Militerm.Services.Archetypes do
   end
 
   def get(ur_name, sub_name) do
-    with {:ok, name} <- resolve(ur_name, sub_name) do
-      Militerm.ECS.CachedService.get(__MODULE__, name, %{})
-    else
-      _ -> %{}
+    case resolve(ur_name, sub_name) do
+      {:ok, name} ->
+        Militerm.ECS.CachedService.get(__MODULE__, name, %{})
+
+      _ ->
+        %{}
     end
   end
 
   def get(ur_name) do
-    with {:ok, name} <- resolve(ur_name) do
-      Militerm.ECS.CachedService.get(__MODULE__, name, %{})
-    else
-      _ -> %{}
+    case resolve(ur_name) do
+      {:ok, name} ->
+        Militerm.ECS.CachedService.get(__MODULE__, name, %{})
+
+      _ ->
+        %{}
     end
   end
 
@@ -219,10 +223,12 @@ defmodule Militerm.Services.Archetypes do
     gathered_data =
       mixins
       |> Enum.reduce(%{}, fn mixin, acc ->
-        with %{data: mixin_data} <- Mixins.get(mixin) do
-          merge(acc, mixin_data)
-        else
-          _ -> acc
+        case Mixins.get(mixin) do
+          %{data: mixin_data} ->
+            merge(acc, mixin_data)
+
+          _ ->
+            acc
         end
       end)
       |> merge(data)
@@ -232,21 +238,25 @@ defmodule Militerm.Services.Archetypes do
 
   defp gather_data(%{mixins: mixins, ur_name: ur_name, data: data} = parse) do
     # get ur_data - then mixin data, then our data
-    with %{data: ur_data} <- get(ur_name) do
-      gathered_data =
-        mixins
-        |> Enum.reduce(ur_data, fn mixin, acc ->
-          with %{data: mixin_data} <- Mixins.get(mixin) do
-            merge(acc, mixin_data)
-          else
-            _ -> acc
-          end
-        end)
-        |> merge(data)
+    case get(ur_name) do
+      %{data: ur_data} ->
+        gathered_data =
+          mixins
+          |> Enum.reduce(ur_data, fn mixin, acc ->
+            case Mixins.get(mixin) do
+              %{data: mixin_data} ->
+                merge(acc, mixin_data)
 
-      %{parse | data: gathered_data}
-    else
-      _ -> parse
+              _ ->
+                acc
+            end
+          end)
+          |> merge(data)
+
+        %{parse | data: gathered_data}
+
+      _ ->
+        parse
     end
   end
 

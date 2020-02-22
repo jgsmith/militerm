@@ -77,7 +77,6 @@ defmodule Militerm.Systems.Location do
     things
     |> Enum.map(&do_describe(sense, &1, options))
     |> Enum.intersperse(" ")
-    |> IO.inspect()
   end
 
   def do_describe(sense, {:thing, entity_id}, options) do
@@ -124,7 +123,6 @@ defmodule Militerm.Systems.Location do
   end
 
   def do_describe(sense, thing, options) do
-    IO.inspect({:do_describe, sense, thing, options})
     ""
   end
 
@@ -412,46 +410,39 @@ defmodule Militerm.Systems.Location do
   Move to a location. Handles calling all the right events.
   """
   def move_to(class, entity_id, target_id, coord, actor \\ nil) do
+    dest = {"in", {:thing, target_id, coord}}
+
     case Militerm.Services.Location.where(entity_id) do
       {_, {:thing, ^target_id, _}} = from ->
-        motion_in_target(entity_id, from, {target_id, coord})
+        motion_in_target(entity_id, from, dest)
 
       {leaving_prep, {:thing, leaving_id, leaving_coord}} = from ->
         result =
           entity_id
           |> permission_to_leave(class, {:thing, leaving_id})
           |> permission_to_arrive(entity_id, class, {:thing, target_id})
-          |> permission_to_accept(entity_id, class, from, {:thing, target_id, coord})
-
-        case result do
-          {:error, _} = _message ->
-            # message
-            false
-
-          {:cont, pre, post} ->
-            # run the pre events -- if they all succeed, then make the move, and then run the post events
-            # observers are everything in the scene that can see the move
-            # args: %{direct: entity_id, from: ..., to: ...}
-
-            # Militerm.EventManager.run_event_set(
-            #   pre ++ ["move"] ++ post, [:actor], %{actor: entity_id}
-            # )
-            {slot_names, slots} =
-              if entity_id == actor or is_nil(actor) do
-                {["actor"], %{"actor" => entity_id}}
-              else
-                {["actor", "direct"], %{"actor" => actor, "direct" => [entity_id]}}
-              end
-
-            Militerm.Systems.Events.run_event_set(
-              pre ++ ["move:#{class}"] ++ post,
-              slot_names,
-              slots
-              |> Map.put("moving_from", from)
-              |> Map.put("moving_to", {"in", {:thing, target_id, coord}})
-            )
-        end
+          |> permission_to_accept(entity_id, class, from, dest)
+          |> finalize_move(entity_id, class, actor, from, dest)
     end
+  end
+
+  defp finalize_move({:error, _}, _, _, _, _, _), do: false
+
+  defp finalize_move({:cont, pre, post}, entity_id, class, actor, from, dest) do
+    {slot_names, slots} =
+      if entity_id == actor or is_nil(actor) do
+        {["actor"], %{"actor" => entity_id}}
+      else
+        {["actor", "direct"], %{"actor" => actor, "direct" => [entity_id]}}
+      end
+
+    Militerm.Systems.Events.run_event_set(
+      pre ++ ["move:#{class}"] ++ post,
+      slot_names,
+      slots
+      |> Map.put("moving_from", from)
+      |> Map.put("moving_to", dest)
+    )
   end
 
   defp permission_to_leave(entity_id, class, leaving_id) do

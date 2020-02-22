@@ -11,18 +11,22 @@ defmodule Militerm.Services.Mixins do
   """
 
   def get(ur_name, sub_name) do
-    with {:ok, name} <- resolve(ur_name, sub_name) do
-      Militerm.ECS.CachedService.get(__MODULE__, name, %{})
-    else
-      _ -> %{}
+    case resolve(ur_name, sub_name) do
+      {:ok, name} ->
+        Militerm.ECS.CachedService.get(__MODULE__, name, %{})
+
+      _ ->
+        %{}
     end
   end
 
   def get(ur_name) do
-    with {:ok, name} <- resolve(ur_name) do
-      Militerm.ECS.CachedService.get(__MODULE__, name, %{})
-    else
-      _ -> %{}
+    case resolve(ur_name) do
+      {:ok, name} ->
+        Militerm.ECS.CachedService.get(__MODULE__, name, %{})
+
+      _ ->
+        %{}
     end
   end
 
@@ -206,10 +210,12 @@ defmodule Militerm.Services.Mixins do
     gathered_data =
       mixins
       |> Enum.reduce(%{}, fn mixin, acc ->
-        with %{data: mixin_data} <- get(mixin) do
-          merge(acc, mixin_data)
-        else
-          _ -> acc
+        case get(mixin) do
+          %{data: mixin_data} ->
+            merge(acc, mixin_data)
+
+          _ ->
+            acc
         end
       end)
       |> merge(data)

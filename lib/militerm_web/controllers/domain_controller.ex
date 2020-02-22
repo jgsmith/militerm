@@ -27,7 +27,7 @@ defmodule MilitermWeb.DomainController do
   end
 
   def show(conn, %{"id" => id}) do
-    domain = Game.get_domain!(id) |> Militerm.Config.repo().preload(:areas)
+    domain = id |> Game.get_domain!() |> Militerm.Config.repo().preload(:areas)
     render(conn, "show.html", domain: domain)
   end
 

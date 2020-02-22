@@ -49,7 +49,8 @@ defmodule Militerm.Parsers.Script do
   @binop_regex elem(
                  Regex.compile(
                    "(" <>
-                     (Map.keys(@binops)
+                     (@binops
+                      |> Map.keys()
                       |> Enum.sort(fn a, b ->
                         String.length(elem(@binops[a], 0)) > String.length(elem(@binops[b], 0))
                       end)
@@ -263,16 +264,12 @@ defmodule Militerm.Parsers.Script do
               otherwise
           end
 
-        with {:ok, yaml} <- YamlElixir.read_from_string(body) do
-          cond do
-            is_map(yaml) ->
-              merge_yaml(struct, yaml)
+        case YamlElixir.read_from_string(body) do
+          {:ok, yaml} ->
+            if is_map(yaml), do: merge_yaml(struct, yaml), else: struct
 
-            true ->
-              struct
-          end
-        else
-          _ -> struct
+          _ ->
+            struct
         end
 
       true ->
@@ -299,11 +296,13 @@ defmodule Militerm.Parsers.Script do
   defp at_end_of_statement?(source, sep \\ ~r/;/) do
     skip_space(source)
 
-    with {:ok, pat} <- Regex.compile("(\n|#{Regex.source(sep)})") do
-      Scanner.eos?(source) || Scanner.match?(source, pat) ||
-        Scanner.match?(source, ~r/\#[^\n]*\n/)
-    else
-      _ -> false
+    case Regex.compile("(\n|#{Regex.source(sep)})") do
+      {:ok, pat} ->
+        Scanner.eos?(source) || Scanner.match?(source, pat) ||
+          Scanner.match?(source, ~r/\#[^\n]*\n/)
+
+      _ ->
+        false
     end
   end
 
@@ -406,10 +405,12 @@ defmodule Militerm.Parsers.Script do
     cond do
       !can_have_mixins || Scanner.match?(source, ~r/[^,\n]+?[ \t\f\r](if|unless|when)\b/) ->
         if :traits in parts do
-          with {:ok, trait} <- parse_trait(source) do
-            {:ok, %{info | traits: [trait | info[:traits]]}}
-          else
-            otherwise -> otherwise
+          case parse_trait(source) do
+            {:ok, trait} ->
+              {:ok, %{info | traits: [trait | info[:traits]]}}
+
+            otherwise ->
+              otherwise
           end
         else
           Scanner.error(
@@ -420,10 +421,12 @@ defmodule Militerm.Parsers.Script do
         end
 
       can_have_mixins ->
-        with {:ok, mixins} <- parse_mixin(source) do
-          {:ok, %{info | mixins: info[:mixins] ++ mixins}}
-        else
-          otherwise -> otherwise
+        case parse_mixin(source) do
+          {:ok, mixins} ->
+            {:ok, %{info | mixins: info[:mixins] ++ mixins}}
+
+          otherwise ->
+            otherwise
         end
 
       true ->
@@ -440,58 +443,62 @@ defmodule Militerm.Parsers.Script do
     negated = Scanner.scan(source, ~r/not\b/)
     skip_space(source)
 
-    with {:ok, name} <- parse_nc_name(source) do
-      exp =
-        if Scanner.scan(source, ~r/(if|unless|when)\b/) do
-          negated =
-            case Scanner.matches(source) do
-              ["unless" | _] -> !negated
-              _ -> negated
-            end
-
-          skip_space(source)
-
-          negated =
-            if Scanner.scan(source, ~r/not\b/) do
-              !negated
-            else
-              negated
-            end
-
-          skip_all_space(source)
-
-          with {:ok, exp} <- parse_expression(source) do
-            if negated do
-              case exp do
-                {:not, clause} -> {:ok, clause}
-                otherwise -> {:ok, {:not, otherwise}}
+    case parse_nc_name(source) do
+      {:ok, name} ->
+        exp =
+          if Scanner.scan(source, ~r/(if|unless|when)\b/) do
+            negated =
+              case Scanner.matches(source) do
+                ["unless" | _] -> !negated
+                _ -> negated
               end
-            else
-              {:ok, exp}
+
+            skip_space(source)
+
+            negated =
+              if Scanner.scan(source, ~r/not\b/) do
+                !negated
+              else
+                negated
+              end
+
+            skip_all_space(source)
+
+            case parse_expression(source) do
+              {:ok, exp} ->
+                if negated do
+                  case exp do
+                    {:not, clause} -> {:ok, clause}
+                    otherwise -> {:ok, {:not, otherwise}}
+                  end
+                else
+                  {:ok, exp}
+                end
+
+              otherwise ->
+                otherwise
             end
           else
-            otherwise -> otherwise
-          end
-        else
-          truth =
-            if negated do
-              "False"
-            else
-              "True"
-            end
+            truth =
+              if negated do
+                "False"
+              else
+                "True"
+              end
 
-          case expect_end_of_statement(source) do
-            :ok -> {:ok, {:const, truth}}
-            otherwise -> otherwise
+            case expect_end_of_statement(source) do
+              :ok -> {:ok, {:const, truth}}
+              otherwise -> otherwise
+            end
           end
+
+        case exp do
+          {:ok, expression} -> {:ok, {name, expression}}
+          otherwise -> otherwise
         end
 
-      case exp do
-        {:ok, expression} -> {:ok, {name, expression}}
-        otherwise -> otherwise
-      end
-    else
-      _ -> {:error, Scanner.error(source, "Expected an NCNAME", ~r/[\n;]/)}
+      _ ->
+        {:error, Scanner.error(source, "Expected an NCNAME", ~r/[\n;]/)}
     end
   end
 
@@ -514,17 +521,19 @@ defmodule Militerm.Parsers.Script do
 
         skip_all_space(source)
 
-        with {:ok, exp} <- parse_expression(source) do
-          if negated do
-            case exp do
-              {:not, clause} -> {:ok, {name, pov, clause}}
-              otherwise -> {:ok, {name, pov, {:not, otherwise}}}
+        case parse_expression(source) do
+          {:ok, exp} ->
+            if negated do
+              case exp do
+                {:not, clause} -> {:ok, {name, pov, clause}}
+                otherwise -> {:ok, {name, pov, {:not, otherwise}}}
+              end
+            else
+              {:ok, {name, pov, exp}}
             end
-          else
-            {:ok, {name, pov, exp}}
-          end
-        else
-          otherwise -> otherwise
+
+          otherwise ->
+            otherwise
         end
       else
         truth =
@@ -545,29 +554,32 @@ defmodule Militerm.Parsers.Script do
   end
 
   def parse_ability({source, _, _}, info) do
-    with {:ok, {name, role, ast}} <- parse_ability_clause(source) do
-      {:ok, %{info | abilities: Map.put(info[:abilities], {name, role}, ast)}}
-    else
-      otherwise -> otherwise
+    case parse_ability_clause(source) do
+      {:ok, {name, role, ast}} ->
+        {:ok, %{info | abilities: Map.put(info[:abilities], {name, role}, ast)}}
+
+      otherwise ->
+        otherwise
     end
   end
 
   defp parse_mixin(source, acc \\ []) do
     skip_all_space(source)
 
-    with {:ok, name} <- parse_nc_name(source) do
-      skip_space(source)
+    case parse_nc_name(source) do
+      {:ok, name} ->
+        skip_space(source)
 
-      if Scanner.scan(source, ~r/,\s*/) do
-        skip_all_space(source)
-        parse_mixin(source, [name | acc])
-      else
-        case expect_end_of_statement(source) do
-          :ok -> {:ok, Enum.reverse([name | acc])}
-          otherwise -> otherwise
+        if Scanner.scan(source, ~r/,\s*/) do
+          skip_all_space(source)
+          parse_mixin(source, [name | acc])
+        else
+          case expect_end_of_statement(source) do
+            :ok -> {:ok, Enum.reverse([name | acc])}
+            otherwise -> otherwise
+          end
         end
-      end
-    else
+
       _ ->
         {:error, Scanner.error(source, "Expected a trait name", ~r/[\n;]/)}
     end
@@ -578,9 +590,10 @@ defmodule Militerm.Parsers.Script do
       if info[:ur_name] do
         {:error, Scanner.error(source, "Archetype base is already defined", ~r/[\n;]/)}
       else
-        with {:ok, ur_name} <- parse_nc_name(source) do
-          {:ok, %{info | ur_name: ur_name}}
-        else
+        case parse_nc_name(source) do
+          {:ok, ur_name} ->
+            {:ok, %{info | ur_name: ur_name}}
+
           _ ->
             {:error,
              Scanner.error(
@@ -623,12 +636,16 @@ defmodule Militerm.Parsers.Script do
     if Scanner.scan(source, ~r/as\b/) do
       skip_all_space(source)
 
-      with {:ok, pov} <- parse_nc_name(source) do
-        skip_space(source)
-        {:ok, pov}
-      else
-        nil -> {:error, Scanner.error(source, "Expected a point of view")}
-        otherwise -> otherwise
+      case parse_nc_name(source) do
+        {:ok, pov} ->
+          skip_space(source)
+          {:ok, pov}
+
+        nil ->
+          {:error, Scanner.error(source, "Expected a point of view")}
+
+        otherwise ->
+          otherwise
       end
     else
       {:ok, "any"}
@@ -673,10 +690,12 @@ defmodule Militerm.Parsers.Script do
   defp parse_uhoh(source) do
     skip_space(source)
 
-    with {:ok, exp} <- parse_expression(source) do
-      {:ok, {:uhoh, exp}}
-    else
-      otherwise -> otherwise
+    case parse_expression(source) do
+      {:ok, exp} ->
+        {:ok, {:uhoh, exp}}
+
+      otherwise ->
+        otherwise
     end
   end
 
@@ -724,9 +743,10 @@ defmodule Militerm.Parsers.Script do
         skip_all_space(source)
         op_code = @binop_code[op]
 
-        with {:ok, term} <- parse_term(source) do
-          gather_terms_and_ops(source, sep, [term | terms], [op_code | ops])
-        else
+        case parse_term(source) do
+          {:ok, term} ->
+            gather_terms_and_ops(source, sep, [term | terms], [op_code | ops])
+
           _ = otherwise ->
             if sep != nil do
               Scanner.scan_until(source, sep)
@@ -849,10 +869,12 @@ defmodule Militerm.Parsers.Script do
   defp parse_indices(source, acc) do
     cond do
       Scanner.scan(source, ~r/\[/) ->
-        with {:ok, exp} <- parse_expression(source, ~r/]/) do
-          parse_indices(source, [exp | acc])
-        else
-          otherwise -> otherwise
+        case parse_expression(source, ~r/]/) do
+          {:ok, exp} ->
+            parse_indices(source, [exp | acc])
+
+          otherwise ->
+            otherwise
         end
 
       true ->
@@ -861,14 +883,16 @@ defmodule Militerm.Parsers.Script do
   end
 
   defp parse_term(source) do
-    with {:ok, term_head} <- parse_term_start(source) do
-      if Scanner.match?(source, ~r/\[/) do
-        parse_indices(source, [term_head, :index])
-      else
-        {:ok, term_head}
-      end
-    else
-      {:error, _} = otherwise -> otherwise
+    case parse_term_start(source) do
+      {:ok, term_head} ->
+        if Scanner.match?(source, ~r/\[/) do
+          parse_indices(source, [term_head, :index])
+        else
+          {:ok, term_head}
+        end
+
+      {:error, _} = otherwise ->
+        otherwise
     end
   end
 
@@ -910,10 +934,12 @@ defmodule Militerm.Parsers.Script do
         end
 
       Scanner.scan(source, ~r/\(\s*(\d+(\.\d*)?|\.\d+)\s*([a-z][a-z\/^0-9]*)\s*\)/) ->
-        with [scalar, units] <- Scanner.matches(source) do
-          {:ok, {:units, scalar, units}}
-        else
-          _ -> {:error, Scanner.error(source, "Unparsable units", ~r/[\s;]/)}
+        case Scanner.matches(source) do
+          [scalar, units] ->
+            {:ok, {:units, scalar, units}}
+
+          _ ->
+            {:error, Scanner.error(source, "Unparsable units", ~r/[\s;]/)}
         end
 
       Scanner.scan(source, ~r/\(/) ->
@@ -964,13 +990,13 @@ defmodule Militerm.Parsers.Script do
         [raw_content | _] = Scanner.matches(source)
         {:ok, regex} = Regex.compile(Regex.escape(r))
 
-        unless Scanner.scan(source, regex) do
-          {:error, Scanner.error(source, "Unterminated sigil found", ~r/[;\n]/)}
-        else
+        if Scanner.scan(source, regex) do
           raw_content
           |> String.trim()
           |> String.replace(~r/\\(.)/, "\\1")
           |> process_sigil(sigil, source)
+        else
+          {:error, Scanner.error(source, "Unterminated sigil found", ~r/[;\n]/)}
         end
 
       Scanner.scan(source, ~r/([-+]?\d*\.\d+)/) ->
@@ -997,12 +1023,9 @@ defmodule Militerm.Parsers.Script do
         {:ok, {:int, 0}}
 
       Scanner.scan(source, ~r/-\(/) ->
-        with {:ok, exp} <- parse_expression(source, ~r/\)/) do
-          case exp do
-            {:negate, next_exp} -> {:ok, next_exp}
-            otherwise -> {:ok, {:negate, otherwise}}
-          end
-        else
+        case parse_expression(source, ~r/\)/) do
+          {:ok, {:negate, exp}} -> {:ok, exp}
+          {:ok, exp} -> {:ok, {:negate, exp}}
           {:error, _} = otherwise -> otherwise
         end
 
@@ -1014,9 +1037,10 @@ defmodule Militerm.Parsers.Script do
         parse_quoted_string(source, q)
 
       Scanner.scan(source, ~r/:\s*/) ->
-        with {:ok, exp} <- parse_expression(source) do
-          {:sensation, "sight", exp}
-        else
+        case parse_expression(source) do
+          {:ok, exp} ->
+            {:sensation, "sight", exp}
+
           {:error, _} = otherwise ->
             otherwise
         end
@@ -1035,46 +1059,54 @@ defmodule Militerm.Parsers.Script do
         skip_space(source)
 
         if Scanner.scan(source, ~r/\(/) do
-          with {:ok, args} <- parse_arg_list(source) do
-            {:ok, {:function, const, args}}
-          else
-            {:error, _} = otherwise -> otherwise
+          case parse_arg_list(source) do
+            {:ok, args} ->
+              {:ok, {:function, const, args}}
+
+            {:error, _} = otherwise ->
+              otherwise
           end
         else
           {:ok, {:const, const}}
         end
 
       Scanner.match?(source, ~r/\$/) ->
-        with {:ok, var_name} <- parse_var_name(source) do
-          {:ok, {:var, var_name}}
-        else
-          {:error, _} = otherwise -> otherwise
+        case parse_var_name(source) do
+          {:ok, var_name} ->
+            {:ok, {:var, var_name}}
+
+          {:error, _} = otherwise ->
+            otherwise
         end
 
       Scanner.match?(source, ~r/\@/) ->
-        with {:ok, obj_name} <- parse_obj_name(source) do
-          {:ok, {:obj, obj_name}}
-        else
-          {:error, _} = otherwise -> otherwise
+        case parse_obj_name(source) do
+          {:ok, obj_name} ->
+            {:ok, {:obj, obj_name}}
+
+          {:error, _} = otherwise ->
+            otherwise
         end
 
       true ->
-        with {:ok, nc_name} <- parse_nc_name(source) do
-          if String.contains?(nc_name, ":") do
-            {:ok, {:prop, nc_name}}
-          else
-            if Scanner.scan(source |> skip_space, ~r/:/) do
-              with {:ok, exp} <- parse_expression(source) do
-                {:ok, {:sensation, nc_name, exp}}
-              else
-                {:error, _} = otherwise ->
-                  otherwise
-              end
+        case parse_nc_name(source) do
+          {:ok, nc_name} ->
+            if String.contains?(nc_name, ":") do
+              {:ok, {:prop, nc_name}}
             else
-              {:ok, {:context, nc_name}}
+              if Scanner.scan(source |> skip_space, ~r/:/) do
+                case parse_expression(source) do
+                  {:ok, exp} ->
+                    {:ok, {:sensation, nc_name, exp}}
+
+                  {:error, _} = otherwise ->
+                    otherwise
+                end
+              else
+                {:ok, {:context, nc_name}}
+              end
             end
-          end
-        else
+
           {:error, _} ->
             {:error,
              Scanner.error(
@@ -1185,22 +1217,24 @@ defmodule Militerm.Parsers.Script do
 
       case Scanner.matches(source) do
         ["else" | _] ->
-          with {:ok, else_exp} <- parse_compound_expression(source, ~r/end\b/) do
-            {
-              :ok,
+          case parse_compound_expression(source, ~r/end\b/) do
+            {:ok, else_exp} ->
               {
-                :when,
-                Enum.reverse([
-                  {else_exp}
-                  | [
-                      {condition, then_exp}
-                      | acc
-                    ]
-                ])
+                :ok,
+                {
+                  :when,
+                  Enum.reverse([
+                    {else_exp}
+                    | [
+                        {condition, then_exp}
+                        | acc
+                      ]
+                  ])
+                }
               }
-            }
-          else
-            {:error, _} = otherwise -> otherwise
+
+            {:error, _} = otherwise ->
+              otherwise
           end
 
         ["elsif" | _] ->
@@ -1221,18 +1255,22 @@ defmodule Militerm.Parsers.Script do
   defp parse_is_can_q(source, style) do
     negated = Scanner.scan(source |> skip_space, ~r/not\b/)
 
-    with {:ok, adjective} <- parse_nc_name(source |> skip_space) do
-      if Scanner.scan(source |> skip_space, ~r/as\b/) do
-        with {:ok, pov} <- parse_pov(source |> skip_space) do
-          {:ok, {style, negated, {adjective, pov}}}
+    case source |> skip_space |> parse_nc_name do
+      {:ok, adjective} ->
+        if Scanner.scan(source |> skip_space, ~r/as\b/) do
+          case source |> skip_space |> parse_pov do
+            {:ok, pov} ->
+              {:ok, {style, negated, {adjective, pov}}}
+
+            {:error, _} = otherwise ->
+              otherwise
+          end
         else
-          {:error, _} = otherwise -> otherwise
+          {:ok, {style, negated, {adjective, "any"}}}
         end
-      else
-        {:ok, {style, negated, {adjective, "any"}}}
-      end
-    else
-      _ -> {:error, Scanner.error(source, "Expected a NCNAME")}
+
+      _ ->
+        {:error, Scanner.error(source, "Expected a NCNAME")}
     end
   end
 
@@ -1261,9 +1299,10 @@ defmodule Militerm.Parsers.Script do
         end
 
       Scanner.scan(source, ~r/uhoh\b/) ->
-        with {:ok, exp} <- parse_uhoh(source) do
-          parse_compound_expression(source, ending, [exp | acc])
-        else
+        case parse_uhoh(source) do
+          {:ok, exp} ->
+            parse_compound_expression(source, ending, [exp | acc])
+
           {:error, _} = otherwise ->
             Scanner.scan_until(source, ending)
             otherwise
@@ -1332,9 +1371,10 @@ defmodule Militerm.Parsers.Script do
       #     end
 
       Scanner.scan(source, ~r/:\s*/) ->
-        with {:ok, exp} <- parse_expression(source) do
-          parse_compound_expression(source, ending, [{:sensation, "sight", exp} | acc])
-        else
+        case parse_expression(source) do
+          {:ok, exp} ->
+            parse_compound_expression(source, ending, [{:sensation, "sight", exp} | acc])
+
           {:error, _} = otherwise ->
             Scanner.scan_until(source, ending)
             otherwise
@@ -1369,9 +1409,10 @@ defmodule Militerm.Parsers.Script do
       #       otherwise
       #   end
       Scanner.scan(source, ~r/set\b/) ->
-        with {:ok, set} <- parse_set(source) do
-          parse_compound_expression(source, ending, [set | acc])
-        else
+        case parse_set(source) do
+          {:ok, set} ->
+            parse_compound_expression(source, ending, [set | acc])
+
           {:error, _} = otherwise ->
             Scanner.scan_until(source, ending)
             otherwise
@@ -1388,9 +1429,10 @@ defmodule Militerm.Parsers.Script do
         end
 
       true ->
-        with {:ok, exp} <- parse_expression(source) do
-          parse_compound_expression(source, ending, [exp | acc])
-        else
+        case parse_expression(source) do
+          {:ok, exp} ->
+            parse_compound_expression(source, ending, [exp | acc])
+
           {:error, _} = otherwise ->
             Scanner.scan_until(source, ending)
             otherwise
@@ -1402,34 +1444,46 @@ defmodule Militerm.Parsers.Script do
     skip_all_space(source)
 
     if Scanner.match?(source, ~r/\$/) do
-      with {:ok, var} <- parse_var_name(source) do
-        if Scanner.scan(source |> skip_space, ~r/to\b/) do
-          with {:ok, exp} <- parse_expression(source |> skip_all_space) do
-            {:ok, {:set_var, var, exp}}
+      case parse_var_name(source) do
+        {:ok, var} ->
+          if Scanner.scan(source |> skip_space, ~r/to\b/) do
+            case parse_expression(source |> skip_all_space) do
+              {:ok, exp} ->
+                {:ok, {:set_var, var, exp}}
+
+              {:error, _} = otherwise ->
+                otherwise
+            end
           else
-            {:error, _} = otherwise -> otherwise
+            {:ok, {:set_var, var}}
           end
-        else
-          {:ok, {:set_var, var}}
-        end
-      else
-        {:error, _} = otherwise -> otherwise
-        nil -> {:error, Scanner.error(source, "Expected 'to' after 'set'")}
+
+        {:error, _} = otherwise ->
+          otherwise
+
+        nil ->
+          {:error, Scanner.error(source, "Expected 'to' after 'set'")}
       end
     else
-      with {:ok, prop} <- parse_nc_name(source) do
-        if Scanner.scan(source |> skip_space, ~r/to\b/) do
-          with {:ok, exp} <- parse_expression(source |> skip_all_space) do
-            {:ok, {:set_prop, prop, exp}}
+      case parse_nc_name(source) do
+        {:ok, prop} ->
+          if Scanner.scan(source |> skip_space, ~r/to\b/) do
+            case parse_expression(source |> skip_all_space) do
+              {:ok, exp} ->
+                {:ok, {:set_prop, prop, exp}}
+
+              {:error, _} = otherwise ->
+                otherwise
+            end
           else
-            {:error, _} = otherwise -> otherwise
+            {:ok, {:set_prop, prop}}
           end
-        else
-          {:ok, {:set_prop, prop}}
-        end
-      else
-        {:error, _} = otherwise -> otherwise
-        nil -> {:error, Scanner.error(source, "Expected 'to' after 'set'")}
+
+        {:error, _} = otherwise ->
+          otherwise
+
+        nil ->
+          {:error, Scanner.error(source, "Expected 'to' after 'set'")}
       end
     end
   end
@@ -1456,10 +1510,12 @@ defmodule Militerm.Parsers.Script do
       if Scanner.scan(source, ~r/:/) do
         skip_all_space(source)
 
-        with {:ok, args} <- parse_arg_list(source, ~r/\]/) do
-          {:ok, {:event, item, event, args}}
-        else
-          _ -> {:error, Scanner.error(source, "Expected argument list for event", ~r/\]/)}
+        case parse_arg_list(source, ~r/\]/) do
+          {:ok, args} ->
+            {:ok, {:event, item, event, args}}
+
+          _ ->
+            {:error, Scanner.error(source, "Expected argument list for event", ~r/\]/)}
         end
       else
         skip_all_space(source)
@@ -1484,16 +1540,20 @@ defmodule Militerm.Parsers.Script do
     skip_all_space(source)
 
     if Scanner.match?(source, ~r/\$/) do
-      with {:ok, var} <- parse_var_name(source) do
-        {:ok, {:reset_var, var}}
-      else
-        {:error, _} = otherwise -> otherwise
+      case parse_var_name(source) do
+        {:ok, var} ->
+          {:ok, {:reset_var, var}}
+
+        {:error, _} = otherwise ->
+          otherwise
       end
     else
-      with {:ok, prop} <- parse_nc_name(source) do
-        {:ok, {:reset_prop, prop}}
-      else
-        {:error, _} = otherwise -> otherwise
+      case parse_nc_name(source) do
+        {:ok, prop} ->
+          {:ok, {:reset_prop, prop}}
+
+        {:error, _} = otherwise ->
+          otherwise
       end
     end
   end
@@ -1506,10 +1566,12 @@ defmodule Militerm.Parsers.Script do
         sense
       end
 
-    with {:ok, {:string, content}} <- parse_quoted_string(source, r) do
-      {:ok, {:sensation, sense, content}}
-    else
-      {:error, _} = otherwise -> otherwise
+    case parse_quoted_string(source, r) do
+      {:ok, {:string, content}} ->
+        {:ok, {:sensation, sense, content}}
+
+      {:error, _} = otherwise ->
+        otherwise
     end
   end
 
@@ -1669,9 +1731,8 @@ defmodule Militerm.Parsers.Script do
 
   defp parse_quoted_string(source) do
     if Scanner.scan(source, ~r/["']/) do
-      with [q | _] = Scanner.matches(source) do
-        parse_quoted_string(source, q)
-      end
+      [q | _] = Scanner.matches(source)
+      parse_quoted_string(source, q)
     else
       {:error, Scanner.error(source, "Expected a ' or \" to start a quoted string")}
     end

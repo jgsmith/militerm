@@ -250,25 +250,19 @@ defmodule Militerm.Systems.Commands.Binder do
   defp topological_sort(map, acc) when map_size(map) == 0, do: Enum.reverse(acc)
 
   defp topological_sort(map, acc) do
-    available =
-      map
-      |> Enum.filter(fn
-        {_, []} -> true
-        _ -> false
-      end)
+    case Enum.filter(map, fn
+           {_, []} -> true
+           _ -> false
+         end) do
+      [_ | _] = available ->
+        map
+        |> Map.drop(available)
+        |> Enum.map(fn {k, v} -> {k, v -- available} end)
+        |> Enum.into(%{})
+        |> topological_sort(available ++ acc)
 
-    with [_ | _] = available <-
-           Enum.filter(map, fn
-             {_, []} -> true
-             _ -> false
-           end) do
-      map
-      |> Map.drop(available)
-      |> Enum.map(fn {k, v} -> {k, v -- available} end)
-      |> Enum.into(%{})
-      |> topological_sort(available ++ acc)
-    else
-      _ -> :error
+      _ ->
+        :error
     end
   end
 end

@@ -76,10 +76,12 @@ defmodule Militerm.Components.Details do
   end
 
   defp get_exit_info(exit_info, [dir, field]) do
-    with %{} = info <- Map.get(exit_info, dir) do
-      Map.get(info, field)
-    else
-      _ -> nil
+    case Map.get(exit_info, dir) do
+      %{} = info ->
+        Map.get(info, field)
+
+      _ ->
+        nil
     end
   end
 
@@ -102,10 +104,14 @@ defmodule Militerm.Components.Details do
   def where({entity_id, "default"}), do: Militerm.Services.Location.where({:thing, entity_id})
 
   def where({entity_id, detail}) do
-    with %{"related_by" => prep, "related_to" => parent_detail} <- get(entity_id, detail) do
-      if is_nil(prep) or is_nil(parent_detail), do: nil, else: {prep, {entity_id, parent_detail}}
-    else
-      _ -> nil
+    case get(entity_id, detail) do
+      %{"related_by" => prep, "related_to" => parent_detail} ->
+        if is_nil(prep) or is_nil(parent_detail),
+          do: nil,
+          else: {prep, {entity_id, parent_detail}}
+
+      _ ->
+        nil
     end
   end
 

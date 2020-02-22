@@ -77,10 +77,11 @@ defmodule Militerm.Parsers.MML do
   def parse_script("{{" <> string) do
     scanner = Scanner.new(string)
 
-    with {:ok, parse} <- Militerm.Parsers.Script.parse_expression(scanner, ~r/}}/) do
-      Scanner.terminate(scanner)
-      {:script, Militerm.Compilers.Script.compile(parse)}
-    else
+    case Militerm.Parsers.Script.parse_expression(scanner, ~r/}}/) do
+      {:ok, parse} ->
+        Scanner.terminate(scanner)
+        {:script, Militerm.Compilers.Script.compile(parse)}
+
       error ->
         Scanner.terminate(scanner)
         error

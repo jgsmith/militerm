@@ -80,7 +80,6 @@ defmodule Game.DescribeTest do
       |> Entity.send_input("look")
       |> Entity.await_event("post-finish:verb")
       |> Entity.get_output()
-      |> IO.inspect()
     end
   end
 

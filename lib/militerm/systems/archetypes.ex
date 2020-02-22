@@ -20,10 +20,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def execute_event(entity_id, event, role, args) when is_binary(entity_id) do
-    with {:ok, {_archetype_name, _archetype} = archetype} <- get_entity_archetype(entity_id) do
-      execute_event(archetype, entity_id, event, role, args)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, _archetype} = archetype} ->
+        execute_event(archetype, entity_id, event, role, args)
+
+      _ ->
+        false
     end
   end
 
@@ -46,10 +48,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def has_event?(entity_id, event, role) do
-    with {:ok, {archetype_name, archetype}} <- get_entity_archetype(entity_id) do
-      do_has_event?(archetype, event, role)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {archetype_name, archetype}} ->
+        do_has_event?(archetype, event, role)
+
+      _ ->
+        false
     end
   end
 
@@ -59,10 +63,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def has_exact_event?(entity_id, event, role) when is_binary(entity_id) do
-    with {:ok, {_archetype_name, _archetype} = archetype} <- get_entity_archetype(entity_id) do
-      has_exact_event?(archetype, event, role)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, _archetype} = archetype} ->
+        has_exact_event?(archetype, event, role)
+
+      _ ->
+        false
     end
   end
 
@@ -76,10 +82,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def ability(entity_id, ability, role, args) when is_binary(entity_id) do
-    with {:ok, {_archetype_name, _archetype} = architype} <- get_entity_archetype(entity_id) do
-      ability(architype, entity_id, ability, role, args)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, _archetype} = architype} ->
+        ability(architype, entity_id, ability, role, args)
+
+      _ ->
+        false
     end
   end
 
@@ -102,10 +110,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def has_ability?(entity_id, ability, role) do
-    with {:ok, {archetype_name, archetype}} <- get_entity_archetype(entity_id) do
-      do_has_ability?(archetype, ability, role) or do_has_ability?(archetype, ability, "any")
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {archetype_name, archetype}} ->
+        do_has_ability?(archetype, ability, role) or do_has_ability?(archetype, ability, "any")
+
+      _ ->
+        false
     end
   end
 
@@ -115,10 +125,12 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def has_exact_ability?(entity_id, ability, role) when is_binary(entity_id) do
-    with {:ok, {_archetype_name, _archetype} = architype} <- get_entity_archetype(entity_id) do
-      has_exact_ability?(architype, ability, role)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, _archetype} = architype} ->
+        has_exact_ability?(architype, ability, role)
+
+      _ ->
+        false
     end
   end
 
@@ -150,10 +162,12 @@ defmodule Militerm.Systems.Archetypes do
   def trait(_, _, _, _), do: false
 
   def has_trait?(entity_id, trait) do
-    with {:ok, {archetype_name, archetype}} <- get_entity_archetype(entity_id) do
-      do_has_trait?(archetype, trait)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {archetype_name, archetype}} ->
+        do_has_trait?(archetype, trait)
+
+      _ ->
+        false
     end
   end
 
@@ -184,10 +198,12 @@ defmodule Militerm.Systems.Archetypes do
   def has_exact_trait?(_, _), do: false
 
   def validates?(entity_id, path) do
-    with {:ok, {_archetype_name, archetype}} <- get_entity_archetype(entity_id) do
-      has_validation?(archetype, path)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, archetype}} ->
+        has_validation?(archetype, path)
+
+      _ ->
+        false
     end
   end
 
@@ -210,48 +226,54 @@ defmodule Militerm.Systems.Archetypes do
   def has_validation?(_, _), do: false
 
   def validate(entity_id, path, value, args) do
-    with {:ok, {_, archetype}} <- get_entity_archetype(entity_id) do
-      do_validation(archetype, entity_id, path, Map.put(args, "value", value))
-    else
-      _ -> nil
+    case get_entity_archetype(entity_id) do
+      {:ok, {_, archetype}} ->
+        do_validation(archetype, entity_id, path, Map.put(args, "value", value))
+
+      _ ->
+        nil
     end
   end
 
   defp do_validation(archetype, entity_id, path, args) do
-    with %{validations: validations, mixins: mixins, ur_name: ur} <- archetype do
-      handled =
-        execute_if_in_map(validations, entity_id, path, args)
-        |> execute_if_mixin(
-          mixins,
-          :has_validation?,
-          :validate,
-          entity_id,
-          path,
-          args
-        )
-        |> execute_if_archetype(
-          ur,
-          :has_validation?,
-          :validate,
-          entity_id,
-          path,
-          args
-        )
+    case archetype do
+      %{validations: validations, mixins: mixins, ur_name: ur} ->
+        handled =
+          execute_if_in_map(validations, entity_id, path, args)
+          |> execute_if_mixin(
+            mixins,
+            :has_validation?,
+            :validate,
+            entity_id,
+            path,
+            args
+          )
+          |> execute_if_archetype(
+            ur,
+            :has_validation?,
+            :validate,
+            entity_id,
+            path,
+            args
+          )
 
-      case handled do
-        {:ok, value} -> value
-        _ -> nil
-      end
-    else
-      _ -> nil
+        case handled do
+          {:ok, value} -> value
+          _ -> nil
+        end
+
+      _ ->
+        nil
     end
   end
 
   def calculates?(entity_id, path) do
-    with {:ok, {_archetype_name, archetype}} <- get_entity_archetype(entity_id) do
-      has_calculation?(archetype, path)
-    else
-      _ -> false
+    case get_entity_archetype(entity_id) do
+      {:ok, {_archetype_name, archetype}} ->
+        has_calculation?(archetype, path)
+
+      _ ->
+        false
     end
   end
 
@@ -276,10 +298,12 @@ defmodule Militerm.Systems.Archetypes do
   def has_calculation?(_, _), do: false
 
   def calculate(entity_id, path, args) do
-    with {:ok, {_, archetype}} <- get_entity_archetype(entity_id) do
-      do_calculation(archetype, entity_id, path, args)
-    else
-      _ -> nil
+    case get_entity_archetype(entity_id) do
+      {:ok, {_, archetype}} ->
+        do_calculation(archetype, entity_id, path, args)
+
+      _ ->
+        nil
     end
   end
 
@@ -288,31 +312,32 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   def do_calculation(archetype, entity_id, path, args) do
-    with %{calculations: calculations, mixins: mixins, ur_name: ur} <- archetype do
-      handled =
-        execute_if_in_map(calculations, entity_id, path, args)
-        |> execute_if_mixin(
-          mixins,
-          :calculates?,
-          :calculate,
-          entity_id,
-          path,
-          args
-        )
-        |> execute_if_archetype(
-          ur,
-          :has_calculation?,
-          :do_calculation,
-          entity_id,
-          path,
-          args
-        )
+    case archetype do
+      %{calculations: calculations, mixins: mixins, ur_name: ur} ->
+        handled =
+          execute_if_in_map(calculations, entity_id, path, args)
+          |> execute_if_mixin(
+            mixins,
+            :calculates?,
+            :calculate,
+            entity_id,
+            path,
+            args
+          )
+          |> execute_if_archetype(
+            ur,
+            :has_calculation?,
+            :do_calculation,
+            entity_id,
+            path,
+            args
+          )
 
-      case handled do
-        {:ok, value} -> value
-        _ -> nil
-      end
-    else
+        case handled do
+          {:ok, value} -> value
+          _ -> nil
+        end
+
       _ ->
         nil
     end
@@ -321,37 +346,40 @@ defmodule Militerm.Systems.Archetypes do
   defp do_event(_, _, [], _, _), do: true
 
   defp do_event(archetype, entity_id, event, role, args) do
-    with %{reactions: events, mixins: mixins, ur_name: ur} <- archetype do
-      handled =
-        execute_if_in_map(events, entity_id, event, role, args)
-        |> execute_if_mixin(
-          mixins,
-          :has_exact_event?,
-          :execute_event,
-          entity_id,
-          event,
-          role,
-          args
-        )
-        |> execute_if_archetype(
-          ur,
-          :has_exact_event?,
-          :execute_event,
-          entity_id,
-          event,
-          role,
-          args
-        )
+    case archetype do
+      %{reactions: events, mixins: mixins, ur_name: ur} ->
+        handled =
+          events
+          |> execute_if_in_map(entity_id, event, role, args)
+          |> execute_if_mixin(
+            mixins,
+            :has_exact_event?,
+            :execute_event,
+            entity_id,
+            event,
+            role,
+            args
+          )
+          |> execute_if_archetype(
+            ur,
+            :has_exact_event?,
+            :execute_event,
+            entity_id,
+            event,
+            role,
+            args
+          )
 
-      case handled do
-        {:ok, value} ->
-          value
+        case handled do
+          {:ok, value} ->
+            value
 
-        _ ->
-          do_event(archetype, entity_id, Enum.drop(event, 1), role, args)
-      end
-    else
-      _ -> false
+          _ ->
+            do_event(archetype, entity_id, Enum.drop(event, 1), role, args)
+        end
+
+      _ ->
+        false
     end
   end
 
@@ -371,21 +399,22 @@ defmodule Militerm.Systems.Archetypes do
   defp do_has_exact_event?(nil, _, _), do: false
 
   defp do_has_exact_event?(archetype, event, role) do
-    with %{reactions: events, mixins: mixins, ur_name: ur} <- archetype do
-      cond do
-        Map.has_key?(events, {event, role}) ->
-          true
+    case archetype do
+      %{reactions: events, mixins: mixins, ur_name: ur} ->
+        cond do
+          Map.has_key?(events, {event, role}) ->
+            true
 
-        Enum.any?(mixins, fn mixin -> Mixins.has_exact_event?(mixin, event, role) end) ->
-          true
+          Enum.any?(mixins, fn mixin -> Mixins.has_exact_event?(mixin, event, role) end) ->
+            true
 
-        is_nil(ur) ->
-          false
+          is_nil(ur) ->
+            false
 
-        :else ->
-          do_has_exact_event?(Archetypes.get(ur), event, role)
-      end
-    else
+          :else ->
+            do_has_exact_event?(Archetypes.get(ur), event, role)
+        end
+
       _ ->
         false
     end
@@ -394,38 +423,40 @@ defmodule Militerm.Systems.Archetypes do
   defp do_ability(_, _, [], _, _), do: false
 
   defp do_ability(archetype, entity_id, ability, role, args) do
-    with %{abilities: abilities, mixins: mixins, ur_name: ur} <- archetype do
-      handled =
-        abilities
-        |> execute_if_in_map(entity_id, ability, role, args)
-        |> execute_if_mixin(
-          mixins,
-          :has_exact_ability?,
-          :ability,
-          entity_id,
-          ability,
-          role,
-          args
-        )
-        |> execute_if_archetype(
-          ur,
-          :has_exact_ability?,
-          :ability,
-          entity_id,
-          ability,
-          role,
-          args
-        )
+    case archetype do
+      %{abilities: abilities, mixins: mixins, ur_name: ur} ->
+        handled =
+          abilities
+          |> execute_if_in_map(entity_id, ability, role, args)
+          |> execute_if_mixin(
+            mixins,
+            :has_exact_ability?,
+            :ability,
+            entity_id,
+            ability,
+            role,
+            args
+          )
+          |> execute_if_archetype(
+            ur,
+            :has_exact_ability?,
+            :ability,
+            entity_id,
+            ability,
+            role,
+            args
+          )
 
-      case handled do
-        {:ok, value} ->
-          value
+        case handled do
+          {:ok, value} ->
+            value
 
-        _ ->
-          do_ability(archetype, entity_id, Enum.drop(ability, 1), role, args)
-      end
-    else
-      _ -> false
+          _ ->
+            do_ability(archetype, entity_id, Enum.drop(ability, 1), role, args)
+        end
+
+      _ ->
+        false
     end
   end
 
@@ -443,57 +474,60 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   defp do_has_exact_ability?(archetype, ability, role) do
-    with %{abilities: abilities, mixins: mixins, ur_name: ur} <- archetype do
-      cond do
-        Map.has_key?(abilities, {ability, role}) ->
-          true
+    case archetype do
+      %{abilities: abilities, mixins: mixins, ur_name: ur} ->
+        cond do
+          Map.has_key?(abilities, {ability, role}) ->
+            true
 
-        Enum.any?(mixins, fn mixin -> Mixins.has_exact_ability?(mixin, ability, role) end) ->
-          true
+          Enum.any?(mixins, fn mixin -> Mixins.has_exact_ability?(mixin, ability, role) end) ->
+            true
 
-        is_nil(ur) ->
-          false
+          is_nil(ur) ->
+            false
 
-        :else ->
-          do_has_exact_ability?(Archetypes.get(ur), ability, role)
-      end
-    else
+          :else ->
+            do_has_exact_ability?(Archetypes.get(ur), ability, role)
+        end
+
       _ ->
         false
     end
   end
 
   defp do_trait(archetype, entity_id, trait, args) do
-    with %{traits: traits, mixins: mixins, ur_name: ur} <- archetype do
-      handled =
-        traits
-        |> execute_if_in_map(entity_id, trait, args)
-        |> execute_if_mixin(
-          mixins,
-          :has_exact_trait?,
-          :trait,
-          entity_id,
-          trait,
-          args
-        )
-        |> execute_if_archetype(
-          ur,
-          :has_exact_trait?,
-          :trait,
-          entity_id,
-          trait,
-          args
-        )
+    case archetype do
+      %{traits: traits, mixins: mixins, ur_name: ur} ->
+        handled =
+          traits
+          |> execute_if_in_map(entity_id, trait, args)
+          |> execute_if_mixin(
+            mixins,
+            :has_exact_trait?,
+            :trait,
+            entity_id,
+            trait,
+            args
+          )
+          |> execute_if_archetype(
+            ur,
+            :has_exact_trait?,
+            :trait,
+            entity_id,
+            trait,
+            args
+          )
 
-      case handled do
-        {:ok, value} ->
-          value
+        case handled do
+          {:ok, value} ->
+            value
 
-        _ ->
-          false
-      end
-    else
-      _ -> false
+          _ ->
+            false
+        end
+
+      _ ->
+        false
     end
   end
 
@@ -506,21 +540,22 @@ defmodule Militerm.Systems.Archetypes do
   end
 
   defp do_has_exact_trait?(archetype, trait) do
-    with %{traits: traits, mixins: mixins, ur_name: ur} <- archetype do
-      cond do
-        Map.has_key?(traits, trait) ->
-          true
+    case archetype do
+      %{traits: traits, mixins: mixins, ur_name: ur} ->
+        cond do
+          Map.has_key?(traits, trait) ->
+            true
 
-        Enum.any?(mixins, fn mixin -> Mixins.has_exact_trait?(mixin, trait) end) ->
-          true
+          Enum.any?(mixins, fn mixin -> Mixins.has_exact_trait?(mixin, trait) end) ->
+            true
 
-        is_nil(ur) ->
-          false
+          is_nil(ur) ->
+            false
 
-        :else ->
-          do_has_exact_trait?(Archetypes.get(ur), trait)
-      end
-    else
+          :else ->
+            do_has_exact_trait?(Archetypes.get(ur), trait)
+        end
+
       _ ->
         false
     end
@@ -575,14 +610,16 @@ defmodule Militerm.Systems.Archetypes do
   defp execute_if_archetype(status, nil, _, _, _, _, _, _), do: status
 
   defp execute_if_archetype(:unhandled, ur, predicate, method, entity_id, event, role, args) do
-    with %{} = archetype <- Archetypes.get(ur) do
-      if apply(__MODULE__, predicate, [{ur, archetype}, event, role]) do
-        {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, role, args])}
-      else
+    case Archetypes.get(ur) do
+      %{} = archetype ->
+        if apply(__MODULE__, predicate, [{ur, archetype}, event, role]) do
+          {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, role, args])}
+        else
+          :unhandled
+        end
+
+      _ ->
         :unhandled
-      end
-    else
-      _ -> :unhandled
     end
   end
 
@@ -591,14 +628,16 @@ defmodule Militerm.Systems.Archetypes do
   defp execute_if_archetype(status, nil, _, _, _, _, _), do: status
 
   defp execute_if_archetype(:unhandled, ur, predicate, method, entity_id, event, args) do
-    with %{} = archetype <- Archetypes.get(ur) do
-      if apply(__MODULE__, predicate, [{ur, archetype}, event]) do
-        {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, args])}
-      else
+    case Archetypes.get(ur) do
+      %{} = archetype ->
+        if apply(__MODULE__, predicate, [{ur, archetype}, event]) do
+          {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, args])}
+        else
+          :unhandled
+        end
+
+      _ ->
         :unhandled
-      end
-    else
-      _ -> :unhandled
     end
   end
 

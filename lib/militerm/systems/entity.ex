@@ -28,56 +28,67 @@ defmodule Militerm.Systems.Entity do
   defdelegate set_context(entity_id, context), to: Controller
 
   def register_interface(entity_id, module) do
-    with {:ok, pid} <- whereis(entity_id) do
-      GenServer.call(pid, {:register_interface, module})
-    else
-      _ -> :noent
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        GenServer.call(pid, {:register_interface, module})
+
+      _ ->
+        :noent
     end
   end
 
   def unregister_interface(entity_id) do
-    with {:ok, pid} <- whereis(entity_id) do
-      GenServer.call(pid, :unregister_interface)
-    else
-      _ -> :ok
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        GenServer.call(pid, :unregister_interface)
+
+      _ ->
+        :ok
     end
   end
 
   def registered_interfaces(entity_id) do
-    with {:ok, pid} <- whereis(entity_id) do
-      GenServer.call(pid, :registered_interfaces)
-    else
-      _ -> []
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        GenServer.call(pid, :registered_interfaces)
+
+      _ ->
+        []
     end
   end
 
   def hibernate({:thing, entity_id} = entity) do
-    with {:ok, pid} <- whereis(entity) do
-      # TODO: stop the clocks/alarms
-      Militerm.Components.Entity.hibernate(entity_id)
-      Militerm.Components.Location.hibernate(entity_id)
-    else
-      _ -> :noent
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        # TODO: stop the clocks/alarms
+        Militerm.Components.Entity.hibernate(entity_id)
+        Militerm.Components.Location.hibernate(entity_id)
+
+      _ ->
+        :noent
     end
   end
 
   def unhibernate({:thing, entity_id} = entity) do
-    with {:ok, pid} <- whereis(entity) do
-      Militerm.Components.Entity.unhibernate(entity_id)
-      Militerm.Components.Location.unhibernate(entity_id)
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        Militerm.Components.Entity.unhibernate(entity_id)
+        Militerm.Components.Location.unhibernate(entity_id)
 
       # TODO: start the clocks/alarms
-    else
-      _ -> :noent
+      _ ->
+        :noent
     end
   end
 
   def process_input(entity_id, command) do
-    with {:ok, pid} <- whereis(entity_id) do
-      GenServer.cast(pid, {:process_input, command})
-      :ok
-    else
-      _ -> :noent
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        GenServer.cast(pid, {:process_input, command})
+        :ok
+
+      _ ->
+        :noent
     end
   end
 
@@ -88,32 +99,36 @@ defmodule Militerm.Systems.Entity do
         _ -> raw_message
       end
 
-    with {:ok, pid} <- whereis(entity_id) do
-      if pid == self() do
-        Task.start(fn ->
+    case whereis(entity_id) do
+      {:ok, pid} ->
+        if pid == self() do
+          Task.start(fn ->
+            GenServer.call(
+              pid,
+              {:receive_message, message_type, message}
+            )
+          end)
+        else
           GenServer.call(
             pid,
             {:receive_message, message_type, message}
           )
-        end)
-      else
-        GenServer.call(
-          pid,
-          {:receive_message, message_type, message}
-        )
-      end
+        end
 
-      :ok
-    else
-      _ -> :noent
+        :ok
+
+      _ ->
+        :noent
     end
   end
 
   def shutdown(entity_id) do
-    with {:ok, pid} <- Swarm.whereis_name(entity_id) do
-      GenServer.call(pid, :shutdown)
-    else
-      _ -> :ok
+    case Swarm.whereis_name(entity_id) do
+      {:ok, pid} ->
+        GenServer.call(pid, :shutdown)
+
+      _ ->
+        :ok
     end
   end
 

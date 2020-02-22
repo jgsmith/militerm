@@ -2,6 +2,8 @@ defmodule Militerm.Machines.Script do
   alias Militerm.Systems.Entity
   alias Militerm.Systems
 
+  require Logger
+
   @boolean_ops [:and, :or]
   @numeric_ops [:sum, :product]
 
@@ -83,10 +85,12 @@ defmodule Militerm.Machines.Script do
       objects: objects
     }
 
-    with %{stack: [return_value | _]} <- step_until_done(machine) do
-      return_value
-    else
-      _ -> nil
+    case step_until_done(machine) do
+      %{stack: [return_value | _]} ->
+        return_value
+
+      _ ->
+        nil
     end
   end
 
@@ -168,17 +172,27 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(:this_can, %{stack: [ability, pov | stack], objects: objects} = state) do
-    with {:ok, this} <- Map.fetch(objects, :this) do
-      %{
-        state
-        | stack: [
-            Entity.can?(this, ability, pov, objects)
-            | stack
-          ]
-      }
-    else
-      _ ->
+    case Map.get(objects, :this) do
+      nil ->
         %{state | stack: [false | stack]}
+
+      [_ | _] = these ->
+        %{
+          state
+          | stack: [
+              Enum.any?(these, &Entity.can?(&1, ability, pov, objects))
+              | stack
+            ]
+        }
+
+      this ->
+        %{
+          state
+          | stack: [
+              Entity.can?(this, ability, pov, objects)
+              | stack
+            ]
+        }
     end
   end
 
@@ -209,17 +223,27 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(:this_is, %{stack: [trait | stack], objects: objects} = state) do
-    with {:ok, this} <- Map.get(objects, :this) do
-      %{
-        state
-        | stack: [
-            Entity.is?(this, trait, objects)
-            | stack
-          ]
-      }
-    else
-      _ ->
+    case Map.get(objects, :this) do
+      nil ->
         %{state | stack: [false | stack]}
+
+      [_ | _] = these ->
+        %{
+          state
+          | stack: [
+              Enum.any?(these, &Entity.is?(&1, trait, objects))
+              | stack
+            ]
+        }
+
+      this ->
+        %{
+          state
+          | stack: [
+              Entity.is?(this, trait, objects)
+              | stack
+            ]
+        }
     end
   end
 
@@ -571,9 +595,8 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(opcode, state) do
-    IO.puts("Unknown instruction! #{opcode}")
-    IO.inspect(state)
-    state
+    Logger.debug("Unknown instruction! #{opcode}")
+    Logger.debug(inspect(state))
   end
 
   defp to_list(list) when is_list(list), do: list
@@ -621,28 +644,28 @@ defmodule Militerm.Machines.Script do
   end
 
   defp do_mapset_op(op, %{stack: [n | stack]} = state) when n > 0 do
-    with {list, new_stack} = Enum.split(stack, n) do
-      [prime | sets] =
-        list
-        |> Enum.map(fn x ->
-          cond do
-            is_list(x) -> MapSet.new(x)
-            true -> MapSet.new([x])
-          end
-        end)
+    {list, new_stack} = Enum.split(stack, n)
 
-      %{
-        state
-        | stack: [
-            sets
-            |> Enum.reduce(prime, fn x, acc ->
-              apply(MapSet, op, [x, acc])
-            end)
-            |> MapSet.to_list()
-            | new_stack
-          ]
-      }
-    end
+    [prime | sets] =
+      list
+      |> Enum.map(fn x ->
+        cond do
+          is_list(x) -> MapSet.new(x)
+          true -> MapSet.new([x])
+        end
+      end)
+
+    %{
+      state
+      | stack: [
+          sets
+          |> Enum.reduce(prime, fn x, acc ->
+            apply(MapSet, op, [x, acc])
+          end)
+          |> MapSet.to_list()
+          | new_stack
+        ]
+    }
   end
 
   defp do_mapset_op(_, %{stack: [_ | rest]} = state) do
@@ -650,17 +673,17 @@ defmodule Militerm.Machines.Script do
   end
 
   defp do_series_op(init, op, type, %{stack: [n | rest]} = state) when n > 0 do
-    with {values, new_stack} = Enum.split(rest, n) do
-      %{
-        state
-        | stack: [
-            values
-            |> convert_for(type)
-            |> List.foldl(init, op)
-            | new_stack
-          ]
-      }
-    end
+    {values, new_stack} = Enum.split(rest, n)
+
+    %{
+      state
+      | stack: [
+          values
+          |> convert_for(type)
+          |> List.foldl(init, op)
+          | new_stack
+        ]
+    }
   end
 
   defp do_series_op(init, _, _, %{stack: [_ | rest]} = state) do

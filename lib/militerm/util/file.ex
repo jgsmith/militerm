@@ -87,7 +87,7 @@ defmodule Militerm.Util.File do
       ]
       |> Enum.join("/")
 
-    if (filename <> ".mt") |> File.exists?() do
+    if File.exists?(filename <> ".mt") do
       {:ok, ["std" | cleaned_ur_path] |> Enum.join(":")}
     else
       {:error, "Unable to find #{ur_name}"}
@@ -113,7 +113,7 @@ defmodule Militerm.Util.File do
       ]
       |> Enum.join("/")
 
-    if (filename <> ".mt") |> File.exists?() do
+    if File.exists?(filename <> ".mt") do
       {:ok, [domain | cleaned_ur_path] |> Enum.join(":")}
     else
       {:error, "Unable to find #{ur_name}"}
@@ -139,7 +139,7 @@ defmodule Militerm.Util.File do
       ]
       |> Enum.join("/")
 
-    if (filename <> ".mt") |> File.exists?() do
+    if File.exists?(filename <> ".mt") do
       {:ok, ["std" | path ++ cleaned_ur_path] |> Enum.join(":")}
     else
       {:error, "Unable to find #{ur_name}"}
@@ -168,7 +168,7 @@ defmodule Militerm.Util.File do
       ]
       |> Enum.join("/")
 
-    if (filename <> ".mt") |> File.exists?() do
+    if File.exists?(filename <> ".mt") do
       {:ok, [domain | path ++ cleaned_ur_path] |> Enum.join(":")}
     else
       {:error, "Unable to find #{ur_name}"}

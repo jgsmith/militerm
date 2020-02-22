@@ -476,7 +476,8 @@ defmodule Militerm.Compilers.Script do
   defp do_if(acc, function) do
     {loc, code} = jump_unless(acc)
 
-    function.(code)
+    code
+    |> function.()
     |> jump_from(loc)
   end
 
@@ -494,7 +495,8 @@ defmodule Militerm.Compilers.Script do
   defp jump(acc, function) do
     {loc, code} = jump(acc)
 
-    function.(code)
+    code
+    |> function.()
     |> jump_from(loc)
   end
 
@@ -507,7 +509,6 @@ defmodule Militerm.Compilers.Script do
   @spec push([Any], Any) :: [Any]
   defp push(acc, value) do
     acc
-    # |> encode(:push)
     |> encode(value)
   end
 
