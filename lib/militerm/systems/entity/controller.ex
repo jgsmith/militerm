@@ -300,7 +300,7 @@ defmodule Militerm.Systems.Entity.Controller do
               false
           end
         else
-          GenServer.cast(pid, {:can, ability, role, args})
+          GenServer.call(pid, {:can, ability, role, args})
         end
 
       _ ->

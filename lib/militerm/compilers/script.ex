@@ -133,17 +133,15 @@ defmodule Militerm.Compilers.Script do
     |> compile(rest)
   end
 
-  def compile(acc, [{:this_is, false, {adjective, pov}} | rest]) do
+  def compile(acc, [{:this_is, false, {adjective, _pov}} | rest]) do
     acc
-    |> push(pov)
     |> push(adjective)
     |> encode(:this_is)
     |> compile(rest)
   end
 
-  def compile(acc, [{:this_is, true, {adjective, pov}} | rest]) do
+  def compile(acc, [{:this_is, true, {adjective, _pov}} | rest]) do
     acc
-    |> push(pov)
     |> push(adjective)
     |> encode(:this_is)
     |> encode(:not)

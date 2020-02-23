@@ -15,22 +15,22 @@ defmodule MilitermWeb.GameLive do
           <div class="border border-solid border-white p-2"><h1><%= @character.name %></h1></div>
         </div>
         <div class="flex flex-col flex-grow w-1/2 m-1">
-          <div id="narration" phx-update="append" class="overflow-y-scroll h-1/2 border border-solid border-white p-2">
-            <%= for {message, idx} <- Enum.with_index(Enum.reverse(@messages)) do %>
-              <pre class="bg-gray-900 text-gray-100 whitespace-pre-wrap" id="<%= @message_counter %>-<%= idx %>"><%= message %></pre>
-            <% end %>
+          <div class="narrative-panel">
+            <div id="narration" class="container" phx-update="append"  phx-hook="ScrollToEnd">
+              <%= for {message, idx} <- Enum.with_index(Enum.reverse(@messages)) do %>
+                <div class="bg-gray-900 text-gray-100 font-mono" id="<%= @message_counter %>-<%= idx %>"><%= message %></div>
+              <% end %>
+            </div>
+            <div id="narration-end"></div>
           </div>
-          <div>
-            <form phx-submit="command" class="flex flex-row items-center">
-              <span class="inline-block">
-                <%= @prompt %>
-              </span>
+          <div class="prompt w-full">
+            <form phx-submit="command" class="">
               <input class="inline-block w-full bg-gray-900 text-gray-100 border border-solid border-black focus:bg-gray-900" type="text" name="command" />
             </form>
           </div>
         </div>
         <div class="flex flex-col flex-none w-1/4 m-1">
-          <div class="border border-solid border-white p-2"><h1>Communication</h1></div>
+          <div class="border border-solid border-white m-1 p-1"><h1>Communication</h1></div>
         </div>
       </div>
     </div>

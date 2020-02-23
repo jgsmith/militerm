@@ -172,7 +172,7 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(:this_can, %{stack: [ability, pov | stack], objects: objects} = state) do
-    case Map.get(objects, :this) do
+    case Map.get(objects, "this") do
       nil ->
         %{state | stack: [false | stack]}
 
@@ -223,7 +223,7 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(:this_is, %{stack: [trait | stack], objects: objects} = state) do
-    case Map.get(objects, :this) do
+    case Map.get(objects, "this") do
       nil ->
         %{state | stack: [false | stack]}
 
