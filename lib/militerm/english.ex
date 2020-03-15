@@ -3,13 +3,15 @@ defmodule Militerm.English do
 
   @abnormal_plurals %{
     "moose" => "moose",
-    "mouse" => "mouse",
+    "mouse" => "mice",
     "die" => "dice",
     "index" => "indices",
     "human" => "humans",
     "sheep" => "sheep",
     "fish" => "fish",
     "child" => "children",
+    "woman" => "women",
+    "man" => "men",
     "ox" => "oxen",
     "tooth" => "teeth",
     "deer" => "deer",
@@ -94,45 +96,21 @@ defmodule Militerm.English do
     iex> English.cardinal(1_234_567)
     "one million two hundred thirty-four thousand five hundred sixty-seven"
   """
+  @ones {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+         "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
+         "eighteen", "nineteen"}
+
+  @decades {nil, nil, "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty",
+            "ninety"}
+
   def cardinal(x) when x < 0, do: "negative " <> cardinal(-x)
 
   def cardinal(x) when x < 20 do
-    case x do
-      0 -> "zero"
-      1 -> "one"
-      2 -> "two"
-      3 -> "three"
-      4 -> "four"
-      5 -> "five"
-      6 -> "six"
-      7 -> "seven"
-      8 -> "eight"
-      9 -> "nine"
-      10 -> "ten"
-      11 -> "eleven"
-      12 -> "twelve"
-      13 -> "thirteen"
-      14 -> "fourteen"
-      15 -> "fifteen"
-      16 -> "sixteen"
-      17 -> "seventeen"
-      18 -> "eighteen"
-      19 -> "nineteen"
-    end
+    elem(@ones, x)
   end
 
   def cardinal(x) when x < 100 do
-    a =
-      case div(x, 10) do
-        2 -> "twenty"
-        3 -> "thirty"
-        4 -> "forty"
-        5 -> "fifty"
-        6 -> "sixty"
-        7 -> "seventy"
-        8 -> "eighty"
-        9 -> "ninety"
-      end
+    a = elem(@decades, div(x, 10))
 
     b = rem(x, 10)
 

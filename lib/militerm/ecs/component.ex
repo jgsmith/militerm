@@ -21,6 +21,7 @@ defmodule Militerm.ECS.Component do
 
   @callback get_value(term, path) :: term
   @callback set_value(term, path, term) :: :ok
+  @callback remove_value(term, path) :: :ok
 
   @callback get_raw_value(term, path) :: term
   @callback set_raw_value(term, path, term) :: :ok

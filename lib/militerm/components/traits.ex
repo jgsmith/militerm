@@ -2,16 +2,24 @@ defmodule Militerm.Components.Traits do
   use Militerm.ECS.EctoComponent, default: %{}, schema: Militerm.Data.Traits
 
   @moduledoc """
-  The ephemeral pad is used during run-time for situations where it isn't appropriate to save across restarts.
-  This is useful to coordinate command execution.
+  Traits are arbitrary scalars that can be associated with an entity.
   """
 
-  def set_value(entity_id, path, value, _args) do
+  def set_value(entity_id, path, value) do
     set_raw_value(entity_id, path, value)
   end
 
-  def get_value(entity_id, path, _args) do
+  def get_value(entity_id, path) do
     get_raw_value(entity_id, path)
+  end
+
+  def remove_value(entity_id, path) do
+    spath = Enum.join(path, ":")
+
+    update(entity_id, fn
+      nil -> nil
+      map -> Map.delete(map, path)
+    end)
   end
 
   def set_raw_value(entity_id, path, value) when is_list(path) do

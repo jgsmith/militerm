@@ -19,5 +19,5 @@ config :militerm, Militerm.Repo,
   username: "postgres",
   password: "postgres",
   database: "militerm_test",
-  hostname: "localhost",
+  hostname: "postgres",
   pool: Ecto.Adapters.SQL.Sandbox

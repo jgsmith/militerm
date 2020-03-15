@@ -66,7 +66,7 @@ defmodule Militerm.Systems.Entity.Controller do
 
       case Map.fetch(Militerm.Config.components(), component_atom) do
         {:ok, module} ->
-          module.set_value(entity_id, path, validated_value, args)
+          module.set_value(entity_id, path, validated_value)
 
           if old_value != validated_value do
             # trigger change event
@@ -101,7 +101,7 @@ defmodule Militerm.Systems.Entity.Controller do
 
     case Map.fetch(Militerm.Config.components(), component_atom) do
       {:ok, module} ->
-        module.reset_value(entity_id, path, args)
+        module.reset_value(entity_id, path)
 
       _ ->
         nil
@@ -109,6 +109,27 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def reset_property(_, _, _), do: nil
+
+  def remove_property({:thing, entity_id, coord}, ["detail", "default" | path])
+      when is_binary(coord) do
+    remove_property({:thing, entity_id}, ["detail", coord | path])
+  end
+
+  def remove_property({:thing, entity_id, coord}, path) do
+    remove_property({:thing, entity_id}, path)
+  end
+
+  def remove_property({:thing, entity_id}, [component | path]) do
+    component_atom = String.to_existing_atom(component)
+
+    case Map.fetch(Militerm.Config.components(), component_atom) do
+      {:ok, module} ->
+        module.remove_value(entity_id, path)
+
+      _ ->
+        nil
+    end
+  end
 
   def property({:thing, entity_id, coord}, ["raw", "detail", "default" | path], args)
       when is_binary(coord) do
@@ -143,12 +164,12 @@ defmodule Militerm.Systems.Entity.Controller do
 
   def property(_, _, _), do: nil
 
-  def raw_property({:thing, entity_id}, [component | path], args) do
+  def raw_property({:thing, entity_id}, [component | path], _args) do
     component_atom = String.to_existing_atom(component)
 
     case Map.fetch(Militerm.Config.components(), component_atom) do
       {:ok, module} ->
-        module.get_value(entity_id, path, args)
+        module.get_value(entity_id, path)
 
       _ ->
         nil

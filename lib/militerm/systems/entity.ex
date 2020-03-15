@@ -13,6 +13,7 @@ defmodule Militerm.Systems.Entity do
 
   defdelegate set_property(entity_id, path, value, args), to: Controller
   defdelegate reset_property(entity_id, path, args), to: Controller
+  defdelegate remove_property(entity_id, path), to: Controller
   defdelegate property(entity_id, path, args), to: Controller
   defdelegate calculates?(entity_id, path), to: Controller
   defdelegate calculate(entity_id, path, args), to: Controller

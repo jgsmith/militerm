@@ -12,48 +12,51 @@ defmodule Militerm.Components.Location do
   def read_data(nil), do: %{}
   def read_data(map), do: Map.drop(map, ~w[inserted_at updated_at __struct__ __meta__ id]a)
 
-  def get_value(entity_id, path, _args) do
+  def get_value(entity_id, path) do
     get_raw_value(entity_id, path)
   end
 
   def get_raw_value(entity_id, path) do
     case path do
-      ["environment"] ->
-        case get(entity_id) do
-          %{target_id: target_id} -> {:thing, target_id}
-          _ -> nil
-        end
+      ["environment"] -> get_environment(entity_id)
+      ["location"] -> get_location(entity_id)
+      ["position"] -> position(entity_id)
+      ["proximity"] -> get_proximity(entity_id)
+      _ -> nil
+    end
+  end
 
-      ["location"] ->
-        case get(entity_id) do
-          %{target_id: target_id, t: t} ->
-            {:thing, target_id, t}
+  defp get_environment(entity_id) do
+    case get(entity_id) do
+      %{target_id: target_id} -> {:thing, target_id}
+      _ -> nil
+    end
+  end
 
-          %{target_id: target_id, point: p} ->
-            {:thing, target_id, List.to_tuple(p)}
+  defp get_location(entity_id) do
+    case get(entity_id) do
+      %{target_id: target_id, t: t} ->
+        {:thing, target_id, t}
 
-          %{target_id: target_id, detail: detail} ->
-            {:thing, target_id, detail}
+      %{target_id: target_id, point: p} ->
+        {:thing, target_id, List.to_tuple(p)}
 
-          _ ->
-            nil
-        end
-
-      ["position"] ->
-        position(entity_id)
-
-      ["proximity"] ->
-        case get(entity_id) do
-          %{relationship: rel} -> rel
-          _ -> nil
-        end
+      %{target_id: target_id, detail: detail} ->
+        {:thing, target_id, detail}
 
       _ ->
         nil
     end
   end
 
-  def set_value(entity_id, path, value, _args) do
+  defp get_proximity(entity_id) do
+    case get(entity_id) do
+      %{relationship: rel} -> rel
+      _ -> nil
+    end
+  end
+
+  def set_value(entity_id, path, value) do
     # check validations
     set_raw_value(entity_id, path, value)
   end
@@ -68,6 +71,19 @@ defmodule Militerm.Components.Location do
 
       _ ->
         value
+    end
+  end
+
+  def remove_value(entity_id, path) do
+    case path do
+      ["position"] ->
+        Militerm.ECS.Component.update(__MODULE__, entity_id, fn
+          nil -> nil
+          map -> Map.delete(map, :position)
+        end)
+
+      _ ->
+        :ok
     end
   end
 

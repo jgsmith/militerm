@@ -10,6 +10,7 @@ config :militerm, :components,
   flag: Components.Flags,
   identity: Components.Identity,
   location: Components.Location,
+  thing: Components.Things,
   trait: Components.Traits
 
 config :militerm, :repo, Militerm.Repo

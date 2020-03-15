@@ -16,17 +16,17 @@ defmodule Militerm.Components.Flags do
 
   def set(entity_id, flags) when is_list(flags) do
     for flag <- flags do
-      set_value(entity_id, String.split(flag, ":"), true, nil)
+      set_value(entity_id, String.split(flag, ":"), true)
     end
   end
 
   def set(entity_id, flags) when is_map(flags) do
     for {flag, v} <- flags do
-      set_value(entity_id, String.split(flag, ":"), v, nil)
+      set_value(entity_id, String.split(flag, ":"), v)
     end
   end
 
-  def set_value(entity_id, path, value, _args) do
+  def set_value(entity_id, path, value) do
     {path, sense} =
       Enum.reduce(path, {[], if(value, do: true, else: false)}, fn p, {ps, s} ->
         case p do
@@ -45,11 +45,10 @@ defmodule Militerm.Components.Flags do
     end
   end
 
-  def reset_value(entity_id, path, args) do
-    set_value(entity_id, path, false, args)
-  end
+  def reset_value(entity_id, path), do: set_value(entity_id, path, false)
+  def remove_value(entity_id, path), do: reset_value(entity_id, path)
 
-  def get_value(entity_id, path, _args) do
+  def get_value(entity_id, path) do
     {path, sense} =
       Enum.reduce(path, {[], true}, fn p, {ps, s} ->
         case p do

@@ -168,12 +168,14 @@ defmodule Militerm.Services.Location do
       list
       |> Enum.flat_map(&do_find_related(&1))
 
-    Enum.uniq(scene_details ++ items)
+    (scene_details ++ items)
+    |> Enum.uniq()
     |> find_near(details, steps - 1)
   end
 
   def do_find_related({:thing, target_id, coord}) do
-    Militerm.Components.Location.find_at(target_id, coord)
+    target_id
+    |> Militerm.Components.Location.find_at(coord)
     |> Enum.map(fn
       entity_id when is_binary(entity_id) -> {:thing, entity_id}
     end)

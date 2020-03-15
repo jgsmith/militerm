@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 11.2
--- Dumped by pg_dump version 11.2
+-- Dumped from database version 12.2
+-- Dumped by pg_dump version 12.2
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -12,12 +12,48 @@ SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
+SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
 SET default_tablespace = '';
 
-SET default_with_oids = false;
+SET default_table_access_method = heap;
+
+--
+-- Name: characters; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.characters (
+    id bigint NOT NULL,
+    name character varying(255),
+    cap_name character varying(255),
+    user_id bigint,
+    gender character varying(255),
+    entity_id character varying(255),
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: characters_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.characters_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: characters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.characters_id_seq OWNED BY public.characters.id;
+
 
 --
 -- Name: core_areas; Type: TABLE; Schema: public; Owner: -
@@ -127,7 +163,6 @@ ALTER SEQUENCE public.core_scenes_id_seq OWNED BY public.core_scenes.id;
 CREATE TABLE public.details (
     id bigint NOT NULL,
     entity_id character varying(255),
-    detail character varying(255),
     data jsonb,
     inserted_at timestamp(0) without time zone NOT NULL,
     updated_at timestamp(0) without time zone NOT NULL
@@ -262,6 +297,7 @@ CREATE TABLE public.locations (
     relationship character varying(255),
     "position" character varying(255),
     point integer[],
+    hibernated boolean DEFAULT false NOT NULL,
     inserted_at timestamp(0) without time zone NOT NULL,
     updated_at timestamp(0) without time zone NOT NULL
 );
@@ -297,6 +333,38 @@ CREATE TABLE public.schema_migrations (
 
 
 --
+-- Name: things; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.things (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: things_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.things_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: things_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.things_id_seq OWNED BY public.things.id;
+
+
+--
 -- Name: traits; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -326,6 +394,46 @@ CREATE SEQUENCE public.traits_id_seq
 --
 
 ALTER SEQUENCE public.traits_id_seq OWNED BY public.traits.id;
+
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.users (
+    id bigint NOT NULL,
+    uid character varying(255),
+    username character varying(255),
+    email character varying(255),
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: users_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.users_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.users_id_seq OWNED BY public.users.id;
+
+
+--
+-- Name: characters id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.characters ALTER COLUMN id SET DEFAULT nextval('public.characters_id_seq'::regclass);
 
 
 --
@@ -385,10 +493,32 @@ ALTER TABLE ONLY public.locations ALTER COLUMN id SET DEFAULT nextval('public.lo
 
 
 --
+-- Name: things id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.things ALTER COLUMN id SET DEFAULT nextval('public.things_id_seq'::regclass);
+
+
+--
 -- Name: traits id; Type: DEFAULT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.traits ALTER COLUMN id SET DEFAULT nextval('public.traits_id_seq'::regclass);
+
+
+--
+-- Name: users id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_id_seq'::regclass);
+
+
+--
+-- Name: characters characters_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.characters
+    ADD CONSTRAINT characters_pkey PRIMARY KEY (id);
 
 
 --
@@ -464,11 +594,55 @@ ALTER TABLE ONLY public.schema_migrations
 
 
 --
+-- Name: things things_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.things
+    ADD CONSTRAINT things_pkey PRIMARY KEY (id);
+
+
+--
 -- Name: traits traits_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.traits
     ADD CONSTRAINT traits_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: characters_cap_name_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX characters_cap_name_index ON public.characters USING btree (cap_name);
+
+
+--
+-- Name: characters_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX characters_entity_id_index ON public.characters USING btree (entity_id);
+
+
+--
+-- Name: characters_name_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX characters_name_index ON public.characters USING btree (name);
+
+
+--
+-- Name: characters_user_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX characters_user_id_index ON public.characters USING btree (user_id);
 
 
 --
@@ -507,10 +681,10 @@ CREATE UNIQUE INDEX core_scenes_area_id_plug_index ON public.core_scenes USING b
 
 
 --
--- Name: details_entity_id_detail_index; Type: INDEX; Schema: public; Owner: -
+-- Name: details_entity_id_index; Type: INDEX; Schema: public; Owner: -
 --
 
-CREATE UNIQUE INDEX details_entity_id_detail_index ON public.details USING btree (entity_id, detail);
+CREATE UNIQUE INDEX details_entity_id_index ON public.details USING btree (entity_id);
 
 
 --
@@ -549,10 +723,46 @@ CREATE INDEX locations_target_id_index ON public.locations USING btree (target_i
 
 
 --
+-- Name: things_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX things_entity_id_index ON public.things USING btree (entity_id);
+
+
+--
 -- Name: traits_entity_id_index; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX traits_entity_id_index ON public.traits USING btree (entity_id);
+
+
+--
+-- Name: users_email_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX users_email_index ON public.users USING btree (email);
+
+
+--
+-- Name: users_uid_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX users_uid_index ON public.users USING btree (uid);
+
+
+--
+-- Name: users_username_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX users_username_index ON public.users USING btree (username);
+
+
+--
+-- Name: characters characters_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.characters
+    ADD CONSTRAINT characters_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(id);
 
 
 --
@@ -575,5 +785,5 @@ ALTER TABLE ONLY public.core_scenes
 -- PostgreSQL database dump complete
 --
 
-INSERT INTO public."schema_migrations" (version) VALUES (20200106003951), (20200106133028), (20200107005156), (20200115125732), (20200115125928), (20200119003816), (20200204173613), (20200209201958), (20200209203051);
+INSERT INTO public."schema_migrations" (version) VALUES (20200105205630), (20200105205808), (20200106003951), (20200106133028), (20200107005156), (20200115125732), (20200115125928), (20200119003816), (20200204173613), (20200209201958), (20200209203051), (20200306184600);
 

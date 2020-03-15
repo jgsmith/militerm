@@ -212,7 +212,7 @@ defmodule Militerm.Machines.Script do
     %{
       state
       | stack: [
-          base |> Enum.map(&Entity.ability(&1, ability, pov, objects))
+          base |> Enum.map(&Entity.can?(&1, ability, pov, objects))
           | stack
         ]
     }
@@ -540,20 +540,17 @@ defmodule Militerm.Machines.Script do
        when is_list(bases) do
     {paths, new_stack} = Enum.split(stack, n)
 
-    paths =
+    values =
       paths
       |> Enum.map(fn name ->
         name
         |> String.split(":")
         |> resolve_var_references(pad)
       end)
-
-    values =
-      paths
       |> Enum.reduce(bases, fn path, bases ->
         bases
-        |> Enum.map(fn base ->
-          Entity.property(base, path, objects)
+        |> Enum.flat_map(fn base ->
+          to_list(Entity.property(base, path, objects))
         end)
         |> Enum.filter(fn {x, _} -> x == :ok end)
         |> Enum.map(&elem(&1, 1))
@@ -749,4 +746,8 @@ defmodule Militerm.Machines.Script do
   defp execute_jump_unless(false, %{ip: ip} = state) do
     %{state | ip: ip + 1}
   end
+
+  defp to_list(list) when is_list(list), do: list
+  defp to_list(nil), do: []
+  defp to_list(scalar), do: [scalar]
 end
