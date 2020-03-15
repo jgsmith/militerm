@@ -22,7 +22,11 @@ defmodule Militerm.Application do
 
     components = Map.values(Militerm.Config.components())
 
-    children = services ++ components
+    endpoints = [MilitermWeb.Endpoint]
+
+    repos = [Militerm.Repo]
+
+    children = repos ++ services ++ components ++ endpoints
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options

@@ -5,7 +5,7 @@ defmodule Militerm.Components.Entity do
   The entity component manages all of the information needed to manage entity controllers.
   """
 
-  def get_value(entity_id, path, _args), do: get_raw_value(entity_id, path)
+  def get_value(entity_id, path), do: get_raw_value(entity_id, path)
 
   def get_raw_value(entity_id, ["archetype"]), do: archetype(entity_id)
   def get_raw_value(entity_id, ["hibernated"]), do: hibernated?(entity_id)

@@ -14,6 +14,13 @@ defmodule Militerm.Components.EphemeralPad do
     get_raw_value(entity_id, path)
   end
 
+  def remove_value(entity_id, path) do
+    update(entity_id, fn
+      nil -> nil
+      map -> Map.delete(map, path)
+    end)
+  end
+
   def set_raw_value(entity_id, path, value) do
     update(entity_id, fn
       nil -> %{path => value}

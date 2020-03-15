@@ -11,9 +11,11 @@ defmodule Militerm.Components.Details do
   given when no detail is specified.
   """
 
-  def get_value(entity_id, path, _args), do: get_raw_value(entity_id, path)
+  def get_value(entity_id, path), do: get_raw_value(entity_id, path)
 
-  def set_value(entity_id, path, value, _args), do: set_raw_value(entity_id, path, value)
+  def set_value(entity_id, path, value), do: set_raw_value(entity_id, path, value)
+
+  def remove_value(_, _), do: nil
 
   def set_raw_value(_, _, _), do: nil
 

@@ -22,17 +22,7 @@ defmodule Militerm.Systems.Identity do
   def parse_match?({:thing, entity_id, detail}, words) when is_binary(detail) do
     info = Components.Details.get(entity_id, detail)
 
-    all_nouns =
-      case info do
-        %{"nouns" => nouns, "plural_nouns" => [_ | _] = plurals} ->
-          Enum.uniq(nouns ++ plurals)
-
-        %{"nouns" => nouns} ->
-          Enum.uniq(nouns ++ English.pluralize(nouns))
-
-        _ ->
-          []
-      end
+    all_nouns = match_nouns(info)
 
     names =
       case info do
@@ -40,17 +30,7 @@ defmodule Militerm.Systems.Identity do
         _ -> []
       end
 
-    all_adjectives =
-      case info do
-        %{"adjectives" => adjectives, "plural_adjectives" => [_ | _] = plurals} ->
-          Enum.uniq(adjectives ++ plurals)
-
-        %{"adjectives" => adjectives} ->
-          Enum.uniq(adjectives ++ English.pluralize(adjectives))
-
-        _ ->
-          []
-      end
+    all_adjectives = match_adjectives(info)
 
     [noun | adj] = Enum.reverse(words)
 
@@ -60,4 +40,22 @@ defmodule Militerm.Systems.Identity do
 
   def parse_match?({:thing, entity_id}, words),
     do: parse_match?({:thing, entity_id, "default"}, words)
+
+  defp match_nouns(%{"nouns" => nouns, "plural_nouns" => [_ | _] = plurals}) do
+    Enum.uniq(nouns ++ plurals)
+  end
+
+  defp match_nouns(%{"nouns" => nouns}) do
+    Enum.uniq(nouns ++ English.pluralize(nouns))
+  end
+
+  defp match_nouns(_), do: []
+
+  defp match_adjectives(%{"adjectives" => adjectives, "plural_adjectives" => [_ | _] = plurals}) do
+    Enum.uniq(adjectives ++ plurals)
+  end
+
+  defp match_adjectives(%{"adjectives" => adjectives}), do: adjectives
+
+  defp match_adjectives(_), do: []
 end

@@ -8,6 +8,14 @@ be created through a web-based content creation system.
 
 See (the example game)[https://github.com/jgsmith/militerm-example] for a demonstration.
 
+## Development
+
+To run a development server without having to install postgres locally:
+
+```sh
+docker-compose -f docker-compose.dev.yml up
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

@@ -69,7 +69,7 @@ defmodule MilitermWeb.AreaControllerTest do
   describe "edit area" do
     setup [:create_area_and_domain]
 
-    test "renders form for editing chosen area", %{conn: conn, area: area, domain: domain} do
+    test "renders form for editing chosen area", %{conn: conn, area: area} do
       conn = get(conn, AdminRoutes.area_path(conn, :edit, area))
       assert html_response(conn, 200) =~ "Edit Area"
     end
@@ -78,7 +78,7 @@ defmodule MilitermWeb.AreaControllerTest do
   describe "update area" do
     setup [:create_area_and_domain]
 
-    test "redirects when data is valid", %{conn: conn, area: area, domain: domain} do
+    test "redirects when data is valid", %{conn: conn, area: area} do
       conn = put(conn, AdminRoutes.area_path(conn, :update, area), area: @update_attrs)
 
       assert redirected_to(conn) == AdminRoutes.area_path(conn, :show, area)
@@ -87,7 +87,7 @@ defmodule MilitermWeb.AreaControllerTest do
       assert html_response(conn, 200) =~ "some updated description"
     end
 
-    test "renders errors when data is invalid", %{conn: conn, area: area, domain: domain} do
+    test "renders errors when data is invalid", %{conn: conn, area: area} do
       conn = put(conn, AdminRoutes.area_path(conn, :update, area), area: @invalid_attrs)
 
       assert html_response(conn, 200) =~ "Edit Area"

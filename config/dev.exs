@@ -76,5 +76,6 @@ config :militerm, Militerm.Repo,
   username: "postgres",
   password: "postgres",
   database: "militerm_dev",
-  hostname: "localhost",
+  # hostname: "host.docker.internal",
+  hostname: "postgres",
   pool_size: 10

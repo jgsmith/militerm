@@ -6,7 +6,7 @@ defmodule Militerm.Components.EphemeralFlag do
   These are useful to coordinate command execution.
   """
 
-  def set_value(entity_id, path, value, _args) do
+  def set_value(entity_id, path, value) do
     {path, sense} =
       Enum.reduce(path, {[], if(value, do: true, else: false)}, fn p, {ps, s} ->
         case p do
@@ -24,11 +24,11 @@ defmodule Militerm.Components.EphemeralFlag do
     end
   end
 
-  def reset_value(entity_id, path, args) do
-    set_value(entity_id, path, false, args)
-  end
+  def reset_value(entity_id, path), do: set_value(entity_id, path, false)
 
-  def get_value(entity_id, path, _args) do
+  def remove_value(entity_id, path), do: reset_value(entity_id, path)
+
+  def get_value(entity_id, path) do
     {path, sense} =
       Enum.reduce(path, {[], true}, fn p, {ps, s} ->
         case p do

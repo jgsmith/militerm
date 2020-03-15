@@ -370,7 +370,7 @@ defmodule Militerm.Systems.Location do
             else
               case Components.Details.get(target_id, parent_detail) do
                 %{"exits" => parent_exits} ->
-                  Enum.unique(Map.keys(exits) ++ Map.keys(parent_exits))
+                  Enum.uniq(Map.keys(exits) ++ Map.keys(parent_exits))
 
                 _ ->
                   Map.keys(exits)
@@ -409,31 +409,36 @@ defmodule Militerm.Systems.Location do
   @doc """
   Move to a location. Handles calling all the right events.
   """
-  def move_to(class, entity_id, target_id, coord, actor \\ nil) do
+  def move_to(class, {:thing, entity_id} = entity, target_id, coord, {:thing, actor_id} = actor) do
     dest = {"in", {:thing, target_id, coord}}
 
-    case Militerm.Services.Location.where(entity_id) do
+    case Militerm.Services.Location.where(entity) do
       {_, {:thing, ^target_id, _}} = from ->
-        motion_in_target(entity_id, from, dest)
+        motion_in_target(entity, from, dest)
 
       {leaving_prep, {:thing, leaving_id, leaving_coord}} = from ->
-        result =
-          entity_id
-          |> permission_to_leave(class, {:thing, leaving_id})
-          |> permission_to_arrive(entity_id, class, {:thing, target_id})
-          |> permission_to_accept(entity_id, class, from, dest)
-          |> finalize_move(entity_id, class, actor, from, dest)
+        entity_id
+        |> permission_to_leave(class, leaving_id)
+        |> permission_to_arrive(entity_id, class, {:thing, target_id})
+        |> permission_to_accept(entity_id, class, from, dest)
+        |> finalize_move(entity_id, class, actor_id, from, dest)
+
+      nil ->
+        {:cont, [], []}
+        |> permission_to_arrive(entity_id, class, {:thing, target_id})
+        |> permission_to_accept(entity_id, class, nil, dest)
+        |> finalize_move(entity_id, class, actor_id, nil, dest)
     end
   end
 
-  defp finalize_move({:error, _}, _, _, _, _, _), do: false
+  defp finalize_move({:error, _} = error, _, _, _, _, _), do: error
 
-  defp finalize_move({:cont, pre, post}, entity_id, class, actor, from, dest) do
+  defp finalize_move({:cont, pre, post}, entity_id, class, actor_id, from, dest) do
     {slot_names, slots} =
-      if entity_id == actor or is_nil(actor) do
-        {["actor"], %{"actor" => entity_id}}
+      if entity_id == actor_id or is_nil(actor_id) do
+        {["actor"], %{"actor" => {:thing, entity_id}}}
       else
-        {["actor", "direct"], %{"actor" => actor, "direct" => [entity_id]}}
+        {["actor", "direct"], %{"actor" => {:thing, actor_id}, "direct" => [{:thing, entity_id}]}}
       end
 
     Militerm.Systems.Events.run_event_set(
@@ -447,16 +452,17 @@ defmodule Militerm.Systems.Location do
 
   defp permission_to_leave(entity_id, class, leaving_id) do
     {:cont, [], []}
-    # case Militerm.EntityController.pre_event(leaving_id, "move:release", :environment, %{
-    #        direct: [entity_id]
-    #      }) do
-    #   {:halt, message} -> {:error, message}
-    #   {:cont, _, _} = continue -> continue
-    #   _ -> {:cont, [], []}
-    # end
+
+    case Militerm.Systems.Entity.pre_event(leaving_id, "move:release:#{class}", :environment, %{
+           direct: [{:thing, entity_id}]
+         }) do
+      {:halt, message} = halt -> halt
+      {:cont, _, _} = continue -> continue
+      _ -> {:cont, [], []}
+    end
   end
 
-  defp permission_to_arrive({:error, _} = message, _, _, _), do: message
+  defp permission_to_arrive({:halt, _} = halt, _, _, _), do: halt
 
   defp permission_to_arrive({:cont, pre, post} = c, entity_id, class, arriving_id) do
     c
@@ -469,7 +475,7 @@ defmodule Militerm.Systems.Location do
     # end
   end
 
-  defp permission_to_accept({:error, _} = message, _, _, _), do: message
+  defp permission_to_accept({:halt, _} = halt, _, _, _), do: halt
 
   defp permission_to_accept({:cont, pre, post} = c, entity_id, class, from, to) do
     c

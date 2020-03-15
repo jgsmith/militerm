@@ -1,0 +1,34 @@
+FROM elixir:1.10 as builder
+
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
+    apt-get install -y nodejs && \
+    apt-get remove -y curl
+
+WORKDIR '/app'
+ENV MIX_ENV=dev
+
+COPY mix.exs .
+
+RUN mix local.hex --force && mix local.rebar --force && mix deps.get
+
+RUN mkdir -p assets/node_modules
+COPY assets/package.json assets/package.json
+RUN cd assets && npm install
+
+COPY . .
+
+ENV MIX_ENV=prod
+
+RUN mix release --overwrite
+
+FROM elixir:1.10-alpine
+
+WORKDIR '/app'
+
+COPY --from=builder /app/_build/dev /app
+
+ENV REPLACE_OS_VARS=true
+
+CMD ["/app/rel/militerm/bin/militerm", "start"]
