@@ -1,0 +1,6 @@
+<h1>Create a New Character</h1>
+
+<%= render "form.html", assigns
+        |> Map.put(:action, Routes.character_path(@conn, :create))
+        |> Map.put(:cancel, Routes.character_path(@conn, :index))
+    %>

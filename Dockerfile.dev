@@ -1,0 +1,26 @@
+FROM elixir:1.10
+
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
+    apt-get install -y inotify-tools nodejs && \
+    apt-get remove -y curl
+
+WORKDIR '/app'
+
+RUN mkdir -p /app/assets/node_modules
+
+RUN mix local.hex --force && mix local.rebar --force
+
+COPY mix.exs .
+
+RUN mix deps.get
+
+COPY assets/package.json assets/package.json
+RUN cd assets && npm install
+
+COPY . .
+
+RUN mix deps.compile
+
+CMD ["mix", "do", "ecto.setup,", "phx.server"]

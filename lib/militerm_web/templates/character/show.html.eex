@@ -1,0 +1,18 @@
+<h1>Show Character</h1>
+
+<ul>
+
+  <li>
+    <strong>Cap name:</strong>
+    <%= @character.cap_name %>
+  </li>
+
+  <li>
+    <strong>Gender:</strong>
+    <%= @character.gender %>
+  </li>
+
+</ul>
+
+<span><%= link "Enter Game", to: Routes.live_path(@conn, MilitermWeb.GameLive, @character.name) %></span>
+<span><%= link "Back", to: Routes.character_path(@conn, :index) %></span>

@@ -1,0 +1,46 @@
+<h1>Show Domain</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @domain.name %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @domain.description %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: AdminRoutes.domain_path(@conn, :edit, @domain) %></span>
+<span><%= link "Back", to: AdminRoutes.domain_path(@conn, :index) %></span>
+
+<h2>Areas</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for area <- @domain.areas do %>
+    <tr>
+      <td><%= link area.name, to: AdminRoutes.area_path(@conn, :show, area) %></td>
+      <td><%= area.description %></td>
+
+      <td>
+        <span><%= link "Edit", to: AdminRoutes.area_path(@conn, :edit, area) %></span>
+        <span><%= link "Delete", to: AdminRoutes.area_path(@conn, :delete, area), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Area", to: AdminRoutes.domain_area_path(@conn, :new, @domain) %></span>
