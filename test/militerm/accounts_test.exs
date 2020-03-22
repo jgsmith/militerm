@@ -6,13 +6,13 @@ defmodule Militerm.AccountsTest do
   describe "users" do
     alias Militerm.Accounts.User
 
-    @valid_attrs %{email: "some email", uid: "some uid", username: "some username"}
+    @valid_attrs %{email: "some email", uid: "some uid", name: "some name"}
     @update_attrs %{
       email: "some updated email",
       uid: "some updated uid",
-      username: "some updated username"
+      name: "some updated name"
     }
-    @invalid_attrs %{email: nil, uid: nil, username: nil}
+    @invalid_attrs %{email: nil, uid: nil, name: nil}
 
     def user_fixture(attrs \\ %{}) do
       {:ok, user} =
@@ -37,7 +37,7 @@ defmodule Militerm.AccountsTest do
       assert {:ok, %User{} = user} = Accounts.create_user(@valid_attrs)
       assert user.email == "some email"
       assert user.uid == "some uid"
-      assert user.username == "some username"
+      assert user.name == "some name"
     end
 
     test "create_user/1 with invalid data returns error changeset" do
@@ -49,7 +49,7 @@ defmodule Militerm.AccountsTest do
       assert {:ok, %User{} = user} = Accounts.update_user(user, @update_attrs)
       assert user.email == "some updated email"
       assert user.uid == "some updated uid"
-      assert user.username == "some updated username"
+      assert user.name == "some updated name"
     end
 
     test "update_user/2 with invalid data returns error changeset" do

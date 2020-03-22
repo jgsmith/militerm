@@ -4,20 +4,33 @@ defmodule Militerm.Config do
                 | Application.get_env(:militerm, :components, [])
               ])
 
-  @game Application.fetch_env!(:militerm, :game)
-
   @repo Application.fetch_env!(:militerm, :repo)
 
   def components, do: @components
 
   def game_dir do
-    case Keyword.get(@game, :dir) do
-      {app, path} -> Application.app_dir(app, path)
-      path when is_binary(path) -> Application.app_dir(:militerm, path)
+    game_dir =
+      :militerm
+      |> Application.fetch_env!(:game)
+      |> Keyword.get(:dir)
+
+    case game_dir do
+      {app, path} ->
+        Application.app_dir(app, path)
+
+      <<"/" <> _::binary>> = path ->
+        path
+
+      path when is_binary(path) ->
+        Application.app_dir(:militerm, path)
     end
   end
 
-  def character_finder, do: Keyword.get(@game, :character_finder)
+  def character_finder do
+    :militerm
+    |> Application.fetch_env!(:game)
+    |> Keyword.get(:character_finder)
+  end
 
   def repo, do: @repo
 

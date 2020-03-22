@@ -10,7 +10,7 @@ defmodule Militerm.Accounts do
 
   alias Militerm.Accounts.User
 
-  @start_location {"in", {:thing, "scene:aerdaeg:city-center:start", "default"}}
+  @start_location {"in", {:thing, "scene:start:start:start", "default"}}
 
   @doc """
   Returns the list of users.
@@ -41,6 +41,10 @@ defmodule Militerm.Accounts do
   """
   def get_user!(id), do: Config.repo().get!(User, id)
 
+  def get_user(nil), do: nil
+
+  def get_user(id), do: Config.repo().get(User, id)
+
   @doc """
   Creates a user.
 
@@ -63,6 +67,50 @@ defmodule Militerm.Accounts do
     %User{}
     |> User.changeset(attrs)
     |> Config.repo().insert!()
+  end
+
+  def user_from_grapevine(auth) do
+    params = %{
+      uid: auth.uid,
+      name: auth.info.name,
+      email: auth.info.email
+    }
+
+    # look by uid first, then by email
+    params
+    |> maybe_find_user_by(:uid)
+    |> maybe_find_user_by(params, :email)
+    |> maybe_create_or_update_user(params)
+  end
+
+  defp maybe_find_user_by(opts, field) do
+    maybe_find_user_by(nil, opts, field)
+  end
+
+  defp maybe_find_user_by(nil, opts, key) do
+    value = Map.get(opts, key)
+
+    User
+    |> where([u], field(u, ^key) == ^value)
+    |> Config.repo().one()
+  end
+
+  defp maybe_find_user_by(user, _, _), do: user
+
+  defp maybe_create_or_update_user(nil, params) do
+    params = Map.put(params, :is_admin, no_users?())
+    create_user(params)
+  end
+
+  defp maybe_create_or_update_user(user, params) do
+    update_user(user, params)
+  end
+
+  def no_users?() do
+    User
+    |> limit(1)
+    |> Config.repo().one
+    |> is_nil
   end
 
   @doc """

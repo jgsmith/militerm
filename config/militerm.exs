@@ -16,7 +16,7 @@ config :militerm, :components,
 config :militerm, :repo, Militerm.Repo
 
 config :gossip, :callback_modules,
-  core: Militerm.Callbacks.Core,
-  players: Militerm.Callbacks.Players,
-  tells: Militerm.Callbacks.Tells,
-  games: Militerm.Callbacks.Games
+  core: Militerm.Gossip,
+  players: Militerm.Gossip,
+  tells: Militerm.Gossip,
+  games: Militerm.Gossip

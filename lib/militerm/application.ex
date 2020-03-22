@@ -7,6 +7,7 @@ defmodule Militerm.Application do
 
   def start(_type, _args) do
     # List all child processes to be supervised
+    standalone = Application.get_env(:militerm, :standalone, false)
 
     services = [
       # Starts a worker by calling: Militerm.Worker.start_link(arg)
@@ -22,17 +23,26 @@ defmodule Militerm.Application do
 
     components = Map.values(Militerm.Config.components())
 
-    endpoints = [MilitermWeb.Endpoint]
+    endpoints = if standalone, do: [MilitermWeb.Endpoint], else: []
 
-    repos = [Militerm.Repo]
+    repos = if standalone, do: [Militerm.Repo], else: []
 
-    children = repos ++ services ++ components ++ endpoints
+    cluster = [
+      {Cluster.Supervisor,
+       [
+         Application.get_env(:libcluster, :topologies),
+         [name: Militerm.ClusterSupervisor]
+       ]}
+    ]
+
+    children = repos ++ services ++ components ++ endpoints ++ cluster
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: Militerm.Supervisor]
     result = Supervisor.start_link(children, opts)
 
+    # TODO: make this easier to manage
     Task.async(&Militerm.Systems.Logger.initialize/0)
     Task.async(&Militerm.Systems.Entity.initialize/0)
     Task.async(&Militerm.Systems.MML.initialize/0)
@@ -44,10 +54,10 @@ defmodule Militerm.Application do
     result
   end
 
-  # # Tell Phoenix to update the endpoint configuration
-  # # whenever the application is updated.
-  # def config_change(changed, _new, removed) do
-  #   MilitermWeb.Endpoint.config_change(changed, removed)
-  #   :ok
-  # end
+  # Tell Phoenix to update the endpoint configuration
+  # whenever the application is updated.
+  def config_change(changed, _new, removed) do
+    MilitermWeb.Endpoint.config_change(changed, removed)
+    :ok
+  end
 end

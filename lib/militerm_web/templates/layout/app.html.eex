@@ -4,28 +4,47 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Militerm · Phoenix Framework</title>
+    <%= csrf_meta_tag %>
+    <title>Militerm</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
-  <body class="bg-gray-900 text-gray-100 w-screen">
-    <header class="mx-0 px-0 w-full">
-      <section class="bg-gray-100 w-full text-gray-900">
-        <div class="mx-auto container w-full">
-        <nav role="navigation">
-          <ul>
-            <li class="inline-block mr-1"><a href="/">Militerm</a></li>
-            <li class="inline-block"><a href="/game">Play</a></li>
-          </ul>
-        </nav>
-      </div>
-        <!-- <a href="http://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
-        </a> -->
-      </section>
-    </header>
-    <main role="main" class="container mx-auto">
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+  <body class="vh-100">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">Militerm</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <%= if authenticated?(@conn) do %>
+        <li class="nav-item active">
+          <a class="nav-link" href="/game">Play</a>
+        </li
+        <%= if admin?(@conn) do %>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin">Admin</a>
+          </li>
+        <% end %>
+        <li class="nav-item">
+          <!-- <%= form_for @conn, Routes.auth_path(@conn, :delete), fn _f -> %>
+            <%= submit "Logout", class: "btn btn-danger" %>
+          <% end %> -->
+        </li>
+      <% else %>
+        <li>
+          <a class="btn btn-primary btn-lg" href="/auth/grapevine">
+            Sign in with Grapevine
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
+    
+          
+    <main role="main" class="container-fluid h-100">
+      <!-- <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p> -->
       <%= render @view_module, @view_template, assigns %>
     </main>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>

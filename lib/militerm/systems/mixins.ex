@@ -4,7 +4,8 @@ defmodule Militerm.Systems.Mixins do
   of the mixin.
   """
 
-  alias Militerm.Services.Mixins
+  alias Militerm.Services.Mixins, as: MixinService
+  alias Militerm.Systems.Mixins
 
   def execute_event(name, entity_id, event, role, args) when is_binary(event) do
     path = event |> String.split(":", trim: true) |> Enum.reverse()
@@ -466,7 +467,7 @@ defmodule Militerm.Systems.Mixins do
   end
 
   defp get_mixin(name) do
-    case Mixins.get(name) do
+    case MixinService.get(name) do
       %{} = mixin ->
         {:ok, mixin}
 

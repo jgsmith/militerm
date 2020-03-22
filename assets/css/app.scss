@@ -1,0 +1,91 @@
+/* This file is for your main application css. */
+
+@import "../../deps/phoenix_live_view/assets/css/live_view.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  // min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.phx-connected {
+  height: 100%;
+}
+
+.narrative-panel {
+  height: calc(100% - 48px);
+  top: 0;
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.prompt {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+  input[type="text"] {
+    padding: 6px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: calc(100% - 6px);
+    font-family: "Lucida Console", Monaco, monospace;
+    
+  }
+}
+
+.text-black {
+  color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-magenta {
+  color: magenta;
+}
+
+.text-cyan {
+  color: cyan;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-brown {
+  color: brown;
+}
+
+.text-dark-green {
+  color: DarkGreen;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-light-gray {
+  color: LightGray;
+}

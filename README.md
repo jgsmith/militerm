@@ -6,7 +6,7 @@ core driver, mudlib, and content.
 Militerm provides the driver and scripting support to develop the core content. Content can
 be created through a web-based content creation system.
 
-See (the example game)[https://github.com/jgsmith/militerm-example] for a demonstration.
+See [the example game](https://github.com/jgsmith/militerm-example) for a demonstration.
 
 ## Development
 

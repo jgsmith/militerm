@@ -5,21 +5,21 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="form-group">
     <%= label f, :plug, "Name" %>
-    <%= text_input f, :plug %>
+    <%= text_input f, :plug, class: "form-control" %>
     <%= error_tag f, :plug %>
   </div>
-  <div>
+  <div class="form-group">
     <%= label f, :archetype %>
-    <%= select f, :archetype, @archetypes, prompt: "Select an archetype" %>
+    <%= select f, :archetype, @archetypes, prompt: "Select an archetype", class: "form-control" %>
     <%= error_tag f, :archetype %>
   </div>
 
   <%= for component <- @components do %>
-    <div class="w-full">
+    <div class="form-group">
       <%= label f, component %>
-      <%= textarea f, component, value: Map.get(@data, component) %>
+      <%= textarea f, component, value: Map.get(@data, component), class: "form-control" %>
       <%= if Map.has_key?(@data_errors, component) do %>
         <div><%= Map.get(@data_errors, component) %></div>
       <% end %>
@@ -28,6 +28,6 @@
 
 
   <div>
-    <%= submit "Save" %>
+    <%= submit "Save", class: "btn btn-primary" %>
   </div>
 <% end %>

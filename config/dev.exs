@@ -24,7 +24,7 @@ config :militerm, MilitermWeb.Endpoint,
     ]
   ]
 
-config :militerm, :game, dir: "./game"
+config :militerm, :game, dir: "priv/game"
 
 # ## SSL Support
 #
@@ -71,6 +71,9 @@ config :phoenix, :stacktrace_depth, 20
 # Initialize plugs at runtime for faster development compilation
 config :phoenix, :plug_init_mode, :runtime
 
+config :libcluster,
+  topologies: []
+
 # Configure your database
 config :militerm, Militerm.Repo,
   username: "postgres",
@@ -79,3 +82,5 @@ config :militerm, Militerm.Repo,
   # hostname: "host.docker.internal",
   hostname: "postgres",
   pool_size: 10
+
+import_config "dev.secret.exs"

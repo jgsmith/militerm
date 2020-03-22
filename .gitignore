@@ -1,7 +1,9 @@
 /_build
 /cover
 /deps
+/priv/static/
 /doc
+/.env
 /.fetch
 erl_crash.dump
 *.ez

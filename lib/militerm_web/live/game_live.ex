@@ -5,16 +5,16 @@ defmodule MilitermWeb.GameLive do
 
   def render(assigns) do
     ~L"""
-    <div class="h-full font-mono">
-      <div class="flex flex-row m-1">
-        <div class="flex flex-col flex-none w-1/4 p-2">
-          <div class="border border-solid border-white">
-            <h1>Map</h1>
-            <%= @location.prep %> <%= @location.target %>@<%= @location.coord %>
+    <div class="text-monospace h-100">
+      <div class="row h-100">
+        <div class="col-2 h-100">
+          <div class="">
+            <h2>Map</h2>
+            <%= @location.prep %> <%= @location.target %> @ <%= @location.coord %>
           </div>
-          <div class="border border-solid border-white p-2"><h1><%= @character.name %></h1></div>
+          <div class=""><h2><%= @character.name %></h2></div>
         </div>
-        <div class="flex flex-col flex-grow w-1/2 m-1">
+        <div class="col-8 h-100">
           <div class="narrative-panel">
             <div id="narration" class="container" phx-update="append"  phx-hook="ScrollToEnd">
               <%= for {message, idx} <- Enum.with_index(Enum.reverse(@messages)) do %>
@@ -23,14 +23,14 @@ defmodule MilitermWeb.GameLive do
             </div>
             <div id="narration-end"></div>
           </div>
-          <div class="prompt w-full">
+          <div class="prompt">
             <form phx-submit="command" class="">
-              <input class="inline-block w-full bg-gray-900 text-gray-100 border border-solid border-black focus:bg-gray-900" type="text" name="command" />
+              <input class="inline-block" type="text" name="command" />
             </form>
           </div>
         </div>
-        <div class="flex flex-col flex-none w-1/4 m-1">
-          <div class="border border-solid border-white m-1 p-1"><h1>Communication</h1></div>
+        <div class="col-2 h-100">
+          <div class=""><h2>Comms</h2></div>
         </div>
       </div>
     </div>
@@ -45,23 +45,8 @@ defmodule MilitermWeb.GameLive do
   ###
   ###
 
-  def mount(_session, socket) do
-    {:ok, assign(socket, messages: [], message_counter: 1, prompt: "[...]", user_id: 1)}
-  end
-
-  def terminate(reason, socket) do
-    # IO.inspect({:terminate, reason})
-    # unload character
-    Militerm.Services.Characters.leave_game({:thing, socket.assigns.entity_id})
-    :ok
-  end
-
-  def handle_params(%{"character" => character} = params, _uri, socket) do
-    # this is where we handle connecting to the right character? logging in is done elsewhere
-    # for now, assume that the user is authenticated and that the character name is in the params
-
-    %{entity_id: entity_id} =
-      Militerm.Accounts.get_character!(user_id: socket.assigns.user_id, name: character)
+  def mount(_, %{"character" => character, "current_user" => user_id}, socket) do
+    %{entity_id: entity_id} = Militerm.Accounts.get_character!(user_id: user_id, name: character)
 
     Militerm.Services.Characters.enter_game({:thing, entity_id}, receiver: __MODULE__)
 
@@ -71,12 +56,22 @@ defmodule MilitermWeb.GameLive do
 
     {prep, {:thing, target_id, t}} = Militerm.Services.Location.where({:thing, entity_id})
 
-    {:noreply,
+    {:ok,
      assign(socket,
        location: %{prep: prep, target: target_id, coord: t},
        character: character,
-       entity_id: entity_id
-     )}
+       entity_id: entity_id,
+       prompt: "> ",
+       messages: [],
+       message_counter: 1,
+       user_id: user_id
+     ), temporary_assigns: [messages: []]}
+  end
+
+  def terminate(reason, socket) do
+    # unload character
+    Militerm.Services.Characters.leave_game({:thing, socket.assigns.entity_id})
+    :ok
   end
 
   def handle_event("command", %{"command" => command}, socket) do

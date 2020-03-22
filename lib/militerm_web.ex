@@ -23,6 +23,8 @@ defmodule MilitermWeb do
 
       import Plug.Conn
       import MilitermWeb.Gettext
+      import Phoenix.LiveView.Controller
+      import MilitermWeb.UserAuth.Helpers
       alias MilitermWeb.Router.Helpers, as: Routes
       alias MilitermWeb.AdminRouter.Helpers, as: AdminRoutes
     end
@@ -42,6 +44,8 @@ defmodule MilitermWeb do
 
       import MilitermWeb.ErrorHelpers
       import MilitermWeb.Gettext
+      import Phoenix.LiveView.Helpers
+      import MilitermWeb.UserAuth.Helpers
       alias MilitermWeb.Router.Helpers, as: Routes
       alias MilitermWeb.AdminRouter.Helpers, as: AdminRoutes
     end

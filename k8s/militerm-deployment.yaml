@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: militerm-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      component: game
+  template:
+    metadata:
+      labels:
+        component: game
+        app: game
+    spec:
+      serviceAccount: militerm-mesh
+      containers:
+        - name: militerm
+          image: militerm
+          imagePullPolicy: Never
+          env:
+            - name: MILITERM_HOST
+              value: example.org
+            - name: MILITERM_INTERNAL_PORT
+              value: "4000"
+            - name: MILITERM_EXTERNAL_PORT
+              value: "80"
+            - name: MILITERM_SECRET_KEY_BASE
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: MILITERM_SECRET_KEY_BASE
+            - name: GRAPEVINE_CLIENT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: GRAPEVINE_CLIENT_ID
+            - name: GRAPEVINE_CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: GRAPEVINE_CLIENT_SECRET
+            - name: POSTGRES_USER
+              value: postgres
+            - name: POSTGRES_DB
+              value: militerm_prod
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: POSTGRES_PASSWORD
+            - name: POSTGRES_HOST
+              value: postgres-service
+            - name: POSTGRES_PORT
+              value: "5432"
+            - name: LIBCLUSTER_STRATEGY
+              value: k8s
+            - name: NODE_BASENAME
+              value: militerm
+            - name: CONTAINER_IP
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: K8S_SELECTOR
+              value: "app=game"
+            - name: K8S_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: RELEASE_COOKIE
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: RELEASE_COOKIE
+            
+          ports:
+            - containerPort: 4000
+              name: web
+            - containerPort: 4369
+              name: epmd

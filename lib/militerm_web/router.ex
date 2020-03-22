@@ -4,7 +4,7 @@ defmodule MilitermWeb.Router do
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
-    plug :fetch_flash
+    plug :fetch_live_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
@@ -13,14 +13,48 @@ defmodule MilitermWeb.Router do
     plug :accepts, ["json"]
   end
 
+  pipeline :auth do
+    plug MilitermWeb.UserAuth.Pipeline
+  end
+
+  # We use ensure_auth to fail if there is no one logged in
+  pipeline :ensure_auth do
+    plug Guardian.Plug.EnsureAuthenticated
+  end
+
   scope "/", MilitermWeb do
-    pipe_through :browser
+    pipe_through [:browser, :auth]
 
     get "/", PageController, :index
-    resources "/game", CharacterController, only: [:index, :show, :new, :create]
-    live "/game/:character/play", GameLive
+    get "/auth/:provider", AuthController, :request
+    get "/auth/:provider/callback", AuthController, :callback
+    post "/auth/:provider/callback", AuthController, :callback
+  end
 
-    forward "/", AdminRouter
+  scope "/", MilitermWeb do
+    pipe_through [:browser, :auth, :ensure_auth]
+
+    resources "/game", CharacterController, only: [:index, :show, :new, :create]
+    get "/game/:character/play", CharacterController, :play
+
+    post "/auth/logout", AuthController, :delete
+  end
+
+  scope "/admin", MilitermWeb do
+    # TODO: :ensure_admin
+    pipe_through [:browser, :auth, :ensure_auth]
+
+    get "/", AdminController, :index
+
+    resources "/domains", DomainController do
+      resources "/areas", AreaController, only: [:new, :create]
+    end
+
+    resources "/areas", AreaController, only: [:show, :edit, :update, :delete] do
+      resources "/scenes", SceneController, only: [:new, :create]
+    end
+
+    resources "/scenes", SceneController, only: [:show, :edit, :update, :delete]
   end
 
   # Other scopes may use custom stacks.
