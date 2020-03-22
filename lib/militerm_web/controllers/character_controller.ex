@@ -12,23 +12,28 @@ defmodule MilitermWeb.CharacterController do
   ]
 
   def index(conn, _params) do
-    characters = Accounts.list_characters(user_id: 1)
+    %{id: user_id} = current_user(conn)
+    characters = Accounts.list_characters(user_id: user_id)
     render(conn, "index.html", characters: characters)
   end
 
+  def play(conn, %{"character" => character}) do
+    render(conn, "play.html", character: character)
+  end
+
   def new(conn, _params) do
-    [user | _] = Accounts.list_users()
-    changeset = Accounts.change_character(%Character{user_id: user.id})
+    %{id: user_id} = current_user(conn)
+    changeset = Accounts.change_character(%Character{user_id: user_id})
     render(conn, "new.html", changeset: changeset, genders: @genders)
   end
 
   def create(conn, %{"character" => %{"cap_name" => cap_name} = character_params}) do
-    [user | _] = Accounts.list_users()
+    %{id: user_id} = current_user(conn)
 
     params =
       character_params
       |> Map.put("name", name_from_cap(cap_name))
-      |> Map.put("user_id", user.id)
+      |> Map.put("user_id", user_id)
 
     case Accounts.create_character(params) do
       {:ok, character} ->
@@ -42,7 +47,8 @@ defmodule MilitermWeb.CharacterController do
   end
 
   def show(conn, %{"id" => id}) do
-    character = Accounts.get_character!(name: id)
+    %{id: user_id} = current_user(conn)
+    character = Accounts.get_character!(name: id, user_id: user_id)
     render(conn, "show.html", character: character)
   end
 

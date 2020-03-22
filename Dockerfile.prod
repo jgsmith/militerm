@@ -1,17 +1,14 @@
-FROM elixir:1.10 as builder
+FROM alpine:3.11 as builder
 
-RUN apt-get update && \
-    apt-get install -y curl && \
-    curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
-    apt-get install -y nodejs && \
-    apt-get remove -y curl
+RUN apk add --no-cache erlang-crypto erlang-ssl elixir nodejs npm gcc
 
 WORKDIR '/app'
-ENV MIX_ENV=dev
+ENV MIX_ENV=prod
 
 COPY mix.exs .
+COPY mix.lock .
 
-RUN mix local.hex --force && mix local.rebar --force && mix deps.get
+RUN mix do local.hex --force, local.rebar --force, deps.get
 
 RUN mkdir -p assets/node_modules
 COPY assets/package.json assets/package.json
@@ -19,16 +16,22 @@ RUN cd assets && npm install
 
 COPY . .
 
-ENV MIX_ENV=prod
+RUN mix do deps.get, phx.digest, release --overwrite
 
-RUN mix release --overwrite
+FROM alpine:3.11
 
-FROM elixir:1.10-alpine
+RUN apk add --no-cache ca-certificates ncurses-libs ncurses-terminfo-base
 
 WORKDIR '/app'
 
-COPY --from=builder /app/_build/dev /app
+COPY --from=builder /app/_build /app/_build
+COPY --from=builder /app/priv /app/priv
+COPY --from=builder /app/priv/game /app/game
 
 ENV REPLACE_OS_VARS=true
+ENV MILITERM_GAME_DIR=/app/game
 
-CMD ["/app/rel/militerm/bin/militerm", "start"]
+EXPOSE 4000
+EXPOSE 4369
+
+CMD ["/app/_build/prod/rel/militerm/bin/militerm", "start"]

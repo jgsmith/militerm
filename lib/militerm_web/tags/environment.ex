@@ -8,10 +8,10 @@ defmodule MilitermWeb.Tags.Environment do
           [String.capitalize(binary) | rest]
 
         [{:safe, binary} | rest] when is_binary(binary) ->
-          [{:safe, String.capitalize(binary)} | rest]
+          [{:safe, capitalize_first(binary)} | rest]
 
         [{:safe, [binary | safe_rest]} | rest] when is_binary(binary) ->
-          [{:safe, [String.capitalize(binary) | safe_rest]} | rest]
+          [{:safe, [capitalize_first(binary) | safe_rest]} | rest]
 
         otherwise ->
           otherwise
@@ -41,5 +41,9 @@ defmodule MilitermWeb.Tags.Environment do
       "smell" -> [{:safe, "<span class='text-green-600'"}, content, {:safe, "</span>"}]
       _ -> content
     end
+  end
+
+  defp capitalize_first(<<first::binary-1, rest::binary>>) do
+    [String.upcase(first), rest]
   end
 end

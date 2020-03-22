@@ -4,14 +4,14 @@ defmodule Militerm.Repo.Migrations.CreateUsers do
   def change do
     create table(:users) do
       add :uid, :string
-      add :username, :string
+      add :name, :string
       add :email, :string
+      add :is_admin, :boolean
 
       timestamps()
     end
 
     create unique_index(:users, [:uid])
-    create unique_index(:users, [:username])
     create unique_index(:users, [:email])
   end
 end

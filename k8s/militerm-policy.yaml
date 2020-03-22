@@ -1,0 +1,35 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: militerm-mesh-role
+  labels:
+    component: game
+  namespace: default
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "endpoints"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: militerm-mesh
+  labels:
+    component: game
+  namespace: default
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: militerm-mesh-rolebinding
+  labels:
+    component: game
+  namespace: default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: militerm-mesh-role
+subjects:
+  - kind: ServiceAccount
+    name: militerm-mesh
+    namespace: default

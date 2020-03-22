@@ -403,8 +403,9 @@ ALTER SEQUENCE public.traits_id_seq OWNED BY public.traits.id;
 CREATE TABLE public.users (
     id bigint NOT NULL,
     uid character varying(255),
-    username character varying(255),
+    name character varying(255),
     email character varying(255),
+    is_admin boolean,
     inserted_at timestamp(0) without time zone NOT NULL,
     updated_at timestamp(0) without time zone NOT NULL
 );
@@ -748,13 +749,6 @@ CREATE UNIQUE INDEX users_email_index ON public.users USING btree (email);
 --
 
 CREATE UNIQUE INDEX users_uid_index ON public.users USING btree (uid);
-
-
---
--- Name: users_username_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE UNIQUE INDEX users_username_index ON public.users USING btree (username);
 
 
 --

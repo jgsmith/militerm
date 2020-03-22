@@ -17,7 +17,7 @@
 
       <td>
         <span><%= link "Show", to: Routes.character_path(@conn, :show, character.name) %></span>
-        <span><%= link "Play", to: Routes.live_path(@conn, MilitermWeb.GameLive, character.name) %></span>
+        <span><%= link "Play", to: Routes.character_path(@conn, :play, character.name) %></span>
       </td>
     </tr>
 <% end %>

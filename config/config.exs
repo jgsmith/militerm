@@ -25,6 +25,16 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :ueberauth, Ueberauth,
+  providers: [
+    grapevine: {Grapevine.Ueberauth.Strategy, [scope: "profile email"]}
+  ]
+
+config :militerm, MilitermWeb.UserAuth.Guardian,
+  issuer: "militerm",
+  secret_key: "QLq/13OQPLLM2dajw9qp5D/1LVQsJ0eeddK8dx2QWg7Kl2ZiSnT2eaIz7QxdqhI/"
+
+config :militerm, :standalone, true
 # Import militerm game configuration
 
 import_config "militerm.exs"

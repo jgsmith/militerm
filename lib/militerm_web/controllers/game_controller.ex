@@ -4,11 +4,11 @@ defmodule MilitermWeb.GameController do
   alias Militerm.Repo
   import Ecto.Query
 
-  # plug :put_layout, "game.html"
-
   def index(conn, _params) do
+    %{id: user_id} = current_user(conn)
+
     characters =
-      [user_id: 1]
+      [user: user_id]
       |> Militerm.Accounts.list_characters()
       |> Enum.map(fn %{name: name, entity_id: entity_id} ->
         case Militerm.Components.Identity.get(entity_id) do
@@ -22,7 +22,9 @@ defmodule MilitermWeb.GameController do
   end
 
   def show(conn, %{"character" => character}) do
-    record = Militerm.Accounts.get_character!(user_id: 1, name: character)
+    %{id: user_id} = current_user(conn)
+
+    record = Militerm.Accounts.get_character!(user_id: user_id, name: character)
     id_info = Militerm.Components.Identity.get(record.entity_id)
 
     info = %{

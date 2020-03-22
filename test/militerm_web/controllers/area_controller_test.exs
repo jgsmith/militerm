@@ -1,7 +1,7 @@
 defmodule MilitermWeb.AreaControllerTest do
   use MilitermWeb.ConnCase
 
-  alias Militerm.Game
+  alias Militerm.{Accounts, Game}
 
   @create_attrs %{description: "some description", name: "some name", plug: "some-name"}
   @update_attrs %{
@@ -12,6 +12,13 @@ defmodule MilitermWeb.AreaControllerTest do
   @invalid_attrs %{description: nil, name: nil, plug: nil}
 
   @domain_create_attrs %{description: "some description", name: "some name", plug: "some-name"}
+
+  @create_user_attrs %{
+    email: "example@example.com",
+    uid: "example@example.com",
+    name: "example",
+    is_admin: true
+  }
 
   def fixture(:domain) do
     {:ok, domain} = Game.create_domain(@domain_create_attrs)
@@ -29,39 +36,51 @@ defmodule MilitermWeb.AreaControllerTest do
     area
   end
 
-  # describe "index" do
-  #   setup [:create_domain]
-  #
-  #   test "lists all areas", %{conn: conn, domain: domain} do
-  #     conn = get(conn, AdminRoutes.domain_area_path(conn, :index, domain))
-  #     assert html_response(conn, 200) =~ "Listing Areas"
-  #   end
-  # end
+  def fixture(:user) do
+    {:ok, user} = Accounts.create_user(@create_user_attrs)
+    user
+  end
 
   describe "new area" do
     setup [:create_domain]
 
     test "renders form", %{conn: conn, domain: domain} do
-      conn = get(conn, AdminRoutes.domain_area_path(conn, :new, domain))
+      conn =
+        conn
+        |> authenticate()
+        |> get(AdminRoutes.domain_area_path(conn, :new, domain))
+
       assert html_response(conn, 200) =~ "New Area"
     end
   end
 
   describe "create area" do
-    setup [:create_domain]
+    setup [:create_domain, :create_user]
 
-    test "redirects to show when data is valid", %{conn: conn, domain: domain} do
-      conn = post(conn, AdminRoutes.domain_area_path(conn, :create, domain), area: @create_attrs)
+    test "redirects to show when data is valid", %{conn: conn, user: user, domain: domain} do
+      conn =
+        conn
+        |> authenticate(user)
+        |> post(AdminRoutes.domain_area_path(conn, :create, domain), area: @create_attrs)
 
       assert %{id: id} = redirected_params(conn)
       assert redirected_to(conn) == AdminRoutes.area_path(conn, :show, id)
 
-      conn = get(conn, AdminRoutes.area_path(conn, :show, id))
+      conn =
+        conn
+        |> recycle()
+        |> authenticate(user)
+        |> get(AdminRoutes.area_path(conn, :show, id))
+
       assert html_response(conn, 200) =~ "Show Area"
     end
 
-    test "renders errors when data is invalid", %{conn: conn, domain: domain} do
-      conn = post(conn, AdminRoutes.domain_area_path(conn, :create, domain), area: @invalid_attrs)
+    test "renders errors when data is invalid", %{conn: conn, user: user, domain: domain} do
+      conn =
+        conn
+        |> authenticate(user)
+        |> post(AdminRoutes.domain_area_path(conn, :create, domain), area: @invalid_attrs)
+
       assert html_response(conn, 200) =~ "New Area"
     end
   end
@@ -70,39 +89,61 @@ defmodule MilitermWeb.AreaControllerTest do
     setup [:create_area_and_domain]
 
     test "renders form for editing chosen area", %{conn: conn, area: area} do
-      conn = get(conn, AdminRoutes.area_path(conn, :edit, area))
+      conn =
+        conn
+        |> authenticate()
+        |> get(AdminRoutes.area_path(conn, :edit, area))
+
       assert html_response(conn, 200) =~ "Edit Area"
     end
   end
 
   describe "update area" do
-    setup [:create_area_and_domain]
+    setup [:create_area_and_domain, :create_user]
 
-    test "redirects when data is valid", %{conn: conn, area: area} do
-      conn = put(conn, AdminRoutes.area_path(conn, :update, area), area: @update_attrs)
+    test "redirects when data is valid", %{conn: conn, user: user, area: area} do
+      conn =
+        conn
+        |> authenticate(user)
+        |> put(AdminRoutes.area_path(conn, :update, area), area: @update_attrs)
 
       assert redirected_to(conn) == AdminRoutes.area_path(conn, :show, area)
 
-      conn = get(conn, AdminRoutes.area_path(conn, :show, area))
+      conn =
+        conn
+        |> recycle()
+        |> authenticate(user)
+        |> get(AdminRoutes.area_path(conn, :show, area))
+
       assert html_response(conn, 200) =~ "some updated description"
     end
 
-    test "renders errors when data is invalid", %{conn: conn, area: area} do
-      conn = put(conn, AdminRoutes.area_path(conn, :update, area), area: @invalid_attrs)
+    test "renders errors when data is invalid", %{conn: conn, user: user, area: area} do
+      conn =
+        conn
+        |> authenticate(user)
+        |> put(AdminRoutes.area_path(conn, :update, area), area: @invalid_attrs)
 
       assert html_response(conn, 200) =~ "Edit Area"
     end
   end
 
   describe "delete area" do
-    setup [:create_area_and_domain]
+    setup [:create_area_and_domain, :create_user]
 
-    test "deletes chosen area", %{conn: conn, area: area, domain: domain} do
-      conn = delete(conn, AdminRoutes.area_path(conn, :delete, area))
+    test "deletes chosen area", %{conn: conn, user: user, area: area, domain: domain} do
+      conn =
+        conn
+        |> authenticate(user)
+        |> delete(AdminRoutes.area_path(conn, :delete, area))
+
       assert redirected_to(conn) == AdminRoutes.domain_path(conn, :show, domain)
 
       assert_error_sent 404, fn ->
-        get(conn, AdminRoutes.area_path(conn, :show, area))
+        conn
+        |> recycle()
+        |> authenticate(user)
+        |> get(AdminRoutes.area_path(conn, :show, area))
       end
     end
   end
@@ -116,5 +157,19 @@ defmodule MilitermWeb.AreaControllerTest do
     domain = fixture(:domain)
     area = fixture(:area, domain)
     {:ok, area: area, domain: domain}
+  end
+
+  defp create_user(_) do
+    user = fixture(:user)
+    {:ok, user: user}
+  end
+
+  defp authenticate(conn, %{} = user) do
+    conn
+    |> MilitermWeb.UserAuth.Guardian.Plug.sign_in(user)
+  end
+
+  defp authenticate(conn) do
+    authenticate(conn, fixture(:user))
   end
 end

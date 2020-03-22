@@ -18,7 +18,11 @@ defmodule Militerm.Systems.Commands do
 
   @obj_slots ~w[actor direct indirect instrument]
 
-  def perform(entity_id, <<"@", input::binary>>, context) do
+  def perform(entity_id, input, context) do
+    do_perform(entity_id, normalize(input), context)
+  end
+
+  defp do_perform(entity_id, <<"@", input::binary>>, context) do
     with [command | rest] <- String.split(input, " ", parts: 2),
          {:ok, {module, function, args}} <- Militerm.Services.Commands.command_handler(command) do
       apply(module, function, [rest, %{"this" => entity_id}])
@@ -34,7 +38,7 @@ defmodule Militerm.Systems.Commands do
     {:ok, context}
   end
 
-  def perform(entity_id, input, context) do
+  defp do_perform(entity_id, input, context) do
     with %{} = command <- Parser.parse(input, entity_id),
          %{slots: slots, syntax: %{actions: events}} <-
            Binder.bind(context, command) do
@@ -81,7 +85,6 @@ defmodule Militerm.Systems.Commands do
 
       if all_slots_filled and actor_can do
         # now run event sequence
-        # try do
         result =
           Militerm.Systems.Events.run_event_set(
             events,
@@ -101,11 +104,6 @@ defmodule Militerm.Systems.Commands do
           _ ->
             :ok
         end
-
-        # catch
-        #   _ ->
-        #     # probably ran out of time
-        # end
 
         {:ok, context}
       else
@@ -143,4 +141,12 @@ defmodule Militerm.Systems.Commands do
 
   def maybe_scalar([v]), do: v
   def maybe_scalar(v), do: v
+
+  defp normalize(string) do
+    string
+    |> String.trim()
+    |> String.downcase()
+    |> String.split(~r{\s+}, trim: true)
+    |> Enum.join(" ")
+  end
 end

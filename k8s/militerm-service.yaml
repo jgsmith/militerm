@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: militerm-service
+  labels:
+    app: game
+spec:
+  type: ClusterIP
+  ports:
+    - name: web 
+      port: 4000
+      targetPort: 4000
+    - name: epmd
+      port: 4369
+      targetPort: 4369
+  selector:
+    component: game

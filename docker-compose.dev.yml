@@ -14,5 +14,5 @@ services:
     image: postgres:11.7-alpine
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_DB: wlc_engine_dev
+      POSTGRES_DB: militerm_prod
       POSTGRES_PASSWORD: postgres
