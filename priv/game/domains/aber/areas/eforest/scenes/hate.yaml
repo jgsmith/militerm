@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:museum"
+    short: Hate Gallery
+    sight: >
+      All throughout this room are paintings of a gruesome undead beast. Without a doubt, it must be the Lich
+      who, when fighting Asmodeus, was rumored to have helped cause the destruction of the elven forest. The
+      fact that the Lich is an enemy of the demon lord here is made quite clear by the voice you hear chanting
+      in your head. Over and over, you hear 'hate. hate. hate. hate...'
+flag:
+  - hot

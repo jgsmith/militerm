@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ctflag:ctflag_10"
+    short: &+GGreen Locker Room
+    sight: >
+      Rows and rows of benches line the walls of this huge room. They are all painted in a emerald green.
+      Green jerseys are being handed out to all the players before they head out for combat.
+flag:
+  - party
+  - peaceful

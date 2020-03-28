@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:weaphall"
+      north:
+        target: "scene:aber:cathedral:westcat"
+      west:
+        target: "scene:aber:cathedral:armhall"
+    short: &+yWolven Hall
+    sight: >
+      You are surrounded by low-relief sculptures of wolves. However, in these works the wolves are displayed
+      heroically, rather than as wicked cowardly beasts.
+flag:
+  - light

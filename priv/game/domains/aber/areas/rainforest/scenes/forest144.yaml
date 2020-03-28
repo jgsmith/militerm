@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest146"
+      south:
+        target: "scene:aber:rainforest:forest143"
+    short: Thick Rainforest
+    sight: >
+      You are in a very crowded part of the forest. Your movements are very limited but you think you can
+      probably go east for a little way before you are forced to stop. The only other exit is back to the
+      south.
+flag:
+  - outdoors
+  - rainforest

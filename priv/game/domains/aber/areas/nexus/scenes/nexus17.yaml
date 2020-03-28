@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus16"
+    short: Storage Room
+    sight: >
+      This is a small square cell in which the inhabitants of this castle put some of their junk in. The floor
+      is coated with several inches of dust and dirt, and broken furniture is thrown into a large pile in the
+      corner, destined to mold for all time. A large wicker torch has been tightly strapped to one wall, like
+      a punishment.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

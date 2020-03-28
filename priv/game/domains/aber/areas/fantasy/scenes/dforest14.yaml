@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest13"
+      south:
+        target: "scene:aber:fantasy:dforest15"
+      west: null
+    short: Northwest corner of a circular path
+    sight: >
+      The path seems to be in the shape of a circle through here. The path curves to the south and to the
+      east. The trees here look very weak and brittle.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:armory"
+      north:
+        target: "scene:aber:village:road9"
+      south:
+        target: "scene:aber:village:road4"
+      west:
+        target: "scene:aber:village:weaponshop"
+    short: Main Street
+    sight: >
+      You see an armory to the East and a weapons shop to the West. The Main street continues to the north and
+      south.
+flag:
+  - outdoors

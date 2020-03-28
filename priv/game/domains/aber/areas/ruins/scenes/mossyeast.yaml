@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:sinkhole"
+      west:
+        target: "scene:aber:ruins:easthall4"
+    short: A Mossy Room
+    sight: >
+      You are disgusted as your feet sink deep into the moss with a thick layer of goo underneath it. You feet
+      slip and slide around in the goo and you find yourself having troubles standing up. Everytime you almost
+      fall over the stench of the goo forces you to regain your balance and steady yourself again. You can see
+      yet another mossy room to the east of here.
+flag:
+  - dark

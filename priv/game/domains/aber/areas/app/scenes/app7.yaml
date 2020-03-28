@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app6"
+    short: Inside the Shack
+    sight: >
+      The shack doesn't look any better inside than it did from the outside. Old furniture lie scattered
+      around the room. Otherwise there are no items of import in this shack.
+flag:

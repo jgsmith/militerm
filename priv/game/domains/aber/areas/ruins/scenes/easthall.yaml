@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:easthall2"
+      west:
+        target: "scene:aber:ruins:start"
+    short: Hall East of the Ruins
+    sight: >
+      This is the east hall that branches off of the main ruins. The walls are covered with thick moss and the
+      floor is quite slippery from water that leaks down from the upper levels. The hall leads off to the east
+      and the main ruins are back to the west.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage15"
+      west:
+        target: "scene:aber:cottage:cottage13"
+    short: Natural Bridge
+    sight: >
+      You stand upon a magnificent, granite bridge spannin the wide chasm; far below the silver mists seem to
+      swirl in increased agitation. To the east there stands and enormous, dark entryway.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mrealms:second"
+    short: The Deserted Island
+    sight: >
+      Remember when you were a kid and you'd ask your friends, "If you were on a desert island and could only
+      have one book/tape/item/person/food, what would it be?" Well, I hope you chose wisely, because here you
+      are. Snuggle up with your favourite book or favourite person, because it doesn't look like you'll be
+      rescued anytime soon.
+flag:
+  - peace
+  - private

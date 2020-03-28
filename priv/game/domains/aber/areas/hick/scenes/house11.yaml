@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house9"
+    short: Dining Room
+    sight: >
+      There is a very large table in the middle of the room that has all of the dishes and silverware layed
+      out. A large hutch with fine china covers the north wall, but you decide not to touch anything. You can
+      leave the dining room to the east.
+flag:

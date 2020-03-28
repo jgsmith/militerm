@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:sundhaven:sundhaven6739"
+    short: A doorway hung with daggers
+    sight: >
+      The dark hall of the underground ends here before a tall, narrow door of sturdy oak, scarred with
+      daggerpoints. The soil is wet with some dark fluid.. slime from the boots of passersby? Of course. A
+      circular &+Cemblem&* is etched into the door.
+flag:

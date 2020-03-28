@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:3"
+      north:
+        target: "scene:aber:doom:4"
+      south: null
+    short: &+cRoad to Town
+    sight: >
+      You are on a road that leads to the north and south through a lifeless forest. You notice the flowers on
+      the side of the road are dead and seem to have been trampled on. To the north you can see a town and
+      notice that there are no houses, but little huts instead. You can see that a lot of the huts have been
+      burned down or are damaged as if there had been a fire here. The road leads north to the town, or south
+      to a large and heavy set of gates that lead through a long wall. To the east you see a small wooden
+      shack through the trees.
+flag:
+  - nomobiles
+  - outdoors

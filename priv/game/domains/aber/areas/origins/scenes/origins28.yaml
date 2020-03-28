@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins27"
+    short: Bacchus Plateau
+    sight: >
+      After what feels like hours of climbing, you break through the foul mist. Sunlight beams down upon you,
+      then continues down to be swallowed by the mist. From this vantage, you could have seen everything, were
+      it not for that mist, which functions as a jealous blanket for the ground below. Here, however, it seems
+      that the parasitic power of the Necromancer has no effect...
+flag:
+  - outdoors

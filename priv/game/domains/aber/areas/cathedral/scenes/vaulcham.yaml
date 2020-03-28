@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:lowhall"
+      north:
+        target: "scene:aber:cathedral:vaulhall"
+      up: null
+    short: Vaulted Chamber
+    sight: >
+      The ceiling here is of crude concrete vaulting, with no decorative aspect. The hall branches off to the
+      north and east. It is utterly dark and still here, and the floor is covered with a thick layer of
+      &+ydust&*.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq06"
+      west:
+        target: "scene:aber:nwbeaches:beachqq12"
+    short: Along a Rocky Beach
+    sight: >
+      The way gets much too rocky here for you to continue along the water any further. You do however, notice
+      a trail through the rocks which heads southwest.
+flag:

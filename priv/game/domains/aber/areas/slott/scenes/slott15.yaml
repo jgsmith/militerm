@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott16"
+      north:
+        target: "scene:aber:slott:slott21"
+      south: null
+    short: Library
+    sight: >
+      This is a large library with bookcases full of books. There are small tables and chairs placed out
+      tastefully so people should be able to sit and read in peace. On the western wall there is a large
+      fireplace.
+flag:
+  - peaceful

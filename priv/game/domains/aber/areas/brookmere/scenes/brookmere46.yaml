@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Treasure Storeroom
+    sight: >
+      This must be where the orcs store all their loot - The room is filled with &+ychests&* in various states
+      of decay, with tarnished plaques and ragged labels saying things like ` MOORGS FINGS' and ` PERSUNAL N
+      PRIVAT' . You try all the chests eagerly (you little thief!) and find that, much to your dismay, all of
+      them require a key and cannot be bypassed by your lockpicking skills.
+flag:
+  - dark

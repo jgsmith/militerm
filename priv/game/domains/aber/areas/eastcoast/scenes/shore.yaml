@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:endbeach"
+      south:
+        target: "scene:aber:eastcoast:rockybeach"
+    short: Narrow Shore
+    sight: >
+      This part of the shore narrows to the point where the distance between the surf to the west and the
+      sheer face of the cliff looming overhead to the east is only a scant few feet, and occasionally you need
+      to walk in ankle-deep water just to continue. To the north and the south are walkable stretches of beach
+      while the waters to the east offer little more than a watery grave.
+flag:
+  - outdoors

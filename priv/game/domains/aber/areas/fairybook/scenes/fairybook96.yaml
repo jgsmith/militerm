@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook97"
+      east:
+        target: "scene:aber:fairybook:fairybook98"
+      west:
+        target: "scene:aber:fairybook:fairybook95"
+    short: "Marooner's Rock"
+    sight: >
+      Marooner's Rock is a large rock sticking out of the lagoon. It is so called because Captain Hook used to
+      tie prisoners up and leave them there to drown in the tide. During low tide, the mermaids relax there
+      and comb out their hair. The Lost Boys often dive from the rock as well, playing among the coral reefs
+      under the water. The shore lies to the west, and to the east is the nest of the Never-bird.
+flag:
+  - outdoors

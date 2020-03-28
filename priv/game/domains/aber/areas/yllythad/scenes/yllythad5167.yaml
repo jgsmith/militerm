@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5168"
+      north:
+        target: "scene:aber:yllythad:yllythad5172"
+      south:
+        target: "scene:aber:yllythad:yllythad5162"
+      west:
+        target: "scene:aber:yllythad:yllythad5166"
+    short: Wild, Foaming Crests
+    sight: >
+      The water rises and falls with such force that it seems the world must be shaking on its foundations.
+      The water splashes and crashes against itself, foam and froth all over the surface of the sea.
+flag:
+  - onwater
+  - outdoors

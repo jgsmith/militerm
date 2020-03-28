@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq13"
+      west:
+        target: "scene:aber:nwbeaches:beachqq15"
+    short: Rocky Path
+    sight: >
+      The path runs east to west over jumbled rock and fine beach sand. Just to your west, you see a jetty
+      running out into the ocean, a lighthouse at it's end. To the east the path curves it's way along the
+      beach.
+flag:

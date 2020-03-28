@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:orchold:audience"
+    short: Orc Throne Room
+    sight: >
+      In stark contrast to the rest of the orcs' lair, this room is grandeur and tack epitomized. The walls
+      are paved in gold, and at the north end of the room sits an incredibly ornate throne. Heavy curtains
+      cover an opening to the south.
+flag:
+  - dark

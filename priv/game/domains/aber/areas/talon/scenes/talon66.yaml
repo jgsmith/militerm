@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon29"
+      north:
+        target: "scene:aber:talon:talon67"
+      west:
+        target: "scene:aber:talon:talon29"
+    short: The Mist
+    sight: >
+      You are lost in a blinding white mist which blocks your every sense and makes it impossible to tell
+      where you are. This mist stretches in all directions.
+flag:

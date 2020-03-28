@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis21"
+      north:
+        target: "scene:aber:atlantis:atlantis15"
+      south:
+        target: "scene:aber:atlantis:atlantis17"
+      west:
+        target: "scene:aber:atlantis:atlantis11"
+    short: Outside Atlantis
+    sight: >
+      Before you is the fabled city of Atlantis. You can see a large wall made out of some sand-like substance
+      enclosing the buildings with a large gate in the middle of the wall directly in front of you. The water
+      here is ripe with disturbances in the water from the passage of all sorts of aquatic life that appear to
+      be entering the city. The gates are before you to the east while a kelp bed lies to the north and a
+      large stone outcropping is to the south. You can also proceed back along the sea bed to the west.
+flag:
+  - underwater

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis66"
+    short: "Serpent's Lair"
+    sight: >
+      The walls of this dead-end cave are also glass smooth. You realize from this lair that the walls you
+      recently saw were due to the serpent rubbing against them in passage all these years. It probably
+      crawled into these caves for food then grew too large for the passages until it became trapped inside.
+      This dead-end passage is completely barren and smooth due to the vast amount of time the serpent spent
+      sleeping here. You can swim back to the passageway to the south.
+flag:
+  - dark
+  - underwater

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome22"
+      south:
+        target: "scene:aber:rome:rome24"
+    short: The Common Seating
+    sight: >
+      This is where many of the common Roman citizens are seated during the games. Like the other commoners'
+      areas in the coliseum, it could use extensive renovation and cleaning. This area extends to the north
+      and lots of noise can be heard coming from the south.
+flag:
+  - outdoors

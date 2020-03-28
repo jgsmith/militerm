@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:pile"
+      south:
+        target: "scene:aber:abyss:ledge"
+    short: "Widow's Lair"
+    sight: >
+      This is where the Black Widow makes her home. Her latest conquest hangs from the ceiling in a cocoon of
+      silk. From a dark shaft at your feet comes a stomach-turning odor.
+flag:
+  - dark

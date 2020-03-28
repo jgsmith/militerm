@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest4"
+      up:
+        target: "scene:aber:fantasy:dforest6"
+      west:
+        target: "scene:aber:fantasy:dforest7"
+    short: Fork in Path
+    sight: >
+      The path looks to fork into two different directions here. You can stay on the path through the Dwarven
+      Forest, or you can hike up to the Cave of Gaia.
+flag:
+  - outdoors

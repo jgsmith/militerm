@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott24"
+      north:
+        target: "scene:aber:slott:slott30"
+    short: Bathroom
+    sight: >
+      This is the castle bathroom, filled with the usual stuff you need for personal hygiene...soap,
+      toothpaste, etc. and of course a bucket of water. There is a large &+Bbathtub&* at the southern wall and
+      a strange &+Bhole&* in the floor at the west wall.
+flag:

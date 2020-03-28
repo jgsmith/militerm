@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:cave"
+      up:
+        target: "scene:aber:newvillage:downfall"
+    short: Beneath the Waterfall
+    sight: >
+      You slowly work your way down to the bottom of the path. You are standing right next to the area where
+      the water is cascading down, and have a beautiful side view of the waterfall. You notice that behind the
+      fall, nature has eroded out a cave.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:noxypickle:tree"
+    short: In The Boughs
+    sight: >
+      You are scrambling among the branches of your airborne tree. You have never seen branches like these
+      before: they are spongy and soft to the touch, yet they do not bend or break when you put your weight on
+      them. You shake your head, trying to clear your thoughts, but the delicious smell pervades your senses
+      and you eventually give in. A smile, unbidden, comes to your lips and then, to your surprise, you laugh
+      out loud. You feel so happy...
+flag:

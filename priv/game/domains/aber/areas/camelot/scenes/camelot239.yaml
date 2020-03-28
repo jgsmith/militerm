@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot220"
+      east:
+        target: "scene:aber:camelot:camelot238"
+      north:
+        target: "scene:aber:camelot:camelot240"
+      up:
+        target: "scene:aber:camelot:camelot249"
+    short: The Southwestern Tower
+    sight: >
+      In addition to being a guard room, it looks as if this room is used as a mess hall by the guardsmen.
+      There are exits east and north, to the top of the walls, or up, to the roof of the tower.
+flag:

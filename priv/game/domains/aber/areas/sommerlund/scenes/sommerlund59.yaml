@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund60"
+    short: Guildhall
+    sight: >
+      You are below the Brotherhood of the Crystal Star in the city of Toran. Torches line the walls of the
+      stone block chamber, but no light penetrates the northern archway. Within the arch, the space is truly
+      space - a deep black. A large star is tacked on the southern wall in honor of the Brotherhood's
+      centuries of service. It is fashioned from several thousand layers of kagonite and bronze metal alloys,
+      allowing it to sparkle when the least amount of light shed on it.
+flag:

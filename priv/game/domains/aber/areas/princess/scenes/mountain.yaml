@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:princess:forest6"
+      north:
+        target: "scene:aber:princess:forest6"
+      south: null
+    short: On Top of the Mountain
+    sight: >
+      You reach the top of the mountain. A huge &+Ctower&* rises out of the ground!! The air seems much
+      thinner up here.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fantasy:dforest5"
+      north:
+        target: "scene:aber:fantasy:gaia1"
+    short: In front of the Gaia Cave
+    sight: >
+      As you stand in front of this cave you notice that the cave entrance looks alot like a face of somesort.
+      There are tiny holes for eyes and a large hole for a mouth. You notice that the "mouth" has some silver
+      on it.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface2"
+      west:
+        target: "scene:aber:island:waste1"
+    short: Lava Shore
+    sight: >
+      You are standing on the shore of a vast ocean. Beneath your feet the ground is merely a vast expanse of
+      congealed lava which extends right up to the water's edge. To the west the wasteland continues for some
+      way before meeting the foot of the volcano which created this bleak landscape.
+flag:
+  - outdoors
+  - nomobiles

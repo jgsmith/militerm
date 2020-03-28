@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar90"
+      west:
+        target: "scene:aber:balharbor:balhar1"
+    short: "The Mermaid's Song"
+    sight: >
+      This elite eating facility features fine dining and delicious meals. There are lots of people sitting at
+      tables eating seafood and drinking fine wines in a pleasant atmosphere. In the center of the restaurant
+      is a statue of Lorelei the Singing Mermaid sitting on top of a splashing fountain. You hear Lorelei's
+      beautiful singing piped in via a magic spell and find it hard to leave while it plays.
+flag:
+  - party
+  - peaceful

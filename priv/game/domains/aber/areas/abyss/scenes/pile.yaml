@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:abyss:widow"
+    short: Husk Pile
+    sight: >
+      Decayed filth coats the floor here and overpowers you with its odor. Web-enshrouded husks of various
+      creatures, some of which are the remains of humans, are piled underneath a shaft in the ceiling.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere43"
+      west:
+        target: "scene:aber:brookmere:brookmere45"
+    short: Biggish Tunnel
+    sight: >
+      This tunnel must have been built at the same time as the one to the east, with large, uneven stone
+      boulders, but there is nothing growing between the cracks like there is in most old walls. There is only
+      dirt that has been spilt on the floor near both walls, which makes you think any plant life has been
+      pulled from the wall and trampled underfoot. There is a small room to the west.
+flag:
+  - dark

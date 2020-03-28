@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:barracks2"
+    short: "Captain's Quarters"
+    sight: >
+      You stand in a large room which seems to have been well kept. It has none of the squalor of the barracks
+      to the North. There is a neat bed here, as well as an organized desk. However, the entire room is
+      covered by a layer of dust. Obviously, these quarters have not been used for quite some time. The only
+      exit is to the North.
+flag:
+  - dark

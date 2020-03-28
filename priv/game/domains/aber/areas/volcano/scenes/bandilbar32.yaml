@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar31"
+    short: Dead End
+    sight: >
+      You have come to the end of the tunnel. A small pile of rubble lies at the base of the rock wall, as if
+      work had stopped here so suddenly that there was not even time to clear away the debris.
+flag:

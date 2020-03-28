@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott21"
+      south:
+        target: "scene:aber:slott:slott14"
+    short: Hallway
+    sight: >
+      A hallway, leading off to the &+Ceast&* and &+Csouth&*.
+flag:

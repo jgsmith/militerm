@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon22"
+      up:
+        target: "scene:aber:chlyon:chlyon23"
+    short: Ventilation Shaft
+    sight: >
+      You stand inside a narrow ventilation shaft. Light trickles in from above of you, and below you the
+      forges are emanating an unbearable heat. Feeling dizzy, you decide it would be a very good idea to get
+      out of here as soon as possible.
+flag:

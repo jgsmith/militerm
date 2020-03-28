@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:oni:oni95"
+      south:
+        target: "scene:aber:oni:oni89"
+      west: null
+    short: Prison Hall - North
+    sight: >
+      The end of the long prison hallway. Here the high threat demons are kept. At the very northern end is a
+      portal leading to Xergon, the demon considered the highest threat to the Order of the White Phoenix.
+flag:
+  - cantsummon

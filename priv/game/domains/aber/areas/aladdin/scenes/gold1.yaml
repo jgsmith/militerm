@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:gold2"
+      south:
+        target: "scene:aber:aladdin:gold3"
+      up:
+        target: "scene:aber:aladdin:cave"
+      west:
+        target: "scene:aber:aladdin:gold5"
+    short: Surrounded by Mounds of Gold
+    sight: >
+      You finish your descent of the stairs to find yourself in the middle of unbelievable mounds of treasure.
+      You are too scared to touch any of it though.
+flag:
+  - light

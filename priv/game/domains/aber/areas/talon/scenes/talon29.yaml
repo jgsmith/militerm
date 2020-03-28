@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon66"
+      west:
+        target: "scene:aber:talon:talon28"
+    short: The Mist
+    sight: >
+      You step into a thick shroud of a choking, white fog. Your senses are confused as you wander aimlessly
+      through the swirling mist. All of reality becomes a forgotten blur, as whispers seem to echo around ou
+      from all sides, and shadows seem to lunge toward you, only to melt back into the depths of the unknown.
+      To the west you can barely discern a glimmer of light through the mist, and to the east, the fog
+      continues to billow out before you.
+flag:

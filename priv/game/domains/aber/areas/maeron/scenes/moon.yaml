@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:maeron:center"
+    short: &+BBlue Chamber
+    sight: >
+      As you step into this beautiful room, the silvery-blue walls reflect the light in greeting. All around
+      you there are designs and carvings depicting the moon. The only exit is to the &+RWest&*.
+flag:
+  - dark

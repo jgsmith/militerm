@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar2"
+      up:
+        target: "scene:aber:volcano:bandilbar2"
+      west:
+        target: "scene:aber:volcano:bandilbar4"
+    short: End Of The Road
+    sight: >
+      Once upon a time this was obviously a popular road between neighbouring villages, yet now it has been
+      allowed to become overgrown with weeds. To the east a tall hedge has sprung up, completely blocking the
+      way. You cannot help wondering if it was planted on purpose. The road continues to the west.
+flag:
+  - outdoors

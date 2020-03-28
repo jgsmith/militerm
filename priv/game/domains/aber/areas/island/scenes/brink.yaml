@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:top"
+      east:
+        target: "scene:aber:island:waste2"
+      north:
+        target: "scene:aber:island:slope2"
+      west:
+        target: "scene:aber:island:flow"
+    short: "Crater's Brink"
+    sight: >
+      You stand on the brink of an ancient volcanic crater. The ground around you trembles and shakes to the
+      accompaniment of a steady rumbling from beneath your feet. A huge black slab stands on the very edge of
+      the crater marked with many hideous symbols and shapes. A narrow staircase leads downwards beside the
+      slab.
+flag:
+  - outdoors

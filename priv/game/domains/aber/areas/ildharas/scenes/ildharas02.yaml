@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas03"
+      south:
+        target: "scene:aber:ildharas:ildharas01"
+    short: Forest
+    sight: >
+      Sunlight dapples the path, and small rodents scurry from your approach. Overhead, birds chirp and
+      flutter amidst the branches. The path runs vaguely north to south. It appears to be little used, for
+      even the wheel ruts sport large tufts of grass.
+flag:
+  - outdoors

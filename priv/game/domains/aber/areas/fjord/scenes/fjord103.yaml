@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord89"
+      south:
+        target: "scene:aber:fjord:fjord88"
+    short: Icebar
+    sight: >
+      The water is sparkling clear, yet not as deep as the inlet or the ocean. Shining pristinely beneath only
+      thirty feet of cold water is where the two icy fingers of the Nolak Fjord submerge and meet. The inlet
+      forms the contents of this underwater ice bowl, and the icebar has made the current travel both ways
+      across it. There are certain places that sailing ships must enter and leave the inlet at. The icebar
+      also serves as the separator between two environments. On the inlet side, the small waves harmlessly
+      slap against the icebar, causing minor splashes and undertows, while the ocean side has been worn smooth
+      by the increased pressure of waves generated far out to sea.
+flag:
+  - cold
+  - outdoors
+  - onwater

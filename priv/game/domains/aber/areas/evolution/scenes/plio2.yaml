@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:plio1"
+    short: Dusty Hollow
+    sight: >
+      You are in a little dip beside a mountain of rock that towers to the south. Some low-lying shrubs here
+      show signs of having provided food for a variety of strange pliocene creatures: armadillos, ground
+      sloths and the like.
+flag:
+  - outdoors

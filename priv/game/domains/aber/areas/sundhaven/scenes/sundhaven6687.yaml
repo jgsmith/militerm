@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6685"
+    short: A dwelling among strange rock formations
+    sight: >
+      You stand in a narrow dwelling among the bluff-scattered homes of Sundhaven. Out of rectangular-etched
+      windows you can make out odd Stonehenge-style formations of stone, giving the place an eerie feel. It
+      could make an excellent home, with enough gold to pay the price of the lot.
+flag:

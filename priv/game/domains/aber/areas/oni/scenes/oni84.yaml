@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni83"
+      south:
+        target: "scene:aber:oni:oni68"
+    short: North Wall of Deufel
+    sight: >
+      The northern edge of Deufel is protected by a large wall with a heavy iron portcullis allowing travelers
+      to enter and exit. This gate is used most often by the Knights of the White Phoenix, who have a compound
+      to the north.
+flag:
+  - outdoors
+  - cantsummon
+  - nomobiles

@@ -150,10 +150,59 @@ defmodule Militerm.Systems.Entity do
       {:ok, pid}
     else
       otherwise ->
-        Logger.debug(inspect(otherwise))
-        nil
+        try_loading_from_files(entity_id)
     end
   end
 
   def whereis(_), do: nil
+
+  def try_loading_from_files(<<"scene:", rest::binary>> = entity_id) do
+    [domain, area | path] = String.split(rest, ":", trim: true)
+
+    filename_base =
+      Path.join([Militerm.Config.game_dir(), "domains", domain, "areas", area, "scenes" | path])
+
+    extension =
+      [".mt", ".yaml"]
+      |> Enum.find(&File.exists?(filename_base <> &1))
+
+    result =
+      case extension do
+        ".mt" ->
+          Militerm.Entities.Scene.create(entity_id, entity_id)
+
+        ".yaml" ->
+          # use "std:scene" as the archetype
+          # data = YamlElixir.read
+          result =
+            case YamlElixir.read_from_file(filename_base <> extension) do
+              {:ok, %{"archetype" => archetype} = data} ->
+                Militerm.Entities.Scene.create(entity_id, archetype, data)
+
+              {:ok, data} ->
+                Militerm.Entities.Scene.create(entity_id, "std:scene", data)
+
+              {:error, message} ->
+                Logger.warn("Unable to read #{filename_base}#{extension}: #{message}")
+                nil
+            end
+
+        _ ->
+          nil
+      end
+
+    if !is_nil(result) do
+      Swarm.whereis_or_register_name(
+        entity_id,
+        Militerm.Systems.Entity.Controller,
+        :start_link,
+        [
+          entity_id,
+          Militerm.Entities.Scene
+        ]
+      )
+    end
+  end
+
+  def try_loading_from_files(_), do: nil
 end

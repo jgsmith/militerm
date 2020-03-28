@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:priest"
+      south:
+        target: "scene:aber:eforest:elf"
+      west:
+        target: "scene:aber:eforest:temple"
+    short: Inside the Temple
+    sight: >
+      You stand just inside the temple of the dark elves. Looking around, you realize that it is quite
+      beautiful, even though the beauty seems somehow evil. You are chilled by a sense of foreboding as you
+      think of what dark acts may have been committed inside this place of worship, for some nameless evil
+      god. You see small archways out of this room to the North and West.
+flag:
+  - dark

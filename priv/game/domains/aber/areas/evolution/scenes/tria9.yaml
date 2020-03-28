@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:tria8"
+      up:
+        target: "scene:aber:evolution:jura1"
+    short: Beneath The Plateau
+    sight: >
+      You are at the foot of a narrow path leading up the side of an enormous plateau. Coarse shrubs line the
+      edges of the path, although as it climbs higher you notice a distinct lack of greenery. To the south is
+      a grove of pine trees.
+flag:
+  - outdoors
+  - nomobiles

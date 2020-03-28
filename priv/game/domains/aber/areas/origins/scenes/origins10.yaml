@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins3"
+      north:
+        target: "scene:aber:origins:origins11"
+    short: Rivendell City Gates
+    sight: >
+      You come to the gates of the beautiful Elven city of Rivendell. They are carved lovingly out of the wood
+      that surrounds everything here. Through them, you can see the fabled elven town. You doubt you've ever
+      seen anything this magnificent before. The road leading north into the city has, however, fallen into
+      severe disrepair.
+flag:
+  - outdoors
+  - tempreal

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:orcholdii:arch3p2"
+      south:
+        target: "scene:aber:orcholdii:entry"
+      west: null
+    short: Through the Arch
+    sight: >
+      This is a grand hallway that archs well over your head. The floor is a soothing white marble and the
+      light is provided by what seem to be smokeless torches set in pure gold sconces. You are almost positive
+      that dwarves were behind such magnificent craftmanship. There are doors east and west and the hallway
+      continues to the north.
+flag:

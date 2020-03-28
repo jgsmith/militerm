@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott46"
+      south:
+        target: "scene:aber:slott:slott48"
+    short: Garden path
+    sight: >
+      The garden path continues the &+Csouth&* and to the &+Cnorth&*. Here big rocks and wood pieces fill the
+      path, and as you look up at the castle tower you see why. The tower had been struck by lightning and the
+      whole eastern wall and a pretty big part of the roof have fallen down to where you stand now.
+flag:
+  - outdoors

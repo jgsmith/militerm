@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town15"
+      north:
+        target: "scene:aber:town:town19"
+    short: Dead End
+    sight: >
+      This is a dead end to the alley. It is very dark and garbage is strewn all over the alley here. To the
+      north is a darkened alley and to the east is a small building that is open cause the door has been
+      ripped off its hinges.
+flag:
+  - outdoors

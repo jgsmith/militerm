@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen15"
+    short: Redwood Forest
+    sight: >
+      You have reached another dead-end in the forest, with the only exit south.
+flag:
+  - outdoors

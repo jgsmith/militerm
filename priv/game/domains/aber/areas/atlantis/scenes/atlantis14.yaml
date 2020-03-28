@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis19"
+      north:
+        target: "scene:aber:atlantis:atlantis13"
+      south:
+        target: "scene:aber:atlantis:atlantis15"
+      west:
+        target: "scene:aber:atlantis:atlantis9"
+    short: Kelp Bed
+    sight: >
+      Kelp begins to grow thick here, beginning to obstruct your view of the surroundings. You push your way
+      through the plants, finding your bearings. The small forest of kelp hedges in on all sides but thins out
+      slightly toward the north, west and south. If you wish to try, you can attempt to force your way through
+      the more tightly growning kelp to the east.
+flag:
+  - underwater

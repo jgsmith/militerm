@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:tree1"
+      north:
+        target: "scene:aber:oaktree:elm"
+    short: Oak Tree
+    sight: >
+      You are high up, near the crest of the oak tree. You can see the branches of an elm tree to the north,
+      almost touching the oak. Farther away, the tops of the trees thin out into little terraced fields
+      propped by stone walls, and groves dark with olive trees and walnuts. In the distance is the sea where a
+      boat is idly sailing.
+flag:
+  - outdoors

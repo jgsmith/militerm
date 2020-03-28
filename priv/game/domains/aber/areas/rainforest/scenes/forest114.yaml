@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest112"
+    short: "Warrior's Hut"
+    sight: >
+      You are in a small hut, obviously built for someone of lesser stature than yourself. Rows of heads adorn
+      the walls, all that remains of the unfortunate erstwhile enemies of this hut's owner.
+flag:

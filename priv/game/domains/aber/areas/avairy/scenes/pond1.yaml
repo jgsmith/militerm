@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:jungle6"
+      west:
+        target: "scene:aber:avairy:water1"
+    short: By a Peaceful Pond
+    sight: >
+      You can't help but stop to relax in the peacefulness of your surroundings. Water flows swiftly into the
+      pond from a small waterfall to the west. You can't help but wonder where the water flows to. Small birds
+      chirp, flying from tree to tree and the sun shines down to the clearing in the trees.
+flag:
+  - outdoors
+  - light
+  - nomagic

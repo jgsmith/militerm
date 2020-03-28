@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: You Slipped
+    sight: >
+      Didn't I say now would be a bad time to slip? So why didn't you listen? You fall endlessly forever and
+      ever, but die sometime within that. Sorry.
+flag:
+  - death
+  - light

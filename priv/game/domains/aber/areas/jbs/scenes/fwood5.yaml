@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fwood1"
+      east:
+        target: "scene:aber:jbs:fwood3"
+      north:
+        target: "scene:aber:jbs:fwood2"
+      south:
+        target: "scene:aber:jbs:fwood2"
+      up:
+        target: "scene:aber:jbs:fwood5"
+      west:
+        target: "scene:aber:jbs:fwood"
+    short: Fairy Wood
+    sight: >
+      You are following a twisty path through the fairy wood. Small paths lead off from here in several
+      directions and there is a thick layer of mist covering the ground all around you.
+flag:
+  - outdoors

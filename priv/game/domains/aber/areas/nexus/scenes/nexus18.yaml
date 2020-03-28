@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nexus:nexus16"
+    short: "Servants' Quarters"
+    sight: >
+      Three makeshift beds line separate walls of this drafty chamber, quite literally rotting away to moldy
+      splinters. A tattered knapsack on the ground provides poorly-lit housing to a family of rats. Their
+      squeaking matches the frequency at which the incoming wind resonates a burnt-out lantern hanging on a
+      hook just inside the door. In one corner, a bucket with insides covered by brown slime sits ensnared by
+      a vine that snakes around the room. Behind it, an ugly green lump of decay appears to be the capital of
+      the mold civilization in here.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

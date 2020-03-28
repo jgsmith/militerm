@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord103"
+      south:
+        target: "scene:aber:fjord:fjord87"
+    short: Inlet of the Werewolf
+    sight: >
+      The hardiest and tastiest of the northern saltwater fish species can be found in this inlet during the
+      summer, when they come here in droves to reproduce and lay their eggs. Occasionally, a shark will follow
+      schools in and snap a few unsuspecting fish before the rest of the school has time to turn around and
+      gang up on the shark. The shark is driven out and never returns. Within the inlet, the ocean waves are
+      relatively minor and provide easy rocking motion in which to relax and let all of life's worries go.
+      This is the way of the villagers to the southeast, as they make a killing of a living off of fishing in
+      this cove. They also pass their time telling repeated stories of a great aquatic terror in the open sea,
+      with the mouth, speed, and ferocity of a werewolf. The inlet is so named in the honor of the tale which
+      has kept many a petrified child awake.
+flag:
+  - cold
+  - outdoors
+  - onwater
+  - nomobiles

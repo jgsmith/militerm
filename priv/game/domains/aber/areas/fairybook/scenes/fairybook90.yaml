@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:fairybook:fairybook104"
+    short: The Clearing
+    sight: >
+      You stand in a clearing. Before you stands a great tree, with a score of smaller trees around the
+      outside ring of the clearing. In each tree is a hole just big enough for a small boy or girl, but you
+      are too old and too big for such games . . .
+flag:
+  - outdoors

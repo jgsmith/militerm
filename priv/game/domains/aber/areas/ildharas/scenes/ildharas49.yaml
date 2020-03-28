@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas52"
+      north: null
+      south: null
+      west:
+        target: "scene:aber:ildharas:ildharas46"
+    short: Dark corridor
+    sight: >
+      The way becomes somewhat wider here. The rock on the southern wall flattens out and then abruptly
+      changes color and texture, turning into the white marble of the castle above. You notice a curious
+      carving on the southern wall.
+flag:
+  - dark

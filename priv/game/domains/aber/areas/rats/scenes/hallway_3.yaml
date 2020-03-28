@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rats:saw"
+      south:
+        target: "scene:aber:rats:workroom"
+    short: Hallway
+    sight: >
+      You are standing in the hallway. This is more a room for storing all possible things like old wood,
+      boxes, bottles, and everything that could be used again sometime.
+flag:
+  - dark

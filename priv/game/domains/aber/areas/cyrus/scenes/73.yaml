@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      south: null
+    short: Inside the house
+    sight: >
+      You are standing inside the small house. You are surprised that someone is actually living in there. The
+      house is a real mess, covered by &+ydust. A small stove is lying in a corner. A lit candle is providing
+      light. The whole house is made of a single room, without any window.
+flag:

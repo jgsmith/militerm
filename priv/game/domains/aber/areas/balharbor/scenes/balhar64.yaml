@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar65"
+      south:
+        target: "scene:aber:balharbor:balhar56"
+    short: "The Warriors' Guild"
+    sight: >
+      This is the hangout of the hack-and-slash, swashbuckling, smashing, bashing, crashing warriors! Here
+      young recruits learn the basics of weaponry, shielding, and fighting skill. Those wishing to test their
+      skills against tough opponents can take their chances in the arena to the east. A few wizards have been
+      known to battle it out in there, but mortals cannot yet fight each other due to the no playerkilling
+      rule. The War Coach who runs this guild had little trouble raising a defense force of all this proteges
+      to run off the rioters with their stash of swords, shields and bodyarmor. You can leave the guild to the
+      south.
+flag:

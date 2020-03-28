@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:cattle2"
+    short: Horse Stall
+    sight: >
+      This is a very nice horse stall with a few bails of hay in the corner and on a nearby table rests a
+      couple of large brushes with a little bit of hair on them. You can leave the stall to the east.
+flag:
+  - outdoors

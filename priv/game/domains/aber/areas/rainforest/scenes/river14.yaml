@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river18"
+      north:
+        target: "scene:aber:rainforest:river16"
+      south:
+        target: "scene:aber:rainforest:river13"
+      west:
+        target: "scene:aber:rainforest:river11"
+    short: Northern Midstream
+    sight: >
+      The south bank of the river is out of sight below the horizon, although you can still see the trees in
+      that direction. The north bank is closer, and you eye it warily for signs of hostile indians.
+flag:
+  - outdoors
+  - onwater

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:7"
+      up: null
+      west:
+        target: "scene:aber:village:cave"
+    short: Secret Cove
+    sight: >
+      You are standing in a secret cove surrounded by high black crags. A narrow cavemouth leads west into
+      darkness. The rocks and pounding surf along the shore here makes launching boats well nigh impossible.
+flag:

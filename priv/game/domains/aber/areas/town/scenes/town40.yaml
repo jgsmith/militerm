@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town39"
+    short: "Blacksmith's Forge"
+    sight: >
+      This is a large room containing many pieces of metal and a extremely large forge for making many metal
+      items like weapons and even an occasional horseshoe. The only exit is to the south back into the square.
+flag:

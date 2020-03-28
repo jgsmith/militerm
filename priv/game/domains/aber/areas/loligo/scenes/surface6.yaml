@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface6"
+      north:
+        target: "scene:aber:loligo:surface7"
+      south:
+        target: "scene:aber:loligo:surface7"
+      west:
+        target: "scene:aber:loligo:surface4"
+    short: Upon The Ocean Waves
+    sight: >
+      You are lost in the middle of the ocean. You are thoroughly sick of life on the sea, and you wonder how
+      anyone could bear to make a living out of it. You can go in any direction from here - all exits look the
+      same.
+flag:
+  - outdoors
+  - onwater

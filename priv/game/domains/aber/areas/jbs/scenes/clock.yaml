@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:green"
+    short: The Clock Room
+    sight: >
+      As you enter you are nearly knocked to the floor by a giant pendulum swinging in front of the door.
+      After regaining your balance you look around the room and realize that the whole wall behind you is a
+      &+Ygiant clock&*! As you survey the rest of the room you find that it is completely HUNG with clocks of
+      all shapes and sizes, and to your surprise they are all set on different times! Every few minutes you
+      hear a different clock chime out a different hour.
+flag:
+  - peaceful
+  - party

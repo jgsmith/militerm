@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river3"
+      south:
+        target: "scene:aber:rainforest:forest97"
+    short: River Malazon
+    sight: >
+      You are on the River Malazon. The water, though slow-moving, is still too swift for you to travel
+      against its flow. You could perhaps gain the shore to the south, but to the north the trees are too
+      thick to attempt a landing there.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

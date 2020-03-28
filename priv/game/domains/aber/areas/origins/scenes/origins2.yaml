@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins4"
+      north:
+        target: "scene:aber:origins:origins3"
+      south:
+        target: "scene:aber:origins:origins1"
+      west:
+        target: "scene:aber:origins:origins5"
+    short: Into Rivendell
+    sight: >
+      You walk deeper into the great forest, and your awe at the natural splendor only increases. It is
+      obvious by now that sentient beings definitely guard and cherish these woods. The path continues in all
+      directions from here.
+flag:
+  - outdoors
+  - tempreal
+  - nomobiles

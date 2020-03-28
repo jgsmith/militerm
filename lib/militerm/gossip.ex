@@ -17,7 +17,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def channels() do
-    []
+    ["gossip", "testing"]
   end
 
   @impl true
@@ -30,6 +30,10 @@ defmodule Militerm.Gossip do
 
   @impl true
   def message_broadcast(message) do
+    Logger.info(fn ->
+      "Gossip - message broadcast #{inspect(message)}"
+    end)
+
     :ok
   end
 

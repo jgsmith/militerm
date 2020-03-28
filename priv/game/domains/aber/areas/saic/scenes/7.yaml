@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:church"
+      east:
+        target: "scene:aber:saic:6"
+    short: Room of ultimate power
+    sight: >
+      This is the room of absolute power. In fact, it is the room of ultimate power because Cresso made it
+      this way. Do you know how much courage it takes to write a zone when you don't feel like it? So don't
+      say anything if you see weird things like this room. It is absolutely meaningless. Well, not really.
+      Players will wonder what reside in this room. Nobody must tell them. Oh, by the way, what is the meaning
+      of life?
+flag:
+  - saic
+  - nogoto
+  - soundproof
+  - god
+  - noat

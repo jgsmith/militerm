@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung46"
+      west:
+        target: "scene:aber:nibelung:nibelung61"
+    short: Inner Gate
+    sight: >
+      The inner gate was once relied upon heavily, as you spy many scored marks in the door, as if a battering
+      ram had struck it many times. The door is open now, allowing you to continue west, into the castle
+      courtyard, or you can venture to the east, across a drawbrige.
+flag:

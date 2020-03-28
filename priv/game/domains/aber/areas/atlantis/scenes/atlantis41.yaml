@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis42"
+      north:
+        target: "scene:aber:atlantis:atlantis39"
+      west:
+        target: "scene:aber:atlantis:atlantis40"
+    short: Courtyard
+    sight: >
+      The courtyard is an odd congomeration of guards, servants, nobility and tourists. Off to one side of the
+      courtyard you see a jellyfish talking to one of the starfish nobles. Two pagefish dart off to the side
+      at a summons from their master. A number of tourists are standing around looking at all the sights of
+      the castle. Plus there are peddlers selling trinkets to those around them and other fish doing
+      acrobatics and feats of magic. It is a place full of merriment and activity. An opening in the crowd to
+      the west leads to a sand tower and if you push your way you can swim towards some sort of opening to the
+      east.
+flag:
+  - underwater

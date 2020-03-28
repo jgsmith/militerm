@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot214"
+    short: In The Moat
+    sight: >
+      You are in a deep moat. The water swirls around you, and you struggle to remain afloat. Finding some
+      slippery rocks on the bottom, you manage to keep your head above water.
+flag:
+  - outdoors

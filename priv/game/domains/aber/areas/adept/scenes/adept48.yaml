@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:adept:adept49"
+      west:
+        target: "scene:aber:adept:adept44"
+    short: Forest Gaps
+    sight: >
+      The trail passes between fallen trunks, slowing progress through the forest. Mosses grow where the sun
+      manages to penetrate and nocturnal animals live in the holes that the crossing trunks generate. The
+      forest thickens to the west and thins as the trail approaches foothills in the east.
+flag:

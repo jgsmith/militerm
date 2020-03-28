@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven4"
+      east:
+        target: "scene:aber:heaven:heaven6"
+      up:
+        target: "scene:aber:heaven:heaven3"
+      west:
+        target: "scene:aber:heaven:heaven4"
+    short: Wilderness
+    sight: >
+      You are wandering in the wilderness. You have been here for so long that you have lost track of the
+      years.
+flag:
+  - private

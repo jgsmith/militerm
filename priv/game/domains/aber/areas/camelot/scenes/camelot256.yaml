@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot255"
+    short: Waiting Room
+    sight: >
+      You are in a comfortable looking waiting area. There are several soft chairs placed about the room.
+      Along the south wall, below the windows, there is a table set with a number of trays bearing food and
+      drink of various sorts. The northern wall is dominated by a fireplace, which looks quite large enough to
+      keep the room warm, even in the coldest weather.
+flag:

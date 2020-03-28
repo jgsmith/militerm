@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Ledge
+    sight: >
+      Your feet slip on the dangerously thin ledge, and you plunge rapidly downwards to your death...
+flag:
+  - outdoors
+  - death

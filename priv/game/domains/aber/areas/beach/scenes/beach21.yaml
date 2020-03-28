@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach23"
+      north:
+        target: "scene:aber:beach:beach20"
+      south:
+        target: "scene:aber:beach:beach24"
+      west:
+        target: "scene:aber:beach:beach22"
+    short: Paradise
+    sight: >
+      As you leave the harbour town, this small island turns into a jungle of sorts you can hear parents
+      calling thier children in for dinner, and the sounds of the harbour town in the distance, and a feeling
+      of peace envelopes you.
+flag:
+  - outdoors

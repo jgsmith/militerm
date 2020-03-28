@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon58"
+      west:
+        target: "scene:aber:talon:talon56"
+    short: Sandy Cave
+    sight: >
+      This is a small, sandy cave which appears to fill at high tide from the smooth sand, and watermarks on
+      the walls. The pungent smell of sea salt is strong here, and a cool breeze flows from a cave to the
+      east.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:corn_field1"
+      south:
+        target: "scene:aber:undead:stony_path7"
+      west:
+        target: "scene:aber:undead:stony_path9"
+    short: Stony Path
+    sight: >
+      You stand at the northeastern corner of the moat. To your &+Cnorth&* you see a vast mountain range,
+      which even Hannibal would have had second thoughts about crossing (and you have no elephants to help).
+      To your &+Ceast&* lies a corn field that looks like it might be ready to harvest. The path continues to
+      the &+Cwest&* and &+Csouth&*.
+flag:
+  - outdoors

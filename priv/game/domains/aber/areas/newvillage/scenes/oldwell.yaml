@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newvillage:downoldwell"
+      south:
+        target: "scene:aber:newvillage:road1w"
+      west:
+        target: "scene:aber:newvillage:shipyard"
+    short: The Village Well
+    sight: >
+      This well apparently hasn't been used in quite some time. Looking down it you can see that the well is
+      dry and about five feet down, someone has blocked the well off with a sturdy metal grate. The old well
+      cover is lying nearby; made of a wood that has bleached in the sun.
+flag:
+  - outdoors

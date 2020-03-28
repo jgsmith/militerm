@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven25"
+      south:
+        target: "scene:aber:heaven:heaven22"
+    short: Breidablik
+    sight: >
+      You stand in Broad Splendour, Balder's hall. The country around you is beautiful, blessed and untainted
+      by any evil.
+flag:
+  - private

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:deeppasture"
+      south:
+        target: "scene:aber:jbs:pasture"
+    short: Northwest Corner of the Pasture
+    sight: >
+      As you walk through the pasture you notice that, although the grass is patchy in some places, it is
+      generally quite lush from the large amounts of fertilizer left on the ground.
+flag:
+  - outdoors

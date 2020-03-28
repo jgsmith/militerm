@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5539"
+      north:
+        target: "scene:aber:graye:graye5541"
+      south:
+        target: "scene:aber:graye:graye5531"
+      west:
+        target: "scene:aber:graye:graye5538"
+    short: The City Street
+    sight: >
+      Simple houses line both sides of the street, and guards are posted at every junction. There is a castle
+      to the north, and more streets to the east and west. There is a large &+Csign&* posted on a wall here.
+flag:
+  - outdoors

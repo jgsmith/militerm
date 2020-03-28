@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:jbs:jbs163"
+    short: Gravel Pathway
+    sight: >
+      The northern boundary of this section of the pasture is marked by a rusty, creaking cattle gate,
+      drifting open and closed slightly in the wind. Narrow trails wind their way around a few randomly placed
+      grave sites and pool together by this gate. Leading northward is a wider, well-groomed gravel trail, its
+      sides accurately spaced by rocks lining the length of the trail.
+flag:
+  - outdoors
+  - nomobiles

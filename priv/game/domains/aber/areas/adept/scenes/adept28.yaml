@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept27"
+      up:
+        target: "scene:aber:adept:adept29"
+    short: Second Floor
+    sight: >
+      The second story consists mainly of offices for the senior staff of the building. Small, wooden cubicles
+      with only minimum furnishings such as a small wood table for a desk, are crammed together like canned
+      sardines.
+flag:

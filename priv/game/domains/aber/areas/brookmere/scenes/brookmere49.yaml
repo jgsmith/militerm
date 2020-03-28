@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere51"
+      north:
+        target: "scene:aber:brookmere:brookmere49b"
+      south:
+        target: "scene:aber:brookmere:brookmere7"
+    short: Long Corridor
+    sight: >
+      Hurrying along, you find that it is actually a pleasure to walk along this corridor. The paving stones
+      on the floor are smooth and even, the walls are sturdy and well made, a neat alcove has been set into
+      the east wall and the roof doesn't even sag. It is in such good condition it starts to make you
+      suspicious. How is it that this corridor has survived the onslaught of the hobgoblins undamaged? On the
+      floor you can see some faint muddy footprints leading toward the end of the corridor, but you can find
+      none leading back the other way.
+flag:

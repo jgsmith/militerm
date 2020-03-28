@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:novice:clearing"
+      west:
+        target: "scene:aber:novice:southern"
+    short: Enchanting Oak
+    sight: >
+      This particular tree is rather beautiful to look at. Its branches are healthy and wide-spread. The tree
+      seems almost happy and you think it look a little out of place here in this ring.
+flag:
+  - outdoors
+  - real

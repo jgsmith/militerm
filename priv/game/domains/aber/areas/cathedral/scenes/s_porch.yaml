@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:s_tran"
+    short: Southern Porch
+    sight: >
+      A tall spiked &+Lfence&* bars all directions but the way you came. Attempting to get over it would only
+      result in multiple nasty wounds. A heavy &+Wfog&* obscures your vision beyond the &+Lfence&*.
+flag:
+  - dark
+  - outdoors

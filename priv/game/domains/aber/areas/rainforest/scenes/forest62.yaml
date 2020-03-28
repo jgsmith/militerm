@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest60"
+    short: Thicket
+    sight: >
+      You are in the middle of a dense thicket. There is a faint smell of honey in the air and you notice bees
+      swarming around a hole in one of the tree trunks here. The odour makes your mouth water but you are
+      acutely aware that you are in killer bee country and you dare not risk upsetting these creatures.
+flag:
+  - outdoors
+  - rainforest

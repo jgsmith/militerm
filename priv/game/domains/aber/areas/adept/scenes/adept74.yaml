@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept2"
+      up:
+        target: "scene:aber:adept:adept75"
+    short: Higher on the Trunk
+    sight: >
+      Although you have reached a respectable height, the trunk continues upwards as far as you can see.
+      Another branch stretches off to the east here.
+flag:
+  - outdoors

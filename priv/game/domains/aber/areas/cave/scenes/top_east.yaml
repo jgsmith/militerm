@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:e_tower"
+      west: null
+    short: Top Of East Tower
+    sight: >
+      You are standing at the top of the east tower. A narrow staircase winds down, and to the west is a door.
+flag:
+  - dark

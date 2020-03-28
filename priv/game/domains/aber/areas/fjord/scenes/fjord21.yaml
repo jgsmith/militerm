@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord22"
+      south:
+        target: "scene:aber:fjord:fjord20"
+    short: Groomed Beach
+    sight: >
+      The beach here has been shaped into a half-moon, letting the meadow edges grow right to the water.
+      Lining this semi-circle are small rocks engraved with pictures of hands. The rocks are a true work of
+      art - each pair of hands appears to be 'held' by the opposing hand of its neighbor, completing a link
+      around the beach. Leading due north beyond the rocks is a pathway made out of mother-of-pearl quartz
+      pebbles, which runs to a halt between two towering pyramids of smooth stone. The lake stretches away to
+      the south.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc55"
+      east:
+        target: "scene:aber:ancient:anc52"
+      north:
+        target: "scene:aber:ancient:anc49"
+      south:
+        target: "scene:aber:ancient:anc46"
+      west:
+        target: "scene:aber:ancient:anc48"
+    short: The Square of the Souls Forgotten
+    sight: >
+      The story of the pictures goes on as you enter a large hall that has exits to all directions. You find
+      out that, not long before the town above you was abandoned, the astronomers found a new bright star in
+      the sky. The star was thought to be a sign of destruction coming to the town. You can see more of these
+      pictures leading to each direction.
+flag:

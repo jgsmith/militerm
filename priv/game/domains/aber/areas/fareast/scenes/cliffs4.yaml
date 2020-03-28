@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:ricepaddy"
+      north:
+        target: "scene:aber:fareast:cliffs6"
+      south:
+        target: "scene:aber:fareast:ricepaddy"
+      west:
+        target: "scene:aber:fareast:cliffs5"
+    short: Toward the Northern Cliffs
+    sight: >
+      This ridge overlooks a stream descending from further on up the northwest valley, and you can make out a
+      rice paddy and groups of peasants downstream to the south. A well-worn path cuts up the side of the rise
+      to the north, following the valley closely while continuing to climb. To the west, a sloping descent
+      will bring you down and over to a slightly lower spot on the same northern cliff face.
+flag:
+  - outdoors

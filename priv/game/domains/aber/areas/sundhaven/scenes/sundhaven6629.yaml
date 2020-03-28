@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6630"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6628"
+    short: A slight wrinkle in the fabric of space
+    sight: >
+      You stand in a void, not knowing how you got here or where you'll end up. Maybe a wizard sent you here,
+      or else some black magic is at work to annoy you. Fortunately you can escape to the west or east.
+flag:
+  - outdoors

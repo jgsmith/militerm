@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:elm"
+    short: Walnut Tree
+    sight: >
+      You are in an old and stately nut tree. At the fork of the trunk is a hollow, formed from an old ax
+      wound. A soft boarskin is stretched across the hollow, making a cosy refuge in the shade of the dark
+      green foliage. In a deep incision in the bark, now so old and deformed that it no longer seems the work
+      of human hands, is carved in big letters: Cosimo, Viola, and beneath: Ottimo Massimo.
+flag:
+  - outdoors

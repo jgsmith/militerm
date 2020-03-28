@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oaktree:oaktree26"
+    short: Beneath the Olive Tree
+    sight: >
+      The light is much dimmer here, as the branches almost completely block out the sun. The grass is neatly
+      trimmed and it's obvious that someone takes proper care of these groves. The only exit lies to the west.
+flag:

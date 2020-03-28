@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome6"
+    short: The Back Room
+    sight: >
+      If you thought that there were a lot of &+Cweapons&* in the front of the store, you haven't seen
+      anything yet!! There is barely enough room to walk amongst the crates of armor and swords. No wonder
+      Rome will stand for a thousand years. The only exit is through a door to the north.
+flag:

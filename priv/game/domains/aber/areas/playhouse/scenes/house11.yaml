@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:playhouse:house2"
+      east:
+        target: "scene:aber:playhouse:house12"
+      south:
+        target: "scene:aber:playhouse:house14"
+      west:
+        target: "scene:aber:playhouse:house17"
+    short: Upstairs Landing
+    sight: >
+      This is the second floor landing. There are stairs leading down to the first floor. Rooms branch off in
+      various directions from here. To the west is a hallway. To the south is a three-way hallway. Of course
+      to the east is Grandie and Sweetie's room.
+flag:

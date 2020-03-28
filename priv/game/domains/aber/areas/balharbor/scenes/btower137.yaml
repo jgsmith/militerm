@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:balharbor:btower135"
+    short: "Sisera's Quarters"
+    sight: >
+      This highly decorated and furnished living chamber done especially for Sash Commander Sisera seems
+      strangely out of place in this spooky tower. Despite that fact, Sisera had this room redone by his men
+      so he could be out of sight while he did his planning to take over the country. Looking around, you see
+      an expensive scarlet rug, a king-sized bed with silk sheets and velvet blankets covering it, a large
+      nightstand with a rare Ming vase, a sizable rack of various wines, and a huge cedar dresser. Some
+      strange trinkets are sitting in one corner of the room, which seem to be different from what's generally
+      associated with the Sash organization. They look like artifacts of a sorcerer...in fact a small
+      engraving on one of those pieces says 'Shazareth'!
+flag:

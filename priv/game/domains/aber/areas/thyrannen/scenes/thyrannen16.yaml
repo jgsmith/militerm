@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:thyrannen:thyrannen14"
+    short: Redwood Forest
+    sight: >
+      The forest Dead ends here, leaving the only exit to the west.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept44"
+      west:
+        target: "scene:aber:adept:adept42"
+    short: Nareth Forest
+    sight: >
+      The welcoming green of millions of leaves on thousands of trees of various colors of brown and tan
+      flourishes before your eyes. Mainly a deciduous, low-latitude area, the Nareth supports species of life
+      rivalling that of the rain forests. Those who were the first ones here were kind enough to trailblaze
+      carefully to preserve the ecology. As it is, the sounds of life are never far. Low trees and bushes
+      shake at random as the chase of the food chain is brought to them; an army of crickets burst forth from
+      up the path with a red fox in hot pursuit. A garden snake slithers around your feet and disappears into
+      the safety of its burrow. Besides the animal habitation sounds, the wind is doing its own fair share of
+      whistling as it skims the tops of the trees.
+flag:

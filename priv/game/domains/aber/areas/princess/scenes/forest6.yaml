@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:princess:forest5"
+      south:
+        target: "scene:aber:princess:mountain"
+      up:
+        target: "scene:aber:princess:mountain"
+    short: The Edge of the Forest
+    sight: >
+      As you continue down the path, you are able to see the mountains looming in the distance. There are
+      fewer and fewer trees. You hope to get out of this crazy forest soon!!
+flag:
+  - outdoors

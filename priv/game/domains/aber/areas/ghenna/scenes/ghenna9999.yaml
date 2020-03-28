@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: A pit of jutting spears.
+    sight: >
+      You F A L L 	 	 and die, impaled by a dozen spears. &+R A A A A A A A A A A A A A A &+R | A | A | A | A
+      | A | A | A | A | A | A | A | A | A | A &+W | | | | | | | | | | | | | | | | | | | | | | | | | | | | &+W
+      | | | | | | | | | | | | | | | | | | | | | | | | | | | | &+RFATALITY!!!
+flag:
+  - nomobiles
+  - death

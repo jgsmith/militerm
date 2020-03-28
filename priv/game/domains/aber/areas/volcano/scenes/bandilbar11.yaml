@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar12"
+      north:
+        target: "scene:aber:volcano:bandilbar8"
+      south:
+        target: "scene:aber:volcano:bandilbar13"
+    short: Centre Of Yorrin
+    sight: >
+      You are in the village centre. Here you are most struck by the silence and the emptiness. The houses and
+      shops all around you have their doors locked and bolted, and their windows shuttered. Except, however,
+      for a small weapons shop to the east which appears still to be in business.
+flag:
+  - outdoors

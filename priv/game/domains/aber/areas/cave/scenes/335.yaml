@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:cave:334"
+    short: The Gates of Thorbadin
+    sight: >
+      You stand in a large room where stone has been smoothed to perfection. This is obviously the work of
+      dwarven artisens.
+flag:
+  - dark

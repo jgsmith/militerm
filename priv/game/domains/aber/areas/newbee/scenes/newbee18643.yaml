@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newbee:newbee18642"
+      south:
+        target: "scene:aber:newbee:newbee18645"
+    short: The Balcony
+    sight: >
+      Here you can look out and observe the world around. Constructed in a semi-circle around the dome of the
+      room, the balcony allows you to look out in almost any direction. Wandering to the north end, you can
+      see the the valley to the north, and a village to the east.
+flag:

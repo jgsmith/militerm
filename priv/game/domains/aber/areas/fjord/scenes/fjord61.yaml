@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord60"
+      up:
+        target: "scene:aber:fjord:fjord62"
+    short: The High Lake
+    sight: >
+      The boat is controlled by pulling on a cord which is stretched taut across the entire lake. The wake is
+      quite small traveling at such a pace, but there is good reason to be using this boat. The lake waters
+      are highly acidic from the constantly spouting volcano, although not enough to cause instant dissolution
+      - to boats. But with repeated use, wooden and metal boats would be eaten, and then whoever ended up
+      swimming would become part of the lake rather quickly and painfully. A pier of rock is where one end of
+      the rope starts, marking the shoreline and a section of the Phaylax Trail.
+flag:
+  - outdoors
+  - cold
+  - onwater

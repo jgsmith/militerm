@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:office"
+      north:
+        target: "scene:aber:eforest:guarded"
+    short: Hall of the Undead
+    sight: >
+      You are standing in a room light by an unearthly glowing light. Howling shapes flow around a blackened
+      altar in the center of the room, and you are surrounded by ghosts. Fortunately, none of the fearsome
+      spirits seem to notice you. Exits from the room lead to the east and north.
+flag:

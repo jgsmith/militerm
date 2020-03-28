@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord37"
+      west:
+        target: "scene:aber:fjord:fjord39"
+    short: Rise of the Mutated Cones
+    sight: >
+      The Muskrats climb ever higher into these northern mountains. The trees here are shorter and look much
+      more surreal, aside from their cones. Hanging from the multitudes of branches spread aside the
+      forcefully shredded track you are following are pine cones the size of bee hives. The leaves are
+      perfectly round and spaced on each one, forming an artistic perfection unheard of in nature. Yet this is
+      not directly Mother Nature's doing, and the most noticeable thing about the defects is the wide array of
+      colors of the cones - only a few are the standard brown. Differences are not limited to the pine cones,
+      as shown by the trunks, where varying tendrils of thickness wind themselves like rope. Unlike a single,
+      solid, wooden base like most of these trees within the Muskrats, this form of life is much more
+      resilient in combating animals and the elements.
+flag:
+  - outdoors

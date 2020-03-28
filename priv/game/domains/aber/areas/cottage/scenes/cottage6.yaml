@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage7"
+      west:
+        target: "scene:aber:cottage:cottage3"
+    short: Front Walk
+    sight: >
+      This narrow path runs from east to west connecting the front porch with the driveway. You treak
+      carefully so as to avoid trampling the flowers.
+flag:

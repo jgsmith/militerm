@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast14"
+      north:
+        target: "scene:aber:ruins:deathroom"
+      south: null
+      west:
+        target: "scene:aber:ruins:geast12"
+    short: Southern Corridor
+    sight: >
+      You are in the southern corridor of a large catacomb. A chilling breeze rips through you and you shiver
+      uncontrollably as you look around this area. The catacomb continues to the east and west and there is a
+      door to a room to the south. To the south you hear whispers of the past speaking of great pain and
+      suffering. It is a very dark room, and you can't see anything inside of it. A sudden gust of wind brings
+      the smell of decaying flesh to your nose. You don't think it would be a good idea to go that way.
+flag:
+  - dark

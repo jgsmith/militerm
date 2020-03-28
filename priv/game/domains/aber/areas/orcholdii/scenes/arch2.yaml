@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:orcholdii:entry"
+      south:
+        target: "scene:aber:orcholdii:arch2p2"
+      west: null
+    short: Through the Arch
+    sight: >
+      This is a grand hallway that archs well over your head. The floor is a deep blue quartz and the lights
+      are what seem to be magical balls of continual light held in place by silver lanterns. As you look
+      around you become certain that this was not constructed by orcish hands. The doorway to the east is
+      blocked by yellow tape. On the tape is written, "Do Not Enter." There is a door to the west and the
+      grand entry is to the north.
+flag:

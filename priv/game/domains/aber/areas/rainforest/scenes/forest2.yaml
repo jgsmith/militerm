@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest7"
+      north:
+        target: "scene:aber:rainforest:forest3"
+      west:
+        target: "scene:aber:rainforest:forest1"
+    short: Upper Reaches Of The Rainforest
+    sight: >
+      You are entirely surrounded by tall trees with slender trunks which reach up high in search of light. A
+      hundred feet above you they branch out into a vast green canopy, blocking out nearly all of the sun's
+      rays. Long creepers and lianas climb the tree trunks, while others hang free to dangle on the forest
+      floor. To the north you hear the rushing of a youthful river.
+flag:
+  - outdoors
+  - rainforest

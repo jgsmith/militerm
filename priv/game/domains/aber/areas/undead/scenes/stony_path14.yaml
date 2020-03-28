@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:stony_path13"
+      south:
+        target: "scene:aber:undead:stony_path15"
+    short: Stony Path
+    sight: >
+      As you continue along the moat, you wonder whether you will ever find a way into this castle. The moat
+      continues both &+Cnorth&* and &+Csouth&*.
+flag:
+  - outdoors

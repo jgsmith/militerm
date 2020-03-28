@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot88"
+      north:
+        target: "scene:aber:camelot:camelot90"
+      south:
+        target: "scene:aber:camelot:camelot90"
+      west:
+        target: "scene:aber:camelot:camelot90"
+    short: Rough Wilderness
+    sight: >
+      The terrain here is very rough, and it is easy to believe that nobody has been here in years. To the
+      east, a faint trail leads down from the mountain. Wilderness lies in all other directions.
+flag:
+  - outdoors

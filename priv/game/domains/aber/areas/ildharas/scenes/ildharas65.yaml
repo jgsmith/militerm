@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The Palace of Darhaveret
+    sight: >
+      Atop a high hill, the palace overlooks a dusty city filled with bright awnings and a wide,
+      crescent-shaped harbor. Arabic in much of its design, you could lose yourself contemplating the
+      intricate friezes and the perfection of its geometry.
+flag:

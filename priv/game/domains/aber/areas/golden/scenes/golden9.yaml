@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden8"
+      west:
+        target: "scene:aber:golden:golden11"
+    short: Path to the Village
+    sight: >
+      You are standing on a large, smooth dirt path that evidently leads to a small native village. The smell
+      of cocoa beans arouses your senses, causing you to become hungry.
+flag:
+  - outdoors

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:catacomb:19"
+      east:
+        target: "scene:aber:catacomb:2"
+      north:
+        target: "scene:aber:catacomb:1"
+      south:
+        target: "scene:aber:catacomb:4"
+      west:
+        target: "scene:aber:catacomb:1"
+    short: The Catacombs
+    sight: >
+      You are standing in a small, subterranean chamber. Set into the walls at regular intervals are deep
+      recesses, within which lie the stone tombs of a generation long since departed. A gentle breeze blows in
+      from the passage to the north, while dark hallways lead south, east, and west. A spiral staircase fills
+      one corner of the room.
+flag:
+  - dark

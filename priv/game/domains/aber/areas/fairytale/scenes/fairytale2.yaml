@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale1"
+      up:
+        target: "scene:aber:fairytale:fairytale3"
+    short: On the Vine
+    sight: >
+      The vine seems to be solid, and you find it easy to climb both up and down.
+flag:

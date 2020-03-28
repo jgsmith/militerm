@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5279"
+      north:
+        target: "scene:aber:yllythad:yllythad5283"
+      south:
+        target: "scene:aber:yllythad:yllythad5285"
+      west:
+        target: "scene:aber:yllythad:yllythad5289"
+    short: Placid Waters
+    sight: >
+      The waters of the sea do not seem to move at all, not even with the usual gentle up and down sway that
+      all seas have. Looking to the horizon, the waters seem to go on forever.
+flag:
+  - onwater
+  - outdoors

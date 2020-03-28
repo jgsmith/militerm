@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq05"
+      west:
+        target: "scene:aber:nwbeaches:beachqq11"
+    short: Along the Beach
+    sight: >
+      You stand on a beach which stretches east to west for as far as your eyes can see. Jumbles of rock and
+      scree litter the way here, making it so you must watch your step. You notice a bit of wood, partially
+      buried in the sand of the beach here. West is more rocky beach, while east the way gets a bit more flat.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Shell Pile
+    sight: >
+      You have never seen so many shells in your entire life. It seems this is where the denizens of Atlantis
+      desposit all their shells when they are through with them. Seashells of all colors and varieties
+      dominate the pile while more exotic ones can be seen scattered throughout. There is even a snail shell
+      to one side of the pile that is the size of a small horse, colored a very lovely shade of pink.
+      Scattered around the pile are smaller versions of that shell along with discarded oyster, clam and crab
+      shells. This would be quite the treasure if you could bring them all back with you.
+flag:
+  - underwater

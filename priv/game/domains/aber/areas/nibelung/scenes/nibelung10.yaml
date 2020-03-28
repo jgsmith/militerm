@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung7"
+      up:
+        target: "scene:aber:nibelung:nibelung11"
+    short: Foothills
+    sight: >
+      The mountains rise up sharply before you. The air is much colder here, and a cold breeze blows down from
+      the pass above you. Below you are the lowlands of this mountainous area, and grasses and scrub brush can
+      be seen struggling to grow there. The path is littered with chunks of granite from the eons of creation
+      that have passed.
+flag:
+  - outdoors
+  - nomobiles

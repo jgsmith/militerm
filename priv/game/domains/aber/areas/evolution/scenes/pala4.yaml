@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:pala3"
+    short: Bushy Dip
+    sight: >
+      You have entered a cluster of tangled bushes which look decidedly thorny and impenetrable. You search
+      for a way through but eventually give up. You will have to head back west to more open areas.
+flag:
+  - outdoors

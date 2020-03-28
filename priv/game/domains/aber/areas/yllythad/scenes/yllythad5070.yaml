@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:yllythad:yllythad5075"
+      south:
+        target: "scene:aber:yllythad:yllythad5065"
+      west:
+        target: "scene:aber:yllythad:yllythad5069"
+    short: In the Fog
+    sight: >
+      A thick fog has rolled in over the ocean's surface, obscuring what lies ahead and making it almost
+      impossible to see more than a few feet ahead. Things seems to have gotten just a little too quiet.
+flag:
+  - onwater
+  - outdoors

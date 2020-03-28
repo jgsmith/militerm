@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:shore17"
+    short: Inside the Cave
+    sight: >
+      You are in a dark, dank cave. It appears to be man made by the shaping of the walls. Mist blows in from
+      the shoreline to the north giving a strong fishy oder. The ground is all a white sandy color except for
+      one corner of the cave where orange and yellow clays appear.
+flag:
+  - dark

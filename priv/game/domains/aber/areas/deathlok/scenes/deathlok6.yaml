@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:deathlok:deathlok5"
+      up:
+        target: "scene:aber:deathlok:deathlok7"
+    short: Dark Ledge
+    sight: >
+      After following the path, you reach a dark and treacherous ledge. Looking around, you realize that the
+      only passage up to the mountain peak is by clinging to the ledge. Suddenly, you realize that the ledge
+      leads up to a momument of some kind. The only exits leading from here are up and down. Looking up, you
+      notice a temple of some kind. Leading down, you notice that it leads back to the mountain pathway.
+flag:

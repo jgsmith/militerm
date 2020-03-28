@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5561"
+      south:
+        target: "scene:aber:graye:graye5559"
+    short: The Catacombs
+    sight: >
+      You walk along the passage, and notice the remains of all the previous kings of Graye are buried on
+      either side of you. You can see in the room, but there is no discernable source of light. The passage
+      continues on to the north and south.
+flag:

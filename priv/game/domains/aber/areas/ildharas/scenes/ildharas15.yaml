@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas16"
+      north:
+        target: "scene:aber:ildharas:ildharas17"
+      south:
+        target: "scene:aber:ildharas:ildharas07"
+      west:
+        target: "scene:aber:ildharas:ildharas14"
+    short: Outer Courtyard
+    sight: >
+      The outer courtyard offers a strange juxtaposition between then and now. A majestic castle rests against
+      the mountainside to the north, untouched by time. A crumbling and age-worn wall molders to the south,
+      ruined and ancient. The architectural styles suggest the two were built together, but how could one age
+      and the other not? A smithy lies to the east and a barracks to the west, these also intact.
+flag:
+  - outdoors

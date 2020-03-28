@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd04"
+    short: The Large Mesa
+    sight: >
+      To the south a great, impassable rock wall looms high above you. It seems to sneer at you, puny compared
+      to its enormous size...it least you're in the shade. A small footpath leads north from here.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:cave:tunnel"
+      west:
+        target: "scene:aber:cave:hall"
+    short: Wide Passage
+    sight: >
+      You are standing in a wide but low dwarven passage way which leads south and west. There is a door to
+      the north.
+flag:
+  - dark

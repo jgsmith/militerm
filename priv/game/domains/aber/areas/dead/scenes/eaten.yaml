@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: Eaten
+    sight: You slide down the gullet of an enormous whale...
+flag:
+  - death

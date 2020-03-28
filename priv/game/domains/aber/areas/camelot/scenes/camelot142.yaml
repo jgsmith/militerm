@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot141"
+    short: In The Flames
+    sight: >
+      You have shown great courage to walk into the flames. Either that, or you're a suicidal idiot... In any
+      case, you discover that the flames do not consume you as you might expect them to.
+flag:
+  - dark

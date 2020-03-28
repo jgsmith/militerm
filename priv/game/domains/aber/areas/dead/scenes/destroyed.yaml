@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Destroyed
+    sight: >
+      This oppressive room contains the broken remnants of shattered dreams, foiled ambitions, and unrequited
+      love. The sight of such loss is more than your tortured soul can bear. You decide to end it all...
+flag:
+  - death

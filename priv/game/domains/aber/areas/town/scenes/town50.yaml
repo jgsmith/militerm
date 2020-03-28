@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town51"
+      north:
+        target: "scene:aber:town:town54"
+      south:
+        target: "scene:aber:town:town48"
+    short: Clearing
+    sight: >
+      The road opens into a large clearing in the woods and off in the north just visible in the blinding sun
+      is the Castle of Pensalon. To your east you can smell fresh food cooking and you can even see a little
+      smoke rising up from what seems to be a small campsite. The woods to the south begin to thicken around
+      the road.
+flag:
+  - outdoors

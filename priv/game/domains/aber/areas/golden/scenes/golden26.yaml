@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden25"
+      north:
+        target: "scene:aber:golden:golden27"
+    short: Outside the Temple
+    sight: >
+      Ahead of you is a magnificent, centuries-old temple built by the natives' ancestors. There are four
+      obelisks near each corner of the temple which are rough and pitted from exposure. On top of the temple
+      there is a moon-shaped bronze ring that reflects the sun's rays. Bits of crumbling clay roll of the
+      walls of the temple as the wind blows. Two carved statues of lions sit proudly at the temple entrance.
+flag:
+  - outdoors

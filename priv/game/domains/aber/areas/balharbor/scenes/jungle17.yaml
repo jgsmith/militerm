@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:jungle11"
+      west:
+        target: "scene:aber:balharbor:jungle16"
+    short: Quiet Trail
+    sight: >
+      This is a quieter part of the jungle, but it's jungle nonetheless. Paths runs west and south.
+flag:
+  - outdoors

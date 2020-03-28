@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3452"
+      south:
+        target: "scene:aber:grave:grave3453"
+      up: null
+    short: Beneath the Church
+    sight: >
+      Here is the final rally point for the undead hordes that overran the church. Laying in scattered piles
+      are maps, discarded equipment, and written instructions on the attack upon the church. The room is very
+      large and it is apparent that whoever planned the attack dispatched a great many warriors to sacrifice
+      themselves, so others behind them may be succesful. The smells that overcome you are from the evil
+      beings bent on destruction. There are exits up, north and south.
+flag:

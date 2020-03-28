@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelvolume"
+      north:
+        target: "scene:aber:nibelung:nibelung32"
+      south:
+        target: "scene:aber:nibelung:nibelung38"
+      west:
+        target: "scene:aber:nibelung:nibelung34"
+    short: Cellar Hole
+    sight: >
+      The cellarhole is partially filled in with debris. Some brush is growing off to one side, and weeds seem
+      to abound here. Off to the north stands a crumbling tavern, and to the south is a house.
+flag:
+  - outdoors

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook165"
+      south:
+        target: "scene:aber:fairybook:fairybook167"
+    short: Atop the Wall
+    sight: >
+      You stand atop the wall, looking into the yard beyond. Before you is a great stretch of country having a
+      floor as smooth and shining and white as the bottom of a big platter. Scattered around are many houses
+      made entirely of china and painted in the brightest colours. These houses are quite small, the biggest
+      of them reaching only as high as your waist. There are also pretty little barns, with china fences
+      around them, and many cows and sheep and horses and pigs and chickens, all made of china, standing
+      around in groups. But the strangest of all are the people who live in this queer country. There are
+      milk-maids and shepherdesses, with bright-colored bodices and golden spots all over their gowns; and
+      princesses with most gorgeous frocks of silver and gold and purple; and shepherds dressed in
+      knee-breeches with pink and yellow and blue stripes down them, and golden buckles on their shoes; and
+      princes with jewelled crowns upon their heads, wearing ermine robes and satin doublets; and funny clowns
+      in ruffled gowns, with round red spots upon their cheeks and tall, pointed caps. And, strangest of all,
+      these people are all made of china, even to their clothes, and are so small that the tallest of them is
+      no higher than your knee. A ladder leads south to the China Land, and north to a strange path.
+flag:
+  - outdoors

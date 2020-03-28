@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Pool
+    sight: >
+      You are surprised to find that instead of sinking into the pool, you are able to stand on top of it as
+      if it were solid rock. You find that you are able to walk around the pool without any problems.
+flag:

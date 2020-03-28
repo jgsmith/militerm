@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon34"
+    short: "Chef's Living Quarters"
+    sight: >
+      This is a small room that is very messy with recipes for various extravagant dishes scattered
+      everywhere. The only exit from this room is to the north.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eosia:eosia11"
+    short: The Pandion Chapterhouse
+    sight: >
+      ...is almost the size of the royal castle itself. More of a keep than a castle, the chapterhouse is the
+      home of the Pandion knights in Cimmura. You stand in the main hall of the building now. All about you
+      stand suits of armor, each one belonging to a famous Cimmurian Pandion. The most famous, of course, is
+      Sir Sparhawk, Champion to Queen Ehlana. Knights block every exits except the one to the west.
+flag:
+  - party

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins41"
+      south:
+        target: "scene:aber:origins:origins49"
+    short: Entrance to the Spaceport
+    sight: >
+      You come to a large compound, almost as large as the Temple of Syrinx, filled with large objects that
+      fly without effort. You have never seen such wonder. You are still too far outside the Spaceport to see
+      any more detail. You may return north to Megadon or enter the Spaceport to the south.
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

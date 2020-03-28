@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:rocks"
+      north:
+        target: "scene:aber:eastcoast:bstream"
+      south:
+        target: "scene:aber:eastcoast:dunes"
+      west:
+        target: "scene:aber:eastcoast:bstream"
+    short: In the Brambles
+    sight: >
+      You are beating your way through a dense clump of thorny foliage, and think that this was not really the
+      best idea, since the plants seem to have a mind of their own and appear to tear into your exposed flesh
+      whenever you think you've moved it out of the way, or prick you in the most sensitive areas. Safer ways
+      of travel lie to the east and south, but to the north and east, you might just be able to escape the
+      thorny overgrowth by plunging on through headlong.
+flag:
+  - outdoors

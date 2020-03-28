@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:avairy:castle27"
+    short: Royal Cell
+    sight: >
+      You have entered a very strong, nicely decorated cell. This is apparently where royal prisoners are
+      kept.
+flag:
+  - light

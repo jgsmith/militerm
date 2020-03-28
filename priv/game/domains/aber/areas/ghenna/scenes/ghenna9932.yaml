@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9925"
+      north:
+        target: "scene:aber:ghenna:ghenna9933"
+      south:
+        target: "scene:aber:ghenna:ghenna9900"
+      west:
+        target: "scene:aber:ghenna:ghenna9920"
+    short: A labyrinth of bodies.
+    sight: >
+      You are standing within a labyrinth created from bodies which are stacked 10 feet high. It seems that
+      some of the bodies are still warm, and an occasional cry of despair comes from the mass.
+flag:
+  - dark
+  - maze

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung8"
+    short: Canyon
+    sight: >
+      It's not the Grand Canyon, but it'll do. The light here is very dim, as the sun is well beyond the rim
+      of the canyon. It is much cooler here too, but the air is fresh and clean. There are some wildflowers
+      and brush growing here and there. The northern end appears to be blocked, but there is a path to the
+      south. There are some birds chirping in the distance.
+flag:
+  - outdoors

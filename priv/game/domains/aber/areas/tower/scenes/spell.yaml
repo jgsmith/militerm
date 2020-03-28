@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:tower:potion"
+    short: Spell Room
+    sight: >
+      This room would appear to be one of the Sorceror's many spell rooms as its scorched walls show the signs
+      of many a fireball spell or a more dangerous variant of it. A single scorched doorway leads north.
+flag:

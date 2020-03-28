@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:pasture"
+      north:
+        target: "scene:aber:jbs:path3"
+      west:
+        target: "scene:aber:jbs:path1"
+    short: Farm Path
+    sight: >
+      The path here turns towards the north, but further to the east you can see a large field.
+flag:
+  - outdoors

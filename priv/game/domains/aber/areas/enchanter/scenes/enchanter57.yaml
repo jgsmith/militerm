@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+    short: Dungeon Cell
+    sight: >
+      This is the only cell in the castle's dungeon. In one corner there is a deep hole, with an evil smell
+      coming from it. The cell door is south.
+flag:
+  - dark

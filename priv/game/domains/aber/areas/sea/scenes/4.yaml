@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:7"
+      north:
+        target: "scene:aber:sea:3"
+      south:
+        target: "scene:aber:sea:5"
+      west:
+        target: "scene:aber:sea:6"
+    short: All At Sea
+    sight: >
+      You are all at sea, amidst the high heaving waves. The waters look no safer in any direction, although
+      to the east they pound against a huge rock, which rises straight and steeply upwards from the sea.
+flag:
+  - onwater
+  - outdoors

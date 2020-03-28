@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan55"
+    short: Dead End
+    sight: >
+      Huge boughs from the crystalline trees have broken off and fallen to the ground here, creating an
+      impassable blockage of needle sharp crystal shards. The only way out is to return to the narrow path to
+      the east.
+flag:
+  - outdoors

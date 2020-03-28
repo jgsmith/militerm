@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6633"
+    short: The Bread Basket
+    sight: >
+      You pass into an unusually humble dwelling and shop for the town, built from baked clay and hot from the
+      cumbersome bread ovens projecting partially out of the far wall. The smell of fresh bread is
+      mouth-watering.
+flag:
+  - nomobiles

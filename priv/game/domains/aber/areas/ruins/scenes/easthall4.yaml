@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:mossyeast"
+      west:
+        target: "scene:aber:ruins:easthall3"
+    short: Further in the Eastern Hall
+    sight: >
+      You are now even further in the eastern hall. The floor is very mushy due to the overgrowth of moss and
+      your feet sink into the moss with every step that you take.
+flag:
+  - dark

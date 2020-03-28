@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6700"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6694"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6707"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6696"
+    short: A path of black grass
+    sight: >
+      A little trail picks its way among small ill-anchored stones and patches of black, wiry grass, that at
+      first site gives the place a ravaged, charred look. However, the vegetation is living, just endowed with
+      a dark hue.
+flag:
+  - outdoors

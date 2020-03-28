@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:glen"
+      south:
+        target: "scene:aber:grove:over_view"
+    short: Grove Path
+    sight: >
+      You are on a well-made path through the elven forest's beautiful canopy. Twisting around the trees, the
+      path takes you deep into the forest, making you wonder where you are.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

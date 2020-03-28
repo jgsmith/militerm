@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower20"
+      east:
+        target: "scene:aber:balharbor:btower17"
+      north:
+        target: "scene:aber:balharbor:btower11"
+      south:
+        target: "scene:aber:balharbor:btower21"
+      west:
+        target: "scene:aber:balharbor:btower15"
+    short: Dark Corridor
+    sight: >
+      Feeling...lllllooooonnnnneeeeelllllyyyyy? There is the shape of the letter 'W' in the floor.
+flag:
+  - dark
+  - maze

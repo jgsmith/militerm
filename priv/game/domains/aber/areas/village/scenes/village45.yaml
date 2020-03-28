@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:village44"
+      south:
+        target: "scene:aber:blizzard:woods3"
+      west:
+        target: "scene:aber:blizzard:bridge"
+    short: The Village Gates
+    sight: >
+      You are standing in the opening of the village gates. Many adventurers before made the step outside. An
+      unknown number of them aren't around any more to tell their story. The gates used to be heavily guarded,
+      but it has been a while now since the gates were closed. To the east you can enter the village
+      marketplace while to the west a path leads into the forest. Just outside the gates you can go south to a
+      rough patch of land to the south of the village.
+flag:
+  - outdoors

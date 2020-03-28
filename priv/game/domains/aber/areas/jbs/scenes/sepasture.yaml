@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:gate"
+      west:
+        target: "scene:aber:jbs:swpasture"
+    short: Southeastern Corner of the Pasture
+    sight: >
+      The grass here is much thicker than in the rest of the field. The pasture continues to the north and
+      west, and to the northeast you see the farmhouse where the proprietors of this fine pasture must live.
+      In the corner by the fence you see a pile of flop.
+flag:
+  - outdoors

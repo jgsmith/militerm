@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge10"
+      east:
+        target: "scene:aber:ledge:ledge10"
+      west: null
+    short: Old Mining Tunnel
+    sight: >
+      You have seemingly uncovered an enterance to an old coal mining tunnel that was buried by a rockfall
+      caused by an earthquake some time ago. Large wooden beams seem to hold up the ceiling further down
+      despite the splintering and cracking over time with each quake. The tunnel decends further downward to
+      the east.
+flag:
+  - dark

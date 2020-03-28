@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest5"
+      south:
+        target: "scene:aber:rainforest:forest3"
+      west:
+        target: "scene:aber:rainforest:forest6"
+    short: Midstream
+    sight: >
+      You are in the middle of the stream. The strength of the current is so intense that you are in danger of
+      being swept away at any moment. Fortunately it is not too deep here. To the east you could clamber out
+      on to a slippery- looking rock.
+flag:
+  - outdoors

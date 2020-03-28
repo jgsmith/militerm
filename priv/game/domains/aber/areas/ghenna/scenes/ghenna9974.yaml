@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9973"
+      north:
+        target: "scene:aber:ghenna:ghenna9975"
+      west:
+        target: "scene:aber:ghenna:ghenna9976"
+    short: An upstairs hallway.
+    sight: >
+      The hallway continues towards the East and West, while to the North a door stands ajar, a "Do Not
+      Disturb" sign hanging from the knob.
+flag:

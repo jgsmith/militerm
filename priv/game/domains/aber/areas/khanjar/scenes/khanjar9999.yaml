@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Falling Down
+    sight: >
+      Whoops...you slip, you fall, you DIE!!! Don't feel bad, you aren't the only one who hasn't mastered
+      climbing the side of a gorge.
+flag:
+  - death

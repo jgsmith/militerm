@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9561"
+      north:
+        target: "scene:aber:khanjar:khanjar9559"
+    short: A Narrow Path
+    sight: >
+      You step on a narrow path, engraved deep in the ground. Several stones make your walking quite
+      difficult, and you are worried about your feet. The foliages form a green and inpenetrable "wall" around
+      the path which seems to descend to the east.
+flag:
+  - outdoors

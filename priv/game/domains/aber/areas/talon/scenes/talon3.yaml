@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon2"
+    short: Small Storage Room
+    sight: >
+      This room appears to be an area used to keep belongings which the inhabitant of this cave may wish to
+      store. The only exit from this room is to the south.
+flag:
+  - dark

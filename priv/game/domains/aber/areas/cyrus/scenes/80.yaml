@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cyrus:79"
+    short: Circular room
+    sight: >
+      You are now standing in a small, circular room. You can see some light to the south. The only exit is
+      south of here, back from where you came. This room is very smelly for an unknown reason. The footsteps
+      ends here. You can only return from where you came, to the south.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:northern"
+      north:
+        target: "scene:aber:novice:trail_3"
+      south:
+        target: "scene:aber:novice:western"
+    short: Small Oak
+    sight: >
+      This particular tree seems like it has lost a few limbs in its day. You feel sad for it and decide to
+      move on before you get too depressed. You notice another small path to the north, and to the south, you
+      can still see the other trees that comprise this marvelous ring.
+flag:
+  - outdoors
+  - real

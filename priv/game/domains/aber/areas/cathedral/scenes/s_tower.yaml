@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:nave1"
+      up:
+        target: "scene:aber:cathedral:s_stairs"
+    short: The South Tower
+    sight: >
+      This room is bare, except for the staircase spiralling upward into &+Ldarkness&*.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+    short: A Dim Hole
+    sight: >
+      Light streaks in through the small opening at the top of this chamber, but this hole is over twenty feet
+      deep. The ground here is thickly covered with a spongy brown lichen and thus absorbs most noise
+      generated within this space. The walls of the pit taper upwards to the far-off disc of sunlight and are
+      covered in mud, cobwebs, and gnarly roots. Underground-dwelling bugs often choose this spot both for
+      getting some fresh air and for a place to hide from predators. Water is a also a common visitor - there
+      are several small trickles dripping from various places on the walls, providing nearly constant
+      quenching of thirst for the lichen.
+flag:

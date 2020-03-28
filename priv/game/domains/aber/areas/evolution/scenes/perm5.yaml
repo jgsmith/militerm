@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:perm1"
+      south:
+        target: "scene:aber:evolution:perm6"
+    short: "Synapsids' Basking Rocks"
+    sight: >
+      This is where the early synapsid reptiles like to laze in the sunshine. It is an area of large flat
+      rocks, baked by the hot sun, and not too far from the shade of the trees. All about you waddle the large
+      land animals of the day, both herbivorous and predatory, and most of them are somewhat larger than you.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:opera:opera9"
+      west:
+        target: "scene:aber:opera:opera11"
+    short: The Stage
+    sight: >
+      From here you have an even better view of the ornate interior of the opera house. You can also observe
+      singers and dancers rehearsing as well as carpenters building the scenery for the next performance. To
+      the west is a hallway.
+flag:

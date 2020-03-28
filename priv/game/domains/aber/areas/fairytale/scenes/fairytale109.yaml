@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale110"
+      up:
+        target: "scene:aber:fairytale:fairytale105"
+    short: Cellar
+    sight: >
+      You have entered the cold storage cellar. Foods such as meat and wine were stored here in barrels of
+      salt, such as those you see lying around. A heavy iron door is set into the north wall, which is warm to
+      the touch. The cellars smell faintly musty, although the walls are clean. A staircase leads up to the
+      pantry.
+flag:

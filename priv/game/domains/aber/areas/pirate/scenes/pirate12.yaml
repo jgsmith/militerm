@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate10"
+    short: "Ship's Wheel"
+    sight: >
+      You are on a large, empty platform. In front of you, you see a large wheel which obviously steers this
+      mighty ship. A small flight of stairs lead down to the main deck.
+flag:

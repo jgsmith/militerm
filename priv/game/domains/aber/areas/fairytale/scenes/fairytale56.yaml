@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale92"
+      north:
+        target: "scene:aber:fairytale:fairytale55"
+      south:
+        target: "scene:aber:fairytale:fairytale57"
+      west:
+        target: "scene:aber:fairytale:fairytale94"
+    short: Happy Road
+    sight: >
+      Happy Road continues here to the north and south, and you realize that the houses on the right and left
+      sides of the road look as though they have been abandoned for some time. A sign on the house to the east
+      says 'Three Bears', and the sign on the western house reads 'Mom Hubbard.'
+flag:

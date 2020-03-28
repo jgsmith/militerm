@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:dungeon6"
+    short: Holding Pen
+    sight: >
+      This holding cell sits on the very edge of the lava. The sound of spitting lava is constant, hot cinders
+      scorch your skin constantly and the heat is unbearable. There is no other way off this holding pen than
+      to the &+Cnorth&* as thousands of the faceless victims have found out to their own cost.
+flag:
+  - hot

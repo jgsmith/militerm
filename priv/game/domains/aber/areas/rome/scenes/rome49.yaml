@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rome:rome42"
+    short: "Froboz's Workshop"
+    sight: >
+      You are standing in the workshop of Froboz the Great, the most powerful and famous mage that Rome has
+      ever known. Workbenches line the walls and are covered with various test &+Ctubes, beakers, petri
+      dishes&* and crucibles and there is an odor in here that can best be described as a combination of old
+      sweat socks and burning tires. The only exit is back through the door through which you came. In the
+      middle of the room, you see a pile of ashes that looks like it once was a body and Froboz is busy making
+      adjustments on a new type of magic wand .... possibly the one responsible for the explosion a few
+      minutes ago. He removes a jeweler's loupe from his eye as he turns around. 'How in the name of Merlin
+      did you get in here??!!' he asks. 'Oh, nevermind! Since you are here, you can serve as witnesses to the
+      final test of the new mage's spell: 'ectowatt'.' With this he makes a magical gesture and the Paladin
+      Knight appears. Crossing his fingers, Froboz waves the wand his direction and what happens next is
+      incredible! The Paladin is enveloped in what appears to be a small, well contained, thermonuclear
+      explosion. When the smoke clears you can see that the Paladin and all of equipment has been reduced to a
+      large pile of flaming &+Rcinders&*. Froboz throws his head back and cackles with insane glee. 'Now, my
+      young friends, what can I do for you?' he asks.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome2"
+    short: The Judging Booth
+    sight: >
+      You stand in the midst of a small room with windows on the east and south walls. These windows provide a
+      complete view of the competition fields. There are several &+Cscorecards, pencils&* and other items that
+      are used by the judges sitting on a table. The only exit is a trapdoor leading down.
+flag:

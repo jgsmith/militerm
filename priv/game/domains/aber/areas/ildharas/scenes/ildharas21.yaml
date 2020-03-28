@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas59"
+      east:
+        target: "scene:aber:ildharas:ildharas22"
+      up:
+        target: "scene:aber:ildharas:ildharas36"
+    short: Monument Room
+    sight: >
+      Once a place where treasures and heirlooms were stored, it now holds only rubble and the sad memory of
+      forgotten significance. You see a blackened area in the center of the room where everything flammable
+      was burned. Other things, like weapons, statues and pottery lie scattered in pieces or in pulverized
+      dust. A marble staircase at far end of the room leads to the floors above and below.
+flag:

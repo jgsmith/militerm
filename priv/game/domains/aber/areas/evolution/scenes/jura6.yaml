@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura4"
+      south:
+        target: "scene:aber:evolution:jura3"
+    short: On The Plateau
+    sight: >
+      You are picking your way through a difficult patch of ground. Pinnacles of rock thrust out of the ground
+      and deep fissures divide it, making you very wary of where you put your feet. To the west the ground
+      becomes just too treacherous to negotiate, so you resolve to head south or west towards easier footings.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:volcano:bandilbar5"
+    short: Rotting Pier
+    sight: >
+      Whether once river barges made the long haul up the river from here, or merely traded with downstream
+      ports, you have no idea, but you are certain of one thing: this pier has not been in use for a good
+      century or more. Dank mosses cling to the rotting planks, and most of the wooden supports are missing or
+      broken beyond repair. Sheltered under the shoulder of the mountain as this is, with the river on the one
+      hand, there is nowhere you can go from here except back to the south.
+flag:
+  - outdoors

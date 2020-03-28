@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:brookmere:brookmere28"
+      west:
+        target: "scene:aber:brookmere:brookmere33"
+    short: Room
+    sight: >
+      This room is fairly nondescript - in fact, it's completely bare. But it is not only bare of any
+      furniture or objects, even the walls, the ceiling and the floor don't look all there. They look
+      very..well, they are indescribable, apart from being very forgettable. Only by staring hard at the wall
+      does it look solid and real. Otherwise they hover at the edge of your perephiral vision looking vague
+      when you try to see them. Fleetingly you think you see the &+Cfigure&* of a seated person out of the
+      corner of your eye, but the image quickly seuges into nothingness. The room makes you uneasy. It is so
+      forgettable you are in danger of forgetting where you are. Better leave quickly.
+flag:

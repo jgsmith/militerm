@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:gnorth2"
+      south:
+        target: "scene:aber:ruins:gooey"
+    short: Northern Catacombs
+    sight: >
+      You are travelling into the northern catacombs. A fine layer of slime covers the floor that has seeped
+      in from the room to the south. Your feet slip around a little in the slimy mess and you watch your step
+      very carefully so that you do not fall.
+flag:
+  - dark

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sagewood:lava"
+      east:
+        target: "scene:aber:sagewood:lava"
+      north:
+        target: "scene:aber:sagewood:cavern3"
+      south:
+        target: "scene:aber:sagewood:lava"
+      west:
+        target: "scene:aber:sagewood:lava"
+    short: The Edge Of The Lava Flow
+    sight: >
+      All around you is a vast river of boiling lava which is more fluid than water and extremely hot.
+      Occasionally a wave of the lava washes ashore, taking some of the rock with it. Any wise adventurer
+      would leave soon! Anything thrown into the lava would surely be destroyed...
+flag:
+  - negregen

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The Place of Martyrs
+    sight: >
+      Strewn about this room are discarded crosses, gibbets, and stakes.
+flag:
+  - private

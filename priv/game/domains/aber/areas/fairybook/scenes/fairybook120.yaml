@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook121"
+      south:
+        target: "scene:aber:fairybook:fairybook123"
+      west:
+        target: "scene:aber:fairybook:fairybook119"
+    short: Rough Path
+    sight: >
+      There are no fences at all by the road anymore, and the land is rough and untilled. You come to a great
+      forest, where the trees grow so big and close together that their branches meet over the road of yellow
+      brick. It is almost dark under the trees, for the branches shut out most of the daylight. To the east
+      you see a little cottage, built of logs and branches.
+flag:
+  - outdoors

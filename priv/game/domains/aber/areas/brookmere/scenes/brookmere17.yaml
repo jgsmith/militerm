@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere18"
+      south:
+        target: "scene:aber:brookmere:brookmere16"
+    short: Straight Corridor
+    sight: >
+      This straight corridor is lit at intervals by torches. You notice that the walls have been greatly
+      damaged and that now they are braced with wooden beams. The corridor continues on to the south, where
+      the damage is more pronounced, and to the north it opens up into an enormous cavern.
+flag:

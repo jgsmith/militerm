@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5552"
+      south:
+        target: "scene:aber:graye:graye5550"
+    short: The Valley Floor
+    sight: >
+      You have reached the very bottom of the valley. The hills climb steeply to the east and west. A sudden
+      gust of wind brings you the smell of sulphur from the north.
+flag:
+  - outdoors

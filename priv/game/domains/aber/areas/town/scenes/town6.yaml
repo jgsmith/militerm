@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town5"
+    short: North End of Bay
+    sight: >
+      You are now at the northern end of the bay, surrounded on all sides by water. It seems the only safe way
+      to land is to go back the way you came.
+flag:
+  - outdoors
+  - onwater

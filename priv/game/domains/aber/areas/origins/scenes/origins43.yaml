@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins41"
+      north:
+        target: "scene:aber:origins:origins44"
+    short: The Only House in Sight
+    sight: >
+      You come upon a small, metallic, domed shelter, that appears as bleak as the entire area you are in.
+      There is no concept of a 'yard' here, it would seem. However, though you cannot find any place to enter
+      the house, you do hear the actual sounds of running water to your north! It is also possible to return
+      east to Megadon.
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

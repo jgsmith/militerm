@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:dark_cave"
+      south:
+        target: "scene:aber:blizzard:restch"
+      west: null
+    short: Narrow Corridor
+    sight: >
+      You are in a low narrow corridor. To the south is a small chamber while to the east the passage opens up
+      into a large cave.
+flag:

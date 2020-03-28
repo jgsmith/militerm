@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus54"
+      up:
+        target: "scene:aber:nexus:nexus56"
+    short: On the Wall
+    sight: >
+      The ground lies far below, and the wall stretches on. The higher the altitude, the more the crosswinds
+      threaten.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

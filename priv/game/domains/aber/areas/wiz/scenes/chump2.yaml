@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:wiz:chump1"
+    short: The Hazy lake
+    sight: >
+      U enter the lake and begin to feel really lost and extremely confused. Your last thoughts are...'Man,
+      what a Chump.'
+flag:
+  - outdoors
+  - death
+  - onwater

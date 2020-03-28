@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6710"
+    short: A black stone dwelling
+    sight: >
+      You stand in a quiet, empty dwelling of sturdy black sandstone. Occupied now by only a few spiders, it
+      looks like it could be a comfortable place to live with a little work. With enough gold, perhaps one of
+      the higher gods might sell it to you?
+flag:

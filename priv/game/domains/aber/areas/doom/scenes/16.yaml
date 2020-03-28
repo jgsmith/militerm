@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: &+cThe Old Stairs
+    sight: >
+      You make it about half way down the stairs, when suddenly a step breaks from under you. The rotted
+      foundation of the shack breaks and splinters under your weight, impaling you through the abdomen.
+      Suddenly you don't feel very well...
+flag:
+  - death

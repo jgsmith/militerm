@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:throne"
+      south:
+        target: "scene:aber:princess:courtyard"
+      west: null
+    short: The Great Hall
+    sight: >
+      You have now entered the Great Hall. You look around only to discover that it is deserted. Red
+      &+Rtapestries&* hang from the walls. In the center of the room you see a table. Many kings have feasted
+      at this &+Ctable.
+flag:
+  - nomobiles

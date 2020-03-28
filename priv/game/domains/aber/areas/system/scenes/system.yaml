@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: The System Room
+    sight: >
+      Here's where objects to be cloned are kept. Also potions originate here.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:gold9"
+      west:
+        target: "scene:aber:aladdin:gold7"
+    short: Base of the Stairs
+    sight: >
+      You stand before a stairway leading to a small stone pillar extending from who-knows-where. At the top,
+      you can see a bright light shining down onto a pedastal.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen4"
+      south:
+        target: "scene:aber:thyrannen:thyrannen8"
+    short: Redwood Forest
+    sight: >
+      From here the forest conies on towards the south, and to the east. As you walk through the forest small
+      rabits and squirrels scamper back and forth at your feet.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot226"
+      north:
+        target: "scene:aber:camelot:camelot244"
+      up:
+        target: "scene:aber:camelot:camelot253"
+      west:
+        target: "scene:aber:camelot:camelot246"
+    short: The Southeastern Tower
+    sight: >
+      You are in the guardroom on the second level of the tower. West and north you can go atop the walls, or
+      you can climb to the tower roof above.
+flag:

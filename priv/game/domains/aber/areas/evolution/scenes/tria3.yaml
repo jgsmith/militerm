@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:tria5"
+      north:
+        target: "scene:aber:evolution:tria4"
+      west:
+        target: "scene:aber:evolution:tria2"
+    short: Deep Woods
+    sight: >
+      You are wandering through the woods. An eerie silence sends shivers down your spine, and you keep a
+      close eye out for early predatory dinosaurs. A sudden rustle in the undergrowth ahead of you makes you
+      jump in alarm, but although you strain hard you cannot see anything in that direction. The ground is
+      covered with &+ydead leaves.
+flag:
+  - outdoors

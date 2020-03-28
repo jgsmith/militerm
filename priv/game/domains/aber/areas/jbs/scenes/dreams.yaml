@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:brown"
+      north:
+        target: "scene:aber:jbs:campfire"
+      up:
+        target: "scene:aber:jbs:mugwumps"
+      west:
+        target: "scene:aber:jbs:bears"
+    short: Bad Dreams
+    sight: >
+      All of existence has turned on its head and started spiraling around you. You don't know where you are
+      or how you got here or how to get out or even what your name is for that matter. All you can manage to
+      make out are myriads of colors spinning everywhere off into nowhere....
+flag:
+  - outdoors

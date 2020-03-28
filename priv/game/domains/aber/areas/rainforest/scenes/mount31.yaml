@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:mount30"
+      west:
+        target: "scene:aber:rainforest:mount32"
+    short: Snowfield
+    sight: >
+      You are in another part of the snowfield. You are getting pretty bogged down in the ever-deepening snow
+      and you begin to look for a way out. To the south and east it seems deeper than ever, so you would be
+      best heading in a new direction.
+flag:
+  - outdoors
+  - cold

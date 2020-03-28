@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest106"
+      north:
+        target: "scene:aber:rainforest:forest105"
+      west:
+        target: "scene:aber:rainforest:forest100"
+    short: Grass Knoll
+    sight: >
+      You are on a little knoll in a clearing, upon which is growing tall grass with blades reaching higher
+      than your head. You take care not to brush against them for their edges are razor-sharp. To the north,
+      down a short slope, is the river.
+flag:
+  - outdoors

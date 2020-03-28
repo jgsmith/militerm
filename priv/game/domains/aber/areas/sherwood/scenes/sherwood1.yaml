@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood2"
+      north:
+        target: "scene:aber:sherwood:sherwood3"
+      south:
+        target: "scene:aber:eforest:eforest"
+      west:
+        target: "scene:aber:sherwood:sherwood4"
+    short: Gateway
+    sight: >
+      You are standing at the Gateway to adventure. There are three paths. Each path has a different adventure
+      and each a different destiny. Those who choose to enter must be willing to face the consequences of the
+      choices they make.
+flag:
+  - peaceful
+  - nomobiles
+  - outdoors

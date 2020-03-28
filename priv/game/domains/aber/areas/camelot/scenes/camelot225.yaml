@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot224"
+      south:
+        target: "scene:aber:camelot:camelot226"
+    short: In the East Wall
+    sight: >
+      You hear barking and look out the windows to the west. There you see the kennels, an a number of large
+      canines. Towers await you to the north and south.
+flag:

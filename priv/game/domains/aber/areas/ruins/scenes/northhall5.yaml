@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:ruins:northhall4"
+      west:
+        target: "scene:aber:ruins:northhall6"
+    short: A Turn in the Northern Hall
+    sight: >
+      You find yourself at a turn in the northern hall. You hear shrieks coming from the hall to the west of
+      here and wonder what could be making the annoying sound. The hallway leads to the west and there is a
+      small room to the east.
+flag:
+  - dark

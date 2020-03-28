@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:island:ruins1"
+      south:
+        target: "scene:aber:island:slope2"
+      up:
+        target: "scene:aber:island:slope2"
+      west:
+        target: "scene:aber:island:ruins1"
+    short: Lava Slope
+    sight: >
+      You are scrambling across a black barren lava slope, a vast black desolate expanse which extends away to
+      the south and east. To the west the lava ends and gives way to the ruins of an ancient building.
+flag:
+  - outdoors

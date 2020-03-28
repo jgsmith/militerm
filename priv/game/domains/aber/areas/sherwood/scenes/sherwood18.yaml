@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood19"
+      south:
+        target: "scene:aber:sherwood:sherwood17"
+    short: Near the End
+    sight: >
+      You are nearing the end of the road. Your life long dreams lie just ahead. Money, power, love, fame, and
+      happiness are waiting for you. Your ticket to all of this is just north of here.
+flag:
+  - outdoors

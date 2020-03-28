@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:moss_maze1"
+      north:
+        target: "scene:aber:undead:moss_maze2"
+      south:
+        target: "scene:aber:camelot:camelot90"
+      west:
+        target: "scene:aber:undead:moss_maze1"
+    short: Moss Maze
+    sight: >
+      You have wandered too far from known territories. Mist rolls around the base of the trees disorienting
+      you terribly. One particularly large &+Btree&* catches your eye. What could be on the other side of this
+      forest? Who knows? Why has no one been this way in years?
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar2"
+      north:
+        target: "scene:aber:balharbor:balhar4"
+      west:
+        target: "scene:aber:balharbor:balhar79"
+    short: The Dock
+    sight: >
+      This serves as the only place for ships servicing Bal Harbor and the launching of boats onto the ocean.
+      Some people sit on the edge to fish. To the north a road goes through the city's west side, to the east
+      is Bal Harbor's famous restaurant, The Mermaid's Song.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus51"
+      south:
+        target: "scene:aber:nexus:nexus49"
+    short: Island Beach
+    sight: >
+      The beach narrows here; the sea coming close to the island's greenery. The sea bottom also begins to
+      plunge down at a faster pace, and the waves are higher. To the south the beach opens up into a wide
+      expanse, while the north cardinal features the entrance to a trail.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop28"
+      south:
+        target: "scene:aber:bishop:bishop44"
+    short: Monastery Gates
+    sight: >
+      The southern archway of the Korisla Monastery has a prehistoric lion with a potion of holy water in its
+      mouth perched between the twin pairs of brick turrets. Long wicker torches freshly dipped in pitch and
+      dried are set ready to provide an eternal firelight when the last traces of evil are purged from the
+      land. Perimeter guards from the more war-chivalrous caste of the monastery are stationed in each turret
+      to keep the order and tranquillity both within and without. Beyond the gatehouse is a garden on the
+      inside and a plethora of open acreage on the outside.
+flag:
+  - outdoors
+  - peaceful

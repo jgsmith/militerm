@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9966"
+      north:
+        target: "scene:aber:ghenna:ghenna9961"
+      south:
+        target: "scene:aber:ghenna:ghenna9962"
+      west:
+        target: "scene:aber:ghenna:ghenna9959"
+    short: A city street in Ghenna.
+    sight: >
+      There is so much junk in the street here, that you have to walk in a zigzag around it. The outline of a
+      doorframe is all that remains of the building to the South. The building to the North, however, looks a
+      bit more intact. The street ends towards the East, near a mountain of rubble. To the West, the street
+      goes on for some distance.
+flag:
+  - dark
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:jbs:fountain"
+      south:
+        target: "scene:aber:jbs:garden"
+      west:
+        target: "scene:aber:jbs:bridge"
+    short: The Courtyard
+    sight: >
+      This is a gigantic courtyard. Not only is the place almost a mile across, but everything is HUGE! The
+      path you are standing on is paved with cobblestones almost the size of things that you seem to remember
+      being called Cadillacs, and the flowers that fringe the edges are as large as small trees. From the
+      north you hear a loud roar that sounds like a waterfall and to the south you see what must be the
+      garden, but it looks like a rain forest to you. The drawbridge is back to the west and the door to this
+      gigantic castle is to the east.
+flag:

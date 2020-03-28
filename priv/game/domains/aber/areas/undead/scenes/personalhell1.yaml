@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:personalhell2"
+    short: Your own personal hell
+    sight: >
+      &+Y.&* &+C+&* &+M.&* &+w.&* &+W.&* &+R.&* &+G.&* &+W.&* &+W.&* &+Y.&* &+Y*&* &+G*&* &+W+&* &+C.&* &+B.&*
+      &+M.&* &+R+&* &+W.&* &+RFed through your unconscious you struggle to comprehend what you &+Rbehold. Your
+      senses are stretched to their very limit until your mind is &+Rable to rationalize where you are. You
+      are engulfed in crimson. All &+Raround you tiny claret stars sparkle in the crimson void. Silence clings
+      &+Rto you as you look beneath your feet to see the endless void continue. &+RYou seem suspended in time
+      as your mind desperately tries to cling to the &+Rlast shreds of your sanity. &+C.&* &+G*&* &+W.&*
+      &+M.&* &+W.&* &+B.&* &+W.&* &+R.&* &+W+&* &+W.&* &+W.&* &+G.&* &+Y.&* &+W.&* &+G.&* &+W.&* &+R.&* &+B.&*
+      &+Y.&* &+G.&*
+flag:
+  - soundproof

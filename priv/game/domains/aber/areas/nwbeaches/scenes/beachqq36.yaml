@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nwbeaches:beachqq10"
+    short: End of the Path
+    sight: >
+      The path can go no farther. The cliff face runs directly into the sea from here, no longer leaving the
+      little bit of beach that you have been enjoying just west and south and here. Strange that a path would
+      end so abruptly at a cliff without leading anywhere... Oh well!
+flag:

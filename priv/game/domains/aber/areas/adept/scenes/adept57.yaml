@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept56"
+    short: Plateau
+    sight: >
+      You stand on the edge of the massive, windswept tabletop known to the Kengjun Elves as The Gastabel
+      Plateau and to the humans as simply another aberrant lump on the face of the planet. Small particles of
+      sandstone, clay, and shale fly through the open sky and skid off the edge. To the southwest, a thick fog
+      hangs over the ocean, and the northeast contains a flurry of moving black objects barely recognizable as
+      the human army marching around to engage the elves once more.
+flag:
+  - cold

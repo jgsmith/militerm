@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:dojo1"
+    short: Weapons Hall
+    sight: >
+      Empty hooks, pegs, and rings wait for weapons that will never be hung here again. Wooden forms for armor
+      stand like bare skeletons. This room once held enough weaponry for a small army, but now only a few
+      pieces remain. Either scavengers or the retreating students have taken everything of value.
+flag:
+  - dark

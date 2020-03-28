@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd65"
+      north:
+        target: "scene:aber:sdesert:desertsd63"
+      south:
+        target: "scene:aber:sdesert:desertsd63"
+      west:
+        target: "scene:aber:sdesert:desertsd63"
+    short: A Clearer Trail
+    sight: >
+      The trail here is clearing a little, you carefully notice broken twigs and brush-marks on the
+      &+ydesert&* floor.
+flag:
+  - outdoors
+  - hot

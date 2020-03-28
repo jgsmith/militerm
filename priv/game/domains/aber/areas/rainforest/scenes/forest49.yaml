@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest51"
+      south:
+        target: "scene:aber:rainforest:forest52"
+      west:
+        target: "scene:aber:rainforest:forest47"
+    short: Lagoon
+    sight: >
+      You are up to your knees in water. A number of narrow channels run off from the sides of the lagoon to
+      join the river to the south. Since you know there is also a river close by to the north, you begin to
+      feel somewhat hemmed in. To the north a dense cluster of swamp-living trees bars your way.
+flag:
+  - outdoors
+  - rainforest

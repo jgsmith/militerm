@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chlyon:chlyon16"
+      south: null
+      west: null
+    short: The Thyreenean Throne Room
+    sight: >
+      Even more beautiful than the hallway, this room is lavishly decorated with lively tapestry and
+      paintings. A small door leads off to the west, and the hallway is back to the north. A majestic throne
+      dominates the southern wall. Above the throne, an inscription declares: 		 "One god alone of all we
+      loved. 		We'll never have a changing heart."
+flag:

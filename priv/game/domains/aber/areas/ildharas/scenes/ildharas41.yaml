@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:ildharas:ildharas66"
+    short: "The King's Chambers"
+    sight: >
+      Sparsely furnished, they do not look as grand as you might have imagined. A bed, nightstand, desk and
+      chair are all pushed together in a dreary, unimaginative way. Several tarot cards lie on the desk,
+      spread out in an unfamiliar pattern. A doorway leads south and you see a small alcove containing a
+      library to the west.
+flag:

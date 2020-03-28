@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord49"
+      north:
+        target: "scene:aber:fjord:fjord51"
+    short: Top of a Ridge
+    sight: >
+      The snowstorm falters here, not sure whether it wants to continue dumping or give up the fight for now.
+      This vista overlooks the entire southern half of the Nolak Range, including the notably pointy Jaw of
+      the Wolf, more commonly known as Mt. Cyllirus. A hulking shape to the north looms tall, dark, and ugly
+      before your eyes. Mountain peaks surround this rocky, jutting ridge which runs along the rim of the
+      Phaylax Caldera. A walkable slope leads down into the snow-filled basin below, while the ridgeline drops
+      away to the southeastern Nolaks to the east. There are shadowy shapes moving in the caldera which cannot
+      be readily discerned from this distance.
+flag:
+  - cold
+  - outdoors
+  - noregen
+  - nomobiles

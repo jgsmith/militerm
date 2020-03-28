@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: "Moog's Workout Grounds"
+    sight: >
+      You learn quickly what the mice were for...Moog catches them to practice his techniques on. There must
+      be dozens of mice skittering around, some look dead, some look reasonably unharmed, while still others
+      run headlong into trees and stones. Plenty for you to practice on... or cure?
+flag:
+  - peaceful
+  - soundproof

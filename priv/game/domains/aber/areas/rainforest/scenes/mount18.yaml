@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount19"
+      south:
+        target: "scene:aber:rainforest:mount19"
+      west:
+        target: "scene:aber:rainforest:mount16"
+    short: Windswept Ridge
+    sight: >
+      You are standing on top of a ridge which continues west from here. At this point it is not too sharp for
+      you to negotiate, but to the east it becomes a knife edge which you do not even consider as a possible
+      route. Nor do you contemplate climbing down the almost vertical drop to the north. To the south the
+      slope is more manageable, although your heart still pounds when you look over the edge. A much safer
+      option would be to head back west.
+flag:
+  - outdoors
+  - cold

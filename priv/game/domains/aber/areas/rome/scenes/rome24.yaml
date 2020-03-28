@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome31"
+      north:
+        target: "scene:aber:rome:rome23"
+      south:
+        target: "scene:aber:rome:rome25"
+    short: East Entrance to Coliseum
+    sight: >
+      You are standing at the east entrance to the Coliseum. There are people everywhere, apparently in a mad
+      rush to get in. A &+Cstatue of Tiberius&*, an emperor of a time long since passed, stands here looking
+      out over the crowd. There is a passage to the north, the ticket booth is to the south and a gate opening
+      to the city lies to the east.
+flag:
+  - outdoors

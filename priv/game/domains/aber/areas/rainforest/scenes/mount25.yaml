@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount20"
+      north:
+        target: "scene:aber:rainforest:mount23"
+      south:
+        target: "scene:aber:rainforest:mount20"
+      west:
+        target: "scene:aber:rainforest:mount26"
+    short: Crossing The Glacier
+    sight: >
+      You are making your way across the glacier. At times the ice creaks ominously beneath your feet, but so
+      far it seems to be holding. To the south the ice looks more broken and you feel a sense of unease when
+      you contemplate that route. Further downstream to the east it looks even worse. The ice to the west
+      looks more stable, but by far the safest exit is that to the north, where the moraine promises surer
+      ground.
+flag:
+  - outdoors
+  - cold

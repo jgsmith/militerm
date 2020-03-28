@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:camelot:camelot104"
+    short: Sparkling Grotte
+    sight: >
+      What a wonderous sight to behold! The walls, floor and ceiling of this room are encrusted with a myriad
+      of tiny crystals. Your light reflects off of them, turning the room into a dazzling rainbow of light.
+flag:
+  - dark

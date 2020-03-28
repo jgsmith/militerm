@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni63"
+      north:
+        target: "scene:aber:oni:oni65"
+      south:
+        target: "scene:aber:oni:oni66"
+      west:
+        target: "scene:aber:oni:oni67"
+    short: East Deufel
+    sight: >
+      The eastern portion of Deufel is known as the scholarly portion. Many of its scholarly shops and places
+      of interests are located within this section. Two of the more prominent sites are the Deufel Library to
+      the north and Klink's Shop of Linguistics to the south.
+flag:
+  - outdoors
+  - cantsummon

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale92"
+    short: Loft
+    sight: >
+      You have entered a small loft, which contains three beds. One of them is very large, one is
+      medium-sized, and the third is rather small. A series of curtains can be pulled to divide the room, but
+      they stand open. On the medium-sized bed lies a pile of pillows.
+flag:
+  - nomobiles

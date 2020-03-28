@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar44"
+      south:
+        target: "scene:aber:balharbor:balhar34"
+      west:
+        target: "scene:aber:balharbor:balhar42"
+    short: The Mage Guild Entrance
+    sight: >
+      You have entered the Mage Guild where young and old come to learn the practice of wizardry and sorcery.
+      The interior of this building seems to have survived the onslaught of riots--little or no damage in
+      here. You can visit the guildmaster to the west, or visit the scribe to the south.
+flag:

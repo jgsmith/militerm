@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:forest4"
+      south:
+        target: "scene:aber:eirias:forest2"
+    short: Deep Forest
+    sight: >
+      You can hear nothing now except the creaking of the coachs wheels as it moves along the track. The path
+      is completely overgrown, yet still visible; covered, as if to mark it from its surroundings, by a mat of
+      some small creeping weed with dark green leaves. It is quite dark in here, and gloomy.
+flag:
+  - outdoors

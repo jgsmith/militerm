@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:atlantis:atlantis4"
+      up:
+        target: "scene:aber:atlantis:atlantis2"
+    short: Sea Bottom Approach
+    sight: >
+      As you travel still further down you see the sea floor begin to approach you. You can begin to make out
+      some forms on the sea floor below. Off to the north you can see the ruins of a ship while off to the
+      east a small town rests peacefully beneath the waves. Beyond the small town you can see the opening of a
+      large cave mouth. You can swim upward or descend down to the sea bed.
+flag:
+  - underwater
+  - nomobiles

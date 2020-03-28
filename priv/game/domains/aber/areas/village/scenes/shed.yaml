@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:yard"
+    short: Rotting Boat Shed
+    sight: >
+      As you enter the smell of old, rotting mouldy wood surrounds you. The shed is cluttered with old broken
+      boats, fishing nets and other useless rubbish.
+flag:
+  - dark

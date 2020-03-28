@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge44"
+      west:
+        target: "scene:aber:ledge:ledge42"
+    short: Underwater Cavern
+    sight: >
+      It's gotten a bit brighter, as the cave appears to open up to the wide ocean to the east. Looking to the
+      west the cavern looks to go back a ways and gets narrower. Seems to be an excellent place for underwater
+      tunnel exploration. Several kinds of sea animals seem to be living in this cave.
+flag:
+  - underwater

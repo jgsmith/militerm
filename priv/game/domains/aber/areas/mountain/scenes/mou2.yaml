@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mountain:mou1"
+      south:
+        target: "scene:aber:mountain:mou3"
+    short: Northern Edge of Desert
+    sight: >
+      The sun has reached the zenith as you arrive at the edge of a desert. Your feet start feeling heavy and
+      you think this is your last chance to check your water bottle. To the south you can see the rocky lands
+      continuing far out of your sight. To the north the desert turns into thick thorny bushes.
+flag:
+  - outdoors

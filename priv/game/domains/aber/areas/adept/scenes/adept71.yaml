@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:adept:adept70"
+    short: Underground Habitat
+    sight: >
+      The room is massively huge and must have taken a year to completely dig out. Large numbers of flying
+      insects hover near the roof and illuminate the chamber, revealing a dais in the middle of the room. A
+      mess of bottles and powedered ingredients lie cluttered on it and on the floor. Large bookcases dominate
+      each corner, their tomes covered in the letterings of a language unspoken for thousands of years. The
+      floor is kept free of dust, mold, and bugs by a heavy web of enchantments. There are two conflicting
+      auras in the room - one good and the other confusion - which feed the power of the network of spells
+      placed on the room.
+flag:

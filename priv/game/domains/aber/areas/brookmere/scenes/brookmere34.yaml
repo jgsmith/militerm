@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere54"
+      south:
+        target: "scene:aber:brookmere:brookmere33"
+    short: Glowing Cave
+    sight: >
+      Plucking up some courage you walk through an opening and stumble into a meeting of all the hobgoblin
+      generals and officers! Horrified you turn to flee before you are seen. Alas, your foot slips on a smooth
+      rock and you fall, letting out a loud cry, rolling to a stop in the middle of the crowd of hobgoblins.
+      Shaking your head to clear it you see three large, well-armed orcs surrounding you. Chuckling evilly
+      they pick you up, tie you securely, throw you over their shoulders and walk off into the gloom. Always
+      trust your intuition....
+flag:
+  - death

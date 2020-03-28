@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon36"
+    short: North Tower
+    sight: >
+      This is a small tower which seems to be used as a lookout post. There is a small window which overlooks
+      the wretched valley. There is a small table and chairs here where guards wait out the hours. The only
+      exit from here is down.
+flag:

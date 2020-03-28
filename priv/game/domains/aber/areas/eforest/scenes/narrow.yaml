@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:worn"
+      south:
+        target: "scene:aber:eforest:cathedral"
+      west:
+        target: "scene:aber:eforest:captain"
+    short: Narrow Hall
+    sight: >
+      You are in a very narrow hallway. To the south is the great cathedral, to the west is a small lit room,
+      and the passage continues to the north.
+flag:
+  - dark

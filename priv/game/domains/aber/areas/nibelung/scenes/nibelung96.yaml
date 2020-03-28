@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nibelung:nibelung95"
+    short: In the Moat
+    sight: >
+      You are in the castle's moat. Steep walls rise up around you. Water runs out of a hole in the wall above
+      you, and continues down through the grass into the valley below.
+flag:

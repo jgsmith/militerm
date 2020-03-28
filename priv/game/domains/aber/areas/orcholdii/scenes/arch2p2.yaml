@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:orcholdii:arch2"
+      west: null
+    short: Grand Hallway
+    sight: >
+      You are standing at the end of the southern hallway. The hall continues to be grandiose. There is a
+      painting at the end of the hallway. It appears to be of the King, Harold, looking majestic in some silly
+      looking purple robes and holding a bejeweled sceptre of office.
+flag:

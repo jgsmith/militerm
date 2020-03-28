@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot283"
+      up:
+        target: "scene:aber:camelot:camelot258"
+    short: Under The Stairs
+    sight: >
+      This small room, tucked under the staircase, seems to be intended as the entry to the cellars below the
+      castle. Though the rooms below are lit by torches, still you feel uneasy at the thought og entering
+      without an invitation.
+flag:

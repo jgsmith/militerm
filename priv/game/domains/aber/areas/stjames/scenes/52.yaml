@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:45"
+      north:
+        target: "scene:aber:stjames:51"
+      south:
+        target: "scene:aber:stjames:53"
+    short: On the Pond
+    sight: >
+      Here the pond ends, near the gardens of Buckingham Palace. You can go no further to the west. The entire
+      park is now to the east. All you can see is green on either side of the pond. Ahead the bridge rises
+      above the water, and you can see a bit of the island underneath it.
+flag:
+  - outdoors
+  - onwater

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:field2"
+      north:
+        target: "scene:aber:eirias:field4"
+      south:
+        target: "scene:aber:eirias:river"
+      west:
+        target: "scene:aber:eirias:field6"
+    short: Fields
+    sight: >
+      There is a lot of farmland round here, obviously. There are fields on every side of you, except for the
+      river which is to the south.
+flag:
+  - outdoors

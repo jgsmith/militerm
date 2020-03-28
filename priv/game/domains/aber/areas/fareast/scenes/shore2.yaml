@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cliffs3"
+      north:
+        target: "scene:aber:fareast:outlet"
+      south:
+        target: "scene:aber:fareast:beachcave"
+      west:
+        target: "scene:aber:fareast:shoreline"
+    short: Beach- Southern Edge
+    sight: >
+      The cliffs that divide this beach from the main expanse of the island wrap around to cut the shoreline
+      short. A nearly vertical wall, stretching out into the water and continuing south, blocks any travel in
+      that direction. Steps have been cut into the face to the east, however, and should make ascent easy.
+      Down the beach, to the west, stands the sea, and a ship rests in harbor to the northwest. The beach
+      continues to the north.
+flag:
+  - outdoors

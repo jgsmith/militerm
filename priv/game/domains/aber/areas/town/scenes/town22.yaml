@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town23"
+    short: Weapons Store Room
+    sight: >
+      This is the store room where many weapons are kept to restock the shelves out front. There are many
+      tools of a metalsmith here, such as grinders for sharpening blades, and hammers for shaping iron. The
+      only exit that you see is the one that you came in, back to the south.
+flag:

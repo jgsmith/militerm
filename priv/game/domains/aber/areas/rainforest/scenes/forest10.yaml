@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest11"
+      west:
+        target: "scene:aber:rainforest:forest8"
+    short: Shaded Dell
+    sight: >
+      You are in a small dell surrounded by trees. The air is damp and fungi thrive on the forest floor. Trees
+      crowd together to the south and east, making those directions impassable. To the north is the river.
+flag:
+  - outdoors
+  - rainforest

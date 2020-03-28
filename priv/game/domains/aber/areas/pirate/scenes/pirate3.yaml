@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: The Plank snaps and .... 
+    sight: >
+      As you step out onto the plank, a large crack splits it in two. You quickly plunge into the water below.
+      As you struggle for breath, several sharks promptly make you their next meal...
+flag:
+  - outdoors
+  - death

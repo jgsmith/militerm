@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6604"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6635"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6609"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6610"
+    short: Sundhaven square
+    sight: >
+      The traffic of foreigners and local citizens is heavy here, the ground is trodden down and the scents of
+      animals, smoke and exotic perfumes hangs in the air. The cliffs and the northern gate of the town lie
+      north of here, the lane paralleling the cliffs runs east and west, and the entrance to the temple is
+      southwards.
+flag:
+  - outdoors

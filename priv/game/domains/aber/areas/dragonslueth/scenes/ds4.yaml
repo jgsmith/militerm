@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds3"
+      north:
+        target: "scene:aber:dragonslueth:ds7"
+      south:
+        target: "scene:aber:dragonslueth:ds6"
+    short: Snowy Field
+    sight: >
+      The ground of the cave begins to grow colder until it is completely covered with yellow snow. You decide
+      not to investigate this phenomena any further. The room is very big compared to any that you have
+      previously seen and the stench in this room is unbearable. You can't believe you can stand the smell.
+      The cave continues to the north, south, and east.
+flag:

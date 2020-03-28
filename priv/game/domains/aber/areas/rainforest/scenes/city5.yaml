@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:city2"
+    short: Golden Statue
+    sight: >
+      This is obviously the image of one of the great kings of El Dorado. Tall he stands, with a cruel smile
+      on his lips. The elements have done little to touch this piece, since it is made of solid gold. Such a
+      prize would make you wealthy beyond your wildest dreams, if you could carry it away. Unfortunately you
+      realise it must weigh several tonnes and moving it would be impossible.
+flag:
+  - outdoors

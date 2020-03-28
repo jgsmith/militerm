@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest2"
+      up:
+        target: "scene:aber:rainforest:mount46"
+      west:
+        target: "scene:aber:rainforest:mount46"
+    short: Edge Of The Rainforest
+    sight: >
+      You are at the edge of a vast rainforest spanning thousands of square miles. Tall trees crowd together
+      to the east, forming a wall of green and brown, behind which lurk all manner of strange creatures. To
+      the west, leading up into the mountains, is a narrow path.
+flag:
+  - outdoors
+  - nomobiles

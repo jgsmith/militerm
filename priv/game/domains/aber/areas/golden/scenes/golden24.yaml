@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:golden:golden25"
+      south:
+        target: "scene:aber:golden:golden23"
+    short: &+GThrough the Trees&*
+    sight: >
+      Finally you reach the last tree which is on the other side of the gorge. It is much safer over here,
+      although you could still loose your footing and splatter on the ground. Exits are down and south.
+flag:
+  - outdoors

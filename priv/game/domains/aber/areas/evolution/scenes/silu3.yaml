@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:silu2"
+      south:
+        target: "scene:aber:evolution:silu4"
+      up:
+        target: "scene:aber:evolution:devo1"
+    short: Sea Floor Dunes
+    sight: >
+      Great sand dunes rise about you on the sea bed, endlessly shifting in the currents. Tiny creatures
+      burrow frantically into the sand as you approach. You are no doubt the biggest creature they have ever
+      seen. Large rambling sea plants dot the dunes in places, somehow having adapted to the inconstant nature
+      of their habitat.
+flag:
+  - soundproof
+  - underwater

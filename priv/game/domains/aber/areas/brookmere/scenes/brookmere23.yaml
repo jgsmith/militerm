@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere26"
+      west:
+        target: "scene:aber:brookmere:brookmere22"
+    short: Goblin Guard Room
+    sight: >
+      This is where the goblins hang out when not on duty - the goblin guard headquarters if you will, with a
+      &+Cbulletin board&* hung up behind the door for goblin related messages. The place looks and smells
+      absolutely disgusting. The goblins must be in the habit of simply throwing everything on the floor when
+      they have finished with it. Mouldy food spews out of a cupboard, grubby tunics in lumps on the floor are
+      decaying like piles of rotten fruit, several goblin swords have been slung into a corner uncleaned of
+      any blood or guts that might still be on them and on the table among the remnants of a recent dinner is
+      a &+Cshield&* which has obviously been used as a plate.
+flag:

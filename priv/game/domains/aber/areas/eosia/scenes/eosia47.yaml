@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia54"
+      south:
+        target: "scene:aber:eosia:eosia2"
+    short: Deira
+    sight: >
+      You have entered the kingdom of Deira. This is a fairly flat northern Elene kingdom. Due to its
+      flatness, you can see to the horizon. To the north, you can make out a shoreline, while to the south,
+      the road leads into the mountains and back towards Elenia.
+flag:
+  - outdoors
+  - cold

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:noxypickle:temple"
+    short: Brink Of The Cesspit
+    sight: >
+      At last you have discovered the source of the terrible smell. Before you is a pit dug into the ground,
+      filled to the brim with raw sewage. You reel in disgust at the reek emanating from the thick brown
+      sludge before you. You cover your nose, your eyes watering, and then notice something else - several
+      long, fat, worm-like creatures are swimming about in the excrement, and appear to be feeding on it! You
+      feel a powerful urge to leave this place and get out among the sweet-smelling plants outside, the scent
+      of which you can still faintly detect even through the sewer-stench of the cesspit. Yet another part of
+      you recognises the hold the plants have over your mind, and suggests you take a much-needed bath with
+      the sewer worms...
+flag:

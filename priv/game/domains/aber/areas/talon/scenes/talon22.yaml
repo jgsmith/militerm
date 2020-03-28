@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon62"
+      up:
+        target: "scene:aber:talon:talon20"
+      west:
+        target: "scene:aber:talon:talon23"
+    short: At the Edge of Oblivion
+    sight: >
+      You are standing on a very steep trail, which appears to end here before dropping off into the beckoning
+      clouds below. A fissure has opened up at your feet, and has widened enough up the cliffside to the west
+      to barely squeeze through.
+flag:

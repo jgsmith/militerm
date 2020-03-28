@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:crossbay"
+      north:
+        target: "scene:aber:cathedral:n_aisle2"
+      south:
+        target: "scene:aber:cathedral:s_aisle2"
+      west:
+        target: "scene:aber:cathedral:nave2"
+    short: &+LThe Nave&*
+    sight: >
+      Where once this Nave inspired awe, now only &+Ldarkness&* reigns, the &+Wlight&* of &+Yheaven&* can no
+      longer shine in, and the place takes on an air of &+bgloom&* matched by few places you have ever been
+      in. The columns to the north and south seem to tower menacingly over you. Through these columns lie the
+      side aisle which runs along the nave. To the east is the crossing bay, and to the west the nave
+      continues toward the portals.
+flag:
+  - dark

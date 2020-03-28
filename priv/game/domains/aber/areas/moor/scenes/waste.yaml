@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:rbend"
+      south:
+        target: "scene:aber:moor:cottage"
+      west:
+        target: "scene:aber:moor:lost2"
+    short: Rocky Waste
+    sight: >
+      You are standing on the northeastern corner of the moor, looking out across a mass of jumbled rock.
+      Paths lead south and west across the moor, while the rock steepens into preciptious cliffs to the east
+      and north, preventing further travels.
+flag:
+  - outdoors

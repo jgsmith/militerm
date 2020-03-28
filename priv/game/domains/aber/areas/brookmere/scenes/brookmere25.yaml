@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere26"
+      west:
+        target: "scene:aber:brookmere:brookmere24"
+    short: Gnoll Guard Room
+    sight: >
+      This must be the gnoll guard room, it's so neat and tidy. Helmets hung up, swords put away in the
+      cupboard, dinner cleared off the table and no smell whatsoever. In fact, the only untidy thing about the
+      room is the &+Cbulletin &+Cboard&*, which is crammed with notices and messages.
+flag:

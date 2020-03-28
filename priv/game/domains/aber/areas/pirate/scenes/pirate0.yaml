@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:pirate:pirate2"
+      south:
+        target: "scene:aber:pirate:pirate10"
+      up:
+        target: "scene:aber:pirate:pirate1"
+      west: null
+    short: On the Deck
+    sight: >
+      You are standing on the wooden planking of the main deck of a large pirate ship. A mast climbs into the
+      sky, atop of which you can see the crow's nest. The deck leads around the ship. North to the forward end
+      of the ship, south to the aft.
+flag:
+  - outdoors

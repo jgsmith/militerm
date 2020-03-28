@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:windy:windy30"
+      south:
+        target: "scene:aber:windy:windy30"
+    short: Stairway to the Clouds
+    sight: >
+      It didn't take long. As you stepped on the fifth step on your way back, you lost your balance and fell
+      down on the ground. R ! E ! A Y D ! L R E ! L E E ! Y V P !
+flag:
+  - death

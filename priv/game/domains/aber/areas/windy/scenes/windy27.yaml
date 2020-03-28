@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:windy:windy28"
+      south:
+        target: "scene:aber:windy:windy26"
+    short: North End of Roof
+    sight: >
+      A low wall rings this area, protecting a small altar which sits in the center. The altar is covered with
+      grotesque designs, some of them reminding you of the imagery inside the temple. To the north is a large
+      dome. The roof continues to the south.
+flag:
+  - outdoors
+  - oneperson

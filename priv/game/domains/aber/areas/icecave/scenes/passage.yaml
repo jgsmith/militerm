@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:shrine"
+      west:
+        target: "scene:aber:icecave:cave"
+    short: Icy Passage
+    sight: >
+      The ice on the walls is clear enough for you to see the stone beneath it. The floor is a sheet of smooth
+      ice, so you find it easier to move by sliding your feet that by actually lifting each foot up.
+flag:

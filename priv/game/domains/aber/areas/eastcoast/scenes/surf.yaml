@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:kneedeep"
+      north:
+        target: "scene:aber:eastcoast:rocks"
+      south:
+        target: "scene:aber:eastcoast:sandybeach"
+    short: Foamy Surf
+    sight: >
+      The sand here feels soft at your feet and the water splashing up from the sea feels exhilaratingly cool.
+      A brisk breeze from the east blows in from the great sea, blowing at your hair. You can follow the sandy
+      shore to the north and south, and to the west you see a steep bank of a long sand dune.
+flag:
+  - outdoors
+  - nomobiles

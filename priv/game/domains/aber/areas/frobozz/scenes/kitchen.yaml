@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:frobozz:living"
+      up:
+        target: "scene:aber:frobozz:attic"
+      west: null
+    short: The Kitchen
+    sight: >
+      You are in a tiny kitchen. The strong smell of food indicates that something edible has been prepared
+      here recently. A few empty shelves line the eastern wall and under them is a bench. The bench bears the
+      marks of a very sharp knife being used for the preparation of food. A bricked chimney is standing at the
+      south wall. A narrow stair ascends into darkness, while a doorway leads south into a livingroom. A small
+      window is set into the western wall.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord45"
+      up:
+        target: "scene:aber:fjord:fjord46"
+      west:
+        target: "scene:aber:fjord:fjord43"
+    short: Upper Slopes
+    sight: >
+      The trail stays snug against the mountain, where intermittent patches of snow drop onto the level ground
+      and melt. The ground grows much more muddy to the east, where the trail ends at a glacier. Here the
+      switchbacks occur in greater number as the near vertical faces of the mountain swing into view, still
+      partially obscured by the clouds. The howl of a gusty wind greets you everywhere at this level.
+flag:
+  - outdoors
+  - cold

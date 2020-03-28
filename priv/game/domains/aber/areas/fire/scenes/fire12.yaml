@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire14"
+      south:
+        target: "scene:aber:fire:fire6"
+    short: Wine store
+    sight: >
+      You are standing in the &+rwine&* store. You can see barrels full of &+rwine&* and shelves full of
+      bottles. Some are over 50 years old. Sir Gruoch knows how should a good glass of wine taste. He
+      sometimes gets a letter from the king to send him some bottles of wine or he visits Sir Gruoch to have a
+      glass &+rwine&* with him. It is quite cold here--because of the &+rwine&*, there is no special floor.
+      You are standing on earth and your feet are visible in the ground. You can go east to the hardware store
+      or south onto the staircase.
+flag:
+  - dark
+  - cold

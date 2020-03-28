@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orchold:throne"
+      south:
+        target: "scene:aber:orchold:smooth"
+    short: Audience Waiting Room
+    sight: >
+      This appears to be where people wait to see the Orc King. Benches line the walls for subjects to sit on.
+      A set of curtains cover an opening in the north wall, and would be quite impressive were it not for the
+      mold growing on them. A hallway leads south.
+flag:
+  - dark

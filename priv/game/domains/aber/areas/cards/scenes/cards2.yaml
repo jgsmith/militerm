@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: &+GHall of Letters
+    sight: >
+      Ready to play some word games? Scrabble? Boggle? Anagrams? Maybe something else? Rules are simple. Push
+      the button and the tiles are sent everywhere at random. The runners must find some tiles and make the
+      highest scoring word they can. This contest can be run anytime, either during regular running or a
+      tournament. You can reshuffle the tiles anytime, but don't do it so you mess up someone. If you just
+      want to play among the wizards normally, the host here will mix them up for you.
+flag:
+  - wizard

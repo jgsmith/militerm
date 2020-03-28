@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6001"
+      south:
+        target: "scene:aber:haondor:sundforest6011"
+      west:
+        target: "scene:aber:haondor:sundforest6003"
+    short: A Trail Through The Light Forest
+    sight: >
+      You are on a narrow trail winding east and west through the &+Gforest&*. To the west, the forest
+      gradually becomes more dense. A small forest path leads off to the south.
+flag:
+  - real
+  - outdoors

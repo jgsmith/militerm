@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bishop:bishop19"
+      south:
+        target: "scene:aber:bishop:bishop15"
+    short: Back Room
+    sight: >
+      The kitchen and dining area is well-equipped with provisions, enough to feed an army and provide a
+      taxidermist with a well-stuffed individual. Some cookware and ladles hang from wall hooks around a
+      central stove, which is connected directly to the ceiling. A long, black pipe channels the smoke and
+      steam of frying meals and boiling water to the sky. A book of recipes stands on a podium for making
+      extravagant and gourmet dishes. In one corner lays the open trapdoor to a cellar.
+flag:

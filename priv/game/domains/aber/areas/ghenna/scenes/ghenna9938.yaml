@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9934"
+      west:
+        target: "scene:aber:ghenna:ghenna9939"
+    short: A cramped grotto.
+    sight: >
+      You are in a cramped grotto over the cave entrance. Even if you aren't claustrophobic this place can
+      surely make you that way. A crawlspace leads West. Watch your head.
+flag:
+  - dark
+  - oneperson

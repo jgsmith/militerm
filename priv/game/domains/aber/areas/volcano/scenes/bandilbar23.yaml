@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar18"
+      north:
+        target: "scene:aber:volcano:bandilbar21"
+      south:
+        target: "scene:aber:volcano:bandilbar24"
+    short: Southern Edge Of The Wood
+    sight: >
+      The trees come to an end here, stopping short a little way from the river which flows by just south of
+      you. In between you and the river a smooth paved path leads straight as an arrow towards the volcano,
+      leading up to a carved entranceway to the west.
+flag:
+  - outdoors
+  - nomobiles

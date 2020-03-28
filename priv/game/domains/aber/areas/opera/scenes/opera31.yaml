@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera32"
+      north:
+        target: "scene:aber:opera:opera31"
+      south:
+        target: "scene:aber:opera:opera29"
+      west:
+        target: "scene:aber:opera:opera30"
+    short: Lost in the Mist
+    sight: >
+      You pass near one of the iron candelabras that jut out of the dark water to light the mist.
+flag:
+  - onwater

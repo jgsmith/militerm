@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni14"
+      north:
+        target: "scene:aber:oni:oni24"
+      south:
+        target: "scene:aber:oni:oni23"
+      west:
+        target: "scene:aber:oni:oni14"
+    short: Forest
+    sight: >
+      Finally...an exit. Through the trees, you see an open clearing. At the center of the clearing is a small
+      stone building. From this distance you cannot make out too much detail, except for that many of the
+      walls have fallen and become piles of rubble.
+flag:
+  - outdoors
+  - maze

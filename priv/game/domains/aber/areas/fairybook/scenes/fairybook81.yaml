@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale99"
+      west: null
+    short: The Room
+    sight: >
+      You stand in a bedroom. The door to the east leads to a library. A window is to the east. Three empty
+      beds are here, two on one side and one on the other side. Between the two sides, across from the door,
+      is a large, open window. All around the room, at the top of the walls, is painted a mural depicting
+      pirate ships, sea monsters, indians, and lots of neat things. You begin to feel young just looking at
+      them. You are suddenly aware of a shimmering light in the air, which tinkles like a bell, swoops over
+      you, and sprinkles you with a glittering powder. If you know how, you feel that you can fly . . .
+flag:

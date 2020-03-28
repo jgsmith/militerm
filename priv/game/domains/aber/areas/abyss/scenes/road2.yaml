@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:road3"
+      north:
+        target: "scene:aber:abyss:booth3"
+      south:
+        target: "scene:aber:abyss:booth4"
+      west:
+        target: "scene:aber:abyss:road1"
+    short: Middle of the Road
+    sight: >
+      You are nearing the end of the merchants road. The booths are becoming more run down and trash lining
+      the road blows about on little eddies of wind. There are booths to the north and south.
+flag:

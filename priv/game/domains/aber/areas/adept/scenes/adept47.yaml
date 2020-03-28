@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Overgrown House
+    sight: >
+      This appears to be a former two-room house, the back bedroom entrance now completely blocked by the
+      roots of a great tree. Old and cracked furniture in the final stages of rotting is strewn throughout the
+      room, suggesting a major last stand by the occupants occurred here. A broken clock still hanging by a
+      decaying wooden hook is forever stopped at 8pm. The clutter in the room is such that the whole place
+      should be burned.
+flag:
+  - dark

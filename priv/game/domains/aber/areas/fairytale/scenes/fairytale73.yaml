@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale70"
+    short: Bone Room
+    sight: >
+      Upon entering this room, you are immediately struck by the blinding whiteness which fills this room.
+      Bones are scattered around the room, stacked in piles by species. You recognize cats, dogs, people, and
+      even a dragon or two.
+flag:
+  - nomobiles

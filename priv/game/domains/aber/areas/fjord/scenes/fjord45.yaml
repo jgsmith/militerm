@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord44"
+    short: Overlooking the Drompurix Glacier
+    sight: >
+      Wind moves at near forty knots on this ledge. A dirty line in the snow at your feet marks the point of
+      no return two feet in from the edge of the glacier. Dropping nearly six thousand feet to a basin of
+      sparkling blue snow melt, the icy, reflective surface allows no pretense for the wild ride that ensues
+      for any brave enough to slide the length. Shelter, and the trail, are found back to the west.
+flag:
+  - outdoors
+  - cold

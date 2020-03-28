@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Holding Cell
+    sight: >
+      You have entered what appears to be the holding cell for the dark mage's experiments. The walls and
+      floors in this room are covered with blood and pieces of carcass.
+flag:

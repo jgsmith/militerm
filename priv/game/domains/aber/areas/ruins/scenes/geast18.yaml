@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast17"
+      west:
+        target: "scene:aber:ruins:geast7"
+    short: Northeastern Corridor
+    sight: >
+      You are in the northeastern corridor of a large catacomb. You hear loud rustlings from the rooms around
+      you and wonder what can be causing all of the noise which makes you a little nervous. As your foot sinks
+      into a pool of blood your nerves start to snap and you hold back a shriek. After you regain your senses
+      you look around for exits and see them to the east and to the west.
+flag:
+  - dark

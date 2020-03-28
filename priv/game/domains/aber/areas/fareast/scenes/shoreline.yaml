@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:outlet"
+      north:
+        target: "scene:aber:fareast:shore1"
+      south:
+        target: "scene:aber:fareast:shore2"
+      west:
+        target: "scene:aber:fareast:fareast_bay"
+    short: Off the Eastern Shores
+    sight: >
+      The waves roll up onto the stony beach to the east, bringing new waters back from a freshwater outlet as
+      they recede. Weathered cliffs obscure the area further inland, but you can see a gap in them where the
+      stream's erosion has broken through. The beach stretches on to your north and south, and the choppy sea
+      stretches to the western horizon.
+flag:
+  - outdoors

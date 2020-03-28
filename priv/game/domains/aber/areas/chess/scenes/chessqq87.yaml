@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq88"
+      south:
+        target: "scene:aber:chess:chessqq86"
+    short: The Entrance Hall
+    sight: >
+      You are standing on a fine red carpet, halfway down the length of the entrance hall. There is retreat to
+      the south, and a giant throne to the north.
+flag:

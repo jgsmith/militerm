@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire23"
+      north:
+        target: "scene:aber:fire:fire18"
+      south:
+        target: "scene:aber:fire:fire24"
+      west:
+        target: "scene:aber:fire:fire25"
+    short: Darker cave
+    sight: >
+      As you step further in the dark cave, you trip and fall down a long &+Cslide&*. Now you are on the
+      bottom of the cave. Exits are going in every direction except the way up.
+flag:
+  - dark

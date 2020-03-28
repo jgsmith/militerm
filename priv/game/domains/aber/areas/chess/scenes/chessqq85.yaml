@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:chess:chessqq84"
+    short: The Second Dock
+    sight: >
+      You decide that this dock is much sturdier than the first, and it feels quite nice to stand on firm
+      ground again. The boat is tied to the west, and a nice red wooden door waits expectantly at the east end
+      of the dock- it seems to lead directly into the tunnel wall.
+flag:

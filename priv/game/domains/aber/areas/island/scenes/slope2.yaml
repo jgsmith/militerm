@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:island:slope1"
+      east:
+        target: "scene:aber:island:waste2"
+      north:
+        target: "scene:aber:island:slope1"
+      south:
+        target: "scene:aber:island:brink"
+      up:
+        target: "scene:aber:island:brink"
+      west:
+        target: "scene:aber:island:flow"
+    short: Lava Slope
+    sight: >
+      You are clambering across a steep lava slope. The slope is barren and bare save for a few bushes which
+      break from cracks in the rock. Up above you to the north a narrow path zig zags to the rim of the
+      volcano itself.
+flag:
+  - outdoors

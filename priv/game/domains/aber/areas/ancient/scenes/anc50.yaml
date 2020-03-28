@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ancient:anc49"
+    short: "The Emperor's Audience Room"
+    sight: >
+      The power of the sun is burning your heart, but you bravely step ahead finding yourself in a large hall
+      made for the emperor of this forgotten town. The emperor is believed to be the son of the sun god and
+      you have obviously put your nose into the wrong place. Escape way is back south.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6628"
+    short: The butcher shop
+    sight: >
+      You are enclosed in a poorly lit, stuffy room that smells of blood, salted meat and strange
+      preservatives you didn't think existed in this time period. Pewter cases filled with ice give off wisps
+      of steam near a roasting fire at the east wall. You might wonder why this place is situated so proximate
+      to the gallows, but the butcher nonchalantly claims all his goods died peaceably, then turns away to
+      stifle a chuckle.
+flag:
+  - nomagic
+  - nomobiles

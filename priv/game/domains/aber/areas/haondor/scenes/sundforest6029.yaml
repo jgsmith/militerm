@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6028"
+      up:
+        target: "scene:aber:haondor:sundforest6030"
+    short: Near A Large Tree In The Dense Forest
+    sight: >
+      You are at the end of a small path leading through the dense forest. The crowns of the old trees leave
+      the forest in an unreal twilight illumination. This rough clearing is dominated by a very large &+yoak&*
+      tree, probably the largest in this part of the forest. The path leads back to the north.
+flag:
+  - nomobiles
+  - real
+  - outdoors

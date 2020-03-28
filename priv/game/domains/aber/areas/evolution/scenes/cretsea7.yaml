@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret22"
+      west:
+        target: "scene:aber:evolution:cretsea5"
+    short: Breaking The Surface
+    sight: >
+      The sea here is so shallow that when you stand on the sea bed, your head is above the level of the
+      water. Looking east you can see the cretaceous scenery stretching for miles. Wooded hills and lush
+      valleys dominate the landscape. To the immediate east is a sandy beach, where scuttling crabs forage for
+      scraps of food.
+flag:
+  - outdoors
+  - nomobiles

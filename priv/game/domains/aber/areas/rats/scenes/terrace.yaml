@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rats:hallway_1"
+    short: Terrace room
+    sight: >
+      You are standing in a room which was once a terrace, but someone found it not good to have a terrace, so
+      walls were built and a new room was created. This room is supposedly a relaxing room for Mom, because
+      there is a sewing-machine and a lot of textile and style magazines. Maybe you shouldn't move anything,
+      because people owning a room like this have mostly an organized chaos in their items.
+flag:

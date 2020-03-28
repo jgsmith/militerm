@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund87"
+    short: The Village of Dage
+    sight: >
+      On the southern reaches of Sommerlund stands the village of Dage, one of the many such hamlets which
+      send its young to the Kai Monastery for training. This village is not exceptionally poor, but it could
+      be doing better. It would be if not for the war with the Darklords. A large community well is in the
+      middle of the main street, and horse-driven merchant carts head clippity-clop in and out of town. Off to
+      one side of the street, a group of children are engrossed in a game of freeze tag.
+flag:
+  - outdoors

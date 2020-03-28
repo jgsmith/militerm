@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+    short: &+MThe Deck of Cards
+    sight: >
+      Ready to play a card game? Poker? Blackjack? Maybe something else? Rules are simple. Push the button and
+      the cards are sent everywhere at random. The runners must find enough cards to make the best hand. If
+      they don't like the cards they got, they can get rid of them somewhere to prevent someone else from
+      getting a better hand than you. This contest can be run anytime, either during regular running or a
+      tournament. You can reshuffle anytime, but don't do it so you mess up someone. If you just want to play
+      among the wizards normally, the dealer here will mix them up for you.
+flag:
+  - wizard

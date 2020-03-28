@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: Dark Passage
+    sight: >
+      A long passage extends from the courtyard to a window of light. There is a nobleman's coach here.
+flag:
+  - dark

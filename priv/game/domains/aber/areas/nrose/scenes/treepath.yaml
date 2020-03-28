@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:churchsteps"
+      north:
+        target: "scene:aber:nrose:gardens"
+      south:
+        target: "scene:aber:nrose:storehouse"
+      west:
+        target: "scene:aber:nrose:portcullis"
+    short: Tree-lined Path
+    sight: >
+      You are walking down a dirt path lined with dead trees. To the north are the monk's gardens and two
+      buildings. To the east is the church and the tower of the aedificium.
+flag:
+  - outdoors

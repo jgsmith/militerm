@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6641"
+    short: The stables
+    sight: >
+      No whinnies issue from the darkened stalls of this place; the horses are as yet untamed and the stables
+      lie empty. It is not unusual for a vagrant to make his home here, however, before being moved on by the
+      guards or attacked by the barn owls.
+flag:
+  - dark

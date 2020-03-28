@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:hot"
+      south:
+        target: "scene:aber:eforest:lake"
+    short: Fungus Cavern
+    sight: >
+      You are quite delighted to find that this cavern is much cooler than the surrounding ones. In fact, the
+      change in temperature is so dramatic that you begin to shiver uncontrollably. All about this room are
+      various types of fungus. You can make out familiar Toadstools and Mushrooms. In addition, you see more
+      much exotic fungus that you have never encountered before. Perhaps, you think, you are the only mortal
+      to ever have ventured this far into the earth. Other natural caverns lie to the North and South.
+flag:
+  - dark

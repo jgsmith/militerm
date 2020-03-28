@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9915"
+      up:
+        target: "scene:aber:ghenna:ghenna9918"
+    short: At the undead bar.
+    sight: >
+      A long bar stands here constructed of God only knows what. It appears to be made of human flesh sewn
+      together with the hair of various beasts. Although sturdy, the bar is very pliant to the touch, and it
+      seems to be MOVING ever so slightly, as if it were ALIVE! A stairwell is here, leading upwards into
+      blackness.
+flag:

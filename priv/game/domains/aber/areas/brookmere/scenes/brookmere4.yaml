@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: The Alarms Room
+    sight: >
+      Stepping off the marble block you look around quizzically at your new surroundings. You are in a small,
+      bare stone room, with light coming from somewhere far above. Raising your eyes skyward you discern that
+      you are gazing up the middle of a very long square spiral staircase, though you can't see what is at the
+      top. The bottom step lurks in the shadows to your right, but you are daunted by the height of the stairs
+      and decide against attempting to climb them. Behind you is a &+Cblock of marble&*, identical to the one
+      in Orobius' workroom, that you suppose would take you back there if you stood on it.
+flag:
+  - nosummon
+  - soundproof

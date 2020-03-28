@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan57"
+      north:
+        target: "scene:aber:mithdan:mithdan55"
+    short: Crystal Border
+    sight: >
+      Here the magical crystaline forest merges with normal forest, the green crystal merging in a shifting
+      kaleidascope. The crystal forest streches away to the north, and a thin path winds through it. The path
+      continues to the east.
+flag:
+  - outdoors

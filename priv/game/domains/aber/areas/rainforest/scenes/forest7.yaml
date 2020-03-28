@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest8"
+      west:
+        target: "scene:aber:rainforest:forest2"
+    short: Upper Reaches Of The Rainforest
+    sight: >
+      You are in the foothills of the great mountains to the west, making your way among hundreds of tall
+      trees. To the north, not far away through the trees, you can hear the roaring of an energetic river.
+      However the undergrowth in that direction is too thick to penetrate.
+flag:
+  - outdoors
+  - rainforest

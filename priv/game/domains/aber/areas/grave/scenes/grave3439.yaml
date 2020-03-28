@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3440"
+      north:
+        target: "scene:aber:grave:grave3436"
+      south:
+        target: "scene:aber:grave:grave3446"
+      west:
+        target: "scene:aber:grave:grave3443"
+    short: &+YThe Altar of ATOR
+    sight: >
+      Here is the altar of ATOR. The altar itself is hacked, broken, charred, severely desecrated. The marble
+      the altar was made of has broken off into chunks and fallen onto the floor. The stench here is more
+      overpowering than ever before and you choke to breathe. But what is most amazing is the statue that
+      stands upon the altar. The statue is of the likeness of the old man you saw in the picture in the foyer.
+      The statue glows with a faint light and has been obviously untouched. As you move you hand to touch the
+      statue a voice in your mind forces you to withdraw. You can readily see what has kept this statue free
+      from all harm - the blessings of the god himself. You begin to realize that whatever protects this
+      statue may reward you for defeating the evil that conquered this holy place. There are exits to the
+      north, east, south, and west.
+flag:

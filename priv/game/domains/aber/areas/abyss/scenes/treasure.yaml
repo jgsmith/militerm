@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:control"
+    short: "An Angel's Treasure"
+    sight: >
+      This room is devoid of anything except a large icebox. There is a note attached to the icebox door that
+      reminds you to buy more Mountain Dew.
+flag:
+  - nomobiles

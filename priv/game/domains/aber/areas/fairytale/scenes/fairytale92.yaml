@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairytale:fairytale93"
+      west:
+        target: "scene:aber:fairytale:fairytale56"
+    short: Three Bears
+    sight: >
+      The owners of this house seem to have left, perhaps to take a walk through the forest. The basic number
+      of the house appears to be three: Three bowls stand on the table, steaming softly, three chairs sit
+      around the triangular table, three LA-Z-Y BEAR chairs rest around the fireplace, and three steps lead up
+      to the sleeping loft.
+flag:

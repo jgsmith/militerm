@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:atlantis:atlantis35"
+    short: Messenger Shop
+    sight: >
+      This watery shop is quite sparse as the only thing contained inside of it is a coral countertop for
+      messages. The rest of the room is empty save for an up-to-date aquatic calendar on the wall and a few
+      sponge chairs arranged around the room which seem to have never been used, as no one is ever kept
+      waiting. On the counter is a slogan of some sort: 'Speedy's Messenger Service: Messages delivered while
+      you wait!'. You notice at the bottom of the fine print the clause 'This is backed by a lifetime
+      guarantee--no customer waits longer than their natural life.' An opening in the building leads back out
+      west onto Main Street.
+flag:
+  - underwater
+  - nomobiles

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins24"
+      up:
+        target: "scene:aber:origins:origins26"
+    short: Small Mountain
+    sight: >
+      You climb until you reach a thick veil of mist. You can try to brave the mist or head back down.
+flag:
+  - outdoors
+  - soundproof
+  - negregen

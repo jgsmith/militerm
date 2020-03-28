@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept48"
+      up:
+        target: "scene:aber:adept:adept50"
+    short: Dracwen Range
+    sight: >
+      Yellow stalks of wheat, oats, and rye are the main type of vegetation in these foothills, harvested by
+      the people of the southern provinces to make the grain necessary for survival. The hill is getting
+      barren with the ever-increasing demands of food for the fighting in the north.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:dwelling"
+    short: "Gaea's Laboratory"
+    sight: >
+      Here is where Mother Nature does her nature work. A class 'A' geneticist, she finds ways to alter the
+      paths of DNA. Several large lab desks with large countertops fill the middle of the room, and shelves
+      with beakers and flasks filled with chemicals line the walls. Many odd things are in this room that you
+      don't dare touch, not knowing what next shall happen to you. Among these hum a few HOOD machines,
+      automatically sorting base-pairs from DNA strands.
+flag:
+  - soundproof
+  - cantsummon
+  - nosummon

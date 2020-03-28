@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept71"
+      up:
+        target: "scene:aber:adept:adept67"
+    short: On the Ladder
+    sight: The ladder continues up and down.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia46"
+      south:
+        target: "scene:aber:eosia:eosia44"
+    short: A Dark Room
+    sight: >
+      This dark room is filled with nothing but the sense of evil. A small stairway in front of you leads down
+      into darkness. You can hear the sounds of people screaming coming from every direction. The only exits
+      you can make out besides the stairs, is the archway behind you.
+flag:
+  - dark
+  - negregen

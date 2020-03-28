@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave4"
+      west:
+        target: "scene:aber:fantasy:dcave6"
+    short: Dwarf Mine
+    sight: >
+      A cold chill blows in from the tunnel in front of you and you clench your teeth to stop them from
+      chattering from the cold. Looking at the walls you notice that there may be some minerals still left
+      here for the taking. The passage continues to the west.
+flag:
+  - dark

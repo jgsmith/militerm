@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus49"
+      south:
+        target: "scene:aber:nexus:nexus48"
+      west:
+        target: "scene:aber:nexus:nexus46"
+    short: Island Beach
+    sight: >
+      The southern portion of the beach approaches a plateau atop the cliffs. A hundred feet below, the sea is
+      much more unforgiving than to the northwest. High, frothy waves smash with heavy impact against the
+      jagged, volcanic rock below, forcing the sea anemonies and many critter to crawl into the porous rock
+      surfaces for shelter. Survival in this evironment has been rather scarce since the beginning of time due
+      to the harsh conditions.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

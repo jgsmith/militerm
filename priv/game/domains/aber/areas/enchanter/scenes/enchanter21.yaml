@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter22"
+      west:
+        target: "scene:aber:enchanter:enchanter20"
+    short: Inside the Castle Gates
+    sight: >
+      Well, you're inside the castle. Maybe you shouldn't be here. The guards certainly think so...
+flag:

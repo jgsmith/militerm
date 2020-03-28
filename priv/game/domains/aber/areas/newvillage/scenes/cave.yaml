@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:newvillage:down2"
+    short: Behind the Waterfall
+    sight: >
+      You step behind the water's flow and find yourself in an naturally eroded cave. There is not much here,
+      save the trickle of a little stream coming up from underground and entering the sea to join the waters
+      of the waterfall.
+flag:
+  - outdoors

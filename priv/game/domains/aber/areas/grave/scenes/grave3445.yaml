@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3444"
+    short: "Acolyte's closet"
+    sight: >
+      Here the acolytes kept neat and hanging in the closet their robes, and vassals for the church when not
+      in use. The closet is now empty, save the usual havoc wrecked upon the walls and floor by the invaders.
+      There is an exit to the east.
+flag:

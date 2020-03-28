@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest44"
+      north:
+        target: "scene:aber:rainforest:forest24"
+      south:
+        target: "scene:aber:rainforest:forest25"
+      up:
+        target: "scene:aber:rainforest:forest39"
+      west:
+        target: "scene:aber:rainforest:forest27"
+    short: Deep In The Rainforest
+    sight: >
+      You are wandering through the heart of the rainforest. The density of the trees makes it impossible to
+      continue in a straight line and you wonder whether you might be going round in circles. Long lianas
+      climbing up the nearby tree trunks would help you to ascend into the canopy if you wished. There are
+      exits in all directions.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

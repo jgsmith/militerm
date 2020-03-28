@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale87"
+      up:
+        target: "scene:aber:oaktree:den"
+    short: Vixen Nest
+    sight: >
+      You have entered the lower level of the Fox's Den. It would appear, from the droppings and tiny bones,
+      that this area is still inhabited. The nest itself is a pile of old furs, mud, and sticks, and three
+      fox- shaped depressions are apparent in these furs.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mountain:mou6"
+      south:
+        target: "scene:aber:sdesert:desertsd01"
+    short: The Beginning Of The Southern Desert
+    sight: >
+      This path marks the beginning of the long road to the southern part of the world. There are several
+      rumors as to where it leads, but no one knows for sure. Looking &+gsouth&*, you gaze into a panorama of
+      a rocky, cactus-dotted land, shimmering in the heat of the day.
+flag:
+  - outdoors

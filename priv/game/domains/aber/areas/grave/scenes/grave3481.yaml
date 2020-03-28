@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3479"
+      west:
+        target: "scene:aber:grave:grave3482"
+    short: Twisting Tunnel
+    sight: >
+      Here is a long twisting tunnel. As you make your way through the tunnel you become confused with the
+      directions but as you reach what seems to be the ends you think you see exits to the north and west.
+flag:
+  - dark

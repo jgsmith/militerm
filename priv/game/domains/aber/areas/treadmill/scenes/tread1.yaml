@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The New Treadmills of Hell
+    sight: >
+      You have entered a place where there are hundreds and hundreds of little devils are hard at work digging
+      and carving tunnels. For them they hope that one of their digs will result in a path to escape to the
+      outerlands and bother people again. Exits are everywhere.
+flag:
+  - maze

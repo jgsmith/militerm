@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3443"
+      west:
+        target: "scene:aber:grave:grave3445"
+    short: "Acolyte's Alcove"
+    sight: >
+      Here the acolytes dress in their white robes and prepare themselves for the church service. As you
+      guessed the robes are ripped and the floor and walls are stained with blood. The exits are to the east
+      and west.
+flag:

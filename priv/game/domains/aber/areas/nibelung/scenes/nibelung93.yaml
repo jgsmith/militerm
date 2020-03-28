@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung94"
+      up:
+        target: "scene:aber:nibelung:nibelung91"
+    short: Basement
+    sight: >
+      The basement is full of papers, now rotting, food, now rotting, and castle furniture, now rotting. The
+      rock walls are slightly damp to the touch and the packed dirt of the floor is rather muddy now. Some
+      rusting braces in the walls were once used for torches, which are now gone. A tunnel slopes sharply
+      downwards into a room below, while stairs will take you back to the kitchen above.
+flag:
+  - dark

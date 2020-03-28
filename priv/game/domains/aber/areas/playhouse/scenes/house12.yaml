@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:playhouse:house13"
+      west:
+        target: "scene:aber:playhouse:house11"
+    short: "Grandie and Sweetie's Room"
+    sight: >
+      This is Grandie and Sweetie's room as the title says. There are model planes hanging from the ceiling
+      and a few dollies laying around. There is a Sega system sitting in a place of honor on a shelf. I wonder
+      who likes that so much that it gets such a special place for just it and it's cartridges? There is a
+      computer running over in the corner on a desk put there just for it. The keys are rather worn -- someone
+      must use it alot. There are two exits leading from this room, one leading west to the landing and one
+      leading south to the washroom. The curtains hanging from the rooms only window flaps in the breeze.
+flag:

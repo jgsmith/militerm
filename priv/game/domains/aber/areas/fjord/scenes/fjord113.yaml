@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord99"
+      north:
+        target: "scene:aber:fjord:fjord114"
+      west:
+        target: "scene:aber:fjord:fjord96"
+    short: Main Street, Kyerstarn
+    sight: >
+      Noises emanate from the bazaar to the west, completely opposite of the peaceful silence that is to the
+      east. The road here has been cobblestoned and fashioned into a plaza where the three roads of Kyerstarn
+      intersect. There is an aerial shield of filtered sky-colored energy surrounding a well-tended circle of
+      temperate bluegrass. Shooting a perpetual column of water is a natural geyser, yet imbued with sanctual
+      properties at the nearness of the divine park. It is said that those with the power to travel through a
+      volcano may drink from this geyser to restore any flower garden destroyed by the ghouls and lizards of
+      Fallenthorp. The residential districts of Kyerstarn lie along the northern path.
+flag:
+  - outdoors

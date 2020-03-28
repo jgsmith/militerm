@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:store"
+      north:
+        target: "scene:aber:frobozz:work"
+      west:
+        target: "scene:aber:frobozz:crossection"
+    short: Wide Tunnel
+    sight: >
+      You are in a wide and smooth tunnel with an entrance just north of you which leads into a room which
+      looks like a workshop. This tunnel also continues to the east another 10 or 15 feet where it is abruptly
+      cut off by a brick wall. There is an arched opening in the brick wall, through which you can see racks
+      and shelves.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung31"
+      south:
+        target: "scene:aber:nibelung:nibelung33"
+    short: Schoolhouse
+    sight: >
+      You are standing in a little red schoolhouse. From your cursory glance, it doesn't appear as if anyone
+      has been learning here recently. The chalkboard is smashed, and papers and books lie scattered about the
+      room. The desks and chairs have been thrown about, lending to the look of chaos. A doorway leads out to
+      the south.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar39"
+      north:
+        target: "scene:aber:volcano:bandilbar41"
+      south: null
+    short: Royal Chamber
+    sight: >
+      You are in the chamber of the Queen ant. It smells somewhat musty to your way of thinking, and the acrid
+      odour of sulphur is stronger here too. A low archway leads north into further caverns and chambers, but
+      you cannot see very well. For one thing, the fumes in the air are making your eyes water. The shaking of
+      the volcano as it erupts threatens to cast you from your feet.
+flag:

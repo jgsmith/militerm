@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia1"
+      up:
+        target: "scene:aber:eosia:eosia45"
+    short: The End?
+    sight: >
+      You stand in a vast room at the center of the maze. Before you is the altar to Azash, the most evil of
+      the Elder Gods of Styricum. The room is nothing but pure evil. Sounds of horror echo inside your head as
+      the spirit of Azash attempts to take your soul. Even the most powerful of knights would have a hard time
+      resisting the call to darkness that fills this room. A green portal flickers to the north, just past the
+      altar.
+flag:
+  - dark
+  - nosummon
+  - noquit
+  - negregen

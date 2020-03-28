@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera31"
+      north:
+        target: "scene:aber:opera:opera34"
+      south:
+        target: "scene:aber:opera:opera30"
+      west:
+        target: "scene:aber:opera:opera29"
+    short: Lost in the Mist
+    sight: >
+      As you cross the silent, mist-enshrouded waters, you lose sight of all landmarks and get a feeling of
+      being completely alone.
+flag:
+  - onwater

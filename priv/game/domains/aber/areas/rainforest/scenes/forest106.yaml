@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest107"
+      west:
+        target: "scene:aber:rainforest:forest103"
+    short: In The Grass
+    sight: >
+      You are in a patch of tall grass by the side of a small knoll. There are trees to the east and south, so
+      dense as to block your way, but none above you so you have a clear view of the sky, not a common sight
+      in the forest. To the north is the river.
+flag:
+  - outdoors

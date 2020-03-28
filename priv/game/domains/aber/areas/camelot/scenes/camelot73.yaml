@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot72"
+    short: Fountain Square
+    sight: >
+      A small, lively fountain bubbles in front of you. Here animals and villagers alike come to quench their
+      thirsts, and perhaps engage in a bit of gossip.
+flag:
+  - outdoors

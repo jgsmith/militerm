@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere23"
+      north:
+        target: "scene:aber:brookmere:brookmere19"
+    short: Poorly Lit Corridor
+    sight: >
+      This corridor is only lit by a guttering candle in a sconce at the far end, dripping &+Cwax&* onto the
+      floor. It leads to the north and curves around to the east, in which direction you can smell some sort
+      of food.
+flag:

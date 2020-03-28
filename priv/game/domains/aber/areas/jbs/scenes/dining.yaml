@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:kitchen"
+      west:
+        target: "scene:aber:jbs:den"
+    short: The Dining Room
+    sight: >
+      This is the place where the people who live here gather to eat. You can leave this room to the north or
+      west.
+flag:

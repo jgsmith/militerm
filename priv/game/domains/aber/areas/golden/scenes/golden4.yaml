@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden3"
+      south:
+        target: "scene:aber:golden:golden5"
+    short: &+RDirt&* Trail
+    sight: >
+      Sounds of rushing water have become much louder and clearer, and the vines grow so thick and entwined
+      along this part of the trail that you need a suitable tool to hack through them. Out of a smooth, moist
+      crevice of rock a small stream of water flows west toward the sound of the rushing water. To the south
+      there is a large, irregular tree residing along the never-ending path.
+flag:
+  - outdoors

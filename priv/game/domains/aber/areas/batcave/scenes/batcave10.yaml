@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave11"
+      north:
+        target: "scene:aber:batcave:batcave12"
+      west:
+        target: "scene:aber:batcave:batcave26"
+    short: "Werewolf's Parlor"
+    sight: >
+      It's actually the Werewolf's wife that keeps the house (or cave as it were), so the place is remarkably
+      _unlike_ what you expected. For one thing, the furniture is gorgeous and perfectly matches the
+      carpeting. The &+Csofa&* against one wall is tastefully accentuated by the mood uplighting in the room.
+      It also appears that the Mrs. is attempting to turn Mr. Werewolf into a vegetarian, for the table is
+      spread with a huge meal decidedly lacking in meat.
+flag:
+  - dark
+  - nosummon

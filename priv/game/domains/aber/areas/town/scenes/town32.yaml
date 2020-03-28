@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town30"
+      north:
+        target: "scene:aber:town:town33"
+      south:
+        target: "scene:aber:town:town31"
+      west:
+        target: "scene:aber:town:town34"
+    short: Long Hallway
+    sight: >
+      This long hallway has rooms off in all directions where the sounds of many people can be heard.
+flag:

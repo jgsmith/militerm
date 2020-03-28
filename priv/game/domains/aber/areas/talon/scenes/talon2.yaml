@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon4"
+      north:
+        target: "scene:aber:talon:talon3"
+      south:
+        target: "scene:aber:talon:talon1"
+    short: Shadowy Cave
+    sight: >
+      This is a small, damp, musty smelling cave. There are shadows lining two of the walls and a broken
+      structure resembling a table lying in one corner of the room. To the east lies another room, too dark to
+      discern its purpose. To the north lies a room resembling a storage area, and to the south lies the
+      safety of a land bathed in fresh air and sunlight.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia31"
+    short: The Secret Room
+    sight: >
+      You are in a small secret room within one of the spires of the Citadel. All that there is in this room
+      is a table and a chair, and maps on the wall that resemble Elenia. You wonder what purpose this little
+      cozy room serves.
+flag:
+  - noquit
+  - nomagic
+  - soundproof
+  - private

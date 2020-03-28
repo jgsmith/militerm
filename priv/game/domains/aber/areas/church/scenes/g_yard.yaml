@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:1"
+      north:
+        target: "scene:aber:church:g_yard2"
+      south:
+        target: "scene:aber:church:c_yard"
+      west:
+        target: "scene:aber:church:gloop"
+    short: Graveyard
+    sight: >
+      You are standing at the southern end of the graveyard, following a path which leads north, beside a
+      stone wall. To the south is the churchyard, and the old church itself. To the west a worn rut in the
+      grass leads out across some marshy ground, past a sign which reads "Danger Marshland". A small grave
+      bears the enscription "Orcus: He wasn't nice and paid the price."
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6024"
+      north:
+        target: "scene:aber:haondor:sundforest6026"
+      south:
+        target: "scene:aber:haondor:sundforest6018"
+    short: A Grassy Field
+    sight: >
+      You are in a &+Ggrass&* covered field somewhere in the forest. The tall grass nearly reaches your waist,
+      and the surrounding oaks and beeches form an almost wall-like &+Gthicket&* on the east side of the
+      field. To the northeast you can see a small lake. A small path leads south through the trees, and the
+      field opens up to the north and west. Several &+Cbirds&* circle in the sky.
+flag:
+  - outdoors

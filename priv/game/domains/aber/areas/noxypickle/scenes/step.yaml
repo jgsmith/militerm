@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:noxypickle:bank"
+      west:
+        target: "scene:aber:noxypickle:temple"
+    short: Steps Of Ultimate Catastrophe
+    sight: >
+      You are standing on the temple steps. Enormous and made out of single slabs of stone, they represent the
+      work of the proud civilization of a bygone era. Before you looms the mouth of the temple, and from it a
+      curious smell is issuing. It mingles with the heady odour of the rotting plants to the south, arousing
+      conflicting thoughts within you. You are much too confused to puzzle them out though.
+flag:

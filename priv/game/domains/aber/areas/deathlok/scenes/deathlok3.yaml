@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:deathlok:deathlok4"
+      south:
+        target: "scene:aber:deathlok:deathlok2"
+    short: Stoned Pathway
+    sight: >
+      Before you is the end of the pathway. Gazing around you notice that the road ends at this point. From
+      where the road leads now, is a mystery. Looking up into the moutains, you see a lightning storm that has
+      hit the peak of the mountain. To the north you can see the moutain base. To the south you see the
+      pathway lead back to the bridge.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:icecave:pool"
+    short: Hall Of The Ice People
+    sight: >
+      This is the great Hall Of The Ice People. This is where they come to eat, to drink, and to be merry.
+      Carvings on the walls tell fascinating sagas of the giant Thrym and Mjolnir, of the ship Skidbladnir and
+      Ragnarok, and of the One Tree, Yggdrasil. The hall is deserted now, and you wonder where everyone is
+      hiding. There is some sort of door in the northern wall.
+flag:

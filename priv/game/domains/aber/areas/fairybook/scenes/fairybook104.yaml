@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook94"
+      north:
+        target: "scene:aber:fairybook:fairybook99"
+      south:
+        target: "scene:aber:fairybook:fairybook95"
+      west:
+        target: "scene:aber:fairybook:fairybook90"
+    short: The Never-Path
+    sight: >
+      You stand on the Never-Path. From here at the crossroads you can choose any direction to follow, any
+      adventure to try, any story to live. To the east lies Slightly Gulch, where the Redskins battle the Lost
+      Boys. To the west is the Clearing, where the Lost Boys live. To the north is Kidd's Creek, where the
+      Jolly Roger is berthed. To the south is the Mermaid's Lagoon, where Peter Pan once nearly died to save
+      Tiger Lily. Choose your path . . .
+flag:
+  - outdoors

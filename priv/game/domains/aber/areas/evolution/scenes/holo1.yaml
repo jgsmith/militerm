@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:plei6"
+      west:
+        target: "scene:aber:eastcoast:storeroom"
+    short: Cold Corridor
+    sight: >
+      You are in a well-hewn but cold corridor. Hanging from the walls are rows of well-made torches, and you
+      guess that whoever put them there was not the same as the person that drew the cave paintings to the
+      south. This is definitely the holocene epoch. You have reached the present day at last. To the west the
+      lights end, and you see a dark cave stretching away for some distance.
+flag:

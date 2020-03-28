@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:shattered"
+      north:
+        target: "scene:aber:eforest:glen"
+      south:
+        target: "scene:aber:eforest:tainted"
+      west:
+        target: "scene:aber:eforest:freshly"
+    short: Blackened Oaks
+    sight: >
+      Your heart skips a beat as you enter this grove of trees. Without a doubt, this grove used to contain
+      some of the strongest and most beautiful trees in the entire elven forest. Now, it looks as though a
+      giant hand came down from the heavens, and simply pushed the trees down, in a line from West to East.
+      The few Oaks which still stand have been warped into unhealthy shapes, which nature itself could never
+      produce. Following the line of downed trees, you realize that it leads to a freshly hewn pathway in the
+      mountains to the West.
+flag:
+  - outdoors

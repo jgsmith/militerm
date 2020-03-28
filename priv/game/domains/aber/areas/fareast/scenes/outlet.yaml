@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:gapvalley"
+      north:
+        target: "scene:aber:fareast:shore1"
+      south:
+        target: "scene:aber:fareast:shore2"
+      west:
+        target: "scene:aber:fareast:shoreline"
+    short: Freshwater Outlet
+    sight: >
+      The beach is broken here by the outpouring waters of a freshwater stream, forcing its way down to the
+      ocean. Standing on the rocks at its edge, you can see a gap in the cliff wall, undoubtedly cut by the
+      stream in its youth. This leads to an eastern valley between the cliffs, while the beach reaches
+      underneath this facade to the north and south. To the west, the outlet has formed a small harbor, where
+      a ship bobs in the choppy waves.
+flag:
+  - outdoors

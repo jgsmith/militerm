@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:waterfall"
+    short: Grassy Clearing
+    sight: >
+      You are in a grassy clearing beside a crystal clear, spring-fed pool that reflects the swaying trees
+      above. A sandy path leads north alongside the burbling stream.
+flag:
+  - outdoors

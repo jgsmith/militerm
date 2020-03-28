@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop21"
+      north:
+        target: "scene:aber:bishop:bishop13"
+      west:
+        target: "scene:aber:bishop:bishop11"
+    short: Three-Way Intersection
+    sight: >
+      A wide dirt road leads along two of the cardinal directions. Small rocks line the road to prevent
+      unwanted takeovers by the surrounding grassy prairie. It is kept in seemingly good condition, as there
+      are fresh rake marks within the road. Dustdevils, footprints, and wagons tend to leave the caretaker
+      forever raking.
+flag:
+  - outdoors

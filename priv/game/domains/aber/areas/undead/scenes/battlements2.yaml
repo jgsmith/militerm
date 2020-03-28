@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:battlements3"
+      west:
+        target: "scene:aber:undead:battlements1"
+    short: Upon the battlements
+    sight: >
+      You stand at a turn in the battlements. To your &+Cnorth&* the battlements continue while to your
+      &+Cwest&* seems to be a way to descend back to the courtyard. Despite their hollow drawn out sound, you
+      are grateful for the sound of your own footsteps here. You also notice that it is starting to get
+      incredibly cold here despite the gentle wind in your face.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6638"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6640"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6657"
+    short: A shaded lane
+    sight: >
+      The bent limbs of ash and oak trees lining the lane casts a pattern of dappled light on the ground,
+      which shifts languidly back and forth in the breeze. To the west stands the old post office, and the
+      lane continues north and south.
+flag:
+  - outdoors

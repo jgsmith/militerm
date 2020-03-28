@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:top"
+      west: null
+    short: The Fire Hall
+    sight: >
+      You are standing in the center of a vast hall, lit by huge fountains of molten rock. The walls are
+      carved, and inlaid with polished gold so that they reflect huge fiery figures, in a stunning almost
+      life-like fashion. A huge arched doorway leads east, while to the west there is a small bronze door.
+flag:
+  - hot

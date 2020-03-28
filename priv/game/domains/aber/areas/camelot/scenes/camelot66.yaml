@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot68"
+      north:
+        target: "scene:aber:camelot:camelot69"
+      south:
+        target: "scene:aber:camelot:camelot63"
+      west:
+        target: "scene:aber:camelot:camelot67"
+    short: Main Street
+    sight: >
+      The main part of the hamlet is south of you. There is a shop to the west, a tavern to the east, and
+      something called a bank to the north. Judging from the traffic in and out, you suspect it may be some
+      sort of temple.
+flag:
+  - outdoors

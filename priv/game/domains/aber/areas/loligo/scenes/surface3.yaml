@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface4"
+      west:
+        target: "scene:aber:loligo:surface2"
+    short: Over The Continental Shelf
+    sight: >
+      You are far out from the shore, drifting in the open ocean. On the western horizon the peak of a volcano
+      looms above the waves, but the shore itself is hidden. The water here is deep, but to the east it
+      becomes even deeper as the continental shelf drops away to the vast ocean plain.
+flag:
+  - outdoors
+  - onwater

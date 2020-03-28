@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:forthall"
+      up:
+        target: "scene:aber:fareast:fortu2"
+    short: Hall of Honor
+    sight: >
+      This hall is filled with unreadable plaques remembering the deeds of heroes and leaders long forgotten
+      by the people of the land. They collect dust here, serving only as reminders that rulers love to give
+      themselves awards and titles.
+flag:

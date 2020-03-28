@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar38"
+      north:
+        target: "scene:aber:balharbor:balhar46"
+      south:
+        target: "scene:aber:balharbor:balhar21"
+      west:
+        target: "scene:aber:balharbor:balhar36"
+    short: Idol Square
+    sight: >
+      You are standing northwest of the idol. This part of the square looks as if a more fierce battle has
+      taken place, for you're standing next to the city's courthouse. The building's front appears to have
+      withstood an onslaught from angry thugs attempting to lynch city officials. Smoldering remains of things
+      you don't have a clue what they used to be are scattered everywhere. Another shop where supplies can be
+      bought lies to the north. It apparently suffered some damage from attempts to burn it down but the
+      owners were well-armed to fend off those rioters.
+flag:
+  - outdoors

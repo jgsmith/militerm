@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:haondor:sundforest6030"
+      up:
+        target: "scene:aber:haondor:sundforest6033"
+    short: Midway To The Top Of The Large Oak
+    sight: >
+      You are in a huge oak, about midway to the top. The branches above you block out much of the light, but
+      enough filters through for you to see. A few &+Cbirds&* have remained to watch you from the fringe
+      branches, well out of your reach. Scratches mar the tree here, and torn bark is scattered near you on
+      the branch. It would seem some large forest cat lives nearby, so you had better be careful! You can
+      continue a bit farther &+Cup the tree, or descend to limbs that don't sway so much.
+flag:
+  - outdoors
+  - cold

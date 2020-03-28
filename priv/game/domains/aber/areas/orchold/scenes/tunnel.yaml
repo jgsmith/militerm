@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orchold:mountainside"
+      south: null
+      west: null
+    short: Secret Tunnel
+    sight: >
+      This appears to be an escape route for the king in times of trouble. A passage leads west, and you can
+      see light to the north.
+flag:
+  - dark

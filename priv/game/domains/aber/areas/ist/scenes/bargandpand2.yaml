@@ -1,0 +1,26 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ist:bargandpand1"
+    short: >
+      &+CBargalad&N and &+YPandora&N's Entertainment Center
+    sight: >
+      As you walk in, the first thing you notice is the opposite wall. It is lined, floor to ceiling with
+      guitars. You notice various vintage models: the double-necked Gibson that Jimmy Page played "Stairway to
+      Heaven" on live, the double-necked Rickenbacker bass/guitar that Geddy Lee used with RUSH, the Fender
+      Stratocaster that David Gilmour recorded "Dark Side of the Moon" on, the Stratocaster that Eric Clapton
+      played on "Layla," and the Ibanez played by Steve Vai. In the corner, you notice a little upright piano
+      -- an inscription tells you that Tori Amos learned to play on this very instrument. Looking to the wall
+      on your right, you see an impressive stereo system with an equally impressive CD collection: autographed
+      copies of "The Wall", "Slowhand", "Houses of the Holy", "Moving Pictures", "Under the Pink", and
+      "Sailing the Seas of Cheese" (you stop and think to yourself: "Sailing the Seas of Cheese"?!) On the
+      wall above the CD player, there is a limited edition 10,000 Maniacs/ REM poster in a black frame,
+      autographed by various members of the bands. You also notice a note on the Under the Pink CD which says
+      "Stay awake next time!" In the center of the room is a large whirlpool. Oddly enough, it appears to be
+      in the shape of a large cucumber, and the lights under the water give it a strange purple glow. Too bad
+      you didn't bring your speedos. The room is well furnished in all black, with black marble floors and
+      what looks like obsidian trim. You are tempted to have a seat on the plush black sofa, pop in a CD, and
+      listen to your favorite tunes.
+flag:
+  - party

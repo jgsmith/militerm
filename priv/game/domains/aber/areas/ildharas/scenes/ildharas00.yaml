@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas01"
+      west:
+        target: "scene:aber:church:t_barrow"
+    short: East of the Barrow
+    sight: >
+      You stand in a large field littered with grave markers. Periwinkles and dandelions occasionally dot the
+      grass, and a stand of weeping willows rustles with a slight breeze. A barrow mound rises to the west,
+      its shadow somewhat ominous against the horizon. The field continues north where it eventually ends next
+      to a forest-covered hillside.
+flag:
+  - outdoors

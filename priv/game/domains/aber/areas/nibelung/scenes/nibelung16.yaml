@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung18"
+      south:
+        target: "scene:aber:nibelung:nibelung14"
+    short: Wanderweg
+    sight: >
+      You are on a grassy path which winds its way through some of the northern foothills of the Teeth. To the
+      south, the pass grows progressively difficult, but it is still possible to work your way through. The
+      path narrows greatly to the north, and with a survey of the area, you see a structure off to the far
+      north.
+flag:
+  - outdoors
+  - nomobiles

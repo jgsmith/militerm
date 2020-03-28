@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins64"
+      south:
+        target: "scene:aber:origins:origins60"
+      up:
+        target: "scene:aber:origins:origins65"
+    short: Base of Olympus
+    sight: >
+      You now stand at the base of the incredible mountain, and you realize that a mere mortal like yourself
+      could never effect such a climb without special aid. You can instead head north into the mountain, or
+      back south the way you came.
+flag:
+  - outdoors

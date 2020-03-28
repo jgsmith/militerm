@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cyrus:26"
+    short: Magic room of Epik
+    sight: >
+      You've finally found the magic sword Epik. This room is magnificient. Everything is made of marble, gold
+      or precious stones and you think about bringing back some of these treasures. You are blinded by the
+      light produced by something in the center of the room. After you've adapted with the light, you can see
+      an incredible thing, there's a huge pedestal holding a mystic weapon in the center of the room.
+flag:
+  - noregen

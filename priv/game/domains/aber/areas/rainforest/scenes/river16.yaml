@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:river13"
+    short: Close In To The Shore
+    sight: >
+      TWANG! An arrow thuds into your chest! As you topple into the water you have time to reflect on your
+      poor judgment in coming so close to the shore...
+flag:
+  - outdoors
+  - onwater
+  - nomobiles
+  - death

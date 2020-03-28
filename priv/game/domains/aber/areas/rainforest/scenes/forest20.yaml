@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest17"
+      south:
+        target: "scene:aber:rainforest:forest21"
+    short: Termite Mound
+    sight: >
+      You are in a deep part of the forest. Here termites have built a tall mound, partially excavated by a
+      foraging anteater. The undergrowth is thick to the north and west, so you will have to change direction
+      here.
+flag:
+  - outdoors
+  - rainforest

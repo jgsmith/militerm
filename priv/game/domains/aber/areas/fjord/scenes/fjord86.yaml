@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord91"
+      north:
+        target: "scene:aber:fjord:fjord87"
+      up:
+        target: "scene:aber:fjord:fjord85"
+    short: Base of the Trail
+    sight: >
+      The start of a path leading up into the lower slopes of the northern Nolak Range begins here.
+      Approximately a mile to the north, the north sea begins, sending salt spray high into the air. If it
+      were not for the proximity of the coast, then trees would be able to grow here under ambient conditions
+      and make a forest stretching as far as the Muskrats do to the south.
+flag:
+  - cold
+  - outdoors

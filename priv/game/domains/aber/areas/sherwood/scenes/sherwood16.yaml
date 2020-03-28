@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood17"
+      south:
+        target: "scene:aber:sherwood:sherwood13"
+    short: Road to Wealth
+    sight: >
+      You have chosen the right path. This is the road to fame and fortune. The trees are happy and friendly
+      and the sun is shining bright down through the bright greens leaves of the various trees. The road
+      continues happily to the north.
+flag:
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:widepath2"
+    short: Smithy
+    sight: >
+      This is the monastery smithy. You wonder why you entered this room because there is very little here of
+      any value except perhaps for some tools of limited usefulness.
+flag:

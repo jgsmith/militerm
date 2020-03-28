@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Air Pocket
+    sight: >
+      You find yourself at the bottom of a tube filled by an air pocket. This air pocket extends for a large
+      distance above you. The floor is covered with a small layer of sand that crunches under your feet. On
+      the southern wall, within jumping distance, is the hole that leads back towards the front entrance. On
+      the northern wall there is a very small hole much further up than the hole on the south wall that you
+      might be able to toss something up to.
+flag:
+  - dark

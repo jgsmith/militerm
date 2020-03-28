@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:courtyard8"
+      south:
+        target: "scene:aber:undead:courtyard4"
+    short: Northwestern courtyard
+    sight: >
+      You stand at the northwestern corner of the courtyard. Above you the battlements continue to the
+      &+Csouth&*, as the cobblestones continue in the same direction. The silence is total, even the sound of
+      your own footsteps ring hollow as though they have had the life bled out of them. The courtyard
+      continues to both the &+Csouth&* and the &+Ceast&*.
+flag:
+  - outdoors

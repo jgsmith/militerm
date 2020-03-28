@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter47"
+      east:
+        target: "scene:aber:enchanter:enchanter49"
+    short: Outside the Machine Room
+    sight: >
+      You're at the top of the tower, standing in the doorway of a really noisy room. Giant axe blades are
+      swinging back and forth across the room. If you were nimble enough, you could probably dodge them and
+      get through, except there are also enormous saw-blades spinning around the room. And if this weren't
+      enough, a huge hammer crashes down on the floor every three or four seconds. It probably wouldn't be a
+      good idea to go through there. On the other side of the mess, you can see some sort of control room. You
+      can barely see a parchment scroll just inside the control room. It must be important!
+flag:

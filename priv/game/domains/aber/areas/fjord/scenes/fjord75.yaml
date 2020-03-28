@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord76"
+      south:
+        target: "scene:aber:fjord:fjord72"
+    short: Loolander Avenue
+    sight: >
+      The spirit of the evil northern winds has this wide boulevard named in its honor. Stretching from the
+      plaza to the south to the mountain wall due north, this street has most of the housing districts on it.
+      Skyscrapers housing thousands of minions of the dark stretch way up into the dark ceiling that leads up
+      the main shaft of the crater. Way overhead, a dim gray reveals the opening to this world. To the north,
+      the volcano wall crashes into the ground, cutting off the avenue.
+flag:
+  - dark

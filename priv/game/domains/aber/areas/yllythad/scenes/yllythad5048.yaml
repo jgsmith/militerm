@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:yllythad:yllythad5049"
+      south:
+        target: "scene:aber:yllythad:yllythad5047"
+      west:
+        target: "scene:aber:yllythad:yllythad5043"
+    short: Among Fifteen Foot Waves
+    sight: >
+      Waves crush down in giant walls in every direction, the winds howls unceasingly as the rain is driven
+      harder and harder against the sea's surface.
+flag:
+  - onwater
+  - outdoors

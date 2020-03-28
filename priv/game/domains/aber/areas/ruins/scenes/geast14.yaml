@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast15"
+      west:
+        target: "scene:aber:ruins:geast13"
+    short: Southeastern Corridor
+    sight: >
+      You are in the southeastern corridor of a large catacomb. You hear something moving around near your
+      feet and look down quickly to find that it is only a rat and sigh a breath of relief. You then look
+      around the corridor for exits and see that it leads to the east and to the west.
+flag:
+  - dark

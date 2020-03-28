@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:silu1"
+      north:
+        target: "scene:aber:evolution:devo2"
+    short: Devonian Shallow Seas
+    sight: >
+      It is an age of rapid diversification among fish. Early sharks cruise the oceans, keeping an
+      ever-watchful eye out for the giant arthrodires which prey on them. Small bony fishes wisely hug the sea
+      floor, keeping cover among clumps of seaweed. You feel very vulnerable as you notice all around you the
+      dim shapes of prowling arthrodires, and you pray you will not be providing a meal for one of them soon.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

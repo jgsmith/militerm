@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:69"
+      west:
+        target: "scene:aber:cyrus:82"
+    short: Trail
+    sight: >
+      You are following the edge of the mountain. You are walking on a small trail surrounded by trees. Birds
+      aren't singing anymore. Everything has a creepy atmosphere. You can see a turn in the trail. The trail
+      goes on to the west and east.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river13"
+      north:
+        target: "scene:aber:rainforest:river11"
+      south:
+        target: "scene:aber:rainforest:river12"
+      west:
+        target: "scene:aber:rainforest:river7"
+    short: Midstream
+    sight: >
+      You are in the middle of the river. Since the influx of more tributaries, both large and small, the
+      expanse of water has grown staggeringly wide. To the north and south the banks seem dim and distant. You
+      can go in any direction.
+flag:
+  - outdoors
+  - onwater

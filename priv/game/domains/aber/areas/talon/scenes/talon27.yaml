@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:talon10"
+    short: Small Room
+    sight: >
+      This is a small cave which appears to be merely an opening formed by the years of pushing and pulling by
+      underground forces waging their ancient battles beneath the surface of the earth.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9969"
+      south:
+        target: "scene:aber:ghenna:ghenna9902"
+    short: A road in Ghenna.
+    sight: >
+      This road is quite narrow, but seems to open up towards the South. A fallen building stands to the West,
+      and the city wall blocks the exit north.
+flag:
+  - dark
+  - outdoors

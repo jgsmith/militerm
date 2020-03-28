@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6015"
+      north:
+        target: "scene:aber:haondor:sundforest6009"
+      west:
+        target: "scene:aber:haondor:sundforest6013"
+    short: An Intersection In The Dense Forest
+    sight: >
+      You are on a small path leading through the dense forest. The forest gradually lightens to the north.
+      Paths lead north, east and west.
+flag:
+  - real
+  - outdoors

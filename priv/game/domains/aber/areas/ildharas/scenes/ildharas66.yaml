@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas41"
+    short: "The King's Library"
+    sight: >
+      It seems this is where the king kept all his important documents and private resources. A large ebony
+      table dominates the room center, and bookcases line all the available walls. These go from floor to
+      ceiling, but all their contents have been removed.
+flag:

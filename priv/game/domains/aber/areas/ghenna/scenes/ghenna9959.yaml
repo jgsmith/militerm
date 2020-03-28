@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9960"
+      west:
+        target: "scene:aber:ghenna:ghenna9901"
+    short: A street in Ghenna.
+    sight: >
+      This narrow, dimly lit street leads East into darkness, and West towards the city entrance. The rubble
+      from fallen buildings has made any other exits impossible.
+flag:
+  - dark
+  - outdoors

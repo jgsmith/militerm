@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:fairytale:fairytale134"
+    short: Warm Room
+    sight: >
+      A pipe extends up from the floor and opens here. Heat pours from it, making you sweat almost
+      immediately.
+flag:

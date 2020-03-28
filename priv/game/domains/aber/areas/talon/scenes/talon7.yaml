@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon8"
+      up:
+        target: "scene:aber:talon:talon6"
+    short: Narrow Shaft
+    sight: >
+      You are now so far underground that sunlight has become nothing but a far- fetched dream. The hot moist
+      air bears heavily down upon you from above, the stale air, and narrow walls seem to choke the very life
+      out of you. Above, the shaft continues almost endlessly. Below, sounds of activity seem to be evident,
+      but the dark may be playing tricks on your mind.
+flag:
+  - dark

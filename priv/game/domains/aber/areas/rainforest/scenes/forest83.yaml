@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest79"
+      south:
+        target: "scene:aber:rainforest:forest87"
+      west:
+        target: "scene:aber:rainforest:forest88"
+    short: By The Shallow River
+    sight: >
+      Water, water everywhere... There seems to be no end of it. This sluggish tributary is one of the least
+      of those you have seen, but in more temperate climes it would not be an insignificant feature. A dense
+      thicket prevents you from heading east, but you could go around it by heading south first - the water
+      near the shore is shallow enough to wade in.
+flag:
+  - outdoors

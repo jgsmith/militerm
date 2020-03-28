@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund5"
+      south:
+        target: "scene:aber:sommerlund:sommerlund9"
+    short: Farmland Outskirts
+    sight: >
+      Nearby are several barns, sheds, and houses, all of which serve to run the community here and feed this
+      region of the countryside. It is a place of greenery and abundant animals. To the south, acre upon acre
+      of pasture and field awaits grazing and annual harvesting. Plowshares and hoes line segments of fencing
+      along the trail.
+flag:
+  - outdoors

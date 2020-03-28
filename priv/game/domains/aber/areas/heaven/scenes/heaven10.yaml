@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven9"
+      north:
+        target: "scene:aber:heaven:heaven17"
+      up:
+        target: "scene:aber:heaven:heaven11"
+      west:
+        target: "scene:aber:heaven:heaven9"
+    short: Cloud 9
+    sight: >
+      All is peaceful. All around you flit angels with harps, singing beautiful melodies full of joy and love.
+      Folds of the cloud form chairs and couches to rest on.
+flag:
+  - private
+  - peaceful

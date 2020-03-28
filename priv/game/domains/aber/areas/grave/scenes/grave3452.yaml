@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3455"
+      north:
+        target: "scene:aber:grave:grave3459"
+      south:
+        target: "scene:aber:grave:grave3451"
+      west:
+        target: "scene:aber:grave:grave3454"
+    short: Wide Hallway
+    sight: >
+      Here is a large hallway that connects some rooms used to instruct and rally the attackers with a final
+      checkpoint beneath the church. To the north is the bank of a large body of water. The floor here is
+      smooth and you can tell the hordes that took the church all came this way. The smell here is awful.
+      There are exit to the north, south, east, and west.
+flag:

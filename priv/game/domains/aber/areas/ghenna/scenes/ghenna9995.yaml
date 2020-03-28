@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9996"
+    short: A quivering jaunt.
+    sight: >
+      You have entered a quivering jaunt. It feels like you are in the belly of a giant beast. The mucuslike
+      walls are a deep red color that thrums with energy. The only exit is North.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:haondor:sundforest6016"
+      west:
+        target: "scene:aber:haondor:sundforest6014"
+    short: A Small Path In The Dense Forest
+    sight: >
+      You are on a small path leading through the dense forest. The crowns of the old trees leave the forest
+      in an unreal twilight illumination. The path continues south and west.
+flag:
+  - real
+  - outdoors

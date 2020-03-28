@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:bishop:bishop13"
+    short: Front Porch
+    sight: >
+      A set of stairs lead up to a rickety wooden porch. A wall cover of ivy drapes the supports of the house,
+      and potted plants line the far side, their leaves sprawled to receive the sunlight. Stained-glass
+      windows fill in their squarish panes, and a circle of branded designs encompass the doorway.
+flag:
+  - outdoors

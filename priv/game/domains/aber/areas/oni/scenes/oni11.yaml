@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni12"
+      west:
+        target: "scene:aber:oni:oni10"
+    short: Path by a River
+    sight: >
+      You are on an east-west path the follows the shores of a small river. The area is surrounded by a lush
+      forest with plants that you are unfamiliar with. Amongst the trees you spot its various inhabitants,
+      which you are equally unfamiliar with. They appear harmless, as many of them quickly dart out of view
+      upon spotting you. As you look towards the north, the forest appears to grow more dark and sinister.
+flag:
+  - outdoors

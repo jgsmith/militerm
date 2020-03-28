@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook162"
+      south:
+        target: "scene:aber:fairybook:fairybook164"
+    short: Forest
+    sight: >
+      You continue done the forest path, content that you are ready for anything at all which might happen.
+      The path goes north and south.
+flag:
+  - outdoors

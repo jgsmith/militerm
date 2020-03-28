@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:yllythad:yllythad5026"
+      north:
+        target: "scene:aber:balharbor:balhar90"
+    short: The Dock
+    sight: >
+      You have reached a ladder that extends down into the water for people to embark or disembark on boats.
+      Several floating smaller docks allow people to tie up their boats here. All to the south you see the
+      Yllythad Sea.
+flag:
+  - outdoors

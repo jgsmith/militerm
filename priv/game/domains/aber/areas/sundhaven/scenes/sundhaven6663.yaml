@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:sundhaven:sundhaven6662"
+    short: The chamber of sacrifice
+    sight: >
+      You have entered a somber chamber, somehow filled with darkness and still retaining shadows that seem to
+      flicker in the recesses of the room. It appears a sacrifice to the matron deity of Sundhaven is
+      scheduled to take place. You may watch, but be warned there are times set aside for the sacrifice of
+      those who interfere.
+flag:
+  - dark

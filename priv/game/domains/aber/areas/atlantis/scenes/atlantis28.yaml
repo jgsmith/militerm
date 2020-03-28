@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis34"
+      west:
+        target: "scene:aber:atlantis:atlantis23"
+    short: Side Street
+    sight: >
+      This street continues along between buildings, providing a fairly wide corridor. The buildings on either
+      side seem to be made mostly of a sand-like substance. The building at the end of the street on the left
+      looks like it is made from a blue-green material that looks like marble and you guess that it is an
+      important building. Fish dart past you on their way to get to somewhere while you're deciding where to
+      go. You may return back to Main Street to the east or toward the end of the street to the West.
+flag:
+  - underwater

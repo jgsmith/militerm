@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon21"
+      south:
+        target: "scene:aber:pensalon:pensalon19"
+    short: Throne Room
+    sight: >
+      You are standing in a large audience chamber where the King presides over his faithful subjects. To the
+      south is a large reception hall where faithful subjects are now lining up to hear the king speak.
+flag:

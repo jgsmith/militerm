@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome59"
+      up:
+        target: "scene:aber:rome:rome52"
+    short: A Mountain Path
+    sight: >
+      You are standing on a small &+ytrail&* that leads through a grove of &+Gtrees&*. Every thing is lush and
+      green here and it appears to have been raining recently. 'This would be an ideal place for a picnic,'
+      you think to yourself.
+flag:
+  - outdoors

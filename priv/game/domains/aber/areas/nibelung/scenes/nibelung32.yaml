@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung35"
+      west:
+        target: "scene:aber:nibelung:nibelung31"
+    short: Tavern
+    sight: >
+      You are in a tavern of once-reputable reputation. Now it is musty and damp, and in obvious disuse. The
+      room has been cleared of tables and chairs, apparently put in storage long ago. Along the wall behind
+      the bar is a large mirror, now cracked and dirty. The shelves are also bare, and some glass shards
+      twinkle on the floor. Engraved on the top of the bar you read, "To be or not 2B?"
+flag:

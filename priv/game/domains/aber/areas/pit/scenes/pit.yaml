@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:start:temple"
+    short: The Pit
+    sight: You plunge into the infinite voids...
+flag:
+  - death

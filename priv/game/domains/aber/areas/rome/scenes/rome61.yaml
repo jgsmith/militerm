@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rome:rome60"
+    short: The Torture Chamber
+    sight: >
+      You are standing in a very small room in which there are many tools designed specifically for inflicting
+      pain and suffering. Some of them are familiar, such as the rack and the iron maidens. Others, you have
+      never seen before and they make you wonder about the kind of sadistic mind that dreamt them up. The only
+      exit is to the west.
+flag:

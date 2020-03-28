@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fire:fire29"
+      west:
+        target: "scene:aber:fire:fire26"
+    short: Around the wall
+    sight: >
+      You are following the wall. You see nothing special. The wall is reaching the top of the cave. You can
+      go south or west.
+flag:
+  - dark

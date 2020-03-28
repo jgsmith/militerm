@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_1"
+      west:
+        target: "scene:aber:haunted:haunted_15"
+    short: Beach of Crystal Lake
+    sight: >
+      You find yourself walking along the shore of a dark, murky lake. Fog rises up from the water like steam.
+      It is so thick, you can hardly see. Perhaps walking out on the dock would give you a clearer view.
+flag:
+  - real

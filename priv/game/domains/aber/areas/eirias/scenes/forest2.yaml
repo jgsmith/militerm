@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:forest3"
+      south:
+        target: "scene:aber:eirias:forest1"
+    short: Deeper into the Forest
+    sight: >
+      There are patches of grass growing in the sand of the track now, and the arms of creeping plants
+      reaching across. The air is cool as the forest grows deeper. Few birds sing here. The trees are larger
+      and thicker.. the forest goes on and on.
+flag:
+  - outdoors

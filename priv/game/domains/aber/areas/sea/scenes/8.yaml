@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:5"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:6"
+      west:
+        target: "scene:aber:sea:9"
+    short: All At Sea
+    sight: >
+      You are out all at sea, lost amidst the seething waves and grey skies, a speck on an undulating dark
+      mass. The seas are heavy all around you, though not too rough to the west. To the south the waves smooth
+      off quite a bit, providing you can cross the rough waters before it.
+flag:
+  - onwater
+  - outdoors

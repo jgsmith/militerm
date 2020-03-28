@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:guard"
+      up:
+        target: "scene:aber:blizzard:landing"
+      west:
+        target: "scene:aber:blizzard:pass"
+    short: Guard Room
+    sight: >
+      You are in a large guardroom. A set of stairs leads up and down. A number of zombie guardsmen swarm
+      around you, tearing you mercilessly into shreds... In your dying moments you notice another guardroom to
+      the east.
+flag:
+  - death

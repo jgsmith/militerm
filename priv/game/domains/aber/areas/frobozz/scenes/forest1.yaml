@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:forest4"
+      north:
+        target: "scene:aber:frobozz:forest2"
+      south:
+        target: "scene:aber:frobozz:housen"
+      west:
+        target: "scene:aber:frobozz:forest2"
+    short: In the Forest
+    sight: >
+      8 Forest This is where the dense forest starts. Paths leads of in every direction. The one going
+      southwards leads to a white house situated in an open field. Faint chirps from a songbird can be heard
+      from somewhere east of here.
+flag:
+  - outdoors

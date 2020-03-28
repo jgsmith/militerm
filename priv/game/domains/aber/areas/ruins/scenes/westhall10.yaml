@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:northhall7"
+      south:
+        target: "scene:aber:ruins:westhall9"
+    short: Yet Another Turn in the Northern Hallway
+    sight: >
+      You are now briefly travelling north in the hallway. All of this turning is really starting to get you
+      confused and rather annoyed at the same time. The hallway turns to the east here and leads back to the
+      south.
+flag:
+  - dark

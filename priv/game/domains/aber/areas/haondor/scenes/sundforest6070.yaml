@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6070"
+      north:
+        target: "scene:aber:haondor:sundforest6078"
+      south:
+        target: "scene:aber:haondor:sundforest6061"
+      west:
+        target: "scene:aber:haondor:sundforest6072"
+    short: Off Of The Path In The Shaded Forest
+    sight: >
+      You are wandering amongst the trees in the light forest, without the aid of a path or trail. More
+      sunlight trickles through the treetops here, making your travel a bit easier. Small animals scurry away
+      as you approach. You are no longer on a path, so you may go whichever way you please.
+flag:
+  - real
+  - outdoors

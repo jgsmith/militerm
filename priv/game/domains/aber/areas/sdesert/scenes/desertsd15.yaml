@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd12"
+      south:
+        target: "scene:aber:sdesert:desertsd17"
+    short: The Desert Mountains
+    sight: >
+      You grow weary as you trod through these dry mountains.
+flag:
+  - outdoors
+  - hot

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eosia:eosia6"
+    short: "Thieves' Guild"
+    sight: >
+      You stand in the local chapter of the Thieves' Guild. Here is where all of the local thieves, from
+      cut-throat thieves to small pick pockets, meet and discuss business. You can just barely make out sounds
+      from the Inn upstairs coming through the ceiling. Looking about you see many of the items 'obtained' by
+      the thieves during thier normal working hours. A banner hangs on the far wall stating 'Congratulations
+      Seamas and Traveller on your 100+ thefts.' The only exit is up.
+flag:
+  - private
+  - soundproof

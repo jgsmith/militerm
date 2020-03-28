@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire49"
+      west:
+        target: "scene:aber:fire:fire17"
+    short: Eastern way
+    sight: The way is following further east.
+flag:
+  - dark

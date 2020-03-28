@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town25"
+      north:
+        target: "scene:aber:town:town39"
+      south:
+        target: "scene:aber:town:town37"
+      west:
+        target: "scene:aber:town:town41"
+    short: Town Square
+    sight: >
+      This is just a large open area in the middle of the town. This square is connected to the west by the
+      main road and goes east to another part of the town's square, to the north is the Blacksmith's square,
+      and to the south is the square in front of the Brothel.
+flag:
+  - outdoors

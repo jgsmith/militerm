@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3441"
+      south:
+        target: "scene:aber:grave:grave3442"
+      west:
+        target: "scene:aber:grave:grave3439"
+    short: The Choir Pit
+    sight: >
+      There is a large area here that was once used by the choir. There are songbooks ripped to shreds, robes
+      in scraps, and several corpses lying scattered about. As usual the pews are ripped to shreds and the
+      lighting here is very faint. The smell here is not as bad as before but you still have a hard time
+      breathing. There are exits to the east, west, and and door to the south.
+flag:

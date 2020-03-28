@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f2"
+    short: "The Devil's Foodcake"
+    sight: >
+      You have come upon a very large cake...a cake of dirt and rock that formed over time that looks like
+      some dessert on your dinner table. This cake happens to be surrounded by a circle of trees, and it has
+      been rumored that from time to time, a demonic figure emerges from the center of the cake. Hopefully it
+      is nothing but just a rumor.
+flag:
+  - peaceful
+  - outdoors

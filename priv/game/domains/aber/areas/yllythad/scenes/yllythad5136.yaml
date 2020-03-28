@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5141"
+      north:
+        target: "scene:aber:yllythad:yllythad5027"
+      west:
+        target: "scene:aber:yllythad:yllythad5131"
+    short: A Strong Current
+    sight: >
+      This area of the sea is carried along by a strong undercurrent which moves the water in its own
+      direction, regardless of the wind or weather topside. The beach area to the south has begun to get
+      covered in rocks, making it unsafe to attempt travel onto land. It looks a bit more safe to the east.
+flag:
+  - onwater
+  - outdoors

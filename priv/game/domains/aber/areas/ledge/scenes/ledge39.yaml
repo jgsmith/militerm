@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ledge:ledge38"
+    short: Kobold Cave
+    sight: >
+      A bit of a musty section of cave is the home of some kobold, which is a kind of miner tribe of humanoid
+      people that pretty much love dark places and hate sunlight. There's not too much to speak of in here,
+      except for a few not-so-valuable trinkets. The kobold that lives here doesn't even sleep on anything
+      more than a boulder! You can exit back out to the south.
+flag:
+  - dark

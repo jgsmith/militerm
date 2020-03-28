@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan7"
+      north:
+        target: "scene:aber:mithdan:mithdan1"
+      south:
+        target: "scene:aber:mithdan:mithdan10"
+      west:
+        target: "scene:aber:mithdan:mithdan5"
+    short: Thin Trail
+    sight: >
+      The trail is thin and unkempt, the forest struggling to reclaim it. To the east and west the trail thins
+      out into forest, but to the north and south the trail continues. The east trail is hreavily overgrown
+      with brambles and thorns. You can only see the sky in patches, the forest canopy has grown thick over
+      the trail.
+flag:
+  - outdoors

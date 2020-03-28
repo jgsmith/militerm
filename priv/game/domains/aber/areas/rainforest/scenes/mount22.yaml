@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount21"
+    short: End Of The Moraine
+    sight: >
+      You cannot proceed further along this moraine, for here the glacier bends around to the south and you
+      are on the outer edge of the bend where the glacier is stretched and cracked into countless crevasses. A
+      crossing at this point would be well nigh suicidal.
+flag:
+  - outdoors
+  - cold

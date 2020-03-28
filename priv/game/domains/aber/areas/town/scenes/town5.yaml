@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town4"
+      north:
+        target: "scene:aber:town:town6"
+      south:
+        target: "scene:aber:town:town7"
+      west:
+        target: "scene:aber:town:town10"
+    short: Middle of Bay
+    sight: >
+      You are in the middle of the very large bay. Water surrounds you in all directions and to the west the
+      docks can be seen, and to the east the smell of salt water is very weak but it still can be smelt.
+flag:
+  - outdoors
+  - onwater

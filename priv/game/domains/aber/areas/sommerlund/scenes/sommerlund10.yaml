@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund9"
+      west:
+        target: "scene:aber:sommerlund:sommerlund11"
+    short: Farmlands
+    sight: >
+      The fields are somewhat sparse here, but further to the east, they flourish. Past one last tumbledown
+      house, the road snakes into a forest.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd02"
+      south:
+        target: "scene:aber:sdesert:desertsd04"
+    short: Near A Large Mesa
+    sight: >
+      To the &+ysouth&* you can barely see a huge, low, mesa, sitting solidly as it has been from the
+      beginning of time. Looking northward brings no rewards, it just hurts your eyes.
+flag:
+  - outdoors
+  - hot

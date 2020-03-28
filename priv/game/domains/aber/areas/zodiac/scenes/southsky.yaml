@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:seastsky"
+      north:
+        target: "scene:aber:zodiac:amgstars"
+      south:
+        target: "scene:aber:zodiac:southend"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:swestsky"
+    short: The Southern Skies
+    sight: >
+      As you scan the area you suddenly feel very lonely. There is nothing for miles if you were to head
+      either east or west. Back to the north is where you began, and while you think that's probably the best
+      way for you to go, you have a gut feeling that wants you to go due south.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle12"
+      south:
+        target: "scene:aber:avairy:castle4"
+      west:
+        target: "scene:aber:avairy:castle9"
+    short: Corridor
+    sight: >
+      You are in a branching corridor. Halls lead off to the south, north, and west.
+flag:
+  - light

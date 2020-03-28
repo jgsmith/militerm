@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung15"
+      north:
+        target: "scene:aber:nibelung:nibelung16"
+      south:
+        target: "scene:aber:nibelung:nibelung12"
+      up:
+        target: "scene:aber:nibelung:nibelung17"
+    short: Alpine Pass
+    sight: >
+      You are in the northern foothills of Zaryat's Teeth. The tall mountain craggs rise up to the south,
+      their snow covered peaks reflecting the orange glow of the setting sun. Above you there is a clearing,
+      which would appear to offer a beautiful vantage point to look out over the lands below. A trail winds
+      its way down to the northern areas.
+flag:
+  - outdoors
+  - cold

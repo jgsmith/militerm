@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:cret3"
+      west:
+        target: "scene:aber:evolution:cret5"
+    short: Rolling Hills
+    sight: >
+      You are wandering among some delightful scenery. Gentle hills and dales rise and fall about you, and
+      rivers and streams meander through them without hurry. Only the unearthly cries of far-off dinosaurs
+      remind you that you are not strolling through the hills of the holocene epoch. To the west a path heads
+      north towards rockier ground.
+flag:
+  - outdoors

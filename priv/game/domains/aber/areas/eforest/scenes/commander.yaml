@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:barracks"
+    short: "Commander's Quarters"
+    sight: >
+      You stand in a large, well-kept room. It has none of the squalor of the barracks to the East. There is a
+      neat bed here, with a tidy table next to. If it weren't for the fact everything in this room was black,
+      the place might actually look cheery.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:entry"
+      north:
+        target: "scene:aber:novice:hut"
+      west:
+        target: "scene:aber:novice:trail_2"
+    short: Forest Trail
+    sight: >
+      Walking a little bit deeper into the forest you notice how tranquil everything is. You start to feel a
+      little strange, however, and you get light butterflies in your stomach as you get the feeling that you
+      might be intruding. To the north you notice a small hut, and to the west the forest continues. The
+      section of forest to the west seems to be made up almost entirely of very large oak trees.
+flag:
+  - outdoors
+  - real

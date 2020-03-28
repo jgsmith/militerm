@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle23"
+      south:
+        target: "scene:aber:avairy:castle21"
+      west:
+        target: "scene:aber:avairy:castle24"
+    short: Sitting Room
+    sight: >
+      This is the sitting room. Apparently, birds sit here.
+flag:
+  - light

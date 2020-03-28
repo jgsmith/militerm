@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot147"
+      north:
+        target: "scene:aber:camelot:camelot149"
+    short: Crumbling Tunnel
+    sight: >
+      The walls here are battered and crumbling, bu they don't seem to be in any real danger of collapse. It
+      seems more like somebody has been beating them with a hammer while bored. A small tunnel leads north,
+      and a glow from the east shows a small cave in that direction.
+flag:
+  - dark

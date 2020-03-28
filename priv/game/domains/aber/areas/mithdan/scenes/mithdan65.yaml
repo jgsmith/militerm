@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan63"
+    short: Tiny Hut
+    sight: >
+      You stand within a tiny hut that appears to be woven of living branches and vines, probably by an elf
+      for temporary shelter. The roof of the hut stands open to the weather, the magic that allowed air to
+      pass through but not rain having since worn off. The only exit from the hut is back to the north.
+flag:
+  - outdoors

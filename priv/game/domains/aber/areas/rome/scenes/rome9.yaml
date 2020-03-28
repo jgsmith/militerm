@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome16"
+      south:
+        target: "scene:aber:rome:rome10"
+    short: The Practice and Warm-up Area
+    sight: >
+      There are many gladiators, chariot drivers and their coaches here, warming up in preparation for the
+      games. The dust rising from the parched earth makes you want to sneeze. A short tunnel leads east and
+      the thunder of pounding hooves and the clash of weapons can be heard coming from the south.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar74"
+      south:
+        target: "scene:aber:balharbor:balhar67"
+      west:
+        target: "scene:aber:balharbor:balhar72"
+    short: Pines Road
+    sight: >
+      Moving further into the subdivision, it appears more than one of those houses fell victim to rioters.
+      You see a light-blue house to the west and hear some sort of bashing sound coming from it. You happen to
+      notice the front door open and some holes in the wall. Better check it out. You also further survey the
+      damage north and south of here.
+flag:
+  - outdoors

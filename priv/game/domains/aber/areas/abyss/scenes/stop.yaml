@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:abyss:abyss"
+    short: Last Stop
+    sight: >
+      The boat seems to pull up to the western bank of the river and stops. On the bank is a sign that reads:
+      Last Stop. Everyone Must Disembark. As you get off the boat, it pulls away, returning whence it came.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:khanjar:khanjar9522"
+    short: A Jet-black Pond...
+    sight: >
+      Suddenly you are fallen down into jet-black and very cold water. Bubbles raise to the surface and at the
+      same moment you feel a touch on your feet. This feels ominous, as though there were something housing
+      the bloody pool.
+flag:
+  - nomagic
+  - nomobiles
+  - onwater
+  - outdoors

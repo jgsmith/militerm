@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook69"
+      west:
+        target: "scene:aber:fairybook:fairybook71"
+    short: Soldier Path
+    sight: >
+      A score of soldiers hurry past you to help repair the broken egg, humpty Dumpty. A few of them stop to
+      harass you. The path goes east and west.
+flag:
+  - nomobiles

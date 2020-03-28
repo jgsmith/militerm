@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis67"
+      south:
+        target: "scene:aber:atlantis:atlantis65"
+      west:
+        target: "scene:aber:atlantis:atlantis68"
+    short: Tight Squeeze
+    sight: >
+      The tunnel you have just entered hedges in closely upon you but is still sufficiently large to allow you
+      comfortable passage. This tunnel also has the glassy look of the previous passage and your light slides
+      off the surface in a bright glare. The tunnel continues to the north into a dead-end passage, to the
+      west into another corridor and back to the south.
+flag:
+  - dark
+  - underwater

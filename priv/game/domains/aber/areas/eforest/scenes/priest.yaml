@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:volumeroom"
+      south:
+        target: "scene:aber:eforest:intemple"
+    short: "Dark Priest's Lair"
+    sight: >
+      You stand in a room which is consumed by darkness. Shadows flicker every- where, seeming almost alive.
+      For a moment, you worry that your light source may be extinguished. Glancing around, through the inky
+      darkness, you realize that you are in some type of bed room. Evil religious icons and grotesque
+      paintings line the walls. In the corner sits an &+Caltar&* which is covered by a dark red liquid.
+      Without a doubt, this is the home of the Priest of the dark elves.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:worn"
+    short: Zombie Guardroom
+    sight: >
+      You have entered the huge guardroom where all the Lich's troops live. Several zombie guards look up at
+      you when you enter, and a slow smile spreads across their faces. Anticipating a good meal, they quickly
+      run to you and rip you to shreds.
+flag:
+  - death

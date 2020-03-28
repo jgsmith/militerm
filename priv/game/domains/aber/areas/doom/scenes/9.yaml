@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:10"
+      south:
+        target: "scene:aber:doom:7"
+    short: &+cForest Path
+    sight: >
+      You enter a path in the woods. It is dark and very creepy. You can barely see the path, only enough to
+      know where to put your feet. You feel like you're being watched and looking around you realize the trees
+      have horrible faces carved on them. The path leads to the east where there is a little more light, and
+      to the south where it passes a large shack.
+flag:
+  - outdoors

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:start:church"
+      east:
+        target: "scene:aber:balharbor:btower5"
+      north:
+        target: "scene:aber:icecave:gambling"
+      south:
+        target: "scene:aber:island:beach"
+      up:
+        target: "scene:aber:camelot:camelot303"
+      west:
+        target: "scene:aber:balharbor:balhar48"
+    short: Welcome to the Warp Zone!
+    sight: >
+      Several large pipes stand here stuck in the floor, one on your left, one on your right, one in front,
+      behind and above. You look inside them and see nothing but darkness below but HAVE to go somewhere. A
+      picture on the wall features an Italian plumber entering a pipe. Hmm...Another pipe leads back to that
+      lobby you started from.
+flag:
+  - maze
+  - nomobiles

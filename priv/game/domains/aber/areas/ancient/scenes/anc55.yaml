@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ancient:anc47"
+    short: "The Rattler's Treasury"
+    sight: >
+      The natives might like snakes and even worship them, but the snake living in this dim cellar doesn't
+      much like you. Its' presence reminds you about your mortality and makes you consider whether to leave at
+      once or try to slay that rattling thing before you. You suddenly notice that the floor is covered with
+      gold items and your natural greed makes you consider the the matter even harder. The snake, however, is
+      guarding these valuables so you can't just take them and leave. It might already be too late to escape
+      back up.
+flag:
+  - dark

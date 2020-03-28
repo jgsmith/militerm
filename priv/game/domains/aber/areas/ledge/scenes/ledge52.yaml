@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge51"
+    short: Beachfront Shack
+    sight: >
+      It's simple-looking shack built along the beach shore as a place to escape the daily barrages of
+      adventuring. A large window faces the ocean, where you can watch the waves and the sunrise. A rather
+      comfortable-looking bed has been set up for wedded couples for overnight stay. The beach can be set out
+      upon to the south.
+flag:
+  - party
+  - cantsummon
+  - nomobiles
+  - nomagic

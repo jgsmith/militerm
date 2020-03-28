@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north: null
+      south: null
+      up:
+        target: "scene:aber:nwbeaches:beachqq25"
+      west: null
+    short: "Lighthouse Keeper's Operating Room"
+    sight: >
+      You see all and more of what you saw from the staircase. Four cells lie in all cardinal directions, each
+      with a whimpering human subject in it! Diagrams cover the walls, notes jotted on many of them, all
+      dealing with one goal in mind - the creation of the perfect sexual companion! It seems the 'good
+      Lighthouse Keeper' may be a bit more than everyone believes him to be...
+flag:

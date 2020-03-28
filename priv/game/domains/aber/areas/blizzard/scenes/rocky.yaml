@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:blizzard:huge_cav"
+    short: Rocky Cavern
+    sight: >
+      You are in a large rocky cavern. From this vantage point at the eastern end you can gaze almost the full
+      length of the cave, although the far wall fades into shadows.
+flag:

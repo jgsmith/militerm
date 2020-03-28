@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6613"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6615"
+    short: Wisteria park
+    sight: >
+      The town wall to the north and stone building to the east are climbing with purple-flowering wisteria
+      vine, forming in leafy clumps at the bottoms. The park is a quiet, relaxing place, with the exception of
+      the occasional explosion coming from a pale tower rising to the northwest, accompanied by a brilliant
+      flash of light.
+flag:
+  - outdoors

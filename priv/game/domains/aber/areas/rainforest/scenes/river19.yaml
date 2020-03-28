@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river22"
+      north:
+        target: "scene:aber:rainforest:river17"
+      south:
+        target: "scene:aber:rainforest:river16"
+      west:
+        target: "scene:aber:rainforest:river15"
+    short: Southern Midstream
+    sight: >
+      You are still a long way from the shore here, although you realise that if you go much nearer you would
+      bring yourself within range of Indian arrows.
+flag:
+  - outdoors
+  - onwater

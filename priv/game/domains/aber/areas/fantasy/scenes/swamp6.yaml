@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp5"
+      south:
+        target: "scene:aber:fantasy:swamp7"
+    short: Less Murky Swamp
+    sight: >
+      The swamp is looking a little murky here. You feel a little bit better as you look to the south and
+      notice that the swamp is coming to an end.
+flag:
+  - outdoors

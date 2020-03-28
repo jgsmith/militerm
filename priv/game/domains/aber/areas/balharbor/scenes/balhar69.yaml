@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:balhar70"
+      west:
+        target: "scene:aber:balharbor:balhar50"
+    short: The Thieves Guild
+    sight: >
+      This little locale has been completely spared from the riots, since it appears to be the home of crime.
+      It's certainly where people learn the techniques of pickpocketing, backstabbing, sneaking and whatever
+      else. The Master Thief who runs this place trained his thieves well, if you had anything in your hand
+      you wouldn't notice if you lost it until it was too late. A trapdoor leads below to some den below.
+flag:

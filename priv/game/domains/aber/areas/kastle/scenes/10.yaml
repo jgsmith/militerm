@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:kastle:11"
+      south:
+        target: "scene:aber:kastle:11"
+      west:
+        target: "scene:aber:kastle:9"
+    short: Top of the Glacier
+    sight: >
+      This is the top of a large glacier that extends down the steep mountainside. The fresh snow here looks
+      good for skiing. Of course you'd best be careful or you might set of an avalanche. To the south you can
+      barely make out the bottom of the glacier through the glare from the snow. West of here lies the fells.
+flag:
+  - outdoors
+  - cold

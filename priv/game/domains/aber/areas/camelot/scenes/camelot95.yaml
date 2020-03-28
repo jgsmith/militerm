@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot94"
+      west:
+        target: "scene:aber:camelot:camelot96"
+    short: The Trail Climbs
+    sight: >
+      You are climbing a steep part of the trail. Above you the trail meets a cliff face. Below, it winds away
+      towards a distant valley.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot256"
+      north:
+        target: "scene:aber:camelot:camelot258"
+      south:
+        target: "scene:aber:camelot:camelot229"
+      west:
+        target: "scene:aber:camelot:camelot257"
+    short: Anteroom
+    sight: >
+      If the entryway to the Keep is any indication, the owners are truely wealthy people. The walls are
+      paneled in rich, well oiled oak. Hand woven carpets cover the floors, and beautiful tapestries hang from
+      the walls.
+flag:

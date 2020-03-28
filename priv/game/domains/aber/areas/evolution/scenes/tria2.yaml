@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:tria3"
+      south:
+        target: "scene:aber:evolution:tria1"
+    short: Gingko Woods
+    sight: >
+      Tall gingko trees tower about you here, the density of their unusual foliage blotting out most of the
+      sunlight. In the gloom you can make out several pairs of eyes watching you intently from among the tree
+      trunks.
+flag:
+  - outdoors

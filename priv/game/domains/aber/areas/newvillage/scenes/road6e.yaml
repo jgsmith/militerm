@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road7e"
+      west:
+        target: "scene:aber:newvillage:road5e"
+    short: The Prairie
+    sight: >
+      You are on a thin path through a field of tall grasses. To the west, you can just make out the homes and
+      buildings which would point to a small village. To the east, the grasses meet with a moor.
+flag:
+  - outdoors

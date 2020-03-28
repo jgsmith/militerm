@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot91"
+      south:
+        target: "scene:aber:camelot:camelot94"
+    short: The Trail Continues
+    sight: >
+      Exhausted from your hike, you pause to reset a moment. Looking around, you see, far to the east, some
+      sort of settlement. To the west, the mountains rear high above you, their peaks lost in the clouds.
+flag:
+  - outdoors

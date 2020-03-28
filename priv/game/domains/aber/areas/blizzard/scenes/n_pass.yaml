@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:pass2"
+      south:
+        target: "scene:aber:blizzard:pass3"
+    short: Windswept Ridge
+    sight: >
+      You are treading cautiously along a narrow ridge which climbs to the north. The terrain becomes higher
+      increasingly dangerous to the north, while to the south beyond a scree slope a path descends rapidly
+      into greener country.
+flag:
+  - cold
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9962"
+      north:
+        target: "scene:aber:ghenna:ghenna9964"
+    short: Upstairs in a trashed home.
+    sight: >
+      Things don't look much better up here. The ceiling has caved in on both sides, blocking the exits east
+      and west. Some foul smelling mildew has grown over most of the debris. A door hangs by one hinge toward
+      the North.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path9"
+      west:
+        target: "scene:aber:undead:stony_path11"
+    short: Stony Path
+    sight: >
+      You continue behind the castle. This moat is starting to get a tad annoying. The mountains still bar
+      your way &+Cnorth&*. It looks as though you are never going to get into this castle. The path continues
+      both &+Ceast&* and &+Cwest&* (is this annoying yet?).
+flag:
+  - outdoors

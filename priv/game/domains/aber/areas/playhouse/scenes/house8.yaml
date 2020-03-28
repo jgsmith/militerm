@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house9"
+      north:
+        target: "scene:aber:playhouse:house2"
+      west:
+        target: "scene:aber:playhouse:house7"
+    short: Sitting Room
+    sight: >
+      There is a HUGE couch sitting against one wall. A chair has been placed in an ideal position for chating
+      with anyone sitting on the couch. There is another chair positioned opposite the first so that it makes
+      a cosy little area for sitting a talking. There is writing on the wall in &+Rred&* crayon. You wonder
+      who could have done such a thing. Upon closer examination you notice the letter &+R'P' &*and a letter
+      &+R'E' &*written in a little childs barely discernable handwriting. The exits are west, east and north.
+flag:

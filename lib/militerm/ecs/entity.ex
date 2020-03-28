@@ -126,6 +126,14 @@ defmodule Militerm.ECS.Entity do
     Map.merge(a, b, fn _, sa, sb -> merge(sa, sb) end)
   end
 
+  defp merge(a, b) when is_map(a) and is_list(b) do
+    if Keyword.keyword?(b), do: merge(a, Map.new(b)), else: a
+  end
+
+  defp merge(a, b) when is_list(a) and is_map(b) do
+    if Keyword.keyword?(a), do: merge(Map.new(a), b), else: a
+  end
+
   defp merge(a, b) when is_list(a) and is_list(b) do
     if Keyword.keyword?(a) and Keyword.keyword?(b),
       do: Keyword.merge(a, b),
@@ -142,6 +150,16 @@ defmodule Militerm.ECS.Entity do
   defp with_string_keys(nil), do: %{}
 
   defp with_string_keys([]), do: %{}
+
+  defp with_string_keys(list) when is_list(list) do
+    if Keyword.keyword?(list) do
+      list
+      |> Enum.map(fn {k, v} -> {to_string(k), v} end)
+      |> Enum.into(%{})
+    else
+      list
+    end
+  end
 
   defp with_string_keys(map) when is_map(map) do
     map

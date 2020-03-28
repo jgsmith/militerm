@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:graye:graye5537"
+    short: The City Streets
+    sight: >
+      Small houses line both sides of the street, and armed guards are posted at every junction.
+flag:
+  - outdoors

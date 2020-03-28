@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung56"
+    short: Castle Study Annex
+    sight: >
+      The room is lined with row upon row of books, maps, and charts. You smell incense, and your nose leads
+      you through the maze of shelves towards the middle of the room. In the middle is a recession lined with
+      pillows in which a slender woman sits cross-legged. Her white and red robes flow about the floor, and
+      seem much too heavy for such a slight body. Upon your entrance though, she stands fully up and glides
+      over to you without a hint of effort, white and red following behind her.
+flag:
+  - peaceful

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:noxypickle:trap"
+      up:
+        target: "scene:aber:noxypickle:ladder"
+    short: Whispering Pit
+    sight: >
+      You are at the bottom of the ladder, in a small pit which is strewn with dry bones. You wonder how these
+      people met their deaths, and how long ago. There is certainly no discernable smell of decay here. The
+      walls are covered with the same strange markings that you saw on the archway at the top of the ladder,
+      and still you have no idea what they might mean.
+flag:
+  - dark

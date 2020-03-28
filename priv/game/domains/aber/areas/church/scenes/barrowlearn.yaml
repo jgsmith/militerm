@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:church:n_barrow"
+    short: "Moog's Mutilation Taught"
+    sight: >
+      Upon entering the small rotten shack, your feet crackle on what sound like nutshells. What you have
+      actually stepped on, you do not care to speculate. The one known as Moog hobbles in through the rear of
+      the shack with a couple cages of mice. His appendages are disfigured, and his milky white stare leads
+      you to believe he knows of your position by some other sense.
+flag:
+  - peaceful

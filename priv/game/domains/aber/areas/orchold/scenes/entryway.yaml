@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:orchold:path2"
+      north:
+        target: "scene:aber:orchold:damp"
+      up:
+        target: "scene:aber:nibelung:nibelung1"
+    short: Rough-hewn Entryway
+    sight: >
+      You stand at the entrance to a lair apparently carved out of the side of the mountain. The work on the
+      rock is very poorly done, and blackness beyond feels oppressive. A path winds steeply downwards beneath
+      you and the opening leads to the north.
+flag:
+  - outdoors

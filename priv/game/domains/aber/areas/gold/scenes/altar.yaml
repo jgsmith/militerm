@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:gold:sanctuary"
+    short: Altar
+    sight: >
+      You are standing at the altar facing the pews of the church. You notice that the number of pews as
+      perceived from here is much less than you thought as you walked through them.
+flag:
+  - peaceful

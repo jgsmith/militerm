@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest58"
+      south:
+        target: "scene:aber:rainforest:forest54"
+    short: Thick Forest
+    sight: >
+      This is a very thick part of the forest. The trees are not noticeably closer together, but their foliage
+      is less dense and thus more light reaches the ground here than did in the forest across the river. The
+      effect of this is that the undergrowth flourishes, producing vast and rambling forms that obstruct you
+      at every turn. To the south the way back to the river is easy enough, while to the east you think you
+      can manage to squeeze through the bushes.
+flag:
+  - outdoors
+  - rainforest

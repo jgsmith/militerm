@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Prison
+    sight: >
+      You stand in the prison. The air hangs heavy with the stench of rotted flesh and human waste. Chains and
+      manacles hang from the walls, above piles of bones which lie in grim repose to the rest of the room. A
+      small fire burns in one corner, made of rags and rat droppings.
+flag:

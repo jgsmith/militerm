@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest3"
+      north:
+        target: "scene:aber:fantasy:dforestshop"
+      west:
+        target: "scene:aber:fantasy:dforest5"
+    short: In Front of a Shop
+    sight: >
+      To the north of here is a little shop that has a sign that shows that it is a weapons and armor shop.
+      Perhaps you can get a good deal on a new sword in here.
+flag:
+  - outdoors

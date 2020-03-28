@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:inside"
+      north:
+        target: "scene:aber:moor:waste"
+      west:
+        target: "scene:aber:moor:lost1"
+    short: By The Ruined Cottage
+    sight: >
+      You are standing somewhere on the eastern side of the moor. A narrow worn path leads east between two
+      crumbling dry-stone walls towards the remains of an old cottage.
+flag:
+  - outdoors

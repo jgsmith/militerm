@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:grand"
+      north:
+        target: "scene:aber:grove:over_view"
+      south:
+        target: "scene:aber:grove:dwelling"
+    short: Entrance to the Elven Forest
+    sight: >
+      A magnificent expanse of forest spreads before you. The morning mist has not quite lifted totally from
+      the ground, making the Elven Forest a mystical place to gaze upon. You feel awed. The ancient forest
+      lies in grand splendor, as yet untouched by the two evils warring in your present time. Instead of
+      corruptness, you are moved by the beauty the forest and wish that the trees would be this lush in your
+      own time. You have no desire to leave this beautiful land. To the north you see an high overview of the
+      forest, to the south you see the entrance of a dwelling of some sort, hidden well behind thick bushes.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

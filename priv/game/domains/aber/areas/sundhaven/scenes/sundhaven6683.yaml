@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6684"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6681"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6685"
+    short: A narrow ledge
+    sight: >
+      Rocks tumble over the eastern side of the cliff as you traverse the thread-thin trail. Over the edge,
+      you can see the rooftops of the town. The mages tower rises prominently on a northern cliff parallel to
+      yours.
+flag:
+  - outdoors

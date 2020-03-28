@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:kastle:4"
+    short: Chimney
+    sight: >
+      Though this is a large chimney, it is still a tight squeeze. The bricks are coated with soot that rubs
+      off on you and makes you sneeze. You can't climb any higher than this because of a small ledge
+      constricting the chimney.
+flag:
+  - dark
+  - oneperson

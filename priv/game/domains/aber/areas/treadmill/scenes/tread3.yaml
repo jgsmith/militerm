@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: Revenge of the Treadmills of Hell
+    sight: >
+      Danger! The demons, hellspawn, and devilish figures are plotting to cause the downfall of man...once
+      they get out of here. You should pray that they don't. Exits are everywhere.
+flag:
+  - maze

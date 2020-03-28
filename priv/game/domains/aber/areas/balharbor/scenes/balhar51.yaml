@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar52"
+      north:
+        target: "scene:aber:balharbor:balhar59"
+    short: The Alchemist Shop
+    sight: >
+      Shelves filled with various potions line the walls of this shop. The town's alchemist seems to have done
+      well in fighting off the thugs aiming to wreck his shop by lobbing vials of acid mixed up by his
+      assistant at them. You can check out the laboratory to the north or get back out on the street to the
+      east.
+flag:

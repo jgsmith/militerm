@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:batcave:batcave10"
+    short: "Werewolf's Den"
+    sight: >
+      Not the wood-paneled den you expected after the parlor, but since the parlor wasn't what you expected in
+      the first place, this is truly the werewolf den you _should_ have expected. It is dark, smells like wet
+      dog, and every inch of the walls and floor are covered in &+yhair&*. You can't imagine how he must shed
+      in the summer!
+flag:
+  - dark
+  - nosummon

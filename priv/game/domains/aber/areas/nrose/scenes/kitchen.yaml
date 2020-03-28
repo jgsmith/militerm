@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nrose:aedificium"
+    short: Kitchen
+    sight: >
+      You have entered the monastery kitchen. On one wall is a brick oven. The coals in it are hot but nothing
+      is cooking inside it. Along another wall are some shelves. As you make a cursory search of them you
+      don't seem to find anything on them except dust.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:opera:opera24"
+    short: Above the Ceiling
+    sight: >
+      Here you are among the rafters and ropes in between the roof and the ceiling of the opera house. You can
+      see the seats below your feet through peepholes in the floor.
+flag:

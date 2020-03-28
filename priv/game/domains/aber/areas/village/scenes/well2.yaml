@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:well1"
+      east:
+        target: "scene:aber:village:tunnel"
+      up:
+        target: "scene:aber:village:alley"
+    short: Down The Well
+    sight: >
+      You are hanging part of the way down the village well, looking upwards towards the light above. The well
+      descends further but it gets very slippery. A narrow passage leads east into absolute darkness.
+flag:

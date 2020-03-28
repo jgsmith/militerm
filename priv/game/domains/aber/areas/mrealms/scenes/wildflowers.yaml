@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mrealms:mrealms"
+    short: The Field of Wildflowers
+    sight: >
+      A never-ending sea of green rolling hills stands before you, dotted with specks of wild flowers of all
+      colours. You pick up a pink buttercup and put it in your hair while making a coronet of clover. You
+      cannot resist the urge to lie down in the thick green grass. Maybe it's the poppies making you sleepy.
+flag:
+  - peace
+  - private

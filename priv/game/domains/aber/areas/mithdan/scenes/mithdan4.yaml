@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan5"
+      south:
+        target: "scene:aber:mithdan:mithdan9"
+      west:
+        target: "scene:aber:mithdan:mithdan3"
+    short: Thick Woods
+    sight: >
+      The woods are thick and confusing. The smell of pine clogs your senses, adding to the effect. The woods
+      continue to the west and south. To the east is a sandy clearing. Heavy brambles make passage to the
+      north impossible, which is unfortunate because there appears to be something in the distance between the
+      trees.
+flag:

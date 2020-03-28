@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The stairs give way and...
+    sight: >
+      ...you fall to your death (what else did you expect to happen?)
+flag:
+  - death

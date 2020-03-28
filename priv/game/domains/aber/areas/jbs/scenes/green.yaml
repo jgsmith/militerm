@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fgate"
+      east:
+        target: "scene:aber:jbs:dreams"
+      north:
+        target: "scene:aber:jbs:clock"
+      south:
+        target: "scene:aber:jbs:fsun"
+      up:
+        target: "scene:aber:jbs:mugwumps"
+      west:
+        target: "scene:aber:jbs:bears"
+    short: Green
+    sight: >
+      Green is a good color. In fact, it's such a good color that it's making you very relaxed and even a bit
+      tired. You had better wake up a bit before you fall asleep right here.
+flag:
+  - outdoors
+  - peaceful

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis58"
+      south:
+        target: "scene:aber:atlantis:atlantis62"
+      west:
+        target: "scene:aber:atlantis:atlantis59"
+    short: Watery Passage
+    sight: >
+      The floor of this passage is strewn with large chunks of stone and the walls are scored with large
+      cracks, like something powerful had been hitting them fiercely. Rubble litters the floor and several
+      other pieces look like they have been crushed into smaller pieces by a tremendous force. It doesn't look
+      like a very safe place to be floating around in. You can swim into a large crevice off to the west or
+      around a corner to the south.
+flag:
+  - dark
+  - underwater

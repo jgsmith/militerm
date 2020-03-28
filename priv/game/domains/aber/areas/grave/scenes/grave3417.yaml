@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3418"
+      west:
+        target: "scene:aber:grave:grave3414"
+    short: The Hallway
+    sight: >
+      Here is the hallway that connects the Foyer with the classrooms where true religous teachings were at on
+      time a regular occurance. The walls are shredded and the floor is dirty, smelling very bad. It is dark
+      as the torches have been removed or burned down to stubbs. There are exits west and east.
+flag:
+  - dark

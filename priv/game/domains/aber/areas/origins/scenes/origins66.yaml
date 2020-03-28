@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:temple"
+    short: A Farewell to Things
+    sight: >
+      You jump off of the zenith, and suddenly find yourself floating down gently in midair. You lose all
+      sense of time or place, and enjoy the most wonderful feeling you have ever experienced. As you
+      feather-fall down to the Temple of Paradise, you see three faces in front of you. To the left is the
+      stern and solid face of Apollo, Bringer of Wisdom. To the right is the beautiful and kind visage of the
+      Bringer of Love, Dionysus. And in the center is Cygnus, God of Balance. They all sing beautifully in
+      unison to you: "&+WWe can walk our road together &+WIf our goals are all the same &+WWe can run alone
+      and free &+WIf we pursue a different aim; &+WLet the truth of Love be lighted &+WLet the love of Truth
+      shine clear &+WSensibilty &+WArmed with sense and liberty &+WWith the Heart and Mind united &+WIn a
+      single, perfect Sphere...&n"
+flag:
+  - outdoors
+  - tempreal
+  - peaceful

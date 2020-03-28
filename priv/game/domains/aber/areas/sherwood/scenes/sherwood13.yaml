@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood12"
+      north:
+        target: "scene:aber:sherwood:sherwood16"
+      west:
+        target: "scene:aber:sherwood:sherwood14"
+    short: Intersection
+    sight: >
+      You have come to an intersection. You must now, once again, choose your fate. Will you take the route to
+      the north? Or take the route to the west? Or will you chicken out and take the route to the east, back
+      from where your cowardly heart came from? You must now choose.
+flag:
+  - outdoors

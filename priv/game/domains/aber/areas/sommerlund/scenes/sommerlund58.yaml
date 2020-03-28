@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund55"
+    short: South Cave
+    sight: >
+      This cave would make a child's heart flutter with excitement. An endless supply of rock candy hangs down
+      from the ceiling. A table stands nearby, full of rock candy.
+flag:

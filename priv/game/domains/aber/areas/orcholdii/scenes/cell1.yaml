@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:orcholdii:guardroom"
+    short: Prison Cell
+    sight: >
+      This is a plain little prison cell. There is a straw mattress in the corner and a chamber pot in the
+      other. On the wall next to the bed there are a number of hatch marks. You would guess that the inmate is
+      counting the days of his imprisonment. It looks like he has been here awhile.
+flag:
+  - dark

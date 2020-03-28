@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere57"
+    short: &+ySandy Island
+    sight: >
+      The river has carried with it many tonnes of sand and sediment from faraway shores on its journey, much
+      of which has lodged here, perhaps building up on a large rock beneath the surface, creating an alluvial
+      island. You wonder if any alluvial gold dust has been washed up onto the island recently.
+flag:

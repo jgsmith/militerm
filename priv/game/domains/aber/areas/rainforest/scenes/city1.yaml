@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest135"
+      west: null
+    short: Golden Archway
+    sight: >
+      You have come upon a high archway made of stone but overlaid with gold leaf in some places. Mostly it
+      has all flaked off but your spirits are undaunted. Could this be the secret entrance to the legendary
+      city of El Dorado? You can go through the archway to the west or head out into the forest to the east.
+flag:
+  - outdoors
+  - rainforest

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anclearn"
+      south:
+        target: "scene:aber:ancient:anc44"
+    short: The Sanctuary of Tlaloc
+    sight: >
+      Your heart beats fast and you stop for a while to breath deep and recover from the battle with the
+      alligators. You have an odd feeling that Mr Dundee didn't have so much trouble with the gators. You wipe
+      the sweat from your forehead and look around. You find yourself in a small room sanctified to some god
+      of these unknown people. On the north wall there stands a small &+ybronze statue&* decorated with
+      colorful stones. The statue stands firmly on the floor and it's almost impossible to move. The stone
+      decorations, however, seem to be quite loose on the statue. Maybe you still can bring something home to
+      your sweetheart from your adventures - if you survive, that is.
+flag:
+  - nomagic

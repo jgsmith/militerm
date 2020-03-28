@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:maeron:foyer"
+    short: &+RThe Laboratory
+    sight: >
+      This was the laboratory of the once great Mage Maeron. Strange devices fill the room, probobly for
+      creating potions and such. The floor is made out of black marble, which only adds to the eerie aura this
+      chamber seems to posess. You may return to the &+Rsouth&*.
+flag:
+  - nosummon
+  - cantsummon

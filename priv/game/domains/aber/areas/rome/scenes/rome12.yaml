@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome19"
+      south:
+        target: "scene:aber:rome:rome13"
+      west:
+        target: "scene:aber:rome:rome5"
+    short: A Dirt Road
+    sight: >
+      You are on a parched and dusty rural road which runs east and west. There is a structure lying to the
+      south.
+flag:
+  - outdoors

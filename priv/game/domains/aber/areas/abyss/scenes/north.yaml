@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:pillars6"
+    short: North Alcove
+    sight: >
+      This is a small round room off the main chamber. The walls here have been carved with scenes of torture
+      and torment. A bench set into the wall allows you to sit and contemplate these scenes.
+flag:
+  - dark
+  - peaceful

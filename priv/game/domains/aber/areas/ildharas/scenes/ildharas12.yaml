@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas11"
+    short: "Rodney's Nest"
+    sight: >
+      You clamber up upon the wall and peer into Rodney's nest. What a diverse collection of valueless junk!
+      Bits of old string lie matted and chewed next to old papers, pen caps, odd socks, bent pennies, candy
+      wrappers, ruined and discarded floppies, and rusted nails. What a useless mess. It stinks, too.
+flag:
+  - outdoors

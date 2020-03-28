@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9960"
+    short: The trading post.
+    sight: >
+      You are standing in what was once the trading post. A dais stands in the nothernmost end of the room
+      with a toppled podium upon it. Wooden benches lie tipped over in virtually every reach of this
+      auditorium sized room. The city streets of Ghenna lie South of here.
+flag:
+  - dark
+  - nomobiles

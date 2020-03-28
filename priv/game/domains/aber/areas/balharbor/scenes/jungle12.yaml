@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle18"
+      south:
+        target: "scene:aber:balharbor:jungle15"
+      west:
+        target: "scene:aber:balharbor:greattree"
+    short: Jungle Trail
+    sight: >
+      The sounds of the jungle echo through your ears loudly, and you can go deeper into it to the west, to
+      the east the edge of the jungle is in sight. Less growth and easier treading lies to the south.
+flag:
+  - outdoors

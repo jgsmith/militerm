@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road3n"
+    short: "The Locksmith's"
+    sight: >
+      Here, the locksmith makes keys and locks for anyone who wants one. The smith himself seems to be at work
+      on a particular key behind the counter. All around you are examples of his work, including a huge key
+      hanging on one of the walls that seems a bit frivolous, but perhaps it serves some purpose of which you
+      are not yet aware.
+flag:

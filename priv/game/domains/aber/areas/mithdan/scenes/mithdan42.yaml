@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan43"
+      north:
+        target: "scene:aber:mithdan:mithdan39"
+      south:
+        target: "scene:aber:mithdan:mithdan45"
+    short: Hallway
+    sight: >
+      The hall streches to the north where it turns a sharp corner, and to the south it widens and huge
+      icicles hang from the cieling. To the east the magical humming noise gets stronger.
+flag:

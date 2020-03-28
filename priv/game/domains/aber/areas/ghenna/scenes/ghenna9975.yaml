@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9974"
+    short: A scummy bedroom.
+    sight: >
+      Well, if you had amorous intentions I am sure they have all dis- appeared at the sight of this room. A
+      bed is here with a big wet spot marring the middle. Grease stains are smeared on the wall near the head
+      of the bed, apparently from someone leaning against it. The floor is sticky - you can guess why.
+flag:
+  - dark

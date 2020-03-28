@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:outside"
+      north:
+        target: "scene:aber:maeron:field"
+      south:
+        target: "scene:aber:maeron:cliff"
+      west:
+        target: "scene:aber:maeron:path2"
+    short: &+YSunny path
+    sight: >
+      The sun shines happily on this path of loose gravel. To the &+Rsouth&* looms a massive cliff. Its sharp,
+      looks like a long fall, that no mortal could possibly survive. To the &+Rnorth&* lies a grassy field.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus14"
+      north:
+        target: "scene:aber:nexus:nexus15"
+      south: null
+    short: Portcullis
+    sight: >
+      The wind creaks through the cross-hatches of the portcullis, flexing its rusty, moss-covered bars eerily
+      back and forth. On the tips of the portcullis spikes is the blood of the mantle that were impaled in a
+      decisive, but long-forgotten battle. A gatehouse is to the east.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:olig2"
+      west:
+        target: "scene:aber:evolution:eoce1"
+    short: Waterhole
+    sight: >
+      You are standing at the edge of a muddy waterhole. It is hard to see where the mud ends and the water
+      begins. A flock of birds which had been drinking here take flight as soon as you arrive.
+flag:
+  - outdoors

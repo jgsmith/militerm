@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid4"
+      south:
+        target: "scene:aber:pyramid:pyramid7"
+    short: &+ySand Sea&N
+    sight: >
+      Clouds of dust billow around your legs as you wade through the &+ysand &N. A hot wind blows around you,
+      drying what little moisture is left in your body. Licking your parched, cracked lips, you suddenly get
+      this sinking feeling that all is not what it seems.
+flag:
+  - outdoors

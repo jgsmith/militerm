@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:gaia1"
+      west:
+        target: "scene:aber:fantasy:gaia3"
+    short: Entering the Gaia Cave
+    sight: >
+      You swear that something is alive in this cave, you just can't figure out what it is.
+flag:
+  - dark

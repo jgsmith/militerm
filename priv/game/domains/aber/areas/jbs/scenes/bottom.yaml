@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:tunnel"
+      up:
+        target: "scene:aber:jbs:hole"
+      west:
+        target: "scene:aber:jbs:tunnel1"
+    short: Bottom of the Hole
+    sight: >
+      You are standing in a dirt tunnel that looks as if it was dug rather recently. The tunnel is large
+      enough for you to stand easily upright and still have plenty of room to spare. The tunnel runs east and
+      west into darkness.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore9"
+      north:
+        target: "scene:aber:avairy:shore11"
+    short: The Shore
+    sight: >
+      You have reached the south western corner of the island. You stop to take a rest as the hot sun beats
+      down on you. If it were not for the breeze coming off the sea, you would surely be brought to your knees
+      by the island's tropical climate.
+flag:
+  - outdoors
+  - light

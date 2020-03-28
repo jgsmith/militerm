@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni64"
+      north:
+        target: "scene:aber:oni:oni68"
+      south:
+        target: "scene:aber:oni:oni69"
+      west:
+        target: "scene:aber:oni:oni70"
+    short: Deufel Square
+    sight: >
+      The center of Deufel is occupied by an large fountain dedicated to the Order of the White Phoenix. The
+      fountain depicts the greatest moment in the Order's history, the trapping of the arch-demon Xergon. From
+      here four main roads branch out to the north, east, south, and west.
+flag:
+  - outdoors
+  - cantsummon

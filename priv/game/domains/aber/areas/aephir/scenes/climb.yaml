@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:aephir:aephir"
+    short: Climbing Up The Platinum Tree
+    sight: >
+      This tree emanates enormous power, beyond what a mortal, and even an immortal can handle. Only the most
+      powerful immortals can ever see this what is... Aephir's home. The ground below seems miles away, but
+      luckily, you're not dizzy.
+flag:
+  - nogoto
+  - aephir
+  - archwizard

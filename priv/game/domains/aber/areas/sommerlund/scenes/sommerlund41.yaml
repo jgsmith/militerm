@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund42"
+      south:
+        target: "scene:aber:sommerlund:sommerlund43"
+      west:
+        target: "scene:aber:sommerlund:sommerlund40"
+    short: The Holmgulf
+    sight: The rocking motion of the waves is endless.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Hidden Glade
+    sight: >
+      You are in the deepest inner reaches of this cow pasture. The thick Grass grows almost up to your waist,
+      and, to your surprise, there aren't even any flies in here! The grass is soft and gentle and seems to be
+      caressing you as you walk through this mystical place. As you look down at your feet you make out
+      millions of tiny pinpoints sparkling in myriads of different colors. As you look closer you realize that
+      this is just the light sparkling off of the rich soil on the ground.
+flag:
+  - outdoors

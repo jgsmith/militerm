@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path12"
+      north:
+        target: "scene:aber:undead:green_field1"
+      south:
+        target: "scene:aber:undead:stony_path14"
+    short: Stony Path
+    sight: >
+      You are standing at the northwestern corner of the moat. The moat continues as far as the eye can see to
+      the &+Ceast&* and &+Csouth&*...this is a BIG moat. To the &+Cnorth&* you can see the open expanse of a
+      green field.
+flag:
+  - outdoor

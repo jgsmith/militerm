@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:gold:churchpath"
+    short: Golden Church Steps
+    sight: >
+      There are two massive doors here. You find it hard to believe that this church is built by people! The
+      doors alone are at least 100 feet in height and the church itself towers far above you. There is a large
+      cornerstone on the church. You notice it has some kind of lettering on it. The doors are huge oak doors.
+flag:

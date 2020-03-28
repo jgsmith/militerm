@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome54"
+      up:
+        target: "scene:aber:rome:rome59"
+    short: The Valley of the Gods
+    sight: >
+      You stand in a tranquil valley at the base of a large mountain. A quiet &+Bstream&* full of &+Cfish&*,
+      with &+Rfruit&* trees growing along its banks, winds its way peacefully through the valley and enters a
+      large stone structure that lies to the west. There are birds singing and every now and then a ripple
+      breaks the surface of the stream. You can see a path leading up, through the trees. There is a small
+      hole, from which you can hear rushing water, to the north.
+flag:
+  - outdoors

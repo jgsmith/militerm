@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:orchold:path1"
+      up:
+        target: "scene:aber:orchold:entryway"
+    short: Trampled Path
+    sight: >
+      A large opening in the mountainside lies above you. The path continues below you.
+flag:
+  - outdoors

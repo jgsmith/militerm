@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast"
+      north:
+        target: "scene:aber:ruins:gnorth"
+      south:
+        target: "scene:aber:ruins:gsouth"
+    short: An Extremely Gooey Room
+    sight: >
+      This room is extremely gooey from the goo dripping from the ceiling. The thick, slimy goo covering the
+      floor comes up to your ankles and makes you shudder from disgust. Your surroundings resemble that of a
+      catacomb and you figure that this level was built several hundreds of centuries ago.
+flag:
+  - dark

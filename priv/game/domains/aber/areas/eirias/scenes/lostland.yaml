@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: The Lost Land
+    sight: >
+      You stand high up, on a golden roof, behind a low &+ylattice&* of wrought gold. Behind you, and at
+      either side, stretch the roofs of a great city, gleaming spires, towers and turrets crowding the
+      skyline, some as golden as the place where you stand, some dark as night. You can see, amongst the peaks
+      and ridges of the roofs, a great golden dome, topped with a golden arrow pointing westwards to the blue
+      horizon-line of the sea. The sides of the dome are banded with panels of crystal running between strips
+      of gold.
+flag:
+  - outdoors

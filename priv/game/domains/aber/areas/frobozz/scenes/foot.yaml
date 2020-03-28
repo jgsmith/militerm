@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:outlet"
+      up:
+        target: "scene:aber:frobozz:dame"
+    short: Halfway Down the Stairs
+    sight: >
+      You are halfway down a flight of stairs which leads up into a highvaulted cavern which is dimly lit.
+      Down below you, in the darkness, is a outlet of some powerlines.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6749"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6648"
+    short: Along the bar counter
+    sight: >
+      You have entered a loud and boisterous corner in the alehouse, where adventurers tell their tales of
+      fact and fable.. Perhaps there are things to be learned here of the lands beyond the thin walls of the
+      city.
+flag:

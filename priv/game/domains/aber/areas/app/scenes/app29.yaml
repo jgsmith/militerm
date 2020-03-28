@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:app:app28"
+    short: Lab
+    sight: >
+      You have entered the dark mage's experiment lab. Large glass tanks contain prisoners under
+      transformations from the dark mage's spells. Some of the tanks contain creature that might have been
+      human before, but now are indescribable terrors.
+flag:

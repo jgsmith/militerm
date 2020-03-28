@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord68"
+    short: Passage of Mold
+    sight: >
+      Nothing lives down this way other than the white and green striped patches of volcanic mushrooms and
+      mold. Covering nearly every square inch of volcanic rock floor is a entanglement of thick white vines
+      which form the nutrient transport system for the mushroom jungle. A lizard, still clad in full
+      battle-gear, has had its throat completely crushed and partially ripped by the strain of three white
+      vines simultaneously pulling. The barbed hooks on the vines still eagerly drink from the dead reptilian
+      husk. Meanwhile, a mushroom off to the side has managed to ensnare the head of a ghoul and rip off the
+      top half of its skull to dine on what passes for brain material. This is one area of the city which even
+      most of the population won't venture into.
+flag:
+  - dark

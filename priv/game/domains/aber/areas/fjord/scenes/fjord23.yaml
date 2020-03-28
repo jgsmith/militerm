@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord19"
+      south:
+        target: "scene:aber:fjord:fjord24"
+    short: Southern Side
+    sight: >
+      Eddies swirl around your craft in this calm area of the lake. There is only a light wind to disturb the
+      surface, although to the south the waters build up into small waves. There is a rather large hole in the
+      water to the north. Around the reflection of the sun on the lake swim a school of trout, while a catfish
+      makes a giant leap across the width of it.
+flag:
+  - outdoors
+  - onwater

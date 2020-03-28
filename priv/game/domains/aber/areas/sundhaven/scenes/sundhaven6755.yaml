@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6756"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6618"
+    short: The Den of Sorcery
+    sight: >
+      The den of sorcery for mages and witches and wizards is a comfortable place, well-lit by magical rose
+      and violet faerie fires for the reading of tomes. There is a rug in guild colors of blue and violet
+      which spans the stone floor, and hammocks hang in rows along the walls, where the mages take their
+      repose. A series of bookshelves provide ample guild literature, and an oak coffee table before a couch
+      dominates the room.
+flag:
+  - peaceful

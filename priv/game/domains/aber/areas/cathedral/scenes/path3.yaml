@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:path4"
+      north:
+        target: "scene:aber:cathedral:path2"
+    short: Path
+    sight: >
+      The &+gshrubbery&* here is so thick it slows down your progress considerably, but at least the weather
+      is unlikely to affect you. The continuing path is barely visible to the east.
+flag:
+  - dark
+  - outdoors

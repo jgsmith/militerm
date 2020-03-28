@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oshul:descent5"
+      south:
+        target: "scene:aber:oshul:descent7"
+    short: &+LDescent Into Darkness
+    sight: >
+      You are in a tunnel, dug by some unnatural means. The tunnel is carved through solid stone, yet the
+      walls are incredibly smooth, and shows now evidence of the wall being hacked away. Torches are placed
+      along with walls every twenty feet. The tunnel slopes up to the south and down to the east.
+flag:
+  - oshul

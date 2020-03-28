@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:village1"
+    short: Fish Warehouse
+    sight: >
+      The warehouse's smell is enough to tell you its former contents: fish. Now, however, it is almost empty,
+      and only a few heads and salted pike remain. There didn't seem to be enough peasants in that village to
+      account for an empty warehouse of this size, though.
+flag:

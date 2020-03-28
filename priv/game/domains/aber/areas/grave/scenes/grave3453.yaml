@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3457"
+      north:
+        target: "scene:aber:grave:grave3451"
+      south:
+        target: "scene:aber:grave:grave3458"
+      west:
+        target: "scene:aber:grave:grave3456"
+    short: Wide Hallway
+    sight: >
+      Here is a large hallway that connects several 'holding rooms' to the entrance beneath the church. The
+      hallway has had much activity as you see broken weapons of all kinds discarded on the floor. There are
+      hastily drawn maps on the walls that indicate further instructions to the invaders. There are exits
+      north, south, east, and west.
+flag:

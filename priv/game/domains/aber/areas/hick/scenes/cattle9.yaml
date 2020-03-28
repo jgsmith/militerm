@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:hick:cattle6"
+    short: Bull Pen
+    sight: >
+      There are a few barrels laying around the pin, they must have rodeos here from time to time. The pin is
+      very large with enough room for a bull to run around freely, a very large bull that is. You can exit to
+      the south.
+flag:
+  - outdoors

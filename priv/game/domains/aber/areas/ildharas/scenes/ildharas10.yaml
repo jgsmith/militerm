@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas11"
+      west:
+        target: "scene:aber:ildharas:ildharas07"
+    short: Along the Ruined Wall
+    sight: >
+      You walk along the outside of a crumbling wall. The stone, once pure white, is speckled now with moss
+      and lichen. Time has worn any straight edges into soft, organic lines, while little insects have found
+      their way into the cracks. The trees crowd closely against the wall in places, waging a war of their
+      own.
+flag:
+  - outdoors

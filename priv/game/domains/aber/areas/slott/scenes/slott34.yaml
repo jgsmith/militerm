@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:slott:slott33"
+      west:
+        target: "scene:aber:slott:slott36"
+    short: Hallway
+    sight: >
+      This room is pitch black. The only vague light is coming from the &+Cwest&* and &+Csouth&*.
+flag:
+  - dark

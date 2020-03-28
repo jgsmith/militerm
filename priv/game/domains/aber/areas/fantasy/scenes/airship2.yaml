@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fantasy:castle1"
+    short: On The Airship..
+    sight: You are onboard of a mighty airship..
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6659"
+      south: null
+    short: Standing at the brink
+    sight: >
+      A sea of light, floating fog opens up before you, swallowing most of the cliff and the lands beyond in
+      its pale jaws. Far beyond the whiteness opens out to reveal a welcome azure that is the mantle of the
+      sea. A trail disappears downwards into the mist.
+flag:
+  - outdoors

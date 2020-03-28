@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia28"
+    short: The Council of 1,000
+    sight: >
+      Here is where the Styric Council of 1,000 meets. There are over 1,000 gods in the Styric faith, and the
+      high priest (or priestess) of each has a seat on this council. Benches line the walls and provide seats
+      for the members. The only exit is to the east.
+flag:
+  - cantsummon
+  - nomobiles
+  - nomagic
+  - peaceful
+  - party
+  - private
+  - soundproof

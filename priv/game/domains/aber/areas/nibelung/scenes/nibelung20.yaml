@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung19"
+      west:
+        target: "scene:aber:nibelung:nibelung21"
+    short: By The River
+    sight: >
+      You are standing by a burbling river, the clean water passing over the riverbed, and continuing off to
+      the north. The sunshine and warm breeze lend to a feeling of peacefulness in the area. Some cute fish
+      are swimming about happily. To your west, a wooden bridge spans the river, and to the east a path slopes
+      upwards.
+flag:
+  - outdoors

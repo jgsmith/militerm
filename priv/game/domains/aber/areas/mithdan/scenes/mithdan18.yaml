@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan15"
+      up:
+        target: "scene:aber:mithdan:mithdan17"
+      west:
+        target: "scene:aber:mithdan:mithdan17"
+    short: Mountain Trail
+    sight: >
+      The trail here slopes upwards, leading towards the top of the mountain, although the end of the trail is
+      obscured by the drifting snow. Forest covers the horizon to the north, the green leaves a sharp contrast
+      to the snowy peaks above you. The trail continues flat towards the forest, or you can follow it up the
+      side of the mountain.
+flag:
+  - outdoors
+  - cold

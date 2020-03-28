@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:gumby:gumby5"
+    short: Fantasies
+    sight: >
+      You have entered upon a realm of dreams and fantasies. A shimmering, crystal waterfall pours into a
+      sparkling, blue lake. Surrounding trees isolate the area, blocking all of the evil of man's sins. A soft
+      melody floats through the air while peace, love, and happiness overwhelm you. You close your eyes and
+      suddenly your dreams and desires are before you.
+flag:
+  - private
+  - party

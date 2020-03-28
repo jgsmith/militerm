@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund14"
+      south:
+        target: "scene:aber:sommerlund:sommerlund16"
+    short: Platform Landing
+    sight: >
+      Who would have thought that someone lived way up here in this treehouse! You stand on the deck of a
+      one-room treehouse, taking in a breathtaking view of the surrounding countryside. There are now clouds
+      below as well as above you, and doves flitter among the tops of the shorter trees. Whoever resides here
+      certainly doesn't want company.
+flag:

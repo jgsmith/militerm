@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5177"
+      north:
+        target: "scene:aber:yllythad:yllythad5181"
+      south:
+        target: "scene:aber:yllythad:yllythad5183"
+      west:
+        target: "scene:aber:yllythad:yllythad5187"
+    short: A Choppy Section of the Sea
+    sight: >
+      The wind has picked up a bit and has caused the sea to begin to churn a bit, the water bobbing and
+      jumping rapidly. Every now and again a small fish can be seen jumping up from the wake, searching for
+      food on the surface.
+flag:
+  - onwater
+  - outdoors

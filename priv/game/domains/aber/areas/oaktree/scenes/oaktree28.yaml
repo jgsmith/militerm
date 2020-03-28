@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:oaktree30"
+      north:
+        target: "scene:aber:oaktree:oaktree28"
+      south:
+        target: "scene:aber:oaktree:oaktree28"
+      west:
+        target: "scene:aber:oaktree:oaktree28"
+    short: Amongst the Saplings
+    sight: >
+      Tall saplings are spread out in every direction in neat rows. If you're not careful, you could get lost
+      in here.
+flag:
+  - outdoors

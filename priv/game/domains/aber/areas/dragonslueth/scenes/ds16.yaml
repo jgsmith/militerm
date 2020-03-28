@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds13"
+    short: Field of Dreams
+    sight: >
+      There is a big baseball field here with light and big bleachers that could probably hold about a
+      thousand people easily. The only exit is &+Cnorth&*.
+flag:

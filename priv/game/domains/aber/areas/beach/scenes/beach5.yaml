@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach2"
+    short: Beach
+    sight: >
+      This is a secluded edge of the beach, receded slightly from the incoming tide. From here you can see the
+      entire beach, and what a marvelous sight it is. Off to the north just a bit further, is a small dock,
+      and past that to the north is what appears to be a picnic area. Hungry?
+flag:
+  - outdoors
+  - nomobiles

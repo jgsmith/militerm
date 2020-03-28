@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott6"
+      north:
+        target: "scene:aber:slott:slott33"
+      west:
+        target: "scene:aber:slott:slott26"
+    short: SE tower
+    sight: >
+      This is the southeast tower...or what's left of it. The eastern wall and parts of the roof are gone; it
+      had been struck by lightning and crumbled to the ground. As you look out where the wall once stood, you
+      see a small garden path under the mess that the stones and wood from the tower has created.
+flag:
+  - outdoor

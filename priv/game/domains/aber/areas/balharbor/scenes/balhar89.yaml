@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:balhar8"
+    short: The Reading Room
+    sight: >
+      It used to look like your typical small newsstand selling newspapers and magazines. These lined a wall
+      to the side available for visitors to catch up on escapades happening around the world. Unfortunately,
+      some group of angry people deemed everything sold here blasphemy and throughly tore this place apart. It
+      seems some people got the bright idea that if they destroy every piece of literature that had a hint of
+      politics in it, that all the strife and in-fighting between all the political factions will go away.
+      Bits, ashes and scraps of paper litter this room, most of it rendered unreadable. Downstairs is the back
+      room of the guild.
+flag:
+  - peaceful

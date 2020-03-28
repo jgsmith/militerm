@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:princess:hall"
+      south:
+        target: "scene:aber:princess:forest1"
+    short: The Courtyard
+    sight: >
+      You have entered a courtyard behind the castle. It is quite peaceful here. You can hear birds singing in
+      the trees. The walk way is bordered with beautiful &+Yflowers&*. You see the deep, dark forest looming
+      to the south.
+flag:
+  - nomobiles
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot69"
+    short: Managers Office
+    sight: >
+      A large mahogany desk, a plush chair, and a secretary. What more could a bank manager ask for? Now if
+      you only knew what a "Bank Manager" did...
+flag:

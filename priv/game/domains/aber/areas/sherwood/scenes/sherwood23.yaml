@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood24"
+      south:
+        target: "scene:aber:sherwood:sherwood22"
+    short: Rutted Path
+    sight: >
+      The path here is very rough. You fall several times trying to make your way north. There appear to be
+      eyes peaking from the brush. You frantically search but turn up nothing. The path continues to the
+      north.
+flag:
+  - outdoors

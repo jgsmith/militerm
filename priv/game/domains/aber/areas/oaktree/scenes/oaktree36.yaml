@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+    short: The Crack
+    sight: >
+      This is a tight squeeze, and you frequently have to scramble over large rocks that partially block the
+      way. The walls are sharply chisled and cut into your skin now and then as you try to squeeze by. To the
+      south the crack appears to widen slightly.
+flag:
+  - dark

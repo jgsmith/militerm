@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook155"
+      west:
+        target: "scene:aber:fairybook:fairybook157"
+    short: Yellow Castle
+    sight: >
+      You stand before the gates of the Yellow Castle. Here it is rumored that the wicked witch of the west
+      lives. Of course, you know how reliable rumors are. The castle is painted a shade of yellow which you
+      can neither name nor recognize. The walls are high, and the windows pointed. The path goes east and
+      west.
+flag:
+  - outdoors

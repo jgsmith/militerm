@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jurasea1"
+      south:
+        target: "scene:aber:evolution:triasea2"
+      west:
+        target: "scene:aber:evolution:triasea5"
+    short: Pangaean Ocean
+    sight: >
+      You are swimming through the ocean surrounding the giant supercontinent Pangaea. Marine life is scarce,
+      having been all but wiped out by the mass extinctions of the late permian, yet among the survivors a
+      number of new and terrifying creatures have emerged. The ichthyosaurs, or "fish lizards", are
+      dolphin-like predators ranging from sizes smaller than yourself up to monsters the size of whales. You
+      resolve to proceed with caution.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

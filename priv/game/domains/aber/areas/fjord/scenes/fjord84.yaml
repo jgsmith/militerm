@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord85"
+      south:
+        target: "scene:aber:fjord:fjord83"
+    short: Steeply Sloping Trail
+    sight: >
+      High wind velocities rush over the upper slopes on the north side of Mount Phaylax, sending pieces of
+      ash and black glassy lava all over the place. The rock-containing dust storm rages unabated at this
+      altitude, allowing no respite to one who travels over it. The volcano blocks all view southward, but the
+      north reveals the line of the cold northern seas and ice-covered slopes leading to it.
+flag:
+  - cold
+  - outdoors
+  - noregen
+  - nomobiles

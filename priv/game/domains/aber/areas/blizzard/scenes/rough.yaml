@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:glittering"
+      south: null
+    short: Low, Rough Passage
+    sight: >
+      You are in a low rough passage which winds around and is clearly only an escape route of some form. A
+      sign hanging on the wall reads in a rather crude and untidy hand 'DANGER: STORM GIANTS CAN SERIOUSLY
+      DAMAGE YOUR ELF'
+flag:

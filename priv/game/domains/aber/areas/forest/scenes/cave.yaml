@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:forest:clearing"
+    short: "The Troll's Cave"
+    sight: >
+      You stand in a large very smelly cave. The walls and floor are littered with the remains of many an
+      unsavoury meal. A single passage leads north out into the sunlight.
+flag:

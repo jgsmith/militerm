@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:path4"
+      west:
+        target: "scene:aber:maeron:cave2"
+    short: &+GOutside The Cave
+    sight: >
+      A small cave is set into a hill here. A foul odor seeps out. You may continue into the cave by heading
+      &+Rwest&* or return to the path by heading &+Reast&*.
+flag:
+  - outdoors

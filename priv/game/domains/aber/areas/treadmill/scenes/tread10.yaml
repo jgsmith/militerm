@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread11"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The New Treadmills of Hell, the Final Chapter
+    sight: >
+      Could this be the end? One of the tunnels in this room looks different. If you were trying to transverse
+      this maze yourself, you have finally found the exit. Well don't just stand there, get going!
+flag:
+  - maze

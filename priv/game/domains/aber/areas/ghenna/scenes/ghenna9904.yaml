@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9902"
+      north: null
+    short: A culdesac
+    sight: >
+      You are standing on a cobblestone circle of a small culdesac. To the East is a large fountain, and a
+      door lies to the North, beneath a large tavern sign depicting the unspeakable.
+flag:
+  - dark
+  - outdoors

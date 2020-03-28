@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc21"
+    short: Embalming Chamber
+    sight: >
+      You have stepped into a small chamber, though you can't figure out the purpose of its' being. You see
+      piles of used bandages in the corner and a couple of &+ybig pots&* made of clay placed near the northern
+      wall. There's a stone platform in the middle of the room. This might have been some kind of a hospital
+      or something. You hear a loud crack!
+flag:

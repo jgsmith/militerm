@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook51"
+      up:
+        target: "scene:aber:fairybook:fairybook53"
+    short: Up the Hill
+    sight: >
+      You climb halfway up the hill. Above you is the top of the hill. Below you is a long garden path.
+flag:
+  - outdoors

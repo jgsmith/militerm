@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:8"
+      up:
+        target: "scene:aber:saic:5"
+      west:
+        target: "scene:aber:saic:7"
+    short: Deeper in the cave
+    sight: >
+      You just passed through a hole in the ceiling. You are now standing in a wide room. Everything is made
+      of stone around you. Some &+Rred&* fluid is leaking from the ceiling. West of here seems to be a very
+      &+Cpowerful&* room. The cave continues to the east and to the west.
+flag:
+  - saic

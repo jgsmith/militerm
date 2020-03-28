@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle14"
+      west:
+        target: "scene:aber:avairy:castle4"
+    short: Ticket Booth
+    sight: >
+      This is where the bird community buys their tickets to the Castle Playhouse. Surprisingly enough, the
+      play currently being featured is "Cats".
+flag:
+  - light

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome29"
+      south:
+        target: "scene:aber:rome:rome31"
+      west:
+        target: "scene:aber:rome:rome62"
+    short: Nero Drive
+    sight: >
+      You are walking on a paved road that runs south through the city of Rome. A great gate is directly north
+      of here. The Roman citizens are very friendly and tip their hats or say hello as you pass.
+flag:
+  - outdoors

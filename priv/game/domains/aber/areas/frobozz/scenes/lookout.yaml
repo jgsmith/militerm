@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:crossection"
+    short: Lookout-Point
+    sight: >
+      You are standing on a wide ledge overlooking a huge cavern. The river in the canyon west of the house
+      comes into the cavern through a large opening to the north, filling it with water. Bright light shines
+      through the opening of the cavern and, reflected by the water, it illuminates the cavern with dim light.
+      The water flows slowly southwards into a huge reservoir in the deeper parts of the cave. An eastward
+      path leads back to where you came from.
+flag:

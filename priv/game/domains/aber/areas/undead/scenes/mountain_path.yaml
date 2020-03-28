@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:mountain_path2"
+      south:
+        target: "scene:aber:undead:stony_path9"
+    short: Mountain Path
+    sight: >
+      You squeeze through a narrow gap in the mountainside. You wish you had not eaten that extra portion of
+      rations as you scrape against the rocks. To your &+Cnorth&* you see thankfully that the path widens, to
+      the &+Csouth&* you can just make out the stone path.
+flag:
+  - outdoors
+  - oneperson

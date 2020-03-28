@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid4"
+      south:
+        target: "scene:aber:pyramid:pyramid6"
+    short: &+yDrifting Dunes&N
+    sight: >
+      Thoughts of the treasure you might be able to plunder in the pyramid lures you farther into this sea of
+      dunes. Off to the south, an ominous cloud of brown dust can be seen on the horizon. Caution urges you to
+      retrace your steps before you are engulfed by a &+ysandstorm&N. Yet the enticing notion of the riches
+      you might discover urges you to brace the weather ahead.
+flag:
+  - outdoors

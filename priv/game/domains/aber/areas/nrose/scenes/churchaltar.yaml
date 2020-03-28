@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:nrose:northdorm"
+      west:
+        target: "scene:aber:nrose:church"
+    short: Church Altar
+    sight: >
+      You are standing in front of the church altar. The altar is made of stone and looks very heavy. On its
+      front are very frightening skulls that look so realistic you are afraid to even consider touching the
+      altar. To the south is a small doorway.
+flag:

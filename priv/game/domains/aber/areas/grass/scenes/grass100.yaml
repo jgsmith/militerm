@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass05"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6783"
+      south:
+        target: "scene:aber:grass:grass101"
+      west:
+        target: "scene:aber:grass:grass04"
+    short: Cobblestone Road
+    sight: >
+      The cobblestone road runs outside of town with tall grass along each side, flanked by woods on the
+      sides. Various critters live out in the meadow. The road continues to the south for a distance.
+flag:
+  - outdoors

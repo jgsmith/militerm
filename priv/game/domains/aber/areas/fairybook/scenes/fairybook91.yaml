@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook93"
+      up: null
+      west:
+        target: "scene:aber:fairybook:fairybook92"
+    short: Inside the Tree
+    sight: >
+      The home underground is one large room, with a floor in which you can dig if you want to go fishing, and
+      from which sprout great mushrooms of a charming colour. These mushrooms can be used as stools, and grow
+      in a circle around a Nevertree, which tries hard to grow in the centre of the room. There is an enormous
+      fireplace which is in almost any part of the room where you care to light it. Across this is strung
+      strings of fibre, from which one can hang the wash. The bed is standing against the wall. The basket in
+      which the youngest Lost Boy sleeps is to the west, and Tinkerbell's apartment is to the east.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: Top of Dam
+    sight: >
+      Standing atop the underground dam you can peer over the rusted guardrail to the south, but the dam's
+      bottom is hidden in blackness. The resevoir lies to the north; from here you can see a narrow staircase
+      down, which continues below the waterline. A large rusted release wheel protrudes from a mass of pipes
+      nearby.
+flag:
+  - dark

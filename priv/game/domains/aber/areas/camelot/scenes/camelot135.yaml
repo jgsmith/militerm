@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:camelot:camelot134"
+    short: The Tunnel Ends
+    sight: >
+      -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Oh dear, you seem to be
+      slightly dead... -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      Connection closed by remote host. % HA! Fooled you! It's not really a death room! It's only a magic
+      room.
+flag:
+  - dark

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie15"
+      south:
+        target: "scene:aber:newbie:newbie18"
+    short: Handicaps
+    sight: >
+      The object of this game is to make Wizard. If you are new to MUDs, that will be challenging enough. If
+      you are an experienced player, however, you might like a greater challenge. We have worked to find
+      handicaps which leave the game challenging and not tedious. The handicap levels are &+CSTANDARD&*,
+      &+CFAMED&* and &+CGREAT&*. To find out the handicap conditions type &+BHANDICAP <level>&*. What you get
+      from playing with a handicap is greater recognition. The users and who commands will show your handicap,
+      and if you make it to wizard, you will be a 'Famedwizard' or a 'Greatwizard'. All the wizards have a
+      core of capabilities, but Famedwizards and Greatwizards have a few extras. Mostly it is the recognition
+      of a more difficult achievement. You cannot take a handicap if you have learned the fence skill, solved
+      any quests, killed 40 or more mobs, or have ever advanced beyond level 4. The *only* location in which
+      the handicap command is active is this room. Accumulating experience suggests that even experienced
+      players will make critical strategic mistakes in building their first character. On the standard
+      handicap you have enough income to correct this, so you should probably not take a handicap if this is
+      your first character here.
+flag:
+  - newbie

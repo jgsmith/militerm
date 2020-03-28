@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven34"
+      north:
+        target: "scene:aber:heaven:heaven31"
+    short: Land of Giants
+    sight: All around you are huge redwoods and sequoias.
+flag:
+  - private

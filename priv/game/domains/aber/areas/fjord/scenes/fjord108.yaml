@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord109"
+      north:
+        target: "scene:aber:fjord:fjord105"
+      south:
+        target: "scene:aber:fjord:fjord89"
+      up:
+        target: "scene:aber:fjord:fjord112"
+      west:
+        target: "scene:aber:fjord:fjord107"
+    short: Northern Ocean
+    sight: >
+      The waves clap against each other with medium force, sending sprays of salty foam high into the air. A
+      powerful wind roars about, leaving no doubt that thers is no cover about. The sun shines down cleanly
+      through the crisp, cold air, saturating the surface of the sea with mirror images of itself, while a
+      light gray overhaze continues to be randomly blown about. There is a massive ice floe here, too massive
+      for the ocean forces to move.
+flag:
+  - outdoors
+  - onwater
+  - cold

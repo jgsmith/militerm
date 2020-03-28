@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path2"
+      west:
+        target: "scene:aber:undead:before_castle"
+    short: Stony Path
+    sight: >
+      You stand east of the drawbridge. Small stones crunch under your feet. The path continues along side the
+      moat both &+Ceast&* and &+Cwest&*. Thick forest bars the way &+Csouth&*, and the moat still looks
+      utterly impassable to the &+Cnorth&*.
+flag:
+  - outdoors

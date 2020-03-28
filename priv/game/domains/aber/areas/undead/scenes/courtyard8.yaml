@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:courtyard9"
+      south:
+        target: "scene:aber:undead:courtyard5"
+      west:
+        target: "scene:aber:undead:courtyard7"
+    short: Entrance to castle
+    sight: >
+      You stand at the entrance to the castle proper, shrouded in total silence. You wonder if this is really
+      worth the effort. Through another large portcullis you see a dark foreboding corridor. Around you the
+      world seems to wait quietly watching for your next move. The courtyard continues to the &+Ceast&*,
+      &+Cwest&* and &+Csouth&*.
+flag:
+  - outdoors

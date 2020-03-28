@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest133"
+      north:
+        target: "scene:aber:rainforest:forest129"
+      west:
+        target: "scene:aber:rainforest:forest130"
+    short: Ancient Ruins
+    sight: >
+      As you walk through the thick undergrowth you find yourself kicking against a number of hard unyielding
+      objects. Closer inspection reveals a series of low, broken-down walls which although old and ruinous
+      were obviously constructed with a great deal of skill at one time.
+flag:
+  - outdoors
+  - rainforest

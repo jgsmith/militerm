@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rome:rome30"
+    short: The Great North Gate
+    sight: >
+      This is the northern gateway to the city of Rome. The huge gate appears to be closed and locked against
+      intrusion. A large muddy &+yroad&* runs through the &+Cgate&* and into the countryside. Nero Drive runs
+      south from here.
+flag:
+  - outdoors

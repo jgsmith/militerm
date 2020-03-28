@@ -1,0 +1,28 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:start:temple"
+      south:
+        target: "scene:aber:waste:before"
+      up:
+        target: "scene:aber:gumby:gumby1"
+    short: A Portrait of Clay
+    sight: >
+      The haunting sound of Depeche Mode echoes around this eerie Daliesque panorama. A flat rubber surface
+      extends in all directions with walls on the north and south. The northern half is bathed in sunlight;
+      the southern half is shrouded by the umbra of a neverending eclipse. The bright wall is finely appointed
+      with a large portrait of a beautiful young woman, which is surrounded by six smaller portraits of
+      beautiful women, and one of a handsome young man. Below two of the portraits are vases of roses: one of
+      red, the other of white. There seems to be extensive room for expansion here. A glowing portal to the
+      north leads to the Temple of Paradise. The dark wall, in contrast, is rocky and uneven. Next to a
+      claw-marked portrait of a man that can only be Gumby float two glass spheres. One contains a blackened,
+      decaying heart. The other has what you presume to be the last tear that Gumby shed. A shattered door
+      leads from here to the Wastelands of Hell. At the schism of light and darkness is a swiveling chair,
+      facing a mirror from every direction, so that everything in the room is always seen. A couch stands next
+      to the chair, facing away from the darkness and wholly in the light.
+flag:
+  - private
+  - dark
+  - party
+  - soundproof

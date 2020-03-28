@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ruins:levelthree"
+      north:
+        target: "scene:aber:ruins:gooey"
+    short: Southern Catacomb
+    sight: >
+      You are inside the southern catacombs. The floor is covered with a fine layer of slime that is seeping
+      in from the room to the north. There are a flight of steps that lead down into another level of the
+      ruins.
+flag:
+  - dark
+  - nomobiles

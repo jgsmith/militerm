@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+    short: The Bottom Of The Hole
+    sight: >
+      You fall from the end of the hole into the room below. Luckily, you are not hurt. Looking around you see
+      no exits except the one far (too far) above your head. You seem to be rather stuck. But don't worry.
+      This is a party room, like Warm Haven. Get your friends to come join you here, and have some fun. At
+      least you'll have company...
+flag:
+  - dark
+  - party
+  - nomagic
+  - nomobiles
+  - nosummon

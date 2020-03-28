@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan22"
+      south:
+        target: "scene:aber:mithdan:mithdan30"
+    short: Snowy Field
+    sight: >
+      The whipping snow makes it impossible to see how big the field is, but it seems to be larger then you
+      first thought. Steep, unclimbable cliffs strech above you to the east and west. To the north you can
+      dimly make out a thin ledge before a deep gorge, and the whipping snows continue to the south.
+flag:
+  - outdoors
+  - cold

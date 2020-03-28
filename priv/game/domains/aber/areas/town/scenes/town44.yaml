@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town45"
+      south:
+        target: "scene:aber:town:town43"
+    short: Commerce Road
+    sight: >
+      The Commerce Road continues on to the north here. Many travellers have passed this way before going
+      between the Castle of Pensalon and the small town to the southeast of your current position.
+flag:
+  - outdoors

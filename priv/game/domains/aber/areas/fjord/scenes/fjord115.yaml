@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:fjord:fjord117"
+      south:
+        target: "scene:aber:fjord:fjord114"
+    short: Ferandilly Way
+    sight: >
+      The main residential area is not as neat as some of the townsfolk would have outsiders believe. Not
+      wishing to dump their garbage into the northern sea or the woods for fear of spoiling the fragile
+      ecology, they elect instead to dump the less smelly portions along the sides of the road. Yet the houses
+      themselves are impeccable, each glistening like it was just painted and permanently sealed away from the
+      elements.
+flag:

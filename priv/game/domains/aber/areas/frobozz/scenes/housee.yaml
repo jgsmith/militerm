@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:forest4"
+      north:
+        target: "scene:aber:frobozz:housen"
+      south:
+        target: "scene:aber:frobozz:houses"
+    short: Eastern End of the House
+    sight: >
+      You are on the eastern side of the white house on a path that seems to continue around the house. All
+      windows here are boarded. An old and overgrown path leads east into a dense forest.
+flag:
+  - outdoors

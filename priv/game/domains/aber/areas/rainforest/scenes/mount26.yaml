@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount25"
+      north:
+        target: "scene:aber:rainforest:mount20"
+      south:
+        target: "scene:aber:rainforest:mount27"
+      west:
+        target: "scene:aber:rainforest:mount20"
+    short: Crossing The Glacier
+    sight: >
+      You are in the middle of the glacier. The ice is solid under your feet and you cast your eyes about for
+      a suitable exit. You become somewhat nervous when you realise that most routes look equally dangerous.
+      Perhaps to the east the ice might be fairly stable.
+flag:
+  - outdoors
+  - cold

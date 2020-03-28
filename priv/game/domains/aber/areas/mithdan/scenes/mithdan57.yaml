@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan51"
+      west:
+        target: "scene:aber:mithdan:mithdan56"
+    short: Forest Edge
+    sight: >
+      The magical crystaline forest here merges with normal forest, the green refracted through the crystal
+      boughs into a shimmering rainbow of color. The crystal forest coninues to the west and north, but the
+      northern forest if much too thick to try to forge through. To the south the natural green forest
+      continues.
+flag:
+  - outdoors

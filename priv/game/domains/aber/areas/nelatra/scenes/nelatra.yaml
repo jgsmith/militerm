@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eastcoast:gold"
+    short: "Nelatra's Magic Center"
+    sight: >
+      Here many magician apprentices have gathered to learn from the goddess of all mages, Nelatra. The entire
+      domain glows with a bright aura, and magical energy swirls about her devotees. You may experience this
+      too, if you serve her well.
+flag:
+  - nelatra
+  - peaceful
+  - party

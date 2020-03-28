@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord21"
+      south:
+        target: "scene:aber:fjord:fjord19"
+    short: Northern Side
+    sight: >
+      The slope of the bottom of the lake is much less sharp in this region. Average depth of the water is
+      perhaps ten to fifteen feet, and the bottom is entirely sandy. Leading from the lake bank by the shore
+      are two thick fishing nets, tied securely to the shore and at every point along the lake bottom. They
+      are set far enough apart to admit a single craft, similar to a private docking slot at a harbor. The
+      waves of the leave gently push towards the shoreline.
+flag:
+  - outdoors
+  - onwater

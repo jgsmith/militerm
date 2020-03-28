@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott23"
+      south: null
+    short: The masters hideout
+    sight: >
+      This room is comfortably furnished with a small bed, a table and some chairs. It almost looks like a
+      prison cell, just more comfortable. This is the room that the butler has prepared for his master, and a
+      good job it is. This is the kind of room you would like to have if you were locked away for a long time.
+flag:
+  - peaceful
+  - soundproof

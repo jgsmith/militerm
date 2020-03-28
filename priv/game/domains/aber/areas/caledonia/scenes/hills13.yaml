@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills9"
+      south:
+        target: "scene:aber:caledonia:hills16"
+      west:
+        target: "scene:aber:caledonia:hills17"
+    short: Lofty Firs
+    sight: >
+      You are on the lower slopes of Ben Mor, a smallish mountain which rises to the west. The ground here is
+      uneven but rich enough to support a number of large douglas firs which tower up to two hundred feet into
+      the sky. A deep cleft in the mountainside to the north bars your route in that direction.
+flag:
+  - outdoors
+  - nomobiles

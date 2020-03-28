@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newvillage:green"
+    short: The Blacksmith Shop
+    sight: >
+      The room you are in is dark and hot and smells of steam, fire, and hot iron. There is a large forge in
+      the center of the room that seems to put off quite a lot of heat. There are tools that the Smith made
+      for himself lying nearby. The Smith seems to be making a set of horseshoes for a horse that you can hear
+      whinnying in an attached stable. There is a large collection of horseshoes hanging on a beam above the
+      forge.
+flag:

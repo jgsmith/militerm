@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:maeron:cave3"
+    short: &+CChamber Of Khighen.&*
+    sight: >
+      The fur rug, fireplace, and good furniture give this place a luxurious feel.
+flag:

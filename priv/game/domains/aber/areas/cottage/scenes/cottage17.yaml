@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cottage:cottage18"
+      south:
+        target: "scene:aber:cottage:cottage18"
+      west:
+        target: "scene:aber:cottage:cottage16"
+    short: Damp Passage
+    sight: >
+      The first thing that you notice upon entering this room is the heavy layer of condensation which has
+      collected on the walls. The passage slopes steeply downward to the south, but you can not see what lies
+      that way, for it is too dark. A rectangle of light pours in from the western passage.
+flag:
+  - nomobiles

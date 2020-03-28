@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast4"
+      north:
+        target: "scene:aber:ruins:storeroom"
+      west:
+        target: "scene:aber:ruins:geast2"
+    short: Even Further into the Eastern Catacomb
+    sight: >
+      You are travelling in the eastern catacombs. The smell of rotting flesh is getting stronger and makes
+      your nostrils burn a little. You hear rustling further ahead in the caverns and see a small room to the
+      north of here.
+flag:
+  - dark

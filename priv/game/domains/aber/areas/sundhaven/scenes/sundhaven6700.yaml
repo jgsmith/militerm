@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6702"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6695"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6701"
+    short: A short rockslide
+    sight: >
+      You stand amidst a tumble of rocks of various sizes and shades of grey and ebony. A pale hawk circles
+      overhead, uttering a shivering cry. It is impossible to continue downwards without meeting an untimely
+      (?) death. A few homes have been hidden here in the cliff face, a bit of a hike from any civilization.
+flag:
+  - outdoors
+  - cold

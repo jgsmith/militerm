@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc57"
+    short: Meditation Room
+    sight: >
+      Faint light coming from the ceiling allows you to see that there's absolutely nothing in this room. It
+      is probably made for finding enlightment by meditation. You assume the lotus position. You start
+      chanting your mantra.
+flag:
+  - cold
+  - nomagic
+  - nomobiles
+  - nosummon
+  - peaceful
+  - soundproof
+  - oneperson

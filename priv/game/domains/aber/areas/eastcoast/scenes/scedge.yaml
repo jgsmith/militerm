@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:field"
+      west:
+        target: "scene:aber:eastcoast:secliff"
+    short: South Cliff Edge
+    sight: >
+      You are standing next to the edge of a cliff overlooking the swamplands lying to the south. Fortunately
+      (?) for you, a fence of questionable quality stands between you and the slim chance of survival in the
+      chances of falling. Safer travels lie to the north, towards a flat field where sounds of bleating sheep
+      originate, and to the west you can follow the cliff's edge.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:jurasea2"
+      west:
+        target: "scene:aber:evolution:jurasea5"
+    short: In The Marine Current
+    sight: >
+      You are battling against a strong current here which sweeps down from the north-east, bringing with it
+      shoals of small fish, and the larger predators which feed upon them and, of course, the even larger
+      ichthyosaurs and plesiosaurs which represent the pinnacle of the food chain. It is these larger monsters
+      of which you are ever mindful.
+flag:
+  - soundproof
+  - underwater

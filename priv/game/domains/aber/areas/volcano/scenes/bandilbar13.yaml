@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar11"
+      west:
+        target: "scene:aber:volcano:bandilbar14"
+    short: South Gate Of Yorrin
+    sight: >
+      You are at the southern end of the village of Yorrin. A gate once stood here between two tall stone
+      pillars. Now it is lying on the ground, smashed, its bars bent and broken. To the west, through the
+      gate, you espy a small patch of woodland, nestling under the looming bulk of a volcano. A dark column of
+      smoke rises from the summit of the volcano, and you grow uneasy at the thought of approaching it any
+      closer.
+flag:
+  - outdoors

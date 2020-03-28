@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp7"
+      west:
+        target: "scene:aber:fantasy:dforest2"
+    short: Beginning of Dwarven Forest
+    sight: >
+      A sign here tells you that you are entering the Dwarven Forest. You know that the dwarfs are a nice
+      bunch of people, but the monsters lurking in their ancient forest are not.
+flag:
+  - outdoors
+  - nomobiles

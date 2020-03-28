@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: "Keeper's Playroom"
+    sight: >
+      This small ten by ten room once was a simple like the others which connect to the Operating Room,
+      however because of the nature of the specimen which abides in this space, it has been spruced up just a
+      bit. A huge bed dominates the ENTIRE room, pillows strewn everywhere with lace and frills and all.
+flag:

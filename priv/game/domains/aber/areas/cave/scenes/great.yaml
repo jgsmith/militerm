@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:cellars"
+      east:
+        target: "scene:aber:cave:smithy"
+      north:
+        target: "scene:aber:cave:gatehall"
+      south:
+        target: "scene:aber:cave:dining"
+      up:
+        target: "scene:aber:cave:landing"
+    short: Great Hall
+    sight: >
+      You stand in the dwarven Great Hall, a huge carved room of spectacular design, with a massive
+      fan-vaulted ceiling. The spectacular arches and pillars are all decorated with dwarvish battle scenes
+      and, high up, dwarven momentos of great age are hung, golden banners, shining axes, helms, and many
+      other items of war and craft. High arched exits lead north, east and south, a set of narrow stairs leads
+      down into the cellars, and a wide sweeping staircase leads up to a high balcony overlooking the hall.
+flag:
+  - dark

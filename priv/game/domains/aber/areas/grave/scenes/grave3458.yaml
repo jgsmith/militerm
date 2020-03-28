@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3453"
+    short: Rally Point
+    sight: >
+      Here is a large room that has benches that face an instruction board. On the board you see a map of part
+      of the church. The map indicates which area this 'group' of soldiers are to capture and hold. A leader
+      of the group stands in front of the board with a mischevious smile. As you enter the room the smile
+      turns to terror and he screams at you with hate. For your own safety you could return north.
+flag:

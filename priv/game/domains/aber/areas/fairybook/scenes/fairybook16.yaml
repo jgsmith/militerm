@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook17"
+      north:
+        target: "scene:aber:fairybook:fairybook15"
+      south:
+        target: "scene:aber:fairybook:fairybook22"
+    short: Mailbox
+    sight: >
+      The path divides here, in three directions. To the north and south it travels through the woods, and to
+      the east a footpath leads to a tiny house.
+flag:
+  - outdoors

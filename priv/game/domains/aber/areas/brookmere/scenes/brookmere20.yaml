@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere21"
+      south:
+        target: "scene:aber:brookmere:brookmere19"
+    short: Darkened Corridor
+    sight: >
+      Ouch! You stub your toe on a jagged rock. It's so dark in this corridor you can barely see your hand in
+      front of your face. It leads to the south and curves around to the east, where you can see candlelight
+      glowing from an open doorway.
+flag:
+  - dark

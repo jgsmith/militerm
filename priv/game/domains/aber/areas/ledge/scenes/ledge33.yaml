@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge27"
+    short: Small Pool
+    sight: >
+      You come to a small pool of water, cold to the touch and not very deep, meaning it can't be the source
+      of this warmth. The glow from the north side of this section of cave lights this room up, without it
+      there wouldn't be anything unique around here.
+flag:

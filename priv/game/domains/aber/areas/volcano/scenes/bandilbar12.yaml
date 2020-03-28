@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:volcano:bandilbar11"
+    short: Weapons Shop
+    sight: >
+      You are disappointed when you enter here, for nothing remains on the walls of what may once have been a
+      proud selection of weaponry. Hooks and shelves are bare and whatever treasures they once bore is now a
+      matter for guesswork only.
+flag:
+  - nomobiles

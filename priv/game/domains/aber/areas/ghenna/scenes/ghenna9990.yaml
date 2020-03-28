@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9989"
+      west:
+        target: "scene:aber:ghenna:ghenna9991"
+    short: An east-west tunnel.
+    sight: >
+      This tunnel is only about 5 feet high, much to your chagrin. Moss- like lichens hang from the ceiling,
+      brushing past your face from time to time. The tunnel continues East and West.
+flag:
+  - dark
+  - private

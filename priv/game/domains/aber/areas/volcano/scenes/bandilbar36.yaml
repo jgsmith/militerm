@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar37"
+      south:
+        target: "scene:aber:volcano:bandilbar35"
+    short: Foot Of The Steps
+    sight: >
+      You are at a bend in the tunnel. A short flight of steps leads up into some kind of cavern, but you
+      cannot see much of it from here. To the east you can see a small side tunnel leading off to the north,
+      then beyond it the ground rises steeply towards the entrance to the caves.
+flag:

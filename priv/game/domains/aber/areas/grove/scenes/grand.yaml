@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grove:entrance"
+    short: Inside the Grand Oak
+    sight: >
+      You appear to be in the Old Oak, except that something's different. Everything seems to be fresher,
+      newer, and more full of life. The Oak itself seems to be smaller, possibly because you've come to a time
+      when it was several centuries younger. There is passage west to the outside.
+flag:
+  - soundproof
+  - cantsummon
+  - nosummon

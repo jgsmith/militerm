@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc24"
+      south:
+        target: "scene:aber:ancient:anc21"
+    short: Calle de los Muertos
+    sight: >
+      You leave the huge sun pyramid behind your back and head to the at least as big moon pyramid to the
+      north. The pyramids' mighty figure rises up to the northers sky hiding the big emmental behind its'
+      shape. You still have a long walk to do to reach the pyramid. The street leads north and south.
+flag:
+  - outdoors

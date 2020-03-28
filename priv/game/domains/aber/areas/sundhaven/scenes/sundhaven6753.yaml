@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6754"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6662"
+    short: The Sanctuary
+    sight: >
+      The walls of the sanctuary of those of a priestly bent are indefinite, seemingly rounded and blurred by
+      a muted pale light that seems to come from nowhere. It is perhaps a product of the combined faiths of
+      those who live here.. dark, alabaster, and every shade in between. All beliefs are accepted here,
+      provided they are not discussed too often, lest blood should be spilt. There are several bookshelves of
+      varying religious works, an altar without ornament, and numerous cots for clerics to take their rest in.
+flag:
+  - peaceful

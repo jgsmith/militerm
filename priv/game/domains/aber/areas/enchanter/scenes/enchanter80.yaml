@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter77"
+      east:
+        target: "scene:aber:enchanter:enchanter83"
+      south:
+        target: "scene:aber:enchanter:enchanter81"
+      west:
+        target: "scene:aber:enchanter:enchanter78"
+    short: Courtyard
+    sight: >
+      You're in a barren, lifeless courtyard. To the southeast is a large temple. You can hear a low chanting
+      from the temple.
+flag:
+  - outdoors

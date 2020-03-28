@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: On the Bars
+    sight: You grab onto a bar, and it tears loose...
+flag:
+  - death

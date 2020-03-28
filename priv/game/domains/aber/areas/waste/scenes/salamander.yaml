@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:waste:hall"
+      south:
+        target: "scene:aber:waste:passage"
+    short: "Salamander's Fire Pit"
+    sight: >
+      You are standing on a precarious catwalk high above a pit of molten fire. Huge walls of fire and molten
+      rock leap up around you, in stunning crescendos of sound and light. By some strange chance, maybe
+      magical, the fires never touch the path itself.
+flag:
+  - hot

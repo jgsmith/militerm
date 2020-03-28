@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung50"
+      south:
+        target: "scene:aber:nibelung:nibelung52"
+    short: In the Moat
+    sight: >
+      You find yourself in the castle moat. It continues around to the north and south, while huge stone walls
+      tower up to the east and west. Climbing appears impossible. The ground is covered in mossy vegetation.
+flag:
+  - outdoors

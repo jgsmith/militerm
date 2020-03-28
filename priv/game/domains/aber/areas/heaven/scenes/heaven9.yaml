@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven10"
+      up:
+        target: "scene:aber:heaven:heaven10"
+    short: Cloud 8
+    sight: >
+      The entire landscape is made of white, fluffy clouds. You feel slightly uneasy about the situation, as
+      the thought of falling to the earth below does not want to leave your mind.
+flag:
+  - private

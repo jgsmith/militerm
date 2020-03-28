@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:arena:arena9"
+      south:
+        target: "scene:aber:arena:arena11"
+      west:
+        target: "scene:aber:arena:arena7"
+    short: The Arena
+    sight: >
+      The arena extends to the south east and west from here. The dry ground is covered with small rocks.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

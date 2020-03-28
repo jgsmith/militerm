@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3447"
+      west: null
+    short: "The Priest's Closet"
+    sight: >
+      Here is where the priest kept his robes, crowns and other instuments of the priesthood. You notice on
+      the wall a map that has been ripped making it unreadable. The closet otherwise is empty, but you feel
+      great power and strength coming - or used to come from this room. The only exit is to the east.
+flag:

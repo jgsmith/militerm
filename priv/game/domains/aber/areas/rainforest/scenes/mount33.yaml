@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount30"
+      east:
+        target: "scene:aber:rainforest:mount34"
+      west:
+        target: "scene:aber:rainforest:mount30"
+    short: High Pass
+    sight: >
+      You are standing atop a pass at the eastern edge of the mountain range. Before you, thousands of feet
+      below, a sea of trees extends to the horizon. A narrow path leads from here to a rocky lip, from where a
+      path begins to descend steeply, dropping quickly out of your view. To the west is a large snowfield.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

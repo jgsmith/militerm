@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot122"
+      south:
+        target: "scene:aber:camelot:camelot126"
+    short: South End Of The Tunnel
+    sight: >
+      You are at the south end of a long north-south tunnel. There is an exit south, leading to another
+      corridor, or you can go north.
+flag:
+  - dark

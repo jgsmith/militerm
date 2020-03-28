@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge41"
+      up:
+        target: "scene:aber:ledge:ledge37"
+      west:
+        target: "scene:aber:ledge:ledge37"
+    short: Underwater Cavern
+    sight: >
+      This underwater cavern comes to an end with an opening above you which seems to be a large air pocket or
+      perhaps an hidden cavern. The light from the outside barely allows you to see where you're going in
+      here, but the air pocket or cavern will be completely pitch black. A couple of sea creatures which stay
+      in here during the daytime dart away from you. Escape for those who've been trying to get out of the
+      cavern lies east.
+flag:
+  - underwater

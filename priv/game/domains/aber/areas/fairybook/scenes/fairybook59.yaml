@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook60"
+      west:
+        target: "scene:aber:fairybook:fairybook58"
+    short: Tweedle House
+    sight: >
+      You turn the corner quite sharply and find yourself gazing at a tiny house. Beneath the trees, quite
+      blocking the path, two men stand with their arms linked. Perhaps they will let you continue, perhaps
+      not.
+flag:
+  - outdoors

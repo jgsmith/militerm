@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale115"
+      west:
+        target: "scene:aber:fairytale:fairytale118"
+    short: Bedroom
+    sight: >
+      You have entered the largest of two bedrooms. To the west is the bathroom, and to the south is the
+      hallway. A large bed rests here beneath a canopy, which is supported by four elaborate oak posts. A
+      closet stands next to the window. A small desk dozes quietly near the east wall, covered with papers.
+flag:

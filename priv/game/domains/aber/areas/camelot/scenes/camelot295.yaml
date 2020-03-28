@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot296"
+      west:
+        target: "scene:aber:camelot:camelot294"
+    short: "Titivilus' Room"
+    sight: >
+      Titivilus is one of the most cunning of the Dukes of Hell. He appears very similar to a satyr, but he is
+      actually more human looking, save for his bat like wings. His skin is pale, but his cheeks are slightly
+      ruddy.
+flag:
+  - dark

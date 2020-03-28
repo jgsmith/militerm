@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:clifftop"
+    short: "Dreamer's Point"
+    sight: >
+      This is the famous point of that man, the Dreamer, who made this high corner of the cliff the popular
+      place that it is. From here, you can see for miles around. To the east and running along toward the
+      south as far as the eye can see, the great sea stretches out to the horizon, its blue waters drawing
+      your eyes hypnotically. You see islands out in the distant water, but can only imagine what they are
+      like. To the south you see a flat lowlands, dominated by a dark mass of trees, the Swamps of Peril.
+      Outlining the swamp is a long beach, running up to the cliff foot directly under you, and then splitting
+      off, one trail continuing north up the beach, and the other disappearing out of view to the west. A
+      range of mountains line the valley far to the west and southwest, and nestled in front of the range
+      directly to the west is an old and eroding castle, with one black tower still defiantly standing. A path
+      leading north is the only way out of this narrow cliff corner.
+flag:
+  - outdoors
+  - peaceful
+  - nosummon

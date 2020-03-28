@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9515"
+      west:
+        target: "scene:aber:khanjar:khanjar9501"
+    short: At The Forest Edge
+    sight: >
+      You are walking on a brownish path that leads towards a light forest to the east, and begins to wriggle
+      its way there. A mild chirping can be heard from somewhere nearby. The city of Sundhaven is further away
+      to the west.
+flag:
+  - outdoors

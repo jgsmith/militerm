@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach24"
+      south:
+        target: "scene:aber:beach:beach27"
+    short: Paradise
+    sight: >
+      Ohh no! You though you spotted a large evil monster, but turning to look, all you saw was a trick
+      shadow, nothing here will harm you, you are safe here.
+flag:
+  - outdoors

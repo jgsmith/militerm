@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen47"
+      west:
+        target: "scene:aber:thyrannen:thyrannen50"
+    short: Dark passage
+    sight: >
+      You are inside the mesa. You can hear otherworldly cries of pain from all directions, your head is
+      spinning from fumes in the air, and ....you are lost as well.
+flag:
+  - dark

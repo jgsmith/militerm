@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook116"
+      north:
+        target: "scene:aber:fairybook:fairybook115"
+      west:
+        target: "scene:aber:fairybook:fairybook113"
+    short: Golden Path
+    sight: >
+      You notice a house larger than the rest. On the green lawn before it, many men and women are dancing.
+      Five little fiddlers play as loudly as possible and the people are laughing and singing, while a big
+      table nearby is loaded with delicious fruits and nuts, pie and cakes, and many other food things to eat.
+      The path continues east and west, and the house lies to me north.
+flag:
+  - outdoors

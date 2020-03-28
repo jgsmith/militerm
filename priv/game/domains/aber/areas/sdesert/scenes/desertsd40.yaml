@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd32"
+      south:
+        target: "scene:aber:sdesert:desertsd42"
+    short: Near A Rocky Mesa
+    sight: >
+      The desert stretches out in every direction, a rugged terrain reminding you of the moon. To the
+      &+ysouth&* the mesa looms nearer, you think you can hear strange singing blowing in the wind.
+flag:
+  - outdoors
+  - hot

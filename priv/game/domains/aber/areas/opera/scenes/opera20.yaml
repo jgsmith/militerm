@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera16"
+      north:
+        target: "scene:aber:opera:opera17"
+      south:
+        target: "scene:aber:opera:opera21"
+      west:
+        target: "scene:aber:opera:opera36"
+    short: The Furnaces
+    sight: >
+      From here you can see black sillouttes shoveling coal into the firey furnaces. Passages lead off in all
+      directions.
+flag:

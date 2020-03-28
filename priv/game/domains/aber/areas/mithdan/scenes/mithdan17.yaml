@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:mithdan:mithdan18"
+      east:
+        target: "scene:aber:mithdan:mithdan18"
+      south:
+        target: "scene:aber:mithdan:mithdan19"
+      up:
+        target: "scene:aber:mithdan:mithdan19"
+    short: Snowy Trail
+    sight: >
+      The trail is covered with snow that buried the rocks, making travel very difficult. The trail slopes
+      upwards steeply, obviously leading up the side of the snow covered mountain that covers the
+      south-eastern horizon. Far above you there appears to be some sort of structure, but from here it is
+      impossible to tell. The trail slopes down to the east and up to the south.
+flag:
+  - outdoors
+  - cold

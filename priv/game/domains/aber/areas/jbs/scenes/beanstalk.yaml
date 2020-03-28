@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:jbs:beanstalk1"
+    short: Up the Beanstalk
+    sight: >
+      You are about half way up this huge beanstalk. Small vines and branches grow out everywhere making it an
+      easy climb to get the rest of the way up, or you can go back down to the field below you. As you look
+      around from here you see a small village off to the south and the vast expanse of the sea to the east.
+      To both the north and the west you see a magnificent chain of mountains running in the distance.
+flag:
+  - outdoors

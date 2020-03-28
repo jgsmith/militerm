@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen26"
+      south:
+        target: "scene:aber:thyrannen:thyrannen24"
+    short: Marsh
+    sight: >
+      This thick marsh is really getting on your nerves. Your feet are cold and wet, and you legs are covered
+      in thick slimy mud. There are exits to the south, and east.
+flag:
+  - outdoors

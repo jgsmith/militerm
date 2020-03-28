@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop37"
+      north:
+        target: "scene:aber:bishop:bishop40"
+      south:
+        target: "scene:aber:bishop:bishop35"
+      west:
+        target: "scene:aber:bishop:bishop41"
+    short: Circle of Gravestones
+    sight: >
+      A raised ring of graves is set in a clearing here, perfectly spaced from each other and having the same
+      length. In the center of this circle stands a small plinth made of oozing blood. The flow of this liquid
+      of life is kept going by a dark blue fireball on the top of the plinth, which shoots out random arcs of
+      green lightning. Surrounding the tombstone perimeter of the circles are offering bowls jammed with
+      platinum coins and pearl amulets, their lustrous qualities having long since degraded.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:dragonslueth:ds17"
+    short: Treasure Room
+    sight: >
+      This is what you have been exploring for.. Dragonsluth's treasure. It is the greatest single thing that
+      you have seen in your life. There is every kind of precious rock imaginable including loads of diamonds
+      and rubies. You can be rich with a fortune like this. The exit is to the &+Cwest&*.
+flag:

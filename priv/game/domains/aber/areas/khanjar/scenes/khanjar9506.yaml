@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:khanjar:khanjar9508"
+      west:
+        target: "scene:aber:khanjar:khanjar9507"
+    short: Inside The Tavern
+    sight: >
+      The walls here are paneled in some wood of various deep brown tints. A large, wooden chandelier lits the
+      room, making it very homely. The furniture is dominated by a tall desk close to the north wall. Behind
+      it there stands a large, impressive &+Ccupboard&*. To the west is a high, arched doorway, above which a
+      huge bearhead has been fastened, welcoming the customers in. Broad stairs lead up.
+flag:

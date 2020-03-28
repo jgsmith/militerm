@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest2"
+      west:
+        target: "scene:aber:fantasy:dforest4"
+    short: Path
+    sight: >
+      You are on a path that leads through the dwarven forest. You marvel at the beauty of this ancient forest
+      and look up towards the clear blue sky.
+flag:
+  - outdoors

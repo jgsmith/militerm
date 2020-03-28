@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3468"
+    short: "Ghoul's Place"
+    sight: >
+      Scattered around the small cave here are bones and decaying flesh. Poking around the bones is a ghoul
+      who looks up and slowly begins moving toward YOU. Unless you want a fight you should go west quickly.
+flag:
+  - dark

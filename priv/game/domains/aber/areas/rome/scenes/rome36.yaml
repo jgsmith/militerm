@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome43"
+      south:
+        target: "scene:aber:rome:rome37"
+    short: "The Emperor's Private Office"
+    sight: >
+      You are standing in the emperor's private office. The room is richly furnished with the finest of the
+      loot brought back from conquests of far away lands. There is a massive, intricately carved &+ydesk&*
+      here, upon which are important &+Cdocuments&*, decrees and other paperwork involved in running the
+      empire. On the far wall, there is a marble &+ybookcase&* that is well stocked with the works of Homer,
+      Plato, Socrates and other wise men. Further, it seems that the current emperor likes &+Yflowers&* as
+      there are many potted and cut specimens throughout the room. There is a french door leading to the
+      waiting room and a wooden door to the south.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot121"
+      north:
+        target: "scene:aber:camelot:camelot124"
+    short: Rubble Filled Cavern
+    sight: >
+      The small cave you have entered is about half full of rubble. It seems to be piled primarily in north
+      end of the room. A bit of looking explains why. There is an opening in that wall, and from the looks of
+      things, the rubble has been piled here in a rather simple minded attempt to conceal the opening.
+flag:
+  - dark

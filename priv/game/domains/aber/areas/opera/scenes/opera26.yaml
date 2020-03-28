@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera27"
+      up:
+        target: "scene:aber:opera:opera22"
+    short: The Bottom of the Spiral Stairs
+    sight: >
+      It feels much cooler here for some reason. You also seem to hear the sound of water along the passage to
+      the east.
+flag:

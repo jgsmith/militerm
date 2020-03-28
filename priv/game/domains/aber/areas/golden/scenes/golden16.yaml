@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden17"
+      up:
+        target: "scene:aber:golden:golden15"
+    short: Path
+    sight: >
+      You are walking down a thin path that leads to the pool. You can feel the cool mist of the waterfall
+      sparying you in the face as you step closer. You can go back up to the trail or go down to the bank.
+flag:
+  - outdoors

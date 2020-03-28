@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds6"
+      south:
+        target: "scene:aber:dragonslueth:ds10"
+    short: Hot Cave
+    sight: >
+      There is a big lava pit in the center of the cave with gigantic sparks and flames coming out of it. The
+      cave itself is square and certain spots on the floor are made out of drying lava. There are exits to the
+      &+Cnorth&* and &+Csouth&*.
+flag:

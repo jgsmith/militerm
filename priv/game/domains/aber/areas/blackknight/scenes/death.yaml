@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+    short: Darkest room
+    sight: >
+      You are standing in the darkest room. Pure evil inhabits this land. The walls are painted with blood.
+      Human bodies are lying everywhere. Obviously, an evil monster must reside here.
+flag:
+  - negregen
+  - dark
+  - hot
+  - cantsummon
+  - nosummon
+  - noquit
+  - nosnoop
+  - nomobiles
+  - noat
+  - soundproof

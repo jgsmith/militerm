@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9528"
+    short: The Top Of The Stairs
+    sight: >
+      You are standing at the second floor of these ruins which seem to swing every time you take a move.
+      There is no go to the north. Once apparently so elegant passage has vanished, totally rottened, and
+      collapsed away.
+flag:

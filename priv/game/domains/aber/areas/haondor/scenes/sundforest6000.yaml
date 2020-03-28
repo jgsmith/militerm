@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6090"
+      west:
+        target: "scene:aber:haondor:sundforest6001"
+    short: The Edge Of The Forest
+    sight: >
+      You are standing at the end of a dusty road, near the eastern edge of the large forest of Haon-Dor. To
+      the east you see the road heading back to the walled city, Sundhaven, and to the west is a narrow trail
+      leading through the &+Gforest.
+flag:
+  - outdoors

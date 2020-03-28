@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:upstairs"
+    short: &+BThe Library
+    sight: >
+      The library seems rather ordinary. Although covered in dust the books are still intact. You may return
+      to the hallway by heading &+Reast&*.
+flag:
+  - dark

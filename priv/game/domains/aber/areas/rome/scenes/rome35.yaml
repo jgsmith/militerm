@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome42"
+      north:
+        target: "scene:aber:rome:rome34"
+    short: The South Gate
+    sight: >
+      This is the southern gateway to the city of Rome. The bronze &+ygate&* is closed and locked. Looking
+      through the bars, you see a heavily traveled road leading out of the city. Nero Drive starts here and
+      runs north and a wizard's shop lies to the east.
+flag:
+  - outdoors

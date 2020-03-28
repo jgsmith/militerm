@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:ordo3"
+    short: Gloomy Depths
+    sight: >
+      You have come to the end of the gully. Various bits of debris have come to rest here, mostly shells and
+      trilobites' molted skins. It is hard to see much though - the sun's rays do not penetrate this gully
+      very easily.
+flag:
+  - soundproof
+  - underwater

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:rocks"
+      south:
+        target: "scene:aber:maeron:path3"
+      west:
+        target: "scene:aber:maeron:cave1"
+    short: &+YEnd of path
+    sight: >
+      The gravel here becomes dispersed into the grass more, as the path disappears. To the &+Reast&* there is
+      a ten foot drop above some *very* sharp looking rocks.
+flag:
+  - outdoors

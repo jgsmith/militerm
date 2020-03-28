@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven21"
+      north:
+        target: "scene:aber:heaven:heaven26"
+    short: Sokkvabekk
+    sight: >
+      The floor seems to be sinking. All around you, cool murmuring water laps the sides. Two great chairs are
+      here, seemingly for Odin and Saga to sit in while they drink joyfully from gold goblets.
+flag:
+  - private

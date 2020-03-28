@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni35"
+      north:
+        target: "scene:aber:oni:oni36"
+      south:
+        target: "scene:aber:oni:oni31"
+      west:
+        target: "scene:aber:oni:oni33"
+    short: Main Temple Floor
+    sight: >
+      You stand in the northern portion of the main temple floor. It is too dark to see too much further in
+      any of the other directions.
+flag:

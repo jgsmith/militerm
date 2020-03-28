@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:widepath2"
+      west:
+        target: "scene:aber:nrose:widepath"
+    short: Cemetery
+    sight: >
+      You are in the monastery cemetery. There are many graves here, some of which are quite old. However, you
+      notice an empty grave. It seems that someone died recently or the monks are expecting a death, perhaps
+      that of a visitor?
+flag:
+  - outdoors

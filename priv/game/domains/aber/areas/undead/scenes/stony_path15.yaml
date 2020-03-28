@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:stony_path14"
+      south:
+        target: "scene:aber:undead:stony_path16"
+    short: Stony Path
+    sight: >
+      The path runs alongside the moat both &+Cnorth&* and &+Csouth&*. Strange sounds emanate from the moat.
+      You decide it may be wise not to stick around here too long.
+flag:
+  - outdoors

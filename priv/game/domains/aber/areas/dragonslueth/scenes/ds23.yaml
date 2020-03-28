@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds22"
+    short: Pantry
+    sight: >
+      If this was Mother Hubbard's pantry, it would be about as bare as this one. It has old crumbs of bread
+      that represent where pieces of bread used to be. There is one of those old buttermakers here. Eww, as
+      you look inside it you see rats eating the butter. The exit is to the &+Ceast&*.
+flag:

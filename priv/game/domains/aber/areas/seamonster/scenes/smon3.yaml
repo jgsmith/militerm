@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:seamonster:smon2"
+    short: Small island
+    sight: >
+      You are standing on a small island. It is merely a huge rock poking out from the sea with no trees, no
+      sand, nothing. As you look around, the waves pound the north and south sides. To the east the water is a
+      bit streamy, but the rocks are very sharp on that side and you could hurt yourself. It seems so that the
+      only way out here is the way back.
+flag:

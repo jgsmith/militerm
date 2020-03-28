@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale89"
+    short: Landing
+    sight: >
+      From here, you can see the entire room spread out below you. You are again amazed at the absence of
+      dirt, and begin to feel rather grimy yourself. On the landing before you is an oak table and two oak
+      chairs, all highly polished. A mouse-hole is set into the wainscoting of the wall, also clean.
+flag:
+  - nomobiles

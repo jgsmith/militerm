@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The New Treadmills of Hell, the Prequel
+    sight: >
+      Before the Treadmills of Hell, there was the Treadmills of Hell. It is the same as it was before, the
+      same it is now, and the same it will be in the future. If you don't find a way out of here you'll be
+      stuck down below forever.
+flag:
+  - maze

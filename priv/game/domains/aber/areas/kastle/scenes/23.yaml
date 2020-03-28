@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: An Unpleasant Death
+    sight: >
+      You dive headlong into the sewage. Oh dear, you seemed to have drowned in.. er, well you know.
+flag:
+  - nomobiles
+  - nosummon
+  - death

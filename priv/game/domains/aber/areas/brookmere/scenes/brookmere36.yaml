@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere35"
+    short: Supply Room
+    sight: >
+      This supply room is very well stocked, the shelves groaning under the weight of packages of food and
+      things like soap and tallow candles. Unfortunately all the packages are well sealed, by normal means or
+      magic you couldn't say, and they are impossible to open.
+flag:
+  - dark

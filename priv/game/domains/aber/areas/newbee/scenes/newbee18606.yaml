@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      east: null
+      north: null
+    short: A Small Room
+    sight: >
+      Hmmm... this is an interesting little room. Ack, and there is an interesting little creature staring at
+      you too. He looks a bit surprised at your intrusion. You can leave via the doors north or east, or you
+      can stay and annoy him a bit more. There also appears to be some type of well down here also, but it has
+      a rather secure grate covering it.
+flag:

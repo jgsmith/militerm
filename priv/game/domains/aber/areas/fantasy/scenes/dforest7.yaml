@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest5"
+      west:
+        target: "scene:aber:fantasy:dforest8"
+    short: Forest Path
+    sight: >
+      The path is partially covered with leaves that are falling from the branches of the trees above you. The
+      sound of the leaves rustling from the wind is very soothing to you and you sigh happily.
+flag:
+  - outdoors

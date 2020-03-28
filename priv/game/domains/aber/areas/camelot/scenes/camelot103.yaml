@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot136"
+      east:
+        target: "scene:aber:camelot:camelot102"
+      north:
+        target: "scene:aber:camelot:camelot104"
+      south:
+        target: "scene:aber:camelot:camelot138"
+    short: Branching Tunnel
+    sight: >
+      The tunnel you are in branches in many directions. To the east you see a tunnel, and light far away. To
+      the north and south lie small caves. A hole, narrow but passable, leads down.
+flag:
+  - dark

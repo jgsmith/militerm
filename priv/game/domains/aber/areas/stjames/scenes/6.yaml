@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:stjames:5"
+      west:
+        target: "scene:aber:stjames:7"
+    short: St. James Park
+    sight: >
+      You are north of the northern path through St. James Park. To the south you see a pond, beyond which
+      lies a large expanse of beautiful green grass. The park is a welcome change to the hustle and bustle of
+      the city. The lawns are well-manicured and the pond looks cool and clear.
+flag:
+  - outdoors

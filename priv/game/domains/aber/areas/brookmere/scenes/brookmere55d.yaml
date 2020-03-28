@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere55x"
+      north:
+        target: "scene:aber:brookmere:brookmere55x"
+      up:
+        target: "scene:aber:brookmere:brookmere28"
+      west:
+        target: "scene:aber:brookmere:brookmere55c"
+    short: Down the &+WStairs
+    sight: >
+      Dragging your feet across the endless stairs, you happen to glance up - and almost weep at the sight of
+      an open door and a small veranda. You've finally made it back to the top of the steps!
+flag:

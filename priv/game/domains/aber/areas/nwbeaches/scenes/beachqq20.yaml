@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq21"
+      south: null
+    short: Entryway - Lighthouse
+    sight: >
+      You stand in a small chamber just inside the front door of the lighthouse. Just south of these cramped
+      stucco walls is the main living room of the lighthouse. You can hear and smell a crackling, warm fire in
+      the fireplace, a dog's contented panting, and the sound of a young lady's laughter from the next room.
+flag:

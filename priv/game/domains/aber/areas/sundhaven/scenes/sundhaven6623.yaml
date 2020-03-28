@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6624"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6620"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6627"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6625"
+    short: The southern path
+    sight: >
+      The green grass and firm soil of the path begin to give way to mud strewn with traces of human filth as
+      you pass into the poorer section of Sundhaven. The shanties and town dump add a mild stench to the air,
+      and attest to the virtual burglaries of the poor by the rich.. and often by the poor.
+flag:
+  - outdoors

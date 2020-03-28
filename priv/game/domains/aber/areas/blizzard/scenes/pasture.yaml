@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:hut"
+      west:
+        target: "scene:aber:blizzard:treravine"
+    short: Hidden Pasture
+    sight: >
+      You are standing in a small hidden field, its lush grass coated with snow. The pasture is enclosed on
+      all sides by steep cliffs, save for a small gap to the west which leads into a narrow ravine. To the
+      north is an old crumbling hut of some sort.
+flag:
+  - outdoors

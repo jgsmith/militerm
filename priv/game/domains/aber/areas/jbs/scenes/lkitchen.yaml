@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lpantry"
+      south:
+        target: "scene:aber:jbs:banquet"
+    short: The Kitchen
+    sight: >
+      This a really big kitchen. There pots and pans here that are easily big enough to cook you in. To the
+      south is the banquet hall and there is a pantry to the east.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:novice:valley"
+      west:
+        target: "scene:aber:novice:track"
+    short: Green Lawn
+    sight: >
+      The grass you are walking on is perfectly green and very soft. The hill continues gently down to the
+      south. You have an uncontrollable urge to roll down the hill. But you keep your composure as you search
+      for whatever might be watching you.
+flag:
+  - outdoors
+  - real

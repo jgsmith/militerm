@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook145"
+      south:
+        target: "scene:aber:fairybook:fairybook143"
+      up:
+        target: "scene:aber:fairybook:fairybook147"
+    short: Green Hallway
+    sight: >
+      >From here, you can see the entrance to the Throne Room as well as the entrance to the castle. A
+      staircase leads up, and a sign next to the stairs reads 'Upstairs to Alice's Room'.
+flag:

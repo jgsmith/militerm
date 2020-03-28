@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood7"
+      south:
+        target: "scene:aber:sherwood:sherwood5"
+      west:
+        target: "scene:aber:sherwood:sherwood21"
+    short: Road to Sherwood Forest
+    sight: >
+      You have entered a very dense forest. The trees tower over you, blocking but only a little sunlight by
+      which you can make out a path to the north and to the west.
+flag:
+  - outdoors

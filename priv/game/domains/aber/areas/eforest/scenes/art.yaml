@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:museum"
+    short: Art Gallery
+    sight: >
+      This part of the Demonic museum seems to be entirely devoted to demonic art. The pieces are all quite
+      horrific, and there is definitely nothing that would be valuable to sacrifice to the gods. You are
+      almost drawn by a morbid curiosity to look at all of the terrifying &+Rpaintings.&* The only exit out of
+      this awful place lies to the North.
+flag:
+  - hot

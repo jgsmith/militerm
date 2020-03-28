@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook100"
+    short: The Cabin
+    sight: >
+      The cabin where prisoners are kept until it is time for them to walk the plank is a stark and lonely
+      room. names are carved into the walls, such as Tootles and Twin. A single window looks out across the
+      ocean. The deck is to the south.
+flag:

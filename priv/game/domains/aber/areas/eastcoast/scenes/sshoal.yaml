@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:shoal"
+      south:
+        target: "scene:aber:eastcoast:seshoal"
+      west:
+        target: "scene:aber:eastcoast:kneedeep"
+    short: On a Sandy Shoal
+    sight: >
+      You step up onto a shallow sand shoal, some eighty to ninety feet east of the shoreline. Looking at the
+      ankle-deep water here, you discover that the waves are broken somewhat by the shoal, since you are only
+      swaying in your steps at each wave instead of floundering head over heels. The water is noticeably
+      colder here, giving hint that any travelling farther east would not only be dangerous due to the waves
+      and sea creatures, but also to the exposure of the cold water. You can follow the shoal to the north and
+      south, or back to toward the west, since the water looks much shallower here.
+flag:
+  - outdoors

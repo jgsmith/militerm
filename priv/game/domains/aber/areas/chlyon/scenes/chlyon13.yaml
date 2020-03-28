@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:chlyon:chlyon12"
+      west:
+        target: "scene:aber:chlyon:chlyon14"
+    short: The Prison
+    sight: >
+      You stand inside what seems to be a prison of some sorts. A huge iron gate on the north wall bars your
+      progress in that direction. A plaque above the door seems to speak about a bloodthirsty monster that has
+      been imprisoned in this place by the ancient gods of the land. A horrible creature, great and swift of
+      foot and strong, whose breath was flame unquenchable. To the west, you can spot a legion of Thyreenean
+      warriors practicing their maneuvers. Maybe you shouldn't disturb them!
+flag:

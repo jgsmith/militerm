@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:slott:slott1"
+    short: The Stable
+    sight: >
+      You find yourself in an old stable; there are no horses in here. But the floors are newly cleaned and
+      the air vibrates with the smell of horses, so it seems like it is in full use.
+flag:

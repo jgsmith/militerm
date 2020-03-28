@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon14"
+      north:
+        target: "scene:aber:saxon:saxon10"
+      south:
+        target: "scene:aber:saxon:saxon18"
+      west:
+        target: "scene:aber:saxon:saxon12"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      As you stand in the center of Heorot, your attention is immediately drawn to the south, where you notice
+      a large glittering object. The tables here are covered with tablecloths, and have candles on them. This
+      is where the very prestigious guests of Hrothgar sit at meal time. It is also where the men gather to
+      drink, tell stories and be merry. Two fireplaces are built in to the southern walls around the exit to
+      the glittering room. Exits lead in all directions.
+flag:
+  - light

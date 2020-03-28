@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus18"
+      south:
+        target: "scene:aber:nexus:nexus15"
+      west:
+        target: "scene:aber:nexus:nexus17"
+    short: Courtyard
+    sight: >
+      The fountain gurgles with exceptionally clear water and provides some measure of life to this otherwise
+      seemingly deserted castle. An intricate structure of mermaids and fish are entwining around the central
+      part of the fountain. From the mouths of the fish and the ears of the mermaids pour forth not only
+      water, but a deep indigo effervesence which makes the water sizzle and explode into a thousand crystal
+      sparks as it strikes the surface of the water. It then proceeds to cause the entire fountain to have
+      hundreds of small streams of bubbles float from the the base of the fountain to the top.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

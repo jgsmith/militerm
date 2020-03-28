@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6787"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6785"
+    short: A narrow path down the cliff
+    sight: >
+      The fog is fairly thick here, as you inch closer to the shore. The trail you walk upon seems to have
+      been cut along the side of the cliff making it easier to carry small boats down to the sea.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Inside the Grand Oak
+    sight: >
+      You gasp out in awe at the quiet beauty of this hidden hollow. Looking around, 'majesty' is the word
+      which immediately comes to mind. The entire room draws your eyes upwards, like some ancient gothic
+      cathedral. There, among the arched, wooden roof, are numerous tiny flowers, hanging from the vines which
+      grow around you. Even in the dim light, the brilliant hues of the flowers - red, violet, blue, green,
+      and white - stand out. Indeed, they glow with their own light, providing the majority of the
+      illumination in this room and sending incredible, multi-colored shadows around the room. As you stare at
+      them, something tugs at your memory. You have seen that pattern somewhere before... It is the pattern of
+      the stars in the night sky, but of a color and brightness that the night sky can only hint at. As your
+      eyes slowly refocus on the mundane plane, you notice a wooden &+Ythrone&* set near the middle of this
+      room. With a start, you realize that is has been grown from the tree itself. Once, the whole elven
+      forest must have been like this...
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale110"
+      west:
+        target: "scene:aber:fairytale:fairytale112"
+    short: Furnace Room
+    sight: >
+      You are in a large room, dominated by a huge furnace. The furnace has a large steel grate mounted on it,
+      through which you can see flaming coals. A small pile of coal lies here, next to a shovel. A tube
+      extends from the roof of the furnace to the ceiling of the room. To the south is the coal room, and to
+      the west you can hear a gurgling noise, as though water were running there.
+flag:

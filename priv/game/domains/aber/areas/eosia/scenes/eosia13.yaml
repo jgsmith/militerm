@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia14"
+      south:
+        target: "scene:aber:eosia:eosia10"
+    short: The Castle Gates
+    sight: >
+      Large golden gates mark the entrance to the Royal Castle of Cimmura. The crest of Elenia is emblazed on
+      each gate. Currently the castle is home to the Royal Council, ruling in Queen Ehlana's place while she
+      is ill. The council has named the Prince Reagent heir and he is planning to assume the throne within the
+      week. Just beyond the gates lies the main courtyard and then, the castle itself.
+flag:

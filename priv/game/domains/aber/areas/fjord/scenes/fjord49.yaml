@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord47"
+      west:
+        target: "scene:aber:fjord:fjord50"
+    short: Deep in the Nolaks
+    sight: >
+      A light flurry blows continuously within this part of the mountain range. Peakes of varying height and
+      shape tower around you as the trail winds back and forth through them, unused to the presence of a mere
+      human and the gaze of mortal eyes. The temperature is well below freezing, allowing no form of natural
+      life. A dark shape looms through the clouds to the northwest.
+flag:
+  - outdoors
+  - cold
+  - noregen

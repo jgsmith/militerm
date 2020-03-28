@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung62"
+      north:
+        target: "scene:aber:nibelung:nibelung66"
+      south: null
+      west:
+        target: "scene:aber:nibelung:nibelung78"
+    short: Anteroom
+    sight: >
+      You find yourself in a small anteroom of the castle. The room is now bare, but looks like it was once
+      comfortably furnished. Some cobwebs have been spun by spiders past, and now collect dust in the corners.
+      To the north you see the main entrance to the castle, to the west is the library. A small &+yhole&* has
+      been made on the south wall.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree7"
+      south:
+        target: "scene:aber:eirias:tree5"
+    short: Sixth Tree - Apple
+    sight: >
+      An ancient sprawling apple tree curves to the ground before you like a bent- backed ancient man; it is
+      the only tree that grows low and spreading and does not tower over your head.
+flag:
+  - outdoors

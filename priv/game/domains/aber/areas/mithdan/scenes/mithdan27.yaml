@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan28"
+      west:
+        target: "scene:aber:mithdan:mithdan26"
+    short: Cold Trail
+    sight: >
+      The wind is bitter cold here, the force of it almost enough to send you staggering back down the
+      mountain. The air is perfectly clear, and far below you the storm clouds roil. To the east the trail
+      widens out into a clearing, and the trail leads back down the mountain to the west.
+flag:
+  - outdoors
+  - cold

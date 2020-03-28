@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon19"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:7"
+      west:
+        target: "scene:aber:seamonster:smon17"
+    short: Calm sea
+    sight: >
+      You are swimming in wonderful warm water. High waves aren't disturbing you but don't look in the north
+      and south directions.
+flag:
+  - onwater

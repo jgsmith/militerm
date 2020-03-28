@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot288"
+      south:
+        target: "scene:aber:camelot:camelot283"
+    short: Entrance To The Dungeon
+    sight: >
+      Although the walls of this room are nicely finished, the rooms beyond are less carefully worked. They
+      are dark, dingy, and have all the slime and drips you would expect in a dungeon.
+flag:
+  - nomobiles

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon15"
+      south:
+        target: "scene:aber:saxon:saxon17"
+      west:
+        target: "scene:aber:saxon:saxon13"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      Here against the eastern walls of Heorot the floors are bare. No tables, no racks, and no carpets. This
+      is the sleeping area of the warriors during the night time. They sleep here because the king's bed
+      chambers lie to the south, and they must protect him at all times. Interestingly, the red spots on the
+      floor are greater here than anywhere.
+flag:
+  - light

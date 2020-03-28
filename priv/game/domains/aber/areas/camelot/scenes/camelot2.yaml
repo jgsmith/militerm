@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot1"
+      north:
+        target: "scene:aber:camelot:camelot5"
+      west:
+        target: "scene:aber:camelot:camelot4"
+    short: Hallway
+    sight: >
+      The walls are covered with tapestries showing the valor and chivalry of King Arthur's knights. Here you
+      see King Arthur and Sir Launcelot at there first meeting, there you see Sir Percivale, at his knighting
+      ceremony.
+flag:

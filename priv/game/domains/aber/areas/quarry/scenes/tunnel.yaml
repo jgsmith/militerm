@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ladder_uu"
+      west:
+        target: "scene:aber:quarry:south"
+    short: Tunnel
+    sight: >
+      You are crouched in a low damp tunnel. A single exit leads west out of the tunnel. A treacherous wooden
+      ladder leads down into the darkness below
+flag:
+  - nomobiles

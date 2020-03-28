@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river21"
+      north:
+        target: "scene:aber:rainforest:river16"
+      south:
+        target: "scene:aber:rainforest:river17"
+      west:
+        target: "scene:aber:rainforest:river14"
+    short: Northern Midstream
+    sight: >
+      You are still a long way from the shore here, although you realise that if you go much nearer you would
+      bring yourself within range of Indian arrows. To your astonishment you see a small ocean-going ship
+      perched atop one of the trees some way in from the shoreline. You cannot imagine how it got there.
+flag:
+  - outdoors
+  - onwater

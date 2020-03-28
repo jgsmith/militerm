@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:hick6"
+      west:
+        target: "scene:aber:hick:hick2"
+    short: Road to Crop Fields
+    sight: >
+      The road has a few weeds growing in the middle of it here and you sneeze as a small piece of pollen
+      wisks across your face. The road leads to the east and goes back to the west.
+flag:
+  - outdoors

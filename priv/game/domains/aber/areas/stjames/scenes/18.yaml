@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:19"
+      south:
+        target: "scene:aber:stjames:17"
+      west:
+        target: "scene:aber:stjames:23"
+    short: On the Pond
+    sight: >
+      You steer your boat to the northern side of the pond. You are just east of the island just north of the
+      fountain. You feel little specks of water landing on you from the fountain, but you are not getting all
+      that wet. The water feels good in the heat of the summer.
+flag:
+  - outdoors
+  - onwater

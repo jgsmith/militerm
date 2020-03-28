@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen41"
+    short: Cave
+    sight: >
+      You have reached another dead end in the cave. The air in here is very clean, and pleasurable to
+      breathe. You consider resting, and wiping the slime off your body. Readying yourself to face the
+      challenges ahead, you begin anew.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:gaia5"
+      west:
+        target: "scene:aber:fantasy:dforest17"
+    short: Dwarven Forest
+    sight: >
+      You have reached the other side of the dwarven forest on the other side of the Gaia cave. A small path
+      leads to the west and the entrance to the Gaia cave is to the south. Looking to the north you see the
+      top of the waterfall that you saw from the clearing earlier.
+flag:
+  - outdoors

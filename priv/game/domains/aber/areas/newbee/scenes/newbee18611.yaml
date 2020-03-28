@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:newbee:newbee18607"
+      west:
+        target: "scene:aber:newbee:newbee18610"
+    short: Another Corner
+    sight: >
+      Another corner of the passage, and just as untidy as the rest of this place (maybe more so?). There is a
+      door to the east though... wonder where that leads? Oh, and the hallway continues west and north.
+flag:

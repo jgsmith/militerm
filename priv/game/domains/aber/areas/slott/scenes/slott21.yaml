@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott22"
+      south:
+        target: "scene:aber:slott:slott15"
+      west:
+        target: "scene:aber:slott:slott20"
+    short: Hallway
+    sight: >
+      The walls are covered with old paintings of a beautiful garden. They are from different seasons; winter,
+      summer, autumn but you can't find one with a spring motive. You wonder why, isn't the spring one of the
+      prettiest seasons?
+flag:

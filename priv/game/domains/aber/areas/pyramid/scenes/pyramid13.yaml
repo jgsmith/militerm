@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid14"
+      south:
+        target: "scene:aber:pyramid:pyramid10"
+      west:
+        target: "scene:aber:pyramid:pyramid20"
+    short: Passage
+    sight: >
+      Pausing for a moment to allow your eyes to become accustomed to the lack of light in this passageway,
+      you are amazed to find the walls are covered with brightly colored paintings that have not faded with
+      the passage of time. Many of the gods are depicted in these wall paintings, Osiris, Annibus, Set and the
+      goddess, Isis. A sense of unease fills your soul as you recall the &+Lcurse&N of Neferteri and you wish
+      you could read the &+mhieroglyphs&N that accompany the paintings. To the east and west of you are
+      &+Ldark&N rooms that look &+Ccold&N and &+Cuninviting&N.
+flag:
+  - dark

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome30"
+    short: The Roman Bakery
+    sight: >
+      You are standing in the bakery of Rome and your mouth waters at the delicious aromas wafting from the
+      kitchen. The only exit is to the east.
+flag:

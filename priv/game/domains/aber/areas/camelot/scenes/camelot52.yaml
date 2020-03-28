@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot52"
+      north:
+        target: "scene:aber:camelot:camelot53"
+      south:
+        target: "scene:aber:camelot:camelot52"
+      west:
+        target: "scene:aber:balharbor:balhar92"
+    short: Deep in the forest
+    sight: >
+      The woods are quiet, dark and deep, and you have miles to go before you sleep. There's some semblance of
+      a trail leading out to the west, the forest continues with a path between the trees north.
+flag:
+  - outdoors

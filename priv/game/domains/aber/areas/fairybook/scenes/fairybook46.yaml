@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook47"
+      west:
+        target: "scene:aber:fairybook:fairybook21"
+    short: Through the Looking Glass
+    sight: >
+      You stand in a tidy little room. A table stands against the window, and on it stands a little bottle. A
+      large mirror occupies the west wall of the room, and you fancy that you could walk into it if you tried
+      to. A staircase leads down. The clock on the mantle grins at you.
+flag:

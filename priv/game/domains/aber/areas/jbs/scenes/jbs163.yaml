@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord1"
+      south:
+        target: "scene:aber:jbs:jbs162"
+    short: Abandoned Pasture
+    sight: >
+      The path continues it ways through what is left of an old horse pasture. Mounds of earth cover the
+      remains of horses and other cattle that once grazed here years ago. To the north the pasture ends at an
+      old cattle gate.
+flag:
+  - outdoors

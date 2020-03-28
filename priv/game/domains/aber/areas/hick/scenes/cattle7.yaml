@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:cattle3"
+    short: Pig Stall
+    sight: >
+      This stall is disgusting, covered with mud and old decaying food. You can leave to the west.
+flag:
+  - outdoors

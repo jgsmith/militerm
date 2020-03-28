@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:nbarn"
+      south:
+        target: "scene:aber:jbs:sloft"
+    short: The Loft
+    sight: >
+      You are now in the hayloft of this terrific barn! There are hay bails stacked up all over the place and
+      the smell is making your nose itch. To the south you see more hay and you can go back down the ladder to
+      the barn if you don't want to see the rest of this wonderful hayloft.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5165"
+      north:
+        target: "scene:aber:yllythad:yllythad5169"
+      south:
+        target: "scene:aber:yllythad:yllythad5159"
+      west:
+        target: "scene:aber:yllythad:yllythad5163"
+    short: Wild, Foaming Crests
+    sight: >
+      The water has become rough and choppy, the crests of the waves rising with froth and foam. The sky above
+      is getting a bit darker than what most would be comfortable with. Best to get a move on.
+flag:
+  - onwater
+  - outdoors

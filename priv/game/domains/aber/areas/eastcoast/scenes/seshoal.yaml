@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:sshoal"
+    short: Southern End of the Shoal
+    sight: >
+      You are more than a hundred feet from shore as you reach this end of the sand shoal. Luckily, the water
+      is still no more than ankle deep, but in all directions but north, the water is too deep to safely
+      traverse without aid, and even then, the waters to the west look impossibly traversable. You feel
+      something slimy and smooth brush your leg, and it makes you start thinking that staying longer might not
+      be the best of survival instincts.
+flag:
+  - outdoors

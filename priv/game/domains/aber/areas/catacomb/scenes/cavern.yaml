@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The Cavern of the Faithless
+    sight: >
+      You are standing at the bottom of a very deep chasm. The rock walls which which surround you on all
+      sides vanish up into the darkness overhead. You feel quite daunted by the sheer weight of earth and
+      stone which lies between you and the surface above.
+flag:

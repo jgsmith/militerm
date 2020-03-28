@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3430"
+    short: Back of the Church
+    sight: >
+      This room is the back, left side of the cathedral. As before the stench is strong. The lighting here is
+      faint and you wonder why the bad things that took this place over would shatter what was once hand
+      crafted stained glass. There is an exit to the east.
+flag:

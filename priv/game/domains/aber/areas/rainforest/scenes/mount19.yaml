@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount23"
+      south:
+        target: "scene:aber:rainforest:mount20"
+      up:
+        target: "scene:aber:rainforest:mount18"
+      west:
+        target: "scene:aber:rainforest:mount21"
+    short: Edge Of The Glacier
+    sight: >
+      A vast river of ice is flowing past you to the south. You are on the moraine at the edge of the glacier,
+      a long trail of small rocks which forms a kind of path running east and west along the glacier.
+      Following it would seem to be a more sensible option than attempting a crossing here, for the surface of
+      the glacier is pitted with treacherous crevasses overlaid with deceptive coverings of snow.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

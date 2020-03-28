@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar4"
+      north:
+        target: "scene:aber:volcano:bandilbar6"
+      west:
+        target: "scene:aber:volcano:bandilbar7"
+    short: Wooden Bridge
+    sight: >
+      You are on the bridge, looking down into the fast-flowing waters. The bridge crosses the river at a
+      point where the river is curving round in a wide arc which begins north-west of here. From the bridge
+      onwards it straightens out and for a long while heads more or less due south. To the east the old road
+      heads along the foot of the mountain, and to the west is the ever-open gate of the small village of
+      Yorrin.
+flag:
+  - outdoors

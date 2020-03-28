@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:church:church1"
+      south:
+        target: "scene:aber:church:altar"
+      west:
+        target: "scene:aber:church:entry"
+    short: The Church
+    sight: >
+      You stand in the center of the now battered and dilapidated church. Water runs down the walls, dripping
+      in pools onto the rotting remains of the pews. The church extends northwards, and southward towards the
+      altar. To the west is the exit.
+flag:

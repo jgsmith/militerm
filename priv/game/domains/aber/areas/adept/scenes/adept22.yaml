@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept23"
+      north:
+        target: "scene:aber:adept:adept14"
+    short: Vergor Street
+    sight: >
+      The number of merchants is less here in this quarter of the city. The industrialized zones are to the
+      east while commercial and residential zones are to the north. Toward the east, a huge column of black
+      smoke pours from a distant building.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6740"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6745"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6738"
+    short: Trudging through a pool of slime
+    sight: >
+      The dark passage slopes into a pool of drainage from the roads of town, seeping in through cracks above
+      you and wetting your hair with slime. There is an eerie feeling about this place, as if only the few and
+      priviledged are welcome here.
+flag:
+  - dark

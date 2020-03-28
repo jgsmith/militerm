@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:enchanter:enchanter59"
+      up:
+        target: "scene:aber:enchanter:enchanter55"
+    short: Dungeon
+    sight: >
+      This is the castle's dungeon. The room is carved from stone. In the northeast corner of the room is a
+      single cell door. A staircase leads back up into the castle, and in the southern wall is a pitch black
+      tunnel.
+flag:
+  - dark

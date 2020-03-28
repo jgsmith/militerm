@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:castle:court"
+    short: Portcullis
+    sight: >
+      You stand in a large archway which leads out onto a path to the north, and south back into the courtyard
+      of the castle. Above you lies the complicated pulley system used to operate the portcullis.
+flag:

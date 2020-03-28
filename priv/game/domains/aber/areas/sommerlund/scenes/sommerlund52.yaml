@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund51"
+    short: Stratosphere
+    sight: >
+      The clouds lie below you now. Only the highest-flying birds come to rest on the peaks. The sun glistens
+      eve more brightly than usual due to the reduced atmosphere.
+flag:
+  - outdoors

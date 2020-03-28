@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook18"
+      west:
+        target: "scene:aber:fairybook:fairybook16"
+    short: House
+    sight: >
+      A neat little house stands before you. On the door is a brass nameplate with the name "W. Rabbit"
+      engraved on it. The house itself is white, with green shutters and a chimney. A path leads off to the
+      west.
+flag:
+  - outdoors

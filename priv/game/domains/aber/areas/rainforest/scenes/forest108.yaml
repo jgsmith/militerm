@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest109"
+      west:
+        target: "scene:aber:rainforest:forest107"
+    short: Following The River Bank
+    sight: >
+      The bank is muddy for a long way along the southern bank, and you keep to its edge as the depth of the
+      mud at any particular point is difficult to gauge. The trees to the south are too densely-packed to
+      penetrate, but you may be able to find a way into the forest further along the bank.
+flag:
+  - outdoors

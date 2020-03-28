@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f4"
+      north:
+        target: "scene:aber:forest:path"
+      south:
+        target: "scene:aber:forest:f1"
+      west:
+        target: "scene:aber:forest:f2"
+    short: Forest
+    sight: >
+      The forest here is tangled and very thick. Branches whip out against you from all directions, scratching
+      at your arms and legs. Trails lead off through the dense brush, although they are evidently little used.
+flag:
+  - outdoors

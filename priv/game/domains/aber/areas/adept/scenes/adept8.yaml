@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept7"
+      west:
+        target: "scene:aber:adept:adept9"
+    short: Village Gates
+    sight: >
+      Horse-drawn carts cause very little traffic on the main road in this small hamlet, for it is the
+      laughing and playing children who are causing most of the ruckus. Off to one side is the village well,
+      deep enough to reach well below the water table and supply enough fresh water for years without drying
+      up. The most common type of residence is a single, thatch-roofed, two-story cottage with whitewashed
+      walls and shuttered windows. Clumps of hay and alfalfa or small arrangements of flowers frequently hang
+      from those windows that are open, letting those fragrances mingle with that of freshly-bakes pies in the
+      local bakery. Other various shops are opening as the sun makes its way across the sky.
+flag:

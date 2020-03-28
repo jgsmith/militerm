@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund51"
+      south: null
+    short: Cave Mouth
+    sight: >
+      This appears to be where an animal lives and to take shelter from the constant wetness outside, but the
+      animal is gone. On the cave wall are strange drawings of DNA and other genetics-related topics. There is
+      also the remains of another unlucky explorer....
+flag:

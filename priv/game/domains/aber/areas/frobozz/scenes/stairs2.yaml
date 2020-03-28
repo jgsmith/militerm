@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:bottom"
+      north:
+        target: "scene:aber:frobozz:steep1"
+      south:
+        target: "scene:aber:frobozz:bottom"
+      up:
+        target: "scene:aber:frobozz:steep1"
+    short: Stairs
+    sight: >
+      You are about 20 steps from the bottom of the stairs. You notice the small growth of slippery moss and
+      lichen covering both steps and walls. You can hear small splashing noises comming up from down below.
+flag:
+  - dark

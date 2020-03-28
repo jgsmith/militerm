@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:neastsky"
+      north:
+        target: "scene:aber:zodiac:northend"
+      south:
+        target: "scene:aber:zodiac:amgstars"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:nwestsky"
+    short: The Northern Skies
+    sight: >
+      Although your common sense tells you to go back to the south before you get yourself totally lost, you
+      would much rather continue searching for whatever is is that you are looking for.
+flag:

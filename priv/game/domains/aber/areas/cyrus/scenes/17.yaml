@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cyrus:18"
+    short: Hall
+    sight: >
+      Oops...while entering this place, you hear a big sound coming from behind: a stone wall just closed. So,
+      you cannot go back. The hall continues southward. You see some shadows moving further.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge56"
+      south:
+        target: "scene:aber:ledge:ledge55"
+      west:
+        target: "scene:aber:ledge:ledge54"
+    short: Shallow Water
+    sight: >
+      The water now comes up to your waistline, and the waves start to push you around a little bit. The
+      saftey of the beach is pretty far back now, and what looks to be an island far in the distance looks a
+      little clearer.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar24"
+    short: The Bal Harbor Map Room
+    sight: >
+      This small, squat building features a giant map along the southern wall. There is an opening to the
+      library of Bal Harbour to the east, where information on the world's areas can be found. An open archway
+      leads north to Main Street.
+flag:

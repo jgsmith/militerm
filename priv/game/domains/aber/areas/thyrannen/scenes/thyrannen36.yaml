@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen37"
+      west:
+        target: "scene:aber:thyrannen:thyrannen30"
+    short: Marsh
+    sight: >
+      You still trudging in this thick, slimy, marsh. Bubbles of grotesque color rise to the surface and
+      splatter your face with goop, making you question just why you push farther.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:bed"
+      west:
+        target: "scene:aber:jbs:nose"
+    short: On the Giant
+    sight: >
+      You are standing on the giant's chest. As you look to the west you can see up his cavernous nose! Looks
+      like a nice place to go spelunking.
+flag:

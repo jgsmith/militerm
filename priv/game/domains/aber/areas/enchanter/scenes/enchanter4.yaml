@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter18"
+      west:
+        target: "scene:aber:enchanter:enchanter3"
+    short: Fork in the Road
+    sight: >
+      The road forks here. You can go southeast, or take the more well-travelled path to the northeast. Signal
+      Mountain looms before you.
+flag:
+  - outdoors
+  - real
+  - tempreal

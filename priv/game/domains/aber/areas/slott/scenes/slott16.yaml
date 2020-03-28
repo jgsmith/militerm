@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott17"
+      south:
+        target: "scene:aber:slott:slott9"
+      west:
+        target: "scene:aber:slott:slott15"
+    short: Innerhall
+    sight: >
+      This hall seperates the servants' area from the rest of the house. There are some small chairs and
+      smaller tables here, this must been where the servants where sitting when they where on duty but didn't
+      had anything to do for the moment.
+flag:

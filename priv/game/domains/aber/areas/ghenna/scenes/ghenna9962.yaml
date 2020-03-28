@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9960"
+      up:
+        target: "scene:aber:ghenna:ghenna9963"
+    short: A trashed abode.
+    sight: >
+      This place looks as though it was once a lovely home. The furniture which is completely trashed is
+      reminiscent of a victorian styled era. A rickety stairwell leads upward, but doesn't look too stable.
+      Better watch your step.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9979"
+      north:
+        target: "scene:aber:ghenna:ghenna9966"
+    short: A covered walkway.
+    sight: >
+      This is a covered walkway which leads Downward, into darkness. The air is so humid here that you can see
+      it. North of you the way is open as well.
+flag:
+  - dark

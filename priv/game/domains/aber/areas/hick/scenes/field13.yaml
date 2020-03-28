@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field14"
+      north:
+        target: "scene:aber:hick:field16"
+      south:
+        target: "scene:aber:hick:field2"
+      west:
+        target: "scene:aber:hick:field12"
+    short: Corn Field
+    sight: >
+      This is a large corn field. To the north is a strawberry patch, to the east is a wheat field, and to the
+      south and west there is an irrigation ditch.
+flag:
+  - outdoors

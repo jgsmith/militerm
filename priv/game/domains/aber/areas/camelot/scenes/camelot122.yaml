@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot119"
+      south:
+        target: "scene:aber:camelot:camelot125"
+    short: Center Of The Tunnel
+    sight: >
+      You have reached the center of the smooth tunnel. There is a small hole in the western wall which seems
+      to indicate some new tunneling going on, but it is impassable as of yet.
+flag:
+  - dark

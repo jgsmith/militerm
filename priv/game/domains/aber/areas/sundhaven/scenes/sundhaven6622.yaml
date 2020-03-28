@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6619"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6620"
+    short: The southern path
+    sight: >
+      A well-trodden dirt path heads southwards, bordered by dense clumps of black-tipped grass. By night the
+      moths gather by a fatal instinct round the glow of torches lining the way, beating their wings heavily.
+flag:
+  - outdoors

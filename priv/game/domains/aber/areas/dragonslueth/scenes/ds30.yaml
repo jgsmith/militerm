@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:dragonslueth:ds25"
+    short: Near the Top of the Castle
+    sight: >
+      The stairs were unbelievably hard to climb to get to the top of this castle. Whew! Whoever said 'small
+      castle' was prone to understatement! This castle isn't small at all. But, from here you can see the
+      whole castle area.
+flag:

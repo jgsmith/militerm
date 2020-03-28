@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot71"
+      south:
+        target: "scene:aber:camelot:camelot66"
+      west:
+        target: "scene:aber:camelot:camelot70"
+    short: CREDIT
+    sight: >
+      What a place! People are standing in lines just to give their money to other people who are sitting in
+      little cages. On the wall is a sign which reads "Camelot Royal Employee Depository for Installments and
+      Taxes". You aren't sure what that means, but you'd sure like to go sit in one of those cages for awhile!
+flag:

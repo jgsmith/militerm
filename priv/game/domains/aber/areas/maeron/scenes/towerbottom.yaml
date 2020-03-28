@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:maeron:tower"
+      west:
+        target: "scene:aber:maeron:upstairs"
+    short: &+BThe Bottom Of The Tower
+    sight: >
+      A spiral staircase leading &+Rup&*wards dominates most of this chamber. The masonry on the walls seems
+      cracked and unstable. The stone stairs, however seem sturdy enough for you to continue &+Rup&*wards.
+flag:
+  - dark

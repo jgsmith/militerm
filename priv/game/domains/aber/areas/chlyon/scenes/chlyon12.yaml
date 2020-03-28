@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chlyon:chlyon19"
+      north:
+        target: "scene:aber:chlyon:chlyon13"
+      south:
+        target: "scene:aber:chlyon:chlyon16"
+      up:
+        target: "scene:aber:chlyon:chlyon11"
+    short: The Heart of the Mountain
+    sight: >
+      This must be right about the center of the mountain. Paths lead off in all directions from here. To the
+      north however, a locked door bars your progress.
+flag:

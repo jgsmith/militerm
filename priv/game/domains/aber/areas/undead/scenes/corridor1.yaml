@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:banquethall"
+      south:
+        target: "scene:aber:undead:courtyard8"
+    short: Frozen Entrance
+    sight: >
+      The hairs on the back of your neck stand on end as you enter this room. Surely once it was a grand
+      sight. Suits of armor and richly decorated paintings line the walls, but they are all frozen over and of
+      little worth. Stalactites hang from the ceiling and ice encrusts everything. There is something
+      unnatural about this sight, as from the &+Cnorth&* a great heat emanates, yet still here you are cold.
+      To the &+Csouth&* lies the courtyard.
+flag:
+  - cold
+  - dark
+  - nomobiles

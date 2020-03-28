@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:sewer3"
+    short: The Sewer Grate
+    sight: >
+      The pipe stops here at a large grate with the icky-looking water flowing on through. The thick methane
+      fumes in this section make it impossible to breathe. You can't hold your breath for much longer.
+flag:
+  - dark
+  - negregen

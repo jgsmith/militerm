@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ledge:ledge29"
+    short: In the Geyser
+    sight: >
+      You foolishly try getting by the geyser but fall into it and become boiled out of existance. What in the
+      world were you thinking?
+flag:
+  - hot
+  - death

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18624"
+      south:
+        target: "scene:aber:newbee:newbee18634"
+      west:
+        target: "scene:aber:newbee:newbee18629"
+    short: A Branching Passage
+    sight: >
+      The north-south passage branches to the east here. There is a queer red glow coming from that way as
+      well, along with a faint breeze.
+flag:

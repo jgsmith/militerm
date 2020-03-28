@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:lost:lost4"
+      south:
+        target: "scene:aber:lost:lost11"
+    short: Dusty Trail
+    sight: >
+      As you travel further down this road, the climate gets hotter and dustier. You notice a mountain chain
+      in the distance ahead.
+flag:
+  - outdoors

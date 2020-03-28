@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept65"
+      east:
+        target: "scene:aber:adept:adept62"
+      west:
+        target: "scene:aber:adept:adept64"
+    short: Observation Room
+    sight: >
+      Junior officers are the main inhabitants of this room when on duty. They generally have the keenest
+      senses of sight among the crew, watching patiently and intently for land, storms, serpents, and other
+      ships. There are many pairs of viewing glasses strapped to the walls to help better the visual range.
+      Maps on a nearby table and a gyroscope in the corner serve to help plot the ship's course, and an
+      ancient sextant is rigged to give the Seeker's current coordinates at any given time.
+flag:

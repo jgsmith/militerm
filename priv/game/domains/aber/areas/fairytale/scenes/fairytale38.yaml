@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      west: null
+    short: "The Giant's Table"
+    sight: >
+      You enter a room whose size overwhelms you. The floor is wood, but the planks are bigger than you have
+      ever seen. Facing you is a huge loaf of bread, twice your height, and on your right is a block of cheese
+      nearly as large as the loaf.
+flag:

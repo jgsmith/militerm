@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:southern"
+      north:
+        target: "scene:aber:novice:western"
+    short: Corner Oak
+    sight: >
+      This tree is in the southwestern corner of the ring. If trees could appear 'ordinary,' this one would,
+      except for one small detail. There would appear to be a small hole between the roots about the size of
+      your hand... but you don't really think there could be anything down there... or do you?
+flag:
+  - outdoors
+  - real

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung55"
+      north:
+        target: "scene:aber:nibelung:nibellearn"
+      south:
+        target: "scene:aber:nibelung:nibelung57"
+    short: Northern Gate
+    sight: >
+      You have found the northern gate of the castle. A large iron porticullis bars exit to the north. To the
+      east you notice a small guardhouse, while the castle wall runs off to the south. To the north you spot a
+      rather well kept largish building. Smoke rises through the chimney.
+flag:
+  - outdoors

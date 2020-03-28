@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:weapons1"
+    short: The Weapon Shop
+    sight: >
+      Now you are near the forge where the weaponmaster makes his items. As you watch the smith work, you are
+      amazed at his skill. The room you are in is rather dark and hot, but it is interesting to watch the
+      smith work.
+flag:

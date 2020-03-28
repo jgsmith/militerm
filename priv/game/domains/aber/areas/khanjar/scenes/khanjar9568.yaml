@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9569"
+      west:
+        target: "scene:aber:khanjar:khanjar9570"
+    short: The Ceremony Plateau
+    sight: >
+      The dais has been grinded very smooth. Four green pictures cover its surface, representing fine trees.
+      Each picture points to the sepa- rate cardinal direction. In the middle of the dais stands a tall,
+      wooden &+Cstatue&*, resembling an impressive woman, clad in clothes made of large leaves and garments.
+      The brownies assemble to the foot of the dais and you feel the atmosphere running high.
+flag:
+  - nomobiles
+  - outdoors

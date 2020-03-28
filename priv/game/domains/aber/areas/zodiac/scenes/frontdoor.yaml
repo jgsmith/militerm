@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: The Front Door
+    sight: >
+      You're standing at the entrance of large mansion. You find it odd that there is no possible exit other
+      than through the front door.
+flag:

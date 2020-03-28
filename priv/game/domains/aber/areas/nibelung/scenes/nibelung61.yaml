@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung48"
+      north:
+        target: "scene:aber:nibelung:nibelung60"
+      south:
+        target: "scene:aber:nibelung:nibelung62"
+      west:
+        target: "scene:aber:nibelung:nibelung66"
+    short: Cobbled Courtyard
+    sight: >
+      Your boots click upon the cobblestones as you enter the castle's main courtyard. One of the castle's
+      walls runs along the perimeter to the north, while a fountain burbles happily to the south. A path runs
+      east, through the inner gates, to lands beyond.
+flag:
+  - outdoors

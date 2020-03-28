@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9540"
+      south:
+        target: "scene:aber:khanjar:khanjar9543"
+    short: At The Midst Of Some Edges
+    sight: >
+      You are walking between some edges. Since most of them seem to be quite sharp, it is wise to be careful,
+      this is not the day to get impaled. To the north is what appears a brink. Also, the mountainside above
+      remains climbable.
+flag:
+  - outdoors
+  - cold

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis36"
+      west:
+        target: "scene:aber:atlantis:atlantis25"
+    short: Before Main Street
+    sight: >
+      You stand before Main Street, looking at the sights around you. Nearby, street vendors are selling
+      souveniers from Atlantis, most of whom are being ignored. Small homes line either side of the watery
+      road, made of some sand-like material. You see merfolk peer out the windows of their homes at you. Fish
+      and merfolk pass by you towards Main Street, where the traffic seems to split off to the north and
+      south. You can follow the stream of traffic or head back west to leave the city.
+flag:
+  - underwater

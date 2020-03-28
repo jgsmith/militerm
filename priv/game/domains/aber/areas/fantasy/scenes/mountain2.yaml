@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:mountain1"
+      up:
+        target: "scene:aber:fantasy:mountain3"
+    short: Mountain Path
+    sight: >
+      The mountain path is climbing quite quickly and you stop to catch your breath before deciding to go
+      onward. Against a cliff face to the north there are a few vines that look to be a few inches thick which
+      would give plenty of support for a body to climb up them.
+flag:
+  - outdoors

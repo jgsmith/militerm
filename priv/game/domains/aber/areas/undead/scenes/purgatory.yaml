@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Void
+    sight: >
+      &+RAll is peaceful, a deep crimson caresses you and offers you gifts &+Rof untold wealth, power beyond
+      your wildest imaginings, all that &+Ris, all that was and all shall be is yours for the taking. &+RYou
+      need but reach out ...
+flag:
+  - soundproof

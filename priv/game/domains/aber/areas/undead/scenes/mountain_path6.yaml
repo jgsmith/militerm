@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:undead:mountain_path5"
+    short: >
+      &+MAt&* &+Mthe&* &+MTop&* &+Mof&* &+Mthe&* &+MWorld&*
+    sight: >
+      You stand at the zenith of the mountain. You look out and can see the whole world laid out in miniature.
+      The wind wanders gently through the grass and whispers of past heros. Several large trees grow tall and
+      there seems little trouble in supporting life here. At the top of the world, as you may expect, the only
+      way is &+Cdown&*.
+flag:
+  - outdoors
+  - fastheal
+  - peaceful

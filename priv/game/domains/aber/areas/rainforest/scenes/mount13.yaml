@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount12"
+      south:
+        target: "scene:aber:rainforest:mount14"
+    short: Jutting Rock
+    sight: >
+      You are on a high rock overhanging the southern bank of the River Peranon, and from here you could jump
+      across quite easily to a rock on the other side of the river. Otherwise you could follow the river to
+      the east.
+flag:
+  - outdoors

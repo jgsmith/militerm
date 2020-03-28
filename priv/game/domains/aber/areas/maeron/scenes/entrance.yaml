@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:maeron:outside"
+    short: "&+BBefore The Doors Of Maeron's Mansion"
+    sight: >
+      Coming closer to the mansion makes you uneasy. It looks even more menacing as you come close. A somewhat
+      leaky roof protects you from most of the weather.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Bedroom
+    sight: >
+      You are amazed at the poor quality of the bedroom. It looks to be of the finest orcish make, that is to
+      say the walls are somewhat rough and hewn out of the stone. They must not have gotten to this room in
+      their remodeling yet. This room is completely empty and doesn't look used.
+flag:
+  - dark

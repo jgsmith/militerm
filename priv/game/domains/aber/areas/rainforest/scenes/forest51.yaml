@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest49"
+    short: Where Rivers Join
+    sight: >
+      You realise that you can go no further. Here the Kerapi river is joined by the Malazon, and you are on
+      the piece of land in between the two. The ground here is soggy and your feet are wet through. You will
+      have to return west.
+flag:
+  - outdoors

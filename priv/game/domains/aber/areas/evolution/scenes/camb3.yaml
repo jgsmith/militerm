@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:camb2"
+    short: Brink Of The Abyss
+    sight: >
+      You stop short suddenly as the floor before you drops into infinity. As you stare down into the
+      blackness, dizziness threatens to overwhelm you and you resolve to head back south with all speed.
+flag:
+  - soundproof
+  - underwater

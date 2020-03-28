@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge50"
+      north:
+        target: "scene:aber:ledge:ledge49"
+      south:
+        target: "scene:aber:ledge:ledge47"
+      up:
+        target: "scene:aber:ledge:ledge58"
+      west:
+        target: "scene:aber:ledge:ledge45"
+    short: Under the Sea
+    sight: >
+      Deep sea scuba diving, just the thing for relaxation. Schools of fish swim past you along the
+      coral-lined seafloor as you admire the beauty of the ocean life. You can swim in any direction.
+flag:
+  - underwater

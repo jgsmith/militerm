@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus10"
+      south:
+        target: "scene:aber:nexus:nexus8"
+    short: Crystal Plain
+    sight: >
+      Sunlight drives away the gloomy fog, showing the cloud castles in all their splendid glory. They are
+      quite close now, with the cloud bottoms a dark, fluffy white. A few birds native to the land, namely the
+      Aqua Griffins, fly over the castles and land randomly on perches on the tops of towers. More of their
+      kind zoom downwards to the ground to catch transparent fish from a stream which slices across the flat
+      crystalline ground.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - outdoors

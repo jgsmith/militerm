@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord10"
+    short: Needled Canopy
+    sight: >
+      Branches covered in countless number of pine needles manage to block out most of the sun, providing a
+      rather slittd view of the giant ball of gas, The lichen which covers the base of nearly all the trees in
+      the Muskrat forest is not present at this height, so the bark is more resilient as it has a chance to
+      grow. On one limb, several branches have interlocked to form a sturdy &+ycradle&*. Birds chirp in
+      annoyance as their nests are invaded by an unexpected traveler, yet remain in their nests to protect
+      their young.
+flag:
+  - outdoors
+  - nomobiles

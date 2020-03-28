@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9971"
+      up:
+        target: "scene:aber:ghenna:ghenna9973"
+    short: The bottom of the stairs.
+    sight: >
+      A staircase is here, a crusty pair of panties stuck to the bannister. Nasty! To the East is the waiting
+      room.
+flag:
+  - dark

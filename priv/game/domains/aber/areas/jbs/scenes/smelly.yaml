@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:large"
+      south:
+        target: "scene:aber:jbs:slippery"
+      west:
+        target: "scene:aber:jbs:landing"
+    short: Smelly Chamber
+    sight: >
+      You have entered a fair sized chamber that stinks of rotting flesh. There is light coming in from the
+      landing bay to the south, and there are other rooms to the north and south. The smell seems to be coming
+      from the south.
+flag:

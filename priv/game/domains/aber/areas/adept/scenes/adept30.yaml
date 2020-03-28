@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:adept:adept29"
+    short: "Blacksmith Bob's Place"
+    sight: >
+      The heat is sweltering within these stony walls. A large bucket of water is beside the door; a hundred
+      different-sized blades cooling in it even as the water boils and turns to steam. An anvil is on a stone
+      pedestal in the middle of the room, clanging loudly as each blow of the blacksmith's hammer pounds
+      another dent in the steel of yet another sword or axe. On the wall beyond the anvil is a large wooden
+      workbench. Detailed plans of war machine construction and wall fortifications and the latest requests
+      for weaponry and armor cover the table surface. Hanging above the table are the tools of the trade -
+      several lengths of files, strong-grip tongs, temperment clay, hammers, and spikes. Hanging about the
+      room are works in progress.
+flag:

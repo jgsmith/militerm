@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:bottom"
+      south:
+        target: "scene:aber:novice:track"
+      west:
+        target: "scene:aber:novice:stream"
+    short: Entrance to the Village
+    sight: >
+      All around you is green! You seem to have stepped into an enchanted village. You still think you hear
+      giggling and curious whispers as you wander around.
+flag:
+  - outdoors
+  - real

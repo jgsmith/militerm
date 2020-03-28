@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord90"
+      north:
+        target: "scene:aber:fjord:fjord88"
+      south:
+        target: "scene:aber:fjord:fjord86"
+    short: Seashore
+    sight: >
+      Two fingers of the mountains reach far out into the sea, tapering together somewhere out in the open
+      sea, forming a protected inlet here. A small harbor is set off the trail, with a ramshackle boatshop and
+      business office. Waves crash against the icy ground full force with their cold touch, showing no mercy
+      to the shoreline.
+flag:
+  - cold
+  - outdoors

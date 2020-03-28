@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus43"
+      north:
+        target: "scene:aber:nexus:nexus39"
+      west:
+        target: "scene:aber:nexus:nexus41"
+    short: Corner of the Beach
+    sight: >
+      The beach extends to the west and north &*from here; the northern cliffs fading into the distance. The
+      tide washes in a line to the south, but a curious turn of nature has arisen to the east. There the water
+      is extremely shallow, and the sea bottom rises up to form a long sandbar.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest85"
+      west:
+        target: "scene:aber:rainforest:forest78"
+    short: Where The Hummingbirds Hum
+    sight: >
+      This part of the forest has a quiet, ethereal quality. You are on high ground within sight of the river,
+      where tall plants abound with deep flowers whose nectar only hummingbirds can reach. Several of those
+      tiny birds are hovering around here, their humming increasing in pitch every time they move. You can go
+      east and west from here.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

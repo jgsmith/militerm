@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:kastle:2"
+    short: Escape Passage South
+    sight: >
+      The Passage opens up here allowing you to stand. There are lit torches spaced evenly along both walls
+      providing plenty of light to see by. Much further to the south the torches end, and it appears that
+      someone is standing there by a door. The floor here is dirt, but oddly enough your footsteps sound
+      hollow.
+flag:

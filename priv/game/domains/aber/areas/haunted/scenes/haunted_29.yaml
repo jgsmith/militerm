@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_27"
+    short: Clear Land
+    sight: >
+      Well, just when you think that you finally found a safe haven, it turns out you didn't. Looks like all
+      the worn-to-death horror characters are here, trying to figure out what movie role to take next.
+flag:
+  - real

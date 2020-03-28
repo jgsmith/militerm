@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy20"
+      up:
+        target: "scene:aber:windy:windy22"
+    short: Stairway
+    sight: >
+      A stairway leads up here, into a lit room. A passage extends to the east.
+flag:

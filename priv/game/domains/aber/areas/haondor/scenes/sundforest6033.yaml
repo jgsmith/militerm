@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:haondor:sundforest6032"
+    short: High In The Large Oak
+    sight: >
+      The tree top gently sways in the wind, and you think you are as high as you can safely go in the tree.
+      The limbs here show evidence of a small battle, with ripped bark and loose feathers scattered
+      everywhere. Looking around, you can see the &+ywoods&* stretching out below you in all directions. To
+      the east you see Sundhaven, and to the south the &+Briver&* runs through a deep chasm. North and west of
+      here you can see another small village, and on the western horizon you see a large mountain. The only
+      way to go from here is &+ydown.
+flag:
+  - outdoors
+  - cold

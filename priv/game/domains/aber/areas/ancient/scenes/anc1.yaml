@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc2"
+      south:
+        target: "scene:aber:rainforest:mount1"
+    short: Way Up to the Mountains
+    sight: >
+      You find yourself on the edge of a vast mountain range. To the east you can see a large square-shaped
+      clearing. Further east you can see some kind of a temple while on the north-east on the edge of you
+      sight lies two pyramid- shaped buildings. Despite the strange looking buildings you find the eastward
+      path more inviting than the high mountains to the west.
+flag:
+  - outdoors

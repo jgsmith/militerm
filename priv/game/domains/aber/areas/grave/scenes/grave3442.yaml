@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3440"
+    short: The Choir Dressing Room
+    sight: >
+      This is the choirs dressing room. Here the choir obviously put on their robes as there are many lying
+      about the room. The room is dark and the ever present smell of death is in the air.
+flag:

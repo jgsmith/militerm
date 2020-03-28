@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Atop the &+yDune&N
+    sight: >
+      The &+ysand&N opens up swallowing you and all your equipment. The last sound you hear is the &+revil&N
+      tone of soft feminine laughter.
+flag:
+  - death
+  - nomobiles

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon17"
+      west:
+        target: "scene:aber:talon:talon19"
+    short: Northern End of Cavern
+    sight: >
+      You enter the northern end of a monstrous cavern. The walls here are as scorched as those in the
+      southern end of the cavern, but they seem to glow with a dark, ruby-red fire. Although the walls are
+      searing to the touch, the air is as cool and fresh as an October morning. To the west, light and a brisk
+      wind pours through a large opening. Back to the south, the cave stretches out before you.
+flag:

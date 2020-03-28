@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera18"
+      north:
+        target: "scene:aber:opera:opera17"
+      south:
+        target: "scene:aber:opera:opera16"
+      west:
+        target: "scene:aber:opera:opera14"
+    short: The Third Cellar
+    sight: >
+      You are surrounded by old scenery and props from past operas. Passages lead off in all directions.
+flag:

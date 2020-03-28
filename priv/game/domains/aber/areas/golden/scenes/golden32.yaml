@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden33"
+      south:
+        target: "scene:aber:golden:golden31"
+    short: Round Chamber
+    sight: >
+      This chamber grows bright with a greenish light that casts shadows on the corpses and skeletons of
+      greedy adventurers. A large circle with a skull in the center occupies the middle of the chamber. The
+      doors to the east and west have caved in, giving you the only choice of going north.
+flag:
+  - dark

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:waistdeep"
+      north:
+        target: "scene:aber:eastcoast:surf"
+      south:
+        target: "scene:aber:ledge:ledge51"
+    short: Sandy Beach
+    sight: >
+      You walk onto the white sands of a beach, the waters of the sea creating frothy waves that crash into
+      the surf. The beach continues to the north, where you see a rock outcropping that goes a short distance
+      into the sea. To the east you notice that a little dip in the water is not impossible since the water
+      appears somewhat shallow. A small gap in the rocks to the south is just large enough for you to fit
+      through.
+flag:
+  - outdoors
+  - nomobiles

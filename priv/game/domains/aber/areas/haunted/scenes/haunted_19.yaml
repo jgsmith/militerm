@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_21"
+      north:
+        target: "scene:aber:haunted:haunted_18"
+      south:
+        target: "scene:aber:haunted:haunted_20"
+      west:
+        target: "scene:aber:haunted:haunted_20"
+    short: Lost in the Woods
+    sight: >
+      You continue on, still lost in the woods. A low, moaning sound echoes through your ears.
+flag:
+  - real
+  - maze

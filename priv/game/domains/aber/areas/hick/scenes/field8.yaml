@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field7"
+      south:
+        target: "scene:aber:hick:field15"
+      west:
+        target: "scene:aber:hick:field9"
+    short: Northern Irrigation Ditch
+    sight: >
+      You are standing on a small path with an irrigation ditch running through it that leads to the west and
+      the east. To the south is a field of tomatoes.
+flag:
+  - outdoors

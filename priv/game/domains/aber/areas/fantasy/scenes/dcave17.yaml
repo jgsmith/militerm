@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Treasure Room
+    sight: >
+      Now you see what the monster was guarding all this time, a treasure room filled with many assorted
+      treasures and wonders. You also see dead bodies laying around, people that have tried to get to this
+      room before but have failed in their quest for riches.
+flag:
+  - dark

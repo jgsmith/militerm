@@ -1,5 +1,5 @@
-#
-# Add positioning
+###
+# positioning
 #
 
 can sit as actor if is living
@@ -26,10 +26,6 @@ calculates trait:allowed:positions with do
     Debug( ([ "standing", "sitting", "kneeling", "crouching" ]) )
     ([ "standing", "sitting", "kneeling", "crouching" ])
   end
-end
-
-calculates trait:foo:bar with do
-  "Trait Foo Bar"
 end
 
 reacts to change:physical:position with

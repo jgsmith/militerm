@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot109"
+      west:
+        target: "scene:aber:camelot:camelot107"
+    short: Guard Room
+    sight: >
+      The light of candles illuminates the room well enough for you to see. There are a few tables and chairs
+      scattered about the room. Obviously, this is where the guards wait while waiting for someone foolish to
+      invade their home.
+flag:

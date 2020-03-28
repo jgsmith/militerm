@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept26"
+      west:
+        target: "scene:aber:adept:adept23"
+    short: Vergor Street
+    sight: >
+      The street is extremely potholed here and is thus not recommended for horses or animals of any sort. A
+      gatetower to the east stands as the entrance for a factory while the road improves in condition to the
+      west.
+flag:

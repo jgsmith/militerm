@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount3"
+      west:
+        target: "scene:aber:rainforest:mount5"
+    short: Above The Ledge
+    sight: >
+      The rocks here are sharp and small, yet they seem to be firmly attached and provide useful steps for you
+      to plot a safe course. Below you is a narrow ledge which you should be able to reach without too much
+      trouble, although once there you would not be able to return to this point. To the west a steep slope
+      leads down into a gully.
+flag:
+  - outdoors

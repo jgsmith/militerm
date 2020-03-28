@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nibelung:nibelung75"
+    short: Moat
+    sight: >
+      You slide down through the hole, only to discover that the moat is far below you....seconds later, your
+      legs are driven up into the rest of your body as you hit the bottom.
+flag:
+  - death

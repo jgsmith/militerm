@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon1"
+      up:
+        target: "scene:aber:saxon:saxon3"
+    short: &+RSteep &+LCliff&*
+    sight: >
+      Places to hang on to here are scattered, and rocks tear at your fingers and legs. The wind blows
+      forcefully from above, making the climbing treacherous and frightening. Thank goodness for the small
+      trees growing out of the cliff, or you might be dead right now.
+flag:
+  - light
+  - outdoors

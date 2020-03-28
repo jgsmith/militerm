@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_1"
+      south:
+        target: "scene:aber:novice:entry"
+    short: The Haunted Woods
+    sight: >
+      You come to a dark wooded area. Limbs from leafless trees swoop to the earth like boney fingers reaching
+      for you. Fear races through your body, making your blood ice-cold with fright. Should you continue?
+flag:
+  - outdoors
+  - real

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:jbs:fountain4"
+    short: In the Fountain
+    sight: >
+      You are walking along the bottom of the fountain now. The noise from the water crashing over your head
+      is so loud that you can't hear a thing.
+flag:
+  - underwater
+  - soundproof

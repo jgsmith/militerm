@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app24"
+      north:
+        target: "scene:aber:app:app21"
+      south:
+        target: "scene:aber:app:app23"
+    short: Dark Hallway
+    sight: >
+      You stand in a dimly lit hallway. To the west is a stairwell. While to the south is a large room.
+flag:

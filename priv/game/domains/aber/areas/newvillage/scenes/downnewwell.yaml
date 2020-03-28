@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+    short: The Village Well
+    sight: >
+      Ignoring all general rules of safety, you decide to be adventuresome and lower yourself into the well.
+      At first you keep your hands on the top of the well for a good grip,but as the well seems to be fairly
+      dry, you press your hands and feet against opposite walls and work your way down into the well about 7
+      feet. You take your left foot one more step down, and suddenly the well isn't so dry anymore. You lose
+      your footing on some slime and fall into the well below. 			AAAAAAAAAAAAAAAAAhhhhhhhhhhhhhhhhhhh!!!!
+      					SPLASH!! You find yourself sitting on your butt in about a foot and a half of water. What do you do
+      now?
+flag:
+  - dark
+  - nomobiles

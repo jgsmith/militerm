@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:frobozz:dame"
+    short: Dam Office
+    sight: >
+      You are in the damoffice, which according to piles of dust and dead insects must have been unused for
+      decades. There is an old desk here, worn down both with age and with rough use from the maintainance-
+      personell which used this room as their base when doing work on the dam.
+flag:

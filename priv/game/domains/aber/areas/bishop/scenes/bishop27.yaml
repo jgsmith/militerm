@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop26"
+      west:
+        target: "scene:aber:bishop:bishop28"
+    short: Korisla Gardens
+    sight: >
+      Bugs have feasted on some of the gigantic ferns present in here. Winged insects hop from flower to
+      flower, attracted by the petal color and scent of nectar. The monks have grown this garden from
+      seedlings and lay down fresh dirt and mulch every spring. Pruning takes place in the fall to allow the
+      cycle of growth and rebirth to remain unbroken. Water is fed from tens of small, elegantly carved
+      fountains in the shape of bison and dolphins. Paths lead in all directions from here, giving access to
+      private nooks within the leafy garden. Where one of the perimeter walls stands, clumps of well-tended
+      ivy provide a sense of background and completion to the garden as well as a quick means of scaling the
+      wall in the monastery is attacked.
+flag:
+  - outdoors

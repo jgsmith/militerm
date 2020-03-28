@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:cathedral:path5"
+    short: Side Door
+    sight: >
+      The &+Csky&* above seems lighter here, and the winds fade. you are surrounded by walls of &+Ggreen&* on
+      all sides but north. In that direction, surrounded bythe &+givy&* that crawls all about the sides of the
+      cathedral, is a heavy &+ywooden&* door, with a quite substantial lock of a type you've never seen the
+      likes of.
+flag:
+  - dark
+  - outdoors

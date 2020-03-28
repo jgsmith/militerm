@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds17"
+    short: "Dragonsluth's Den"
+    sight: >
+      You have entered a large library. There are a bunch of books on the wall that talk about everything from
+      sex education to how to make an omlette. The only exit it &+Cnorth&*.
+flag:

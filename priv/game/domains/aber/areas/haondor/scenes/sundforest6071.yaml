@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6070"
+      south:
+        target: "scene:aber:haondor:sundforest6066"
+      west:
+        target: "scene:aber:haondor:sundforest6072"
+    short: A Shaded Path Through The Forest
+    sight: >
+      You are on a small shaded path leading in between the trees. The forest gradually lightens to the east.
+      Paths lead west and south, and you think you see a small path leading eastward.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:gentle"
+      east:
+        target: "scene:aber:eastcoast:gentle"
+      north:
+        target: "scene:aber:eastcoast:entrance"
+      south:
+        target: "scene:aber:eastcoast:bstream"
+    short: Grassy Glade
+    sight: >
+      This is a small meadow that appears to not have been affected by the stunting effects of the swamp.
+      Though you feel comforted in seeing such a peaceful looking place, you also feel the eerie feeling of
+      the swamp just beyond a shock of tall, impenetrable looking brambles. To the north leads a small path
+      that appears to head up sharply toward a small black hole in face of the cliffs. A grassy path turns
+      into a sandy trail as it descends toward a small lagoon to the east, and to the south, you see a stream
+      across the soft grass.
+flag:
+  - outdoors

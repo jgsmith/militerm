@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung67"
+      north:
+        target: "scene:aber:nibelung:nibelung79"
+      south:
+        target: "scene:aber:nibelung:nibelung77"
+    short: Library
+    sight: >
+      Bookshelves run from floor to ceiling along every wall. The room smells very musty and dry, like autumn
+      leaves on a warm day. Books of varying color, size, and topic adorn the shelves. The room is dimly lit
+      by some sort of magical aura.
+flag:

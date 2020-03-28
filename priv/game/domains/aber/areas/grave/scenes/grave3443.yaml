@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3439"
+      west:
+        target: "scene:aber:grave:grave3444"
+    short: The Acolyte Chamber
+    sight: >
+      Here the acolytes sit until called upon by the priest to help in the services of the church. There are
+      collection plates with broken instruments of torture lying about. The floor is stained with blood and
+      you see several corpses dressed in solid white robes that have been hacked and stabbed until they died a
+      most unpleasent death. The lighting is very dim but you do see what might have killed the underserving
+      victims. There are exits east and west.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot110"
+    short: Small Room
+    sight: >
+      This room is filled with all the various bits of junk and trash that creatures like Kobolds would find
+      valuable. None of it is worth the trouble of picking up though.
+flag:
+  - dark

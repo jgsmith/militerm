@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sdesert:desertsd13"
+      west:
+        target: "scene:aber:sdesert:desertsd10"
+    short: The Desert Mountains
+    sight: >
+      Here the ground has risen up, forcing you to exert yourself harder. Those precious movement points slip
+      away as you trod over the now rocky road. Stray critters scamper about, praying to their critter gods
+      that you will quickly leave the area. The road here curves to the &+ysouth and west.
+flag:
+  - outdoors
+  - hot

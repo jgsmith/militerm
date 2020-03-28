@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd50"
+      south:
+        target: "scene:aber:sdesert:desertsd55"
+      west:
+        target: "scene:aber:sdesert:desertsd51"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction, and a faint trail runs off to the &+gwest.
+flag:
+  - outdoors
+  - hot

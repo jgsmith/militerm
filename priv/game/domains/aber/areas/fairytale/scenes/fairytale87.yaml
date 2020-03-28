@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale86"
+      up:
+        target: "scene:aber:fairytale:fairytale88"
+    short: Stairs
+    sight: >
+      A strong breeze blows through here, threatening to extinguish your light. You see cave paintings here,
+      depicting giant foxes hunting tiny human beings.
+flag:

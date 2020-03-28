@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere1"
+      north:
+        target: "scene:aber:caledonia:hills3"
+      south:
+        target: "scene:aber:caledonia:hills4"
+      west:
+        target: "scene:aber:caledonia:hills5"
+    short: Cattle Trail
+    sight: >
+      You are following a much-used cattle trail which leads through the tall mountains around you. You tread
+      carefully to avoid the hefty deposits left by the cattle, which are still fairly fresh. To the
+      north-west is a small lake, nestling among the peaks which surround it. You can go in any direction.
+flag:
+  - outdoors

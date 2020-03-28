@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: A Secret Room
+    sight: >
+      What's a fairytale without a few secrets? Here is a hidden room, known only to immortals.
+flag:
+  - wizard
+  - party

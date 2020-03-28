@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast8"
+      south:
+        target: "scene:aber:ruins:geast10"
+    short: Northwestern Corner
+    sight: >
+      You are in the northern corridor of a large catacomb. There are several blood stained bones littered
+      across the floor. A very foul odor then fills your nostrils and you feel your stomach churn. You shake
+      your head a little to regain your senses before contuining onward. The corridor turns to the south and
+      leads to the east.
+flag:
+  - dark

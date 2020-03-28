@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chess:chessqq12"
+      up:
+        target: "scene:aber:chess:chessqq06"
+    short: The Ladder
+    sight: >
+      You are on a simple wooden ladder, which has been bolted by means of small metal hooks to the cavern
+      wall. The &+yledge&* is above you, and the cavern &+Cfloor&* is below you. There is a small &+Csign&* on
+      the wall.
+flag:

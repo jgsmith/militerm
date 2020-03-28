@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:adept:adept19"
+    short: Cul de Sac
+    sight: >
+      The main street of Whisper City comes to and end here. A recreational park has been set off to the side
+      of the circle in between two rural homes. There is a large grate in the middle of the circle through
+      which people dump their garbage.
+flag:

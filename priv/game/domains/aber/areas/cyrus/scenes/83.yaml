@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Climbing the mountain
+    sight: >
+      You climb the mountain and make it up the wall quite a ways...until you lose your footing when a
+      foothold breaks off, then another, then another, then the last...next time, look for hidden danger.
+flag:
+  - death
+  - outdoors

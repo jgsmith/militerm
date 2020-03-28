@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6065"
+      north:
+        target: "scene:aber:haondor:sundforest6071"
+      south:
+        target: "scene:aber:haondor:sundforest6061"
+    short: A Fork On The Shaded Path Through The Forest
+    sight: >
+      You are at a fork in the small shaded path winding through the trees. The forest gradually becomes more
+      dense to the west. The path branches to the north and south here, and also continues to the east.
+flag:
+  - real
+  - outdoors

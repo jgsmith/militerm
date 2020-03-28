@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_17"
+      north:
+        target: "scene:aber:haunted:haunted_27"
+      south:
+        target: "scene:aber:haunted:haunted_1"
+      west:
+        target: "scene:aber:haunted:haunted_23"
+    short: The Path Continues...
+    sight: >
+      As you continue down the dark and gloomy path, you notice a out-of-place section of woods to the right.
+      To the left you see a worn-down shack. In front of you the path continues on.
+flag:
+  - real

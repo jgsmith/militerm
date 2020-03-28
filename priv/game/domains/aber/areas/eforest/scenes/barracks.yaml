@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:cavern"
+      west:
+        target: "scene:aber:eforest:commander"
+    short: Elven Barracks
+    sight: >
+      You are in a large barracks for the dark elf troops. The whole place seems run down. &+yTrash&* litters
+      the floor and most of the beds in this room are destroyed. It looks as if, for the most part, the dark
+      elves do not bother to maintain an army now that their enemies, the good elves above, are gone. Exits
+      leave these barracks to the West and East.
+flag:
+  - dark

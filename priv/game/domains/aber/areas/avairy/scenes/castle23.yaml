@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle25"
+      west:
+        target: "scene:aber:avairy:castle22"
+    short: Master Bed Room
+    sight: >
+      You have entered the castle master bedroom, where the Avairy monarchs sleep. Examining the bed, you find
+      it is puzzlingly made from feathers.
+flag:
+  - light

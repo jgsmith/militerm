@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9536"
+      south:
+        target: "scene:aber:khanjar:khanjar9533"
+      west:
+        target: "scene:aber:khanjar:khanjar9534"
+    short: A Weak Trail
+    sight: >
+      You are walking on a narrow trail. The trees are getting more apart slowly, and you hear birds singing
+      here and there. Way farther to the east raises a tremendous, grey figure, the mountainside of Great
+      Aesarthwe.
+flag:
+  - outdoors

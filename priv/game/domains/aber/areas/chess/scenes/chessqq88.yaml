@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:chess:chessqq87"
+    short: "The Joker's Throne"
+    sight: >
+      You stand before a giant &+Ythrone&*, made entirely of fool's gold. This seems to be the domain of the
+      Joker- It may be wise to leave him to his games...
+flag:

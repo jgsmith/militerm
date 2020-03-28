@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen5"
+      west:
+        target: "scene:aber:thyrannen:thyrannen9"
+    short: Redwood Forest
+    sight: >
+      The maze of the forest continues all around you. The deeper you venture into the forest, the trees
+      become larger, and more dense. Something is drawing you deeper into this forest, is it a sense of
+      adventurism, or a thirst for the unknown?
+flag:
+  - outdoors

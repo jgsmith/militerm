@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path20"
+      west:
+        target: "scene:aber:undead:stony_path18"
+    short: Stony Path
+    sight: >
+      Stones crunch under your feet as you continue your way alongside the moat. I could say that it looks
+      more promising to cross the moat here but I'd be lying. To the &+Ceast&* you can clearly make out the
+      drawbridge.
+flag:
+  - outdoors

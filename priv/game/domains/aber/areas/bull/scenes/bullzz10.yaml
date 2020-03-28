@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:bull:bullzz07"
+      up:
+        target: "scene:aber:bull:bullzz13"
+    short: The Stairwell
+    sight: >
+      There is a beautiful curving &+Cstairwell&* leading upwards. It seems to have been carved directly from
+      stone.
+flag:

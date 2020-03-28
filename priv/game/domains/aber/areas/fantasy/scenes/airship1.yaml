@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest18"
+    short: On The Airship..
+    sight: You are onboard of a mighty airship..
+flag:
+  - outdoors
+  - nomobiles

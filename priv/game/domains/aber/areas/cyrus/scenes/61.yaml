@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:64"
+    short: Northern Portal
+    sight: >
+      You step in by the north portal that closes immediately after you. You are standing in a huge room. Some
+      blood is splattered on the floor. You can feel an evil presence here. The heat is somehow less intense
+      here.
+flag:
+  - hot

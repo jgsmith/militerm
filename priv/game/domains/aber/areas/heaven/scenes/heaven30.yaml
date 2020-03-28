@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven32"
+      north:
+        target: "scene:aber:heaven:heaven29"
+      west:
+        target: "scene:aber:heaven:heaven31"
+    short: Northern Plains
+    sight: >
+      Golden grass stretches as far as you can see in all directions.
+flag:
+  - private

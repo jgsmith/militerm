@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan71"
+      north:
+        target: "scene:aber:mithdan:mithdan68"
+    short: Gardens
+    sight: >
+      The gardens is well cared for, and smooth brick pathways wind among the plants. The air is thick with
+      the scent of flowers, and the grass is deep and green. The path winds through the garden to the east,
+      and to the north it joins the main street of the town.
+flag:
+  - outdoors
+  - peaceful

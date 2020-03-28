@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest115"
+    short: "Craftsman's Hut"
+    sight: >
+      This is obviously the hut of the village's craftsman. Scattered about on the floor are the tools of his
+      trade, and along the walls are arrayed his work, including spear-heads, blowpipes, pots and other items
+      useful to a thriving forest community.
+flag:

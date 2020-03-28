@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:northernend"
+      south:
+        target: "scene:aber:valley:stream1"
+      west:
+        target: "scene:aber:eforest:passage"
+    short: North-Western Corner Of Valley
+    sight: >
+      You are standing in amongst some trees in the North-Western corner of the valley. Soaring cliffs bar any
+      route either north or west, but the valley extends to the south and east. A passage leads through the
+      mountain to the West.
+flag:
+  - outdoors

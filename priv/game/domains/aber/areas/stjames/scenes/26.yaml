@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:15"
+      north:
+        target: "scene:aber:stjames:25"
+      south:
+        target: "scene:aber:stjames:27"
+      west:
+        target: "scene:aber:stjames:29"
+    short: Path Through St. James Park
+    sight: >
+      You are on the main east-west path through St. James Park. To the northwest is a bridge which spans the
+      pond. To the west is Buckingham Palace, while to the east is the main park entrance with the city
+      beyond. To the south is a large grassy space. The fountain is very close to you now, spitting its water
+      into the air with impeccable grace.
+flag:
+  - outdoors

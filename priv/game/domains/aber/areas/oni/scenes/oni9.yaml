@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni10"
+    short: Shore of a Calm River
+    sight: >
+      You find yourself on the shore of small river. From your position you can make out a tower jutting out
+      of the forest to the north. There does not appear to be a path to the north, but you see a well traveled
+      path to the east. Looking across the river to the south, you cannot make out anything. The path to the
+      west appears to be flooded, and looks impassible at the time.
+flag:
+  - outdoors

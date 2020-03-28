@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle17"
+    short: Cell
+    sight: >
+      You are in a plain, barren cell. The more you think about it, you realize you haven't been in an
+      exciting, well decorated cell.
+flag:
+  - light

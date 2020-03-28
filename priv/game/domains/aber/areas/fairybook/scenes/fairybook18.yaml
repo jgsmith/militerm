@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook20"
+      north:
+        target: "scene:aber:fairybook:fairybook19"
+      west:
+        target: "scene:aber:fairybook:fairybook17"
+    short: The Foyer
+    sight: >
+      Through the open door to the west you see a path leading into the forest. To the east is the stairs, and
+      to the north is a small kitchen. You stand in the foyer of the Rabbit house. Pictures of cartoon
+      characters such as Thumper and Bugs hang here, flanking a mirror.
+flag:

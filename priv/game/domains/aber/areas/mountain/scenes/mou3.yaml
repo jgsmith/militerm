@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mountain:mou4"
+      north:
+        target: "scene:aber:mountain:mou2"
+      west:
+        target: "scene:aber:mountain:mou6"
+    short: Wild Ox Crossing
+    sight: >
+      Through the burning heat an dry rocky desert you stomp and stop for a moment to have a look around. The
+      sand reflects the heat making you hope it was night. You are desperately trying to distinguish reality
+      from mirage. You think you see paths leading in each direction. To the south you can narrowly recognize
+      a red hill breaking the horizon.
+flag:
+  - outdoors

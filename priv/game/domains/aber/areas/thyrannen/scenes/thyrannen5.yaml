@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen3"
+      south:
+        target: "scene:aber:thyrannen:thyrannen6"
+      west:
+        target: "scene:aber:thyrannen:thyrannen9"
+    short: Redwood Forest
+    sight: >
+      The Redwoods surge into the sky even more agressively in this area casting shadows everywhere, making it
+      hard to discern where one tree ends and another begins.
+flag:
+  - outdoors

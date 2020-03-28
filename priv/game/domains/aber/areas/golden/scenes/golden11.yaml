@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden9"
+      north:
+        target: "scene:aber:golden:golden12"
+      south:
+        target: "scene:aber:golden:golden13"
+      west:
+        target: "scene:aber:golden:golden15"
+    short: The &+GVillage&*
+    sight: >
+      You have discovered a small village that is nestled deep in the jungle. There are a few natives doing
+      their daily chores, not even noticing you. A large fire crackles in the center of this village. There
+      are small animals running around the huts with children chasing after them. To the east there is a
+      small, clay well that looks like it has dried up.
+flag:
+  - peaceful
+  - outdoors

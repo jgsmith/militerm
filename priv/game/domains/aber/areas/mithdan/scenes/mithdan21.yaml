@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan22"
+      west:
+        target: "scene:aber:mithdan:mithdan20"
+    short: Winding Ledge
+    sight: >
+      The ledge here is beginning to crumble, but it is still strong enough to cross. The wind whips in
+      dangerous whirlwinds, funneled up towards you by the deep gorge at your feet. The ledge continues to the
+      east and west.
+flag:
+  - outdoors
+  - cold

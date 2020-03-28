@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:graye:graye5550"
+    short: The Valley of Demons
+    sight: >
+      You emerge from the tunnel, and take a look around you. To the far south you can just barely see one of
+      the castle's towers over the trees. To the north, the land sloped downward, and thick, gnarled thorn
+      trees prevent movement to the east or west.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq33"
+    short: "In the Kracken's Den"
+    sight: >
+      Something seems wrong here, very wrong. Something makes the water move and not just in a small spot, ALL
+      of the water is moving from some kind of monstrous movement under the water.
+flag:
+  - onwater
+  - outdoors

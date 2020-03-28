@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord10"
+      west:
+        target: "scene:aber:fjord:fjord8"
+    short: Deer Trail
+    sight: >
+      No signs have been erected to say 'deer crossing' happens here, but there is sufficient evidence to let
+      travelers know what kind of population occupies this territory. Deer &+ydroppings&* resembling small
+      blueberries cannot avoid being stepped in except by their droppers, as suggested by sets of hoof prints
+      cleverly negotiating the maze of excrement. Over time, the droppings feed nutrients into the soil, which
+      are then taken up by the brown and orange &+ylichen&* growing up the sides of trees and boulders. One
+      some rocks where there are large depressions from erosion, the lichen fill the space in completely to
+      form a spongy throne, perfect for resting in.
+flag:
+  - outdoors

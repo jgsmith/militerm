@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen19"
+      west:
+        target: "scene:aber:thyrannen:thyrannen21"
+    short: Redwood Forest
+    sight: >
+      This is the south-western corner of the forest, ahead to the west you can see a small hut, and to the
+      north is the large expanse of the forest. There is a large garden here, filled with many different
+      vegetables, all rather large. The garden is larger than any other you have seen in your life, whoever
+      has taken the time to sow this wonderful garden must be an expert gardener.
+flag:
+  - outdoors

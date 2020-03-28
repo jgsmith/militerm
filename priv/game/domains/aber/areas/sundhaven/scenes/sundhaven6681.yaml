@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6680"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6683"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6682"
+    short: Climbing a high bluff
+    sight: >
+      Winds buffet this side of the cliff face, carving strange forms into the rocks, and impatiently eroding
+      the soil. There is some sort of cave home to the west.
+flag:
+  - outdoors

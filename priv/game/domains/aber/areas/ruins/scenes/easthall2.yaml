@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:easthall3"
+      west:
+        target: "scene:aber:ruins:easthall"
+    short: Eastern Hall
+    sight: >
+      You are further along in the eastern hall which seems to go on a bit further. The damp musky odor seems
+      to make you a little light-headed and you pause for a minute to gain your senses before proceeding.
+flag:
+  - dark

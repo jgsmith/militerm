@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook126"
+    short: The Tree House
+    sight: >
+      The think foliage around the tree-house prevents you from seeing the ground below or the sky above. The
+      tree-house consists of a floor, three walls, and a ceiling, and seems to be placed here so that
+      travellers can rest. The exit is down.
+flag:

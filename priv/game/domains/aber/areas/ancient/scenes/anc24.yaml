@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc25"
+      south:
+        target: "scene:aber:ancient:anc23"
+      west:
+        target: "scene:aber:mountain:mou5"
+    short: Calle de los Muertos
+    sight: >
+      The closer you get, the bigger it becomes. Before the pyramid you see a large square surrounded by
+      several little houses and other buildings. The square seems to be worth a closer look with its' carved
+      monoliths and boulders, but the pyramid, dominating the view, steals that privilege to itself.
+flag:
+  - outdoors

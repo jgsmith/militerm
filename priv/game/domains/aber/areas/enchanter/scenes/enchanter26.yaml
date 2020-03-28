@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Treasure Room
+    sight: >
+      The light streaming through the open window casts a million reflections in here. You gaze in awe at the
+      mountains of treasure in here. Greedily, you take a step forward.
+flag:

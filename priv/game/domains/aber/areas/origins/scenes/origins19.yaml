@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins20"
+      south:
+        target: "scene:aber:origins:origins18"
+    short: Narrowing Road
+    sight: >
+      The twisted road becomes more and more narrow here, and moving is increasingly difficult. The air is
+      thicker still, and the comforting rays of the sun are not to be found. To the south is a slightly more
+      comforting environment, and you dread to walk further north, into the empty dreariness.
+flag:
+  - outdoors
+  - negregen
+  - soundproof

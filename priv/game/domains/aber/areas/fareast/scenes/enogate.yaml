@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:tempruin"
+      south:
+        target: "scene:aber:fareast:enoroad"
+    short: Gates of Eno
+    sight: >
+      The City of Eno rises high above you to the immediate north. However, a massive gate stands between
+      there and here, and a padlock of proportionate size is on its door. High earthen walls wrap around to
+      the east and west, and their smooth sides would make climbing impossible without help. A road leading
+      from the gates reaches off toward the south, to a grove of trees far in the distance, and a narrow dirt
+      path leads off to the east.
+flag:
+  - outdoors

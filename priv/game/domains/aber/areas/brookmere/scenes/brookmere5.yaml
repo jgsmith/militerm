@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:brookmere:brookmere6"
+    short: The Elves of Brookmere
+    sight: >
+      Emerging from the ruins you at first squint in the bright sunlight after having been underground so
+      long. When your eyes have adjusted you look around. Elves in construction hats scurry about
+      investigating the ruins, while nearby in the shelter of the trees you can see the outskirts of an elven
+      campsite, with elf children playing up in the trees. The elves have returned to Brookmere to start anew!
+      Already you notice scaffolding being erected at the far side of the ruin and stone masons trundling
+      blocks of stone around in wheelbarrows. Turning, you look down into the crater that used to harbour the
+      dungeons of Brookmere. You can still see the white block of marble that transported you to the alarm
+      room. Almost unconsiously you kick a stone over the edge of the crater. It bounces down, dislodging more
+      stones and rocks as it goes, until it becomes apparent you have started a landslide. The whole thing
+      lands at the bottom making a lot of noise, and when the dust clears the white block is obscured. The
+      elves look toward the crater briefly, then return to their errands. No-one seems to have noticed the
+      mortal who climbed out of the ruin. Oh well, you are just glad that things have been restored to their
+      rightful order in the world.
+flag:
+  - outdoors

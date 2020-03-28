@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:personalhella"
+      west:
+        target: "scene:aber:undead:personalhell7"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You look in on yourself as if &+Rfrom a long way away, you watch as you admire
+      them from afar, so in love; &+Rif you just had the chance. You are not sure maybe they will like you,
+      &+Rmaybe they wont. Your heart misses a beat, it is in your past; you will &+Rnever know now.
+flag:
+  - soundproof

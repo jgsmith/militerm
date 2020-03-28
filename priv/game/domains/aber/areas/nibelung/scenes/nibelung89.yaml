@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung81"
+      west:
+        target: "scene:aber:nibelung:nibelung88"
+    short: Cloakroom
+    sight: >
+      A place for you to hang your coat. Many hooks along one wall facilitate this action. To the east you
+      notice an entry to the inner hall, and in a westerly direction there's a small armory.
+flag:
+  - dark

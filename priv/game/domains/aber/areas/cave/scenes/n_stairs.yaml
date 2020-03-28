@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:n_stairs2"
+      up:
+        target: "scene:aber:cave:small"
+    short: Narrow Stairs
+    sight: >
+      You are descending a set of narrow stairs which twist and turn sharply as they plunge steeply down into
+      darkness. Above you the stairs flatten out into a small room.
+flag:
+  - dark

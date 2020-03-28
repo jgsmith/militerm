@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9953"
+      north:
+        target: "scene:aber:ghenna:ghenna9993"
+      south:
+        target: "scene:aber:ghenna:ghenna9912"
+      west:
+        target: "scene:aber:ghenna:ghenna9995"
+    short: Crawlspace.
+    sight: >
+      The crawlspace opens up into a 10 foot square room filled with all manner of insects, most of them HUGE.
+      Hope you aren't arachnophobic, cause if you are, this place would surely scare you to death. Exits lead
+      in all cardinal directions.
+flag:
+  - dark

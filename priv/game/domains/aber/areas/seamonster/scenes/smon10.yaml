@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon11"
+    short: Sandy shore
+    sight: >
+      The &+Bwater&* spat you onto another island's sandy shore. It isn't looking so inviting like before. The
+      whole shore is covered with decaying fish, but you can see some human bodies too.
+flag:
+  - outdoors

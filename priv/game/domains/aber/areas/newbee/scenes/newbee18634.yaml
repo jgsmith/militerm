@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18630"
+      south:
+        target: "scene:aber:newbee:newbee18637"
+      west:
+        target: "scene:aber:newbee:newbee18633"
+    short: An Intersection Of Passages
+    sight: >
+      Cold, smelly, and coated with green fungus... just like last week's left-overs. Furthermore you want
+      nothing to do with either, you just want out right now.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins15"
+      south:
+        target: "scene:aber:origins:origins11"
+    short: The Center of the City
+    sight: >
+      You are standing directly beneath the beautiful arch. The sunlight shines down directly upon you,
+      granting a soothing, relaxing feeling. Due north, you see that a great black chasm has ripped the earth
+      apart from the westernmost position of the city to its easternmost. It appears to be very deep and
+      dangerous to negotiate.
+flag:
+  - outdoors
+  - tempreal
+  - nomobiles

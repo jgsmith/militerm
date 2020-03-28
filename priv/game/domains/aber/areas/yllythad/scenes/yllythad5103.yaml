@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5104"
+      south:
+        target: "scene:aber:yllythad:yllythad5287"
+      west:
+        target: "scene:aber:yllythad:yllythad5102"
+    short: At the Shoreline
+    sight: >
+      The water has grown tumultous and rough here, the waves not high but frequent. Water splashes into the
+      air as the small waves spalsh into each other. A rock littered shore lies to the south, so jumbled and
+      covered in rock as to be unpassable.
+flag:
+  - onwater
+  - outdoors

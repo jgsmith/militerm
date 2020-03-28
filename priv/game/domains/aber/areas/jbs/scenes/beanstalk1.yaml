@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:beanstalk"
+      up:
+        target: "scene:aber:jbs:top_beanstalk"
+    short: On the Beanstalk
+    sight: >
+      You have climbed so far up the beanstalk that you are totally immersed in clouds. The air is very thin
+      up here and you are running out of breath fairly often. luckily there are plenty of branches you can
+      stop and rest on. You can continue up the beanstalk or go back down from here.
+flag:
+  - outdoors

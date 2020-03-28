@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:ildharas:ildharas60"
+    short: At the Doors of the Black Hall
+    sight: >
+      Two doors bound in iron bar the entrance to the Black Hall. Curiously wrought flowers and gargoyles
+      decorate their surfaces. A large ring on each allows you to pull them open. A corridor stretches away to
+      the south.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar66"
+      south:
+        target: "scene:aber:balharbor:balhar50"
+      west:
+        target: "scene:aber:balharbor:balhar57"
+    short: Vine Street
+    sight: >
+      You stand in front of the Second National Bank. The First National Bank that was here before was the
+      victim of a major bank heist in which after the place was looted, the place was blown up by a bomb.
+      Well, there wasn't a bomb this time around but the place looks like it was robbed again. Spraypainted on
+      the front of the bank are the words "John McClain was here." You can check out the inside of it by
+      entering the front door north of here.
+flag:
+  - outdoors

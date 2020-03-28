@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dcave13"
+    short: End of Passageway
+    sight: >
+      This room is warm and bright and you start to feel a sense of good enter your soul. Upon the walls are
+      pictures of what looks like an evil being that destroyed part of the dwarven empire. It shows a great
+      fight between the monster and a dwarf with a sword.
+flag:

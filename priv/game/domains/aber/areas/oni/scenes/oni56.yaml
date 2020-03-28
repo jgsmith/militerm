@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni58"
+      north:
+        target: "scene:aber:oni:oni54"
+    short: South Hallway
+    sight: >
+      The southern end of the hallway opens up to the east. The room to the east is ornately decorated.
+      Torches shine down brightly on a huge pool in the center of the room as well as the metal decorations.
+      There appears to be something in the middle of the pool, but the bright light makes it difficult to see
+      clearly.
+flag:

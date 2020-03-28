@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9946"
+      south:
+        target: "scene:aber:ghenna:ghenna9923"
+    short: A musty area behind the wall.
+    sight: >
+      You are in a musty, hidden area behind the wall of the bathroom. A very narrow granite staircase leads
+      downward, into darkness.
+flag:
+  - dark

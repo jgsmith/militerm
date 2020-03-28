@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:haggis"
+    short: "The Piper's Storeroom"
+    sight: >
+      You are in a small clean cave, which appears to serve as a storeroom for the owner of the cave. A single
+      narrow exit leads north.
+flag:
+  - dark

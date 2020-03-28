@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen33"
+      west:
+        target: "scene:aber:thyrannen:thyrannen31"
+    short: Marsh
+    sight: >
+      Hoping that you have made at least a little bit of progress through this thick marsh, you try to
+      remember just how long you have been making your way through it's mucky waters. Unsure, you dismiss the
+      question and push on.
+flag:
+  - outdoors

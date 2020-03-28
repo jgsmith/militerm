@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot225"
+      up:
+        target: "scene:aber:camelot:camelot245"
+      west:
+        target: "scene:aber:camelot:camelot227"
+    short: The Base of the Southeast Tower
+    sight: >
+      The guardroom you are in looks out over the moat to the south and east, while corridors run off through
+      the walls to the north and west.
+flag:

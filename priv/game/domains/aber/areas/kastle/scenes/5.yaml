@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:kastle:4"
+    short: Store Room
+    sight: >
+      This room is where emergency stores were kept. It is larger than it appears and the walls are lined with
+      tall shelves. The shelves are now virtually empty.
+flag:
+  - dark

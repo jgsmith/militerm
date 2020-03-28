@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd62"
+      north:
+        target: "scene:aber:sdesert:desertsd60"
+      south:
+        target: "scene:aber:sommerlund:sommerlund1"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction, and the main paths leads north and &+yeast&*. Some tracks
+      lead southward.
+flag:
+  - outdoors
+  - hot

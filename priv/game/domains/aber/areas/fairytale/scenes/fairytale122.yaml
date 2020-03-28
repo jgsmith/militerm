@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale113"
+      south:
+        target: "scene:aber:fairytale:fairytale123"
+    short: Stairs
+    sight: >
+      You stand at the top of the stairs which descend to the landing and porch below. The staircase is
+      encased in glass, and you can see the forest far below you. Above you you notice that the mansion
+      continues to rise. A door leads west into the sitting room.
+flag:
+  - dark

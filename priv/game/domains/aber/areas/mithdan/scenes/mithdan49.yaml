@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mrealms:lounge"
+      north:
+        target: "scene:aber:start:church"
+      south:
+        target: "scene:aber:mrealms:mrealms"
+      west:
+        target: "scene:aber:start:temple"
+    short: Tornado
+    sight: >
+      The forceful wind of the tornade whips around you, picking up pieces of dust and debris and swirling
+      them around you. The wind is so fierce that you cannot see which way you are traveling, and when you
+      stagger out you could end up anywhere.
+flag:

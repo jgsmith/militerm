@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot247"
+      west:
+        target: "scene:aber:camelot:camelot237"
+    short: Above The Portcullis
+    sight: >
+      You are standing on the section of wall immediately above the portcullis. Chains and ropes pass through
+      holes cut in the stone to allow the operation of the drawbridge and portcullis.
+flag:
+  - outdoors

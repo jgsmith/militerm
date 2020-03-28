@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:golden:golden15"
+      up:
+        target: "scene:aber:golden:golden22"
+    short: &+REnd of the Trail&*
+    sight: >
+      Teetering on the brink of death, you step back. There is a huge gorge directly in front of you, with no
+      way to cross it by foot. You notice the tree branches that intertwine above the gorge. You think to
+      yourself that you could easily climb the trees and walk across the branches to reach the other side.
+      Easier said than done.
+flag:
+  - outdoors

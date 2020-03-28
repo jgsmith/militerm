@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott37"
+      south:
+        target: "scene:aber:slott:slott24"
+    short: "The Son's bedroom"
+    sight: >
+      This used to be the Son's bedroom; now there is not much left in here. There is a small bed and some
+      closets but other than that it has been cleaned out for some reason. There would have been toys and
+      things like that but there is not a trace of them.
+flag:

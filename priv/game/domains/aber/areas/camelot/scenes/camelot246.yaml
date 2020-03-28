@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot245"
+      west:
+        target: "scene:aber:camelot:camelot247"
+    short: Atop the Southeastern Wall
+    sight: >
+      Standing on the walls certainly gives you a wonderful view of the sourrounding countryside. There are
+      towers to the east and west.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain12"
+      north:
+        target: "scene:aber:fantasy:mmaze6"
+      south:
+        target: "scene:aber:fantasy:mmaze5"
+      west:
+        target: "scene:aber:fantasy:mmaze2"
+    short: Lost in Mountain Cave
+    sight: >
+      The cave twists and turns here and you cannot tell which direction you last came from. You see a lighter
+      area to the east of here.
+flag:
+  - maze

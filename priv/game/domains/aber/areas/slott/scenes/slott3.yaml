@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott4"
+      south: null
+      up:
+        target: "scene:aber:slott:slott24"
+      west:
+        target: "scene:aber:slott:slott5"
+    short: In the hall
+    sight: >
+      You stand in the hall of the castle. It is furnished with a small table and chairs. On the floor there
+      lies a thick carpet. The ceilings were painted white a long time ago, but have turned yellow with age.
+      There are grand stairs leading &+Cup&*, and doorways to the &+Cwest&* and &+Ceast&*
+flag:

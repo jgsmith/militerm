@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:nave1"
+      up:
+        target: "scene:aber:cathedral:n_stairs"
+    short: The North Tower
+    sight: >
+      The Walls of the tower are covered with countless years of &+gmold&* and &+ydust&*. Above you the stairs
+      continue upwards.
+flag:
+  - dark

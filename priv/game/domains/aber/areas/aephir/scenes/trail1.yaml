@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aephir:trail2"
+      north:
+        target: "scene:aber:novice:entry"
+      south:
+        target: "scene:aber:aephir:nsacred"
+    short: Sacred Forest Trail
+    sight: >
+      You are standing among a forest teeming with life. You feel cool breezes around you, and hear the rustle
+      of leaves. High in the tall oak and maple trees you can hear the enchanting songs of birds. Below the
+      canopy of trees are fern plants and short dark green grass. You feel the strong urge to simply wander
+      about and follow the songs of the birds above. The trail extends south and east. A side trail goes
+      north.
+flag:
+  - outdoors
+  - peaceful
+  - aephir

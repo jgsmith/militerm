@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: Vidi
+    sight: This is a land of long grass and saplings.
+flag:
+  - private

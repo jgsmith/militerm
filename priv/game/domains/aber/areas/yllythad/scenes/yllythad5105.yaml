@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5126"
+      north:
+        target: "scene:aber:yllythad:yllythad5110"
+      west:
+        target: "scene:aber:yllythad:yllythad5041"
+    short: At the Shoreline
+    sight: >
+      The sea has turned to calm that is almost unsettling. Any sailor would bow their head and say a quick
+      prayer to the Sea God at this time to pray for a wind of some sort. Looking in all directions, the sea
+      is still and quiet. A rocky shore is to the south, its boulder riddled area too cluttered to be passed
+      along. A long jetty lies to the east running north into the ocean, a tall lighthouse at its end.
+flag:
+  - onwater
+  - outdoors

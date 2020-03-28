@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire33"
+      south:
+        target: "scene:aber:fire:fire37"
+    short: Before the huge hut
+    sight: >
+      You are standing before a huge hut. It is possibly the building of the leader of all robbers. You can
+      hear loud drunk singing from the inside of the hut. There are many other huts around, but you don't
+      think you would find anything or anyone interesting there.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      up:
+        target: "scene:aber:slott:slott28"
+    short: Southeast tower
+    sight: >
+      You find yourself in a round room, as you look around you can see by the dust and dirt that this room
+      hasn't been in use for a long time. This is one of the corner towers of the castle. Spiral stairs head
+      &+Cup&*.
+flag:
+  - dark

@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: The Land of Gold
+    sight: The entire landscape is coated with gold.
+flag:
+  - private

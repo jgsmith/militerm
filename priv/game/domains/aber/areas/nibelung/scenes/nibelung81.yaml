@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung82"
+      south:
+        target: "scene:aber:nibelung:nibelung80"
+      west:
+        target: "scene:aber:nibelung:nibelung89"
+    short: Inner Hall
+    sight: >
+      This room appears to be one of the inner halls of the castle. A doorway opens up to a guard's room to
+      the north, while another doorway stands to the west. The hall is rather cramped compared to some of the
+      other rooms of the castle proper. A few small tapestries attempt to enliven the otherwise dismal walls
+      of the hall.
+flag:
+  - dark

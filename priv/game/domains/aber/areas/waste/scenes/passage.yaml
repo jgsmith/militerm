@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:ledge"
+      north:
+        target: "scene:aber:waste:salamander"
+      west:
+        target: "scene:aber:waste:gardens"
+    short: Fiery Passage
+    sight: >
+      You are walking down a narrow fiery passage, the walls glow and pulsate with a dull red light. You have
+      to tread carefully to avoid burning yourself on some of the hotter parts of the floor. The passage leads
+      east and west, and a turning leads north towards a fiery pit.
+flag:
+  - hot

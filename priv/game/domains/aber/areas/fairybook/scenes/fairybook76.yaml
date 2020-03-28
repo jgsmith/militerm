@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook77"
+    short: "Queen's Home"
+    sight: >
+      You stand before the house of Queen Alice, the queen of all of Wonderland. The castle in which she lives
+      is smaller than most castles, with the typical moat and turrets and the like. It stands to the west.
+flag:
+  - outdoors

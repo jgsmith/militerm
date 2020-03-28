@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cottage:cottage11"
+      south:
+        target: "scene:aber:cottage:cottage13"
+    short: Narrow Ledge
+    sight: >
+      You stand upon a narrow ledge running north and south along the cliff face. the outlines of a natural,
+      stone bridge spanning the chasm are clearly visible to the south.
+flag:
+  - outdoors

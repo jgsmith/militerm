@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6638"
+    short: The town treasury
+    sight: >
+      With the exception of a few portraits of the founders of you-don't- know-what, the room is quite drab,
+      and could benefit from some fresh air. A huge &+Ypile&* of the town's wealth lies on the tile floor,
+      guarded from your meddling by a protective amber shield.
+flag:
+  - nomobiles

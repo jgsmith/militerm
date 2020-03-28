@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar20"
+      north:
+        target: "scene:aber:balharbor:balhar35"
+      south:
+        target: "scene:aber:balharbor:balhar6"
+      west:
+        target: "scene:aber:balharbor:balhar18"
+    short: Main Street
+    sight: >
+      You are standing in the intersection of Cross Road and Main Street. Stepping through the city gates, it
+      seems that the city appears to have suffered from a riot recently. And as you look around, you see large
+      men wearing red sashes across their uniforms and the residents moving around cautiously. Grim looks can
+      be seen on many people's faces, and you wonder by coming to this city if you are even welcome here. City
+      streets run each direction, Cross Road runs north through the wizards' shopping center, while to the
+      south is the way to the ocean port. Main Street runs east toward Idol Square or you can head back out of
+      town to the west.
+flag:
+  - outdoors

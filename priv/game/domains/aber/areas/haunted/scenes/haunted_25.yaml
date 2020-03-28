@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Freezer
+    sight: >
+      As you step into the walk-in freezer, you are harshly pushed into it. As you fall to the ground, a
+      grotesque creature with a leather mask for a face swings an axe at you. &+RLooks like you are the
+      special of the day!&*
+flag:
+  - death

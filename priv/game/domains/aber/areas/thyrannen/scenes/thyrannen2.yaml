@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen22"
+      north:
+        target: "scene:aber:thyrannen:thyrannen1"
+      west:
+        target: "scene:aber:thyrannen:thyrannen3"
+    short: Rolling Hills
+    sight: >
+      You continue south through these breathtaking hills, the sun is setting to the west creating a beautiful
+      backdrop that clashes with the spindery, and demented mountains to the south. To the west is a forest of
+      redwoods thrusting up into the heavens. To the east the land leves out into a pasture, and beyond that,
+      a swamp.
+flag:
+  - outdoors

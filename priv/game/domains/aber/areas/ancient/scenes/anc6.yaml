@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc7"
+      up:
+        target: "scene:aber:ancient:anc7"
+      west:
+        target: "scene:aber:ancient:anc3"
+    short: Before the Temple
+    sight: >
+      You are standing on a large opening covered with grass right before a huge temple to the east. The
+      temple is made of large clay bricks and there is a stairway leading up to its' top. You see large stone
+      animal figures beside the stairs. You can still go back west to the street.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung7"
+      south:
+        target: "scene:aber:nibelung:nibelung4"
+    short: Alpine Way
+    sight: >
+      The path slopes gently up to the north. To the northeast you see the foot- hills of a large mountain
+      range. It's snow-capped peaks can be seen rising up in the distance. The forest around you starts to
+      thicken, and you notice a decrease in the amount of underbrush. A glance to the south reveals that the
+      path splits up further on.
+flag:
+  - outdoors

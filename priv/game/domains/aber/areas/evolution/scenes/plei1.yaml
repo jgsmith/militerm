@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:plei2"
+      south:
+        target: "scene:aber:evolution:plio1"
+      west:
+        target: "scene:aber:evolution:plei3"
+    short: Hill Country
+    sight: >
+      A cool breeze blows here on the lower slopes of a small range of hills which rise up to the north and
+      west. The hills are heavily wooded in those directions, and you can see a number of large furry animals
+      browsing upon the foliage.
+flag:
+  - outdoors

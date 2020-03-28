@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:jbs:lkitchen"
+    short: Pantry
+    sight: >
+      This is a large pantry with lots and lots of food that is on shelves way too high for you to reach. You
+      can leave to the west when you finish drooling.
+flag:

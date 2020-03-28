@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:house18"
+    short: Parents Room
+    sight: >
+      This looks to be the rooms for Ma and Pa Hickdale, it is just as drab and plain as the other rooms. Just
+      a bed, a dresser, and a few books on the dresser.
+flag:

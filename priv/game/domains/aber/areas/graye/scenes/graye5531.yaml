@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5537"
+      south:
+        target: "scene:aber:graye:graye5528"
+    short: Entrance to the City of Graye
+    sight: >
+      You are standing before the great gate of Graye. Crimson plumed soldiers raise the portcullis and urge
+      you the enter quickly.
+flag:
+  - outdoors
+  - nomobiles

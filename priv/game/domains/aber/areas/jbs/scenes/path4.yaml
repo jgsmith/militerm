@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:field"
+      south:
+        target: "scene:aber:jbs:barn"
+      west:
+        target: "scene:aber:jbs:epond"
+    short: Long Path
+    sight: >
+      This is a long east, west path that runs between a small pond to the west and a fairly large field to
+      the east. South of here you see a quaint little barn.
+flag:
+  - outdoors
+  - nomobiles

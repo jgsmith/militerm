@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6760"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6762"
+    short: Along the town wall
+    sight: >
+      You follow the thick wall of grey cobblestone that marks the outer border of Sundhaven. Moss, nourished
+      by frequent rainfall, hides portions of the wall under its green tendrils. A stony path can be made out
+      to the north, and the wall makes its way southwards to a corner.
+flag:
+  - outdoors

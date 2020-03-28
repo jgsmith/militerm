@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ist:bargandpand2"
+    short: "&+CBargalad&N and &+YPandora&N's Humble Abode"
+    sight: >
+      You have entered the bedroom of Bargalad and Pandora. Just looking around this room it is easy to tell
+      that they are newlyweds. The large, comfortable waterbed is covered with a plaid comforter in bright
+      yellows, blues, and reds. The bed covers are folded down to reveal white satin sheets. A lovely yellow
+      rose has been placed across the pillows. Above the bed there is a beautiful oil painting of a couple on
+      their wedding day. (Bargalad and Pandora maybe?) You can't help but stare at the handsome couple. A very
+      large television is pushed against the wall facing the bed, and a copy of 'The Medicine Man' is still
+      playing. A large victorian mirror dominates a wooden chest of drawers, and pictures of the couple and
+      their family and friends cover the top. Next to you is an open door which seems to lead into another
+      room. A huge window allows in enough light to illuminate the room. The window, which is framed in bright
+      yellow curtains that are pinned up with matching bows, overlooks a breathtaking view of the lands below.
+      As you walk around the room and your feet sink into the plush wall to wall carpeting, you can't help but
+      think how lucky Bargalad and Pandora must be.
+flag:
+  - party
+  - private

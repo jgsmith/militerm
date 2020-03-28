@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook120"
+      west:
+        target: "scene:aber:fairybook:fairybook118"
+    short: Rough Path
+    sight: >
+      The golden path here begins to get rough, and the walking becomes difficult. The yellow bricks are here
+      very uneven, sometimes broken or altogether missing. The farms are not nearly so well cared for here as
+      they were further back, and the farther the path goes to the east the more dismal and lonesome the
+      country becomes.
+flag:
+  - outdoors

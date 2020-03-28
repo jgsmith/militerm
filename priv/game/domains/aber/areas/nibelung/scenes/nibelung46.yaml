@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung49"
+      east:
+        target: "scene:aber:nibelung:nibelung45"
+      west:
+        target: "scene:aber:nibelung:nibelung48"
+    short: Drawbridge
+    sight: >
+      The drawbridge appears to have been open for many years. The chains hold- ing both sides are rusty and
+      stiff. To your west you notice the inner gate to a castle, now in ruins, while a large tower, probably
+      for fortification, rises to the east. The moat below appears to have dried out long ago.
+flag:
+  - outdoors

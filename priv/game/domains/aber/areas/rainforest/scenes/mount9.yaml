@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount10"
+      north:
+        target: "scene:aber:rainforest:mount6"
+      up:
+        target: "scene:aber:rainforest:mount6"
+      west:
+        target: "scene:aber:rainforest:mount12"
+    short: Gully Bottom
+    sight: >
+      You have come to the bottom end of a narrow gully which in rainy seasons pours water from the upper
+      slopes to the north into the river valley below you. A small river, ice cold and greenish from glacier
+      meltwater, flows past along the valley floor. You can head back up the gully or follow the valley east
+      or west from here.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9947"
+      up:
+        target: "scene:aber:ghenna:ghenna9945"
+    short: The bottom of the granite staircase.
+    sight: >
+      You have reached the bottom of the granite staircase. This appears to be the basement of Blood Tavern. A
+      hole in the ceiling which is stained with excrement hovers above an enormous mountain of feces (how
+      nice). Walls stand to the west, north and south - but the way is passable towards the East, around the
+      dungheap.
+flag:
+  - dark

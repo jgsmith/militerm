@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome40"
+      north:
+        target: "scene:aber:rome:rome32"
+      south:
+        target: "scene:aber:rome:rome34"
+      west:
+        target: "scene:aber:rome:rome26"
+    short: Nero Drive
+    sight: >
+      You are walking on a paved road that runs north and south through the city of Rome. There are many
+      people here, as polite as always. Most of them are either coming from or going to the town square which
+      lies to the north. Nero Drive continues to the south. There is an observation area overlooking the
+      aqueduct to the east and a paved road leads west.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:path4"
+      south:
+        target: "scene:aber:jbs:nbarn"
+    short: Before the Barn
+    sight: >
+      You are standing in front of the fading red barn where the farmer who owns this place keeps his hay and
+      other farming necessities that need to stay out of the rain. You can enter the barn to the south.
+flag:
+  - outdoors

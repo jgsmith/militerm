@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:arena:arena3"
+      north:
+        target: "scene:aber:arena:arena11"
+      west:
+        target: "scene:aber:arena:arena5"
+    short: The Arena
+    sight: >
+      The magical light in this area seems to have been dispelled by some powerful mage or wizard. The ground
+      is starting to crack, and one of larger ones continues north. The arena extend to the north, east and
+      west.
+flag:
+  - nosummon
+  - cantsummon
+  - dark
+  - pkzone

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:forest_path2"
+      west:
+        target: "scene:aber:undead:forest_path4"
+    short: Forest Path
+    sight: >
+      You stand at a turn in the forest path. You are working up a grudging respect for whoever cut this path.
+      To the &+Cwest&* you can make out the flickering lights of a campfire along with what could be voices.
+      Then again, maybe it is just the wind.
+flag:
+  - outdoors

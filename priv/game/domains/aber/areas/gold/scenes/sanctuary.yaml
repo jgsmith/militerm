@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:gold:altar"
+      west:
+        target: "scene:aber:gold:entryway"
+    short: Sanctuary
+    sight: >
+      As you enter the Sanctuary, you stand in absolute amazement at the sights laid out before you. There are
+      rows upon rows of pews, on your left and right. As you look up, there appears to be no top to the
+      cathedral, and it is open to the skies above you. You can feel the weather from outside, however, it
+      does not affect the health of the sanctuary. There is a stairway to the left of the room which appears
+      to lead to the altar.
+flag:

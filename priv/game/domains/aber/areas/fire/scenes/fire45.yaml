@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire41"
+      south:
+        target: "scene:aber:fire:fire46"
+    short: Prison
+    sight: >
+      Now you can see a bit further. Some branches are around here, so you can orient yourself better now.
+      Exits lead to the north and south.
+flag:
+  - dark
+  - cold

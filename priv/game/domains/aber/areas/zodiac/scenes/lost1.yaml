@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:zodiac:lost2"
+      east:
+        target: "scene:aber:zodiac:lost3"
+      north:
+        target: "scene:aber:zodiac:lost2"
+      south:
+        target: "scene:aber:zodiac:lost3"
+      up:
+        target: "scene:aber:zodiac:lost3"
+      west:
+        target: "scene:aber:zodiac:lost4"
+    short: The Infinite Realms
+    sight: >
+      You wander too far and realise that you don't know which way is back to where you came from.
+flag:

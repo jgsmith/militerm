@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:gold:goldgates"
+    short: Rolling Fields
+    sight: >
+      These fields are the result of the work of many little people, each of which sneers at you as you enter.
+      They seem to be working very hard. You notice while glancing around that these people are half your
+      height!!!
+flag:
+  - outdoors

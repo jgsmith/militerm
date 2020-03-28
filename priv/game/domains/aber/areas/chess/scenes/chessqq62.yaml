@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chess:chessqq63"
+      north:
+        target: "scene:aber:chess:chessqq49"
+      south:
+        target: "scene:aber:chess:chessqq65"
+      west:
+        target: "scene:aber:chess:chessqq61"
+    short: The Black Square
+    sight: >
+      You are standing on a highly polished black marble tile, which extends about six feet in either
+      direction.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: The Lost Altar
+    sight: >
+      You have entered upon a simple altar. Against the far wall of the room is a small block altar that
+      appears to be part of the wall that extends out into the room. On top of the altar is a horizontal
+      groove. Above the altar, carved into the wall is an icon that looks very much like a trident. Under the
+      icon is the inscription 'When this trident is returned shall the city of Atlantis be redeemed.'
+flag:

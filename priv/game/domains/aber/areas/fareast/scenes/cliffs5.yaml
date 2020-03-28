@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cliffs4"
+      up:
+        target: "scene:aber:fareast:cliffs4"
+      west:
+        target: "scene:aber:fareast:cliffs2"
+    short: Along the Northern Cliffside
+    sight: >
+      Rising from the shoreline cliff-face, this narrow reach spans the northern side of the river valley. In
+      fact, looking down, you can see the greenish ribbon swirling west toward the sea. However, it would be a
+      dangerous drop from here to the floor below, so your only options are to travel east (ascending) or west
+      (descending) along the path.
+flag:
+  - outdoors

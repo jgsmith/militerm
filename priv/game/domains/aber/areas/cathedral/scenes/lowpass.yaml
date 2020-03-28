@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:lowhall"
+      south:
+        target: "scene:aber:cathedral:cobwebs"
+    short: Low Passage
+    sight: >
+      The vaulting of the ceilings has abruptly ceased here. This passage looks as if it were carved out of
+      the &+Lrock&* with a shovel, more than anything else. To the north lies a vaulted hall. Your view south
+      is blocked by &+Lcobwebs&*.
+flag:
+  - dark

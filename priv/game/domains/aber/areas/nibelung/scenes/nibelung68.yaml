@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung72"
+      north: null
+      south:
+        target: "scene:aber:nibelung:nibelung69"
+      up:
+        target: "scene:aber:nibelung:nibelung70"
+    short: Tower Base
+    sight: >
+      You are standing in the base of a large tower. Steps lead upward into dark- ness, and continue down
+      below. Things smell musty and old here, as if no one had been about for some time. A finger run along
+      the railing would surely be dirty from dust.
+flag:
+  - dark

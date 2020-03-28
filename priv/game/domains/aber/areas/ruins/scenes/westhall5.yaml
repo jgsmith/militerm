@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:westhall6"
+      south:
+        target: "scene:aber:ruins:westhall4"
+    short: Northern Turn in the Western Hallway
+    sight: >
+      You are now travelling north in this seemingly neverending hallway. Strange shrieks fill the air making
+      the hair on the back of your neck standup. You peer into the infinite darkness in front of you and swear
+      that you see dancing lights. The hallway leads to the north and to the south.
+flag:
+  - dark

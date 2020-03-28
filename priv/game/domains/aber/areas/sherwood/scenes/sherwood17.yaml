@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood18"
+      south:
+        target: "scene:aber:sherwood:sherwood16"
+    short: On the Road
+    sight: >
+      You can't help but to break out into song. The one that comes to mind goes something like, "On the road
+      again, just can't wait to get on the road again..." You can't remember who sang it, but you still gotta
+      love it.
+flag:
+  - outdoors

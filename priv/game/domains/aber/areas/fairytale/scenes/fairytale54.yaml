@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale60"
+      north:
+        target: "scene:aber:fairytale:fairytale42"
+      south:
+        target: "scene:aber:fairytale:fairytale55"
+      west:
+        target: "scene:aber:fairytale:fairytale34"
+    short: Fairyville
+    sight: >
+      You stand at the entrance to Fairyville. The village spreads out to your south, the playground is to the
+      north, and the Fairyville Church stands to the west. To the east is a lake, and you see a sailboat
+      slowly moving across it.
+flag:

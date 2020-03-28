@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere55"
+      east:
+        target: "scene:aber:brookmere:brookmere55x"
+      north:
+        target: "scene:aber:brookmere:brookmere35"
+      south:
+        target: "scene:aber:brookmere:brookmere38"
+      up:
+        target: "scene:aber:brookmere:brookmere56"
+      west:
+        target: "scene:aber:brookmere:brookmere56x"
+    short: The Stairs
+    sight: >
+      You stand at the top of some shallow, neatly carved, geometric stone steps, that lead down and to the
+      east in a square spiral out of sight. There are also steps that come down to your level from the west,
+      before joining the steps going down. Oddly enough, despite the fact that it isn't particularly dark in
+      here you can't tell where either set of steps lead. A step on these steps would be a step into the
+      unknown... There is also a narrow balcony leading around the perimeter of the stairs to an opening
+      leading south, from which you can feel a slight breeze.
+flag:

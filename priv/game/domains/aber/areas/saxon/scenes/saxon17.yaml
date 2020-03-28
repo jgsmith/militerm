@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon14"
+    short: &*The &+BB&+me&+Bd&+mc&+Bh&+ma&+Bm&+mb&+Be&+mr&*
+    sight: >
+      This is the bed chambers of Hrothgar and Wealhtheow. The room's walls are covered in paintings of noble
+      warriors and evil dragons. The furniture is ornamented with gold, showing the wealth of this great
+      kingdom. There is a fireplace in the middle of the southern wall, to help keep the stone room warm for
+      the rulers. The floor is covered with large rugs, all very plush and valuable looking. To the north is
+      the exit back to Heorot.
+flag:
+  - light

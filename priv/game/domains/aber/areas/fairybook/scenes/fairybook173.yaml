@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale99"
+      north:
+        target: "scene:aber:fairybook:fairybook171"
+    short: Throne Room
+    sight: >
+      Your breath is taken away by the sight of the crystal room which you now stand in. Everything in the
+      room is made of crystal, shining in the light which comes from the diamonds in the ceiling. Sitting in
+      the crystal throne which dominates the opposite wall is Glinda, the Good Witch. Her shining gown dazzles
+      you with its brilliance, and she asks if you are ready to go home yet. She waves a hand, and a hole
+      appears in front of her. Down the hole, you can see a library. An exit goes north.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar32"
+      north:
+        target: "scene:aber:balharbor:park1"
+      west:
+        target: "scene:aber:balharbor:balhar30"
+    short: Well-Travelled Road
+    sight: >
+      Now that you're away from the city, to the north lies the town's park which looks untouched by the
+      riots--a welcome change from the horror of destruction. The road continues to the west and east.
+flag:
+  - outdoors

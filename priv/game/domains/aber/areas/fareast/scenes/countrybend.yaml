@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countryb_2"
+      south:
+        target: "scene:aber:fareast:deadroad"
+    short: End of the Road
+    sight: >
+      The road ends abruptly here... since there is no land for it to cross. You stand on the edge of a
+      abyssal gap, the sod and rock torn away from the edge as if scraped out by a titan's foot. Rocks
+      dislodged from the edge tumble for nearly half a minute before hitting the bottom, and you would
+      undoubtedly suffer the same freefall and landing if you were to continue on.
+flag:

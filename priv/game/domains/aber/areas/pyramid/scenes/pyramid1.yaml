@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc19"
+      south:
+        target: "scene:aber:pyramid:pyramid2"
+    short: Path Ends
+    sight: >
+      The path abruptly ends in a field of large rocks. Boulders, some nearly as tall as a man, bar your way.
+      An unrelenting &+Ysun&N beats down upon you and you can taste the dust in the air. Pausing to catch your
+      breath, you spy a small trail to the south imprinted with some tiny tracks. Would it be possible, you
+      wonder, to squeeze between the rocks and continue your journey?
+flag:
+  - nomobiles
+  - outdoors

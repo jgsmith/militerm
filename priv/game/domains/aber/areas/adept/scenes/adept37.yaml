@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept35"
+    short: "A Clown's Quarters"
+    sight: >
+      This is where the court jester resides when he is off-duty. Books of lore and comedy have been neatly
+      placed on a steel rack next to the bed. A fireplace has been shaped into a mouth, and crackling flames
+      silhouette the clown's face that has been drawn around the fireplace and the jester's juggling equipment
+      on the mantle.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds4"
+      south:
+        target: "scene:aber:dragonslueth:ds9"
+      west:
+        target: "scene:aber:dragonslueth:ds13"
+    short: Lush Forest
+    sight: >
+      You have entered a large forest with trees and vines growing everywhere you can see. The ground squishes
+      softly as you walk around. There are exits to the &+Cnorth&*, &+Cwest&* and &+Csouth&*.
+flag:

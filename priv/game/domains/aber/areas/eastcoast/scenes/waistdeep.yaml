@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:kneedeep"
+      south:
+        target: "scene:aber:ledge:ledge53"
+      west:
+        target: "scene:aber:eastcoast:sandybeach"
+    short: In Waist-Deep
+    sight: >
+      With water up to your waist here, you feel tingles run up your spine from the contact with the cool and
+      refreshing sea water. A brisk breeze blows in from the sea, tinged with salt. Gulls and other sea-faring
+      birds fly overhead, circling and turning in some strange dance of the sea. Not too far away to the
+      south, you spy a jetty poking its way into the wavy waters. Noticing the shallow waves, you see the
+      cause in the form of a sand shoal to the east. Unfortunately, the water gets too deep before you could
+      get to it without special means. Looking for exits, you see a way back to the beach to the west, and it
+      also seems possible to walk north, following the shallow waters.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale16"
+      north:
+        target: "scene:aber:fairytale:fairytale15"
+      south:
+        target: "scene:aber:fairytale:fairytale14"
+      west:
+        target: "scene:aber:fairytale:fairytale15"
+    short: Lost in the Fun House
+    sight: >
+      You are lost in the Fun House. Mirrors surround you.
+flag:

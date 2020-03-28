@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: On an Icy Cliff
+    sight: >
+      It appears as though you have lost the help of the genie this time around. Jafar has no lamp, and your
+      doom is most likely sealed. You are stuck miles upon miles away and to make matters worse, you seem you
+      have lost your carpet. You better think quick.
+flag:
+  - light

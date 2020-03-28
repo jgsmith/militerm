@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6766"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6764"
+    short: A short mossy cliff
+    sight: >
+      A four foot grey stone cliff, matted with clumps of green moss and overhung with tall bending trees, is
+      easily scaled by handy footholds in the rock. The place looks well-travelled by some hardy population of
+      small-footed creatures. One path continues in a north-south vein over the cliff, another breaks off and
+      leads east.
+flag:
+  - outdoors

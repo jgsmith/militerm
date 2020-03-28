@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house14"
+      west:
+        target: "scene:aber:playhouse:house16"
+    short: Master Bedroom
+    sight: >
+      You are in the master bedroom of this house. A large, luxurious bed takes up the northern wall along
+      with the nightstands that are to the left and right of it. There is a large fireplace set into the
+      southern wall with several pictures placed on top of the mantle. There is also a small fish tank on top
+      of the mantle and a beautiful Beta fish swims around showing off his glourious floating fins. To the
+      east is a baby room or you can leave to the west.
+flag:

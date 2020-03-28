@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon35"
+      up:
+        target: "scene:aber:talon:talon37"
+    short: Base of North Tower
+    sight: >
+      You stand at the base of what appears to be a fairly small lookout tower. Stairs lead up to the top of
+      the tower, and an exit to the south leads to a large hall.
+flag:
+  - nomobiles

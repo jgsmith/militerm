@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord14"
+    short: Debris-Ridden Beach
+    sight: >
+      This is where the flotsam of the lake generally end up, as does most litter from picnickers. Some
+      fragments of faded red cloth from an old towel and oxidized links from a now defunct suit of chain mail
+      lay partially buried by the sand. Many discarded sand dollar shells, broken and splintered, dot the area
+      as well. A long, thick pine tree blocks any further progress to the southerly directions. It was
+      deliberately placed here to form a &+ydam&* centuries ago and has petrified since; the rocky minerals
+      sparkle like quartz. The sand here is dirtier because of the strewn mess.
+flag:
+  - outdoors

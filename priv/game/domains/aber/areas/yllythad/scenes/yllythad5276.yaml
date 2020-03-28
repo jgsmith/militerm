@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5271"
+      north:
+        target: "scene:aber:yllythad:yllythad5007"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6797"
+      west:
+        target: "scene:aber:yllythad:yllythad5281"
+    short: A Gentle Breeze
+    sight: >
+      The fresh breeze that blows past is a calm, gentle one that can only be called dreamy. A sailor in these
+      winds would gladly lie on the deck of his ship with his tankard of grog beside and happily think of the
+      whores he has known, never once having the desire or need to get up and work.
+flag:
+  - onwater
+  - outdoors

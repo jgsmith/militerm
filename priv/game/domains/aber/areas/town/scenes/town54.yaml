@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town55"
+      south:
+        target: "scene:aber:town:town50"
+    short: "The King's Road"
+    sight: >
+      You stand on the King's Road. It leads north, directly to the Castle of Pensalon. The road continues
+      south into the woods that you can just make out off in the distance.
+flag:
+  - outdoors

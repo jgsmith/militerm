@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon30"
+      west:
+        target: "scene:aber:talon:talon29"
+    short: The Mist
+    sight: >
+      You are lost in a dreamworld of pure white. If death were to meet you in this land, its only warning
+      would be the ceasing of existence it would bring. The mist seems to become darker to the east.
+flag:

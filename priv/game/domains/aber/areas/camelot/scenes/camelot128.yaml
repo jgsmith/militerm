@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot129"
+      west:
+        target: "scene:aber:camelot:camelot127"
+    short: The Tunnel Continues
+    sight: >
+      Your feet and legs are beginning to protest at this crazy hike. Do you think there will be something
+      worth all this at the end of the tunnel?
+flag:
+  - dark

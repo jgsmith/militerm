@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:atlantis:atlantis53"
+    short: Secluded Niche
+    sight: >
+      The water does end abruptly here, and you drop to the floor, no longer supported by the water. Looking
+      around you find yourself in a smooth cavern, that doesn't look like the rough cave passages you've seen
+      earlier. The floor of the cavern is covered with sand too, instead of the hard stone tunnel floor in the
+      rest of the cave passages. You can jump back into the water to the north.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:s_aisle3"
+      north:
+        target: "scene:aber:cathedral:crossbay"
+      south:
+        target: "scene:aber:cathedral:s_porch"
+      west:
+        target: "scene:aber:cathedral:s_aisle2"
+    short: Southern End of the Transept
+    sight: >
+      To your north lies the crossing bay, and the nave. South of here is an open portal onto the southern
+      porch. The Aisle stretches out to the east and west, parallel to the nave.
+flag:
+  - dark

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5525"
+      east:
+        target: "scene:aber:graye:graye5525"
+      up:
+        target: "scene:aber:graye:graye5523"
+      west:
+        target: "scene:aber:graye:graye5525"
+    short: Hanging By a Thread
+    sight: >
+      As you reach for your next handhold, the rock comes loose and tumbles down, down, down to the ground.
+      You barely manage to save yourself by clinging desperately to the rock face with your other hand.
+      Returning back west is out of the question, but you might be able to pull yourself upwards onto a very
+      thin &+Cledge.
+flag:
+  - outdoors
+  - cold

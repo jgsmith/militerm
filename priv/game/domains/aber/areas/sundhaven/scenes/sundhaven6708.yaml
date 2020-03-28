@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6693"
+    short: A dwelling perched precariously on the edge
+    sight: >
+      This home is so tenuously held to the brink of stone and mud that you have to wonder how long before the
+      rains carry it over the edge. However, if a god assures you it is safe, it must be.... right? You trust
+      us, don't you?
+flag:

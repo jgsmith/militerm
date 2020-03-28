@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+    short: Armoury
+    sight: >
+      You are in a small dwarven armoury. Strange, cobwebs adorn the walls... except for the northern wall. A
+      door leads to the south.
+flag:
+  - dark

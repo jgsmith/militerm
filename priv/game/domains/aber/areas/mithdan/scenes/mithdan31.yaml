@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan32"
+      west:
+        target: "scene:aber:mithdan:mithdan30"
+    short: In the clouds
+    sight: >
+      The clouds swirl around you, and the snow whips with stinging force into your face. The dampness of the
+      clouds soaks into your clothes, only to be frozen by the cold wind. The trail dissapears into the clouds
+      to the east, and slops back down the mountain to the west.
+flag:
+  - outdoors
+  - cold

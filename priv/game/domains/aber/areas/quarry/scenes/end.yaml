@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:quarry:ladder_uu"
+    short: "Tunnel's End"
+    sight: >
+      You are at the end of a small tunnel, at what appears to be an abandoned face. The only way back is
+      westwards.
+flag:
+  - dark

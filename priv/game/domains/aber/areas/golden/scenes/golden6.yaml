@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:golden:golden5"
+      west:
+        target: "scene:aber:golden:golden7"
+    short: Steep Slope
+    sight: >
+      After passing through the peaceful clearing you venture down a slope filled with loose rocks and mud.
+      Carefully inching your way down, you nearly slip and tumble down the slope. Many vines hang down from
+      high tree branches that sway above your head.
+flag:
+  - outdoors

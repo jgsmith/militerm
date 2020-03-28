@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia18"
+      south:
+        target: "scene:aber:eosia:eosia21"
+    short: The Shore
+    sight: >
+      You stand on the shore of Elenia facing south looking out over the waters of the Inner Sea. Water laps
+      the ground at your feet and the smell of salt water fills the air. You can make out the sounds of
+      seagulls flying high overhead. A gentle breeze is blowing in off the water, carrying with it, the smells
+      of the ocean.
+flag:
+  - outdoors
+  - hot

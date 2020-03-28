@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot25"
+      south:
+        target: "scene:aber:camelot:camelot33"
+      west:
+        target: "scene:aber:camelot:camelot26"
+    short: The Fountain
+    sight: >
+      Sitting in the middle of a small clearing, a lovely fountain chuckles and sparkles in the sunlight.
+      Examining it, you see that it is carved to show King Arthur pulling the sword from the stone.
+flag:
+  - outdoors

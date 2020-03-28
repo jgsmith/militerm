@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot59"
+      north:
+        target: "scene:aber:camelot:camelot77"
+      west:
+        target: "scene:aber:camelot:camelot78"
+    short: The Western Road
+    sight: >
+      The uncobbled road stretches out into the distance. To the east lies a small village, while far to the
+      west you can see a tavern. Brambles and nettles prevent you from exiting to the south, but it might be
+      possible to leave the road on the north side.
+flag:
+  - outdoors

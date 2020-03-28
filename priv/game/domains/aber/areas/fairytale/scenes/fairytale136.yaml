@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:fairytale:fairytale137"
+    short: Secret Stairs
+    sight: A staircase rises into the room above you.
+flag:
+  - nomobiles

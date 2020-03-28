@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis44"
+      north:
+        target: "scene:aber:atlantis:atlantis40"
+    short: Sandy Passage
+    sight: >
+      The walls of the castle extend along the western side, save for an opening off to the west, which is
+      being guarded. It appears that nobility live in that section and only come out infrequently, though you
+      notice a great deal of servants entering. At the moment a swordfish is exiting the passage on his way
+      toward the throne room to the east. Following the walls of the castle north you will encounter one of
+      the sand towers.
+flag:
+  - underwater

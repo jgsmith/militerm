@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dcave4"
+      south:
+        target: "scene:aber:fantasy:dcave2"
+    short: Dwarf Mine
+    sight: >
+      The mine has gotten a little darker now that you are past the entrance. It is a little colder too and
+      you shiver slightly and look around. You can see that the mine leads onward to the north and you can see
+      the entrance to the south.
+flag:
+  - dark

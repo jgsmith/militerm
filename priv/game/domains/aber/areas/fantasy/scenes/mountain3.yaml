@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fantasy:mountain2"
+      up:
+        target: "scene:aber:fantasy:mountain4"
+    short: Vines leading up the mountain
+    sight: >
+      You are climbing up a large set of vines that leads up the side of the mountain. The vines continue to
+      the north and to the south is a path.
+flag:
+  - outdoors

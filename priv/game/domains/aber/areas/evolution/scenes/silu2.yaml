@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:silu1"
+      up:
+        target: "scene:aber:evolution:devo1"
+      west:
+        target: "scene:aber:evolution:silu3"
+    short: Amongst The Weed
+    sight: >
+      Long waving fronds of seaweed brush against you as you make your way across the sea bed. You take great
+      care about where you put your feet - you are only too aware of the chances of getting nipped by a
+      eurypterid's pincers. To the west and south the weed is less tangled and the going looks easier.
+flag:
+  - soundproof
+  - underwater

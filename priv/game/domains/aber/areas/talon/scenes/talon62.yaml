@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:talon:talon22"
+    short: You Went too Far
+    sight: >
+      Attempting to scale a 90 degree slope with no rope, and no clue, you P L U M M E T into the
+      immeasureable depths, plunging through the mist, before collecting your reward of cold sharp granite for
+      all you have done in life.
+flag:
+  - death

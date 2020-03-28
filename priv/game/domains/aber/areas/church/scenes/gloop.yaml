@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: Gloop
+    sight: You sink into the treacherous marsh with a gloop!
+flag:
+  - death

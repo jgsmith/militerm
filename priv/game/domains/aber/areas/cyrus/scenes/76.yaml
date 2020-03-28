@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:75"
+      north:
+        target: "scene:aber:cyrus:7"
+    short: Toward a cave in the mountain
+    sight: >
+      You are standing before the entrance of a cave in the mountain. Vegetation seems to die away when you
+      approach the cave. You can feel evil coming from the cave. It seems to be a very dark cave. You better
+      watch your soul when you're in there. A cave lies north of here. The trail goes back to the east from
+      here.
+flag:
+  - outdoors

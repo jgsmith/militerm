@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_37"
+    short: "Lair of the Jack O' Lantern Demon"
+    sight: >
+      Oh MAN! This place is a sugar addicts HEAVEN! Candy wrappers line the floor, and sacks and sacks of
+      goodies are piled to the ceiling. As your eyes move over the wonderous sight, they come to rest on a
+      enourmous pumpkin. His body is perfectly carved, and his eyes radiate a greenish light. He is stuffing
+      candy down at a great rate of speed. So, this must be the infamous Jack O' Lantern Demon!
+flag:

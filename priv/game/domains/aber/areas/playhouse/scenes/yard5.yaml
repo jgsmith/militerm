@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:playhouse:yard2"
+      west:
+        target: "scene:aber:playhouse:yard4"
+    short: Teeter-Totters
+    sight: >
+      This is where the teeter-totters reside in the playyard. The teeter- totters are painted a bright
+      &+Ylemon-yellow&*. They remind you of all the fun you used to have on these contraptions when you were
+      just a wee one. The chainlink fence blocks your passage to the north and east. To the south you can go
+      play in the sandbox. Of course you could always decide to go to the west and play on the swings.
+flag:
+  - outdoors

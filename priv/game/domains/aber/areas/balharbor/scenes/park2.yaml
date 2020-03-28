@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park3"
+      north:
+        target: "scene:aber:balharbor:park5"
+      south:
+        target: "scene:aber:balharbor:balhar32"
+      west:
+        target: "scene:aber:balharbor:park1"
+    short: City Park
+    sight: >
+      Not much different from the rest of the park, lots of trees and green grass, some birds chirping, bugs
+      buzzing, people talking a walk. Some quacking can be heard to the north where there's a pond.
+flag:
+  - outdoors

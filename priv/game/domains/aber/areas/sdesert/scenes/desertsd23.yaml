@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd24"
+      north:
+        target: "scene:aber:sdesert:desertsd23"
+      south:
+        target: "scene:aber:sdesert:desertsd23"
+      west:
+        target: "scene:aber:sdesert:desertsd22"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction, a rugged terrain reminding you of the moon. The mountains
+      to the &+Ceast&* are snow-capped, and rocky.
+flag:
+  - outdoors
+  - hot

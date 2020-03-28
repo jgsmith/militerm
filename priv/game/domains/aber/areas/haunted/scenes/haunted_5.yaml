@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_7"
+      north:
+        target: "scene:aber:haunted:haunted_6"
+      south: null
+    short: Living Room
+    sight: >
+      Oh MAN! This place could use some maid service! Trash is scattered all over the room, and red splashes
+      cover the once white walls. The sofa and chairs are ripped up, and the TV has been thrown against the
+      wall, leaving a huge hole in it. You hear a loud screeching noise coming from beneath your feet. Hmmm,
+      sounds like it's coming from the basement.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pirate:pirate11"
+    short: "Captain's Quarter's"
+    sight: >
+      You are in a tight room, but realize it is large for one person's quarters on a ship. There is a bunk, a
+      coule of chairs, a small table, and a liquor cabinet.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:forest_path3"
+      south:
+        target: "scene:aber:undead:forest_path1"
+    short: Forest Path
+    sight: >
+      The hacked path continues to the &+Csouth&* and &+Cnorth&*. A considerable amount of effort has been put
+      into creating this path. The only unusual feature of this path is a large muddy pool right in the middle
+      of what is normally forest floor.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:lost:lost5"
+      up:
+        target: "scene:aber:eastcoast:rbend"
+    short: Rocky Climb
+    sight: >
+      The path turns into a muddy but rocky ground here as the ocean meets the cliff. The abandoned path
+      climbs upward to the top of the cliff, or goes eastward across the sound to a faintly seen land.
+flag:
+  - outdoors

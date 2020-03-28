@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      east: null
+      up:
+        target: "scene:aber:eirias:balustrade"
+    short: Staircase
+    sight: >
+      The stairs seem to wind endlessly up and up. You feel like you have been on the stairs forever.
+flag:
+  - dark

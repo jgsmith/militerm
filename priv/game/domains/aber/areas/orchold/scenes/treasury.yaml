@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "King Orc's Treasury"
+    sight: >
+      This is apparently where the King Orc likes to store his valuables. The room itself is quite plain, and
+      the layer of dust over everything indicates that the king probably hasn't had very many additions to his
+      collection recently.
+flag:
+  - dark

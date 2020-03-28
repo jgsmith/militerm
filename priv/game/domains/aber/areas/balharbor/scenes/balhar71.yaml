@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar67"
+    short: A House
+    sight: >
+      Oh, man look at this place! Smashed windows, glassware, wooden doors, even the walls totally busted up
+      into itty-bitty pieces! Why would someone want to do this? The wrath they hold deeply within themselves
+      drove them into insane human wrecking machines destroying everything in their path-- nothing was spared
+      from that destruction as you can see here. The home, built with the owner's life savings gained through
+      hard work and investment is now a wreck and uninhabitable. Whoever the scum that did this must pay and
+      pay dearly for his crime! This heart-breaking scene can be left to the east through the front door, uh,
+      looks like that was ripped off the hinges.
+flag:

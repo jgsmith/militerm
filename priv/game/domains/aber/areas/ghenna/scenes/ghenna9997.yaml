@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9924"
+      east:
+        target: "scene:aber:ghenna:ghenna9953"
+      north:
+        target: "scene:aber:ghenna:ghenna9912"
+      south:
+        target: "scene:aber:ghenna:ghenna9911"
+      west:
+        target: "scene:aber:ghenna:ghenna9985"
+    short: The lair of the Deepspawn.
+    sight: >
+      You have entered a 20 foot square opening that appears to be a lair of some sort. Bones lie strewn about
+      in every corner - most of them appear to be human bones. A big pile of treasure sits in the center of
+      the room covered with the red mucus that lines the walls here. Exits lead in all cardinal directions.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis63"
+      north:
+        target: "scene:aber:atlantis:atlantis66"
+    short: Smooth Turn
+    sight: >
+      While the tunnels you have been recently seeing have been extremely rough, you have just entered a
+      tunnel that is completely smooth. The sides of the tunnel have been rubbed smooth by some force.
+      Touching the walls gives a glassy feeling to them, even though you know that the walls around you are
+      stone. You can swim either north or east along the corridor.
+flag:
+  - dark
+  - underwater

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:royal"
+      south: null
+      west:
+        target: "scene:aber:cathedral:church"
+    short: Path to the &+RCathedral&*
+    sight: >
+      As you step onto the path, you see a towering giant to the east. The cathedral rises high into the air,
+      its twin towers soaring above even the &+Lstorm&* clouds which brew overhead, and add an air of
+      &+ggloom&* to the place. Strong winds lash at your flesh, urging you away. A wall of &+Gbushes&* looms
+      to the south.
+flag:
+  - light
+  - outdoors

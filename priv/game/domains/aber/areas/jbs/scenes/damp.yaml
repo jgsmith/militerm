@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:steep"
+      north:
+        target: "scene:aber:jbs:tunnel"
+      south:
+        target: "scene:aber:jbs:end"
+      west:
+        target: "scene:aber:jbs:steep"
+    short: Damp Intersection
+    sight: >
+      The tunnel is intersected here by another tunnel that is coming up from the west. The dirt is fairly wet
+      here and there are small drop of water dripping slowly from the ceiling in some places. Someone must be
+      watering the garden above you.
+flag:
+  - dark

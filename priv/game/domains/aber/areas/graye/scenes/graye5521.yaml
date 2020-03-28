@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5520"
+      east:
+        target: "scene:aber:graye:graye5522"
+    short: The Overhang
+    sight: >
+      You progress upwards is stopped by what appears to be an overhang. It would be a nice place to stop an
+      rest..if you weren't underneath it. You glance around for an alternate path..
+flag:
+  - outdoors
+  - cold

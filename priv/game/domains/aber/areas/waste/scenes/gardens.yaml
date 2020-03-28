@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:passage"
+    short: Burning Gardens
+    sight: >
+      You are standing in a wide open room. The ceiling ends in a fancy wave of rolled gold, which artfully
+      reflects the fiery red skies down across the pools of molten metal which form the centerpiece of the
+      room. The light from the skies and the molten pits flickers around the room, flashing off the polished
+      and carved golden walls.
+flag:
+  - hot

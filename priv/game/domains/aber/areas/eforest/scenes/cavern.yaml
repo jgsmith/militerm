@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:glowing"
+      north:
+        target: "scene:aber:eforest:elf"
+      south:
+        target: "scene:aber:eforest:barracks2"
+      up:
+        target: "scene:aber:eforest:ladder"
+      west:
+        target: "scene:aber:eforest:barracks"
+    short: Cavern of the Dark Elves
+    sight: >
+      You have entered an enormous cavern. You are awed by the vastness of this room. As you acclimate to this
+      dark, damp environment, you remember of the ancient legends you have heard of a dark race of elves
+      living below the surface. Surely, this is their realm! Looking around you, this assumption is upheld by
+      the many dark shapes you see moving in the shadows. You should move through these realms quickly. Surely
+      the dark shapes would overwhelm you by numbers if you stayed here too long. Exits leave this cavern to
+      the North, West, South and East, while a ladder leads up.
+flag:
+  - dark

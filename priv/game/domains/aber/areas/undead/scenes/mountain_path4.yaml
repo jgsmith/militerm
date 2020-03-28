@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:mountain_path2"
+      up:
+        target: "scene:aber:undead:mountain_path5"
+    short: End of Moutain Path
+    sight: >
+      You stand at the base of a steep mountain path which meanders &+Cup&* the side of the mountain. There is
+      little else of interest here other than the path to the &+Csouth&*.
+flag:
+  - outdoors

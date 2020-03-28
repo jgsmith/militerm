@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6074"
+      north:
+        target: "scene:aber:haondor:sundforest6078"
+      south:
+        target: "scene:aber:haondor:sundforest6072"
+    short: A Shaded Path Through The Forest
+    sight: >
+      You are on a small shaded path leading between the trees. The forest gradually becomes more dense to the
+      west, and to the northwest the terrain is quite &+Ghilly&*. The path continues north and south. To the
+      east you see a trail winding through the younger section of the forest.
+flag:
+  - real
+  - outdoors

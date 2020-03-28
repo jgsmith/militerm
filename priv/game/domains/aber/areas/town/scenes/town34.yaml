@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town32"
+    short: The Playhouse
+    sight: >
+      This is the Playhouse where anyone's wildest dreams may be fulfilled by any means. There are many
+      devices here that look very familiar to you, from past experiences and many whose functions you cannot
+      even begin to fathom. The only exit is back to the east, where the main hallway is.
+flag:
+  - party
+  - peaceful
+  - nomobiles

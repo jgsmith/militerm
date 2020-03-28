@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house21"
+      south:
+        target: "scene:aber:playhouse:house19"
+    short: Costume Room
+    sight: >
+      This room looks to be designed souly to hold the various costumes the children use on the holiday
+      Halloween. Hanging in rows after rows are various costumes of all sorts. From the all important &+RDevil
+      &*outfit, to the &+Wwedding gown&*. All made in childrens sizes, some cute, some ugly, some small, some
+      fat. It makes you wish that you were a child again just so that you could put one on. The pathway leads
+      to the east and south from here.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      north: null
+      south:
+        target: "scene:aber:newbee:newbee18607"
+      west:
+        target: "scene:aber:newbee:newbee18602"
+    short: A Nexus
+    sight: >
+      Well... you've reached an intersection of two passages, to the north and east, the passage brightens,
+      while the darker hallway continues to the south.
+flag:

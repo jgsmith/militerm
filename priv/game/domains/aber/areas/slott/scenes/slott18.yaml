@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:slott:slott46"
+      west:
+        target: "scene:aber:slott:slott17"
+    short: Backyard
+    sight: >
+      The backyard is filled with garbage, piles of decomposed food, old clothes, broken furniture, and a lot
+      of stuff that you can't recognize. The smell is awful and you wonder why nobody has cleaned this mess
+      up.
+flag:
+  - outdoors

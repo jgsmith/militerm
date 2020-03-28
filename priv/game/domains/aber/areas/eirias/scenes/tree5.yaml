@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree6"
+      south:
+        target: "scene:aber:eirias:tree4"
+    short: Fifth Tree - Holly
+    sight: >
+      The tree has a smooth grey trunk, it glossy dark green leaves sharp-spined on the lower branches, and
+      smooth ovals higher up.
+flag:
+  - outdoors

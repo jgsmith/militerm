@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:kastle:17"
+    short: On the Chain
+    sight: >
+      You are hanging from the chain over the sewage pit. You could climb down from here into the pit before
+      it fills again or you could just hang here for the rest of your mortal life. Well?.. get going.
+flag:
+  - dark
+  - oneperson
+  - soundproof
+  - nomobiles
+  - nosummon

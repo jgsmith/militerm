@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere44"
+      north: null
+      south: null
+      west:
+        target: "scene:aber:brookmere:brookmere48"
+    short: Small Room
+    sight: >
+      This room is much like the tunnels you have just passed through, only this room has smoke stains on the
+      roof and torches spaced evenly along the walls in metal holders. Not all of them are lit and those that
+      are are of different types; some are new and green, some old and splintery, some blackend and burnt down
+      to almost nothing. There are doors to both the north and south. There is another, larger room to the
+      west.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung75"
+      west:
+        target: "scene:aber:nibelung:nibelung73"
+    short: Musty Corridor
+    sight: >
+      You are in a very dank, smelly, musty, {fill in adjective here}, hallway which leads to a room to the
+      east, or into a damp tunnel to the west. Moss grows upon the walls, and calcite adorns the floor in
+      various spots. Water is beginning to seep into your boots, wetting your toes a little.
+flag:
+  - dark

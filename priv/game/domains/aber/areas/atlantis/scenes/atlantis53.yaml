@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis56"
+      south:
+        target: "scene:aber:atlantis:atlantis54"
+      west:
+        target: "scene:aber:atlantis:atlantis52"
+    short: Craggy Intersection
+    sight: >
+      The rough walls of the cave split off into three directions here. The passage to the south is very odd
+      looking, as it appears the water ends abruptly. A small trickle of light enters in from the passage to
+      the west and the passage becomes much darker to the east.
+flag:
+  - underwater

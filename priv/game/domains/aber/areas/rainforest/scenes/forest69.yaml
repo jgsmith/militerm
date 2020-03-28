@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest68"
+      south:
+        target: "scene:aber:rainforest:forest70"
+      west:
+        target: "scene:aber:rainforest:forest67"
+    short: By The Pool
+    sight: >
+      You are standing by the side of yet another secluded pool. You catch a glimpse of a turtle's smooth
+      shell disappearing beneath the surface of the water, and one or two silvery flashes betray the presence
+      of small fish in the shallows. The pool lies to the east but you can go in any other direction.
+flag:
+  - outdoors
+  - rainforest

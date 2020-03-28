@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:carnage1"
+      west:
+        target: "scene:aber:cathedral:cryptent"
+    short: &+RCarnage &+LHall
+    sight: >
+      Row upon row of chairs stretch out around you, and a tiny faraway stage commands your attent... Oh..
+      thats Carnagie Hall.. My mistake... You stand among more of the same decaying mess as you see to the
+      north. An exit to the west looks slightly more inviting.
+flag:
+  - dark

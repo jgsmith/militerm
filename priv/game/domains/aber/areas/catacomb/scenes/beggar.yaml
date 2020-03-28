@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:catacomb:stairs"
+      east:
+        target: "scene:aber:catacomb:east"
+      north:
+        target: "scene:aber:catacomb:north"
+      south:
+        target: "scene:aber:catacomb:south"
+      up:
+        target: "scene:aber:catacomb:23"
+      west:
+        target: "scene:aber:catacomb:west"
+    short: "The Beggar's Room"
+    sight: >
+      You are in a large, rectangular room. There is a feeling of anticipation to this place. Doorways lead in
+      all directions, above each is an inscription. The northern inscription reads "Charity", the eastern says
+      "Faith", to the south lies "Wisdom", and "Courage" can be found to the west. It seems there is no "Hope"
+      ... A spiral staircase runs up and down in the north-east corner of the room.
+flag:

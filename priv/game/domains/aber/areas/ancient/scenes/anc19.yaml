@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc18"
+      west:
+        target: "scene:aber:pyramid:pyramid1"
+    short: River Bank
+    sight: >
+      You stand on a slippery river bank watching carefully where to step to avoid slipping down to the river.
+      The water is calm and quite warm, but a strange feeling inside makes you decide not to take a bath.
+      There are paths leading north and west from here.
+flag:
+  - outdoors

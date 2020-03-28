@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+    short: "Scrytin's Chamber of Doom"
+    sight: >
+      This chamber is COVERED in blood. The Arch-Demon Scrytin has made this foul place his abode. There is an
+      Ivory door to the east.
+flag:
+  - dark

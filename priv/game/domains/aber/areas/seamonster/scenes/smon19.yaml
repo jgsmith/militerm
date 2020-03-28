@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon20"
+      north:
+        target: "scene:aber:seamonster:smon22"
+      south:
+        target: "scene:aber:seamonster:smon22"
+      west:
+        target: "scene:aber:seamonster:smon18"
+    short: Calm sea
+    sight: >
+      You are swimming in wonderful warm water. The high waves aren't disturbing you in any way. When you look
+      in the north and south directions, they don't look so horrible, but many turbulences and sharp rocks are
+      there. As you see further to the east, you see something huge lying on an island. You can't imagine what
+      it could be.
+flag:
+  - onwater

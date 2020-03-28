@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach24"
+      west:
+        target: "scene:aber:beach:beach27"
+    short: Paradise
+    sight: >
+      The island continues to west and north from here, it's sights are so pleasant, and your worries are
+      gone. Just relax, and take in your surroundings.
+flag:
+  - outdoors

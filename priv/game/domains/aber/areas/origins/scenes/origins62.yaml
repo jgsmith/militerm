@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins60"
+    short: "Apollo's Hemisphere"
+    sight: >
+      This area of the city is bare of all trees. On the contrary, the edifices here are well-built and offer
+      excellent shelter. Many dead bodies lay about, among them both naked ones and well-equipped ones. The
+      naked ones have apparently been killed by weapons from the well-equipped beings. The well-equipped
+      bodies have obviously been slain by primitive tools and weapons. There is but a single living being
+      here. A lonely, blood-stricken road leads east into the City.
+flag:
+  - outdoors

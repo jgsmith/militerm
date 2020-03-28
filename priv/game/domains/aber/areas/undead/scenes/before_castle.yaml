@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path1"
+      south:
+        target: "scene:aber:undead:moss_maze6"
+      west:
+        target: "scene:aber:undead:stony_path20"
+    short: Before The Castle
+    sight: >
+      You finally emerge from the mist and find yourself staring at a magnificent castle. The sun glints
+      brightly off gold coloured tiles on the towers. Whoever lives here obviously has way too much money -
+      maybe you should relieve them of some of it. The only problem is a moat surrounding the entire castle.
+flag:
+  - outdoors

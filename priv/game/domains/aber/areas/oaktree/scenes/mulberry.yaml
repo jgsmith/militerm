@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:magnolia"
+      west:
+        target: "scene:aber:oaktree:elm"
+    short: Mulberry Tree
+    sight: >
+      Some branches of the mulberry tree reach and overhang a high fortress-like wall to your east. Over the
+      wall you can see a magnolia, from whose black branches spring pulpy white flowers and shiny dark leaves.
+flag:
+  - outdoors

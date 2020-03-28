@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass95"
+      north:
+        target: "scene:aber:grass:grass108"
+      west:
+        target: "scene:aber:grass:grass94"
+    short: Rutted Track
+    sight: >
+      The path seems to bank eastward here, though you can barely tell with this tall grass. Northward the
+      path goes as far as the eye can see, with trees barely visible in the distance all around.
+flag:
+  - outdoors

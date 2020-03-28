@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:sommerlund:sommerlund34"
+    short: Tower Base
+    sight: >
+      The cold, dark basement is rather well-kept. The floor is practically dust-free, and no cobwebs decorate
+      the ceiling or walls. A musty odor is slightly evident in the atmosphere, due to the fact that air
+      circulation isn't exactly tip-top in this tower. However, there is an impressive engineering feat set on
+      the southern wall.
+flag:
+  - dark

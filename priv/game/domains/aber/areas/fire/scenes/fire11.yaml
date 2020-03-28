@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire8"
+    short: "Gruoch's workroom"
+    sight: >
+      You are standing in Gruoch's workroom. As you can see to be ranked as a Knight is not only fun, but hard
+      administrating work too. But in this time it is looking very chaotic. Papers are laying all around,
+      under a hill of papers you can see a desk and a &+Cbed&*. Sir Gruoch is totally down of missing his son.
+      He paid so much money already to everyone who said he will look for his son, but no responce untill now.
+      You can go back to the living room.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:oaktree17"
+      south:
+        target: "scene:aber:oaktree:fig"
+      west:
+        target: "scene:aber:oaktree:olive2"
+    short: Olive Tree
+    sight: >
+      You find that the olive trees make comfortable and easy passages for you, in spite of the scarcity of
+      thick branches. The grove extends to the east and west.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale67"
+      north:
+        target: "scene:aber:fairytale:fairytale68"
+      south:
+        target: "scene:aber:fairytale:fairytale65"
+    short: Cave Mouth
+    sight: >
+      The river flows through a hole in the ground here, which is easily eight feet in diameter. Above the
+      hole hangs a cloud of mist, and a rainbow arcs through the cloud. The river roars as it plunges through
+      the hole, and feel yourself slowly growing deaf. Through the cloud you can vaguely make out the entrance
+      to a cave.
+flag:

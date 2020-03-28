@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden1"
+      south:
+        target: "scene:aber:windy:windy1"
+      up:
+        target: "scene:aber:balharbor:jungle2"
+    short: Trail Through the Boulders
+    sight: >
+      Just managing to squeeze through the boulders, a path heads up a steep rocky hill going eastward. Not
+      being a difficult climb, it would be worthwhile to climb up to the cliff overhead. Looking in all other
+      directions there's lots of trees. Another path leads south.
+flag:
+  - outdoors

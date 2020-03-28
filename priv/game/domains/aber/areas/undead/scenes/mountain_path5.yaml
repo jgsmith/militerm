@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:undead:mountain_path4"
+      up:
+        target: "scene:aber:undead:mountain_path6"
+    short: On the Mountain Path
+    sight: >
+      The sun shines brightly, the birds sing joyfully, little squirrels run around doing what little
+      squirrels do. It is very beautiful here. You feel relaxed as you bask in the eternal evening
+      &+Ysunshine&*. You watch as the odd bumblebee flits amongst the flowers. When you finally manage to tear
+      your eyes away from the wonders around you, you notice the path goes both &+Cup&* and &+Cdown&* from
+      here.
+flag:
+  - outdoors
+  - fastheal

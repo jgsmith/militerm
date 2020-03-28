@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest61"
+      west:
+        target: "scene:aber:rainforest:forest60"
+    short: Damp Grove
+    sight: >
+      There is a smell of rotting vegetation here. You try to take stock of your surroundings but you are
+      constantly plagued by clouds of mosquitos. What is worse, you are thigh-deep in water and in your
+      tortured imagination you come to believe that a host of leeches is now feeding on your legs. To the
+      north and east is deeper water, so you resolve to head in a drier direction.
+flag:
+  - outdoors
+  - rainforest

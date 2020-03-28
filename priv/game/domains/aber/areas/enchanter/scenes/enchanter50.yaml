@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:enchanter:enchanter49"
+    short: The Control Room
+    sight: >
+      You must be immortal to have made it this far... But actually, this control room has no controls in it.
+      All the dials and levers and switches you see here are illusions, meant to fool the poor mortals on the
+      other side of the machine room. Hee hee...
+flag:
+  - party
+  - private

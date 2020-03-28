@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:btower135"
+      up:
+        target: "scene:aber:balharbor:btower72"
+    short: Guarded Entrance
+    sight: >
+      You have come upon a guarded door, and the individual guarding it doesn't look receptive of you. If
+      you're thinking of fleeing the tower now, the way out starts here if you know the way out. The corridors
+      don't seem to be any different leading away from here than anyplace else--I guess this was how they kept
+      well-armed intruders from making it down here to avoid confrontations.
+flag:
+  - nomobiles

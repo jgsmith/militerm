@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Inside The Cabin
+    sight: >
+      You are inside a small one-room cabin made entirely from heavy logs. It is very sparsely furnished,
+      containing only the most basic housekeeping equipment, such as &+Ca bed, a chair and a table.
+flag:

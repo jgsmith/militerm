@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot268"
+    short: The Balcony
+    sight: >
+      Standing on the balcony, you can look out over the yards below, and over the wall. Far off to the south,
+      there lies the castle of Camelot, the seat of King Arthur. Nearer at hand lies a small village, to the
+      southwest.
+flag:
+  - outdoors

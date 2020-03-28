@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd13"
+      south:
+        target: "scene:aber:sdesert:desertsd19"
+    short: The Foothills
+    sight: >
+      With the worst of the mountains to the &+ynorth&*, the trail here becomes easier. Far off to the east
+      you think you see blue. to the &+ysouth&* the dusty road continues.
+flag:
+  - outdoors
+  - hot

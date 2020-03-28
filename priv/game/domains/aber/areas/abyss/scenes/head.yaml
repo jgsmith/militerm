@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:wicket"
+      up:
+        target: "scene:aber:abyss:city"
+    short: Bridge Head
+    sight: >
+      This is the southern end of a bridge, which crosses a dark chasm. The bridge is made of spider webbing,
+      but is far from fragile. The main cables supporting the bridge are as big as a man's forearm. It's
+      enough to make you wonder what kind of spider could make such silk.
+flag:
+  - nosummon

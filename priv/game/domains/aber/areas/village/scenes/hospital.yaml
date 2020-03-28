@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:village:track"
+    short: The Village Hospital
+    sight: >
+      You are in the waiting room of the hospital. On the south wall is a door with a sign reading "Emergency"
+      above it. From the sounds coming from within, it seems as if the doctors are frantically trying to save
+      someone. Sitting in the corner is a rather expensive looking machine that goes...&+YPING&*
+flag:
+  - peace
+  - nomobiles

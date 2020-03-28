@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3415"
+      north:
+        target: "scene:aber:grave:grave3404"
+      south: null
+      west:
+        target: "scene:aber:grave:grave3416"
+    short: On the steps of the Old Church
+    sight: >
+      You are standing on the steps of an old church. The church looks very old and is in decay. You have the
+      impression that the church is not nearly what is used to be, as you have the distinct feeling that evil
+      now lies within. It is very quiet here. There is a massive wooden door south. The door has been
+      desecrated with unknown markings. You can peek through the &+Cglass&* or check out the &+ybenches.
+flag:
+  - outdoors

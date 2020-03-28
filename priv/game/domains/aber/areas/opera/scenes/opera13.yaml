@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:opera:opera14"
+      south: null
+    short: Secret Stairs
+    sight: >
+      A set of narrow stone steps leads downward into darkness.
+flag:

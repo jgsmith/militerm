@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:flickering"
+      up:
+        target: "scene:aber:blizzard:gallery"
+      west:
+        target: "scene:aber:blizzard:guard2"
+    short: Guard Room
+    sight: >
+      You are in a large guardroom lit by a red glow to the east. A set of stone steps curve steeply up to a
+      gallery above. To the west is another guardroom, although the dim light reveals the presence of many
+      zombie warriors.
+flag:

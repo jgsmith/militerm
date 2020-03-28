@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung60"
+      north:
+        target: "scene:aber:nibelung:nibelung64"
+      south:
+        target: "scene:aber:nibelung:nibelung66"
+    short: Side Yard
+    sight: >
+      The side yard is a small plot of grass wedged between the chapel to the north and the main castle
+      entrance to the south. To the east is the castle wall. Along the side of the castle entrance are some
+      marigolds and other flowers, providing a sweet fragrance to the air about you.
+flag:
+  - outdoors

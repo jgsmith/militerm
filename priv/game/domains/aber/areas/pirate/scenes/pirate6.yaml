@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate5"
+    short: The Galley
+    sight: >
+      You are standing in the middle of the cramped room that serves as the ship's kitchen. Lining the walls
+      are pots, pans, and other kitchen utensils. A small stove sits in one corner of the room, amid sacks of
+      flour, sugar, and pepper. The only exit to the room is in the east wall.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: A Very Mossy, Gooey Room
+    sight: >
+      This room has even more moss on the floor, and even more goo. Your feet start to sink into the goo, and
+      then they sink a little more, before you know it you're up to your hips and still sinking...into a lower
+      level!
+flag:
+  - dark
+  - nomobiles

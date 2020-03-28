@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oshul:foyer"
+      west:
+        target: "scene:aber:oshul:descent2"
+    short: &+LEnd Of The Tunnel
+    sight: >
+      You stand at the end of the tunnel. To the east the light gets slightly brighter.
+flag:
+  - oshul

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest100"
+      west:
+        target: "scene:aber:rainforest:forest101"
+    short: Ancient Structure
+    sight: >
+      You are standing before a high stone wall, overgrown with creeping plants. It is a relic of an ancient
+      civilisation, though judging from the rather poor quality of the workmanship the race that built it were
+      not THAT civilised... However it is a comforting sign of a human presence in this vast and mainly
+      unexplored forest. It blocks your way south and east.
+flag:
+  - outdoors
+  - rainforest

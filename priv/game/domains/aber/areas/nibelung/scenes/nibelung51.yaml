@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung50"
+    short: In the Moat
+    sight: >
+      You have reached the northern end of the moat. Stone walls and a cliff face block all exits, except to
+      the south.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:steps2"
+      east: null
+      up:
+        target: "scene:aber:valley:moorpath"
+    short: The Cliff Steps
+    sight: >
+      You are standing on a set of narrow winding steps carved into the side of a steep cliff face. The steps
+      descend down as far as you can see, and contemplating them for a long time leaves you feeling giddy. The
+      steps lead upwards to the lip of the cliff. To the east, but well beyond your jumping ability you can
+      see a wide ledge and what appears to be a cave mouth.
+flag:
+  - outdoors

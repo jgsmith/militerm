@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The End
+    sight: >
+      The moral of the story here is that everything that glitters isn't always gold. In case you haven't
+      figured it out yet....You're DEAD!!!!
+flag:
+  - death

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3452"
+    short: Rally Point
+    sight: >
+      Many benches line the walls and the middle of the room. In one corner is a large board with a drawing of
+      an old man with the name ATOR on the back of his robe. An arrow points to him with the word ALIVE
+      printed very plainly next to it. You finally realize that the attack on the church was not to destroy it
+      but to capture the old man. And the attackers that gathered here had this as there goal. These attackers
+      must have been very grim and determined and you now know they were succesful. There is an exit west.
+flag:

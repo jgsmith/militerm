@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:mrealms:lounge"
+      down:
+        target: "scene:aber:start:temple"
+      east:
+        target: "scene:aber:mrealms:wildflowers"
+      south:
+        target: "scene:aber:mrealms:disco"
+      up:
+        target: "scene:aber:mrealms:second"
+    short: The Mortal Realms
+    sight: >
+      You have stepped into the mortal realms, a place for mortals to come to just to get away from the harsh
+      world. It is very peaceful here and you decide that you might as well take a little break from all the
+      adventuring that you have been doing. There are exits in all directions, or you can go to the Temple of
+      Paradise to the south and continue on your quests.
+flag:
+  - peace
+  - fastmana
+  - fastheal
+  - nomobiles

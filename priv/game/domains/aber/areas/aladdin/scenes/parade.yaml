@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:aladdin:palace"
+    short: The Parade for a Prince
+    sight: >
+      Well, it looks like the Genie has granted your wish! You are in a parade heading into Agrabah, home of
+      the beautiful, and unmarried Princess Jasmine! Crowds line the streets just waiting to catch a single
+      glimpse of you. You bow and wave to your cheering fans as you are bombarded with an abundance of
+      flowers.
+flag:
+  - light

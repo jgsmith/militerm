@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:pool"
+      north:
+        target: "scene:aber:valley:send"
+      south:
+        target: "scene:aber:valley:evalley"
+      up:
+        target: "scene:aber:start:temple"
+      west:
+        target: "scene:aber:valley:tforest2"
+    short: Forest Track
+    sight: >
+      You are following a track which leads north through the forest towards a humpbacked bridge. The track
+      seems to form here from a myriad of tiny trails which lead in all directions through the trees. A wide
+      paved path winds up a huge mound set amongst the trees. On the top of the mound you can make out a
+      temple of some sort.
+flag:
+  - outdoors

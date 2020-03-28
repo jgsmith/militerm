@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest57"
+      north:
+        target: "scene:aber:rainforest:forest56"
+      south:
+        target: "scene:aber:rainforest:river1"
+      west:
+        target: "scene:aber:rainforest:forest55"
+    short: Northern Bank
+    sight: >
+      You are standing on the northern bank of the Kerapi river, watching it flow quickly by in an easterly
+      direction. To the north stretches the rainforest, dark and dense, and the calls of its denizens fill the
+      air. To the east you can follow the river bank, while to the west you can climb on to a high rock by the
+      water's edge.
+flag:
+  - outdoors

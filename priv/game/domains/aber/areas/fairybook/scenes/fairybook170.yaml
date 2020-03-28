@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook169"
+      south:
+        target: "scene:aber:fairybook:fairybook171"
+    short: "Glinda's Castle"
+    sight: >
+      You stand outside Glinda's castle, the home of the Good Witch of the South. The gates are to me south,
+      and a path goes north.
+flag:

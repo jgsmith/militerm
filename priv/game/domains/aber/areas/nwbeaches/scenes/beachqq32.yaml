@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq31"
+      south:
+        target: "scene:aber:nwbeaches:beachqq33"
+      west:
+        target: "scene:aber:nwbeaches:beachqq35"
+    short: Rocky Path
+    sight: >
+      You stand on a rocky beach path near the mouth of a cave. The entrance to the cave must be at least
+      thirty feet high and just as wide. It doesn't look as if anything could live there, as the water from
+      the sea laps right inside the cave, but then, you never know.
+flag:
+  - outdoors

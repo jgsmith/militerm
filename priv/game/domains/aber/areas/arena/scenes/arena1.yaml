@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:arena:arena10"
+      south:
+        target: "scene:aber:arena:arena2"
+      west:
+        target: "scene:aber:arena:arena12"
+    short: The Arena
+    sight: >
+      An artificial light fills your eyes as you look round this place. It has been cut into the cliff and is
+      completely inside it. The stone walls round the lower part of the arena stand some 30 feet up, to the
+      lowest viewing area. The roof, also made of stone, is extremely high, and you dare not guess at it's
+      exact height. The air in here is dry, and a little stale, the ground hard. A little dust floats into the
+      air as you move.
+flag:
+  - pkzone
+  - nosummon
+  - cantsummon

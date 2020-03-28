@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot235"
+      west:
+        target: "scene:aber:camelot:camelot233"
+    short: Stables
+    sight: >
+      Many horses and their gear are kept here. Enough to mount all the guardsmen in time of war. Carefully
+      maintained tack hangs all along the north wall, and stalls for the war horses line the other walls.
+flag:
+  - outdoors

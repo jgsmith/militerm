@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:mrealms:mrealms"
+    short: The Mortal Lounge
+    sight: >
+      You step into the lounge and begin to feel relaxed right away. A large plush couch sits right in the
+      middle of the room with a large coffee table in front of it. A refridgerator stocked with the finest
+      ale's and various types of soda is built into the north wall. Set into the west wall is a big screen TV
+      with a Sony Playstation resting on the floor in front of it. Next to the TV is a stereo system playing
+      dance mix music. Set into the east wall is a wetbar with a glowing neon sign that says 'Always Open'. So
+      please, pour yourself a drink, sit back and relax.
+flag:
+  - peace
+  - fastmana
+  - fastheal

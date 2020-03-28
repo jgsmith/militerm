@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:caledonia:hills3"
+      west:
+        target: "scene:aber:caledonia:hills11"
+    short: In The Bracken
+    sight: >
+      You are battling to get through a dense patch of chest-high bracken. Your view of the ground is
+      completely obscured by the huge ferns and several times one or other of your feet disappears down a
+      rabbit hole, and you are lucky to avoid spraining an ankle. To the north and east the sea of bracken
+      continues for a disheartening distance, and you turn your attention to the less impeded routes to the
+      south and west.
+flag:
+  - outdoors

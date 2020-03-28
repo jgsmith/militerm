@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:bull:bullzz22"
+    short: "The Bull's Chamber"
+    sight: >
+      This room is in TOTAL dissaray. Items seem to have been swept of the room's numerous &+yshelves&* and
+      just dumped on the floor. The room has an unfamiliar smell, and you wrinkle your nose in disgust. An
+      great sliding &+Cwindow&* is open to the south and leads to the balcony, and a heavy iron door is to the
+      east.
+flag:

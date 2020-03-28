@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:town:town59"
+      up:
+        target: "scene:aber:town:town61"
+    short: Barely Hanging On!
+    sight: >
+      The cliff is very steep here, you are barely hanging onto the rock as it begins to crumble around your
+      hands. Just up above you can see a small ledge that may give you a break from all of this climbing, or
+      you my climb back down to the woods below.
+flag:
+  - outdoors

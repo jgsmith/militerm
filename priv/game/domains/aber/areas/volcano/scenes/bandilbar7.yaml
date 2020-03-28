@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar5"
+      west:
+        target: "scene:aber:volcano:bandilbar8"
+    short: Village Gate
+    sight: >
+      You are at the north-eastern gate of the village of Yorrin. As you look around, you are somewhat
+      surprised to note a distinct lack of activity. The place is as silent as the grave, and a shiver runs up
+      and down your spine as you pause to consider what could possibly be the explanation for this. To the
+      west is the village's main street.
+flag:
+  - outdoors
+  - nomobiles

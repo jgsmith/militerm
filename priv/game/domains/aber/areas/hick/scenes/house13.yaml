@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:hick:house9"
+      south:
+        target: "scene:aber:hick:house14"
+    short: Upstairs Landing
+    sight: >
+      A hallway leads to the south or you can go back downstairs to the main floor. You can see that the
+      hallway to the south has bedrooms lining it with a room at the end of the hall.
+flag:

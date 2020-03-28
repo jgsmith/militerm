@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas44"
+      up:
+        target: "scene:aber:ildharas:ildharas19"
+    short: Steep Staircase
+    sight: >
+      The stairs here are narrow, steep and rather uneven. Rock encases you bottom, top, left and right.
+      Somewhere along here, you pass ground level and the white marble becomes the granite of the
+      mountainside.
+flag:
+  - dark

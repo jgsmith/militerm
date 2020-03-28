@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd30"
+      south:
+        target: "scene:aber:sdesert:desertsd39"
+      west:
+        target: "scene:aber:sdesert:desertsd28"
+    short: Way Out In The Desert
+    sight: >
+      You have travelled out so far now that you have almost forgotten what water looks and tastes like.
+flag:
+  - outdoors
+  - hot

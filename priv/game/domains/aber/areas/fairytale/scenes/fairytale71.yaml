@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale70"
+    short: Grotto
+    sight: >
+      You have entered a large room, lit by an opening in the wall to the north. You suspect that you can
+      squeeze through that hole if you really try, and you realize that you hear rumbling behind it. The walls
+      are decorated with elaborate scenes of the Gods and Goddesses at play.
+flag:
+  - nomobiles

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:cave:n_stairs2"
+    short: Narrow Stairs
+    sight: >
+      The stairs end abruptly in a small room hewn from the living rock. The walls are rough, giving this room
+      that "about to be worked on" feel. At the moment, however, your only exit is back up the stairs. There
+      is a blinking construction sign here.
+flag:
+  - dark

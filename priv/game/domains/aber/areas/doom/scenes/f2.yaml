@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:doom:f3"
+      up:
+        target: "scene:aber:doom:f1"
+      west:
+        target: "scene:aber:doom:f1"
+    short: &+cThe Silent Forest
+    sight: >
+      The trees around you are silent and lifeless. The only thing you hear is the sound of snowflakes falling
+      to the ground. To your west is a path leading up a snowy mountain, and to the north the forest
+      continues.
+flag:
+  - cold
+  - outdoors

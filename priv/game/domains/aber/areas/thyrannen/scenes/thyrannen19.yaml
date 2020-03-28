@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen18"
+      south:
+        target: "scene:aber:thyrannen:thyrannen20"
+    short: Redwood Forest
+    sight: >
+      You are traveling in a north-south path in the forest. The trees, usually alive and almost human, are
+      now still and silent, watching.
+flag:
+  - outdoors

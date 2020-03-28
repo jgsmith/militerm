@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:crest"
+      north:
+        target: "scene:aber:eforest:scenic"
+      south:
+        target: "scene:aber:caledonia:hills14"
+    short: Rocky Climb
+    sight: >
+      You are walking on a steep mountain path which leads over the top of the mountain to the east and
+      downwards towards a ravaged forest to the North. You suspect that the view here would be quite beautiful
+      if not for the noxious fumes wafting up from the forest below, which cause your eyes to constantly
+      water. Looking at the forest, you believe that it must have once been quite beautiful.
+flag:
+  - outdoors

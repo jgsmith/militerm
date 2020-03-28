@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar40"
+      north:
+        target: "scene:aber:balharbor:balhar48"
+      south:
+        target: "scene:aber:balharbor:balhar23"
+      west:
+        target: "scene:aber:balharbor:balhar38"
+    short: Idol Square
+    sight: >
+      You are standing northeast of the idol. The town's only inn lies to the north where injured fighters or
+      long-distance travelers can rest up before continuing their quests. The innkeeper who runs the inn
+      single handedly fought attempts by rioters to trash his place by setting up a trap door on top of where
+      a sacrificial pit was installed to sucker them into standing on top of it so he could throw the lever
+      and cause them to fall into the voids. Those not falling for it the innkeeper grabbed thugs by their
+      necks and throwing them into the pit. The square continues west and south. An angry crowd can be seen to
+      the east where some things appear to be on fire.
+flag:
+  - outdoors

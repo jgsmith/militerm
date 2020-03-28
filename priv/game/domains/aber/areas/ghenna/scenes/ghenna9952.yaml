@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9949"
+      up:
+        target: "scene:aber:ghenna:ghenna9953"
+    short: The seat of power.
+    sight: >
+      Fire, fire, everywhere. A black, marble dais sits amidst the flames supporting a black, marble chair
+      which is conspicuously empty. This looks to be a throne of some sort. The flames make every way
+      impassable except the way you came, and the way of the holy.
+flag:
+  - negregen

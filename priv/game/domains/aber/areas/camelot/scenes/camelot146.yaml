@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot145"
+      west:
+        target: "scene:aber:camelot:camelot147"
+    short: Dark Cavern
+    sight: >
+      The walls of this cave are covered in a slimey black fungus which seems to suck up the light of your
+      torch. Despite it's brightness, the rooms seems to be growing darker.
+flag:
+  - dark

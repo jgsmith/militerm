@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:foyer"
+      east:
+        target: "scene:aber:jbs:master"
+      north:
+        target: "scene:aber:jbs:hall"
+      south: null
+    short: Top of the stairs
+    sight: >
+      This is the top of the stairs. You can go north or east, and there is a door to the south.
+flag:

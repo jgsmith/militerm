@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5504"
+      north:
+        target: "scene:aber:graye:graye5510"
+      south:
+        target: "scene:aber:graye:graye5512"
+      west:
+        target: "scene:aber:graye:graye5514"
+    short: The Forest of Graye
+    sight: >
+      You are in a hardwood forest, walking through noisy leaves. The wagon trail ends abruptly here.
+flag:
+  - outdoors

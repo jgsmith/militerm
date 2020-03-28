@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6737"
+      up: null
+    short: A foul staircase
+    sight: >
+      A staircase littered with rubble descends into a passageway crawling with rats and smelling of.. your
+      imagination needs no assistance here. The place gives you the creeps, particularly since there seem to
+      be faint traces of recent footfalls outlined in the slime on the soiled floor..
+flag:
+  - dark

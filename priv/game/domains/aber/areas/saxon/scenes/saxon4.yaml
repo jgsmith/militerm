@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon8"
+      north:
+        target: "scene:aber:saxon:saxon3"
+      south:
+        target: "scene:aber:saxon:saxon6"
+    short: &+gRolling Prairie&*
+    sight: >
+      The land here is beautiful, trees scattered over the landscape to provide cover from the wind. Long
+      flowing grasses sway in the breeze, and small animals scurry around you looking for food. It is a
+      welcome contrast to the barren land north of you. On southward, a dirt road becomes visible to you.
+flag:
+  - light
+  - outdoors

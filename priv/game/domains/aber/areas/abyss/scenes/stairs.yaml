@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:stairway"
+      up:
+        target: "scene:aber:abyss:abyss"
+    short: Top of Stairway
+    sight: >
+      The inky darkness closes in on you here as you wend your way around the basalt face of this enormous
+      abyssal pit. The stairway seems to go on forever as it descends to the lowest levels of the Abyss. A
+      construction sign here informs you that the first 661 levels are closed for repairs... looks like you're
+      in for a long walk.
+flag:
+  - dark

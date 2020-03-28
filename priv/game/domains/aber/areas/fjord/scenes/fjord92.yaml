@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord93"
+      west:
+        target: "scene:aber:fjord:fjord91"
+    short: Icy Road
+    sight: >
+      The slickness of the road reflects ultraviolet light quite nicely with its total whiteness and causes
+      things to seem closer then they are. The road follows the shoreline fairly closely around part of the
+      inlet, but not so that the icy mist of the sea drenches it continuously. To the east there is a large
+      fishing village, where the buzz of activity can be heard, while the inlet harbor is to the west.
+flag:
+  - outdoors
+  - cold

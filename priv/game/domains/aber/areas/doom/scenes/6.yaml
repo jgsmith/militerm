@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:5"
+    short: &+cThe Backyard
+    sight: >
+      You are in a large and nicely maintained yard which appears to be the nicest place in town that you have
+      seen. There is a small pond set in the middle of the yard, with arranged groupings of flowers and bushes
+      that surround giant trees. You hear the sounds of birds and other animals here that you have noticed to
+      be absent elsewhere in the forest. This is the only nice place in town that you have seen so far. To the
+      east you can enter the shack.
+flag:
+  - outdoors

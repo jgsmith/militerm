@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis15"
+      north:
+        target: "scene:aber:atlantis:atlantis9"
+      south:
+        target: "scene:aber:atlantis:atlantis11"
+      west:
+        target: "scene:aber:atlantis:atlantis4"
+    short: Sea Floor
+    sight: >
+      The bed of the sea seems to stretch on for days. Outcroppings of rock jut up from the bottom of the sea
+      floor while plant life atop it sways gently to the swell of the current. Clumps of rocks form barriers
+      that smaller fish hide behind warily. Larger fish swim slowly around, looking for prey, or perhaps just
+      a good place to hover quietly for a few moments. Bright colors glitter off of the rocks and fish,
+      providing a delight to your eyes. Off to the east lies a kelp bed and the sea bed heads off to the
+      north, south and west.
+flag:
+  - underwater

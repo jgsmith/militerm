@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Vines leading up the mountain
+    sight: >
+      You grab ahold of the vines and start to climb up them. About halfway up the vine starts to rip and
+      tear, you try to climb down as fast as you can but it's too late..the vine rips and you plummet hundreds
+      of feet to the ground smashing your head against a large rock...
+flag:
+  - outdoors
+  - death

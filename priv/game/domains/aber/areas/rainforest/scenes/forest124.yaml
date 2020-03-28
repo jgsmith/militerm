@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest123"
+    short: Among The Fruit Trees
+    sight: >
+      It is hard to tell where the roots end and the trunks begin, or indeed which of the twisting lengths of
+      wood are trunks and which are branches. A disordered array of woody material clambers up, down and
+      sideways, making your progress very difficult. Eventually you realise you will have to concede defeat
+      and head back west.
+flag:
+  - outdoors
+  - rainforest

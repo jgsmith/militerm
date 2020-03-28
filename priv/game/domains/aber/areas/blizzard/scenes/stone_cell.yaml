@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: Stone Cell
+    sight: >
+      You are in a cold and bare stone cell, scratches on the walls mark where prisoners have left their last
+      futile marks on the walls. There is a door to the west.
+flag:

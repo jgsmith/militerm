@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:corridor3"
+      south: null
+    short: Torture Chamber
+    sight: >
+      As you enter the torture chamber, you are almost overwhelmed by the sheer size of the equipment here.
+      Luckily for you, though, none of it is small enough for you to fit on it. This brings you little relief,
+      though, when you think that all these people have to do is step on you.
+flag:

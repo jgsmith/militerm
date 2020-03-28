@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:gate"
+    short: Dark Hole Behind the Gate
+    sight: >
+      You've entered a somewhat dark, dank hole behind the dingy gate. The gate creaks a bit, making squeals
+      that set your hair on end. For some reason, you don't know why, this place is off limits to normal
+      people. There must be something very special here.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

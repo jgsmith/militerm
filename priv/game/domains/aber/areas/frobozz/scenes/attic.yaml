@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:kitchen"
+    short: The Attic
+    sight: >
+      You are on top of the stairs which ends here in a small attic. The attic is for the moment empty, but
+      there are signs here showing that it has recently been used as a resting- and sleepingplace.
+flag:

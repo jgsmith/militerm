@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast18"
+      north:
+        target: "scene:aber:ruins:geast6"
+      south:
+        target: "scene:aber:ruins:deathroom"
+      west:
+        target: "scene:aber:ruins:geast8"
+    short: A Large Catacomb
+    sight: >
+      You have entered into a very large catacomb. It looks to be made up of several large rooms that actually
+      look quite luxurious. You figure that at one time, or another, someone of great importance had lived in
+      this area. The catacomb continues to the east and west. To the south you hear whispers of the past
+      speaking of great pain and suffering. It is a very dark room, and you can't see anything inside of it. A
+      sudden gust of wind brings the smell of decaying flesh to your nose. You don't think it would be a good
+      idea to go that way.
+flag:
+  - dark

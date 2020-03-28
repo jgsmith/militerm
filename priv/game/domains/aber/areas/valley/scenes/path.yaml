@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:fsedge"
+      east:
+        target: "scene:aber:sagewood:path"
+      north:
+        target: "scene:aber:church:c_yard"
+      south:
+        target: "scene:aber:valley:fsedge"
+    short: Path
+    sight: >
+      You stand on a path which leads down into the valley and northwards into a churchyard of some sort, with
+      a ruined church standing beside it. The path also leads back down into the valley.
+flag:
+  - outdoors

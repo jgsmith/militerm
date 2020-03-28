@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid16"
+      south: null
+      west:
+        target: "scene:aber:pyramid:pyramid18"
+    short: Shrine of Neferteri
+    sight: >
+      The glint of &+Ygold&N greets you as you step into the room. &+YGlided &N wood surrounds the door to the
+      south, while pictures depicting the history of Neferteri and her rise to power are painted on the walls.
+      All is there to see, her enslavement of the King and Queen, the pillaging of the royal treasure, the
+      gathering and harnessing the powers of the &+yEarth&N, &+rSun&N, &+WWind &N and &+bWater&N. And the
+      final abomination, her use of the &+Lblack&N arts to ensure her immortality. One scene in particular
+      catches your eye, Neferteri's presentation of a small &+ggreen&N stone to Horus, the son of the gods,
+      Isis and Osiris. Upon closer inspection of the door, you see a faint &+cglow&N emanating from the seals
+      and realize it would take some powerful magic to break this seal. Off to the west is a &+Ldark&N you saw
+      in the passageway. To the north lies stone steps leading to another level in the pyramid.
+flag:
+  - dark

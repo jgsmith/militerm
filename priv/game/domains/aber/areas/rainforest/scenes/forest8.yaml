@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest10"
+      north:
+        target: "scene:aber:rainforest:forest9"
+      west:
+        target: "scene:aber:rainforest:forest7"
+    short: Top Of The Slope
+    sight: >
+      You are at the top of a steep slope leading down to the east. The river roars by to the north, while to
+      the south the jungle is impenetrable. In the other directions the forest is more open and easier to
+      negotiate.
+flag:
+  - outdoors
+  - rainforest

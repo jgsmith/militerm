@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:mioc3"
+      north:
+        target: "scene:aber:evolution:plei1"
+      south:
+        target: "scene:aber:evolution:plio2"
+    short: Baobab Trees
+    sight: >
+      You are standing in the shade of a broad baobab tree in the latter half of the pliocene epoch. There are
+      several more nearby, but they are too spread out to be called a grove. Monkeys chatter at you from the
+      branches, and they throw fruit at you when you stray too near.
+flag:
+  - outdoors
+  - nomobiles

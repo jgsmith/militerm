@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd26"
+      west:
+        target: "scene:aber:sdesert:desertsd29"
+    short: Way Out In The Desert
+    sight: >
+      You are nowhere near where everyone else wants to be. How do you feel about thatQUESTIONMARK
+flag:
+  - outdoors
+  - hot

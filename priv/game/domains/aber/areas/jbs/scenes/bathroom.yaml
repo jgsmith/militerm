@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: The Bathroom
+    sight: >
+      This is the bathroom that serves the family that lives here. It looks like any other ordinary bathroom.
+      It has a sink and a &+Btoilet&* and a bathtub. You can even close and lock the door while you use it.
+      When you're done, you can leave to the west.
+flag:
+  - soundproof
+  - private

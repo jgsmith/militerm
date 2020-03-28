@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:lost:lost2"
+    short: Sacred Grove
+    sight: >
+      A sense of peace marks this place. A carven wooden structure which might have at one time been an altar
+      remains, untouched by time. A pure white flame, flickering at your presense floats above the side of the
+      altar. Beneath the flame is a hole filled with shimmering energy. Sunlight filters down through tree
+      limbs, reflected by the enegry and shattered into a myriad of tiny rainbows.
+flag:
+  - outdoors
+  - party
+  - peaceful
+  - nomobiles

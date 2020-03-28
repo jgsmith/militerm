@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook72"
+      west:
+        target: "scene:aber:fairybook:fairybook74"
+    short: Knight Tracks
+    sight: >
+      You carefully follow the path, when suddenly a loud noise causes you to jump into the bushes. Two
+      Knights thunder pass you from opposite directions, intersecting in front of you. With a loud crash they
+      meet, and both are unseated. They both see you at the same moment, and prepare to attack. They stand in
+      place, waiting for your first move. The path continues east and west.
+flag:
+  - outdoors

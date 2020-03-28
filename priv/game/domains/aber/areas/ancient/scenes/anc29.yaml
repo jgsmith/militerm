@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc28"
+      north:
+        target: "scene:aber:ancient:anc30"
+      south:
+        target: "scene:aber:ancient:anc28"
+      up:
+        target: "scene:aber:ancient:anc30"
+    short: Stairway to the Moon
+    sight: >
+      The stairs seem endless and you are breathing heavily, wishing you were in better condition. You glance
+      up and it almost looks like you were much closer to the moon than just a moment ago. You wipe away the
+      sweat on your forehead and keep climbing up the stairs.
+flag:
+  - outdoors

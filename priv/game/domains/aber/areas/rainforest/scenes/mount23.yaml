@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount24"
+      south:
+        target: "scene:aber:rainforest:mount25"
+      west:
+        target: "scene:aber:rainforest:mount19"
+    short: On The Moraine
+    sight: >
+      You are following the moraine along the side of the glacier. At this point the glacier runs fairly
+      straight for a while and the chances of meeting a crevasse are reduced, should you wish to cross here.
+      Otherwise you can head east or west along the moraine.
+flag:
+  - outdoors
+  - cold

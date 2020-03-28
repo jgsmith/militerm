@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dforest16"
+      south:
+        target: "scene:aber:fantasy:gaia4"
+    short: End of the Gaia Cave
+    sight: >
+      You have reached the end of the Gaia cave, looking out of the cave you notice that the dwarven forest
+      must cover the entire area around the cave.
+flag:
+  - dark
+  - nomobiles

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot235"
+      west:
+        target: "scene:aber:camelot:camelot229"
+    short: "Falcon's Mews"
+    sight: >
+      You are standing before the roosts of several falcons. They are kept here for those who enjoy the hunt.
+      There are kennels to the north, and a spacious lawn to the west.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott40"
+      up: null
+    short: Basement
+    sight: >
+      You find yourself standing in a small room. This room had been bigger but now the west wall has
+      collapsed and taken the stairs with it, the only trace left of the stairs is that &+Bhole&* in the
+      ceiling.
+flag:
+  - dark

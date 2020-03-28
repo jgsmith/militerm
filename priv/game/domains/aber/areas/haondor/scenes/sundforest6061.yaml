@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6066"
+      west:
+        target: "scene:aber:haondor:sundforest6062"
+    short: A Shaded Path Through The Forest
+    sight: >
+      You are at a turn on a small shadowed path leading through the forest. The forest seems to become
+      lighter to the west. The path continues north and west.
+flag:
+  - real
+  - outdoors

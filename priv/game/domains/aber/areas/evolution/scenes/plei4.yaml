@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:plei2"
+      south:
+        target: "scene:aber:evolution:plei3"
+      west:
+        target: "scene:aber:evolution:plei5"
+    short: Cliff Face
+    sight: >
+      You are standing at the foot of a high cliff, impossible to climb without specialist equipment. This is
+      the pleistocene epoch, and the climate and quality of the air reminds you of home. In the dust at your
+      feet you see what looks like the footprint of a man, or at least of an advanced hominid. Just to the
+      west is the mouth of a dark cave, and you wonder what it might contain.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:gully1"
+      south:
+        target: "scene:aber:valley:gully1"
+      up:
+        target: "scene:aber:nibelung:nibelung18"
+      west:
+        target: "scene:aber:valley:citadel"
+    short: Rocky Paths Winding Down
+    sight: >
+      You are following a rocky path winding down southward into a narrow, steep- sided valley. To the west,
+      not far away, a huge citadel is set on the mountain top. The path you are on runs past it, heading up
+      into the higher ground among the lower peaks of this range.
+flag:
+  - outdoors

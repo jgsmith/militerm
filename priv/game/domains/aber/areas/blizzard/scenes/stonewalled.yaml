@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:blizzard:passage"
+      north:
+        target: "scene:aber:blizzard:robing"
+      west:
+        target: "scene:aber:blizzard:dark"
+    short: Stonewalled Passage
+    sight: >
+      You are walking along a long and fairly wide stonewalled passage leading east and west through the
+      mountain. To the north through a doorway there is a small room.
+flag:

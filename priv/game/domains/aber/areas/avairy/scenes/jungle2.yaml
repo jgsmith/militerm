@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore2"
+      north:
+        target: "scene:aber:avairy:jungle1"
+      west:
+        target: "scene:aber:avairy:jungle6"
+    short: The Avairy Jungle
+    sight: >
+      The island shore is to the east. The jungle continues to the north and west.
+flag:
+  - outdoors
+  - light

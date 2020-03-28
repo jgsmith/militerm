@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fire:fire13"
+      west:
+        target: "scene:aber:fire:fire12"
+    short: Hardware store
+    sight: >
+      You are standing in the hardware store. There are different objects like spades, wheels, bars, candles,
+      plates ... There is a large table in the middle of the room for handling the wood and small metal
+      objects. You can also see clay, needels, hammers, and saws. There is a big cupboard on the east wall.
+      You can go west to the vine store or south to the laundry.
+flag:
+  - dark

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:corridor1"
+    short: Guard Room
+    sight: >
+      This is a small guardroom. There are three chairs scattered loosely around a comparatively small table.
+      That's about all there is to see in here. You can leave to the south.
+flag:

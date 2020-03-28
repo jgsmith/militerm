@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle33"
+      west:
+        target: "scene:aber:balharbor:jungle31"
+    short: Rutted Track
+    sight: >
+      The hundreds of people that walked this path have made the dirt bare hard and flat. The city wall
+      appears to come to a gate to the east while the trail continues to the west.
+flag:
+  - outdoors

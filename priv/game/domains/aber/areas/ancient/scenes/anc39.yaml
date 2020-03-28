@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc40"
+      south:
+        target: "scene:aber:ancient:anc42"
+      west:
+        target: "scene:aber:ancient:anc38"
+    short: Moist Tunnel
+    sight: >
+      You have discovered a moist dark passageway that disappears under the great sun pyramid. The air inside
+      this narrow tunnel is stuffy and you seriously consider whether you should go further or not. The tunnel
+      continues to the east. To the south you see a narrow crack which makes you once again think about losing
+      weight to make it easier to move between those rugged stone walls.
+flag:
+  - dark

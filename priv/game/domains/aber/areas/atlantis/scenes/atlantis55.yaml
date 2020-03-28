@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: "Hermit's Home"
+    sight: >
+      You enter a home that is jammed with everything imaginable. There are bits of seashell, jade pottery, a
+      small glass jar full of pearls, a cracked lamp, and a small stone shelf covered with pieces of coral.
+      Small starfish lie on the floor of the home and a couple of unusual looking stones are scattered
+      throughout the room. On the far wall of the home is an unusual looking fireplace made of a beautiful
+      pink stone. Inside it a fire burns with a blue-green flame. The smooth walls of the home have thousands
+      of little hole in them that are packed full of trinkets. A prize flag from a sunken pirate ship lies on
+      the floor, pinned down by four huge rocks at the corners. It's a cozy little home, albiet somewhat
+      cluttered.
+flag:
+  - underwater

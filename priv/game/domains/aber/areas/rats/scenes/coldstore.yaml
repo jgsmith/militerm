@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:rats:foodstore"
+    short: Food store
+    sight: >
+      You are standing in another food store, but it is much colder here. This room is supposed to store food
+      which wouldn't be able to stay edible in normal temperatures. It looks to be well prepared, but all food
+      was touched by the rats.
+flag:
+  - cold
+  - dark

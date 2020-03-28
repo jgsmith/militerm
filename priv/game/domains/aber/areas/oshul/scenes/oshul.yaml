@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oshul:foyer"
+    short: &+LEnormous Black Marble Cathedral
+    sight: >
+      You are in a gigantic chamber. The domed black marble ceiling is at least fifty feet above you, carved
+      with strange designs of dragons at war. Upon the walls hang beautiful crimson tapestries, priceless
+      works of art. The floor is of icy blue marble, which you can see your own reflection in. Light comes
+      from two large bowls of burning incense, the reflections off of the gold coins dazzling. The entire
+      center of the room is taken up by a colossal pile of gold coins. But more interesting is who sits upon
+      the pile of gold coins...
+flag:
+  - oshul

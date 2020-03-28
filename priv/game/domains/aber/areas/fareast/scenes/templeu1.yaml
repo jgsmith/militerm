@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:temple1"
+      north:
+        target: "scene:aber:fareast:templeu2"
+    short: Chamber of Calm
+    sight: >
+      This chamber is hung with silk tapestries, elegant and heavy artworks valued more for their acoustic
+      properties than their artistic ones. The room is silent and still, and a scent of incense floats in from
+      the altar to the north. It is a perfect place to sit still, relax, and clear one's mind.
+flag:

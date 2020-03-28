@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:dragonslueth:ds14"
+    short: Small Room
+    sight: >
+      This room is very small and empty. It is big enough to fit one person and that is about it. The exit is
+      to the &+Csouth&*.
+flag:
+  - oneperson

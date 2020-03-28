@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale122"
+      west:
+        target: "scene:aber:fairytale:fairytale124"
+    short: Sitting Room
+    sight: >
+      You have entered a large sitting room. The walls are lines with books, which can be reached from a
+      wheeled ladder. Couches are strategically located around the room to warrant easy conversation. A bar
+      stands in the corner. You may exit this room to the east or the west.
+flag:
+  - dark

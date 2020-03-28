@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:main"
+      north:
+        target: "scene:aber:frobozz:side"
+      south:
+        target: "scene:aber:frobozz:pway"
+    short: By the Bank
+    sight: >
+      You are standing at the corner of a building which looks like a bank. It could as well be something
+      else, but the word BANK was the first word that entered your mind when getting near this place. Let's
+      say it is a bank. The bank is actually not another cave, but it is built in a large cave, and may
+      therefore be called a building. The main entrance to the bank is to the east, and north of here there is
+      a door which also leads into the bank. A wide and high vaulted tunnel starts here and leads south.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins1"
+      west:
+        target: "scene:aber:sherwood:sherwood1"
+    short: East Fork
+    sight: >
+      This is the road to a great adventure full of surpises, monsters, and lots of adventure. This is not for
+      the 'weak of heart' or strength. On each side of the road are trees that seem to reach out for you
+      trying to pull you into their twisted webs of branches.
+flag:

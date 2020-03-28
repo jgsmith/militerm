@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:northhall5"
+      south:
+        target: "scene:aber:ruins:northhall3"
+    short: Even Further into the Northern Hall
+    sight: >
+      You are travelling along in the northern hall. Great deals of dust are stirred up as you walk along and
+      you find yourself in a sneezing fit. After the sneezing fit ends you regain your senses and see the
+      hallway continues to the north.
+flag:
+  - dark

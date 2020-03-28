@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9531"
+      north:
+        target: "scene:aber:khanjar:khanjar9519"
+      west:
+        target: "scene:aber:khanjar:khanjar9517"
+    short: An Intersection of Paths
+    sight: >
+      You are standing at a small square from where trails lead north, west, and east. Since the foliage
+      dominates your vision more or less, only the highest of Towers of Sundhaven can be seen farther to the
+      west.
+flag:
+  - outdoors

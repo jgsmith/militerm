@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid24"
+      west:
+        target: "scene:aber:pyramid:pyramid22"
+    short: "King's Tomb"
+    sight: >
+      The huge sarcophagus dominates the room. The rose granite lid looks heavy, almost impossible to move. At
+      each corner the guardian goddess Isis, Nephtys, Neith and Selkis are beautifully carved in high relief,
+      their arms and wings clasping the sarcophagus in a protective embrace. &+mHieroglyphs&N have been carved
+      into the side of the tomb. Thoughts of the wealth that might lie with the king make you wonder if you
+      should go to the trouble of opening the tomb.
+flag:
+  - dark

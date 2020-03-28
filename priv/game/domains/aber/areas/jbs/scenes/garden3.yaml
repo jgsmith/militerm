@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:hole"
+      north:
+        target: "scene:aber:jbs:garden1"
+    short: In the Monkeygrass
+    sight: >
+      You have entered a small clearing in the midst of several large clumps of monkey grass that block all
+      exits into the garden. There is, however, a gaping &+yhole&* in the ground here that you can venture
+      down if you want to.
+flag:

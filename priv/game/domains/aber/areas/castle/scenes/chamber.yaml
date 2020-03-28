@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:castle:torture"
+      north:
+        target: "scene:aber:castle:sanctum"
+      south: null
+      west:
+        target: "scene:aber:castle:kitchens"
+    short: "King's Chamber"
+    sight: >
+      You find yourself in a large chamber used for the King and his court to be entertained in all day and
+      feast in at night, although it looks like the last feast had a main course with more bite than usual!
+      Splendid archways lead north, east and west.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:cottage:cottage6"
+    short: Driveway
+    sight: >
+      You are currently standing on a short, cobblestone driveway. A short path connects it with the porch to
+      the west. In front of you stands a large barn door.
+flag:

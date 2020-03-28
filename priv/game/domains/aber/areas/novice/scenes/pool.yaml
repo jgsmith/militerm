@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:track"
+      north:
+        target: "scene:aber:novice:stream"
+      south:
+        target: "scene:aber:novice:stream_2"
+    short: By the Pool
+    sight: >
+      The stream widens into a sort of pool before it continues downstream and out of the village. You can see
+      your reflection in the clear water, and while looking into the pool, you see something very small dart
+      behind you.
+flag:
+  - outdoors
+  - real

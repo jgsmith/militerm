@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:perm5"
+    short: Gravel Spit
+    sight: >
+      You are at the end of a long spit extending into the lake. As you look into the water your gaze is met
+      by large amphibians, still major players in the evolutionary power struggle. You know, however, that
+      they are doomed: the rapid advancement of the reptiles is destined to leave the amphibians far behind
+      before long, and eventually these hulking monsters will give rise to humble little hopping creatures,
+      croaking by the sides of ponds and rivers. The &+ygravel&* is disturbed, as if someone has been digging
+      here.
+flag:
+  - outdoors

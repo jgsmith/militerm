@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon19"
+      south:
+        target: "scene:aber:saxon:saxon3"
+    short: &*Toward the &+LMountain&*
+    sight: >
+      The mountain to the north is ominously bare. Nothing grows on it, and no cries from animals can be heard
+      around it. The ground here is scorched black, making it a dark grey. If you journey north, you will be
+      with the mountain, or going south will take you to the barren cliff.
+flag:
+  - light
+  - outdoors

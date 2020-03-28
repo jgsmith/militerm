@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook171"
+    short: Powder Room
+    sight: >
+      You stand in the room used by guests to clean up. The exit is west.
+flag:
+  - nomobiles

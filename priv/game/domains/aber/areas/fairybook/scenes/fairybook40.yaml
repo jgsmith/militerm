@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook41"
+      west:
+        target: "scene:aber:fairybook:fairybook39"
+    short: Beautiful Garden
+    sight: >
+      You find yourself in a beautiful garden, among bright flower beds and cool fountains. A large rose tree
+      stands at the entrance, with three gardeners standing in front of it painting the white roses red. In
+      the distance to the south, you see a croquet field. There is a door in the center of the tree, through
+      which you see a crystal room.
+flag:
+  - outdoors

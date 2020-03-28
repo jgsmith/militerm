@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: The Secret Reliquary
+    sight: >
+      There is little to see here in this tiny round chamber. The whole thing is crudely built of blocks of
+      &+Lstone&*, and you have to duck down just to stand.
+flag:
+  - dark
+  - oneperson

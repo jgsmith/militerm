@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon26"
+      north: null
+    short: Escape Tunel
+    sight: >
+      You are following a narrow path that descends abruptly along the face of the mountain. Below you,
+      another path joins in.
+flag:
+  - outdoors

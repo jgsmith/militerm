@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:dirt"
+      west:
+        target: "scene:aber:village:well2"
+    short: Narrow Tunnel
+    sight: >
+      You are squeezing down a narrow dirt tunnel, quite crudely dug, and supported with old ships timbers.
+      The tunnel leads westwards towards a faint light, or descends steeply to the east.
+flag:
+  - dark

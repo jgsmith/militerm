@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar5"
+      north:
+        target: "scene:aber:balharbor:balhar6"
+      south:
+        target: "scene:aber:balharbor:balhar1"
+      west:
+        target: "scene:aber:balharbor:balhar3"
+    short: Cross Road
+    sight: >
+      You have come to the end of Cross Road with the smell of garbage to the west, an alley to the east, and
+      the sounds of seagulls to the south. Cross Road runs back north into Main Street and the city's west
+      side.
+flag:
+  - outdoors

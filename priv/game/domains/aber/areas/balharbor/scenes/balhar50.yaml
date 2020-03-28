@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar69"
+      north:
+        target: "scene:aber:balharbor:balhar58"
+      south:
+        target: "scene:aber:balharbor:balhar41"
+    short: Vine Street
+    sight: >
+      You are standing outside the Thieves Guild, which seemed to have escaped any damage from rioters--mainly
+      because the folks in this guild teach people the techniques of criminal activity. And what criminal
+      wouldn't want to trash a place that teaches him how to be a crook? You can visit this place to the east
+      or head north or south.
+flag:
+  - outdoors

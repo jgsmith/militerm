@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6025"
+      west:
+        target: "scene:aber:haondor:sundforest6023"
+    short: The Lower Part Of The Grassy Field
+    sight: >
+      You are in a lower part of the grassy field, south of a small lake. The &+Ggrass&* here has been
+      trampled by the many animals coming here for water, leaving the ground covered in tracks of different
+      types. To the west you see a break in the wall of trees surrounding the field, and to the north is a
+      small lake.
+flag:
+  - outdoors

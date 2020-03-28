@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6649"
+    short: A dark corner of the tavern
+    sight: >
+      The loners of Sundhaven gather here (figure *that* one out) to mourn their losses over gallons of liquid
+      spirits. Occasionally, one can be seen passed out on the floor, robbed by some thief slipping in from
+      the Nightbreak, but generally the livers here are stout from long and weary experiences.
+flag:
+  - dark

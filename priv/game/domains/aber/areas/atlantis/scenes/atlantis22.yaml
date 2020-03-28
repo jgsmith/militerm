@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis23"
+    short: The Atlantis Library
+    sight: >
+      You enter a richly furnished library. It seems the inhabitants of this town like books a great deal. The
+      walls are lined with books and the floor is covered in an unusual pattern of colored coral in a
+      tile-like pattern. Sturdy stone tables are complimented with comfortable sponge chairs. You glance over
+      the books in the library and notice that they are all made of a clay-like substance that the words have
+      been etched into. You realize that the books being heavy also solves the problem of the books floating
+      away. In all, it's a rather unusual library from the ones you are used to, but is quite comfortable and
+      inviting.
+flag:
+  - underwater
+  - nomobiles

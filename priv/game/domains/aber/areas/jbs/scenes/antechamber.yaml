@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:waiting"
+      south:
+        target: "scene:aber:jbs:archway"
+    short: Vast Antechamber
+    sight: >
+      This a big room that doesn't seem to have much purpose. The only reason you see for anyone wanting to
+      sit in it is if they wanted an empty room to heal in.
+flag:

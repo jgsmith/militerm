@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: In the basement
+    sight: >
+      You are now in a a dark, smelly basement. The floor is made of smooth earth. A corner of the basement
+      seems to have been disturbed. There is mostly nothing here.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar12"
+      north: null
+    short: Weapon Shop
+    sight: >
+      Untouched by the riots this shop has many different weapons for sale. Swords, knives, daggers, and other
+      sharp weapons line the walls. Since the owners of this shop had this large cache of blades and armor to
+      use in a fight against the mob, the rioters and looters kept their distance in fear of being chopped to
+      bits. If you got the cash you can buy a good weapon from this fellow at the counter. The square is back
+      north, while the forge is to the east.
+flag:
+  - nomagic

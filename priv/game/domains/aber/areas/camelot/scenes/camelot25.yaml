@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot18"
+      west:
+        target: "scene:aber:camelot:camelot27"
+    short: "King Arthur's Chambers"
+    sight: >
+      Arthur's chambers are somewhat larger then those of his knights, but they still show a lack of concern
+      for the merely material wealth of this world.
+flag:

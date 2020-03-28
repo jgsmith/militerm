@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fire:fire33"
+    short: Wooden hut
+    sight: >
+      You are standing in a small wooden hut. It is possibly owned by a guard. There is only a bed, a table
+      and a chair. The only source of light here is a candlestick on the table.
+flag:
+  - dark

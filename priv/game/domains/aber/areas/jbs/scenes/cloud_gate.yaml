@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:bridge"
+      west:
+        target: "scene:aber:jbs:cloudy1"
+    short: Gates of the Cloud Castle
+    sight: >
+      You are standing in front of a gigantic gateway that leads to a drawbridge that leads into the courtyard
+      of what has to be the largest structure you've ever laid eyes on. You can go onto the bridge to the east
+      or head back west, whichever you think is wiser.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:stream2"
+      north:
+        target: "scene:aber:valley:nwcorner"
+      south:
+        target: "scene:aber:valley:stream3"
+      west:
+        target: "scene:aber:valley:spring"
+    short: Stream
+    sight: >
+      You are standing beside a small silvery stream which gurgles gently from a rocky hollow to the west, to
+      run gently eastwards between the trees which surround you. Tracks lead through the trees in all
+      directions.
+flag:
+  - outdoors

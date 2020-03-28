@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:heaven:heaven29"
+    short: Northern Tundra
+    sight: >
+      You are travelling in a land of ice and snow. The sun and the reflections from the brilliant white snow
+      conspire to blind you, but through squinted eyes you can catch sight of the stark, raw beauty. Though
+      the wind howls about you, the cold does not seem to have any affect.
+flag:
+  - private

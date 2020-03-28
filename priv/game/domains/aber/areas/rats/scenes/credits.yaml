@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Credits
+    sight: >
+      Thank you for visiting this room. I hope this quest was fun for you and made you some nice moments. If
+      you have any comments, please write me an e-mail: etrimon@falcor.karlin.mff.cuni.cz. I have written more
+      quests, there avaible on request. That's all for now. See you in the next adventure. &+CEtrimon&*
+flag:

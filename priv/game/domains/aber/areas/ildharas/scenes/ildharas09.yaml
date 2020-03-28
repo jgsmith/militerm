@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas07"
+      north:
+        target: "scene:aber:ildharas:ildharas14"
+      west:
+        target: "scene:aber:ildharas:ildharas08"
+    short: Along the Ruined Wall
+    sight: >
+      Crafted from a strange white stone, the wall must have been quite impressive before the attack--though
+      now you can see the castle through its mossy gaps. The trees have grown up against the walls over the
+      years, and the ground beneath your boots is filled with twisting roots. Eventually, you guess, the trees
+      may undermine the stones.
+flag:
+  - outdoors

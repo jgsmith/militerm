@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest124"
+      north:
+        target: "scene:aber:rainforest:forest122"
+      south:
+        target: "scene:aber:rainforest:forest125"
+      west:
+        target: "scene:aber:rainforest:forest120"
+    short: End Of The Inlet
+    sight: >
+      You are at the southern end of a narrow inlet which runs north from here towards the river. Several
+      species of tree grow from under the water, and some more of the same grow in the surrounding area. These
+      are not tall trees but they bear small red fruit which fall into the water at intervals while you watch.
+      You can go in any direction.
+flag:
+  - outdoors
+  - rainforest

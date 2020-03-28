@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:perm2"
+    short: Among The Cycads
+    sight: >
+      You are in a pleasant little wood of tall cycads, whose palm-like fronds reach down to brush the top of
+      your head as you walk beneath them. The humming of insects and the croaking of small amphibians fills
+      the air around you.
+flag:
+  - outdoors

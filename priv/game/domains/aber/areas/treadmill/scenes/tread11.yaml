@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:moor:circle"
+      down:
+        target: "scene:aber:treadmill:tread17"
+      east:
+        target: "scene:aber:treadmill:tread14"
+      north:
+        target: "scene:aber:treadmill:tread12"
+      south:
+        target: "scene:aber:treadmill:tread15"
+      up:
+        target: "scene:aber:treadmill:tread16"
+      west:
+        target: "scene:aber:treadmill:tread13"
+    short: On the Way to Bother You
+    sight: >
+      You have finally escaped the treadmills of hell. Here you have your choice of ten different portals,
+      each leading to different parts of the world. The demons, hellspawn, and all the little imps will soon
+      be following you out to bother everyone.
+flag:
+  - maze

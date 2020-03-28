@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:oaktree35"
+      up:
+        target: "scene:aber:oaktree:oaktree33"
+      west:
+        target: "scene:aber:oaktree:oaktree33"
+    short: Entrance to the Sacred Grove
+    sight: >
+      The trees thin somewhat here, and you can hear strange sounds from all around you. It smells of cedar
+      and the floor of the forest is littered with a thick bed of pine needles. East of here you can make out
+      what looks to be a small clearing.
+flag:
+  - outdoors

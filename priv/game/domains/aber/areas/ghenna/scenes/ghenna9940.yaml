@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9941"
+    short: A crawlspace.
+    sight: >
+      You are in a crawlspace that is just barely passable. There is a bend to the right, but you cannot
+      possibly tell where it leads. It is so tight here that there is no way you can return south.
+flag:
+  - oneperson
+  - dark

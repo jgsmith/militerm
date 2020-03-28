@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept67"
+      up: null
+    short: Below the Rock
+    sight: >
+      The sun shines down the central corridor of this shaft durin the midday hours. It is covered on all
+      sides by the damp earth of the Nareth Forest. The hole continues further into the earth by means of a
+      ladder. The top rung just sticks out of the central shaft.
+flag:
+  - dark

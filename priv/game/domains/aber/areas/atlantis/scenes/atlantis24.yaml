@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis23"
+    short: "Poseidon's Temple"
+    sight: >
+      Fish dart around the wide open spaces of this temple. Large slabs of a blue-green stone form the walls
+      of this octagonal shaped room. In the center of the chamber a large statue of Poseidon dominates the
+      room. The floor is covered in a criss-cross pattern of the same sort of material as that which makes up
+      the walls. Occassionally, pious aquatic life come and offer their respects and sometimes leave a gift at
+      the base of the statue. As you watch, a small shark enters the temple, bows a fin toward the statue and
+      then leaves a small piece of beautiful red coral in respect.
+flag:
+  - underwater
+  - nomobiles

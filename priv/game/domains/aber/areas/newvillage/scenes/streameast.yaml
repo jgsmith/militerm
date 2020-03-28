@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:newvillage:stream"
+    short: By the Stream
+    sight: >
+      You are moving upstream toward the east. Here the river bends and seems to flow on, finding its source
+      high in the majestic mountains to the north. Every once in a while, you think you hear a loud noise
+      coming from the distant mountains.
+flag:
+  - outdoors

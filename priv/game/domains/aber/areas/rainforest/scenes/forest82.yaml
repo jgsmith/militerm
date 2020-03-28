@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest78"
+      south:
+        target: "scene:aber:rainforest:forest86"
+      west:
+        target: "scene:aber:rainforest:forest79"
+    short: Tannin Channel
+    sight: >
+      A brown-stained rill lies before you, its sandy floor showing pale beneath two feet of water. Through
+      the trees to north and south you can see water flowing east. You seem to be trapped between two
+      tributaries.
+flag:
+  - outdoors
+  - rainforest

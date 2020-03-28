@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mrealms:mrealms"
+    short: Behind the Waterfall
+    sight: >
+      A sheet of water falls before you, glistening in all the colours of the rainbow. You reach out your hand
+      through the water and slivers bounce off onto the walls of the cave you found. Looking back into the
+      cave you see the drawings of ancient peoples, although you don't believe this cave has been inhabited
+      since they were drawn. A cool breeze sends a light mist of water toward you, for which you are thankful
+      after the heat of the day.
+flag:
+  - peace
+  - private

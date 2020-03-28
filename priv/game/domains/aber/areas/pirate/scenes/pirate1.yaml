@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate0"
+    short: "In the Crow's Nest"
+    sight: >
+      You are inside a large basket far up the ship's main mast. Upon looking around, you see a couple of
+      small islands off in the sea.
+flag:
+  - outdoors

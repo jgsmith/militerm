@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale37"
+      south: null
+      west:
+        target: "scene:aber:fairytale:fairytale29"
+    short: Window Room
+    sight: >
+      This room is filled with towering stained-glass windows. It seems that it was once a church of some
+      sort, but you do not recognize any of the figures depicted in the glass. An altar stone still stands
+      here, its cold grey stone reflecting the colored light from the windows. One of the windows is clear,
+      and you see a tree outside. One branch seems to be close enough to the window to touch.
+flag:

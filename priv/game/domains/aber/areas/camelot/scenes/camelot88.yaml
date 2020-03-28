@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot87"
+      south:
+        target: "scene:aber:camelot:camelot91"
+      west:
+        target: "scene:aber:camelot:camelot89"
+    short: Climbing into the Mountains
+    sight: >
+      To the south, the trail climbs rapidly into the rugged mountains. East of you lies the foothills, and,
+      you hope, rest from your travels. There is a faint, half washed out trail going to the west into a wild
+      rough area.
+flag:
+  - outdoors

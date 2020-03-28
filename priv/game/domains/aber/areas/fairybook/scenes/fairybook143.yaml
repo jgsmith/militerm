@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook144"
+      south: null
+    short: Inside the Palace
+    sight: >
+      You enter a big room with a green carpet and lovely green furniture set with emeralds. You wipe your
+      feet upon a green mat and look down the hall. The path continues north.
+flag:

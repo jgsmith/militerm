@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon14"
+      north:
+        target: "scene:aber:seamonster:smon23"
+      south:
+        target: "scene:aber:seamonster:smon13"
+      up:
+        target: "scene:aber:seamonster:smon12"
+      west:
+        target: "scene:aber:seamonster:smon10"
+    short: Under the palm
+    sight: >
+      You are standing under a huge palm. Its palm leaves are giving you a nice place to rest if you want to
+      join the party with the skeleton lying here. You can choose to go any direction or try to climbing the
+      palm.
+flag:
+  - outdoors

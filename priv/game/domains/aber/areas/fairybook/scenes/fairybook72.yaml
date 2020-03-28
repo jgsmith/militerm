@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook71"
+      west:
+        target: "scene:aber:fairybook:fairybook73"
+    short: Battlefield
+    sight: >
+      You enter a great arena, where hundreds of people watch the battles each Thursday night. At the moment,
+      the crowds are absent. Two banners fly here: one displaying a proud lion and the other displaying a
+      noble unicorn. The exits are to the west and east.
+flag:
+  - outdoors

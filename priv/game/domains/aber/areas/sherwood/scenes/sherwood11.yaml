@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood12"
+      south:
+        target: "scene:aber:sherwood:sherwood10"
+    short: Under the Oaks
+    sight: >
+      You are standing under oak trees. You look up to admire their beauty. When a passing European Swallow
+      flys by and defacates on your face, you frantically look around for a sink to wash your face, when you
+      suddenly realize that you are in sherwood forest. I guess you will have to walk around with bird feces
+      on your face.
+flag:
+  - outdoors

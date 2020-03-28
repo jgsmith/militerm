@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sea:7"
+      east:
+        target: "scene:aber:sea:9"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:7"
+      west:
+        target: "scene:aber:village:jetty"
+    short: All At Sea
+    sight: >
+      You are all at sea, riding the seas. To the north and south the waves are high and break heavily against
+      the surrounding cliffs. To the east it might be safe to continue. The safety of the jetty is west.
+flag:
+  - nomobiles
+  - onwater
+  - outdoors

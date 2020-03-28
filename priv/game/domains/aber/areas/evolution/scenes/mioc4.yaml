@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:mioc1"
+      north:
+        target: "scene:aber:evolution:mioc3"
+    short: Miocene Savannah
+    sight: >
+      Bones crackle underfoot as you step on the skeletal remains of some large grazing herbivore, whose bones
+      were hidden in the tall grass. A rock formation juts out of the ground immediately to the south, and a
+      large member of the cat family regards you from its summit. It yawns suddenly, revealing impossibly
+      large canines, and you jump in alarm. The sabre-toothed cat has just fed, however, and has no desire to
+      waste any more of its precious energy on another attack.
+flag:
+  - outdoors

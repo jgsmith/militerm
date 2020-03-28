@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:bank"
+    short: "Manager's office"
+    sight: >
+      Entering a well decorated room, you see a large book shelf, filled with interesting titles, several
+      chairs and a window looking out into some trees.
+flag:

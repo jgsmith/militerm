@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:pensalon:pensalon27"
+    short: "Castle's Church"
+    sight: >
+      A extravagant church filled with the wealth of the lands spreads out before your eyes keeping you
+      enthralled with its beauty. Through the western arch is the Hall of Worship.
+flag:

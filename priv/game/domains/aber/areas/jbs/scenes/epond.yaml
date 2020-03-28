@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:path4"
+      north:
+        target: "scene:aber:jbs:npond"
+      south:
+        target: "scene:aber:jbs:pond"
+    short: Eastern End of the Pond
+    sight: >
+      You are next to a small pond in the middle of a small peaceful wood. The sounds of birds singing and of
+      the water lapping gently up against the shore make you feel very at ease here. The small path around the
+      pond continues to the north and south, while another path heads east past a medium sized barn.
+flag:
+  - outdoors

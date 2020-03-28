@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot30"
+      north:
+        target: "scene:aber:camelot:camelot32"
+      south:
+        target: "scene:aber:camelot:camelot32"
+      west:
+        target: "scene:aber:camelot:camelot33"
+    short: Forests Edge
+    sight: >
+      You are on the edge of a deep dense forest. East of you is the path leading back to the gardens. All
+      about you is the forest.
+flag:
+  - outdoors

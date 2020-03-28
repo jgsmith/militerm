@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan4"
+      south:
+        target: "scene:aber:mithdan:mithdan14"
+      west:
+        target: "scene:aber:mithdan:mithdan8"
+    short: Thick Forest
+    sight: >
+      The forest turns you around, leading you along on false trails. You wish you had a compass but with
+      these woods it might not do much good. The forest leads to the north, south, and west. As is much of the
+      forest, the eastern way is blocked by thick and heavy forests.
+flag:
+  - outdoors

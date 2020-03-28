@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:jbs:eyes"
+    short: Inside the Head
+    sight: >
+      You are deep inside this giants head now and things are starting to look really fishy. There is a steel
+      walkway here leading to the east where you think you might make out a vague light.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook65"
+      north:
+        target: "scene:aber:fairybook:fairybook67"
+    short: Top of the Wall
+    sight: >
+      You balance carefully upon the top of the wall. To the north is a ladder descending to the other side of
+      it. A ladder descends here as well.
+flag:
+  - outdoors

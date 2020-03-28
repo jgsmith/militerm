@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:avairy:build1"
+    short: Roof of the Small Shack
+    sight: >
+      Having climbed the ladder in the cottage, you now stand on the cottages somewhat sturdy roof. Although
+      you are now at a higher point, the immense trees of the jungle still hinder your view.
+flag:
+  - outdoors
+  - light

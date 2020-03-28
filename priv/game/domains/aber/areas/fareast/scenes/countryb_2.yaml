@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countryb_3"
+      south:
+        target: "scene:aber:fareast:countrybend"
+      west:
+        target: "scene:aber:fareast:countryb_6"
+    short: Countryside- the Far South
+    sight: >
+      The road is broken into chunks here, and partially scattered across the dark and festering plains. A
+      greyish pall overhead blows from the west to the east, toward a darker cloud... and not a cloud of water
+      vapor. To the south, the road drops away suddenly, to the north, it joins another at a crossroads.
+flag:

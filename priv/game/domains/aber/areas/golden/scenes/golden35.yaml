@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: &+RVolcanic Pit&*
+    sight: >
+      You have chosen poorly. The soft red glow that you saw was actually molten magma spewing from the bowels
+      of the earth. Before you even hit the magma, your body bursts into flames and disintegrates.
+flag:
+  - dark
+  - death

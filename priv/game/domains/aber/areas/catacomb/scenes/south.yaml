@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:catacomb:beggar"
+    short: The South Cave
+    sight: You are in a small, unadorned cave.
+flag:

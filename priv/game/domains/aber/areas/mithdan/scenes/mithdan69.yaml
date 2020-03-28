@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithlearn"
+      west:
+        target: "scene:aber:mithdan:mithdan68"
+    short: Statue Yard
+    sight: >
+      The small garden is filled by beautifully carved statues of the elemental gods: Naidrk the water god,
+      Thandrain the earth god, and Klendoth the thunder god. In between the statues are immense guardian
+      dragon statues, their immense size almost rivaling that of the statues. Clearly among these people
+      dragons are held almost at the level of the elemental gods.
+flag:
+  - outdoors
+  - peaceful

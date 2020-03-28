@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:smelly"
+      north:
+        target: "scene:aber:jbs:sloping"
+      south:
+        target: "scene:aber:jbs:mountains"
+    short: Landing Bay
+    sight: >
+      You have reached the lowest possible point of the tunnel. Directly to the south you see an opening that
+      is letting in small tufts of cloud. You see many deep claw markings around the edge of the drop off and
+      you wonder what could possibly have made them. There is a chamber to the east, or you can go back up the
+      tunnel to the north.
+flag:
+  - nomobiles

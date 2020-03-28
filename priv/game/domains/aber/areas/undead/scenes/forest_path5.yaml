@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven1"
+    short: &+cPortal&*
+    sight: >
+      As you step into the room you are rushed into void of what seems to be BILLIONS of stars shooting
+      straight at you but realize they are not striking you, just flying by. You shake your head realizing
+      you've stepped into a magical portal and are floating above what seems to be nothing. This looks like a
+      safe place to rest before your brave adventure continues, for you do not know what might be on the other
+      side of this strange magical portal. The only exit you see is &+Cdown&*.
+flag:

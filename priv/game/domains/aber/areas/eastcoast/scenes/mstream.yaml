@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:glade"
+      south:
+        target: "scene:aber:eastcoast:rocks"
+      west:
+        target: "scene:aber:eastcoast:bstream"
+    short: Mouth of the Stream
+    sight: >
+      At this part of the beach, you see a stream come in from the west and empty its dark and rancid waters
+      into the sea, and you get a strange feeling that the waters of the sea feel repulsed at what is emptying
+      into it from the stream. Few if any plants seem to conglomerate at the stream's edge, and how sickly and
+      twisted the ones are that live there. You can follow the shoreline to the north, to a more welcoming
+      beach, or follow the stream to the west, or you can try crossing the stream here and approach a line of
+      wave-breaking rocks that lie nearby to the south.
+flag:
+  - outdoors

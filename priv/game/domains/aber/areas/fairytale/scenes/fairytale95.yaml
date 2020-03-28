@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale57"
+    short: Snow White
+    sight: >
+      A beautiful room is spread out around you. A crystal box shines in the center of the room, illuminated
+      by light pouring in through a large picture window. Around the box are seven small people, perhaps
+      dwarves. As you enter they look up at you with pleading eyes, as though begging something from you.
+      Lying in the box is a beautiful woman with pale skin and black hair. In her dainty hand she holds an
+      apple with one bite missing. You look around the room and see a sign which proclaims that 'Only a prince
+      may awaken the sleeping beauty.'
+flag:
+  - nomobiles

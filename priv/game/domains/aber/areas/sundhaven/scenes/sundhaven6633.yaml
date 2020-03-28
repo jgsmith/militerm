@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6650"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6634"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6632"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6653"
+    short: A gold sand road
+    sight: >
+      Sand of pale gold has been carted in from the desert lands to cover this road, reducing the sinking
+      effect of mud during the rains. The air here is heavy with the smell of delicious food, fresh bread
+      baking, and something spicier, to the east.
+flag:
+  - outdoors

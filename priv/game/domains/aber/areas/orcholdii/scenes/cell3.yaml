@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orcholdii:guardroom"
+    short: Prison Cell
+    sight: >
+      It appears this prisoner has received a few concessions. There is a &+Cworkbench&* in one corner covered
+      with stoneworking tools. There is a recesed alcove for the chamber pot and a real cot is set up on the
+      west wall.
+flag:
+  - dark

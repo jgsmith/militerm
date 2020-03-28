@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge30"
+      west:
+        target: "scene:aber:ledge:ledge28"
+    short: Underground Geyser
+    sight: >
+      A sizeable crack in the floor in this section of the cave spews hot water and steam effectively heating
+      up a good part of the whole cavern. The tunnel seems to go back a lot further, but getting by the geyser
+      is too difficult. It's a bit too uncomfortable in this suana and best to head away to the west.
+flag:
+  - hot

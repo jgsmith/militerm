@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot142"
+    short: Hidden Cavern
+    sight: >
+      You are in a small room, completely hidden by the flames to the east. There is no other way out save
+      back through the flames. Do you think you can walk the fire a second time?
+flag:
+  - dark

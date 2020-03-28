@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung23"
+      south:
+        target: "scene:aber:nibelung:nibelung25"
+    short: Rocky Road
+    sight: >
+      You are standing in a tub of ice cream...no, wait, sorry. {We apologize for the inconvenience. The
+      programmer has been zapped.} Rocky Road [ take two ] You are on a cobblestone road, although upkeep has
+      been minimal in recent times. Grass can be seen forcing its way through the cracks. Some brush is
+      growing off to the side, but from the looks of things, it's not happy to be there.
+flag:
+  - outdoors

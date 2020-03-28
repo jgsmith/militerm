@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept74"
+    short: High in the Great Tree
+    sight: >
+      You cling to sparser vines as you continue along the main trunk. You can clearly see small forms
+      scuttling about in them!
+flag:
+  - outdoors

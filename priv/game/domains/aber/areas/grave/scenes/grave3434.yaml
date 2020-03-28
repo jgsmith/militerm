@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3433"
+    short: The Side Row of Pews
+    sight: >
+      Here is the right side of the massive cathedral. As you have seen before the stained glass windows are
+      broken out. You look out the window and see why very little light filters through - the church is
+      overgrown with vines and thorn bushes essentially covering all the windows. The smell is strong and you
+      wish you were back in the safety of Shadowdale. There is an exit to the west.
+flag:

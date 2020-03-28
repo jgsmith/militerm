@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:westhall10"
+      west:
+        target: "scene:aber:ruins:westhall8"
+    short: Another Turn in the Northern Hallway
+    sight: >
+      You are briefly travelling west in the hallway. The constant turning of this hallway is starting to
+      confuse you. The shrieking is still a constant bother and you wish that you could somehow stop it. The
+      room turns to the north and goes back to the west.
+flag:
+  - dark

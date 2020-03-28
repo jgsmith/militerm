@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_25"
+      north:
+        target: "scene:aber:haunted:haunted_23"
+      south:
+        target: "scene:aber:haunted:haunted_26"
+    short: Dining Area
+    sight: >
+      It's a little musty in here. The tables have fake faded flowers in cracked vases sitting on them.
+      Cobwebs hang from the ceiling. The decor in the room tells you maybe you shouldn't be in here. Rusted
+      tools adorn the walls. Saws, picks, and large knives hang from the ceiling.
+flag:
+  - dark

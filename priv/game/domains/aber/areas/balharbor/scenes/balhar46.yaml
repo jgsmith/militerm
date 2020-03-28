@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar47"
+      south:
+        target: "scene:aber:balharbor:balhar37"
+    short: Supply Shop
+    sight: >
+      The proprietor of this shop appears to have had some success in turning back looters. The shelves look
+      like they're filled with various items that are essential for warriors on conquests. Any attempt to loot
+      this shop yourself is risky, the owner looks to be very powerful. You can go back into Idol Square to
+      the south, or get on River Street to the east.
+flag:
+  - nomobiles
+  - cantsummon

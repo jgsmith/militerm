@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Secret Storage Room
+    sight: >
+      Prying the metal sheet off of the stone wall that holds up the jetty, you go into a rather dark and dank
+      storage room underneath. The room seems like it hasn't seen the light of day in a very long time. There
+      are spiders crawling here and there, but they seem to be the only form of life that has seen this place
+      in many many years. There is nothing particularly special about the room. It is carved into the hillside
+      and was probably used as a secret storage place long ago for pirated goods. Way off to one corner are
+      the remains to what used to be a wooden chest.
+flag:

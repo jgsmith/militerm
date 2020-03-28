@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook56"
+    short: The Train
+    sight: >
+      You stand in a large train, full of an odd assortment of travellers. The seats are made of naugha-hide,
+      and the ceiling is made of glass. As you wait, you feel an odd twist in your stomach. The scenery
+      outside changes suddenly, and you are at your destination. The exit is to the east.
+flag:
+  - outdoors

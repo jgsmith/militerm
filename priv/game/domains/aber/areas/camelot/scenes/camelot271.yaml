@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot268"
+      north:
+        target: "scene:aber:camelot:camelot274"
+      south:
+        target: "scene:aber:camelot:camelot270"
+    short: The Green Bedroom
+    sight: >
+      The entire room is decorated in shades of green. Soft pastels on the walls, a deep forest green carpet,
+      and dark green satin sheets on the bed all combine to make you feel as if you are resting deep in a
+      quiet woods.
+flag:
+  - private
+  - party

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds20"
+      south:
+        target: "scene:aber:dragonslueth:ds13"
+    short: Laundry Room
+    sight: >
+      You have entered a very dusty laundry room. There are about 3 old laundry washers against the left wall
+      and racks of old clothes on the right. You grab one of the articles of clothing and dust fills the air.
+      The exit is to the &+Csouth&* and &+Cnorth&*.
+flag:

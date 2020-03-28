@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook68"
+      south:
+        target: "scene:aber:fairybook:fairybook66"
+    short: North Side
+    sight: >
+      A ladder here descends to the path. You wonder who built this silly thing here. To the south, across the
+      wall, is a ladder climbing down the other side.
+flag:
+  - outdoors

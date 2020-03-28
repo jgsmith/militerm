@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:rats:livroom"
+    short: Kitchen
+    sight: >
+      You are standing in Mom's kingdom. Everything is boiling here. Everything is smelling very good. There
+      are many cases, drawers, and also an oven. You don't think you should move around anything here.
+flag:

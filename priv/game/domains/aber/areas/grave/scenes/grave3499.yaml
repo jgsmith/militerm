@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: &+rA Long Fall
+    sight: >
+      OH NO..When you stepped off the ledge any magic spells you had were quickly dispelled and you begin a
+      rapid trip.........DOWNWARD. Just before you make a red puddle at the bottom you realize that......
+      &+RYOU HAVE DIED
+flag:
+  - death

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:wicket"
+      north:
+        target: "scene:aber:abyss:widow"
+    short: Dusty Ledge
+    sight: >
+      You have reached a small ledge high above the tunnel entrance. A thick coating of dust covers everything
+      here. A low tunnel leads north.
+flag:
+  - oneperson

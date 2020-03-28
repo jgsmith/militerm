@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rome:rome46"
+    short: The General Store
+    sight: >
+      You are standing in the only general store of Rome. The walls and shelves are covered with all of the
+      various items required by Roman citizens and stalwart mudders. Clay Avenue lies to the south.
+flag:

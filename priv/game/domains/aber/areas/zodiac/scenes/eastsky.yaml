@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:eastend"
+      north:
+        target: "scene:aber:zodiac:neastsky"
+      south:
+        target: "scene:aber:zodiac:seastsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:amgstars"
+    short: East Sky
+    sight: >
+      Looking down to the lands of your birth, you suddenly feel incredibly homesick, likely due to the
+      enormous distance between you and your family. To the west you can barely see the tower from which you
+      entered into the night sky. Far to the east you can see the constellations Aries, Leo and Sagittarius.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:climb"
+      south:
+        target: "scene:aber:caledonia:hills11"
+    short: Babbling Burn
+    sight: >
+      You are on a gentle rocky slope just south of the elven forest. A small brook runs by here, dropping
+      down among the boulders and shrubs that adorn the landscape. It flows east into the valley, and you can
+      cross it if you wish. Alternatively you could head south over a small rocky lip and into a damp and
+      rather depressing peat bog.
+flag:
+  - outdoors
+  - nomobiles

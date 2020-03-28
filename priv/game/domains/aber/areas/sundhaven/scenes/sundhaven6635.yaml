@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6634"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6781"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6655"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6608"
+    short: A lane bordering the cliffs
+    sight: >
+      This narrow lane, sometimes dimmed with fog from the sea and forests, travels east and west paralleling
+      the cliffs just around the shops to the north. Faint bird cries are issuing from the building to the
+      south.
+flag:
+  - outdoors

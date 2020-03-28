@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:origins:origins41"
+    short: TempleVision
+    sight: >
+      Upon entering this room, you feel like you are going to faint, due to the plethora of bright lights and
+      noise. The source of most of the light is row upon row upon row of large screens, to which many people
+      are attached. The images seem quite amorphous to you, but the people using them probably see a whole new
+      world... A single western exit heads back out to Megadon.
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

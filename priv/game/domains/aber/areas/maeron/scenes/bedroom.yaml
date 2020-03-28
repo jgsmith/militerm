@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:maeron:upstairs"
+    short: "&+BMaeron's Bedroom"
+    sight: >
+      This chamber is what once as Maeron's bedroom. The furniture appears to have deteriorated over the
+      years, and the once colorful carpet has faded due to the rain that has come in from the &+Rsouth&*. The
+      bed, which was once made of cherry wood, has fallen apart. &+WIcy winds from blizzard pass blow in from
+      the south.
+flag:

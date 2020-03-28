@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia3"
+      north:
+        target: "scene:aber:eosia:eosia47"
+      south:
+        target: "scene:aber:eosia:eosia18"
+      west:
+        target: "scene:aber:eosia:eosia1"
+    short: Decisions
+    sight: >
+      You have come to a 4 way intersection on the road. The roads to the east and south appear to be heavily
+      used, while those to the west and north seem a little less used by the citizens of this country. Roads
+      lead in all directions.
+flag:
+  - outdoors

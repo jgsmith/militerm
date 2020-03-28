@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept48"
+      north:
+        target: "scene:aber:adept:adept45"
+      west:
+        target: "scene:aber:adept:adept43"
+    short: Low Branches
+    sight: >
+      The branches here decide to visit the ground and force travelers to kneel and crawl their way through
+      the dense forest. Clusters of branches join ranks in many spots, seeking an eye to pop. To the east and
+      west are clearer areas of forest matter, while the north holds a genuine wall of wood.
+flag:

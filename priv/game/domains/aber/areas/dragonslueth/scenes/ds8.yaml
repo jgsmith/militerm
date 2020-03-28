@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds12"
+      south:
+        target: "scene:aber:dragonslueth:ds7"
+    short: Path
+    sight: >
+      The path continues on and on for what seems for a lifetime. The walls have strange markings on them that
+      says "Worship to the dragon claw will save your life." Hmm, what a weird thing to be written on the
+      walls. There are exits &+Cnorth&* and &+Csouth&*.
+flag:

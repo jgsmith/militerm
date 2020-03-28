@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:temple1"
+    short: Living Quarters
+    sight: >
+      Matresses stuffed with straw are lined up in neat rows here, covered with the personal effects of the
+      temple residents and priests. A washstand filled with icy water stands next to the door.
+flag:

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:lagoon"
+      north:
+        target: "scene:aber:eastcoast:footcliff"
+      south:
+        target: "scene:aber:eastcoast:mstream"
+      up:
+        target: "scene:aber:eastcoast:glade"
+      west:
+        target: "scene:aber:eastcoast:glade"
+    short: Gentle Beach
+    sight: >
+      Soft sand underfoot, the moth-like licking of the waves upon the surf, and the cool sea breeze are the
+      meanest things that assault you as you tread this lonely beach. The water at this end of the coast is
+      ringed in by a perimeter of sharp rocks, supposedly brought in some time in the past to break the
+      tortuous waves beyond, and it in effect creates a calm lagoon. You see a tall cliff loom up from the
+      north, the beach leading up to a sharp west-north bend. A bleak-looking stream lets out a little ways to
+      the south, just north of a line of more tide-breaking stones. The cool, refreshing waters seem to beckon
+      to you, to join in the knee- deep waters to the east.
+flag:
+  - outdoors

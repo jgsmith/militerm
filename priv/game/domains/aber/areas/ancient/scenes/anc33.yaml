@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc32"
+    short: Inside the Sun Pyramid
+    sight: >
+      A big stone block separates the ceiling from the floor looking anything but steady. Seems that the
+      ancient architects never learned to construct vaults even though they had the skill to build these great
+      monuments. This wide, but rather low room has obviously served as some kind of a storage room since
+      there are several &+yclay pots&* near the back wall.
+flag:

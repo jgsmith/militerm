@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sommerlund:sommerlund3"
+    short: "Raiders' Hut"
+    sight: >
+      As you push open the decaying straw door of the hut, the door hinges creak and groan. At first glance,
+      the hut appears to be nearly empty. There is still the impressions in the dirt left by countless bags of
+      silver or gold. A chest in the back of the hut lies filled with old mining equipment, broken and
+      useless. Dust lines the shelves on one wall, with a single, empty jar perched defiantly on one. However,
+      you see some bedding material in the corner. It is in a state of disarray and slightly coated with dirt,
+      but bears every sign of having been recently used.
+flag:

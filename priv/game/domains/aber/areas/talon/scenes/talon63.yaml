@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon64"
+      up:
+        target: "scene:aber:talon:talon60"
+    short: Bottom of Sinkhole
+    sight: >
+      You stand at the bottom of a tremendous sinkhole, which appears to have formed by the collapsing of this
+      cavern over years of battering from the waves which crash around you. The ocean flows on into a cave to
+      the east.
+flag:
+  - dark

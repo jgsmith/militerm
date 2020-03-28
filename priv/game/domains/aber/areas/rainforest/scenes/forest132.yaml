@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest136"
+      north:
+        target: "scene:aber:rainforest:forest127"
+    short: Bones
+    sight: >
+      You are making your way through a thick patch of undergrowth. There is a continuous crunching sound
+      beneath your feet and with distaste you realise that you are walking on a layer of dry bones. Whether or
+      not they are human you scarcely dare to find out.
+flag:
+  - outdoors
+  - rainforest

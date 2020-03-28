@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:tunnel"
+      south:
+        target: "scene:aber:abyss:head"
+      up:
+        target: "scene:aber:abyss:ledge"
+    short: Stickey Wicket
+    sight: >
+      The spider webs cover everything here. If you were a spider, it would would be easy to get around,
+      otherwise the only way you could go and not get caught in the webs is northward, into a dark smelly
+      tunnel. You could also climb up a single strand of webbing that hangs down directly over the tunnel. Or
+      you could cross the bridge back to the south.
+flag:
+  - nosummon

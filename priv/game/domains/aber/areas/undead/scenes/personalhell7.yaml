@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:personalhell6"
+      south:
+        target: "scene:aber:undead:personalhell8"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You sit in a dark and empty &+Rroom. You seem to be waiting for someone you are
+      not sure who. All around &+Ryou the sounds of revelry fill your ears. But it is fine, you are
+      &+Rstronger than them. Some people are meant to be this way.....aren't they?
+flag:
+  - soundproof

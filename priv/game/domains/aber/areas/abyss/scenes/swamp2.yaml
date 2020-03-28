@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:swamp4"
+      north:
+        target: "scene:aber:abyss:swamp1"
+      south:
+        target: "scene:aber:abyss:swamp5"
+      west:
+        target: "scene:aber:abyss:swamp3"
+    short: The Swamp
+    sight: >
+      You are in the midst of the swamp. Shadows flit before your eyes as they move in and out of the thick
+      mists that hang over the swamp. Paths seem to lead in all directions.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f9"
+      north:
+        target: "scene:aber:forest:f6"
+      south:
+        target: "scene:aber:forest:clearing"
+      west:
+        target: "scene:aber:forest:f10"
+    short: Forest
+    sight: >
+      You are following a path through the forest, which turns abruptly from the west back southwards into a
+      paticularly dense thicket. The trees all around you, though dense, are not enough to deter a truely
+      intrepid explorer.
+flag:
+  - outdoors

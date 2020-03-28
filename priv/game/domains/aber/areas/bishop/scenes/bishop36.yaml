@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:bishop:bishop35"
+    short: Cemetery Shop
+    sight: >
+      This ramshackle shed was once the place where the tenders of the dark cemetery repaired their caskets,
+      coffins, and tombstones. Other artifacts had been brought in to be fixed or detailed, but now lay in
+      discarded piles of rusting garbage.
+flag:
+  - dark

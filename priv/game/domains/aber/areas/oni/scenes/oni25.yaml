@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:oni:oni24"
+    short: Entrance to Temple
+    sight: >
+      The shrine is in much better condition than the walls that surround it. In fact the shrine appears to
+      have suffered very little wear and tear. Intricate carvings are etched into the walls depicting strange
+      and hideous demons, making you wonder what lies within.
+flag:
+  - outdoors
+  - nomobiles

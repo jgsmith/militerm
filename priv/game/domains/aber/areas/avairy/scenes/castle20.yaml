@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:avairy:castle16"
+      north:
+        target: "scene:aber:avairy:castle21"
+    short: Top of the Stairs
+    sight: >
+      You are on the second floor if the castle. After walking up the countless number of stairs you begin to
+      wonder why birds even need stairs.
+flag:
+  - light

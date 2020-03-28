@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle28"
+      east:
+        target: "scene:aber:balharbor:jungle24"
+      up:
+        target: "scene:aber:balharbor:jungle27"
+    short: The Edge of the Waterfall
+    sight: >
+      Uh oh! You now know why the water is moving so fast! Ever wanted to go over Niagara Falls in a barrel?
+      Well now's you're chance! You can try paddling against the current to the east, climb up to a large rock
+      sticking out of the water, or go down the falls.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

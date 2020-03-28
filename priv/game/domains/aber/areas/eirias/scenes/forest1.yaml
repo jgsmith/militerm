@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:forest2"
+    short: Forest
+    sight: >
+      The woodland through which you are passing is sparse and open at first, leafy with bracken and
+      undergrowth, still bright through the dappling shade. The road, though narrowed to a track, winds
+      through the trees, clear and sandy, but gradually it becomes less distinct.
+flag:
+  - outdoors

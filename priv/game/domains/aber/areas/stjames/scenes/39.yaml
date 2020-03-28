@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:25"
+      north:
+        target: "scene:aber:stjames:38"
+      south:
+        target: "scene:aber:stjames:40"
+      west:
+        target: "scene:aber:stjames:44"
+    short: St. James Park
+    sight: >
+      You are just south of the pond and just north of the main pathway through the park. To the south is a
+      large grassy clearing. Just to the east, a bridge rises up out of the earth to span the pond. The bridge
+      joins the path you are standing near to another on the northern side.
+flag:
+  - outdoors

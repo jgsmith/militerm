@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:pass2"
+      south: null
+    short: Snow Cave
+    sight: >
+      You are in a glittering ice cave, its floor and walls covered with loose, deep snow. The cavemouth is
+      east.
+flag:

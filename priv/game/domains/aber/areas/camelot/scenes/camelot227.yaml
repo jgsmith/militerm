@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot226"
+      west:
+        target: "scene:aber:camelot:camelot228"
+    short: In the Southeast Wall
+    sight: >
+      You are in an east-west section of corridor in the walls between two tall towers. There are no exits
+      save east and west into the towers.
+flag:

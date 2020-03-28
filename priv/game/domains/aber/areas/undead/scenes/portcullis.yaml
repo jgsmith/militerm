@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:courtyard2"
+      south:
+        target: "scene:aber:undead:drawbridge"
+    short: Portcullis
+    sight: >
+      Well it looks as though your journey may be coming to an end. Within these walls is the &+RUndead
+      King&*. Not as tough as he made out really. Before you stands a large open portcullis, and to your
+      &+Csouth&* is the open drawbridge. You look around nervously wondering why anyone would have a
+      portcullis and leave it open? Oh well enough of contemplation... time to move on.
+flag:
+  - outdoors

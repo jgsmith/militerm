@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni86"
+    short: Edge of the Pit
+    sight: >
+      You stand on the opposite side of the pit. A small stairway leads further into the prison.
+flag:
+  - cantsummon

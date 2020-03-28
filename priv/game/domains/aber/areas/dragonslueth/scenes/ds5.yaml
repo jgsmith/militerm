@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:dragonslueth:ds2"
+    short: &+RThe Pit of Hell...&*
+    sight: >
+      Oh good job now! you really took a wrong turn!! I am sorry, i can't let you leave the pit of hell alive,
+      it is a rule, so better luck next time. Bye bye!!
+flag:
+  - death

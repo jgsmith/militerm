@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:personalhell3"
+      south:
+        target: "scene:aber:undead:personalhell1"
+      west:
+        target: "scene:aber:undead:personalhell9"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. Suddenly you realize it is you &+Rat your prime, and what fine specimen. You watch
+      as you groom yourself in &+Ra large mirror taking time to make sure you look you best. You watch as
+      &+Ryou slowly age, wrinkles appear on your beautiful face, you stoop with age &+Rand the passion dies
+      from your eyes. This is not you, you will never get old.
+flag:
+  - soundproof

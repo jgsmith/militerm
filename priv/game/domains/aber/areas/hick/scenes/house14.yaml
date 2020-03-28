@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:house13"
+      south:
+        target: "scene:aber:hick:house15"
+    short: Main Hallway
+    sight: >
+      This hallway is just as drab as the ones you saw downstairs and you wonder how these people could live
+      in such a drab place. The hallway continues to the south.
+flag:

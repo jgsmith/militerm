@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9566"
+      south:
+        target: "scene:aber:khanjar:khanjar9567"
+      west:
+        target: "scene:aber:khanjar:khanjar9564"
+    short: At The Crater
+    sight: >
+      With the brownies you start approaching the structure as well. It looks like a wooden dais, on where a
+      couple of beings are sitting, deep in their discussion. Behind them there stands what could be a totem
+      or a statue of some kind. Yet you do not know what this all is about, but no doubt this place must be of
+      great importance and sanctity for these people.
+flag:
+  - outdoors

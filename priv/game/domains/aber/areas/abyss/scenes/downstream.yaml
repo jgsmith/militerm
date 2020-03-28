@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:boggy"
+      north:
+        target: "scene:aber:abyss:goo"
+      south:
+        target: "scene:aber:abyss:whirlpool"
+      up:
+        target: "scene:aber:abyss:boggy"
+    short: Downstream
+    sight: >
+      The current is getting swifter as it pushes you up to the east bank of the river, allowing you to climb
+      out. Further down, the river seems to boil.
+flag:
+  - onwater
+  - outdoors

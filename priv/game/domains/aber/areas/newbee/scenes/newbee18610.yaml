@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18611"
+      west:
+        target: "scene:aber:newbee:newbee18609"
+    short: A Brighter Hallway
+    sight: >
+      The hallway continues on in a east-west direction... and it seems to be brightening up to the west.
+flag:

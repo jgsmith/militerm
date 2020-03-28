@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5551"
+      south:
+        target: "scene:aber:graye:graye5549"
+    short: The Valley of Demons
+    sight: >
+      You are heading deeper and deeper into a valley. The walls climb up on either side of you, soon becoming
+      nearly vertical. Your path is slowed by thick choking vegetation grabbing your boots. The path back to
+      the south disappears in darkness, and your path continues to dip as you head to the north.
+flag:
+  - outdoors

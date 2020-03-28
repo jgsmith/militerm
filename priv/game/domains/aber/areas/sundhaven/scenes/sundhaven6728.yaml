@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:sundhaven:sundhaven6727"
+    short: The black orchard gate
+    sight: >
+      A small gate wrought with black iron flowers and arches swings loosely in the shallow wind. Beyond, rows
+      of brambles are stretching past the range of your vision.
+flag:
+  - outdoors
+  - nomobiles

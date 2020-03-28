@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:dojo1"
+    short: Sleeping Hall
+    sight: >
+      The northern hall of this dojo has been filled with straw pallets, and converted into sleeping quarters.
+      Students had no need for worldly posessions or comfort, and so their bedding was the necessary minimum.
+      Black tar oozes from the splintered floor, soaking into the matresses.
+flag:
+  - dark

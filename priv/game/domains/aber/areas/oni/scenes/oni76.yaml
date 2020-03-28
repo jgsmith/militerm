@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni77"
+      up:
+        target: "scene:aber:oni:oni74"
+    short: Deufel Temple Basement
+    sight: >
+      The basement looks like it hasn't been used very often. Cobwebs cover just about everything. There are a
+      few set of tracks, but most of them lead to wine barrels. One does stop in front of an empty portion of
+      the east wall, but it looks like they turn around right away.
+flag:
+  - cantsummon

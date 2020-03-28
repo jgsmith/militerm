@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord57"
+      north:
+        target: "scene:aber:fjord:fjord59"
+    short: The High Lake Shore
+    sight: >
+      The Phaylax Trail levels out into a bowl shaped section of the volcano slope. Small geothermal geysers
+      vent into the lake, bubbling through it and keeping it from freezing. The lake is biologically dead,
+      though. Not even single-cell organisms occupy these waters with the presence of the shades so nearby. A
+      peninsula of black lava rock sticks out into the lake like an angry blister, where a small diamond boat
+      is tethered to one of the sharp rocky points.
+flag:
+  - outdoors
+  - cold

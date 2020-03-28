@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:shady"
+      south:
+        target: "scene:aber:mountain:mou2"
+    short: Thick Bushes
+    sight: >
+      You are strolling through thick bushes trying to find your way out. The sun is climbing high up in the
+      sky casting its' warm rays on you. There's no sign of rain or storm in the sky. A narrow path is winding
+      from north to south through the bushes.
+flag:
+  - outdoors
+  - nomobiles

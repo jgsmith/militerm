@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere13"
+      south:
+        target: "scene:aber:brookmere:brookmere10"
+    short: Old Treasure Room
+    sight: >
+      You stand in a room that was once used to store elven treasure before the invasion. There are cracked
+      flagstones on the floor and the walls are black with smoke from the burning of fire and torches. Any
+      treasure that might have lain here has long since been stolen or hidden away. The room now marks the
+      entrance to the only inhabited part of Brookmere and is empty but for a small table and a three-leegged
+      stool for the guard.
+flag:
+  - dark

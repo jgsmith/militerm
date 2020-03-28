@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9502"
+      west:
+        target: "scene:aber:khanjar:khanjar9504"
+    short: On The Lawn
+    sight: >
+      You step on the lawn. An old, large tree lines the track, and its foliage covers the yard in massive
+      shadows. The corner of the tavern is close to the west.
+flag:
+  - outdoors

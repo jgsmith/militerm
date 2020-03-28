@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6686"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6691"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6710"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6709"
+    short: Atop a windswept bluff
+    sight: >
+      These are treeless heights, anguished by constant wind and populated by haunting apparitions and
+      occasional whistling banshee songs, making it a popular place to live among the recluses of the town.
+      Homes of varying sizes dot the hills.
+flag:
+  - outdoors

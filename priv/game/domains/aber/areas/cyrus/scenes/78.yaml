@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:9"
+      up:
+        target: "scene:aber:cyrus:77"
+    short: Stairs to hell
+    sight: >
+      You see a huge stairway leading down. The walls are made of black stone. You can see small lights coming
+      from below. Whatever lurks in there is very evil.
+flag:
+  - hot

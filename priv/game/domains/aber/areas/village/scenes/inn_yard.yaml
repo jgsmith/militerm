@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:seadog"
+      north:
+        target: "scene:aber:village:road2"
+      south:
+        target: "scene:aber:noxypickle:flag"
+    short: Inn Yard
+    sight: >
+      You are standing in the yard of the Old Seadog Inn. The inn itself stands to the east, a battered
+      structure half timbered and sagging, with that pleasant atmosphere of ages. To the north a narrow
+      gateway leads back onto the road.
+flag:
+  - outdoors

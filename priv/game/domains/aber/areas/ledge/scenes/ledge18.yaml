@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ledge:ledge15"
+      up:
+        target: "scene:aber:ledge:ledge15"
+    short: Old Mining Tunnel
+    sight: >
+      The tunnel seems to end at a rockfall where the walls collasped some time ago...hope no one was in
+      there. Clearing the rockfall would do no good, as there are just too many rocks to clear and no telling
+      how far it goes. There also appears to have been a lot of activity here recently. Some strands of rope,
+      blindfolds, and gags remain indicating that someone was tied up and held hostage. It also indicates that
+      whoever was tied up managed to break free. Just who that was or if that person got out of the mine isn't
+      clear just yet. You can head back upward.
+flag:
+  - dark

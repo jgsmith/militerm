@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:heaven:heaven21"
+      south:
+        target: "scene:aber:heaven:heaven19"
+    short: Alfheim
+    sight: >
+      You stand in the god's gift to Freyr when he cut his first tooth. The light elves dance around you.
+flag:
+  - private

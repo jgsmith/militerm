@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nexus:nexus4"
+    short: Crystal Plain
+    sight: >
+      The swirling purple fog reveals a solid wall of crystal nearby, the different angles of rocks reflecting
+      images of other walls surrounding this area on three sides. This crystal canyon has no major special
+      features save that of a mount of white quartz near the back wall. It is of an odd color of white and
+      being slowly eroded away by the fog and time. The wind picks up within this canyone as the air currents
+      high up above force the air downwards.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

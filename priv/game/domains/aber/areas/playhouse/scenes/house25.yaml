@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:playhouse:house26"
+    short: Kids Closet
+    sight: >
+      At first look this appears to be a simple kids closet. Yet upon closer look you see there is a way up to
+      the attic here. There are clothes blocking you from seeing too much in this messy place. It is
+      definately owned by a child. All of the clutter proves it.
+flag:

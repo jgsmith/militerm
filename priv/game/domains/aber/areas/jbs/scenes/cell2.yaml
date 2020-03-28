@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:corridor2"
+    short: Cell
+    sight: >
+      This is a small, uncomfortable looking cell. There is a wooden bed suspended from the wall and no
+      pillow. You wonder where these prisoners go to the bathroom.
+flag:

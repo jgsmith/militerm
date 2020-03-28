@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook114"
+      west:
+        target: "scene:aber:fairybook:fairybook111"
+    short: Golden Path
+    sight: >
+      You stand on the path. The houses alongside the road are off- looking dwellings: each is round, with a
+      big dome for a roof. All are painted blue, for in this part of the country the favorite color is blue.
+      The path continues east and west.
+flag:
+  - outdoors

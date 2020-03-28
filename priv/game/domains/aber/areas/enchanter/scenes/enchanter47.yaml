@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:enchanter:enchanter48"
+      west:
+        target: "scene:aber:enchanter:enchanter43"
+    short: Base of the Tower
+    sight: >
+      You're at the base of another tower. You can hear the sound of heavy machinery above you.
+flag:

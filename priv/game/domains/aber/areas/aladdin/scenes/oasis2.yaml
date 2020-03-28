@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:aladdin:oasis1"
+    short: In an Oasis
+    sight: >
+      There is an abundance of exotic trees, bushes, and even some grass. In the distance you see many cacti
+      that deserts are known for. You wish everyday in the desert were like this as you meander about lazily.
+flag:
+  - light
+  - outdoors

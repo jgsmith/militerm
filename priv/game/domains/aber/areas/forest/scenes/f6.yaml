@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:stream"
+      north:
+        target: "scene:aber:forest:f5"
+      south:
+        target: "scene:aber:forest:f1"
+      west:
+        target: "scene:aber:forest:f7"
+    short: Forest
+    sight: >
+      The forest here is green and lively, its thick young growth tangled and glowing with life. A narrow
+      stream trickles away to the east, and a path runs down towards it.
+flag:
+  - outdoors

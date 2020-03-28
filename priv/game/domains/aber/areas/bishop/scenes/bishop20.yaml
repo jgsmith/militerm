@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop19"
+    short: Wine Cellar
+    sight: >
+      Vintages of many kinds of spirits, mainly comprised of the popular brands of ale, brandy, and heavy
+      sasprilla. Green, brown, and black bottles are laid carefully on the wire racks to avoid breakage and
+      confusion when choosing an ideal drink for a given setting.
+flag:
+  - dark

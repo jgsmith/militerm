@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "Mateon's Chamber"
+    sight: >
+      You find yourself in a small, cramped chamber. A &+Cwindow is set in the north wall, and a sturdy oak
+      door is to the east.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni13"
+      west:
+        target: "scene:aber:oni:oni11"
+    short: Turn in the Path
+    sight: >
+      The path turns away from the river and heads north. It looks like you will have to enter the forest,
+      which you cannot see more than 200 feet into, or head back to the west.
+flag:
+  - outdoors
+  - nomobiles

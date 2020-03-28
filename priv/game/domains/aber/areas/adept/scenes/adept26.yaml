@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept27"
+      west:
+        target: "scene:aber:adept:adept25"
+    short: Factory Gates
+    sight: >
+      A picket-line fence surrounds this industrial complex, complete with a guardtower. A gray, three-story
+      building stands ominously against the blue sky, its puffing tower of smoke deterring any birds from
+      flying overhead. The walls seem to be three feet thick, and the fortess is heavily guarded.
+flag:

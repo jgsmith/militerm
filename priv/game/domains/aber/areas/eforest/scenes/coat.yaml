@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:entry"
+    short: Coat Room
+    sight: >
+      With a morbid sense of curiosity, you enter the cave where you have been directed in order to check your
+      soul. Quite surprisingly, you are not instantly zapped by some evil being. Instead, the room seems to a
+      quite simple &+Ccoat&* room. Lining the walls are coats of every shape and size, checked in, no doubt,
+      due to the heat below. You would laugh at how ridiculous this whole scene looked if not for the evil
+      that you feel below you.
+flag:

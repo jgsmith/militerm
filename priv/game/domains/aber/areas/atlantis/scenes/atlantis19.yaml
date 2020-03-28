@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:atlantis:atlantis20"
+      west:
+        target: "scene:aber:atlantis:atlantis14"
+    short: Kelp Me!
+    sight: >
+      You manage to shove your way through the thick growths of the kelp, to find yourself completely
+      surrounded on all sides by it. There is so much of it that it's difficult to see in any real direction.
+      Thick growths of the plant form dense walls to the north and east, and seem only slightly less dense to
+      the west and south.
+flag:
+  - underwater

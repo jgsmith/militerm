@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:giant"
+      up:
+        target: "scene:aber:jbs:nose_chamber"
+      west:
+        target: "scene:aber:jbs:nose_chamber"
+    short: In the Nose
+    sight: >
+      You are standing inside of the giant's nose, and you find yourself fervently hoping that your walking
+      around in here won't make him sneeze. You can go back out onto his chest to the east or continue
+      exploring up to the west.
+flag:

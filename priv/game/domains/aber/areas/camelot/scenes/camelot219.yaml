@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot218"
+      west:
+        target: "scene:aber:camelot:camelot220"
+    short: Inside The Western Wall
+    sight: >
+      The corridor inside the wall has arrow slits in the outer wall, and high windows in the inner. You can
+      imagine how difficult it would be to scale the wall outside while someone in here was poking a spear at
+      you through the slits.
+flag:

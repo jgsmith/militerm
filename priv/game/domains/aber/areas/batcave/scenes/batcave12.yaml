@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:batcave:batcave13"
+      south:
+        target: "scene:aber:batcave:batcave10"
+    short: Empty Room
+    sight: >
+      What else do you need to know? Well, okay, you're in another chamber of the cave. The floor tilts down
+      gradually toward the north.
+flag:
+  - dark
+  - nosummon

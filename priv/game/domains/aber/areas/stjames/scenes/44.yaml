@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:39"
+      north:
+        target: "scene:aber:stjames:45"
+      south:
+        target: "scene:aber:stjames:43"
+      west:
+        target: "scene:aber:stjames:53"
+    short: St. James Park
+    sight: >
+      You are just south of the pond and east of the western gate of the park. The wall near you which divides
+      this area from the palace gardens is rather nasty-looking. To the north is the exit from the park to the
+      palace. The rest of the city is way back toward the east.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung80"
+      south:
+        target: "scene:aber:nibelung:nibelung91"
+    short: Dining Hall
+    sight: >
+      The center of the room is occupied by a very large oak table, which seats about 200 people. An equal
+      number of chairs runs along both sides, and an arrangement of dried flowers has been placed as a
+      centerpiece. There are buckets in two corners, the function of which you would rather not think about. A
+      doorway to the east leads to a large hall, and you notice the kitchens to the south.
+flag:

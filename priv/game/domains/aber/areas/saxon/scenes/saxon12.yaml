@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon13"
+      north:
+        target: "scene:aber:saxon:saxon11"
+      south:
+        target: "scene:aber:saxon:saxon16"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      In the southwestern part of Heorot lies the smaller tables of the hall. The people who serve the
+      warriors food leave the large containers of beans, soup or whatever is being served here so that they
+      can easily refill the plates of the warriors, who are known to eat quite a lot. After the main feast has
+      taken place, the peasants and servants eat here afterwards, to show their respect for the higher
+      classes. Exits lead north and east in Heorot and south into the kitchen.
+flag:
+  - light

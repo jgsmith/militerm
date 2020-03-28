@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_9"
+      south:
+        target: "scene:aber:haunted:haunted_8"
+      west:
+        target: "scene:aber:haunted:haunted_5"
+    short: Hallway
+    sight: >
+      As you walk down the hallway, you see pictures have fallen off the walls and been smashed. The only item
+      that remains on the wall is a large mirror. A bathroom is just to the east. Seems someone left the
+      basement door open.
+flag:
+  - dark

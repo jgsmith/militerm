@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter42"
+      north:
+        target: "scene:aber:enchanter:enchanter37"
+      south:
+        target: "scene:aber:enchanter:enchanter43"
+    short: Mess Hall
+    sight: >
+      The smell of rotting meat here makes you want to throw up. This used to be the castle's banquet hall.
+      Now, only the dogs feast here...
+flag:

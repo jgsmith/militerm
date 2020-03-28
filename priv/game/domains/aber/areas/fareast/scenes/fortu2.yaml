@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:fort2"
+      east:
+        target: "scene:aber:fareast:fortuhall"
+    short: Upper Stairwell
+    sight: >
+      Glowing lamps illuminate the top of this stairwell, which opens onto a small entrance hall. Below, the
+      light glimmers off of armor and various objects in the Hall of Honor, where the staircase originates.
+flag:

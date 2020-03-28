@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:fates_cavern"
+      west:
+        target: "scene:aber:grove:over_view"
+    short: Recluse
+    sight: >
+      Forging your way through the thick shrubs, you stumble upon a hidden pond. Clear and pure, this water
+      allows you to see to the deepest bottom. Multi- colored fishes swim here, cattails rustle slightly in
+      the breeze. Water fowl float around on it's surface. As you look about, you hear myriads of little
+      voices calling and taunting you. Something seems to be flitting around the northern end of the pond.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

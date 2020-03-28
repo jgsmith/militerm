@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:mount20"
+      west:
+        target: "scene:aber:rainforest:mount23"
+    short: On The Moraine
+    sight: >
+      You have come as far as possible along the moraine. To the east the glacier is carrying a huge rock
+      which is partially embedded in the ice. You could try to skirt around it by heading south, but that way
+      leads out on to the glacier and the ever-present risk of falling into a crevasse.
+flag:
+  - outdoors
+  - cold

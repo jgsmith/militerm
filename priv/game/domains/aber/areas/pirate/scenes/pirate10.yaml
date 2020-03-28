@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pirate:pirate0"
+      south: null
+      up:
+        target: "scene:aber:pirate:pirate12"
+    short: Aft Deck
+    sight: >
+      You are near the back of the ship, standing on the deck. A large cabin rises from the deck to the south,
+      with a small door leading into it. A small stairway leads onto the roof of it. The deck continues on to
+      the north.
+flag:

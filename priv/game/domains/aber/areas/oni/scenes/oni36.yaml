@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni54"
+      south:
+        target: "scene:aber:oni:oni34"
+    short: Small Room
+    sight: >
+      You stand in a small room that seems to separate the main temple floor with a small hallway to the west.
+flag:
+  - nomobiles

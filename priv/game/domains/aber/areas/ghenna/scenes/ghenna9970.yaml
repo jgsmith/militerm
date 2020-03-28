@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9968"
+      south:
+        target: "scene:aber:ghenna:ghenna9971"
+    short: The best little whorehouse in Ghenna.
+    sight: >
+      This room is lit by the glow of several red lights. Lingerie, and various pleasure toys litter the
+      floor, which is carpeted in a lovely mauve shag. To the south is a waiting room where you can see a
+      couch sitting behind a glass coffee table.
+flag:

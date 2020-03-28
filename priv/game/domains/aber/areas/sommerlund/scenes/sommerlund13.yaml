@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund12"
+      up:
+        target: "scene:aber:sommerlund:sommerlund14"
+    short: Tree Stairs
+    sight: >
+      The stairs continue to wind 'round and 'round the tree, but you can see the lower branches from here.
+flag:

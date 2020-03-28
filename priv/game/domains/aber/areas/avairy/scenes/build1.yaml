@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:jungle10"
+    short: Inside a Small Shack
+    sight: >
+      You are inside a small shack. There's a &+Yfireplace&* on the northern wall, a small &+Ybed&* against
+      the western wall and a small kitchen area with a stove on the southern wall.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18603"
+      south: null
+      west:
+        target: "scene:aber:newbee:newbee18601"
+    short: The Dirty Hallway
+    sight: >
+      You continue wandering down the hallway. Nothing much different here, but you are positive you here
+      noises behind the door to the south, and coming from the east. The walls are a bit slimy and moldy
+      here... yeech, couldn't they hire someone to clean this place? What will the newbies think? Oh well, you
+      can continue along the hallway to the east or west.
+flag:

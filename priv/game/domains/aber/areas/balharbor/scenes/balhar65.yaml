@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:balharbor:balhar64"
+    short: The Warrior Arena
+    sight: >
+      You find yourself in the center of a large arena surrounded by a jam-packed crowd of cheering fans
+      chanting for a fight. The bodies of several fallen warriors litter the area as it appears Mortal Kombat
+      had just taken place. You can leave the arena west.
+flag:
+  - outdoors

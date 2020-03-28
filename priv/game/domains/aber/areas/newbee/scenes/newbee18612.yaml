@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newbee:newbee18632"
+      north: null
+      west: null
+    short: "The Alchemist's Room"
+    sight: >
+      Lots of bottles and flasks lie about this room, but it all looks like worthless clutter. It appears
+      whatever alchemist has been working here is really very adept at his art. There are a lot of formulae
+      and spells written on the walls too... couldn't he buy some paper? There is a door to the north, and
+      also a dark &+Gstairway&* in the corner leading down, with a large &+Gsign&* next to it that you
+      probably should read...
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:stairs"
+      east:
+        target: "scene:aber:abyss:stop"
+    short: The Abyss
+    sight: >
+      You are at the face of an enormous curved basalt cliff that extends down out of sight into a dark pit. A
+      small sign, hand painted in blood, tells you: Mortals keep out! A black door set into the face of the
+      cliff has a dark arrow above it pointing down. A sign pasted on the door informs you the elevator is out
+      of order. For those hearty souls, a large, circular stairway has been carved into the cliff face,
+      allowing you to make the long descent into the black pit.
+flag:
+  - dark
+  - nomobiles

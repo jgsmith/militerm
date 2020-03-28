@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:grave:grave3439"
+      west:
+        target: "scene:aber:grave:grave3447"
+    short: Behind The Altar
+    sight: >
+      This is a small area immediately behind the altar. There is evidence of a great battle here. The floor
+      is charred and there are broken weapons, scraps of cloth, cracked helmets, and many corpses. You are
+      very surprised to see the corpses belong to what looks like the invaders and there is no sign of any
+      dead church members. You are very puzzled what this may mean. The obvious exits are to the north and
+      west.
+flag:

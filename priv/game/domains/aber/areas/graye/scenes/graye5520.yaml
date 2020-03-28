@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5517"
+      up:
+        target: "scene:aber:graye:graye5521"
+    short: The Cliff Wall
+    sight: >
+      You inch your way upwards, hand over hand, searching out more footholds. Sweat stings your eyes, and
+      your breathing becomes ragged. You can still drop safely to the forest floor, or madly continue upwards.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

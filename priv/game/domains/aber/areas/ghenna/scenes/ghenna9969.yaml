@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9968"
+      west:
+        target: "scene:aber:ghenna:ghenna9967"
+    short: A bend in the road.
+    sight: >
+      You are at a bend in the road. The city wall lies north, and east of you prohibiting exits in those
+      directions. A narrow lane leads Westward.
+flag:
+  - dark
+  - outdoors

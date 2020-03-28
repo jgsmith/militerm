@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sherwood:sherwood23"
+      west:
+        target: "scene:aber:sherwood:sherwood25"
+    short: Corner
+    sight: >
+      You have reached yet another turn in the road. The trees grow dense to the west. They are ominous and
+      block all sunlight from reaching the ground. You stand here trying to muster up the courage to venture
+      on. You look toward the trees and a shiver runs up your spine. You know that if you continue. There is
+      no coming back. It is all or nothing. What are you a man or mouse?
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook65"
+    short: Deeper
+    sight: >
+      The shop extends here, where scented rushes grow from the cracks in the floor. You are caught up in
+      their beauty and fragrance and wish you might have some. The shop continues to the east, where it meets
+      a wall.
+flag:
+  - nomobiles
+  - outdoors

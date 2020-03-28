@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc53"
+      north:
+        target: "scene:aber:ancient:anc51"
+      south:
+        target: "scene:aber:ancient:anc54"
+      west:
+        target: "scene:aber:ancient:anc47"
+    short: The Hall of the Lords
+    sight: >
+      This is a small entrance hall which leads to the rooms of the upper class. Some of the tales the son of
+      the sun god let some of his most faithful subjects follow him to this desperate escape from the
+      destruction. There are doorways in every direction.
+flag:

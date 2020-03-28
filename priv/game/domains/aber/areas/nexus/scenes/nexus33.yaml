@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus34"
+      south:
+        target: "scene:aber:nexus:nexus20"
+      west:
+        target: "scene:aber:nexus:nexus30"
+    short: The Silent Conifers
+    sight: >
+      The trees form a full canopy, completely blocking out the sun. Only a few dim streams reflecting around
+      allow the unaided eye to penetrate the otherwise darkened interior of this forest. Branches form at odd
+      angles and threaten to poke the aforementioned eye out of an unsuspecting traveler. There are numerous
+      lichen lining the bark of the trees, eagerly breathing in the natural essence of the forest. Tranquility
+      is the order of the day as a quiet wind whistles through the tree tops.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

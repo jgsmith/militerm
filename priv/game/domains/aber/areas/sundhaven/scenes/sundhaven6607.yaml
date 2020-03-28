@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6600"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6619"
+    short: A stone arch
+    sight: >
+      An imposing arch of the grey-white stone of the cliffs arcs over your head, half grown over with dark
+      green ivy. Before you to the south are the stone steps leading up to the town gallows, and northwards
+      lies the courtyard of the temple.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome26"
+      north:
+        target: "scene:aber:rome:rome18"
+      west:
+        target: "scene:aber:rome:rome12"
+    short: The Main Highway
+    sight: >
+      This is a well built and heavily traveled road running from east to west, and there is a large structure
+      built entirely of stone to the north.
+flag:
+  - outdoors

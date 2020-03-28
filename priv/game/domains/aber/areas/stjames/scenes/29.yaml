@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:26"
+      north:
+        target: "scene:aber:stjames:30"
+      south:
+        target: "scene:aber:stjames:28"
+      west:
+        target: "scene:aber:stjames:40"
+    short: Path Through St. James Park
+    sight: >
+      You are on the southern east-west path through the park. To the north a bridge leads over the pond to
+      join with another path on the northern side. The path you are on continues back to the east and to the
+      west to Buckingham Palace. Just to the south is a green park bench.
+flag:
+  - outdoors

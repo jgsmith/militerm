@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook57"
+    short: The Bugs
+    sight: >
+      You hop a tiny brook and find yourself in another garden. All around you are bugs of various shapes and
+      sizes: a gnat, a rockinghorse-fly, a snapdragonfly, and a bread-and-butter fly. The garden gives way to
+      a field to the east, and then a dark wood.
+flag:
+  - outdoors

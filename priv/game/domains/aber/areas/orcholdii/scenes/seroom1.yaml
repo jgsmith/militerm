@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Bedroom
+    sight: >
+      You step blindly into the room and discover they dug a bit too deep in here. You seem to fall forever
+      before rejoining the body to the earth.
+flag:
+  - death
+  - dark

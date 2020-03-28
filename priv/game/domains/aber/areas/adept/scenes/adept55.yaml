@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept54"
+      north:
+        target: "scene:aber:adept:adept56"
+    short: Hemlock Heaven
+    sight: >
+      A large number of hemlocks grow in this particular part of the Nareth Forest. Here the soil provides an
+      extreme abundance of the minerals necessary to support hemlock growth.
+flag:

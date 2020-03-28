@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni2"
+      south:
+        target: "scene:aber:haondor:sundforest6078"
+    short: Hidden Forest Path
+    sight: >
+      You are on a hidden forest path. The path continues further into the forest, but you cannot tell where
+      it leads. The sound of rushing water can be barely made out. To the south you can still make out the
+      main path.
+flag:
+  - outdoors
+  - nomobiles

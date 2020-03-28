@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town8"
+      west:
+        target: "scene:aber:town:town14"
+    short: "Smuggler's Camp"
+    sight: >
+      This is a very small camp that has many broken crates lying around. It seems there has been much
+      activity lately, like a shipment of stolen goods has just been through here. To the west is a locked
+      door to some big, featureless building and to the east is the beach.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc39"
+      west: null
+    short: Damp Passage
+    sight: >
+      The ground has given way in the rain uncovering a passage leading east into the darkness. You slide down
+      the wet sand to the beginning of the tunnel.
+flag:
+  - outdoors

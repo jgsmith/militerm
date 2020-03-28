@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot138"
+      west:
+        target: "scene:aber:camelot:camelot140"
+    short: Skull Cavern
+    sight: >
+      The walls of this cave are covered with carvings of skulls, perhaps as a warning to those who consider
+      entering.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook149"
+      west:
+        target: "scene:aber:fairybook:fairybook151"
+    short: Forest
+    sight: >
+      You stand at the entrance to the dark forest of the west. To the east are some fields. As soon as you
+      step beneath the canopy of trees, the sun vanishes as though someone turned it off. It is rumored that
+      packs of wolves, swarms of bees, and flocks of crows monitor the forest to prevent visitors from
+      reaching the Witch's castle.
+flag:
+  - outdoors

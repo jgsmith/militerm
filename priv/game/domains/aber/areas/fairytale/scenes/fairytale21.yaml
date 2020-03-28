@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale20"
+    short: Lost in the Fun House
+    sight: >
+      You are lost in the Fun House. Mirrors surround you. One mirror stands in front of you, clearer than any
+      other mirror you have ever seen. Reflected in the mirror, next to your own reflection, is the reflection
+      of a huge block of silver.
+flag:
+  - nosummon

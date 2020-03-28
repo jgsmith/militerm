@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung57"
+      south:
+        target: "scene:aber:nibelung:nibelung60"
+      up:
+        target: "scene:aber:nibelung:nibelung59"
+      west:
+        target: "scene:aber:nibelung:nibelung64"
+    short: Along the Wall
+    sight: >
+      The wall here seems in a little better shape. Looking around, you notice a turret above you in the wall.
+      Apparently such turrets were used to launch arrows and dump boiling oil on attacking enemies below.
+flag:
+  - outdoors

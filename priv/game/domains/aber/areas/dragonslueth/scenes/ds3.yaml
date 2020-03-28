@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds11"
+      south:
+        target: "scene:aber:dragonslueth:ds2"
+      west:
+        target: "scene:aber:dragonslueth:ds4"
+    short: &+BBlue Room&*
+    sight: >
+      You catch your breath as you enter this cave. Sapphires set in the wall shimmer with the light filtered
+      in from the Grand Hall. They sparkle in your face everytime you move into a different position. You look
+      up towards the ceiling but can not see one. All you see is blackness never ending.
+flag:

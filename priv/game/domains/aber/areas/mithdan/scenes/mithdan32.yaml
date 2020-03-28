@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan33"
+      west:
+        target: "scene:aber:mithdan:mithdan31"
+    short: Above the Clouds
+    sight: >
+      The trail streches beneath you, lost in the sworling mass of the clouds. A light dusting of snow is
+      swept up by the wind, but the bulk of it remains beneath you, exposing a bare rock path. The path
+      continues up the side of the mountain to the east.
+flag:
+  - outdoors
+  - cold

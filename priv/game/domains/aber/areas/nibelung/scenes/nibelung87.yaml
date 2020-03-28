@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung86"
+      up:
+        target: "scene:aber:nibelung:nibelung86"
+    short: "Faffner's Lair"
+    sight: >
+      You find yourself in a smaller cavern than the last one, but still rather impressive. Stalagmites poke
+      up from the floor here and there about the room. Several shelves have been carved into one wall,
+      apparently to store small items. As you walk further into the room, you notice some bones lying about
+      the floor. A few seconds later, it dawns on you that these are human bones.
+flag:
+  - dark

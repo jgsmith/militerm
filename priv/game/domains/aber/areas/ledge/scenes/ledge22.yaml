@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ledge:ledge21"
+      west:
+        target: "scene:aber:ledge:ledge21"
+    short: Broken Track Ties
+    sight: >
+      You take a chance and continue stepping across the gap, but a quick hop over one broken tie onto another
+      tie causes it to snap! What's worse, the supports holding up the tracks collaspe along with it! You take
+      the fall and don't survive. Next time, take a cart...
+flag:
+  - death

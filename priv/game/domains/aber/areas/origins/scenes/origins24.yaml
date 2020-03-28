@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:origins:origins25"
+      west:
+        target: "scene:aber:origins:origins22"
+    short: Lands Stripped Bare
+    sight: >
+      This area east of Willowdale must once have been where the inhabitants of the city did their farming.
+      But now, the once rich and fertile earth has been violently stripped of all semblance of fertility. It
+      reminds you of deliberately washing salt into soil to make it infertile, only this is far worse. In
+      front of you is a small mountain which appears to have some greenery growing on it, and doesn't appear
+      difficult to climb. You may retreat back west to Willowdale, or climb the small mountain. The very life
+      essence of the area is gone, leaving a cold, hard, empty shell. Clothes may warm the body, but they do
+      not warm the soul...
+flag:
+  - outdoors
+  - soundproof
+  - negregen
+  - soundproof

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f2"
+      north:
+        target: "scene:aber:forest:f3"
+      south:
+        target: "scene:aber:forest:path"
+      west:
+        target: "scene:aber:forest:path"
+    short: Forest
+    sight: >
+      The forest here is thick and dark, with little light seeping through at any point. Fortunately the
+      darkness is only sufficient to dim your sight making you jump at the shadows amongst the swaying trees.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:tower:base"
+    short: Black Tower
+    sight: >
+      You are in a small dark room in one of the lower levels of the black tower. It appears to be a store
+      room for spell ingredients which line the shelves on the northern wall. An archway leads west to the
+      tower entrance.
+flag:

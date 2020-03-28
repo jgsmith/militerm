@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden20"
+      south:
+        target: "scene:aber:golden:golden17"
+      west:
+        target: "scene:aber:golden:golden19"
+    short: On the Pool
+    sight: >
+      Floating on the pool towards the waterfall, you take a moment to stare at the beautiful fish and other
+      aquatic animals that swim beneath you. To the east there is a violent whirlpool and to the west there is
+      an opening behind the waterfall.
+flag:
+  - onwater
+  - outdoors

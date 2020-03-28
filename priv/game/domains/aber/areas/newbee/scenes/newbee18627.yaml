@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18628"
+      north:
+        target: "scene:aber:newbee:newbee18623"
+      south:
+        target: "scene:aber:newbee:newbee18632"
+      west:
+        target: "scene:aber:newbee:newbee18626"
+    short: A Crossing Of Corridors
+    sight: >
+      Here a narrow east-west passage crosses with a wider passage to the north and south. The air is dank,
+      and has an odor of decay and debris. Not a nice place at all really...
+flag:

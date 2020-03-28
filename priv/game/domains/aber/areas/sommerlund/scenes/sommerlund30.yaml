@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:sommerlund:sommerlund31"
+    short: Tower Top
+    sight: >
+      This room has a large, yellow globe as a representation of the sun, hanging by a thin, silver strand in
+      the middle of the circular chamber. The entire chamber is bathed in sunlight, making the place even more
+      brilliant. An exit on the tower's western side leads to a balcony.
+flag:

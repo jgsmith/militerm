@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countrya_4"
+      north:
+        target: "scene:aber:fareast:countrya_5"
+      south:
+        target: "scene:aber:fareast:countrya_2"
+      west:
+        target: "scene:aber:fareast:countrya_1"
+    short: Countryside- Crossroads
+    sight: >
+      The two major roads crossing this island meet here, at an unmarked crossroads. The only clue as to each
+      road's destination is what can be seen: to the west, a small village stands alone. To the east, the road
+      continues toward groves and orchards of planted trees. The northern path seems to dissappear into the
+      rock-strewn hills, where mountains reach toward the horizon. And to the south, the road is obscured by a
+      dark haze rising from the blighted countryside around it.
+flag:
+  - outdoors

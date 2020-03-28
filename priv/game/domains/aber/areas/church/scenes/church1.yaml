@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:church:decaying"
+      north:
+        target: "scene:aber:blackknight:way"
+      south:
+        target: "scene:aber:church:church2"
+    short: North End Of Church
+    sight: >
+      You stand at the north end of the church, looking south down between the silent rows of rotting pews.
+      Another doorway leads east into a small room.
+flag:

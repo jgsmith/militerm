@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:app:app32"
+    short: Fountain
+    sight: >
+      This room is Almin's resting chamber. Here he can rejuvenate himself from a hard days work of trying to
+      take over the world. Tasting the water from the fountain, finds the water slightly magical tasting, but
+      nothing else.
+flag:
+  - fastheal
+  - fastmana
+  - peaceful

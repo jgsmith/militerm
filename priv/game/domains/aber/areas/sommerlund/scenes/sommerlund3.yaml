@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund4"
+      north:
+        target: "scene:aber:sommerlund:sommerlund2"
+      south:
+        target: "scene:aber:sommerlund:sommerlund5"
+    short: Pass of Moytura
+    sight: >
+      This is a small pass between low foothills. It is a connection between the desert and the distant
+      fertile farmlands. There is a hut off to one side of the pass, looking like it has been derelict for
+      centuries. This pass was often a place for thieves and cutthroats to gain riches by ambushing merchants
+      who travel to the village to sell their wares. It is possible that this hut was used as a storage
+      facility for such purposes.
+flag:
+  - outdoors

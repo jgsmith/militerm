@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome33"
+      south:
+        target: "scene:aber:rome:rome35"
+      west:
+        target: "scene:aber:rome:rome27"
+    short: Nero Drive
+    sight: >
+      This is a busy paved road that runs north through the city. The people of Rome are very friendly and say
+      hello as you pass. A gate leading out of the city lies to the south and a small path goes west towards a
+      nobleman's estate. To the east, off in the distance, lies the great mountain. It is rumored that the
+      gods watch over and protect the empire from there.
+flag:
+  - outdoors

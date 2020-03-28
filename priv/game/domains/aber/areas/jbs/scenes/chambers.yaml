@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:giants_bed"
+      south:
+        target: "scene:aber:jbs:waiting"
+    short: Kings Chambers
+    sight: >
+      This is the reception area to the king's private chambers. The waiting room is just north of here, and
+      the chambers continue to the south.
+flag:

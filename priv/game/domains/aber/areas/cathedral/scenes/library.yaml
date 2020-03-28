@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: The Library
+    sight: >
+      This is LeSuorac's private library. Here you see shelf upon shelf of fine volumes. As you browse you
+      notice the works of Anne Rice have a prominent place in this library. In the corner is a copy machine,
+      but it doesn't accept change, only those silly little copy cards.
+flag:
+  - light
+  - soundproof
+  - private

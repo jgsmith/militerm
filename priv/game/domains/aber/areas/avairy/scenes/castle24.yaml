@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle22"
+    short: Closet
+    sight: A typical everyday royal closet.
+flag:
+  - light

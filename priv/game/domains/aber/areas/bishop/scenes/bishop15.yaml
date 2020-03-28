@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop18"
+      south: null
+      up:
+        target: "scene:aber:bishop:bishop16"
+    short: Front Room
+    sight: >
+      The spirit of 'home sweet home' and nostalgia are ever-present in here. On a brick fireplace mantle lay
+      the small heirlooms of the dirt road's caretaker - a whittled duck, a brass pair of night goggles, an
+      engraved necklace, and a leather coat-of-arms. Two rocking chairs, a small desk, and a well-sanded desk,
+      all made of wood, represent the main complement of furniture.
+flag:

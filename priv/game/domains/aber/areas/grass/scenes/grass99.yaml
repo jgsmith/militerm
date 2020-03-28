@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grass:grass89"
+      west:
+        target: "scene:aber:grass:grass98"
+    short: Obscure Path
+    sight: >
+      The path continues downhill at a steep angle to the east, uphill to the west. Just east of you, you
+      think you may see some sort of break in the trees, as the forest you entered into seems to have come
+      upon you quite suddenly.
+flag:
+  - outdoors

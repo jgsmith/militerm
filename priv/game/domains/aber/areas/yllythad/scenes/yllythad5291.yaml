@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5286"
+      north:
+        target: "scene:aber:yllythad:yllythad5107"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6794"
+      west:
+        target: "scene:aber:yllythad:yllythad5296"
+    short: Among the Tradewinds
+    sight: >
+      A strong wind blows out of the east carrying along the sea and all things upon it. The waters move along
+      at a steady, ryhtmic pace.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:pirate:pirate15"
+      west:
+        target: "scene:aber:pirate:pirate14"
+    short: Sandy Shore
+    sight: >
+      You are standing on a glittering white shore, unmarked save by the waves that are quietly coming and
+      going. A large pirate ship can be seen floating placidly in the bay.
+flag:

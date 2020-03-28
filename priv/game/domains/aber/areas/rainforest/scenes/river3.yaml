@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river5"
+      north:
+        target: "scene:aber:rainforest:forest71"
+      south:
+        target: "scene:aber:rainforest:forest107"
+    short: Junction Of Rivers
+    sight: >
+      Technically speaking, this is the River Kerapi, which has just been joined by the Malazon flowing in
+      from the south-west. For some time henceforward, the water from the two rivers flows side by side, the
+      difference in colour rather striking. The river is too fast-moving for you to try to head back upstream,
+      but you may be able to reach the northern or southern shore with some strenuous paddling.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sagewood:woods3"
+      west:
+        target: "scene:aber:sagewood:woods5"
+    short: Old Clearing
+    sight: >
+      The chaos of the trees clamoring for the light seems to have disappeared here. In the center of this
+      clearing is a single, gigantic black &+Boak&*. The other plants grow away from it as if afraid of coming
+      too close. &+CNorth&* and &+CWest&* lead off into the ravaged woods.
+flag:
+  - outdoors

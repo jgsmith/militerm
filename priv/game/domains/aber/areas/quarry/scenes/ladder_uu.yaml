@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ladder_ud"
+      east:
+        target: "scene:aber:quarry:end"
+      up:
+        target: "scene:aber:quarry:tunnel"
+    short: Ladder
+    sight: >
+      You are standing at the bottom of a treacherous wooden ladder. Another ladder descends yet further
+      through the floor of the rough-hewn tunnel you find yourself in. The tunnel leads east.
+flag:
+  - dark

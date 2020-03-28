@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6606"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6601"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6607"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6605"
+    short: The sunken temple courtyard
+    sight: >
+      The pale light from the open sky pours always into this unsheltered courtyard, together with the amber
+      glow of standing torches. Many citizens of the town of Sundhaven find it their pleasure to lounge here.
+      The dark marble temple rises like a shadow to the north, the vivid colors of roses eastwards, and the
+      library lies to the west. There is a stone arch to the south.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower66"
+      north:
+        target: "scene:aber:balharbor:btower67"
+      west:
+        target: "scene:aber:balharbor:btower71"
+    short: Dark Corridor
+    sight: >
+      You think you feel a draft in this room, but cannot tell its source. There looks to be a letter 'T' in
+      the floor.
+flag:
+  - dark
+  - maze

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan12"
+      south:
+        target: "scene:aber:mithdan:mithdan16"
+      west:
+        target: "scene:aber:mithdan:mithdan10"
+    short: Dirt Trail
+    sight: >
+      In the distance to the east you catch the glimpse of small huts and other buildings between the trees. A
+      thin wisp of smoke rises overhead. The dirt trail continues to the east and west, and to the south there
+      is a small clearing filled with ferns.
+flag:
+  - outdoors

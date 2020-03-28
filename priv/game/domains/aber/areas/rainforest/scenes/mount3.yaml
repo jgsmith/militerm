@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount11"
+      east:
+        target: "scene:aber:rainforest:mount2"
+    short: End Of The Ledge
+    sight: >
+      You are at the end of a narrow rocky ledge which runs east from here. The only other possible route
+      would be to scramble up down the mountainside, since your westward route is blocked by a sheer rockface
+      which you cannot hope to pass without specialist equipment. However, you realise that once you have gone
+      down, there is no way that you could manage to get back up again.
+flag:
+  - outdoors
+  - nomobiles

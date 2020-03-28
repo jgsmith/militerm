@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome49"
+      west:
+        target: "scene:aber:rome:rome35"
+    short: "The Mage's Shop"
+    sight: >
+      You are standing in the mage's shop. Magical ointments, charms and potions are sitting on shelves and
+      behind a glass counter. There is a dense neon &+Bblue fog&* hugging the floor here, making it impossible
+      to see below your knees. You suddenly hear muttering coming from the back room, possibly from ....
+      KKKKKAAAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM!!!!!! You are deafened by the noise
+      from a tremendous explosion and the concussion from the blast staggers you! The shopkeeper seems to pay
+      no heed to this. The door to the back room opens and an older man, wearing a pointed hat, whose face is
+      smudged with soot, sticks his head out. 'Is everyone alright? Sorry about that. I was testing a new
+      mage's spell. I'll try to give advance notice next time,' he says. The door then closes.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:shore1"
+      east:
+        target: "scene:aber:fareast:cliffs2"
+      south:
+        target: "scene:aber:fareast:shore1"
+      up:
+        target: "scene:aber:fareast:cliffs2"
+    short: On the Northern Cliffs- Beneath an Overhang
+    sight: >
+      The cliff face is worn away here, leaving an overhung, pocketed ledge large enough for two humans to
+      stand under. The floor is strewn with small stones, but swept in places as if someone's feet had been
+      placed there and moved in small circles. The ledge continues up and to the east, meeting up with a path
+      from the beach to the cliffs. The only other way off this ledge is to descend to the beach, to the
+      south.
+flag:
+  - outdoors

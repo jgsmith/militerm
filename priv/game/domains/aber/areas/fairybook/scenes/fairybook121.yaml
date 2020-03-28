@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook122"
+      west:
+        target: "scene:aber:fairybook:fairybook120"
+    short: In the Cottage
+    sight: >
+      The cottage is built of logs and branches. In one corner is a pile of leaves. A rickety chair and table
+      sit in another corner. Two exits leave this room: one to the east and one to the west.
+flag:
+  - outdoors

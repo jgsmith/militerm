@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:novice:tree"
+    short: Falling...
+    sight: >
+      You ignore your	better judgment and you jump down from the roots. You land with a thud, bewildered and
+      banged up a bit, but not seriously hurt. Brushing the dirt off of your clothes, you look around for an
+      exit.
+flag:

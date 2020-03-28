@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:eoce1"
+      north:
+        target: "scene:aber:evolution:pala3"
+      south:
+        target: "scene:aber:evolution:pala1"
+    short: Broad Plain
+    sight: >
+      You are in the middle of the palaeocene flatlands. Small plants cover the ground, but no grass, which
+      will not evolve for millions of years yet. And in place of the dinosaurs, a new terror has sprung up:
+      giant predatory flightless birds prowl the plain, feasting on small early hoofed animals and other
+      mammals, still small players in the predation stakes.
+flag:
+  - outdoors
+  - nomobiles

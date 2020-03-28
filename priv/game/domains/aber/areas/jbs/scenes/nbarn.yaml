@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:nestall"
+      north:
+        target: "scene:aber:jbs:barn"
+      south:
+        target: "scene:aber:jbs:sbarn"
+      up:
+        target: "scene:aber:jbs:loft"
+      west:
+        target: "scene:aber:jbs:nwstall"
+    short: Northern End of the Barn
+    sight: >
+      From here the barn looks about like any other barn that you've ever seen. The floor is covered with a
+      thin layer of hay, and there are tools of various descriptions lining the walls. There is a leather
+      saddle on the ground next to an old, horse-pulled plow against the east wall that doesn't seem to have
+      moved for a while. The barn continues to the south, to the east and west are small stalls, and there is
+      a ladder leading up to the hayloft against the west wall.
+flag:

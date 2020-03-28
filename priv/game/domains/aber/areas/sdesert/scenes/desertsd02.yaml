@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd01"
+      south:
+        target: "scene:aber:sdesert:desertsd03"
+    short: The Southern Desert
+    sight: >
+      Heat waves make the world shimmer, as you trod through what feels like an oven. Plants of all sorts
+      cling to the dry ground here, barely surviving the dry heat. The only sound is the low whisper of hot
+      wind, and the small rustling of rodents fleeing from your presence. The path continues &+Csouth.
+flag:
+  - outdoors
+  - hot

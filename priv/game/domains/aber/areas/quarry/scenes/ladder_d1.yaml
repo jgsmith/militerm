@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ledge"
+      up:
+        target: "scene:aber:quarry:mine_t"
+    short: Ladder
+    sight: >
+      You are scrambling down a ladder which descends through a narrow vertical shaft in the rock. Water
+      streams down the sides of the ladder making it slippery and dangerous.
+flag:
+  - dark

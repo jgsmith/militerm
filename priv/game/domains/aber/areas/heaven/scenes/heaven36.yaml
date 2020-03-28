@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Home of the Great Spirit
+    sight: >
+      The Great Spirit is not in right now, and there does not seem to be any place to leave a message.
+flag:
+  - private

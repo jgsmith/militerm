@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:11"
+      west: null
+    short: &+cPath
+    sight: >
+      You are at the end of a long road standing before a large brick house. You notice a strange light and
+      can hear the death cries from children and adults coming from inside this place. You can go east back
+      down the road, or to your west is a door leading into the house. There are carvings on the ground in
+      front of you.
+flag:
+  - outdoors

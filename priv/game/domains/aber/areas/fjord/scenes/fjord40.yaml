@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord41"
+      east:
+        target: "scene:aber:fjord:fjord39"
+    short: Level Gully
+    sight: >
+      Here a gully leads due east and west along a rocky slant, providing easy cross-country access. It comes
+      to an end at an open stretch of gravel - the result of a landslide long ago. The slide did not manage to
+      get a tree right beside it, though, and the tree lived to a ripe old age as originally intended. Now the
+      deceased husk remains with the insides eaten out, but its formidable root growth has prevented earth
+      from filling in the hollow center within itself. The bulb appears big enough for a small elk to enter
+      and take temporary refuge.
+flag:
+  - outdoors

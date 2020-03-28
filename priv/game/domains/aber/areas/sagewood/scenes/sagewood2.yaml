@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:altar"
+      north:
+        target: "scene:aber:sagewood:swamp1"
+      south:
+        target: "scene:aber:sagewood:woods1"
+      west:
+        target: "scene:aber:sagewood:sagewood1"
+    short: Ravaged Woods
+    sight: >
+      The Sun's light is blocked by the dense evil-looking trees which seem to be in competion to reach the
+      light. Many trees here are dead, on the brink of falling over, starved out by the other trees. The
+      ground is a horrendous maze of tripping roots. A clearing is &+CWest&*, and a sinister altar is
+      &+CEast&*. Even more trees stand like dark sentries to the &+CSouth&*. The fetid stench of an old bog
+      wafts in from the &+CNorth&*.
+flag:
+  - outdoors

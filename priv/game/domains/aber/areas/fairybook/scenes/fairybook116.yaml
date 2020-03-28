@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook118"
+      south:
+        target: "scene:aber:fairybook:fairybook117"
+      west:
+        target: "scene:aber:fairybook:fairybook114"
+    short: The Golden Path
+    sight: >
+      In the distance, to the south, you can see a large cornfield beyond the fence alongside the road. In the
+      field, you see a scarecrow, placed high on a pole to keep the birds away from the corn. The path
+      continues east and west.
+flag:
+  - outdoors

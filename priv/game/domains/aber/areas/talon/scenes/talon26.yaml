@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:innercave"
+      south: null
+    short: Inside the Peak
+    sight: >
+      This is a small quiet cave which appears to have not been disturbed for quite some time. It has been
+      sealed for so long, that not even dust or cobwebs are evident here. The air is still and calm, and it is
+      as if you have been the first person to step foot in this cave for an eternity.
+flag:

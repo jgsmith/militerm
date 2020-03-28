@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid15"
+      west:
+        target: "scene:aber:pyramid:pyramid13"
+    short: Storage Chamber
+    sight: >
+      This room appears to be little more than an empty storage chamber that has already been looted by tomb
+      robbers. The walls are stark, completely unadorned, and the chiseled stone floor is covered by a thick
+      layer of dust. Before you can leave, you see movement and spy a shifty-eyed character hiding in the
+      &+Lshadows&N.
+flag:
+  - dark

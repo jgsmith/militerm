@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9547"
+      west:
+        target: "scene:aber:khanjar:khanjar9549"
+    short: Inside The Hollow Trunk
+    sight: >
+      As you crawl through a small hole you notice that the huge tree is completely hollow, and enables you to
+      move about. Some kind of ladder leads down from here.
+flag:
+  - nomobiles
+  - outdoors

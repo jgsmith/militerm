@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass82"
+      north:
+        target: "scene:aber:grass:grass71"
+      south:
+        target: "scene:aber:grass:grass91"
+      west:
+        target: "scene:aber:grass:grass80"
+    short: In a Wide Open Area of Grasslands
+    sight: >
+      Tall grass surrounds you on every side, this huge field within which you stand opening out for quite
+      some distance. On the east and west borders of the field are thick forests, north is a somewhat lighter
+      area of forest and south there lies a great deal of open, empty space.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook60"
+      west:
+        target: "scene:aber:fairybook:fairybook62"
+    short: Red King
+    sight: >
+      The Red King slumbers here, snoring loudly. He has a tall red nightcap on, with a tassel, and lies
+      crumpled up into a sort of untidy heap. You suspect that he is dreaming of you, and wonder what will
+      happen if he wakes up. . . To the east and the west, the path continues.
+flag:
+  - outdoors

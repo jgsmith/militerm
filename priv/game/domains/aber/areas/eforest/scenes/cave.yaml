@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:freshly"
+      west:
+        target: "scene:aber:eforest:entry"
+    short: Guarded Cave
+    sight: >
+      You stand at the entrance to a dark cave. The destroyed forest is behind you, to the east, while to the
+      west lies the unknown. Within the cave, you see dark shadows flittering about. The scent of brimstone is
+      stronger than ever here, and the sense of foreboding that you felt when you first entered the forest
+      clutches anew at you heart. You have little doubt that one of the great evils lies within this cave...
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon28"
+      west:
+        target: "scene:aber:pensalon:pensalon19"
+    short: Hall of Worship
+    sight: >
+      This is a splendid hall adorned with many paintings showing the many feats that the Church of Pensalon
+      has performed. To the east is the castle's main church, and to the west is the main reception hall.
+flag:

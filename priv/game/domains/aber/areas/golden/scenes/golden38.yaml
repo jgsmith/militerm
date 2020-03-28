@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east: null
+    short: &+WTemple Treasury&*
+    sight: >
+      Making your way past the giant bronze door, you stand in a ancient, sacred treasury. The floor is made
+      of small silver and platinum tiles patterned like a checkerboard. Thick carved pillars of solid jade
+      line a red carpet which runs straight up a set of stairs toward a marble statue of a grinning monkey
+      sitting on its haunches. Lying scattered on the floor are gold coins, emeralds, rubies, and diamonds for
+      the taking. Golden gargoyles peer at you from the ceiling. The ceiling has a large, finely crafted ruby
+      set in the middle. Fountains molded from pure crystal hide behind the pillars, gushing forth tiny
+      diamonds.
+flag:

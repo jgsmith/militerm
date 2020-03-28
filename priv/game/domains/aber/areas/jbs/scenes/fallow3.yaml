@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:fallow4"
+      up: null
+      west:
+        target: "scene:aber:jbs:fallow1"
+    short: North Eastern Corner of the Field
+    sight: >
+      This is the north east corner of the field. Ordinarily you can only go South or East form here.
+flag:
+  - outdoors

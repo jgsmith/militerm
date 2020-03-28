@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:windy:windy32"
+      south:
+        target: "scene:aber:windy:windy32"
+    short: Cloud Temple
+    sight: >
+      You can't believe what you see, you are really on a cloud. It looks like a temple for sacrifice. The
+      temple belongs to the Gods of four winds and to their mighty master Cloud God. There is an altar made of
+      cloud and so is the shrine too. As you look back the way you came, you don't feel very safe to try it
+      the same way down again. You should possibily try to please them for some help.
+flag:
+  - nomobiles
+  - oneperson
+  - cold
+  - outdoors
+  - negregen

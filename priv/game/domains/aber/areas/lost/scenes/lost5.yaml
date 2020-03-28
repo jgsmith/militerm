@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:lost:lost4"
+      west:
+        target: "scene:aber:lost:lost6"
+    short: Land Bridge
+    sight: >
+      Ocean waters lap at either side of this narrow trail, yet somehow never over-run it. The earth is still
+      mucky though, for the ocean only recently reliquished it as dry land. The people of the forgotten
+      continent had fled across this narrow strip of earth centuries of years before, and their goddess had
+      closed it behind them. The time has come to vanquish the evil which waits, trapped within the great
+      tree.
+flag:
+  - outdoors

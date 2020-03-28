@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18632"
+      north:
+        target: "scene:aber:newbee:newbee18625"
+      south:
+        target: "scene:aber:newbee:newbee18638"
+    short: A Passage
+    sight: >
+      Ick... this place is just disgusting. You try and stay clear of the walls, but the passage is so narrow
+      you keep bumping them anyway. You are almost convinced that the fungus coating the walls is grabbing at
+      you too.
+flag:

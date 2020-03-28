@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bishop:bishop3"
+      up:
+        target: "scene:aber:bishop:bishop5"
+    short: Tunnel Slope
+    sight: >
+      The ground here is more treacherous on a hillside as it is now. Water flows in small streams at high
+      speed down the slope, washing away the loose gravel and depositing calcium compounds. As a result, the
+      ground loses considerable traction, and movement can only be made safe by a tricky dance of zigzagging
+      and sidestepping.
+flag:
+  - dark

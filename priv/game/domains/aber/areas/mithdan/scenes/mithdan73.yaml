@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan71"
+      south:
+        target: "scene:aber:mithdan:mithdan74"
+    short: Path
+    sight: >
+      The path here is slightly more overgrown, and creeping ivy occasionally snakes a tendril across the
+      bricks. The ground on either side of you is a beautiful sea of ivy that rolls and sways with each gust
+      of wind. The path leads to the north, and to the south you hear the gentle burble of a fountain.
+flag:
+  - outdoors
+  - peaceful

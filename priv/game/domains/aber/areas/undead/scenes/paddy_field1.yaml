@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:swamp_land2"
+      north:
+        target: "scene:aber:undead:stony_path4"
+      south:
+        target: "scene:aber:undead:swamp_land1"
+      west:
+        target: "scene:aber:undead:swamp_land3"
+    short: Paddy Field
+    sight: >
+      You float peacefully amongst the rice. Not much of it seems suitable for eating, but it is nice and
+      peaceful anyway. This is a great place for peaceful meditation as you float sleepily. All directions but
+      &+Cnorth&* seem to head into less promising swampland.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles
+  - fastheal

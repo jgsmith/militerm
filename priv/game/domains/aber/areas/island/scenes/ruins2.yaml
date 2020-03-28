@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:flow"
+      north:
+        target: "scene:aber:island:bushes"
+      south:
+        target: "scene:aber:island:path"
+      up:
+        target: "scene:aber:island:flow"
+      west:
+        target: "scene:aber:sea:1"
+    short: Desolate Ruins
+    sight: >
+      You are standing in the desolate ruins of what was perhaps once a harbour. The sea now breaks over the
+      low crumbling stone wall which must once have been a jetty of some sort. Thick tangled bushes extend
+      north and east following the ruins to the edge of a huge lava flow. To the south a narrow trail leads
+      into thick vegetation.
+flag:
+  - outdoors

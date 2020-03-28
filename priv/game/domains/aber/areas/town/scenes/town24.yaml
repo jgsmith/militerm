@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town21"
+      north:
+        target: "scene:aber:town:town23"
+      south:
+        target: "scene:aber:town:town25"
+      west:
+        target: "scene:aber:town:town39"
+    short: Square Near Weapons Shop
+    sight: >
+      This is just a small part of the large town square. This part of the square is located near the Main
+      Weapons shop, so there seems to be many weapon dealers in the area, trying to sell their wares to unwary
+      adventurers. There are exits in all directions, to the north is the Main Weapons shop, to the east is
+      the Grocer's store, to the south is the Main Square in town, and to the west is the small square near
+      the Blacksmith's shop.
+flag:
+  - outdoors

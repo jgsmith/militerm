@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook30"
+      west:
+        target: "scene:aber:fairybook:fairybook28"
+    short: Inside the Cottage
+    sight: >
+      The door leads into a large kitchen, which is full of smoke from one end to the other. A woman sits on a
+      three-legged stool in the middle, nursing a baby. A second woman leans over the fire, stirring a large
+      cauldron which seems to be full of soup. The scent of pepper hangs heavily in the air, and a jar of it
+      stands alone on a shelf. Open doors lead out to the east and the west. As you enter the room, a cat
+      grins at you before vanishing entirely.
+flag:

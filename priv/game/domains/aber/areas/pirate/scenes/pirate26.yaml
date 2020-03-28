@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate25"
+      west:
+        target: "scene:aber:pirate:pirate27"
+    short: Temple Entrance
+    sight: >
+      You stand in the entrance room of what was once a proud temple to some ancient God. Rotted wood floats
+      gently in the room, obscuring your view. To the west, you see the altar room, and a doorway leads
+      outside to the east.
+flag:
+  - underwater
+  - dark

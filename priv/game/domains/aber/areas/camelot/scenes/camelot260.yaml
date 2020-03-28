@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot265"
+      north:
+        target: "scene:aber:camelot:camelot267"
+      south:
+        target: "scene:aber:camelot:camelot258"
+      west:
+        target: "scene:aber:camelot:camelot262"
+    short: The Great Hall
+    sight: >
+      You walk down the wide hall, amazed. The walls are paneled with walnut, and on the walls hang paintings.
+      Looking at them, you see pictures of Merlin, Rapture, and all their closest friends. The northern wall
+      is dominated by a painting showing their marriage.
+flag:

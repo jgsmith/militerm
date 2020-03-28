@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6778"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6775"
+    short: Edge of a black-bottom pool
+    sight: >
+      You wade ankle-deep into the murky waters of a black-bottom pool. It appears this pool was once a nice
+      pleasure bath for the priests and their guests, but has fallen into decay from recent lack of use. Who
+      knows what creatures make their home beneath the dark surface.
+flag:
+  - nomobiles
+  - dark
+  - outdoors

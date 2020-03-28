@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:atlantis:atlantis73"
+    short: Before the Door
+    sight: >
+      You swim down the corridor and stop abruptly at a large door. It is a massive stone door that matches
+      perfectly with the stone surrounding it. No way to pry this one open! The stone around the door and
+      along the walls is slipperly smooth and reflects an ghostly glow to your eyes from somewhere. The only
+      exit is either through the door somehow or back down the corridor from which you came.
+flag:

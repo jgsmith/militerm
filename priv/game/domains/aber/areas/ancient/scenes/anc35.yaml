@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc34"
+      east:
+        target: "scene:aber:ancient:anc36"
+    short: Top of the Sun Pyramid
+    sight: >
+      You are standing on the top of the pyramid the sun shining brightly into your face. Right before you
+      there is a small &+Yaltar&* probably made for sacrificing young virgins to the sun God. You might feel a
+      great relief that you are no longer a virgin, but just simply another, run of the mill, filthy foul-
+      mouthed wanderer.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar31"
+      south:
+        target: "scene:aber:volcano:bandilbar29"
+    short: Narrowing Tunnel
+    sight: >
+      You are travelling along a tunnel which grows narrower as it heads east. Ahead in that direction you can
+      see that it bends around to the left, heading west. To the west is a four-way junction, and you can see
+      cast on to the floor there a faint patch of natural light.
+flag:

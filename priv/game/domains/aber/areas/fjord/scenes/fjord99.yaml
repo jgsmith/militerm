@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord113"
+    short: Park of the Divine
+    sight: >
+      A good-sized area of lush bluegrass and fertile vegetation surrounds an obliquely staring statue.
+      Protected from the harsh northern climate, this park was created in the honor of the guardians of the
+      divine winds, which breath life from the gods into this world each time a child of any form is born, be
+      it animal, vegetable, or mineral. The statue is a totem depicting the five ways of the winds and the
+      core of ethereal power which they and their force represent. To the people of Kyerstarn, the winds have
+      a binding contract to keep the village prosperous and healthy while the citizens maintain the lockdown
+      on The Dark City and keep its influence confined to the volcano of Mount Phaylax.
+flag:

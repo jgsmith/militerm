@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:grave:grave3439"
+    short: Jail
+    sight: >
+      Chained in one corner is the priest. As you enter the chains break and the priest slumps to the floor.
+      He is very weak and looks as if he would welcome death. He smiles a grim smile at you and you see
+      admoration and respect in his eyes. He motions toward the exit and drops a key here. He says to take his
+      earthly posessions as he should now go meet his GOD and atone for his failures. He then utters a few
+      words and disappears in a fine mist. A deep resonant bell rings - the sound coming from the exit.
+flag:

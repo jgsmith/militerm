@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:lost:lost11"
+      south:
+        target: "scene:aber:lost:lost11"
+      west:
+        target: "scene:aber:mountain:mou1"
+    short: Mountain Crest
+    sight: >
+      It is a difficult climb down in any direction, but some are actually navigatable. The trail continues
+      down to the forest to the north, and east there is a rockfall covering a once cut pass, and west through
+      some bush there is also a small path.
+flag:
+  - outdoors

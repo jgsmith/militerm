@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge17"
+      east:
+        target: "scene:aber:ledge:ledge17"
+      west:
+        target: "scene:aber:ledge:ledge13"
+    short: Old Mining Tunnel
+    sight: >
+      As you stroll down the eastern tunnel, the sounds from further down seem to be more auidible as with the
+      echos from your footsteps. Treading more stealthy would be a good idea as you might be walking into
+      something that would make you wish you hadn't gone cave exploring.
+flag:
+  - dark

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:courtyard6"
+      north:
+        target: "scene:aber:undead:courtyard8"
+      south:
+        target: "scene:aber:undead:courtyard2"
+      west:
+        target: "scene:aber:undead:courtyard4"
+    short: Central Courtyard
+    sight: >
+      You arrive at the very centre of the courtyard. The silence here is deafening. Everything is dead. There
+      is no sound from above and even the moss in the cobble stones has withered and died. There stands a once
+      grand fountain in the very centre of the courtyard, from which water must once have flown. Now centuries
+      of neglect have reduced it to little more than a pile of rubble.
+flag:
+  - outdoors

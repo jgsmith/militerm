@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6627"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6625"
+    short: The town dump
+    sight: >
+      You wander amid heaps of trash that smell of disease, famine, and other pleasantries...suffice it to say
+      that very little that should be alive here is, and vice-versa.
+flag:
+  - outdoors

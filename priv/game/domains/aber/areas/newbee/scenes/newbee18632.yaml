@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18627"
+      south:
+        target: "scene:aber:newbee:newbee18635"
+      up:
+        target: "scene:aber:newbee:newbee18612"
+      west:
+        target: "scene:aber:newbee:newbee18631"
+    short: The Entrance
+    sight: >
+      It is dark, dank, disgusting and cold up here. Plus you here the sounds of creatures all around you...
+      and somehow they don't sound friendly. It is probably wise to exercise some degree of caution here... no
+      telling what you may run into here.
+flag:
+  - dark

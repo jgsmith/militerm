@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:cherent2"
+      south:
+        target: "scene:aber:fareast:countryb_5"
+    short: Dusty Road
+    sight: >
+      The north-south road leads off to the horizon in either direction, but to either side is only overturned
+      and blighted earth, dry and dead. Dust blows across the road, back toward greener lands... a glimmering
+      of pink shows to the north, the only visible sign of life.
+flag:
+  - nomobiles

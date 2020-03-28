@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:dungeon6"
+      north:
+        target: "scene:aber:undead:dungeon5"
+      west:
+        target: "scene:aber:undead:dungeon3"
+    short: Rocky Outcrop
+    sight: >
+      All around you the heat clings. You stand upon a small island of rock in the centre of a lake of molten
+      lava. The shore of the island bubbles and hisses and the lava desperately tries to claim it as its own.
+      Large rocks of fiery rock are spat up and deposited on the shore, where they burn with an unearthly
+      incandescence. To the &+Cnorth&* the island continues into some form of holding pen, also to the
+      &+Ceast&* you can see the island continues.
+flag:
+  - hot

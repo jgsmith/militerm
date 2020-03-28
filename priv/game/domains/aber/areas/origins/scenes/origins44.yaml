@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:origins:origins43"
+    short: The Waterfall
+    sight: >
+      Lo and behold! Despite the total lack of organic material in all of Megadon, you have arrived at a
+      beautiful waterfall, which gently cascades down the side of a tiny stone mountain into a small reservoir
+      built for the purpose of holding the precious water. The road leads back south towards the house.
+flag:
+  - peaceful
+  - party
+  - private
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

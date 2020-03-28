@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carb4"
+      north:
+        target: "scene:aber:evolution:carb3"
+      south:
+        target: "scene:aber:evolution:carb5"
+      west:
+        target: "scene:aber:evolution:devo7"
+    short: Carboniferous Coal Swamp
+    sight: >
+      You are wandering through a forest of tall trees of varying girth, the like of which you have never seen
+      before. Clubmosses a hundred and fifty feet tall tower into the sky, alongside giant horsetails and,
+      much closer to the ground, tree ferns and the primitive seed-bearing ancestors of modern conifers. About
+      you swarms a host of insects, many larger than the ones you are used to seeing. Dragonflies with two
+      foot wingspans rule the air here, and the noise of their deep-toned humming fills the air. There are
+      exits in all directions. Mud and rotting vegetation covers the ground to a depth of over a foot.
+flag:
+  - outdoors

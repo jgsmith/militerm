@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:mansion"
+      south: null
+      west:
+        target: "scene:aber:oaktree:bedroom"
+    short: Mansion Landing
+    sight: >
+      You are standing in a great pool of colored light, cast by the stained glass of a vast coat of arms in a
+      south-facing window, depicting an heraldic leopard. To your west is an arched doorwary. A huge, curving
+      marble staircase extends downwards into the mansion, past paintings and stern-looking busts. You have an
+      uncontrollable desire to slide down a banister.
+flag:

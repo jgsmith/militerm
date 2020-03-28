@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot77"
+      north:
+        target: "scene:aber:camelot:camelot77"
+      south:
+        target: "scene:aber:camelot:camelot76"
+      west:
+        target: "scene:aber:camelot:camelot76"
+    short: The Unending Forest
+    sight: >
+      You are lost in the depths of the forest. There are no paths, but you can struggle through the trees and
+      brush in any direction.
+flag:
+  - outdoors

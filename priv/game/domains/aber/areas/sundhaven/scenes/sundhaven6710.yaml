@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6712"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6690"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6711"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6713"
+    short: A garden of wild rosethorn
+    sight: >
+      Dense bushes of rosethorn, growing wild, fill the garden with splashes of white and red colors. There is
+      a grassy space in the center, circled by smooth grey stones, where children play and older residents of
+      the town picnic and enjoy themselves.
+flag:
+  - outdoors

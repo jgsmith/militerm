@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6601"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6755"
+    short: A blue portal
+    sight: >
+      You stand in the faerie glow of a portal of brilliant blue light. This is the gift of the previous
+      Archmage upon his own guild. He went on to fashion further portals all leading all over the known world,
+      before the Lady Assassin extinguished his life. Beyond the blue glare is a vision of the temple
+      courtyard, the center of town.
+flag:

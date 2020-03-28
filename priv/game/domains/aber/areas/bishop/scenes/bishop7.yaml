@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bishop:bishop1"
+    short: Vortex
+    sight: >
+      Learn to follow directions when all horizons look the same.
+flag:
+  - dark

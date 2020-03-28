@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar44"
+      south:
+        target: "scene:aber:volcano:bandilbar42"
+    short: Playroom
+    sight: >
+      This is a smaller cavern, and it is cooler than the previous ones. Its function is not immediately
+      apparent, for it is practically bare save for a layer of straw strewn across the floor. The tunnel
+      continues northwards, climbing steadily. The volcano's rumbling shakes your bones.
+flag:

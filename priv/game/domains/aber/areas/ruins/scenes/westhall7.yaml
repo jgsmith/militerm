@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:westhall8"
+      south:
+        target: "scene:aber:ruins:westhall6"
+    short: Further into the Northern Hallway
+    sight: >
+      You are now travelling north in the hallway. The shrieks are starting to really get on your nerves and
+      you find yourself starting to clench your fists. You look ahead into the darkness and once again swear
+      that you see a light of some sort dancing before you. You blink your eyes. The light that was there
+      seems to have disappeared. The hallway leads to the north and to the south.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott3"
+      north:
+        target: "scene:aber:slott:slott11"
+      west: null
+    short: Ballroom
+    sight: >
+      You have entered a huge ballroom with crystal chandeliers and small oak &+Btables&*. Chairs are placed
+      at the sides leaving the floor in the middle open for dancing. There are several paintings on the walls,
+      one of which especially draws your attention. It pretends a young man battling against a big man with a
+      blurred face only with his hands...as you look closer you see that he's got a big &+wwhite&* union
+      between his teeth! Wonder why?
+flag:

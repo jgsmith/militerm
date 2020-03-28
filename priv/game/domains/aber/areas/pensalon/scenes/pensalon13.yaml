@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pensalon:pensalon12"
+      up:
+        target: "scene:aber:pensalon:pensalon14"
+    short: Spiraling Staircase
+    sight: >
+      The stairs lazily spiral about the inside of this tower. At the top of the stairs you can see a light
+      that shows the shadows of a small room, and down below you can see the exit out into the castle's
+      interior.
+flag:

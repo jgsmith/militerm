@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6623"
+    short: A withered shanty
+    sight: >
+      The splintered plankings that make the walls of this room are sodden with rain and leaking water, light
+      and a chilling wind in to its inhabitants, who look sick from poverty. A rat scurries nonchalantly by
+      your toes, then pauses to debate their merits as food. The mud floor is littered with debris.
+flag:

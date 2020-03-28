@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:path0"
+      south:
+        target: "scene:aber:balharbor:balhar63"
+      west:
+        target: "scene:aber:balharbor:jungle32"
+    short: Outside the North Gate
+    sight: >
+      You have come toward the northern entrance of the city of Bal Harbor. To the south is the gate into the
+      city, which has been ravaged by recent riots following the assassination of the city's mayor. The bypass
+      trail is to the west, while the road out of the city goes north.
+flag:
+  - outdoors
+  - nomobiles

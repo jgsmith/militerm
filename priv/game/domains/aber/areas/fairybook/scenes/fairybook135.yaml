@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook134"
+      west:
+        target: "scene:aber:fairybook:fairybook136"
+    short: Field of Poppies
+    sight: >
+      You now come across more and more of the big scarlet poppies and fewer and fewer of the other flowers;
+      and soon you find yourself in the midst of a great field of poppies. It is well-known in this country
+      that when there are many of these flowers together their odor is so powerful that anyone who breathes it
+      falls asleep, and if the sleeper is not carried away from the scent of the flowers he sleeps on and on
+      forever. You feel your eyelids drooping . . . The path continues east and west.
+flag:
+  - outdoors

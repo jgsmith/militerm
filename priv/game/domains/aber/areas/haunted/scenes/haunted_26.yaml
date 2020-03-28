@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_24"
+    short: Behind the Counter
+    sight: >
+      As you step behind the counter, you see a huge pot on the stove. The smell of delicious chili entices
+      your nose. You turn as you feel someone looking at you.
+flag:
+  - dark

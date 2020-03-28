@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung37"
+    short: Mouldy Shop
+    sight: >
+      There are rotting shelves along one wall, and a table is slumped in the back of the shop. The damp
+      floorboards sag a bit under your weight, and the place smells dank and musty. Some jars on one of the
+      shelves have exploded, their rotten contents hardened onto the wall and floor. Bits of glass lie
+      scattered about.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook100"
+    short: The Powder Magazine
+    sight: >
+      A room full of gunpowder, shells, and cannonballs. The walls are painted black to add to the darkness of
+      this room; not wise, but effective. The deck is to the north.
+flag:

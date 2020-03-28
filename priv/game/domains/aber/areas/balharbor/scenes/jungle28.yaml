@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle2"
+    short: The Pool Below
+    sight: >
+      Having survived the trip down the falls you find yourself in a shallow pool flowing outward to the
+      north. Picking yourself up, you can get back on a path back up the cliff to the north.
+flag:
+  - outdoors

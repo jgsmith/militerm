@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: &+RChamber of the Damned
+    sight: >
+      This particular void holds the bishop zone junk until needed!
+flag:
+  - death

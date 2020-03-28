@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon15"
+      north:
+        target: "scene:aber:talon:talon18"
+      south:
+        target: "scene:aber:talon:talon21"
+    short: Southern End of Cavern
+    sight: >
+      You enter the southern end of a tremendous cavern which spans out before you. The air here is turbulent,
+      and filled with an excited energy which runs through your very soul like fire. The walls here are as
+      black as the darkest coal, and the sand on the floor has been melted into a sheet of solid glass. It
+      looks as if a great flame has passed through this room. A thunderous rumble which seems almost
+      creaturelike, eminates from a cavern to the south. To the north lies the other side of this huge cavern.
+      To the east is a small, ever-fluctuating porthole promising passage back to the realm you had come to
+      know as reality, 'til now.
+flag:

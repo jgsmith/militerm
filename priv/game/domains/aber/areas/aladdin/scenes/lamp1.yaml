@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: "Genie's Dwelling"
+    sight: "What are you doing inside the Genie's Lamp??"
+flag:
+  - light

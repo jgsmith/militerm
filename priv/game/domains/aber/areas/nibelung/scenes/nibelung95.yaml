@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung96"
+      north:
+        target: "scene:aber:nibelung:nibelung94"
+      up:
+        target: "scene:aber:nibelung:nibelung94"
+    short: In the Sewer
+    sight: >
+      You are in the castle's sewer. The smell erases any doubt of that fact from your mind. Water, about
+      ankle deep, runs past your feet into the moat below. The walls are covered in a strange blue slime.
+flag:
+  - dark

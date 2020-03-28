@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon15"
+      north: null
+      south:
+        target: "scene:aber:saxon:saxon13"
+      west:
+        target: "scene:aber:saxon:saxon11"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      The mead hall Heorot surrounds you. As you look south you see large wooden tables lined to the west and
+      east of you. These tables are where some of the greatest warriors known to the world eat together. The
+      ceiling is very high, so high that you can barely make out the paintings way up there. The floor itself
+      is stone, and is covered no where in your sight. As you peer closer you notice small red spots in some
+      of the stones.
+flag:
+  - light

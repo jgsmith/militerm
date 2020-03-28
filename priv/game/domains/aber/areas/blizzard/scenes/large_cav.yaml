@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:well"
+      south:
+        target: "scene:aber:blizzard:pillared"
+      west:
+        target: "scene:aber:blizzard:crypt"
+    short: Large Cavern
+    sight: >
+      You are in a large cavern. Huge stalagmites have grown up almost to the ceiling, in places actually
+      merging with the multicolored stalactites above. To the south you perceive a great hall, and a fetid
+      odor comes from the west. A small, low-walled &+Bwell&* occupies the center of the cave.
+flag:

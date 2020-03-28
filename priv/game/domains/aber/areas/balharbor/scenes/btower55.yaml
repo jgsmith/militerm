@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower59"
+      east:
+        target: "scene:aber:balharbor:btower56"
+      north:
+        target: "scene:aber:balharbor:btower50"
+      south:
+        target: "scene:aber:balharbor:btower60"
+      west:
+        target: "scene:aber:balharbor:btower54"
+    short: Dark Corridor
+    sight: >
+      Feeling...lllllooooonnnnneeeeelllllyyyyy? You see the shape of an 'M' in the floor.
+flag:
+  - dark
+  - maze

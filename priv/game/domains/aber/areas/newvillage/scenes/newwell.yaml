@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newvillage:downnewwell"
+      south:
+        target: "scene:aber:newvillage:road1e"
+    short: The Village Well
+    sight: >
+      The well you are standing next to seems to be much newer than the one west of the town hall, and seems
+      to still be in use. This well is not blocked off and seems to go quite a distance into the ground. You
+      can hear the slight sounds of water moving below. The well is covered which makes it difficult to see
+      down into it, but you can guess the depth. Somehow you think that climbing down into the well would be
+      unwise.
+flag:
+  - outdoors

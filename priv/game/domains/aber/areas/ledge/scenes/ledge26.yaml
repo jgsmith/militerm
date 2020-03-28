@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ledge:ledge25"
+      west:
+        target: "scene:aber:ledge:ledge27"
+    short: Humming Tunnel
+    sight: >
+      An eeire hum seems to emanate from the walls of this tunnel, something that doesn't seem so natural. A
+      bit of a glow seems to come from the west also, wonder what's causing it? Escape is back south.
+flag:

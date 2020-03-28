@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_12"
+      north:
+        target: "scene:aber:haunted:haunted_11"
+      south:
+        target: "scene:aber:haunted:haunted_13"
+      west:
+        target: "scene:aber:haunted:haunted_10"
+    short: Basement
+    sight: >
+      As you peer into the opening of the basement, you notice it is very hot and steamy. You proceed down the
+      steps slowly. The screeching noise you heard becomes louder and louder. As you turn back and look, you
+      notice that as you leave each step, the step disappears. Well, guess there is no turning back now.
+flag:
+  - dark

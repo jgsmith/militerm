@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot283"
+    short: "Merlin's Laboratory"
+    sight: >
+      In this room, the monsters which have terrorised so many mortals are constructed. The room is filled
+      with vats and casks, vials and philters, retorts and alembics. And the remains of a few monsters which
+      didn't quite work right and are being recycled (Merlin may kill people, but he is always mindful of the
+      ecology).
+flag:

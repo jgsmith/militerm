@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq22"
+      south:
+        target: "scene:aber:nwbeaches:beachqq20"
+      up:
+        target: "scene:aber:nwbeaches:beachqq23"
+      west:
+        target: "scene:aber:nwbeaches:beachqq24"
+    short: Main Living Area - Lighthouse
+    sight: >
+      This large room looks as if it has spent many happy times in the company of the Lighthouse Keeper and
+      his family. The dinner table looks as if it always would have room for one more, the fire always warm
+      and comforting, and of course, Max would always be around to play catch or get his ears scratched. To
+      the east, you see what looks to be one of the family's bedrooms, the same to the west. Both have doors,
+      but both doors are wide open. A spiral stairway leads up into the lighthouse top, where the Keeper must
+      spend a great deal of his time.
+flag:

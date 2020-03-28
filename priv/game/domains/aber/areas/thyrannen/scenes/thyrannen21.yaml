@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen20"
+    short: Inside the battered cottage
+    sight: >
+      You are inside a dimly lit cottage. There is a fire in the fireplace, and pots and pans line the walls.
+      Though battered and old, the cottage still has a clean feeling of being someones 'home.'
+flag:

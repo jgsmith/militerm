@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newvillage:downfall"
+      east:
+        target: "scene:aber:newvillage:stwest2"
+    short: At the Waterfall
+    sight: >
+      Beyond you to the west is one of the most breath-taking sights you have ever seen. Here the river gets
+      white and foamy as it cascades down a waterfall. Hitting the river below with tremendous force, the
+      whole area is alive with the sound of flowing water. Not too far away this rushing water joins the open
+      sea in an eroded inlet. There is a rocky path leading down dangerously close to the waterfall.
+flag:
+  - outdoors

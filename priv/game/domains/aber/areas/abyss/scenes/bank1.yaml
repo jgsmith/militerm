@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:goo"
+      east: null
+      south:
+        target: "scene:aber:abyss:trees"
+    short: West Bank
+    sight: >
+      You stand on a high bank overlooking a slow moving river of slime. The opposite bank is too far away to
+      jump across. A path runs south from here along the river, and a slope has been cut into the bank,
+      leading right down to the river.
+flag:
+  - outdoors

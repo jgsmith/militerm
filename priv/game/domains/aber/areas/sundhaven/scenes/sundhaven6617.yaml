@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6616"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6618"
+    short: A dark spiral staircase
+    sight: >
+      The immobile stone faces of gargoyles regard you with cold stares from the walls of the darkened
+      stairwell. At each turn in the spiral steps a more mangled face than the last confronts you, drawing
+      closer to the laboratory above. What is the sculptor implying about the study of magic?
+flag:
+  - nomobiles
+  - dark

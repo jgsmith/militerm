@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eastcoast:sshoal"
+    short: North End of the Sand Shoal
+    sight: >
+      You walk to the north end of the shoal, the salty water mere inches deep here. The shoal breaks the
+      waves up here, making them less fierce against the beach that lies some eighty feet to the west. You see
+      various fish and marine life being washed along by the waves, and some larger aquatic denizens making
+      waves of their own. The water appears too treacherous and deep in all directions save to the south.
+flag:
+  - outdoors

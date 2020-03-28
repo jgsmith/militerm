@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:island:ruins1"
+      east:
+        target: "scene:aber:island:slope2"
+      north:
+        target: "scene:aber:island:ruins1"
+      up:
+        target: "scene:aber:island:slope2"
+      west:
+        target: "scene:aber:island:ruins2"
+    short: Edge Of Lava Flow
+    sight: >
+      You are standing on the edge of a huge lava flow which extends east upwards towards the crater of a huge
+      volcano. To the east and north the lava gives way to ancient ruins.
+flag:
+  - outdoors

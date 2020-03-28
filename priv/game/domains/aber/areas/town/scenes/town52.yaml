@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town53"
+      west:
+        target: "scene:aber:town:town51"
+    short: Crowded path
+    sight: >
+      The path through the woods becomes very close here and you feel very crampted as you walk down the path.
+      It feels like you are being watched by the woods themselves. To the west is a nice orderly campsite and
+      just ahead of you to the east you can see the trees start to thin out.
+flag:
+  - outdoors

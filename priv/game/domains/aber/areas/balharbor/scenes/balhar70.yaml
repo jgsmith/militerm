@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:balharbor:balhar69"
+    short: Den of Thieves
+    sight: >
+      How appropriate! This is exactly where the crooks in town hang out and sell their stolen goods to
+      smuggle to other lands for profit. A dart board is set up in one corner of the room, where thieves can
+      practice their dagger throwing. A window where a thief-clerk sits behind ready to pay for your fencing
+      stolen stuff is in another corner. A wanted board lists the names of fellow thieves who got caught
+      stealing but are still on the loose. Little else can be seen except the ladder leading back up into the
+      guild.
+flag:

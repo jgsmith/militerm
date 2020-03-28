@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot137"
+      up:
+        target: "scene:aber:camelot:camelot103"
+    short: Down The Hole
+    sight: >
+      You have climbed down a long narrow hole in the tunnel floor. The hole contines down, and seems to come
+      out in the ceiling of a large room below. You think you can climb down, but are not sure if you can
+      climb back out again.
+flag:
+  - dark

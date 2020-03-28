@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus21"
+      north:
+        target: "scene:aber:nexus:nexus33"
+      south:
+        target: "scene:aber:nexus:nexus25"
+      up:
+        target: "scene:aber:nexus:nexus19"
+      west:
+        target: "scene:aber:nexus:nexus29"
+    short: Base of Some Rock
+    sight: >
+      All around stand an inordinate amount of coniferous trees, their 'fruit' lining the ground from being
+      blown off by recent storms. The undergrowth, composed of dry twigs and dead moss, crunches beneath the
+      slightest pressure, giving perhaps an unnecessary scare to the small animals scurrying around.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:ordo1"
+      north:
+        target: "scene:aber:evolution:silu2"
+      west:
+        target: "scene:aber:evolution:silu4"
+    short: Sea Bed
+    sight: >
+      This is the Silurian period. The sea floor bristles with life, with species larger and more
+      sophisticated than their Ordovician progenitors. Jawless fish are common here, scooting about in search
+      of tasty morsels floating in the murky waters. Although mostly well armoured, they are food for a larger
+      menace: the eurypterids, giant water scorpions which crawl along the sea bed waving toothed pincers in
+      front of them.
+flag:
+  - soundproof
+  - underwater

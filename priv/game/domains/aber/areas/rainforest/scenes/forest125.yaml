@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest126"
+      north:
+        target: "scene:aber:rainforest:forest123"
+      south:
+        target: "scene:aber:rainforest:forest127"
+    short: Indian Village
+    sight: >
+      You are in a small cluster of huts which for the most part look deserted. Whether it has been abandoned
+      permanently or whether the villagers are merely out for some other reason you cannot even guess, but
+      they have not been gone for long. The place is fairly tidy.
+flag:
+  - outdoors
+  - nomobiles

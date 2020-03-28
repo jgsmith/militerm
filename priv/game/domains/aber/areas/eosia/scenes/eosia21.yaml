@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia22"
+      north:
+        target: "scene:aber:eosia:eosia20"
+      south:
+        target: "scene:aber:eosia:eosia22"
+      west:
+        target: "scene:aber:eosia:eosia22"
+    short: The Inner Sea
+    sight: >
+      You are floating peacefully on the waters of the Inner Sea.
+flag:
+  - onwater
+  - outdoors

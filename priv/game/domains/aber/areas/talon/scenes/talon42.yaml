@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon43"
+      north:
+        target: "scene:aber:talon:talon40"
+    short: Small Room
+    sight: >
+      This is a small room which seems to serve no particular purpose, save to to immortalize the creator of
+      this realm and connect a guard room to the rest of the castle. The walls in this room are completely
+      blank, and even devoid of any color, except for a painting of a small, green iguana in the corner of the
+      room. Exits lead north and east.
+flag:

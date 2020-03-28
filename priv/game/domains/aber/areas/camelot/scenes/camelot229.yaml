@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot236"
+      north:
+        target: "scene:aber:camelot:camelot255"
+      south:
+        target: "scene:aber:camelot:camelot217"
+      west:
+        target: "scene:aber:camelot:camelot230"
+    short: The Front Lawn
+    sight: >
+      Lush green grass streatches out before you, leading you north to the keep. You feel an intense desire to
+      take off your shoes and let your toes play in the grass.
+flag:
+  - outdoors

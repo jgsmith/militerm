@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage5"
+      south:
+        target: "scene:aber:cottage:cottage3"
+    short: Living Room
+    sight: >
+      You have entered the living room of the quaint cottage, the housewife is here busily sweeping. A family
+      sized crystal ball sits here opposite a comfy, blue sofa with enormous cushions. The smell of baking
+      wafts from a tiny kitchen to the east, and you may also return south to the porch.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:5"
+      south:
+        target: "scene:aber:stjames:3"
+      west:
+        target: "scene:aber:stjames:9"
+    short: The Edge of the Pond
+    sight: >
+      The pond that dominates the park meets with the lawn upon which you are standing, just to the west. It
+      looks as if the section of the pond nearest you has been marked off for wading. Perhaps it would feel
+      good to dangle your feet in the cool water for a little while. From where you stand, you notice that
+      there is a second path through the park just to the north of the pond.
+flag:
+  - outdoors

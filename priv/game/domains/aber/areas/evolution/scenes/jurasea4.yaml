@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jurasea2"
+      north:
+        target: "scene:aber:evolution:jurasea5"
+    short: Among The Krill
+    sight: >
+      Giant swarms of krill, small shrimp-like creatures, are providing food here for the smaller predators of
+      the day, who find them an easy meal in comparison to the lithe fish they are more accustomed to feeding
+      upon. You cannot help but feel that they would provide poor fare, however.
+flag:
+  - soundproof
+  - underwater

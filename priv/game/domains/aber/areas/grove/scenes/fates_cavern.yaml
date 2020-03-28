@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grove:recluse"
+    short: Fates Cavern
+    sight: >
+      This is the Cavern of the Three Fates. In one area you see a place for sleep, another a place to cook.
+      In the center, a large fire burns brightly. In one corner, there is a spinning wheel. In another, a
+      large tapestry is being woven on a loom. The place is quite cozy, and you get a sense of great power
+      from being here.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

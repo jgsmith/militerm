@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:church:stairs2"
+    short: The Pulpit
+    sight: >
+      You stand in the rotting remains of what was the pulpit, looking north along the length of the church
+      hall, a sorry sight indeed, and also gazing up through the holes in the roof, skyward. A doorway leads
+      east onto some stairs.
+flag:

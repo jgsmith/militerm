@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6648"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6633"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6631"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6647"
+    short: A gold sand road
+    sight: >
+      The sand road continues north and south, crowded with citizens going about their business. The armoury
+      stands to the west, emitting heat from the fires of the forge. Occasional drunken shouts and laughter
+      can be heard from a smoking lodge to the east.
+flag:
+  - outdoors

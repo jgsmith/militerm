@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop2"
+      west:
+        target: "scene:aber:quarry:bottom"
+    short: Tunnel Passage
+    sight: >
+      A hand-carved passage wide enough for three people walking abreast runs east and west here. The stony
+      walls are composed of nearly pure limestone, with the few other trace components giving off an eerie
+      blue glow and an occasional flash of green lightning as an unnatural source of underground electricity
+      travels through them. Along the floor by these sides, a line of spiders moves steadily away from the
+      east exit, where the ground begins to slope upward. At various spots along the tunnel, a rocky crag will
+      jut out and partially block the passageway like a person with a mild degree of arteriosclerosis. Water
+      from underground springs and pools drains into this place and gradually eats away at the crags. This
+      passage is still new, for there are no signs yet of the formation of stalactites or stalagmites.
+flag:
+  - dark

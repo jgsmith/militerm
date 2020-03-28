@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen24"
+      west:
+        target: "scene:aber:thyrannen:thyrannen22"
+    short: Outside the Marsh
+    sight: >
+      You are traveling into what is slowly becoming a thick marsh. Flys buzz around your head, clouding you
+      vision. Filled with hopes of great adventure, you push onward.
+flag:
+  - outdoors

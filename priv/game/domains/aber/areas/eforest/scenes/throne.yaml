@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:stone"
+      west:
+        target: "scene:aber:eforest:den"
+    short: Throne Room
+    sight: >
+      You have entered the throne room of Asmodeus, the Demon Lord who, in his battle with the evil lich,
+      destroyed the beautiful elven forest. If that foul creature is still around, he must be destroyed! You
+      rapidly glance around the room and see, in the middle of the room, a throne made out of human bones. You
+      gag at the sight, and rapidly look for exits from this room. They lie to the South and West.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:housee"
+      north:
+        target: "scene:aber:frobozz:forest1"
+      west:
+        target: "scene:aber:frobozz:housew"
+    short: Northern End of the House
+    sight: >
+      You are standing in an open field north of a white house, with a boarded front door. The house is
+      surrounded with dense forest to the north and the east, and west of the house a deep canyon splits the
+      country from north to south. There's a path which runs north into the forest and two smaller paths which
+      runs from the front door and around the house east and west.
+flag:
+  - outdoors

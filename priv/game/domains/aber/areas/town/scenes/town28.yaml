@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town27"
+    short: Behind the Bar
+    sight: >
+      Behind the bar there are many bottles of different drinks, some that you have never seen before and some
+      that you can remember spending lonely nights with. The only exit is back to the tavern area to the
+      north.
+flag:

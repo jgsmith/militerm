@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar25"
+    short: "Mayor's House"
+    sight: >
+      Here's where it all started. Turmoil over the mayor's ability to lead Bal Harbor began when someone in
+      town was a victim of a rather hideous crime--robbery, assault, and rape--all while some officers watched
+      (actually, paid to watch since it was apparently staged). So, the public got into a big uproar over the
+      thing and demanded the cops resign along with the mayor. The mayor refused to resign and became defiant.
+      With stealth Red Sash support and provocation by undercover agents, they were successful in starting a
+      riot. The mayor blockaded himself with a few officers to defend him but those men were really undercover
+      Red Sash operatives--who were ordered in advance to take him out at just the right time. As you can see
+      they were successful. The rest of this place was soon ransacked after the operatives opened the doors
+      and let everyone in. The scene now is too awful to describe, so I guess you will have to imagine what's
+      in here.
+flag:
+  - soundproof

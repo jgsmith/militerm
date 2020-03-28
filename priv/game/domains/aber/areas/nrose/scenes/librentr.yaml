@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nrose:dampstair"
+      north:
+        target: "scene:aber:nrose:library1"
+    short: Library Entrance
+    sight: >
+      You have found the fabled library of this monastery. Inside it are thousands of hand-printed,
+      leather-bound books and ancient silk-encased scrolls. In here is incredible knowledge: the magic and
+      wisdom of the Arabs, the philosophy and science of the Greeks, the great histories and poetry of the
+      Romans, and the forbidden theology of the great heretics.
+flag:
+  - dark

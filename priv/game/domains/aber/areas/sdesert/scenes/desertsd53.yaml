@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd51"
+      south:
+        target: "scene:aber:sdesert:desertsd54"
+    short: A Cactus-Infested Area
+    sight: >
+      You wander between large cacti and jagged rocks, trying to stay away from all the pricks. The trail
+      leads north and south from here.
+flag:
+  - outdoors
+  - hot

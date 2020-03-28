@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund82"
+      south: null
+    short: Nadgazad Plaza
+    sight: >
+      A fountain stands in the middle of this wide, open square. Instead of running water, a lava flow courses
+      through thr elegantly decorated piece of architecture. A congregation of green and purple robed
+      creatures meditate in one corner of the plaza, using chants which send rats fleeing in all directions.
+      To the south lies a solid black wall.
+flag:
+  - outdoors

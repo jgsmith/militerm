@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:blizzard"
+      west:
+        target: "scene:aber:blizzard:gate"
+    short: Warm Haven
+    sight: >
+      After hours of trudging through the snow you come upon a tiny inn. A sign above the door says "Warm
+      Haven -- Abandon Cold, All Ye Who Enter." The room is crowded with burly adventureres, shy novices, and
+      the bustling of serving wenches and bar-maids trying to take everyone's orders. The main door is to the
+      south, and a side-door heads west into the frozen wastes. A number of urchins are gathered around the
+      crackling fire to hear tales and songs from the Bard.
+flag:
+  - party

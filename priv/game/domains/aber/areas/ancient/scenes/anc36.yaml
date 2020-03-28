@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc35"
+    short: Before the Sun
+    sight: >
+      The brightness of the sun forces you to cover your eyes. Your skin feels like burning, but you keep
+      feeling your way through the heat. Suddenly you feel something laying down on the floor and start
+      wondering about what you have found.
+flag:
+  - outdoors

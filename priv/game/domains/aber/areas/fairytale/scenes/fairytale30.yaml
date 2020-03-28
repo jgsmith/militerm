@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale31"
+      south:
+        target: "scene:aber:fairytale:fairytale29"
+    short: Prison Stairs
+    sight: >
+      You stand on a set of stairs which spirals down into the depths of the earth. The steps are spaced too
+      widely for you to walk on them, but some brave adventurer has tied a rope to the railing, making it
+      possible to climb down rather than walk.
+flag:

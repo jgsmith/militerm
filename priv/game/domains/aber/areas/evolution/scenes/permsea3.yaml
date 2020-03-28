@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:evolution:permsea2"
+    short: Murky Sea Bed
+    sight: >
+      You are on the bed of the permian sea. It is fairly dark here, but you can make out at least some of the
+      surrounding scenery. You appear to be in some sort of hollow, with steep rocky walls rising about you.
+      The ground is covered with &+ythick mud&*.
+flag:
+  - soundproof
+  - underwater

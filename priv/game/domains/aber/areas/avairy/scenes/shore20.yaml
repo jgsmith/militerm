@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:avairy:shore1"
+      west:
+        target: "scene:aber:avairy:shore19"
+    short: The Shore
+    sight: >
+      You have found the northeastern corner of Avairy Island. You hear the chirping and squawking of birds to
+      the southwest. There is a great difference in the sea to the north and the one to the east, as the sea
+      north of you is much more violent. The shore line continues to the south and west.
+flag:
+  - outdoors
+  - light

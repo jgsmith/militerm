@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon26"
+      west:
+        target: "scene:aber:town:town52"
+    short: Path Through the Woods
+    sight: >
+      The path continues through the woods as the trees start to thin out as they approach the shoreline of
+      the ocean.
+flag:
+  - outdoors

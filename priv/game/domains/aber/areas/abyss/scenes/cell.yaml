@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: Prison Cell
+    sight: >
+      You are inside a prison cell designed to hold a very large demon. The iron walls of the cell are deeply
+      scored by claw marks. The floor and ceiling too are made of iron. There is no furniture here, just an
+      iron bench on one wall.
+flag:
+  - dark
+  - nosummon

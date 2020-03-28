@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curse4"
+      west:
+        target: "scene:aber:fareast:shore2"
+    short: Cave in the Cursed Lands
+    sight: >
+      This cave, though dark, damp, and cramped, is free of the choking vapours that swirl outside. You can
+      actually breathe and rest here, without fearing attack or poisoning. A tiny, salt-rimmed tunnel seems to
+      be the source of the restoring air, leading back to the west, far underground.
+flag:
+  - dark
+  - nomobiles

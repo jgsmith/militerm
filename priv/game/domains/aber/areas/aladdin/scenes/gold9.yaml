@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:aladdin:slip"
+      east:
+        target: "scene:aber:aladdin:gold10"
+      west:
+        target: "scene:aber:aladdin:gold8"
+    short: On the Stairs
+    sight: >
+      You are on a long, stone stairway with many cracks and chips deteriorating from time alone. You look to
+      over the stairs on both sides of you and see nothing but pure blackness. This would not be a good time
+      to slip.
+flag:
+  - light

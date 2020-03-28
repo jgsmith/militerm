@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:jurasea2"
+      west:
+        target: "scene:aber:evolution:triasea3"
+    short: Jurassic Deep Sea
+    sight: >
+      You are in the seas of the lower jurassic. The waters teem with life of staggering variety, large and
+      small, the hunters and the hunted. The ichthyosaurs are going from strength to strength it seems, and in
+      ever-greater numbers they populate the oceans of this time.
+flag:
+  - soundproof
+  - underwater

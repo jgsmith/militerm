@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:ricepaddy"
+      west:
+        target: "scene:aber:fareast:outlet"
+    short: River Valley
+    sight: >
+      The stream here must once have been a powerful river, because the valley it cut is as wide as a small
+      glacial rift. Trees and small shrubs reach up the walls of the gap, and the stream flows by to the west,
+      where it will rejoin the sea. To the east, human figures move back and forth from a wide, shallow bank
+      of the stream, to a forested area further to the southeast.
+flag:
+  - outdoors

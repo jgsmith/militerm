@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott18"
+      south:
+        target: "scene:aber:slott:slott47"
+    short: Garden path
+    sight: >
+      This is a garden path leading off to the &+Csouth&* and &+Cnorth&*. The sides of the path were once
+      covered with flowers that were treated by loving and tendering hands, but now they have grown wild and
+      spread themselves all over the lawn and into the grovel path.
+flag:
+  - outdoors

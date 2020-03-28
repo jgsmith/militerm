@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle1"
+      south:
+        target: "scene:aber:balharbor:jungle28"
+      up:
+        target: "scene:aber:balharbor:jungle3"
+    short: Steep Trail
+    sight: >
+      You've about a hundred feet up, and if you're not in good shape, you may want to rest a little before
+      continuing up. Those heading down, you're close to the bottom. A beautiful waterfall crashes down to a
+      pool to the south. Its waters are flowing past you to the north and spilling further down the side of
+      the plateau.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:blizzard:fis_bottom"
+    short: Narrow Crack
+    sight: >
+      You are in a narrow crack, off one side of the fissure. The walls lean in at crazy angles making it hard
+      to get through. A passage leads back north.
+flag:

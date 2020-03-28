@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9959"
+      north:
+        target: "scene:aber:ghenna:ghenna9902"
+      south:
+        target: "scene:aber:ghenna:ghenna9903"
+      up: null
+      west:
+        target: "scene:aber:ghenna:ghenna9957"
+    short: City limits of Ghenna.
+    sight: >
+      You are standing inside the city limits of Ghenna. Once a booming barter town, it is now a haven for the
+      evil which it bred over long years under the rule of the hubristic Lord Suzerain. In virtually every
+      corner you see ruins of some sort or another intermingled with old, age-whitened bones from all manner
+      of beasts. Exits lead in all cardinal directions.
+flag:
+  - dark
+  - outdoors

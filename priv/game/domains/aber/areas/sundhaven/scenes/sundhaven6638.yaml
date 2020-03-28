@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6636"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6639"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6758"
+    short: A shaded lane
+    sight: >
+      You are outside the town treasury, just to the west of here, making this a place bustling with activity,
+      including the occasional attentions of a pickpocket or two, for the lane is broad and the shadows of the
+      trees leave plenty of hiding places. However, the frequent presence of guards gives a feeling of
+      security.
+flag:
+  - outdoors

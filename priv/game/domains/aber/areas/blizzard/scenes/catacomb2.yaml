@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:priests"
+      south:
+        target: "scene:aber:blizzard:catacomb1"
+      west:
+        target: "scene:aber:blizzard:catacomb3"
+    short: Maze
+    sight: >
+      You are in a maze of catacombs. Passages lead in all directions.
+flag:
+  - soundproof
+  - maze

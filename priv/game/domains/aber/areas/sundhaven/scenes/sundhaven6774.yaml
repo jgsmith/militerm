@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:sundhaven:sundhaven6775"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6773"
+    short: A dark corridor
+    sight: >
+      The hallway bends sharply, leading off to the south and west. No light penetrates either one, so as
+      always the question of where you want to go depends on where you've been.
+flag:
+  - dark

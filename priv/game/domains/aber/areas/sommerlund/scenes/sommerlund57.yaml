@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund55"
+    short: West Cave
+    sight: >
+      This part of the cavern has small structures in it which seem to form a small city. Sidewalks provide
+      the means of walking around.
+flag:

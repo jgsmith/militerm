@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:tria9"
+      north:
+        target: "scene:aber:evolution:jura2"
+      west:
+        target: "scene:aber:evolution:jura7"
+    short: Dusty Plateau
+    sight: >
+      You are on the top of the plateau. From here you can see for many miles in all directions. The mild
+      jurassic climate warms your bones and the oxygen-rich air invigorates you. Above you soar pterosaurs,
+      their large wings catching the thermals as they scan the ground for signs of fresh carrion. To the west
+      the ground slopes downwards gently towards the western edge of the plateau. A path here leads down its
+      southern face.
+flag:
+  - outdoors

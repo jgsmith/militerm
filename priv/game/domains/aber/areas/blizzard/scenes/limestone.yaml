@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:moldy"
+      west:
+        target: "scene:aber:blizzard:shadowy"
+    short: Limestone Grotto
+    sight: >
+      You are in a beautiful limestone cave. Multi colored stalactites hang from the roof forming amazing
+      patterns of brilliant color. The floor is similarly decorated with a huge variety of stalagmites. A
+      man-made corridor leads west, and a dim and moldy passageway winds southward.
+flag:

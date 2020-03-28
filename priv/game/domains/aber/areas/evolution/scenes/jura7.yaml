@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura1"
+      north:
+        target: "scene:aber:evolution:jura8"
+    short: Rocky Slope
+    sight: >
+      As you pick your way among large boulders strewn about here, you startle a couple of lizards basking on
+      a flat stone. As they disappear into a narrow crevice, a shadow falls over you, and you turn in alarm.
+      You see nothing, but as you continue on your way you cannot help feeling somewhat exposed. Who knows
+      what you may startle around the next corner?
+flag:
+  - outdoors

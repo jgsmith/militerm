@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord13"
+      west:
+        target: "scene:aber:fjord:fjord11"
+    short: Muskrat Meadow
+    sight: >
+      The pine forest never intrudes upon this wide expanse of grass, where small children can easily get lost
+      in. Flax, oats, and rye grow in abundance in different sections of the meadow. Deer hop along nearby,
+      eating some of the grains, then drink their fill at a small lake to the east. The ground here is
+      well-tilled by the moles as they dig their tunnels.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome66"
+      north:
+        target: "scene:aber:rome:rome68"
+      west:
+        target: "scene:aber:rome:rome64"
+    short: Clay Road
+    sight: >
+      You travel upon an East-West road wide enough for 30 men to march abreast. It is packed hard through
+      heavy use. To the west, you eyes catch the splendors of a mighty city. North of here, there is a large
+      concrete landing pad.
+flag:
+  - outdoors

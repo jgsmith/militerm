@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:village:steps"
+    short: Cellars
+    sight: >
+      You are stooped down low, in the cellars of the 'Old Seadog'. The room is dark and shadowy lit only by a
+      pale light from high above at the top of the steps. The room stinks of cheap ale and rotting wood.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace10"
+      south:
+        target: "scene:aber:aladdin:palace2"
+    short: Back in the Palace
+    sight: >
+      The palace does not seem the same as it was the last time you were here. You can feel Jafar's evil
+      presence all around you. He should know you have returned. You can expect a nice welcome party awaiting
+      you throughout the castle. Halls lead to the east and south. There is a gate behind you, well, you are
+      stuck.
+flag:
+  - dark
+  - nomobiles

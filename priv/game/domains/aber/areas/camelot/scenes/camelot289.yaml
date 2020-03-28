@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot288"
+      west:
+        target: "scene:aber:camelot:camelot290"
+    short: Grippli Room
+    sight: >
+      The Grippli are a race brought about by the magical joining of humans and tree frogs. This room provides
+      them with the watery environment that their amphibious race needs.
+flag:
+  - dark

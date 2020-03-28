@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot283"
+    short: "Merlin's Planning Room"
+    sight: >
+      This is where Merlin comes for privacy when he needs to build some new trap for mortals who invade his
+      home. The walls are covered with maps of all of AberMUD, with notations on them describing the various
+      traps and puzzles, and their solutions. A large table fills the floor, and is covered with maps and
+      diagrams for areas that are currently under construction.
+flag:

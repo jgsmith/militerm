@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town16"
+      west:
+        target: "scene:aber:town:town18"
+    short: "Thieves' Guild"
+    sight: >
+      This is a large room with many items that can easily be associated with the thieving profession. It is a
+      fairly nondescript room otherwise. There are exits to the south leading into a small dark square and to
+      the west is a small exit leading into a dead end of an alleyway.
+flag:

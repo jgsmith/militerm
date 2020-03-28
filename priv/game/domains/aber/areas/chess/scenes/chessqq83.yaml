@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq84"
+    short: The Underground River
+    sight: >
+      You bob along lazily in the strange craft, spinning in complete circles at points, but always headed
+      downstream. In the distance you see another dock.
+flag:

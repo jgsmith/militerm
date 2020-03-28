@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq19"
+      south:
+        target: "scene:aber:nwbeaches:beachqq17"
+    short: "Takker's Jetty"
+    sight: >
+      All along the jetty, men relax in the sun, sitting in comfortable niches in the rocks where they can
+      wile away their time telling tall tales about 'the ones that got away', discussing politics, or every
+      now and then, doing some fishing.
+flag:
+  - outdoors

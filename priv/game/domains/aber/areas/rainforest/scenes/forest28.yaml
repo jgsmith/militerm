@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest29"
+      north:
+        target: "scene:aber:rainforest:forest25"
+      south:
+        target: "scene:aber:rainforest:forest24"
+      up:
+        target: "scene:aber:rainforest:forest37"
+      west:
+        target: "scene:aber:rainforest:forest26"
+    short: Deep In The Rainforest
+    sight: >
+      You are wandering through the heart of the rainforest. The density of the trees makes it impossible to
+      continue in a straight line and you wonder whether you might be going round in circles. There are exits
+      in all directions.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

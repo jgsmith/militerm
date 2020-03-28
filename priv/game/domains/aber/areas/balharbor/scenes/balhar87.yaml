@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar94"
+      west:
+        target: "scene:aber:balharbor:balhar85"
+    short: Right Side of the Road
+    sight: >
+      There are many white pillars of salt around you, all unrecognizable, plain, uninteresting, terse, blank,
+      and very boring. Looking toward the actual road, you think you see some red moving around. There's
+      enough room to get around the pillars here and rejoin the road on either side.
+flag:
+  - tempreal

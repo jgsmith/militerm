@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung49"
+      south:
+        target: "scene:aber:nibelung:nibelung53"
+    short: In the Moat
+    sight: >
+      You are in the castle moat. Stone walls rise up to the east and west, while the moat continues to the
+      north and south.
+flag:
+  - outdoors

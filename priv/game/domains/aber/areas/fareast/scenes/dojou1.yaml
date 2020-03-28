@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:dojo1"
+      north:
+        target: "scene:aber:fareast:dojou2"
+    short: Dojo- Upper Level
+    sight: >
+      The covered platform sways from your weight- apparently something has damaged the timbers, which
+      appeared strong enough for four people your size. A thin wooden ladder is the only way down short of
+      jumping.
+flag:
+  - dark

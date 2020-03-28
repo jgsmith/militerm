@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon61"
+      east:
+        target: "scene:aber:talon:talon59"
+      west:
+        target: "scene:aber:talon:talon57"
+    short: Edge of Sinkhole
+    sight: >
+      You stand at the edge of a massive pit in the center of the cavern. Closer observation reveals it is a
+      sinkhole from this cave to another. You might just be able to climb down the sides to the waves crashing
+      below. To the east a small cave dissapears into the shadows.
+flag:
+  - dark

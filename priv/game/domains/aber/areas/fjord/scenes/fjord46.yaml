@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord44"
+      up:
+        target: "scene:aber:fjord:fjord47"
+    short: Entrance to Snow-Capped Peaks
+    sight: >
+      The path here heads in-between the sides of two small peaks ringed with clouds and drops away below into
+      an eternity of switchbacks. Somewhere in the maze of these rarely explored peaks stands the highest
+      volcano in the northern regions of the continent. Mount Phaylax is never visible at any time of year and
+      can be reached only by this trail. Few travelers have ever bothered to go there as it is rumored to
+      house things which are alive even though the volcano itself is very much extinct.
+flag:
+  - outdoors
+  - cold

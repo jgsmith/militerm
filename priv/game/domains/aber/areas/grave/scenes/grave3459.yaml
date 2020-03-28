@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:grave:grave3461"
+      north:
+        target: "scene:aber:grave:grave3460"
+      south:
+        target: "scene:aber:grave:grave3452"
+    short: Wide Deep Pool
+    sight: >
+      You are on a large, deep body of water. The calm waters are dark, almost like a black ink. However you
+      think you see something moving just below the surface of the water. You can exit to the north, south, or
+      try your chances down.
+flag:
+  - dark

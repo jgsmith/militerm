@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq03"
+      up:
+        target: "scene:aber:nwbeaches:beachqq01"
+    short: On the Cliff Face
+    sight: >
+      The stairs continue, however you are much closer to the bottom than the top now. There appears to be an
+      opening in the rock to your east. Inside you can only see darkness, so it is possible that it is simply
+      a natural fissure, but then again, who knows?
+flag:
+  - outdoors

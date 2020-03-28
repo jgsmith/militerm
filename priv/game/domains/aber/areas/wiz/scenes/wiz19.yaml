@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:wiz:wiz20"
+    short: Malcontents Haven
+    sight: >
+      This is the place where all the bitter, angry, whining people go when they don't get their way...and
+      usually their way is something that no one other than them likes. Don't hang around here too long, or
+      else you'll become a malcontent too.
+flag:
+  - outdoors

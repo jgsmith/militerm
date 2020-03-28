@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept19"
+      north:
+        target: "scene:aber:adept:adept18"
+      west:
+        target: "scene:aber:adept:adept16"
+    short: Main Street
+    sight: >
+      The road stretches away into the distance to the east and west. Here the buildings are not as closely
+      crowded as they are further west and also begin to reduce in size, becoming more suburb-like. A large
+      sign on a pole shows a shield with the Whisper City coat-of-arms on it.
+flag:

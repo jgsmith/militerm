@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:ghenna:ghenna9944"
+    short: A backwall niche.
+    sight: >
+      This backwall niche is dank, dark and dusty. The brick walls show the telltale signs of decay - red and
+      black flakes, which lay on the floor. An old &+Mcask&* of port wine lies broken in one corner, a relic
+      from happier times. The only apparent exit is back to the West.
+flag:
+  - dark

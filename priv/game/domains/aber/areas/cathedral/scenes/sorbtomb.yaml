@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: &+MThe &+GTomb &+Bof &+YSorbet&*
+    sight: >
+      The place looks like some &+CP&+Rs&+Yy&+Wc&+Bh&+Go&+Md&+Ce&+Rl&+Yi&+Wc &+BNightmare&+W!
+      &+RC&+Go&+Yl&+Bo&+Mr&+Cs&* swirl about you, engulfing you in illusory images and strange sensations.
+flag:
+  - light

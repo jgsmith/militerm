@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter47"
+      north:
+        target: "scene:aber:enchanter:enchanter41"
+      south:
+        target: "scene:aber:enchanter:enchanter44"
+      west:
+        target: "scene:aber:enchanter:enchanter52"
+    short: Southern Gates
+    sight: >
+      The gates here seem shiny and new, in stark contrast to the rest of the castle. They're wide open, and
+      through them you can see a wide green meadow, and beyond it, the sea. There's a tower to the east, and
+      the hall continues to the west or the north. You can hear the sound of heavy machinery to the east.
+flag:

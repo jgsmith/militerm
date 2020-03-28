@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire17"
+    short: Western way
+    sight: >
+      You are standing in a small cave. It is looking like it was dug by hand. The digging was stopped maybe
+      because of the very hard rocky walls. The only way leads back to east.
+flag:
+  - dark

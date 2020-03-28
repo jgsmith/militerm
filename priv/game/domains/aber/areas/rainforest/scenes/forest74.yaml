@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest75"
+      south:
+        target: "scene:aber:rainforest:forest72"
+    short: "Ungulates' Trail"
+    sight: >
+      You are in a dense part of the forest, where thick bushes bar your way in every direction but to the
+      east, where a trail of sorts leads deeper into the jungle. What kind of animals have made it, you can
+      only guess.
+flag:
+  - outdoors
+  - rainforest

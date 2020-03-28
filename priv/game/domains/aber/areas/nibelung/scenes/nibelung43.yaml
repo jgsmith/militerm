@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung44"
+      north:
+        target: "scene:aber:nibelung:nibelung40"
+      west:
+        target: "scene:aber:nibelung:nibelung42"
+    short: Rotting Church
+    sight: >
+      You find yourself inside an old church. Overturned pews, smashed windows, and graffiti on the walls show
+      that it has been vandalized. The altar remains intact, however, but the linens have been removed long
+      ago. Off to the west you see a small picket fence, and some gravestones. To the east is a parsonage.
+      With a bit of deduction, you realize that the parsonage must be for this church.
+flag:

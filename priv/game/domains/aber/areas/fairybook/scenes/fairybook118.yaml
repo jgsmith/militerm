@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook119"
+      west:
+        target: "scene:aber:fairybook:fairybook116"
+    short: Golden path
+    sight: >
+      The path continues east and west, and you see a forest in the distance to the west. It looks as though
+      the path will go through the forest. Hope there's nothing bad in there . . .
+flag:
+  - outdoors

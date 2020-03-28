@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept52"
+      north:
+        target: "scene:aber:adept:adept54"
+    short: Glen of the Ancients
+    sight: >
+      This is one of the oldest sections of the Nareth Forest and has been preserved because of its history.
+      Almost a thousand years since they were first planted, the hybrid hemlock-sequoia trees grow nearly 400
+      feet high in loose formation. They were blessed by many a priest and even the ArchMage Adept himself to
+      keep them prosperous for as many generations as possible, sort of a challenge to the clergy's abilities
+      to influence nature. Despite the tender care that went into making this glen possible, the trees have
+      not escaped time unscathed. The glen was often spoken of in lore classes for those in the magic initiate
+      classes, and many a mischievous couple have spent days within the isolation of the trees, whispering
+      sweet words of love to each other and lightly carving their initials into the bark.
+flag:

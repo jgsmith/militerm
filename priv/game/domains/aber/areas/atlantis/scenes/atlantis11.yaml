@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis16"
+      north:
+        target: "scene:aber:atlantis:atlantis10"
+      south:
+        target: "scene:aber:atlantis:atlantis12"
+      west:
+        target: "scene:aber:atlantis:atlantis7"
+    short: Sea Floor Rise
+    sight: >
+      The sea floor rises gently here, leading up to a barren sandy spot on top of a small hill. Off to the
+      east you see the tops of some buildings sticking up above a sand-packed wall. The sea bed falls away
+      gradualy from this spot on the other three sides, leading back toward the cliff face to the west,
+      towards a small depression to the north and towards a rocky ridge to the south.
+flag:
+  - underwater

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept9"
+    short: Ye Olde Pastries
+    sight: >
+      An enormous oven sits in a back corner behind a large glass counter stockes with freshly made bread. It
+      emits tremendous amounts of heat and keeps the shop warm even in mid-winter. On the counter in front of
+      the oven, white, wheat, rye, banana nut, and sourdough combine color and texture to form an appetizing
+      display. In another corner lay stacks of crates and three barrels, which are marked 'FLOUR,' 'SUGAR,'
+      and 'LARD.' Two baking assistants and an apprentice attend to the complex bread-making process, sweating
+      profusely from the intense heat. A price list hanging from the ceiling contains every available item in
+      colorful block letters.
+flag:

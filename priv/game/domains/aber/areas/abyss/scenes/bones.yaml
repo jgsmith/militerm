@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:church:silent"
+    short: Old Bones
+    sight: >
+      This musty chamber is cluttered with old bones and scraps of clothing. Your footsteps stir up the thick
+      dust choking you with its dry bitter taste. No treasures remain, having long ago been looted by barrow
+      robbers.
+flag:
+  - dark

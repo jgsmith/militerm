@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cottage:cottage11"
+      east:
+        target: "scene:aber:cottage:cottage11"
+      north:
+        target: "scene:aber:cottage:cottage2"
+      west:
+        target: "scene:aber:chlyon:chlyon2"
+    short: Serene Valley
+    sight: >
+      This valley, nestled amidst the surrounding peaks, is a place of serene tranquility. Long swaths of
+      green mountain grass beckon you to kick off your boots and frolic about. A branch of the valley extends
+      to the north, and you can return to the more mountainous regions lying to the east. Going west will take
+      you back to the crossroads.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest112"
+    short: "Medicine Man's Hut"
+    sight: >
+      You are in a well-decorated hut, the walls of which are festooned with shrunken heads and various forest
+      herbs. This is no doubt the hut of the tribe's medicine man, and you can sense an evil aura about it.
+      The only exit is through the door to the south.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung20"
+      west:
+        target: "scene:aber:nibelung:nibelung22"
+    short: Wooden Bridge
+    sight: >
+      You are standing on a wooden bridge which spans a small river below you. The sun reflects off the clear
+      water, dazzling your eyes. On the railing are some &+ycarvings&* by various lovers and couples of years
+      past. To the west is a road, which runs off into the horizon.
+flag:
+  - outdoors

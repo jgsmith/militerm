@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:web"
+      south:
+        target: "scene:aber:abyss:wicket"
+    short: Stinky Tunnel
+    sight: >
+      The tunnel here feels close and uncomfortable. The air is filled with the stench of filth and decayed
+      remains which wafts from a very narrow shaft in the side of the tunnel. To the north the tunnel widens
+      into a room and a sense of great evil comes from that direction.
+flag:
+  - dark
+  - nomobiles

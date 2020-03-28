@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:batcave:batcave18"
+    short: The Antechamber
+    sight: >
+      This chamber possesses a feeling of overwhelming age. It feels as though the steps, carved doorways,
+      polished floor were all made the same time as the cavern itself formed. It simply feels impossibly old,
+      and though it is not a very large chamber, and is very plain, its unimaginable age makes you feel
+      suddenly very insignificant. The only objects are two burning oil &+Ylamps&* on either side of a pair of
+      doors.
+flag:
+  - nosummon

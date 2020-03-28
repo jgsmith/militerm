@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:geast9"
+      south:
+        target: "scene:aber:ruins:geast11"
+      west: null
+    short: Western Corridor
+    sight: >
+      You are in the western corridor of a large catacomb. Old torn banners hang from the eastern wall and
+      they seem to almost dance and sway in the chilling breeze that keeps whistling through the rooms. You
+      shiver from the cold breeze and warm your hands by rubbing them together. You notice a door to a room to
+      the west and the corridor seems to continue to the south and to the north.
+flag:
+  - dark

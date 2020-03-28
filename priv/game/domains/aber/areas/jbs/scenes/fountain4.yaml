@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fountain5"
+      east:
+        target: "scene:aber:jbs:fountain1"
+      north:
+        target: "scene:aber:jbs:fountain3"
+      south:
+        target: "scene:aber:jbs:fountain"
+      west:
+        target: "scene:aber:jbs:fountain2"
+    short: The Rim of the Fountian
+    sight: >
+      You are standing on the rim of this huge fountain. The water splashing out from around the fountain
+      feels like a gentle spring rain. As you look into the fountain you see a few VERY BIG fish swimming
+      around and on the bottom what must be some of the currency of this land.
+flag:

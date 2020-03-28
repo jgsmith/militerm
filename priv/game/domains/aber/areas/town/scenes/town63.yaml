@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town62"
+    short: End of the Cave
+    sight: >
+      The cave slopes down and meets itself here. It seems the back of this cave is currently being used as a
+      refuse dump and a storage area at the same time. The only way out is the way that you have just entered.
+flag:
+  - dark

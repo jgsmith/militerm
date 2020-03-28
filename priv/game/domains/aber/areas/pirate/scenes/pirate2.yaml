@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate4"
+      east:
+        target: "scene:aber:pirate:pirate3"
+      south:
+        target: "scene:aber:pirate:pirate0"
+    short: Foredeck of the Ship
+    sight: >
+      You are standing on the deck at the bow end of the pirate ship. Cannon emplacements line the sides, and
+      a small pile of cannon balls is beside each cannon. A small hatchway leads down into what is apparently
+      the hold, and a small plank leads out over the ocean to the east. Around the ship, you see clear blue
+      water, infested with man-eating sharks.
+flag:
+  - outdoors

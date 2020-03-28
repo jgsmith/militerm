@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd29"
+      south:
+        target: "scene:aber:sdesert:desertsd38"
+      west:
+        target: "scene:aber:sdesert:desertsd27"
+    short: A Faded Footpath
+    sight: >
+      The heat is wearing on you, as you stumble along here. The trail leads south, east, and west with no
+      obvious intent or purpose.
+flag:
+  - outdoors
+  - hot

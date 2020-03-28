@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:dforest4"
+    short: Dwarf Shop
+    sight: >
+      This is a fine shop full of many powerful looking weapons and strong armor. The shopkeep is busy
+      polishing up silver weapons and silver armor as he looks up at you and fixes his hair. He greets you and
+      welcomes you to his shop.
+flag:
+  - nomobiles
+  - peaceful

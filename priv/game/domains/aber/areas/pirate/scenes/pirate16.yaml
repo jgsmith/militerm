@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate15"
+      north:
+        target: "scene:aber:pirate:pirate14"
+      south:
+        target: "scene:aber:pirate:pirate17"
+    short: The Bushes
+    sight: >
+      You are in a clump of knee-high bushes that are scraping uncomfortably against your legs. A group of
+      trees stand to the north, and a beach can be seen to the east and to the south.
+flag:
+  - outdoors

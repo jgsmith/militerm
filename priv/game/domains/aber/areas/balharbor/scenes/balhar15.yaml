@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar16"
+      north:
+        target: "scene:aber:balharbor:balhar23"
+      south: null
+      west:
+        target: "scene:aber:balharbor:balhar14"
+    short: Idol Square
+    sight: >
+      You are standing on the southeast side of the square. The rioters seem to have left alone the building
+      to the south, probably of the fact of the sign out front that says: "Looters will be decapitated." It
+      appears that armor is for sale there. To the east, a building houses the Headquarters of the Sash
+      Mercenary Company. The square continues north and west.
+flag:
+  - outdoors

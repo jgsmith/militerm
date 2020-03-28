@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3433"
+      south:
+        target: "scene:aber:grave:grave3439"
+    short: In Front of the Altar
+    sight: >
+      You stand before a large altar. The stench is now overpowering but the great destruction that has been
+      brought to bear here is even more so. The pews are ripped and charred and the velvet cushions are in
+      small shreds and scattered. There are many humanoid corpses that have been stabbed and hacked
+      repeatedly. The lighting is faint however you notice a small glow the comes from atop the altar. The
+      glow seems to give you hope and you have a strange feeling to move forward toward the altar. There are
+      exits north and south.
+flag:

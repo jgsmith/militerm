@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:valley:evalley"
+      south:
+        target: "scene:aber:valley:deep"
+      up:
+        target: "scene:aber:caledonia:hills1"
+    short: End Of Gap
+    sight: >
+      You are in a narrow rocky gap, which closes up to the south, ending in a wide arched tunnel, with a
+      carved entrance. The tunnel plunges south into the mountain depths. To the north the gap widens up
+      leading back out into the forest. The mountainside to the west looks as if it could be climbed.
+flag:
+  - outdoors

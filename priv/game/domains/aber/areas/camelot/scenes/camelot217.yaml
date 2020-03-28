@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot228"
+      north:
+        target: "scene:aber:camelot:camelot229"
+      south:
+        target: "scene:aber:camelot:camelot214"
+      west:
+        target: "scene:aber:camelot:camelot218"
+    short: The Portcullis
+    sight: >
+      You stand in a huge archway leading south to a drawbridge and north to the castle yards. East and west
+      of you lie gatetowers, from which guards can shoot down on invaders.
+flag:
+  - outdoors

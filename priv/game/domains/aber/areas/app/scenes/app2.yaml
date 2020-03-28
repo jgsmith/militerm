@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app3"
+      north: null
+      south: null
+      west:
+        target: "scene:aber:app:app4"
+    short: Foyer
+    sight: >
+      You stand in a rather empty foyer. Exits lead in all directions. Large bright X's are over the doors
+      leading east and west. You could always go south, back outside.
+flag:

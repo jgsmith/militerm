@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:large_cav"
+      south:
+        target: "scene:aber:blizzard:entrance"
+      west:
+        target: "scene:aber:blizzard:passage"
+    short: The Crypt
+    sight: >
+      You are in a charnel smelling crypt. Dark drapes hang between the pillars that make up the walls. The
+      whole room has an atmosphere of waiting malignant evil and an oppressive silence that makes you jump at
+      the slightest draught in the still, cold air.
+flag:

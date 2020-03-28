@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gold:gold1b"
+      north:
+        target: "scene:aber:ildharas:ildharas02"
+      south:
+        target: "scene:aber:ildharas:ildharas00"
+      west:
+        target: "scene:aber:gold:gold1a"
+    short: Grassy Field
+    sight: >
+      Tall, knee high grass rustles gently with your passing. Tiny insects fly up at the disturbance and buzz
+      around your head. A forest of spruce and pine grows to the north. Upon closer inspection, you can see a
+      narrow and often overgrown path through the trees. Much of the southern field has been converted into a
+      graveyard. Two large boulders surround a path to the west, the fields turn golden toward the east.
+flag:
+  - outdoors

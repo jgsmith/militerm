@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haven:haven"
+      north:
+        target: "scene:aber:valley:dark"
+      south:
+        target: "scene:aber:blizzard:blizzard"
+    short: Gate of Sorcerors
+    sight: >
+      You are outside The Gate of Sorcerors. Its mighty pillars tower up around you, shielding you from the
+      worst of the regular snowfalls and from some of the icy winds. The ancient arched gateway between the
+      pillars leads north into a wide magically lit passage which disappears into the roots of the earth. You
+      may enter the gate to the north, a lighted inn to the east, or trudge south into the snows.
+flag:
+  - cold
+  - outdoors

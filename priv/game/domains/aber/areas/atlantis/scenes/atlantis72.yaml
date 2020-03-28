@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis73"
+      south:
+        target: "scene:aber:atlantis:atlantis71"
+    short: Small Passage
+    sight: >
+      The rock of the cave narrows slightly as you swim down this corridor. It is still quite large for you
+      but it appears you're being funneled somewhere ahead. You are able to swim further down the passage to
+      the north or return to the south.
+flag:

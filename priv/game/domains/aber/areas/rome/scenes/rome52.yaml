@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome56"
+      up:
+        target: "scene:aber:rome:rome47"
+    short: A Mountain Path
+    sight: >
+      You stand on a small &+ytrail&* that leads up and down. It has recently been raining and there are small
+      puddles everywhere. You are just below the clouds and the view of the surrounding countryside is
+      breathtaking.
+flag:
+  - outdoors

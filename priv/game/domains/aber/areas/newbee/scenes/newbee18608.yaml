@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18609"
+      north:
+        target: "scene:aber:blizzard:grassy"
+    short: An Open Field
+    sight: >
+      Finally, you are in an open field... it is so nice to breathe fresh air again! You can return to that
+      dank, smelly place to the east, or take the exit to the north which appears to lead into a large field.
+flag:
+  - nomobiles

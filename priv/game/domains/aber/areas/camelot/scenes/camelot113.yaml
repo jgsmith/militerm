@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot112"
+    short: Sleeping Chamber
+    sight: >
+      There are a large number of dirty ragged bed rolls here. Congratulations, you've found the barracks. Now
+      what are you going to do?
+flag:
+  - dark

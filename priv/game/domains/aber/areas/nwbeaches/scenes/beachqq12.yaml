@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq11"
+      south:
+        target: "scene:aber:nwbeaches:beachqq13"
+    short: Rocky Path
+    sight: >
+      The path meanders it's way through the rocks on this littered beach. In the distance, you can see a
+      lighthouse out at the end of a jetty, it's gentle light guiding sailors safely past this rocky area.
+flag:

@@ -110,7 +110,7 @@ defmodule Militerm.Systems.Commands do
         Militerm.Systems.Entity.receive_message(
           entity_id,
           "error:command",
-          "{red}I can't {{input}}{/red}",
+          "{red}I can't {{input}}{/red}.",
           %{"input" => input}
         )
 
@@ -121,7 +121,7 @@ defmodule Militerm.Systems.Commands do
         Militerm.Systems.Entity.receive_message(
           entity_id,
           "error:command",
-          "{red}I don't know how to {{input}}{/red}",
+          "{red}I don't know how to {{input}}{/red}.",
           %{"input" => input}
         )
 

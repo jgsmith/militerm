@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Jumping into the spiky rocks
+    sight: >
+      Well, if you enjoy jumping into the spiky rocks...then, have fun !
+flag:
+  - death

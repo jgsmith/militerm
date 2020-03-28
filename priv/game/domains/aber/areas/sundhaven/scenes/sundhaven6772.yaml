@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6771"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6770"
+    short: A dark landing
+    sight: >
+      A seatless landing creates a pause in the stairwell before its final descent. Angular shapes of lighter
+      areas on the walls indicate this place may have once been hung with numerous paintings or tapestries,
+      possibly comemorating the priests and gods of the past.
+flag:
+  - dark

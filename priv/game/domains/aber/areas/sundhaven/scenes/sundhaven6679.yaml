@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6678"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6680"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6715"
+    short: A windy cliffside lane
+    sight: >
+      A damp and chilly wind wafts over the homes of the clifftop moors. About you bluffs rise, pale grey and
+      dark sandstone, smooth from the sculpturing of winds, and dotted with purple heather and green mosses. A
+      path strays through the clifftop hills.
+flag:
+  - outdoors

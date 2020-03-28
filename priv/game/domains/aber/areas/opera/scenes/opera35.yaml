@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:opera:opera34"
+    short: "The Phantom's Lair"
+    sight: >
+      The large room hung completely in black with an enormous stave of music containing the notes of the Dies
+      Irae many times repeated. Off to one side of the room there is a canopy, from which hangs curtains of
+      red brocaded material, and, under the canopy, an open coffin. An enormous organ covers one entire wall.
+      Against the far wall is a dais, upon which sits a black throne.
+flag:

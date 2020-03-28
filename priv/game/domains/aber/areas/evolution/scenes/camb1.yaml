@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:camb2"
+      north:
+        target: "scene:aber:evolution:ordo1"
+      up:
+        target: "scene:aber:village:jetty"
+    short: Cambrian Sea Floor
+    sight: >
+      You are walking on the floor of an ancient and forgotten sea, struggling to maintain your footing in a
+      strong current which threatens to sweep you northward. All around you the sea bed teems with life.
+      Strange frond-like plants grow here, flattened against the sand by the current. A myriad of small
+      creatures, most no longer than six inches, swarms over the sand, feeding on the plants and on each
+      other.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

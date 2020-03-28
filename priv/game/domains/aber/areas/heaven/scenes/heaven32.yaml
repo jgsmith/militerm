@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:heaven:heaven33"
+      west:
+        target: "scene:aber:heaven:heaven30"
+    short: Northeastern Forest
+    sight: >
+      You are standing in a grove of maple trees. To the east you spy the ocean, upon which waves are
+      breaking.
+flag:
+  - private

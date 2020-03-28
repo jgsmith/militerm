@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden22"
+      north:
+        target: "scene:aber:golden:golden24"
+    short: &+GThrough the Trees&*
+    sight: >
+      You are in standing directly above the middle of the gorge, which seems to have no bottom. The tree
+      branches are dangerously thin and weak here, but they support your weight.
+flag:
+  - outdoors

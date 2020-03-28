@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:windy:windy18"
+    short: Storage Room
+    sight: >
+      This is a small room, used for storage by the temple caretakers. A dark passage leads west.
+flag:
+  - dark

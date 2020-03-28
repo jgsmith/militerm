@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:gold:passage2"
+      south:
+        target: "scene:aber:gold:passage4"
+    short: Passage Out?
+    sight: >
+      You are in another passageway under the ground which travels North and South. The drawings on the walls
+      here are of a large table which has been squared off to be The Square Table, as the drawing is titled.
+      It has names like Lancelot, Graham and Robin inscribed on it in an order of seating. What looks like the
+      Holy Grail is standing in the center of the table, surrounded by never fading flowers! At one end of the
+      table must be King Arthur's seat, for painted there is a majestic crown and the sword of glory,
+      Excalibur. You suddenly realise that the knights of the square table are no more!
+flag:

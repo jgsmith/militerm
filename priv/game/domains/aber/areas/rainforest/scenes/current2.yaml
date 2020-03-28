@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sea:2"
+    short: Carried Northward
+    sight: >
+      You inevitably come to the end of the trees and then pass by a succession of varied shorelines, the
+      climate gradually becoming more and more temperate. After what seems like an age, you begin to spot
+      familiar landmarks. Over to the northwest is the volcano Mount Bandilbar, presiding over a verdant
+      landscape. As you slowly draw level with it you see the mountains surrounding the blizzard pass and,
+      closer to you, the long stretch of shoreline to the east of the village. Ramshackle but comfortingly
+      familiar, the Old Seadog looms closer and you sigh as you finally feel you have come home at last. The
+      cold southern current is now so weak as to be unnoticeable, and only your momentum carries you the last
+      half mile to the waters just east of the jetty.
+flag:
+  - outdoors
+  - onwater

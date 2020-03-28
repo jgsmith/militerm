@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oni:oni3"
+    short: Dead End
+    sight: >
+      Tall sheer cliff walls surround you, as you find yourself at a dead end. Upon examining the walls, you
+      find it impossible to climb. The cliff walls seem to amplify the sound of the nearby rushing water,
+      making it difficult to stay here without covering your ears.
+flag:
+  - outdoors

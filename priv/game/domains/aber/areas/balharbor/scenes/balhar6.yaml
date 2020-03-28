@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar19"
+      south:
+        target: "scene:aber:balharbor:balhar4"
+    short: Cross Road
+    sight: >
+      You take a side street from Main which provides access to the city dock and runs between the buildings.
+      The road continues south while you can get back on Main north.
+flag:
+  - outdoors

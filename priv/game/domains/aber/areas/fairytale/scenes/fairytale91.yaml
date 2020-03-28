@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale55"
+    short: The Three Pigs
+    sight: >
+      This residence appears to be the brick home of the three little pigs. The smell of a finely-cooked stew
+      assails your nose, apparently emanating from the pot over the cooking fire. The entire house is built of
+      brick, and is done in the style known as 'early swine', Pictures of famous pigs line the walls, such as
+      Porky, Penelope, and Miss Piggy. A newspaper on the end-table advertises the opening of a new
+      Piggly-Wiggly supermarket, and lies next to an illustrated version of 'Charlotte's Web'. Small porcelain
+      pigs are displayed prominently in a case on the wall.
+flag:

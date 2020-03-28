@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18637"
+      south:
+        target: "scene:aber:newbee:newbee18639"
+      west:
+        target: "scene:aber:newbee:newbee18635"
+    short: A Branch To The South
+    sight: >
+      The east-west passage branches of to the south here. All around you is the odour of death. Actually, the
+      mold and fungus on the walls is doing great, but otherwise... well... you don't want to think about what
+      else lives here.
+flag:

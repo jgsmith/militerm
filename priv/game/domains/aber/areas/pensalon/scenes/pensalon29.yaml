@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pensalon:pensalon30"
+      east:
+        target: "scene:aber:pensalon:pensalon19"
+      north:
+        target: "scene:aber:pensalon:pensalon33"
+    short: Side Hall
+    sight: >
+      This is a small non-descript room with an exit to the north where you can smell the aroma of food, and
+      you may go down to the stairs from here.
+flag:

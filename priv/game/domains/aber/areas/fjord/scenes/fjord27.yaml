@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord28"
+      west:
+        target: "scene:aber:fjord:fjord25"
+    short: Southeastern Bank
+    sight: >
+      More sand greets your eyes as the beach hits a sharp corner. To the northeast is a gigantic, burned-out
+      pine, its tangled roots poking toward the water in a futile effort to convince a passerby that it is
+      still alive and kicking. A large cluster of broken &+ysandollars&* dot the water's edge, slowly being
+      eroded by the waves. The beach narrows to the north as the meadow heads close to the lake, while it
+      widens to the west.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc15"
+    short: Aztec Learning Center
+    sight: >
+      The walls of the room are covered with brightly colored fresco murals from floor to ceiling,.. and onto
+      the ceiling too. A man whose face reminds you of some canyon lanscapes you have seen sits on his
+      haunches staring at you. It seems like he might have a lot to teach you. Try "learn info" to see if you
+      can afford his fees.
+flag:
+  - peaceful

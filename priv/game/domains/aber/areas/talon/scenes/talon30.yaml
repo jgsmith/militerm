@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon31"
+      west:
+        target: "scene:aber:talon:talon68"
+    short: Dead Landscape
+    sight: >
+      You stand upon a small foothill looking upon a charred, black valley. The entire valley looks as if a
+      tremendous fire decended from the sky and consumed all life in its path. Blackened stumps lie here and
+      there, where mighty trees once stood. A blood red haze encompasses the sky as the sun retreats behind
+      the dark mountains, to no more shine its face upon the horrifying sight, for yet another starless night.
+      To the east lies passage down into the valley. To the west lies a blanket of fog twisting and turning as
+      if it were alive.
+flag:

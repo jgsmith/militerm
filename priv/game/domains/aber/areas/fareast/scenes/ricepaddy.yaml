@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:village1"
+      north:
+        target: "scene:aber:fareast:cliffs4"
+      south:
+        target: "scene:aber:fareast:village1"
+      west:
+        target: "scene:aber:fareast:gapvalley"
+    short: Rice Paddy
+    sight: >
+      Peasants comb the rice plants growing in the shallows here, gathering the grain and carrying the sacks
+      back up to their village to the southeast. The peasants glance at you, but hurry away without asking
+      questions, either too busy or too afraid to find out who you are. The stream flows from a slope to the
+      north, curves here and continues down to a broad valley to the west, and presumably from there out to
+      the sea.
+flag:
+  - outdoors

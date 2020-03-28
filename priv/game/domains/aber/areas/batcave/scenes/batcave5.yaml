@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave1"
+      west:
+        target: "scene:aber:batcave:batcave6"
+    short: The Batcave
+    sight: >
+      You are standing in an old laboratory that seems to have been abandoned long ago. A few bats cling to
+      the ceiling, and their droppings cover much of the equipment. There are machines with blinking lights
+      everywhere, along with strange objects you cannot even begin to understand. In the center of the giant
+      room is a black metal chariot of some sort. Off to the west you hear a low moaning sound, but all you
+      hear is quiet to the east.
+flag:
+  - dark
+  - nosummon

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot58"
+      south:
+        target: "scene:aber:camelot:camelot31"
+    short: Long Winding Road
+    sight: >
+      You are on a carefully cobbled road, leading north towards a small village, and south to the gardens,
+      and, eventually castle of Camelot.
+flag:
+  - outdoors

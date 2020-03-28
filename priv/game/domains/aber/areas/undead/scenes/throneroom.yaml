@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:waitingroom"
+    short: Throne Room
+    sight: >
+      This once opulent throne room is just what you expect from a throne room, just a little more run down.
+      Suits of armor run along the walls guarding as they have for millenia. Paintings of the royal lineage
+      are scattered throughout the room, somewhat dusty, but obviously of remarkable quality. A plush burgundy
+      carpet runs the length of the room, and ends at the feet of a huge &+Bthrone&*.
+flag:

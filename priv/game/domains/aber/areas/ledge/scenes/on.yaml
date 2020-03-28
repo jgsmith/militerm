@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:cavemouth"
+      west: null
+    short: On The Ledge
+    sight: >
+      You are standing on a narrow ledge high up the side of some steep cliffs. The ledge continues west
+      beside a narrow cavemouth. To the east the ledge ends some twenty feet short of a set of steps, which
+      climb up the cliff side from the valley below.
+flag:
+  - outdoors

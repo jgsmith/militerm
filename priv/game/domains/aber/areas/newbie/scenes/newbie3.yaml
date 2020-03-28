@@ -1,0 +1,26 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbiedead"
+      north:
+        target: "scene:aber:newbie:newbie1"
+      south:
+        target: "scene:aber:newbie:newbie4"
+    short: Rooms
+    sight: >
+      There are thousands of rooms on the mud, all linked together so that you can get from here to any other
+      part of the mud. The rooms are not arranged in a haphazard specific theme. Some zones contain quests
+      which you will have to solve eventually, but for a beginner it is best to get a feel for the mud first
+      before attempting these. There are also several different types of rooms. Some are outdoors, some are on
+      water, some are underwater, some are private, some are hot, some are cold, and some will suck the life
+      out of you! But the worst place to walk into is a deathroom! If you walk into a deathroom, you die and
+      lose all you carry. Then you are resurrected back in Between Worlds. To avoid them, you can pick up
+      clues by reading the room titles. You're standing near the edge of a cliff right now. To the east is the
+      '&+RCrumbling Cliff-Edge&*', do you think it could be a deathroom?? Often the description of the room
+      you are in will tell you something about your exits, so it is always a good idea to read the description
+      of any room you have not been in before. To continue with the tour, go south. To retrace your steps, go
+      north.
+flag:
+  - newbie
+  - peaceful

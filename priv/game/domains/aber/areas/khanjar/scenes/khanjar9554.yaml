@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9553"
+      north:
+        target: "scene:aber:khanjar:khanjar9555"
+    short: A Grassy Ditch
+    sight: >
+      You are standing on the bottom of a small and grassy ditch. There is some thicket growing around. The
+      ditch leads to the east.
+flag:
+  - real
+  - outdoors

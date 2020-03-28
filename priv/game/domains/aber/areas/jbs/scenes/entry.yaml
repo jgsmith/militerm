@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lhall1"
+      north:
+        target: "scene:aber:jbs:parlor"
+      south:
+        target: "scene:aber:jbs:lhall8"
+      west: null
+    short: Entry Hall
+    sight: >
+      You are in the gigantic entryway to Cloud Castle. The walls are covered with huge tapestries depicting
+      grand scenes and the walls are lined with magnificent suits of armor that tower above you so that you
+      almost have to get a crick in your neck to see the tops of them. There are grand archways that lead to
+      the north and south into other rooms and east down a huge hall. of the castle is to the west.
+flag:

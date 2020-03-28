@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd24"
+      south:
+        target: "scene:aber:sdesert:desertsd24"
+      west:
+        target: "scene:aber:sdesert:desertsd23"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction but east, where large rock sticks out of the sand and looks
+      unclimbable.
+flag:
+  - outdoors
+  - hot

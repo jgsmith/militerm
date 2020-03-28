@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen57"
+    short: "Draknor's Laboratory"
+    sight: >
+      As you emerge into what looks to be the bottom of a huge pit, the sunlight glaring down from above
+      temporarily blinds you. After your eyes adjust to the sudden burst of light, you are able to take in
+      your surroundings. Your first impression was right, this is a huge deep, cavernous pit, carved out of
+      the top of the mesa, by some evil dark magic. Looking around you notice magical runes of all kinds, you
+      can recognize only a few, those of protection and warding. Skeletons hang from the walls, some from
+      creatures you recognize, and others you could only guess as to their origin. Black streaks line the
+      walls too, possibly from long battles with demons only a crazed evil mage would summon onto this
+      plane... A sudden sense of fear comes over you.. You have never met anyone powerful enough to create a
+      place such as this, and don't want to stay long enough to meet the person who DID create this ghastly
+      place.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:throneroom"
+      south:
+        target: "scene:aber:undead:banquethall"
+    short: Waiting Room
+    sight: >
+      You pause only momentarily upon entering this room. Something is very very wrong here. You stand it what
+      once may have been a large open waiting room some 100 feet across. However now everything seems to have
+      both caught fire and be covered in ice! The whole room looks as though it has been torn asunder as the
+      tattered remains of its once opulent furnishing lie scattered around. To the &+Csouth&* the banquet hall
+      suddenly seems very inviting. To the &+Cnorth&* a large arched door leads to what looks like a throne
+      room.
+flag:
+  - cold

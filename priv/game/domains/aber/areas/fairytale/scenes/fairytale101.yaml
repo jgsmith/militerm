@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale106"
+      north:
+        target: "scene:aber:fairytale:fairytale104"
+      south:
+        target: "scene:aber:fairytale:fairytale105"
+      west:
+        target: "scene:aber:fairytale:fairytale96"
+    short: Kitchen
+    sight: >
+      Sleeping Beaty's cooks did not leave in a hurry. They out away their many utensils in racks on the wall.
+      The feast, left out on the table for travellers, has long since rotted away. To the west of you is the
+      entry room, to the south is the pantry, and to the north is the living room. A table is here, bolted to
+      the floor, scarred by knives and stained with dried blood.
+flag:
+  - dark

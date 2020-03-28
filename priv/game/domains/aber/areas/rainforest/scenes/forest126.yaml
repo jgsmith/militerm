@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest129"
+      north:
+        target: "scene:aber:rainforest:forest128"
+      south:
+        target: "scene:aber:rainforest:forest130"
+      west:
+        target: "scene:aber:rainforest:forest125"
+    short: Dark Forest
+    sight: >
+      You are in a part of the forest where the understorey is so thick that it harvests nearly all of the
+      light that filters through from the canopy. The result is that there are almost no ground plants and you
+      can quite easily head in any direction you choose. There is a small hut to the north.
+flag:
+  - outdoors
+  - rainforest

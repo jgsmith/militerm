@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung91"
+    short: "Servants' Quarters"
+    sight: >
+      This very cramped room makes you happy you took up adventuring instead of the food service industry. A
+      great proportion of the floor's area is occupied by beds, now mouldy and decaying. Seems the maid's gone
+      off on vacation. The kitchen is off to the east.
+flag:

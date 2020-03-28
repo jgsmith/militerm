@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ruins:westhall6"
+    short: A Small Room
+    sight: >
+      It takes you little time to figure out what this room once was. There is a washbasin, a mirror, and a
+      toilet in here. Just remember that if you want to do your duty, make sure that nobody is watching.
+flag:
+  - dark
+  - oneperson

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy19"
+      west:
+        target: "scene:aber:windy:windy17"
+    short: East Altar
+    sight: >
+      You stand in a large circular room which has a skylight in its domed ceiling. Directly underneath the
+      light is an altar, carved with leering faces and tortured forms. Dark passages extend to the east and
+      west.
+flag:
+  - oneperson

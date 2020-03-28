@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: "Archwizard's office"
+    sight: >
+      This is the office where archwizards discuss very serious matters. The decor of the room consists of
+      patterned stone, red carpet, pink sofas, and lit by candles.
+flag:
+  - peaceful
+  - party
+  - archwizard
+  - noat

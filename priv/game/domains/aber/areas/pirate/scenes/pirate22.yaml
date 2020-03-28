@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate14"
+      east:
+        target: "scene:aber:pirate:pirate14"
+      north:
+        target: "scene:aber:pirate:pirate23"
+      up:
+        target: "scene:aber:pirate:pirate23"
+    short: Start of the Path
+    sight: >
+      You are standing on the low hill, and stretching out in front of you is a small path, leading up this
+      side of an old volcano that dominates the western horizon. To the east, at the base of the hill, you see
+      a small circle of palm trees, and the path extends off to the north.
+flag:
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot9"
+    short: "Sir Gawaine's Room"
+    sight: >
+      A small room, but very comfortable looking. It is apparent that the knight who lives here spends more
+      time on quest then lounging here. Such is the life of one of Arthur's knights.
+flag:

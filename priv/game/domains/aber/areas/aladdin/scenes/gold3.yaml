@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:gold4"
+      north:
+        target: "scene:aber:aladdin:gold1"
+    short: Within the Mounds of Gold
+    sight: >
+      Jewels, jewels, and more jewels... It does not seem to end. You stop for a second to pinch yourself,
+      wondering if you are really awake. A pile of gems block exit to the south while the largest golden urn
+      you've ever seen blocks passage to the west. This leaves north and east open.
+flag:
+  - light

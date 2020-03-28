@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:pensalon:pensalon37"
+    short: "Armorer's Workshop"
+    sight: >
+      This large room is heated to near fatal temperature as many smiths go around the room shaping metal in
+      the high heats of the Armorer's forge. To the west is the practice yard where it looks very cool and
+      relaxing.
+flag:

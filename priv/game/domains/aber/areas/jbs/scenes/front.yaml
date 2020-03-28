@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:jbs:farmpath"
+    short: In Front of the House
+    sight: >
+      You are standing in front of a well kept two story farmhouse. The door to the house is to the east, or
+      you can go back down the path to the west.
+flag:
+  - outdoors

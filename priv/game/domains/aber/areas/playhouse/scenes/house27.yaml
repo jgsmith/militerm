@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: "Child's Nightmare: Middle of the Attic"
+    sight: >
+      This is TERRIBLE!! Reminding you of what you used to think of the attic when you were barely knee-high
+      to a grasshopper. The rooms have a very ominous quality to them. The hair on the nape of your neck
+      stands on end just thinking there is still more left to look at. The attic continues to the west and
+      east from here.
+flag:
+  - dark

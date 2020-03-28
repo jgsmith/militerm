@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:antechamber"
+      west:
+        target: "scene:aber:jbs:landing1"
+    short: Giant Archway
+    sight: >
+      This is giant archway. It goes west back to the stairs and turns north and leads into a vast
+      antechamber.
+flag:

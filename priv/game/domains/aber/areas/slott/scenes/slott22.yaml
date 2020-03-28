@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Hallway
+    sight: >
+      The hallway ends abruptly, the ceiling has caved in blocking the doors to the east. As you examine
+      what's left of the ceiling you see some marks as if someone has used a big sledgehammer on it. And you
+      start to think that the ceiling has been deliberately made to cave in, just as if someone wouldn't let
+      someone in or OUT.
+flag:

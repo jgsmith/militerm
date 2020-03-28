@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:landing"
+      west:
+        target: "scene:aber:cave:w_tower"
+    short: Passage
+    sight: >
+      You are following a narrow passage that leads east-west, linking the west tower and the Great Hall.
+flag:
+  - dark

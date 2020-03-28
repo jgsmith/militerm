@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f1"
+      south:
+        target: "scene:aber:forest:f3"
+      west:
+        target: "scene:aber:forest:f2"
+    short: The Path
+    sight: >
+      You are standing on a narrow path which winds roughly southwards through the tangled trees around you.
+      The forest here is mostly pines and thick layers of pine needles cover the forest floor.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road3e"
+      north:
+        target: "scene:aber:newvillage:road1n"
+      south:
+        target: "scene:aber:newvillage:bar"
+      west:
+        target: "scene:aber:newvillage:road1e"
+    short: The Village Track
+    sight: >
+      This part of the path runs right by the steps to a local bar. At this point the east-west track through
+      the village forks to the north, where several small shops seem to be set up. The heart of the village is
+      to the west.
+flag:
+  - outdoors

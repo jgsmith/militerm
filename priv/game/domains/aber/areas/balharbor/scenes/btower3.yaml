@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:btower2"
+      up: null
+    short: Entrance to Tower
+    sight: >
+      Having successfully getting past the guards, you stand at the front door of the tower. If you can figure
+      a way inside, you will have to figure out how to get up to the top without getting lost. You notice it's
+      a lot darker here than it was below--it looks like it's gonna get a whole lot darker inside.
+flag:
+  - outdoors

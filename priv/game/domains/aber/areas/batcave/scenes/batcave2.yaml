@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave3"
+      west:
+        target: "scene:aber:batcave:batcave1"
+    short: Bat Cave
+    sight: >
+      You have entered a large cave. High above you, through the dim light you make out what appears to be
+      hundreds of small stalactites hanging from the ceiling. There is a strong musty smell in the air which
+      is almost overpowering. Belatedly you realize the smell comes from the animal droppings which cover the
+      floor, and that what you thought were stalactites are actually hundreds of vampire bats.
+flag:
+  - dark
+  - nosummon

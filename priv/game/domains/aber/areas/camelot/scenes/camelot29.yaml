@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot28"
+      west:
+        target: "scene:aber:camelot:camelot31"
+    short: Secluded Clearing
+    sight: >
+      >From the feeling of isolation, you are sure that this is where Arthur and his court come when they need
+      peace and quiet. The only sounds are those of birds and insects. A feeling of peace, almost of sanctity
+      fills the air.
+flag:
+  - outdoors

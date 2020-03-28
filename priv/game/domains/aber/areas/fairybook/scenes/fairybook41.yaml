@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook40"
+      south:
+        target: "scene:aber:fairybook:fairybook42"
+    short: The Grand Procession
+    sight: >
+      You follow the path which connects the north entrance to the garden and the south entrance to the
+      croquet field. Trees alongside the path are laden with fruits, vegetables, and flowers.
+flag:
+  - outdoors
+  - nomobiles

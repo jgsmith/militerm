@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:castle8"
+      south:
+        target: "scene:aber:fantasy:castle6"
+    short: Northern Hallway
+    sight: >
+      Looking at the walls you see writings of the Tree of Mana, the very lifeforce of this world. There is a
+      room to the north with an eerie light burning in it and you can see a dark figure moving around.
+flag:

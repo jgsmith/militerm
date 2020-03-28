@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept63"
+    short: "Skipper's Cabin"
+    sight: >
+      This medium-sized room was made with respect. Although not overly furnished and adorned with golden
+      ropes, the captain's room serves to remind the crew that the captain is in charge. A small desk and an
+      even smaller barrel are the main items of furniture. The &+Cbed&* is just big enough to hold the
+      captain.
+flag:

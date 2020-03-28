@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds5"
+      north:
+        target: "scene:aber:dragonslueth:ds3"
+      south:
+        target: "scene:aber:dragonslueth:ds1"
+      up:
+        target: "scene:aber:dragonslueth:ds10"
+      west:
+        target: "scene:aber:dragonslueth:ds6"
+    short: Grand Hall
+    sight: >
+      You are in a large round room. There is a huge upward shaft allowing access to the top of the cave. The
+      room is cluttered with piles of useless junk you can safely ignore. There are exits in all directions,
+      including a rather dark and foreboding pit to the east.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie14"
+      south:
+        target: "scene:aber:newbie:newbie11"
+    short: Religions
+    sight: >
+      A world cannot be created without a creator, and we have such figures looking over the world. This
+      chamber however contains a pagan god, an idol that doesn't exist but was put here to demostrate what to
+      do if you happen to find the temples where they reside. Call this idol, the PAGAN. To find out how you
+      should interact with a god, &+YINFO RELIGION&* will give you the guide to perform the proper rituals.
+      The END OF THE TOUR is to the south of you.
+flag:
+  - newbie
+  - peaceful

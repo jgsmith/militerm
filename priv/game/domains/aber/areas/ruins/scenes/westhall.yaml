@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:start"
+      west:
+        target: "scene:aber:ruins:westhall2"
+    short: Hall West of the Ruins
+    sight: >
+      This is the west hall that branches off of the main ruins. Thick moss grows on the walls and ceilings. A
+      sudden cold draft hits your body and you swear that you hear shrieks coming from the chambers to the
+      west of here.
+flag:
+  - dark

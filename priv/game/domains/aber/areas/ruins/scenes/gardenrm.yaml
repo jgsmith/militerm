@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:easthall3"
+    short: An Underground Garden
+    sight: >
+      You look around and marvel at this underground garden. Looking around this dimly lit room you look up to
+      find that a partially covered grate allows a bit of light to enter from above providing enough sunlight
+      and rainwater for the plants to survive.
+flag:

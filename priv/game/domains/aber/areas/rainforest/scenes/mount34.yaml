@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount35"
+      west:
+        target: "scene:aber:rainforest:mount33"
+    short: Rocky Lip
+    sight: >
+      You are standing on a lip of rock which is nestling in the shelter of the pass to the west. A narrow
+      path begins here, heading down the side of the mountains in a zig-zag, descending by degrees towards the
+      rainforest below.
+flag:
+  - outdoors
+  - cold

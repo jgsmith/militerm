@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cave:cellars"
+    short: Side Cellar
+    sight: >
+      You are standing in a small damp side cellar. The cellar is cold and musty and probably also serves as
+      the dwarven cold store.
+flag:
+  - dark

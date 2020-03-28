@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pensalon:pensalon15"
+    short: Top of the Tower
+    sight: >
+      On top of the tower you find a small flat area where you may stand. You seem to be at the highest point
+      of the castle except for a similar tower farther to the west. You may climb down from here.
+flag:
+  - outdoors

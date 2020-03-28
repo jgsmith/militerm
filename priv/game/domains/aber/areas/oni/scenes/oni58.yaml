@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni59"
+      west:
+        target: "scene:aber:oni:oni56"
+    short: Pool - South
+    sight: >
+      You stand at the south end of the large circular pool. Looking into the pool, you find that even with
+      all the lights around you, the pool seems to fade into darkness. Floating above the center of the pool
+      is a stand holding a full suit of armor so dark that it absorbs the light and a sword that appears to be
+      sharp enough to cut through stone. Although the armor and sword is out of reach, you can probably swim
+      to it without problems.
+flag:

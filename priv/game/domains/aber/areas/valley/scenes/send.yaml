@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:bank"
+      north:
+        target: "scene:aber:valley:bridge"
+      south:
+        target: "scene:aber:valley:ftrack"
+      west:
+        target: "scene:aber:valley:beside"
+    short: South End Of Bridge
+    sight: >
+      You are standing at the south end of a small picturesque humpbacked bridge. The bridge crosses a stream
+      to the north, while paths run south into the forest, and east and west along the banks of the stream.
+flag:
+  - outdoors

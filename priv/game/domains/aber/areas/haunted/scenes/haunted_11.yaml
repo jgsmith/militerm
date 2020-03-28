@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Furnace
+    sight: >
+      As you look into the furnace, you feel someone behind you. Before you can turn around, you are pushed
+      into the lit furnace. You hear Freddy cackle and slam the door shut. &+RHot....hot....HOT!!! You are one
+      of his children now!
+flag:
+  - death

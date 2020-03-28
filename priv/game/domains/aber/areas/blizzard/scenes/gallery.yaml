@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:guard"
+      west: null
+    short: Gallery
+    sight: >
+      You are in an ornate gallery which overlooks a wide stone guardroom. A set of steps curve steeply down
+      into the guardroom.
+flag:

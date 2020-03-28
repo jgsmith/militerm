@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins63"
+    short: Mount Olympus
+    sight: >
+      You have arrived at the home of the Gods themselves. Here is the place where the Immortals live,
+      untouched by the petty, trivial grievances of mere mortals. You can see the whole world from this
+      awesome vantage. You are indeed invincible here. All that you could ever hope for can be found, and even
+      then there is some left over... You look down from Olympus on a world of doubt and fear. Its surface is
+      splintered into sorry hemispheres. But suddenly, the very elven music you helped save issues forth from
+      your love and wisdom. The chaos below ceases, and the people stop fighting, somehow awestruck by its
+      beauty. Apollo and Dionysus turn to you and say '&+WWe shall call you Cygnus, &+gthe Bringer of
+      &+GBalance!&+W We now see that only through a balance of both Truth &+Wand Love can the miracle of life
+      succeed. And this beautiful music is its &+Wbackbone... Now, dear Bringer of Balance, if you wish to
+      leave us, simply &+Wcast away your fears and jump.&n'
+flag:
+  - outdoors
+  - cantsummon
+  - nosummon
+  - party
+  - peaceful

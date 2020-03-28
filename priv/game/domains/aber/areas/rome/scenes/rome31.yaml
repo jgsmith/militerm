@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome30"
+      south:
+        target: "scene:aber:rome:rome32"
+      west:
+        target: "scene:aber:rome:rome24"
+    short: Nero Drive
+    sight: >
+      You are walking on a great paved road that runs north and south through the city. People are hurrying
+      from one place to another, but always stop to say hello. Most of the people are either coming from or
+      going to the town square. Nero Drive continues to the north, and you can see a large open area to the
+      south.
+flag:
+  - outdoors

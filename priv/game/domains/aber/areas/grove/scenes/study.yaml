@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grove:dwelling"
+    short: Study
+    sight: >
+      Books upon hundreds fill this study. An immense library is secluded in this small dwelling, vast stores
+      of knowledge lie here. Any book on any subject or author is here somewhere, waiting for the reader to
+      pick them up lovingly. A desk with a highly advanced computer is cluttered by numerous tomes. Bright
+      light filters in through the window, making this a nice place to be.
+flag:
+  - soundproof
+  - cantsummon
+  - nosummon

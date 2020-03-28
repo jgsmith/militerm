@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest99"
+    short: The Bank
+    sight: >
+      You are on the bank of the river once more. This tributary moves past you sluggishly, despite being free
+      of mud. A disturbance in the water in the middle of the stream cautions you against wading out just
+      here.
+flag:
+  - outdoors

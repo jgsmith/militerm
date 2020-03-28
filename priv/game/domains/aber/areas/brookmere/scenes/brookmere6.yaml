@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:caledonia:hills7"
+      south:
+        target: "scene:aber:caledonia:hills8"
+      west:
+        target: "scene:aber:caledonia:hills2"
+    short: Forest Edge
+    sight: >
+      You are standing at the edge of a forest that once ringed a castle. The only thing that still stands now
+      is the broken shell of a tower - all else is ruins - but all that is soon set to change. Elves in
+      construction hats stride industriously all over the ruins and scaffolding is already being constructed
+      around the remnants of the tower. Scattered across the ground are enormous piles of boulders and chunks
+      of masonry. Carved on one such boulder you spy the word 'Brookmere'. The famous Brookmere castle was at
+      one time was occupied by orcs, goblins and gnolls from the surrounding lands, but they have been
+      destroyed and now Brookmere's rightful inhabitants are busy rebuilding their home. You decide not to
+      intrude on them.
+flag:
+  - outdoors

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins48"
+      up:
+        target: "scene:aber:origins:origins50"
+    short: The Spaceport
+    sight: >
+      You enter the heart of the great Spaceport, and come face to face with the large flying objects, which
+      you overhear the people refer to as 'spaceships'. Many people embark and disembark from these ships
+      before your eyes. Most of the ships are huge, but one particularly small one dubbed "The Rocinante"
+      catches your eye. There is a man at that ship, who gestures for you to go see him. It would also be
+      possible for you to head back up north toward Megadon.
+flag:
+  - peaceful
+  - nomobiles
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

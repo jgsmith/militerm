@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis38"
+      south:
+        target: "scene:aber:atlantis:atlantis41"
+    short: Before the Sand Castle
+    sight: >
+      Before you stands a large Sand Castle. Short, stubby towers stand out above the rest of the Castle,
+      bright flags of abalone worked into the top of each. Through the empty window of each tower you catch
+      glimpses of shark sentries. The multiple levels of the castle show activity on each one and if you watch
+      long enough you notice servants swimming outside the castle on shortcuts to reach the higher levels
+      instead of passing through the castle. You can enter into the courtyard by swimming south or head back
+      to Main Street to the north.
+flag:
+  - underwater
+  - nomobiles

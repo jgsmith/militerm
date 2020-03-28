@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen29"
+      north:
+        target: "scene:aber:thyrannen:thyrannen27"
+      south:
+        target: "scene:aber:thyrannen:thyrannen59"
+    short: Marsh
+    sight: >
+      The marsh here is just as bad as the rest of surrounding area. The awful smell of raw sewage permeates
+      the air, the waters are thick and hard to move through, and your body is fighting you at every step. You
+      know you must find dry land soon, or you will collapse of utter exhaustion.
+flag:
+  - outdoors

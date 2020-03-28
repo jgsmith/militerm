@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:campfire"
+      north:
+        target: "scene:aber:jbs:fwood2"
+      south:
+        target: "scene:aber:jbs:fwood5"
+      west:
+        target: "scene:aber:jbs:fwood4"
+    short: Gripping Vines
+    sight: >
+      All around you the woods seem to have come to life! You find yourself struggling through the branches of
+      mighty trees and thick ivy vines that are trying their best not to let you past. The mist is very thick
+      here too making it quite difficult for you to know which way you came from and which way might lead out
+      of here.
+flag:
+  - outdoors
+  - nomobiles

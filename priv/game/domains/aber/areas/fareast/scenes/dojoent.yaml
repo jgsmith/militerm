@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curseisland1"
+      west:
+        target: "scene:aber:fareast:dojo1"
+    short: Passage through Darkness
+    sight: >
+      The mists themselves rise to block your path as you cross this way. A squat grey building with torn
+      paper walls is the only sign of life in this desolation; it stands directly to your west. To the east,
+      the plain stretches unbroken to a shore lined with black sand.
+flag:
+  - dark
+  - tempextreme

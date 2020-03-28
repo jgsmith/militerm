@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryb_2"
+      north:
+        target: "scene:aber:fareast:countryb_4"
+    short: Countryside- Cold Winds
+    sight: >
+      Two dirt paths, diverging from two main roads higher uphill, meet here in a clearing. It is swept free
+      of the gravel and sediment that cover most of the surrounding lands; a stiffly cold wind blasts across
+      it toward the west, attempting to clear the sky of clinging haze and fog.
+flag:

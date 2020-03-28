@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund21"
+      south: null
+    short: Before the Monastery
+    sight: >
+      You stand straight before the massive doors at the entrance to the Monastery. The doors are easily ten
+      feet tall and surrounded on either side by two-meter thick whitewashed walls. At the top of the walls
+      are several turrets, towers, and cannon implementations. From the great height of the walls, it seems
+      the residents of this fortress could easily shrug off any possible attacker. However, the Monastery does
+      not seem to be a place of violence, but of learning. Engraved on the doors from top to bottom are
+      pictures of books, learning scrolls, and mortarboards. There are also vertical lines, topped by a
+      five-way pointed star, running along the hinge sides of the doors.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:castle:o_hall"
+    short: Side Hall
+    sight: >
+      You stand in a small gloomy hall, just east of the outer hall. All around you the walls seem to glow
+      with magical power. You sense that maybe all is not as meets the eye. A single exit leads back west.
+flag:

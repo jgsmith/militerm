@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: The Closet
+    sight: >
+      You are in a small closet. Discarded rags on the floor suggest that it may once have been used as a
+      storage area for burial cloths. The only exit is through the door to the north.
+flag:
+  - dark

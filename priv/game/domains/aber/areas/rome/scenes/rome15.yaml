@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome22"
+      up:
+        target: "scene:aber:rome:rome8"
+    short: "The Nobleman's Box"
+    sight: >
+      These are the 'better' seats used primarily by the upper class of Rome. There is a large seating area to
+      the east and a staircase leading up here. The view of the chariot track is pretty good.
+flag:
+  - outdoors

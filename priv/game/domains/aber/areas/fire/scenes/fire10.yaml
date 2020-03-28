@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:fire:fire8"
+    short: Playroom
+    sight: >
+      You are standing in the Gerst's playroom. It is a quite large room with &+ywooden&* furniture. Also
+      floor and walls are covered with &+ywood&*. There is a comfortable &+Cbed&* in the northeast corner with
+      white silk sheets. Pillows and covers are hidden during the day, so the small Sir can play on the bed.
+      There are many toys lying around the bed. Cupboards are full of toys too. There is a table at the west
+      wall. There is some school stuff on it. You notice that there is a small bell above the door for calling
+      servants. You can go west to the living room or south into the bathroom.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere24"
+      north:
+        target: "scene:aber:brookmere:brookmere20"
+      south:
+        target: "scene:aber:brookmere:brookmere22"
+      west:
+        target: "scene:aber:brookmere:brookmere18"
+    short: Short Corridor
+    sight: >
+      This rocky corridor is very short - in fact, there is only enough room in it for one person before it
+      branches to the north, east and south. An exit to the west leads into a cavern.
+flag:
+  - dark

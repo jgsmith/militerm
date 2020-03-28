@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Solitary
+    sight: >
+      This must be where they put prisoners they didn't want to see anymore. There are several skeletons here
+      and the floor is covered with soiled straw.
+flag:
+  - dark

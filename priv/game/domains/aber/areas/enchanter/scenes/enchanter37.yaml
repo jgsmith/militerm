@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter38"
+      north:
+        target: "scene:aber:enchanter:enchanter36"
+      south:
+        target: "scene:aber:enchanter:enchanter41"
+      west:
+        target: "scene:aber:enchanter:enchanter87"
+    short: Main Junction
+    sight: >
+      You've come to another junction in the hall. East of here, you can see a landing and a dark staircase
+      going both up and down. You presume it's the fifth, dark, smoky tower. To the west is a large courtyard,
+      with some sort of temple in it. The chanting sound seems to be coming from there. The hall continues to
+      the south.
+flag:

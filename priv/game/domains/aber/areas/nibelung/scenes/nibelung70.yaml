@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung68"
+      up:
+        target: "scene:aber:nibelung:nibelung71"
+    short: Tower Stairs
+    sight: >
+      The railing is the only thing between you and certain death below. The steps continue upward into a
+      room, and spiral down below into the darkness. The air seems a little cooler here, apparently the tower
+      is well ventilated.
+flag:
+  - dark
+  - soundproof

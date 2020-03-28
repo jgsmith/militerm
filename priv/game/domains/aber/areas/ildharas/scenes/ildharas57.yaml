@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas58"
+      up:
+        target: "scene:aber:ildharas:ildharas56"
+    short: Bottom of the Staircase
+    sight: >
+      The stairs end at a small door, carved from an exotic dark wood streaked with silver. Looking straight
+      up, you see the ceiling covered with the burnt remnants of a mural. The various parts left seem to be
+      focusing on a spot right above, but it's too blackened to guess it's subject or intent.
+flag:

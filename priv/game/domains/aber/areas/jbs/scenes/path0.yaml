@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:path1"
+      north:
+        target: "scene:aber:jbs:jbs162"
+      south:
+        target: "scene:aber:balharbor:jungle33"
+    short: Small Path
+    sight: >
+      You are on a small stretch of path that takes a split here. To the north is what's left of an old horse
+      pasture. Another path goes east towards a farm. Southward lies the village of Bal Harbor.
+flag:
+  - outdoors

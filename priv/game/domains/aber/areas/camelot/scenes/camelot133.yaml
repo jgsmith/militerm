@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot132"
+      south:
+        target: "scene:aber:camelot:camelot134"
+    short: Another Corner!
+    sight: >
+      Some variation at least! The tunnel from here goes south and east. Perhaps this is a good sign? Is the
+      end near?
+flag:
+  - dark

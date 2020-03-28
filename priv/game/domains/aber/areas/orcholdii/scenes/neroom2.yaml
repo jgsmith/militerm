@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Fine Bedroom
+    sight: >
+      This room is a bit more finished then the others closer to the entryway. The walls have been smoothed
+      and the floor is covered in a lush &+Cfur rug&*. There is a fine suit on the bed, perfectly pressed. The
+      &+Cdesk&* however has a fine coating of dust, as if this room hasn't been used recently.
+flag:

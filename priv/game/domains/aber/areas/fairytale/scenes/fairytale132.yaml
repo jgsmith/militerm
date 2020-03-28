@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale131"
+      north:
+        target: "scene:aber:fairytale:fairytale133"
+    short: Corner Room
+    sight: >
+      This room overlooks the town of Fairyville. Below, you can see all of the houses spread across the
+      countryside. Far in the distance you can see Rapunzel's tower, the Shoe of the Old Woman In the Shoe,
+      and Jack's Cottage. To the east is a spinning room, and to the north is a room set aside for sewing.
+flag:

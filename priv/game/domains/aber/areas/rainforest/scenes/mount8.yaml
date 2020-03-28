@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount7"
+    short: Back Of The Cave
+    sight: >
+      You are at the back of the cave, where a pile of charred sticks tell you that you are not the only
+      traveller who has attempted to cross this mountain range. The only exit is back east towards the
+      outside.
+flag:
+  - dark

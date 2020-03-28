@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:oni:oni102"
+      up:
+        target: "scene:aber:oni:oni201"
+    short: Basement
+    sight: >
+      The basement of the Wizards' main tower is used mainly for experiments. Most of the doors have been
+      magically locked, but to the south is an alcove.
+flag:
+  - cantsummon
+  - nomobiles

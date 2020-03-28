@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:saic"
+      west:
+        target: "scene:aber:saic:8"
+    short: Before a blood pool
+    sight: >
+      You are following a flow of blood that seems to end into a whole blood pool. Some decapitated bodies are
+      lying around. The force of an evil god seems very close to you. You may dare to continue eastward, or
+      return back to the west.
+flag:
+  - saic

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:haunted:haunted_3"
+    short: Porch of the House
+    sight: >
+      You stand on the porch of the old house. A funny smell, almost like gasoline, radiates from inside the
+      house. It stings your eyes so bad they shut. As you open them, you notice a little girl is standing to
+      the side of you.
+flag:
+  - outdoors
+  - real

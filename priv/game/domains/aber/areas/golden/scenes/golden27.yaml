@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden29"
+      north:
+        target: "scene:aber:golden:golden31"
+      south:
+        target: "scene:aber:golden:golden26"
+      west:
+        target: "scene:aber:golden:golden28"
+    short: Entry Room
+    sight: >
+      You are standing in a room that has not been used in quite a while. Dry leaves swirl around the floor as
+      many pairs of red eyes stare at you from cracks in the walls. There are old, faded paintings on the
+      walls depicting lost and won battles and days of famine and disease. To the east there is a small side
+      room while to the north and west there are corridors.
+flag:
+  - dark

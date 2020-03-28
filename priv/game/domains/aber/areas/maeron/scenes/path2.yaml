@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:path1"
+      north:
+        target: "scene:aber:maeron:path3"
+    short: &+YSunny path
+    sight: >
+      The sun beams &+Rdown&* happily upon the gravel road. You may head &+Rnorth&* or east along the path.
+flag:
+  - outdoors

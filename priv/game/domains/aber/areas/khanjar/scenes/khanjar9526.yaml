@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9527"
+      south:
+        target: "scene:aber:khanjar:khanjar9525"
+      west:
+        target: "scene:aber:khanjar:khanjar9528"
+    short: Before A Decayed Building
+    sight: >
+      You are standing at a grass-covered yard. Just to the west lies what may have been an inn of some kind
+      years ago. Now its roof and many of the other wooden parts are mostly gone, and the greyish walls break
+      off so badly that you somewhat wonder how the building still stands. An open doorway gives passage
+      inside. To the north lies an old pen.
+flag:
+  - outdoors

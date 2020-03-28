@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:westhall2"
+      west:
+        target: "scene:aber:ruins:westhall4"
+    short: Further in the Western Hallway
+    sight: >
+      You are in the western hallway that branches off of the main ruins. The moss that lines the walls looks
+      like it has been growing for ages. Huge cobwebs adorn the corners of this hallway and a few small
+      spiders run busily back and forth across the webs.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:novice:stream_3"
+      south:
+        target: "scene:aber:princess:path2"
+    short: Sandy Pathway
+    sight: >
+      This path is covered in sand that has washed up upon the dirt track during a previous flooding. The sand
+      is relatively dry not holding onto the tracks made by travelers. The bend in the stream is to the north
+      and the sandy path winds further south.
+flag:
+  - outdoors

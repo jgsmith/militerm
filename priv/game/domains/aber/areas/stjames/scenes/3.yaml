@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:4"
+      south:
+        target: "scene:aber:stjames:2"
+      west:
+        target: "scene:aber:stjames:10"
+    short: The Edge of the Pond
+    sight: >
+      The beautiful lawn on which you are treading meets with a pond just to the west. It looks as if the
+      section of the pond nearest you has been marked off for wading. Perhaps it would feel good to dangle
+      your feet in the cool water for a little while.
+flag:
+  - outdoors

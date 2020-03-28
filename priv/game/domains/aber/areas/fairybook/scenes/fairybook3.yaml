@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook4"
+      west:
+        target: "scene:aber:fairytale:fairytale99"
+    short: A Sleepy Bank
+    sight: >
+      You stand on the bank of a gently flowing river. Daisies grow all around you, soaking up the warm summer
+      sun. Their smell is quite intoxicating, and makes you feel quite relaxed. A large oak tree rises from
+      the bank, spreading its branches wide to provide shade for anyone who wishes to curl up at its base and
+      rest for awhile. Just as you decide to take a nap in these Elysian surroundings, a white rabbit with
+      pink eyes runs past you muttering to itself and vanishes to the east. In the direction that it
+      disappeared you see a large hole in the ground. To the west is the door to the library, and the paths to
+      the north and south don't seem to go anywhere.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia34"
+      up: null
+    short: Secret Road
+    sight: >
+      You have discovered a secret road leading out from Chyrellos. This road was once used by the clergy as
+      an escape from the city during one of the many seiges during the Zemoch wars. The road continues off to
+      the east, where dark clouds are gathering on the horizon.
+flag:
+  - outdoors

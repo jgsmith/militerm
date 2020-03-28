@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6076"
+      north:
+        target: "scene:aber:haondor:sundforest6081"
+      south:
+        target: "scene:aber:haondor:sundforest6079"
+      west:
+        target: "scene:aber:haondor:sundforest6077"
+    short: In The Dense Forest Between The Hills
+    sight: >
+      You are standing among tightly packed trees between several hills. You lost track of the path long ago,
+      and now must rely on your instincts to guide you. The ground is very rough and rocky here, and only the
+      most hardy plants survive. The crowns of the old trees leave the hills in an unreal twilight
+      illumination.
+flag:
+  - nomobiles
+  - outdoors

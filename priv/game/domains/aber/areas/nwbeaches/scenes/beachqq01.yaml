@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq02"
+      up:
+        target: "scene:aber:nwbeaches:beachqq00"
+    short: Down the Cliff-Face
+    sight: >
+      The steps continue down toward the sea, or up to the crest of the cliff, depending on the way you're
+      heading. It looks as if there may be some sort of cave down from here.
+flag:
+  - outdoors

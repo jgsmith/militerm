@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:heaven:heaven23"
+      west:
+        target: "scene:aber:heaven:heaven25"
+    short: Gladsheim
+    sight: >
+      You heart suddenly feels lighter, filled with gladness. Nearby, you can see Valhalla, vast and
+      gold-bright.
+flag:
+  - private

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:valley:northernend"
+      up:
+        target: "scene:aber:valley:gully2"
+      west:
+        target: "scene:aber:valley:gully2"
+    short: North End Of Valley
+    sight: >
+      You are at the northern end of a steep mountainous valley. The valley extends away southward as far as
+      you can see, flanked on each side by the mighty mountain peaks towering into the clouds. A narrow gully
+      leads west up the side of a cliff, climbing at a dangerous looking angle towards the top.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:guarded"
+      up: null
+    short: Bottom of the Stairs
+    sight: >
+      You are standing at the bottom of a small set of stairs leading up into the darkness. A small passage
+      leads to the south, and strange sound can be heard coming from it.
+flag:
+  - dark

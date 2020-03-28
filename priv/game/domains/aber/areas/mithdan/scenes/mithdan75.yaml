@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan74"
+    short: Rock Garden
+    sight: >
+      Large rocks have been placed in the center of a large strech of pure white sand, which has been
+      carefully raked into curving lines that swirl around the stones like eddies in water. A wooden bench has
+      been provided to sit upon and contemplate the garden. The soft burble of the fountain to the west adds a
+      pleasant undertone.
+flag:
+  - outdoors
+  - peaceful

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:courtyard"
+      west:
+        target: "scene:aber:jbs:cloud_gate"
+    short: The Drawbridge
+    sight: >
+      Every good castle has a drawbridge. The thing about this one that jump out at you immediately though is
+      that under it there isn't a moat, as a matter of fact, there isn't anything. Looking down all you see
+      are mountain tops. Better not fall off of this one.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6791"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6787"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6789"
+    short: The end of the dock
+    sight: >
+      You've walked up toward the edge of the dock where fisherman cast their lines or climb down into their
+      boats to go further out. Very few people use this dock to sail to other lands perfering to take the long
+      way by land due to the numbers of people lost at sea by unpleasant encounters with sea creatures. A ramp
+      runs westward for servicing larger boats.
+flag:
+  - outdoors

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Down The Well
+    sight: >
+      You slip and lose your grip, then plunge helplessly into the waters below...
+flag:
+  - death

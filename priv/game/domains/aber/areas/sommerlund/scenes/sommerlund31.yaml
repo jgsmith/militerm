@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund30"
+    short: Tower Balcony
+    sight: >
+      The sun shines down brightly from across the western horizon as it slowly sinks towards the Durncrags.
+      It blares right into your eyes and illuminates the tower. The Kai Masters lead their troops of trained
+      warriors into the defense of the country from this spot. It offers a breathtaking view of the
+      surrounding area and an overview of the festival in the courtyard below.
+flag:

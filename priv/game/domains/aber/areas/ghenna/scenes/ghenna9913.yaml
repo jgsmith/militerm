@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9913"
+      east:
+        target: "scene:aber:ghenna:ghenna9913"
+      north:
+        target: "scene:aber:ghenna:ghenna9913"
+      south:
+        target: "scene:aber:ghenna:ghenna9913"
+      up:
+        target: "scene:aber:ghenna:ghenna9913"
+      west:
+        target: "scene:aber:ghenna:ghenna9913"
+    short: "Isn't this fun!??"
+    sight: >
+      You just keep 	 || || 	 || F || 	 || A || 	 || L || 	 || L || 	 || I || 	 || N || 	 || G || 	 || || 	 ||
+      A|| 	 || N || 	 || D || 	 || || 	 || F || 	 || A || 	 || L || 	 || L || 	 || I || 	 || N || 	 ||G || 	
+      || || You better teleport outta here!
+flag:
+  - nomobiles
+  - negregen

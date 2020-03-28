@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass45"
+      north:
+        target: "scene:aber:grass:grass103"
+      south:
+        target: "scene:aber:grass:grass105"
+      west:
+        target: "scene:aber:grass:grass44"
+    short: Gravel Road
+    sight: >
+      The road extends north and south, with grassy fields surrounding you. The gravel in the road thins out
+      to the south and bigger rocks implanted in the ground to the north. It is relatively quiet and activity
+      looms hidden the the grass.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fallow4"
+      north:
+        target: "scene:aber:jbs:fallow1"
+      south:
+        target: "scene:aber:jbs:backdoor"
+      west:
+        target: "scene:aber:jbs:field"
+    short: Fallow Field
+    sight: >
+      This is the southern part of a fairly large, fertile field. The field here continues in all directions
+      except to the south where there is a path to the backdoor of the farmhouse.
+flag:
+  - outdoors

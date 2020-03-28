@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord118"
+      south:
+        target: "scene:aber:fjord:fjord115"
+      west:
+        target: "scene:aber:fjord:fjord119"
+    short: Ferandilly Circle
+    sight: >
+      The northern bounday of the village is marked by an abrupt circle of flattened dirt ringed by evenly
+      spaced glass spheres. Each sphere throws off three rays of dark blue light at night which illuminate
+      this section of town. To the east and west are more houses, which are surrounded by faintly glowing
+      green rods of energy. These rods act as a magical security field implemented for the residents of
+      Kyerstarn who live on this frontier edge of town. Far to the north and northeast are places of dark
+      barbarians; electrically charged cousins of the lizards of Fallenthorp. Unlike those inside the volcano,
+      though, these lizards are alive and thus allowed to inhabit this world.
+flag:
+  - outdoors

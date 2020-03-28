@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge20"
+      east:
+        target: "scene:aber:ledge:ledge20"
+      up:
+        target: "scene:aber:ledge:ledge14"
+      west:
+        target: "scene:aber:ledge:ledge14"
+    short: Sloping Tunnel
+    sight: >
+      From this point in the tunnel it begins to head downward at about a forty-five degree angle. If it
+      weren't for the mine cart tracks you might have slipped on a loose rock and fallen down the mine by now.
+      Wouldn't it have been more fun riding in a mine cart instead of walking? The tracks continues downward
+      for some unknown distance. With some effort you can make your way back up.
+flag:
+  - dark

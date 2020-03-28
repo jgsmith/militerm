@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:kastle:14"
+      up: null
+    short: Under the Snow Temple
+    sight: >
+      You are in a secret chamber beneath an old temple. It looks as though the place is ready to fall in. The
+      walls are leaning precariously and there are cracks in the ceiling. There are some stairs at the north
+      end of the chamber.
+flag:
+  - dark
+  - cold
+  - soundproof
+  - nomagic

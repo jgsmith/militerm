@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: "Bird's-Eye View"
+    sight: >
+      Clouds hang motionless in the bright blue sky which surrounds the travelers disc. Also present among the
+      softly-hued atmosphere are dark green organic bodies from which long tentacles droop. When a native bird
+      or stray air current containing particles of plant matter brushes against these tendrils, the agile
+      limbs waste no time in capturing and paralyzing. The bodies float on the air currents and vary enough in
+      altitude to allow safe passage down to a flat land scape.
+flag:
+  - outdoors

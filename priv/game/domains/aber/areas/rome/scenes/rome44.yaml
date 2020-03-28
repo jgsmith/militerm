@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome45"
+      north:
+        target: "scene:aber:rome:rome43"
+      west:
+        target: "scene:aber:rome:rome37"
+    short: The Entrance Foyer
+    sight: >
+      You have just entered the main government building of the Roman Empire and are standing in a massive
+      room with an elaborately decorated domed roof. There are many people here--messengers and senators being
+      the most numerous. There is a large, ornate door to the west, a hallway leads north and marble stairs
+      that lead out of the building are to the south.
+flag:

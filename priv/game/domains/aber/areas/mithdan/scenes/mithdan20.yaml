@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan21"
+      west:
+        target: "scene:aber:mithdan:mithdan19"
+    short: Winding Ledge
+    sight: >
+      The ledge is covered with snow, and with each step you risk plunging into the deep gorge below you. The
+      stone at your back is rough and cold, and the ledge is only a few paces wide. To the west a huge flat
+      stone slants down towards a path, and the ledge continues to the east.
+flag:
+  - outdoors
+  - cold

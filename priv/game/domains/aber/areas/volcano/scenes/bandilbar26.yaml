@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar24"
+      west:
+        target: "scene:aber:volcano:bandilbar28"
+    short: Paved Path
+    sight: >
+      You are on the path to the west of the channel. The paving stones descend into the channel and rise up
+      again on the other side, leading towards a small and pleasant-looking wood. Just west from here is the
+      entrance to a deep cave cut into the volcano.
+flag:
+  - outdoors

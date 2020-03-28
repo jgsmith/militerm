@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:kitchen"
+      north:
+        target: "scene:aber:jbs:study"
+      south:
+        target: "scene:aber:jbs:den"
+      up:
+        target: "scene:aber:jbs:top"
+      west: null
+    short: The Foyer
+    sight: >
+      This is just a small entry room. Not much here to describe. Go to the kitchen to the east, the den to
+      the south, the study to the north, or upstairs to the up.
+flag:

@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newbie:newbie1"
+      east:
+        target: "scene:aber:balharbor:balhar48"
+      north:
+        target: "scene:aber:start:temple"
+      south:
+        target: "scene:aber:start:church"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6602"
+    short: Between Worlds
+    sight: >
+      You stand in a void, between several different worlds of the Promised Land. Here you decide, which part
+      of the world you wish to visit first...you see portals to the always familiar Temple of Paradise and
+      Village Church. You also see portals to a council chamber, an inn, and an altar. There is also a portal
+      to the Promised Land Welcome Center.
+flag:
+  - peaceful
+  - party

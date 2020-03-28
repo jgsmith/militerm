@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: "Neferteri's Curse"
+    sight: >
+      The sound of light, feminine laughter floats in the air as you are suddenly unable to draw any air into
+      your lungs. Belatedly you realize you have stumbled onto Neferteri's curse.
+flag:
+  - death
+  - nomobiles

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:7"
+      south:
+        target: "scene:aber:stjames:19"
+      west:
+        target: "scene:aber:stjames:21"
+    short: St. James Park
+    sight: >
+      You are on the northern edge of the park. To the north of here is a large street and another section of
+      the city which leads to the Buckingham Palace area. You can just make out the palace through the trees
+      to the west.
+flag:
+  - outdoors

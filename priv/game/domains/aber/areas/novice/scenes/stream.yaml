@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:entrance"
+      south:
+        target: "scene:aber:novice:pool"
+    short: By the Stream
+    sight: >
+      A small rippling stream flows by here. The very sounds that the stream makes lifts your spirits and you
+      feel like you could stay here forever. All of a sudden, something to the south flashes in front of your
+      eyes. You feel sure by now that this is not just your imagination.
+flag:
+  - outdoors
+  - real

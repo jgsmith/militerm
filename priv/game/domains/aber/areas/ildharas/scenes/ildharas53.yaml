@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas54"
+      west:
+        target: "scene:aber:ildharas:ildharas52"
+    short: Narrow Passage
+    sight: >
+      This passage is low and very narrow. Though it winds to and fro a bit so you cannot see both your
+      starting point and your destination, it stays in a roughly east-west line.
+flag:
+  - dark

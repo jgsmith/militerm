@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orchold:audience"
+      west:
+        target: "scene:aber:orchold:hallway18"
+    short: Smooth Hallway
+    sight: >
+      This hallway shows definite signs of outside contracting. It is smooth and well worked. Unfortunately,
+      it's still damp and filthy and smells like garbage. The hallway continues north, and becomes rough again
+      to the west.
+flag:
+  - dark

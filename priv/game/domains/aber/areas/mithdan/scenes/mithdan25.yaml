@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan31"
+    short: Fall
+    sight: >
+      Blinded by the swirling snows, you stumble into an ice-covered hole. Before you have the chance to grab
+      anything, you plunge to your death.
+flag:
+  - outdoors
+  - cold
+  - death

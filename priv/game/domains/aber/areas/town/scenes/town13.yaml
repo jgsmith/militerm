@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town12"
+    short: Trade Building
+    sight: >
+      This is a very large building containing stacks and stacks of paperwork which some bureaucrat is having
+      a field day with. The interior of this building resembles a PSU registrar's office. The only way out is
+      to the south.
+flag:

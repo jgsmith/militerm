@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rome:rome65"
+    short: Rome Central Station
+    sight: >
+      You are standing on a hastily constructed train platform about 70 meters long and several meters wide.
+      There are train tracks to your east and west. The station exit is to the south.
+flag:
+  - nomobiles
+  - outdoors

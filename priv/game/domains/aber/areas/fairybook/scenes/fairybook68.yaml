@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook67"
+      west:
+        target: "scene:aber:fairybook:fairybook69"
+    short: Omlette Path
+    sight: >
+      At the foot of the ladder which leads up the wall is a rather large mess of egg. It appears that someone
+      has tried to make an omlette, and had to break some eggs. . . the path leads on to the west. Above you,
+      the ladder climbs the wall.
+flag:
+  - outdoors

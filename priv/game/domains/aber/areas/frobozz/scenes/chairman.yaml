@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:frobozz:tellers"
+    short: Chairmans Office
+    sight: >
+      It is clear from the size both the room and its contents that this must be the chairman's office. The
+      room measuring about 10 times 8 yards contains nothing of excess, but the stuff that has been placed
+      here is of extraordinary quality and must surely have costed many a tellers wages. Right in front of you
+      completly dominating the room is a large mahogny desk which is one of the bigger you have seen. Right
+      behind it placed up to the wall is a cupboard which in quality and splendor must have been made by
+      Chippendale himself. More descretely in one corner an inviting sitting-group almost begs you to take a
+      seat. To the south an opening leads into the tellers' room.
+flag:
+  - dark

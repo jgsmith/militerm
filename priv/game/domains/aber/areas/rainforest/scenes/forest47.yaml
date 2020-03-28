@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest49"
+      north:
+        target: "scene:aber:rainforest:forest48"
+      west:
+        target: "scene:aber:rainforest:forest44"
+    short: Entrance To The Burrow
+    sight: >
+      You are in a relatively open part of the forest. The canopy overhead is particularly thick and, perhaps
+      because of this, the ground is fairly free of ground plants. There is a burrow here, about eighteen
+      inches across, and you wonder what kind of animal might have made it.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni28"
+      south: null
+    short: Inside the Temple
+    sight: >
+      The interior of the temple is larger then one would expect from the outside. Large stone steps lead down
+      to a large open area where much of the area is cast in shadow created by the large chandelier hanging
+      above. You catch glimpses of movement, but it could be your imagination.
+flag:

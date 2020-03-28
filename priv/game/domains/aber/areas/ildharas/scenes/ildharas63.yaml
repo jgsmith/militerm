@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: The Sigil Wardment
+    sight: >
+      Great power exists here. You can sense it without trying. It thrills up and down your spine and numbs
+      your feet as the quiet argence paints your boots silver. This symbol, you realize, focuses power into
+      something not quite recognizable. From here, you can sense the various rooms and even the surrounding
+      land.
+flag:
+  - cantsummon

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3453"
+    short: Rally Point
+    sight: >
+      The room here is used as a place where troops gather to await the assault. Instructions for the assualt
+      and capture are posted on a board which stands in one corner of the room. The troops that gathered here
+      were wipped into a killing frenzy as there are signs of slash and stab marks on the benches that face
+      the board. There is an exit to the west.
+flag:

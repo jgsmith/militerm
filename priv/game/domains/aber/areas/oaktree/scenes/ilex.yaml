@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Ilex Tree
+    sight: >
+      In the ilex, deep in the thickest press of leaves, you find a hanging pavilion with curtains flapping in
+      the wind, shaded by a large, fringed parasol. Stuck on the branches here and there are fluttering
+      ribbons and scraps of lace. Butterflies dart in pairs among the curtains.
+flag:

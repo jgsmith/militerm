@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: &+cLair of DOOM
+    sight: >
+      You are in the cold damp basement of the house. There are corpses littering the floor and the smell down
+      here is horrible. You would not want to stay down here for too long. You notice there are bats roosting
+      in the rafters above you. A set of heavy stone stairs lead up to the main floor.
+flag:
+  - dark

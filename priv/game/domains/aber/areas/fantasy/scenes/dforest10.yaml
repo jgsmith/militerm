@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:dforest9"
+      west:
+        target: "scene:aber:fantasy:dforest11"
+    short: Inside of the Dwarven Forest
+    sight: >
+      The dwarven forest seems to be a lot darker than the other parts that you have been through so far. You
+      can not hear the sounds of birds chirping here and you feel a little uneasy because of it.
+flag:
+  - outdoors

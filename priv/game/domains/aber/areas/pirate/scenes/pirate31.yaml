@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Temple Treasury
+    sight: >
+      You stand in the temple's treasure room. Rotted foodstuffs are scattered across the floor, but other
+      than this room is bare. A doorway to the east is the only way out.
+flag:
+  - dark

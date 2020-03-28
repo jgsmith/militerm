@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nrose:towerbase"
+    short: Bell Tower
+    sight: >
+      You are up in the monastery bell tower. You see the large bronze bells up here and the rope to ring them
+      hanging down. As you look around you notice that there is absolutely nothing of value up here. You also
+      notice that there is no other exit except the way you came.
+flag:
+  - outdoors

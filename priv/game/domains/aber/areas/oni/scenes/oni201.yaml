@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni101"
+      north:
+        target: "scene:aber:oni:oni85"
+    short: Main Tower
+    sight: >
+      The main tower of the Wizards of the White Phoenix is pretty empty. Most of the important stuff are kept
+      elsewhere.
+flag:
+  - cantsummon
+  - nosummon

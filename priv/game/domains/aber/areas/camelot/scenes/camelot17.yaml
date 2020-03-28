@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot15"
+    short: "King Pellinore's Room"
+    sight: >
+      Considering that he is fated to forever hunt the Questing Beast, it is not too surprising that King
+      Pellinore rarely spends much time here. with such a fate, it is difficult to ever stay in one place
+      long.
+flag:

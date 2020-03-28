@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale130"
+      west:
+        target: "scene:aber:fairytale:fairytale132"
+    short: Spinning Room
+    sight: >
+      You have entered a large spinning room. Four spinning wheels are arranged in a square, at the center of
+      which is a large pile of spindles, all fully threaded. To the east is the wooden portal west is another
+      room.
+flag:

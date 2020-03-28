@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung86"
+      up: null
+    short: Tunnel
+    sight: >
+      As far as you can tell, the tunnel continues to the south, or you can crawl back up into the dungeon
+      above. Your flickering light illuminates the curved ceiling above and you notice some small stalactites
+      forming.
+flag:
+  - dark

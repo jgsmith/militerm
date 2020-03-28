@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest143"
+    short: Edge Of The Pool
+    sight: >
+      A large pool, separated from the main body of the river by a small bank about three feet wide, blocks
+      your path. It is impossible to tell how deep it is, as the water in it is almost black with dark mud.
+flag:
+  - outdoors
+  - rainforest

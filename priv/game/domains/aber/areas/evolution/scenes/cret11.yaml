@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:cret10"
+      west:
+        target: "scene:aber:evolution:cret13"
+    short: Stagnant Pond
+    sight: >
+      You are by the side of an evil-smelling pond, clogged with rotting water- plants. There is nothing
+      moving beneath the surface, and very few creatures have the stomach to stay near it for long. To the
+      west the marsh ends in a high dike which bars your view in that direction.
+flag:
+  - outdoors

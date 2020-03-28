@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon20"
+    short: Dirt Cave
+    sight: >
+      This is a small cave with a dirt floor. The walls are made of red clay, and the entire place looks as if
+      it were dug by hand, like someone was searching for something.
+flag:
+  - dark

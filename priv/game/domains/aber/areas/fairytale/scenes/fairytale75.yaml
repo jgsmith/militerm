@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale76"
+      up:
+        target: "scene:aber:fairytale:fairytale70"
+    short: Lower Cavern
+    sight: >
+      A light burns here, with no visible source. Perhaps the inhabitants of these caverns were able to cast
+      spells which lasted longer than they did.
+flag:

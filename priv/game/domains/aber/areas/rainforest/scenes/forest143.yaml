@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest144"
+      south:
+        target: "scene:aber:rainforest:river5"
+      west:
+        target: "scene:aber:rainforest:forest145"
+    short: Sloping Bank
+    sight: >
+      You are on the north bank of the River Kerapi. A bewildering variety of trees crowd together around you
+      and although you can head off in a couple of directions into the forest, you are not sure if you will be
+      able to get very far before the density of the undergrowth defeats you.
+flag:
+  - outdoors

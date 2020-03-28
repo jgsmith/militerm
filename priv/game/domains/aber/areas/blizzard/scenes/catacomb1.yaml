@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:catacomb2"
+    short: Maze
+    sight: >
+      You are in a maze of catacombs. Dark shadowy passages lead everywhere.
+flag:
+  - soundproof
+  - maze

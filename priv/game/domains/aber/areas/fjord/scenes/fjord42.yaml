@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord43"
+      south:
+        target: "scene:aber:fjord:fjord39"
+    short: At the Treeline
+    sight: >
+      The line of Muskrat pine marking the edge of the forest follows a straight horizontal strip of small
+      boulders here at seventy-five hundred feet up from sea level. The partly cloudy sky seems much closer
+      without the cover of the forest of the mountain range's own minor cloud cover, allowing a lot of
+      ultraviolet light to be caught at this altitude. A constant, sometimes gusty, wind blows across the
+      yellowing grasses of the mountainside, taking loose soil and making many small dust devils. Past the
+      boulders to the north is a small path which zigs-zags up the mountain, while the Muskrats lead down and
+      to the south. This is also an area of few remaining forms of vegetation.
+flag:
+  - outdoors

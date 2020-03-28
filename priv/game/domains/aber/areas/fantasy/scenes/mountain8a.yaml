@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fantasy:mountain8"
+    short: Mountain Path
+    sight: >
+      You step out along the ledge, but it crumbles and gives way. You plunge down the mountain and break your
+      neck.
+flag:
+  - death

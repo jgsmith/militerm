@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:44"
+      north:
+        target: "scene:aber:stjames:52"
+      south:
+        target: "scene:aber:stjames:54"
+    short: St. James Park
+    sight: >
+      You are up against the western wall of the park. It seems to be several feet thick. At the top of the
+      wall are rotating 6-inch spikes, each at an angle to the one next to it. To climb over the wall, one
+      would have to have a lot of faith in one's flexibility. Perhaps it is best if you leave the Queen alone.
+flag:
+  - outdoors

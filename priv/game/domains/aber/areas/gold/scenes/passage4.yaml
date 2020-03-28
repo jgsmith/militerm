@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: Finally! The Exit!
+    sight: >
+      You have finally reached it! However, you see NO EXITS!! There are piles of bones here too, so your
+      outlook doesn't look too good!
+flag:

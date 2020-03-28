@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:devo5"
+      east:
+        target: "scene:aber:evolution:devo7"
+      north:
+        target: "scene:aber:evolution:carbsea1"
+    short: In Sight Of Land
+    sight: >
+      A gentle swell tells you that the shore is not far away. You strain your eyes and can just make out that
+      in the east the sea bed rises steeply and breaks out of the water just on the limit of your vision.
+      Shoals of bony fish are gathered around you, confident that in the shallows here they are less in danger
+      of attack from arthrodires.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

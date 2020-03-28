@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f4"
+      north:
+        target: "scene:aber:forest:f6"
+      south:
+        target: "scene:aber:forest:f5"
+      west:
+        target: "scene:aber:forest:f4"
+    short: Forest
+    sight: >
+      You are lost amid the tangled trees and bushes of the forest. Dark gloomy trunks seem to leer down at
+      you, as you duck between the low twisted and warped branches.
+flag:
+  - outdoors

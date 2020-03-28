@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9518"
+      west:
+        target: "scene:aber:khanjar:khanjar9516"
+    short: A Small Dell
+    sight: >
+      You descend onto a sandy dell where you notice some old marks of water, approximately flown here a few
+      months ago. The path continues to the east, climbing over great roots.
+flag:
+  - outdoors

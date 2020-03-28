@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6747"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6729"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6731"
+    short: Under an oak dark and wet with rain
+    sight: >
+      A broad oak, knotted with the eons it has seen, stands amidst a circle of blackberry shrubs that seem to
+      form a protective shroud of thorns about the area. Ivy vines hang loose from its many-cornered limbs.
+      Some &+Cimages&* have been carved into the &+Coak&*.
+flag:
+  - outdoors

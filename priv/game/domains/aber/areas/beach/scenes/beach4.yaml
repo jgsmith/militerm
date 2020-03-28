@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge51"
+      south:
+        target: "scene:aber:beach:beach3"
+    short: Beach
+    sight: >
+      This is the secluded northern end of the beach. For those people who are weary of the sun, there is a
+      crop of tropical trees and bushes that help cast a cool shadow over a nearby picnic bench.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9954"
+      south: null
+    short: A dead end.
+    sight: >
+      The street dead ends here in a twisted mass of &+Ybrambles&*. A high city wall looms over you to the
+      West. It seems the only exit is North.
+flag:
+  - dark
+  - outdoors

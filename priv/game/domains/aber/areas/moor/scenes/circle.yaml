@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:lost1"
+      north:
+        target: "scene:aber:moor:lost2"
+      south:
+        target: "scene:aber:moor:misty2"
+      west:
+        target: "scene:aber:moor:edge"
+    short: The Stone Circle On The Moor
+    sight: >
+      You are standing in the center of an ancient circle of jagged stones hidden in a deep bowl in the center
+      of the moors. Narrow scarcely used tracks wind up from the deathly quiet bowl. The center of the circle
+      is a black gloomy altar to some ancient god.
+flag:
+  - outdoors

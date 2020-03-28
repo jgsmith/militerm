@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:vaulhall"
+      west:
+        target: "scene:aber:cathedral:catacomb"
+    short: Eastern Catacombs
+    sight: >
+      Here is where the dead were buried in compartments in the walls, so many centuries ago. &+yDust&* covers
+      everything, and you cant see far, having stirred up the &+ydust&* upon entering.
+flag:
+  - dark

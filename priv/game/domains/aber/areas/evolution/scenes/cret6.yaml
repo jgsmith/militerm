@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:cret5"
+      west:
+        target: "scene:aber:evolution:cret7"
+    short: Waterfall
+    sight: >
+      A torrent of water crashes down from the clifftop above you into a deep churning pool. The river which
+      flows therefrom descends energetically to the west. The path follows it for a while and you can head
+      that way if you wish. Alternatively you could follow the path southwards into greener pastures.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:coldstore"
+      west: null
+    short: Food store
+    sight: >
+      You are standing in the food store. You see many cases with food inside, but most of it is half-eaten by
+      rats. It looks quite disgusting.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle11"
+      west:
+        target: "scene:aber:balharbor:jungle9"
+    short: Jungle Trail
+    sight: >
+      The growth becomes a lot thicker here, and the trail looks like it could be taken over by plants in a
+      few days. You can go over a log west, or to a split in the trail east.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins53"
+    short: Constellation Lyra
+    sight: You set a course just east of Lyra...
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

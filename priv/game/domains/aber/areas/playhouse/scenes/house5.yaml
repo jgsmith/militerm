@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house6"
+      south:
+        target: "scene:aber:playhouse:house2"
+      west:
+        target: "scene:aber:playhouse:house4"
+    short: Hallway
+    sight: >
+      This is a hallway, it has white walls covered with a red tinge that most likely came from a wonderful
+      child with a wonderful &+Rred&* crayon. There is a bathroom to the west. A playroom to the east and the
+      main room is to the south.
+flag:

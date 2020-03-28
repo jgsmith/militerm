@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook163"
+      south:
+        target: "scene:aber:fairybook:fairybook165"
+    short: Forest
+    sight: >
+      You hear an owl call in a way you have never heard. It is as though it knows something you don't know.
+      Perhaps you aren't as prepared as you want to be. . . The path goes north and south.
+flag:
+  - outdoors

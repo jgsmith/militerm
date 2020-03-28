@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Somewhere
+    sight: >
+      Unless you're immortal, you REALLY should not be in here!
+flag:
+  - death

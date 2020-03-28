@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town5"
+      south:
+        target: "scene:aber:town:town8"
+    short: Southern End of Bay
+    sight: >
+      Further to the south you can see a little white sand beach that seems to be in use at the moment by a
+      small sloop. Back to the north is the open bay.
+flag:
+  - outdoors
+  - onwater

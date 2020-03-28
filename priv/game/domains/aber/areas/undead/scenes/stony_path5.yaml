@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:stony_path6"
+      south:
+        target: "scene:aber:undead:stony_path4"
+    short: Stony Path
+    sight: >
+      The path runs along side the moat both &+Cnorth&* and &+Cwest&*. Chances of crossing.... minimal (unless
+      you can learn how to fly quickly). The obligatory stones crunch under your feet.
+flag:
+  - outdoors

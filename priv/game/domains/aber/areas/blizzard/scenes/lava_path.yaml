@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:lava_path2"
+      up:
+        target: "scene:aber:blizzard:lava_cav"
+    short: Lava Path
+    sight: >
+      You are on a narrow sloping path running uncomfortably close to the lava. Huge explosions of lava send
+      blasts of intense scorching heat across the path. The path leads eastwards but the intense red glow and
+      heat haze prevents you from seeing where to. A steep climb heads up.
+flag:

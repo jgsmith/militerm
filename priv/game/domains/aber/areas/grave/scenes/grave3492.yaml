@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3494"
+      west:
+        target: "scene:aber:grave:grave3491"
+    short: Devils Home
+    sight: >
+      This devils home is not decorated with anything - he feels he doesnt have to. His place in this fortress
+      is second only to his master. When he sees you enter he doesnt give you a chance to prepare but instead
+      attacks immediately!
+flag:

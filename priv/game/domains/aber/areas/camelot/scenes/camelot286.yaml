@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot283"
+    short: Room of Enchantments
+    sight: >
+      In this room all of the various items with which survivor are rewarded are created. There is a forge for
+      the creation of new weapons and armor, jewelers tools and such for building the gifts the Gods so love,
+      and various spell components for the enchantments which are placed on so many of these items.
+flag:

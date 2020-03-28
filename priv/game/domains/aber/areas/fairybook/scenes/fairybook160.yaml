@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook157"
+    short: "Dorothy's Room"
+    sight: >
+      Dorothy's room is the prime tourist attraction at this castle. It is decorated in pink and white, and is
+      the only room here which is not colored yellow. In fact, there is no yellow in the whole room. Her bed
+      has been turned down, as though in preparation for her return. The exit is down.
+flag:
+  - nomobiles

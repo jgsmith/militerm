@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot101"
+      west:
+        target: "scene:aber:camelot:camelot103"
+    short: Rough Tunnel
+    sight: >
+      You stand in a narrow, roughly formed tunnel. To the east you see the mouth of the cave, while to the
+      west the tunnel seems to branch.
+flag:
+  - dark

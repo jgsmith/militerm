@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9551"
+      west:
+        target: "scene:aber:khanjar:khanjar9553"
+    short: A Grassy Ditch
+    sight: >
+      You are standing on a grassy bottom of the ditch, seemingly trampled. Low bushes grow around. The ditch
+      leads west, while there is a grove to the east.
+flag:
+  - nomobiles
+  - real
+  - outdoors

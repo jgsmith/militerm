@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale106"
+      up:
+        target: "scene:aber:fairytale:fairytale113"
+    short: Stairs
+    sight: >
+      A set of stairs climb the wall of the house here, encased in glass to protect it from the wind and rain.
+      A window to the west looks into a large living room.
+flag:

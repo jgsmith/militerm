@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house10"
+      north:
+        target: "scene:aber:playhouse:house6"
+      south:
+        target: "scene:aber:playhouse:house9"
+      west:
+        target: "scene:aber:playhouse:house2"
+    short: Nap Room
+    sight: >
+      There are little matpads scattered around the room with huge pillows set at the head of each of them. A
+      thin, but warm looking blanket also covers the soft matpads. There is a clock on the wall for the
+      children to stare at to pray that their naptime goes by quickly so that they can go back outside and
+      play. This room actually makes you long for a nice relaxing nap. There are exits in all directions.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rome:rome23"
+      west:
+        target: "scene:aber:rome:rome15"
+    short: The Common Seating
+    sight: >
+      This is where many of the common Roman citizens are seated during the games. These are the cheapest
+      seats in the house, as glare from the sun is usually a problem during the afternoon. Like the other
+      common seating areas, this place could stand extensive renovation and a thorough cleaning. This area
+      extends to the south and a much more elegant seating area can be seen to the west.
+flag:
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:gold:entryway"
+    short: Basement
+    sight: >
+      This is a bright and lovely basement. In fact, this is the cleanest basement you have ever seen! There
+      is a large machine taking up most of the room in this basement.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower23"
+      down:
+        target: "scene:aber:balharbor:btower48"
+      north:
+        target: "scene:aber:balharbor:btower24"
+      west:
+        target: "scene:aber:balharbor:btower28"
+    short: Dark Corridor
+    sight: >
+      You think you feel a draft in this room, but cannot tell its source. There looks to be a letter 'W' in
+      the floor. A &+Yglowing&* portal has opened up in the floor! This way below.
+flag:
+  - dark
+  - maze

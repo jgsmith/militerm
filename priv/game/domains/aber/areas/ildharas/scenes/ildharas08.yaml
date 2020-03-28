@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas09"
+    short: Along the Ruined Wall
+    sight: >
+      You wander about the outside perimeter of an old and crumbling wall. A woodpecker rattles nearby. Small
+      insects buzz about, and the drone of a locust fills your ears. Whatever drama was played out here has
+      long since been finished. Peace reigns in the forest.
+flag:
+  - outdoors

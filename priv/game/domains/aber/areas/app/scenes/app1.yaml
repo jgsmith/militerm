@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town43"
+      north: null
+    short: Before the Tower
+    sight: >
+      You have arrived at the Tower of Sorcery. It looks rather small to be the home of hundreds of mages, but
+      with magic almost anything is possible.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cathedral:n_stairs"
+    short: Top of the North Tower
+    sight: >
+      The room you have entered is &+Wbrightly &+Yilluminated&* by magnificent stained glass windows, which
+      filter the &+Ylight&* and give everything an otherworldly &+Gglow&*. In the middle of the room sits an
+      open casket, of fine &+ymahogany&* with &+Wwhite silk&* interior. A vase of &+Rroses&* sits upon the
+      windowsill.
+flag:
+  - dark

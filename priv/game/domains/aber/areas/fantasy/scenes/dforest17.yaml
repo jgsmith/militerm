@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest16"
+      west:
+        target: "scene:aber:fantasy:dforest18"
+    short: Further into the Forest
+    sight: >
+      The forest seems to have a large clearing up ahead to the west. You can still see the waterfall to the
+      north, and you see some sort of large tree at the top of the waterfall.
+flag:
+  - outdoors

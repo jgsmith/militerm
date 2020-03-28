@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord93"
+    short: The Town Hall
+    sight: >
+      Made out of sturdy, thick pine wood, this building has withstood the tests of time and debate. The
+      council of twelve of Kyerstarn, in addition to the elected leader, Rankine Hugoniot, meet in this center
+      of village government once a month to discuss issues of commerce and how well the the village is doing.
+      Previously, the issue of the weakening of the veil guarding this world from Fallenthorp has arisen.
+      Battles with the undead are not taken lightly by the citizens of this concerned town, given their
+      proximity to Mount Phaylax. Today, the hall is deserted, and the council members are out helping to
+      raise capital for the village.
+flag:

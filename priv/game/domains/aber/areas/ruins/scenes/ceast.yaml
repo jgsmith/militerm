@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ruins:csouth"
+    short: Eastern Catacomb
+    sight: >
+      You have entered the eastern catacombs. Your foot sinks into a large pool of goo, or so you think is goo
+      until you look down and see it's dark red tinge and a large shiver of fear runs up your spine. There is
+      also a foul odor of rotting meat and you feel your stomach begin to turn. Looking around quickly you
+      find that there is only an exit to the west.
+flag:
+  - dark

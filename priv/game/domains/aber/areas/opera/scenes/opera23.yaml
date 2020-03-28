@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:opera:opera22"
+      up:
+        target: "scene:aber:opera:opera24"
+    short: On the Spiral Stairs
+    sight: >
+      You stand on the spiral stone staircase that extends both up and down.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5102"
+      south:
+        target: "scene:aber:yllythad:yllythad5297"
+    short: At the Shoreline
+    sight: >
+      The calm sooth mind and body, lending a feeling of peace and comfort to any traveler who passes. The
+      waves roll gently by, the ocean seeming harmless and worry-free. A rock littered shore lies to the
+      north, so jumbled and covered in rock as to be unpassable.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung97"
+    short: The Overlook
+    sight: >
+      Silk draperies and soft music mark this room. The muted conversations of other patrons can be heard,
+      discussing the days arduous adventures. A tuxedo-clad host leads you to your table. As you sit down, you
+      notice a few of the other patrons glancing at you respectfully. It appears your name has spread further
+      than even you had suspected.
+flag:
+  - party
+  - peaceful
+  - nomagic
+  - nomobiles
+  - nosummon

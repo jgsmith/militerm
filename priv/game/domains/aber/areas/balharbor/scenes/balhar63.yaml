@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle33"
+      south:
+        target: "scene:aber:balharbor:balhar55"
+    short: North Gate
+    sight: >
+      Set here is the city's northern exit leading out of town. Sash guard flanks both sides of the gate to
+      prevent attack from enemy forces from the north. You can venture outside of town north, or head back
+      into town to the south.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ghenna:ghenna9955"
+    short: A burned out building.
+    sight: >
+      Charred rubble fills this room, and a fallen beam lays accross a skeleton that is bleached white with
+      age. To the West you can see the cobblestone streets of Ghenna. You might want to exit this building
+      soon, as it could crumble at any moment.
+flag:
+  - dark
+  - outdoors

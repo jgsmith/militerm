@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest1"
+      west:
+        target: "scene:aber:fantasy:dforest3"
+    short: Beginning of Path
+    sight: >
+      You are on what looks to be the beginning of a path that winds through the vast forest ahead of you. You
+      are surrounded by a huge forest that seems to never end.
+flag:
+  - outdoors

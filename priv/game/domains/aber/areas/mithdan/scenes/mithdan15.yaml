@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan18"
+      west:
+        target: "scene:aber:mithdan:mithdan14"
+    short: Snowy Path
+    sight: >
+      The path is drifted with snow and there is a sharp chill in the air. A gust of wind brings more snow
+      down on you from the mountain peak that covers the south-eastern horizon. The path continues to the
+      south, and fades away into the forest to the west.
+flag:
+  - outdoors
+  - cold

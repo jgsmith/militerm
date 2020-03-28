@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5176"
+      south:
+        target: "scene:aber:yllythad:yllythad5182"
+      west:
+        target: "scene:aber:yllythad:yllythad5186"
+    short: A Choppy Section of the Sea
+    sight: >
+      The water has grown tumultous and rough here, the waves not high but frequent. Water splashes into the
+      air as the small waves spalsh into each other.
+flag:
+  - onwater
+  - outdoors

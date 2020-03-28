@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:4"
+      west:
+        target: "scene:aber:saic:1"
+    short: Before a cave
+    sight: >
+      You are walking along a scary path. You are hearing plenty of weird and terrifying noises. You always
+      have the feeling that someone is following you. Everything seems to be pretty dark around here. The path
+      continues further east, inside the cave.
+flag:
+  - saic

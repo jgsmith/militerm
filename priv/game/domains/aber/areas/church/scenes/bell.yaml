@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:church:stairs1"
+      up:
+        target: "scene:aber:church:bells"
+    short: The Bell Room
+    sight: >
+      You are standing in a small stone room, which is both wet and cold. The wooden roof above you has holes
+      in it through which ropes hang, presumably for the church bells. A single doorway leads north.
+flag:

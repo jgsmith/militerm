@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:landing"
+      east:
+        target: "scene:aber:blizzard:stonewalled"
+      north:
+        target: "scene:aber:chess:chessqq00"
+      west:
+        target: "scene:aber:blizzard:corridor"
+    short: Dark Room
+    sight: >
+      You are in a large dark room, passages lead east and west. A set of crumbling stone steps leads steeply
+      downwards plunging into the shadows below. To the north is a circular looking room.
+flag:

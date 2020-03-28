@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:control"
+      south: null
+    short: Closet
+    sight: >
+      The faint smell of mothballs can be detected as you look about this rather spacious closet. A torch here
+      has long since burnt out and the place is totally empty. Above you and just out of reach is a shelf.
+      There appears to be something on the shelf.
+flag:
+  - dark

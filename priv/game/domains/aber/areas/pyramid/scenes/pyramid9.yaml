@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pyramid:pyramid8"
+    short: &+bWadi&N
+    sight: >
+      You enter a wadi that contains a small pool of &+Lmurky water&N. Wisps of stunted &+ggrasses&N along
+      with low, scrubby &+gbushes&N struggle to survive in the thin soil and intense &+rheat&N. Disappointed
+      your long trek has come to such an abrupt end, you pause to rest. Sitting by the &+Bpool&N is a
+      weary-looking nomad, who has also stopped to rest before attempting the hazardous journey back through
+      the dune sea. The bulging water bag by his side makes you think it might be wise to carry along some
+      extra water on the return trip.
+flag:
+  - outdoors

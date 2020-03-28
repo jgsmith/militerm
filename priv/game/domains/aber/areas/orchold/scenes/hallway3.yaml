@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orchold:hallway2"
+      north:
+        target: "scene:aber:orchold:hallway4"
+      west:
+        target: "scene:aber:orcholdii:hallway"
+    short: Rough-hewn Hallway
+    sight: >
+      Like most orc-built hallways, this one is crooked, rough, and damp. The hallway leads north, west and
+      east.
+flag:
+  - dark

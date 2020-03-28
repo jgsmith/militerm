@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9968"
+      south:
+        target: "scene:aber:ghenna:ghenna9978"
+      west:
+        target: "scene:aber:ghenna:ghenna9960"
+    short: A city street in Ghenna.
+    sight: >
+      You are standing on a street in Ghenna. The city wall lies east, blocking your exit. You may leave
+      North, South and West. Be careful not to trip over the many corpses that line these streets.
+flag:
+  - dark
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle26"
+      west:
+        target: "scene:aber:balharbor:jungle25"
+    short: Riding the Rapids
+    sight: >
+      You took the chance to go some dangerous boating...unfortunately the water is moving so fast you can't
+      climb out of the water. You may just be able to row upstream hard enough to go up river. Or you can go
+      with the flow and ride downstream.
+flag:
+  - outdoors
+  - onwater

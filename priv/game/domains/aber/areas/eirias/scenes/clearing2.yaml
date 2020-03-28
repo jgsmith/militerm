@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:field3"
+      north:
+        target: "scene:aber:eirias:field1"
+      south:
+        target: "scene:aber:eirias:field2"
+      west:
+        target: "scene:aber:eirias:cottage"
+    short: Out of the Forest
+    sight: >
+      When you ran into the cottage, you seem to have lost track of the road somehow, and all you can see
+      around you now are fields, stretching off into the distance. You have no idea which way to go, but you
+      do remember that the road was going north of here, or at least you think it was.
+flag:
+  - outdoors

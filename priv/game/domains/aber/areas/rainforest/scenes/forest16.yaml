@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest18"
+      north:
+        target: "scene:aber:rainforest:river1"
+      west:
+        target: "scene:aber:rainforest:forest14"
+    short: Slippery Bank
+    sight: >
+      You take care to keep away from the edge here, for the bank of the river is muddy and you fear piranhas.
+      The river is wide at this point, too wide to swim across, so unless you have a boat you will have to
+      continue along the bank either east or west from here.
+flag:
+  - outdoors

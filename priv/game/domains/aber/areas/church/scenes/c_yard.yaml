@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:church:entry"
+      north:
+        target: "scene:aber:church:g_yard"
+      south:
+        target: "scene:aber:valley:path"
+    short: Churchyard
+    sight: >
+      You stand in what is apparently an old and disused churchyard. Weeds and moss cover the crumbling
+      gravestones and paths. To the east is a huge ancient church, now decaying and surrounded by bits of
+      fallen stonework. To the north the graveyard continues.
+flag:
+  - outdoors

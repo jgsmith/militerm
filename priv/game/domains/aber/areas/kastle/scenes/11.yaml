@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:kastle:12"
+    short: Bottom of the Glacier
+    sight: >
+      You are at the bottom of the glacier. The top of the glacier is far above you, impossible to reach from
+      here. The only exit appears to be through a snow bank to the south.
+flag:
+  - outdoors
+  - cold

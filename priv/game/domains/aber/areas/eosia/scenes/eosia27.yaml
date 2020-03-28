@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia26"
+      up:
+        target: "scene:aber:eosia:eosia28"
+    short: The Pandion Motherhouse
+    sight: >
+      Is similar in design and function to the Pandion Chapterhouses. Basically you stand in a large keep
+      which is the headquarters for the Pandion knights. Various knight training devices are situated
+      thoughout the room, and bloodstains on the ground remind you what it is that knights actually do. The
+      only exits you can see are the main gates to the north, and a small staircase leading up.
+flag:
+  - party

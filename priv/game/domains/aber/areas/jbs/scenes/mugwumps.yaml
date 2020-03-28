@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:brown"
+      east:
+        target: "scene:aber:jbs:space"
+      south:
+        target: "scene:aber:jbs:dreams"
+      up:
+        target: "scene:aber:jbs:campfire"
+      west:
+        target: "scene:aber:jbs:bears"
+    short: Mugwump Central
+    sight: >
+      You stand in the center of a large rectangular room with exits in all directions. As you look around
+      this place you see several rows of disgusting, lizard-like creatures that could only have come out of a
+      horrible nightmare. All of them are strung upside down from the ceiling and most have a person or two
+      kneeling on the floor beneath them sucking thick fluids from erect, hollow tubes growing from the heads
+      of the creatures. As you look at the people here, you notice that they seem to be enjoying themselves,
+      but you also get the feeling that many of them have been here for years.
+flag:

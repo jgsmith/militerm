@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:catacomb:27"
+      north:
+        target: "scene:aber:catacomb:24"
+      south:
+        target: "scene:aber:catacomb:27"
+      up:
+        target: "scene:aber:catacomb:18"
+      west:
+        target: "scene:aber:catacomb:26"
+    short: The Catacombs
+    sight: You are lost in the catacombs.
+flag:
+  - dark

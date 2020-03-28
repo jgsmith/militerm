@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung54"
+      north:
+        target: "scene:aber:nibelung:nibelung61"
+      west:
+        target: "scene:aber:nibelung:nibelung67"
+    short: Fountain
+    sight: >
+      A small, circular fountain is here, spraying water up into the air. Sun- light reflects off the surface,
+      dazzling your eyes. A light breeze tugs at the spray, scattering it and causing a rainbow to appear. To
+      the north you spy a courtyard, and to the west a small doorway opens into the castle proper.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countrya_1"
+      west:
+        target: "scene:aber:fareast:village2"
+    short: Peasant Village-Eastern Entrance
+    sight: >
+      The eastern entrance to this tiny village has a barely servicable arch marking the spot where the
+      buildings end and the countryside begins, or vice versa. Indeed, off to the east, the country stretches
+      without interruption, while to the west, a cluster of wooden huts and storage sheds comprises the home
+      of the low-caste.
+flag:

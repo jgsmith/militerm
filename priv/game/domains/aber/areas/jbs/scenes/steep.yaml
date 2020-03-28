@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:sloping"
+      east:
+        target: "scene:aber:jbs:damp"
+      up:
+        target: "scene:aber:jbs:damp"
+      west:
+        target: "scene:aber:jbs:sloping"
+    short: Steep Tunnel
+    sight: >
+      This tunnel slopes sharply down to the west or up to the east, depending on which way you're going.
+flag:
+  - dark

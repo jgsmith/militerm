@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere39"
+    short: Wet Corridor
+    sight: >
+      The black corridor winds on endlessly, down into the earth. Cold and miserable, any flame you had
+      reduced to a bluish dot, you struggle on, wet to the waist. Suddenly you are aware of a roaring noise
+      that must have been with you down the whole corridor. The tunnel ends suddenly, and you realise the
+      water in the corridor has become quite turbulent. Looking under a nob of rock you find a small &+Chole&*
+      underwater, that looks like it leads into an open space. It would be a squeeze, but you think you could
+      manage to swim through and get out of the corridor.
+flag:
+  - dark
+  - soundproof

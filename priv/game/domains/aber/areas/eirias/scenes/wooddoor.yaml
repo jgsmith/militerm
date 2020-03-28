@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      up: null
+      west: null
+    short: Wooden Door
+    sight: >
+      You are standing in front of a &+ywooden door&*, its surface scarred and pitted as if by age.
+flag:
+  - outdoors

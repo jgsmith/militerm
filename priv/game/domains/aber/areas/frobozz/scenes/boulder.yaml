@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:frobozz:main"
+    short: Blocked passage
+    sight: >
+      This tunnel east of the bank is stopped abruptly by a boulder which fills the tunnel with rock from
+      grinded stone-dust size up to the size of rocks whick will never be moved by humans alone. Even a mouse
+      won't be able to crawl through this boulder. Thus, the only exit for you is to the west.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord19"
+      west:
+        target: "scene:aber:fjord:fjord17"
+    short: Lake Punjowltah
+    sight: >
+      The smoothness of the lake is not broken easily. Most boats produce very little wake in the crystal
+      blueness, A school of small cutter fish ride the gentle waves to and from their feeding areas and homes.
+      Occasionally, a larger fish will break cover and speed by, providing a glimpse of fins and tail. A light
+      wind blows across the lake, cool and refreshing, but barely manages to ruffle the lake surface. Set out
+      from the pier is a bobbing &+Ybuoy&* in the shape of a duck, an animal now extinct in this area. It was
+      once used to help capture exquisite ducks, but now just floats endlessly about the lake.
+flag:
+  - outdoors
+  - onwater

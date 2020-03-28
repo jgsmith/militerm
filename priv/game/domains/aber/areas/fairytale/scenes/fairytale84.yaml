@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale83"
+      up:
+        target: "scene:aber:fairytale:fairytale85"
+    short: Middle of Stairs
+    sight: >
+      You stand on a landing, halfway up the tower. You are level with one of the displays of equipment. The
+      snake rug continues up and down, and the colorful patterns embroidered on it swirl before your eyes.
+flag:

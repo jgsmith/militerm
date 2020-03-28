@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus46"
+      west:
+        target: "scene:aber:nexus:nexus44"
+    short: Sandbar
+    sight: >
+      The crosswinds buffet the yard-wide strip of sand, pushing water over the top of it as the waves crest.
+      Bits of seaweed and other debris deposit themselves nicely on the path. On either side, the sandy bottom
+      slopes gently downward, but the sea here islagoon-like and remains mainly under a fathom deep. Manta
+      rays turn their natural camoflauge on in an attempt to hide from the sandbar travelers.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

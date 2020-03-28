@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:treadmill:tread16"
+      west:
+        target: "scene:aber:eastcoast:gentle"
+    short: In the Shallow Lagoon
+    sight: >
+      Standing to your knees in cool and refreshing water, you feel relaxed from the toils and rigors of the
+      land, and you inhale the invigorating sea- scented air blowing in from the sea. At your feet underwater,
+      you see through the ripples many colorful corals, starfish, mollusks, and other marine life. Large rocks
+      ring the waters here, breaking the waves of the sea beyond. A small space in the rocks would let a boat
+      through. The beach lies to the west.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc31"
+      east:
+        target: "scene:aber:ancient:anc33"
+      up:
+        target: "scene:aber:ancient:anc34"
+    short: Stairway to the Sun
+    sight: >
+      You stand half-way to the top of the pyramid. The rising sun casts its' rays in your eyes making you
+      half blind. It spreads its' mighty power over the land and its' warmth gives you the strenght needed to
+      do the rest of the climb. In front of you, there's a wide doorway leading inside the pyramid. The
+      stairway leads up and down.
+flag:
+  - outdoors

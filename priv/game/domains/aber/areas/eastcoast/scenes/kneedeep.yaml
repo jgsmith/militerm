@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:sshoal"
+      south:
+        target: "scene:aber:eastcoast:waistdeep"
+      west:
+        target: "scene:aber:eastcoast:surf"
+    short: In Knee-Deep
+    sight: >
+      Foamy water laps hungrily at your calves and knees as you stand here in shallow water some thirty feet
+      east from the shoreline. Not much can be seen from here except a line of rocks extending out into the
+      sea to the north and a small boating dock to the south. It seems that the water waves are breaking too
+      far from the shore than normal, hinting at a sand shoal to the east, but you are not sure if you could
+      reach it. More accessible routes appear to lie back toward the shore and farther south along the
+      shallows.
+flag:
+  - outdoors
+  - nomobiles

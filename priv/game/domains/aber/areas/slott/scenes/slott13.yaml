@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott14"
+      north:
+        target: "scene:aber:slott:slott19"
+      south:
+        target: "scene:aber:slott:slott12"
+    short: Hallway
+    sight: >
+      This is a hallway that reaches from north to the south. The walls in this room are clean, but you can
+      see that there had been paintings hanging here. Wonder where they are now? The hallway continues to the
+      &+Csouth&*.
+flag:

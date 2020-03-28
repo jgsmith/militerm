@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon22"
+      west:
+        target: "scene:aber:pensalon:pensalon24"
+    short: Damp Passage
+    sight: >
+      A small damp passage way leads further on West into the never ending darkness. To the east is a small
+      hole that seems only big enough for one person to be in.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook77"
+    short: Throne Room
+    sight: >
+      Three large thrones rest upon three stone diases. Each is a different color: The one on the right is
+      red, the one on the left is white, and the one in the center is golden. The hall is otherwise decorated
+      with the letter 'A' in various places: on banners, flags, paintings - even carved into the floor. The
+      exit is to the south.
+flag:
+  - nomobiles

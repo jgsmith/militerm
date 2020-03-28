@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge21"
+      east:
+        target: "scene:aber:ledge:ledge21"
+      up:
+        target: "scene:aber:ledge:ledge17"
+      west:
+        target: "scene:aber:ledge:ledge17"
+    short: Sloping Tunnel
+    sight: >
+      The steepness of this tunnel gets to be a little tricky to walk on. If the floor was a little more
+      steeper you could have been climbing down the tracks like a ladder. Man, if only you had a cart to
+      travel down the track instead! You can continue moving downward or else start climbing back up.
+flag:
+  - dark

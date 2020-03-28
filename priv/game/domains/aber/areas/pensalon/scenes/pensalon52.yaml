@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: "Armorer's Prize Possession Store Room"
+    sight: >
+      This is a small circular room with many pegs and hooks on the wall. Unlike the secret passage you just
+      entered from this place is immaculate. Not a speck of dust lingers anywhere, you get the feeling that
+      magic is being used in this room.
+flag:
+  - dark
+  - nomagic

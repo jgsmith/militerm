@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan4"
+      south:
+        target: "scene:aber:mithdan:mithdan8"
+    short: Heavy Woods
+    sight: >
+      The smell of pine is overwhelming. The floor of the forest is thick with pine needles that rustle with
+      each step you take. The sun shines through the trees creates shifting shadows. The forest continues to
+      the east and south, but is much too thick in other directions to travel.
+flag:
+  - outdoors

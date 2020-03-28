@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:dojo1"
+    short: Training Hall
+    sight: >
+      Training took many forms for the students of this dojo, as the varied equipment here shows. Wooden
+      targets, some broken, some bloodied, stand to either side of a straw ring, which is similarly stained
+      and damaged. A few straw dummies dressed in clothing and armor were used to begin weapons training. Of
+      course, there was no substitute for human instruction, and several marked areas on the floor undoubtedly
+      served as sparring rings.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:start:church"
+    short: "Brain's Cage"
+    sight: >
+      This is where Brain spends his time when he is not trying to take over the real world, or one of several
+      MUDs. It's a &+Ggreen&* cage, quite a bit like his cage in Acme Labs. There is a wheel in the corner
+      which Pinky is convinced that he is making progress on. The walls are plastered with posters of
+      Einstein, and possible plans to take over the world. With a little work, and some stolen &+Bmagic&* from
+      Merlin's book of spells, Brain has created &+Cshimmering&* portals, much like what he uses to teleport,
+      for mortals to return to their realm.
+flag:
+  - party

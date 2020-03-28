@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter56"
+      east:
+        target: "scene:aber:enchanter:enchanter54"
+      north:
+        target: "scene:aber:enchanter:enchanter68"
+      west:
+        target: "scene:aber:enchanter:enchanter69"
+    short: Top of the Stairs
+    sight: >
+      You're at a featureless part of the hallway. There's a walk-in closet to the north, and south of you is
+      a staircase leading down into the dungeon. There's a dark room to the east, and a tower to the west.
+flag:

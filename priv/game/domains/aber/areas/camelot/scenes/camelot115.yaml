@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot112"
+      west:
+        target: "scene:aber:camelot:camelot116"
+    short: Rough Corridor
+    sight: >
+      The walls here are slightly smoother, but it is difficult to say if this is from more highly skilled
+      workers, or if they've just been worn smooth by the passage of time. It is a little cleaner, so perhaps
+      the second is true.
+flag:
+  - dark

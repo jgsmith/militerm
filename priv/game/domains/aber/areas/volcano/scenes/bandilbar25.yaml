@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar23"
+    short: Paved Path
+    sight: >
+      The paving stones leading towards Mount Bandilbar are covered with a fine yellow layer of sulphur, the
+      product of the volcano's foul and increasingly frequent belching. To the west the path descends into a
+      channel which is now filled with a wide stream of lava, flowing north and south. Obviously you cannot
+      proceed in that direction. To the north of here is a small wood.
+flag:
+  - outdoors

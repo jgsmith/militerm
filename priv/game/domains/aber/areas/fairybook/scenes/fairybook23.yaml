@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook27"
+      north:
+        target: "scene:aber:fairybook:fairybook22"
+      south:
+        target: "scene:aber:fairybook:fairybook27"
+      up:
+        target: "scene:aber:fairybook:fairybook24"
+      west:
+        target: "scene:aber:fairybook:fairybook25"
+    short: Mushroom Field
+    sight: >
+      The forest has unexpectedly become a field of mushrooms. To the east you can see trees, as to the south.
+      To the west is a field of red flowers, from which a sweet smell emits. To the north is a path through
+      the forest. Rising in front of you here is a tall mushroom, the tallest you have ever seen. With a bit
+      of effort, you might be able to pull yourself up onto it.
+flag:
+  - outdoors

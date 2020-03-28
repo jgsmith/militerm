@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:dragonslueth:ds22"
+      up:
+        target: "scene:aber:dragonslueth:ds30"
+    short: Dining Hall
+    sight: >
+      You have entered a big room with a huge table in the middle of it. The table is set for a big meal but
+      it looks like it hasnt been touched in 20 years. There is large amounts of dust over everything and if
+      you were to sneeze there would be dust everywhere.
+flag:

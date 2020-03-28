@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: "The Goat's Pen"
+    sight: >
+      Half eaten beer cans litter the pen. The fence has been chewed away to the point of being totally
+      useless, but the gate remains.
+flag:

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fire:fire44"
+      east:
+        target: "scene:aber:fire:fire41"
+      north:
+        target: "scene:aber:fire:fire41"
+      south:
+        target: "scene:aber:fire:fire41"
+      up:
+        target: "scene:aber:fire:fire41"
+      west:
+        target: "scene:aber:fire:fire41"
+    short: Prison
+    sight: >
+      Your light isn't enough strong to see further. Exits leads in all directions.
+flag:
+  - dark
+  - cold

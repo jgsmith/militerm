@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund49"
+      up:
+        target: "scene:aber:sommerlund:sommerlund51"
+    short: Treeline
+    sight: >
+      A mist precludes some of the mountain tops. Also, the trees thin out and eventually stop altogether.
+      Nearby, a campsite looks as if it was recently used. The fire's embers still glow, and wisps of smoke
+      still puff out. The only residents in this part of the Durncrags are Mountain Giaks, a weak and cowardly
+      breed of evil thugs.
+flag:
+  - outdoors

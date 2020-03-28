@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:frobozz:tellers"
+    short: Outside the Vault
+    sight: >
+      You are in what must be the entrance to the vault of the bank because written on top of the southern
+      wall are the letters "V A U L T". But you can't seem to find the vaultdoor. Is it simply a
+      walk-through-wall or is the vaultdoor fitted so nicely into the wall that you can't find it ? The room
+      is lit by some kind of light which comes through a thickglassed &+Cwindow&* measuring 1 foot in square
+      set into the northern wall. The tellers' room lies to the west.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:novice:fall"
+      up:
+        target: "scene:aber:novice:corner_2"
+    short: In the Roots
+    sight: >
+      You are sitting amidst the roots of a tree. You notice now that to go back down now would probably be
+      fatal. You do, however, notice that there is a hole between two of the biggest roots that you think you
+      might be able to fit through.
+flag:

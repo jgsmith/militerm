@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain8"
+      west:
+        target: "scene:aber:fantasy:mountain6"
+    short: In front of Cave
+    sight: >
+      The path here leads right into a cave that looks to be lit by something from inside.
+flag:
+  - outdoors

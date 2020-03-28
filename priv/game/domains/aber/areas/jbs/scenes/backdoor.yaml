@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:fallow2"
+      south: null
+    short: The Back Porch
+    sight: >
+      You are right outside the backdoor of a small, somewhat quaint farmhouse. To the north there is a short
+      path that leads to a large fallow field and to the south you can enter the farmhouse.
+flag:
+  - outdoors

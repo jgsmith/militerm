@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Cave
+    sight: >
+      This is a large dark cave cut into the stone of the cliff. The walls are burnt, and few rocks lay round
+      on the ground. Perhaps this is some sort of cage for beasts to be used in sporting battle.
+flag:
+  - dark
+  - pkzone
+  - nosummon
+  - cantsummon

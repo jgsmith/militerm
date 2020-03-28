@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook31"
+      west:
+        target: "scene:aber:fairybook:fairybook29"
+    short: Path
+    sight: >
+      The path runs east and west here. You wonder which way you should go. The sun is beating down on your
+      poor forehead, and you begin to see tiny coins flipping themselves...
+flag:
+  - outdoors

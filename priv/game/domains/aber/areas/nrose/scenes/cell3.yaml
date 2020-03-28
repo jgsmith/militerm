@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Cell
+    sight: >
+      You have entered a monk's cell. There is a plank bed along one wall and a table and chair along the
+      opposite wall. There is a door to the east.
+flag:

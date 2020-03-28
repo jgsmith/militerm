@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:lava_ledge"
+      south:
+        target: "scene:aber:blizzard:temple"
+    short: Lava Ledge
+    sight: >
+      You are on a ledge looking across a huge pit of flaming lava to another ledge on the other side. A
+      passage leads south. A crystal bridge spans the pool to the north.
+flag:

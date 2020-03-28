@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept60"
+      west:
+        target: "scene:aber:adept:adept62"
+    short: Bow of a Ship
+    sight: >
+      The prow of this boat juts proudly toward the land she serves. Built onto the front is the wooden
+      carving of a manifestation of a local elven goddess, finished with a coat of Adept's special serum and
+      sealed with tree sap. The sides extend back to the stern in a tight parabola of wave designs with the
+      deckboards shining between them. The beginning of the boom rests to one side, the sails flapping loosely
+      in the wind. To the east is the dock and beach, while the ship continues westward.
+flag:

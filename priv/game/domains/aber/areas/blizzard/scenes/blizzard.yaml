@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:crevasse"
+      north:
+        target: "scene:aber:haven:haven"
+      south:
+        target: "scene:aber:blizzard:pass"
+      west:
+        target: "scene:aber:blizzard:gate"
+    short: Bleak Mountainside
+    sight: >
+      You are stumbling along the side of the mountain, exposed to the elements which at most times of the
+      year sweep this area clear of debris. To the south- west the slope is almost sheer, while to the east a
+      deep accumulation of snow is scarred by a deep crevasse. The snows extend in all other directions save
+      north, where a lighted inn offers warmth, food, and shelter from the elements.
+flag:
+  - outdoors
+  - cold

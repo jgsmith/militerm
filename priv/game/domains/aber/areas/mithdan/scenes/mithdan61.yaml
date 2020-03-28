@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan58"
+      south:
+        target: "scene:aber:mithdan:mithdan64"
+    short: Forest Trail
+    sight: >
+      The thin trail leads to the north and south through the thick green oak forest. The magestic trees
+      strech hundreds of feet above your head, their leaves swaying gently in the wind. To the south the trees
+      thin out and you hear the muted crackle of pent-up magical energy.
+flag:
+  - outdoors

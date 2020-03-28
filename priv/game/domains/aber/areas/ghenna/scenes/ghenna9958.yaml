@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: "The dominatrix's abode."
+    sight: >
+      This room is filled with all manner of black, silver studded leather. Whips, chains and handcuffs are
+      displayed prominently on each of the 3 walls. A position chair sits in the middle of the room for your
+      hedonistic desires.
+flag:
+  - dark
+  - outdoors

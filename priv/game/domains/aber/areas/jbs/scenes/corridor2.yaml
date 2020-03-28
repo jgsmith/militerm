@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:jbs:cell1"
+      south:
+        target: "scene:aber:jbs:cell2"
+      west:
+        target: "scene:aber:jbs:corridor3"
+    short: Dungeon Corridor
+    sight: >
+      This is a sooty east west corridor that runs through the dungeon. There are open cells to the north and
+      south.
+flag:

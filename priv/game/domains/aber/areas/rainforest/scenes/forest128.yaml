@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest126"
+    short: Small Hut
+    sight: >
+      This small hut has been abandoned for some time. So far from the nearest village, it seems to serve no
+      purpose but, sheltered from the elements by the overhanging trees, it will probably remain here
+      untouched for a long time, unless the forest birds use the straw roof as nesting material.
+flag:
+  - outdoors
+  - rainforest

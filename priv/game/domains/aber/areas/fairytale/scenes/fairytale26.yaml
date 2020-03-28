@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Pit
+    sight: >
+      You have fallen into a pit which rises as far up as the eye can see. In the center of the pit is a small
+      disc. As you approach it for a closer look, it opens and a tiny woman jumps out. She screams 'In the
+      name of glorious queen Rosmar, I claim this--' she breaks off as she catches sight of you. 'Oh dear,'
+      she exclaims, 'It's already inhabited!' With that, she jumps back into the disc, which closes and rises
+      from the ground. A violet beam of light erupts from it and spears you between the eyes...
+flag:
+  - death

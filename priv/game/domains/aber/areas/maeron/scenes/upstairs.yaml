@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:maeron:foyer"
+      east:
+        target: "scene:aber:maeron:towerbottom"
+      north:
+        target: "scene:aber:maeron:bedroom"
+      west:
+        target: "scene:aber:maeron:library"
+    short: &+BUpstairs
+    sight: >
+      This is a small room right above the staircase that leads off to several other rooms. Icy winds from
+      blizzard pass blow from above, through where the roof used to be. To the &+Rnorth&* is Maeron's bedroom,
+      to the &+Rwest&*is his library and to the &+Reast&* is another staircase, apparently leading off to a
+      tower. You may head &+Rdown&* the spiral staircase into the foyer.
+flag:
+  - outdoors

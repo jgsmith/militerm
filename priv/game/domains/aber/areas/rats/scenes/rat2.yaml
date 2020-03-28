@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:rat3"
+      west:
+        target: "scene:aber:rats:rat1"
+    short: Continuing Tunnel
+    sight: >
+      You are standing in a stinking tunnel. The stench is really horrible. There is nothing special here;
+      everything is covered some type of green mass. Eehh!
+flag:
+  - dark

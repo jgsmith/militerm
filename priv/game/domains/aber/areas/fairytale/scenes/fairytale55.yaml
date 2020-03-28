@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale89"
+      north:
+        target: "scene:aber:fairytale:fairytale54"
+      south:
+        target: "scene:aber:fairytale:fairytale56"
+      west:
+        target: "scene:aber:fairytale:fairytale91"
+    short: Happy Road
+    sight: >
+      Happy Road stretches to the north and south. It has been named for the line of smiley faces which lie in
+      the center of the road, dividing it in half. A sign stands here, informing you that the Three Pigs live
+      to the west and Cinderella to the east.
+flag:

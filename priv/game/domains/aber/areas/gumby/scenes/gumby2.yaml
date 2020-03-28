@@ -1,0 +1,27 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gumby:gumby5"
+      north:
+        target: "scene:aber:gumby:gumby1"
+    short: A Clearing in the Forest
+    sight: >
+      You're standing in a clearing in the middle of the forest with the only light coming from the full moon
+      above. A stiff, cold breeze swirls around you. You blink, and a figure emerges from the shadows. He
+      pulls his hood down to reveal his face. Even though you know that you've never seen him before, you
+      instantly feel at ease in the stranger's presence. His hair is blown askew and his soft green eyes
+      crinkle as he smiles down on you. He abruptly drops to one knee, takes your hands in his, and rests his
+      forehead on the backs of them. Then, he slowly lifts his face to gaze at you with his slight smile
+      again, raising your hand to his lips to kiss it. You shiver, and he rises to remove his cloak and places
+      it on your shoulders. However, the instant his cloak leaves his hands, he begins to disappear. You
+      notice the longing smile directed at you as his lips say something you cannot hear. Then, he vanishes,
+      leaving a white rose and a note in his place. You pick both objects up, unfold the note, and begin to
+      read. Once you finish, it begins to change into the shape of a heart before it, too, vanishes. The
+      breeze picks up one last time as you hear a voice whisper into your ears, "Je vous aime beaucoup
+      toujours, ma cherie." Then, all is silence, leaving you with the cloak and the rose.
+flag:
+  - private
+  - party
+  - nosnoop
+  - outdoors

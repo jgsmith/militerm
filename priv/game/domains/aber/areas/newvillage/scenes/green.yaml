@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road1e"
+      north:
+        target: "scene:aber:newvillage:hall"
+      south:
+        target: "scene:aber:newvillage:smith"
+      west:
+        target: "scene:aber:newvillage:road1w"
+    short: The Village Green
+    sight: >
+      You are standing on a large green just south of the Town Hall. The buildings of the town seem to kind of
+      surround this green, which serves many purposes among the people of the town. To the south is the
+      Blacksmith's shop. There is a path running from east to west through the green that leads west to the
+      sea and east to the rest of the village.
+flag:
+  - outdoors

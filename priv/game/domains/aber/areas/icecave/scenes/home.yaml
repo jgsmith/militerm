@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:icecave:cave"
+    short: Home of the Iceman
+    sight: >
+      Welcome to Iceman's private cubicle. Despite the icy surroundings, you feel warm and safe here. Some of
+      the Iceman's robes are hanging in a closet, along with some impressive weapons you dare not touch. On
+      his desk you see some scrolls covered with Nordic runes, and an unfinished supper, indicating the Iceman
+      has only stepped out for a moment. You notice several copies of "Teach Yourself Swedish" in the
+      bookcase, but one seems to be missing. A portrait of his beautiful wife, Lady Galadriel, adorns the
+      otherwise bare walls. A single exit leads south.
+flag:
+  - private
+  - party

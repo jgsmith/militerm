@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook148"
+      west:
+        target: "scene:aber:fairybook:fairybook150"
+    short: Fields
+    sight: >
+      The ground here is rough and hilly. There are no farms or houses in this country of the west, and the
+      ground is untilled. The path continues to the east and west.
+flag:
+  - outdoors

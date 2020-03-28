@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carb5"
+      north:
+        target: "scene:aber:evolution:carb4"
+      south:
+        target: "scene:aber:evolution:carb3"
+      west:
+        target: "scene:aber:evolution:carb8"
+    short: Lycopod Swamp
+    sight: >
+      You are lost in the swamp. Your feet sink into the marshy ground up to your knees and your progress is
+      slow. The trunks of enormous Sigillaria and Lepidodendron trees are all around you, and through the gaps
+      between them you strain to see daylight. But all you spy are more trees. This is a beautiful place, but
+      you are quickly becoming tired of it. You can go in any direction from here.
+flag:
+  - outdoors

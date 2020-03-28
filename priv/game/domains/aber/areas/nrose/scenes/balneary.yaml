@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nrose:gardens"
+    short: Balneary
+    sight: >
+      You are in the monk's bath house. Along one wall are many wooden tubs with curtains around them that
+      afford the monk's some privacy when they bathe. The bath house appears to be clean and tidy, but you
+      can't help notice a strong musty smell that only adds to the dreary feeling you get at this monastery.
+flag:

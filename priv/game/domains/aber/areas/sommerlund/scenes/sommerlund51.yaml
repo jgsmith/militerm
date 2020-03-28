@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund50"
+      south:
+        target: "scene:aber:sommerlund:sommerlund53"
+      up:
+        target: "scene:aber:sommerlund:sommerlund52"
+    short: Cloud Layer
+    sight: >
+      The clouds envelop the mountains at this altitude. Visibility is severely restricted, so watch your
+      step. Humidity is up to maximum, and precipitation is non-stop, but there is an escape from the weather
+      to the south.
+flag:
+  - outdoors

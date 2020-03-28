@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:castle:s_hall"
+      north:
+        target: "scene:aber:castle:court"
+      south:
+        target: "scene:aber:castle:sanctum"
+      west:
+        target: "scene:aber:castle:tax"
+    short: The Outer Hall
+    sight: >
+      You stand in the shadowy outer hall, lit only by flaming torches high out of reach on the walls. The dim
+      flickering light illuminates the many doorways which lead north, south, east and west. A cold draught
+      blows through the hall, from the grand, heavily carved archway, which looks out northwards across the
+      courtyard, its high thick walls silhouetted in the torch light.
+flag:

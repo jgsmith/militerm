@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:adept:adept52"
+      south:
+        target: "scene:aber:adept:adept59"
+    short: Groomed Path
+    sight: >
+      The trail is well-kept along this section of it. Small rocks line the widening dirt road as it passes
+      along the axes of the global poles. The forest thins out to the south and west as one draws closer to
+      the coastline, while it strengthes to the north.
+flag:

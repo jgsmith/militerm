@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: In the Vault
+    sight: >
+      You are in the mainvault of the bank of Frobozz. The walls are made of the strongest concrete available
+      and they are probably several feet thick.
+flag:
+  - dark

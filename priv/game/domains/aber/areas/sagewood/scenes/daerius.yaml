@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sagewood:sagewood1"
+    short: "Daerius' Hut"
+    sight: >
+      This hut is roughly made of mud and appears to be hastily constructed. The only exit is &+CSouth&*.
+flag:

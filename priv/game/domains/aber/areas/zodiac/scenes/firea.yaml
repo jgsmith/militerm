@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:leo"
+      north:
+        target: "scene:aber:zodiac:aries"
+      south:
+        target: "scene:aber:zodiac:sagittarius"
+      west:
+        target: "scene:aber:zodiac:eastend"
+    short: Land of Fire
+    sight: >
+      A rather desolate place...the grass slowly burns along with several chunks of fur that leave you to
+      believe that the debate you were listing to turned rather violent...perhaps a visitor is just what they
+      need?
+flag:

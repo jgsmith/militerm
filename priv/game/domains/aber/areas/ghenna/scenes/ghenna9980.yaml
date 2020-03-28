@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9979"
+      north:
+        target: "scene:aber:ghenna:ghenna9981"
+    short: A slimey footpath.
+    sight: >
+      The slime just keeps getting thicker as you walk along. There are many dead animals that apparently
+      became bogged down here. There are exits to the North, and East.
+flag:
+  - dark
+  - outdoors

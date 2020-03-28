@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:atlantis:atlantis37"
+    short: Hotel
+    sight: >
+      As you float in the lobby of the aquatic hotel you notice that it is a rather comfortable atmosphere.
+      Fish swim gracefully through the lobby on their way to their rooms, a couple of merfolk up at the
+      counter are checking into the hotel and a couple of swordfish children are chasing each other through
+      the lobby. The lobby is tastefully decorated with carefully selected plantlife and the counter is a
+      lovely shade of blue coral. Across the lobby from the counter is a small aquatic piano. You aren't quite
+      certain how it operates, but it adds to the inviting atmosphere of the lobby. You may swim back out west
+      to Main Street.
+flag:
+  - underwater
+  - nomobiles

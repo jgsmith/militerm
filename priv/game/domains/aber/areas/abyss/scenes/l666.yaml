@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:bottom"
+      up:
+        target: "scene:aber:abyss:l665"
+    short: Level 666
+    sight: >
+      At last, the end of the stairway. This is the 666th and final level of the Abyss. A deep sense of
+      foreboding comes from an archway to the south.
+flag:
+  - dark

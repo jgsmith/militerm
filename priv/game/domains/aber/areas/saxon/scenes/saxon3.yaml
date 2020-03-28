@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon2"
+      north:
+        target: "scene:aber:saxon:saxon5"
+      south:
+        target: "scene:aber:saxon:saxon4"
+    short: &*On the &+LCliff&*
+    sight: >
+      The top of the cliff is barren, no wildlife, just jagged rocks filling your view. Anything that resides
+      here is an open target to be attacked as food. The sound of the waves crashing against the rocks below
+      travels to your ears, and cries from circling birds raise the hair on your neck. To the south of you a
+      green prairie emerges, and to the north a mountain looms in the distance.
+flag:
+  - light
+  - outdoors

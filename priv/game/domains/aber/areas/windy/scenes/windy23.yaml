@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:windy:windy17"
+    short: Dark Passage
+    sight: >
+      You are walking down a long, dark passage. The flagstones click coldly under your feet, echoing into the
+      distance. Tall, plain columns rise to the ceiling. The passage extends north and south.
+flag:
+  - dark

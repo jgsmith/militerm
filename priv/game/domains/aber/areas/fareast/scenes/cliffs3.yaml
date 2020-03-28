@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:village1"
+      south:
+        target: "scene:aber:fareast:shore2"
+      west:
+        target: "scene:aber:fareast:shore2"
+    short: Atop the Southern Cliffs- On a Road
+    sight: >
+      At the top of a stone staircase, this road speaks of a fairly advanced civilization nearby. Shaped
+      stones have been set in a spiralling pattern, leading far off to the north. The staircase leads down the
+      cliffs to the southwest, where you can hear surf hitting the rocky beach.
+flag:
+  - outdoors

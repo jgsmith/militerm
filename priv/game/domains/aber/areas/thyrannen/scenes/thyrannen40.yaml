@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen39"
+    short: Cave
+    sight: >
+      Travelling deeper into this part of the cave you are relieved to find that this is a dead end, but curse
+      yourself for wasting your time here in the first place, the smell overpowering you more and more, is
+      still strong.
+flag:
+  - dark

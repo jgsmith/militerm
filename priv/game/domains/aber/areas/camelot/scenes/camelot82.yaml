@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot83"
+      south:
+        target: "scene:aber:camelot:camelot80"
+    short: The Northern Branch
+    sight: >
+      You are standing on a north-south trail. To the south, the trail seems to end near a large building. To
+      the north lies a low marshy region, full of reeds.
+flag:
+  - outdoors

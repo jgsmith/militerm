@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eirias:staircase"
+    short: Balustrade
+    sight: >
+      You find yourself behind a balustrade of pure wrought gold, looking out over the gold and glittering
+      roofs of the City and the mounded green sweep of the park, just as you did at the very beginning, but
+      you are much higher up now. You see that the balcony you are on is the lower rim of a great curving
+      white and golden roof, and you realise that it is this, the Empty Palace of King Gwyddno Garanhir, that
+      is topped by the marvellous dome, banded in gold and crystal, that you first saw glittering in the dawn.
+flag:

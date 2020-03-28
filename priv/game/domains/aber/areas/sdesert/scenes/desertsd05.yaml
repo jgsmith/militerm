@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd06"
+      west:
+        target: "scene:aber:sdesert:desertsd04"
+    short: A Choked Footpath
+    sight: >
+      The footpath here leads &+yeast&* and &+ywest&*, nearly choked in parts with sagebrush and cacti. Up
+      ahead you see...can it be true? is that a Taco Bell you see?
+flag:
+  - outdoors
+  - hot

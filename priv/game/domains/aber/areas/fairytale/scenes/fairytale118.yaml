@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale116"
+      south:
+        target: "scene:aber:fairytale:fairytale119"
+    short: Bathroom
+    sight: >
+      The bathroom is quite simple. A stool is in the northwest corner of the room, connected to the floor by
+      a tube. A basin stands against the west wall, filled with warm water. A larger basin is in the southwest
+      corner, also filled with water.
+flag:
+  - dark

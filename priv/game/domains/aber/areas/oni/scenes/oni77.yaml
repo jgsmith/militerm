@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni78"
+      west:
+        target: "scene:aber:oni:oni76"
+    short: Underground Passage
+    sight: >
+      This almost forgotten secret passage was used by the Order of the White Phoenix to bring wounded to the
+      clerics at Deufel Temple. Now in the time of peace, it has been pretty much forgotten about.
+flag:
+  - cantsummon

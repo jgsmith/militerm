@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc47"
+    short: The Hall of the Servants
+    sight: >
+      You step into a less decorated room that is obviously meant to be the servants' accomodation. There's a
+      table before the back wall and a lamp brings light into this otherwise dim chamber. By studying the
+      pictures on the floor, you find out that most of the slaves and servants were killed when the upper
+      class moved down underground. The ghosts of these poor people still wander these lands of blood. To
+      prevent the ghosts from entering the underground town many guardians have been placed at the entrance.
+      The only exit is to the east.
+flag:

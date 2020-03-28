@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept1"
+      up:
+        target: "scene:aber:adept:adept74"
+      west:
+        target: "scene:aber:adept:adept3"
+    short: Trunk by Lowest Branch
+    sight: >
+      You have reached the bottom branch of the tree, which extends off to the south. A section of mottled
+      yellow shelf fungus grows here, the largest one you've ever seen. It looks like it could easily support
+      your weight. The shelf circles the tree to the west. You think you hear the chattering of monkeys coming
+      from further out on the branch. Above you, more branches sprout from the tree, and the greenery gets
+      thicker.
+flag:

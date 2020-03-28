@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar28"
+      north:
+        target: "scene:aber:volcano:bandilbar30"
+      south:
+        target: "scene:aber:volcano:bandilbar33"
+      west:
+        target: "scene:aber:volcano:bandilbar37"
+    short: Crossroads Of Tunnels
+    sight: >
+      You have come to a place where two tunnels meet. The main tunnel leading from the entrance descends in a
+      steep decline to the west, while the tunnel running across from north to south is somewhat smaller and
+      the walls less well-hewn. Torches line the walls down every tunnel, and you have no problem seeing where
+      you are going.
+flag:
+  - nomobiles

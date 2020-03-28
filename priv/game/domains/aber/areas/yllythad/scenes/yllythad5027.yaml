@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5032"
+      north:
+        target: "scene:aber:yllythad:yllythad5028"
+      south:
+        target: "scene:aber:yllythad:yllythad5136"
+      west:
+        target: "scene:aber:yllythad:yllythad5132"
+    short: Calm Waters
+    sight: >
+      The calm sooth mind and body, lending a feeling of peace and comfort to any traveler who passes. The
+      waves roll gently by, the ocean seeming harmless and worry-free.
+flag:
+  - onwater
+  - outdoors

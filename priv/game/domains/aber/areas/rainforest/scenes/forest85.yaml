@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest89"
+      south:
+        target: "scene:aber:rainforest:forest90"
+      west:
+        target: "scene:aber:rainforest:forest81"
+    short: "Bell Bird's Territory"
+    sight: >
+      You are deep within the rainforest. As you pause here you become aware of an at first intriguing, then
+      after a while intensely annoying, sound. It sounds as if an anvil is repeatedly being struck by an
+      hammer. The noise is the call of the bell bird, and it will happily spend all day sitting on its branch
+      high above you doing nothing else but make this strange sound. After a short time it begins to irritate
+      you and you become keen to move on.
+flag:
+  - outdoors
+  - rainforest

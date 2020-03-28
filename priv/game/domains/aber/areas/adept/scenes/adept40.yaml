@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:adept:adept38"
+      west:
+        target: "scene:aber:adept:adept41"
+    short: Dungeon
+    sight: >
+      Well, here's where all the rainwater and scum of the land collect to celebrate the rest of their natural
+      lives in solitary confinement. Shackles for legs and manacles for arms are connected by a lynchpin, from
+      which a 500 pound cannon ball has been attached. For all those given an execution sentence, an iron
+      maiden is conveniently located near the east wall, complete with a basket for catching the body's organs
+      as they fall out.
+flag:
+  - dark

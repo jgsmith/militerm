@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: In The Moat
+    sight: >
+      So is your name Carl Lewis?... I think not! Not even he could have made that jump, I mean 500 feet? Get
+      real. Well there is good news and there is bad news. The good news is you didn't drown. Bad news is
+      you've been eaten by hundreds of undead ALLIGATORS! The last thing to go through your mind is
+      alligator's mouth.
+flag:
+  - death

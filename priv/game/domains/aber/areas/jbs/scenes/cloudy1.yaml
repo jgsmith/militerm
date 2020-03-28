@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:cloud_gate"
+      west:
+        target: "scene:aber:jbs:cloudy"
+    short: Cloudy Path
+    sight: >
+      This is an east west path through a magical realm above the clouds. To the east you see a huge palace
+      with a thin mist clinging to it's gigantic structure, while to the west you see the path continue into
+      the clouds.
+flag:

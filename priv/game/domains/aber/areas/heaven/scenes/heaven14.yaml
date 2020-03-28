@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Cloud 13
+    sight: >
+      You are in a simply furnished room which stands in stark contrast to the diamond palace which contains
+      it.
+flag:
+  - private

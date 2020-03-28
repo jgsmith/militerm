@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:slope1"
+      south:
+        target: "scene:aber:island:flow"
+      up:
+        target: "scene:aber:island:flow"
+      west:
+        target: "scene:aber:island:bushes"
+    short: Ruins
+    sight: >
+      You stand in the center of what must once have been a huge ampitheatre, with high columned arches
+      surrounding it. Thick heavily tangled bushes grow all around the stumps of the many fallen pillars,
+      frequently hiding them from view. The ruins extend back westwards, but to the south and east have been
+      covered by huge lava flows.
+flag:
+  - outdoors

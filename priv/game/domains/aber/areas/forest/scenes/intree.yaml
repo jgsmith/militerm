@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: In The Tree
+    sight: >
+      You are trapped inside a tree, being crushed out of existence very slowly!
+flag:
+  - oneperson

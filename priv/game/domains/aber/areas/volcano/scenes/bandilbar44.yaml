@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar45"
+      south:
+        target: "scene:aber:volcano:bandilbar43"
+    short: Northern Exit Tunnel
+    sight: >
+      You are in a small tunnel leading out of the mountain. The volcano continues to rumble and shake around
+      you, and pieces of rock fall from the roof around you. Looking out to the north, you can see the river
+      flowing past close by in an easterly direction.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot299"
+      west:
+        target: "scene:aber:camelot:camelot301"
+    short: "Nalfeshnee's Room"
+    sight: >
+      Nasty demons of this ilk combine the worst features of an ape and a boar. Their wings are small, but
+      somehow manage to carry their weight in flight.
+flag:
+  - dark

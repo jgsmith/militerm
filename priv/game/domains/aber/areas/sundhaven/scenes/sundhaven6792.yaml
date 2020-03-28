@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6791"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6795"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6789"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6793"
+    short: Underneath the docks
+    sight: >
+      Here you have come upon a wider section of the piers allowing for larger boats to dock and perform
+      loadings. The fog makes visibility low, with no fog horns or lighthouses to help you find your way. The
+      open seas expand northward, while you can dock with another section of the piers to the east. The rocky
+      shoreline countinues to the west.
+flag:
+  - outdoors
+  - onwater

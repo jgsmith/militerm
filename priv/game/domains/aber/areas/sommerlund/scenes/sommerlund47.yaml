@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund54"
+      north:
+        target: "scene:aber:sommerlund:sommerlund46"
+      south:
+        target: "scene:aber:sommerlund:sommerlund48"
+    short: Foothills
+    sight: >
+      These are the lower hills of the Durncrags. Herds of deer, rams, and elk are the inhabintants here. They
+      roam the yellow-brown oats and grasses for food and exercise, knowing that they have no predators here.
+      Their brethren, the mountain goats, face dangers, however, further up into the mountains.
+flag:
+  - outdoors

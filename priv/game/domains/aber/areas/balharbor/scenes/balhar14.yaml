@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar15"
+      north:
+        target: "scene:aber:balharbor:balhar22"
+      west:
+        target: "scene:aber:balharbor:balhar10"
+    short: Idol Square
+    sight: >
+      You are standing in the southern end of the square. The rioters seem to have left alone the building
+      directly south of you. The idol statue lies north while other sections of the square is west and east.
+flag:
+  - outdoors

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:gold"
+      north:
+        target: "scene:aber:eastcoast:grass"
+      south:
+        target: "scene:aber:eastcoast:meadow"
+      west:
+        target: "scene:aber:valley:rbank"
+    short: Grassy Hillock
+    sight: >
+      Sights and scents of the meadowlands assault you as you stand on top of a low-rolling hill covered in
+      grasses and field plants. Looking around, you see the rolling hills flatten out as it descends to the
+      east, where a blue-white haze of the horizon hints at a coastline. The trail you stand on appears more
+      beaten to the east, a small climb up a rocky slope to the west looks possible, and an inviting meadow is
+      to your south. You nearly overlook an almost abandoned trail to the north.
+flag:
+  - outdoors
+  - nomobiles

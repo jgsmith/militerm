@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:haondor:sundforest6014"
+      west:
+        target: "scene:aber:haondor:sundforest6008"
+    short: Outside A Small Cabin In The Forest
+    sight: >
+      You are outside a small &+ycabin &*built entirely from heavy logs. There is a wooden door to the north
+      and small paths lead west and south through the trees.
+flag:
+  - real
+  - outdoors

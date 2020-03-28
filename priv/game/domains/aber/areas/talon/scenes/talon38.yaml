@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:talon35"
+      up:
+        target: "scene:aber:talon:talon39"
+    short: Base of South Tower
+    sight: >
+      You stand at the base of the south tower. The light here is dim, and the air is thick. There is a set of
+      stairs here leading to the top of the tower. There is a set of stairs here leading to the top of the
+      tower.
+flag:
+  - nomobiles

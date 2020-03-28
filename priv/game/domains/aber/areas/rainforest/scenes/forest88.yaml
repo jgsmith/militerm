@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest83"
+    short: Before The Quicksand
+    sight: >
+      You almost put your foot into a patch of quicksand but notice it just in time. Testing it carefully with
+      a stick, you assess the size of the area and reluctantly conclude that it would be unwise to attempt
+      further progress in this direction.
+flag:
+  - outdoors
+  - rainforest

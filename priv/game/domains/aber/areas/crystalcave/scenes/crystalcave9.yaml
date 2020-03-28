@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:crystalcave:crystalcave4"
+      north:
+        target: "scene:aber:crystalcave:crystalcave6"
+      south:
+        target: "scene:aber:crystalcave:crystalcave10"
+      west:
+        target: "scene:aber:crystalcave:crystalcave8"
+    short: &+CCrystal Caves&N
+    sight: >
+      The glittering &+Wcrystals&N only serve to confuse you, making one branch look like another. Are you
+      really getting anywhere? Or are you traveling around in circles?
+flag:

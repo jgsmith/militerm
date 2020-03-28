@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:doom:7"
+      south:
+        target: "scene:aber:doom:2"
+      west:
+        target: "scene:aber:doom:5"
+    short: &+cTown Road
+    sight: >
+      You are standing at the entrance to a small town. There are a lot of old shacks around you, although
+      many of them are not standing anymore. You notice a pleasant-looking shack to the west; is doesn't look
+      as dirty as the rest of the shacks that are still standing. To the north you see that the forest closes
+      back in on the town, while to the south you can see a gate in the distance.
+flag:
+  - outdoors

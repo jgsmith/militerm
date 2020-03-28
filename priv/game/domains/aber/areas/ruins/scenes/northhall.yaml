@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:northhall2"
+      south:
+        target: "scene:aber:ruins:start"
+    short: Hall North of the Ruins
+    sight: >
+      This is the north hall that branches off from the main ruins. The floor is quite damp and you move
+      carefully along so that you don't slip. The hall continues to the north and the main ruins are to the
+      south.
+flag:
+  - dark

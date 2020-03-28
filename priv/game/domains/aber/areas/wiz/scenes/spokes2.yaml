@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:wiz:spokes1"
+    short: "Spokes' Office"
+    sight: >
+      This is Spokes' Office. You see tons of coding demos and coding docs spewed all over the room. School
+      book are piled neatly on one of the shelves and you get the impression they are not used very much.
+      There is a large oak desk with a very comfortable looking black leather chair.
+flag:
+  - nomobiles
+  - private

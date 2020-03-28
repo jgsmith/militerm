@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas35"
+      west:
+        target: "scene:aber:ildharas:ildharas33"
+    short: Hallway
+    sight: >
+      You wander along an east-west hallway in the southern part of the castle, surrounded by cold, white
+      stone. You wonder what kind of person Lusitan was, to have built such a stark place, and what kind of
+      people the Ildharas were to have lived in it later. Looking out over the balcony, you can see where a
+      defiled Lusitan presides over the wreckage below.
+flag:

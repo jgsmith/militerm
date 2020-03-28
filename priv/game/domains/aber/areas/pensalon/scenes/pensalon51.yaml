@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: Secret Passage
+    sight: >
+      You enter a low dark tunnel that is covered with many cobwebs, and the dust is very thick on the floor.
+flag:
+  - dark

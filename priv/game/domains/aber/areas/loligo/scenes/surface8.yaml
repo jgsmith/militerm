@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:fareast_bay"
+      north:
+        target: "scene:aber:loligo:surface6"
+      south:
+        target: "scene:aber:loligo:surface6"
+      west:
+        target: "scene:aber:loligo:surface7"
+    short: Upon The Ocean Waves
+    sight: >
+      You are drifting on the ocean waves, in sight of land which rises above the hazy horizon to the east. In
+      all other directions the endless ocean waves rise and fall in a never-ceasing, ever-changing rhythm.
+flag:
+  - outdoors
+  - onwater

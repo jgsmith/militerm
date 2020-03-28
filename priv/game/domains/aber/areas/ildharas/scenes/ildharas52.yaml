@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas53"
+      north: null
+      west:
+        target: "scene:aber:ildharas:ildharas49"
+    short: Dark Corridor
+    sight: >
+      Water drips somewhere off in the distance. A rat squeaks shrilly, and a body scuttles over the cold
+      stone. Small stones lie scattered about a hole in the eastern wall. The corridor runs back to the west
+      with a cell door to the north.
+flag:
+  - dark

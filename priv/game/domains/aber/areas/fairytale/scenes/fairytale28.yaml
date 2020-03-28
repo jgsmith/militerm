@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale29"
+      west:
+        target: "scene:aber:fairytale:fairytale27"
+    short: Castle Entrance
+    sight: >
+      An iron portcullis has been lowered here to prevent further passage into the castle. Fortunately, the
+      spaces between the bars are wide enough for you to fit through. To the east, you can see a large room,
+      and to the west the drawbridge stretches part-way across the chasm.
+flag:

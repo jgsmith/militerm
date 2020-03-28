@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook154"
+      west:
+        target: "scene:aber:fairybook:fairybook156"
+    short: Rocky Lands
+    sight: >
+      The path here wanders east and west through a field of rocks. Sharp stones are underfoot, as well as
+      larger boulders, the largest the size of your head. A few corpses are scattered around here, covered
+      with dented armor. Blood has stained the stones red, as well as the clay.
+flag:
+  - outdoors

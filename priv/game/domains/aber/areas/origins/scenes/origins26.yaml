@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins25"
+      up:
+        target: "scene:aber:origins:origins27"
+    short: The Veil of Mist
+    sight: The mist surrounds you on all sides.
+flag:
+  - outdoors
+  - soundproof
+  - negregen

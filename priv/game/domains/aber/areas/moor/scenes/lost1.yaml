@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:moor:pit"
+      east:
+        target: "scene:aber:moor:cottage"
+      north:
+        target: "scene:aber:moor:lost2"
+      west:
+        target: "scene:aber:moor:circle"
+    short: Lost On The Moor
+    sight: >
+      You are lost on the moor. Thick gorse and tangled bushes prevent you from seeing far in any direction. A
+      multitude of little twisted paths wind in all directions from here.
+flag:
+  - outdoors
+  - maze

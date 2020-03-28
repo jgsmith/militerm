@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: The Torture Chamber
+    sight: >
+      You have fallen into a hexoganal room made of mirrors. In one corner stands an iron tree with one
+      branch, from which hangs a noose. In the bright light, the tree is reflected into a huge forest. As the
+      room is slowly heated up, you begin to hallucinate that you are in an African forest. The room continues
+      to get hotter until you either are roasted alive, or, unable to take the torture any longer, hang
+      yourself on the iron tree.
+flag:
+  - death

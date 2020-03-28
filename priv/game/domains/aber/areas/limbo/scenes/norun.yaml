@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Runners Holding Area
+    sight: >
+      It seems that the Gods are not allowing players to explore the MUD at this time. You may wait here for
+      them to finish what they are doing or you may leave and return again later. The Gods apologize for this
+      inconvience.
+flag:
+  - peaceful

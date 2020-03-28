@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest54"
+    short: Atop The Rock
+    sight: >
+      You are perched on the top of a high rock, a boulder perhaps, brought down from the mountains in an
+      ancient time of ice when glaciers reached down even to this level. From this vantage point you can see
+      quite a long way down the river to the east, but unfortunately you are not high enough to see over the
+      tops of the trees. A vertical drop off the rock to the west means that you will have to head back east.
+flag:
+  - outdoors
+  - nomobiles

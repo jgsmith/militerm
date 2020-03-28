@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:enchanter:enchanter33"
+    short: Edge of the Swamp
+    sight: >
+      Tall trees surround you as you leave the castle. A muddy path leads west into a murky swamp.
+flag:
+  - outdoors
+  - real
+  - tempreal

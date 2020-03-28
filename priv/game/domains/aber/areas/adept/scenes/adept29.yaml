@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept28"
+      east:
+        target: "scene:aber:adept:adept30"
+    short: Third Floor
+    sight: >
+      This floor is partially covered in soot and burnt pieces of scrap metal. A red glow emanates from the
+      east, as does the heavy, rythmic pounding of a hammer.
+flag:

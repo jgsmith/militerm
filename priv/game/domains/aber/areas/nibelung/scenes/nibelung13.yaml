@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nibelung:nibelung12"
+      west:
+        target: "scene:aber:khanjar:khanjar9571"
+    short: Gorge
+    sight: >
+      There is a faint smell of ozone in the air. You are in a deep gorge below the mountain peaks, where you
+      find some relief from the constant wind. There are some markings in the rocks, and some of them appear
+      to have melted at some point in the near past. Apparently lightning storms are a common occurance here.
+      There is a path that goes off into the peaks above you, which you could climb with only moderate
+      difficulty.
+flag:
+  - outdoors

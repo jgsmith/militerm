@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret4"
+      north:
+        target: "scene:aber:evolution:cret6"
+      south:
+        target: "scene:aber:evolution:cret2"
+    short: Stony Path
+    sight: >
+      You are on a stony path leading running north and south from here. To the south lies a pleasant little
+      meadow. To the north you hear the roaring of falling water. Above you the largest of the upper
+      cretaceous pterosaurs cruise the thermals with giant wings outspread.
+flag:
+  - outdoors

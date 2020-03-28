@@ -1,0 +1,6 @@
+detail:
+  default:
+    exits:
+    short: Somewhere
+    sight: You are lost in a formless void.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook125"
+      south:
+        target: "scene:aber:fairybook:fairybook128"
+      west:
+        target: "scene:aber:fairybook:fairybook127"
+    short: The Big Tree
+    sight: >
+      The path continues, parting to go around a large tree. The tree looks easy to climb, and you catch a
+      brief glimpse of a board through the branches. The path goes on to the north and south.
+flag:
+  - outdoors

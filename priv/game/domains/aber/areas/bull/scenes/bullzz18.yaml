@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz15"
+      south:
+        target: "scene:aber:bull:bullzz21"
+    short: The Corridor
+    sight: >
+      You are standing in a drafty corridor. There is a &+Cwindow&* set in the east wall, and a &+Cbalcony&*
+      to the west protects you from falling into the gardens.
+flag:

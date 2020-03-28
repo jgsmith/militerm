@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni82"
+      south:
+        target: "scene:aber:oni:oni84"
+    short: Courtyard
+    sight: >
+      The courtyard at the Knights of the White Phoenix's compound is a large open area surrounded by high
+      walls. The Knights use this area mainly for training and ceremonies. Currently the courtyard is not
+      being used for any of those functions. The only apparent exit is to the south, back towards the town.
+flag:
+  - outdoors
+  - cantsummon

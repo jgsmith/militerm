@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fountain1"
+      south:
+        target: "scene:aber:jbs:courtyard"
+      up:
+        target: "scene:aber:jbs:fountain4"
+      west:
+        target: "scene:aber:jbs:fountain2"
+    short: By the Fountain
+    sight: >
+      You are standing next to a huge fountain. The noise from the water is nearly deafening there is so much
+      of it. The mist that comes off from the splashing water feels almost like rain, even though, here above
+      the clouds, the sun is always out. If you stand on your tippie-toes you can just reach the top edge of
+      the side to climb up if you want to.
+flag:

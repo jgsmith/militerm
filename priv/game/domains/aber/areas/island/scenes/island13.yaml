@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:island14"
+      west:
+        target: "scene:aber:island:path"
+    short: Path
+    sight: >
+      You are following an easterly path along the base of the volcano. It appears that this road, such as it
+      is, has been used frequently. You can continue to follow it east, where it looks a little flatter, or
+      head to the west towards the shore.
+flag:
+  - outdoors

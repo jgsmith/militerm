@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:kastle:2"
+      south:
+        target: "scene:aber:kastle:9"
+    short: Long Cold Passageway
+    sight: >
+      This passageway is filled with cold air that goes right through your clothes and makes you shiver
+      uncomfortably. The heavy frost that has collected on the walls reminds you of an icebox that hasn't been
+      cleaned out in years. To the north you can just make out the light of the many torches that line the
+      walls there, and to the south there is a small light at the end of the tunnel.
+flag:
+  - dark
+  - cold

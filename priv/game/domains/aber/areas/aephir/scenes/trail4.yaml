@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:falls"
+      west:
+        target: "scene:aber:aephir:trail3"
+    short: Start Of Sacred Forest Trail
+    sight: >
+      You are standing in a small grassy clearing. A dirt trail starts here and leads into a forest just to
+      your west. You hear many birds singing, seemingly beckoning you to enter this enchanted place. The
+      hidden falls are east.
+flag:
+  - outdoors
+  - peaceful
+  - nomobiles
+  - aephir

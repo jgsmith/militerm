@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest48"
+      south:
+        target: "scene:aber:rainforest:forest44"
+    short: Thick Undergrowth
+    sight: >
+      You are pushing your way through a thick patch of undergrowth in which, you are acutely aware, many
+      large insects are lurking. You notice that what you thought was a couple of leaves is now swaying from
+      side to side in a strange dance while six long spiky legs protrude from either side. You feel yourself
+      becoming paranoid as you start to imagine that every piece of vegetation is a weird insect in disguise.
+flag:
+  - outdoors
+  - rainforest

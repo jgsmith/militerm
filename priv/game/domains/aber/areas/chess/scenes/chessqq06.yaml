@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chess:chessqq07"
+    short: The Ledge
+    sight: >
+      You pop out of the slide, sail through the air for several long moments, crash into the side of a
+      cavern, and land on a ledge in a crumpled heap. You slowly look upwards, and what you see astounds even
+      you- a seasoned adventurer. You are in the north end of a perfectly square cavern with a floor composed
+      of sixty-four alternating black and white marble tiles. Giant torches line the walls, casting a dazzling
+      glow over the entire room. Standing guard over half the squares are giant carved wooden beings, looming
+      and silent. There is a neat wooden &+yladder&* beneath you, leading downward, and three quarters up the
+      opposite wall is the small hole you just came flying out of.
+flag:

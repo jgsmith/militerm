@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:enoroad"
+      south:
+        target: "scene:aber:fareast:cherorch2"
+    short: Road of the Cherry Blossoms
+    sight: >
+      This road is bound on either side by lines of cherry trees, all in full bloom and drifting their petals
+      down onto the road surface. You can see the spires of Eno far to the north, and to the south are more
+      cherry trees, which seem to be planted in an obscuring pattern.
+flag:
+  - outdoors

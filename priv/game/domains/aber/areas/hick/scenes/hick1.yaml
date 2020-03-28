@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:hick2"
+      south:
+        target: "scene:aber:village:track"
+    short: Hickdale Farm Road Entrance
+    sight: >
+      You are on the start of a dusty old road that looks to lead up north to the Hickdale Farm. This is
+      beautiful country with flowers growing around the road and tall grasses surround the small fence that
+      prevents livestock from wandering into the road.
+flag:
+  - nomobiles
+  - outdoors

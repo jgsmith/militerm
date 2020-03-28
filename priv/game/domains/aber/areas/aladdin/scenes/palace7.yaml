@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west: null
+    short: The Hidden Guard Room
+    sight: >
+      It appears as though Jafar assumed you would make it this far. There is nothing of particular interest
+      in this room.
+flag:
+  - dark

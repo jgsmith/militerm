@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire27"
+      north:
+        target: "scene:aber:fire:fire24"
+      south: null
+      west:
+        target: "scene:aber:fire:fire28"
+    short: Guarded entrance
+    sight: >
+      You are standing by a guarded entrance. It is a large gate made of wood and metal with a big lock. Walls
+      around are very high, impossible for you to climb up. Other possible exits are west or east around the
+      wall or north to the southern way.
+flag:

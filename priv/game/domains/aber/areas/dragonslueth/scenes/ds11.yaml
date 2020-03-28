@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:dragonslueth:ds3"
+    short: Store Room
+    sight: >
+      This is a store room with all kinds of inedible rations and different types of grains laying about. As
+      you take a bit you realize that this food is rotten and spit it out. There are also many broken weapons
+      laying on the ground.
+flag:

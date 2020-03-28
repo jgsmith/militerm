@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6765"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6763"
+    short: A path hung with moss
+    sight: >
+      A narrow path bordered with ancient, broad-trunked trees leads north to the town wall of Sundhaven and
+      southwards to a short drop. Moss completely covers and overflows from the oaks, brushing the hair and
+      helms of all but the shortest races of beings.
+flag:
+  - outdoors

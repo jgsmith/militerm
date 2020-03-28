@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar77"
+    short: A Shady-Looking House
+    sight: >
+      Yuck! It stinks in here! You see addicts coming and going out of the house for their daily highs while
+      the dealer is only too happy to give them what they want...for a price. If they can't meet the price,
+      they may get shot with a poison-tipped arrow. I'd get out of here if I were you.
+flag:

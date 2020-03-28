@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:noxypickle:bank"
+    short: Waterslide
+    sight: >
+      You fall down, down, down through the rarified air, plunging into the cloud layer which you saw from
+      above. As you continue to fall, the cloud becomes thicker and thicker, and you start to get rather wet
+      from the droplets of water floating around up here. Still you fall, and the raindrops fall with you,
+      growing heavier and heavier as they descend, until you find yourself in the midst of a torrent which
+      plunges like a waterfall, nearly drowning you in the process. You fight a rising panic, then feel
+      yourself nudging into a soft incline, which gradually becomes less and less steep as you drop. You
+      slither down it on your back, carried along by the volume of water, but slowing down all the while,
+      until you find yourself able to sit up and take stock of your surroundings. You are in a river, being
+      gently carried towards the bank. You drift past an imposing-looking pagan temple and end up in a little
+      pool beside the river bank.
+flag:

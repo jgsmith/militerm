@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grandstand:party"
+      north:
+        target: "scene:aber:grandstand:grandstand"
+    short: The Parimutuel Betting Window
+    sight: >
+      Old form sheets plaster the walls. A polished but nicked oak wall has a grilled opening behind which
+      stands the Bookie. A sign pasted over the grille reads UNDER CONSTRUCTION if you want to place a bet
+      tell a power
+flag:
+  - peaceful

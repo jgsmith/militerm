@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon12"
+    short: &*The &+rKitchen&*
+    sight: >
+      This is the kitchen area of Heorot. It is here where Hrothgar's cook prepares meals for all of his
+      warriors. There are whole beeves hanging here waiting to be cooked for the special guests of the hall.
+      The walls are lined with cooking accessories such as knives and tenderizing mallets. The only exit is
+      back to the north into Heorot.
+flag:
+  - light

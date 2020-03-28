@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood10"
+      west:
+        target: "scene:aber:sherwood:sherwood8"
+    short: Bend in the Road
+    sight: >
+      The path turns north here. There is a rapidly running river to the east but it doesn't look safe to
+      navigate. Maybe there is a bridge or slow shallow point up north at which you can cross it. Maybe not.
+flag:
+  - outdoors

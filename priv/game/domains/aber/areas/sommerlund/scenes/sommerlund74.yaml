@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sommerlund:sommerlund76"
+      west:
+        target: "scene:aber:sommerlund:sommerlund73"
+    short: Fallen Plains
+    sight: >
+      The corpses of several animals surround you on all sides. Bones of various shapes and sizes color the
+      colorless landscape. Craters and volcanoes litter the area like lesions of the skin, the former
+      collecting the fallout of the great pluming clouds of the latter. A lava flow zigs and zags its way
+      across the reaches of the wastelands until it intercepts a wide chasm in the distance. Ungodly amounts
+      of noxious fumes pour from this wide crack in the earth. Across the chasm, a city composed entirely of
+      black steel points jaggedly into the scarlet sky.
+flag:
+  - outdoors

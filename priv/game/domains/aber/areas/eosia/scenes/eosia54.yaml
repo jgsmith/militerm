@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:7"
+      north:
+        target: "scene:aber:eosia:eosia48"
+      south:
+        target: "scene:aber:eosia:eosia47"
+      west:
+        target: "scene:aber:sea:7"
+    short: All At Sea
+    sight: >
+      You are sailing in the Straits of Thalesia, located between Diera, which lies to your south, and
+      Thalesia, which stands to your north. The waters here are calm, but to your east and west they are quite
+      rough, preventing passage in either of those directions.
+flag:
+  - onwater
+  - outdoors

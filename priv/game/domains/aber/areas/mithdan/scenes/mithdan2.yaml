@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan1"
+    short: Dead End
+    sight: >
+      The trail here is overrun with heavy brambles and thorns that compleatly block your passage through.
+      Beyond the brambles the forest continues, but there does not seem to be any trails. The only way out is
+      to follow the thin trail back to the west.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq02"
+      south: null
+    short: The Smooth Tunnel
+    sight: >
+      Looking down at your feet, you are somewhat surprised to find that you are walking on a thick woven rug.
+      The walls of the tunnel that you are in are completely smooth, and polished to a gleam. Before you, the
+      tunnel opens up to what appears to be a small &+Cchamber.
+flag:

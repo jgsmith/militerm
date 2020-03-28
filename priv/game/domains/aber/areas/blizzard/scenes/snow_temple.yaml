@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:doom:f1"
+      west:
+        target: "scene:aber:blizzard:ravine"
+    short: Snow Temple
+    sight: >
+      You are in the snowy ruins of an ancient temple. The view from here is stunning and very picturesque but
+      the combination of slippery ground and some steep drops close at hand is enough to dissuade you from
+      sightseeing.
+flag:
+  - cold
+  - outdoors

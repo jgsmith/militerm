@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fareast:courtyard"
+    short: Village Ruins
+    sight: >
+      There's not much to see or do here, the wooden buildings have burned totally to the ground and the stone
+      structures have been torn apart. Here and there, you can see lighter patches which often turn out to be
+      bones or broken marble statues, but mostly the landscape is an even, sooty black. The roads are all
+      clogged except for the path back to the west.
+flag:

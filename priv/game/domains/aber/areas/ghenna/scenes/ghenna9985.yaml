@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9986"
+      up:
+        target: "scene:aber:ghenna:ghenna9984"
+    short: An underground cavern.
+    sight: >
+      This small underground cavern is the most humid place you have ever been in. Moisture trickles down the
+      smooth rock walls in large rivulets, and water drips on your head from the ceiling above. A passageway
+      leads South.
+flag:
+  - dark
+  - outdoors

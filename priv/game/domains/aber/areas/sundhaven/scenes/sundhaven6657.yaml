@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6639"
+    short: The post office
+    sight: >
+      You narrowly avoid the guillotine-style slash of a rusted axe as you pass through the doorway of the
+      town post office. It seems some sort of riot is underway in here - what would be a strike if this wasn't
+      before unions - among the numerous disgruntled postal workers conglomerated. Shining silver letter-
+      openers flash in the light as they heedlessly try to backstab anyone in sight. It's a droll scene. You
+      decide it prudent to mail your wares and be on your way. There is a &+Csign&* posted on the north wall.
+flag:
+  - nomobiles

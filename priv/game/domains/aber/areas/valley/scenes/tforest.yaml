@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:tforest"
+      north:
+        target: "scene:aber:valley:fsedge"
+      south:
+        target: "scene:aber:valley:eside"
+      west:
+        target: "scene:aber:valley:sedge"
+    short: Thick Forest
+    sight: >
+      You are lost amidst a thick mass of trees and bushes which block direct paths forcing you to take long
+      and probably circular routes in your attempts to get past them.
+flag:
+  - outdoors

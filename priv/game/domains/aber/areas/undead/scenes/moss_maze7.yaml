@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:moss_maze4"
+      north:
+        target: "scene:aber:undead:moss_maze1"
+      south:
+        target: "scene:aber:undead:moss_maze1"
+      west:
+        target: "scene:aber:undead:moss_maze1"
+    short: Moss Maze
+    sight: >
+      You wade blindly through the mist. You break through the mist and breathe a sigh of relief. The mist
+      seems to end. You are in a sunny clearing, walls of mist surround you. As you start to get your bearings
+      a hideous scream is heard and shapes charge at you from the mist.
+flag:
+  - outdoors

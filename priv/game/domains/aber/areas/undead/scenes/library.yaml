@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:undead:banquethall"
+    short: The Grand Library
+    sight: >
+      This once grand library is a sight to behold. It has one single &+Bbookcase&* the entire length of the
+      &+Ceastern&* wall, which must hold literally thousands of books in various languages. If you had time
+      (which you don't!) it would take you thousands of years to digest all the information stored in this
+      room. Scattered around the room are several small reading tables, but it appears from the dust
+      everywhere that they have not been used in many a year. Above you a arched glass ceiling lights the room
+      with brilliant sunlight, a refreshing change from the rest of the castle. A handsome mahogony &+Bdesk&*
+      catches your eye.
+flag:
+  - fastheal
+  - peaceful
+  - nomobiles

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven30"
+      south:
+        target: "scene:aber:heaven:heaven35"
+    short: Northwestern Rainforest
+    sight: >
+      Far to the west you can spy the blue of the ocean. The abundant vegetation causes you to believe that
+      you are standing in a rainforest. Dark clouds gather to the west.
+flag:
+  - private

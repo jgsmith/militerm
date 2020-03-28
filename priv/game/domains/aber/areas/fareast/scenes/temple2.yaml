@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:temple1"
+      up:
+        target: "scene:aber:fareast:templeu2"
+    short: Dining Hall
+    sight: >
+      Low stone benches form rows in this room, alternating with rows of cushions. A cold fireplace in the far
+      wall holds enough utensils and pots for you to guess that this must be the dining hall for the temple.
+      The room itself is also cold, as air leaks in from the southern doorway. A wooden staircase leads
+      upward, into a room flickering with candlelight.
+flag:

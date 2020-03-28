@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere10"
+      north: null
+    short: Decrepit Tunnel
+    sight: >
+      Enormous boulders, dirt and fallen timers half fill the passageway and block your path. This tunnel must
+      have been this way since Brookmere fell. You push your way through the rubble and accidentally hit your
+      head on a beam - the passage must be far too small for any of Brookmere's current inhabitants in this
+      state. The beam shudders and dirt trickles down from the ceiling. From the looks of it the tunnel could
+      collapse at any time. You decide to get out of it quickly just in case.
+flag:
+  - dark
+  - nomobiles

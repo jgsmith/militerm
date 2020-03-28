@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:bathroom"
+      south:
+        target: "scene:aber:rats:livroom"
+      up:
+        target: "scene:aber:rats:stairsdown"
+      west:
+        target: "scene:aber:rats:hallway_1"
+    short: Hallway
+    sight: >
+      You are standing in the hallway. All the walls are made of wood. There is nothing special about this
+      room; it looks just like a crossway.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord87"
+    short: Baitshop
+    sight: >
+      The little shanty housing all the bait seemingly ever needed to catch every fish in the world has
+      windows which shudder with the passing of the outside wind. On many pegboard racks lining the walls are
+      the many fishing rods which are used to expertly catch the inlet fish. Stacked in one corner and tagged
+      by name are the tackle boxes containing the personal arsenals of bait type, line strength, and an
+      assorted array of nasty- looking fishhooks. Balanced woodenly against one wall is a 'jhata' - a small,
+      one-person craft which resembles a kayak, but is much more streamlined and lightweight. Should anything
+      threatening enter the inlet, people using such a boat would be likely to leave the finned swimmer in the
+      dust.
+flag:

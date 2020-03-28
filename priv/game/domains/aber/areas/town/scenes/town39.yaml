@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town24"
+      north:
+        target: "scene:aber:town:town40"
+      south:
+        target: "scene:aber:town:town38"
+    short: "Square Near Blacksmith's"
+    sight: >
+      This is a crowded square covered with dirt and bits and pieces of metal. To the north is the
+      Blacksmith's Forge, to the south is the main Town Square, to the east is the square in front of the
+      Weapons shop.
+flag:
+  - outdoors

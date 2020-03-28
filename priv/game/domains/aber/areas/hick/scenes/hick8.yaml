@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:cattle1"
+      south:
+        target: "scene:aber:hick:hick7"
+      west:
+        target: "scene:aber:hick:hick4"
+    short: End of Road to Livestock Area
+    sight: >
+      You are at the end of the road to the livestock area. To the north is the gate that leads into the area
+      where the livestock is kept. You can smell the animals from here and tears come to your eyes as you take
+      a deep breath. The road goes back to the south, and the road goes to the west.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:cryptent"
+      west: null
+    short: "The &+rVampire's &+gBedchamber"
+    sight: >
+      As you step in, you nearly trip, as the floor is not too solid. You notice that the floor here is one
+      big mattress. The room itself is dome-shaped. Piles and piles of pillows of all shapes and sizes line
+      the walls. There is a small door in the west wall.
+flag:
+  - light

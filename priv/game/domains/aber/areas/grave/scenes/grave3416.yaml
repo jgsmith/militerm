@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:grave:grave3423"
+      east:
+        target: "scene:aber:grave:grave3405"
+    short: The Garden
+    sight: >
+      There is a large garden here that at one time looked to be very peaceful and a place to commune with the
+      god of your choice. Now the ground is overgrown with thorn bushes and vines making for a dark, rank
+      smelling place. The apple trees that once grew here are dead with many branches lying scattered along
+      the ground. You notice in one corner of the garden a hole, recently dug. When you move closer to the
+      hole you shiver to think what must be down there.
+flag:
+  - outdoors

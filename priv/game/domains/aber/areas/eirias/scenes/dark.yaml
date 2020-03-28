@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Beyond the Wheel
+    sight: >
+      A surge of darkness and fury and menace is streaming up the steps of the Tower towards you. You feel the
+      Terror of the Dark's Rising. You can't take your eyes off the &+Cwheel&*, knowing that at any moment,
+      the Dark could come pouring through to take what they see as rightfully theirs, Eirias!
+flag:
+  - outdoors

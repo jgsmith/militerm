@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest11"
+      north:
+        target: "scene:aber:fantasy:dforest13"
+      west:
+        target: "scene:aber:fantasy:dforest15"
+    short: Southeast corner of a circular path
+    sight: >
+      The path seems to be in the shape of a circle through here. The path curves to the north and to the
+      west. The trees here are very dense and you figure that they are at least a few hundred years old.
+flag:
+  - outdoors

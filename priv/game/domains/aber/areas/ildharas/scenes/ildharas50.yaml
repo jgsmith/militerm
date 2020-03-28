@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: "Yorjudek's Cell"
+    sight: >
+      This cell is circular, somewhat larger than the others. Silver-runed manacles hang broken and useless
+      against the far wall. Deep scores cover the rock on the floor, resembling claw marks. The air is charged
+      with hatred and frustration.
+flag:
+  - dark
+  - cantsummon
+  - soundproof

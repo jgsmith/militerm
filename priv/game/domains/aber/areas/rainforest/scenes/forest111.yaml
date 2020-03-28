@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest112"
+      north:
+        target: "scene:aber:rainforest:forest109"
+    short: Entrance To The Indian Village
+    sight: >
+      You are in an open part of the forest. To the east is a motley collection of huts made from mud and
+      grass. You feel the hairs prickle on the back of your neck as thoughts of blowpipes and poison darts
+      fill your imagination.
+flag:
+  - outdoors
+  - rainforest

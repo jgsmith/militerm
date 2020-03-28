@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord61"
+      up:
+        target: "scene:aber:fjord:fjord63"
+    short: The Phaylax Crater Trail
+    sight: >
+      Steps carved into the mountainside provide a direct means of travel to both the mountain crater and the
+      acidic lake. The air reeks of sulfur dioxide and burnt carbon, and ash deposits are everywhere from the
+      minor bouts of volcanic activity. Off to either side of the staircase are solidifed lava flows, hard,
+      spiky, and black as night. Vision is limited by the combination of ash and condensation clouds overhead,
+      but the wind brings howls to your ears, and not just of the wind.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

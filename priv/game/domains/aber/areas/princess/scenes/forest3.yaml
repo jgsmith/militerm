@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:forest1"
+      north:
+        target: "scene:aber:princess:forest3"
+      south:
+        target: "scene:aber:princess:forest3"
+      west:
+        target: "scene:aber:princess:forest2"
+    short: The Forest
+    sight: >
+      You are deep in the forest. Maybe you took a wrong turn somewhere? Nothing looks familiar.
+flag:
+  - outdoors

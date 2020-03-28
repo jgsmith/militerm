@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: A Tidy Room
+    sight: >
+      The room is in extremely good order. Every particle of dust or dirt of any kind appear to be wiped out.
+      Apparently there is a possible tenant coming soon.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung80"
+      south:
+        target: "scene:aber:nibelung:nibelung78"
+    short: Trophy Room
+    sight: >
+      You are in a room with murals adorning the walls, depicting the great conflicts once fought by the
+      knights of this castle. Some chairs and a small tapestry are arranged about a &+Rfire&*, which burns
+      happily in a large stone fireplace. Some logs are stacked off to one side of the fireplace, and a poker
+      hangs just off to the right.
+flag:

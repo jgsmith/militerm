@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:perm1"
+      south:
+        target: "scene:aber:evolution:carb2"
+    short: Edge Of Lycopod Forest
+    sight: >
+      You have reached the northern end of the forest. The ground here is a little marshy but fairly easy to
+      negotiate. You can enter the forest to the south, or you can head east towards a broad lake, skirted by
+      primitive cone- bearing trees. To the west and north the plant growth is unfortunately impenetrable.
+flag:
+  - outdoors
+  - nomobiles

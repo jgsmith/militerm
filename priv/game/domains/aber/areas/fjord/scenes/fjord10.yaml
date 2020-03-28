@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord11"
+      north:
+        target: "scene:aber:fjord:fjord30"
+      south:
+        target: "scene:aber:fjord:fjord9"
+      up:
+        target: "scene:aber:fjord:fjord121"
+    short: Animal Trail Intersection
+    sight: >
+      Two paths made by the forest dwellers have been left here. A deer trail runs north and south, wide and
+      easy to follow. A much more primitive track heads east through the forest and comes to a quick halt at
+      the base of a pine &+gtree&* to the west.
+flag:
+  - outdoors

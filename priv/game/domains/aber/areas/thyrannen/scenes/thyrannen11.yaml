@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen8"
+      west:
+        target: "scene:aber:thyrannen:thyrannen12"
+    short: Redwood Forest
+    sight: >
+      You have reached the center of this strange forest. The trees still loom high above you, and seem to
+      almost be aware of your presence.
+flag:
+  - outdoors

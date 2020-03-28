@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:orchold:overgrown"
+      south:
+        target: "scene:aber:orchold:tunnel"
+    short: Steep Mountainside
+    sight: >
+      You are outside on the mountain. A hole in the side of the moutain lies to the south, barely
+      distinguishable from the plants covering it. The grade is extremely steep, but it looks like you can
+      skitter your way down.
+flag:
+  - outdoors

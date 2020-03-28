@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest93"
+      south:
+        target: "scene:aber:rainforest:forest85"
+    short: River Shore
+    sight: >
+      You are on the southern bank of the river Malazon. Small water-loving trees grow here, overhanging the
+      river, and you linger beneath their balmy boughs. You can follow the bank to the east or head south into
+      the forest.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pensalon:pensalon9"
+      north:
+        target: "scene:aber:pensalon:pensalon19"
+    short: Grand Staircase
+    sight: >
+      You stand on a gold staircase that lead northward into the castle proper, and lead down into the main
+      courtyard.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas37"
+      south:
+        target: "scene:aber:ildharas:ildharas32"
+      west:
+        target: "scene:aber:ildharas:ildharas34"
+    short: Hallway
+    sight: >
+      You notice no dust as you walk these halls. How odd. After all these years you'd think you'd see a
+      carpet of it. The hallway continues to the north and west, and a doorway leads south.
+flag:

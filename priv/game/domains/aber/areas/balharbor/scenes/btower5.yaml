@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower11"
+      down:
+        target: "scene:aber:balharbor:btower4"
+      east:
+        target: "scene:aber:balharbor:btower30"
+      south:
+        target: "scene:aber:balharbor:btower10"
+    short: Dark Corridor
+    sight: >
+      Oh dear, you left the foyer and already feel lost among the tunnels! Be careful when exploring, you just
+      might be somewhere where you think you're not. There are exits everywhere but not necessarily leading
+      somewhere. You see in the floor the shape of a 'T'.
+flag:
+  - dark
+  - maze

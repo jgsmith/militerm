@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:hick8"
+      north:
+        target: "scene:aber:hick:house1"
+      south:
+        target: "scene:aber:hick:hick3"
+    short: In Front of the Hickdale House
+    sight: >
+      You are at the end of the main road that leads up to the Hickdale House. It is a nice looking house that
+      seems to have been worn away by the elements over the years. It is a dull white house made of wood that
+      looks to be a little rotted out. The porch of the house is to the north, and the roads leads back to the
+      south. To the east is the road to the livestock area.
+flag:
+  - outdoors

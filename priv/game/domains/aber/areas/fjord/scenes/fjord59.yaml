@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord60"
+      south:
+        target: "scene:aber:fjord:fjord58"
+    short: The High Lake
+    sight: >
+      The boat is controlled by pulling on a cord which is stretched taut across the entire lake. The wake is
+      quite small traveling at such a pace, but there is good reason to be using this boat. The lake waters
+      are highly acidic from the constantly spouting volcano, although not enough to cause instant dissolution
+      - to boats. But with repeated use, wooden and metal boats would be eaten, and then whoever ended up
+      swimming would become part of the lake rather quickly and painfully.
+flag:
+  - outdoors
+  - cold
+  - onwater

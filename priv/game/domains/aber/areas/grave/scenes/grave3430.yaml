@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3431"
+      north:
+        target: "scene:aber:grave:grave3414"
+      south:
+        target: "scene:aber:grave:grave3433"
+      west:
+        target: "scene:aber:grave:grave3432"
+    short: Back of the Church
+    sight: >
+      As you enter this room you get a full realization of how large and intricate the cathedral really is -
+      or was. All around you are excrements and vile smelling pools of slime. The pews of the church at ripped
+      and beat to small bits of timber and ripped cloth. You begin to notice skeletons and half rotted
+      cadavers. There is a stench that is apparently stronger further inside the church. Very little light
+      filters in from the broken stained glass windows. There are exits to the south, east, and west. There is
+      always the way back to the foyer to the north.
+flag:

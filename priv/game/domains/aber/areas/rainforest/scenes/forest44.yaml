@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest47"
+      north:
+        target: "scene:aber:rainforest:forest46"
+      south:
+        target: "scene:aber:rainforest:forest45"
+      west:
+        target: "scene:aber:rainforest:forest30"
+    short: Under The Triplaris Tree
+    sight: >
+      Here stands a tall tree which is marked with several small holes. Ants pour out of the holes at the
+      first sign of an intruder. The ants appear to share a curious symbiotic relationship with the tree,
+      protecting it against marauding insects and other small animals, while the tree in turn provides a home
+      for its guards. There are exits in every direction.
+flag:
+  - outdoors
+  - rainforest

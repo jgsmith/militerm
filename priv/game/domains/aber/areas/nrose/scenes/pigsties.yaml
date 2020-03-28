@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nrose:widepath2"
+    short: Pigsties
+    sight: >
+      You are in the monastery pigsties. The smell in here is atrocious and as you scan the room you see that
+      you are standing in the source of the smell.
+flag:

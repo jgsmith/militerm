@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon10"
+      north:
+        target: "scene:aber:talon:talon9"
+      west:
+        target: "scene:aber:talon:talon13"
+    short: Underground Stream
+    sight: >
+      You are waist deep in ice cold water which rushes quietly past you to the west into the blackness. The
+      sharp rocks underneath the water cut and grab at your feet to make passage treacherous. On a dry ledge
+      to the north, a small hole, barely passable, leads into the unknown.
+flag:
+  - dark

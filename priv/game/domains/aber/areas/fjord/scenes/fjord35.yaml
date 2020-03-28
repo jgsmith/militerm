@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord34"
+    short: Pit of Bugs
+    sight: >
+      Oh dear, you've just wandered into a lair of creepy, crawling horrors! Born of millions of shapes,
+      sizes, and colors, the little six-legged and winged critters crawl up your legs and buzz about your
+      ears. The bottom of the pit is made of total decayed mush and dead insects. If any water were to ever
+      get down here, then there would be a thriving colony of bacteria inside the quicksand-like mass of bugs.
+      The hole back to the land of the living is a couple feet overhead, and very little sunlight makes it
+      through the clutter of undergrowth and around the sharp angle of the pit sides. The violent movement of
+      all the bugs causes the 'floor' to move like waves on the ocean. Something very slimy and long slithers
+      at the nape of your neck.
+flag:
+  - outdoors
+  - dark

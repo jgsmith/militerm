@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan72"
+      south:
+        target: "scene:aber:mithdan:mithdan73"
+      west:
+        target: "scene:aber:mithdan:mithdan70"
+    short: Garden Path
+    sight: >
+      Large, beautiful flowers overhang the pathway, and hundreds of honey bees buzz around them. Stately ash
+      trees line the edges of the brick path. The path winds to the west and south. To the east a large
+      fishpond glitters in the sunlight.
+flag:
+  - outdoors
+  - peaceful

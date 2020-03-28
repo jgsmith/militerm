@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:forest2"
+      north:
+        target: "scene:aber:princess:courtyard"
+      south:
+        target: "scene:aber:princess:forest4"
+      west:
+        target: "scene:aber:princess:forest3"
+    short: The Forest
+    sight: >
+      You enter a forest. There are paths in every direction. The northern path leads back to the castle. The
+      other paths lead deeper into the woods.
+flag:
+  - outdoors

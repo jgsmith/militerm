@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave7"
+      south:
+        target: "scene:aber:fantasy:dcave9"
+    short: And another turn in the mine
+    sight: >
+      You are hit by a smell of rotting meat as you enter this corridor and you being to feel a little sick to
+      your stomach. You figure that some worker just left some food down here long ago and it has been rotting
+      ever sense. The passage leads to the south.
+flag:
+  - dark

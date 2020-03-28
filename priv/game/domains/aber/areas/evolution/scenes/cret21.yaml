@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret18"
+      south:
+        target: "scene:aber:evolution:cret22"
+    short: Cretaceous Beach
+    sight: >
+      You are on a delightful sandy beach, sheltered from the wind by the tall dunes to the east. The sand is
+      fine and almost white, and slopes gently towards the sea to the south and west. You are very tempted to
+      lie back and relax with your eyes closed, and you have to keep reminding yourself of where you are, and
+      when...
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave18"
+      south:
+        target: "scene:aber:batcave:batcave15"
+    short: Guillotine Room
+    sight: >
+      You notice the room spinning about you. Ultimately you realize it is not the room, but your head which
+      is rolling across the blood stained floor as your body collapses to the ground.
+flag:
+  - death

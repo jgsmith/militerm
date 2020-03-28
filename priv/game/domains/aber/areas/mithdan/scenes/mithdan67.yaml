@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan68"
+      west:
+        target: "scene:aber:mithdan:mithdan12"
+    short: Street
+    sight: >
+      The street is well maintained, and the main gates to the west are freshly painted. To the west the gates
+      open out onto a great forest of oak and pine, and to the east the street continues. The wind carries a
+      faint scent of flowers.
+flag:
+  - outdoors

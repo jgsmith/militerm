@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:courtyard6"
+      up:
+        target: "scene:aber:undead:battlements1"
+      west:
+        target: "scene:aber:undead:courtyard2"
+    short: Southeastern Courtyard
+    sight: >
+      You stand at the southeastern corner of the courtyard. The silence is becoming deafening and you pray
+      for the clash of metal against bone, to at least relieve the silence. A large set of stone steps rises
+      from the floor up onto the battlements, although they are too high to see what may be at their summit.
+      To your &+Cnorth&* and &+Cwest&* the relentless cobbles of the courtyard continue.
+flag:
+  - outdoors

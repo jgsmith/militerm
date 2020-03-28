@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:island13"
+      north:
+        target: "scene:aber:island:ruins2"
+      south:
+        target: "scene:aber:island:cragg"
+    short: Narrow Path
+    sight: >
+      You are following a narrow, and suprisingly, if not alarmingly, well used path. The path leads
+      northwards towards some ruins, and south through the bushes and trees, towards a low crag. An additional
+      path leads east.
+flag:
+  - outdoors

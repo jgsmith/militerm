@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore17"
+      west:
+        target: "scene:aber:avairy:shore15"
+    short: The Shore
+    sight: >
+      A large bird flies over head and you wonder why he is circling you. It is almost like you are being
+      watched. The waves from the north spray you with mist as they break on large jagged rocks. Passage south
+      is blocked as a large cliff darts up twenty feet into the air. The shore line continues east and west.
+flag:
+  - outdoors
+  - light

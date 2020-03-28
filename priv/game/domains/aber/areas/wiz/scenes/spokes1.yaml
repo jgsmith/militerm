@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:wiz:spokes2"
+    short: "Spokes' Room"
+    sight: >
+      You have entered Spokes' room. There is not much too this room at all. There is a circular bed in the
+      center of the room, seven feet in diameter. The bed is covered in blue silk sheets, which appear purple
+      because of the rooms red lighting. The lights comes from the five red lamps in each corner of this
+      pentagonal dwelling.
+flag:
+  - party

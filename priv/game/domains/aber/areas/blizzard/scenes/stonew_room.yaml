@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:blizzard:pillared2"
+    short: Stonewalled Room
+    sight: >
+      You are in a small stonewalled room with a grille in the floor. A pillared hall stretches off to the
+      west.
+flag:

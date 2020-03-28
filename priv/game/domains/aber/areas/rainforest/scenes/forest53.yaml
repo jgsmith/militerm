@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest52"
+    short: Shady Waters
+    sight: >
+      Leafy branches droop over the water, bending so far down that their outermost tips actually dip beneath
+      the surface of the river, forming a tunnel in which you now stand with your feet on the very edge of the
+      water. To the west the tunnel closes, so you will have to head back east.
+flag:
+  - outdoors

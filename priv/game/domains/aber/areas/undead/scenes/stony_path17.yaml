@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path18"
+      north:
+        target: "scene:aber:undead:stony_path16"
+      west:
+        target: "scene:aber:undead:forest_path1"
+    short: Stony Path
+    sight: >
+      You stand at the southwestern corner of the moat. The moat continues &+Cnorth&* as far as the eye can
+      see. You can just make out a drawbridge to the &+Ceast. &* The moat still looks impassable and the
+      forest is just getting annoying. However, you think you can make out a path through the trees to the
+      &+Cwest&*.
+flag:
+  - outdoor

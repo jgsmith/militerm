@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:noxypickle:step"
+      west:
+        target: "scene:aber:noxypickle:forest"
+    short: Rotting Bank
+    sight: >
+      The vegetation by the side of the river is slimy and dank, and turning rather brown. As it rots it gives
+      off an intense but pleasant smell which fills your nostrils and head until you can think of nothing
+      else. To the north is a flight of steps leading up to the temple you saw earlier. In a tree above the
+      steps are roosting some curious-looking birds. Their guano covers the steps and appears to be very
+      rapidly eating away the stonework...
+flag:

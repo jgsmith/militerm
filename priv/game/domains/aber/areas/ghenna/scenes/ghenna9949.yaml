@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9950"
+      north:
+        target: "scene:aber:ghenna:ghenna9952"
+      west:
+        target: "scene:aber:ghenna:ghenna9947"
+    short: Surrounded by flames.
+    sight: >
+      Wow! Looks like you just stepped into hell... or at least, a little corner of it. Flames dance on the
+      walls, causing the light to play tricks on your eyes. You can just barely make out a dark figure to the
+      north. Looks to be some sort of stairwell back up to the west, and a bedroom to the east.
+flag:
+  - negregen

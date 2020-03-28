@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:cherorch7"
+      south:
+        target: "scene:aber:fareast:countrybcher"
+    short: Cherry Orchard- Southern Entrance
+    sight: >
+      A line of blossoming cherry trees abruptly divides the barren country- side from a tangled "orchard",
+      stretching back beyond sight. The trees are so tightly packed that only the road offers a way through to
+      the north. The southern end of the road disappears into the scrub and stone of a blasted plain.
+flag:
+  - outdoors

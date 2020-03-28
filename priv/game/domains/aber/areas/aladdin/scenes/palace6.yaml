@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:aladdin:palace5"
+    short: Dead End?
+    sight: >
+      It appears you have come to a dead end. The hall leads back to the west. You notice many foot prints in
+      the dirt that appear to begin at the north wall. Scanning over this north wall, one particular marble
+      block catches your eye.
+flag:
+  - dark

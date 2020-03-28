@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot298"
+      west:
+        target: "scene:aber:camelot:camelot296"
+    short: "Marilith's Room"
+    sight: >
+      Marilith could almost pass as human, if you stopped looking after seeing her lovely face and bare torso
+      (be honest, you did, didn't you?). But looking further reveals that her body is serpantine, and she has
+      6 arms. When armed, she is capable of wielding a weapon with each hand.
+flag:
+  - dark

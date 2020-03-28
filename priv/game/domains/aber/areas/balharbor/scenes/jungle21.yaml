@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle29"
+      south:
+        target: "scene:aber:balharbor:jungle19"
+    short: Plains Trail
+    sight: >
+      You are walking alongside the city wall. You can see a very tall tower sticking out above the wall and
+      wonder why such a tall building would not violate city building codes. It also seems odd you can't see
+      the top of the thing. The trail continues north.
+flag:
+  - outdoors

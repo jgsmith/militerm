@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f4"
+      north:
+        target: "scene:aber:forest:f10"
+      south:
+        target: "scene:aber:forest:cave"
+      west:
+        target: "scene:aber:forest:f4"
+    short: The Clearing
+    sight: >
+      You stand in a large partly shaded clearing deep in the woods. From the edges of the trees faint
+      rustlings disturb the eerie quietness. All around you are thick trees save to the south where the trees
+      end abruptly at a low rocky outcrop.
+flag:
+  - outdoors

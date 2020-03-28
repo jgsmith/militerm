@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:53"
+    short: Magic maze
+    sight: >
+      At last, you passed through the maze. In fact it is the maze that gave up on you. You are much too
+      courageous, patient and wise for it. Something very good waits for you downward. (Sarcasm)
+flag:
+  - maze
+  - noregen
+  - nomobiles

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:temple_guard"
+      north:
+        target: "scene:aber:eforest:intemple"
+      south:
+        target: "scene:aber:eforest:cavern"
+    short: Dark Elf Temple
+    sight: >
+      You have emerged into the largest subterranean cavern that you have ever seen. Above you, the roof lies
+      somewhere beyond the radius of your light source, while to the sides of this cavern, you can just barely
+      make out the walls. Most astounding is a temple lying in the center of this cavern, which has apparently
+      been constructed entirely underground! The temple is made out of some type of dark stone which glows
+      with an unholy black light. Without a doubt, this temple is dedicated to some dark deity. You may enter
+      it to the North. Off to the east and south lie other exits from this cavern.
+flag:
+  - dark

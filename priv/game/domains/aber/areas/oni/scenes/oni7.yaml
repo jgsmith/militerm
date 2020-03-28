@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Ravine
+    sight: >
+      You try to peer further over the ravine edge. As you inch your way forward you lose your balance and
+      tumble forward toward the rapids below.
+flag:
+  - outdoors
+  - nomobiles
+  - death

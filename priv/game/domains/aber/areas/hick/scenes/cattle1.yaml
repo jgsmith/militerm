@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:cattle2"
+      south:
+        target: "scene:aber:hick:hick8"
+    short: Entrance to Livestock Area
+    sight: >
+      The smell of livestock enters your nose and you turn your head away and cough loudly as water comes to
+      your eyes. After a few moments your head clears and you get used to the smell. A small path leads
+      through the livestock area to the north and you can leave to the south.
+flag:
+  - outdoors
+  - nomobiles

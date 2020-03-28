@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9523"
+      west:
+        target: "scene:aber:khanjar:khanjar9521"
+    short: Stepping On Hammocks
+    sight: >
+      The most sturdiest hammocks here resist your weight easily, and thus you are able to move on. Close to
+      the east grows a large, somewhat peculiar bush that covers your vision quite totally.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eforest:home"
+    short: "Dinthiar's Cottage"
+    sight: >
+      You have entered the home of Dinthiar, the Elven King. It is a rather simple dwelling. A bed, table and
+      chair are the only furnishings. However, the whole room is given a 'foresty' feel by the ivy which grows
+      up the insides of the walls, and by the potted plants which hang from the ceiling. It is exactly the
+      type of dwelling that you would expect an elf to have.
+flag:
+  - party

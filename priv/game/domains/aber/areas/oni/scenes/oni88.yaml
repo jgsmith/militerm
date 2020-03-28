@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Prison Cell
+    sight: >
+      The prison cell is completely bare. Just the cold faces of the magically fortified stone walls.
+flag:
+  - cantsummon
+  - nomagic

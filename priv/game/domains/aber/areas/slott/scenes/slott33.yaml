@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott34"
+      south:
+        target: "scene:aber:slott:slott28"
+      west:
+        target: "scene:aber:slott:slott32"
+    short: Hallway
+    sight: >
+      This hallway is dark and dim, in a strange way. Course it should be more enlightened--the whole eastern
+      wall is full with windows and the sun is shining on the western wall. It looks like the wall soaks in
+      all the light that hits it.
+flag:

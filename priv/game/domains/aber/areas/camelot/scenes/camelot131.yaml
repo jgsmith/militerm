@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot130"
+      west:
+        target: "scene:aber:camelot:camelot132"
+    short: Some More Tunnel
+    sight: >
+      Oh Gods, is there never to be an end to this tunnel? Your legs grow tired, but you refuse to stop until
+      you reach the end.
+flag:
+  - dark

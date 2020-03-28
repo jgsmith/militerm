@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:bushes"
+      west:
+        target: "scene:aber:sea:1"
+    short: Sandy Beach
+    sight: >
+      You are standing on a lonely sandy beach shielded from the howling winds by two huge old lava flows to
+      the north and south. Thick bushes cover a huge array of old decaying ruins to the east.
+flag:
+  - outdoors

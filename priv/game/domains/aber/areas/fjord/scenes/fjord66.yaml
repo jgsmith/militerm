@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord67"
+      north:
+        target: "scene:aber:fjord:fjord71"
+      up:
+        target: "scene:aber:fjord:fjord65"
+      west:
+        target: "scene:aber:fjord:fjord69"
+    short: The Dark City
+    sight: >
+      Clusters of black lava rock buildings make up this town, where to even lean against one to rest is to
+      invite puncture wounds and whatever toxins lay on the surfaces. This is the central plaza of the city.
+      Black roads lead away from it to the resident districts. Small plumes of fire explode into reality from
+      pressured gases within the volcano vents, momentarily outlining each stark window against a black
+      background. Ghostly images drift in the plaza building windows, giving rise to an alarming number of
+      inhabiting shadow people. The bleak and voted least desirable town (on the level of hell intersecting
+      the world of life) of Fallenthorp does not get many tourists.
+flag:
+  - dark

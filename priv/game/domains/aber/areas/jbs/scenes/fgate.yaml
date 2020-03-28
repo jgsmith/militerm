@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fwood"
+      east:
+        target: "scene:aber:jbs:fwood"
+      north:
+        target: "scene:aber:jbs:fwood"
+      south:
+        target: "scene:aber:jbs:fwood"
+      up:
+        target: "scene:aber:jbs:fwood"
+      west:
+        target: "scene:aber:jbs:fwood"
+    short: The Gates to Fairyland
+    sight: >
+      As you float through eternity you feel your existence coming once again into a loose, but solid, sense
+      of twisting realities. Before you, above you, below you, or somewhere like that you see the gates to a
+      strange, mystical land.
+flag:
+  - outdoors

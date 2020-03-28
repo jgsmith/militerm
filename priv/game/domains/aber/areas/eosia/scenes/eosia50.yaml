@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:eosia:eosia51"
+    short: "Ghwerig's Cave"
+    sight: >
+      You stand in one of the messiest room's you have ever seen. This is the home of the insane troll,
+      Ghwerig. After having locked himself away with the Bhelliom, Ghwerig went utterly insane. Rags, various
+      pieces of metal and other nick-nacks lay strewn about on the floor. You feel very claustrophobic in
+      here. The ceiling appears as if it wants to collapse!
+flag:
+  - cold
+  - dark
+  - oneperson
+  - negregen

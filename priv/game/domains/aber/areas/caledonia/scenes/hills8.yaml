@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere1"
+      south:
+        target: "scene:aber:caledonia:hills12"
+      west:
+        target: "scene:aber:caledonia:hills4"
+    short: Pine Forest
+    sight: >
+      You are walking beneath the tall pine trees that make up this coniferous forest. In the main the
+      branches of the trees are well above your head and you can walk about comfortably underneath their
+      prickly foliage. A thick layer of pine needles covers the floor of the forest and the ground yields a
+      little beneath your weight. To the north-west a granite cliff rises sheer out of the ground and soars
+      skyward, imposing and unscalable.
+flag:
+  - outdoors

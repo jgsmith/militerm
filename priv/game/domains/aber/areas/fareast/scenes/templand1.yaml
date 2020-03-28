@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:templepass"
+      east:
+        target: "scene:aber:fareast:templand3"
+      north:
+        target: "scene:aber:fareast:hermithut"
+      south:
+        target: "scene:aber:fareast:templepass"
+      up:
+        target: "scene:aber:fareast:templand3"
+    short: Mountainside
+    sight: >
+      The gradual rise here is abutted to the east by a steep face, which is rough enough to scale to the
+      temple above. To the north, a small hut of bamboo and moss is wedged into a crack in the blocking stone
+      wall. Down the slope, an easy walk to the south, a narrow gap opens onto the cliffside below.
+flag:
+  - outdoors

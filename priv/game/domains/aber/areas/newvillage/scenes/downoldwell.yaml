@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:newvillage:oldwell"
+    short: The Village Well
+    sight: >
+      You decide to lower yourself into the well and down onto the metal grate. The grate seems to be sturdy
+      as you test it out with one foot and then the other. You set both feet down on the grate and relax your
+      grip on the well. You study the make of the well, which seems to be made of large pieces of impermeable
+      rock. The well itself looks deep, but you can't really guess its depth, as there is complete darkness
+      below.
+flag:

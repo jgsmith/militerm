@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Up the Creek
+    sight: >
+      The current is too swift here for safe navigation. Oh, dear you seem to be up the creek without a
+      paddle...
+flag:
+  - death

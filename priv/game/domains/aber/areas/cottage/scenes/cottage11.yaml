@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cottage:cottage9"
+      south:
+        target: "scene:aber:cottage:cottage12"
+    short: Cliff Face
+    sight: >
+      Standing on a ledge running north and south a few feet below the top of a cliff, you stare down into the
+      swirling mists below. You may, if careful, be able to scramble up to the valley above. The outlines of a
+      bridge spanning the chasm are barely visible to the south.
+flag:
+  - outdoors

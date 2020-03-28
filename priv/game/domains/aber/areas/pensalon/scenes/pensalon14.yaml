@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pensalon:pensalon13"
+      south:
+        target: "scene:aber:pensalon:pensalon15"
+    short: Guard House
+    sight: >
+      This is a small room at the top of the tower where the guard who is on watch may escape from the
+      elements on a horrible day. Through the southern arch you see the edge of the wall, and below you the
+      staircase lazily head back down to the ground level.
+flag:

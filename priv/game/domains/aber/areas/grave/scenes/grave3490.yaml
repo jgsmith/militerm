@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3488"
+    short: Demons Quarters
+    sight: >
+      The demon here is not nearly as neat as the others. There is still equipment with notes beside them but
+      they are scattered about the room. The room is dusty and you spot the owner sitting comfortably in a
+      chair on the west wall. You may quickly be able to exit east.
+flag:

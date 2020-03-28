@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:undead:dungeon3"
+      west:
+        target: "scene:aber:undead:dungeon1"
+    short: Dungeon
+    sight: >
+      You stand deep in the dungeon. All around you is quiet. The corridor ends here in a long set of marble
+      steps that lead down into the bowels of the earth. Several brass lanterns, built into the walls, light a
+      path to your &+Cwest&*.
+flag:

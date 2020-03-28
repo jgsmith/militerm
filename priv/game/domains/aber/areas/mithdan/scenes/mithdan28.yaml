@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan34"
+      west:
+        target: "scene:aber:mithdan:mithdan27"
+    short: Stone Clearing
+    sight: >
+      The clearing looks as if it was formed hundreds of years ago by a searing heat. The ground beneath you
+      is perfectly smooth stone, and its almost polished surface reflects the suns rays into your face. The
+      clearing becomes a thin trail leading down the side of the mountain to the west, and to the south the
+      trail passes beneath a huge stone arch.
+flag:
+  - outdoors
+  - cold

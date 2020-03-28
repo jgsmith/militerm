@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cottage:cottage18"
+      north:
+        target: "scene:aber:town:town12"
+      west:
+        target: "scene:aber:cottage:cottage18"
+    short: Shipyard Office
+    sight: >
+      This is a small office where records are kept for all shipping that goes on in the area. It is very
+      messy and there seems to be no rhyme or reason to this office. The street is back north, while part of
+      the shoreline runs alongside downstairs to the west.
+flag:
+  - nomobiles

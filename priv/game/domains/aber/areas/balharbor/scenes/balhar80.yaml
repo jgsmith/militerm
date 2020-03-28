@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar80"
+      south:
+        target: "scene:aber:balharbor:balhar81"
+      up:
+        target: "scene:aber:balharbor:balhar79"
+      west:
+        target: "scene:aber:balharbor:balhar80"
+    short: Yllythad Beach
+    sight: >
+      ...and now turn the camera to this section outside town where you have seemingly ended up on this
+      beach...not just any beach, but Yllythad Beach. Beach goers notice that you are a stranger here and
+      approach you yelling and screaming that you are trespassing here demanding you get lost. You better
+      leave this beach back upward to the dock before they all kick sand in your face and drag you off by your
+      feet or you can jump in the water and try to swim away from them to the south. The beach extends itself
+      for as far as the eye can see from the east and west.
+flag:
+  - maze
+  - outdoors

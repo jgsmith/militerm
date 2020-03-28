@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest50"
+      south:
+        target: "scene:aber:rainforest:forest47"
+      west:
+        target: "scene:aber:rainforest:forest46"
+    short: "Insects' Deathtrap"
+    sight: >
+      Between two bushes here a large spider's web is stretched. When you tug gently on one of the strands, a
+      pair of very large, very hairy legs appears from within one of the bushes. You hastily withdraw your
+      hand and, after a short while, the legs retreat. You then notice a number of packages, cocooned in silk,
+      and you marvel at the size of them, then reflect on the size of their nemesis. To the east you see a
+      glint of water.
+flag:
+  - outdoors
+  - rainforest

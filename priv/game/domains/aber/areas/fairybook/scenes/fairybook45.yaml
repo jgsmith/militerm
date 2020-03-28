@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook3"
+    short: Behind the Great Desk
+    sight: >
+      You stand behind the great desk, overlooking the courtroom. It is littered with bodies. An escape hatch
+      is hidden here beneath the desk.
+flag:
+  - nomobiles

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:jbs:giants_bed"
+    short: Under the Bed
+    sight: >
+      You are under the giants bed. You have to stoop just a little because the bed sagging pretty badly under
+      the giant's weight, but the bed looks like it can hold...for the time being at least.
+flag:

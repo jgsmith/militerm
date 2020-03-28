@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town11"
+      north:
+        target: "scene:aber:cottage:cottage17"
+      south:
+        target: "scene:aber:cottage:cottage19"
+      up:
+        target: "scene:aber:cottage:cottage17"
+    short: Shoreline
+    sight: >
+      The damp passage ends here, leading down into an underground resevoir. The sound of running water echoes
+      out of the darkness. The large shape of a forgotten dam looms out of the darkness to the south.
+flag:
+  - dark

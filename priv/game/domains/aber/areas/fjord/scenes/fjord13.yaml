@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord16"
+      south:
+        target: "scene:aber:fjord:fjord14"
+      west:
+        target: "scene:aber:fjord:fjord12"
+    short: Sandy Lakeside
+    sight: >
+      The meadow terminates at the beachline of the lake. The sand here is a glistening pinkish-orange,
+      sparkling in the sunlight or moonlight. Roughly fifteen feet to the east, the crystal clear liquid of
+      the lake ebbs and flows gently, where some freshwater sand dollars eke out their lives in ceaseless
+      contemplation of their intertidal universe. Scitter bugs live up to their namesake as they glide along
+      the surface. and small fish swim down the drop-off near the water's edge. A family of deer stand on the
+      shore further to the north, sipping quietly from the lake.
+flag:
+  - outdoors

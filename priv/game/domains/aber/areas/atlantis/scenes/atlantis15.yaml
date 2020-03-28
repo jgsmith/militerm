@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis20"
+      north:
+        target: "scene:aber:atlantis:atlantis14"
+      south:
+        target: "scene:aber:atlantis:atlantis16"
+      west:
+        target: "scene:aber:atlantis:atlantis10"
+    short: Kelp Bed
+    sight: >
+      Long strands of kelp reach up from the sea floor here, sheltering small schools of fish who make their
+      home here. The kelp sways in the current, performing some strange, exotic dance. The kelp grows more
+      closely together to the north and east, while it thins out to the west and to the south, near a large
+      gate.
+flag:
+  - underwater

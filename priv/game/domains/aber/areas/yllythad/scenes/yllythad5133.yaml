@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5028"
+      north:
+        target: "scene:aber:yllythad:yllythad5134"
+      south:
+        target: "scene:aber:yllythad:yllythad5132"
+    short: East of the Jetty
+    sight: >
+      A tumbled rock jetty lies to the west, a small home and lighthouse perched at the end. The water swirls
+      and splashes at the rocks, their sharp ends cutting into the water. It does not appear safe to attempt
+      climbing those rocks to the lighthouse.
+flag:
+  - onwater
+  - outdoors

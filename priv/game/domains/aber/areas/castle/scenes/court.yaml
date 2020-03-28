@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:castle:stables"
+      north:
+        target: "scene:aber:castle:port"
+      south:
+        target: "scene:aber:castle:o_hall"
+      west:
+        target: "scene:aber:castle:guard"
+    short: The Central Courtyard
+    sight: >
+      You stand in the central courtyard of a huge and ancient castle. Flickering torches, set high around the
+      walls, illuminate even the darkest corners with a reddish flickering glow. A huge archway leads north,
+      its sides carved with fantastic images of dragons and fables. Arched entryways lead south, east and
+      west.
+flag:

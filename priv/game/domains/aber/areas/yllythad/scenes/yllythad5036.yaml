@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5041"
+      north:
+        target: "scene:aber:yllythad:yllythad5147"
+      west:
+        target: "scene:aber:yllythad:yllythad5275"
+    short: A Strong Current
+    sight: >
+      This area of the sea is carried along by a strong undercurrent which moves the water in its own
+      direction, regardless of the wind or weather topside. The sea is dashed again and again against the rock
+      face of a cliff on the south side. To the west a huge opening in the cliff can be seen, opening into a
+      large bay.
+flag:
+  - onwater
+  - outdoors

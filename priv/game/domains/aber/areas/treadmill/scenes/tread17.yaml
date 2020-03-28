@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung8"
+    short: "The Devil's Curve"
+    sight: >
+      You have traveled to a blind curve in the cliffside. It is a tight curve, one that is safer for walkers
+      but very dangerous to those riding on wheels. It is said that many chariots, buggies, and carts have
+      fallen off the edge at the curves tightest turn into a mighty chasm that looks like it goes all the way
+      to the gates of Hades. Myths have been spread that occasionally something comes out of the chasm to
+      haunt the nearby lands. Most people refuse to believe these myths however.
+flag:
+  - peaceful
+  - outdoors

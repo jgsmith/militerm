@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:adept:adept63"
+    short: The Hold
+    sight: >
+      The ship's stores are quite full when the Seeker is en route to its local fishing route, but now only a
+      few remote specks of dust fly through the single sunbeam and scatter into the corners.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds35"
+      west:
+        target: "scene:aber:dragonslueth:ds39"
+    short: Grassy Path
+    sight: >
+      Hmm, what does this mean?? You are probably 20 feet below the surface and you can see grass growing?
+      Hmm, does that mean a good thing or bad?
+flag:

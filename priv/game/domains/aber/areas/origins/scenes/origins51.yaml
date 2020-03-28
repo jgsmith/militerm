@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:origins:origins52"
+    short: Takeoff!
+    sight: >
+      The ship starts to move slightly, and the slight hum you heard increases in intensity to nearly
+      intolerable levels! The ship suddenly lurches upward, and you feel like you are going to be sick. Your
+      ears pop, your vision blurrs, and you feel faint. But you know that there is no turning back now. As
+      soon as the dome of the planet is cleared, you begin to feel accustomed to the travel. Through the
+      windows, you can see the very stars you saw at night back home. Meanwhile, brave Neil Peart tells you a
+      story: "&+WIn the constellation of Cygnus, there lurks a mysterious, &+Winvisible force; the Black Hole
+      of Cygnus X-1. Six stars of the &+WNorthern Cross, in mourning for their sister's loss, in a final
+      &+Wflash of glory, nevermore to grace the night...&n"
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc3"
+      south:
+        target: "scene:aber:ancient:anc5"
+    short: Overgrown street
+    sight: >
+      A long time ago this town might have been a major center in this area. However, time has done its' job
+      and you can hardly discern the pavement under your feet. The street leads north into the town. To the
+      south there is a swamp which does not look very inviting.
+flag:
+  - outdoors

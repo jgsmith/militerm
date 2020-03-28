@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook55"
+    short: The Third Square
+    sight: >
+      The path you follow crosses six tiny brooks. You leap the first and find yourself standing before a
+      ticket gate. Through the gate to the east is a train.
+flag:
+  - outdoors

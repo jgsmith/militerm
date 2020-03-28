@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:btower135"
+    short: The War Room
+    sight: >
+      Battle plans drawn out on maps of the region line the walls with marks indicating territory taken over.
+      One town has a line drawn to it reading 'Dragonorb Operation'. Hmm...somehow this sounds familiar,
+      perhaps after you finish this mission you should go out to this part of the world and shut down that
+      operation too.
+flag:

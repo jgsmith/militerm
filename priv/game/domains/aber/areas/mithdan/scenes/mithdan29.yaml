@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Icy Slide
+    sight: You slip on the ice and plummet to your death.
+flag:
+  - death
+  - outdoors
+  - cold

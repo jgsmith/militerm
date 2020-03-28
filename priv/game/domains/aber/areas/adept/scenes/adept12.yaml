@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept13"
+      west:
+        target: "scene:aber:adept:adept7"
+    short: Gravel Road
+    sight: >
+      A non-descript radway leads due east and west. Horse and wagon travel leave billowing clouds of rocky
+      dust int he air, which is to be carried away by the gentle breezes in this valley.
+flag:

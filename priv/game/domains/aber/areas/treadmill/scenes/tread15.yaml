@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:village:shore"
+    short: "The Devil's Archway"
+    sight: >
+      A large stone arch has formed over this location over thousands of years amid the other rocks and
+      boulders that have formed from earthquakes, waves crashing against the shore and the occasional
+      hurricane. What's so special about this arch that it has been said that nearby inhabitants of the land
+      claim to have seen figures emerge from the arch from nowhere, a steady stream of them in fact. The
+      locals hearby deemed it the devil's archway and kept their children from going near it fearing one may
+      get sucked away to the 'other side'.
+flag:
+  - peaceful
+  - outdoors

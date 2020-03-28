@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:bstream"
+    short: Outside the Swamps of Peril
+    sight: >
+      This area appears to be the only break in the brambles and dense and twisted vegetation to allow
+      entrance eastward into the swamp, at least for those that are brave and staunch enough to venture
+      further. You hear strange sounds coming from inside the swamp, making your blood cold. The stream here
+      smells fetid and vile, as if foul substances were dumped into it. You would feel much more comfortable
+      if you headed back east along the stream.
+flag:
+  - outdoors

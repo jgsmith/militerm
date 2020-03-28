@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:personalhell7"
+      south:
+        target: "scene:aber:undead:personalhell9"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You watch yourself a younger &+Ryou, a wiser you out to conquer the world with all
+      the you knew. But then &+Ryou remember they were there weren't they? They were just so perfect, &+Rthey
+      kept getting everything that by right you knew should have been &+Ryours. You know they did not deserve
+      what was yours, even if others &+Rdon't. That is all that matters.
+flag:
+  - soundproof

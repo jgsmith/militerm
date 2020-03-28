@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Blorp!
+    sight: >
+      You seem to have fallen into a tarpit. Who knows? Perhaps one day your bones will be excavated and
+      placed in a museum. Better luck next time.
+flag:
+  - death

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds8"
+      south:
+        target: "scene:aber:dragonslueth:ds4"
+    short: Path
+    sight: >
+      You have come to a dark path inside this gloomy cave. The path continues &+Cnorth&* and the Snowy Field
+      is &+Csouth&*.
+flag:

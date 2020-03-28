@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan41"
+      south:
+        target: "scene:aber:mithdan:mithdan46"
+      west:
+        target: "scene:aber:mithdan:mithdan43"
+    short: Hallway
+    sight: >
+      The floor tiles shift in hypnotic patterns, possibly following the forms of nature. The hall becomes
+      much hotter and itermitent bursts of flame jet from the floor and walls to the south. The hall continues
+      normally to the west and north.
+flag:

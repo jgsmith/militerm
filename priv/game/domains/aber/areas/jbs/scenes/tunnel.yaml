@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:damp"
+      west:
+        target: "scene:aber:jbs:bottom"
+    short: In the Tunnel
+    sight: >
+      The tunnel turns to south up ahead and continues into darkness. As you look at the floor you see some
+      very large footprints that seem to indicate that this is a fairly well traveled route, although by
+      looking at the prints you can't really tell what it is that travels here.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle22"
+      south:
+        target: "scene:aber:balharbor:jungle24"
+    short: Further Down the Creek
+    sight: >
+      The water flow has picked up considerably and seems to feed into a raging river. If you have a boat you
+      could risk riding the rapids...well, why not take the chance? I didn't put in any deathrooms nearby! You
+      could go back up the creek northward.
+flag:
+  - outdoors
+  - nomobiles

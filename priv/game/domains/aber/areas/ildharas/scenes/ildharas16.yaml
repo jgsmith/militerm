@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ildharas:ildharas15"
+    short: Smithy
+    sight: >
+      The forge is cold, but the smith's tools are well cared for and well used. The beginnings of a long
+      dagger rest in a bucket of water. A few horseshoes lie thrown in a corner and a cracked pot sits on the
+      work bench.
+flag:

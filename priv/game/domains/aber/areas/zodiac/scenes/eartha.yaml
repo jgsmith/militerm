@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:zodiac:southend"
+      south:
+        target: "scene:aber:zodiac:virgo"
+      west:
+        target: "scene:aber:zodiac:taurus"
+    short: The Earth
+    sight: >
+      This is a very small version of the Earth that you know, in fact, it doesn't even resemble the Earth at
+      all, it's just a small area of dirt and grass with a big pine tree in the middle.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:foot"
+      west:
+        target: "scene:aber:waste:ledge"
+    short: Fiery Tunnel
+    sight: >
+      You are walking along a trembling, and shaking volcanic tunnel of some sort. The glowing walls are thick
+      with sulphur, and the stench makes you want to throw up. The passage enters an open air amphitheatre to
+      the west, but to the east it continues towards some steps.
+flag:
+  - hot

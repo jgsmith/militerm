@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:dcave14"
+      west:
+        target: "scene:aber:fantasy:dcave12"
+    short: Turn in the passageway
+    sight: >
+      The passageway turns to the south here. You can see some sort of light coming from the end of the
+      passage.
+flag:
+  - dark

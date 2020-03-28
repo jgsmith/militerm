@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:pitpass"
+      east:
+        target: "scene:aber:fareast:pitpass"
+      north:
+        target: "scene:aber:fareast:countrya_3"
+      south:
+        target: "scene:aber:fareast:countryacurse"
+    short: Countryside- Overgrown
+    sight: >
+      Scrub brush and tall grasses choke the land around this stretch of road. To the north, this verdure
+      fades into carefully kept fields and pastures. The overgrowth gradually thickens toward the south, but a
+      line of haze and dead foliage marks where the green abruptly changes to black, and the healthy
+      overgrowth changes to sickly clots of blighted vegetation and intertwining brambles. Just before that
+      line, the roadside drops away toward a sinkhole, the bottom of which looks clean and bare.
+flag:
+  - outdoors

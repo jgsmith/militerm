@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter5"
+      south:
+        target: "scene:aber:enchanter:enchanter10"
+      up:
+        target: "scene:aber:enchanter:enchanter10"
+    short: Bend in the Road
+    sight: >
+      The road bends towards the southeast here. Small trails lead northeast into the woods, and south up the
+      mountain.
+flag:
+  - outdoors
+  - real
+  - tempreal

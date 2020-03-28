@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:sundhaven:sundhaven6630"
+    short: The east gate of Sundhaven
+    sight: >
+      You stand on the eastern border of Sundhaven, before a heavy gate forged from iron and painted
+      bone-white. A hot desert wind blows through the grating sporadically, giving hint to the vast regions
+      beyond.
+flag:
+  - outdoors

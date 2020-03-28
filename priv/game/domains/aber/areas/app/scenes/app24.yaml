@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:app:app27"
+      up:
+        target: "scene:aber:app:app25"
+      west:
+        target: "scene:aber:app:app22"
+    short: Stairwell
+    sight: A spiral staircase leads both up and down.
+flag:

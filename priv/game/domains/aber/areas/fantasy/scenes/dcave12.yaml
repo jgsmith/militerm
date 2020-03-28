@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave13"
+      west:
+        target: "scene:aber:fantasy:dcave11"
+    short: Eastern Passageway
+    sight: >
+      This passageway is a little bit warmer than the passages that you have been in already, this makes you
+      feel a little bit better. The passage continues to the east.
+flag:
+  - dark

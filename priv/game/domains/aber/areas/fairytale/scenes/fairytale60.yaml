@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale61"
+      north:
+        target: "scene:aber:fairytale:fairytale64"
+      west:
+        target: "scene:aber:fairytale:fairytale54"
+    short: Lake
+    sight: >
+      The lake is a large body of water. It looks very deep, and you could probably swim in it if you wanted
+      to, but you doubt that the fish that live there would appreciate that. To the west is a playground, and
+      to the north is a river, feeding into the lake. In the distance, to the east, you can see a statue
+      standing alone on an island.
+flag:

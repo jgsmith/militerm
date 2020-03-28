@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:maeron:path1"
+      west:
+        target: "scene:aber:maeron:path3"
+    short: &+GGrassy field
+    sight: >
+      You are standing in a field of beautiful lush tall mountain grass. As the wind blows through the grass,
+      it reminds you of a giant green sea. To the &+Rwest&* is a sunny granite path.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera19"
+      up:
+        target: "scene:aber:opera:opera10"
+    short: The Organ
+    sight: >
+      You are in the room under the stage from which all the stage lighting is controlled. The mass of gas
+      pipes and controls along one wall gives this room its name. A dark passage leads east.
+flag:

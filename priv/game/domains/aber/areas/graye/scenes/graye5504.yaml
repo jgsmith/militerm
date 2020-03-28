@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5503"
+      north:
+        target: "scene:aber:graye:graye5506"
+      south:
+        target: "scene:aber:graye:graye5507"
+      west:
+        target: "scene:aber:graye:graye5511"
+    short: Entrance to the Forest of Graye
+    sight: >
+      The trail passes into the shade here, and the temperature drops quite suddenly. Great broad leaf trees
+      gather the descending sunlight, and cover the leaf-strewn forest floor with dappled sunlight. The wagon
+      trail becomes much wider here, showing signs of recent heavy use. The wagon trail runs from west to east
+      here, and it looks possible to venture into the forest to the north and south.
+flag:
+  - outdoors

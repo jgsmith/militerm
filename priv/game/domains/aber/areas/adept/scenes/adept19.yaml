@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept21"
+      south:
+        target: "scene:aber:adept:adept20"
+      west:
+        target: "scene:aber:adept:adept17"
+    short: Main Street
+    sight: >
+      Here the suburbs brgin to change into sparser highway settlements as the city's outskirts circle
+      intersects this area. The road ends to the east in a turn-around, heads for the center of the city to
+      the west, and to a shop to the south.
+flag:

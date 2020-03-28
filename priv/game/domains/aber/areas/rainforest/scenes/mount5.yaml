@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount6"
+      east:
+        target: "scene:aber:rainforest:mount4"
+      south:
+        target: "scene:aber:rainforest:mount6"
+    short: Dry Gully
+    sight: >
+      Once a stream flowed through here, and perhaps still does, at those times of year when the rain is most
+      intense. Yet for now this gully is as dry as a bone, and you can make good use of it as a path leading
+      down to the south, into a sheltered v-shaped valley. Alternatively you can clamber up the eastward slope
+      which is less steep than those to the north and west.
+flag:
+  - outdoors

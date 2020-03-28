@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan36"
+      south:
+        target: "scene:aber:mithdan:mithdan42"
+    short: Stone Hall
+    sight: >
+      The patterns of the tiles draw you into them, and it takes a great concious effort to pull your gaze
+      away. The deep thrumming of magical forces is even stronger now, but you still cannot find its source.
+      The hall turns corners to the north and south.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:path5"
+      west:
+        target: "scene:aber:cathedral:path3"
+    short: Beside The &+LTower&*
+    sight: >
+      The tower wall rises up to the north, and as you look up you cannot see to the top of it. The path goes
+      on both east and west, through the thick canopy of &+gfoliage&*.
+flag:
+  - dark
+  - outdoors

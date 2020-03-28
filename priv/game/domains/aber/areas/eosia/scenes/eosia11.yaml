@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia53"
+      east:
+        target: "scene:aber:eosia:eosia12"
+      west:
+        target: "scene:aber:eosia:eosia10"
+    short: The Moat
+    sight: >
+      "Moat": 1) a deep and wide trench around the rampart of a fortified place (as a castle) the is usually
+      filled with water. Yup, that's what this is. The bridge you are on continues to the east into the
+      Pandion chapterhouse, or goes back to the west to the city.
+flag:
+  - outdoors

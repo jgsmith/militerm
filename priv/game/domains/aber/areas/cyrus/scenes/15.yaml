@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cyrus:66"
+    short: &+cEnlighted room of Velux
+    sight: >
+      When you enter the room, the light is so strong that you have to close your eyes to let them accomodate
+      with the light. As you open your eyes, you are gaping in front of the majestic beauty of this place.
+      Just in the center of the room, a beautiful sword is standing on its stand. You're wondering who could
+      have made this mystic sword. You see a beautiful Christ statue here.
+flag:

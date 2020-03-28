@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:eartha"
+    short: The Arena
+    sight: >
+      This is a huge arena used for bull fighting. From the looks of things the bull fighters haven't been
+      doing too well...there is a big scoreboard on the north wall. It reads: Bulls: 73108 Matadors: 190
+      Well...at least it hasn't been a total annihilation.
+flag:

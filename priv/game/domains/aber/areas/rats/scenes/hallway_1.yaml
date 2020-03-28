@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rats:hallway_2"
+      north:
+        target: "scene:aber:rats:terrace"
+      south: null
+      west: null
+    short: Hallway
+    sight: >
+      You are standing in the hallway. All the walls are made of wood. There is a large window to the west and
+      there is a door next to it. You also can have a look at yourself in the mirror hanging on the south
+      wall. You see some shoes laying around, though not many. It looks like a small family is living here.
+flag:

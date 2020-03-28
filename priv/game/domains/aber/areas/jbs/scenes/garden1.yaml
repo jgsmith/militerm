@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:garden3"
+      west:
+        target: "scene:aber:jbs:garden"
+    short: The Garden
+    sight: >
+      You are at the end of a what must be a small path for the proprietor of this garden. The path is
+      surrounded on all sides by fencing. To the south, however, it looks like one of the links has been bent
+      just enough for you to squeeze through.
+flag:
+  - nomobiles

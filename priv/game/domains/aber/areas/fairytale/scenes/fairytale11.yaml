@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale10"
+    short: In the Car
+    sight: >
+      The seats of this ride are red vinyl, and the floors are sticky. You sit down and rest for a moment, as
+      the car begins to move. Soon you are high above the carnival grounds, and you can see a huge fun house,
+      a balloon ride, and a gigantic castle on a cloud in the distance. After a few minutes, the car returns
+      to the ground.
+flag:
+  - nomobiles

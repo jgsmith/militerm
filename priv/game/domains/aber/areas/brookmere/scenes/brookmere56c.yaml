@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere56x"
+      south:
+        target: "scene:aber:brookmere:brookmere56b"
+      up:
+        target: "scene:aber:brookmere:brookmere56x"
+      west:
+        target: "scene:aber:brookmere:brookmere56d"
+    short: Up the &+WStairs
+    sight: >
+      Up is down and down is up on this staircase, as both directions lead nowhere. Still you plod on, up,
+      down, around and around, trying to figure out a way to get back to the bottom of them.
+flag:

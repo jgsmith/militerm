@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+    short: &+WThe White Light
+    sight: >
+      &+W This is a vast expanse of searingly bright white light. A feeling of &+Wpeace and serentity
+      overwhelmes you as you gaze in awe into this endless &+Wexpansion. Time and space seem to stand still
+      here, and you get the sense &+Wthat this room is not of this world.
+flag:
+  - oneperson
+  - nosnoop
+  - cantsummon
+  - nosummon
+  - soundproof

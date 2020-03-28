@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:smelly"
+    short: Feeding Chamber
+    sight: >
+      As you enter this room, you step on a pile of intestines and fall to the floor where you are covered
+      with blood and guts. After a few tries you manage to scramble to your feet and maintain your balance.
+      The stench of rotten flesh in here is almost overwhelming, and as you examine the many entrails and
+      bones lying around the room you notice that they are exclusively human.
+flag:
+  - dark

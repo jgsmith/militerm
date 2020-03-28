@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon32"
+      west:
+        target: "scene:aber:talon:talon30"
+    short: Lifeless Valley
+    sight: >
+      You are now in a dark valley, on a small path traversing this barren landscape. The skies are filled
+      with a dark haze which seems to become even more black and evil as you travel to the east. All around
+      you, shadows seem to dance around the edges of the fading red light, as if anticipating the overcoming
+      darkness. To the west, a dark foothill looms before you, as if suspended in the darkness. To the east,
+      you can make out a large black castle built on the side of a towering mountain peak.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:blocked"
+      north:
+        target: "scene:aber:frobozz:by"
+      south: null
+    short: Passageway
+    sight: >
+      You are in a wide and highvaulted passageway which comes in from the north and branches off into an
+      eastgoing tunnel that is no less in size. Carved into the rock of the two main tunnels are two big
+      arrows; one pointing to the north and the other to the east. Under the first arrow the word BANK is
+      written and under the second one the words MAIN GUE have been written.
+flag:
+  - dark

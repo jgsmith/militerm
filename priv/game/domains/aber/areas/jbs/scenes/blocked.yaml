@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:tunnel1"
+    short: Blocked Tunnel
+    sight: >
+      The tunnel is blocked off here by a recent cave-in. The only exit is back to the east.
+flag:
+  - dark

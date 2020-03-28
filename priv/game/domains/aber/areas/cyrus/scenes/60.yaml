@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:62"
+      north:
+        target: "scene:aber:cyrus:61"
+      south:
+        target: "scene:aber:cyrus:59"
+      west:
+        target: "scene:aber:cyrus:63"
+    short: Before the Gates
+    sight: >
+      You are now standing before those gates. You have to choose among these possibilities. Your fate all
+      depends on that decision. Even if it's now difficult to breathe, you have to go down.
+flag:
+  - negregen
+  - hot

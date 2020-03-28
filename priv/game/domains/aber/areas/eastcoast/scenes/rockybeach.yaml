@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:shore"
+      south:
+        target: "scene:aber:eastcoast:footcliff"
+    short: Rocky Beach
+    sight: >
+      Small rocks and pebbles intermingle with the sands of the beach here, making you check your steps, lest
+      you slip. The cliff appears to drop off to the south from here, and you can investigate further by
+      following the beach to the south, or to follow the increasingly narrowing coast to the north.
+flag:
+  - outdoors

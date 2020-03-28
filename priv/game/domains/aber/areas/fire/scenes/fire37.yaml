@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire36"
+      south: null
+    short: Huge hut
+    sight: >
+      You are standing in the huge hut. You see many robbers here. They are celebrating a good trip. They have
+      captured the son of one of the most richest people in the land. You see many tables full with half eaten
+      food and lot of empty bottles of vine and beer. There is a tall totaly drunk robber sitting (laying) on
+      his some kind of &+ythrone&*. He is so drunk so he is not mentioning you. Also only some of other
+      robbers mentioned you, but you don't think that they will be able to do anything against you. Exit leads
+      to north.
+flag:

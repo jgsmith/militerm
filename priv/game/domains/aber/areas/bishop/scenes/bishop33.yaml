@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop34"
+      west:
+        target: "scene:aber:bishop:bishop32"
+    short: Horizon Expanse Pathway
+    sight: >
+      The fertile and rolling plains are broken by sporadic patches of thorny briars and seven foot tall
+      thistles. The road becomes pitted with rocks and holes, turning the terrain into a weed-consumed
+      landscape. Dead tangles of ivy and poison oak grow in increasing quantities, their long, brown-leafed
+      vines winding around a pair of rusty iron gates to the east.
+flag:
+  - outdoors

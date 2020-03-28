@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:recluse"
+      north:
+        target: "scene:aber:grove:grove_path"
+      south:
+        target: "scene:aber:grove:entrance"
+      west:
+        target: "scene:aber:grove:fig_garden"
+    short: Over View
+    sight: >
+      You reach a high point in the forest, overlooking the entire forest. The mist slightly curls upwards to
+      the sun, dew sparkling on the ground and leaves. To the north you see a well-worn path. East is a thick
+      crop of shrubs. South you see the meadow of the beginning of the Elven Forest, while westwards lies a
+      dense garden. The beauty might make your eyes tear a bit.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

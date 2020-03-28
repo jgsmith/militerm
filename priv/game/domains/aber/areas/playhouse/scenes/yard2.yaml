@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:playhouse:yard5"
+      south:
+        target: "scene:aber:playhouse:yard8"
+      west:
+        target: "scene:aber:playhouse:yard1"
+    short: Sandbox
+    sight: >
+      You stand in the middle of what appears to be a sandbox. The sand is a beautiful &+Wwhite&* color.
+      Teeter-totters are to the north. To the south is where the kids are playing on all the ridable toys.
+      West leads you back into the middle of the playground.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:gap"
+      east:
+        target: "scene:aber:eirias:mountain"
+      west:
+        target: "scene:aber:caledonia:hills15"
+    short: Mountainside
+    sight: >
+      You are on the side of a tall mountain which rises to the south. Without the necessary equipment you
+      could not possibly climb it, but a narrow and well-worn path skirts around the side of the mountain,
+      leading west. You could follow that or descend into the valley.
+flag:
+  - outdoors
+  - nomobiles

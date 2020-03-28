@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+    short: The Library
+    sight: >
+      You find it kind of strange that this handsome room is the only room in the house. You wonder who might
+      live here, and what the purpose of having a one room house in the middle of the space is.
+flag:

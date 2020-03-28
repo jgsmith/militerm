@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_2"
+      north:
+        target: "scene:aber:haunted:haunted_16"
+      south:
+        target: "scene:aber:haunted:haunted_0"
+      west:
+        target: "scene:aber:haunted:haunted_14"
+    short: Path into the Haunted Woods
+    sight: >
+      After taking a few steps, you turn and find that you are completly engulfed in the forest. Lightening
+      strikes all over the dark sky, and thunder booms throughout the land. There are three directions in
+      which to choose where to go. Each one looks dark and gloomy.
+flag:
+  - real
+  - outdoors

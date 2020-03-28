@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:fountain"
+    short: The Garden
+    sight: >
+      You pause for a moment, held by delight. The air is heavy with fragrance, and everywhere there are
+      roses. Squares, triangles, circles of bright blossom patch the grass all around, red and yellow and
+      white and all colours between. Before you is the entrance to an enclosed circular garden, a tall arch in
+      a high hedge of tumbling red roses.
+flag:
+  - outdoors

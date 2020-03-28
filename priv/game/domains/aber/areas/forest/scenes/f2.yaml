@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:path"
+      north:
+        target: "scene:aber:forest:path"
+      south:
+        target: "scene:aber:forest:f1"
+      west:
+        target: "scene:aber:treadmill:tread12"
+    short: Forest
+    sight: >
+      The forest thins a little here, entering a green and fresh glade. Shafts of bright sunlight strike
+      through the forest canopy from above illuminating the maze of trails which lead in all directions from
+      the forest glade.
+flag:
+  - outdoors

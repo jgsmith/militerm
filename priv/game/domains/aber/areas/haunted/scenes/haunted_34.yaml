@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_32"
+      north:
+        target: "scene:aber:haunted:haunted_33"
+      south:
+        target: "scene:aber:haunted:haunted_31"
+      west:
+        target: "scene:aber:haunted:haunted_35"
+    short: Pumpkin Patch
+    sight: >
+      You are franticaly trying to find your way out of this crazy patch. You almost give up hope when you
+      notice to the west is a glow of green radiating. Maybe you should check it out.
+flag:
+  - real

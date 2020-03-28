@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon16"
+    short: Murder Holes
+    sight: >
+      Looking through the many slots through the wall you can spy a long tunnel below you. As you examine the
+      room you get a feeling of what this room is used for in a time of war. The only exit is back to the
+      east.
+flag:

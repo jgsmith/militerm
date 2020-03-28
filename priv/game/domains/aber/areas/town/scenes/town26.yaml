@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town25"
+      south:
+        target: "scene:aber:town:town27"
+      west:
+        target: "scene:aber:town:town37"
+    short: Square Near The Town Tavern
+    sight: >
+      This is a small square near the Tavern. Many dealers are around here trying to sell food and a lot are
+      selling wines and ales from far off lands. To the north is the main square of town, to the south you may
+      enter the town's Tavern, and to the west is a small square near the town's only brothel.
+flag:
+  - outdoors

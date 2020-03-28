@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia5"
+      south:
+        target: "scene:aber:eosia:eosia3"
+    short: The Gates of the City
+    sight: >
+      You stand before the gates to the city of Cimmura. The gates are made form pure gold and shine in the
+      sun. To either side of you the walls to Cimmura stretch off into the distance as far as you can see. You
+      can hear the sounds of the citizens from beyond the gates.
+flag:
+  - outdoors

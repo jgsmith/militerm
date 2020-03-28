@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:cryptent"
+    short: "The &+rVampire's &+LCrypt"
+    sight: >
+      The walls here alternate between towering engaged corinthian columns and flat surfaces of marble
+      brickwork. Flowing red velvet drapery falls between the columns. High above, shrouded in mist, is the
+      single groin-vault that forms the ceiling of this crypt. Your breath echoes off the walls, disturbing
+      the solitude that this chamber provides. The space is dominated by a platform upon which rests a lone
+      sarcophagus.
+flag:
+  - light

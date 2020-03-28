@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter84"
+    short: The Altar of Krill
+    sight: >
+      You're at the top of Krill's altar. The sound of Krill's followers' gutteral chants curdle your blood.
+flag:

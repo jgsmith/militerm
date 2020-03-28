@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:apse"
+      north:
+        target: "scene:aber:cathedral:n_aisle3"
+      south:
+        target: "scene:aber:cathedral:s_aisle3"
+      west:
+        target: "scene:aber:cathedral:crossbay"
+    short: &+BThe Choir&*
+    sight: >
+      This part of the nave was designed as a convenient place to house the choir, in front of and below the
+      altar. It is nothing but a large empty chamber now, and the only singing you hear is the cry of
+      &+Lbats&* above which your footsteps have awakened.
+flag:
+  - dark

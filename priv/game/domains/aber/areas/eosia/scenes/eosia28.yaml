@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia27"
+      east:
+        target: "scene:aber:eosia:eosia29"
+      west:
+        target: "scene:aber:eosia:eosia52"
+    short: Styric Haven
+    sight: >
+      This small quaint room is a haven for Styrics who come to visit the Pandions. In order to help them in
+      battle, the Church allowed the Pandions to be educated with the knowledge of magic. It was the Styrics
+      who provided that education. The Lady Sephrenia was the teacher for most of the Pandions, and they hold
+      her in the highest regard. This room was built to help protect the Styrics from the less tolerant Elenes
+      who would rather have all Styrics killed. This simple room has a bed and table and not much else.
+flag:
+  - soundproof
+  - nosummon

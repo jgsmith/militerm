@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:green"
+      west:
+        target: "scene:aber:jbs:space"
+    short: The Other Side
+    sight: >
+      You have broken through to the other side... of a big black sheet with a bunch of little holes in it. It
+      is bright on this side of the sheet and you seem to have vague recollections of coming this way once
+      before and then getting lost and not being able to figure out where you were.
+flag:
+  - outdoors

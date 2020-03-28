@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon10"
+      south:
+        target: "scene:aber:saxon:saxon12"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      Here in the northwestern part of Heorot is where the warriors weapons are stowed whilst they eat. There
+      are racks here which contain many a sword, axe, and mace. Along the walls are large hooks from which
+      suits of mail can be hung to ease ones load. A little higher up on the walls are windows from which a
+      person can view the rolling prairie outside. Exits lead to the east and south.
+flag:
+  - light

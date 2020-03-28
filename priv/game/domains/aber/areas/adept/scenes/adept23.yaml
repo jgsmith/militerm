@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept25"
+      south: null
+      west:
+        target: "scene:aber:adept:adept22"
+    short: Vergor Street
+    sight: >
+      The road deteriorates rapidly in this section, becoming spotted with water-filled potholes. To the south
+      is a decrepit structure marked 'Safety and Sanitation.'
+flag:

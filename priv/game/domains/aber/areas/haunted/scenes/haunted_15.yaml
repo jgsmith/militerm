@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_14"
+    short: The Dock
+    sight: >
+      What on earth??? As you come to the end of the dock, you notice bubbles in the water at the foot of the
+      dock.
+flag:
+  - real

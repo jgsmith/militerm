@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz20"
+    short: The Balcony
+    sight: >
+      You sense that you have reached journey's end. The balcony overlooks a great grassy field. The sun's
+      rays blind you, and you hear a snort.
+flag:
+  - outdoors

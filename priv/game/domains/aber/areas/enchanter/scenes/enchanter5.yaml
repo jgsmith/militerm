@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter4"
+    short: Outside the Shack
+    sight: >
+      You are standing outside a small shack. The road continues to the northeast, or you can enter the shack
+      to the northwest.
+flag:
+  - outdoors
+  - real
+  - tempreal

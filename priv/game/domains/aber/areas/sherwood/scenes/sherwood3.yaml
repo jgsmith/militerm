@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz01"
+      south:
+        target: "scene:aber:sherwood:sherwood1"
+    short: North Fork
+    sight: >
+      The road stretches wide and long. The trees on the side of the road are ominous, but friendly enough.
+      The path is well worn, probably indicating that it is not a rough one, but don't let that give you peace
+      of mind.
+flag:

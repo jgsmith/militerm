@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot6"
+      north:
+        target: "scene:aber:camelot:camelot26"
+    short: The Hall of the Round Table
+    sight: >
+      Before you stands the legendary round table of King Arthur. Behind each of the chairs hangs a portrait
+      of an honored Knight. Looking at the portraits, you can see honor and chivalry in their eyes. All but
+      one. The painting of Mordred is as realistic as the others, and from his eyes you see only a cold
+      calculating evil.
+flag:

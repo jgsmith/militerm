@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:s_amb"
+    short: South Chapel
+    sight: >
+      This reliquary is meant to house the &+Yholy grail&*, fabled to have been used by Jesus himself at the
+      last supper. The case is empty, and you see no trace of the &+Ygrail&*. You find it odd that so many
+      churches claim to have the &+Yholy &+Ygrail&*, but you assume that as long as these people think their
+      grail is THE grail, thats all that matters.
+flag:
+  - dark
+  - oneperson

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river17"
+      north:
+        target: "scene:aber:rainforest:river14"
+      south:
+        target: "scene:aber:rainforest:river15"
+      west:
+        target: "scene:aber:rainforest:river10"
+    short: Midstream
+    sight: >
+      You are floating along the middle of the river. The water is flowing very slowly and sluggishly here,
+      and you wonder if you are perhaps approaching the sea. Certainly the river is so wide that you can
+      barely see both banks to the north and south.
+flag:
+  - outdoors
+  - onwater

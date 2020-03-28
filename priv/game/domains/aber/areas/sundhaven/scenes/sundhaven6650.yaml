@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:sundhaven:sundhaven6651"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6633"
+    short: "Mekala's Thai Kitchen"
+    sight: >
+      A large room crowded with ornamental porcelain elephants, incense dishes and silkscreen dividers
+      encloses you, the blur of spicy scents from the kitchen bringing a flush of red to your face. A steep,
+      narrow stairwell rises up the east wall.
+flag:
+  - nomobiles

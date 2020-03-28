@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:westhall"
+      north:
+        target: "scene:aber:ruins:bedroom1"
+      west:
+        target: "scene:aber:ruins:westhall3"
+    short: Western Hallway
+    sight: >
+      You are in the western hallway that branches off of the main ruins. Thick layers of dust cover the moss
+      on the walls. Little tracks of water spread out on the floor making it a little slippery. To the north
+      you see a very old tattered curtain that shadows the room behind it. The hallway leads to the west and
+      to the east as well.
+flag:
+  - dark

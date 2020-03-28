@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar42"
+      south:
+        target: "scene:aber:volcano:bandilbar40"
+    short: Egg Cavern
+    sight: >
+      You are in a vast cavern filled with thousands of ant eggs. As you watch, lava seeps into the cavern at
+      the far end and begins to overwhelm the eggs. You smile, satisfied of a job well done. To the east is
+      another chamber. The air is stiflingly hot in here and you begin to sweat.
+flag:

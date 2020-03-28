@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest22"
+      north:
+        target: "scene:aber:rainforest:forest15"
+      south:
+        target: "scene:aber:rainforest:forest19"
+      west:
+        target: "scene:aber:rainforest:forest20"
+    short: Hardwood Trees
+    sight: >
+      You are struck by how many different species of trees populate this forest. In this spot you count
+      several tall hardwood varieties, with tall unbranching trunks that make them valuable for timber.
+      Lapachos, curapays and spanish cedars are notable amongst them, but there are many more that you do not
+      recognise. There are exits in all directions.
+flag:
+  - outdoors
+  - rainforest

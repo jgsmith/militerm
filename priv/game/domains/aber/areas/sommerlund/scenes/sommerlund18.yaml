@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund17"
+      west:
+        target: "scene:aber:sommerlund:sommerlund19"
+    short: Fruity Clearing
+    sight: >
+      You have entered a large clearing in the Tor Forest. The trees enclose you in a perfect circle, like the
+      eye of a hurricane. There is fruit on every branch of every tree which immediately surrounds this
+      clearing. Mainly, you see common ones such as pears and apricots, but there are also other wierdly
+      shaped fruits. They could be tasty or poisonous, but you could spend your entire life gorging yourself
+      silly on them and never be able to eat all of the fruit here.
+flag:
+  - outdoors

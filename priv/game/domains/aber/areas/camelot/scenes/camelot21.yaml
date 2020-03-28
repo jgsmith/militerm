@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot22"
+      west:
+        target: "scene:aber:camelot:camelot8"
+    short: Hallway
+    sight: >
+      The hallway turns to the north here. You can see ahead of you a bright glow, which still seems to most
+      resemble the shimmer and shine of a great treasure horde.
+flag:

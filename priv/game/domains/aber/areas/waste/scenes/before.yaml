@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:flaming"
+      north:
+        target: "scene:aber:waste:1"
+      south:
+        target: "scene:aber:waste:2"
+      west:
+        target: "scene:aber:waste:2"
+    short: Before The Gates
+    sight: >
+      You are standing on a vast windswept plain, formed entirely of black volcanic dust. The dark gloomy
+      wastes extend as far as your eye can follow, reflecting strangely against a fiery red sky... The only
+      landmark in sight is a huge golden citadel whose walls reflect the flames and blood-red glow of the
+      hellish skies above.
+flag:
+  - hot

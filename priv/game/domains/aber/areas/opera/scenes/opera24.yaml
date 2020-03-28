@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:opera:opera23"
+      east:
+        target: "scene:aber:opera:opera25"
+    short: Top of the Spiral Stairs
+    sight: >
+      At the top of the staircase you feel like you are much more then one storey up from the bottom. To your
+      east there is a passage.
+flag:

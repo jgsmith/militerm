@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome34"
+      north:
+        target: "scene:aber:rome:rome26"
+      south:
+        target: "scene:aber:rome:rome28"
+      west:
+        target: "scene:aber:rome:rome21"
+    short: Noble Estate
+    sight: >
+      You are on the grounds of a nobleman's estate which is hundreds of times the size and splendor of
+      anything that a common citizen of Rome would ever hope to own. Everything is lush and green. The grass
+      is perfectly manicured and the &+Gtrees&* are all bearing fruit. Ornamental plants are in perfectly
+      situated to enhance and adorn the three statues of dedicated to gods Jupiter, Venus and Neptune. A
+      tranquil path leads east and west, there is a paved road to the north and an extravagant house lies to
+      the south.
+flag:
+  - outdoors

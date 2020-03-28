@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:waterfall"
+      north:
+        target: "scene:aber:blizzard:valley"
+      south:
+        target: "scene:aber:blizzard:shady"
+      west:
+        target: "scene:aber:valley:mpath"
+    short: In The Woods
+    sight: >
+      You are in the woods. The great trees cast green shadows across the flowers and undergrowth as they sway
+      peacefully in the wind. You can walk in any direction.
+flag:
+  - outdoors

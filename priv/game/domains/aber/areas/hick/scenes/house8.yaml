@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:house9"
+      south:
+        target: "scene:aber:hick:house3"
+    short: Main Hallway
+    sight: >
+      The hallway continues to the north and leads back to the south.
+flag:

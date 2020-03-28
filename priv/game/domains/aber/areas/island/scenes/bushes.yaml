@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:ruins2"
+      south:
+        target: "scene:aber:island:ruins2"
+      west:
+        target: "scene:aber:island:beach"
+    short: Tangled Bushes
+    sight: >
+      You are clambering through a mess of thick tangled bushes and stumbling over huge blocks of stone,
+      evidently once part of a much mightier construction. The bushes and ruins continue east and south while
+      to the west is a beach.
+flag:
+  - outdoors

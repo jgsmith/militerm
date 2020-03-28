@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz18"
+      west: null
+    short: The Dark Chamber
+    sight: >
+      You are in a shadowy chamber, and the hairs at the back of your neck begin to rise. There is so little
+      light in this room that you start to imagine things..or do you? You know for certain that you spotted a
+      door to the west when you first entered.
+flag:
+  - dark

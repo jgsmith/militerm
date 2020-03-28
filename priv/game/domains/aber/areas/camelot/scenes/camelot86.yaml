@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot84"
+    short: Dense Underbrush
+    sight: >
+      You have managed to force your way into the underbrush along the trail. But it is apparent that you can
+      go no further. The thorns on the bushes before you promise to prevent any further progress.
+flag:
+  - outdoors

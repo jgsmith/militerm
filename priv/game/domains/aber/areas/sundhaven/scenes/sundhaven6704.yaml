@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6706"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6705"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6703"
+    short: A small haunted grove
+    sight: >
+      With the exception of the inexplicable darkness permeating this grove, there is little way to explain
+      the odd feeling of foreboding about this place. No birds sing, no rat scurries in the open, the leaves
+      rustle barely enough to break the silence. Yet an odd presence makes itself felt.
+flag:
+  - dark
+  - outdoors

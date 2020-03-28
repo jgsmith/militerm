@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:rockybeach"
+      south:
+        target: "scene:aber:eastcoast:gentle"
+      up:
+        target: "scene:aber:eastcoast:entrance"
+      west:
+        target: "scene:aber:eastcoast:entrance"
+    short: At the Foot of the Cliff
+    sight: >
+      You are standing in front of a looming cliff, towering some eighty or ninety feet above you, but from
+      the perspective, it might be higher. Seagulls fly about nearby, occasionally giving a shrill call to
+      their brethren.The cliff here bends off toward the north, cradling a narrow beach, and also falls off to
+      the west, where a path rises over a sandy hill and out of sight.
+flag:
+  - outdoors

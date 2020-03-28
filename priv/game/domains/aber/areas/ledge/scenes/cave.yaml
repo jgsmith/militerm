@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:tunnel"
+      north:
+        target: "scene:aber:ledge:pit"
+      south:
+        target: "scene:aber:ledge:cavemouth"
+    short: Narrow Cave
+    sight: >
+      You are standing in a long narrow cave. Dim and pallid light shines in from the cavemouth to the south,
+      illuminating passageways north and east.
+flag:

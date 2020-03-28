@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot24"
+      south:
+        target: "scene:aber:camelot:camelot22"
+    short: Hallway
+    sight: >
+      You are certain now that you hear somebody ahead counting their treasure. Could it be that you have
+      discovered the treasury? Perhaps so, but should there not be more defenses? Could King Arthur be so
+      trusting as to leave his money out where anyone can pick it up?
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:small"
+    short: "The Devil's Stairwell"
+    sight: >
+      What you see here is truly strange, a short set of stairs lead down for a short distance and stop at a
+      wall. For those who are superstitious, that wall phases in and out when something emerges from it,
+      usually of a demonic nature. Thus it has earned its name of the devil's stairwell according to this
+      urban legend. But there doesn't appear to be any good reason why this room is attached to the other.
+flag:
+  - peaceful
+  - outdoors

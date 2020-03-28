@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni4"
+      north:
+        target: "scene:aber:oni:oni5"
+      south:
+        target: "scene:aber:oni:oni2"
+    short: Hidden Forest Path
+    sight: >
+      You are on a hidden forest path. The path continues further into the forest, but you cannot tell where
+      it leads. The sound of rushing water is getting louder. Looking back to the south, you try to make out
+      the main path, but you cannot find it in the abundance of shrubs and foliage. There is another path
+      heading east here as well.
+flag:
+  - outdoors

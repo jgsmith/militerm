@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan43"
+    short: Elemental Chamber
+    sight: >
+      The center of the chamber is dominated by a crystalline fountain that is carved with intricate runes.
+      The air is sweet, and it is hard to remember that you are in a closed chamber. The fountain itself hums
+      with immense magical power.
+flag:

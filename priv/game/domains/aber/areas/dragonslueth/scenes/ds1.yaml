@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:bottom"
+      north:
+        target: "scene:aber:dragonslueth:ds2"
+    short: In the Cave of DragonSluth
+    sight: >
+      As you look around carefully you notice the walls are painted in blood, though its difficult to be sure
+      in this dimly lit room. You see the only source of light coming from ahead of you. The room appears to
+      be round with some highly reflective objects set into the walls. You shield your eyes from the glare to
+      study the walls closer. It looks like diamonds but they are set too firmly in the wall for you to pry
+      out.
+flag:

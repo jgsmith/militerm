@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot84"
+      west:
+        target: "scene:aber:camelot:camelot88"
+    short: The Trail Steepens
+    sight: >
+      The trail here rises steeply to the west as it enters the mountains, and drops to the east. Far off to
+      the east you see smoke, perhaps rising from a farm of tavern.
+flag:
+  - outdoors

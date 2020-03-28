@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cathedral:royal"
+    short: The Central Portal
+    sight: >
+      This is the grandest of the three portals. Overhead you can barely make out the details of its bizarre
+      tympanum sculpture. Above the door, in a half moon shaped area enclosed by a pointed arch, is a
+      sculpture of an enthroned man, hooded and wearing a flowing cape which is tattered at the ends. His arms
+      are outstretched and underneath them, smaller figures writhe in agony, as tiny swirling demons whip
+      around their heads and torment them mercilessly. The Door itself is heavily boarded, and though it looks
+      worn and battered, the &+ywood&* holds firm at any attempt to force your way through.
+flag:
+  - light
+  - outdoors

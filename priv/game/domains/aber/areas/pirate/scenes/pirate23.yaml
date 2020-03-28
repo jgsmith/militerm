@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate22"
+      south:
+        target: "scene:aber:pirate:pirate22"
+      up:
+        target: "scene:aber:pirate:pirate24"
+      west:
+        target: "scene:aber:pirate:pirate24"
+    short: Hilly Path
+    sight: >
+      You are on low path, gently curving up the side of a volcano. To the west, the path continues up the
+      hill. It also continues down to the south.
+flag:
+  - outdoors

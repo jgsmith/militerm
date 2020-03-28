@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town16"
+      up:
+        target: "scene:aber:town:town29"
+    short: Back Alley
+    sight: >
+      This dark alleyway leads to the back of a nondescript building. It is also covered with garbage, and
+      there is a small drainage pipe running up the side of the building that looks like it just might be able
+      to support your weight. To the east is a small, darkened square covered with dirt.
+flag:
+  - outdoors

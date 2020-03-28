@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house3"
+      west:
+        target: "scene:aber:hick:house7"
+    short: Hallway to Living Room
+    sight: >
+      There is a warm draft rising up from the heater ducts against the wall and it feels good as you walk
+      across the cold hardwood floor. The walls are very drab, painted white. To the west you can see the
+      living room and to the east you can see the main hallway.
+flag:

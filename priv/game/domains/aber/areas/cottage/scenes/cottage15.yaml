@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:cottage:cottage14"
+    short: Huge Entryway
+    sight: >
+      Sad breezes sigh forlornly through the fallen rocks which lie strewn about. In front of you to the
+      north, stands an immense basalt door, its black surface glimmering in the ambient light. Above the door
+      are written another set of weatherbeaten runes.
+flag:
+  - outdoors
+  - nomobiles

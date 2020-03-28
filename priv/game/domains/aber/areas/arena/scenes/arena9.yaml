@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:arena:arena2"
+      west:
+        target: "scene:aber:arena:arena11"
+    short: The Arena
+    sight: >
+      There are a few large boulders blocking the way south of here, far to large for any mortal to consider
+      moving. They appear to have fallen from the roof above. You sure hope one don't fall on you. There is a
+      small bush growing against the northern wall, and a pleasant smell in the air. You feel a little
+      strange.
+flag:
+  - nosummon
+  - cantsummon
+  - nomagic
+  - pkzone

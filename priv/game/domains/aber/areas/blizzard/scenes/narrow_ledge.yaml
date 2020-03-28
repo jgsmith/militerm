@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:blizzard:stone_cell"
+    short: Narrow Ledge
+    sight: >
+      You are in a fissure standing on a terrifyingly narrow ledge. Above you on the opposite side is another
+      ledge. A passage leads back west.
+flag:

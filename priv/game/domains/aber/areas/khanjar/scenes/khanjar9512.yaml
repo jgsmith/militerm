@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:khanjar:khanjar9510"
+      west: null
+    short: At The Top Floor
+    sight: >
+      The corridor ends here, and you find yourself standing by a small window. Vast fields and forest are
+      seen through it - everything looks peaceful out there, despite a few alarming rumours about the Forces
+      of Evil gathering their power again. To the west stands a wooden door.
+flag:

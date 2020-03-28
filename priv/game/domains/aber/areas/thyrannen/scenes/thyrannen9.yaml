@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen6"
+      north:
+        target: "scene:aber:thyrannen:thyrannen8"
+      south:
+        target: "scene:aber:thyrannen:thyrannen10"
+    short: Redwood Forest
+    sight: >
+      You seem to be heading towards a dead end in the forest, to south the trees begin to grow to thick to
+      pass. There is also a passage to the east that could make for easier travel.
+flag:
+  - outdoors

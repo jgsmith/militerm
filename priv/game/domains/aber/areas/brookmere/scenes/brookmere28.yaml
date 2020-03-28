@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+      west: null
+    short: Long and Narrow Room
+    sight: >
+      This room is long, narrow and...full of mirrors! They panel the roof, hang floor to ceiling on the walls
+      and even cover the floor. Every square centimetre of the place is covered in a reflective surface.
+      Looking around in wonder, you can see yourself reflected a thousand times in every direction to
+      infinity. Unfortunately as you entered for the first time the door swung shut behind you, revealing
+      another mirror on the back, making it impossible to find again. You find yourself trapped in a room of
+      seemingly infinite proportions.
+flag:
+  - nosummon
+  - cantsummon

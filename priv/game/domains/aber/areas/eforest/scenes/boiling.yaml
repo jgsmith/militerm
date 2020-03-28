@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:eforest:stone"
+    short: Boiling Lake
+    sight: >
+      You have entered another natural cavern. In the middle of the cavern is a huge lake. Indeed, the scene
+      would appear to be quite normal if not for the fact that lake was actually boiling. It has become so hot
+      in this room that water itself is unable to remain in its liquid form! Surely, you must escape this
+      demonic realm soon! Avenues of retreat from here lie to the North and East.
+flag:
+  - hot

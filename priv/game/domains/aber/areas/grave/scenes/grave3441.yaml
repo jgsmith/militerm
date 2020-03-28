@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3440"
+    short: &+CThe Organ
+    sight: >
+      Standing before you is a massive &+Yorgan&*. The organ is still impressive despite the pounding it has
+      taken at the hands of the intruders. Finely polished and ingraved wood are meticulous in construction as
+      the organ surrounds itself on three sides the organ player. The keyboards are multi-leveled and the
+      footpedals are multi tiered. The pipes are most impressive as the surround and blend into the walls
+      around this immense room. However sitting at the organ appears to be your worst nightmare.
+flag:

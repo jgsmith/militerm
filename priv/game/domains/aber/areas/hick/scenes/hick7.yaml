@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:hick8"
+      south:
+        target: "scene:aber:hick:hick6"
+    short: Road to Livestock Area
+    sight: >
+      The road here is very bare and doesn't have that much dust on it. You can smell the livestock to the
+      north of here. The road leads to the north and goes back to the south.
+flag:
+  - outdoors

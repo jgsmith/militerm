@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:quarry:ledge"
+    short: Rough Face
+    sight: >
+      You are crouched in a narrow passage, at what appears to have been a face of some sort. To the west is a
+      huge wooden ladder which plunges down deeper underground, as well as climbing upwards towards the
+      surface.
+flag:
+  - dark

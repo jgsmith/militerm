@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:eosia:eosia31"
+      west:
+        target: "scene:aber:eosia:eosia29"
+    short: The Holy City
+    sight: >
+      This is Chyrellos, capital city of the Elene Church. Your eyes are filled with wonder at all the sights
+      to see in this maginificent city. People move about you on their errands, each one on a mission. To the
+      east stands the Basilica, the highest church in the Elene faith. It is there that the Archprelate
+      reigns.
+flag:
+  - peaceful
+  - party

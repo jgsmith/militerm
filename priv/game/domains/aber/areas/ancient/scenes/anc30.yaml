@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc29"
+      north:
+        target: "scene:aber:ancient:anc37"
+      south:
+        target: "scene:aber:ancient:anc29"
+    short: Top of the Moon Pyramid
+    sight: >
+      You finally reach the top of the pyramid, understanding now the purpose of the physical training your
+      friends used to keep in good condition. Before you, the moon shines brightly, appearing to be a gigantic
+      wheel of cheese. You can imagine yourself taking a few steps ahead and grabbing a slice of that great
+      big cheese. Before you on the floor there is a big cross- shaped figure. The carvings on the stone floor
+      are telling tales about secret halls of ancient kings and holy men. You wonder where these mighty halls
+      might be located, and you think that the &+Ycross&* has something to do with it.
+flag:
+  - outdoors

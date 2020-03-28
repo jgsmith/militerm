@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park9"
+      south:
+        target: "scene:aber:balharbor:park11"
+    short: Park Clearing
+    sight: >
+      You have come to one of the fenced in corners of the park which is nothing but grass. There are no trees
+      here either, allowing people to sit on lawn chairs and get a tan.
+flag:
+  - outdoors

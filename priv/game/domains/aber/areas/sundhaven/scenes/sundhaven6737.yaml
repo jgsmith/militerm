@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6738"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6736"
+    short: A dark passageway
+    sight: >
+      You slip cautiously along the passage. The wall is dotted with large holes, roomy enough for a large
+      rat.. or something.. to pass through with ease, and are not just down by the ground but up near the
+      ceiling. A fetid stench rolls over you from within the holes. The passage continues south and east into
+      black.
+flag:
+  - dark

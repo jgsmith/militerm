@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept33"
+    short: Throne Chamber
+    sight: >
+      Perhaps during peacetime this place would be sanctimonious. Today, the king is pressured with the latest
+      reports from the battlefields northeast of the castle grounds and developing crises on other fronts. The
+      council of advisors and highest military officers ar heavily debating plans of attack and the possible
+      outcomes, while kitchen scullies attempt to plcate the appetites such discussion has worked up. Waiting
+      in the background are the serving ladies who wonder which of the officers or advisors they will be
+      enjoying the night with.
+flag:

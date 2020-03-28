@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sherwood:sherwood33"
+    short: Ramshackle Hut
+    sight: >
+      As you enter, the ceiling beam slips, turns, and falls on you. It crushes your chest and you die.
+flag:
+  - dark
+  - death

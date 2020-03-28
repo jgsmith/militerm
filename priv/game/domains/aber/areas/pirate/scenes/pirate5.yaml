@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:pirate:pirate7"
+      west:
+        target: "scene:aber:pirate:pirate6"
+    short: "Ship's Mess"
+    sight: >
+      You are in a large room with several long tables. Sawdust covers the floor, and scraps of food litter
+      both it and the tables. Smokey light streams in from several portholes lining the walls, but it does
+      nothing to lighten the mood of the place. A small doorway leads off to the west, a hallway extends to
+      the south, and a large door stands in the middle of the north wall.
+flag:

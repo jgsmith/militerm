@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:nexus:nexus67"
+    short: Magma Pond
+    sight: >
+      The mad haze of red is all around with intermittent flashes of bright yellow flame. Magma swirls around
+      in a slow circle, always kindling the destructive potential here as a sort of undeniable threat to
+      surface dwellers. The bottom of the pond is made out of frozen and compressed adamantium, the one known
+      material which can resist any levels of heat save that of the sun itself. A stunning building made of
+      the same material lies before one side of the pond, booming ominously upwards into the redness of the
+      pond.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

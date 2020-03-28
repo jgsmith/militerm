@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Sharp Rocks
+    sight: >
+      You are in a deep crag of sharp rocks. Unfortunately for you, little more is seen, for the waves bash
+      you to pieces among the rocks...
+flag:
+  - death

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ancient:anc30"
+    short: Before the Moon
+    sight: >
+      You cautiously take some steps ahead and stand right before the moon. As you examine it more closely you
+      suddenly start feeling a strange desire for dairy products. My, this great heavenly body really is one
+      &+Ybig Emmental cheese&*. Maybe you could cut a piece or two of it.
+flag:

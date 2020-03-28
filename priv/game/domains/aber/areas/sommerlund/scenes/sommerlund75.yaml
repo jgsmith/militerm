@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund76"
+      north:
+        target: "scene:aber:sommerlund:sommerlund73"
+    short: Guard Tower
+    sight: >
+      Standing up from the wasteland is a ramshack watchtower. Its steel surface is severely weathered from
+      both rust and the elements of this hellish atmosphere. The tower leans at a five-degree angle and
+      appears to be the first checkpoint for the black city beyond.
+flag:
+  - outdoors

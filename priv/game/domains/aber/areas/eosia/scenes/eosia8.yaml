@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia6"
+    short: The Brothel
+    sight: >
+      This is the Inn's own brothel. To fully describe what you see would probably be illegal. Therefore, let
+      us just say that the Church would destroy this place in a second if it could.
+flag:
+  - soundproof

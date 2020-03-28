@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eastcoast:cave"
+    short: Small Niche
+    sight: >
+      This is apparently the Trapper's sleeping quarters, simply an indented crevice in the main cave room
+      itself. Somewhat inclined from the floor, you see many animal furs scattered about the small space, and
+      on a small ledge, you see various personal articles of the Trapper, most of which look useless or not to
+      your liking at all. The only obvious exit from here is south back into the main cave.
+flag:
+  - dark
+  - soundproof

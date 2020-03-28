@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:library6"
+      north:
+        target: "scene:aber:nrose:library3"
+      south:
+        target: "scene:aber:nrose:library1"
+      west:
+        target: "scene:aber:nrose:library14"
+    short: Library
+    sight: >
+      You are in part of the monastery library. Unfortunately, the librarian is not very competent and books
+      and scrolls are stacked everywhere disorienting you.
+flag:
+  - dark
+  - cantsummon
+  - soundproof

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook76"
+    short: Eighth Square
+    sight: >
+      You step across the final brook, onto a lawn as soft as moss, with little flower beds dotted about it
+      here and there. Lying in the center of one of these flower beds, you see something shiny.
+flag:
+  - outdoors

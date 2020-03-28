@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:eoce2"
+    short: In The Muddy River
+    sight: >
+      You are standing knee deep in the water. Why? The water is so muddy as to be opaque and there might be
+      all kinds of nasty things down there. Hopefully if there are, they will find it just as hard to see you.
+flag:
+  - outdoors

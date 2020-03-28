@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung70"
+    short: "Parsifal's Tower"
+    sight: >
+      This is apparently the tower of the wizard Parsifal. As you think back, you recall hearing of the
+      greatness of Parsifal in a Bard's tale long ago. Once the Hohenzollern family was well-respected, but
+      seemed to have run into problems with a dragon that Parsifal had tried to tame. Nothing had been heard
+      from the family since, and no one ever successfully returned from their castle. A small bed is in one
+      corner of the room, and a table in the other. The table is covered with old books and sheets of
+      parchment. A chair has been overturned in the center of the room.
+flag:
+  - dark

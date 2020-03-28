@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept59"
+      west:
+        target: "scene:aber:adept:adept61"
+    short: Sand Dunes
+    sight: >
+      The coastal breezes push the salt-tasting air up the coastline and inwards over the dunes. In some
+      places, the wind is strong enough to push a whole dune several inches past its point of origin. The
+      dunes themselves are composed of bright, yellowish-pink, grainy particles that blow through the air and
+      deposit themselves in constantly new arrangements. Seashells lay scattered haphazardly and half-buried,
+      their owners having long ago abandoned them. A crab with an unknown level of hunger snaps wildly at the
+      air and scrambles at a mad pace along the beach.
+flag:

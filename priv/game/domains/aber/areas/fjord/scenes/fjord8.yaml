@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord9"
+      south:
+        target: "scene:aber:fjord:fjord7"
+    short: Muskrat Pine Forest
+    sight: >
+      All around are densely packed pine trees. Millions of cones hand from the trees and litter the decaying
+      undergrowth. A musty scent is present in the dimly lit atmosphere along with the sweetness of sticky
+      pine sap. Occasionally, a deer will hop along at the edge of peripheral vision, its only goals in life
+      to feed its young and avoid being turned into roasted venison. A gravel trail leads south to thinning
+      forest and loses clarity to the east.
+flag:
+  - outdoors
+  - dark

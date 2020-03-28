@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:novice:valley"
+      south:
+        target: "scene:aber:novice:mine"
+      west:
+        target: "scene:aber:novice:end"
+    short: Entrance to the Mine Tunnel
+    sight: >
+      Ahead of you is a long tunnel that reminds you of a mine of some kind. It should logically be dark in
+      there, but something in the walls seems to reflect sunlight from the outside and light the tunnel for
+      you.
+flag:

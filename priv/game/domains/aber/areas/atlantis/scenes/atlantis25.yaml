@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis29"
+      west:
+        target: "scene:aber:atlantis:atlantis21"
+    short: Entrance to Atlantis
+    sight: >
+      So here it is. The Lost City of Atlantis. Upon viewing it, the city actually doesn't look all that
+      impressive. It seems that the legends about it have been so blown out of proportion that the real reason
+      for it's being here may have been lost, and instead lavish stories have been created to explain it. Now
+      it looks like a somewhat small village with a rather large aquatic tourist population drawn here by the
+      legend of the city. All forms of aquatic life bustle about through the gates on their own agendas. You
+      can leave the city through the gates behind you to the west or continue towards Main Street to the east.
+flag:
+  - underwater
+  - nomobiles

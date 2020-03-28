@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:castle:leap"
+      east:
+        target: "scene:aber:castle:leap"
+    short: The Ruined Watchtower
+    sight: >
+      You stand in the burnt out ruins of an old stone watchtower. Soot and moss cover the blackened crumbling
+      stones. A single narrow set of steps wind down and east back to the path.
+flag:

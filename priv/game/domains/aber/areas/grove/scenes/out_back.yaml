@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:ferns"
+    short: Out Back in the Bushes
+    sight: >
+      You get a nice view of bushes. To the west you see a wall of rocks. Nothing too special about this area,
+      except that seeing all these nice bushes gives you the urge Mother Nature usually provides.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

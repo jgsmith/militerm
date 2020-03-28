@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:volcano:bandilbar2"
+      east:
+        target: "scene:aber:orchold:path1"
+      south:
+        target: "scene:aber:volcano:bandilbar2"
+    short: Rocky Buttress
+    sight: >
+      You are making your way around a shoulder of the mountain, perched somewhat precariously on a narrow
+      ledge which ends to the west. Unless you head back on to the path just east of you, the only other way
+      seems to be a scramble down a gully to the south. The going will be tricky, but not impossible, and your
+      return ascent would appear to be manageable.
+flag:
+  - outdoors
+  - nomobiles

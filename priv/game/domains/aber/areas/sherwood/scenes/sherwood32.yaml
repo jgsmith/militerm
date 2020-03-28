@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:hut3"
+      north:
+        target: "scene:aber:sherwood:sherwood33"
+      south:
+        target: "scene:aber:sherwood:sherwood31"
+    short: Under the Fig Trees
+    sight: >
+      You stand under many fig trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

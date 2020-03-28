@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar50"
+      south:
+        target: "scene:aber:balharbor:balhar25"
+    short: Vine Road
+    sight: >
+      This north-south road runs along the city's east side. Two walls flank the west and east while to the
+      east you can see the top of a guard tower. Graffiti has been spraypainted on the walls and debris litter
+      the street.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:atlantis:atlantis70"
+      south:
+        target: "scene:aber:atlantis:atlantis68"
+    short: Drop Off
+    sight: >
+      The water abruptly ends as you look out into a tube that is completely dry. The floor of the tube is a
+      ways below but it looks like you could survive it if you decided to climb down. However, it doesn't look
+      like you wold be able to climb back up if you did so. Across the tube, farther up on the opposite wall,
+      you notice a smaller tube that is also filled with water.
+flag:
+  - dark
+  - underwater

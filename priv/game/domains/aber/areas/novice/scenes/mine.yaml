@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:tree"
+      north:
+        target: "scene:aber:novice:tunnel"
+    short: In the Mine
+    sight: >
+      The walls are, as you can now see, lit by the reflection of the sun on small diamond chips in the walls.
+      If you try hard enough, you may be able to pry a chip or two loose. As you do this, you cause a minor
+      quake that seas the exit behind you. It looks like the only way out of here is to the east.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot27"
+      north:
+        target: "scene:aber:camelot:camelot28"
+      south:
+        target: "scene:aber:camelot:camelot7"
+    short: Garden Path
+    sight: >
+      The path wanders in all directions through a lush garden. The castle gardeners are obviously quite
+      skilled at their craft. The lawn is carefully manicured, the flowers growing seemingly at random, and
+      yet none ever impedes the view of another.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3418"
+    short: The Schoolroom
+    sight: >
+      Here is a schoolroom that has only recently been converted to a different, very evil type of religion.
+      There are drawings, pictures, and writings that you find pleasing and comforting that are in disarray
+      and being torn to shreds while being replaced by images of things that will do you great harm. You fight
+      the feeling of upset and try to hold your lunch down. For your own safety you better exit back north.
+flag:

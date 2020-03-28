@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Kings Treasure Room
+    sight: >
+      You stand in a small room. The room is plain and there is nothing at all that makes the room worth
+      looking at. It has four walls, a floor, and a ceiling.
+flag:
+  - dark

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Inside the Palace
+    sight: >
+      As make your way and finally enter the palace, you bow down before the princess and her father, the
+      sultan. Jafar, the evil sorceror of Agrabah, has forseen your arrival and is ready for you.
+flag:
+  - light

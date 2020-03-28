@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: &+cHidden Somewhere
+    sight: >
+      Guess where you are. Hidden somewhere. It is a very small clearing. You think you see something moving
+      in there...
+flag:
+  - nosummon
+  - cantsummon
+  - soundproof
+  - noat

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord72"
+    short: The Dark City Treasury
+    sight: >
+      The walls of this chamber are not just black, but covered in soot from all the explosions used to kill
+      ghouls and get at the massive amount of jewels within the treasury. While ghouls have no use for jewels,
+      they are very possessive of the things they do happen to own, and store them here. Ghouls and lizards
+      compete in here mainly to enrage each other's vengeful lust on the other clan.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept14"
+      west:
+        target: "scene:aber:adept:adept12"
+    short: Whisper City
+    sight: >
+      On weekdays, the amount of business going on here must be enormous, for there are many hundreds of
+      merchants selling their wares streetside. Tens of wagons and scores of citizens move purposefully along
+      the road, occasionally jostling one another out of the way for a better look at the mercantile bazaars.
+      The city is alive with a certain music, too, heard as an overtone above the general hubbub. The exit out
+      is to the west, while a crossroads lies to the east.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret7"
+      south:
+        target: "scene:aber:evolution:cret9"
+    short: End Of The Path
+    sight: >
+      The path ends here abruptly, having reached the edge of a deep fissure in the ground. Looking down, you
+      try to make out the bottom, but it is too deep. A distant sound of rushing water rises up to meet your
+      ears, but it is quiet and indistinct.
+flag:
+  - outdoors

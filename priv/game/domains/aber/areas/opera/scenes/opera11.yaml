@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera10"
+      west:
+        target: "scene:aber:opera:opera12"
+    short: The Hallway
+    sight: >
+      This hallway connects the stage to the main dressing rooms. It is decorated with colorful posters
+      advertising past operas. To the east is the stage, to the west is a door.
+flag:

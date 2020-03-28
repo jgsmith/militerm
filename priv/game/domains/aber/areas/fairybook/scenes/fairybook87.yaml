@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook83"
+      north:
+        target: "scene:aber:fairybook:fairybook88"
+      south:
+        target: "scene:aber:fairybook:fairybook85"
+      west:
+        target: "scene:aber:fairybook:fairybook89"
+    short: Starry Night
+    sight: You pass a star on your right.
+flag:
+  - outdoors

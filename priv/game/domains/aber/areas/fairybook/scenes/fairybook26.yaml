@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook27"
+    short: Tree
+    sight: >
+      You find yourself in the tallest tree in the woods. Here the birds of the forest built elaborate nests
+      and raised the cost of living in this branch of the tree. A pigeon nest beckons to the north, and a
+      canary does as well to the east. Below you is a forest path.
+flag:
+  - nomobiles
+  - outdoors

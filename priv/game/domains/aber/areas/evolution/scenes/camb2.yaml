@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:camb3"
+      west:
+        target: "scene:aber:evolution:camb1"
+    short: Submarine Canyon
+    sight: >
+      You are travelling along the floor of a deep canyon in the sea bed. A warmth at your feet tells you that
+      the seething molten fury of the mantle burns not far beneath you. The occasional tremor makes you rather
+      nervous, and you fear that in such an age of intense volcanic activity an eruption might be imminent.
+      The canyon continues to the north.
+flag:
+  - soundproof
+  - underwater

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rats:cutlet"
+      up:
+        target: "scene:aber:rats:coalstore"
+    short: Wood store
+    sight: >
+      You are standing in the wood store. It is a very simple room with just one purpose: to store dry wood to
+      be used in the cutlet.
+flag:
+  - dark

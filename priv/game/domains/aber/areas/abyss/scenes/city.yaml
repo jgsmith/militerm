@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:head"
+      east: null
+    short: Web City
+    sight: >
+      You are standing among a cluster of boulders high up on one side of a large cavern. The other side of
+      the cavern is filled with giant spider webs. Below you the cavern is split by a gaping chasm. A path
+      winds down from here toward a bridge, which spans the chasm.
+flag:

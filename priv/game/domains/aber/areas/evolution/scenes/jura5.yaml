@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:jura3"
+      west:
+        target: "scene:aber:evolution:jura4"
+    short: North-Eastern End Of The Plateau
+    sight: >
+      You have reached a corner. Sheer cliffs drop away to the north and east of you. You feel dizzy standing
+      so close to the edge and find yourself shuffling backwards involuntarily. A worrying indication of your
+      height lies ahead of you, where you can see huge pterosaurs riding the thermals, hundreds of feet below
+      you...
+flag:
+  - outdoors

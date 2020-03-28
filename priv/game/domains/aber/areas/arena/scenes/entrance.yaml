@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung1"
+      west: null
+    short: The entrance to the Arena
+    sight: >
+      You stand inside the secret entrance to THE arena. Either side of you, to the north and south are the
+      inner walls of this hole that has been cut into the side of the cliff. This place has been magically
+      protected and no violence may take place here. A few burn marks scar the walls, around small archways
+      leading to the stairway up into the viewing area.
+flag:
+  - nosummon
+  - cantsummon
+  - peaceful
+  - nomagic
+  - nomobile

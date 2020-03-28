@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:cottage:cottage4"
+    short: Petite Kitchen
+    sight: >
+      You are surrounded by the smells of baking and the cheery warmth of a small wood stove. There has
+      obviously been some cooking done here recently. You can hear the sounds of cleaning coming from the west
+      and a small door leads east.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sagewood:sagewood2"
+      west: null
+    short: Ravaged Woods
+    sight: >
+      The trees here become more and more dense until they form a seemlingly impassable wall in all
+      directions, save &+CNorth&*. A peculiar mass of &+Bvines&* grows on a small tree to the West.
+flag:
+  - outdoors
+  - nomobiles

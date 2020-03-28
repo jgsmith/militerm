@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town63"
+      south: null
+    short: Cave
+    sight: >
+      You enter a large cave that looks like it is currently being used by somebody as a home. There are
+      different things scattered all over the cave. The cave continues onward into the darkness and back out
+      to the south in the light.
+flag:
+  - dark

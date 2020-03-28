@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins55"
+    short: Constellation Deneb
+    sight: >
+      ...Flew into the light of Deneb, sailed across the Milky Way...
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

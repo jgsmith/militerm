@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:village3"
+      west:
+        target: "scene:aber:fareast:village1"
+    short: Village Center
+    sight: >
+      The center of the village isn't even far enough from its entrances to really make a difference- if you
+      rode through on a horse and blinked, you might miss the whole place entirely. There are fewer peasants
+      here, despite there being more houses about... they are definitely trying to avoid you.
+flag:

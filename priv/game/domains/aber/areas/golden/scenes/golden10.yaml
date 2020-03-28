@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: &+YQuicksand&*
+    sight: >
+      Walking straight into a pit of quicksand, you begin struggle to escape. You sink deeper and deeper while
+      birds sit perched on your head. Slowly, you are completely engulfed and suffocated by the sand.
+flag:
+  - death
+  - outdoors

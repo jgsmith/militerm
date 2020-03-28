@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:labyrinth:a"
+      up:
+        target: "scene:aber:labyrinth:spiral3"
+    short: The Start of the Labyrinth
+    sight: >
+      ...is a boring sort of place, the only exits being up a spiral staircase and east into the Labyrinth.
+      The Labyrinth itself is composed of tall pillars in the gloom. There is a message scratched in the dirt
+      here. It says: 			B WA E O HE M NO AUR 					M rt s
+flag:
+  - dark
+  - nomobiles

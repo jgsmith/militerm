@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river7"
+      north:
+        target: "scene:aber:rainforest:river6"
+      south:
+        target: "scene:aber:rainforest:river12"
+    short: By The Western Bank
+    sight: >
+      You are near to the bank of the river. The bushes on the shore are quite close and you think you can see
+      movement among them. You can head up or down the river, or east back into midstream.
+flag:
+  - outdoors
+  - onwater

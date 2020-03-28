@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Guest room
+    sight: >
+      You are standing in the guest room. It is very nicely decorated. The ceiling follows the shape of the
+      roof so the room looks a little bit like a triangle. There is a sofa that can be changed into a
+      comfortable bed, a table, and a bookcase.
+flag:

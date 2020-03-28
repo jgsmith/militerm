@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest123"
+      west:
+        target: "scene:aber:rainforest:forest121"
+    short: Inlet
+    sight: >
+      The bank ends suddenly here, cut through by a long inlet that runs through the trees to the south.
+      Crossing it would be almost impossible, since it is riddled with tree roots and trunks growing up from
+      the mud at the bottom of the inlet. You can turn south along the bank of the inlet or head west along
+      the river bank.
+flag:
+  - outdoors

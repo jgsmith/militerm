@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairytale:fairytale84"
+      west: null
+    short: Bottom Floor
+    sight: >
+      A flight of stairs rises above you, and as you follow the spiral with your eyes, you find your gaze
+      straying to the decorations on the walls. Swords, shields, and various multi-colored banners hang in
+      colorful displays, and are interspersed with arched windows and oil lamps. Your head begins to spin as
+      your blood drains from it, and you tear your gaze away from the walls to focus on the floor. There you
+      see a rug which looks like a psychedelic snake. The rug continues up the stairs.
+flag:

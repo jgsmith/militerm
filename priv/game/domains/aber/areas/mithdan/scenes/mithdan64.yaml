@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan61"
+      south:
+        target: "scene:aber:mithdan:mithdan1"
+    short: Small Clearing
+    sight: >
+      The grass here is trimmed short, and to the north the deep forest streches towards the horizon. To the
+      south is an immense wooden gate that stand open, showing what appears to be a perfectly normal rocky
+      path. The gate itself crackles with heavy stored magical energy that occaisionally discharges into the
+      sky in huge reverse lightning bolts.
+flag:
+  - outdoors

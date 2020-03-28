@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:oaktree25"
+      up:
+        target: "scene:aber:oaktree:oaktree25"
+      west: null
+    short: Behind the Roots
+    sight: >
+      You are in a cramped underground tunnel. A myriad of roots dangling from the ceiling keep you from
+      standing up straight. From the northern end of the tunnel, light streams down a low incline, dimly
+      illuminating the tunnel. It feels as though someone is tapping you on your shoulder, but when you turn
+      around no one is there.
+flag:

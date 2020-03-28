@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9517"
+      south:
+        target: "scene:aber:khanjar:khanjar9515"
+    short: A Path
+    sight: >
+      The path seems to descend toward the east where you can make out some sandy ground.
+flag:
+  - nomobiles
+  - outdoors

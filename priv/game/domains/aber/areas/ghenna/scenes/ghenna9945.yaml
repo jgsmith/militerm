@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9944"
+      up:
+        target: "scene:aber:ghenna:ghenna9946"
+    short: The granite staircase.
+    sight: >
+      You are standing on a narrow granite staircase which spirals gently downward. You may ascend, or descend
+      at will.
+flag:
+  - dark

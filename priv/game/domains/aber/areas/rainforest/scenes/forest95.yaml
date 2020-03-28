@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest99"
+      north:
+        target: "scene:aber:rainforest:forest90"
+      west:
+        target: "scene:aber:rainforest:forest92"
+    short: River Bank
+    sight: >
+      You are on the bank of a small river. To the east it curves around to the south, so to go in that
+      direction would mean heading into the jungle. To the west you can follow the river or you could journey
+      north into the fastnesses of the rainforest.
+flag:
+  - outdoors

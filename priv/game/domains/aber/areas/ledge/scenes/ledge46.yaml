@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge47"
+      north:
+        target: "scene:aber:ledge:ledge45"
+      south:
+        target: "scene:aber:ledge:ledge46"
+      up:
+        target: "scene:aber:ledge:ledge57"
+    short: Under the Sea
+    sight: >
+      The undersea clifflines streches for some unknown distance to the south, yet the ocean current pushes
+      you toward the side of the rock. Better hope a storm isn't coming up while you're down here. You can
+      swim away from the cliff east, swim toward on opening north, follow the cliff some more south, or climb
+      out of the water upward.
+flag:
+  - underwater

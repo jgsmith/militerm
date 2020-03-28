@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:ghenna:ghenna1"
+    short: A barrow mound.
+    sight: >
+      You are standing atop a barrow &+ymound&* which is about 15 feet in diameter. There is no vegetation
+      inside the circle, strangely enough. A low cumulous of swirling mist engulfs you from the knees down,
+      making it look as though you are partially buried.
+flag:
+  - nomobiles
+  - dark
+  - outdoors

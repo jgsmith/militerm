@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon3"
+      north:
+        target: "scene:aber:seamonster:smon1"
+      south:
+        target: "scene:aber:sea:7"
+      west:
+        target: "scene:aber:sea:7"
+    short: All At Sea
+    sight: >
+      The water is very calm and warm here. You could very well relax by swimming in it. But when you look
+      around it doesn't seem to be the same picture. To the south and west are high waves and huge turbulence.
+      To the north it is calm.
+flag:
+  - onwater

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:oaktree34"
+      south:
+        target: "scene:aber:oaktree:oaktree32"
+    short: The Great Forest
+    sight: >
+      You stand on a low hill overlooking a vast forest that looks truly primeval in nature. Some of the trees
+      look as tall as a giant. Below you, you can hear the wind softly moaning through the trees. Or is that
+      the wind?
+flag:
+  - outdoors

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Storage Chamber
+    sight: >
+      This is just a small store room, filled with empty crates and boxes, some marked 'Fragile' and others
+      'Feel Free to Shake and Break'. There is a single doorway in the south wall.
+flag:

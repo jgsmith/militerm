@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot89"
+      north:
+        target: "scene:aber:undead:moss_maze1"
+      south:
+        target: "scene:aber:camelot:camelot90"
+      west:
+        target: "scene:aber:camelot:camelot90"
+    short: Lost in the Wilds
+    sight: >
+      You have wandered too far from known territories, and are completely lost. It will be a miracle if you
+      find your way out of here. Wait...there's moss on the trees, maybe the moss can help you find your way
+      out.
+flag:
+  - outdoors
+  - nomobiles

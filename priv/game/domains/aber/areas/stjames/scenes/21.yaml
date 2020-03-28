@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:20"
+      south:
+        target: "scene:aber:stjames:22"
+      west:
+        target: "scene:aber:stjames:34"
+    short: St. James Park
+    sight: >
+      You are along the northern area of the park. To the north of here is a large street which goes to
+      Buckingham Palace. There are many people walking along the street, and you notice that, in contrast to
+      the rest of the city, no one walking there is in any hurry. To the south is a beautiful pond with a
+      fountain in it. There is a bridge over the pond. The whole park is very beautiful and serves as a
+      relaxing change from the city.
+flag:
+  - outdoors

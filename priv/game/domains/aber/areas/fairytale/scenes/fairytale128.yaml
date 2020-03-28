@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale127"
+      west:
+        target: "scene:aber:fairytale:fairytale126"
+    short: Art Room
+    sight: >
+      You have entered a workshop for artists. Tools lie around the room, including a large oven, a potter's
+      wheel, and some easels. Unfinished works are in the proper places: paintings on the easels, sculptures
+      on pedestals, and pots on the wheel.
+flag:
+  - dark

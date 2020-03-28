@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:guard2"
+      east:
+        target: "scene:aber:blizzard:shattered"
+      up:
+        target: "scene:aber:blizzard:dark"
+    short: Landing
+    sight: >
+      You are on a landing with steep stairs leading both upwards and down. Below, at the foot of the
+      descending stairs you can see a dark hall and in the faint light from the rock you can just make out
+      several zombie guards. A doorway leads east.
+flag:

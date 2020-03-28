@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage19"
+      up:
+        target: "scene:aber:cottage:cottage21"
+    short: Still Water
+    sight: >
+      You're waist-deep in the dark still waters of an underground resevoir. The artificial lake extends to
+      the north, around a bend lying to the east. You can also climb up to the top of the dam, but climbin
+      back down looks almost impossible.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook157"
+    short: Fenced Yard
+    sight: >
+      A spike has been driven into the ground at the center of the yard. This small field looks as though it
+      was intended to be a dog run, but it doesn't smell much like dogs. In fact, it smells like a big cat.
+      The exit is north.
+flag:

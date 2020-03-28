@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:laundry"
+      south:
+        target: "scene:aber:rats:hallway_2"
+    short: Bathroom
+    sight: >
+      You are standing in the bathroom. The floor is made of white tiles and they continue also on walls to
+      the height about as high as your neck. A large bath dominates the room and must be very comfortable.
+      There is also a &+Csink&* with a mirror above it. Against the mirror is a second mirror, so you can see
+      yourself from both sides. Don't forget the table which is used for storing towels, toothpastes, and
+      toothbrushes.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town41"
+      south:
+        target: "scene:aber:chlyon:chlyon2"
+      west:
+        target: "scene:aber:town:town43"
+    short: Town Gates
+    sight: >
+      You are standing before the town gates, which appear to have never been closed before. Behind you is the
+      town, and in front of you is the Commerce road, which continues into the newly discovered lands of
+      Pensalon where many adventures await you.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot8"
+      north:
+        target: "scene:aber:camelot:camelot3"
+      south:
+        target: "scene:aber:camelot:camelot"
+      west:
+        target: "scene:aber:camelot:camelot2"
+    short: Entry to Camelot
+    sight: >
+      You stand in the entrance to the fabled castle of Camelot, seat of power for King Arthur Pendragon.
+      Looking about you, you see hallways leading to the east and west, and the great hall to the north.
+flag:

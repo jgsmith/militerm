@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:outside"
+      north:
+        target: "scene:aber:frobozz:chairman"
+      south:
+        target: "scene:aber:frobozz:bank"
+      west:
+        target: "scene:aber:frobozz:luncheon"
+    short: The Tellers Room
+    sight: >
+      You have entered the tellers' room. This is where the transactions of money once in the past happened.
+      There are about a dozen of tidy and rather impressing desks here which were used by the tellers when
+      doing business with their clients. The desks are now covered with dust. To the south, through a high and
+      arched opening you can look into an impressive hall. It is probably the main hall of the bank of
+      Frobozz. Through a similar, but smaller opening to the north you see a large and representable office.
+      There is also a doorway to the east and to the west a doorway leads back into the luncheonroom.
+flag:
+  - dark

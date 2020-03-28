@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:weaphall"
+      south:
+        target: "scene:aber:cathedral:carnage2"
+    short: Hall of &+RCarnage&*
+    sight: >
+      You nearly lose your lunch as you enter this place. Stinking &+yrotting&* flesh lines the floor,
+      ceiling, and walls. bodies in various stages of &+Ldecay&* line the place. The floor is covered in a
+      thick layer of &+Rreddish &+rooze&*, which must be the same stuff which is dripping slowly onto you from
+      above.
+flag:
+  - dark

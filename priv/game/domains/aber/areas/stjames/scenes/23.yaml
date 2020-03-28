@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:18"
+      north:
+        target: "scene:aber:stjames:22"
+      south:
+        target: "scene:aber:stjames:24"
+      west:
+        target: "scene:aber:stjames:37"
+    short: On the Island
+    sight: >
+      Your boat has reached a little island in the pond. Somehow, the grass here is cut and as well-manicured
+      as the rest of the park. The grounds crew must have an easier way over than yours. You disembark to
+      enjoy some quiet time in the sun.
+flag:
+  - outdoors

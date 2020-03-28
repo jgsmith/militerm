@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:38"
+      north:
+        target: "scene:aber:stjames:46"
+      south:
+        target: "scene:aber:stjames:44"
+      west:
+        target: "scene:aber:stjames:52"
+    short: On the Pond
+    sight: >
+      You are floating near the western side of the pond. To the west the pond dies out in a pool of algae.
+flag:
+  - outdoors
+  - onwater

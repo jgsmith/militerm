@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:23"
+      north:
+        target: "scene:aber:stjames:36"
+      south:
+        target: "scene:aber:stjames:38"
+      west:
+        target: "scene:aber:stjames:46"
+    short: On the Pond
+    sight: >
+      You are floating just to the west of the bridge over the pond. The island is just to the eastern side of
+      the bridge, with the fountain slightly beyond it. Beyond them both is a well-populated wading area. The
+      water is smooth and clean. The pond itself ends to the west at the Palace wall.
+flag:
+  - outdoors
+  - onwater

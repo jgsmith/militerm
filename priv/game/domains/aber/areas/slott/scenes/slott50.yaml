@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: &+RThe Hole...&*
+    sight: >
+      You jumped down into the hole but... <<<<<<< Splat! >>>>>>> Oh my! Looks like you have died!
+flag:
+  - death

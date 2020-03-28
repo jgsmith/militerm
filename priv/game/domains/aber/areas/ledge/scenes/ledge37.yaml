@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge40"
+      east:
+        target: "scene:aber:ledge:ledge40"
+      north:
+        target: "scene:aber:ledge:ledge32"
+      west:
+        target: "scene:aber:ledge:ledge36"
+    short: Lagoon in the Cavern
+    sight: >
+      An opening in the floor filled with water can be seen here. Dipping your hand and tasting it tells you
+      that it's salty and that means that lagoon connects itself with the sea! Underwater cave explorers must
+      have been here in the past as some of their instruments seem to have been left behind. For those who
+      just came up into this cavern, well take a tour to the north and west or else jump back into the water
+      and head east.
+flag:
+  - dark

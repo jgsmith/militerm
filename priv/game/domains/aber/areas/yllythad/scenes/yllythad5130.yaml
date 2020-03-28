@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5135"
+      north:
+        target: "scene:aber:yllythad:yllythad5085"
+      west:
+        target: "scene:aber:yllythad:yllythad5125"
+    short: North of the Jetty
+    sight: >
+      A tall lighthouse stands at the end of a rock jetty which juts out into the sea. The rocks which form
+      the jetty look exceptionally large and sharp - sharp enough, in fact, that they do not warrant an
+      attempt at climbing. It seems that another way to the lighthouse will have to be found.
+flag:
+  - onwater
+  - outdoors

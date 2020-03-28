@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:arena:arena1"
+      west:
+        target: "scene:aber:arena:arena9"
+    short: The Arena
+    sight: >
+      The north east corner of the arena has several bones scattered about, some human others not so. To the
+      south west you see some fallen rocks.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

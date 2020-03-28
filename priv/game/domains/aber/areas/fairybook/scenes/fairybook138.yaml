@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook139"
+      north:
+        target: "scene:aber:fairybook:fairybook140"
+      south:
+        target: "scene:aber:fairybook:fairybook137"
+      west:
+        target: "scene:aber:fairybook:fairybook148"
+    short: Farmhouse
+    sight: >
+      You stand in front of a good-sized farmhouse by the side of the road. The green glow is brighter now,
+      outshining the luster of the road. A path meanders to the west from here, leading off into a patch of
+      darkness. A sign here reads Glinda and points into the farmhouse. To the south the path goes into the
+      woods.
+flag:

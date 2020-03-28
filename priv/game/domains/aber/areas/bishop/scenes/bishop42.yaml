@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:bishop:bishop41"
+    short: Western Crypt
+    sight: >
+      The body of a high druid priest was incarcerated here nearly 500 years ago. His mummified remains occupy
+      an engraved sarcophagus set atop a marble pedestal in the pit of the crypt. The air is fresh as the
+      crypt was broken open and plundered many years back, but equally fresh rodent and snake droppings
+      confirm that there are still visitors here.
+flag:
+  - dark

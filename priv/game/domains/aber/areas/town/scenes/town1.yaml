@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach10"
+      west:
+        target: "scene:aber:town:town2"
+    short: Broad Inlet
+    sight: >
+      Warm waves lap gently against the sun-bleached sand. Exits lead east out to sea, or westward onto the
+      river.
+flag:
+  - outdoors
+  - onwater

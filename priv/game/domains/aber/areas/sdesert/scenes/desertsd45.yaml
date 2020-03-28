@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd44"
+      north:
+        target: "scene:aber:sdesert:desertsd44"
+      south:
+        target: "scene:aber:sdesert:desertsd44"
+      west:
+        target: "scene:aber:sdesert:desertsd44"
+    short: In The Brush
+    sight: >
+      Here you decide not to go any further, due to the increasing number of brambles getting caught in your
+      clothes.
+flag:
+  - outdoors
+  - hot

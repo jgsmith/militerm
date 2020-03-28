@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:12"
+      north:
+        target: "scene:aber:cyrus:79"
+      up:
+        target: "scene:aber:cyrus:78"
+      west:
+        target: "scene:aber:cyrus:10"
+    short: Wide room
+    sight: >
+      As the temperature increases, your heart beats more rapidly. Your head begins to ache and you have to
+      concentrate to faint not. You see a narrow hallway to west and a archway to east. The stairs also keep
+      going down.
+flag:

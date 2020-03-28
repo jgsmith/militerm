@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere7"
+      west:
+        target: "scene:aber:brookmere:brookmere9"
+    short: Corridor
+    sight: >
+      It is cold here under the earth in this stone passageway. Walking is difficult as water drips from the
+      walls and collects on the slippery stone floor, meaning that you splash softly through the gloom. The
+      green glow is brighter at the west end of the corridor. A deep pool of water has collected in a dip in
+      the floor and is filled with small blind cave &+Cfish&* and pale large-eyed &+Csalamanders.
+flag:

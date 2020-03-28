@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:btower135"
+    short: "Kish's Quarters"
+    sight: >
+      This apparently was where Kish slept when he was off-duty. Not to much to speak of in here other than a
+      bed, nightstand, and a storage chest. The interior decorator seems to had forgotten to brighten up this
+      living quarters when he went to do Sisera's room.
+flag:

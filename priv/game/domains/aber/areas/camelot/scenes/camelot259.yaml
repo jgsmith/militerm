@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot265"
+      west:
+        target: "scene:aber:camelot:camelot258"
+    short: The Ballroom
+    sight: >
+      Though the floor here is of stone, it has been polished to a high gloss by the passing of countless
+      dancing feet. Beside the open dance floor, there are numerous small, private nooks behind the pillars
+      for those desiring more private conversation. Across the western wall, a bandstand sits, before the huge
+      floor to ceiling windows which let in the light. The stained glass window depicts two scenes, one of a
+      tall, lordly man building a castle, the other of a beautiful young woman zapping a troll.
+flag:
+  - party

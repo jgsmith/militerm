@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Dwarven Guardroom
+    sight: >
+      You are in what appears to be a dwarven guardroom. The roof is low and you have to crouch down inside
+      it. A door leads south.
+flag:
+  - dark

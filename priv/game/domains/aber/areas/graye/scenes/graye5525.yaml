@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Oops.
+    sight: >
+      "Aaarrrggg!", you scream as you plummet toward the earth. The ground rushes up at you at a dizzying
+      pace, and you prepare for impact. Suddenly, there is a flash of blinding light, and you feel yourself
+      floating in white light. You notice a glint in Aten's eye. "Your time was not to come yet..", he utters
+      in disappointment. He waves his hands and you find yourself before the portal in which you entered this
+      world, of which you will have to reenter to resume your quest....
+flag:
+  - death

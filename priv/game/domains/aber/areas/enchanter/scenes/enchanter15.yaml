@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter16"
+    short: Village Outskirts
+    sight: >
+      You are outside the village. Most of the houses seem to be deserted, but you can see smoke rising from
+      one chimney. Signal Mountain rises majestically to the north.
+flag:
+  - outdoors
+  - real
+  - tempreal

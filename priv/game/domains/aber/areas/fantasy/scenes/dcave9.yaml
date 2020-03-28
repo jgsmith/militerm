@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dcave8"
+      south:
+        target: "scene:aber:fantasy:dcave10"
+    short: Mine gets a little smaller
+    sight: >
+      The mine seems to get a little bit smaller here and you begin to feel claustrophobia set in. You look
+      down the passage way and see that it turns up ahead.
+flag:
+  - dark

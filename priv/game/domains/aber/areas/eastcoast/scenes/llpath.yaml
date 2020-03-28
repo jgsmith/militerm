@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:rbend"
+      south:
+        target: "scene:aber:eastcoast:grass"
+    short: Long and Lonely Path
+    sight: >
+      You follow a winding path in the low bends around rolling hills, and quickly lose track of progress. The
+      plants here, living on more rocky soil, are not as varied and rich as the ones that you see to the
+      south. The hills are tall here, giving you little view of the land around you. The only promising routes
+      lie between two hills to the north, where the path starts to cut into a large and rocky third hill, and
+      to the south up an even larger hill.
+flag:
+  - outdoors

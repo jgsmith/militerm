@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:courtyard9"
+      south:
+        target: "scene:aber:undead:courtyard3"
+      west:
+        target: "scene:aber:undead:courtyard5"
+    short: Eastern Courtyard
+    sight: >
+      You stand at the eastern side of the courtyard. Above you the battlements runs &+Cnorth&* and
+      &+Csouth&*, as the cobblestones continue in the same direction. The silence is becoming deafening. Even
+      the moss between the cobblestones seems to be turning black and giving up its struggle for life. A
+      strange sense of foreboding over comes you as you wonder if this is really worth it.
+flag:
+  - outdoors

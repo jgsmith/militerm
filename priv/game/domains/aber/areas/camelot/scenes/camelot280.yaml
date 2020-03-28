@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot303"
+      west:
+        target: "scene:aber:camelot:camelot281"
+    short: "Rapture's Dressing Room"
+    sight: >
+      Such a beautiful, airy room can only belong to Rapture. There is a large table with a mirror on the wall
+      above it against the south wall. The table is covered with a litter of brushes, perfumes, and other
+      womanly necessities.
+flag:
+  - private
+  - party

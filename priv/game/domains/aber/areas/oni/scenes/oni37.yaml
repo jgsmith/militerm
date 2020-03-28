@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni41"
+      south:
+        target: "scene:aber:oni:oni81"
+    short: Edge of Pit
+    sight: >
+      You stand at the edge of a large pit with some pillars and planks at various places.
+flag:
+  - cantsummon

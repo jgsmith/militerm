@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy4"
+      north:
+        target: "scene:aber:windy:windy1"
+      south:
+        target: "scene:aber:windy:windy3"
+      west:
+        target: "scene:aber:windy:windy4"
+    short: Misty Trail
+    sight: >
+      You are stumbling along a misty trail, trying not to get lost. Banks of fog roll across the plain, blown
+      by a light wind. An unpleasant gurgling sound is coming from somewhere beyond the haze.
+flag:
+  - outdoors

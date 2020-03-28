@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3434"
+      north:
+        target: "scene:aber:grave:grave3430"
+      south:
+        target: "scene:aber:grave:grave3436"
+      west:
+        target: "scene:aber:grave:grave3435"
+    short: Middle Row of Pews
+    sight: >
+      You stand in the very center of the massive cathedral. The light here is very weak, but can see the
+      ceiling which towers several meters above your head. The timbers holding the church upright are huge and
+      ornately carved and appear to have been assembled a long time ago to stand up to the passing times. The
+      floor is polished oak that was built by hands of caring. The pews here appear to be made of the same
+      strong oak while the velvet cushions are ripped to shreds. The stench is very strong and you think you
+      may really loose your lunch before you can find your way to the next rooms. There are exits to the
+      north, east, south, and west.
+flag:

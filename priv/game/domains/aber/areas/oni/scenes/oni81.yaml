@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni37"
+      up:
+        target: "scene:aber:oni:oni82"
+    short: Prison
+    sight: >
+      The prison beneath the compound of the Knights of the White Phoenix holds some of the most dangerous
+      demons. It is even the home of Xergon, one of the most feared in the land. In order to keep things in
+      order, the Knights have put in some precautions to prevent demons from escaping.
+flag:
+  - cantsummon
+  - nomobiles

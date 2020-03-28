@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:28"
+      north:
+        target: "scene:aber:cyrus:29"
+      up:
+        target: "scene:aber:cyrus:27"
+      west:
+        target: "scene:aber:cyrus:54"
+    short: Fork
+    sight: >
+      Now, the hallway splits in every direction. Some vertical exits are looking very creepy. The walls are
+      made of black stone. You may continue in any direction from here.
+flag:

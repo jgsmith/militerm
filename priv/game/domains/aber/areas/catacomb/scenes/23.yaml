@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:catacomb:beggar"
+      east:
+        target: "scene:aber:catacomb:24"
+      north:
+        target: "scene:aber:catacomb:20"
+      south:
+        target: "scene:aber:catacomb:26"
+      up:
+        target: "scene:aber:catacomb:14"
+      west:
+        target: "scene:aber:catacomb:22"
+    short: The Catacombs
+    sight: >
+      You are lost in the catacombs. However, you notice a faint light by the spiral stairs, apparently
+      emanating from the room below.
+flag:
+  - dark

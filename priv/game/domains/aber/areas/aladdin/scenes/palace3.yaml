@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace4"
+      north:
+        target: "scene:aber:aladdin:palace2"
+    short: Corner Hallway
+    sight: >
+      You wander through the palace. Looking above, you notice the bright candle chandeliers that line the
+      ceiling of these halls are no longer lit. Cob webs cover the walls, stringing everywhere. The halls lead
+      off to the north and east.
+flag:
+  - dark

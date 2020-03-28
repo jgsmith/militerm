@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:shoreline"
+      west:
+        target: "scene:aber:loligo:surface8"
+    short: Fareast Bay
+    sight: >
+      The sea rolls into this small bay, and continues east to roll up on the beach of a haze-shrouded island.
+      Back to the west, the waves continue on toward the horizon, and clearer skies.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

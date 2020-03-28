@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: All at sea
+    sight: >
+      You had really lot of luck that you could escape those huge waves and turbulences. Maybe you won't have
+      so much luck again. You prompty swim back to an another safer place.
+flag:
+  - onwater

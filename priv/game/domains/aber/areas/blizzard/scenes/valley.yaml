@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:bridge"
+      north:
+        target: "scene:aber:oaktree:grove"
+      south:
+        target: "scene:aber:blizzard:woods"
+      west:
+        target: "scene:aber:blizzard:e_pass"
+    short: The Valley
+    sight: >
+      You are in a green and fair valley amidst the gently murmuring oaks. The sun shines gently through the
+      trees sending dancing, golden beams rippling across the shadowy grass while midges dance between the
+      branches. One particularly large oak tree rises up to the north.
+flag:
+  - outdoors

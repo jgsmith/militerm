@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid7"
+      north:
+        target: "scene:aber:pyramid:pyramid9"
+      south:
+        target: "scene:aber:pyramid:pyramid12"
+    short: Desert Path
+    sight: >
+      Stumbling out of the storm, you breath a sigh of relief to find yourself on a fairly stable path. After
+      wiping the &+ysand&N from your eyes, you again see those strange, tiny &+Ctracks&N leading off to the
+      north. Should you follow those odd tracks or try your luck climbing the large &+ydune &N that lies to
+      the south which looks quite dangerous?
+flag:
+  - outdoors

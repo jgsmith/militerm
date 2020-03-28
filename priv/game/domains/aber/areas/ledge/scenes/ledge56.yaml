@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge57"
+      south:
+        target: "scene:aber:ledge:ledge56"
+      west:
+        target: "scene:aber:ledge:ledge55"
+    short: Shallow Water
+    sight: >
+      The ocean now comes up to your chest, and you're having to jump the coming waves to avoid being pushed
+      back too far. You wonder how much further you can go without a boat...or a life jacket.
+flag:
+  - outdoors

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Bedroom
+    sight: >
+      You're in a large bedroom with a four-poster feather bed here.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: "Translucent Room 'P'"
+    sight: >
+      You're an a room with not-quite-opaque cream colored walls. Behind the walls you can see slow, fluid
+      movement, as if the rock was alive. The room shows signs of an evil presence that was trapped here for
+      millenia. You can still feel it's black residue brushing against your soul. You can't wait to get out of
+      here.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:fairybook:fairybook141"
+    short: "The Wizard's Palace"
+    sight: >
+      You stand outside a towering green castle. Carved into the gates is the gigantic word 'OZ'. The path
+      leads south.
+flag:

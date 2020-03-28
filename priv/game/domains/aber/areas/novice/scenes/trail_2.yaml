@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:trail_1"
+      west:
+        target: "scene:aber:novice:clearing"
+    short: Forest Trail
+    sight: >
+      The trail continues toward the west and up ahead seems to open up into an area dominated by very old oak
+      trees. You see what appears to be a cluster of them up ahead.
+flag:
+  - outdoors
+  - real

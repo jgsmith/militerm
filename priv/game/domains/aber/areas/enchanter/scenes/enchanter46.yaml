@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter45"
+    short: Warm Beach
+    sight: >
+      Waves crash on the shore here. The water's incredibly warm, and you want to stay forever. The sun is
+      shining down on you, and you can feel your skin tanning already. It's a beautiful day for a picnic.
+flag:
+  - peaceful
+  - private
+  - party

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:temple"
+    short: &+WTreasury
+    sight: >
+      This room is flagged ArchWizard+ only to keep players out of it. If you're a mortal you're not supposed
+      to be in here. Please send mail to a coder about this bug. If you're a power who has too much free time
+      on your hands, write a zone or something! Go away! Shoo! -&+WV&+Ca&+cl&+Cu&+Cr&*
+flag:
+  - oshul
+  - archwizard

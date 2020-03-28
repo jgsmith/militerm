@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills17"
+      west:
+        target: "scene:aber:nibelung:nibelung4"
+    short: Off The Beaten Track
+    sight: >
+      You are on the back of Ben Mor, a modest-sized mountain with a heather-clad summit which lies to the
+      east. The climb to the peak is not difficult and the exercise would no doubt do you a lot of good.
+      However an easier way lies to the west, where a long path along the base of the mountains comes to a
+      fork.
+flag:
+  - outdoors
+  - nomobiles

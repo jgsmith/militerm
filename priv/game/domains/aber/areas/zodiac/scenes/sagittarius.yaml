@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:zodiac:firea"
+    short: "The Archer's Range"
+    sight: >
+      This room is about 50 meters in length, with several targets and arrows lying about. The grass is mostly
+      burned away, but a few patches of green give hope of some life to this place.
+flag:
+  - negregen

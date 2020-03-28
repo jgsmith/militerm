@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd49"
+      north:
+        target: "scene:aber:sdesert:desertsd48"
+      south:
+        target: "scene:aber:sdesert:desertsd48"
+      west:
+        target: "scene:aber:aladdin:sdesert"
+    short: The Southern Desert
+    sight: >
+      The path has disappeared completely, leaving you free to choose any direction at all.
+flag:
+  - outdoors
+  - hot

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9900"
+      west:
+        target: "scene:aber:grave:grave3408"
+    short: Before the Barrow Mound
+    sight: >
+      You stand before a wide barrow &+ymound&*, nearly obsecured by mist. It is awfully quiet, yet you smell
+      something nearby that reeks of rotting flesh. You can climb the mound to the north, or move away from it
+      to the south.
+flag:
+  - nomobiles
+  - outdoors

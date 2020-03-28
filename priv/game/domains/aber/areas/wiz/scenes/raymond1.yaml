@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haven:haven"
+      north:
+        target: "scene:aber:start:temple"
+      south:
+        target: "scene:aber:start:church"
+      west:
+        target: "scene:aber:wiz:spokes1"
+    short: Room Of The Future
+    sight: >
+      You stand in the room of the future.You see a CD player, a full T.V. entertainment system. You see cases
+      full of Hi-Tech items, the first Lightsabre, phaser and other undeciperable items. You see items from
+      the past, like the rosetta stone and the Sarcophagus of King Tut. On the desk you see a computer unlike
+      any you have ever seen before, it has no moniter just a little headgear thingie, IT MUST BE VIRTUAL
+      REALITY!!! When you look in the closet (after being hit by a ton of crap) you see the Legendary armor or
+      Raymond!!!!
+flag:
+  - party
+  - peaceful

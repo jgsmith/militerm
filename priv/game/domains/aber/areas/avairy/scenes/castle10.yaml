@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle11"
+      south:
+        target: "scene:aber:avairy:castle5"
+    short: Corner Corridor
+    sight: >
+      You have entered a corner hallway. You may go either south or east. Some ooze drips down the northern
+      wall. If you see housekeeping you may just want to point that out.
+flag:
+  - light

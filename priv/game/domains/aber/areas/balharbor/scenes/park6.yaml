@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:park3"
+      west:
+        target: "scene:aber:balharbor:park5"
+    short: Cascades
+    sight: >
+      A small pile of rocks have been stacked on the far side with water running down them giving a nice
+      waterfall effect. The water spills into the pond keeping it filled up even during droughts. More of the
+      pond can be seen west and the front of the park south uphill.
+flag:
+  - outdoors

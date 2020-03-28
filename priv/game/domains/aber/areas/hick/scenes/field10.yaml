@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field9"
+      south:
+        target: "scene:aber:hick:field11"
+    short: Northwestern Irrigation Ditch
+    sight: >
+      You are standing on a small path with an irrigation ditch running through it that leads to the south and
+      the east.
+flag:
+  - outdoors

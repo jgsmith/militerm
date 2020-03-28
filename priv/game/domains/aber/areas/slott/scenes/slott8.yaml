@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:slott:slott9"
+    short: Storage room
+    sight: >
+      You are standing in a small room that once was used as a storage room, but now there is only rubbage
+      left. You can't see anything that could be useful to you.
+flag:

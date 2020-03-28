@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire33"
+    short: Low hut
+    sight: >
+      You are standing in a low hut. It is used by guards for storing food. There is nothing to be seen here.
+      All the food is possibly in the greatest hut by a local party.
+flag:
+  - dark

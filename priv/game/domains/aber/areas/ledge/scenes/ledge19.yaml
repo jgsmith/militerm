@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge16"
+      up:
+        target: "scene:aber:ledge:ledge16"
+      west:
+        target: "scene:aber:ledge:death"
+    short: The (Formerly) Sealed Cave
+    sight: >
+      A nice cavern formed over thousands of years inside the side of the cliff, undiscovered until miners
+      broke into it by chance. It had yet to form an outside opening along the outside wall, but it looks as
+      if it was making its opening downward in the form of a chasm. You can't see the bottom, but it looks
+      like it goes pretty deep. A rapidly narrowing ledge appears to jut from the wall to the west, but moving
+      along that is pretty risky, considering the fact that a wrong step could mean taking a bad fall.
+flag:
+  - dark

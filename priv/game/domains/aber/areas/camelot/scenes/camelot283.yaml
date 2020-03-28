@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot284"
+      north:
+        target: "scene:aber:camelot:camelot287"
+      south:
+        target: "scene:aber:camelot:camelot285"
+      up:
+        target: "scene:aber:camelot:camelot266"
+      west:
+        target: "scene:aber:camelot:camelot286"
+    short: The Base Of The Stairs
+    sight: >
+      After climbing down a long spiral stair, you find yourself in a large room, hewn from the bedrock itelf.
+      The walls are smoothly finished, but bare stone.
+flag:

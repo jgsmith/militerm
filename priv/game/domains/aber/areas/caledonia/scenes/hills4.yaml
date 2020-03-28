@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills8"
+      north:
+        target: "scene:aber:caledonia:hills2"
+      south:
+        target: "scene:aber:caledonia:hills9"
+    short: Edge Of Pine Forest
+    sight: >
+      You are at the northern edge of a little pine forest which shelters beneath the dark hulking massif to
+      the south. Some of the evergreen branches are bent under the weight of days-old snow which has not yet
+      melted by virtue of having seldom seen the sun, lying as they do for most of the day in the shadow of
+      the mountains.
+flag:
+  - outdoors
+  - nomobiles

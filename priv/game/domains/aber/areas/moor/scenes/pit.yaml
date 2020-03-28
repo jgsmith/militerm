@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:moor:lost1"
+    short: By The Pit
+    sight: >
+      You are standing on the rim of a huge open pit looking down some twenty feet to the floor below. The
+      walls of the pit are too sheer to climb down, which is unfortunate as there seem to be caves leading off
+      from it. A path winds its dusty way north out onto the moor.
+flag:
+  - outdoors

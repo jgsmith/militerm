@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:golden:golden16"
+      east:
+        target: "scene:aber:golden:golden11"
+      north:
+        target: "scene:aber:golden:golden21"
+    short: &+BPoolside&* Trail
+    sight: >
+      You are walking along a trail that runs by a vibrant, crystal-clear pool of water that is fed by a
+      rushing waterfall. Looking down from the trail, you can see colorful and strange fish floating about in
+      the water. A small path leads down to the bank of this pool where you could take a dip if you want to.
+      Straining your eyes, you can barely make out a niche behind the waterfall.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:avairy:water1"
+    short: A Cave Under the Falls
+    sight: >
+      You are in a dark, mildewy cave beneath the waterfall. Water leaks in through the dirt roof over your
+      head causing a constant dripping noise. The walls of the room are lined with paneling which you note
+      looks extremely flimsy in one particular spot and sways as if there is a hole behind it. Footprints in
+      the dirt floor are extremely hardened and it does not appear that anyone has been down here in quite
+      some time.
+flag:
+  - dark
+  - nomagic

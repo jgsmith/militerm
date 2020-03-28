@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon47"
+      up:
+        target: "scene:aber:talon:talon45"
+      west:
+        target: "scene:aber:talon:talon40"
+    short: Base of Tower
+    sight: >
+      You stand at the base of a tall black tower. As you look up, a sense of great evil overwhelms you. A
+      sense of deep, dark magic seems to emanate from the top of the tower. There is a spiral staircase
+      leading up from here, and archways lead east and west.
+flag:

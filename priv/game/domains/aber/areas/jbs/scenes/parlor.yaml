@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:entry"
+      west:
+        target: "scene:aber:jbs:library"
+    short: The Parlor
+    sight: >
+      This is a vast room with several colossal sofas and chairs scattered strategically through the room.
+      Large archways lead south and west.
+flag:

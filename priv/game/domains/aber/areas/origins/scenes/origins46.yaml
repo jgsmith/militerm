@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:origins:origins45"
+    short: Small Room
+    sight: >
+      You climb down the small steps, into an even smaller room. However, this room is carpeted,
+      well-furnished, and very pleasant smelling.
+flag:
+  - dark
+  - peaceful
+  - party
+  - private
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

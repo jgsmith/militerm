@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott40"
+    short: Old storage room
+    sight: >
+      As you walk into this room, the first thing you notice are the big piles of stuff that lie in here.
+      Someone has used this room to store everything in it. You see &+Bbooks&*, clothes, kitchen stuff like
+      pots and pans, a sofa, chairs, tables and a lot of plain garbage.
+flag:

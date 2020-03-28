@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:zodiac:firea"
+    short: "The Lion's Den"
+    sight: >
+      Nothing seems out of place here, considering that it's owned by Leo the lion. A few bones lie scattered
+      about the place, but you would have to have expected that...perhaps what you didn't expect to see would
+      be either the head on the wall, or the rug on the floor.
+flag:

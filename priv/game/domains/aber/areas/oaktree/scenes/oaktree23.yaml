@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oaktree:oaktree24"
+    short: Side of the Cliff
+    sight: >
+      The roots end here and you are hanging precariously to the side of the cliff. You catch a glimpse of a
+      hole behind the thick roots. It's a tight squeeze, but you could probably make it. Getting back,
+      however, is impossible.
+flag:
+  - outdoors

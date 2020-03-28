@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge29"
+      south:
+        target: "scene:aber:ledge:ledge27"
+      west:
+        target: "scene:aber:ledge:forgotten"
+    short: Manifestation of Evil
+    sight: >
+      Whoa! You seem to have some upon some sort of demon's cave! And as you can see, it's very warm and
+      bright in here! On top of that, a rather noisy bunch of blabber echos in here, yet doesn't leave this
+      room. What's worse, a battle seems to have erupted in your head. You begin to express the darkest
+      feelings and emotions from your heart. The sight and the sound of dark emotion have infected your mind,
+      so much so that you have become paralyzed and are slowly being consumed by it. Better do something to
+      get away from this manifestation, or you're done for. If you were able to move, you can head west, east
+      or south.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar16"
+    short: "Sash Commander's Headquarters"
+    sight: >
+      This is pretty much where the orders are given out. A man sitting behind a desk planning strategy,
+      marking his battleplans, looking for spots where he can gain more effective control, exploit some
+      unsuspecting rioters into things to gain an advantage...yet the guy is no pushover, he is a deadly
+      fighter himself. The sooner he is taken out however, the faster the troops fall apart and go their
+      separate ways leaderless.
+flag:
+  - outdoors

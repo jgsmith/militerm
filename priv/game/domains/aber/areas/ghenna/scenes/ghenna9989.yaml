@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9992"
+      north:
+        target: "scene:aber:ghenna:ghenna9988"
+      west:
+        target: "scene:aber:ghenna:ghenna9990"
+    short: "Tunnel's end."
+    sight: >
+      The tunnel opens up into a T shape here, affording exits East and West and of course, North, back the
+      way you came. The cavern is vaulted, looming about 25 feet over your head... looks pretty dark up there.
+flag:
+  - dark

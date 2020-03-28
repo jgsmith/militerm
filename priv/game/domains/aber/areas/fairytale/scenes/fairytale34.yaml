@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale54"
+    short: The Church
+    sight: You stand in the church of Fairyville.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:waste"
+      south:
+        target: "scene:aber:moor:lost1"
+      west:
+        target: "scene:aber:moor:rocky"
+    short: Lost On The Moor
+    sight: >
+      You are lost somewhere on a vast expanse of ancient moorlands. Thick bushes and tangled piles of gorse
+      and rock prevent you from seeing far in any direction, though narrow paths wind east, west and south
+      across the moor.
+flag:
+  - outdoors
+  - maze

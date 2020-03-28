@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:batcave:batcave3"
+    short: Tomb of the Dead Hero
+    sight: >
+      This room for a change is musty and dark. You could call this the dumping ground of this corpse, but
+      something about his square jaw and heroic look causes you to use more respect. Therefore this is his
+      tomb. The walls are rough hewn and not at all natural.
+flag:
+  - nosummon

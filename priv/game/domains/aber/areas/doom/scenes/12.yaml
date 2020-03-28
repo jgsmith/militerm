@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:doom:16"
+      south:
+        target: "scene:aber:doom:11"
+    short: &+cHouse
+    sight: >
+      You walk into the shack and notice that it is quite large. There isn't much in here though. A large
+      dinner table sits in the middle of the room with broken plates and scraps of food on it. Whoever was
+      eating here was a slob. There is a stairwell leading down a flight of VERY old looking stairs.
+flag:

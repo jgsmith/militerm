@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar19"
+      west:
+        target: "scene:aber:balharbor:jungle19"
+    short: West Gate
+    sight: >
+      Welcome! You're standing at the entrance to Bal Harbor, a troubled city plagued by riots and is
+      currently under martial law enforce by the Red Sash. There is a large sign next to the gate which
+      informs everyone about the current strict curfew hours of the city and another poster alongside offering
+      a reward for information leading to the arrest and capture of the individual responsible for
+      assasinating the mayor of Bal Harbor. Another note tacked on the gate, a plea from a city resident to
+      clean up the criminal infested streets and restore peace to the city.
+flag:
+  - outdoors
+  - nomobiles

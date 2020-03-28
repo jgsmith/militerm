@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:sundhaven:sundhaven6608"
+    short: The gate at the cliffs
+    sight: >
+      The wind picks up and blows sharply at your hair and garb as the town falls behind and the world opens
+      out before you. You are standing atop a highland cliff, lined with mosses, lichen and purple heather,
+      and looking out over a foggy wetland. The graveyard for the dead of Sundhaven lies near the foot of the
+      cliffs, and in the far distance you can make out the blue line of the sea closing the horizon.
+flag:
+  - outdoors

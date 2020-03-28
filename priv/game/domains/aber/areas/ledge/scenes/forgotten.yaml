@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge27"
+    short: Forgotten Place
+    sight: >
+      You are standing in a dim forgotten place, deep underground. The rocks around you seem placid and
+      silent, as if in silent contemplation of some deeper more ancient power of the earth.
+flag:

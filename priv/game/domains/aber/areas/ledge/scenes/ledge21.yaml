@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge22"
+      east:
+        target: "scene:aber:ledge:ledge22"
+      up:
+        target: "scene:aber:ledge:ledge20"
+      west:
+        target: "scene:aber:ledge:ledge20"
+    short: Tracks Over the Gaps
+    sight: >
+      It appears the miners had to contend with mini-caves during their drilling. However, they still had to
+      lay the tracks, so they just laid the tracks right over the gaps for make-shift bridges. Unfortunately
+      the weight of the carts have left some of the railroad ties broken in the middle. You step over a couple
+      of them, but there's some more ahead if you decide to continue on risking a nasty fall if you step
+      wrongly. You can always starting climbing back out.
+flag:
+  - dark

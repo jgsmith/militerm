@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook96"
+    short: The Never-Bird Nest
+    sight: >
+      The Never-Bird lives in a nest which once grew above the lagoon. When the pirates cut down the tree,
+      they threw the nest into the lagoon, where the Never-Bird found it again. As it is a Never-Bird nest, it
+      floats, and has been used as a regular nest for years. To the west is Marooners Rock.
+flag:
+  - outdoors

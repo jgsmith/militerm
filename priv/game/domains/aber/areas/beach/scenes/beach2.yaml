@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach3"
+      south:
+        target: "scene:aber:beach:beach1"
+      west:
+        target: "scene:aber:beach:beach5"
+    short: Beach
+    sight: >
+      The beach continues to the north and west here. It's nice warm sand, and smooth wave rolling in, give
+      you such a great feeling of peace, and romance, your heart longs for the one you love.
+flag:
+  - outdoors

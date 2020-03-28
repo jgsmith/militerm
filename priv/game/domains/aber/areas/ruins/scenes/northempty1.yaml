@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ruins:northhall2"
+    short: An Empty Room
+    sight: >
+      This looks to be a fairly empty room. Old, rotting torn banners line the top of the eastern wall and
+      what looks to be a window has been covered from the outside by a wall of bricks. Piles of rubble from
+      fallen rock litter the floor. The northern hall is to the west.
+flag:
+  - dark

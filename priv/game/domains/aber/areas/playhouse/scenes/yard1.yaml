@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard2"
+      north:
+        target: "scene:aber:playhouse:yard4"
+      south:
+        target: "scene:aber:playhouse:yard7"
+      west:
+        target: "scene:aber:playhouse:house10"
+    short: Middle of the Yard
+    sight: >
+      You stand in the middle of what looks to be a bustling little playground. Kids run from one toy to
+      another. To the west is the entrance to the house kitchen. To the east you see a pretty sandbox. To the
+      north you notice kids playing on a swingset. To the south there is a children's picnic area.
+flag:
+  - outdoors

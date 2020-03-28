@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:village:passage"
+      west:
+        target: "scene:aber:village:dirt"
+    short: Dim Chamber
+    sight: >
+      You are standing in a dim, and secret chamber deep underground. Narrow rough passages lead west and
+      south.
+flag:
+  - dark

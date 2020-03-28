@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:caledonia:hills5"
+    short: Blue Crag
+    sight: >
+      You are standing atop an upthrust rocky crag upon which you find yourself very much at the mercy of the
+      elements. Here there is no protection from the wind, and at such a height the air is far from warm. A
+      patch of snow huddles in a hollow on the north side of the crag, but any precipitation falling on the
+      other sides of the peak would inevitably be immediately whipped away by the bitter wind.
+flag:
+  - outdoors
+  - cold

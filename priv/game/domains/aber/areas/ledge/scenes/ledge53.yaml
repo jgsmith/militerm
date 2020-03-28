@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge54"
+      north:
+        target: "scene:aber:eastcoast:waistdeep"
+      south:
+        target: "scene:aber:ledge:ledge53"
+      west:
+        target: "scene:aber:ledge:ledge51"
+    short: Shallow Water
+    sight: >
+      You start running out into the water, it's shallow enough that you don't need to get in a boat yet. The
+      water strecthes for as far as the eye can see to the east.
+flag:
+  - outdoors

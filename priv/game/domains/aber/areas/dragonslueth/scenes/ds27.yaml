@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds28"
+      south:
+        target: "scene:aber:dragonslueth:ds26"
+      west:
+        target: "scene:aber:dragonslueth:ds29"
+    short: Ballroom
+    sight: >
+      Upon your entry of this room you see a gigantic forty by forty square dance floor with rusty suits of
+      armor placed everywhere on floor. They keep their eyes on your as you move around. You walk over to one
+      of them and see if there is anyone inside of them, but you see nothing. The exits are to the &+Cnorth&*
+      and &+Cwest&*.
+flag:

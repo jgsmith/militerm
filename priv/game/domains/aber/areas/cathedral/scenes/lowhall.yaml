@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:cathedral:lowpass"
+      west:
+        target: "scene:aber:cathedral:vaulcham"
+    short: Low Vaulted Hall
+    sight: >
+      The ceiling in this room is lower, and even more crudely constructed. Bits of concrete lie about the
+      floor. To the east is an elegantly crafted door, looking very out of place. The low passage continues to
+      the south.
+flag:
+  - dark

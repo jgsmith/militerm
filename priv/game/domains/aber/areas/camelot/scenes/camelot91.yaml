@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot88"
+      south:
+        target: "scene:aber:camelot:camelot92"
+    short: The Trail Turns South
+    sight: >
+      As the miles of trail fall behind you, you start to climb higher towards the mountains. You are
+      beginning to wonder if this trail will ever lead anywhere.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave16"
+      north:
+        target: "scene:aber:batcave:batcave17"
+      west:
+        target: "scene:aber:batcave:batcave14"
+    short: Stalactite City
+    sight: >
+      You've reached a cavern so deep you can feel the air pressure in your eardrums. Stalactites and
+      stalagmites are so large and numerous here, their tips beginning to merge in most cases, that you feel
+      you are in a room of columns. Or a limestone forest. To the north you catch a glimpse of a doorway
+      obviously carved by hand. The floor of the entryway is splattered with dried blood. The openings to the
+      east and west feel more inviting.
+flag:
+  - dark
+  - nosummon

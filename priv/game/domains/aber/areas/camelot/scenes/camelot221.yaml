@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot222"
+      south:
+        target: "scene:aber:camelot:camelot220"
+    short: In the Western Wall
+    sight: >
+      You are walking down the inside of the wall. To the east are narrow windows looking out over a large
+      garden area. The western wall is pierced with arrow slits at regular intervals.
+flag:

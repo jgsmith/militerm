@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:batcave:batcave19"
+      south:
+        target: "scene:aber:batcave:batcave16"
+      west:
+        target: "scene:aber:batcave:batcave17"
+    short: Ramp to the Antechamber
+    sight: >
+      This is a long, widened passageway that slants downward to the north. It was obviously carved and
+      smoothed by hand. It resembles a hallway you might find in a castle above ground, but for the fact that
+      it has been tunneled out of solid limestone. Halfway down the ramp on the western wall is a narrow
+      opening spattered with old, dried blood. To the north, the ramp comes to an end at a doorway wide enough
+      for two men.
+flag:
+  - dark
+  - nosummon

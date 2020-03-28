@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:park6"
+      south:
+        target: "scene:aber:balharbor:balhar33"
+      west:
+        target: "scene:aber:balharbor:park2"
+    short: City Park
+    sight: >
+      Taking a brisk walk up the hill you can see the water source is coming off of a creek from a distant
+      mountain far to the east of here. If it was snowing right now and you had a sled, you'd have the perfect
+      sledding hill going right into the pond.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9992"
+      south:
+        target: "scene:aber:ghenna:ghenna9994"
+    short: Crawlspace.
+    sight: >
+      You crawl into the hole, which is infested with bugs that crunch under your weight - GROSS! You can
+      continue Southward this way, if the bugs dont bother you too much, or you can back out into the tunnel
+      to the North.
+flag:
+  - dark

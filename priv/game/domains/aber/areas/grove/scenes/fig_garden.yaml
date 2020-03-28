@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:over_view"
+      south:
+        target: "scene:aber:grove:flower_garden"
+    short: Fig Tree Garden
+    sight: >
+      You arrive at a garden full of fig trees. Some fruit ripens on the branches, swaying gently in the sun.
+      Trees are everywhere, creating a nice grove that makes you feel comfortable walking around in. You have
+      this weird feeling you read about this place in some sort of book involving two people and a snake of
+      some sort.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

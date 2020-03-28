@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:chamber"
+    short: Gloomy Room
+    sight: >
+      You are in a dark gloomy room, light from the window to the south dimly illuminates one wall. To the
+      south is another much brighter chamber.
+flag:

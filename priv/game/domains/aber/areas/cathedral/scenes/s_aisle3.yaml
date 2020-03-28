@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:s_amb"
+      north:
+        target: "scene:aber:cathedral:choir"
+      west:
+        target: "scene:aber:cathedral:s_tran"
+    short: South Aisle
+    sight: >
+      As you reach yet another mind-numbingly dull aisle... your thoughts begin to drift. Is it really worth
+      it? Should i continue with this quest? Perhaps its better to remain a mortal forever?
+flag:
+  - dark

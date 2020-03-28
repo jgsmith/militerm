@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:downstream"
+      north:
+        target: "scene:aber:abyss:bank2"
+      south:
+        target: "scene:aber:abyss:swamp1"
+      west:
+        target: "scene:aber:abyss:downstream"
+    short: Boggy Bank
+    sight: >
+      The ground gets softer the further south you move along the mucus river. In that direction you see a
+      stand of trees partially obscured by mist. The river runs right up to the bank here, allowing easy boat
+      launching.
+flag:
+  - outdoors

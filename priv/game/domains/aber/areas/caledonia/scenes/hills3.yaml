@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills7"
+      north:
+        target: "scene:aber:caledonia:hills6"
+      south:
+        target: "scene:aber:caledonia:hills2"
+    short: By The Tarn
+    sight: >
+      You are standing by the side of a chilly lochan, whose waters are dark brown with peat washed into it
+      from the surrounding slopes. The surface is still but every so often you see a splash far out in the
+      middle of the lochan. Something is alive in the murk. To the east, on the top of a grassy hillock, is an
+      ancient and very much ruined castle.
+flag:
+  - outdoors

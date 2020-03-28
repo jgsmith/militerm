@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:castle6"
+      west:
+        target: "scene:aber:fantasy:castle4"
+    short: Eastern Hallway
+    sight: >
+      There is a bit of light coming from the hallway to the east of here that helps to illuminate this
+      hallway. You see blocked off doors to the north and south in the hallway and realize that there is no
+      way to go through them and decide to head to the east instead.
+flag:

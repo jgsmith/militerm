@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5001"
+      north:
+        target: "scene:aber:yllythad:yllythad5037"
+      south:
+        target: "scene:aber:nwbeaches:beachqq08"
+      west:
+        target: "scene:aber:yllythad:yllythad5141"
+    short: A Gentle Breeze
+    sight: >
+      A calming, fresh breeze blows in bring the fresh scent of the open sea and the tang of salt with it. The
+      sea appears to be cooperating with travel, only gentle swells at this point. A sandy beach lies just to
+      the south, running along the length of a steep cliff face.
+flag:
+  - onwater
+  - outdoors

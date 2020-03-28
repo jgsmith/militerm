@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook123"
+      south:
+        target: "scene:aber:fairybook:fairybook125"
+    short: Forest Path
+    sight: >
+      The rough, forested path continues here. The trees are thicker here than before, and are dotted here and
+      there with bird's nests. Sometimes you can hear the growls and snarls of the beasts of the forest,
+      waiting to pounce on you. The path goes north and south.
+flag:
+  - outdoors

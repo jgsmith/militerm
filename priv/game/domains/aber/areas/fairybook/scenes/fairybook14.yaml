@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:fairybook:fairybook13"
+    short: The Door
+    sight: >
+      You stand before a tiny door. It is carved with intricate, tiny details of mythical beasts and noble
+      knights. And ladies, of course. The door hangs in mid-air, devoid of support. To the west is the shore
+      of a large ocean.
+flag:

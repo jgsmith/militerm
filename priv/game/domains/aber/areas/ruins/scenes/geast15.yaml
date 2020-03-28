@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:geast16"
+      west:
+        target: "scene:aber:ruins:geast14"
+    short: Southeastern Corner
+    sight: >
+      You are in the southeastern corner of a large catacomb. Looking around the dimly lit room you feel a
+      shiver of fear go up and down your spine as you see a complete skeleton hanging on the northern wall.
+      You pray that you are almost out of this evil place. The corridor leads to the north and to the west.
+flag:
+  - dark

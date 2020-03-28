@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds27"
+      south:
+        target: "scene:aber:dragonslueth:ds15"
+    short: Right Wing
+    sight: >
+      This wing is one of the intersections to some of the other rooms inside the castle. This room is old and
+      looks as if it is used alot.
+flag:

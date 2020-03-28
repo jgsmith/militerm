@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ghenna:ghenna9903"
+    short: Under the bones.
+    sight: >
+      You are under a pile of loosely stacked bones. The night sky shows through the vacant eye socket of a
+      human skull above you. With a minimal amount of effort, you could free yourself.
+flag:
+  - nomobiles
+  - dark

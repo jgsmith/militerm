@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis66"
+      north:
+        target: "scene:aber:atlantis:atlantis69"
+    short: Twisty Turn
+    sight: >
+      The walls of this passage twist and turn as they proceed around the corner. You swim through something
+      that resemebles a crooked letter 'W' before you reach the other opening on the far end. One end of the
+      twisty passage opens out to the north and the other end exits to the east.
+flag:
+  - dark
+  - underwater

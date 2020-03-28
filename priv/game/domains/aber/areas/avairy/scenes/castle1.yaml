@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle2"
+    short: Castle Entrance
+    sight: >
+      The golden bird has flown you high in the sky to the Avairy Castle. It appears as though the castle is
+      made from some mixture of straw, leaves, and clay. In fact, it seems to be one very elaborate nest.
+flag:
+  - outdoors
+  - light

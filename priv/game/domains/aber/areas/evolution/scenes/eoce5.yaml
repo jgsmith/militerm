@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:eoce1"
+    short: Shrubby Area
+    sight: >
+      You are picking your way carefully among some thick bushes. After a while it becomes pointless trying to
+      continue south and you resolve to head back the way you came. It occurs to you that this would be a very
+      good place for an ambush...
+flag:
+  - outdoors

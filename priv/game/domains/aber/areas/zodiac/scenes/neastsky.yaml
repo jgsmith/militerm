@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:lost1"
+      north:
+        target: "scene:aber:zodiac:lost1"
+      south:
+        target: "scene:aber:zodiac:eastsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:northsky"
+    short: More Stars
+    sight: >
+      You realise that you had better not venture too far away from where you came from, since you could very
+      easily become lost in this area.
+flag:

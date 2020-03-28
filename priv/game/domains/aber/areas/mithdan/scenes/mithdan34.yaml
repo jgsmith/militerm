@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan28"
+      south:
+        target: "scene:aber:mithdan:mithdan35"
+    short: Stone Arch
+    sight: >
+      The stone arch streched above you, its massive columns over four paces wide. The columns themselves are
+      carved with incredibly intricate runes that seem to gently throb with power. The stone path leads to a
+      large clearing to the north, and to the south a stone temple is carved into the mountainside.
+flag:
+  - outdoors
+  - cold

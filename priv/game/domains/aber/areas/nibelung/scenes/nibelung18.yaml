@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:paths"
+      south:
+        target: "scene:aber:nibelung:nibelung16"
+      up:
+        target: "scene:aber:nibelung:nibelung16"
+    short: Narrow Path
+    sight: >
+      The path narrows here, and the going is a bit more difficult, but soon it becomes impossible to proceed
+      further. From the looks of things there once was a path through here, but the years have allowed the
+      bush to grow back with vengeance.
+flag:
+  - outdoors

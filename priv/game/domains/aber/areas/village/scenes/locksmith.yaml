@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road9"
+    short: "Locksmith's"
+    sight: >
+      This run down little building apparently serves as a shop for the local locksmith. The air smells of
+      dust, and something rotting. Looking round you are unable to find the source of the smell, but
+      understand why no one comes in here.
+flag:

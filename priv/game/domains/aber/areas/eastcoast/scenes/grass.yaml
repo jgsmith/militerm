@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:llpath"
+      south:
+        target: "scene:aber:eastcoast:hillock"
+    short: Hills of Grass
+    sight: >
+      Walking on the cushiony grasses, you find yourself on one of the many hills that roll off into the
+      distance. Travelling here could become easily disorienting because of rolling effect the hills create.
+      You feel relieved to see marked trails leading off to the north and south.
+flag:
+  - outdoors

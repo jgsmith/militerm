@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon33"
+      south:
+        target: "scene:aber:pensalon:pensalon35"
+    short: Storage Chamber
+    sight: >
+      Piles of foodstuffs are scattered all over the room in no order. The southern door leads into a small
+      living quarters, and to the east is the kitchens.
+flag:

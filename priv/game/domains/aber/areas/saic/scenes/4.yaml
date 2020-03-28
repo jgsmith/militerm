@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:5"
+      west:
+        target: "scene:aber:saic:3"
+    short: Inside the cave
+    sight: >
+      You are now standing inside a creepy cave. You can return to the scary path west of here. This cave
+      doesn't seem like a normal one. You feel that something extremely powerful lives at the bottom of it.
+      The cave continues east from here.
+flag:
+  - saic

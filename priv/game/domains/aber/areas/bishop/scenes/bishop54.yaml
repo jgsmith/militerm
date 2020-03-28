@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop47"
+      south:
+        target: "scene:aber:bishop:bishop53"
+    short: Marshlands
+    sight: >
+      Tall reeds and algae are the main forms of vegetation here, the latter surrounding islands built out of
+      the former. Dry land is not always easy to find, but neither is the network of river water very deep.
+      The ground is remarkably flat and allows no shelter from the cross winds that blow in from the east.
+      Crawdads and skitter bugs swim the stretches of dark blue between their spawning nests and favorite
+      places to gather food. Some parts of the river break off into slowly stirring eddies and pull in bits of
+      plant and dirt.
+flag:
+  - outdoors

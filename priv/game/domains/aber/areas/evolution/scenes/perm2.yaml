@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:perm3"
+      north:
+        target: "scene:aber:evolution:tria1"
+      south:
+        target: "scene:aber:evolution:perm1"
+      west:
+        target: "scene:aber:evolution:perm4"
+    short: Sandy Riverbank
+    sight: >
+      You are making your way along the river's edge. Here the river is wide but shallow, and you may attempt
+      a crossing here if you wish. However, a number of large and unfriendly-looking reptiles are gathered on
+      the far shore, watching you with keen interest.
+flag:
+  - outdoors
+  - nomobiles

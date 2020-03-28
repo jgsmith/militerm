@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere14"
+      south:
+        target: "scene:aber:brookmere:brookmere30"
+    short: Cobwebbed Corridor
+    sight: >
+      Usually the odd cobweb doesn't faze you at all, but walking down this corridor you can't help but cringe
+      a little from the hundreds of cobwebs that look like they are holding the place together. They plaster
+      the walls, hang in tatters from the ceiling and are stitched across every corner. With every breath or
+      breeze that escapes you the webs shiver ominously, a signal to their occupants. You can only hope they
+      decide to ignore you.
+flag:
+  - dark
+  - nomobiles

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Along the Road
+    sight: >
+      OK if you got this far you aren't mortal so WHAT THE HECK are you doing the quest for? *grin*
+flag:
+  - outdoors

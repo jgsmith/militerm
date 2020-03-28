@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Hellish Portal
+    sight: >
+      This appears to be the means Sauroth travels between this world and the next. Unfortunatly, not
+      everything here is friendly towards mortals ...
+flag:
+  - nomobiles

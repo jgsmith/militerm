@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: A Small Room
+    sight: >
+      This is a small room that resembles a sitting room. A few decaying chairs are scattered around the room
+      and a small oak table rests in the middle of the room. There is even a fireplace set into the eastern
+      wall with a finely crafted marble hearth. Perhaps you should take a few minutes to sit and relax in
+      here.
+flag:
+  - dark
+  - nomobiles

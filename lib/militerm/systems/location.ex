@@ -266,7 +266,7 @@ defmodule Militerm.Systems.Location do
   defscript place(target), for: %{"this" => this} do
     case target do
       {_, {:thing, target_id, _}} ->
-        if Militerm.Components.Entity.entity_exists?(target_id) do
+        if Militerm.Systems.Entity.whereis({:thing, target_id}) do
           Militerm.Services.Location.place(this, target)
           true
         else
@@ -358,6 +358,8 @@ defmodule Militerm.Systems.Location do
     end
   end
 
+  def find_exits(nil), do: []
+  
   def find_exits(this) do
     # find exits appropriate for the given entity
     # details:$detail:exits:$exit
@@ -366,24 +368,24 @@ defmodule Militerm.Systems.Location do
         case Components.Details.get(target_id, detail) do
           %{"exits" => exits, "related_to" => parent_detail} ->
             if is_nil(parent_detail) do
-              Map.keys(exits)
+              map_keys(exits)
             else
               case Components.Details.get(target_id, parent_detail) do
                 %{"exits" => parent_exits} ->
-                  Enum.uniq(Map.keys(exits) ++ Map.keys(parent_exits))
+                  Enum.uniq(map_keys(exits) ++ map_keys(parent_exits))
 
                 _ ->
-                  Map.keys(exits)
+                  map_keys(exits)
               end
             end
 
           %{"exits" => exits} ->
-            Map.keys(exits)
+            map_keys(exits)
 
           %{"related_to" => parent_detail} when not is_nil(parent_detail) ->
             case Components.Details.get(target_id, parent_detail) do
               %{"exits" => parent_exits} ->
-                Map.keys(parent_exits)
+                map_keys(parent_exits)
 
               _ ->
                 []
@@ -401,6 +403,9 @@ defmodule Militerm.Systems.Location do
   def place(entity_id, {prep, {:thing, target_id, coord}} = target) do
     Militerm.Services.Location.place(entity_id, target)
   end
+  
+  defp map_keys(nil), do: []
+  defp map_keys(map), do: Map.keys(map)
 
   @moduledoc """
   The location component manages all of the information needed to manage where things are.

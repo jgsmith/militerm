@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain11"
+      south:
+        target: "scene:aber:fantasy:mountain8"
+      west:
+        target: "scene:aber:fantasy:mountain10"
+    short: Mountain Cave
+    sight: >
+      You are inside of the cave now and it is a little dark in here but you can still see fairly well. To
+      both east and west there are mine shafts.
+flag:

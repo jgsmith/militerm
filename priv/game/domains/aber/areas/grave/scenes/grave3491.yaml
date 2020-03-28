@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3492"
+      north:
+        target: "scene:aber:grave:grave3488"
+      west:
+        target: "scene:aber:grave:grave3493"
+    short: End of Hallway
+    sight: >
+      You have reached the end of the hallway. You can make out sounds of movement all around you, - You are
+      not alone! There are exits north, east, and west.
+flag:

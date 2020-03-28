@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6757"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6649"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6632"
+    short: "Dragon's Wrath Alehouse"
+    sight: >
+      You have entered a rowdy tavern, noticeably different from the intellectual bounty hunting atmosphere of
+      the Nightbreak Cafe. Your feet are hard put to find a purchase on the slippery floor of spilled ale and
+      cracked, sodden wood. This is the meeting place of those of a fighting bent, accordingly the blood from
+      last night's brawls has barely dried on the walls before tonight's is shed, be wary.
+flag:

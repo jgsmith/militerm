@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:27"
+      north:
+        target: "scene:aber:stjames:29"
+      west:
+        target: "scene:aber:stjames:41"
+    short: St. James Park
+    sight: >
+      Standing along the southern fence of St. James Park, you can see straight ahead to the bridge over the
+      pond. The fountain is a little off to the east. To the west your view is obscured by the trees.
+flag:
+  - outdoors

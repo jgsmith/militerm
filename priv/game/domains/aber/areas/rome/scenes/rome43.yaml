@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome50"
+      south:
+        target: "scene:aber:rome:rome44"
+      west:
+        target: "scene:aber:rome:rome36"
+    short: The Waiting Room
+    sight: >
+      You are standing in a very large room with a high ceiling and there are a few people waiting here to see
+      the emperor on urgent matters. The master scheduler tells you to have a seat and sends a page to inform
+      his highness of your arrival. There are large doors to the east and a gold plated door to the west along
+      with an exit leads south to the foyer. There is a &+Csign&* here.
+flag:

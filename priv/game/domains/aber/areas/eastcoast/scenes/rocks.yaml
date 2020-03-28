@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:bank"
+      north:
+        target: "scene:aber:eastcoast:mstream"
+      south:
+        target: "scene:aber:eastcoast:surf"
+      up:
+        target: "scene:aber:eastcoast:dunes"
+      west:
+        target: "scene:aber:eastcoast:brambles"
+    short: On the Rocks
+    sight: >
+      You carefully pick your way among large boulders lined in an east- west line, going out about forty feet
+      from the shore, obviously built by past inhabitants to break the dangerous waves that come into the
+      beach. From here, you can see paths following the beach to the north and south, and you can go inland by
+      walking west toward a patch of thorny brambles, or by following a steep path up a sandy dune. If you are
+      careful, you can make your way east out to the end of the rocks.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:fairybook:fairybook9"
+    short: Low Hall
+    sight: >
+      You step into a long, low hall, lit by a row of lamps hanging from the roof. There are doors all around
+      you, but they are all locked. A three-legged table stands before you, made of glass. Below the table is
+      a curtain, and to the west is a low hall.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:gold1"
+      south:
+        target: "scene:aber:aladdin:gold6"
+    short: Within the Mounds of Gold
+    sight: >
+      Piles and piles of riches and jewels everywhere. There must millions and millions of points worth of
+      stuff here. You take a quick break to dive into one large pile of coins. After swimming for awhile, you
+      decide to move along.
+flag:
+  - light

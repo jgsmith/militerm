@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house5"
+    short: Bathroom
+    sight: >
+      Ahhhhh, the ever needed Bathroom. The floor is black and white linolium. The walls are covered with
+      pretty flowered wall paper. The sink has a bottle of pump hand soap sitting next to it. Pretty &+Yyellow
+      flowers&* sit in a vase while the sun shines in from the windows. The curtains are made of &+Yyellow
+      cloth&* and has beautiful &+Wwhite&* lace on the edges. The bathroom just wouldn't be a bathroom without
+      a &+Ctoilet&*. The toilet is made of fine porcelain. The only exit from this room is back east.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq26"
+      up: null
+    short: On the Spiral Staircase
+    sight: >
+      You have begun a descent down into the Lower Reaches of the Lighthouse. You wonder why the basement of
+      this happy home would not only be called the 'Lower Reaches', but also capitalized for a moment - and
+      then you see what lies below you. Looking almost like a medieval torture chamber, you see a room all in
+      stone, a deep cavernous hole in the center of it. What looks to be an operating table is set to one side
+      with tables covered in instruments of dissection and bubbling vials close by. Do you really wish to
+      descend into that room and visit with the 'good' Lighthouse Keeper?
+flag:

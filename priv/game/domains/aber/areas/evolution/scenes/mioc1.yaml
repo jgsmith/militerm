@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:olig2"
+      north:
+        target: "scene:aber:evolution:mioc2"
+      west:
+        target: "scene:aber:evolution:mioc4"
+    short: Long Grass
+    sight: >
+      Grass, a newcomer to the world in the miocene epoch, grows here waist-high, but it does not seriously
+      impede your progress through this plain. In the distance you see a herd of cattle grazing, and you get
+      the feeling you are coming home at last.
+flag:
+  - outdoors

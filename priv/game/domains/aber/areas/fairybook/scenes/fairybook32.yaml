@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook33"
+      south:
+        target: "scene:aber:fairybook:fairybook31"
+    short: "March Hare's House"
+    sight: >
+      You suspect this is the home of the March Hare by its appearance. The chimneys are shaped like ears and
+      the roof is thatched with fur. You peer into one of the windows and see that the interior is decorated
+      in early Art Deco, or else that the maid has died. A door enters the house, and a path twists behind you
+      to the south.
+flag:
+  - outdoors

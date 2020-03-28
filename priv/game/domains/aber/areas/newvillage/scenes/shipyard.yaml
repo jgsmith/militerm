@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:oldwell"
+      south:
+        target: "scene:aber:newvillage:road2w"
+    short: The Shipyard
+    sight: >
+      You are moving among many tall ships that are anchored in the harbour. There seems to be a lot of
+      shipping activity in the area. Some of the ships are much larger than others, but they are all made of
+      wood and very finely crafted. One of the particularly beautiful ships that catches your eye seems to be
+      called "Susan". Some of the boats closer to and on the shore seem to have been there for quite a while.
+      There is a tiny boat on the shore that seems to have sailed its last voyage and is now bleaching in the
+      sun.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni81"
+      east:
+        target: "scene:aber:oni:oni200"
+      south:
+        target: "scene:aber:oni:oni83"
+    short: Main Chamber
+    sight: >
+      The main chamber allows access to the other parts of the compound. Signs show that to the east are the
+      barracks, something you probably want to avoid. Down some stairs to the east is the prison section. To
+      the south is the courtyard.
+flag:
+  - cantsummon

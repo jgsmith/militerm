@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Dead End
+    sight: >
+      Ooops...... You seem to have come across a Dead End. And the DEAD END seems to be correct in more than
+      one sense. You suddenly find yourself zapped from the realms of Infinity. You Have DIED!
+flag:
+  - death

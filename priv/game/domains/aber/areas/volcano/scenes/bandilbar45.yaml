@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar46"
+      south:
+        target: "scene:aber:volcano:bandilbar44"
+    short: By The River
+    sight: >
+      You are standing at the edge of the river, which flows westwards from here with a great sense of
+      urgency. It completely blocks your path, and you cannot see where you can go from here unless it is back
+      into the erupting mountain.
+flag:
+  - outdoors

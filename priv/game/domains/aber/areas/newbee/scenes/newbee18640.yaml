@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18641"
+      south:
+        target: "scene:aber:newbee:newbee18644"
+    short: "The Statue's Room"
+    sight: >
+      Here, the passage enters a small room. Exits lead to the east and south, and you notice a wonderful,
+      large (and tastefully done) &+Cstatue&* to the north.
+flag:

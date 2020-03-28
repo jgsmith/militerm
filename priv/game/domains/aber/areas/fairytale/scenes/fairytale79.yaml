@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Down the Well
+    sight: >
+      The rungs are much more slippery than you had thought. Finally, you reach the bottom. With a joyful cry
+      you step out onto the ground and sink up to your neck in mud. The rain begins to fall...
+flag:
+  - death

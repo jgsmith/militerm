@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc13"
+      south:
+        target: "scene:aber:thyrannen:thyrannen2"
+    short: Rolling Hills
+    sight: >
+      You are standing atop of the first in a series of many rolling hills that continue on to the south. The
+      smell of grass and flowers fills your lungs. The sight is very breath-taking. On ahead in the distance
+      is a very large mountain range that juts up seemingly out of nowhere. The mountains look more unnatural
+      than normal mountains. They appear as if they were the work of a demented god.
+flag:
+  - nomobiles
+  - outdoors

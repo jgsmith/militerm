@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook112"
+      north:
+        target: "scene:aber:fairybook:fairybook111"
+      west:
+        target: "scene:aber:fairybook:fairybook109"
+    short: Munchkin Country
+    sight: >
+      You stand in the midst of a country of marvelous beauty. There are patches of green sward all about,
+      with stately trees bearing rich and luscious fruits. Banks of gorgeous flowers are on every hand, and
+      birds with rare and brilliant plumage sing and flutter in the trees and bushes. A little way off is a
+      small brook, rushing and sparkling along between green banks, and murmuring pleasantly.
+flag:
+  - outdoors

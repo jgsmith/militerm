@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Tower of Socrery Library
+    sight: >
+      You have been led into a room in the Tower of Socrery where old mages put you through multiple drills
+      until you perform the spell properly. The hapless test subjects beg for this to end, since they have to
+      suffer the results of miscasted spells.
+flag:
+  - peaceful
+  - soundproof

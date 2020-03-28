@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot297"
+      west:
+        target: "scene:aber:camelot:camelot299"
+    short: "Balor's Room"
+    sight: >
+      Balor and other demons of his class are classically demonic, with scaly green hides, large fangs and
+      horns, bat-like wings, and a terrible disposition.
+flag:
+  - dark

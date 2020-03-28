@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road5e"
+      west:
+        target: "scene:aber:newvillage:road3e"
+    short: The Village Path
+    sight: >
+      The path through the prairie that you are on seems to widen ahead to the west. On in the distance you
+      can make out some buildings, while all around you, villagers' homes are scattered.
+flag:
+  - outdoors

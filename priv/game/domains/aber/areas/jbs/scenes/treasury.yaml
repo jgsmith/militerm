@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: The Treasury
+    sight: >
+      This is the treasury of this mighty castle. You see mountains of gold and jewels all over the place.
+      Pity that most of it is too big and heavy for to even shift much less carry home with you.
+flag:

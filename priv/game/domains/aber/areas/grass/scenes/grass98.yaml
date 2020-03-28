@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass99"
+      north:
+        target: "scene:aber:grass:grass88"
+      west:
+        target: "scene:aber:grass:grass97"
+    short: Obscure Path
+    sight: >
+      As it turns out, the path leads downhill, although from your vantage point west of here, you could not
+      tell that. It seems that the continuing brush you thought was a large field is actually tree tops! The
+      path continues east, becoming more and more enclosed as you move in that direction. To the west the path
+      heads uphill into a huge grassy field.
+flag:
+  - outdoors

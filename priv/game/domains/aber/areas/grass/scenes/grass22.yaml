@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass23"
+      north:
+        target: "scene:aber:grass:grass12"
+      south:
+        target: "scene:aber:grass:grass32"
+      west:
+        target: "scene:aber:grass:grass21"
+    short: A Huge Field of Tall Grass
+    sight: >
+      The grasslands spread out far and wide, all around you. A steady wind blows across this open area,
+      causing the grasses to appear as brownish waves at times, forever being carried along to unknown
+      destinations. The grasses certainly are a beautiful sight, however they also provide for a deadly
+      opportunity for all manner of hunting predators - care in where you step is well advised.
+flag:
+  - outdoors

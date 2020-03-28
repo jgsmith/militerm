@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nrose:aedificium"
+      north: null
+    short: Scriptorium
+    sight: >
+      You have entered the monastery scriptorium. Along one side of the room are a set of stained-glass
+      windows. Next to these windows in neat rows are wooden desks and book stands where the monks laboriously
+      copy and illuminate books. Ah, the monastery must have a library around here somewhere but where can it
+      be?
+flag:

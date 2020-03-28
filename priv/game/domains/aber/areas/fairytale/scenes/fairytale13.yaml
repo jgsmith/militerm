@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale14"
+      west:
+        target: "scene:aber:fairytale:fairytale9"
+    short: Fun House Entrance
+    sight: >
+      'Step right up,' the vendor calls, and you feel compelled to enter the maze of mirrors to the north.
+flag:

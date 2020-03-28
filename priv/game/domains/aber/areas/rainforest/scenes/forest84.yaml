@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest80"
+    short: Under The Kapok Tree
+    sight: >
+      A terrible smell assaults your nostrils as you pause at the base of an enormous kapok tree. You
+      discover, nestling between the tall thin roots of the tree, a huge flower, at least a foot across, which
+      is giving off the most incredibly noxious odour. It is a stinking corpse flower and well deserves its
+      name.
+flag:
+  - outdoors
+  - rainforest

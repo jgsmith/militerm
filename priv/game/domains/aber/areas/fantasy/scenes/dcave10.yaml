@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave11"
+      north:
+        target: "scene:aber:fantasy:dcave9"
+    short: Turn in the mine
+    sight: >
+      Looking around this mine is beginning to make you feel uneasy and you don't know how much longer you can
+      stand being in here. You can see that the passage turns to the east.
+flag:
+  - dark

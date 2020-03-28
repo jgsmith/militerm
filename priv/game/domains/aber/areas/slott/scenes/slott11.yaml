@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott14"
+      south:
+        target: "scene:aber:slott:slott5"
+      west:
+        target: "scene:aber:slott:slott12"
+    short: The kitchen
+    sight: >
+      The kitchen is large, large enough for several cooks to work here at the same time. There is a big
+      &+Bstove&* placed in the middle of the room, the walls are filled with &+Bcupboards&* and &+Bdrawers&*.
+      You notice that this room has been used recently, there is no dust or filth anywhere.
+flag:

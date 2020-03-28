@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord13"
+      south:
+        target: "scene:aber:fjord:fjord15"
+    short: Sand Pit
+    sight: >
+      A puddle of water covers the bottom two inches of this sandy depression. During the early spawning
+      seasons, some fish deposit their eggs here, given its natural protection from predators and proximity to
+      the shore. Over time, the hole has filled in with the surrounding sand as water erodes away the sides.
+      Therefore, kids who swim in the lake will dig out the hole and place their feet in the warm water - sort
+      of like a miniature spa. The beach continues to wind around the lake to the north and south.
+flag:
+  - outdoors

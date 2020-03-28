@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river6"
+      north:
+        target: "scene:aber:rainforest:forest143"
+      south:
+        target: "scene:aber:rainforest:forest121"
+      west:
+        target: "scene:aber:rainforest:river3"
+    short: River Kerapi
+    sight: >
+      You are floating down the middle of the river, following its meanders with great ease. With a great deal
+      of effort you may be able to paddle back upstream since the water is not flowing very swiftly at this
+      point. The river is very wide, but you could gain the shore to north or south if you wish.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

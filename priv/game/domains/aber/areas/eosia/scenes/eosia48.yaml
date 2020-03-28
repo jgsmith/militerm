@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia49"
+      south:
+        target: "scene:aber:eosia:eosia54"
+      west:
+        target: "scene:aber:eosia:eosia49"
+    short: Thalesia
+    sight: >
+      After crossing a small channel, you have arrived on the shores of the kingdom of Thalesia. It is here
+      that the trolls have been rumored to live. To the north and west mountains rise up out of the ground to
+      meet the sky. To the south, just past the channel, you can makes out the shoreline of the kingdom of
+      Deira.
+flag:
+  - outdoors
+  - cold

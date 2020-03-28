@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:1"
+      west:
+        target: "scene:aber:stjames:13"
+    short: St. James Park
+    sight: >
+      You are standing south of the southern path through St. James Park, just next to the bordering fence.
+      The lawn you are on is scattered with large shade trees. Otherwise, the immaculate lawn is
+      uninterrupted. There are people here and there, holding conversations beneath the trees.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot6"
+      south:
+        target: "scene:aber:camelot:camelot1"
+    short: Great Hall
+    sight: >
+      Banners displaying the coats of arms of King Arthur's knights hang from the walls. You stare in wonder
+      at the myriad colors. You can almost see the hall as it would be, filled with the knights and their
+      ladies, celebrating another of King Arthur's victories.
+flag:

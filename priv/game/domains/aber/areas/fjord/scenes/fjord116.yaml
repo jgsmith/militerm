@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: "Magician's Dwelling"
+    sight: >
+      Inside this house is an impossibly long table, since Dendine the magician keeps her secrets turned on in
+      her personal life as well as her professional. Pinned tightly on one wall rests an astrological chart of
+      the divine winds, but the divine spirits have never invested their power in the signs of the sky, so at
+      best she can perform parlor tricks in this department. A wall rack of magic wands of different lengths
+      rests against a series of shelves which hold all manners of small animated clay figures. An unusual
+      assortment of beak-snapping umbrella stands in a back corner.
+flag:

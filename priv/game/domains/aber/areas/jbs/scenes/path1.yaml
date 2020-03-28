@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:path2"
+      west:
+        target: "scene:aber:jbs:path0"
+    short: Path to the Farm
+    sight: You are on a path that leads from east to west.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:adept:adept33"
+      south:
+        target: "scene:aber:adept:adept31"
+    short: Castle Walls
+    sight: >
+      A mighty fortress looms before you, surrounded by fifty foot walls and the open, grassy plain. Only one
+      entrance is visible - the portcullis. Guards stand on both sides of the massive gate and watch patiently
+      as carts travel in and out, no doubt keeping some level of suspicion on each soul. Whenever an
+      official-looking dignitary attempts to pass, the guards cross their spears and demand to see
+      authorization papers. The activity here is consistent with that of being nearby a war zone, as many of
+      the land's arms merchants are making huge profits selling their wares.
+flag:
+  - nomobiles

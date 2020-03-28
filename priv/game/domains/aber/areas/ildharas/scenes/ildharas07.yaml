@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas06"
+      east:
+        target: "scene:aber:ildharas:ildharas10"
+      north:
+        target: "scene:aber:ildharas:ildharas15"
+      south:
+        target: "scene:aber:ildharas:ildharas06"
+      west:
+        target: "scene:aber:ildharas:ildharas09"
+    short: The Gates of the Outer Wall
+    sight: >
+      A castle rests at the northern end of the valley, its walls in ruins. The gates remain the only portion
+      of the outer defenses still intact. The walls on either side are breached in many places. Oddly, the
+      castle beyond seems untouched by the elements.
+flag:
+  - outdoors

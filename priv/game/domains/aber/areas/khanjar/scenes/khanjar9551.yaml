@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9549"
+      north:
+        target: "scene:aber:khanjar:khanjar9532"
+      west:
+        target: "scene:aber:khanjar:khanjar9552"
+    short: A Small Grove
+    sight: >
+      You are standing at a peaceful grove, surrounded by those evergrowing trees and various flowers which
+      all look so beautiful, but also somewhat sad. There is a large ant hill, and as a contrast to the grove
+      it nearly swarms life. A faint track leads to the north, and to the west there lies a ditch.
+flag:
+  - outdoors

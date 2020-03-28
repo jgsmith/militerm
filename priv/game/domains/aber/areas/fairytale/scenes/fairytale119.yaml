@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale115"
+      north:
+        target: "scene:aber:fairytale:fairytale118"
+      south:
+        target: "scene:aber:fairytale:fairytale120"
+    short: Hallway
+    sight: >
+      The hallway ends here. It extends to the east, and to the south and the north are doors. The southern
+      door is open.
+flag:
+  - nomobiles

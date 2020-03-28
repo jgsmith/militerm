@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale137"
+    short: Kingdom Overlook
+    sight: >
+      This large, circular room has windows on all sides and offers a perfect view of the kingdom below. The
+      air is a bit stale and dusty, and it seems like this room has not been used much in recent times.
+flag:

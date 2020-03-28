@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:northempty1"
+      north:
+        target: "scene:aber:ruins:northhall3"
+      south:
+        target: "scene:aber:ruins:northhall"
+    short: Northern Hall
+    sight: >
+      You are travelling further along in the north hall. The musky air makes you pause for a brief second to
+      rest and you decide to look around. The hall seems to continue even further to the north and there is a
+      room to the east, or you can turn around and go back south.
+flag:
+  - dark

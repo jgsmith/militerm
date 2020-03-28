@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle8"
+      west:
+        target: "scene:aber:balharbor:jungle6"
+    short: Wide Trail
+    sight: >
+      The path widens here between the cliff and the jungle. Sounds of the jungle seem to echo from the edge
+      of it to the east, while the echos of your movements echo down the side of the plateau to the west.
+flag:
+  - outdoors

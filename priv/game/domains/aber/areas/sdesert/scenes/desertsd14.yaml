@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sdesert:desertsd13"
+    short: The Disappearing Path
+    sight: >
+      Here you stop, and gaze of into the panoramic view to the &+Ceast. The path here has ceased to exist,
+      due to the severe drop down to the rest of the desert far below you. Off in the distance you see a huge
+      landmark, that looks strikingly similar to an enormous crater.
+flag:
+  - outdoors
+  - hot

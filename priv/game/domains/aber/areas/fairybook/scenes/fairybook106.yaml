@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook107"
+      east:
+        target: "scene:aber:fairybook:fairybook108"
+      north:
+        target: "scene:aber:fairytale:fairytale99"
+    short: Kansas
+    sight: >
+      Dorothy's house in Kansas is small, for the lumber to build it had to be carried by wagon for several
+      miles. There are four walls, a floor, and a roof, which make one room; and this room contains a rusty
+      looking cooking stove, a cupboard for the dishes, a table, three or four chairs, and two beds. A
+      trap-door leads down to the cyclone cellar, a door to the east leads to the garden, and a shimmering
+      door to the north goes back to the library.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale3"
+      up:
+        target: "scene:aber:fairytale:fairytale6"
+    short: On the Vine
+    sight: >
+      The vine continues both up and down. The sky above you is obscured by a low-hanging cloud bank, into
+      which the vine disappears. Looking down, you realize that a fall from this height would surely kill you.
+flag:

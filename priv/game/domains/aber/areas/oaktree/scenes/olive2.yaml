@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:olive"
+      south:
+        target: "scene:aber:oaktree:olive3"
+    short: Olive Tree
+    sight: >
+      This tree is hung all over with scrawled pieces of paper and bits of cardboard with maxims from Seneca
+      and Shaftesbury, and with various objects: clusters of feathers, church candles, crowns of leaves,
+      women's corsets, pistols, scales, tied to each other in a certain order, the significance of which has
+      been lost. The olive grove continues to the east.
+flag:
+  - outdoors

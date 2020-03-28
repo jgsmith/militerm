@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fantasy:mountain12"
+    short: End of Mountain Cave
+    sight: >
+      The cave looks to end here. There are shovels and picks laying around that the miners must use to chip
+      away the rock to search for gold.
+flag:

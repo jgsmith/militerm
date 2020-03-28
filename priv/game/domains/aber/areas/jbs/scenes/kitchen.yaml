@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:pantry"
+      south:
+        target: "scene:aber:jbs:dining"
+      west:
+        target: "scene:aber:jbs:foyer"
+    short: The Kitchen
+    sight: >
+      As you enter the kitchen you are overwhelmed by the incredible aroma of fresh country cooking. The walls
+      in here are covered with beige, flowery wallpaper, and there are all kinds of pots and pans hanging from
+      a rack above a counter in the center of the room. Exits lead north, south and east.
+flag:

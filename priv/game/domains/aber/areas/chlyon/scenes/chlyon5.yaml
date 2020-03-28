@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chlyon:chlyon4"
+      west:
+        target: "scene:aber:chlyon:chlyon6"
+    short: The Entryway
+    sight: >
+      As you peer inside the cave from here, you see a myriad of pathways leading off in all directions. You
+      shudder at the thought of spending the rest of your life trying to make heads and tails out of this
+      place. You may exit to safety to the east.
+flag:

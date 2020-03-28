@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:church:bell"
+      north:
+        target: "scene:aber:church:tower"
+    short: The Bells, The Bells!!!!
+    sight: >
+      You stand in a large chamber packed with bells. There is a doorway to the north, or you could shin down
+      a bell rope.
+flag:

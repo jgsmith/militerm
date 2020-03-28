@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6725"
+    short: "Blind Man's Bluff"
+    sight: >
+      The lonely hilltop is blanketed in a strange, rich green grass-cover, and the only sound is that of the
+      wind whistling over the moors. A haunting, otherworldly presence has made this bluff its home, casting
+      what malevolence it yet can on the mortal world, and giving the bluff its name.
+flag:
+  - outdoors

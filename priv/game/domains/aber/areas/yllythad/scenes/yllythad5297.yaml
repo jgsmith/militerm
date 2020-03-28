@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5292"
+      north:
+        target: "scene:aber:yllythad:yllythad5101"
+      south:
+        target: "scene:aber:yllythad:yllythad5298"
+    short: A Drizzling Rain
+    sight: >
+      The rain comes down in steady sheets of tiny raindrops. It does not appear that there will be any
+      thunder or lightning any time soon, just a steady dismal downpour.
+flag:
+  - onwater
+  - outdoors

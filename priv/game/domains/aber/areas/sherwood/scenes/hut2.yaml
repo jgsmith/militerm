@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sherwood:sherwood31"
+    short: Ramshackle Hut
+    sight: >
+      As you enter, the ceiling beam crashes down on you. It smashes your head. You are dead.
+flag:
+  - dark
+  - death

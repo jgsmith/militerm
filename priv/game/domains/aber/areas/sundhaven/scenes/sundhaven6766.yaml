@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6767"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6765"
+    short: A path hung with moss
+    sight: >
+      The slender trail winds its way north-south through bending trees laiden with spanish moss. (Except this
+      was before Spain.) It comes to an end before the bubbling ebbs of a tiny stream, pouring gently forth
+      from a hole in the rock on which you are poised, and flows southward.
+flag:
+  - outdoors

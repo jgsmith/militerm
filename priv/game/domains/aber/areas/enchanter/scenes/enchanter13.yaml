@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter14"
+    short: Still on the Road
+    sight: >
+      The road continues on to the southeast, and back to the northwest.
+flag:
+  - outdoors
+  - real
+  - tempreal

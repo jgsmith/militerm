@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:levelthree"
+      south:
+        target: "scene:aber:ruins:csouth"
+    short: Western Catacomb
+    sight: >
+      You have entered the western catacombs. A great deal of moss grows on the walls and it is very murky and
+      cold. As you step forward you walk into a pool of blood and find yourself speechless with fear. You look
+      nervously around this room some more and see exits to the east and south.
+flag:
+  - dark

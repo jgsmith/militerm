@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Surgery
+    sight: >
+      Surgeons are frantically patching up numerous people at once. The number of patients keep climbing and
+      none of these caregivers seem to have had a break in weeks. Hopefully you will be healed of your wounds
+      before the doctors all need the medical care...or else you may wake up during surgery.
+flag:
+  - peaceful
+  - nosummon
+  - cantsummon

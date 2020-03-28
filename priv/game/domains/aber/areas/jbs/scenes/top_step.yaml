@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:first_step"
+      up:
+        target: "scene:aber:jbs:landing1"
+    short: Top Step
+    sight: >
+      In the interest of time you have now reached the top step. Only one more to go and you'll be at the top
+      :).
+flag:

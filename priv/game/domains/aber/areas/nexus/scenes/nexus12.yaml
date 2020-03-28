@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus11"
+      north: null
+    short: Castle Gates
+    sight: >
+      Frozen, white, crysalline statues of former rulers in bold poses cross their stern gazes at the
+      staircase, daring any of those who wish entry to the castle to prove their worth. The gates themselves
+      are lines with a velvet coating and adorned with brass buttons, where each button is forged under deep
+      heat and emblazoned with this castle's coat-of-arms. The walls of the castle are extremely tall and
+      sheer, appearing to be almpst made out of the same material as that of the far-below pain. Any attempt
+      by besiegers to scale the castle would end in hundreds of broken bones.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

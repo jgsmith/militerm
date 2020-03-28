@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:kitchen"
+      south:
+        target: "scene:aber:nrose:widepath"
+      up:
+        target: "scene:aber:nrose:scriptorium"
+    short: Aedificium Steps
+    sight: >
+      You are standing in front of the large tower of the aedificium. It is known that the scriptorium and the
+      monastery kitchen are inside this tower but it seems that it is too large for just these two areas. You
+      notice a door in the base of the tower to the east.
+flag:
+  - outdoors

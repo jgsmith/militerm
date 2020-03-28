@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eosia:eosia35"
+    short: The Imperial Throne Room
+    sight: >
+      This is the throne room for the Empire of Zemoch. For an Imperial Throne room, this room is quite dull.
+      The room is made out of gray stone, and some form of mold grows abundently upon them. Before you, a huge
+      stone dias marks the place where the Emperor used to sit, when he still cared enough to rule his empire.
+      You imagine that once this whole city used to be filled with color and activity, but now, it is filled
+      with only decay.
+flag:

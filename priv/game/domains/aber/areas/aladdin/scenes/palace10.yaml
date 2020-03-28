@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace11"
+      west:
+        target: "scene:aber:aladdin:palace1"
+    short: Somewhere in the Palace
+    sight: You are in the palace.  Halls lead east and west.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:oaktree23"
+      west:
+        target: "scene:aber:oaktree:olive"
+    short: Olive Tree
+    sight: >
+      This tree juts out from a cliff, and through the leaves and branches you find the sea there facing you,
+      calm and limpid and vast as the sky. The horizon opens wide and high and the sea-blue is stretched bare,
+      without a sail. You can almost count the far-off ripples of the waves. Only a very light rustle, like a
+      sigh, runs over the pebbles on the beach. There are some roots hanging over the cliff face here. They
+      look fairly sturdy, and you might be able to climb down if you weren't carrying much.
+flag:
+  - outdoors

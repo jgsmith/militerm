@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord4"
+      west:
+        target: "scene:aber:fjord:fjord2"
+    short: Before the Thatched Dwelling
+    sight: >
+      The gravel trail leads straight to the hut's main entrance and back west to the T-intersection. Some
+      small gardening &+Ctools&* and pieces of broken flower &+Gpots&* are scattered here. One crossbar window
+      by the front entrance is shattered in one of its four panes, letting the wind whistle through it. Soft
+      pine needles, brown and lifeless, sweep around the area and through the open doorway.
+flag:
+  - outdoors

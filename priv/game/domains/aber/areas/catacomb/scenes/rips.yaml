@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Your umbrella rips and ...
+    sight: >
+      ... you plummet into a small spherical chamber which has somehow been carved out of the living stone.
+      Many objects litter the ground, including your unpleasant remains ...
+flag:
+  - death

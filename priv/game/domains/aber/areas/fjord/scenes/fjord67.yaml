@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord68"
+      west:
+        target: "scene:aber:fjord:fjord66"
+    short: Twexxler Avenue
+    sight: >
+      Named after the evil spirit who guards the easterly winds, this flat, featureless black street is the
+      main artery of the eastern section of the city. No commercial districts are present, since no trade
+      happens here. All who inhabit this city fight for their own power and survival and make enemies on an
+      hourly basis. There is a lavasmith's shop near the end of the street, where a behemoth in a fireproof
+      outfit melds together lava bombs with its breath of silver fire. It gives these weapons to various
+      factions in the city to help gain the favors of the minions who wage their wars.
+flag:
+  - dark

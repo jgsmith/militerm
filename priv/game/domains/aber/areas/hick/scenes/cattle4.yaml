@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:cattle2"
+    short: Cattle Stall
+    sight: >
+      Looking around this small pin you notice that this is where a cow is taken to be milked. There are
+      assorted pails and a few pairs of gloves hanging on a nearby rack that look a little used and weathered.
+      You can leave this stall to the west.
+flag:
+  - outdoors

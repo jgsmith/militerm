@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:field"
+      north:
+        target: "scene:aber:eastcoast:hillock"
+      south:
+        target: "scene:aber:eastcoast:secliff"
+    short: Rolling Meadow
+    sight: >
+      Grassy hills roll off into the distance here as you walk by, and you smell the fragrances of the wild
+      grasses and flowers growing all around. The hills flatten out to a large field to the west, where you
+      hear the bleating of sheep. Another path to the south makes a easterly turn along a cliff edge.
+flag:
+  - outdoors

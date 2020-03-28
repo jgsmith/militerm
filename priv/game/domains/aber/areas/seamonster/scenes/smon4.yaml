@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Turbulent Waters
+    sight: >
+      The water swallows you down and takes you with. You narrowly miss many sharp rocks along the way as you
+      are sucked into the undertow. After nearly giving up hope of ever surviving the seas mercifully spit you
+      out onto another island.
+flag:
+  - onwater

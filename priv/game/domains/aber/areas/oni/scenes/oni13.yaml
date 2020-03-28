@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni14"
+      south:
+        target: "scene:aber:oni:oni12"
+    short: Forest Entrance
+    sight: >
+      You stand near the entrance of the forest. To the south you can see the light of day. To the north you
+      see nothing but trees and darkness. From the darkness you can make out glowing orbs, which appear to be
+      staring directly at you.
+flag:
+  - outdoors

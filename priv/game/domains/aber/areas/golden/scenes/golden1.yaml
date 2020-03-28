@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden2"
+      south:
+        target: "scene:aber:balharbor:jungle1"
+      west:
+        target: "scene:aber:golden:golden3"
+    short: &+YSandy&* Path
+    sight: >
+      You are walking along a soft, sandy path that has recently been covered with animal tracks. On either
+      side of the path large trees and undergrowth smother the ground with roots and leaves. In the distance
+      the sound of rushing water catches your attention. To the north there is a small hill of rock. You can
+      go south or continue onward through the jungle by going west along the path.
+flag:
+  - outdoors

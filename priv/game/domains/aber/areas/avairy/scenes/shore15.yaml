@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore16"
+      south:
+        target: "scene:aber:avairy:shore14"
+    short: The Shore
+    sight: >
+      You have enter the northwestern corner of the island. You notice a significant difference in the sea
+      north and the sea to the west. You are drenched as a five foot wave crashes on the rocks about five feet
+      north of you. The breeze from the north almost blows you to the ground and you struggle against it. The
+      shore continues to the south and east.
+flag:
+  - outdoors
+  - light

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia4"
+      west:
+        target: "scene:aber:eosia:eosia2"
+    short: The Road to Cimmura
+    sight: >
+      The road bends here, leading north to the capital of Elenia, the city of Cimmura. You can just make out
+      the towers from the royal castle in the distance. The road leading north is very well taken care of,
+      after all, the Queen insists on neatness.
+flag:
+  - outdoors

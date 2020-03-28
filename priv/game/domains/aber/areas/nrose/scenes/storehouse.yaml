@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:treepath"
+    short: Storehouse
+    sight: >
+      You are in the monastery storehouse where the supplies for the monks are stored.
+flag:

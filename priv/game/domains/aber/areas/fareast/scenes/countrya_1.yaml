@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countrya_3"
+      west:
+        target: "scene:aber:fareast:village3"
+    short: Countryside- Near a Village
+    sight: >
+      Fields and pastures have been carved into the rocky soil of this land, a sloping plain descending from
+      the mountainous north toward the low, forested south. The road crossing this expanse runs east-west, and
+      at its western terminus meets up with a small village of wooden buildings. Towards the east, the road
+      meets with another at an unmarked crossing.
+flag:
+  - outdoors
+  - nomobiles

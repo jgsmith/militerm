@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount27"
+      up:
+        target: "scene:aber:rainforest:mount29"
+    short: Icy Rock Face
+    sight: >
+      You are halfway up the rock face, clinging on for dear life, though your hands are getting exceedingly
+      cold in the process. Some of your footholds are worryingly slippery owing to a thin but lethal coating
+      of black ice. You can continue up or down from here.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

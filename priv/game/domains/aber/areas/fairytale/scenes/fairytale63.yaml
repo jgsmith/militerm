@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairytale:fairytale62"
+    short: Inside the Statue
+    sight: >
+      You have entered the crypt in which Jessimine has been buried. Light shines in from a hole at the top of
+      the statue and illuminates the room. You see a picture of a woman, who you recognize as the Goddess, as
+      well as several tapestries hanging on the walls depicting Jessimine's sister, her friends, and her true
+      love.
+flag:
+  - nomobiles

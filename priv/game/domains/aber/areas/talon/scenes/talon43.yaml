@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:talon:talon42"
+    short: Guard Room
+    sight: >
+      This is a small dark room which appears to serve as housing for the guards of the castle. There is a
+      bunkbed in the corner, and a table in the center of the room. The only exit from this room is an archway
+      to the west.
+flag:

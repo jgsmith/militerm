@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle15"
+      west:
+        target: "scene:aber:balharbor:jungle13"
+    short: Garden of Flowers
+    sight: >
+      This section of the jungle has many exotic flowers each putting off its own sweet scents. Paths runs
+      west to east.
+flag:
+  - outdoors

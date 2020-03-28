@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot65"
+      north:
+        target: "scene:aber:camelot:camelot66"
+      south:
+        target: "scene:aber:camelot:camelot60"
+      west:
+        target: "scene:aber:camelot:camelot64"
+    short: Main Street
+    sight: >
+      The street continues north and south, and you see buildings to the east and west.
+flag:
+  - outdoors

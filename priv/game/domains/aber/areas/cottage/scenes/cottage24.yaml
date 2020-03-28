@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage23"
+    short: Tomb of Ramses IV
+    sight: >
+      Rising all about you, you see jeweled panel and statues adorned with heiroglyphics and carvings of all
+      kinds. Dominating this room however, is the immense sarcophagus of The Pharoh Ramses IV. It emanates
+      tendrils of magical energy which seem to reach into your soul intently searching for you know not what.
+      After a moment you realize that this room is incredibly dry, especially in comparison to the one that
+      you just left.
+flag:
+  - dark
+  - nomagic
+  - nosummon

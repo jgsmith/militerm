@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town26"
+      north:
+        target: "scene:aber:town:town38"
+      south:
+        target: "scene:aber:town:town35"
+    short: Square Near Brothel
+    sight: >
+      This large, open area has many games of chance sitting in it for people who do not feel like going into
+      the Brothel to use the regular Casino. To the north is yet another part of the town square, to the south
+      you may enter the Town Brothel, and to the east you may enter the square near the Tavern, where much
+      food is being sold.
+flag:
+  - outdoors

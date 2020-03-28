@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_20"
+      north:
+        target: "scene:aber:haunted:haunted_19"
+      south:
+        target: "scene:aber:haunted:haunted_19"
+      west:
+        target: "scene:aber:haunted:haunted_21"
+    short: Lost in the Woods
+    sight: >
+      You run through the woods, not knowing where you are. You are completely lost.
+flag:
+  - real
+  - maze

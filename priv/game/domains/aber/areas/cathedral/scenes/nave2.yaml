@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:nave3"
+      north:
+        target: "scene:aber:cathedral:n_aisle1"
+      south:
+        target: "scene:aber:cathedral:s_aisle1"
+      west:
+        target: "scene:aber:cathedral:nave1"
+    short: The Nave
+    sight: >
+      You are partway down the nave. The wall of columns continues to your north and south. Thick, &+Ldark
+      &+rred&* stains mar the columns. You can make your way to the side aisles through any of the archways
+      between the columns. To the west the nave continues toward the royal portals. To the east it leads
+      toward the choir and the apse. Several chairs, broken and battered, are strewn about the floor.
+flag:
+  - dark

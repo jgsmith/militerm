@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni84"
+      south:
+        target: "scene:aber:oni:oni67"
+    short: North Deufel
+    sight: >
+      The area is populated mainly by blacksmiths, trainers, and other services used by warriors. You can
+      guess why, as to the north, outside the wall is a huge castle like complex with a banner displaying a
+      white phoenix.
+flag:
+  - outdoors
+  - cantsummon

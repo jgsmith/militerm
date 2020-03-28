@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9533"
+      north:
+        target: "scene:aber:khanjar:khanjar9534"
+      south:
+        target: "scene:aber:khanjar:khanjar9551"
+      west:
+        target: "scene:aber:khanjar:khanjar9531"
+    short: A Weak Trail
+    sight: >
+      You step forward. To the north is a small square, and to the south there is a grove of somekind. The
+      trail itself leads to the west and east.
+flag:
+  - outdoors

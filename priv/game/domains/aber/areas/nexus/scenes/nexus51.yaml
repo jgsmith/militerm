@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus52"
+      south:
+        target: "scene:aber:nexus:nexus50"
+    short: Lush Trail
+    sight: >
+      A flat trail leads up a slight slope towards the center of the island, looking recently trailblazed.
+      Shde is provided often from the gigantic fronds of the natural vegetation. On many leaves there are
+      small holes where bugs have eaten and empty cocoons where the rare tropical caterpillar has undergone
+      its usual metamorphosis into a multi-hued butterfly.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:eforest:eforest"
+      south:
+        target: "scene:aber:eforest:scenic"
+    short: Thorny Path
+    sight: >
+      You are ascending a path into the mountains, which continues to the North and South. The region seems
+      just as desolate as the forest below you. The ground is cracked and dying, and the only vegetation is a
+      thorny brush, which practically cover the path, ripping at your clothes. The entire Eastern cliff is
+      covered by a wall of &+ythorns&*. On the other side, just to the West is a sharp dropoff. Past it, you
+      can see the entire elven forest. The corrupted view turns your stomach.
+flag:
+  - outdoors

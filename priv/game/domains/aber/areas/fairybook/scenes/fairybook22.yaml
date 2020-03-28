@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook16"
+      south:
+        target: "scene:aber:fairybook:fairybook23"
+    short: The Path
+    sight: >
+      The path here continues through the woods, which are becoming thicker and greener. In fact, as you
+      watch, the trees seem to grow in size. The path extends here north and south.
+flag:
+  - outdoors

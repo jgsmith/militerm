@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter20"
+      west:
+        target: "scene:aber:enchanter:enchanter14"
+    short: Before the Castle
+    sight: >
+      The vegetation is beginning to thin here, as you approach the castle. You can still turn back... Maybe
+      you should...
+flag:
+  - outdoors
+  - real
+  - tempreal

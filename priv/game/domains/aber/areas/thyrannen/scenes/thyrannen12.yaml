@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen11"
+      north:
+        target: "scene:aber:thyrannen:thyrannen13"
+      south:
+        target: "scene:aber:thyrannen:thyrannen14"
+      west:
+        target: "scene:aber:thyrannen:thyrannen18"
+    short: Redwood Forest
+    sight: >
+      At this point the forest continues in all directions. To the east the forest hooks south. To the south
+      the forest appears to reach a dead-end. While to the north the forest turns east. Directly to the east
+      is what appears to be the center of the forest. The forest seems to come alive here, the branches are
+      rustling, yet there is no wind...
+flag:
+  - outdoors

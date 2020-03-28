@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund19"
+      south:
+        target: "scene:aber:sommerlund:sommerlund21"
+    short: River Bank
+    sight: >
+      You stand on the muddy bank of the Tor River. Mud squishes beneath your feet as you step, forming its
+      own kind of musical beat. It's not wet enough to be quicksand, but the mud still restricts travel.
+flag:
+  - outdoors

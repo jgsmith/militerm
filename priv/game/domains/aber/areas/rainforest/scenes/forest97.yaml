@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest100"
+      north:
+        target: "scene:aber:rainforest:river4"
+      west:
+        target: "scene:aber:rainforest:forest93"
+    short: By The River
+    sight: >
+      You are on the south bank of the Malazon. Here it swings around to the north, converging with the Kerapi
+      a little way to the east. You can go east from here into the jungle or west along the bank.
+flag:
+  - outdoors

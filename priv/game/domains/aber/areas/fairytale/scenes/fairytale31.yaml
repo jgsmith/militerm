@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairytale:fairytale30"
+      west: null
+    short: Prison Stairs
+    sight: >
+      A set of stairs leads up to the surface, but the steps are too wide for someone of your height to climb.
+      Fortunately, someone has tied a rope to the railing at the top of the stairs, making the ascent
+      possible.
+flag:

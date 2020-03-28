@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:swamp2"
+      north:
+        target: "scene:aber:abyss:boggy"
+    short: The Swamp
+    sight: >
+      You are at the edge of a vast swamp. The tall trees here are laden with moss hanging all the way to the
+      surface of the swamp. Thick mists obscure vision, making it hard to find your way. The ground is most
+      firm to the east.
+flag:
+  - dark
+  - peaceful
+  - nomobiles

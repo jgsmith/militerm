@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Susemi
+    sight: >
+      What is a susemi ? I think it's the mix of a sesame seed, a tsunami and a sushi...Bah...anyway you're
+      dead, so what's the point...
+flag:
+  - death

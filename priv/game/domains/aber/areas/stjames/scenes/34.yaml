@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:21"
+      south:
+        target: "scene:aber:stjames:33"
+      west:
+        target: "scene:aber:stjames:35"
+    short: St. James Park
+    sight: >
+      Traveling along the northern edge of the park, you study the people walking on the street. They are all
+      headed toward the palace, and most of them are holding cameras and other objects which mark them as
+      tourists. You hear many languages among the group. It seems that a good portion of the world is in
+      London for the V-E Day Celebrations.
+flag:
+  - outdoors

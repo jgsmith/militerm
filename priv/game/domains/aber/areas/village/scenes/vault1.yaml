@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      up:
+        target: "scene:aber:village:bank"
+    short: Before the Vault
+    sight: >
+      At the bottom of the stairs you enter a small, cold steel walled chamber. There is a single door in the
+      north wall made of thick steel bars.
+flag:

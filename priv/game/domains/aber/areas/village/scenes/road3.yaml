@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house1"
+      north:
+        target: "scene:aber:village:road4"
+      south:
+        target: "scene:aber:village:road2"
+    short: Village Road
+    sight: >
+      You are follow a narrow street of the village which leads north and south. This road looks to have been
+      constructed more recently than the old main street of the village. To the east looks like a day care
+      center.
+flag:
+  - outdoors

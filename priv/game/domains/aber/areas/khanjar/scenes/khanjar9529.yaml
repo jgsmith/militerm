@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: A Chaotic Room
+    sight: >
+      The room is in chaotic order. Parts of the upper floor have fallen down here, and the former furniture
+      is now more or less buried under them. At the corners there lie several rottening books, bedraggled
+      tapestries, and broken vessels. Besides, the room appears partially burned.
+flag:

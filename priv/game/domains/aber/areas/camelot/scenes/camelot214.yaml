@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot216"
+      north:
+        target: "scene:aber:camelot:camelot217"
+      south:
+        target: "scene:aber:camelot:camelot72"
+      west:
+        target: "scene:aber:camelot:camelot215"
+    short: The Drawbridge
+    sight: >
+      You stand on a massive drawbridge outside Merlin's castle. Looking east and west you see a deep moat,
+      and you seem to see something moving in the depths. To the north lies a portcullis and beyond, the yards
+      and keep.
+flag:
+  - outdoors
+  - nomobiles

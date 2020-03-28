@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge38"
+      south:
+        target: "scene:aber:ledge:ledge32"
+    short: Odor in the Cave
+    sight: >
+      A rather unpleasant smell seems to have taken over the scent of seawater common throughout this part of
+      the cavern. More droppings along with a few carcasses can be found along the sides, and some growling
+      can be heard also! If this sounds a bit unnerving to you, escape can be had to the south or else have an
+      encounter with whatever it is to the north.
+flag:
+  - dark

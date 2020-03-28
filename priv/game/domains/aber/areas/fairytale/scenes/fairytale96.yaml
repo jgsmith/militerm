@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale101"
+      north:
+        target: "scene:aber:fairytale:fairytale103"
+      south:
+        target: "scene:aber:fairytale:fairytale102"
+      west:
+        target: "scene:aber:fairytale:fairytale57"
+    short: Sleeping Beauty
+    sight: >
+      This is the fabled home of Sleeping Beauty. Somewhere in this house, it is rumored, a woman sleeps,
+      having been cursed by an evil witch to slumber forever. The house itself is rather large, and you
+      suspect it would take quite some time to investigate the whole place. A kitchen is to the east, the
+      living room is to the north, and to the south lies the dining room. Here, in the entrance hall, a series
+      of coat hooks line the wall.
+flag:

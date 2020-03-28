@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:catacomb:sledge2"
+    short: The Rough-Walled Chamber
+    sight: >
+      You are in a small spherical chamber, which has somehow been carved out of the living stone. Although
+      you can see no exits, the room is lit and there is an updraft...
+flag:

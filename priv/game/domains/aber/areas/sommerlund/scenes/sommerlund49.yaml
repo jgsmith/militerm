@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund48"
+      west:
+        target: "scene:aber:sommerlund:sommerlund50"
+    short: Mountain Slope
+    sight: >
+      This is the lower range of the Durncrags. Here there be meadows, some being remnants of extinct
+      volcanoes. The willowgrass pokes some three feet up out of these calderas, giving a fertile medium
+      between the valleys and the starkness of the mountains.
+flag:
+  - outdoors

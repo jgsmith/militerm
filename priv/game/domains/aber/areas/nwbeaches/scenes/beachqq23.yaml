@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq21"
+    short: Light Room
+    sight: >
+      This small room is more or less just the roof top of the lighthouse which houses the light. A narrow
+      walkway encircles the light, so that regular maintenance can be performed. Some shelves on the walls
+      hold tools and oils which keep the machinery in fine tune so that no ships run afoul of the many rocks
+      in this part of the ocean.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nrose:widepath2"
+    short: Stables
+    sight: >
+      You have entered the monastery stables. The floor is covered with filthy hay except in one stall which
+      is very well kept.
+flag:

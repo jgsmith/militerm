@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord28"
+    short: Wayward Pine
+    sight: >
+      Some dead grass, windblown sand particles, and pieces or rotting bark litter the ground within this once
+      great trunk. Off to one side neatly stacked in a tier are some fresh-looking &+ypinecones&*. The cones
+      provide most of the color to this otherwise dead shell of a conifer. However, scratchings on the inside
+      walls reveal more than simple animal claw marks; they are made in a fashion precise enough to be
+      letters. The bark is cut by intricate patterns formed by these letters and their accompanying images of
+      a circle surrounded by several outgoing rays. This area has not been so damaged by the fire which raged
+      throughout the rest of the tree. A light breeze blows in from the west, bringing the smell of the meadow
+      and more sand from the beach.
+flag:
+  - outdoors

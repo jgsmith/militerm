@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook40"
+      south: null
+    short: Inside the Tree
+    sight: >
+      You stand inside a tree, the inside of which is covered with crystal. There are two doors, one to the
+      east and one to the west. Through the door to the west is a path, and to the east lies a garden. A sign
+      on the door reads "Beware the cards."
+flag:

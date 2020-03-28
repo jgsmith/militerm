@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:steep1"
+      north:
+        target: "scene:aber:frobozz:crossection"
+      south:
+        target: "scene:aber:frobozz:steep1"
+    short: Stairs
+    sight: >
+      You stand on top of a long flight of stairs descending hundreds of feet down into darkness. The steps
+      are nearly worn down of use by people and other beings walking, running and crawling up and down here
+      for dozens of centuries.
+flag:
+  - dark

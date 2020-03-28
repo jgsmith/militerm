@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:tree1"
+      north:
+        target: "scene:aber:eirias:field7"
+    short: River
+    sight: >
+      This is a little reed-fringed stream, running swiftly between high banks.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest101"
+      north:
+        target: "scene:aber:rainforest:forest93"
+      south:
+        target: "scene:aber:rainforest:forest94"
+    short: Deep Forest
+    sight: >
+      You are in an open part of the forest. Far above your head the canopy forms a roof through which only a
+      small proportion of the sun's light penetrates. Much closer to the ground is the understorey, comprising
+      short saplings and palms which are adapted to the dim light conditions. You can go anywhere except west,
+      where a tall buttress-rooted kapok blocks your way.
+flag:
+  - outdoors
+  - rainforest

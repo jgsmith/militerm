@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid11"
+      south:
+        target: "scene:aber:pyramid:pyramid3"
+      west:
+        target: "scene:aber:pyramid:pyramid5"
+    short: &+yDune Sea&N
+    sight: >
+      Completely surrounded by those rippling wave of &+ysand&N, something urges you to turn back. The desert
+      &+Ysun&N mercilessly beats down on you, making your eyes water, your skin burn and your mouth to go dry.
+      Far to the west, you see light shimmering off what appears to be the tip of a pyramid. Excitement causes
+      your heart to race in your chest. Could it be that you are close to finding the hidden tomb of
+      Neferteri, high priestess to the goddess Isis? A large, multi-segmented &+ysandworm&N lies across the
+      path to the west. Can you go around it or should you try to scramble up the high dune that lies to the
+      north?
+flag:
+  - outdoors

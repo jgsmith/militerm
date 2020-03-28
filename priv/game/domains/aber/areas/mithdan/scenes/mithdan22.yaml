@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan23"
+      south:
+        target: "scene:aber:mithdan:mithdan24"
+      west:
+        target: "scene:aber:mithdan:mithdan21"
+    short: Thin Ledge
+    sight: >
+      The ledge here narrows out further, but thankfully the cliff at your back is lower and you can clamber
+      into a small snowy field to the south. The snow is blinding, and you cannot see the bottom of the gorge
+      or the end of the field. The ledge continues to the west, but to the east it becomes even narrower.
+flag:
+  - outdoors
+  - cold

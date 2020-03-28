@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood30"
+      south:
+        target: "scene:aber:sherwood:sherwood28"
+    short: Under the Birch Trees
+    sight: >
+      You stand under many birch trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

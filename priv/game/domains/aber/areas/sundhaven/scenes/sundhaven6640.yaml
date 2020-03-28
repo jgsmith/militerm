@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6641"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6639"
+      south:
+        target: "scene:aber:sundhaven:hospital"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6645"
+    short: A cluster of trees before the west gate
+    sight: >
+      You stand at a busy crossroads, darkened by the shade of an uneven ring of oaks trellised with ivy. The
+      wind brushes the leaves, but this sound is dulled by the din of the town going about its daily business.
+      Standing to the south is the hospital of Sundhaven, where many adventurers seem to end up after fighting
+      one too many monsters and barely surviving. The ornate west gate lies just to the west, a road paved
+      with black sand runs east and north is a lane shaded by oak and ash trees.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      up:
+        target: "scene:aber:princess:tower"
+    short: "Inside the Sorceress' Tower"
+    sight: >
+      There is a sense of evil pervading this whole tower. There is a case of &+Cstairs&* going up, and you
+      hear sounds coming from there.
+flag:

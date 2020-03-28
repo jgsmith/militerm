@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung57"
+      south:
+        target: "scene:aber:nibelung:nibelung64"
+    short: Tapestry Room
+    sight: >
+      This small room used to house the castle's many fine tapestries. A few mouldy ones remain, hanging
+      limply and unattractively from the walls. Some straw covers the floor, apparently an attempt to make the
+      room more comfort- able. There are several iron hooks in the wall that used to hold torches, but have
+      been emptied long ago.
+flag:
+  - dark

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge11"
+      east:
+        target: "scene:aber:ledge:ledge11"
+      up:
+        target: "scene:aber:ledge:ledge9"
+      west:
+        target: "scene:aber:ledge:ledge9"
+    short: Old Mining Tunnel
+    sight: >
+      The smell of minerals begins to permeate your nose as you progress. The walls of this tunnel appear to
+      have been chipped into with pickaxes in search for gold or diamonds. Alas, all that could be found were
+      coal deposits. Some chunks of it litter the sides of the tunnel, which continues downward. Those afraid
+      of exploring may exit upward to the west.
+flag:
+  - dark

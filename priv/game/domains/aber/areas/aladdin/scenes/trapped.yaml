@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Trapped in the Cave of Wonders
+    sight: >
+      You appear to be trapped in the Cave of Wonders. Abu's greedy mistake has caused the cave mouth to close
+      down, leaving no obvious means of exiting this now dark and dreary place... but hey - It happens to the
+      best of us.
+flag:
+  - dark

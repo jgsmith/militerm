@@ -90,6 +90,8 @@ defmodule Militerm.Services.Archetypes do
   # std:foo => std:foo
   # foo % start:inn:yard => start:inn:foo or start:foo or std:foo
 
+  def resolve(<<"scene:", _>> = name, _), do: resolve(name)
+
   def resolve(ur_name, sub_name) do
     Militerm.Util.File.resolve("archetypes", ur_name, sub_name)
   end
@@ -102,6 +104,15 @@ defmodule Militerm.Services.Archetypes do
          |> String.split(":")
          |> Militerm.Util.File.clean_path()
          |> Enum.join(":"))
+    }
+  end
+
+  def resolve(<<"scene:", ur_name::binary>>) do
+    [domain, area | path] = String.split(ur_name, ":", trim: true)
+
+    {
+      :ok,
+      "scene:#{domain}:#{area}:#{Militerm.Util.File.clean_path(path)}"
     }
   end
 
@@ -122,6 +133,21 @@ defmodule Militerm.Services.Archetypes do
       | [
           "std/archetypes"
           | bits |> Militerm.Util.File.clean_path()
+        ]
+    ]
+    |> Enum.join("/")
+  end
+
+  defp file_for_math(["scene", domain, area | path]) do
+    [
+      Config.game_dir()
+      | [
+          "domains",
+          domain,
+          "areas",
+          area,
+          "scenes"
+          | path
         ]
     ]
     |> Enum.join("/")

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot103"
+      south:
+        target: "scene:aber:camelot:camelot139"
+    short: Southern Cave
+    sight: >
+      You are in a naturally formed cavern, with exits to the north and south. North of you is an intersection
+      of several cave tunnels, while to the south you see another cavern.
+flag:
+  - dark

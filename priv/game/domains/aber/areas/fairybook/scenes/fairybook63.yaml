@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook64"
+    short: Sheep Store
+    sight: >
+      You step across another brook and your surroundings change again. You find yourself standing in a shop,
+      full of all manner of curious things - but the oddest part of it is that whenever you look hard at any
+      shelf, to make out exactly what it has on it, that particular shelf is always quite empty, though the
+      others round it are crowded as full as they can hold. The shop becomes deeper to the east.
+flag:
+  - outdoors

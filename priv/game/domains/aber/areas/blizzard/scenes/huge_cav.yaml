@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:canyon"
+      east:
+        target: "scene:aber:blizzard:rocky"
+      south:
+        target: "scene:aber:blizzard:flickering"
+    short: Huge Cavern
+    sight: >
+      You are in a huge cavern, at the western end. Some steep rough-hewn steps lead down into a canyon at one
+      end of the cave and at the bottom faint light flickers off water.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:jura11"
+      west:
+        target: "scene:aber:evolution:jura9"
+    short: Tar Pit
+    sight: >
+      You are in a tar pit, and sinking fast! The iguanodon in here with you watches you sadly as you rapidly
+      disappear.
+flag:
+  - outdoors
+  - death

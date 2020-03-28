@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rats:woodstore"
+      south: null
+    short: Coal store
+    sight: >
+      You are standing in a dirty room. There are lumps of coal for the cutlet stored. You see some buckets,
+      shovels, and, of course, lots of coal.
+flag:
+  - dark

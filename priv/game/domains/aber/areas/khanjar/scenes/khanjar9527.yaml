@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:khanjar:khanjar9526"
+    short: Inside An Old Pen
+    sight: >
+      The muddy ground here is covered in wooden fragments and old junk, nothing of interest. To the north the
+      forest gets thicker.
+flag:
+  - outdoors

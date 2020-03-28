@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon45"
+      north:
+        target: "scene:aber:saxon:saxon46"
+      south:
+        target: "scene:aber:saxon:saxon45"
+      west:
+        target: "scene:aber:saxon:saxon45"
+    short: &+LDeep &*in the &+gForest&*
+    sight: >
+      You are lost inside the forest. There are no clear paths in any direction. A harsh sense of forebodeing
+      hangs in the air as you fumble for any sign of civilization.
+flag:
+  - light
+  - outdoors

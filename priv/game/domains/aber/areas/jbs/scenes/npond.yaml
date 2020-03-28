@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:epond"
+      west:
+        target: "scene:aber:jbs:fish"
+    short: Northern End of the Pond
+    sight: >
+      The small wood is very peaceful here, and the air smells fresh and sweet. The path continues around to
+      the east and west.
+flag:
+  - outdoors

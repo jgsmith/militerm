@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6681"
+    short: A home carved into the rock
+    sight: >
+      A cave-like dwelling, home to only a few spiders and hidden bats, is dark as pitch and smells of dank
+      moss and the fecal remains of animals. With some work, however, it might even make a decent abode.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: In the Moat
+    sight: >
+      Ever seen water going down a drain? Ever seen a mortal going down the drain? Row row row your boat, life
+      is but a dream...and you have just woken up.
+flag:
+  - death
+  - underwater

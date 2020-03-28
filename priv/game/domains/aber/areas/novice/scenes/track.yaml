@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:lawn"
+      north:
+        target: "scene:aber:novice:entrance"
+      south:
+        target: "scene:aber:novice:square"
+      west:
+        target: "scene:aber:novice:pool"
+    short: Main Village Track
+    sight: >
+      The path widens here and you now see that you have indeed entered a small village. In all of the grass
+      around you, you can feel little eyes watching you. The Leprechauns who live here seem very curious, and
+      you being to wonder if you might be able to catch one.
+flag:
+  - outdoors
+  - real

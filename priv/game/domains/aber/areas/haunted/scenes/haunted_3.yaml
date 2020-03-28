@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_4"
+      south:
+        target: "scene:aber:haunted:haunted_2"
+    short: Abandoned House
+    sight: >
+      You stand in front of a huge two-story house. Although the windows are boarded up, bars also cover the
+      windows. The house looks run-down and condemed, but no signs tell you if it's ok or not to proceed in.
+flag:
+  - real
+  - outdoors

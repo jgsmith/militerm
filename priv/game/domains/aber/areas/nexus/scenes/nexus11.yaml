@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nexus:nexus12"
+    short: On the Cloud
+    sight: >
+      The rain producers provide a safe environment in which more about and although the altitude is great,
+      there is no shortage of air. Tufts of white vapor swirl on all sides and bounce off the fate and walls
+      of this particular cloud castle. From here, the edge of the clouds is visible as a frayed edge of ice
+      crystals.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome61"
+      north:
+        target: "scene:aber:rome:rome50"
+    short: The Holding Cells
+    sight: >
+      You are standing in the holding &+Bcell&* area, just off of the courtroom. Those who are recently
+      convicted of serious crimes are brought here, pending torture and execution. The courtroom lies to the
+      north and another exit goes east.
+flag:

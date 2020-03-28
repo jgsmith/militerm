@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ghenna:ghenna9997"
+    short: A quivering jaunt.
+    sight: >
+      This room moves so much that you have a hard time keeping your feet. The red mucus is hanging from the
+      walls and ceiling in tenebrous strings that look quite sickening. A dark spot on the West wall hints at
+      the only possible exit.
+flag:
+  - dark

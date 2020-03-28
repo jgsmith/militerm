@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas29"
+      east:
+        target: "scene:aber:ildharas:ildharas40"
+      west:
+        target: "scene:aber:ildharas:ildharas38"
+    short: Second Floor Landing North
+    sight: >
+      A balcony to the south looks out over the audience chamber below, where you can see the back of the
+      sundered throne. You notice that the hall's flagstones have been laid out in a circular pattern not
+      really obvious when viewed at floor level. The corridor runs east to west.
+flag:

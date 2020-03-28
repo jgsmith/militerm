@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest65"
+      north:
+        target: "scene:aber:rainforest:forest61"
+    short: Inlet
+    sight: >
+      You are wading through a small inlet that runs northwards from the edge of the river. The plantlife in
+      this part of the rainforest is very much geared to a soggy environment, since there is no dry land in
+      which to find a foothold. Instead, slender trees send wide branching roots downwards for many feet,
+      burying them deep in the mud for firm anchorage, while their manifold branches intermingle with those of
+      their nearest neighbours for additional support. The river lies to the south and west.
+flag:
+  - outdoors

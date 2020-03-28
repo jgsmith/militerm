@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field15"
+      north:
+        target: "scene:aber:hick:field9"
+      south:
+        target: "scene:aber:hick:field13"
+      west:
+        target: "scene:aber:hick:field11"
+    short: Strawberry Patch
+    sight: >
+      This is a large strawberry patch. To the east is a tomato patch, to the south is a corn field, and to
+      the north and west there is an irrigation ditch.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river4"
+      north:
+        target: "scene:aber:rainforest:forest19"
+      south:
+        target: "scene:aber:rainforest:forest77"
+    short: River Malazon
+    sight: >
+      The water here is stained the colour of tea by the tannin from the leaves falling into it from the trees
+      above. The water is shallow and flowing fairly slowly so you do not immediately get washed downstream
+      and can decide whether you wish to clamber ashore to the north or south.
+flag:
+  - outdoors
+  - nomobiles

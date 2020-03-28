@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot258"
+      north:
+        target: "scene:aber:camelot:camelot262"
+    short: The Dining Hall
+    sight: >
+      The most prominent item in the room is the table placed in the middle of the floor. Carved and inlaid
+      with ivory, it could easily seat 50 guests. The room is lighted by a massive chandelier suspended above
+      the table.
+flag:

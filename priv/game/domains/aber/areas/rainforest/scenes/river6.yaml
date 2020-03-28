@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river7"
+      north:
+        target: "scene:aber:rainforest:forest147"
+      west:
+        target: "scene:aber:rainforest:river5"
+    short: River Kerapi
+    sight: >
+      You are gently cruising on an increasingly wide river. You are fairly close to the northern shore here,
+      a bend in the river having caused you to drift naturally closer to the shore. You could beach here if
+      you wish, or you could continue to follow the river in a roughly easterly direction.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

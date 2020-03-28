@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:e_pass"
+      south:
+        target: "scene:aber:aladdin:stairs"
+    short: Atop the Castle Tower
+    sight: >
+      Well, you've saved Agrabah from sure destruction and the evil rule of Jafar. You will be held in high
+      esteem forever and ever. So 'Aladdin', you have but one wish left. Choose wisely.
+flag:
+  - light

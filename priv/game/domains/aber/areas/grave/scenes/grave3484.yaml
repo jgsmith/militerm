@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grave:grave3483"
+    short: Small Dark Cave
+    sight: >
+      Here is a smaller cave that can be the home to something that you would probably not like to meet. There
+      are old gnawed bones here which confirms your fear of bad things to come. There is an exit south.
+flag:
+  - dark

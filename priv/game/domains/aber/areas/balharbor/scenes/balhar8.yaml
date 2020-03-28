@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar7"
+      up:
+        target: "scene:aber:balharbor:balhar89"
+    short: The Back Room
+    sight: >
+      In the back of the bar you see some fine wines stacked up on the rack. It's a bit more private and this
+      is usually the place where dirty deals are struck to do jobs on people by mercenaries. A bulletin board
+      hangs on the wall with a listing of all individuals wanted dead or alive...preferably dead. Some mean
+      looking men wearing heavy armor and sharp deadly weapons can be seen sitting around at some
+      booths--obviously waiting for someone to come in and hire them for a quick job. There is an empty one in
+      the corner. The main part of the bar is back north.
+flag:
+  - party
+  - private

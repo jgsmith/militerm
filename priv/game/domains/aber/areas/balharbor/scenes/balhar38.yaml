@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar39"
+      north:
+        target: "scene:aber:balharbor:balhar47"
+      south:
+        target: "scene:aber:balharbor:balhar22"
+      west:
+        target: "scene:aber:balharbor:balhar37"
+    short: Idol Square
+    sight: >
+      You are standing north of the idol. Some destruction can be seen to the west. You can leave the square
+      via River Street to the north or go to other parts of the square in other directions.
+flag:
+  - outdoors

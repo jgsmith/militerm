@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north: null
+      south:
+        target: "scene:aber:brookmere:brookmere23"
+      west:
+        target: "scene:aber:brookmere:brookmere25"
+    short: Common Room
+    sight: >
+      This room is, in theory, where gnolls and goblins can hang out and `get to know each other'. In practice
+      the room is divided by an invisible line into gnoll and goblin territory, and no-one crosses the border.
+      Other than that, the room is quite inviting, with a large fireplace generating lots of heat, stools
+      arranged into groups conducive to a nice chat and the faint smell of amber liquid wafting about.
+flag:

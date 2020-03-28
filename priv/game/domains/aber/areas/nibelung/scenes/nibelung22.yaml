@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung21"
+      north:
+        target: "scene:aber:nibelung:nibelung28"
+      south:
+        target: "scene:aber:nibelung:nibelung23"
+      west:
+        target: "scene:aber:nibelung:nibelung26"
+    short: Junction
+    sight: >
+      The road splits off into several directions here. It appears to have rained here recently, and the road
+      to the south looks muddy. A sandy patch lies off to the west, and you see a dilapidated structure off to
+      the north. You hear a babbling river off to the east, its pleasant tones putting you into a relaxed
+      mood.
+flag:
+  - outdoors

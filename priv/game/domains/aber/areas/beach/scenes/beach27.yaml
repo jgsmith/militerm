@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach25"
+      north:
+        target: "scene:aber:beach:beach26"
+    short: Paradise
+    sight: >
+      This island paradise has could be a goldmine! You are sure that visitors from allover the lands would
+      visit here, and visit often, the islands breathtaking beauty has you hooked, thats for sure. Maybe you
+      should retire from your exploring, and work as a guide, showing travelers the beauties of this wonderful
+      island.
+flag:
+  - outdoors

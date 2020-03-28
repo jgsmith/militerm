@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:current1"
+      north:
+        target: "scene:aber:rainforest:river20"
+      west:
+        target: "scene:aber:rainforest:river19"
+    short: Southern Estuarine Waters
+    sight: >
+      You are in the southern part of the estuary. The distant tree-lined shore seems so far away and the
+      hours you spent trekking through the jungle are little more than a dim memory. The open sea lies to the
+      east.
+flag:
+  - outdoors
+  - onwater

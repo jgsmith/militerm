@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale70"
+    short: Rune Cave
+    sight: >
+      The walls of this cave have been decorated with red paint, in various patterns which seem to have some
+      sort of meaning to them.
+flag:

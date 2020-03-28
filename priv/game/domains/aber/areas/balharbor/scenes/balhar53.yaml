@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar54"
+      west:
+        target: "scene:aber:balharbor:balhar52"
+    short: Park Street
+    sight: >
+      You're headed down Park Street in which some riot activity can be seen west of here and you can't help
+      but notice a bit of smoke rising. A fenced in building which looks like a courthouse is to the south,
+      but there's no door in from this side of it. Another building to the north is the side of the Cleric's
+      Guild. The entrance is nearby to the east.
+flag:
+  - outdoors

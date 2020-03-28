@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle12"
+      west:
+        target: "scene:aber:balharbor:jungle14"
+    short: Green Trail
+    sight: >
+      While the jungle is mostly green, this trail shows off some smaller, less compact plants. A garden can
+      be seen west, and you can go back into the jungle north.
+flag:
+  - outdoors

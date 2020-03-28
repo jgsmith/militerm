@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:start"
+      north:
+        target: "scene:aber:blizzard:woods"
+      south:
+        target: "scene:aber:mountain:mou1"
+    short: Shady Clearing
+    sight: >
+      You are in a shady clearing surrounded by proud and mighty oaks. The oaks are surrounded by hollies and
+      thick bushes, while creepers and weeds girdle their ancient trunks. There is a route from the clearing
+      to the north and there is a path that leads off to the east.
+flag:
+  - outdoors
+  - nomobiles

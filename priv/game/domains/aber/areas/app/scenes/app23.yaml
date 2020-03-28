@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:app:app22"
+    short: Main Hall
+    sight: >
+      You are in what appears to be the main hall of this fortress. Numerous apprentices are scattered at
+      tables, studying the art of magic. Other apprentices are in groups talking with each other. As you try
+      to look through the exits, guards block your view, stating, "No apprentices allowed through here." Guess
+      you have nowhere else to go here.
+flag:

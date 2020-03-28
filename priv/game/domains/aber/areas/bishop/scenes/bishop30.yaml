@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:bishop:bishop25"
+    short: Garden Alcove
+    sight: >
+      This is where the monks gather to pray on a daily basis. The wide semicircle of the alcove allows them
+      to pay homage to a minor deity, the one which supports life in this area of the world. There is a marble
+      altar as the centerpiece of this arrangement of stone pews with three indentations in it. However, the
+      monastery's religious artifacts are not present here. Normally, the Archbishop of the monks would be
+      here himself to protect to artifacts, but the bishop has gone missing for days now.
+flag:
+  - private
+  - noat
+  - soundproof
+  - nosummon
+  - nomobiles

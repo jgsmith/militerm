@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6757"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6750"
+    short: The sparring hall
+    sight: >
+      Shields and other items of heraldry line the sunken stone walls of the sparring room, gleaming with
+      human pride. While not being overly promiscuous, the heads of foes are noticeably stacked one atop the
+      other on a pole of polished wood in the corner. If you are looking to improve your skills in the art of
+      battle, this might be a good place to start.
+flag:
+  - peaceful

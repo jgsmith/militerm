@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas27"
+      east:
+        target: "scene:aber:ildharas:ildharas25"
+      north:
+        target: "scene:aber:ildharas:ildharas28"
+    short: Kitchen
+    sight: >
+      Utensils and iron pots lie strewn all over the floor. Strangely, the smell of cooking meat lingers on in
+      this place.
+flag:

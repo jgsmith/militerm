@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:plain5"
+      north:
+        target: "scene:aber:sagewood:plain1"
+    short: Gloomy Plains
+    sight: >
+      As you enter the plains, you feel a surge of gloom fill your body. All around you are dry, dying
+      grasses, flowers, and trees. You sense that this was once a beautiful place, ravaged by some dark magic.
+      The plain continues &+CNorth&* and &+CEast&*.
+flag:
+  - outdoors

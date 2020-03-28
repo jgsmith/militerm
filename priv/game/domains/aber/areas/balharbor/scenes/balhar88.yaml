@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar94"
+      west:
+        target: "scene:aber:balharbor:balhar85"
+    short: Well-Travelled Road
+    sight: >
+      You have become surrounded by white pillars of salt. The magic that turned the people into pillars of
+      salt is very strong here, making you thristy and your skin salty and flakey. If you stay here too long
+      you might end up like the others.
+flag:
+  - tempreal

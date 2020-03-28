@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:gold:goldgates"
+    short: "I wouldn't do that!!"
+    sight: >
+      But YOU did! This is a death trap that has been converted by someone as a hideaway for precious items. I
+      guess they figured no one would be stupid enough to come in here with the name he gave it!!
+flag:
+  - outdoors

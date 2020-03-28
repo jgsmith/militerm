@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:amgstars"
+      north:
+        target: "scene:aber:zodiac:nwestsky"
+      south:
+        target: "scene:aber:zodiac:swestsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:westend"
+    short: The Western Skies
+    sight: >
+      Just to the east is the way back home, perhaps you should go back that way? Looking up you can see
+      forever, and while you realise that forever means that it's much too big, you still have a very small
+      part of you that thinks you might find something up there. It would probably be a better idea to just
+      stay on the path you were on.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen25"
+      west:
+        target: "scene:aber:thyrannen:thyrannen23"
+    short: Marsh
+    sight: >
+      This is the beginning of a thick gloopy marsh, where traveling becomes trudging. In this thick marsh,
+      you think to yourself if this is the beginning, what is the end like?
+flag:
+  - outdoors

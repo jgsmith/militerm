@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung74"
+      up:
+        target: "scene:aber:nibelung:nibelung72"
+    short: Damp Tunnel
+    sight: >
+      The air is clammy and cool against your exposed skin. The dampness pervades the air and room about you,
+      chilling you a bit. Apparently this used to be under the moat and leaked quite profusely. The tunnel
+      continues off to the east, and slopes upwards sharply.
+flag:
+  - dark

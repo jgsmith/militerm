@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook100"
+    short: "Hook's Cabin"
+    sight: >
+      Hook's cabin occupies most of the lower level of the ship. It contains a tiny swimming pool, a bunk, a
+      table full of food, and a pile of treasure the likes of which you have never seen. Golden fittings line
+      the walls and the furniture, and even the pool sparkles in the light. The opulence and wealth in this
+      room are astounding in their brilliance and cannot be described. The deck is to the west.
+flag:

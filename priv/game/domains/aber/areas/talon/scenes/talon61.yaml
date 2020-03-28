@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:talon:talon58"
+    short: Bottom of Pit
+    sight: >
+      You reach the bottom of the sinkhole. The ocean pours through an opening to the west, and crashes upon
+      the rocks of this cavern. Any attempt to continue in any direction but up will result in death.
+flag:
+  - dark

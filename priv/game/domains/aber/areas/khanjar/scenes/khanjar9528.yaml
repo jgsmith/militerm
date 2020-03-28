@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9526"
+      north: null
+      up:
+        target: "scene:aber:khanjar:khanjar9530"
+    short: An Empty Vestibule
+    sight: >
+      You find yourself standing inside a dark vestibule, where the walls are covered in vast cobwebs and some
+      strange smears. The wind blows in from the holes of the walls, almost sounding as if there were a few
+      small spirits howling their regret. To the north is a door, blackened but still in existence. Rather
+      dangerous looking stairs lead upwards.
+flag:
+  - nomobiles

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:frobozz:housen"
+      south:
+        target: "scene:aber:frobozz:houses"
+    short: Western End of the House
+    sight: >
+      You are standing west of the small white house, which has a small window set into the wall. The view
+      westwards is magnificent, showing a deep canyon cutting through the landscape from the north and
+      southwards. On the other side of the canyon you can see vast fields stretching several miles into the
+      land before ending where a big mountainrange cuts out through the surface of the earth. This view
+      certainly makes the white house look small and insign- ificant, which at its western wall offers nothing
+      but a small window. There is a tiny little path going around the house to the north and south here.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:enchanter:enchanter24"
+      south:
+        target: "scene:aber:enchanter:enchanter22"
+    short: Pebbled Pathway
+    sight: >
+      The walls and roof of the corridor here have crumbled to dust long ago. The floor of this hallway is
+      littered with &+Cpebbles&*. You can re-enter the castle to the north, where you can see the base of the
+      northwestern tower.
+flag:
+  - outdoors
+  - real
+  - tempreal

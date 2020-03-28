@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:thorny"
+      south:
+        target: "scene:aber:eforest:climb"
+      west:
+        target: "scene:aber:eforest:corrupted"
+    short: Scenic View
+    sight: >
+      Once, this mountain trail surely was the best place to view the elven forest. Now, you can only see the
+      destruction. To the North and West, you gaze out at the corrupted, desolate land which was once so
+      beautiful. Amid the destruction, you see a few points of life. Just to the Northeast of you stands a
+      tall, healthy oak tree, while further to the North, you actually think you see green. The mountain trail
+      you are on continues North and South, while a small path leads up from the forest to the West.
+flag:
+  - outdoors

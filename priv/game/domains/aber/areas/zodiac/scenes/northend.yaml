@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:zodiac:aira"
+      south:
+        target: "scene:aber:zodiac:northsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+    short: The Far Northern Sky
+    sight: >
+      Only a little further north you can see the land of clean air. You can also see shapes moving about
+      there, but everything about the place seems friendly enough.
+flag:
+  - nomobiles

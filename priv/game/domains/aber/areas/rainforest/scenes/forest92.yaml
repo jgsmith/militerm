@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest95"
+      north:
+        target: "scene:aber:rainforest:forest96"
+      west:
+        target: "scene:aber:rainforest:forest86"
+    short: Bank Of The Tributary
+    sight: >
+      You are wandering along the bank of a small river which flows lazily by to the south. A rich
+      proliferation of trees grows here, despite the infertility of the soil. You find it surprising that such
+      a diversity could arise from what is virtually pure sand.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot113"
+      north:
+        target: "scene:aber:camelot:camelot114"
+      south:
+        target: "scene:aber:camelot:camelot110"
+      west:
+        target: "scene:aber:camelot:camelot115"
+    short: Large Cavern
+    sight: >
+      You are standing in a large, roughly rectangular cavern. The walls show some sign of having been worked,
+      but poorly. It looks like some sort of communal chamber. There are exits in all directions.
+flag:
+  - dark

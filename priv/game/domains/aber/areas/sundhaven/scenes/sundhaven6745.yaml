@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6739"
+      up: null
+    short: Slippery stone steps
+    sight: >
+      The darkness of a steep stairwell encloses you. The dripping and oozing sounds of slime creeping down
+      the walls is barely detectable beneath the sounds of your own breathing. There seems to be tracks of
+      footfalls in the slime coating the steps.. evidently this serves as a secret passageway, regularly used,
+      for some individuals of a shady nature.
+flag:
+  - dark

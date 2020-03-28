@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter16"
+    short: Hairpin Turn
+    sight: >
+      The road has turned sharply here. The fork in the road is northwest, or you can go to the village,
+      southwest of here.
+flag:
+  - outdoors
+  - real
+  - tempreal

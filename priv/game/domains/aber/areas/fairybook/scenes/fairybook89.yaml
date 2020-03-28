@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook104"
+      east:
+        target: "scene:aber:fairybook:fairybook84"
+      south:
+        target: "scene:aber:fairybook:fairybook83"
+      west:
+        target: "scene:aber:fairybook:fairybook87"
+    short: Morning 
+    sight: >
+      Morning dawns over the horizon, and you see Neverland stretched out below you. You recognize parts of it
+      from your dreams . . There is the lagoon, and the cave, and the pirate ship, and the mysterious river,
+      and the war-path, and ahead of you you see a large clearing . . .
+flag:
+  - outdoors

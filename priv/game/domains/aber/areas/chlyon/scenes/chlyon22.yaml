@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The Thyreen Forges. But...
+    sight: >
+      You slip and fall to your death inside the forges of Thyreen.
+flag:
+  - death

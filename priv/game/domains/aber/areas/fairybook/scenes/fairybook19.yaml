@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook18"
+    short: Kitchen
+    sight: >
+      On the stove of this warm room a pot boils. You smell carrot stew wafting through the air, but it is
+      certainly too hot to eat. A small table and three chairs occupy the center of the room, and kitchen
+      utensils hang on the wall. The foyer is to the south.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest66"
+      south:
+        target: "scene:aber:rainforest:forest67"
+      west:
+        target: "scene:aber:rainforest:forest64"
+    short: Soft Ground
+    sight: >
+      You are squelching through a muddy part of the forest. The river is close by to the south and it is
+      making its presence felt. With every step your feet sink into the mud and water covers your shoes. This
+      land of trees and water is beginning to get you down.
+flag:
+  - outdoors
+  - rainforest

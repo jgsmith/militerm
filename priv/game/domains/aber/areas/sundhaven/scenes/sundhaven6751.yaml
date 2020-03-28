@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6750"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6601"
+    short: A red portal
+    sight: >
+      You stand in the shimmering glow of a portal of deep red light. This is the gift of the Archmage to the
+      warriors guild, in return for other favors, of course. Beyond the glare is a vision of the temple
+      courtyard, the center of town, to the west.
+flag:

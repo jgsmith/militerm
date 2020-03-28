@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6703"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6693"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6695"
+    short: A landing of twisted trees
+    sight: >
+      The gnarled limbs of dark trees make nightmarish shapes in the air around you. The cliff descends in a
+      fall so steep it is no longer climbable one step to the north of you, but small paths of strange black
+      grass forge east and west.
+flag:
+  - dark
+  - outdoors

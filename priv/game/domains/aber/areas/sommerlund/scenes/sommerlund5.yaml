@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund6"
+      north:
+        target: "scene:aber:sommerlund:sommerlund3"
+      west:
+        target: "scene:aber:sommerlund:sommerlund8"
+    short: Fork in the Trail
+    sight: >
+      Only a few traces of the nearby desert are here. Those seeking a dry climate and numerous reptilian
+      creatures should keep the morning sun on their right. Built out on the edge of the desert lies a small
+      city. The faint aroma of barbecued mutton floats on a slight breeze. To the west, the trail continues
+      towards farmlands.
+flag:
+  - outdoors

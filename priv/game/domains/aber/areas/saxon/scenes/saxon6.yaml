@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon9"
+      north:
+        target: "scene:aber:saxon:saxon4"
+      south:
+        target: "scene:aber:saxon:saxon7"
+    short: &+LTravelled &+yRoad&*
+    sight: >
+      This dirt road holds the scars of many warriors heading to their destiny. Tracks of many a man's boots
+      mark the way, along with a larger, claw-like track. These large prints are fresher than the others,
+      dried blood still caked in the prints of a supernatural being. To the north and east lies the grassy
+      prairie, and to the south lies the grand mead hall Heorot.
+flag:
+  - light
+  - outdoors

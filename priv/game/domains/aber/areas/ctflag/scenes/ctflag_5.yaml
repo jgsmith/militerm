@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ctflag:ctflag_10"
+    short: &+WWhite Locker Room
+    sight: >
+      Rows and rows of benches line the walls of this huge room. They are all painted in the whitest of
+      whites. White jerseys are being handed out to all the players before they head out for combat.
+flag:
+  - party
+  - peaceful

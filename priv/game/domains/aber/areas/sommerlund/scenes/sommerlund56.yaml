@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sommerlund:sommerlund55"
+    short: East Cave
+    sight: >
+      The cave is decorated with all sorts of burning oil lamps. A large vat of lard stands at the far end of
+      the room, churning with great 'floops.'
+flag:

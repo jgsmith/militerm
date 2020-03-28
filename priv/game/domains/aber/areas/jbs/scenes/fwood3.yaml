@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fgate"
+      east:
+        target: "scene:aber:jbs:fwood1"
+      north:
+        target: "scene:aber:jbs:cliff"
+      south:
+        target: "scene:aber:jbs:fwood4"
+      up:
+        target: "scene:aber:jbs:fwood3"
+      west:
+        target: "scene:aber:jbs:fwood5"
+    short: Fairy Wood
+    sight: >
+      The mist is thickening here and almost obscuring your entire view. You can barely see your hand in front
+      of your face, and the mist is so thick you can feel it against your skin.
+flag:
+  - outdoors

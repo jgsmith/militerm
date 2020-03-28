@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pensalon:pensalon49"
+    short: The Charging Room
+    sight: >
+      This large round room is plain and hows no distinguishing marks in it.
+flag:

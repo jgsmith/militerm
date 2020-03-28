@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:elemental"
+      up:
+        target: "scene:aber:blizzard:crevasse"
+      west:
+        target: "scene:aber:dragonslueth:ds1"
+    short: Crevasse Bottom
+    sight: >
+      You are at the bottom of the crevasse. Daylight, and a great deal of snow, comes through the top of the
+      crevasse. A single man-made passage leads east into a strange temple. Another passage that doesn't
+      exactly look man-made, more like a melted tunnel disappearing into the depths, lies west.
+flag:

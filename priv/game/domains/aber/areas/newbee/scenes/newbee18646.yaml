@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18647"
+      west: null
+    short: A Bright Hallway
+    sight: >
+      Wow! What a change from the dismal passage to the west. Whoever keeps this room up must really like
+      newbies. The walls and floor are clean, and tastefully decorated. You also notice an interesting design
+      on the &+Cfloor.
+flag:

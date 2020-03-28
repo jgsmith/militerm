@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eirias:towerstairc"
+    short: Tower Entrance
+    sight: >
+      Brightness is everywhere: a soft greenish light filters through the quartz- like walls of the room. It
+      could be a cave of ice. But it is a cluttered, busy place, as if someone left it in a hurry, while
+      preoccupied with some great complex matter. Piles of curling manuscript lie on the tables and shelves,
+      and on the thick rush mat that covers the floor; against one wall an enormous heavy table is littered
+      with strips of shining metal, and chunks of glass and rock, red and white, and greenish-blue, all among
+      an array of gleaming tools which are obviously delicate jewelry tools.
+flag:
+  - outdoors

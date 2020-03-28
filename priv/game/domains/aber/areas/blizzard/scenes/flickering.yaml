@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:fire_gate"
+      north:
+        target: "scene:aber:blizzard:huge_cav"
+      west:
+        target: "scene:aber:blizzard:guard"
+    short: Flickering Passageway
+    sight: >
+      You are in a wide passageway. To the east is a cave lit by a flickering red glow. To the north is a
+      large cave, to the west is a guardroom.
+flag:

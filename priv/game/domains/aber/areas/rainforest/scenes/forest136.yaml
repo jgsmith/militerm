@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest131"
+      south:
+        target: "scene:aber:rainforest:forest137"
+      west:
+        target: "scene:aber:rainforest:forest132"
+    short: Entrance To Fig Forest
+    sight: >
+      The forest here is tightly packed, and to the south is a kind of portal leading into a dark region of
+      tall strangler figs, living on after their hosts have died. It is a forbidding place. To the north and
+      west the forest looks considerably more friendly.
+flag:
+  - outdoors
+  - rainforest

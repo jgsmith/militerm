@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest115"
+      north:
+        target: "scene:aber:rainforest:forest113"
+      south:
+        target: "scene:aber:rainforest:forest114"
+      west:
+        target: "scene:aber:rainforest:forest111"
+    short: Indian Village
+    sight: >
+      You are in the centre of the village. To the north and south are primitive huts which you could enter if
+      you dare. The village continues east of you, while the forest lies to the west.
+flag:
+  - outdoors
+  - nomobiles

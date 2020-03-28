@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grave:grave3407"
+      west:
+        target: "scene:aber:grave:grave3400"
+    short: The graveyard
+    sight: >
+      There are &+ytombstones&* everywhere. The gravel road is to the west, and the graveyard continues to the
+      south.
+flag:
+  - outdoors

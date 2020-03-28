@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:deathlok:deathlok2"
+      south:
+        target: "scene:aber:blizzard:bridge"
+    short: Stoned Pathway
+    sight: >
+      Leaving the main road, you come to a stoned pathway, leading up to the mountains. Examining the path,
+      you notice that the road is paved with skulls. Slowly, you realize that this pathway is an entryway into
+      a dark land. You see two exits from this path, one to the north and one to the south. To the north, the
+      path continues up into the mountains. To the south the path leads back to Humpbacked Bridge.
+flag:

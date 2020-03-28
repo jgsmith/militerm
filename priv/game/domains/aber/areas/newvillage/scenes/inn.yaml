@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:bar"
+      north:
+        target: "scene:aber:newvillage:road1e"
+    short: The Village Inn
+    sight: >
+      The lobby area of the inn is rather nice. There are several plush chairs set up for people to sit in
+      while they wait, or read the paper, or whatever they wish to be doing. The place is simple but
+      tastefully decorated, and seems to be reputable. In the back, a door leads up the stairs to what you
+      believe to be rentable rooms. To the east is another doorway that leads into the bar.
+flag:

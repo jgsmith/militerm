@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+      north: null
+      south:
+        target: "scene:aber:blizzard:valley"
+      up:
+        target: "scene:aber:oaktree:tree1"
+    short: Oak Grove
+    sight: >
+      Deep in the oak grove, you find yourself surrounded by silent trees in a field of frost-covered grass.
+      Two stone lions crouch before you, flanking an immense oak with heavy, low branches. A lush valley
+      extends to the south.
+flag:
+  - outdoors

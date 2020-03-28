@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest82"
+      north:
+        target: "scene:aber:rainforest:forest77"
+      south:
+        target: "scene:aber:rainforest:forest83"
+    short: Tannin Pool
+    sight: >
+      You are standing by the side of a large pool of water, though it may be a channel and therefore part of
+      the river. The water is still and clear, though you can see nothing moving in it. It is the colour of
+      tea but does not look drinkable.
+flag:
+  - outdoors
+  - rainforest

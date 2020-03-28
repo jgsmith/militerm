@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest44"
+    short: Mud Cliff
+    sight: >
+      You are facing a high wall made of hard dry mud. Numerous holes have been delved into the cliff and many
+      brightly-coloured macaws are flying in and out of them. The racket they are making with their inelegant
+      cries sets your teeth on edge. You are unable to climb the wall as the parakeets mob you when you come
+      too close. You will have to return north.
+flag:
+  - outdoors
+  - rainforest

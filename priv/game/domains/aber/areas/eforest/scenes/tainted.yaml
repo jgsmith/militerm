@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:corrupted"
+      north:
+        target: "scene:aber:eforest:oaks"
+    short: Tainted Trees
+    sight: >
+      You are in a grove of tall trees which seem tainted. They glow with a sickly green glow which speaks of
+      evil, pestilence and disease. You suppress a shudder and view your surroundings. To the south and west
+      lie this forest's protective mountains, while woods lie to the east. To the North, a wide swath of
+      destructions cuts into the heart of this realm.
+flag:
+  - outdoors

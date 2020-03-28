@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:forest4"
+      west:
+        target: "scene:aber:fantasy:forest2"
+    short: Old Forest
+    sight: >
+      You are once again in the forest with trees that seem to have been growing for centuries. The sound of
+      chipmunks running on the branches of the trees seems to sooth you a little bit and you look down the
+      path and notice a small pond up ahead.
+flag:
+  - outdoors

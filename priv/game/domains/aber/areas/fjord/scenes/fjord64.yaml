@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord63"
+    short: Shrine of Chaos
+    sight: >
+      An area of the ridge has been leveled out to make a smooth surface. At the end opposite the shrine
+      entrance, there stands an altar, erected from the same black glassy lava as the ridge. On top of it is a
+      diamond brazier in which burns a blue flame streaked with ebony. It hisses vivid red sparks and is
+      unaffected by the roaring wind through the shrine. Two torches stand to either side of the altar in
+      carved stands roughly nine feet high, providing additional light. The only exit is out of the shrine.
+flag:
+  - outdoors
+  - cold

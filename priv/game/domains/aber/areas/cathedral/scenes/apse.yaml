@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cathedral:crossbay"
+    short: &+WThe Apse&*
+    sight: >
+      You finally reach the apse of this once mighty church. Here above the choir, and at the end of the long
+      nave, you see the altar where patrons used to pray. It stands before you in shameful condition. Huge
+      chunks of shaped marble litter the floor, remnants of a grand sculptured altarpiece, now in ruin. Behind
+      the altar lies a monstrous wallpainting. Seering &+Rred &+Beyes&* gaze down upon you hatefully, and wide
+      grinning mouths show pointed teeth and drip &+rblood&*, under a &+Rreddish&*-&+Mpurple &+Csky&*.
+flag:
+  - dark

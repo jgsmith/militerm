@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6634"
+    short: The corner store
+    sight: >
+      You enter a small, wooden-planked shop, in sore need of some repairs, but essentially kept very tidy by
+      someone with little else to do but revel in her senility. A few crowded shelves hold items that may be
+      of use to you in everyday living.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:village2"
+      north:
+        target: "scene:aber:fareast:ricepaddy"
+      south:
+        target: "scene:aber:fareast:fishhouse"
+      west:
+        target: "scene:aber:fareast:ricepaddy"
+    short: Peasant Village - Western Edge
+    sight: >
+      The western entrance to the village is nothing more than a couple of large buildings for storing rice
+      and fish from the nearby stream. Further to the east are the small wooden huts that house the
+      inhabitants, who seem intent on avoiding you. Many of them disappear down the hill to the west, heading
+      toward the rice paddy. One of the storehouses is open and unguarded to the south.
+flag:

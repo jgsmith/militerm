@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc25"
+    short: Ancient Armoury
+    sight: >
+      This little armoury is a good example of the extraordinary architecture of this town. Because of the
+      excellent construction, the building is still in rather good condition. Several little things have been
+      left on the table and the shelves. You examine the room carefully without finding any other exits except
+      the one to the east.
+flag:

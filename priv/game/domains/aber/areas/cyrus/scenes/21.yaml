@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:22"
+    short: Hall
+    sight: >
+      The walls are collapsing behind you. The only way to escape is to continue onward in the hall. The hall
+      continues to the east.
+flag:
+  - noregen

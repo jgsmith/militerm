@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:plain"
+      north:
+        target: "scene:aber:abyss:rocks"
+      up:
+        target: "scene:aber:abyss:rocks"
+      west:
+        target: "scene:aber:abyss:charon"
+    short: Banks of River Styx
+    sight: >
+      You stand on the bank of a river that cuts through the plain. The river is foul and murky. Behind you to
+      the east a path crosses the barren plain and above you to the north is a mound of rocks. To the west a
+      boat sits on the river, waiting patiently.
+flag:

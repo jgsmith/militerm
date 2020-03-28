@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc57"
+    short: Empty room
+    sight: You have entered an empty room.
+flag:
+  - cold

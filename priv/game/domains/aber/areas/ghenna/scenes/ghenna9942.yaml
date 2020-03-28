@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9941"
+      up:
+        target: "scene:aber:ghenna:ghenna9941"
+    short: Certain Death.
+    sight: >
+      You have made a foolish mistake, my friend. This is the Genie's equivalent of the forbidden fruit. A
+      giant hand emerges through a rift in time and squashes you flat, like a bug. 		 ------------------ 		
+      			 &+RSPLAT!! 			 . 				 . 				 . &+RYOU ARE DEAD!!
+flag:
+  - nomobiles
+  - death

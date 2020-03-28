@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+    short: In the Pit Trap
+    sight: >
+      You find yourself brushing the dirt off your clothes as you take stock of the situation. This pit
+      appears to have been carefully dug out, and carefully laid over with sticks and covered in stones, save
+      for the hole that you fell through. You try to leap for a handhold at the top, but hopelessly cannot
+      find anything in reach, showing you that this pit was built to hold much larger creatures. Small rodents
+      and other land-dwelling animals are here, but all starved to death. Obviously the last time that the
+      trapper checked this trap was quite some time. You just hope that he remembers it today...
+flag:
+  - outdoors

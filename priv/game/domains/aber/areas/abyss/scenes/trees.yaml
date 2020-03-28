@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:bank1"
+      south:
+        target: "scene:aber:abyss:slimy"
+    short: Broken Trees
+    sight: >
+      The north-south path you are following runs through a stand of willow trees that have been blown over
+      and smashed. Fungi of all kinds are growing on the downed trees and their stumps. The ground is
+      blanketed with moss.
+flag:
+  - outdoors

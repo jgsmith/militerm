@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook134"
+    short: Flowered Bank
+    sight: >
+      You jump into the river, and are swept downstream. You swim hard and fast, and finally climb out onto
+      the bank, a few hundred meters from the road. You decide to walk upstream to get back where you belong.
+      The path is through the woods to the west.
+flag:
+  - outdoors
+  - nomobiles

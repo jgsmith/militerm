@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:guardroom"
+    short: Prison Cell
+    sight: >
+      A small cell with none of the comforts of home. The most that can be said for it is that it is dry. A
+      bed of straw does little to inspire comfort and you hope that the chamber pot is emptied frequently.
+flag:
+  - dark

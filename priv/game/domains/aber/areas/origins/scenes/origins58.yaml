@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins59"
+    short: The Bridge of Death
+    sight: >
+      You feel as if your very life force has been torn from your body.
+      &+B-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- &+C ...Death grips you
+      painfully... &+B-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Connection
+      closed by...wait! You have memory, and awareness, But you have no shape or form; As a disembodied
+      spirit, You are dead, and yet unborn... You have passed into Olympus, As was told in tales of old; To
+      the City of Immortals, Marble &+wwhite,&n and purest &+Ygold...&n
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

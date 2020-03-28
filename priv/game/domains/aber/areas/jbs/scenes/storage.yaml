@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:lhall5"
+      south: null
+    short: Storage Room
+    sight: >
+      This is a large storage room that contains mostly cleaning supplies. There are a lot of big brooms and
+      mops and other things like that.
+flag:

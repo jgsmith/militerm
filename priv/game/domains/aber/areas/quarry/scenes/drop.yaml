@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:south"
+      east:
+        target: "scene:aber:quarry:south"
+      west:
+        target: "scene:aber:blizzard:r_land"
+    short: Steep Drop
+    sight: >
+      You are following a path which plunges steeply downwards into a narrow quarry, which stretches out to
+      the east.
+flag:

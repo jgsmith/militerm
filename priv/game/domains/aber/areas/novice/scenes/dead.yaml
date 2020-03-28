@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:novice:clearing"
+      west:
+        target: "scene:aber:novice:northern"
+    short: A Dead Oak
+    sight: >
+      In front of you is a tree that was apparently struck by lightning. You feel sad as you look at what is
+      left of it. The tree almost seems to cry out in pain.
+flag:
+  - outdoors
+  - real

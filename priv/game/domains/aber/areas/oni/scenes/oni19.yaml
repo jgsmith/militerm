@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni14"
+      north:
+        target: "scene:aber:oni:oni14"
+      south:
+        target: "scene:aber:oni:oni20"
+      west:
+        target: "scene:aber:oni:oni14"
+    short: Forest
+    sight: >
+      You are in a dense forest path. Very little light passes through the tall canopy above, making it
+      difficult to tell which way to go.
+flag:
+  - outdoors
+  - maze

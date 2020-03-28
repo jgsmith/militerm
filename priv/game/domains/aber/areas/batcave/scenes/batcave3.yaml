@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:batcave:batcave4"
+      west:
+        target: "scene:aber:batcave:batcave2"
+    short: Dark Hall
+    sight: >
+      This hall is dark and musty. The walls are made of solid soil and the floor is muddy and slippery. A
+      small light appears in the room south of you and curious flapping sounds can be heard from the west.
+flag:
+  - dark
+  - nosummon

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down: null
+      south: null
+    short: Map Room
+    sight: >
+      This room was once a library, but Krill's ransacked it. Now, there's nothing left here but a large
+      &+Cglobe&* and a table. There's a frame on the table that once held a map, but the map is missing.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook150"
+      west:
+        target: "scene:aber:fairybook:fairybook152"
+    short: Winkie Village
+    sight: >
+      You stand in the village of the Winkies, the Munchkins of the west. They are cowardly people who do only
+      what they are told. They roam the area dressed in leather armor and carry spears, so that no-one wants
+      to speak to them and maybe tell them to do something. The path goes east and west from here.
+flag:
+  - outdoors

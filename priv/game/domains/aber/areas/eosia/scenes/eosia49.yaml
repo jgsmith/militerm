@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eosia:eosia48"
+      west: null
+    short: By the Mountainside
+    sight: >
+      You are at the base of one of the tallest mountains you have ever seen. Just avove the clouds, you think
+      you can make out the snow covered peak. The air about you is calm in the cold air. Pine trees abound and
+      you can smell their crisp aroma. A path leads back to the south.
+flag:
+  - outdoors
+  - cold

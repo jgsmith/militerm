@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon50"
+      north:
+        target: "scene:aber:saxon:saxon52"
+    short: &+LDark Cave&*
+    sight: >
+      The walls are pitch black, but an overpowering glow shines in from the north. There are skeletons
+      scattered about of bears, deer, and some even appear to be humans. The whole sight brings to mind a
+      slaughterhouse you saw when you were younger, but these bones are broken and licked clean.
+flag:
+  - dark

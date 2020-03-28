@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot234"
+      south:
+        target: "scene:aber:camelot:camelot236"
+    short: Kennels
+    sight: >
+      Several large doghouses are placed along the inner wall. There are a few old, well gnawed bones
+      scattered about, some of which look suspciously like those of the occasional burgler...
+flag:
+  - outdoors

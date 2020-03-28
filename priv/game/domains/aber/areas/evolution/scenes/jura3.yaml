@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:jura1"
+      west:
+        target: "scene:aber:evolution:jura2"
+    short: On The Plateau
+    sight: >
+      There are more trees on this part of the plateau. They provide you with shade in the hottest part of the
+      day. Unfortunately, you are not the only creature seeking shade here, and most of the others are
+      considerably larger than you. To the east is the edge of the plateau.
+flag:
+  - outdoors

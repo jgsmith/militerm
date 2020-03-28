@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest63"
+      south:
+        target: "scene:aber:rainforest:forest64"
+      west:
+        target: "scene:aber:rainforest:forest59"
+    short: Swampy Ground
+    sight: >
+      You are up to your knees in muddy water. Every step is an effort and the sweat pours from your face.
+      Thousands of tiny little biting flies swarm over your skin, making your life a misery. You slap your
+      face and kill some fifty of them, but as soon as you remove your hand another fifty take their place.
+      You struggle on in the hope of finding a more hospitable area.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

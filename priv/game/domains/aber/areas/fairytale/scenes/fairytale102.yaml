@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale105"
+      north:
+        target: "scene:aber:fairytale:fairytale96"
+    short: Family Room
+    sight: >
+      You have entered a large room, in which the family commonly spent time before the Time of the Great
+      Sleep. Couches and chairs are spread artistically around the room, facing each other and the tables
+      alternately. A small hole is in the floor, from which flows a stream of hot air. The furniture is
+      covered with transparent material which is coated with a layer of dust. North of you is the entry room,
+      and to the east is the pantry.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas15"
+      south:
+        target: "scene:aber:ildharas:ildharas09"
+      west:
+        target: "scene:aber:ildharas:ildharas13"
+    short: Barracks
+    sight: >
+      You get the impression that the inhabitants have merely stepped out on a drill. The beds look as though
+      they've been recently slept in, and greasy cards lie scattered on a wooden table, halfway through a hand
+      of poker. Someone held four kings. but never got to collect. A doorway leads back outside to the east
+      and another goes west to the stables.
+flag:

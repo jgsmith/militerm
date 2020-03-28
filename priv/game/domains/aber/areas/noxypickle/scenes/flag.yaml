@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:village:inn_yard"
+      west:
+        target: "scene:aber:noxypickle:door"
+    short: Mossy Flagstones
+    sight: >
+      The ground here is set with scores of stone slabs, looking cracked and ancient. Moss flourishes in the
+      cracks and some of the flagstones are almost completely covered with the spongy greenery. To the west is
+      a low doorway, with impenetrable darkness beyond.
+flag:
+  - outdoors

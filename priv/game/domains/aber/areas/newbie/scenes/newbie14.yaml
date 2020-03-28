@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie13"
+      west:
+        target: "scene:aber:newbie:newbie15"
+    short: Knowledge
+    sight: >
+      Most of what is known about spells are in the lost Books of Knowledge. However, this much has been
+      learned. Knowledge determines your ability to cast a spell. Knowledge is acquired somehow by finding the
+      twenty volumes of the Book of Knowledge. &+YINFO SPELLS&* tells about each book. The first volume of the
+      Book of Knowledge has been seen in the Library behind the Cliff Window. There is a Figure which guards
+      that volume, and it is believed that each volume is also guarded. The Figure will only let "real
+      sorcerers" past, but it seems that his notion of a "real sorcerer" is determined entirely by what you
+      wear. To gain the knowledge in the book, first you ought to &+YREAD&* what it says, then embed the book
+      into your mind through &+YSTUDY <volume>&*. Be warned though, the other nineteen books are carefully
+      guarded, and the ones guarding them won't let you see them without a fight. Reading these volumes is
+      necessary to attain full wizhood.
+flag:
+  - newbie
+  - peaceful

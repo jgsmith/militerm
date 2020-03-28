@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook138"
+      south:
+        target: "scene:aber:fairybook:fairybook136"
+    short: Golden Road
+    sight: >
+      The road is smooth and well-paved here, and the country about is beautiful. You can see fences built
+      beside the road; painted the green of the Winkies rather than the blue of the munchkins. You pass many
+      houses as well, all painted green. In the distance you see a green glow. To the north and south the path
+      continues.
+flag:
+  - outdoors

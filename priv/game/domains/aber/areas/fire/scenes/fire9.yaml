@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      west: null
+    short: Bathroom
+    sight: >
+      You are standing in the bathroom. Everything is made of &+wwhite&* marble--the basin, mirrors, walls,
+      ceiling and floor. The &+Bwater&* in the basin is everytime clean, because a servant is responsible for
+      the &+Bwater&* and is changing it after every wash of Sir Gruoch or his son. There is nothing more
+      special in this room.
+flag:

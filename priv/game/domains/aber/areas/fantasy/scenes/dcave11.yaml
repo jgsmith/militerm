@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave12"
+      south:
+        target: "scene:aber:fantasy:dcave15"
+      west:
+        target: "scene:aber:fantasy:dcave10"
+    short: A fork in the passage
+    sight: >
+      The passage looks to lead in three different directions here. The passage leads to the east, to the
+      south, and back to the west.
+flag:
+  - dark

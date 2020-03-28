@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:geast16"
+      west:
+        target: "scene:aber:ruins:geast18"
+    short: Northeastern Corner
+    sight: >
+      You are in the northeastern corner of a large catacomb. You look around this area and see bones lined up
+      along the walls which makes you a little nervous. What makes you even more nervous is the blood that
+      covers the bones that are laying around. Looking around nervously you see that the corridor turns to the
+      west and to the south.
+flag:
+  - dark

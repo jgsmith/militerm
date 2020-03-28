@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6661"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6601"
+    short: At the altar
+    sight: >
+      You stand in a quiet room garbed on all sides by black drapery, save for the south wall, on which is
+      painted a &+Cstellar calendar with symbols difficult to interpret. Reverance to the elusive human deity
+      is paid here.
+flag:
+  - peaceful

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott48"
+    short: Behind the stable
+    sight: >
+      EEWW what a smell! This is where they have shoveled out the horse manure from the stable. And it's not a
+      pretty sight...
+flag:
+  - outdoors

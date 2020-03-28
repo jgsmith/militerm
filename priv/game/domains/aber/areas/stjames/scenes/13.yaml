@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:56"
+      north:
+        target: "scene:aber:stjames:12"
+      west:
+        target: "scene:aber:stjames:14"
+    short: St. James Park
+    sight: >
+      Rising up next to you is a large shade tree. Its branches fan out above you, providing shade from the
+      summer sun. To the north you can see a large fountain in the pond, spitting water up into the air with
+      magnificent grace. Through the trees to the west you can just barely make out the back of Buckingham
+      Palace.
+flag:
+  - outdoors

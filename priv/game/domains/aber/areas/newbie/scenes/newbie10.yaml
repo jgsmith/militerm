@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie12"
+      south:
+        target: "scene:aber:newbie:newbie9"
+    short: Your Character
+    sight: >
+      It is important to keep track of your own status, especially when fighting. Type &+CSCORE&* to see how
+      you are doing. If your strength ever falls below zero you will die and lose half or more of your earned
+      points. Your &+CWIMPY&* value will help to prevent this by making you flee from a battle automatically
+      if your strength falls below that value. Your prompt displays your stats. Some things you will notice
+      right away, you start with only &+R40 hit points which alas is unplayably weak and doesn't increase with
+      levels. Don't worry, we'll show you how to fix that in the next room. You will also see what your
+      current level is, how many mobiles you've killed, how many times you've been slain, what wimpy is set
+      at, how much money you have, how many souls you've reaped, and how much you are armored. Since you are
+      starting with &+Y2000 coins, you can use it to start building your character to the north.
+flag:
+  - newbie
+  - peaceful

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:saxon:saxon53"
+      north:
+        target: "scene:aber:saxon:saxon50"
+      south:
+        target: "scene:aber:saxon:saxon48"
+    short: &+yBurnt &+gForest&*
+    sight: >
+      The trees here are singed a horrible black color. It would appear to the average eye that a raging
+      forest fire came through here, but the large foot prints in the ground hint otherwise. To the north you
+      notice a hole in the side of the mountain, which resembles a fireplace. Back to the south is the burning
+      shanty and the forest.
+flag:
+  - light
+  - outdoors

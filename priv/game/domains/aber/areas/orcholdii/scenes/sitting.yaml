@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orcholdii:audience"
+      south: null
+      west:
+        target: "scene:aber:orcholdii:chambers"
+    short: "The Queen's Sitting Room"
+    sight: >
+      This is a somber chamber, cosy with comfy looking chairs. There is a loom in a corner and a stool and
+      stand for a musician, though you imagine those are few and far between here. There are a set of double
+      doors standing open to the west leading into the Queen's bedroom.
+flag:

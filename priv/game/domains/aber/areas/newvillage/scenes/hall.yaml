@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:newvillage:green"
+    short: The Town Hall
+    sight: >
+      You are in an older wooden building that serves as the Town Hall of Miller's Corners. The floor
+      underneath you is wood and creaks as you move around. The room you are in is not very large, and there
+      are a few doors that seem to lead to meeting rooms. The building looks like the type of place where a
+      town council would hold its meetings. Off to one corner is a long wooden table where many people can
+      sit. The floor around it is well-worn and you guess that this building gets a lot of use.
+flag:
+  - party
+  - peaceful

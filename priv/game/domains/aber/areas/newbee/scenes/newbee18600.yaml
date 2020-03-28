@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee13"
+      north:
+        target: "scene:aber:newbee:newbee18601"
+    short: The Entrance To The Newbie Zone
+    sight: >
+      Ahhh... the entrance to the newbie zone! Just the place you have been looking for. Well, when you've
+      readied yourself you can enter to the north.
+flag:

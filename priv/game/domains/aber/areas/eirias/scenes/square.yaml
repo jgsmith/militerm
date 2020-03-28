@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:coach"
+    short: City Square
+    sight: >
+      You are in a great open city square. It is edged by pillared grey-white buildings gleaming in the
+      sunlight, filled with people and music and the calls of traders at bright coloured stalls, and the
+      sparkle and splash of water flung high by fountains. There is a stir in the crowd, heads turning. You
+      can see a coach, its roof dark blue and splendidly decorated with gold, and blue plumes tossing before
+      it from the foreheads of tall midnight-black horses. A &+Ycrest&* is engraved on the glossy door of the
+      coach in gold, higher than your head.
+flag:
+  - outdoors

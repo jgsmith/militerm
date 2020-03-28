@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:adept:adept19"
+    short: "Kelvin's Goods"
+    sight: >
+      This is a simple weapons store offering both new and used equipment as well as the opportunity to
+      receive money for weapons under a buyback plan. A man who looks big enough to be a human cousin of the
+      legendary Titans finished purchasing a new boiled leather quiver full of hardened-tipped arrows. A
+      lethal looking crossbow, dart system, brace of knives, and scabbard follow. Then the store's owner
+      presents a repaired sword to his heavily paying customer. The man replaces his sword in the scabbard and
+      leaves, stopping for a moment to pet a purring tabby that has appeared from behing the counter. The cat
+      then proceeds to jump on the counter, walk to its owner, and clean itself. Kelvin the Swordmaster
+      strokes the tabby's furry back and smiles at you.
+flag:

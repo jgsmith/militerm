@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mrealms:mrealms"
+    short: The Disco
+    sight: >
+      You've not only traveled to the south room but also traveled back in time to a place where Disco is
+      still alive and King, drugs are bountiful, afros are still cool, and bell-bottoms are a must. Strobe
+      lights flash against a huge disco ball hanging from the ceiling, giving the entire room a dream-like
+      look. People crowd the room, trying to stay alive, swearing as long as they know how to love they know
+      they'll be alright, screaming at the DJ to play that funky music white boy, and other corny song
+      allusions.
+flag:
+  - peace
+  - party

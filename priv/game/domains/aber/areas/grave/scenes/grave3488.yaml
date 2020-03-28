@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3489"
+      north:
+        target: "scene:aber:grave:grave3486"
+      south:
+        target: "scene:aber:grave:grave3491"
+      west:
+        target: "scene:aber:grave:grave3490"
+    short: Hallway
+    sight: >
+      The hallway continues here. Lit torches line the walls and the lighting is good. Whoever built this
+      place was intelligent and has a purpose to his life - or life after death. There are exits north, south,
+      east, and west.
+flag:

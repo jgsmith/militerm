@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis57"
+      south:
+        target: "scene:aber:atlantis:atlantis60"
+    short: Watery Tunnel
+    sight: >
+      Your light throws off odd shadows upon the walls and lends an eerie tint to the water before you. Ahead
+      of you other shadows seem to be moving, but perhaps it's just a trick of your imagination. You can
+      continue on further to the south into the shadows or north back around the corner.
+flag:
+  - dark
+  - underwater

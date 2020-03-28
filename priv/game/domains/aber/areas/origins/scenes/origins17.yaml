@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: &+bThe &+BFountain &+bof &+RLamneth&n
+    sight: >
+      You follow the voice and come to a beautiful waterfall, which cascades gently down the sides of the
+      mountain. The waterfall feeds a large, round fountain, made of stone forged out of the very bowels of
+      the mountain itself. The water in the fountain is perfectly crystal clear, and seems to glow white. The
+      view here is even more spectacular than the one before, with the fountain and waterfall only enhancing
+      its marvel. You want to stay here forever...
+flag:
+  - outdoors
+  - cantsummon
+  - nosummon
+  - oneperson

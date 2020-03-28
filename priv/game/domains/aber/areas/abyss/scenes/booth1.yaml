@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:road1"
+    short: Booth #1
+    sight: >
+      A small, dilapidated open front shack with rows of shelves in the back stands here. The small swarthy
+      proprietor is trying to sell kewpi dolls for a dollar.
+flag:

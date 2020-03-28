@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot108"
+      west:
+        target: "scene:aber:camelot:camelot110"
+    short: Recreation Room
+    sight: >
+      >From the furnishings, it seems that this is where off-duty Kobolds while away their time. Various hobby
+      gear lies on the tables. Things like thumbscrews, clamps, eye gougers. Fun stuff huh?
+flag:
+  - dark

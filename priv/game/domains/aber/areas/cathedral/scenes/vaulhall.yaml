@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:eastcat"
+      south:
+        target: "scene:aber:cathedral:vaulcham"
+    short: Vaulted Hall
+    sight: >
+      The walls here are bare, as is the floor. Heavy &+ydust&* rises to the north.
+flag:
+  - dark

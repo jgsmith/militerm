@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mrealms:second"
+    short: The Edge of the World
+    sight: >
+      All your life you've been lied to. Columbus was wrong. The world is flat. You know this now because
+      you're standing at the edge of it. You glance over the edge and see infinity below you. Let your feet
+      hang over the edge; no one's going to bother you for a while.
+flag:
+  - peace
+  - private

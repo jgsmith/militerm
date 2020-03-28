@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis46"
+      south:
+        target: "scene:aber:atlantis:atlantis34"
+    short: North End of Main Street
+    sight: >
+      There is less traffic at this end of the street. The watery passage curves gently to the east, bordered
+      by buildings on the north and west. To the east you can two merpeople holding hands entering a lavish
+      garden and if you look south you can see all the way down Main Street and see the Castle at the end of
+      it.
+flag:
+  - underwater

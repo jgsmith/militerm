@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge53"
+      north:
+        target: "scene:aber:eastcoast:sandybeach"
+      south:
+        target: "scene:aber:beach:beach4"
+      west:
+        target: "scene:aber:ledge:ledge52"
+    short: Shoreline
+    sight: >
+      Water and kelp laps at the edge of the sand and looks to be safe for swimming and scuba-diving. Some
+      children have built some sand castles, one resembles the Dwarfen Citidel. A small beach front shack lies
+      nearby for rent and privacy for those wanting to watch the water.
+flag:
+  - outdoors

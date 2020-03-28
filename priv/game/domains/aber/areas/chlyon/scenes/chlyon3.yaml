@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chlyon:chlyon2"
+      up:
+        target: "scene:aber:chlyon:chlyon4"
+    short: Rocky Path
+    sight: >
+      You are trudging along a rocky path cut into the face of the mountain. Above you, the path continues
+      toward a large, unnatural cave leading inside the mountain. Another path winds down from the very top of
+      the mountain, but it is well out of your reach.
+flag:
+  - outdoors

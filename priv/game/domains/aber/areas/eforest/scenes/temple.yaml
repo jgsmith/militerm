@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:intemple"
+    short: Temple Treasury
+    sight: >
+      You stand in the treasury of this grand dark elven temple. This side room is just as beautiful, in its
+      dark, alluring way, as the main worship room to the east. Looking around, you are surprised to see that
+      the treasury is empty! A note to the side explains that the dark elven Priest has taken the treasures of
+      the temple for its own 'protection.'
+flag:
+  - dark

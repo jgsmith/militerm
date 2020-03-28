@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:plain1"
+      west:
+        target: "scene:aber:valley:path"
+    short: Tarchannen Forest Path
+    sight: >
+      The bird's singing is gone, and all about you there is an unnatural silence. The forest lacks its
+      natural health and vibrance and it seems as if some dark magic has drained it. The branches form a
+      canopy above so that you cannot see the sky. The forest edges out &+CWest&* and some sickly-looking
+      plains are to the &+CEast&*.
+flag:
+  - outdoors
+  - nomobiles

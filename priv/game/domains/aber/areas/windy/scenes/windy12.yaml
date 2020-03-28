@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:windy:windy10"
+    short: East End of Ravine
+    sight: >
+      You have come to the eastern end of this ravine. The crumbling red walls rise around you, forming a dead
+      end. Filling nearly the entire area is a smoking ruin of some kind, filled with metallic struts and
+      surfaces. The debris lies at the end of a long gouge in the ground.
+flag:
+  - outdoors

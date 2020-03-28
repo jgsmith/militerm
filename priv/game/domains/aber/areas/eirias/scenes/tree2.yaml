@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree3"
+      south:
+        target: "scene:aber:eirias:tree1"
+    short: Second Tree - Willow
+    sight: >
+      A slender branched, long leaved, canopy of a tree. Willow, the enchanter's tree. 'Strong as a young
+      lion, pliant as a loving woman, and bitter to the taste, as all enchantment in the end must be.'
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere9"
+      north:
+        target: "scene:aber:brookmere:brookmere11"
+      south:
+        target: "scene:aber:brookmere:brookmere43"
+      west:
+        target: "scene:aber:brookmere:brookmere12"
+    short: Corridor
+    sight: >
+      You find yourself in another corridor, cut roughly out of the earth and supported by rotting timbers.
+      This corridor is unlit by the eerie green glow. The corridor opens to the north into what looks like was
+      once a treasure room. Continuing to the west is a dark decrepit tunnel and to the south is another
+      earthen tunnel.
+flag:
+  - dark

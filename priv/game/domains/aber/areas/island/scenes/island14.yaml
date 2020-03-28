@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:island15"
+      west:
+        target: "scene:aber:island:island13"
+    short: Path
+    sight: >
+      The path becomes a worn road here, continuing along to the east. Further town the road, the vegetation
+      becomes more thick, and the landscape a little flatter. The road becomes a path to the west, where it
+      turns around behind a volcano.
+flag:
+  - outdoors

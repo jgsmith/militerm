@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon63"
+      west:
+        target: "scene:aber:talon:talon59"
+    short: End of Cave
+    sight: >
+      You have come upon another sinkhole, and the end of this cavern which disappears into a crack too small
+      to pass through to the east. Below you, the ocean pours in through the blackness.
+flag:
+  - dark

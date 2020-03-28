@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood23"
+      south:
+        target: "scene:aber:sherwood:sherwood21"
+    short: Beaten Path
+    sight: >
+      You continue to travel along the beaten path. The brush grows thick along each side of the road. The
+      trees are thin allowing for plenty of light. This lightens your mood as you grow concerned about
+      traveling so deep into the forest.
+flag:
+  - outdoors

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: An Elven Dwelling
+    sight: >
+      You enter a modestly furnished elven home. There are signs of a recent battle here. Furniture lies
+      scattered about, and more destroyed musical instruments can be found.
+flag:

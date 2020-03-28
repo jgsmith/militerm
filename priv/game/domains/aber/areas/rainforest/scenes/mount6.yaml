@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount9"
+      north:
+        target: "scene:aber:rainforest:mount5"
+      south:
+        target: "scene:aber:rainforest:mount9"
+      up:
+        target: "scene:aber:rainforest:mount5"
+      west:
+        target: "scene:aber:rainforest:mount7"
+    short: Beneath The Overhang
+    sight: >
+      You are to some extent protected here by a great outthrust mass of rock which looms threateningly over
+      you. Yet it is not about to fall and you pause here to consider which route to take next. You could
+      continue along the gully, following it up to the north or down to the south, or you could investigate a
+      small cave to the west.
+flag:

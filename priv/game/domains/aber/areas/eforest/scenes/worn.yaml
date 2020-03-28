@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:zombie"
+      south:
+        target: "scene:aber:eforest:narrow"
+      west:
+        target: "scene:aber:eforest:lich"
+    short: Worn Passage
+    sight: >
+      You are in a passage worn through the years by the passing of many feet. To the west, you see a small
+      room, and the passage continues to the south. To the north, the passage opens into what appears to be a
+      guardroom, and the slow movements of zombies can be heard coming from it.
+flag:
+  - dark

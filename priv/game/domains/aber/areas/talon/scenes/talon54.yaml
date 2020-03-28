@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon56"
+      east:
+        target: "scene:aber:talon:talon52"
+    short: Vortex of Light
+    sight: >
+      You stand in a large cavern encompassed in light. Water flows from the east into a small pool where it
+      disappears into the depths through a whirlpool. The core of all the light you have seen thus far seems
+      to eminate from the swirling vortex which lies in the center of the room.
+flag:

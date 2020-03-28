@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:house4"
+    short: Study
+    sight: >
+      This is a pleasent little study with decorative pictures hanging on the wall with a few small
+      houseplants on shelves against the walls. There is a very large desk set against the south wall. You can
+      leave the study to the west.
+flag:

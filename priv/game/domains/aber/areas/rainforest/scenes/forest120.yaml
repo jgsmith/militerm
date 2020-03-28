@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest123"
+      north:
+        target: "scene:aber:rainforest:forest121"
+      south:
+        target: "scene:aber:rainforest:forest118"
+    short: "Rainforest's Heart"
+    sight: >
+      You are in a deep part of the rainforest. Hardwoods of varying sizes climb up to the canopy here, some
+      breaking through to better harvest the light. One variety appears to have strange knobbly spikes
+      sticking out of its trunk, giving it a peculiar prickly appearance. The undergrowth is too thick to the
+      west for you to progress in that direction, but on all other sides the way is clear.
+flag:
+  - outdoors
+  - rainforest

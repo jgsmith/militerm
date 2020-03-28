@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:abyss:web"
+    short: Eastside Room
+    sight: >
+      This is a small room used by the Demon Queen's attendants to rest between sacrifices. It is barren,
+      cold, and dark.
+flag:
+  - dark

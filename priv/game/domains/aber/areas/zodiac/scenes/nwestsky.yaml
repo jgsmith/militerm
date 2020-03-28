@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:northsky"
+      north:
+        target: "scene:aber:zodiac:lost1"
+      south:
+        target: "scene:aber:zodiac:westsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:lost1"
+    short: More Stars
+    sight: >
+      Peering to the north and to the west you can't seem to see anything that you'd be able to get to in your
+      lifetime...
+flag:

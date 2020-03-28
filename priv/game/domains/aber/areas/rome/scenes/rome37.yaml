@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome44"
+      north:
+        target: "scene:aber:rome:rome36"
+      south:
+        target: "scene:aber:rome:rome38"
+    short: The Senate Chambers
+    sight: >
+      This is the working room where elected senators from all over the empire gather to advise the emperor.
+      An official seal of the emperor is hanging on the far wall. There is a wooden door to the north and a
+      bronze door to the east and doublehung door to the south.
+flag:

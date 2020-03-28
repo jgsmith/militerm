@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:ftrack"
+      east:
+        target: "scene:aber:start:donation"
+      south:
+        target: "scene:aber:valley:ftrack"
+      up:
+        target: "scene:aber:mrealms:mrealms"
+    short: The Temple Of Paradise
+    sight: >
+      You stand in the Temple of Paradise, a huge stone structure whose walls are decorated with ancient
+      carvings and runes, some so old that even the priests no longer know their meanings. A single set of
+      steps lead south, descending the huge mound upon which the temple is built and ending in the forests
+      below.
+flag:
+  - peace
+  - fastmana
+  - fastheal
+  - party

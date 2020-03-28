@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:kastle:18"
+    short: Tax Collectors
+    sight: >
+      This must be where the taxes are normally kept. However there is only one chest left and there is not
+      much else to see.
+flag:

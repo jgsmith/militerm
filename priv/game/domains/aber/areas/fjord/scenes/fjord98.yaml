@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord96"
+    short: Dormitory Inn
+    sight: >
+      To keep those who visit the village safe and warm, with good food and a comfortable bed, the Hunterton
+      family has carried this dormitory in their name for nearly nine generations. In all that time, the
+      stories and insights gleaned from the merchants who stay here have become legendary comical matters
+      among the current owning Hunterton. Beds stacked three high stretch back, with decent-sized footlockers
+      and shelves available for storage. Chambers against one wall with barrels of heated water and drawing
+      curtains provide places to bathe and refresh oneself in while small windows just above eyelevel provide
+      a view of the village.
+flag:

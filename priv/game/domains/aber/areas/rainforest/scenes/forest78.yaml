@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest81"
+      south:
+        target: "scene:aber:rainforest:forest82"
+      west:
+        target: "scene:aber:rainforest:forest77"
+    short: South Bank
+    sight: >
+      You are heading along the riverbank, which at this point consists of knee- deep mud into which you
+      squelch with each step. To the east the land is a little drier, but in other directions you can just see
+      endless damp swamp.
+flag:
+  - outdoors
+  - rainforest

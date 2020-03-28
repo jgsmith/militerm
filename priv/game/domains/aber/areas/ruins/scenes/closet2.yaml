@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:northhall6"
+    short: A Small Room
+    sight: >
+      This is a small room that resembles a coat closet. It is quite spacious and has several brass hooks that
+      still hang from the walls. A couple of small shelves line the back of the closet. You look around this
+      closet one more time before deciding to leave.
+flag:
+  - dark

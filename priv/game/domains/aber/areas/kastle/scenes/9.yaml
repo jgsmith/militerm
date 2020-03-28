@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:kastle:8"
+      up:
+        target: "scene:aber:kastle:10"
+    short: The Fells
+    sight: >
+      The escape passage emerges here high on the side of a steep rocky fell. The footing here is treacherous.
+      Small avalanches of scree are set off by your footsteps as you scramble along the fell. Any descent
+      would be impossible. The only other way out is up to the top of the fell which is covered in snow.
+flag:
+  - outdoors
+  - cold

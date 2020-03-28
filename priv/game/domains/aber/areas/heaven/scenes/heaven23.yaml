@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:heaven:heaven24"
+      west:
+        target: "scene:aber:heaven:heaven21"
+    short: Thrymheim
+    sight: >
+      Mountains surround you. A loud roar fills the air, though you can not locate the source. This hall once
+      belonged to the great giant Thiazi, but is now owned by his daughter, fair Skadi-- who was Njord's
+      bride.
+flag:
+  - private

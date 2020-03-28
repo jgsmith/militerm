@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:boggy"
+      west: null
+    short: East Bank
+    sight: >
+      You are on the eastern bank of a river of mucus. The ground is soft and squishy here and someone's or
+      something's footprints can be seen heading south.
+flag:
+  - outdoors

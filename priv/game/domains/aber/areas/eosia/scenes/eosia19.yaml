@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia26"
+      west:
+        target: "scene:aber:eosia:eosia18"
+    short: Still Going...
+    sight: >
+      You are still continuing down the Long Road. Just to the east lay the gates of the Pandion Motherhouse,
+      their headquarters for all of Elenia. Off to the east you can see Chyrellos shining, but you can not
+      seem to find a way to get there, as the road strangely ends here.
+flag:
+  - outdoors

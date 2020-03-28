@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:westhall4"
+    short: A Small Room
+    sight: >
+      This room resembles a closet of some sort. There are a few shelves lining the walls and the remains of a
+      broom is decaying in the corner. You look around this area one more time and then decide to leave.
+flag:
+  - dark

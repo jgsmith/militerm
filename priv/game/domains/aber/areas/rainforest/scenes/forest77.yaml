@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest78"
+      north:
+        target: "scene:aber:rainforest:river2"
+      south:
+        target: "scene:aber:rainforest:forest79"
+      west:
+        target: "scene:aber:rainforest:forest80"
+    short: Southern Bank Of The Malazon
+    sight: >
+      You are on the southern bank of the River Malazon, if bank is the right word. There is no dry land to be
+      seen, only a series of soft mudbanks and pools which are stained brown by tannin from the leaves falling
+      into the water. You can head east or west along the edge of the river proper, or venture south among the
+      pools.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:talon:talon50"
+    short: Treasure Chamber
+    sight: >
+      This is a small room which appears to house many treasures of this palace. The only exit lies to the
+      scorched cave west of here.
+flag:
+  - dark

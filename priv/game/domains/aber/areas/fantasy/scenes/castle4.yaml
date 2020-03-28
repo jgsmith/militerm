@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:castle5"
+      south:
+        target: "scene:aber:fantasy:castle3"
+    short: Main Hallway
+    sight: >
+      The hallway is very dim and you can only make out the direction the hall goes, which is to the east.
+flag:

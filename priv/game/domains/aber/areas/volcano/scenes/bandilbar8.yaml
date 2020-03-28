@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar7"
+      south:
+        target: "scene:aber:volcano:bandilbar11"
+      west:
+        target: "scene:aber:volcano:bandilbar9"
+    short: Main Street
+    sight: >
+      You are at the north end of Yorrin's main street, which runs south from here into the centre of the
+      village. Yorrin is large for a village, yet the presence of a town hall to the west amuses you by its
+      pretentiousness.
+flag:
+  - outdoors

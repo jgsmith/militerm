@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen23"
+      south:
+        target: "scene:aber:thyrannen:thyrannen43"
+      west:
+        target: "scene:aber:thyrannen:thyrannen2"
+    short: Crossways
+    sight: >
+      From here there is a giant mesa towerng high into the sky. The mesa looks perverted, and twisted with
+      evil. Looking closely at it, you can make out a disfigured face, seemingly frozen in a silent agonizing
+      scream.
+flag:
+  - outdoors

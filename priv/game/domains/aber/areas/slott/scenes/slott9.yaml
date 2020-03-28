@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott8"
+      north:
+        target: "scene:aber:slott:slott16"
+    short: Servant quarters
+    sight: >
+      This is a rather large room with beds, shelves and cupboards. This is where the servants spend their
+      time when they are off duty, now there hasn't been anyone in here for a long time. Dust covers
+      everything and the beds don't look especially inviting.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid23"
+      west:
+        target: "scene:aber:pyramid:pyramid27"
+    short: "King's Chamber"
+    sight: >
+      A &+Yglided&N shrine decorates one wall, while a &+Ygolden&N statue of the goddess Selkis guards the
+      four canopic jars holding the viscera of the King Amphet. At the four corners of this shrine stand the
+      statues of the goddesses, Isis, Nephthys, Neith and Selkis to protect these jars from the claws of the
+      greedy. Chests containing some of King Amphet's personal belongings rest against the opposite wall.
+      Through the open door to the east you catch sight of a magnificent &+cquartizite&N sarcophagus, carved
+      from a single block of stone.
+flag:
+  - dark

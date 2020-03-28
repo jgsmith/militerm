@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:npond"
+      south:
+        target: "scene:aber:jbs:pond"
+    short: "The Fishin' Hole"
+    sight: >
+      The path here runs very close to the &+Bpond&* along a small overhang that goes over a fairly deep area
+      of water for this close to the shore. This looks like a great spot to sit down, cast in a line, and
+      relax for a little while.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount6"
+      west:
+        target: "scene:aber:rainforest:mount8"
+    short: Natural Cave
+    sight: >
+      You are in a small cave, formed naturally by the same awesome forces which shaped this mountain range
+      millions of years ago. The cave continues to the west, and a narrow rocky gully runs past to the east.
+flag:
+  - dark
+  - nomobiles

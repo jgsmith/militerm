@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: Enlightment
+    sight: >
+      &+WLight&N pours in from two long slitted windows at the sides of the tip of this pyramid. Unlike the
+      rest of the pyramid, not a trace of dust can be found on the floor. You can hear the sighing of the hot
+      desert wind as it rustles around the top of this magnificent tomb. The room is dominated by a tall
+      figure with the body of a man and the head of a falcon. Large rounded eyes carefully observe you, making
+      you shudder and wonder if this creature can peer into your very soul. You believe you have finally found
+      Horus, son of Isis and Osiris, the fierce guardian of Neferteri's vast power.
+flag:
+  - dark

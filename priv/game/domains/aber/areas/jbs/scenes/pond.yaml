@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:epond"
+      south:
+        target: "scene:aber:jbs:path3"
+      west:
+        target: "scene:aber:jbs:fish"
+    short: By the Pond
+    sight: >
+      The path forks here to run east and west around a small, clear fish pond. The trees here have not been
+      cleared like they have on the rest of the farm so you cannot see very far along the path in either
+      direction, but the sounds of the birds and other small woodland animals living here make you feel at
+      ease.
+flag:
+  - outdoors

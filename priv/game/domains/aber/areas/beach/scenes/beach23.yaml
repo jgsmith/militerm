@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:beach:beach21"
+    short: Paradise
+    sight: >
+      This paradise seems to good to be true, its beauty and spendor take your breath away. Everything is
+      peaceful here, much diffrent than the savage lands you are used to.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:khanjar:khanjar9540"
+    short: Before A Gigantic Boulder
+    sight: >
+      Wedged in at the ancient times, the massive boulder projects here before you. It is black all over and
+      partly of some glasslike material. Some &+Cremnants&* lie under it. The plateau extends to the west.
+flag:
+  - outdoors
+  - cold

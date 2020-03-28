@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:humm"
+      up:
+        target: "scene:aber:labyrinth:spiral"
+    short: Spiral Staircase
+    sight: >
+      You are on a spiral staircase which decends into a blanket of mist. It also (for the uninitiated in
+      spiral staircase design) carries on upwards.
+flag:

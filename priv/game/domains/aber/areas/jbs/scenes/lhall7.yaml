@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lhall6"
+      north:
+        target: "scene:aber:jbs:lhall8"
+    short: Large Hallway
+    sight: >
+      The hall turns here so that you can continue down it to the north or east.
+flag:

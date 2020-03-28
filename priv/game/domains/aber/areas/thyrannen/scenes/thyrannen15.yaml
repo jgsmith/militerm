@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen17"
+      west:
+        target: "scene:aber:thyrannen:thyrannen13"
+    short: Redwood Forest
+    sight: >
+      You are in the northern part of this vast forest, you look over your shoulder often sensing that someone
+      is watching you, no one is there. It's just you, and the trees.
+flag:
+  - outdoors

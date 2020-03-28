@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:graye:graye5554"
+    short: "Irgon's Guard Room"
+    sight: >
+      You find yourself in a small guard room. Chambers to the east and west house prisoners, and an ebony
+      door blocks the way north. Instruments of torture line the walls, and blood is splattered everywhere.
+flag:
+  - dark

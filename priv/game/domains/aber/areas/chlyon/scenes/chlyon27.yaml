@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon3"
+      up:
+        target: "scene:aber:chlyon:chlyon26"
+    short: Abrupt Path
+    sight: >
+      Below you, a familiar rocky path windes up and down on the face of the mountain. You could probably
+      reach it easily, but it will be close to impossible to make it back here from there.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast13"
+      west:
+        target: "scene:aber:ruins:geast11"
+    short: Southwestern Corridor
+    sight: >
+      You are in the southwestern corridor of a large catacomb. You hear a great deal of rustling coming from
+      the east and wonder what can be causing all of the noise. You then hear a crunch as you step forward and
+      look down to see that you have crushed a bone of another explorer, much like yourself. The corridor
+      leads to the east and to the west.
+flag:
+  - dark

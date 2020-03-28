@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest72"
+    short: Tangled Bank
+    sight: >
+      You have finally come to an impassable obstruction - a cluster of bushes taking advantage of the
+      increased light at the edge of the trees which effectively halts your eastward progress. You will have
+      to head back the way you came.
+flag:
+  - outdoors

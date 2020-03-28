@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:countryb_6"
+      west:
+        target: "scene:aber:fareast:countryb_3"
+    short: Countryside- Sticky Morass
+    sight: >
+      Sulfurous ooze laps across the road at its eastern end, seeming to eat away at the stone. A greyish
+      miasma rises from this nasty yellow puddle, and the cold winds from the southeast blow it back past you;
+      a choking, stinking vapor that burns your eyes. Looking for a way out of this cloud, you look west,
+      where the road is still intact, and south, where a dirt path leads down to a small clearing.
+flag:

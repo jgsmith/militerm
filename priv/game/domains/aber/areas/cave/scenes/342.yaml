@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:cavevol"
+      west:
+        target: "scene:aber:cave:341"
+    short: Lair of the FireDrake
+    sight: >
+      The room is very large, you can not see the ceiling for it is lost in the darkness. A large crack is
+      releasing large amounts of heat causing you to sweat profusely.
+flag:
+  - nomagic
+  - dark

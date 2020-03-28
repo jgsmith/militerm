@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:start:temple"
+      west:
+        target: "scene:aber:camelot:camelot281"
+    short: Sky Solar
+    sight: >
+      Stepping inside, you find yourself surrounded by lush, exotic greenery. Overhead, you can see a great
+      expanse of sky and traces of clouds through the glass dome. The scent of tropical flowers fill your
+      senses as you are soothed by the soft songs of birds flitting amid the foliage. In the center of the
+      room, you see long, low, comfortable looking divans that invite you to rest your travel-weary body. On a
+      marble table near one of the divans, sits a crystal bowl filled with plump, glistening strawberries.
+      Next to the bowl is a chafing dish holding some warm, smooth, liquid chocolate. The whisper of water
+      draws your gaze to a natural rock waterfall that spills into a deep, crystal-clear pool. A hint of steam
+      rising from the surface tells you the water will be warm, soothing and most inviting. There are exits to
+      the west and south.
+flag:
+  - private
+  - party
+  - peaceful

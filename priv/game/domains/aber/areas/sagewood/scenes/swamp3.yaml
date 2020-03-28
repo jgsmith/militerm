@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:mud"
+      north:
+        target: "scene:aber:sagewood:swamp6"
+      south:
+        target: "scene:aber:sagewood:mud"
+      west:
+        target: "scene:aber:sagewood:swamp1"
+    short: Foul Swamp
+    sight: >
+      All around you are evil-looking plants, choking each other out in hopeless attempts to get sunlight.
+      Those who loose the battle sooner than others die, and fall into the brown water up which is up to your
+      knees. Sometimes you feel something slimy swim by, ready at any moment to pull you under. Exits lead
+      &+CWest&* and &+CNorth&*, and neither look inviting. To the &+CEast&* and &+CSouth&* the mud seems to
+      get dangerously deeper...
+flag:
+  - outdoors
+  - negregen
+  - maze

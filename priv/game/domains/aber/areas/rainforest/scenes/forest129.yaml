@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest133"
+      south:
+        target: "scene:aber:rainforest:forest134"
+      west:
+        target: "scene:aber:rainforest:forest126"
+    short: Deep Forest
+    sight: >
+      The rainforest seems endless. You wander on and on through trees without number, crossing terrain which
+      for the most part is dry in this region. Fungi cover the floor and with every step you crush scores of
+      fruiting bodies. A natural dike blocks the way north.
+flag:
+  - outdoors
+  - rainforest

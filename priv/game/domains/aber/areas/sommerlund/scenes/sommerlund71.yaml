@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund68"
+    short: Where Life Ends
+    sight: >
+      You have walked right into the mouth of a Grue! As its jaws close mechanically on you, your bones break
+      and turn your insides into a very red jelly. You fall down the Grue's throat - a long, black well of
+      which the sides are lined with what resembles whipped cream. Welcome to oblivion!
+flag:
+  - death

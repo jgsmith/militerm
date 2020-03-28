@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:32"
+      south:
+        target: "scene:aber:stjames:30"
+    short: On the Bridge
+    sight: >
+      You are in the middle of the bridge which spans the pond. The water below is clean and clear. There are
+      people talking under the trees to the south, and some people on benches to the north. One person is
+      canoeing toward the pond's small island in the pond. To the west is a great photo opportunity of
+      Buckingham Palace.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:stony_path5"
+      south:
+        target: "scene:aber:undead:paddy_field1"
+      west:
+        target: "scene:aber:undead:stony_path3"
+    short: Stony Path
+    sight: >
+      The path turns here, with the moat leading &+Cnorth&* and &+Cwest&*. There still seems little hope in
+      being able to cross. However maybe if you continue.... well, who knows. A large paddy field is visible
+      to the &+Csouth&*.
+flag:
+  - outdoors

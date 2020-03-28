@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:lost:lost8"
+      south:
+        target: "scene:aber:lost:lost4"
+    short: Ancient Road
+    sight: >
+      A long time ago there used to be a prosperous trade route between the northern kingdoms and the people
+      who dwelt in the forest. Now all that remains is a barely distinguishably trail leading to the north.
+flag:
+  - outdoors

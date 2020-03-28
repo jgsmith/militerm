@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund1"
+      south:
+        target: "scene:aber:sommerlund:sommerlund3"
+    short: Wildlands
+    sight: >
+      Here the desert begins to give way to taller grasses and even a few small trees. The dirt itself seems
+      to be getting more fertile. You can pick up a handful of the soil and not choke on the dust you
+      displace. To the south lies what appears to be an abandoned hut. To the north lies the unforgiving
+      desert.
+flag:
+  - outdoors
+  - hot

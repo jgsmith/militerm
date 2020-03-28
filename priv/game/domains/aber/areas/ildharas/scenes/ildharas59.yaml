@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas60"
+      up:
+        target: "scene:aber:ildharas:ildharas21"
+    short: Bottom of the Staircase
+    sight: >
+      A narrow corridor leads off to the east. Although there are no windows here, enough light exists from an
+      unseen source to make a torch unnecessary. In the dimness, the walls seem on the verge of glowing.
+flag:

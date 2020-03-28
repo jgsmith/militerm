@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest137"
+    short: Not In The Fig Forest
+    sight: >
+      You have come out on the other side of the fig forest! You are so relieved that you stop and rest awhile
+      in thought. It is only then that you realise your progress is blocked by a tangled mass of tall thorny
+      bushes so thick that it would take you a year to hack through them. You almost burst into tears as the
+      knowledge sinks in that all your efforts have been in vain.
+flag:
+  - outdoors
+  - rainforest

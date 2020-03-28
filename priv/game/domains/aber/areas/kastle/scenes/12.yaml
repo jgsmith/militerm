@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:kastle:11"
+    short: Snow Drift
+    sight: >
+      The snow here is heaped up into a large drift, and the wind whips through here on its way to parts
+      unknown. The only way out would seem to be back the way you came.
+flag:
+  - outdoors
+  - cold

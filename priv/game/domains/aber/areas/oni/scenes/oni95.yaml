@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni96"
+      north:
+        target: "scene:aber:oni:oni99"
+      west:
+        target: "scene:aber:oni:oni97"
+    short: "Xergon's Prison Cell"
+    sight: >
+      The prison cell is completely bare. Just the cold faces of the magically fortified stone walls. A pile
+      of bones has been made near the spot where the exit should be.
+flag:
+  - cantsummon

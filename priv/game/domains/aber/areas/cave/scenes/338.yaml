@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:339"
+      south:
+        target: "scene:aber:cave:337"
+    short: Slanted Tunnel
+    sight: >
+      A dwarven tunnel continues steeply down to the north. To the south a gradual slope allows an easy climb
+      out of the mine.
+flag:
+  - dark

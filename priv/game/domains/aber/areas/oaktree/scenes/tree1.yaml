@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:grove"
+      up:
+        target: "scene:aber:oaktree:tree2"
+    short: Oak Tree
+    sight: >
+      You are sitting comfortably in the fork of a big branch. The branches are spread out high over your
+      head. The sun shines through the leaves, so that you must shade your eyes with your hand to look up.
+flag:
+  - outdoors

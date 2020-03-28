@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:eastside"
+      north:
+        target: "scene:aber:abyss:lolth"
+      south:
+        target: "scene:aber:abyss:tunnel"
+      west:
+        target: "scene:aber:abyss:westside"
+    short: Demon Web
+    sight: >
+      You are in a pocket at the center of a particulary large system of webs. At the center of the room is a
+      large black altar. Fresh blood drips from the altar, forming a pool at its base and from there runs
+      toward a large archway to the north. Smaller archways lead east and west.
+flag:
+  - dark

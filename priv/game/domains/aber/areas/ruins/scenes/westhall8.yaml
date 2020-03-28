@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:westhall9"
+      south:
+        target: "scene:aber:ruins:westhall7"
+    short: Turn in the Northern Hallway
+    sight: >
+      You are now travelling north in the hallway. The dust is so thick here that it causes you to choke and
+      your eyes water. A cyclonic breeze constantly blows the dust around and you look around quickly for an
+      exit. The hallway turns to the east here.
+flag:
+  - dark

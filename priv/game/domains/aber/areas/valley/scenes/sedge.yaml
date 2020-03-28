@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:tforest"
+      north:
+        target: "scene:aber:valley:fsedge"
+      west:
+        target: "scene:aber:valley:bridge"
+    short: Stream Edge
+    sight: >
+      You are on the edge of the stream, hemmed close to the water by thick bushes, and clumps of reeds. One
+      or two gaps in the hedges allow you to squeeze northwards back into the main part of the forest. Other
+      paths allow you to walk east or west along the stream bank.
+flag:
+  - outdoors

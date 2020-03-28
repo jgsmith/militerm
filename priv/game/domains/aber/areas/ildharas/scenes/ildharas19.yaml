@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas43"
+      east:
+        target: "scene:aber:ildharas:ildharas18"
+    short: Guardroom
+    sight: >
+      Tables and chairs lie smashed and splintered across the floor. Bits of weapons and armor make walking
+      here hazardous. A narrow stairway leads down and a doorway goes back out east to the entry hall.
+flag:

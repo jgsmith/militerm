@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen64"
+      north:
+        target: "scene:aber:thyrannen:thyrannen62"
+    short: Dwarven mine
+    sight: >
+      The mine tunnel turns east from here, looking et the room, moisture drips down from above, and you can
+      also see a streak of ore leading east. You figure the miner, whoever he may be, is following this vein
+      of ore.
+flag:
+  - dark

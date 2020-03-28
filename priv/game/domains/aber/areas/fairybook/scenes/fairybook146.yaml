@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Control Room
+    sight: >
+      It is from here that the Wizard controls the great Oz. Knobs and levers stick out of the walls, and
+      little flashing lights nearly blind you. A curtain hangs in the east corner.
+flag:

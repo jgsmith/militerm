@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar77"
+    short: A House
+    sight: >
+      Now this house appears to be in better shape than the others, but still looks to be rundown due to poor
+      upkeep by the owners. In fact, the owners don't really care about the shape of the house, since they are
+      clueless and dumb. A large couch dominates the living room, some junk litters the floor, some of the
+      wallpaper appears torn from the walls, yet the place seems wired for cable! You can exit back to Pines
+      south.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest130"
+      south:
+        target: "scene:aber:rainforest:forest136"
+      west:
+        target: "scene:aber:rainforest:forest127"
+    short: Beneath The Understorey
+    sight: >
+      The understorey here is particularly impressive, since the canopy is inexplicably almost bare. Tall
+      palms are making the most of the extra light and their fronds wave about gently in the slight breeze
+      which reaches them from above.
+flag:
+  - outdoors
+  - rainforest

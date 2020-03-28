@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:house18"
+    short: Bathroom
+    sight: >
+      This is your normal bathroom with a sink, toilet, and bathtub. The walls are a disgusting dull white and
+      you are starting to get sick of this color.
+flag:

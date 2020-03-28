@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:heaven:heaven28"
+      south:
+        target: "scene:aber:heaven:heaven30"
+    short: Hardwood Forest
+    sight: >
+      You stand under a canopy of leaves and intertwined branches. Through the trees, you can glimpse deep
+      blue lakes, which you imagine to have been created by the northern glaciers thousands of years ago.
+flag:
+  - private

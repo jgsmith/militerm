@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Empty Cell
+    sight: >
+      Damp, cramped and dreary, this cell reminds of you of all the other cells you've seen and reinforces the
+      concept that such a cell should not be your terminal destination.
+flag:
+  - dark

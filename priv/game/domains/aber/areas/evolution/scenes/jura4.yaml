@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura5"
+      south:
+        target: "scene:aber:evolution:jura2"
+      west:
+        target: "scene:aber:evolution:jura6"
+    short: Northern Edge Of The Plateau
+    sight: >
+      The plateau ends abruptly just to the north of you, and as you peer over the edge your stomach churns at
+      the sight of a sheer cliff dropping five hundred feet to the valley floor. Descent here would be
+      suicide. You can however continue to wander the plateau to the south, east and west.
+flag:
+  - outdoors

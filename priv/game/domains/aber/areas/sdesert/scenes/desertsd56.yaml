@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd57"
+      north:
+        target: "scene:aber:sdesert:desertsd56"
+      south:
+        target: "scene:aber:sdesert:desertsd56"
+      west:
+        target: "scene:aber:sdesert:desertsd55"
+    short: In The Brush
+    sight: >
+      The sage brush and tumbleweeds here press in all around you, making it a bit hard to walk.
+flag:
+  - outdoors
+  - hot

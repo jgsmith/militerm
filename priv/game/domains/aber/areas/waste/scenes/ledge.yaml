@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:tunnel"
+      west:
+        target: "scene:aber:waste:passage"
+    short: Fiery Ledge
+    sight: >
+      You stand on a wide golden path, set on a high ledge overlooking a huge crater. The tremendous flames
+      and explosions shake the whole mountain around you, making the fiery red skies seem to vibrate and dance
+      with each flash and rumble. The ledge goes back underground to the east and west.
+flag:
+  - hot

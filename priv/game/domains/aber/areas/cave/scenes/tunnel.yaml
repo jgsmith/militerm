@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:store2"
+      north:
+        target: "scene:aber:cave:wide"
+      south:
+        target: "scene:aber:cave:stairs"
+    short: Dwarven Tunnel
+    sight: >
+      You are standing at a junction between passages. A passage leads north and south, while another branches
+      off to the east.
+flag:
+  - dark

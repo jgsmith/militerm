@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:start:church"
+      south:
+        target: "scene:aber:cresso:closet1"
+    short: "&+cCresso's bedroom"
+    sight: >
+      You enter a nice bedroom. There is a huge bed in the center of the room. The person who owns this room
+      must be a pretty important one. Also, this probably means that you are not supposed to be in here. This
+      room isn't realy part of this world. It somehow contains elements from another dimension. Like an obese
+      cat and a slot machine. There is a closet on the south side of the room. The ambiance is fantastic. You
+      feel like you could stay here forever.
+flag:
+  - party
+  - owner
+  - fastmana
+  - fastheal
+  - noat

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus50"
+      south:
+        target: "scene:aber:nexus:nexus47"
+    short: Island Beach
+    sight: >
+      A lushness of unsurpassed beauty, untouched by the hands of human progress, greets the weay traveler.
+      The fronds of ferns and palm trees blow gently in the caressing wind. The beach here is devoid of debris
+      except for small pieces of driftwood.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

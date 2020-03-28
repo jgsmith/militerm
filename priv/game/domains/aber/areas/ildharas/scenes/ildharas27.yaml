@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ildharas:ildharas24"
+    short: Pantry
+    sight: >
+      Much of the food has been eaten or spilled upon the ground. Flour coats the entire room like snow. You
+      marvel that nothing has gone bad yet. A set of stairs leads up.
+flag:

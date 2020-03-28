@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon12"
+      south:
+        target: "scene:aber:talon:talon14"
+      west:
+        target: "scene:aber:talon:talon15"
+    short: Underground Lake
+    sight: >
+      The cavern opens up into a tremendous underground lake, and although some small ripples are caused by
+      the incoming stream, it is as calm, and as clear as finely polished glass. The entire cave glows from
+      waves of light emanating from an exit to the far southern side of the lake, which are reflected from the
+      water across to the walls and cave's ceiling. To the west is a small cave preceeded by a shore of rocks
+      and moist clay. To the south, water from the lake continues its underground journey in a small stream,
+      and to the east, water empties into the lake from a small cave.
+flag:

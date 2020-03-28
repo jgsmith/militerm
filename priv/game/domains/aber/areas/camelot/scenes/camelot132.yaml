@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot131"
+      west:
+        target: "scene:aber:camelot:camelot133"
+    short: Ummmmmmmm
+    sight: >
+      Will you give up and turn back? Or will you stick with it? Surely, there must be an end, and it must be
+      soon.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:6"
+      south:
+        target: "scene:aber:stjames:4"
+      west:
+        target: "scene:aber:stjames:8"
+    short: Entrance to St. James Park
+    sight: >
+      You are now at the northern entrance to St. James Park. There is another entrance to the south of you,
+      beyond a pond. There is also a northern entrance at the western edge of the park, over where you can
+      just make out the back wings of Buckingham Palace in the distance. The path you are on leads to the
+      western entrance, past a pond to the south.
+flag:
+  - outdoors

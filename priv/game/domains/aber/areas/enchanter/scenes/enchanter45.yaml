@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter46"
+    short: Edge of the Beach
+    sight: >
+      The path led you to a sandy beach on the Flathead ocean. The sea is southwest, and the meadow lies back
+      to the northeast.
+flag:
+  - outdoors
+  - real
+  - tempreal
+  - peaceful

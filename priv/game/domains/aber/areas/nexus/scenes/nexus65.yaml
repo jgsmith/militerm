@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus66"
+      south:
+        target: "scene:aber:nexus:nexus64"
+    short: Molten Bank
+    sight: >
+      The rocks closest to the river slowly melt into the river itself. Eventually, the river will encompass
+      this whole area and beyond. Part of the bank has collapsed, allowing the flowing magma to fill in the
+      resulting crater. It is now filled to the brim and maintained as a sort of bay.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood29"
+      south:
+        target: "scene:aber:sherwood:sherwood27"
+    short: Under the Maple Trees
+    sight: >
+      You stand under many Maple trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

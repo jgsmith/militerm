@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:throne"
+      north:
+        target: "scene:aber:eforest:asmodeus"
+      south:
+        target: "scene:aber:eforest:bedroom"
+    short: The Den
+    sight: >
+      You have entered Asmodeus' study. In the center of the room is a &+Cdesk&*, which you realize is covered
+      with human skin. Putting that thought out of your mind you look around the rest of the room. The walls
+      are made of the red rock that is common throughout the caves and the smell of sulphur, like always, all
+      but overwhelms you. Still, your eyes keep returning to that gruesome desk. Looking for exits to this
+      room, you find three. They lie to the North, East and South.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Maintenance Shack
+    sight: >
+      This small chamber has jars of contaminated cleaning solutions covered in dust and spiderwebs. A coat
+      rack on the back wall seems nearly entirely eaten away by mold, while the metal fittings on the pipes
+      leading around the room have all but rusted away. A check-out list on a hook by the door shows this room
+      last used over 10 years ago, when the caretaker of the building was mauled to death by a local grizzly.
+      The people of Whisper City never bothered to replace the poor old fool, so this place was left to rot
+      away in time.
+flag:

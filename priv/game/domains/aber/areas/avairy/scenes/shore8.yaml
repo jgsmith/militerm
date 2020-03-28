@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore7"
+      west:
+        target: "scene:aber:avairy:shore9"
+    short: The Shore
+    sight: >
+      You are on the southern shore of Avairy Island. To the south are miles and miles of breaking seas. You
+      notice an occasional human skeleton lying half buried in the sand. The shore line continues to the east
+      and west.
+flag:
+  - outdoors
+  - light

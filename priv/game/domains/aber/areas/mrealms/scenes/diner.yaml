@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:mrealms:second"
+    short: The All-Night Diner
+    sight: >
+      A burly waitress with a name tag which says Sally asks you what you'll have. The stools around you are
+      empty, and booths filled with lovers, teenagers celebrating a victory, and truck drivers taking a break
+      line the windows. The jukebox has all your favourite songs in it . . . only costs a quarter, so go ahead
+      and give it a go. I recommend the apple pie.
+flag:
+  - peace
+  - party

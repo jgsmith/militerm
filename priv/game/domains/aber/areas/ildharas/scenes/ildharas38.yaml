@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas39"
+      north: null
+      south:
+        target: "scene:aber:ildharas:ildharas36"
+    short: Hallway
+    sight: >
+      The hallway continues west and south. A vaulted ceiling lofts gracefully overhead, making the white
+      stone seem almost ethereal. The King's chambers lie to the north.
+flag:

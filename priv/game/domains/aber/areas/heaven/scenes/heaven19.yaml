@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:heaven:heaven20"
+    short: Ydalir
+    sight: >
+      You are standing in series of dales. Yews are growing here, and you can see signs of Ull roaming about
+      nearby.
+flag:
+  - private

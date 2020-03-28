@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge45"
+      west:
+        target: "scene:aber:ledge:ledge43"
+    short: Opening in the Cliff Face
+    sight: >
+      You're swimming in the entryway of the underwater cliff face. It goes in pretty deep, and the light
+      isn't bright enough to tell how far it goes. You can go cave exploring to the west or swim out to the
+      open water to the east.
+flag:
+  - underwater

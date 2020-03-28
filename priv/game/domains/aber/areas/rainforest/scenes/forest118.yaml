@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest119"
+      north:
+        target: "scene:aber:rainforest:forest120"
+      west:
+        target: "scene:aber:rainforest:forest115"
+    short: Tuneful Forest
+    sight: >
+      The song of the musician wren fills the air here, haunting you with its enchanting melody. You cannot
+      see the singer, but judge it must be somewhere up in the canopy, concealed by the copious greenery. The
+      ground here is dry and you can see no sign of any rivers.
+flag:
+  - outdoors
+  - rainforest

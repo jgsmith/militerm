@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan1"
+      north:
+        target: "scene:aber:blizzard:blizzard"
+      south:
+        target: "scene:aber:blizzard:pass2"
+      up:
+        target: "scene:aber:blizzard:window"
+    short: Blizzard Pass
+    sight: >
+      You are trudging through deep snow as you follow a narrow track that winds down the pass leading
+      southward, its end hidden by a succession of rocky spurs that jut out from either side. On both sides of
+      you the mountains tower high above the pass, their peaks veiled in clouds. At one point, however, the
+      cliff is nowhere near as steep and a fair way up a single window has been cut, looking out across the
+      snows.
+flag:
+  - outdoors
+  - cold

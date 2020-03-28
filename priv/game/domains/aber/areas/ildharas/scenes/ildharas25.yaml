@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas26"
+      north:
+        target: "scene:aber:ildharas:ildharas29"
+      south:
+        target: "scene:aber:ildharas:ildharas22"
+      west:
+        target: "scene:aber:ildharas:ildharas24"
+    short: Before the Sundered Throne
+    sight: >
+      The throne has been cloven in twain by a monstrous blow, and its precious stones have all been pried
+      from their settings. Rubble and debris litter everything, but it still looks majestic in all its ruined
+      splendor. Doorways lead north, east, and west, and the main hall continues south.
+flag:

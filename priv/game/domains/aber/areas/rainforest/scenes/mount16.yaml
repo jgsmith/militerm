@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount15"
+      east:
+        target: "scene:aber:rainforest:mount18"
+      up:
+        target: "scene:aber:rainforest:mount17"
+    short: Cold Shoulder
+    sight: >
+      You are standing on the side of Mount Doragua, atop a shoulder of the mountain, from where you have a
+      good view of most of the range. The view to the south and west is blocked by the massive bulk of the
+      mountain you are on, but you could no doubt see more if you climbed higher. However, you realise that
+      higher up the air will be even colder and you are reluctant to risk hypothermia.
+flag:
+  - outdoors
+  - cold

@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:maeron:towerbottom"
+      east:
+        target: "scene:aber:maeron:edge"
+      north:
+        target: "scene:aber:maeron:edge"
+      south:
+        target: "scene:aber:maeron:edge"
+      west:
+        target: "scene:aber:maeron:edge"
+    short: &+BThe Tower Of Maeron
+    sight: >
+      The tower offers you a magnificent view of the land. Off to the southeast you can see a plume of smoke,
+      probobly from the crackling fire in the Warm Haven. You are held in awe at the majestic creation of the
+      gods. As you reluctantly look down from the beautiful sight, you notice that you can trudge to the edges
+      of the towers. They look rather unstable. They also appear to be above some nasty, and very sharp rocks.
+      Perhaps Maeron used this tower for his astronomy experiments, or just for the nice view. Anyway, the
+      only safe exit appears to be downard.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+    short: Within the Gem
+    sight: >
+      You find yourself within the crystal on the hilt of the nameless sword. A magical place created to
+      imprison a being for eternity...
+flag:
+  - cantsummon
+  - nosummon
+  - nogoto
+  - noat
+  - death

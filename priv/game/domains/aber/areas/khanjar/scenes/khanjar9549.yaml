@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9548"
+      north:
+        target: "scene:aber:khanjar:khanjar9533"
+      south:
+        target: "scene:aber:khanjar:khanjar9550"
+      west:
+        target: "scene:aber:khanjar:khanjar9551"
+    short: Before An Ancient Poplar
+    sight: >
+      You are standing at a grove. Just before you is a large poplar, which foliage spreads in every direction
+      like a gigantic green ball. Its trunk is gnarled and carries the scars of hundreds of years. A small
+      hole appears to penetrate into the pith of the tree.
+flag:
+  - outdoors

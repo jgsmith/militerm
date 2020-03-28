@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6000"
+      north:
+        target: "scene:aber:haondor:sundforest6060"
+      west:
+        target: "scene:aber:haondor:sundforest6002"
+    short: A Trail Through The Light Forest
+    sight: >
+      You are on a trail leading through the forest. There seems to be a small path leading north into the
+      shadows. To the east is the forest edge and to the west the trail leads further into the forest. There
+      are &+Gtrees&* all over teeming with &+Cinsects.
+flag:
+  - real
+  - outdoors

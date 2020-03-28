@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:beanstalk"
+      north:
+        target: "scene:aber:jbs:cloudy"
+    short: Top of the Beanstalk
+    sight: >
+      You have reached the top of the beanstalk and to your great surprise the tops of the clouds are solid!
+      As you look around you notice that the sun is really bright this far up and you realize that the weather
+      up here must always be great without any clouds above you to block out the sun. There is a path that
+      leads off to the north over the cloudy terrain and you can climb back down the beanstalk if you want to.
+flag:

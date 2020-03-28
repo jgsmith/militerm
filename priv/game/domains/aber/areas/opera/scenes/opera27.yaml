@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:opera:opera28"
+      west:
+        target: "scene:aber:opera:opera26"
+    short: The Underground Lake
+    sight: >
+      You see to the north a large underground lake here in the fifth cellar of the opera house. It is covered
+      by a thick mist that seems to be mysteriously lit from within. A passage leads west.
+flag:
+  - onwater

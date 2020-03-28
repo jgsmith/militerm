@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle22"
+      south:
+        target: "scene:aber:avairy:castle20"
+    short: Entrance to Royal Quarters
+    sight: >
+      You stand before a large set of double stained glass doors. A set of bird armor stands on each side of
+      the doors.
+flag:
+  - light

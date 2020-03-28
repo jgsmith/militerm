@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:slott:slott15"
+    short: Family Sanctuary
+    sight: >
+      You have entered the sacred temple of the castle. Here the family of the house say their prayers. Now it
+      hasn't been used for a long time and dust covers everything! But you can still see the &+Bkrusefix&* on
+      the wall, and the paintings pretending the almighty God and his son Jesus. There are also some church
+      &+Bbenches&* here.
+flag:
+  - dark

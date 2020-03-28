@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate18"
+      east:
+        target: "scene:aber:pirate:pirate18"
+      south:
+        target: "scene:aber:pirate:pirate19"
+      up:
+        target: "scene:aber:pirate:pirate19"
+    short: Volcano Path
+    sight: >
+      You are standing on a path climbing the side of the volcano. To the south, you can see a level area,
+      apparently the end of the path. To the east, the path continues down the volcano.
+flag:
+  - outdoors

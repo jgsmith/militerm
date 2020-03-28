@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord108"
+    short: Icefloe
+    sight: >
+      A small continent of smooth, crystalline ice covers this stretch of the northern seas. Not a single
+      living thing has grown out here as the powerful forces of erosion prevent any nutrients from sticking
+      around long enough to do their jobs. The floe is dying though; occasionally, pieces of itself will break
+      off and float away to join their polar brethren outside the area which the local sea serpents inhabit.
+      Only these serpents possess strength enough to push the icebergs around at whim.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

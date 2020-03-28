@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop35"
+      north:
+        target: "scene:aber:bishop:bishop41"
+      west:
+        target: "scene:aber:bishop:bishop33"
+    short: Cemetery Gates
+    sight: >
+      Creaking and squeaking in the voluminous amount of wind which whips across the cemetery barrier, a
+      spiked iron gate with central hump spans the distance between two cracked and chipped pillars of
+      weathered stone. A rusted and broken lock on an equally rusty chain once held the two halves of the gate
+      together. Above this lock is fashioned the likeness of a scaly, one-eyed lizard, its extended tongue
+      letting loose flickering green lightning. These high-voltage bolt of electricity shoot diagonally
+      upwards to the top of the pillars, where it is absorbed by metal balls which glow weakly with each
+      influx of energy. At the base of the gate, not daring to venture into the unyielding goodness of the
+      prairie, is a foot-thick layer of violently swirling gray fog.
+flag:
+  - outdoors
+  - nomobiles

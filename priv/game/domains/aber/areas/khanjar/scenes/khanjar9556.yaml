@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9557"
+      north:
+        target: "scene:aber:khanjar:khanjar9553"
+    short: The Brink Of The Grassy Hillside
+    sight: >
+      You are standing on the brink of the grassy hillside that begins to descend gently. Below there lies
+      what appears very dense forest. To the north is a ditch.
+flag:
+  - nomobiles
+  - outdoors

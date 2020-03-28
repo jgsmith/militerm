@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:hall"
+      west: null
+    short: Long Passage
+    sight: >
+      You are following a long narrow passage which runs west to a door, and turns north into a hall.
+flag:
+  - dark

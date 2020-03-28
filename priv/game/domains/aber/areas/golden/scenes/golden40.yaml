@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden41"
+      south:
+        target: "scene:aber:golden:golden40"
+    short: &+WSecret Passage&*
+    sight: >
+      To the north the passage opens up into a bright chamber. The vein of gold has gotten much thicker. You
+      estimate it to be at least six inches wide. Exits are to the north and south.
+flag:
+  - dark

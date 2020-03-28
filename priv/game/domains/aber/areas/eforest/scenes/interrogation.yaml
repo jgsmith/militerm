@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:lich"
+    short: Interrogation Room
+    sight: >
+      You have entered a room obviously designed to force people to talk and give great pain. A lingering
+      smell of death and decay fills the room. Various instruments of torture fill the room, the most notable
+      being a large &+Rrack&* in the center. The only exit from the room leads to the east.
+flag:
+  - dark

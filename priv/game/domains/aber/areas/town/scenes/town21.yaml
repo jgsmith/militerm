@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:town:town20"
+      west:
+        target: "scene:aber:town:town24"
+    short: "Grocer's Store"
+    sight: >
+      This is a very large store where food is sold in huge amounts. You can see many items stocked here, like
+      fish and vegetables. Many people mill about the room trying to buy items for their next meal. To the
+      south is the main road and to the west is an entrance into a small square.
+flag:

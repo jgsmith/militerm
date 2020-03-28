@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter1"
+      north:
+        target: "scene:aber:camelot:camelot214"
+      south:
+        target: "scene:aber:camelot:camelot73"
+      west:
+        target: "scene:aber:camelot:camelot59"
+    short: Paved Road
+    sight: >
+      The road you are on leads eastward to a mountain, west towards the main village, and south to a small
+      village square.
+flag:
+  - outdoors

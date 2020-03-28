@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:9"
+      west:
+        target: "scene:aber:cyrus:11"
+    short: &+cNarrow Hallway
+    sight: >
+      A narrow hallway is leading to a blue lighhtened room. You see shimering light coming from that room. A
+      fresh gust of wind from west softly moves your hair.
+flag:

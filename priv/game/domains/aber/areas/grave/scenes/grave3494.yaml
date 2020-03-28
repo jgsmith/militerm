@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3498"
+      west:
+        target: "scene:aber:grave:grave3492"
+    short: Treasure Room
+    sight: >
+      There are weapons and other instuments of war here. The chests here are closed and locked with care. The
+      room is small with very little room for anything other than this equipment and chests.
+flag:

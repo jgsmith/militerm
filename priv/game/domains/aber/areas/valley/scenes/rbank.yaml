@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:fedge3"
+      east:
+        target: "scene:aber:eastcoast:hillock"
+      north:
+        target: "scene:aber:valley:eside"
+      south:
+        target: "scene:aber:valley:fedge5"
+      west:
+        target: "scene:aber:valley:fedge3"
+    short: Rocky Bank
+    sight: >
+      You are standing on a steep rocky bank which leads down to the south, north and west. Beyond a lip to
+      the east the bank descends sharply into green and fertile hill country. From here you can look west
+      across the forest, and north towards the grey marshes.
+flag:
+  - outdoors

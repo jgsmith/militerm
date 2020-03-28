@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:garden"
+    short: The Coach
+    sight: >
+      The coach begins to move as soon as you are inside. You look out of the window, into the brightness of
+      the street. You are moving along a broad street lined with curving arcades of houses that seem to you
+      strangely beautiful, with their clear lines and arches doors and wide-set, even windows, and walls of
+      warm golden stone. Then the brightness of the sun seems to dim a little, and as you look outside to see
+      why, you can see a rider following the coach. You don't know why, but you know he is evil. He gallops
+      effortlessly past you and onwards towards your destination. The coach follows him, and turns into the
+      entrance to a magnificent garden. It stops suddenly and you know you have arrived.
+flag:
+  - outdoors

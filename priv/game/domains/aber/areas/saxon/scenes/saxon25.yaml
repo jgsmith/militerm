@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon23"
+      north:
+        target: "scene:aber:saxon:saxon24"
+      south:
+        target: "scene:aber:saxon:saxon23"
+      west:
+        target: "scene:aber:saxon:saxon26"
+    short: &+WSmall &+BCurrent&*
+    sight: >
+      The water is not too deep, but deep enough you need a boat. The current lightly pushes you southward
+      toward the shore, but to the east the sea appears to open up to a great size.
+flag:
+  - light
+  - onwater
+  - outdoors

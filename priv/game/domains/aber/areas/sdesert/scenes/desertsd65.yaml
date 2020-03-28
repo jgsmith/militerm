@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:sdesert:desertsd64"
+    short: A Small Clearing
+    sight: >
+      You have arrived at what seems to be the uttermost southern point of the Earth. To the east there is
+      what seems to you to be a large Indian-style dwelling of some sort, made of a dark quartz-like stone.
+      About half way up it you can see the outlines of a sealed door. Looking about, you wonder why you begin
+      to hear noises...
+flag:
+  - outdoors
+  - hot

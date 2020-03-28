@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:stony_path13"
+    short: Grassy Field
+    sight: >
+      This field is prime farmland. It would appear that the proximity of all the undead creatures has scared
+      off any prospective buyers. Should the &+RUndead King&* be vanquished this spot might be a nice place to
+      retire to from stress of adventuring.
+flag:
+  - outdoors

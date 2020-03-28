@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5151"
+      north:
+        target: "scene:aber:yllythad:yllythad5179"
+      south:
+        target: "scene:aber:yllythad:yllythad5022"
+      west:
+        target: "scene:aber:yllythad:yllythad5185"
+    short: Calm Waters
+    sight: >
+      The water is a gently rolling calm here that seems to go on forever. The sky and the water match almost
+      exactly, so blue the water and so clear the sky.
+flag:
+  - onwater
+  - outdoors

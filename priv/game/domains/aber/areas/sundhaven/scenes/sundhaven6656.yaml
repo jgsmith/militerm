@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6655"
+    short: The bird cages
+    sight: The birds like their privacy, get the heck out!
+flag:
+  - private

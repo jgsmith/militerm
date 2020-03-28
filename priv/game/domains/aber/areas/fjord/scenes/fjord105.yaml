@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord106"
+      south:
+        target: "scene:aber:fjord:fjord108"
+      west:
+        target: "scene:aber:fjord:fjord104"
+    short: Northern Ocean
+    sight: >
+      The waves clap against each other with medium force, sending sprays of salty foam high into the air. A
+      powerful wind roars about, leaving no doubt that thers is no cover about. The sun shines down cleanly
+      through the crisp, cold air, saturating the surface of the sea with mirror images of itself, while a
+      light gray overhaze continues to be randomly blown about. To the north, the seas become utterly
+      destructive and unnavigable by the sheer amounts of broken-off polar pack ice present.
+flag:
+  - outdoors
+  - onwater
+  - cold

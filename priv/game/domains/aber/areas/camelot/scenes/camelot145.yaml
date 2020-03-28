@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot141"
+      south:
+        target: "scene:aber:camelot:camelot146"
+    short: Cool Cavern
+    sight: >
+      Away from the fires to the north, the air cools quickly. Further to the south you can see still another
+      cavern.
+flag:
+  - dark

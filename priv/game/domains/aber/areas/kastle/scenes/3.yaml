@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+    short: Side Hallway
+    sight: >
+      This is a small alcove off the main passageway. The walls are paneled with wood finely painted and
+      inlaid with gold. This place looks fit for a king. There is a heavy wooden door banded with iron on the
+      eastern wall. There is a stout oak door on the southern wall.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot119"
+    short: Empty Cavern
+    sight: >
+      Judging from the unfinished walls and floor, and the tools stacked along the walls, this room must not
+      be in use yet.
+flag:
+  - dark

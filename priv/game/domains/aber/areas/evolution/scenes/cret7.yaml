@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret6"
+      north:
+        target: "scene:aber:evolution:pala1"
+      west:
+        target: "scene:aber:evolution:cret8"
+    short: "River's Edge"
+    sight: >
+      The river rushing by to the north of you plunges down sharply into the ground at this point, reappearing
+      a little to the west of you, two hundred feet below. For a moment you contemplate riding the water-slide
+      of your life, but only for a moment. You can cross the river to the north, or follow it eastward or
+      westward along a stony path.
+flag:
+  - outdoors

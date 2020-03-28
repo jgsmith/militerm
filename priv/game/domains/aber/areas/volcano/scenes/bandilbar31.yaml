@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:volcano:bandilbar30"
+      west:
+        target: "scene:aber:volcano:bandilbar32"
+    short: Narrow Bend
+    sight: >
+      You are at a very tight corner of the tunnel. To the north, a little way off, the passage ends in a
+      rough, unfinished wall of rock. You surmise that whoever dug these tunnels ceased their work before this
+      section was finished. The only other exit is west back to the crossroads.
+flag:

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook3"
+      north:
+        target: "scene:aber:oaktree:mansion"
+      south:
+        target: "scene:aber:fairybook:fairybook106"
+      west:
+        target: "scene:aber:fairybook:fairybook81"
+    short: Library
+    sight: >
+      Books line the walls of this large room, filling you with awe of anyone who could have read them all.
+      Classics such as "Moby Dick", "Pride and Prejudice" and "Treasure Island" are prevalent, mixed with
+      lesser-known works such as "The Dark is Rising" and the "Books of Blood". Four doors lead from this
+      room: one returning to the north, one to the east marked 'Alice', one to the west marked 'Peter', and
+      one to the south marked 'Dorothy.' Through each is a different scene, all of which look somehow
+      familiar. . . .
+flag:
+  - nomobiles

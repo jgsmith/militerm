@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9506"
+    short: A Smoky Drawing-Room
+    sight: >
+      You have arrived at a large drawing-room where quite an amount of tobacco smoke hovers about, forcing
+      you to cough loudly. Heavy chairs and tables can be seen all around. The room is full of people,
+      youngsters and elders, riches and poors, all from the different social classes. There is a wide
+      collection of various hunting weapons on the western wall. The room is warmed up by a massive fireplace.
+flag:

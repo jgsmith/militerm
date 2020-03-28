@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni64"
+    short: "Klink's Shop of Linguistics"
+    sight: >
+      The shop you have entered is located in a small alley that is well off the main road. Even so, the shop
+      is very crowded. Klink became famous after being the first to be able to speak with demons in one of
+      their own languages. Now scholars from around the world come to learn from Klink.
+flag:
+  - cantsummon

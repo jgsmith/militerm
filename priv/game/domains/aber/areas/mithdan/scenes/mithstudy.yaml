@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: "Dragon's Study"
+    sight: >
+      The dragon really likes to teach about fire it appears. The walls are charred wood. How many times were
+      they replaced? But some people seem to be studying other things. Be of good patience, this may take a
+      while.
+flag:
+  - peaceful
+  - soundproof

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:36"
+      north:
+        target: "scene:aber:stjames:48"
+      south:
+        target: "scene:aber:stjames:46"
+      west:
+        target: "scene:aber:stjames:50"
+    short: Path Through St. James Park
+    sight: >
+      You are on the northern path through the park, west of the bridge. To the south the pond is coming to
+      and end, meeting with a tall and unfriendly- looking fence around the gardens of the Palace. To the
+      north, people are walking toward the palace, which is decked out in its full splendour for the V-E Day
+      Celebrations.
+flag:
+  - outdoors

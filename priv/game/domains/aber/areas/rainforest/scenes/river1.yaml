@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river3"
+    short: River Kerapi
+    sight: >
+      You are floating on the river Kerapi. On either side of you are tree-lined banks, fairly close to each
+      other at this point. The water is pale brown with churned-up mud and flows swiftly downstream, carrying
+      you with it. There is no way that you will be able to head upstream, so you will have to accept your
+      fate.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

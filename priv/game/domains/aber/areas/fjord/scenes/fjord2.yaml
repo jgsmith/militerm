@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord3"
+      north:
+        target: "scene:aber:fjord:fjord7"
+      south: null
+    short: Gravel Pathway
+    sight: >
+      The finely made trail continues north and south across untapped wilderness. Some wayward pines pock mark
+      the landscape to either side as far as the eye can see. Families of animals live within the almost
+      hollowed-out trunks of these trees, where the slight wind chill factor of these parts can never reach.
+      Nestled among the pines stands a long abandoned hovel, its thatched roof and stone walls strongly
+      defiant against the elements. The pine forest thickens to the north and stops a smile to the south
+      before the pasture.
+flag:
+  - outdoors

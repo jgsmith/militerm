@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan37"
+      south:
+        target: "scene:aber:mithdan:mithdan39"
+    short: Stone Corner
+    sight: >
+      The smooth stone hall turns to the south in a perfect right angle. Whoever built the temple had
+      incredible precision. Through the walls to the south-west there is a heavy thrumming sound, but you
+      cannot reach its source yet.
+flag:

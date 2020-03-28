@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:cret2"
+      west:
+        target: "scene:aber:evolution:jura14"
+    short: Lush Valley
+    sight: >
+      You are in a valley in the lower cretaceous. Early flowering plants and deciduous trees are beginning to
+      appear here, thriving in the large areas of deforestation left by browsing sauropods. To the west is a
+      forest of more primitive trees, and to the north is a peaceful-looking meadow.
+flag:
+  - outdoors

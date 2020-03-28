@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:tower:wraith"
+      up:
+        target: "scene:aber:tower:ante"
+    short: Levitation Room
+    sight: >
+      You find yourself in a completely black room, even light seems afraid to go here. It is completely bare
+      of adornment, and even the walls wouldn't stay if they had somewhere else to lean! There is a single
+      exit in the ceiling high above, and another to the south. You seem to be floating!
+flag:

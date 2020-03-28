@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge13"
+      east:
+        target: "scene:aber:ledge:ledge13"
+      up:
+        target: "scene:aber:ledge:ledge11"
+      west:
+        target: "scene:aber:ledge:ledge11"
+    short: Old Mining Tunnel
+    sight: >
+      The tunnel continues deeper into the rock and seems to widen a little bit as there appears to an area
+      ahead where miners load the minerals onto the carts to roll out. The wooden beams appear to be holding
+      althought they look like they could collapse with a good jolt. Further progress can be made downward or
+      else return upward.
+flag:
+  - dark

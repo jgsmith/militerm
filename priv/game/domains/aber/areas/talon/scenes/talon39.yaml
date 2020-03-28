@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon38"
+    short: South Tower
+    sight: >
+      From this vantage point, you look across the valley, and notice the destruction was caused in long black
+      streaks across the land, as if a column of fire descended upon the earth, ascended, and then decended
+      once more. The only exit here is a stairway leading down.
+flag:

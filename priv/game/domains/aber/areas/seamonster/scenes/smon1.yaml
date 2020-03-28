@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:7"
+      north:
+        target: "scene:aber:sea:5"
+      south:
+        target: "scene:aber:seamonster:smon2"
+      west:
+        target: "scene:aber:sea:7"
+    short: All At Sea
+    sight: >
+      Strange, the water has become calmer here. Maybe some magical force made it so. As you look around the
+      seas north and south seem to be safe.
+flag:
+  - onwater

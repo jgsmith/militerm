@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:lost:lost8"
+    short: Northern Road
+    sight: >
+      This road which leads up to the Hold appears to be well used. The Hold before you must still be
+      inhabited. The land around you looks blighted and destroyed, as if the ancient evil had swept through
+      here too, leaving the land in it's path barren.
+flag:
+  - outdoors
+  - cold

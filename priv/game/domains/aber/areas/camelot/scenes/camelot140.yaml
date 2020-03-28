@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot144"
+      east:
+        target: "scene:aber:camelot:camelot139"
+      west:
+        target: "scene:aber:camelot:camelot141"
+    short: Mist Filled Room
+    sight: >
+      This room is filled with mists rising from a hot sulpur spring in the floor. It reminds you of an
+      expensive sauna (you wonder if Puff knows about this...).
+flag:
+  - dark

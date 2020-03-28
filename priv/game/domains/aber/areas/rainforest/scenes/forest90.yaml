@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest94"
+      north:
+        target: "scene:aber:rainforest:forest85"
+      south:
+        target: "scene:aber:rainforest:forest95"
+      west:
+        target: "scene:aber:rainforest:forest96"
+    short: Fig Tree
+    sight: >
+      You are standing at the base of a strangling fig, which started life as a seedling growing on the trunk
+      of another tree. As the fig grew it came to dominate its host, wrapping its branches around it and
+      choking it, until the tree within was dead and the fig strong enough to stand alone. You can go in any
+      direction.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

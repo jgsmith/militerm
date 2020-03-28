@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pyramid:pyramid29"
+      up: null
+      west:
+        target: "scene:aber:pyramid:pyramid30"
+    short: Into the Soul
+    sight: >
+      The glow of &+Wlight&N at the top of the dusty staircase beckons to you. These walls are dingy and
+      unadorned. There are no tracks in the light covering of dust upon the steps, indicating no one has
+      passed this way in a very long time. An eerie silence has pervaded this place until all you can hear is
+      your shallow breathing and the swift beating of your heart. A small oval cartouche is carved deeply in
+      the corner of one wall.
+flag:
+  - dark

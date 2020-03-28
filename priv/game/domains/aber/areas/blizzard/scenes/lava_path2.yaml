@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:blizzard:lava_path"
+    short: Lava Path
+    sight: >
+      You are at the end of an east-west path. The lava is some distance away from you here but even so the
+      intense red glow still lights up the chamber and the heat is scarcely bearable.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven6"
+      east:
+        target: "scene:aber:heaven:heaven8"
+      up:
+        target: "scene:aber:heaven:heaven8"
+    short: Cloud 6
+    sight: >
+      The soft, fluffy surface of the cloud is slightly strange to walk on, and you notice for the first time
+      that you do not have wings.
+flag:
+  - private

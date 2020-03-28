@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6650"
+    short: "The rooftop at Mekala's"
+    sight: >
+      The open, moist air gives some relief from the heat below. Wild birds circle about above your head,
+      curious about the food but too shy to descend. A few tables stand adorned with simple white tablecloths
+      and red candles.
+flag:
+  - outdoors

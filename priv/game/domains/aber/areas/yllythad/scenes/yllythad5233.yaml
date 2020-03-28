@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5238"
+      north:
+        target: "scene:aber:yllythad:yllythad5234"
+      south:
+        target: "scene:aber:yllythad:yllythad5232"
+      west:
+        target: "scene:aber:yllythad:yllythad5228"
+    short: Placid Waters
+    sight: >
+      There is no current and no winds. The waters stand still and unmoving here with no sign of change coming
+      any time soon. These are the types of waters that sailors have nightmares about.
+flag:
+  - onwater
+  - outdoors

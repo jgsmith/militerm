@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Center of Evil
+    sight: >
+      You enter a small, dark room which appears to be where the ruler of this castle practices his dark
+      magic. A sense of terrifying chaos resounds in this room whose walls must have horrifying tales to tell.
+      There is a large throne on the east wall, and strategic charts line the walls. The charts seem to tell
+      of a plan to use a deadly beast and portholes into another dimension to conquer the world you call home.
+flag:

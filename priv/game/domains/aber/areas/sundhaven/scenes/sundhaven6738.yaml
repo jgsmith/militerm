@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6739"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6737"
+    short: A dark passageway
+    sight: >
+      Your foot slides as your boot sinks into some unpleasant substance on the muddy floor.. mold? Only
+      inspection in better light will tell. Eastwards the passage slants into a dark pool, and disappears to
+      the west into blackness.
+flag:
+  - dark

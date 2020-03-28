@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot228"
+      east:
+        target: "scene:aber:camelot:camelot246"
+      up:
+        target: "scene:aber:camelot:camelot252"
+      west:
+        target: "scene:aber:camelot:camelot248"
+    short: The Eastern Gatetower
+    sight: >
+      This room contains the winches and chains that control both the drawbridge and the portcullis. Looking
+      at their size, it is obvious that it takes several strong men to raise and lower them.
+flag:

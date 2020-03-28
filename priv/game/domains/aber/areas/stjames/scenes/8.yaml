@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:5"
+      north:
+        target: "scene:aber:stjames:7"
+      south:
+        target: "scene:aber:stjames:9"
+      west:
+        target: "scene:aber:stjames:19"
+    short: Path Through St. James Park
+    sight: >
+      You are on the northern east-west path through the park. The northern entrance is to the east, and the
+      park stretches out to the west. To the south of you is the wading area of the pond. Beyond it is a large
+      fountain, and you can make out a grassy area opposite the pond.
+flag:
+  - outdoors

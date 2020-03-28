@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:pensalon:pensalon20"
+    short: Dias
+    sight: >
+      You stand on the king's dias where he makes his daily ruling over the good people of this land. There is
+      a nice view of the throne room from. Now you know why the king likes to sit up so high in this room. You
+      can go south, down into the throne room.
+flag:

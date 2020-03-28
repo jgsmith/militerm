@@ -1,0 +1,25 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app26"
+      north:
+        target: "scene:aber:app:app33"
+      south:
+        target: "scene:aber:app:app34"
+      west:
+        target: "scene:aber:app:app35"
+    short: "Almim's Private Chamber"
+    sight: >
+      You have entered the dark mage Almin's chamber. Unlike most evil masterminds, Almin does not mind
+      visitors. One reason being that he believes himself to be one of the most powerful mages. The mages at
+      the Tower of Sorcery believes so as well. Another reason for Almin's care freeness, is that this chamber
+      is enchanted with numerous spells of protection. To the north you see a small fountain bubbling. To the
+      south is Almin's treasure room. To the west is a balcony.
+flag:
+  - nomagic
+  - cantsummon
+  - nosummon
+  - noquit
+  - nosnoop
+  - soundproof

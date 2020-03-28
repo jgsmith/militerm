@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan11"
+    short: Sacred Clearing
+    sight: >
+      This clearing throbs with magic, the very trees almost glow with the force of it. A heavy wind whips
+      through the trees as you enter, as if the force that guards this clearing is displeased with your
+      presence. It would probably be a good idea to leave and not anger it further.
+flag:
+  - outdoors
+  - nomobiles

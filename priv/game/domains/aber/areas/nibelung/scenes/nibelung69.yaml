@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung68"
+    short: Research Room
+    sight: >
+      Many beakers, flasks and retorts make the purpose of this room clear. Along one wall a bookshelf leans,
+      covered with old, leather-bound books of varying size and color. A table in the center of the room is
+      covered in beakers full of different liquids, some purple, some green, and many other colors. A wooden
+      stool sits next to the table, apparently for the person who worked in the lab. A draft blows in from the
+      tower base to the north.
+flag:
+  - dark

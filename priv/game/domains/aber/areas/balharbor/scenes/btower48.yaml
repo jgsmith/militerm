@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower54"
+      east:
+        target: "scene:aber:balharbor:btower73"
+      south:
+        target: "scene:aber:balharbor:btower53"
+      up:
+        target: "scene:aber:balharbor:btower40"
+    short: Dark Corridor
+    sight: >
+      You get the feeling you're moving in circles in this dark tower! There are exits everywhere but not
+      necessarily leading somewhere. A &+Yglowing&* portal leads back up. There is another 'T' in the floor.
+flag:
+  - dark
+  - maze

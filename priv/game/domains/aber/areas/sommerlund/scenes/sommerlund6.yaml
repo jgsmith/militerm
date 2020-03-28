@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund7"
+      west:
+        target: "scene:aber:sommerlund:sommerlund5"
+    short: Ragadorn
+    sight: >
+      This is the central bazaar for all the people on and around the desert. People come to trade their wares
+      and talk about the latest gossip from the ruler of the city, who lives in a giant, pearly palace on the
+      northern side. You pass stand after stand of merchants, all who try to get your attention and your
+      money. There is the occasional shop set on the sides of the wide, cobblestoned streets. The mutton you
+      smelled earlier emanates from a smokehouse in the center of the city. A roaring fire belches ungainly
+      amounts of heavy black smoke upwards and threatens to blockade the sun. Stay for a while and enjoy the
+      daily life of Ragadorn!
+flag:
+  - outdoors

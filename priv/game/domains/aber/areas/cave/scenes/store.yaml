@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Dwarven Store
+    sight: >
+      You are in a dark shadowy store room. A single door leads north. There is a small chute, too steep and
+      slippery to climb, in the south wall. Its purpose is a complete mystery.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:sommerlund:sommerlund85"
+    short: Mozgoar Laboratory
+    sight: >
+      All sorts of chemical apprati greet you as you stroll through the Nadziranim lab. This is where all the
+      horrors outside are created. Also, the Darklords' fierce armies of Giaks are produced here. Huge
+      breeding vats line the walls, pumping nerve gas as a by-product into the sky.
+flag:

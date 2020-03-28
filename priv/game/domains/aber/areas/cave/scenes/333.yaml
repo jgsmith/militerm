@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:334"
+      south: null
+    short: Dark Passage
+    sight: >
+      You stand in a long and extremely dark passage that leads northward into a small room.
+flag:
+  - dark

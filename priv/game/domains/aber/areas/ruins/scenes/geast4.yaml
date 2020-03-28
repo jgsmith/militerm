@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast5"
+      west:
+        target: "scene:aber:ruins:geast3"
+    short: Yet Further into the Eastern Catacomb
+    sight: >
+      You are still travelling in the eastern catacombs. You start to wonder if this passageway will ever end,
+      or turn another direction. The stench of rotting meat is starting to make you a little dizzy. You find
+      yourself having to stop and take a short breather before continuing to the east.
+flag:
+  - dark

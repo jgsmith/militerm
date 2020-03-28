@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eastcoast:lagoon"
+    short: "The Devil's Causeway"
+    sight: >
+      A vast land bridge has formed at this place in the coastline between the seas and a smaller pool behind
+      it. Legend has it that a ship crashed into the causeway many years ago in a dense fog and sank downward
+      into a fissure beneath the water. The deceased passed into Hades through an unseen portal while some
+      supernatural beings left while it was opened. It is also said that the sea life avoid this area because
+      of this, fisherman were driven off once they saw SOMETHING approach them from the water. Here's to
+      hoping all of this is not true.
+flag:
+  - peaceful
+  - outdoors

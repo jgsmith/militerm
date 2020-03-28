@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund32"
+      north:
+        target: "scene:aber:sommerlund:sommerlund24"
+      up:
+        target: "scene:aber:sommerlund:sommerlund28"
+    short: Tower Landing
+    sight: >
+      You are at the level floor of the Tower of the Sun. A staircase leads both ways. The rook of the tower
+      is visible, but the bottom of the staircase is down further than your eyes can see.
+flag:

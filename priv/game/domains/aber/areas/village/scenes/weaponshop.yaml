@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road8"
+    short: Weapons Shop
+    sight: >
+      This store has been abandoned for some time. The cob webs have built up across the single room shop.
+      There are several tables, and in the back you notice an old forge. Unused for a long time.
+flag:

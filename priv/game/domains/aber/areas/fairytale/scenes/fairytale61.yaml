@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale62"
+      west:
+        target: "scene:aber:fairytale:fairytale60"
+    short: On the Lake
+    sight: >
+      To your east is an island. It appears to be man-made, as evidenced by the metallic sheen of the bank. A
+      huge statue rises from the center of the island, representing a tall woman with benevolent features and
+      outstretched hands.
+flag:
+  - onwater

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden18"
+      west:
+        target: "scene:aber:golden:golden16"
+    short: Sandy Bank
+    sight: >
+      You are standing on a soft, comfortable bank made of yellow sand. A set of large tracks leads into the
+      pool and they appear to be from a crocodile. It would be a good idea to get out of here fast before you
+      become the crocodile's next meal.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:hall"
+      north:
+        target: "scene:aber:icecave:n_tunnel"
+      west:
+        target: "scene:aber:icecave:gambling"
+    short: Crystal Pool
+    sight: >
+      You stand in awe in a vast cave dominated by a crystal pool. The surface of the water is a perfect
+      mirror, casting silvery reflections on the walls. Magic fills the air, and in the water there are
+      manatees and manatoos. Dewdrops glisten on the rocks and edelweiss grow in the most unlikely places,
+      among stones and unfinished ice sculptures.
+flag:

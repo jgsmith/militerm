@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:avairy:castle12"
+    short: Bird Bath
+    sight: >
+      You stand in the middle of a fountain bird bath, and, you are in fact getting quite wet. Little blue
+      birds are frollicking to one side of the bath and you do a double take as one winks at you.
+flag:
+  - light

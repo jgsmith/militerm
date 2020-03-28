@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:shepherd"
+      north:
+        target: "scene:aber:eastcoast:gold"
+      south:
+        target: "scene:aber:eastcoast:scedge"
+      west:
+        target: "scene:aber:eastcoast:meadow"
+    short: Flat Field
+    sight: >
+      The loamy smell and plaintive sound of bleating sheep is the first thing you notice as you walk down
+      into this large flat field. Hills frame the north and the west, the ground appears to drop off beyond a
+      fence to the south, and to the east, a modest but welcoming cottage making this place look like the
+      idyllic scene of pastoral harmony.
+flag:
+  - outdoors

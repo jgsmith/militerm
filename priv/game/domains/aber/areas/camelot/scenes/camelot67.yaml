@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot66"
+    short: Grocery Store
+    sight: >
+      Oh, the meals you could cook with the food here! If only the delivery had been on time. As it is, the
+      shelves are pretty much picked bare, except for a few cans of Kangaroo Tail Soup, and some Gargoyle
+      Steaks at the meat counter.
+flag:

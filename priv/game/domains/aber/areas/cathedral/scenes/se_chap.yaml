@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:se_amb"
+    short: Southeast Chapel
+    sight: >
+      Here you see murals illustrating the life of the Virgin. There is also a &+Cglass&* case in which once
+      was housed the Mantle of The Virgin, but the lid is smashed in.
+flag:
+  - dark
+  - oneperson

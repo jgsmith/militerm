@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:10"
+    short: A river..
+    sight: >
+      A river is crossing this room. It contains fresh water that seems to come from the south. There are no
+      other exits than from where you came.
+flag:

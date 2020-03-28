@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung35"
+      north:
+        target: "scene:aber:nibelung:nibelung31"
+      south:
+        target: "scene:aber:nibelung:nibelung37"
+      west:
+        target: "scene:aber:nibelung:nibelung33"
+    short: Town Square
+    sight: >
+      You are standing in the square of the town. The road is in really bad condition here and you realize
+      that this town has been emptied of people for quite some time. To the north is the village gate, and
+      lands beyond. Off to the west you see a play area of some sort. To the south you notice a bandstand or
+      something.
+flag:
+  - outdoors

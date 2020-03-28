@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan34"
+      south:
+        target: "scene:aber:mithdan:mithdan50"
+    short: Temple Entrance
+    sight: >
+      Huge stone dragons stand guard at the entrance of the temple. At first glance they apepar to be stone,
+      but as you try to enter the temple one swivels its head towards you and growls menacingly. The one on
+      your other side stands and streches its stone wings.
+flag:

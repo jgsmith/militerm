@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:windy:windy7"
+      south: null
+    short: Rising Trail
+    sight: >
+      You stand in front of a massive pile of rubble which has avalanched from the mountains above,
+      doubtlessly caused by wind erosion. The trail runs south into the mountains and north towards the hills.
+flag:
+  - outdoors

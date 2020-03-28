@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle31"
+      south:
+        target: "scene:aber:balharbor:jungle29"
+    short: Fork in the Trail
+    sight: >
+      Here the trail splits in two--one going north-south and one going east. You have reached the north-west
+      corner of Bal Harbor's city wall.
+flag:
+  - outdoors

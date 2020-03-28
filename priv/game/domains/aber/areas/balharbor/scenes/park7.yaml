@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:park10"
+      west:
+        target: "scene:aber:balharbor:park8"
+    short: Pond
+    sight: >
+      You've walked around to the other side of the pond, you can see several ducks swimming around. Ah,
+      here's some more ducks coming in from the air and landing on the water. Some buzzing can be heard coming
+      somewhere north of here while you can reenter the playground west.
+flag:
+  - outdoors

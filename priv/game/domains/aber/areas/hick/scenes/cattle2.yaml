@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:cattle4"
+      north:
+        target: "scene:aber:hick:cattle3"
+      south:
+        target: "scene:aber:hick:cattle1"
+      west:
+        target: "scene:aber:hick:cattle5"
+    short: Southern Livestock Area Road
+    sight: >
+      The road is covered with all sorts of litter and you watch where you step very carefully. There are
+      stalls to the east and west of here. To the north and road continues and you can see an exit to the
+      south.
+flag:
+  - outdoors

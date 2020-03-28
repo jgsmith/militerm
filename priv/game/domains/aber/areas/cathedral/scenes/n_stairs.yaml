@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cathedral:n_tower"
+      up:
+        target: "scene:aber:cathedral:n_top"
+    short: The Spiral Stairs
+    sight: >
+      These stairs seem to spiral up endlessly, and you wonder if you have gone so high as to rise above even
+      the &+Lstorm&* which is brewing above the cathedral. As finally approach the top, a great &+Ylight&*
+      shines down upon you which seems to answer your question, that in fact you have climbed a very long way.
+flag:
+  - dark

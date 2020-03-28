@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:dragonslueth:ds26"
+      west:
+        target: "scene:aber:dragonslueth:ds33"
+    short: Basement
+    sight: >
+      This is the basement. Well, what can you expect?? It isn't anything special except for some blood trails
+      leading from the holding cell. Hmm... Maybe you shouldn't go there.
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome51"
+      north:
+        target: "scene:aber:rome:rome63"
+      up:
+        target: "scene:aber:rome:rome45"
+      west:
+        target: "scene:aber:rome:rome39"
+    short: Clay Avenue
+    sight: >
+      You are standing on a wide, heavily traveled road that runs east and west through the heart of the city.
+      There are marble steps leading up. To the south, off in the distance, you can see a large &+Cstone
+      structure&* and a &+ymountain that is partially obscured by the haze. There is a general store to the
+      north.
+flag:
+  - outdoors

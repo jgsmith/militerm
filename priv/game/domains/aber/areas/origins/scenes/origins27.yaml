@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins26"
+      up:
+        target: "scene:aber:origins:origins28"
+    short: Uuuuh, uh-oh...
+    sight: >
+      The mist here is thicker and seems to be choking the very life out of you!
+flag:
+  - outdoors
+  - soundproof
+  - negregen

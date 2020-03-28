@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire17"
+      south:
+        target: "scene:aber:fire:fire26"
+    short: Southern way
+    sight: >
+      You are standing in the northern way, which is here only to connect the center of cave with other cave.
+flag:
+  - dark

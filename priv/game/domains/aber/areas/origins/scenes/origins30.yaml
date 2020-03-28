@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins29"
+      south:
+        target: "scene:aber:origins:origins31"
+    short: Entrance to the Castle
+    sight: >
+      You reach the main gates of the castle. Looking up, you see the tops of the towers reach high into the
+      mist, like black spires twisting their way through your flesh. The gates themselves seem deadly --
+      totally blackened and misshapen. You can continue on through the open threshold (there might have once
+      been a door here), or you can wisely return north towards Willowdale.
+flag:
+  - outdoors
+  - soundproof
+  - negregen

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge50"
+      east:
+        target: "scene:aber:beach:beach11"
+      west:
+        target: "scene:aber:ledge:ledge57"
+    short: On the Ocean Surface
+    sight: >
+      You climb up on your boat, happy to have gotten out of the water. You have your choice of heading back
+      to shore to the west or head toward an island far to the east. You can dive back down if you wish.
+flag:
+  - outdoors
+  - onwater

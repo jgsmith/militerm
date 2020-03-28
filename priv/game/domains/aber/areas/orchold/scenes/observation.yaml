@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      west: null
+    short: Observation Room
+    sight: >
+      This room was obviously designed for spying on people entering the hallway. You notice a hole in the
+      western wall through which the hallway can be seen.
+flag:
+  - dark

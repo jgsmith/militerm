@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:jura12"
+    short: Lakeside
+    sight: >
+      You are at the edge of a broad lake whose far shore you can only barely make out in the haze. By the
+      lakeside are cycads and palm trees, but to the south is a forest of much larger trees. At the foot of
+      one of the tall palms is a &+Cflat stone&*, on which you could sit and rest if you wish.
+flag:
+  - outdoors

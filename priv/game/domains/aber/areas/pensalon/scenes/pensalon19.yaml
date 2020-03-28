@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon27"
+      north:
+        target: "scene:aber:pensalon:pensalon20"
+      south:
+        target: "scene:aber:pensalon:pensalon11"
+      west:
+        target: "scene:aber:pensalon:pensalon29"
+    short: Reception Hall
+    sight: >
+      Large tapestries hang from walls depicting events in the history of these lands. The walls are adorned
+      with gold designs. Through the eastern arch you can see a hallway, to the west you see a small side hall
+      and to the north you can just make out the King's throne.
+flag:

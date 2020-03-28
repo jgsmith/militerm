@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook99"
+      east:
+        target: "scene:aber:fairybook:fairybook103"
+      north:
+        target: "scene:aber:fairybook:fairybook101"
+      south:
+        target: "scene:aber:fairybook:fairybook102"
+    short: The Deck
+    sight: >
+      You stand on the deck of the most-feared pirate ship in the land. To the north is the cabin in which
+      prisoners are kept, to the south is the powder magazine, and to the east is Captain Hook's cabin. Below
+      you is the dock.
+flag:
+  - outdoors

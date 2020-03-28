@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere53"
+      west: null
+    short: Throne Room of Orobius
+    sight: >
+      The only thing in the entire room is a large white marble throne, shot through with black, set up on a
+      dais. However, when you walk towards it to get a closer look you end up on the other side of the room.
+      When you turn around and try again the same thing happens - you just can't get to it. You walk up and
+      down the room for some time trying to examine the throne, getting increasingly frustrated, until you
+      find the trick of walking directly away from the throne, which gets you right up onto the dais. Looking
+      at the back of the throne you find a silver plaque with the words `Throne of Orobius, Master
+      Illuisionist and Enchanter' and some runes below that probably say the same thing. This room then
+      belonged to the great Orobius, Master Illusionist of Brookmere, purveyor of illusions of sight, hearing,
+      sound, smell and taste. To the east is a doorway leading to what looks like the Masters workroom -
+      unless, of course, it is an illusion.
+flag:
+  - dark
+  - nosummon

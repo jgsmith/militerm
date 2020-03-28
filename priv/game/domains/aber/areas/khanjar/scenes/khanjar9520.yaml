@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9521"
+      south:
+        target: "scene:aber:khanjar:khanjar9519"
+    short: A Low Hillside
+    sight: >
+      This is a low, bush-growing hillside. The path appears to be leading toward what looks a small marshland
+      down there. For some reason it does not look very fascinating.
+flag:
+  - nomobiles
+  - outdoors

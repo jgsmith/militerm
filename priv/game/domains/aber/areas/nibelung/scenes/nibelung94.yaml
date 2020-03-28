@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung95"
+      south:
+        target: "scene:aber:nibelung:nibelung95"
+      up:
+        target: "scene:aber:nibelung:nibelung93"
+    short: Odiferous Passage
+    sight: >
+      The room smells. Very bad. It seems this passage leads to the castle's primitive waste disposal system.
+      Upwards will return you to the slightly less aromatic basement. The sound of running water can be heard
+      below.
+flag:
+  - dark

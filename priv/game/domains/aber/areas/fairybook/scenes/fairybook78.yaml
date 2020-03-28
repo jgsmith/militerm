@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook77"
+    short: Dining Hall
+    sight: >
+      The hall is occupied by a large dining table. About fifty guests of all kinds sit there expectantly. At
+      the head of the table are three large chairs. Two are occupied while the third sits empty. The only exit
+      is to the east.
+flag:

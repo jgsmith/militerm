@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:churchsteps"
+      up:
+        target: "scene:aber:nrose:belltower"
+    short: Tower Base
+    sight: >
+      You are in the base of the monastery bell tower. Above you are several very large bells. A rope hangs
+      down from the bells allowing you access up to the bells. You might be able to climb up to the top of the
+      tower but it would be a long way down if you lose your grip and fall.
+flag:

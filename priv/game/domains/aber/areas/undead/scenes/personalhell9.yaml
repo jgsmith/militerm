@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:personalhell2"
+      north:
+        target: "scene:aber:undead:personalhell8"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You seem to remember a face, a &+Rvague and distant memory of someone, someone you
+      knew. Maybe they were a &+Rfriend, you cannot quite remember. The image blurs slightly as your &+Rmemory
+      slips. You were friends you remember, whatever did happen to &+Rthem?
+flag:
+  - soundproof

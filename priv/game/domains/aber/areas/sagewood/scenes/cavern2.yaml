@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sagewood:cavern1"
+      south:
+        target: "scene:aber:sagewood:cavern3"
+    short: Boiling Cavern
+    sight: >
+      You are bombared by waves of searing heat which accompany the foul black clouds of smoke eminating from
+      the &+CSouth&*. To the &+CNorth&* things seem to clear up. Little trickles of lava flow along the walls,
+      lending aid to the overall sense of danger here.
+flag:
+  - negregen

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:clearing"
+      north:
+        target: "scene:aber:novice:northern"
+      south:
+        target: "scene:aber:novice:southern"
+      up:
+        target: "scene:aber:novice:top"
+      west:
+        target: "scene:aber:novice:western"
+    short: The Grand Oak
+    sight: >
+      You are now standing at the base of this VERY large oak tree. This tree is absolutely breath-taking! You
+      look at the other trees circling around it and wonder how such a freak of nature occurred. You look up
+      at the massive branches and discover you can easily climb up the tree.
+flag:
+  - outdoors
+  - real

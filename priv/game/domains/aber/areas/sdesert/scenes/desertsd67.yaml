@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Inside A Small Stone Dwelling
+    sight: >
+      It is very dark in here, and you shiver despite the heat of the desert outside. A circle of stones lies
+      in the dust, looking Enchanted in placement. The walls around you are covered with &+Mpaintings&* of
+      what could be identified as scenes from the beginning of the world.
+flag:
+  - dark
+  - cold
+  - fastmana

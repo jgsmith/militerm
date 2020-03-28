@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage18"
+      up: null
+      west:
+        target: "scene:aber:cottage:cottage23"
+    short: Resevoir Bottom
+    sight: >
+      As you stand on the muddy bottom of the resevoir you are able to see where an underground stream fed the
+      resevoir from the west. Picking your way eastward across a large jumble of stones you could probably
+      make your way out of this muddy area, or you could return to the heights of the dam by ascending the
+      narrow stair. There are some ancient runes here that catch your eye.
+flag:
+  - dark
+  - nomobiles

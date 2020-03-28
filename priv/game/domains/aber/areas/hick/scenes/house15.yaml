@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house17"
+      north:
+        target: "scene:aber:hick:house14"
+      south:
+        target: "scene:aber:hick:house18"
+      west:
+        target: "scene:aber:hick:house16"
+    short: Main Hallway
+    sight: >
+      There are bedrooms to the east and west of here and the hallway continues to the south.
+flag:

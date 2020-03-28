@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:cave2"
+      north:
+        target: "scene:aber:avairy:shore15"
+      south:
+        target: "scene:aber:avairy:shore13"
+    short: The Shore
+    sight: >
+      This is the western shore line of Avairy Island. The waves to the west are not as bad as most you have
+      seen from the island. The breeze here is significantly weaker than that of other parts of the island and
+      sweat begins to form on your forehead. A cave entrance allows passage east, while the shore line
+      continues north and west.
+flag:
+  - outdoors
+  - light
