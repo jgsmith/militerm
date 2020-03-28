@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:forest3"
+      north:
+        target: "scene:aber:fantasy:mountain1"
+      west:
+        target: "scene:aber:fantasy:forest1"
+    short: Aside the River in the Forest
+    sight: >
+      You are next to a river that you figure runs from the waterfall that you saw back in a clearing. The
+      trees here are a little shorter than the other ones that you have seen. There is a bridge that goes over
+      the river that leads up to some mountains to the north and to the east the forest continues.
+flag:
+  - outdoors

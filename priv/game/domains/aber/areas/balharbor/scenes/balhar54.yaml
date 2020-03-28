@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar55"
+      north:
+        target: "scene:aber:balharbor:balhar62"
+      west:
+        target: "scene:aber:balharbor:balhar53"
+    short: Park Street
+    sight: >
+      You stand before the Clerics' Guild where men of the cloth gather to learn and rest from their
+      missionary work. It also serves as a safe haven for those in trouble. The rioters left this place alone
+      because the clerics put the fear of God in them--somehow it didn't seem enough to reform their behavior.
+      The back of the supply shop lies to the south. The street continues west and east.
+flag:
+  - outdoors

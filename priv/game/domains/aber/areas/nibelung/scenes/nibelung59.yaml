@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung58"
+    short: Turret
+    sight: >
+      The turret appears to have been vacated long ago. You recoil a bit from the stench of bird droppings
+      which coat the turret. A very large birds nest has been constructed in one corner. From the various
+      clues lying about, it is a very large bird, and it might be wise to leave, before it returns.
+flag:
+  - outdoors
+  - soundproof

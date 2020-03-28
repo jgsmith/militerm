@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6079"
+      north:
+        target: "scene:aber:haondor:sundforest6081"
+      south:
+        target: "scene:aber:haondor:sundforest6076"
+    short: In The Dense Forest Between The Hills
+    sight: >
+      You are standing among tightly packed trees on a medium sized hill. The dense forest spreads out all
+      around you, and the crowns of the old trees leave the hills in an unreal twilight illumination.
+flag:
+  - nomobiles
+  - outdoors

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Cell
+    sight: >
+      This bleak cell hosts only an uncomfortable looking cot and small hole in one corner for necessary
+      functions.
+flag:

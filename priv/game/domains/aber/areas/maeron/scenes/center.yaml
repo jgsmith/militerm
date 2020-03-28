@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:moon"
+      south:
+        target: "scene:aber:maeron:basement"
+      west:
+        target: "scene:aber:maeron:sun"
+    short: &+BBy the pedestal
+    sight: >
+      This room is dominated by a large platform standing in the center. To strange marble rooms lead off to
+      the &+Rwest&* and &+Reast&*. The &+Reast&* room seems to be made of a silvery blue marble and the
+      &+Rwest&* room seems to be made out out white marble.
+flag:
+  - dark

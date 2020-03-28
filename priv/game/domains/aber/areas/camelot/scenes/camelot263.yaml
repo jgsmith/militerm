@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot262"
+      west:
+        target: "scene:aber:camelot:camelot264"
+    short: The Pantry
+    sight: >
+      Walking through the door, you are struck by the cold air of this room. Some great magic is at work here,
+      apparently to better preserve the haunches of beef and venison, the hams, and the other foods stored
+      here. Moving towards the exit, you realise that the cold is only intense near the foods. Staying away
+      from them, the room is at a normal tempurature.
+flag:
+  - cold

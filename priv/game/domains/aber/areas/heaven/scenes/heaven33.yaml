@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:heaven:heaven32"
+      west:
+        target: "scene:aber:heaven:heaven34"
+    short: Swamp
+    sight: >
+      The earth sucks at your feet as you walk. Off in the trees you can hear the sounds of alligators in
+      search of food. It is getting dark. The alligators are hungry.
+flag:
+  - private

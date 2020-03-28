@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc57"
+    short: Pluto
+    sight: >
+      Now what?! You suddenly find yourself in a world totally different from where you were. This desolate
+      cold planet, however, makes you feel strange peace of mind and freedom you never had on earth. Below
+      your feet, there's a cave.
+flag:
+  - cold

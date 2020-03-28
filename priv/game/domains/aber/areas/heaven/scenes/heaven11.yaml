@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven10"
+      up:
+        target: "scene:aber:heaven:heaven12"
+    short: "Entrance to Heaven's Forest"
+    sight: >
+      You stand just within a vast forest. The trees grow so close together that you have no choice but to
+      walk the path, either to go down to Cloud 9 or to go deeper into the forest to the east.
+flag:
+  - private

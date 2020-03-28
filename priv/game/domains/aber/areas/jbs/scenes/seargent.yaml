@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:corridor1"
+      south:
+        target: "scene:aber:jbs:quarters"
+    short: "Seargent's Office"
+    sight: >
+      This is a small office with a desk and a chair. That's about all there is in here. You can leave to the
+      north or south.
+flag:

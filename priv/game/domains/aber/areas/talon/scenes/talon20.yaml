@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon22"
+      east:
+        target: "scene:aber:talon:talon19"
+      west:
+        target: "scene:aber:talon:talon65"
+    short: Small Ledge
+    sight: >
+      You stand on a small ledge overlooking a drop-off into the immeasurable depths. To the east, a natural
+      bridge spands back across the chasm. To the west lies a small, dark cave. To the side of the ledge a
+      very treacherous-looking trail leads down the cliff.
+flag:

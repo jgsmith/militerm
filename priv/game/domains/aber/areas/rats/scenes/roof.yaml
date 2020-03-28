@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:rats:chimney"
+    short: Under the roof
+    sight: >
+      The chimney didn't lead you very far. You are standing on a wooden floor after a few steps. It's a
+      totally empty room, there is only one old pirate style chest laying here.
+flag:
+  - dark

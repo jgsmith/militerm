@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar24"
+      north:
+        target: "scene:aber:balharbor:balhar39"
+      south:
+        target: "scene:aber:balharbor:balhar15"
+      west:
+        target: "scene:aber:balharbor:balhar22"
+    short: Idol Square
+    sight: >
+      You are standing on the east side of the idol. An angry crowd can be seen not too far away to the
+      northeast setting fires to trash cans, carriages and some buildings. You can leave the square via Main
+      Street to the east or other parts of the square north or south.
+flag:
+  - outdoors

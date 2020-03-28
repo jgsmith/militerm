@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:grass:grass100"
+    short: A cobblestone road
+    sight: >
+      You stand outside the southern gate of the town of Sundhaven. The walls are high enough to keep the town
+      secure, and ringed with tendrils of lush green ivy. The busy murmur of citylife can be heard from
+      beyond. Southwards, the cobblestone road crosses a large meadow before disappearing into a line of dark
+      woods.
+flag:
+  - outdoors

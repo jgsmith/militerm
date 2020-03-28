@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oshul:descent9"
+      north:
+        target: "scene:aber:moor:misty2"
+    short: &+LOminous Cavern
+    sight: >
+      Stalactites and stalagmites hang all around this vast cavern, making it look like one enormous maw of a
+      hideous beast. You can hear dripping around you, but the strange hollow echo of this place makes it
+      impossible to tell where. Occasionally fierce winds gust in and make an eerie sound as it bounces off
+      the warped walls of the cavern. The room is dark except for a little torchlight coming from the east
+      from what appears to be a gigantic tunnel.
+flag:
+  - oshul
+  - nomobiles

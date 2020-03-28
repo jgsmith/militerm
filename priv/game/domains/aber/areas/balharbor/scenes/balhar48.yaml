@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar39"
+      up:
+        target: "scene:aber:start:donate_bal"
+    short: The Inn
+    sight: >
+      This serves as Bal Harbor's only inn. This building, small as it is, somehow is able to put up an
+      unlimited number of guests at a time--so the vacancy sign is never taken down. The innkeeper housed
+      several warriors who were passing through the day the riots started and they helped fend off the thugs
+      attempting to tear down the place. Unfortunately they couldn't stay for long and soon the innkeeper had
+      to deal with them himself. Thus this sacrificial pit was put in with a trapdoor attachment so that if he
+      was threatened he could pull the lever and cause them to fall in. When you're fully rested, the exit is
+      south. A temporary portal leads to the donation room, and familiar terrority.
+flag:
+  - party
+  - peaceful

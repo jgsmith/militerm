@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fallow1"
+      south:
+        target: "scene:aber:jbs:field"
+    short: Fallow Field
+    sight: >
+      The field here is still fallow, and you notice small animal footprints in the soft ground beneath your
+      feet. The soil in this field looks very fertile and you wonder why the farmer hasn't planted here is so
+      long. The field here extends to the south and east.
+flag:
+  - outdoors

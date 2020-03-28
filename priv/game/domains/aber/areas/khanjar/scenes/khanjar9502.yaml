@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+      west:
+        target: "scene:aber:khanjar:khanjar9503"
+    short: The Yard Of The Tavern
+    sight: >
+      This is a large yard growing plenty of grass and a few high bushes here and there. The paving leads
+      straight toward the tavern, but there is also a faint trail to the west. This could be a place to have
+      fun, at least some voices of singing are heard from inside the building.
+flag:
+  - outdoors

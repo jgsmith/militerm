@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:n_stairs"
+      west:
+        target: "scene:aber:treadmill:tread14"
+    short: The Small Room
+    sight: >
+      You are in a small room at the top of a narrow flight of stairs. The room looks bare and empty and is
+      one of those rooms which have no real reason to exist apart from linking two other rooms together.
+flag:
+  - dark

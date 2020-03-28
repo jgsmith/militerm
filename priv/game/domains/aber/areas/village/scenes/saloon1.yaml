@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road4"
+      south:
+        target: "scene:aber:village:road6"
+    short: The Bar
+    sight: >
+      A smoke filled saloon is filled with people. Looking around you see several tables, and a bar toward the
+      north. There are exits back into the fresh air outside, heading both south and east.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:island:beach"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:7"
+      west:
+        target: "scene:aber:sea:3"
+    short: All At Sea
+    sight: >
+      You are just off the edge of a small island. To the east the waves break gently on a sandy beach, while
+      to the north and south they swirl around huge lava flows, evidently from the volcano visible to the
+      east. To the west is the open sea.
+flag:
+  - nomobiles
+  - onwater
+  - outdoors

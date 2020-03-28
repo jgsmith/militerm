@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount31"
+      north:
+        target: "scene:aber:rainforest:mount30"
+    short: Snowfield
+    sight: >
+      The snow is less deep here at the edge of the snowfield. West of here the steep sides of one of the
+      taller peaks, smooth and unclimbable, rise into the clouds. Far above your head a condor circles, riding
+      the updrafts as it scans the ground in search of prey.
+flag:
+  - outdoors
+  - cold

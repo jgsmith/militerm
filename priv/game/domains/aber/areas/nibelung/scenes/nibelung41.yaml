@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung38"
+      south:
+        target: "scene:aber:nibelung:nibelung44"
+      west:
+        target: "scene:aber:nibelung:nibelung40"
+    short: Alley
+    sight: >
+      You are in a small alley. The street continues off to the west, towards the center of town, and ends in
+      a wall to the east. Off to the south you see a parsonage to a church. There are some containers of
+      garbage here, but the contents have been partially consumed by something. Your nose curls from the
+      stench here.
+flag:
+  - outdoors

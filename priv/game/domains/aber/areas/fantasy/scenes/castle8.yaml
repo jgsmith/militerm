@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:castle7"
+    short: "The Magician's Room"
+    sight: >
+      This is the room of Julius, the magician to Lord Glaive. Looking at the walls you see more writings of
+      the Tree of Mana and many scriptures that you can not even read. The room is slightly cluttered with
+      various papers and books and you wonder what Julius could be up to.
+flag:

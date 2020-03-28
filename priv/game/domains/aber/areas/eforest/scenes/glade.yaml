@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:eforest"
+      north:
+        target: "scene:aber:eforest:path"
+      south:
+        target: "scene:aber:eforest:shattered"
+      west:
+        target: "scene:aber:eforest:glen"
+    short: Ruined Glade
+    sight: >
+      You are in a small clearing in the ruins of the elven forest. The ground in this clearing is blackened
+      and infertile. The only sign of life here is a circle of toadstools which lie near the center of the
+      glade. All around you is ruined forest. Just to the North, however, you think you see some greenery.
+flag:
+  - outdoors

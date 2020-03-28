@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook6"
+    short: Down the Hole
+    sight: >
+      The rabbit hole goes straight, like a tunnel, for a few feet, and then sharply descends as you find
+      yourself falling into a deep well. The descent goes slowly, and you are able to brake your fall at a few
+      places. However, you cannot continue up again. I wonder how you shall get out again.
+flag:

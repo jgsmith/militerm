@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:waste:hall"
+    short: Crystal Fire
+    sight: >
+      You are standing in a huge, crystal-carved hall, designed so that the glittering crystal walls pick up
+      the fiery light from around you and scatter it back in rainbows of red and yellow light. A single arched
+      crystal doorway leads southwards.
+flag:
+  - hot

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower53"
+      east:
+        target: "scene:aber:balharbor:btower50"
+      south:
+        target: "scene:aber:balharbor:btower74"
+      west:
+        target: "scene:aber:balharbor:btower48"
+    short: Dark Corridor
+    sight: >
+      Feeling...lllllooooonnnnneeeeelllllyyyyy? There looks to be a letter 'O' in the floor.
+flag:
+  - dark
+  - maze

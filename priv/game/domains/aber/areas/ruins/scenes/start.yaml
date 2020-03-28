@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:easthall"
+      north:
+        target: "scene:aber:ruins:northhall"
+      south:
+        target: "scene:aber:ruins:southhall"
+      up:
+        target: "scene:aber:blizzard:underruined"
+      west:
+        target: "scene:aber:ruins:westhall"
+    short: Further into the Ruins
+    sight: >
+      You have entered into the underlevels of the ruined temple. A very strong musky odor that makes you gasp
+      for air for a few seconds. Looking around this ancient stone-walled chamber you wonder just how old it
+      is. A thick layer of green, slimy moss covers most of the walls. This chamber has exits leading in all
+      directions.
+flag:
+  - dark

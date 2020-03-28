@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar15"
+      north:
+        target: "scene:aber:volcano:bandilbar16"
+      south:
+        target: "scene:aber:volcano:bandilbar21"
+    short: Yorrin Wood
+    sight: >
+      You are wandering through the wood. To the east lie trees beyond counting, stretching on towards the
+      river which you think you can faintly hear in the distance. Immediately to the west the lower slopes of
+      the volcano prevent your progress in that direction.
+flag:
+  - outdoors

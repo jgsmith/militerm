@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon15"
+      west:
+        target: "scene:aber:pensalon:pensalon18"
+    short: Catapult Area
+    sight: >
+      You see many piles of rocks and other items large enough to be loaded onto a catapult for firing at
+      enemies. Through the western arch you may enter a small room, and to the east is a small area on the
+      wall where you may admire the view.
+flag:
+  - outdoors

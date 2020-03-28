@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: The Hold
+    sight: >
+      You stand in a baren room, everything around you is stone and iron. Large chains once hanged from the
+      walls, but now they have been ripped out by some great force. The walls are scarred by gigantic claw
+      marks, and you can see deep fang marks on the chains lying around on the floor.
+flag:
+  - private

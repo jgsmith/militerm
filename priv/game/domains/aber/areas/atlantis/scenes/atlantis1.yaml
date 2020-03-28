@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:atlantis:atlantis2"
+    short: Under the Waves
+    sight: >
+      What a close shave! You nearly collided with the cliff face a couple of times on the way down and just
+      barely missed the rocks but you are now safely submerged in water. It makes you feel strangely bouyant,
+      and you find you are able to move freely. It doesn't look like you will be able to get back up the cliff
+      face behind you, but heading further down appears to still be an option.
+flag:
+  - underwater

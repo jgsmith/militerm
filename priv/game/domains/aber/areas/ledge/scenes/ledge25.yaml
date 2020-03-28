@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge26"
+      south:
+        target: "scene:aber:ledge:ledge24"
+    short: Silent Tunnel
+    sight: >
+      A relatively quiet tunnel leads itself away from the rest of the cavern, yet it seems to be a bit warmer
+      than elsewhere. It continues to the north while the main cavern lies south.
+flag:
+  - dark

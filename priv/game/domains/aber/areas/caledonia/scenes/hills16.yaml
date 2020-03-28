@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills18"
+      north:
+        target: "scene:aber:caledonia:hills13"
+    short: Suilven
+    sight: >
+      The bald mountain Suilven casts a great grey shadow over you as you wander about on its lower slopes.
+      Above you the trees come to an abrupt end and a rising dome of bare rock dominates the southern skyline.
+      The cliffs leading up to the dome become almost vertical further up, so you will have to descend into
+      the high valley to the north or east.
+flag:
+  - outdoors

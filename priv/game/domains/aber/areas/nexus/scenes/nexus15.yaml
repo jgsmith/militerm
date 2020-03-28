@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus16"
+      south:
+        target: "scene:aber:nexus:nexus13"
+    short: Courtyard
+    sight: >
+      A wide avenue of crystalline cobblestones leads down the heart of this plaza, circling a fountain of
+      incredible artistic talent and branching at that junction. Two small square edifices stand at the far
+      corners of the courtyard, made of solid crystal. There is a deep thrum coming from that direction,
+      vibrating the entire courtyard slightly.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc47"
+      south:
+        target: "scene:aber:ancient:anc45"
+    short: The Edge of Downtown
+    sight: >
+      As you walk further the walls turn smooth and the floor is covered with complicated and extremely
+      beautiful ornaments. The ornaments are surrounding a long series of small pictures that seem to tell
+      tales about this town's history. The story begins with a flourishing dynasty and an emperor who ruled
+      the surrounding plains. To find out more you have to walk further to a large underground hall to the
+      north. You notice that you still can turn back to the south.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:talon2"
+      south:
+        target: "scene:aber:valley:tops"
+    short: Entrance
+    sight: >
+      A large, moss covered cliff face is straight ahead of you. High above, ancient trees line the top of the
+      cliff, and seem to ominously look down upon the travellers of this land. On a windless day as today, the
+      branches seem to echo a whisper of warning and doom. There seems to be an entranceway carved out of the
+      cliff face to the north, and the nearby trampled path from whence you came lies to the south.
+flag:
+  - nomobiles

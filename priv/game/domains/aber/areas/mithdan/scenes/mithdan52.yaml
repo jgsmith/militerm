@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan53"
+      south:
+        target: "scene:aber:mithdan:mithdan55"
+    short: Crystal Trail
+    sight: >
+      Huge crystaline trees overhang the trail and delicate crystal flowers grow on the edge. You are afraid
+      to touch any of them for fear that they will shatter. Heavy wind blows through the tops of the trees,
+      and to the east there is an ominous groaning and cracking noise.
+flag:
+  - outdoors

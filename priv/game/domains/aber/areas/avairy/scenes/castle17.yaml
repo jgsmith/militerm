@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle19"
+      south:
+        target: "scene:aber:avairy:castle16"
+      west:
+        target: "scene:aber:avairy:castle18"
+    short: Security Office
+    sight: >
+      This is the castle security office. A desk covered with papers sits against one wall.
+flag:
+  - light

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace6"
+      west:
+        target: "scene:aber:aladdin:palace4"
+    short: Palace Hallway
+    sight: >
+      You are still in the palace. The floor is covered with dirt and you notice numerous footprints leading
+      to the east. The passage leads off to the east and west.
+flag:
+  - dark

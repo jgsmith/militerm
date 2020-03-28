@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale65"
+      south:
+        target: "scene:aber:fairytale:fairytale60"
+    short: The River
+    sight: >
+      A river flows past you, tinkling peacefully. The plants which grow here create a peaceful, gentle
+      feeling. You are overcome by an urge to go to sleep on this manicured lawn. To the south is a lake, in
+      which you see an island. To the north the river continues.
+flag:

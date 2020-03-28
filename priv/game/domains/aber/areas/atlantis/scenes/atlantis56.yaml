@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis57"
+      west:
+        target: "scene:aber:atlantis:atlantis53"
+    short: Craggy Passage
+    sight: >
+      The walls of the cave passage here are very rough and uneven. The passage of water through these caves
+      has done little to smooth them out. Your light flickers over the silence of the passage in front of you.
+      You can continue to swim forward to the east or turn back towards the west.
+flag:
+  - dark
+  - underwater

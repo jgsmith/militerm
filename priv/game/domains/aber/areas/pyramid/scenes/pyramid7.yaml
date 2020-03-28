@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid6"
+      west:
+        target: "scene:aber:pyramid:pyramid8"
+    short: Into the &+LStorm&N
+    sight: >
+      Immediately, you are engulfed in a swirling cloud of dust. Tiny grains of blowing &+ysand&N scour your
+      skin, fill your lungs and obscure your vision. No longer can you see that tantalizing vision of a
+      pyramid, and much to your dismay, you can not see to find a way out of this raging storm. Bitterly, you
+      wonder if this is the &+Lcurse&N whispered about for centuries that would befall those who dared to try
+      and find the hidden tomb of Neferteri.
+flag:
+  - outdoors

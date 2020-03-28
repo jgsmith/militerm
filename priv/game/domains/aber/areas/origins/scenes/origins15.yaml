@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Inside the Chasm
+    sight: >
+      You enter the rough chasm and instantly lose your footing. As you fall, you wonder whether you will die
+      by impact or by impalement on the sharp rocks...
+flag:
+  - outdoors
+  - death

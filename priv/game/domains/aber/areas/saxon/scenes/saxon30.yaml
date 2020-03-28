@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:saxon:saxon29"
+    short: >
+      &+RG&+Lr&+Re&+Ln&+Rd&+Le&+Rl&+L'&+Rs &+LL&+Ra&+Li&+Rr&*
+    sight: >
+      This is the home of pure evil himself, Grendel. The floor is covered with rotting bodies and skeletons.
+      The walls are covered in ice, and the ice is covered in blood, an eerie combination. The moaning of a
+      dying bear reaches your ears from the back of the chamber.
+flag:
+  - dark
+  - cold
+  - negregen

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:thyrannen:thyrannen63"
+    short: Dwarven mine
+    sight: >
+      You have reached a dead-end. The only exit is back to the west. This is a large room, the result of
+      heavy mining in the past few years, there are piles of rocks in several places around the room, as well
+      as a birdcage located in the center of the room. The bird looks as if it has been dead for some time,
+      making you wonder about the quality of the air in this cavernous room.
+flag:
+  - dark

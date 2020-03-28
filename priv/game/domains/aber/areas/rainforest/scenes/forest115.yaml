@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest118"
+      north:
+        target: "scene:aber:rainforest:forest116"
+      south:
+        target: "scene:aber:rainforest:forest117"
+      west:
+        target: "scene:aber:rainforest:forest112"
+    short: Indian Village
+    sight: >
+      You are at the east end of the village. To the north and south are mud huts, the northern one being the
+      most important-looking. To the east a path heads deeper into the jungle.
+flag:
+  - outdoors
+  - nomobiles

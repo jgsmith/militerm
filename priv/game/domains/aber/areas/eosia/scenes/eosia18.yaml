@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia19"
+      north:
+        target: "scene:aber:eosia:eosia2"
+      south:
+        target: "scene:aber:eosia:eosia20"
+    short: The Long Road
+    sight: >
+      One of the busiest roads in all of Elenia, you stand on the famous 'Long Road'. To the south you can
+      make out the sounds of water and the ocean, to the east, you can just barely make out the spires of a
+      city.
+flag:
+  - outdoors

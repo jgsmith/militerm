@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_3"
+      west:
+        target: "scene:aber:haunted:haunted_1"
+    short: Elm Street
+    sight: >
+      Wow! Looks like you've entered into a ghost town. As you walk along the sidewalk in this abadoned
+      neighboorhood, you notice all the windows are boarded up in the houses. You see a peculair house to the
+      north.
+flag:
+  - outdoors
+  - real

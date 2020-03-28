@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy11"
+      west:
+        target: "scene:aber:windy:windy14"
+    short: Mountain Ledge
+    sight: >
+      You are standing on a thin ledge which runs along the mountain side. Thick cloud banks have formed at
+      this altitude, restricting your vision to only a few feet. The ledge becomes a wider trail to the east,
+      while to the west it inclines upward sharply.
+flag:
+  - outdoors

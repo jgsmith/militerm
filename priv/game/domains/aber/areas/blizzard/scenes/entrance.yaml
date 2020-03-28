@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:crypt"
+      south:
+        target: "scene:aber:blizzard:library"
+    short: Library Entrance
+    sight: >
+      You are in a small chamber with two high-arched exits leading north and south.
+flag:
+  - peaceful

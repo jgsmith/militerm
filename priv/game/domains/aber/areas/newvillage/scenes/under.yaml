@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:newvillage:jetty"
+    short: Under the Jetty
+    sight: >
+      Under the wooden platform of the boardwalk above, you are standing on a sandy strip of beach that is
+      rather hard and packed, as though it is often covered with water. The wall under the jetty is made of
+      stone to prevent dangerous erosion. Holding up the sea side of the boardwalk are five tall and stately
+      wooden poles, each covered in sea slime up to about four feet.
+flag:

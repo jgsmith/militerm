@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle5"
+      north:
+        target: "scene:aber:avairy:castle7"
+    short: Castle Kitchen
+    sight: >
+      You are in the castle kitchen. One wall is lined with cookbooks with such titles as "Worms Delicassies",
+      "Worms, Worms, Worms", and "Low Fat Worm Dinners".
+flag:
+  - light

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret13"
+      south:
+        target: "scene:aber:evolution:cret15"
+    short: Overgrown Watercourse
+    sight: >
+      You are making your way along what must once have been a broad river. It is now, however, all but dry,
+      and weeds and shrubs flourish in the moist ground. To the west, not far off, a line of sand dunes blocks
+      off your view of the sea. To the east is a tall dike. The dry river bed continues south from here.
+flag:
+  - outdoors

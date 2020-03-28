@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower65"
+      east:
+        target: "scene:aber:balharbor:btower72"
+      north:
+        target: "scene:aber:balharbor:btower66"
+      west:
+        target: "scene:aber:balharbor:btower70"
+    short: Dark Corridor
+    sight: >
+      Still lost? Well you're gonna have to figure something out before you get taken down by something. That
+      looks like an 'Q' in the floor!
+flag:
+  - dark
+  - maze

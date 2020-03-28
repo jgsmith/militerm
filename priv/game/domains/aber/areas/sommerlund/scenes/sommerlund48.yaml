@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund47"
+      west:
+        target: "scene:aber:sommerlund:sommerlund49"
+    short: Gravel Trail
+    sight: >
+      The mountain peaks are truly a sight at this height. A goat scrambles past you in an attempt to reach a
+      higher ledge. It's loud bleating echoes throughout the mountains.
+flag:
+  - outdoors

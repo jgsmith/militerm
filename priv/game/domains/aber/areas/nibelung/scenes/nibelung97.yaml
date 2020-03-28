@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung98"
+      south:
+        target: "scene:aber:nibelung:nibelung17"
+    short: The Overlook Lobby
+    sight: >
+      From here the dining room can be seen, filling with only the most distinguished adventurers. The
+      Overlook Restaurant boasts of it's high standards. Only the wealthiest players can afford to eat here.
+      Waiters busily scuttle around, filling the orders of the patrons within. A walnut podium stands
+      discreetly before the entrance to the main dining area, blocking your view and your passage.
+flag:
+  - party
+  - peaceful
+  - nomagic
+  - nomobiles
+  - nosummon

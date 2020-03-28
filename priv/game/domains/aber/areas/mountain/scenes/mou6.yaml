@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mountain:mou3"
+      south:
+        target: "scene:aber:sdesert:desertsd00"
+    short: Desert Rose
+    sight: >
+      A shower of rain has suddenly turned the earlier so dry and barren desert into a sea of small but
+      colorful flowers. The raincloud is slowly moving west and the sun casts its' first rays upon this
+      scented little paradise. You sit down on the ground enjoying the peace and silence surrounding you.
+flag:
+  - outdoors
+  - peaceful
+  - nomobiles

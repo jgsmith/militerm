@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:shadowy"
+      west:
+        target: "scene:aber:blizzard:narrow"
+    short: Dark Cave
+    sight: >
+      You are in a dark cave with earth walls and a rather low ceiling. The earth gives way to stone in the
+      passages leading out of the cave to the east and west.
+flag:

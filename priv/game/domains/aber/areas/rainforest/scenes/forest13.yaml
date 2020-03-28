@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest14"
+      south:
+        target: "scene:aber:rainforest:forest15"
+      up:
+        target: "scene:aber:rainforest:forest12"
+    short: Soaked By Spray
+    sight: >
+      At the bottom of the waterfall the noise is terrific and you cover your ears to protect them. You
+      quickly become soaked with the spray from the river and resolve to hasten out of this area forthwith. To
+      the south you could head into the forest, or you could follow the river as it wends its way east.
+flag:
+  - outdoors
+  - soundproof

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:novice:cellar"
+      south:
+        target: "scene:aber:novice:trail_1"
+    short: Inside the Hut
+    sight: >
+      You have entered a small hut. The structure is falling down and is badly in need of maintenance. There
+      are holes in the wood that make up that walls, which allow for some light to get through. On the floor
+      you notice a small green object that seems to be wilting away. You wonder what it is and how it got
+      there.
+flag:
+  - real

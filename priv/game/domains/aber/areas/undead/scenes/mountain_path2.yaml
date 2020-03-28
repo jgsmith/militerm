@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:mountain_path4"
+      south:
+        target: "scene:aber:undead:mountain_path"
+      up:
+        target: "scene:aber:undead:mountain_path3"
+    short: Mountain Path
+    sight: >
+      This area of the &+Wmountain&* &+Wpath&* is thankfully a great deal wider than that to the &+Csouth&*.
+      The mountains tower above you, casting shadows that make you keep your sword at the ready. You are not
+      sure, but it looks as though it may be possible to climb &+Cup&* the side of the mountain if you're not
+      carrying too much.
+flag:
+  - outdoors

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins34"
+      north:
+        target: "scene:aber:origins:origins31"
+      south:
+        target: "scene:aber:origins:origins38"
+      west:
+        target: "scene:aber:origins:origins35"
+    short: Castle Courtyard
+    sight: >
+      You enter a large, open, square area, obviously the courtyard of the castle. The usual plant life that
+      dominates the courtyards of most castles is not to be found here. A flight of stairs lies to the south,
+      while towers lie to the east and west.
+flag:
+  - outdoors
+  - soundproof
+  - negregen

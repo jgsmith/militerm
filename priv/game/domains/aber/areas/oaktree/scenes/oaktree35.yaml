@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oaktree:oaktree34"
+    short: Sacred Grove
+    sight: >
+      A sense of power radiates from the centre of this clearing where bolts of lightning frequently flash
+      from a lowering sky. Strangely enough these bolts make no sound. In fact, you hear nothing at all, as
+      everything has fallen silent about you.
+flag:
+  - soundproof

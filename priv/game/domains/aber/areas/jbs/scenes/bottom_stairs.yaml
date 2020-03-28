@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:jbs:half_way_d"
+      west:
+        target: "scene:aber:jbs:corridor1"
+    short: Bottom of the Stairs
+    sight: >
+      You are at the bottom of the stairs. Looking up to the east, you see the huge staircase that you're
+      going to have to struggle back up, and from the west you hear many anguished screams and groans coming
+      from the dungeon of this castle.
+flag:

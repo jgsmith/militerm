@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot243"
+      west:
+        target: "scene:aber:camelot:camelot241"
+    short: Atop the Northern Wall
+    sight: >
+      Looking out over the wall, you gaze at the forests and fields beyond. Away off in the misty distances,
+      you can see a single mountain, rising alone from the plains.
+flag:
+  - outdoors

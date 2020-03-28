@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:catacomb:crypt"
+      south:
+        target: "scene:aber:church:bell"
+      up:
+        target: "scene:aber:church:stairs2"
+      west:
+        target: "scene:aber:church:altar"
+    short: Stairs
+    sight: >
+      You stand on a set of slippery stone steps which lead both downwards and upwards from here. Doorways
+      lead south into a small room and west into the main church hall.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:fire:fire40"
+    short: Prison way
+    sight: >
+      You are standing behind the secret door. The way leads to the prison as you can see on the style of
+      walls and cellars. You still can hear the loud singing from the party.
+flag:
+  - dark
+  - cold

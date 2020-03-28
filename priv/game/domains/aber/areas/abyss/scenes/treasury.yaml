@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:orcus"
+    short: Treasury
+    sight: >
+      This is where the demons keep those items liberated from their victims and the fearsome objects they
+      create in the demon's forge. Unfortunately most all the mounds of treasure are protected by terrible
+      wards and all you can do is look.
+flag:
+  - dark

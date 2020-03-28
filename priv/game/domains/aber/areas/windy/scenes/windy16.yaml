@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:windy:windy17"
+      south:
+        target: "scene:aber:windy:windy15"
+    short: Temple Entrance
+    sight: >
+      You stand in the columned entrance of this building. The ceiling disappears into darkness above.
+      Examining the runes which are scrawled on the walls, you deduce that this is the Temple of the Winds. A
+      large fire-pit in the floor is intended for offerings, although you would rather light your torch from
+      it. The temple continues to the south.
+flag:
+  - light

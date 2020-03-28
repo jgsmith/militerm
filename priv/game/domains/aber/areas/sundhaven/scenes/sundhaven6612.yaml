@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6610"
+    short: The House of Sorcery
+    sight: >
+      You stand in a small, well-lit shop of cobblestone and mortar, entirely cluttered with scrolls, glowing
+      wands, odd regents and components. The place has an unmistakable scent of sulfur that makes you wonder,
+      but the sorceress seems knowledgeable. &+GTo see what she teaches, type &+M'learn info&+G'.
+flag:
+  - nomagic
+  - peaceful
+  - nomobiles

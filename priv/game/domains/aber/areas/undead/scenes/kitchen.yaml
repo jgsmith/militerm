@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:banquethall"
+      west:
+        target: "scene:aber:undead:larder1"
+    short: Kitchen
+    sight: >
+      You stand in what remains of a once great kitchen. &+BCupboards&* run around all the walls, and large
+      stone ovens sit at the end of this huge room. At the very edges of your senses you can hear the hustle
+      and bustle of a large kitchen staff running around trying to get food prepared for the banquets that
+      were held in the banquet hall. Momentarily the smell of freshly baked &+Bbread&* wafts under your
+      nostrils, then suddenly back to reality. You stand in the dark deserted kitchen, and wonder wistfully
+      how it came to be in such a state. To your &+Ceast&* and &+Cwest&* lie small arched doorways.
+flag:
+  - dark
+  - nomobiles

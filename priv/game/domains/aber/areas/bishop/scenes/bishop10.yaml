@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop11"
+    short: Circle of Cropped Grass
+    sight: >
+      A nearly perfect circle of cropped grass stands here in a remote area of this prairie. Eleven steel
+      chairs stand in a ring around the outer edge, and on these chairs are bolted ankle, wrist, and neck
+      shackles. In front of each chair is a solid iron cup stained raspberry red from the blood of human
+      sacrifices performed here. There are no people currently here, but small rivers of blood flow from the
+      cups to a block of hardened steel in the center of this circle. Eleven piles of bones brittle with age
+      and parched from the elements lay heaped individually, where the are placed in such a way as to ward off
+      visitors. The blood trails follow up from the sides of this sacrilegious altar and are drunk by the open
+      mouths of the sightless skulls.
+flag:
+  - outdoors
+  - nomobiles

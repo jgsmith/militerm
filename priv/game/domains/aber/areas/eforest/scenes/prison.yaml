@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Prison Cell
+    sight: >
+      You have entered a small prison cell. The floor is covered with hay, and a small bed sits against one
+      wall, covered with dried blood. A skeleton hangs from chains and shackles on another wall.
+flag:
+  - dark

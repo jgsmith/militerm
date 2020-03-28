@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fwood6"
+      south:
+        target: "scene:aber:jbs:fwood5"
+    short: Side of a Cliff
+    sight: >
+      OUCH!!! You just rammed your nose into the side of a cliff that was concealed by the mist.
+flag:
+  - outdoors

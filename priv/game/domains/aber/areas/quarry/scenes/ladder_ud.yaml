@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:quarry:mine_t"
+      up:
+        target: "scene:aber:quarry:ladder_uu"
+    short: Bottom Of Ladder
+    sight: >
+      You are standing at the bottom of a long wooden ladder which travels upwards through a square shaft in
+      the roof. The tunnel you are standing in leads eastwards.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9964"
+    short: A vandalized closet.
+    sight: >
+      You are standing in a small, walk-in closet. Children's clothes, and shoe boxes lie about, stinking of
+      mildew. There appears to be only one exit - East.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9967"
+      south:
+        target: "scene:aber:ghenna:ghenna9901"
+      west:
+        target: "scene:aber:ghenna:ghenna9904"
+    short: A fountain of tears.
+    sight: >
+      A large &+Cfountain&* containing the tears of those slain within the city limits has been erected here,
+      abutting the east wall of the city - it looks quite deep and wide. The water is a crystaline blue which
+      exudes holiness, something quite strange for such an evil city. Exits lead West, North and South.
+flag:
+  - dark
+  - outdoors

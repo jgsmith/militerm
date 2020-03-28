@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar68"
+      south:
+        target: "scene:aber:balharbor:balhar30"
+      west:
+        target: "scene:aber:balharbor:balhar71"
+    short: Pines Road
+    sight: >
+      Evergreen Pines, the place where citizens moved to get out of the parts of town where crime and violence
+      permeate, right? Wrong. Even this part of town didn't escape the riots. Some of the younger thugs that
+      trashed the downtown area ran out of things to destroy, so they moved into the outskirts of town to do
+      some more damage. There seems to be some attractive-looking houses in this neighborhood, seemingly owned
+      by the city's upper-class. A nice white house sits to the west of you...hey! Did you see that? Someone
+      just busted out a window with some heavy object! Better investigate it if you're feeling brave, or you
+      can ignore it by going north or south.
+flag:
+  - outdoors

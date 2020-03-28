@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook20"
+      east:
+        target: "scene:aber:fairybook:fairybook46"
+    short: The Upper Room
+    sight: >
+      You have found your way into a tidy little room. A table stands against the window, and on it stands a
+      little bottle. A large mirror occupies the north wall of the room, and you fancy that you could walk
+      into it if you wanted to. A staircase leads down.
+flag:

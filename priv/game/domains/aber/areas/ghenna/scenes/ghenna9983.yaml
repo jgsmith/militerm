@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9982"
+      south:
+        target: "scene:aber:ghenna:ghenna9984"
+    short: A small clearing.
+    sight: >
+      There is virtually none of that ectoplasmic crap here. This clearing consists of red clay dirt, with a
+      few boulders lying around you. Apparently it is a primitive pathway of some sort, for to the South you
+      can see what appears to be the mouth of a cave.
+flag:
+  - dark
+  - outdoors

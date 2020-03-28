@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:newbee:newbee18628"
+      west:
+        target: "scene:aber:newbee:newbee18621"
+    short: Another Corner
+    sight: >
+      The passage turns from north to west here. The walls are still covered with the same disgusting green
+      fungus you have seen all along, and you hear sounds of creatures moving all around you...
+flag:

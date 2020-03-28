@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen28"
+      west:
+        target: "scene:aber:thyrannen:thyrannen60"
+    short: Marsh
+    sight: >
+      This marsh, like the forest seems almost alive and aware of your presence. You only wish it would help
+      you along, as the murky waters make you travel very slow, and rigorous work.
+flag:
+  - outdoors

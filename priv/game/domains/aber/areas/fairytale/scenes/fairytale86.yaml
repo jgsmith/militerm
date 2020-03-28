@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale85"
+      up:
+        target: "scene:aber:fairytale:fairytale87"
+    short: Beyond the Mirror
+    sight: >
+      You stand at the foot of a staircase which winds up and into the darkness. This room appears to have
+      been hewn from solid rock, and a few pebbles lie on the floor. From above you, you smell foxes.
+flag:

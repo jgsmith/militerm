@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon31"
+      up:
+        target: "scene:aber:saxon:saxon20"
+    short: &+yShore &*of the &+rBlood &+bSea&*
+    sight: >
+      As you look at the sea, large bubbles rise up and pop every few seconds. The water does not feel that
+      hot, but it also does not look like water. It has a deep red tint to it, and you can not see past the
+      surface of the water.
+flag:
+  - light
+  - nomobiles
+  - outdoors

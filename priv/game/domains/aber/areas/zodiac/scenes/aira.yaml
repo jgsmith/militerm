@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:gemini"
+      north:
+        target: "scene:aber:zodiac:libra"
+      south:
+        target: "scene:aber:zodiac:northend"
+      west:
+        target: "scene:aber:zodiac:aquarius"
+    short: The Fresh Air
+    sight: >
+      This area is beautiful! The grass is a bright green and well manicured. There are several well kept
+      flower beds, one of which is a square plot with flowers growing into a pyramid shape.
+flag:

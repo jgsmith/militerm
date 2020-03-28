@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:entrance"
+      north:
+        target: "scene:aber:fairytale:fairytale1"
+    short: Mansion Gardens
+    sight: >
+      In the gardens the branches spread out above you like the tentacles of extraordinary animals, and the
+      plants on the ground open up stars of fretted leaves like the green skins of reptiles, and wave feathery
+      yellow bamboos with a rustle like paper. A white flight of stairs leads east to the mansion. Above you
+      is a sweet-scented magnolia tree, but the lowest branch is too high for you to reach.
+flag:
+  - outdoors

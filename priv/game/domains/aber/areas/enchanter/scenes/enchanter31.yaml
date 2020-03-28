@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter34"
+      north: null
+      south:
+        target: "scene:aber:enchanter:enchanter36"
+      west:
+        target: "scene:aber:enchanter:enchanter30"
+    short: North Gate
+    sight: >
+      You are at the northern gate of the castle. Looking through the gate, you can see a dense swamp. There
+      is a tower to the east, and the corridor turns back toward the south here.
+flag:

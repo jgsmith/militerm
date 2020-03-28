@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon11"
+      south:
+        target: "scene:aber:talon:talon27"
+      up:
+        target: "scene:aber:talon:talon8"
+      west:
+        target: "scene:aber:talon:talon12"
+    short: Lit Cavern
+    sight: >
+      You stand in the center of a large cavern, which appears to have formed naturally from the movement of
+      an underwater stream, flowing from a waterfall halfway up the side of the cavern. Torches line the
+      walls, and cast an eerie orange glow over the entire cave. The roof is smoked black from the numerous
+      torches scorching its surface. The underground stream disapears into a small cave to the west. To the
+      south, a small crack wide enough to squeeze through leads into the blackness. To the east, cool air
+      seems to pour through a large opening leading to another cave.
+flag:

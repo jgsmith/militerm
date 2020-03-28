@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:castle7"
+      west:
+        target: "scene:aber:fantasy:castle5"
+    short: Eastern Hallway
+    sight: >
+      This looks to the be the end of the eastern hallway as it branches to the north.
+flag:

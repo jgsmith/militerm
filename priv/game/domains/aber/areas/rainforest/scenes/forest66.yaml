@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest68"
+      south:
+        target: "scene:aber:rainforest:forest65"
+    short: Land Of The Butterflies
+    sight: >
+      In this drier part of the forest many species of butterfly are swarming. Some settle on your face and
+      arms and lick off your sweat with their long probosces, hungry for salt. Some of the others are huge,
+      almost a foot across, but those tend to stay away from you. Their wingbeats are distinctly audible.
+flag:
+  - outdoors
+  - rainforest

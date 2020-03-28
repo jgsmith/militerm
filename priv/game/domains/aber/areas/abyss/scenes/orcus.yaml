@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:pain"
+      west:
+        target: "scene:aber:abyss:treasury"
+    short: Throne of Orcus
+    sight: >
+      This is the throne room of Orcus. Ornate tapestries with scenes of warfare and suffering cover the
+      walls. On either side of the room are rows of benches guilt with gold and silver. At the far end is his
+      throne, a huge construction decorated with more skulls. Behind the throne is a low archway.
+flag:

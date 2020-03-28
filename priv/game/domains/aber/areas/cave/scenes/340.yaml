@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:341"
+      west:
+        target: "scene:aber:cave:337"
+    short: Dark Passage
+    sight: >
+      The passage gradually begins to widen as you head to the east. The passage continues on to the west.
+flag:
+  - dark

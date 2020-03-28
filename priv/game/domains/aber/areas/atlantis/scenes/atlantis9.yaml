@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis14"
+      north:
+        target: "scene:aber:atlantis:atlantis8"
+      south:
+        target: "scene:aber:atlantis:atlantis10"
+      west:
+        target: "scene:aber:atlantis:atlantis6"
+    short: Sandy Spot
+    sight: >
+      The sea bed declines into a shallow depression here. The water eddys around you in a circular pattern,
+      catching fish in the current and tossing them about a bit before they regain control. The currents whirl
+      around the depression, disturbing the sand. Off to the east you see a large kelp bed while the prow of a
+      large ship lies in wreck to the north. Far off to the west is the abrupt rise of a cliff face while the
+      sea bed winds gently of to the south.
+flag:
+  - underwater

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:boulder"
+      west:
+        target: "scene:aber:frobozz:by"
+    short: The Main Entrance
+    sight: >
+      You stand in front of the main entrance of the bank which is dominated by a huge and arched oakdoor set
+      between mighty pillars carved out of rock in one piece. The door is barred with strong ironbars and it
+      will take you a lot of work to get through it. It is possible to go east and west from the main
+      entrance.
+flag:
+  - dark

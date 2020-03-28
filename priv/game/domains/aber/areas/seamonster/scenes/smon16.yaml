@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:seamonster:smon15"
+    short: In the cave
+    sight: >
+      You are now standing in the cave. It's very dark and you can't see much. The walls aren't very stable.
+      It looks like something that was built to hide from something. You can see an &+Cinscription&* on the
+      south wall.
+flag:
+  - dark

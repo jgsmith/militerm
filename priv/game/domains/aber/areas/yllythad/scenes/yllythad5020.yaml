@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5139"
+      north:
+        target: "scene:aber:yllythad:yllythad5025"
+      south:
+        target: "scene:aber:yllythad:yllythad5015"
+      west:
+        target: "scene:aber:yllythad:yllythad5019"
+    short: A Gentle Breeze
+    sight: >
+      A calming, fresh breeze blows in bring the fresh scent of the open sea and the tang of salt with it. The
+      sea appears to be cooperating with travel, only gentle swells at this point.
+flag:
+  - onwater
+  - outdoors

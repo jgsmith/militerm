@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood27"
+      south:
+        target: "scene:aber:sherwood:sherwood25"
+    short: Under the Popular Trees
+    sight: >
+      You stand under many populuar trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

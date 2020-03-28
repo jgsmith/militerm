@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc13"
+      west:
+        target: "scene:aber:ancient:anc11"
+    short: Rio San Juan
+    sight: >
+      Your small boat floats slowly along the river. You notice a slight increase in the speed the river
+      flows. You look at the river bank to find a nice calm place to get ashore. The shore, however, is
+      crowded by alligators and you find it quite forbidding. You have to choose whether to keep going further
+      east or back west to the bridge.
+flag:
+  - outdoors
+  - onwater

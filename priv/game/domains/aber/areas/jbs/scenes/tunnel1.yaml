@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:bottom"
+      west:
+        target: "scene:aber:jbs:blocked"
+    short: In the Tunnel
+    sight: You are in a freshly dug east west tunnel.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain7"
+      west:
+        target: "scene:aber:fantasy:mountain4"
+    short: Mountain Path
+    sight: >
+      You are on a small mountain path that is only a few feet wide as you look down the side of the mountain
+      you feel a little sick to your stomach. The path winds to the east and goes back to a ledge to the west.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon3"
+      west:
+        target: "scene:aber:chlyon:chlyon5"
+    short: Scenic View
+    sight: >
+      You stand on a wide ledge near the top of the mountain. Below you, the path windes down to the safety of
+      the flatlands, and to the west dissapears inside the mountain.
+flag:
+  - outdoors

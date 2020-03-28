@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale63"
+      west:
+        target: "scene:aber:fairytale:fairytale61"
+    short: Steel Island
+    sight: >
+      A metal beach stretches around the base of a huge statue. A door enters the base of the statue to the
+      east, and a plaque sits next to it. The plaque reads 'Jessimine the Goddess'. Scratched into the steel
+      beneath it, as though by a long fingernail, is the epitaph 'I'm sorry...'
+flag:

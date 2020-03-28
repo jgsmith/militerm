@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:vault1"
+      south:
+        target: "scene:aber:village:road7"
+      west:
+        target: "scene:aber:village:office"
+    short: The Bank
+    sight: >
+      This is only a small bank, the village has yet to grow sufficiently to support anything larger. The
+      counter is on the western side of the bank behind which lies the managers office. There is a set of
+      stairs leading down.
+flag:

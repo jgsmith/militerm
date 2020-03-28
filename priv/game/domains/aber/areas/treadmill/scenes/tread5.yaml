@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The Lost Episode of the Treadmills of Hell
+    sight: >
+      Are you lost yet? Is going in circles too much for you? Be glad you aren't one of these demons cursed to
+      be lost here forever. Exits are everywhere.
+flag:
+  - maze

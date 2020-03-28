@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook167"
+      south:
+        target: "scene:aber:fairybook:fairybook169"
+    short: Evil Forest
+    sight: >
+      You enter a part of the forest which is like no forest you have ever seen. Here, in the land of the
+      South, nothing is as it appears. Danger lurks behind every tree. Heck, danger *is* every tree. In fact,
+      the trees here seem to be moving on their own. . . The path leads north and south.
+flag:
+  - outdoors

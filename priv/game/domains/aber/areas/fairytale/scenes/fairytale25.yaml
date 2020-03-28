@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale26"
+      east: null
+      west:
+        target: "scene:aber:fairytale:fairytale22"
+    short: Moat
+    sight: >
+      You stand on one side of a cliff. On the other side you see a castle, and in front of the castle is a
+      bridge mounted on wheels. Far below you you see a smoking crater in the earth, as though something had
+      somehow burned through the original bridge on its way down. A drawbridge is here, mounted on wheels.
+flag:

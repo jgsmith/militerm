@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle4"
+      up:
+        target: "scene:aber:balharbor:jungle6"
+    short: Edge of the Cliff
+    sight: >
+      Well, now you're near the top of the cliff on the edge. Hmm...this looks like a place for the suicidal
+      to take the leap, or the mountain goats to knock you off.
+flag:
+  - outdoors

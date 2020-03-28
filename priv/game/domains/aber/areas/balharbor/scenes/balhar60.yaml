@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar52"
+    short: Burned Ruins
+    sight: >
+      Wow...what destruction! A pile of burnt pieces of lumber and ashes are scattered all over this site
+      which resulted from arson. You can't tell what kind of building this used to be, but for sure, whoever
+      lived here is now homeless and you can see a small group of homeless people crying in despair. This grim
+      scene can be left to the south.
+flag:
+  - outdoors

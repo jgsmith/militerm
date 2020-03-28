@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills2"
+      south:
+        target: "scene:aber:caledonia:hills10"
+    short: Heather Slope
+    sight: >
+      You are on a gentle slope overlooking a murky lochan which fills a hollow in the mountains. To the south
+      one of the lesser peaks towers above you, its dark upper slopes looking bluish against the grey sky
+      behind. The slope all around you is covered with a thick growth of coarse heather.
+flag:
+  - outdoors

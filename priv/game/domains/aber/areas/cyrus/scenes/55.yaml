@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:54"
+      west:
+        target: "scene:aber:cyrus:56"
+    short: Archway to the stairs
+    sight: >
+      You walk in the way of some stairs that seem to lead to the bottom of the earth and the deepest of the
+      cave. The walls are turning red because of the heat that makes you sweat. But a guard is guarding the
+      access to these stairs.
+flag:

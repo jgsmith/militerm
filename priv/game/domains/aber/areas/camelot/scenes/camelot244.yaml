@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot243"
+      south:
+        target: "scene:aber:camelot:camelot245"
+    short: Atop the Eastern Wall
+    sight: >
+      Below you you see kennels on the inner wall, while outside there is a long drop to the moat below. North
+      and south of you are towers.
+flag:
+  - outdoors

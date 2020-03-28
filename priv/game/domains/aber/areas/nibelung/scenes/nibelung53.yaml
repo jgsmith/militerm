@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung52"
+      west: null
+    short: In the Moat
+    sight: >
+      You are in the castle moat. Stone walls rise up around you. As you stand here, you notice your boots are
+      getting wet. You hear running water off to the west.
+flag:
+  - outdoors

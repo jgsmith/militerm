@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:balharbor:btower5"
+    short: Tower Foyer
+    sight: >
+      Boy it's sure dark in here, hope you brought some light. The foyer area is lit up with some torches
+      hanging about but you can't see much of anything down any of the corridors. Eerie noises can be heard
+      from some unknown source. You wonder who, or what is living inside this tower. Wonder where the host is
+      to give you a guided tour?
+flag:
+  - maze
+  - nomobiles

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6772"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6661"
+    short: A stairwell
+    sight: >
+      An old temple stairwell winds down in darkness into the inner, long abandoned recesses of the golden
+      temple. It seems few have reason to travel this way. The dust that coats the steps lies mostly
+      undisturbed, and an aura of desertion hangs about the place. Whoever does traverse these ancient halls
+      may or may not have the light of goodness in their motivations.
+flag:
+  - nomobiles
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:batcave:batcave21"
+      south: null
+    short: "Enkil's Chapel"
+    sight: >
+      This is a large room gorgeously decorated. Potted &+Cflowers&* of all hues are arranged on the floor.
+      Brightly tiled mosaics comprise the walls of the chapel, depicting scenes of ancient Egypt. The soft
+      flicker of &+Yvotive candles and the perfume of a thousand bouquets almost mask the sense of
+      overpowering age this room exudes. If it's possible, you feel this chamber is even more ancient than the
+      antechamber.
+flag:
+  - nosummon

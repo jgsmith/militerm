@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:grave:grave3476"
+      north:
+        target: "scene:aber:grave:grave3474"
+    short: Entrance to Slimy Maze
+    sight: >
+      You stand at a junction between a maze and a downward slopping path. It is very, very quiet here and you
+      sense great evil and harm upon your body as you move downward.
+flag:
+  - nomobiles
+  - dark

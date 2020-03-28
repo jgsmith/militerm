@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis31"
+      west:
+        target: "scene:aber:atlantis:atlantis27"
+    short: Terrarium East
+    sight: >
+      You enter into the Atlantis Terrarium. This is where the Atlanteans display some of the creatures that
+      live above the water. Each cage is made out of something that looks like a clear glass, but stronger. In
+      east of the cages in this half you see some of the more mundane animals: rats, dogs, cats, bats, goats,
+      chicken, racoons, snakes, cows, pigs, bears and the like on are display here. A sign near the door
+      indicates that they obtain air for them from above the waves and that the animals are treated well. A
+      sign indicates that there are more creatures to the west or you may step back outside.
+flag:
+  - underwater
+  - nomobiles

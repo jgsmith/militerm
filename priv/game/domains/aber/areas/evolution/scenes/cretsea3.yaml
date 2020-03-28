@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cretsea6"
+      north:
+        target: "scene:aber:evolution:cretsea4"
+      west:
+        target: "scene:aber:evolution:cretsea1"
+    short: Submarine Mountain Range
+    sight: >
+      The water here is very clear, and you can just make out below you the peaks of towering submarine
+      mountains, part of a range which continues to the north. To the east the waters shallow as they approach
+      land.
+flag:
+  - soundproof
+  - underwater

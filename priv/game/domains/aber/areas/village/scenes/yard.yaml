@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:village:road1"
+      west:
+        target: "scene:aber:village:shed"
+    short: Yard
+    sight: >
+      You are in a small walled dirt yard in the village. Various large pieces of rotten fishing netting lie
+      all around you, and the yard stinks with the smell of rotting fish, a scent which seems to draw
+      thousands of sea birds flapping around you.
+flag:
+  - outdoors

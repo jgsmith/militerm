@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:road2"
+    short: Booth #4
+    sight: >
+      This booth is empty. Most of the shelves in back have collapsed, smashing the bottles they contained.
+      One lone shelf remains.
+flag:

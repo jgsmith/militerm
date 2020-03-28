@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie1"
+      south:
+        target: "scene:aber:newbie:newbie3"
+    short: Movement
+    sight: >
+      To move between rooms you type in a direction. The available directions are &+YNORTH&*, &+YSOUTH&*,
+      &+YWEST&*, &+YEAST&*, &+YUP&*, &+YDOWN&*, and &+YNE&*, &+YNW&*, &+YSE&*, &+YSW&*. From here you can go
+      &+YSOUTH&* by typing the word itself or just the first letter '&+MS&*'. You can also type '&+YGO&*'
+      (move randomly). To find out what exits you can use from the room you are standing in and get some clues
+      as to where they lead, you can type &+YEXITS&* or just &+YEXI&*. If you want to automatically see the
+      exits as you enter a new room, type &+YAUTOEXIT&*. (Type it again to turn off this feature.) To get help
+      at any time, type &+BHELP&* and &+BHELP HELP&*.
+flag:
+  - newbie
+  - peaceful

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fire:fire4"
+      east:
+        target: "scene:aber:fire:fire7"
+    short: Staircase
+    sight: >
+      You are standing on the staircase. All the stairs are made of &+ymahagony&*, covered with carpets. The
+      metal railing shall avoid a possible accident. You can go back down or to east to the hall.
+flag:

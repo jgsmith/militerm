@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook59"
+      west:
+        target: "scene:aber:fairybook:fairybook57"
+    short: Way Out
+    sight: >
+      You find yourself standing upon a path which leads out of the woods. Standing here are two signposts.
+      One points to the east and reads "To Tweedle-dum's House." The other points to the east and reads "To
+      the House of Tweedle-Dee." The path also leads west into the dark wood.
+flag:
+  - outdoors

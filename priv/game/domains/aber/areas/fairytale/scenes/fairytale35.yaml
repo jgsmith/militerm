@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      up:
+        target: "scene:aber:fairytale:fairytale36"
+    short: On the Branch
+    sight: >
+      You stand on the swaying branch of an ancient tree. The bark is thick and gnarled, and you suspect that
+      you could climb here. To the north you see a room full of windows, and above you is a huge scar in the
+      trunk.
+flag:

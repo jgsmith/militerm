@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:avairy:castle23"
+    short: Royal Bird Bath
+    sight: >
+      The royal bird bath is much nicer than the peasantry bird bath on the lower floor. This bath is made
+      from pure gold, the water glistening of purity.
+flag:
+  - light

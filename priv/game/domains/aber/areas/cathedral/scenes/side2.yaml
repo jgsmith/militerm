@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Trap Door
+    sight: >
+      As you exit the cathedral, the door slams shut, and its heavy bolts fall into place. You can hardly see
+      a thing through the thick &+Wfog&*. Wraithlike forms swoop down at your head making you duck in terror.
+      You can fight them, but it is unlikely you can budge the door, should you survive the battle.
+flag:
+  - dark
+  - outdoors

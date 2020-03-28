@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar2"
+      south:
+        target: "scene:aber:balharbor:balhar91"
+    short: The Dock
+    sight: >
+      Another dock extends out several feet into the seafront for a ship or several small boats to pull into
+      the harbor and unload their cargo. Here you can ship out to sea if you have any watercraft. North is the
+      Mermaid's Song, and to the west side of the dock you can see a beachfront.
+flag:
+  - outdoors

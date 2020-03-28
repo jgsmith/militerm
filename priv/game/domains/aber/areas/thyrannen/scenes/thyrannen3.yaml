@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen2"
+      west:
+        target: "scene:aber:thyrannen:thyrannen5"
+    short: Redwood Forest
+    sight: >
+      As you enter this thickly wooded forest you get the eerie feeling that you are being watched. The forest
+      looms overhead, making you feel very small compared to the size of these ancient trees. To the west the
+      forest continues, and to the east the beautiful hills beckon.
+flag:
+  - outdoors

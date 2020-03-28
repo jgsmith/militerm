@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:windy:windy21"
+    short: "High Priest's Chambers"
+    sight: >
+      This room is sparse and cold, furnished only with a straw mat and a table. A small lamp on the table
+      provides light. The only exit is a dark stairway leading down.
+flag:
+  - light

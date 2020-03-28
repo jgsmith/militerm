@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura3"
+      north:
+        target: "scene:aber:evolution:jura4"
+      south:
+        target: "scene:aber:evolution:jura1"
+    short: On The Plateau
+    sight: >
+      You are wandering about on the top of the plateau. As you sweat in the intense heat, you attract clouds
+      of flies and have to constantly brush them from your face. Some of them, you can't help noticing, are
+      biting flies. If one should happen to get preserved in amber, perhaps your DNA will some day be
+      recovered and provide future scientists with a major headache.
+flag:
+  - outdoors

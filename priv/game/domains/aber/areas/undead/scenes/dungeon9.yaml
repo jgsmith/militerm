@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:undead:dungeon6"
+    short: Island of sacrifice
+    sight: >
+      This island sits right in the centre of the molten lava. All round you the lava spits and hisses
+      demanding a sacrifice. Over many thousands of years words of great power have been spoken here, as the
+      Undead King threw his victims into the endless sea of lava. As you stand wondering what could posses
+      anyone to such evil deeds, countless numbers of piteous souls swarm around you screaming at you, through
+      the endless corridors of time, demanding you provide their redemption.
+flag:
+  - hot

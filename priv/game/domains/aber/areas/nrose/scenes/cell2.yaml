@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Cell
+    sight: >
+      You have entered a monk's cell. There is a straw bed along one wall and a table and chair on the
+      opposite wall. Unlike the other cells in this dormitory this one seems to radiate truth, goodness, and
+      knowledge. There are scraps of parchment neatly stacked on the table. There are feather quills bundled
+      neatly next to them. There is a door to the east.
+flag:
+  - nomagic

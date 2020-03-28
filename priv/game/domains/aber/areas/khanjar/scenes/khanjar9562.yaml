@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9563"
+      west:
+        target: "scene:aber:khanjar:khanjar9561"
+    short: A Small Meadow
+    sight: >
+      You arrive at a small meadow that grows tall yellowish hay, swaying slowly in the wind. The path leads
+      towards the north, where you make out some high osiers.
+flag:
+  - outdoors

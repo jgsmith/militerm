@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere31"
+      south: null
+    short: Musty Room
+    sight: >
+      You stride boldly into the room - and then stagger back clutching your throat. This room needs a good
+      dusting! The place is choked with the stuff and nearly choked you along with it. A thick grey fog
+      seethes around the room, particles glowing when they come in reach of your light. The &+ydust&* is so
+      thick you cannot see a metre in front of you. Vague shapes here and there indicate furniture of some
+      sort, but aside from that and what is inside your circle of light, you can see nothing.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eirias:gallery"
+    short: Light
+    sight: >
+      A great empty expanse of floor stretches before you, its walls lost in shadow, its roof too high to be
+      seen. A strong resonant voice says, "Welcome to the Lost Land. You may call me Gwion. Have you come for
+      Eirias, the crystal sword?"
+flag:

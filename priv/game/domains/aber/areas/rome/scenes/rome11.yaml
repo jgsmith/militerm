@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome18"
+      west:
+        target: "scene:aber:rome:rome4"
+    short: The First-Aid Station
+    sight: >
+      This is the place to come to if one is overcome by the heat and gore. (Or if a lion gets loose.) You see
+      a jar of live &+Rleeches&* and other barbaric medical apparatus lying about here. From the west comes
+      the roar of the crowd, and a hall leads east. The doctor will be with you shortly.
+flag:

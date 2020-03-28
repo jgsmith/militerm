@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:church"
+    short: Small Church
+    sight: >
+      Inside the church, you look down a short aisle at the simple altar, its altarpiece &+Cilluminated
+      &+Wbrilliantly&* by the &+Ylight&* from its small clerestory windows above your head. Though tiny, this
+      church has a spiritual quality to it that is quite refreshing. By the altar sits a plate for donations.
+flag:
+  - light
+  - peaceful

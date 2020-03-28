@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5502"
+      south:
+        target: "scene:aber:village:road10"
+    short: The Grasslands
+    sight: >
+      The grass is particularly tall in this area, save for what has been matted down by travelers and
+      carriages. Rabbits duck into the high grass as you approach and plovers fly low attempting to catch
+      insects. A trail runs to the northeast.
+flag:
+  - outdoors

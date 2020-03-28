@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan44"
+      south:
+        target: "scene:aber:mithdan:mithdan47"
+    short: Fire Hall
+    sight: >
+      The floor and cieling are scorching hot, and the walls jet flame occaisionally that you have to jump
+      over. The walls waver and shimmer in the heat, and you cannot survive much longer. To the north the hall
+      becomes smooth stone, and to the south fire and ice meet in a flowing, moving artwork.
+flag:

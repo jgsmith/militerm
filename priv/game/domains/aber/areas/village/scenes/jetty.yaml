@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:camb1"
+      east:
+        target: "scene:aber:sea:2"
+      west:
+        target: "scene:aber:village:shore"
+    short: The Jetty
+    sight: >
+      You stand on the jetty, looking east across the waves. A path leads west along the jetty back to the
+      village.
+flag:
+  - outdoors

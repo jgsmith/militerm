@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:balharbor:jungle25"
+    short: Up River
+    sight: >
+      Paddling upstream you run into a group of crocodiles blocking further progression up river leaving you
+      no choice but to follow the river the other way. Some crocs see you and make a move toward their next
+      meal.
+flag:
+  - outdoors
+  - onwater

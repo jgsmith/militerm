@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up: null
+      west:
+        target: "scene:aber:pensalon:pensalon23"
+    short: Under the Throne
+    sight: >
+      You are crawling through a very small hole under the throne. This is the King's escape passage for times
+      of war when there is no hope left for this castle and he must flee. You notice that the passage seems to
+      have been used heavily but you don't remember any wars in the area for centuries. To the west the
+      passage widens.
+flag:
+  - dark
+  - oneperson

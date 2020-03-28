@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Boiling Lava
+    sight: >
+      As you step into the lava, the the tissue is scoured from your bones within seconds. Soon after your
+      bones are melted and all that is left of the foolish adventurer is a few ashes that float along the lava
+      river to an unknown destination.
+flag:
+  - death

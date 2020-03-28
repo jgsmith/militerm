@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot2"
+    short: Weapons Training Hall
+    sight: >
+      Here the knights and their squires practice at all sort of weapons play, free from worry about weather
+      rusting and dulling the tools of their honor. The only exit is to the south.
+flag:

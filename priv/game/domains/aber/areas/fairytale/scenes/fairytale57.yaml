@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale96"
+      north:
+        target: "scene:aber:fairytale:fairytale56"
+      south:
+        target: "scene:aber:fairytale:fairytale58"
+      west:
+        target: "scene:aber:fairytale:fairytale95"
+    short: Happy Road
+    sight: >
+      You have entered the well-off section of the village. The houses to the east and west are modeled after
+      Victorian mansions, and you suspect that they might still be occupied. A plaque on the western house
+      reads 'Snow White', and the eastern plaque is 'Sleeping Beauty.'
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house10"
+      north:
+        target: "scene:aber:hick:house12"
+      south:
+        target: "scene:aber:hick:house8"
+      up:
+        target: "scene:aber:hick:house13"
+      west:
+        target: "scene:aber:hick:house11"
+    short: Main Hallway
+    sight: >
+      The hallway seems to end here leading to a kitchen to the east, the dining room to the west and a
+      bathroom to the north and there are stairs leading to the upstairs floor.
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5525"
+      east:
+        target: "scene:aber:graye:graye5523"
+      south:
+        target: "scene:aber:graye:graye5525"
+      up:
+        target: "scene:aber:graye:graye5526"
+    short: The Ledge
+    sight: >
+      You find yourself on a very wide ledge. You could stretch out here and take a nap if you wanted too. To
+      the south you get a fantastic view of the entire forest. There is perhaps another forty feet to the top
+      of the cliff, all of which appears to be an easy climb.
+flag:
+  - outdoors
+  - cold

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:pool"
+      east:
+        target: "scene:aber:valley:mpath"
+      south:
+        target: "scene:aber:batcave:batcave1"
+      west:
+        target: "scene:aber:aephir:trail4"
+    short: The Hidden Falls
+    sight: >
+      You stand in an alcove carved by wind and water into the side of a mountain. High above the ground,
+      water rushes over a ledge. In a spectacular array of colors and sounds, the airborn water falls to the
+      rocks below. A path leads east along the ridge rocks. There is a small pool of water among the rocks
+      below you. It appears you can climb down to the pool if you're unencumbered. A natural cave echos the
+      sound of bats inside to the south.
+flag:
+  - outdoors
+  - nomobiles

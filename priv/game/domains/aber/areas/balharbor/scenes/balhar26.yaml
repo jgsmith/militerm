@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar29"
+      north:
+        target: "scene:aber:balharbor:balhar27"
+      south:
+        target: "scene:aber:balharbor:balhar28"
+      west:
+        target: "scene:aber:balharbor:balhar25"
+    short: East Gate
+    sight: >
+      The eastern entrance...or exit if you prefer features two lookout tower on each side of the gates to
+      watch for any hostile invaders. You can see a paved road run out in the distance to the east or you can
+      enter town to the west.
+flag:
+  - outdoors

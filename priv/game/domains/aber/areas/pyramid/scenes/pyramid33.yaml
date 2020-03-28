@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Treasure Room
+    sight: >
+      &+YGold&N! The glint of it is everywhere as you gaze around the room. The walls have been &+Yglided&N
+      and scenes carved into them displaying Neferteri and her journey to glory and infamy. &+YGolden&N
+      statues bearing the likeness of the high priestess sit upon bound chests far too large for one person to
+      carry. The seal on one chest has been broken, the lid tossed back revealing the wealth inside of it. Yet
+      something makes you pause before scooping up the vast treasures that seem yours for the taking.
+flag:
+  - dark

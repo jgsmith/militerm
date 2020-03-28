@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds6"
+      north:
+        target: "scene:aber:dragonslueth:ds14"
+      south:
+        target: "scene:aber:dragonslueth:ds16"
+      west:
+        target: "scene:aber:dragonslueth:ds15"
+    short: Courtyard
+    sight: >
+      Wow! you have enter a section of a cave that is magically lit and stretches on for miles. You see a big,
+      empty courtyard of green grass and a castle off in the east. The exits are &+Cnorth&*, &+Csouth&*,
+      &+Ceast&*, and &+Cwest&*.
+flag:

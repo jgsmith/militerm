@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:newvillage:road2n"
+    short: The Armor Shop
+    sight: >
+      In the waiting room you have entered, there are various pieces of armor hanging on the walls. standing
+      on the floor, and resting on tables. They all seem to be under the watchful eye of the armorer sitting
+      in the back so you don't dare try to take any of them. Behind a counter is the work area.
+flag:

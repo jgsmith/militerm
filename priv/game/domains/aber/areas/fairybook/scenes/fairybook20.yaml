@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook21"
+      west:
+        target: "scene:aber:fairybook:fairybook18"
+    short: Stairs
+    sight: >
+      A staircase extends up to the room above. The foyer is to the west.
+flag:

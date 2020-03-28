@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot258"
+      east:
+        target: "scene:aber:camelot:camelot273"
+      north:
+        target: "scene:aber:camelot:camelot272"
+      south:
+        target: "scene:aber:camelot:camelot269"
+      up:
+        target: "scene:aber:camelot:camelot279"
+      west:
+        target: "scene:aber:camelot:camelot271"
+    short: Second Floor Landing
+    sight: >
+      This level of the Keep seems to be devoted to living quarters for guests. Exits North, East, and West
+      lead to rooms, while a balcony lies south. Above you lies the entrance to Merlin private apartments. A
+      glance up the stairs shows that it is well guarded, and probably not a wise place to intrude.
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:eforest:glade"
+      south:
+        target: "scene:aber:eforest:corrupted"
+      west:
+        target: "scene:aber:eforest:oaks"
+    short: Shattered Forest
+    sight: >
+      You cry out in horror as you witness what has been done to this forest. All about, trees lie downed, as
+      if hewn by some giant axe. However, even the twisted corpses of the trees seem unnatural. Somehow, a
+      single oak &+Gtree&* in the center of the swath of destruction seems to have survived. It lies just to
+      the east of you. To the west, the line of destruction seems to continue. Mercifully, mountains to the
+      east protected any further realms from this corruption.
+flag:
+  - outdoors

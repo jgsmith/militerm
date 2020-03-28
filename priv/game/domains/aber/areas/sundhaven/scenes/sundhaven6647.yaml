@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6632"
+    short: The Silver Scale
+    sight: >
+      You pass into a shop whose walls are gleaming dully, hung with various armor reflecting the firelight
+      spawning from the forge. Goods of defensive metal may be bought and sold here, at nearly reasonable
+      prices. Use 'list' to peruse the options.
+flag:
+  - nomagic
+  - peaceful
+  - nomobiles

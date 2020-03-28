@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot109"
+      north:
+        target: "scene:aber:camelot:camelot112"
+      west:
+        target: "scene:aber:camelot:camelot111"
+    short: Corridor
+    sight: >
+      >From the looks of things, this is nothing more then a way to get from one room to another. The walls
+      are the usual rough hewn stone you've grown used to seeing in this dismal place.
+flag:
+  - dark

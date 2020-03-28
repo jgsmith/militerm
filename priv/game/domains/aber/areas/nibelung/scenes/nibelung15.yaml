@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Steep Trail
+    sight: >
+      The trail gives way, tumbling you off into space. You've fallen...and you can't get up!
+flag:
+  - death

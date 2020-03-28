@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:bridge"
+      north:
+        target: "scene:aber:valley:northernend"
+      west:
+        target: "scene:aber:valley:stream1"
+    short: Stream
+    sight: >
+      You are standing beside a narrow stream, which tinkles eastwards through the trees. You can travel
+      through the trees in any direction save south where the stream has cut a deep channel too wide to ford.
+flag:
+  - outdoors

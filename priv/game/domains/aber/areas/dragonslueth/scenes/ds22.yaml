@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds21"
+      up:
+        target: "scene:aber:dragonslueth:ds25"
+      west:
+        target: "scene:aber:dragonslueth:ds23"
+    short: Kitchen
+    sight: >
+      Looking around you realize that this room is a very old kitchen and it doesn't have very many of the
+      modern conveniences of life. No blenders or food processors. But, they have several sinks with dishes
+      that have mold on them that look like they have been there for about 20 years. There are rats running
+      along the ground as you wander around. The exits are &+Cup&*, &+Cwest&*, and &+Ceast&*.
+flag:

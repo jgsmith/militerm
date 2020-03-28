@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:mrealms:mrealms"
+      east:
+        target: "scene:aber:mrealms:edge"
+      north:
+        target: "scene:aber:mrealms:beach"
+      south:
+        target: "scene:aber:mrealms:island"
+      up:
+        target: "scene:aber:mrealms:diner"
+      west:
+        target: "scene:aber:mrealms:sidewalk"
+    short: The Second Level
+    sight: >
+      Here you find more rooms. To the north you hear waves crashing against a beach. Through the south exit
+      you see trees and seashells but no people. From above you wafts the smell of apple pie and coffee. To
+      the east you see blackness, while to the west you smell a breeze of pepermint wind. You could always go
+      back down.
+flag:
+  - peace
+  - party

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eirias:garden"
+    short: The Fountain
+    sight: >
+      In the great circle of the garden, formal balustrades and seats of white marble are set around a
+      glittering &+Cfountain&* where three white dolphins endlessly leap, spouting a high triple spray of
+      tasselled water drops, with a faint arching rainbow caught all over by the sun. And as if to offset the
+      cool lines of the marble, mounds of roses grow everywhere, tall as trees.
+flag:
+  - outdoors

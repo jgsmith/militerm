@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:princess:downtower"
+    short: Upstairs In the Tower
+    sight: >
+      You have reached the top of the tower. Everything here is dreary, and you can tell that this is the
+      tower of an evil person. Piles of &+Cbones&* and horrible looking &+Cpotions&* are scattered all over
+      the floor of the tower. This looks like a terrible place to be!!
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis25"
+      north:
+        target: "scene:aber:atlantis:atlantis20"
+      west:
+        target: "scene:aber:atlantis:atlantis16"
+    short: "Atlantis' Gates"
+    sight: >
+      Before you are the gates to the Lost City of Atlantis. The gates are about twice as high as the average
+      merman and they are wide open, to allow the stream of aquatic life through the gates. All forms of life
+      pour through the gates, on their daily business or just to sightsee. It appears that Atlantis has become
+      quite the tourist attraction as it's fame has grown, so aquatic life forms from all over journey to
+      visit. You may swim through the gates to the east, enter a kelp bed to the north or head back along the
+      sea bed to the west.
+flag:
+  - underwater

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house11"
+      west:
+        target: "scene:aber:playhouse:house18"
+    short: Hallway
+    sight: >
+      You are inside of a hallway. A few pictures hang from the walls and a single light on the ceiling casts
+      enough light to let you see. There are blue markings on the wall, and you wonder what angel could have
+      done this. The hallway continues to the west and the landing is to the east.
+flag:

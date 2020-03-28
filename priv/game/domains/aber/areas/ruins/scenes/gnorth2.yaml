@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:gnorth"
+      west: null
+    short: End of Northern Catacombs
+    sight: >
+      This looks to be the end of the northern catacombs. Looking around you wonder why this area is so small,
+      it should be larger. You notice an old burned out torch hanging on the west wall with moss growing from
+      it. There is also a great deal of moss growing on the ceiling and the other walls and there is yet more
+      slime on the floor.
+flag:
+  - dark

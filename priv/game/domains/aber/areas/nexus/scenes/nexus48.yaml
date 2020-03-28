@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus47"
+    short: Overlook
+    sight: >
+      At 150 feet above the eroding rocks, the grassy tops of the cliffs rise to a tapering point. Tropical
+      birds fly at these lower altitudes, gliding on the coastal breezes. Close to the edge, an ancinet
+      &+Cbrick cairn&* stands for no apparent useful reason. On its top tier lies a small, wooden idol - an
+      artifact to some long-lost deity, perhaps. The grass around the cairn grows more steadily compared to
+      the rest of the plateau, where the weather continually gnaws away at the nutrients in the soil.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

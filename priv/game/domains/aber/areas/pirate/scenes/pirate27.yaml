@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate26"
+      south:
+        target: "scene:aber:pirate:pirate29"
+      west:
+        target: "scene:aber:pirate:pirate28"
+    short: Altar Room
+    sight: >
+      You are standing amid the pews in the main room of the temple. Murals of hobbits in a number of
+      activities cover the walls, giving the room a cheerful appearance. On the altar at the front of the room
+      is what appears to be the remains of food, apparently some sort of offering to the Gods. Exits lead to
+      the east, south, and west.
+flag:
+  - nomobiles
+  - underwater
+  - dark

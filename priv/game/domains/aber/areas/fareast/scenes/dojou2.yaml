@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:dojou1"
+    short: Dojo- Upper Room
+    sight: >
+      This section of the upper level is open on two sides- to the south to allow passage back and forth
+      between the two platforms, and to the north, only a small window-slit is left open. A post outside
+      offers some clue as to the purpose: small indentations in the wood indicate some sort of impact. A
+      practice course for some skill, perhaps.
+flag:
+  - dark

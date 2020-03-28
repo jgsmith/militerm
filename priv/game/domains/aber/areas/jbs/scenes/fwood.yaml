@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fwood5"
+      north:
+        target: "scene:aber:jbs:fwood2"
+      south:
+        target: "scene:aber:jbs:fwood1"
+      up:
+        target: "scene:aber:jbs:fwood3"
+      west:
+        target: "scene:aber:jbs:fgate"
+    short: Fairy Wood
+    sight: >
+      Lost.... You find yourself stumbling through a large, misty wood that seems to extend in all directions
+      to infinity. The trees seem to be moving around you opening paths through the thickest brush and closing
+      before allowing you to go down the clearest path. The sky above you is fairly visible through the tree
+      tops, but as you look up all you see are incredible vortices of swirling color.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:e_amb"
+      south:
+        target: "scene:aber:cathedral:se_chap"
+      west:
+        target: "scene:aber:cathedral:s_amb"
+    short: Southeastern Ambulatory
+    sight: >
+      The aisle continues here around the apse. A chapel lies to the south.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6694"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6708"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6692"
+    short: A stony drop
+    sight: >
+      Rocks go streaming down and over the cliff as you slide and skip down a sheer drop of a trail. You have
+      little time to take in your surroundings, as your attention is focused on keeping a purchase on the
+      skiddy soil.... the cliff's brink is always close at hand.
+flag:
+  - outdoors

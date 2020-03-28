@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curse6"
+      north:
+        target: "scene:aber:fareast:cursefire"
+    short: Cursed Forest- Charcoal and Ashes
+    sight: >
+      The fire that still burns to the north has passed through here, leaving a gap in the forest and a pocket
+      of clean air. You can actually take a few breaths without retching.
+flag:

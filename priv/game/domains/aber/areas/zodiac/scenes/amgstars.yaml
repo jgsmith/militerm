@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:top_west"
+      east:
+        target: "scene:aber:zodiac:eastsky"
+      north:
+        target: "scene:aber:zodiac:northsky"
+      south:
+        target: "scene:aber:zodiac:southsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:westsky"
+    short: Among the Stars
+    sight: >
+      You find yourself wandering amongst the stars in the infinite night sky. You're baffled by the
+      incredible size of the area around you...seemingly endless. You could easily find yourself lost forever
+      in these timeless voids.
+flag:
+  - nomobiles

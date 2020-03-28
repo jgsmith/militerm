@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:woods4"
+      south:
+        target: "scene:aber:sagewood:woods6"
+    short: Ravaged Woods
+    sight: >
+      The trees and plants here fight in a never-ending battle for light. All around are trees chocked by
+      parasitic vines and creepers. North and West are totally blocked by impassable walls of gigantic trees.
+      &+CEast&* is a clearing and the woods seem to get darker &+CSouth&*.
+flag:
+  - outdoors

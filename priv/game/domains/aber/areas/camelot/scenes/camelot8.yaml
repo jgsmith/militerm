@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot21"
+      north:
+        target: "scene:aber:camelot:camelot9"
+      west:
+        target: "scene:aber:camelot:camelot1"
+    short: Branching Hall
+    sight: >
+      The hall branches here, going west to the castle entry, north past a series of doors, and east. To the
+      east you see a faint glow, which reminds you of the play of light on gems.
+flag:

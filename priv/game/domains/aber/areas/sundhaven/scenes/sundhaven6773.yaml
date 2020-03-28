@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6774"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6771"
+    short: A dark corridor
+    sight: >
+      Shadows seem to creep within the shadows already existing, clashing and clambering over one another
+      before the approach of your footfalls, yet everything seems to indicate to you that this is not the sort
+      of fun fairy-tale niche your mother liked to tell tales about by the fireside of your ancient home. Do
+      you continue, or turn back? Sometimes shadows may form a bluff of great danger in the recesses of your
+      imagination.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:dead"
+      south:
+        target: "scene:aber:novice:grand"
+      west:
+        target: "scene:aber:novice:small"
+    short: The Northern Oak
+    sight: >
+      You have reached the northern-most tree in the circle. This one seems to be one of the youngest in the
+      cluster, even though they all seem to be about the same age. This tree is just a little smaller and the
+      bark is just a bit smoother than many of the others.
+flag:
+  - outdoors
+  - real

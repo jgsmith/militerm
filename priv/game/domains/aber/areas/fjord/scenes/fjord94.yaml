@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord93"
+    short: Library of Kyerstarn
+    sight: >
+      Stone bookcases with wooden supports have been constructed to hold the books which, in time, will
+      inhabit them. A lone clerk sits behind a desk doing her daily work of stamping out orders for books and
+      clearing out receipts of sale to the library. It is also her job, and the job of everyone, to be totally
+      literate and help contribute to the town's poor supply of stories. Since paper can be readily made from
+      the Muskrat pines to the south, the villagers use their divinely strengthened powers of spirit and
+      community to, quite literally, move mountains and get at the trees.
+flag:

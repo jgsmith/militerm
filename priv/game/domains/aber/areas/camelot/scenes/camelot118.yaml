@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot116"
+      west:
+        target: "scene:aber:camelot:camelot119"
+    short: Winding Tunnel
+    sight: >
+      You are walking down a long winding east-west tunnel. To the east you can see a narrow tunnel. To the
+      west you see a larger tunnel, or a small cavern.
+flag:
+  - dark

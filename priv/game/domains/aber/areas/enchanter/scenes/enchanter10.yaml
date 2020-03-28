@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter7"
+      north:
+        target: "scene:aber:enchanter:enchanter7"
+      south:
+        target: "scene:aber:enchanter:enchanter11"
+      up:
+        target: "scene:aber:enchanter:enchanter11"
+    short: The Foothills
+    sight: >
+      You are at the edge of the forested foothills of Signal Mountain. The trail continues south.
+flag:
+  - outdoors
+  - real
+  - tempreal

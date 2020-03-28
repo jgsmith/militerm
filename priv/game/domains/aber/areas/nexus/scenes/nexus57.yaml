@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus56"
+    short: Top of the Wall
+    sight: >
+      Five hundred feet separate the ground and top of this wall. The wind speed resembles that of the jet
+      stream itself, powerfully whipping across the flat width of the top of the wall. On one side there is a
+      spectacular view of the island, but on the other, a very dark abyss exists. Even the light of the
+      noontime sun cannot make a dent in this bottomless shadow.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

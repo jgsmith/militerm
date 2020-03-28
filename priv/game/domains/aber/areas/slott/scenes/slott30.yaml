@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott38"
+      south:
+        target: "scene:aber:slott:slott25"
+      west:
+        target: "scene:aber:slott:slott29"
+    short: "Mrs's bedroom"
+    sight: >
+      This was once a beautiful bedroom with a big comfortable &+Bbed&* and a small &+Btable&* at the eastern
+      wall. There are some closets in here but they have been raided by someone...someone that didn't care
+      much of doors apparently, course a few of them have been torn apart or the doors have been smashed to
+      tiny pieces!
+flag:

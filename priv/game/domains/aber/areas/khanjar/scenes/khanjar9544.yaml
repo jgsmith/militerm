@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9540"
+      south:
+        target: "scene:aber:khanjar:khanjar9545"
+    short: Higher Up
+    sight: >
+      Conducted by a gentle wind you climb the mountainside and reach some space to rest on. Taking a look at
+      the sky you see a small eagle flying round the summit and vanishing into the canyons. You can still
+      continue to the south but it seems difficult to ascend the hillside any higher.
+flag:
+  - outdoors
+  - cold

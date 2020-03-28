@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid25"
+      south:
+        target: "scene:aber:pyramid:pyramid27"
+      up:
+        target: "scene:aber:pyramid:pyramid28"
+    short: Mummification Room
+    sight: >
+      An eerie feeling along with an overwhelming odor assaults you as you step inside this room. On tables
+      lie metal implements that looked to be instruments of torture. Jars holding palm wine, cedar oil and
+      other astringents sit underneath. Stacks of &+Wwhite&N linen rest in an open chest. It isn't hard to
+      discern the purpose of this room when you spy the body of freshly wrapped mummy lying on a high granite
+      slab. Though the stone appears to be clean, you can see traces of a &+rrust&N-colored substance.
+      Shivering at the thought of coming to such and end, you feel the need to hurry from this place.
+flag:
+  - dark

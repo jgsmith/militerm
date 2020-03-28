@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town29"
+      west:
+        target: "scene:aber:town:town32"
+    short: Main Play Area
+    sight: >
+      This is the largest room of the brothel complex; many people come up here to have a night of pure
+      enjoyment and to let go of all inhibitions. The room smells of nice perfume and there are some customers
+      lounging around waiting to be served. To the east is a window that exits out onto a ledge of the
+      building, and to the west is the main hallway of the brothel.
+flag:

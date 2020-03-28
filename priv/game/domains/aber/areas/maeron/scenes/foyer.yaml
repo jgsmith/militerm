@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:maeron:basement"
+      east:
+        target: "scene:aber:maeron:livingroom"
+      north:
+        target: "scene:aber:maeron:lab"
+      south: null
+      up:
+        target: "scene:aber:maeron:upstairs"
+      west:
+        target: "scene:aber:maeron:diningroom"
+    short: &+BThe Foyer
+    sight: >
+      This chamber is the foyer of Maeron's mansion. Once beautiful, it has now fallen into disrepair. A thick
+      layer of dust seems to cover everything. The fine furniture, once of high quality is now also covered in
+      dust and rotting away. To the &+RNorth&* is what looks like a laboratory. &+RWest&* is the dining hall.
+      Off &+REast&* is the living room. A wrought-iron spiral staircase leads &+Rdown&* into darkness and
+      &+Rup&* into fierce sounding icy winds.
+flag:

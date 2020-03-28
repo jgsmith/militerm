@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:ending"
+      south:
+        target: "scene:aber:frobozz:drafty"
+    short: Dark and Drafty Chamber
+    sight: >
+      You have entered a dark and drafty chamber. The draft is not that strong here, but that is because this
+      chamber is much bigger than the narrow tunnel you used to get here. This chamber is nearly pitch dark,
+      but a few sunbeams manage to get through a crystal grating in the ceiling. The grating is just reachable
+      but the size of it prevents you from climbing through it when opened. Worth noticing are the extremely
+      dark walls of this chamber. It is as if they are made of lightabsorbing material. There is an exit to
+      the south and another exit into a pitch dark chamber to the east.
+flag:
+  - dark

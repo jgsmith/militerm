@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:app:app24"
+      west:
+        target: "scene:aber:app:app28"
+    short: Bottom of Stairs
+    sight: >
+      You have reached the bottom of the stairs. To the west is what appears to be a dungeon. You can now hear
+      the screams of pain that come from one of the rooms.
+flag:

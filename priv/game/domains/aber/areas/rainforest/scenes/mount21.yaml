@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount19"
+      south:
+        target: "scene:aber:rainforest:mount20"
+      west:
+        target: "scene:aber:rainforest:mount22"
+    short: On The Moraine
+    sight: >
+      You are making your way along the moraine at the northern edge of the glacier. At the moment it still
+      looks as if following the moraine would be easier than crossing the glacier, but you may attempt the
+      latter if you feel brave.
+flag:
+  - outdoors
+  - cold

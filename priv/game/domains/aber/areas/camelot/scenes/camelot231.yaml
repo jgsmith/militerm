@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:camelot:camelot264"
+      north:
+        target: "scene:aber:camelot:camelot232"
+      south:
+        target: "scene:aber:camelot:camelot230"
+    short: Vegetable Garden
+    sight: >
+      You are standing in a huge vegetable garden surrounded by bushes. The crops are carefully tended, and
+      you would estimate that they would be ample to provide food for a long seige. Obviously, the owners here
+      don't want to suffer in an invasion.
+flag:
+  - outdoors

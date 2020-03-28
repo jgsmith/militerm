@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus2"
+    short: The Crystal Plain
+    sight: >
+      The swirling purple mist clears in this region of the plain, allowing visibility to several hundred
+      meters. Like the eyes of a hurricane, the sky above is clear as well, giving view to the legions of
+      cloud castles above, each floating on its own separate mounds of white fluffiness and ice crystals. A
+      soft wind rustles slivers of shattered and reflective crystal along the ground and propels the clouds in
+      the same direction. The sunlight that does manage to pierce through the gloom is partly absorbed, partly
+      reflected off the plain.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

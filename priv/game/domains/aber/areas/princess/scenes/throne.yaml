@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:princess:hall"
+    short: Castle Throne Room
+    sight: >
+      You walk into the throne room. In the center of the room, you see a throne. The &+Ythrone&* is made of
+      gold with gemstones embroidered in it. On the walls hang &+Rtapestries.
+flag:
+  - peaceful

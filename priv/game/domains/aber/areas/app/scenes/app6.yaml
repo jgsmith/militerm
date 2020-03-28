@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:app:app8"
+      west:
+        target: "scene:aber:app:app7"
+    short: Before the Dead Woods
+    sight: >
+      Before you lies the Dead Woods. From rumors you have heard, very few have entered and have exited
+      without being changed in some way. Those who have exited are so frightened by what they have seen, they
+      cannot describe it to others. To the west lies a small shack. While to the south, you may enter the
+      woods.
+flag:
+  - outdoors
+  - nomobiles

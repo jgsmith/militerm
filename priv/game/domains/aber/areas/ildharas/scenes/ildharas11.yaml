@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ildharas:ildharas12"
+      west:
+        target: "scene:aber:ildharas:ildharas10"
+    short: Along the Ruined Wall
+    sight: >
+      The wall seems to have crumbled on its own accord in some places, falling in on itself as time and the
+      elements have worn it down. Looking up, you notice what appears to be a nest of sorts. Years of bird
+      droppings have eaten away at the stone, making it rough enough to climb if you really cared.
+flag:
+  - outdoors

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins24"
+      north:
+        target: "scene:aber:origins:origins23"
+      south:
+        target: "scene:aber:origins:origins29"
+      west:
+        target: "scene:aber:origins:origins21"
+    short: Willowdale
+    sight: >
+      You reach the stricken village of Willowdale, and right away wish you hadn't. Cries of anguish from
+      stricken mothers and children pervade the heavy gloom. Depression falls heavier than a thick mantle
+      here. There is not much to see, as all the homes and buildings have been shattered. The dreary path
+      turns south towards a large castle, north into hellish woods, east towards dead land, or offers passage
+      to the west back across the river.
+flag:
+  - outdoors
+  - soundproof
+  - nomobiles
+  - negregen
+  - soundproof

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung24"
+      south:
+        target: "scene:aber:nibelung:nibelung29"
+    short: Decaying Land
+    sight: >
+      The land here is, well, decaying. The trees are mere skeletons, and the grass is brown and dry. Nothing
+      seems to be living here, and you notice the absence of birds chirping, and the usual hum of mosquitos.
+      The air smells musty and old, like the inside of a vacuum.
+flag:
+  - outdoors

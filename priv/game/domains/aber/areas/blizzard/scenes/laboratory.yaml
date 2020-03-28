@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Laboratory
+    sight: >
+      You are in an old laboratory for sorcerous experiments. Almost everything to indicate this has been
+      removed, however, leaving only marks in the dust. There is a door to the north.
+flag:

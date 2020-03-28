@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9919"
+    short: A messy bedroom.
+    sight: >
+      You are stainding inside a messy bedroom furnished with a VERY stained bed and a simple roll top desk. A
+      window stands to the north overlooking darkness beyond.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:mithdan:mithdan17"
+      east:
+        target: "scene:aber:mithdan:mithdan20"
+      north:
+        target: "scene:aber:mithdan:mithdan17"
+    short: Huge Rock
+    sight: >
+      You stand atop a huge snow-covered rock. The rock itself is over thirty paces long, and it slants
+      upwards to the east. The snow makes it difficult to keep from slipping on the slick surface of the
+      stone. The path drops away to the north, and thick green forest streches below you.
+flag:
+  - outdoors
+  - cold

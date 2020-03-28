@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+    short: Through the White Mist
+    sight: >
+      Grasping the shimmering doorway, you place your head and upper half of your body in the misty clouds and
+      try to see what lies ahead. For a minute nothing happens, then slowly the upper half of your body begins
+      to glow and shimmer with unearthly light, spreading down to the rest of you. The glow fades, taking with
+      it your features and colour. The outline of your body can still be seen but it starts to smudge and
+      blur. Soon, all that is left is white, billowing smoke moving gently in the quiet corridor, then
+      drifting through the door and becoming part of the larger cloud mass. You have tried to pass through a
+      door of nothingness, which no mortal may do and live.
+flag:
+  - death

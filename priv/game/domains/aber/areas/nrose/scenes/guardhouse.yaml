@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:portcullis"
+    short: Guard House
+    sight: >
+      You are inside a small guard house attached to the archway. From the dust, cobwebs, and rotten wood in
+      here you can guess that this guard house has not been used in a long time.
+flag:

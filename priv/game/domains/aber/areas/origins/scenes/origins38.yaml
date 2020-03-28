@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins33"
+      up:
+        target: "scene:aber:origins:origins39"
+    short: The Foot of the Stairs
+    sight: >
+      You exit the courtyard and reach the foot of a long flight of steps that seems to reach up forever. You
+      seem to perceive some movement at the top of the stairs, but cannot from this distance ascertain exactly
+      what it is. You may climb the steps or return north to the courtyard.
+flag:
+  - dark
+  - soundproof
+  - negregen

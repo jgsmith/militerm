@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere42"
+    short: Bottom of the Falls
+    sight: >
+      Standing on a silty shoreline you gaze up in awe at a huge waterfall plummeting down from on high. The
+      spray arcs out in all directions, making the cavern walls glisten and filling the air with a fine mist.
+      The noise is incredible, amplified by the acoustics of the cavern, making any conversation save a yell
+      impossible. The waterfall cascades into a circular pool, beaten white and frothy by the force of the
+      water. The pool overflows on one side, letting the water race on into an underground river to the east.
+      On the other side of the pool you think you see a small jagged hole leading into darkness, but there is
+      no way you could reach it from this side of the waterfall.
+flag:
+  - dark

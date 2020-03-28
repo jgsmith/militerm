@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:church:t_barrow"
+      north:
+        target: "scene:aber:church:n_barrow"
+      south:
+        target: "scene:aber:church:g_yard2"
+    short: The Barrow
+    sight: >
+      You stand near the top of a large mound. A path leads south back into the main part of the graveyard,
+      north to another mound and east towards a pillar set on the top of the mound. A small grave bears the
+      words "Anarchy The Wizard (Out for lunch)" A plaque on the grave reads 'Anarchy The Wizard - slain by
+      the Aberystwyth rules --- "If you can't pass your physics you can't have your degree. How can you have
+      your degree if you can't pass your physics..."
+flag:
+  - outdoors

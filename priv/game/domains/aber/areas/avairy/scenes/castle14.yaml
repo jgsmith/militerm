@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:avairy:castle13"
+    short: Castle Playhouse
+    sight: >
+      You have entered the castle playhouse. The stage is right in front of you. Examining the floor, you can
+      almost make out the edges of a trap door. It appears as though the bird crew is in preparation for a new
+      play as you notices pieces of the set in works everywhere.
+flag:
+  - light

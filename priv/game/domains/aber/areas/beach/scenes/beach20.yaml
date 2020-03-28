@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach19"
+      south:
+        target: "scene:aber:beach:beach21"
+    short: One Particular Harbour
+    sight: >
+      Here you have reached a harbour, the air is sweet, and filled with the laughter of children. The dock
+      here is small but elegant, and the dock hand easily guides the Savannah Jane to her dock. Looking inland
+      you see a small town, filled with peace. The children here play on the shore here, and all is safe. You
+      may never want to leave.
+flag:
+  - outdoors

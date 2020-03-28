@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:talon17"
+    short: Small Cavern
+    sight: >
+      This is a smaller cavern which has no apparent exit, save the opening you entered from. The walls in
+      this cave seem to be covered with strange markings. The markings appear to show a sort of battle which
+      takes place between a warrior and a terrifying-looking black dragon. In one drawing, the warrior is
+      slaughtered by the dragon, and in another, the warrior defeats the dragon while wearing an odd-looking
+      shield. For some reason, the warrior seems strangely familiar.
+flag:

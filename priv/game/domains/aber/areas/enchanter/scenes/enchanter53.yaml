@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter52"
+      west:
+        target: "scene:aber:enchanter:enchanter54"
+    short: Banquet Hall
+    sight: >
+      This is where the inhabitants and guests of the castle used to gather to dine. The tables are still
+      here, and some are even decked in resplendent scarlett tablecloths. Apparently something kept Krill away
+      from here.
+flag:

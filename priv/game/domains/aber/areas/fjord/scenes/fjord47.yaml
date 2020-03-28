@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord46"
+      east: null
+      north:
+        target: "scene:aber:fjord:fjord49"
+    short: Between the Mountains
+    sight: >
+      Whiteness and clouds mislead and obscure vision, respectively, as you leave a lonely trail of three-inch
+      deep footprints along the trail that has become a snow-filled ditch here. The grade continues nearly
+      level to the north and east, but plunges away to more sensible altitudes southward. There is the outline
+      of a cave within an overhang of porous rock and thick, streaked icicles. Brief jets of warm air are
+      vented from the opening.
+flag:
+  - outdoors
+  - cold
+  - noregen

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:entrance"
+      up:
+        target: "scene:aber:eastcoast:entrance"
+      west:
+        target: "scene:aber:eastcoast:swamplands"
+    short: Along the Cliff Path
+    sight: >
+      You feel little comfort here as the path lies mere feet from the first of the swampland trees, unearthly
+      twisted representations of plants, giving you a feeling of hopeless despair. The path looks even more
+      dreary to the west as it slopes gradually down to the level of the swamps itself, but a more promising
+      path lies upwards to the east, where there appears to be a cavemouth in the tall cliff face.
+flag:
+  - outdoors

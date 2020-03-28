@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:l663"
+      up:
+        target: "scene:aber:abyss:stairway"
+      west: null
+    short: Level 662
+    sight: >
+      You stand at the entrance to the 662nd level of the Abyss. A tunnel has been bored into the western face
+      of the pit.
+flag:
+  - dark

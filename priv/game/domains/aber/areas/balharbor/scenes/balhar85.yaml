@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar88"
+      north:
+        target: "scene:aber:balharbor:balhar86"
+      south:
+        target: "scene:aber:balharbor:balhar87"
+      west:
+        target: "scene:aber:balharbor:balhar33"
+    short: Well-Travelled Road
+    sight: >
+      You have come up upon a large number of white pillars of salt. What was a supposedly large number of Bal
+      Harbor's residents are now all frozen in place. Here these people had gotten over their fear and
+      gathered at this locale outside the city. Then the arguing started, and they split up into sides blaming
+      each other for what triggered the riots. It got so heated that they started brawling in the middle of
+      the road, from the look of the tracks in the dirt. But suddenly it came to a stop. There's a strong
+      precense of magic here, it seems someone wanted the fighting and bickering to end...permanently. You can
+      work your way through the pillars and enter the center of it to the east if you want to risk an
+      encounter with the magic's source, or walk around the pillars north and south.
+flag:
+  - tempreal

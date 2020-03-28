@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: The Secret Store Room
+    sight: >
+      You are in a secret room. The thick stone walls are damp and the room smells musty and unpleasant. There
+      is a cupboard on the north wall.
+flag:

@@ -1,0 +1,27 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins42"
+      north:
+        target: "scene:aber:origins:origins47"
+      south:
+        target: "scene:aber:origins:origins48"
+      west:
+        target: "scene:aber:origins:origins43"
+    short: Megadon
+    sight: >
+      You lie awake, staring out at the bleakness of Megadon. City and sky become one, a vast sea of unbroken
+      grey. The Twin Moons, just two pale orbs as they trace their way across the sky. You see various people
+      'plugging' into their machines, and carrying Temple Papers. From here, you may choose to walk in any
+      direction. To the north lie clearly the most important buildings here; huge, metallic structures which
+      form a small town of their own and easily dominates the view for miles. To the south lies the spaceport,
+      where large vehicles capable of flight arrive and depart regularly. To the east is another large
+      edifice, and people are bustling in and out of there hurriedly. Finally, to the west, is the single
+      place of residence you can recognize. It reminds you of familiar houses at home, except that it is made
+      of metal.
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:snare3"
+      west:
+        target: "scene:aber:abyss:snare7"
+    short: Well of Souls
+    sight: >
+      You are somewhere in the middle of the Netherhells prison. A chair has been placed next to a well in the
+      middle of the room. The well, instead of contain- ing water, contains a fire. The fire gives off no heat
+      as the flames leap from the well, and from deep within faint cries of pain can be heard.
+flag:
+  - peaceful

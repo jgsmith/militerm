@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge12"
+      east:
+        target: "scene:aber:ledge:ledge12"
+      up:
+        target: "scene:aber:ledge:ledge10"
+      west:
+        target: "scene:aber:ledge:ledge10"
+    short: Old Mining Tunnel
+    sight: >
+      A few broken beams make the ceiling look like it could collapse with the next tremor. You can hear drops
+      of water drip from the cracks along with some other noises echoing from further down. Hmmm...looks like
+      an adventure is waiting for you down there! Those who fear closed in spaces can run back outside up the
+      tunnel.
+flag:
+  - dark

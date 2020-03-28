@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar37"
+      north: null
+    short: The Courtroom
+    sight: >
+      You are inside the city's court house where criminals are tried and convicted of their crimes. This
+      building was used by the city officials to make their stand against the rioters until the Sash were
+      called in help restore order. Unfortunately, the city officials were locked up in a detention camp run
+      by the sash in some unknown location far away from here. This building still stands due to the fact that
+      it was built using marble and stone. The bench sits on the north end of the courtroom and a gavel sits
+      upon it. There are two tables where the plaintiff and defendant sit, a jury box for twelve jurors, and
+      several other seats for the audience. Due to the riots, court is not in session right now, so there's no
+      worry of being held for contempt--unless of course some wizard decides to hold a trial in here. A door
+      going to the judge's chambers is set next to the judge's bench. You can leave the courthouse through the
+      east door.
+flag:
+  - noquit
+  - nomagic
+  - nomobiles

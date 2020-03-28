@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook161"
+      west:
+        target: "scene:aber:fairybook:fairybook138"
+    short: Inside the Farmhouse
+    sight: >
+      The farmhouse is well lit by emeralds, set into the ceiling. Your skin takes on an unhealthy pallor in
+      this light. There is a couch in the corner, as well as a footrest. A door leads to the south, through
+      which you see a green field. The west door leads to the golden path.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest129"
+    short: Difficult Terrain
+    sight: >
+      Actually it is not the terrain which is causing the problems; mainly the incredibly rich ground cover
+      which you are painfully aware is very rich in thorns. To avoid doing yourself a serious injury you
+      decide that the best course is to head west out of the thorny patch.
+flag:
+  - outdoors
+  - rainforest

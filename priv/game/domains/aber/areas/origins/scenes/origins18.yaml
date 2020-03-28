@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins19"
+    short: The Road to Willowdale
+    sight: >
+      Fighting back to consciousness, coldness grips your skin. It suddenly becomes obvious to you that
+      Panacea and Geddy Lee have sent you here for a reason. All around you, trees hang somberly about you,
+      much resembling the willowy trees of swamps. You can't help but feel that the trees are watching your
+      every move, with misshapen and contorted faces of agony. The road leads on into darkness to the north.
+flag:
+  - outdoors
+  - negregen
+  - soundproof

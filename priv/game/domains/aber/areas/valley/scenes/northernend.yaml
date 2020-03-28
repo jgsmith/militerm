@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:oak"
+      north:
+        target: "scene:aber:valley:northend"
+      south:
+        target: "scene:aber:valley:stream2"
+      west:
+        target: "scene:aber:valley:nwcorner"
+    short: Northern End Of Valley
+    sight: >
+      You are near the northern end of the valley. The dark mountains close up around you to the north,
+      although a narrow track for some reason leads north right towards the very end of the valley. Elsewhere
+      around you the view is obscured by trees, although from the south you can hear the musical tinkle of
+      water.
+flag:
+  - outdoors

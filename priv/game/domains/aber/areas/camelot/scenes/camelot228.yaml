@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot227"
+      up:
+        target: "scene:aber:camelot:camelot247"
+      west:
+        target: "scene:aber:camelot:camelot217"
+    short: The Base of the Eastern Gatetower
+    sight: >
+      The gatetower provides excellent protection for the portcullis, above and beyond that provided by the
+      drawbridge. There is a fireplace and several chairs here for guards who are off duty.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:entry"
+      south:
+        target: "scene:aber:orcholdii:dining"
+      west:
+        target: "scene:aber:orcholdii:audience"
+    short: Grand Hallway
+    sight: >
+      This is perhaps the grandest of the three hallways exiting the hall. The floor is done in a beautiful
+      black marble and there are mithril &+Csconces holding globes of continual light. The most amazing object
+      in the room is the ceiling. It is a mosiac of the history of the orcs done by a masterful artist. It is
+      almost enough to bring you to tears. There are a pair of massive double doors standing open to the south
+      and the hallway leads to an audience chamber to the west.
+flag:

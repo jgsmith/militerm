@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3405"
+    short: The Orchard
+    sight: >
+      The orchard at one time must have been a beautiful, very peaceful place. You might have have come here
+      to relax on the well manicured grass, enjoying the majestic oak, pecan, and magnolia trees. However, now
+      they are all dead, and decaying branches and stumps litter the ground. The air smells of death - You
+      just hope it is not yours. An exit west would be the prudent choice.
+flag:
+  - outdoors
+  - real

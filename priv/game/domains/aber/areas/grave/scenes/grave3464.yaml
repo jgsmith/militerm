@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3463"
+      south:
+        target: "scene:aber:grave:grave3465"
+    short: Tunnel
+    sight: >
+      Here is a long tunnel which is very quiet and almost peaceful. As you enter the room you cannot see to
+      the other side, but as you move toward the middle of the room you can see exits to the north and south.
+flag:
+  - dark

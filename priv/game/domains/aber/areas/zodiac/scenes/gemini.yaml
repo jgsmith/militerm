@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:zodiac:aira"
+    short: "Gemini's Cloud"
+    sight: >
+      This cloud is so perfect, it needs no decoration, and it has none. This place is so beautiful you feel
+      as though if you don't leave now, you may never go.
+flag:

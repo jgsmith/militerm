@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9904"
+      west:
+        target: "scene:aber:ghenna:ghenna9943"
+    short: The streets of Ghenna.
+    sight: >
+      You are standing on a non-descript city street in Ghenna. The road continues East and West, rolling
+      gently over a dale.
+flag:
+  - dark
+  - outdoors

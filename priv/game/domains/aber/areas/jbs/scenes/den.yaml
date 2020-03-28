@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:dining"
+      north:
+        target: "scene:aber:jbs:foyer"
+    short: The Den
+    sight: >
+      This is a fairly small sitting room with a couch against the south wall and recliner by a quaint little
+      fireplace against the west wall. The room is neat, but looks as if it is used often. You can exit to the
+      north or east.
+flag:

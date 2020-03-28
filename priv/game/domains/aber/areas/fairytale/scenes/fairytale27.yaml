@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale28"
+      west: null
+    short: Drawbridge
+    sight: >
+      A drawbridge is here, mounted on wheels. It can be pushed across the moat to bridge the gap. The castle
+      itself rises far above you to the east.
+flag:

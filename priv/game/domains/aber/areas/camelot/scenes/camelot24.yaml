@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot23"
+    short: Treasury
+    sight: >
+      Yes, it is indeed the treasury, but of course, Merlin has seen to it's defenses. And death is always the
+      punishment for greed.
+flag:
+  - death

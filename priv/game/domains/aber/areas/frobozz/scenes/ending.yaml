@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:frobozz:dark"
+    short: Ending Tunnel
+    sight: >
+      You are in at a dead end of a small cave. Right there in front of you on the floor is a &+yhole&*,
+      somewhat 2 feet in diameter. Peering down into the hole you see nothing but darkness. There is an exit
+      leading west into a pitch dark chamber.
+flag:
+  - dark

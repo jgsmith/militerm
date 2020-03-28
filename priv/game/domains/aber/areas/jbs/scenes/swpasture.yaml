@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:sepasture"
+      north:
+        target: "scene:aber:jbs:pasture"
+    short: Southwest Corner of the Pasture
+    sight: Looks about like any other cow pasture from here.
+flag:
+  - outdoors

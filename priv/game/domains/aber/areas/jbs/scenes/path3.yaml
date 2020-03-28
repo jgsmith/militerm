@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:pond"
+      south:
+        target: "scene:aber:jbs:path2"
+    short: Farm Path
+    sight: >
+      This path runs north and south along the fence of the pasture. To the north you see a small pond and to
+      the south the path continues.
+flag:
+  - outdoors

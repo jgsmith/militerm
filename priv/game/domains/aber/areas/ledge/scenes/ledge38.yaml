@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge39"
+      south:
+        target: "scene:aber:ledge:ledge34"
+    short: Bear Cave
+    sight: >
+      You seem to have stumbled into the home of a large bear. The fact that this bear hasn't attacked you yet
+      is that this bear seems to be chained down. There seems to be another room behind the bear, but it
+      appears the way is blocked unless you can figure out a way to get past him. You can get away from this
+      bear to the south.
+flag:
+  - dark

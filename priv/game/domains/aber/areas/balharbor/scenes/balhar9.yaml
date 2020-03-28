@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar10"
+    short: House of Pets
+    sight: >
+      This is what used to be Bal Harbor's pet store, today it is abandoned and run down. Empty cages and pens
+      are strung everywhere and pet food has been spilled on the floor in which rodents feed. This shop was
+      forced to close down a while back after the riots that plagued the town resulted in the shop being
+      looted and the owner murdered. This depressing scene can be left out east.
+flag:

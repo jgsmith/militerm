@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:eastcat"
+      north: null
+      west:
+        target: "scene:aber:cathedral:westcat"
+    short: Catacombs
+    sight: >
+      The catacombs continue here and to the east and west. To your north there appears to be an opening in
+      the wall large enough for you to squeeze into.
+flag:
+  - dark

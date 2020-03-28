@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar22"
+      north:
+        target: "scene:aber:balharbor:balhar37"
+      south:
+        target: "scene:aber:balharbor:balhar10"
+      west:
+        target: "scene:aber:balharbor:balhar20"
+    short: Idol Square
+    sight: >
+      You are standing on the west side of the idol. Debris can be seen strung about the street and
+      smouldering piles of whatever it used to be as well. The faint smell of chemicals reaches your nose
+      making your eyes water, and what appears to be some dead bodies makes it don on you that a nasty riot
+      took place not too long ago. Exits run in all directions.
+flag:
+  - outdoors

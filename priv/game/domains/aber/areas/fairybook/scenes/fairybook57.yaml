@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook58"
+    short: Dark Wood
+    sight: >
+      You are almost frightened by the feeling of darkness which radiates from this wood. You step in anyway,
+      noticing that you are cool and comfortable beneath the shade of the - of the - um - oh no! You've
+      forgotten! This must be the wood in which nothing has a name! I hope you can find the - what's it
+      called? Path! Yes, that's it! Whatever you call it, it leads to the east.
+flag:
+  - nomobiles
+  - outdoors

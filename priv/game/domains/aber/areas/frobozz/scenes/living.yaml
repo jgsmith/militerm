@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:frobozz:kitchen"
+    short: The Living-Room
+    sight: >
+      This is the livingroom of the small white house, and in earlier days it must have been at least a bit
+      comfortable, but now it offers nothing. The windows are boarded shut with nailed pieces of planks and
+      the remaining parts of furniture and a large oriental &+yrug&* are badly ravaged. There is a single exit
+      north into the kitchen.
+flag:

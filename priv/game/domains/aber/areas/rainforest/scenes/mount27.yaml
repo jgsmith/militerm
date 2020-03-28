@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:mount26"
+      up:
+        target: "scene:aber:rainforest:mount28"
+    short: Southern Edge Of The Glacier
+    sight: >
+      You are at the glacier's southern edge. A steep rock face rises up here, and you will have to climb it
+      unless you choose to hazard the glacier again.
+flag:
+  - outdoors
+  - cold

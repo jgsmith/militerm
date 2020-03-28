@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9987"
+      south:
+        target: "scene:aber:ghenna:ghenna9989"
+    short: A long sloping tunnel.
+    sight: >
+      You are in a long tunnel which slopes ever so slightly toward the South. The smooth rock walls look like
+      they are sweating - there is SO much moisture.
+flag:
+  - dark

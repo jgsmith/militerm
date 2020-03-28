@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar26"
+      north:
+        target: "scene:aber:balharbor:balhar41"
+      south:
+        target: "scene:aber:balharbor:balhar84"
+      west:
+        target: "scene:aber:balharbor:balhar24"
+    short: Main Street
+    sight: >
+      More fires and vandalism can be seen here as you stand in front of the mayor's house where the rioters
+      held a final showdown to the former leader of Bal Harbor. The front of the building has been
+      spraypainted with various slogans of rebellion and gang violence. All the windows despite the bars
+      welded to them have been smashed out. The door to the house is ripped off the hinges lying in a heap of
+      twisted metal in the front yard. You also notice scorch marks in various places on the building in which
+      an attempt was made to burn it down--fortunately the place was made of stone. You can go in to
+      investigate the site south, head north on Vine Street, leave the city out the east gate or go back
+      deeper into the city west.
+flag:
+  - outdoors

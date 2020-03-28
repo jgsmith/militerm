@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:dcave3"
+      west:
+        target: "scene:aber:fantasy:dcave5"
+    short: Turn in the Dwarf Mine
+    sight: >
+      The mine has not gotten much colder, but it sure is getting a little bit darker. Looking around you see
+      that the mine turns to the west.
+flag:
+  - dark

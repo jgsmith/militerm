@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: The House of Witches
+    sight: >
+      Dangling mirrors reflect your face a thousand times from the walls and ceiling of this supply house of
+      witchcraft. Ingredients for the hexes of hags and the poisons of roguish assassins bubble and float in
+      jars crowded onto shelves, and tinkling against each other from strings around the stone doorway. A
+      voodoo doll pinned to one wall seems to be eyeing you. Let's hope you are not already earmarked for
+      demise by someone.
+flag:
+  - nomobiles
+  - dark

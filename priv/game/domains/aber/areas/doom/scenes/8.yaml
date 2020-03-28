@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:doom:7"
+    short: &+cThe Bar
+    sight: >
+      You walk into a large bar. This seems to be where most of the people are, for the bar is very crowded.
+      There are people sitting at tables having drinks, talking, and people dancing on the dance floor. There
+      are a bunch of drunks on the stage trying to dance, but they are stumbling and laughing too hard to do
+      so. You notice one guy sitting at the bar by himself with a strange look on his face, maybe you should
+      talk to him.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:4"
+      north:
+        target: "scene:aber:stjames:8"
+      south:
+        target: "scene:aber:stjames:10"
+    short: The Wading Area
+    sight: >
+      Moving through the wading area, trying not to get your rolled-up pants too wet, you realize how good the
+      water feels to your feet. You dip your arms in and cool your wrists. You then scoop up a little water in
+      your hands and put it on the back of your neck. The water is rejuvinating, and suddenly you feel
+      refreshed. To the west of you the water continues, but a rope line keeps you from wading into that area.
+      You can, however, canoe around the pond if you can find a boat along the shore.
+flag:
+  - outdoors

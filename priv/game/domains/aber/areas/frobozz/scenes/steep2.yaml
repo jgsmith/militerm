@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:bottom"
+      up:
+        target: "scene:aber:frobozz:steep3"
+      west:
+        target: "scene:aber:frobozz:bottom"
+    short: Steep Passage
+    sight: >
+      You are in a steep and narrow tunnel leading up. This tunnel has certainly not been used by to many
+      guests, because the steeps are still rough hewn and not worn down like other stairs in the area. It has
+      probably been used only by people who once upon a time took care of the dam. Down to the west is a large
+      and sturdy steeldoor leading back into the cavern.
+flag:
+  - dark

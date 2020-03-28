@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:lava_led2"
+      west:
+        target: "scene:aber:blizzard:hall"
+    short: Lava Ledge
+    sight: >
+      You are on a wide ledge looking down on a pool of bubbling lava below. There is another ledge on the
+      other side. A crystal bridge spans the pool to the south.
+flag:

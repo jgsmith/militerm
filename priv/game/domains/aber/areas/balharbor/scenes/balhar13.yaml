@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:balharbor:balhar12"
+    short: Armor Shop
+    sight: >
+      Untouched by the riots this shop has many different types of armor for sale. Shields, body armor, leg
+      armor, and helmets line the walls. Since the owners of this shop had a large cache of armor and weapons
+      to use in a fight against the mob, the rioters and looters kept their distance in fear of being chopped
+      to bits. If you got the cash you can buy some armor from this fellow at the counter. The square is back
+      north, while the forge is to the west.
+flag:
+  - nomagic

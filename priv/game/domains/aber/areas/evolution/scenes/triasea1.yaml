@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:permsea4"
+      west:
+        target: "scene:aber:evolution:triasea2"
+    short: Land Bridge
+    sight: >
+      You are atop a narrow strip of land which represents the junction of two continents which are slamming
+      inexorably into each other. In a few million years, the ground on which you are standing will no doubt
+      be many thousands of feet above sea level...
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+      west:
+        target: "scene:aber:abyss:control"
+    short: Front Hall
+    sight: >
+      This is the front hall of a private residence. A small side table is piled high with unopened mail.
+      There is an exit to the west and a black door to the south. The door has a dark arrow above it pointing
+      up and a small green button beside it.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot273"
+    short: The Closet
+    sight: >
+      The closet provides ample space for guests to store their garments, whether they plan to stay overnight,
+      or a month. Drawers for smaller items fill one wall, and racks line the others.
+flag:

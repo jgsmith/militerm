@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook91"
+    short: Basket
+    sight: >
+      A large basket hangs from the ceiling, padded to make it more comfortable than any bed you have ever
+      slept in. You can climb out to the east.
+flag:
+  - nomobiles

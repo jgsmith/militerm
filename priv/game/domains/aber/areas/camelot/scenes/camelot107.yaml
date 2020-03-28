@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot108"
+      west:
+        target: "scene:aber:camelot:camelot106"
+    short: Rough Worked Tunnel
+    sight: >
+      Looking at the poor condition of the tunnel, you find it hard to believe it was built by civilized
+      people. To the east you can see a small room, where there seems to be some sort of light.
+flag:
+  - dark

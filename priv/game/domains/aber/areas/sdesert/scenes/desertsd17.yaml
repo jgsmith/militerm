@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd18"
+      north:
+        target: "scene:aber:sdesert:desertsd15"
+      south:
+        target: "scene:aber:sdesert:desertsd25"
+    short: A Bend In The Fading Road
+    sight: >
+      Here the road bends, on end leads &+ynorth&* and the other leads &+yeast. You are surrounded by sage
+      brush, and heat. You can barely make out a path to the south.
+flag:
+  - outdoors
+  - hot

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orchold:hallway1"
+      up: null
+      west:
+        target: "scene:aber:orchold:trap"
+    short: Orc Guardroom
+    sight: >
+      This is apparently where the guards go to change when they go on or off duty. The smell in the room is
+      almost intolerable. A ladder leads up to the ceiling, and passages lead west and north.
+flag:
+  - dark

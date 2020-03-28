@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis53"
+      west:
+        target: "scene:aber:atlantis:atlantis51"
+    short: Inside the Cave Mouth
+    sight: >
+      A small amount of light streams in from the water outside. In front of you is a passage through the
+      stone of the cave, roughly worn into the side of the stone by the passage of water. It appears that the
+      water broke through into the rough natural caves that were inside the stone here. These natural caves,
+      now filled with water, lead further inside or you can swim out the cave mouth once again to the west.
+flag:
+  - underwater

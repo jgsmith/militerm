@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town2"
+      west:
+        target: "scene:aber:town:town4"
+    short: Wide River
+    sight: >
+      The river continues to meander slowly towards the bay, where now you can just barely see a small port
+      town rising off in the distance. The salt smell is slowly diminishing as the fresh water is taking
+      control of the river. The river continues west to the port, and east to sea.
+flag:
+  - outdoors
+  - onwater

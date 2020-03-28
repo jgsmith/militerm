@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:river6"
+      west:
+        target: "scene:aber:rainforest:forest148"
+    short: Grassy Slope
+    sight: >
+      You are on the northern bank of the river, in a wide open area of grass, devoid of trees, which is a
+      refreshing change in this land. To the west the ground climbs a little way, and at the top of the slope
+      are a number of huts, forming a small village.
+flag:
+  - outdoors

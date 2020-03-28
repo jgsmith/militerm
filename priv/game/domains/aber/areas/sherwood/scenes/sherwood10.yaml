@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood11"
+      south:
+        target: "scene:aber:sherwood:sherwood9"
+    short: Path Straightens
+    sight: >
+      The path straightens. You look across the river and see something far off in the distance. It looks very
+      interesting. You shiver with anticipation of the time when you will be able to explore the region across
+      the river.
+flag:
+  - outdoors

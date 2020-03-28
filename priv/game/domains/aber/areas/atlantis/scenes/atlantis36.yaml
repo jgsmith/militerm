@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis35"
+      south:
+        target: "scene:aber:atlantis:atlantis37"
+      west:
+        target: "scene:aber:atlantis:atlantis29"
+    short: Watery Intersection
+    sight: >
+      You are standing in the main hub of Atlantis. All sorts of forms glide, wiggle or swim past you at
+      breakneck speeds trying to reach where they are going. There are a few fish here and there swimming
+      leisurely along the side of the watery street, looking into all the shops as they pass. You notice that
+      the windows in the buildings are simply holes cut out from the side of them with nothing covering them,
+      so occassionally a fish will dart through one of the windows in the building as well as the larger ones
+      needed for larger species, like the merfolk. You can head north or south along Main Street or west to
+      leave the city.
+flag:
+  - underwater

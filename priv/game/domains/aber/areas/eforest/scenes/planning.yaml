@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:eastend"
+    short: Planning Room
+    sight: >
+      You enter a large room which is almost entirely filled by a huge table. Upon the table sit little
+      miniature figures, arrayed as if for combat. You can vaguely make out a label on one particularly ugly
+      demon which says Asmodeus. Obviously, the Lich plans his grand wars here.
+flag:
+  - dark

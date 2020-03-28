@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rome:rome33"
+    short: Observation Lookout
+    sight: >
+      You are on a platform overlooking a massive aquaduct. There is a &+ctelescope mounted to the railing
+      that surrounds the area and you can hear the gurgle of water as it is channeled into the city. Off in
+      the distance, you can see the Mountain of the Gods. There is a &+Csign&* mounted to the railing and a
+      ramp leads west.
+flag:
+  - outdoors

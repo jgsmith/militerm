@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot224"
+      west:
+        target: "scene:aber:camelot:camelot222"
+    short: In the North Wall
+    sight: >
+      This long corridor streatches the full length of the castle grounds. Looking through the windows on the
+      inner wall, you can see a tournament field and, off to the east, the stables.
+flag:

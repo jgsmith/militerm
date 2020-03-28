@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:71"
+      west:
+        target: "scene:aber:cyrus:69"
+    short: Eastern way
+    sight: >
+      You are walking along a small trail surrounded by trees. Birds aren't singing anymore. Everything has a
+      creepy atmosphere. You can follow the trail further to the east, or turn back. You can see that the
+      trail turns north ahead of you.
+flag:
+  - outdoors

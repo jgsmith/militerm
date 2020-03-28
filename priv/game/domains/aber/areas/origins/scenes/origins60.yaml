@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins61"
+      north:
+        target: "scene:aber:origins:origins63"
+      south:
+        target: "scene:aber:origins:origins59"
+      west:
+        target: "scene:aber:origins:origins62"
+    short: The City of Immortals
+    sight: >
+      After many an hour of tiresome marching, you come upon a large, beautiful city. The road is indeed
+      marble white, and the buildings are purest gold. The mountain is closer than ever now, and its peak is
+      hidden in wispy, fluffy, white clouds. But what distracts your attention from all this beauty is the
+      scores upon scores of dead bodies of all races, which line the road and the rest of the City. You may
+      now turn left, to an area of the City marked as 'Apollo's Hemisphere', turn right to another division
+      marked 'Dionysus's Hemisphere,' or continue north to the base of the great mountain.
+flag:
+  - outdoors

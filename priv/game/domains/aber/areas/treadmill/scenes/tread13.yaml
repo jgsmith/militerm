@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:jungle16"
+    short: "The Devil's Punchbowl"
+    sight: >
+      Here resides a gaping hole in the ground as a result of a meteor strike, smoothed and rounded out over
+      thousands of years by rain and weathering. It is held by legend that this meteor strike opened a hole to
+      Hades in which demons could leave their world and haunt nearby inhabitants. It looks like it can hold a
+      large amount of punch for a party--its bowl is mostly granite.
+flag:
+  - peaceful
+  - outdoors

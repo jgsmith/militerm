@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord115"
+      south:
+        target: "scene:aber:fjord:fjord113"
+    short: Ferandilly Way
+    sight: >
+      The process of construction to cobbleston the roads continues ever on in Kyerstarn, but the workers have
+      finally gotten around to doing this section of the village. A collection of houses forms to the north,
+      while the road leads south to an already stoned intersection.
+flag:
+  - outdoors

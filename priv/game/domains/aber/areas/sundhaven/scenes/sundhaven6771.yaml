@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6773"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6772"
+    short: A stairwell
+    sight: >
+      The old stairwell completes its descent here, and a single passage, shadowed in darkness black as ink,
+      leads east.
+flag:
+  - dark

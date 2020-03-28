@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cliffs2"
+      north:
+        target: "scene:aber:fareast:cliffs1"
+      south:
+        target: "scene:aber:fareast:outlet"
+      west:
+        target: "scene:aber:fareast:shoreline"
+    short: Beach- Northern Edge
+    sight: >
+      The beach ends abruptly here, cut off by high cliffs on two sides, and the sea to the west. It is
+      impossible to see what might be atop the tall cliff faces, but carved paths snake to the north and east,
+      making it possible to travel there yourself. The beach stretches on to the south, where a ship floats in
+      the harbor.
+flag:
+  - outdoors

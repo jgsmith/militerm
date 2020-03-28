@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:zodiac:aira"
+    short: The House of Libra
+    sight: >
+      Libra's home is oddly quite a mess. The bed is laden with dirty clothing and dishes sit on every
+      available square inch of counter space.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:bridge"
+      west:
+        target: "scene:aber:forest:f6"
+    short: Stream Bank
+    sight: >
+      You stand on a quiet grassy stream bank. The water burbles gently past you, shaded by the thick trees
+      and bushes which grow along the bank. Towering oaks cast dark rippling shadows across the almost
+      mirrorlike rippling water which flickers in the light. The undergrowth blocks any way southwards along
+      the stream, but thins out to the north and west where paths lead off.
+flag:
+  - outdoors

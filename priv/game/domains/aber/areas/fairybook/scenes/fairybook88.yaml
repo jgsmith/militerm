@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Sunrise
+    sight: >
+      Blinded by the morning sun, you accidentally land in the ocean. The salt water washes off the fairy
+      dust, and you realize that you can no longer fly. A shark fin breaks the surface in the distance . . .
+flag:
+  - death

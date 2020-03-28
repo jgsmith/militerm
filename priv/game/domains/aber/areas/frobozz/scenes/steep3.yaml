@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:steep2"
+      east:
+        target: "scene:aber:frobozz:top"
+      up:
+        target: "scene:aber:frobozz:top"
+    short: Steep Passage
+    sight: >
+      You are in a steep passage which around the next corner right east of you seems to swing up to the
+      north. The passage also descends down to the west.
+flag:
+  - dark

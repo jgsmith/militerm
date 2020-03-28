@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pyramid:pyramid19"
+      east:
+        target: "scene:aber:pyramid:pyramid22"
+      north:
+        target: "scene:aber:pyramid:pyramid26"
+    short: Antechamber
+    sight: >
+      Stacked in this room are many wondrous things. Strange carvings of animals, statues, boxes, everything
+      it would appear to aid the king and queen through their journey through the afterlife. Closer inspection
+      reveals caskets of mummified cats and birds, obviously the beloved pets of the royal couple. Searching
+      through the jumble of objects, you realize anything of significant value has already been plundered by
+      tomb robbers.
+flag:
+  - dark

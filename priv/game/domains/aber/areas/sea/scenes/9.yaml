@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:8"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:7"
+      west:
+        target: "scene:aber:sea:2"
+    short: All At Sea
+    sight: >
+      You are lost, out all at sea amidst the waves. The sea seems reasonably smooth to the east and west. To
+      the west is the reassuring sight of land.
+flag:
+  - onwater
+  - outdoors

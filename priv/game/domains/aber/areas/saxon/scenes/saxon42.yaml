@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon43"
+      north:
+        target: "scene:aber:saxon:saxon43"
+      south:
+        target: "scene:aber:saxon:saxon43"
+      west:
+        target: "scene:aber:saxon:saxon41"
+    short: &+LDeep &*in the &+gForest&*
+    sight: >
+      This the entrance from the west into the forest. From here the forest extends to the north, south and
+      east. Back to the west is less dense forest and eventually the rolling prairie.
+flag:
+  - light
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon42"
+      west:
+        target: "scene:aber:saxon:saxon9"
+    short: &+LDying &+gForest&*
+    sight: >
+      Here on the edge of the prairie lies a dying forest. As you look eastward you see nothing but drooping
+      tree tops, which seem to extend out forever. Due to the fact the cover is dying, small undergrowth has
+      started to grow, but will not last for long. You can descend into the forest by going east, or head west
+      back to the prairie.
+flag:
+  - light
+  - nomobiles
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sommerlund:sommerlund47"
+    short: Dwelling of Ishir
+    sight: >
+      A magnificent cottage surrounds you. Fountains of crystal-clear water and pictures of the moon decorate
+      the four corners of the room. A platinum table inlaid with a full moon takes up center stage, while a
+      glass chandelier hangs suspended above it. The unmistakable aura of magic is present here in great
+      quantities, as permeating and as refreshing as a new breeze. Off to one side, a stained-glass aquarium
+      holds fluorescent fish which change their hues every few seconds.
+flag:

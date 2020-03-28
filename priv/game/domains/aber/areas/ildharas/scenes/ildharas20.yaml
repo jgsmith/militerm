@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas23"
+      west:
+        target: "scene:aber:ildharas:ildharas18"
+    short: Sitting Room
+    sight: >
+      The once plush furniture has been ripped to shreds by many claws. The tapestries and paintings have been
+      treated likewise. With so many beautiful things destroyed, you regret the senseless waste.
+flag:

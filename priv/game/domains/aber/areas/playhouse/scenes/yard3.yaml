@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard4"
+    short: Jungle Gym
+    sight: >
+      You see before you what appears to be an incomplete dome. Made of pipes and metal discs it looks stable
+      enough to hold a hundred kids. It must be fun to climb because kids are all over it, swinging from the
+      pipes and jumping from the sides of it. To the east are the swings.
+flag:
+  - outdoors

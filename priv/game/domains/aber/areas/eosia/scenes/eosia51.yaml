@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eosia:eosia50"
+    short: "A Troll's Treasure"
+    sight: >
+      This is Ghwerig's treasure room. The cavern sparkles from the light cast by your light source. Jewels,
+      gold, silks and more are piled as far as you can see. Ghwerig obviously has been a busy little gatherer.
+      A pedestal stands before you, maybe its just the light, but there appears to be something on it...
+flag:
+  - cold
+  - dark
+  - nosummon
+  - nomobiles

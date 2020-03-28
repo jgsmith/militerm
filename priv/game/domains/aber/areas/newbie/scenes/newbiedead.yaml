@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:newbie:newbie3"
+    short: Crumbling Cliff Edge
+    sight: >
+      You boldly go ahead into this location without thinking twice to take a look below the cliff edge, and
+      the cliff COLLASPES ON YOU!!! You fall thousands of feet, smash into billions of pieces and make a small
+      crater where you land! &+B---------------------------------------------------------------------------
+      	&+CYou seem to have died...
+      &+B--------------------------------------------------------------------------- Fortunately this was all
+      an illusion designed to warn you to watch where you're going. Had it been real, you would had lost
+      everything and be resurrected in Between Worlds. There is a way to tell for sure if a location is
+      deadly, which you will find out later. You can return to the tour west.
+flag:
+  - newbie
+  - peaceful

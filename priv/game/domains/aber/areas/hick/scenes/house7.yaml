@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house6"
+    short: Living Room
+    sight: >
+      This is a very nice living room with a large rug covering the wooden floor making it more comfortable to
+      walk on. The furniture in this room is very nice and plush, in fact it almost looks brand new. There is
+      a hallway leading to the east.
+flag:

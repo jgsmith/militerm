@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:other_side"
+      up:
+        target: "scene:aber:jbs:dreams"
+      west:
+        target: "scene:aber:jbs:fsun"
+    short: Space
+    sight: >
+      You find yourself in an infinite void. You seem to have forgotten where you made the wrong turn that
+      brought you here, but you have to deal with it anyway. Off in the distances all around you you can make
+      out millions of stars, but you can't seem to focus on any of them long enough to get your bearings
+      because every time you move your head your field of vision is filled with millions of brightly colored
+      trails coming from each star.
+flag:
+  - outdoors

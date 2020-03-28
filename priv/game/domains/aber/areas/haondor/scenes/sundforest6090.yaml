@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6091"
+      north:
+        target: "scene:aber:fire:fire0"
+      west:
+        target: "scene:aber:haondor:sundforest6000"
+    short: A Road Through The Plains
+    sight: >
+      You are on a dust covered east-west road through the western plains. An occasional hunter or adventurer
+      can be seen, heading to or from the forest. To the east is the walled city, Sundhaven, and to the west
+      the road ends at the head of a narrow trail into a large forest. To the north lies the yard of a large
+      house.
+flag:
+  - nomobiles
+  - outdoors

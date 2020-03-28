@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon18"
+      west: null
+    short: Way to sea
+    sight: >
+      You are at the end of the amazing way. The way is simply getting lost in the sea. The water is very
+      calm, but it looks like a tunnel of calm water. Only the way that is travelled gives safe possibility to
+      swim.
+flag:
+  - outdoors

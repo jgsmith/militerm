@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:batcave:batcave7"
+      west:
+        target: "scene:aber:batcave:batcave9"
+    short: Drafty Room
+    sight: >
+      Gee, it's dark and windy in here! A thick layer of bat dung covers the floor.
+flag:
+  - dark
+  - nosummon

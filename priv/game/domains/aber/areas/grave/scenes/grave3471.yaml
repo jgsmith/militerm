@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3471"
+      north:
+        target: "scene:aber:grave:grave3471"
+      south:
+        target: "scene:aber:grave:grave3468"
+      west:
+        target: "scene:aber:grave:grave3472"
+    short: Slimy Maze
+    sight: The slimy maze continues.
+flag:
+  - dark
+  - maze

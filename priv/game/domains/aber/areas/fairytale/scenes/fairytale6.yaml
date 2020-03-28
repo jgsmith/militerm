@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale5"
+      east:
+        target: "scene:aber:fairytale:fairytale22"
+      north:
+        target: "scene:aber:fairytale:fairytale9"
+      west:
+        target: "scene:aber:fairytale:fairytale7"
+    short: Cloud Bank
+    sight: >
+      You stand among a field of clouds. To the east, in the distance, you see a castle rising out of some
+      white mountains. To the west, a huge rose towers above you. From the north you smell cotton candy and
+      hear children laughing. Below you the vine reaches through the clouds and eventually reaches the ground.
+flag:

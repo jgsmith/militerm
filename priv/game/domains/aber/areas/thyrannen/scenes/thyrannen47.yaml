@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen46"
+      south:
+        target: "scene:aber:thyrannen:thyrannen48"
+    short: The Gate
+    sight: >
+      You have reached a large iron gate leading to the heart of the mesa. The gate is open, yet no one goes
+      this way very often and those who do wish they hadn't. Looking inside the mesa, you see a still
+      blackness that seems very much alive.
+flag:
+  - outdoors

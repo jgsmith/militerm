@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome46"
+      south:
+        target: "scene:aber:rome:rome41"
+      west:
+        target: "scene:aber:rome:rome32"
+    short: Clay Avenue
+    sight: >
+      You are on a wide well traveled road running east and west through the heart of Rome. There are large
+      &+Rcrowds&* of people to the west and the road continues to the east. The aquaduct is directly south of
+      here.
+flag:
+  - outdoors

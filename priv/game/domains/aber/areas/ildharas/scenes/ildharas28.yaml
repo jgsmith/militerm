@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas24"
+    short: "Servants' Quarters"
+    sight: >
+      Another tableau of annihilation, meticulously crafted down to the tiniest detail. A small hand mirror
+      lies upon the floor in several shards, symbolic, perhaps, of a shattered identity. A single doorway
+      leads south to the kitchen.
+flag:

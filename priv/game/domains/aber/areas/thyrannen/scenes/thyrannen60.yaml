@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:thyrannen:thyrannen61"
+      east:
+        target: "scene:aber:thyrannen:thyrannen59"
+    short: Marsh
+    sight: >
+      You are trudging through the thick gloop that is the marsh. The marsh waters stick to your boots and
+      threaten to drag you down.
+flag:
+  - outdoors

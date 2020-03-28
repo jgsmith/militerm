@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:cave1"
+      west:
+        target: "scene:aber:maeron:cave3"
+    short: "&+YKobold's Den"
+    sight: >
+      As you enter the cave, the scent becomes much stronger. This entire cavern reeks of the vermin.
+      Flickering torches along the walls provide an eerie illumination. Myriads of rats and cockroaches
+      scuttle along the floor. You may proceed even deeper into the cave by heading &+Rwest&* or leave going
+      &+Reast&*.
+flag:

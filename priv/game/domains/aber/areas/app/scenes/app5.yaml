@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Meeting Room
+    sight: >
+      You find yourself in some sort of meeting room. A large table dominates the center of the room. Papers
+      and other objects as covering almost every inch of the table. Around the table are numerous sage like
+      mages, almost all of them with gray beards. One mage at the head of the table appears to be the leader.
+flag:
+  - nomagic

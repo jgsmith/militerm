@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6009"
+      north:
+        target: "scene:aber:haondor:sundforest6011"
+      west:
+        target: "scene:aber:haondor:sundforest6007"
+    short: The Forest Clearing
+    sight: >
+      You are in a clearing in the forest. Lots of fresh &+ystumps&* of varying sizes protrude from the ground
+      and heavy &+ylogs&* are stacked neatly in a big pile supported by &+ystakes&* set into the ground. Paths
+      lead north, east and west.
+flag:
+  - real
+  - outdoors

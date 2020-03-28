@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot82"
+      south:
+        target: "scene:aber:camelot:camelot79"
+      west:
+        target: "scene:aber:camelot:camelot81"
+    short: The Trail Head
+    sight: >
+      You are standing at the end of a long trail. Branches of the trail lead north, west and south.
+flag:
+  - outdoors

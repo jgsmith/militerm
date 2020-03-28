@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryb_4"
+      north:
+        target: "scene:aber:fareast:countryb_5"
+      south:
+        target: "scene:aber:fareast:countryb_2"
+      west:
+        target: "scene:aber:fareast:countryb_1"
+    short: Countryside- Uncrossedroads
+    sight: >
+      "Crossroads" is perhaps not the right name for this area: two roads do not so much meet here as crash
+      together. The surfaces are buckled and broken, and the stone surface of the east-west road dives
+      underneath and then crashes through its north-south counterpart. Bits of the paving stones lie on either
+      side of the crossing, scattered like gravel. To the west, a dark haze obscures your vision, and to the
+      east, a grey fog blows toward you as if to feed it. The southern path seems to be snapped off before it
+      reaches very far, and only the northern path, which terminates in a forest of blossoming cherry trees,
+      seems to offer any desirable goal.
+flag:

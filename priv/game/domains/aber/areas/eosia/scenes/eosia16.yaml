@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: "The Royal Council's Chambers"
+    sight: >
+      This room looks like it has been used a lot recently. This is where the Royal governing council of
+      Elenia has been meeting while Ehlana has been ill. Papers, maps, and books lay strewn about in a
+      disarray, almost as if someone had been searching for something. Glancing at one of documents you are
+      startled to discover that Primate Annias, a churchman, was responsible for the poisoning of Ehlana. It
+      seems Annias wants to become Archprelate of the Church, and poisoned Ehlana to gain access to the
+      Elenian treasury. Sephrenia and a handful of Pandion Knights sealed Ehlana in crystal in the hopes of
+      keeping her alive until a cure could be found to save her. There is no sign as to where any of them have
+      gone.
+flag:
+  - soundproof

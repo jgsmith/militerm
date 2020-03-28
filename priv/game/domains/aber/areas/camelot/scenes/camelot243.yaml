@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot224"
+      south:
+        target: "scene:aber:camelot:camelot244"
+      up:
+        target: "scene:aber:camelot:camelot254"
+      west:
+        target: "scene:aber:camelot:camelot242"
+    short: The Northeastern Tower
+    sight: >
+      Besides providing shelter and protection for guardsmen, this room also has an excellent view of the list
+      field. From the palcement of several benches before the windows, you suspect there have been spectators
+      here recently.
+flag:

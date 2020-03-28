@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord70"
+    short: Hall of the Slaughtered
+    sight: >
+      A dark alley leads between the shouting and chanting crowd to the north and this rather large, concealed
+      chamber. The entire floor is covered in dried ichor, dripped from the heads of both lizards and ghouls
+      which are mounted on pikes stuck in the floor. Spears coated in acidic poison impale more bodies to
+      walls, and a rack of lava rock keeps freshly forged halberds and morning stars readily available to
+      whatever factions choose to raid here. Painted in the multi-colored blood of countless souls in
+      straight-line lettering is the message 'Few be the chosen, but none there be still among us.' With no
+      guards in attendance, the city dwellers can come by at their leisure and take their weapons of choice at
+      will.
+flag:
+  - dark

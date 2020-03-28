@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:room"
+      west:
+        target: "scene:aber:eforest:undead"
+    short: "Lich's Office"
+    sight: >
+      You are in the Lich's office. A large oak &+ydesk&* is against the north wall, covered in &+ypapers&*. A
+      worn oak chair sits right in front of the &+ydesk&*. The Lich's bedroom lies to the south, and a hall of
+      the undead is just to the west.
+flag:

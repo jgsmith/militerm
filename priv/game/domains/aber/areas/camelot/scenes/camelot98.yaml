@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot99"
+      east:
+        target: "scene:aber:camelot:camelot99"
+      north:
+        target: "scene:aber:camelot:camelot99"
+      south:
+        target: "scene:aber:camelot:camelot97"
+      up:
+        target: "scene:aber:camelot:camelot100"
+      west:
+        target: "scene:aber:camelot:camelot99"
+    short: Clinging To The Ledge
+    sight: >
+      You are following a narrow ledge across and up the cliff face. Hanging from miniscule finger and toe
+      holds, you pray to all the gods to keep you safe.
+flag:
+  - outdoors

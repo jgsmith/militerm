@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: &+WMaeron Zone Limbo
+    sight: >
+      &+R------------------------------------------------------------------------ Just a nice little room that
+      the zone can use in its internal proceedures. A would've used LIMBO1, but I prefer for the zone to have
+      its own room. -Valur
+flag:

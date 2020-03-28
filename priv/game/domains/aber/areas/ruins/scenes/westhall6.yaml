@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:bathroom"
+      north:
+        target: "scene:aber:ruins:westhall7"
+      south:
+        target: "scene:aber:ruins:westhall5"
+      west:
+        target: "scene:aber:ruins:bedroom2"
+    short: Northern Hallway
+    sight: >
+      You are now travelling north in the hallway. The shrieks are getting louder and more nervewracking as
+      you continue forward. You look to the east and west and find that there are what appear to be small
+      rooms with ragged curtains partially covering the entryways. You start to wonder if this area could have
+      been a guest area of some sort. The hallway leads to the north and the south.
+flag:
+  - dark

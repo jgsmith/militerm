@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18621"
+      south:
+        target: "scene:aber:newbee:newbee18629"
+    short: A Turn In The Passage
+    sight: >
+      This corner is much like all the others... except you see a strange glow coming from the south. Could be
+      an exit... you hope.
+flag:

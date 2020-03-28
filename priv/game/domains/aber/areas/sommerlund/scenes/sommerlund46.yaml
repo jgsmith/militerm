@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund9"
+      south:
+        target: "scene:aber:sommerlund:sommerlund47"
+    short: Farmlands
+    sight: >
+      The greenery and lush grasses still absurd in a plentiful nature. A road intersection stands to the
+      north, while the tip of the Durncrag Range is the south.
+flag:
+  - outdoors

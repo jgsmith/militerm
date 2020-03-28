@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung9"
+      south:
+        target: "scene:aber:nibelung:nibelung7"
+      west:
+        target: "scene:aber:treadmill:tread17"
+    short: Mouth of Canyon
+    sight: >
+      You are standing at the mouth of a very large canyon. The light here is dimmer, as the sun dips behind
+      the western rim of the valley. To the south is the rocky soil of the base of the mountains. The peaks of
+      the Teeth rise up to the east, their majestic beauty stealing your breath for a moment.
+flag:
+  - outdoors

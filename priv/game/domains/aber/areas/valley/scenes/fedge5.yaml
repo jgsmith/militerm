@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:rbank"
+      north:
+        target: "scene:aber:valley:fedge3"
+      south:
+        target: "scene:aber:valley:npath"
+      up:
+        target: "scene:aber:valley:npath"
+      west:
+        target: "scene:aber:valley:tforest4"
+    short: Forests Edge
+    sight: >
+      You are standing amidst a few trees on the edge of the forest, hedged in by a sheer rock wall to the
+      south, and a steep, but climbable, bank to the east. Elsewhere the forest thickens up and continues. A
+      narrow path climbs along a twisty ledge along the cliff to the south.
+flag:
+  - outdoors

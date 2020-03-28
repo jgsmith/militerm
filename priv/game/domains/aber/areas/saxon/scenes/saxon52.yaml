@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:saxon:saxon51"
+    short: &+rI&+Rn&+rf&+Re&+rr&+Rn&+ro&*
+    sight: >
+      This cavern is unbelieveably hot, and you start sweating as soon as you enter it. The walls are covered
+      in what appears to be soot, and it looks very thick. A huge shadow covers the back of the cavern, making
+      it impossible to see anything.
+flag:
+  - dark
+  - hot
+  - negregen

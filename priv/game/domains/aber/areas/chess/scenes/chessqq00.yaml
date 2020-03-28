@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:blizzard:dark"
+    short: The Stone Door
+    sight: >
+      You find yourself standing in a dry circular room which is illuminated by a small brass torch set in the
+      wall. Flickering shadows dance about the room in a manner you find disorienting. Beneath the torch is an
+      elaborate mahogany door, complete with a small silver doorknob.
+flag:

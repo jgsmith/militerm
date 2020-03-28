@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18627"
+      west:
+        target: "scene:aber:newbee:newbee18625"
+    short: A Long East-West Passage
+    sight: >
+      This is a long, narrow passage leading east and west. The walls are damp and covered with mildew and
+      fungus. There is a very unhealthy air about this place and you're beginning to want out of here... soon.
+flag:

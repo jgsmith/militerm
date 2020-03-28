@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis8"
+      south:
+        target: "scene:aber:atlantis:atlantis6"
+    short: Sunken Cargo Ship
+    sight: >
+      The inside of the ship looks like it once was as impressive inside as it was outside. Tatters of
+      tapestries still cling to the wood, swayed back and forth by the currents and fish dart here and there,
+      nibbling on plant life that has attached itself to the inside of the hull. Something that resembles a
+      table lies crushed on the sand while various articles are embedded like strange jewels in the sand, worn
+      away beyond recognition. Strange crabs peek out at you from under a desk drawer that is propped up upon
+      a rock, though the desk is nowhere to be seen. You can tell from some record books that were trapped
+      under glass that this cargo ship carried something called "bottled water" that surface-dwellers seemed
+      to like so much in exchange for "bottled air" that the underwater residents enjoyed.
+flag:
+  - underwater

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:ghenna:ghenna9918"
+    short: An upstairs hallway.
+    sight: >
+      You are in a small upstairs hallway. To the West is the top of the stairs while to the North there lies
+      a door, behind which you can hear some faint singing... the dusky voice sounds almost feminine.
+flag:
+  - dark

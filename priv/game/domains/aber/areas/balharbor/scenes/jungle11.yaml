@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:greattree"
+      north:
+        target: "scene:aber:balharbor:jungle17"
+      west:
+        target: "scene:aber:balharbor:jungle10"
+    short: Split in the Trail
+    sight: >
+      The trail splits here, where it's somewhat quieter to the north, dense jungle to the west and east.
+flag:
+  - outdoors

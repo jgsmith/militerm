@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nexus:nexus13"
+    short: Gatehouse
+    sight: >
+      This is a small room set aside withing the castle walls for the resident gatekeeper of this castle. The
+      room is well lit by verious floating globes at out-of-othe-way places. On a rack against one wall is
+      displayed the occupant's personal armor and weapons. A small desk in one corner is covered in the daily
+      reports and dispatches that constantly flow through this place, but today, not one of the of the
+      telegrams has even been opened and read.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest63"
+      north:
+        target: "scene:aber:rainforest:forest62"
+      west:
+        target: "scene:aber:rainforest:forest58"
+    short: Open Glade
+    sight: >
+      You blink as you enter a glade in the forest, where the sudden brightness dazzles you for a moment. You
+      realise how little light penetrates the canopy in the heart of the forest around you. You cannot see a
+      reason for the absence of trees in this area, and all around you the trees are plentiful. To the south
+      they crowd together so much as to make heading in that direction rather impractical.
+flag:
+  - outdoors

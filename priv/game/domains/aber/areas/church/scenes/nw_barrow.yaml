@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:church:n_barrow"
+    short: The Northwest Barrow
+    sight: >
+      The heaviness and darkness of this grave is so prevalent that even during the middle of the day you need
+      a light to see. The mound here is overgrown with weeds and the tombstone is old and uncared for. The
+      stone, although aged and cracked, is readable, and says: Do you know that it hurts? Yet this is their
+      reward? Do you feel my pain? Tied up in anguish? Can you understand my meaning, What example is this, My
+      reason for what I do? That they do not understand? In the end I failed, At what I most loved, Hurting
+      them, I care. 					-Pooka
+flag:
+  - outdoors

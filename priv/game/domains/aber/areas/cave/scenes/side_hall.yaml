@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cave:dining"
+    short: Side Hall
+    sight: >
+      You are standing in a small pillared side hall. Less splendid than the other halls, the room seems more
+      sober and thoughtful. A doorway leads west.
+flag:
+  - dark

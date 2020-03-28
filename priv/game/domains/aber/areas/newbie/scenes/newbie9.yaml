@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newbie:newbie16"
+      east:
+        target: "scene:aber:newbie:newbie8"
+      north:
+        target: "scene:aber:newbie:newbie10"
+    short: Zones and Quests
+    sight: >
+      For all these thousands of rooms, objects, and mobiles, they are grouped together into zones. The beings
+      in these zones may be friendly, or hostile. Some have lots of treasure, some have lots of items to use.
+      Some are good places to visit, and others you would never want to visit without good equipment--those
+      usually demand a hero to defeat some evil and save someone. For information on this quest thing, read
+      &+YINFO QUESTS&*. There appears to be a small lake here, maybe you should go sailing on it by taking the
+      boat and going down.
+flag:
+  - newbie
+  - peaceful

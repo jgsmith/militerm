@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc43"
+      north:
+        target: "scene:aber:ancient:anc43"
+      south:
+        target: "scene:aber:ancient:anc43"
+      west:
+        target: "scene:aber:ancient:anc43"
+    short: Room of the Lost Hope
+    sight: >
+      You see pieces of old bleached bones covering the ground. Hundreds of cockroaches have occupied a
+      skeleton of some poor adventurer in the corner. Even though this is a miserable sight you are still
+      wondering, why is this place called the room of the lost hope...
+flag:
+  - dark
+  - nomagic
+  - soundproof

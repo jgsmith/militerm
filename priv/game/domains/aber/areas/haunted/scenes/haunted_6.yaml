@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:haunted:haunted_5"
+    short: Kitchen
+    sight: >
+      Just your typical kitchen, except that the appliances are broken and thrown on the floor and food is
+      smeared all over the walls. As you look around, you notice there is some writing on the wall. Upon
+      closer inspection, you notice three words spelled out in grape jelly.....&+mFREDDY'S &+mNOT DEAD!!!!!!
+flag:
+  - dark

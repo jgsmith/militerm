@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot116"
+    short: Storage Cave
+    sight: >
+      Ahha! You've found it! It's... The Trash Room! The most notable feature of this room is the odor. In
+      fact, if you don't leave, you are liable to lose your lunch.
+flag:
+  - dark

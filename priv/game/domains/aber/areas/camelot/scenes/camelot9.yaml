@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot11"
+      north:
+        target: "scene:aber:camelot:camelot12"
+      south:
+        target: "scene:aber:camelot:camelot8"
+      west:
+        target: "scene:aber:camelot:camelot10"
+    short: Hallway
+    sight: >
+      The hallway continues to the north. To the east and west lie small rooms, apparently bedrooms for the
+      knights when they are in residence in Camelot.
+flag:

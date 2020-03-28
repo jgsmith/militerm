@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:playhouse:house3"
+      west:
+        target: "scene:aber:playhouse:house8"
+    short: Quiet Room
+    sight: >
+      This is the room the children are sent to for punishment. There are little chairs positioned all
+      throughout the room. You figure a child must be sent here and made to sit here till quiet time is up.
+      How could someone possibly make a child sitdown for that long of a time you ponder. Up on the wall is a
+      very long piece of wood that resembles a pingpong paddle only bigger. Wrote on the board it says
+      &=lw'Board of Education' &*in bold black letters. Now you know how the children are kept sitting down.
+      The exits lead north and west
+flag:

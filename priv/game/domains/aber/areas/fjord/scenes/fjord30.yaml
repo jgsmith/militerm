@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord31"
+      south:
+        target: "scene:aber:fjord:fjord10"
+    short: Deer Track Extension
+    sight: >
+      Within the confines of the Muskrat Pines, the hallowed sounds of near total silence draw in traveler's
+      empathy with the world of nature. The deer track continues to meander north and south, and the silence
+      cannot be disrupted even by wandering from the trail. The animals abide by their granted environment and
+      violate it only as necessary to survive, which explains the signs of feasting and excrement. A large
+      collection of Sap Swarmers gather, and one pounces on a young, freckled fawn as the startled deer's
+      curiosity draws it too close. Fortunately, the father is nearby and uses its antlers to pry the swarmer
+      off before too much damage is done. With a dismissal wave of antlers, the buck leads his son back to
+      where the family had been dining previously.
+flag:
+  - outdoors

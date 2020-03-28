@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:fire:fire8"
+      west:
+        target: "scene:aber:fire:fire5"
+    short: Hall
+    sight: >
+      You are standing in the hall. This room should also impress visitors, because it is used as a picture
+      gallery. Sir Gruoch is very proud of his old kith and kin. The famous person should be Lady Gruoch who
+      married in 1037 McBeth King of Scotland. There are many stories about this age and if you want, Sir
+      Gruoch can talk hours about it. At the end of the long hall is the picture of his son. Sir Gruoch cares
+      very much for the son, as his wife died of an unknown illness. He would start a &+mwar&* for his son.
+      You can go the living room to north or west onto the staircase. There is a door to the east.
+flag:

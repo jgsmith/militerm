@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden32"
+      south:
+        target: "scene:aber:golden:golden27"
+    short: Main Hall
+    sight: >
+      You are standing in dark, omnious hall. There are stone carvings of gods on the walls that watch your
+      every movement. The walls seem to glow with a greenish light, which gets brighter as you advance. Some
+      areas of the floor have crumbled away and reveal a bottomless chasm. There are pictures on the walls
+      showing the demise of greedy humans.
+flag:
+  - dark

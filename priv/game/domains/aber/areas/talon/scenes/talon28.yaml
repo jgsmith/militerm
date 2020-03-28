@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon29"
+      west:
+        target: "scene:aber:talon:talon11"
+    short: Gateway into Darkness
+    sight: >
+      You enter a small room which appears to end to the east in a mirror-like porthole. White light travels
+      across the porthole in the area, like lightning on a dark, stormy summer's sky. Beyond the brilliant
+      white light on the surface of the gateway, a strange evil darkness seems to emanate. It is hard to
+      distinguish if it is a physical, or spiritual darkness which you seem to sense. Back to the west lies
+      the safety of the known world.
+flag:

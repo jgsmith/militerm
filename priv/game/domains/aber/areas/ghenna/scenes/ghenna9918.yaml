@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9916"
+      east:
+        target: "scene:aber:ghenna:ghenna9919"
+      west:
+        target: "scene:aber:ghenna:ghenna9921"
+    short: The top of the stairs.
+    sight: >
+      You are standing at the top of the stairs in Blood Tavern. Darkness prevails in the small hallway which
+      runs east to west. Below you is the bar of human skin.
+flag:
+  - dark

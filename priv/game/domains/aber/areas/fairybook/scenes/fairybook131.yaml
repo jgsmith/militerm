@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook132"
+      south:
+        target: "scene:aber:fairybook:fairybook130"
+    short: Gulch
+    sight: >
+      You have come to a ditch. A great tree has fallen across it, making a natural bridge. You can easily
+      walk across it to the other side, where the forest thins out. The path goes north and south.
+flag:
+  - outdoors

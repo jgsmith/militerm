@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter2"
+      west:
+        target: "scene:aber:camelot:camelot72"
+    short: Long and Winding Road
+    sight: >
+      This is a long, winding road. Far off to the east, you can see Signal Mountain. There is a &+Csign&*
+      here, by the road.
+flag:
+  - nomobiles
+  - outdoors
+  - real
+  - tempreal

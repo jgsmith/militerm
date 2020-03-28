@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:village:road9"
+    short: General Store
+    sight: >
+      The store is packed tight with shelves containing various items that towns people would need for there
+      every day lives. But not a lot of good to a seasoned adventurer like you. There is a small bakery over
+      by the southern wall, opposite the counter where you would pay for the items you wanted.
+flag:

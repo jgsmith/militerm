@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:cove"
+      west:
+        target: "scene:aber:village:narrow"
+    short: Sea Cave
+    sight: >
+      You are standing in a low, reasonably dry sea cave. The cave echoes the gentle pounding of the waves on
+      the sandy beach to the east. A single narrow passage leads west into darkness.
+flag:

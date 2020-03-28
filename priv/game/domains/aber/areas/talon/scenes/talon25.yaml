@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Atop the Mountain
+    sight: >
+      You stand at the peak of the tallest mountain in the land. To the east, a large canyon separates two
+      tremendous mountain ranges. Even further to the east, the landscape seems to fade into a shade of black,
+      darker than onyx. You can barely make out the shape of a large dark castle atop a huge black mountain on
+      the horizon. To the west, a deep blue ocean beats endlessly upon the cliffs of a mountain range lining
+      its shores. As you look, you feel as if one small jump could take you to the ends of the earth from
+      here. To the north, a strangely blank cliffside juts up above you.
+flag:

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:island:beach"
+      east:
+        target: "scene:aber:pit:pit"
+      north:
+        target: "scene:aber:dead:eaten"
+      south:
+        target: "scene:aber:sea:treasure"
+      up:
+        target: "scene:aber:village:jetty"
+      west:
+        target: "scene:aber:sea:7"
+    short: Sea of Holes
+    sight: >
+      You are drifting in a sea of psychedelic holes. In the water (?) below, you can just barely make out
+      several blue gloves and clowns chasing each other and bickering. On the top of an undersea mountain,
+      sits a purple fractal dragon, observing the ruckess while puffing on his purple hooka and sniffing
+      flowers. Exits are everywhere.
+flag:
+  - onwater
+  - outdoors

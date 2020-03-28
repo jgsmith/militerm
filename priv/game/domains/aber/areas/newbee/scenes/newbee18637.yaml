@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18634"
+      west:
+        target: "scene:aber:newbee:newbee18636"
+    short: Yet Another Corner
+    sight: >
+      The passage turns here and heads north. You sense something up ahead that way, but you aren't sure what.
+      You aren't sure if you want to know what either at this point.
+flag:

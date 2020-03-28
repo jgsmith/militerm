@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale123"
+      south:
+        target: "scene:aber:fairytale:fairytale125"
+    short: Gallery
+    sight: >
+      This gallery is lined with pictures and portraits in all mediums, depicting various people, various
+      scenes, and various images. Some that you recognize are 'The Garden of Earthly Delights' by Hieronomous
+      Bosch, 'Icarus Descending' by Brughel, and 'Time' by Salvidor Dali. Seats are provided for people who
+      wish to sit and observe the art.
+flag:
+  - dark

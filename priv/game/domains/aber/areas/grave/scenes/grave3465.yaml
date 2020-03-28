@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3467"
+      north:
+        target: "scene:aber:grave:grave3464"
+      south:
+        target: "scene:aber:grave:grave3468"
+      west:
+        target: "scene:aber:grave:grave3466"
+    short: Tunnel
+    sight: >
+      As soon as you enter here you can hear faint noises from the east and west. You are not alone and a
+      feeling a dread returns. It is cool and dank and you begin to wonder if you have made the right choice
+      in your search. There are exits to the north, south, east, and west.
+flag:
+  - dark

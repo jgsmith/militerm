@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:city2"
+    short: Golden Temple
+    sight: >
+      The temple is truly beautiful inside. Much of the splendour has of course been looted in the past, but
+      what remains still impresses you with its glory. Carven godly images stand along the walls and nestle
+      within alcoves while at the front a sacrificial altar, though arousing your distaste, still contrives to
+      instil in you a grudging admiration at its design. The only exit is to the south.
+flag:

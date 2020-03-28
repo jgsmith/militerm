@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot277"
+      south:
+        target: "scene:aber:camelot:camelot268"
+      west:
+        target: "scene:aber:camelot:camelot278"
+    short: The Blue Bedroom
+    sight: >
+      The entire room is decorated in shades of blue. Soft pastels on the walls, a carpet so deep it is almost
+      black, and rich royal blue sheets on the bed all combine to give the room a warm, restful atmosphere.
+flag:
+  - private
+  - party

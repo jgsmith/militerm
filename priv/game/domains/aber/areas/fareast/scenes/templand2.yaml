@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:templepass"
+      north:
+        target: "scene:aber:fareast:templand3"
+      up:
+        target: "scene:aber:fareast:templand3"
+      west:
+        target: "scene:aber:fareast:templepass"
+    short: Mountainside
+    sight: >
+      A level spot here offers a brief respite from the steep slopes in either direction. To the north, a
+      steep but broken face could be climbed toward the looming temple, while a gap in the similarly steep
+      western side would allow you to descend toward the low cliffs.
+flag:
+  - outdoors

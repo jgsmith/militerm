@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:woods"
+      west:
+        target: "scene:aber:valley:falls"
+    short: The Mountain Path
+    sight: >
+      You are walking along a narrow mountain path that winds west and upwards into the nearby mountains.
+      Rocks and trees obscure your view of the valley below. The path runs east and west along a small ridge.
+      To the west you hear a sustained sound that reminds you of thunder.
+flag:
+  - outdoors

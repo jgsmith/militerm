@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:throne"
+      north:
+        target: "scene:aber:jbs:chambers"
+      west:
+        target: "scene:aber:jbs:antechamber"
+    short: Waiting Room
+    sight: >
+      This is where those who seek audience with the king of this castle wait. There are several very fine,
+      plush chairs in here waiting to accommodate visitors. Unfortunately for you, though, they are all way to
+      high off the ground for you to sit in one.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:playhouse:house3"
+      west:
+        target: "scene:aber:playhouse:house5"
+    short: Playroom
+    sight: >
+      I suppose this room was designed for rainy days when children couldn't go out. There are various toys
+      littering the floor. Children run screaming from room to room throughout the house. You see a room to
+      the south. There is also a room to the west.
+flag:

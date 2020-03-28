@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:2"
+      north:
+        target: "scene:aber:stjames:10"
+      south:
+        target: "scene:aber:stjames:12"
+      west:
+        target: "scene:aber:stjames:16"
+    short: The Edge of the Pond
+    sight: >
+      You are next to the wading area of the pond. The water looks inviting. Hours of walking through the city
+      of London have made you feel weary and dirty. Perhaps a quick dip in the water would be refreshing.
+flag:
+  - outdoors

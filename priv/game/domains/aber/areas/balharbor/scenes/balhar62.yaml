@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar54"
+      west:
+        target: "scene:aber:balharbor:balhar61"
+    short: "The Clerics' Guild"
+    sight: >
+      Have you confessed your sins lately? Well, this is the place to do it. This is considered a safe place
+      for those in need to come for salvation and help--a healing chamber has been set up to the west. The
+      High Priest who runs the guild kept the rioters at bay by having the power of God hold their hands.
+flag:
+  - cantsummon

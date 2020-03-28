@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:bottom"
+      up:
+        target: "scene:aber:quarry:ladder_d3"
+    short: Ladder
+    sight: >
+      You are in a narrow constricting vertical shaft, hanging onto a cold and rotting ladder. The walls are
+      damp and wet, and you too are also soaking and cold. Your numb fingers are finding it hard to keep a
+      grip on the ladder, and your feet slide off rungs with frightening regularity.
+flag:
+  - dark

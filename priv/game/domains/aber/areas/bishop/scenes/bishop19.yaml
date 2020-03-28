@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:bishop:bishop20"
+      up:
+        target: "scene:aber:bishop:bishop18"
+    short: Stocked Cellar
+    sight: >
+      The dry goods of the house seem to manage themselves well in this dark shelter. Wooden shelves with
+      metal rivets line the boarded walls and struts in here, supporting the many raw ingredients, salts, and
+      spices used by the caretaker. A large oaken door with elaborate cross-braces lies open, and light
+      filters in from the upstairs trapdoor.
+flag:
+  - dark

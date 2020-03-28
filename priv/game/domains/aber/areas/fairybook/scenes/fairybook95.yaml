@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook96"
+      north:
+        target: "scene:aber:fairybook:fairybook104"
+    short: The Lagoon
+    sight: >
+      The Mermaid's Lagoon is an infamous place. The surf crashes up on the beach of pure, white sand. It is a
+      wonderful place for swimming, diving, or building sand castles. The water is so clear that you can see
+      fish as deep as 30 meters, which is pretty deep. A great distance from the shore to the east is
+      Marooner's Rock.
+flag:
+  - outdoors

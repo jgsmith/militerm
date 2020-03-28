@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot51"
+      west:
+        target: "scene:aber:balharbor:balhar88"
+    short: Road Leading From the Forest
+    sight: >
+      This road rapidly changes from rocks to hard dirt to the east. Seems that those heavy carriages have dug
+      their wheels in it so often you can tell where the trail is without being deverted. Must have been a
+      bumpy ride, you can see the tree roots sticking out of the dirt along the way. The trip on foot won't be
+      easy, cause the growth disguises the trail a bit heading in deeper. Hope you brought your compass.
+      Avoiding getting lost can be achieved by returning to the west, although you think you see more people
+      than trees...what's that all about?
+flag:
+  - tempreal
+  - nomobiles

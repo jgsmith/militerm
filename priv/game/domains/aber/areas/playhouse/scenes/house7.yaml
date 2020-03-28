@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house8"
+    short: Changing Room
+    sight: >
+      Hrrrrrmmmmmmm, Do you really need to have this room described to you? There is a little baby changing
+      table folded up against one wall. There seems to be a bucket full of lemony smelling soapy water sitting
+      on the floor next to the changing table. On shelves rest clean &+Wwhite&* diapers folded neatly and
+      stacked in stacks. Clean baby outfits are folded up and stacked on other shelves. The exit to this room
+      is east into the sitting room.
+flag:

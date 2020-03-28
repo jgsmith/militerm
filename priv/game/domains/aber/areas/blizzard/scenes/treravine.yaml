@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:window"
+      east:
+        target: "scene:aber:blizzard:pasture"
+      west:
+        target: "scene:aber:maeron:outside"
+    short: Treacherous Ravine
+    sight: >
+      You are crawling along a narrow treacherous ravine which runs eastwards into some kind of level area.
+      Below you could scramble back down to the cliff window.
+flag:
+  - outdoors

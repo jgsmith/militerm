@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan27"
+      south:
+        target: "scene:aber:mithdan:mithdan33"
+    short: Bare Trail
+    sight: >
+      Rising above the clouds, the trail is bare and rocky. Below you the storm swirls snow and ice onto the
+      mountain peak, but the air is calm here. The bare path leads down the mountain to the south, and further
+      up towards the east.
+flag:
+  - outdoors
+  - cold

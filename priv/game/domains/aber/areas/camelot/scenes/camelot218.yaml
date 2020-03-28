@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot217"
+      up:
+        target: "scene:aber:camelot:camelot237"
+      west:
+        target: "scene:aber:camelot:camelot219"
+    short: West Gatetower
+    sight: >
+      Standing in the bottom of the gatetower, guards can easily watch the front of the castle, the
+      drawbridge, and the portcullis. Arrow slits line the outer walls, and there are several high windows on
+      the inner wall providing light and fresh air.
+flag:

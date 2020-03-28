@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Behind the Stairs
+    sight: >
+      As you walk behind the stairs, Freddy jumps out and stabs you with his claws through the heart.
+      Impaled... You are one of his children now!
+flag:
+  - death

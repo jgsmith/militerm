@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest4"
+      south:
+        target: "scene:aber:rainforest:forest2"
+    short: By The Torrent
+    sight: >
+      You are standing on the southern bank of an angry, and voluble, young river which is flowing very
+      rapidly eastwards. At this point it is some thirty feet wide. Out in the middle of the river torrent
+      ducks plunge into the water, struggling to swim underwater against the current, making their way from
+      rock to rock, plucking stonefly larvae from the weed clinging there.
+flag:
+  - outdoors
+  - nomobiles

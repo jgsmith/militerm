@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:8"
+      south:
+        target: "scene:aber:cyrus:5"
+    short: &+cBlack cave entrance
+    sight: >
+      You stand just in front of a big cave. The temperature seems to be very hot there: some geysers and lava
+      lakes make this cave appear like in &+RHell&*! Red and yellow rays of light reflect on wet rocks and
+      illuminate the cave as it were the stairway.. to &+RHell&*!
+flag:
+  - outdoors

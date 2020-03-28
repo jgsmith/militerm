@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest13"
+      south:
+        target: "scene:aber:rainforest:forest17"
+    short: The Rainforest
+    sight: >
+      You are deep in the rainforest. The distant roar of a waterfall to the north still fills your ears, but
+      you can hear other sounds too: the whooping of monkeys, the raucous cries of parakeets, and the sibilant
+      chatter of myriad insects.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

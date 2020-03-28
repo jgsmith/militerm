@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach21"
+      south:
+        target: "scene:aber:beach:beach25"
+      west:
+        target: "scene:aber:beach:beach26"
+    short: Paradise
+    sight: >
+      This tropical island you have discovered is everything you ever dreamed, small, quiet, and beautiful,
+      you just might never want to leave.
+flag:
+  - outdoors

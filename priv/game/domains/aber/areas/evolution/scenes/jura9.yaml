@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura10"
+      south:
+        target: "scene:aber:evolution:jura8"
+    short: Valley Floor
+    sight: >
+      You are wandering through a v-shaped valley, following a river which flows by to the west of you,
+      emanating from a gorge to the south. To the north the river veers round to the east, cutting off your
+      northward exit. To the east you see a tar pit, in which a large herbivorous dinosaur is struggling in
+      vain.
+flag:
+  - outdoors

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc6"
+      east:
+        target: "scene:aber:ancient:anc8"
+      up:
+        target: "scene:aber:ancient:anc8"
+      west:
+        target: "scene:aber:ancient:anc6"
+    short: Stone Stairs
+    sight: >
+      You are going your way up the temple stairs sweating and panting. Breathing deeply you stop and lean
+      against a statue besides the stairs. Examining the statue more closely, you figure out that the statue
+      is actually a big head of a snake decorated with stony feathers. The snake has an evil grin on his face
+      and you are glad it is not alive. The stairs lead upwards to the top of the temple and down back to the
+      clearing.
+flag:
+  - outdoors

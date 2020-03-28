@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grave:grave3463"
+      up:
+        target: "scene:aber:grave:grave3460"
+    short: Bottom of the shaft
+    sight: >
+      You have arrived at the bottom of a long shaft that slopes sharply up from here. The temperature is
+      markedly cooler than the top of the shaft and it feels more humid. There is not a sound to be heard
+      except from a drop of water striking the ground every few seconds. As you look around you spot an exit
+      to the south or you may be able to climb back up.
+flag:
+  - nomobiles
+  - dark
+  - cold

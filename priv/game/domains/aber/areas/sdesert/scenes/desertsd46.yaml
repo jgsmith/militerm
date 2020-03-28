@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd42"
+      south: null
+    short: The Mesa
+    sight: >
+      You have finally reached the mesa. The rocky formation reached up to about the height of 200 feet, there
+      is no way you could ever climb it. Directly to the south you spot a small hole.
+flag:
+  - outdoors
+  - hot

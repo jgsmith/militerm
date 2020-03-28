@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:mioc1"
+      west:
+        target: "scene:aber:evolution:mioc3"
+    short: Miocene Savannah
+    sight: >
+      You are wandering amid the vastness of the grassy plains of the lower miocene. The ground here is often
+      trampled and torn up and you can make out in some places hoof-prints, suggesting that a herd of some
+      kind of ruminant, perhaps wildebeest ancestors, have recently passed this way.
+flag:
+  - outdoors

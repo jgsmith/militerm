@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon38"
+      south:
+        target: "scene:aber:pensalon:pensalon10"
+    short: Practice Yard
+    sight: >
+      The fenced in yard spreads out in front of you. There are many items of war spread out across this area.
+      To the south is a small quiet spot along the wall, and to the east is the Armorer's Workshop.
+flag:

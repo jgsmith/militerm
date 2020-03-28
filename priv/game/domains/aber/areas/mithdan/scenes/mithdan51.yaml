@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan60"
+      north:
+        target: "scene:aber:mithdan:mithdan57"
+      south:
+        target: "scene:aber:mithdan:mithdan62"
+      west:
+        target: "scene:aber:mithdan:mithdan59"
+    short: Sacred Clearing
+    sight: >
+      The floor of the clearing is lined with pure white sand, and the air throbs with immense stored magical
+      energy. Time seems to pass in a blur: Flowers sprout beneath your feet and die off again in seconds. You
+      feel a strange sensation on your legs and when you look down there is a large ivy twining itself around
+      your calfs. Paths lead off in all directions. To the south, east, and west thin trails lead through lush
+      green forest, and to the north lies a huge forest of living crystal.
+flag:
+  - outdoors
+  - nomagic

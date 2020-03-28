@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:dragonslueth:ds31"
+      east:
+        target: "scene:aber:dragonslueth:ds13"
+      north:
+        target: "scene:aber:dragonslueth:ds26"
+      south:
+        target: "scene:aber:dragonslueth:ds21"
+    short: Inside the Small Castle
+    sight: >
+      This castle is not in tip top shape. It has big cracks in the floor and the walls are filthy. There is a
+      throne in the middle of the room with with word "DragonSluth" written on it. The exits are to the
+      &+Ceast&*, &+Cnorth&*, &+Csouth&* and &+Cdown&*.
+flag:

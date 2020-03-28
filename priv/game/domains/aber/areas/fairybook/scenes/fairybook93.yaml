@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook91"
+    short: "Tinkerbell's Apartment"
+    sight: >
+      The private apartment of Tinkerbell can be shut off from the rest of the home by pulling a curtain
+      across the doorway. The couch is a genuine Queen Mab with club legs. The mirror is a Puss-in-boots, of
+      which there are now only three. The wash-stand is Pie-crust and reversible, the chest of drawers an
+      authentic Charming the Sixth, and the carpet and rugs of the best (the early) period of Margery and
+      Robin. There is a chandelier from Tiddlywinks. You can exit west.
+flag:

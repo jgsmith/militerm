@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter55"
+      north:
+        target: "scene:aber:enchanter:enchanter72"
+      south:
+        target: "scene:aber:enchanter:enchanter70"
+      up:
+        target: "scene:aber:enchanter:enchanter70"
+    short: Southwestern Tower
+    sight: >
+      You're at the base of the southwestern tower. A staircase leads up, and hallways go off to the north or
+      east.
+flag:

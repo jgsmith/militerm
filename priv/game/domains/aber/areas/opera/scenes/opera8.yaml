@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:opera:opera9"
+      south: null
+      up:
+        target: "scene:aber:opera:opera9"
+    short: The Grand Staircase
+    sight: >
+      You stand in the magnificant lobby of the opera house. All around you are marble sculptures and ornate
+      columns. To the north lies the enormous marble Grand Staircase leading further into the theatre. To the
+      south lie the front doors of the opera house.
+flag:
+  - nomobiles

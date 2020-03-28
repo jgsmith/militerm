@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass35"
+      north:
+        target: "scene:aber:grass:grass102"
+      south:
+        target: "scene:aber:grass:grass104"
+      west:
+        target: "scene:aber:grass:grass34"
+    short: Cobblestone Road
+    sight: >
+      The pavement of the road begins to phase from rock gravel to stone here. Far to the north you see some
+      signs of civilization, while the path southward continues southward into the distance disguised a bit by
+      the grass, then the distance forests.
+flag:
+  - outdoors

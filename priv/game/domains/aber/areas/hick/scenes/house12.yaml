@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:hick:house9"
+    short: Bathroom
+    sight: >
+      This is not a very fancy bathroom, it just has a sink, a toilet and a small washtub. You can leave to
+      the south.
+flag:

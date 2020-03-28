@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:specsimp"
+      south:
+        target: "scene:aber:village:village44"
+    short: The General Store
+    sight: >
+      A shopkeeper behind the desk is peddling his wares. Along the walls of this small room are grains,
+      herbs, fruits, and many assorted apparatuses of unknown use. The shopkeeper smiles at you, and says:
+      "Feel free to browse here. There are many things for sale, which you can learn more about by typing
+      'buy'. Otherwise, type 'buy <item>'"
+flag:
+  - peace

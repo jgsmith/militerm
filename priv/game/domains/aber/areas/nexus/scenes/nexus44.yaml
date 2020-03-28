@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nexus:nexus45"
+      west:
+        target: "scene:aber:nexus:nexus43"
+    short: Sandbar
+    sight: >
+      The bar is more eroded here. Pits in the path fill up with and retain water as each wave passes. The
+      beach lies a half mile to the west while an island is eastward.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

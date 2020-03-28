@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot98"
+      east:
+        target: "scene:aber:camelot:camelot99"
+      north:
+        target: "scene:aber:camelot:camelot101"
+      south:
+        target: "scene:aber:camelot:camelot99"
+      up:
+        target: "scene:aber:camelot:camelot99"
+      west:
+        target: "scene:aber:camelot:camelot99"
+    short: Hanging By Your Fingertips
+    sight: >
+      You don't know how, but you are managing to keep a grip on the rocks before you. Below you is the most
+      difficult part of the climb, while to the north you can see what looks like a small cavemouth.
+flag:
+  - outdoors

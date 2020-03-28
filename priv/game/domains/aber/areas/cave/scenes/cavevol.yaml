@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cave:342"
+    short: Eternal Treasure Room
+    sight: >
+      Here is a simple room, but polished as well as can be expected of a lazy dragon. He seems to recognise
+      the eternal value of knowledge.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9503"
+      north: null
+    short: By The Side Of The Tavern
+    sight: >
+      You are standing close to the western fence of the yard. The city can be seen further to the west -
+      masses of people and clamour. To the is a small, wooden, cell-like building, obviously a lavatory.
+flag:
+  - outdoors

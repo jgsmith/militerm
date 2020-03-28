@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:origins:origins22"
+    short: The Forest Shadow
+    sight: >
+      You enter perhaps the most tortured and vile woods you ever seen. You can see the trees literally
+      weeping blood, and not even one bird can be found. The forest gets too thick to negotiate any further.
+      Your one option is to return south whence you came.
+flag:
+  - dark
+  - outdoors
+  - soundproof
+  - negregen
+  - soundproof

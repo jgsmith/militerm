@@ -1,0 +1,28 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:gumby:gumby3"
+      south:
+        target: "scene:aber:gumby:gumby2"
+    short: &+CTemple of the Panther&*
+    sight: >
+      You are surrounded by thousands of rose bushes, carefully tended by the ascetics who care for the
+      temple. The path is made of what looks like garnets and jade stones, which form a gently curving way. If
+      you look on either side of you, you can find tiny panther cubs running through the bushes, watching your
+      every move. To your left is a giant golden cage lined with the purest of black satin pillows, the
+      resting place of the sacred cubs. As you make your way toward the altar, you glance at different shades
+      of rose everywhere. They are on the floor, hanging on golden threads from the ceiling, draped across the
+      seats and attached to the green and red curtains hanging from the hooks on the walls. The scent of
+      jasmine wafts into your nose, announcing the entrance of the Priestesses, waiting for the evening's
+      audiences with those in need of their aid. You step out of their way as they approach the shining altar
+      in the back of this temple. One thing that strikes you as they pass by is that they all have enticingly
+      soft green eyes and flowing red hair. The altar is cut of a single ruby which rises to the level of your
+      chest. Carved into the wall of diamond above and behind it is a fountain depicting a naked Nymph pouring
+      shimmering water out of a flask. As you reach forward to let the water fall over your hand, you feel a
+      wave of calmness and joy wash over you.
+flag:
+  - nosnoop
+  - noat
+  - private
+  - party

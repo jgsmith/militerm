@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen27"
+      west:
+        target: "scene:aber:thyrannen:thyrannen25"
+    short: Marsh
+    sight: >
+      You trudge along the thick marsh, wishing more and more for a glimpse of dry, solid land, yet as far as
+      the eye can see, there is none.
+flag:
+  - outdoors

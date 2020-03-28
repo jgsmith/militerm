@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:sagewood:sagewood1"
+      south:
+        target: "scene:aber:sagewood:cavern2"
+      west: null
+    short: Entrace To Ominous Cavern
+    sight: >
+      This gigantic hall appears to only lead &+CNorth&* and &+CSouth&*. Waves of blinding heat eminate from
+      the south, while reasurring light comes out of the hole in the north. Evil-looking &+Bcarvings&* are
+      engraved in the East and West walls.
+flag:
+  - nomobiles

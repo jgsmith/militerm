@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fareast:ropebridge"
+    short: Rapids on the Stream
+    sight: >
+      You leap from the rope bridge, and hurtle down toward the water. Unfortunately, you miss the deeper
+      water, and smash against the rocks below, dying almost instantly.
+flag:
+  - death
+  - nomobiles

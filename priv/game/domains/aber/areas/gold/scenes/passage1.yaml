@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:gold:passage2"
+    short: Passage Out!
+    sight: >
+      You are in a North <-> South passageway which runs underground. You see a picture on the wall of a man
+      near water blowing into a mighty horn, and a hand reaching out of the water with a gleaming sword
+      grasped firmly. Could this be the way to the famed sword Excalibur!?
+flag:

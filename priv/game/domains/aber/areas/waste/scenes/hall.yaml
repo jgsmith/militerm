@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:waste:crystal"
+      south:
+        target: "scene:aber:waste:salamander"
+      west:
+        target: "scene:aber:waste:flaming"
+    short: Fiery Hall
+    sight: >
+      You are standing in a fiery red hall whose walls are caked with sulphur. It's very hot in here, but
+      strangely the heat doesn't seem to be affecting you too badly. Twisting, flame-lined passages lead north
+      and south.
+flag:
+  - hot

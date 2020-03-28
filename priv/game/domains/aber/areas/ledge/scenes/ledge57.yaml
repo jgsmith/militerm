@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge45"
+      east:
+        target: "scene:aber:ledge:ledge58"
+      south:
+        target: "scene:aber:ledge:ledge57"
+      west:
+        target: "scene:aber:ledge:ledge56"
+    short: Not so Shallow Water
+    sight: >
+      It's up to your neck now, and you feel the edge of something underneath you...looks like the floor drops
+      off quite a good distance. You will either have to now climb up on a boat, dive underwater, or turn
+      back. Check the skies and the wind, cause there's been many divers killed while swimming here in bad
+      weather.
+flag:
+  - outdoors

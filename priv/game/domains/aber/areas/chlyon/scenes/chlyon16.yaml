@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chlyon:chlyon12"
+      south:
+        target: "scene:aber:chlyon:chlyon17"
+    short: Majestic Hallway
+    sight: >
+      You can't help but admire the beautiful craftmanship that has gone into building this hallway. The walls
+      are covered with an ivory-like material, and are ornated with ancients runes and symbols whose meaning
+      has been lost along the years. One of them you recognize though: The symbol of the people of Thyreen,
+      the warriors who have pledged their lives to serving the ancient dark gods of Chlyon, before they were
+      overthrown. According to the legend, the current gods of the land were impressed with the courage the
+      Thyreeneans displayed in battle and spared their lives with the condition that they will dedicate their
+      lives to making sure the legendary beast Chimera will never again be unleashed on the lands of Chlyon.
+      To the south, the hallway leads off into what seems to be a throne room.
+flag:

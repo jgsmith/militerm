@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon14"
+      up:
+        target: "scene:aber:pensalon:pensalon17"
+      west:
+        target: "scene:aber:pensalon:pensalon16"
+    short: On the Wall
+    sight: >
+      The view from the top of the wall holds you in awe, as you watch the beautiful lands of Pensalon unfold
+      around you. It looks like you may be able to climb to the roof of the tower. There is a large cleared
+      area to the west where there is a catapult, and to the north is a small guard room.
+flag:
+  - outdoors

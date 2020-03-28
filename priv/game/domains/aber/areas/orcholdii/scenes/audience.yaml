@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:entry"
+      south:
+        target: "scene:aber:orcholdii:sitting"
+    short: "The Queen's Audience Chamber"
+    sight: >
+      It appears no expense was spared in preparing this room. The entire room is done in black marble and
+      there are tapestries looted from some of the finest castles adorning the walls. There is a chandalier
+      hanging from the ceiling and there are more of those magical balls of light about the room. On the west
+      wall is a massive dias with two thrones on it. One is large, twice the size of the orc and obviously
+      intended for the Queen. The other is just a glorified chair intended for the King, though from the coat
+      of dust on it, he rarely uses it prefering his old audience chamber. There is a door to the south and
+      the hallway leads back to the east.
+flag:

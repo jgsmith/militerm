@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq08"
+      north:
+        target: "scene:aber:yllythad:yllythad5141"
+      west:
+        target: "scene:aber:nwbeaches:beachqq04"
+    short: Sandy Beach
+    sight: >
+      You stand on a sandy beach which runs along the shore east to west. To the east you can just barely make
+      out the rooftops of a large city which sits nestled in a cove on the shore of the ocean. To your west
+      you see that the beach gets a bit rockier than where you currently stand. A set of steps lead up the
+      cliff face just to the west of you.
+flag:
+  - outdoors

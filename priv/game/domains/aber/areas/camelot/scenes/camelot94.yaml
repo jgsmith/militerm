@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot92"
+      west:
+        target: "scene:aber:camelot:camelot95"
+    short: More Trail
+    sight: >
+      You have reached the edge of the foothills. From here, your only choices are to climb into the
+      mountains, or down into the valley below.
+flag:
+  - outdoors

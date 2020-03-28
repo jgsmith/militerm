@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan31"
+      north:
+        target: "scene:aber:mithdan:mithdan24"
+      west:
+        target: "scene:aber:mithdan:mithdan29"
+    short: Blinding Snow
+    sight: >
+      The snow whips in circular patterns, blinding you. You can faintly make out the shapes of trails leading
+      to the east and west, and to the north there appears to be a large clearing. The clouds appear to be
+      less then ten paces above your head.
+flag:
+  - outdoors
+  - cold

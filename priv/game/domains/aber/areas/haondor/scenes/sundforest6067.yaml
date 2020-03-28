@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6072"
+      south:
+        target: "scene:aber:haondor:sundforest6062"
+    short: At The Fallen Tree
+    sight: >
+      You are standing in a small clearing, beside a large fallen tree. A large amount of the &+Gtree&* has
+      already decomposed, but some pieces remain, scattered about the &+Cclearing&*. Paths border the clearing
+      to the north and south.
+flag:
+  - real
+  - outdoors

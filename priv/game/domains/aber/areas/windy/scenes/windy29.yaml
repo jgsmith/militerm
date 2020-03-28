@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount17"
+      north:
+        target: "scene:aber:windy:windy30"
+      up:
+        target: "scene:aber:windy:windy30"
+    short: Stairway to the Clouds
+    sight: >
+      You climb up stairs made of clouds, they don't seem to end. You still can turn back ....
+flag:
+  - nomobiles
+  - oneperson
+  - outdoors
+  - cold

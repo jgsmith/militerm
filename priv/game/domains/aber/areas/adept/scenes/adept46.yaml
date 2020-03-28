@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:adept:adept45"
+    short: &+RSide Pit
+    sight: >
+      Not many people head into here, as it often contains unpleasant surprises. Your footing slips and you
+      hit the ground, rolling down a small ditch of thick branches. One gouges a furrow from your neck, but
+      another pierces your chest and lightly punctures the pericardium. Gasping for breath as the blood flows
+      from you, your eyes close on this world forever.
+flag:
+  - death

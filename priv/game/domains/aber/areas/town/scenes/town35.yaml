@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town27"
+      north:
+        target: "scene:aber:town:town37"
+      up:
+        target: "scene:aber:town:town33"
+      west:
+        target: "scene:aber:town:town36"
+    short: The Town Brothel
+    sight: >
+      This is the town's brothel. There are many activities here for the weary traveler to fulfill their
+      wildest dreams. To the north there is an entrance to the town square, to the east the brothel is
+      connected to the town's Tavern, to the west you may enter one of the brothel's entertainment areas: the
+      Casino, and you may climb a grand staircase to the upper entertainment rooms, where anything is possible
+      if you have the money.
+flag:
+  - party
+  - peaceful
+  - nomobiles

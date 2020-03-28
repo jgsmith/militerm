@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:brookmere:brookmere11"
+      west:
+        target: "scene:aber:brookmere:brookmere14"
+    short: Lighted Corridor
+    sight: >
+      This corridor is well lighted and seems to be heavily traveled. It looks newly dug, indeed it appears
+      that construction is still going on with several mud caked shovels lying around. Fortunately the
+      corridor twists and turns, and leaves lots of places to hide in to avoid being discovered - It must be
+      one of the newer tunnels, built by the orcs, goblins and gnolls, who, although inspired at war and
+      carnage, are less than adequate builders.
+flag:

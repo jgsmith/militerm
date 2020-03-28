@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cathedral:royal"
+    short: The South Portal
+    sight: >
+      As you step forward into the &+Ldarkness&* of the portal, you realize it hasbeen boarded over with
+      &+ywood&*. You try to budge the old and &+Lrotting &+yboards&*, but to no avail. You will have to try
+      another way in.
+flag:
+  - light
+  - outdoors

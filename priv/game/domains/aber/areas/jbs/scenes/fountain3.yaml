@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fountain1"
+      up:
+        target: "scene:aber:jbs:fountain4"
+      west:
+        target: "scene:aber:jbs:fountain2"
+    short: Northern Side of the Fountain
+    sight: >
+      Looks about the same as where you just came from except you have to face south to see the fountain.
+flag:

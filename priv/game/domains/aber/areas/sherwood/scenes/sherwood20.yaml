@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood21"
+    short: Rainbow Waterfall
+    sight: >
+      You are standing in a small stream just below a breath-taking waterfall. The spray off the falls causes
+      a beautiful rainbow to stretch across the river. You can not imagine a more beautiful place. Jagged
+      rocks cover the bed of the stream just below the falls. The stones become smoother and polished further
+      down stream from the continuous wearing of the water. The grass is short, soft, and green, perfect for a
+      picnic with your sweatheart.
+flag:
+  - outdoors
+  - private
+  - party

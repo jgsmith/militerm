@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie5"
+      west:
+        target: "scene:aber:newbie:newbie7"
+    short: Scavenging for Items
+    sight: >
+      You will come across many items as you progress through the mud. Some will be useful to you; others will
+      not. You can only carry a certain number of items, but you will soon get a feel for what you need and
+      what you do not. Pick up items using the command &+GGET&* or &+GTAKE&*. Drop them again using the
+      command &+GDROP&*. To see what you are carrying at any time, type &+YI&* or &+YINV&* for
+      &+YINVENTORY&*). You can practice these commands on the towel in this room. There may be something
+      interesting about the object, so you should use the &+CEXAMINE&* command, or &+CEX&* for short, followed
+      by the name of the object. There are many types of items, some of which you will come across shortly.
+      The path takes a turn here, to continue the tour, go west.
+flag:
+  - newbie

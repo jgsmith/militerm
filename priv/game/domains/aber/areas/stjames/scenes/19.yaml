@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:8"
+      north:
+        target: "scene:aber:stjames:20"
+      south:
+        target: "scene:aber:stjames:18"
+      west:
+        target: "scene:aber:stjames:22"
+    short: Path Through St. James Park
+    sight: >
+      You are on the northern east-west path through St. James Park. To the east is the northern park
+      entrance, and to the west is the expanse of the park. The park meets Buckingham Palace to the west. To
+      the south is a pond with a large fountain in it. Beyond the pond is a grassy place specked with trees
+      and people. The path is lined on both sides by green park benches.
+flag:
+  - outdoors

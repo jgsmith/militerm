@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:ghenna:ghenna9901"
+      south:
+        target: "scene:aber:ghenna:ghenna9905"
+      west:
+        target: "scene:aber:ghenna:ghenna9951"
+    short: The smell of death.
+    sight: >
+      You are standing in what appears to be the town graveyard. Nobody feels the need to bury the dead, so
+      the corpses are just strewn about in no particular order. And the smell, oh boy! It's all you can do to
+      keep from losing your lunch right now. The corpses are stacked too high to exit East, but you can pass
+      North, South or West.
+flag:
+  - dark
+  - outdoors

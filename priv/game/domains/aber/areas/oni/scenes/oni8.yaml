@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Roaring Rapids
+    sight: >
+      You thrash about wildly as you are jostled around by the rapids. The current is just too strong for you
+      to fight. You watch helplessly as the river pushes you towards a large grouping of rocks in the middle
+      of the river.
+flag:
+  - outdoors

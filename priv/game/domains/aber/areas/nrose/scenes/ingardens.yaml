@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nrose:gardens"
+    short: In the Gardens
+    sight: >
+      You are in another part of the gardens. There once were vegetables growing here at one time but there is
+      very little left of use here now.
+flag:
+  - outdoors

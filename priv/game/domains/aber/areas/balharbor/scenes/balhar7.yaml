@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:balharbor:balhar8"
+    short: The Adventurers Guild
+    sight: >
+      This guild is a hangout for numerous explorers and travelers who spent their lives exploring all distant
+      lands. Now long since retired they spend their days telling younger ones of their exploits while sipping
+      ale and beer at the bar toward the left side of the establishment. Come to think of it, you may be able
+      to benefit by listening in to some of the stories being told here, that is, if the storytellers remain
+      coherent enough. You can go back outside north or enter the back room to the south.
+flag:
+  - party

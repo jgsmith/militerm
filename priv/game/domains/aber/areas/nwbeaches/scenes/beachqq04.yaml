@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq07"
+      up:
+        target: "scene:aber:nwbeaches:beachqq03"
+      west:
+        target: "scene:aber:nwbeaches:beachqq05"
+    short: The Base of the Steps
+    sight: >
+      You stand at the bottom of a set of steps cut into the face of the cliff here. The beach runs along east
+      to west here as far as you can see.
+flag:
+  - outdoors

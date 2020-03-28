@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6742"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6601"
+    short: A black portal
+    sight: >
+      You stand in the shimmering glow of a portal of rogue-black light. This is the gift of the Archmage to
+      the assassin's guild, in return for a few bounties performed, of course. Ever wonder who put the Earl of
+      Sundhaven in power?..Nevermind. Beyond the dark glare is a vision of the temple courtyard, the center of
+      town, above you.
+flag:

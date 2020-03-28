@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6640"
+      west: null
+    short: The west gate of Sundhaven
+    sight: >
+      An ornate gate, heavy and wrought from black iron, hangs on ancient hinges to the west, bordered by
+      slender elms. The ivy so plentiful in the town is twined and braided about its intricate coils and
+      carvings, which consist largely of prowling cats and eclipsed circle designs.
+flag:
+  - outdoors

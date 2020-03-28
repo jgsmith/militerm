@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale136"
+      up:
+        target: "scene:aber:fairytale:fairytale100"
+    short: "Sleeping Beauty's Room"
+    sight: >
+      You have entered a large, lavishly-decorated room. This must be the end of your quest, for among the
+      gold brocade and silver furniture is a coffin. A throne rests against the north wall, inlaid with
+      expensive gems. A crown rests on the throne, also inlaid with shining stones. A closet filled with
+      valuable robes and gowns is against the east wall. The coffin is made of an alloy which you do not
+      recognize, which seems to reflect the light. The coffin has been carved with Sleeping Beauty's name and
+      face.
+flag:
+  - nomobiles

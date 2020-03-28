@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale106"
+      up:
+        target: "scene:aber:fairytale:fairytale121"
+    short: Portal
+    sight: >
+      You are inside a large, wooden portal. Along the north wall are a series of levers marked 'up', 'down',
+      and 'open'. The lighting in this box is provided by tubes which glow softly above you.
+flag:
+  - nomobiles

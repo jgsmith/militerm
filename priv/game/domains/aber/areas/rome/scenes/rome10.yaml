@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome17"
+      north:
+        target: "scene:aber:rome:rome9"
+      up:
+        target: "scene:aber:rome:rome3"
+    short: The Jousting Arena
+    sight: >
+      This is a wide open grassy plane....LOOK OUT!!!! You are almost skewered by a gladiator's lance as he
+      makes his charge. A practicing area is due north and you can hear loud snarls and roars from below.
+flag:
+  - outdoors

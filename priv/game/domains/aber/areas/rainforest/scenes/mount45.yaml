@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount46"
+      east:
+        target: "scene:aber:rainforest:mount46"
+      up:
+        target: "scene:aber:rainforest:mount44"
+      west:
+        target: "scene:aber:rainforest:mount44"
+    short: Stony Path
+    sight: >
+      You are on a moderately steep path which descends into the trees fairly nearby to the east, and to the
+      west climbs the side of a range of tremendously high mountains. Clouds cover many of the peaks, and the
+      thought of climbing up there fills you with dread.
+flag:
+  - outdoors

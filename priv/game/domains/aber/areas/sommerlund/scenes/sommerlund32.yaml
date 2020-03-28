@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund33"
+      up:
+        target: "scene:aber:sommerlund:sommerlund27"
+    short: Tower Stairs
+    sight: The staircase continues in either direction.
+flag:
+  - dark

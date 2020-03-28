@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:narrow"
+    short: Rest Chamber
+    sight: >
+      You are in what appears to have been a large rest chamber of some sort. There is a great deal of dried
+      blood on the floor here, and several more marks that seem to indicate the use of sorcery. A narrow
+      corridor leads north.
+flag:

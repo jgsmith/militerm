@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:side1"
+      west:
+        target: "scene:aber:cathedral:path4"
+    short: Beside the &+rCathedral&*
+    sight: >
+      The &+Gleaves&* hang low here, and your head brushes against them as you pass. The path continues into
+      deep &+gfoliage&* to the west, but to the east it clears up somewhat, and what little &+Ylight&* there
+      is streams in as the leaves part.
+flag:
+  - dark
+  - outdoors

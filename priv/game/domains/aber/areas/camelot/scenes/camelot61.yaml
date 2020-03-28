@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot60"
+    short: The Stables
+    sight: >
+      Numerous stalls line the walls, and at the rear of the building you see a stack of hay and bags of
+      grain. The horses seem well tended, and you know that, had you a horse, this would be a good place to
+      leave him.
+flag:

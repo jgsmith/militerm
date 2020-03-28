@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot83"
+    short: Swampland
+    sight: >
+      Oh no! You've went too far into the swamp! As you sink into the mire, you have a few moments to consider
+      your life. Pity it's been such a short one isn't it?
+flag:
+  - outdoors
+  - death

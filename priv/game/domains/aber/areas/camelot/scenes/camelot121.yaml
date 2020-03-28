@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot119"
+      west:
+        target: "scene:aber:camelot:camelot123"
+    short: Moldy Cavern
+    sight: >
+      The walls of this cavern are covered with a thick green fungus. Strangely enough, it seems to have been
+      harvested in a few places. Do you think these nasty creatures actually eat this stuff?
+flag:
+  - dark

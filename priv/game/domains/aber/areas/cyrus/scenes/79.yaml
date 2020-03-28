@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:80"
+      south:
+        target: "scene:aber:cyrus:9"
+    short: Hallway
+    sight: >
+      This hallway leads north. You are coming from a wide room and heading toward a small, circular room. You
+      believe that the walls are made of black stone. Some footsteps are printed in the dirt here.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6623"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6733"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6626"
+    short: The southern path
+    sight: >
+      The soft mud of the path loosens and parts as it meets your heels, pulling you in slightly with each
+      step. A rotten stench is filtering in from the west, repelling you in another direction automatically
+      such that it takes a great conscious effort for you to turn that way. The path heads north into the
+      town's mainstream, and south closer to the wildlands beyond it.
+flag:
+  - outdoors

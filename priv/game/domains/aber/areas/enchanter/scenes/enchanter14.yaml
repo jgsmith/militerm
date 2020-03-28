@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter15"
+      east:
+        target: "scene:aber:enchanter:enchanter19"
+    short: Another Fork in the Road
+    sight: >
+      You can keep going around the mountain to the southwest, or go east towards the dark castle. A quaint,
+      Tyrolean village lies off to the southwest.
+flag:
+  - outdoors
+  - real
+  - tempreal

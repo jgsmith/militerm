@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:tower:spell"
+    short: Potion Store Room
+    sight: >
+      This would appear to be the potion preparation and store room for the Sorceror, as around you lie
+      shelves once lined with glass vials and bottles ready to be filled. A single doorway leads south.
+flag:

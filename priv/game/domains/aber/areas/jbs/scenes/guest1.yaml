@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:lhall6"
+    short: Guest Room
+    sight: >
+      This is an enormous bedroom. Other than that it looks about like any other bedroom. It has a bed, a
+      dresser, a night table, and all the other stuff that bedrooms usually have. It's all just really big.
+flag:

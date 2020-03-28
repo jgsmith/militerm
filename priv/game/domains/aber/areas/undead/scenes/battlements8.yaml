@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:battlements9"
+      south:
+        target: "scene:aber:undead:battlements7"
+    short: Upon the battlements
+    sight: >
+      You stand upon the battlements. It has suddenly become very cold here. Ice has formed beneath your feet,
+      and you have to be very careful not to slip. The wind still blows quietly into your face, and yet there
+      is no sound. Your skin is chilled as the cold quickly penetrates your armor. The battlements continue to
+      both the &+Cnorth&* and the &+Csouth&*.
+flag:
+  - outdoors
+  - cold

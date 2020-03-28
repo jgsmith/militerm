@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5555"
+      south:
+        target: "scene:aber:graye:graye5553"
+    short: The Tunnel
+    sight: >
+      The tunnel leads north and south, and to either side of you are great cells. Peeking in a smudged
+      window, you see human prisoners, many of them wearing the uniform of the Graye Guard.
+flag:
+  - dark

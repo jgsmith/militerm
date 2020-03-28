@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept61"
+      west:
+        target: "scene:aber:adept:adept63"
+    short: The Seeker
+    sight: >
+      You stand upon the main deck of the elven fishing boat Seeker. She has led a long life in her journeys
+      throughout the seas of the world, battling the fierce storms and sea serpents. Usually, the Seeker is
+      sent out to fetch deep-sea shellfish, bass, and salmon, but recently a huge explosion of trout and
+      swordfish have caught the attention of the elves and shoved the demand for fresh fish to record-high
+      levels. When the ship is crewed, the first mate controls the nearby steering wheel and the petty officer
+      is in the crow's nest. Several other people take hold of handling the emblazoned sails and side oars to
+      control the Seeker's speed.
+flag:

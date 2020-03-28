@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar31"
+      north:
+        target: "scene:aber:balharbor:balhar67"
+      west:
+        target: "scene:aber:balharbor:balhar29"
+    short: Well-Travelled Road
+    sight: >
+      You're on the outskirts of town in which you stand at the entrance to the exclusive Evergreen Pines
+      subdivision that runs north of here where several fancy houses were built to attract Bal Harbor's more
+      prominent residents. Perhaps you should check that area out. The road also runs east and west.
+flag:
+  - outdoors
+  - nomobiles

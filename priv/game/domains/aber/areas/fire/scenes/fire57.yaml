@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Fallen from the moonways
+    sight: >
+      You have chosen the wrong way and what do you think is around? Nothing! So you fall deep, deep, deep
+      down and SPLAT!!!
+flag:
+  - death

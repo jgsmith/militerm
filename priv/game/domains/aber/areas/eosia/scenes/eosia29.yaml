@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia30"
+      west:
+        target: "scene:aber:eosia:eosia28"
+    short: More Road?
+    sight: >
+      You have come upon the rest of the Long Road, stretching east towards the Holy City of Chyrellos. Behind
+      you lies the Pandion Motherhouse and further beyond that you can make out the rest of the Long Road. The
+      air is calm, and you wonder if a storm might be coming.
+flag:
+  - outdoors

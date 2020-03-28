@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3491"
+      west:
+        target: "scene:aber:grave:grave3495"
+    short: Planning Room
+    sight: >
+      In the center of this room is a large table with many chairs pulled up close. On the table are maps,
+      troop strenghts, chain of command, etc., all the details of waging war on something - or someone. On one
+      wall is a large banner which reads in large print ... NO VICTORY - NO RETURN. Whatever planning in this
+      room that took place was determined and very well executed. There are exits to the east and west.
+flag:

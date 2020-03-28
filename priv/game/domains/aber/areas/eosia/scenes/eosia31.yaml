@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eosia:eosia32"
+      west:
+        target: "scene:aber:eosia:eosia30"
+    short: The Basilica
+    sight: >
+      You are in the Basilica of Chyrellos, the head of the whole Elene Church. From here the Archprelate
+      rules with a pious hand. Gold inlay causes the light to shine and sparkle throughout the room. High
+      above you a gigantic dome sparkles from the light. The mighty marble pillars that support the roof are
+      decorated with colorful flowers and banners. Before you is the altar, and benchs are placed all over for
+      the faithful to come and pray. Despite the wonder of the room, you still sense an ominous presence which
+      makes you feel quite solemn.
+flag:
+  - party

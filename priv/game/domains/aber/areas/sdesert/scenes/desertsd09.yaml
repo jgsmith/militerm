@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd10"
+      north:
+        target: "scene:aber:sdesert:desertsd07"
+      south:
+        target: "scene:aber:sdesert:desertsd12"
+    short: Another Split In The Path
+    sight: >
+      The path splits here, one part leading off to the &+yeast&* and the other continuing to the &+ysouth&*.
+      Scanning the horizon, you see nothing but dry, dull, weeds, and the occasional stately Saguaro cactus.
+      You wonder how the world got to be so darn ugly.
+flag:
+  - outdoors
+  - hot

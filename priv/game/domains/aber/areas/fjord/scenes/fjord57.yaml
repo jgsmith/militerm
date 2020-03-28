@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord55"
+      up:
+        target: "scene:aber:fjord:fjord58"
+    short: Winding With the Phaylax Trail
+    sight: >
+      A path made of black glassy lava leads up from the caldera and winds around the mountain, terminating
+      somewhere near the lip of the crater. Cutting gales sweep across the steep climb of the slope, bringing
+      fine flakes of snow pelting against you. Shades stand motionless at various points on the trail, some
+      simply hovering off the edge in mid-air, their formless, transparent faces staring at nothing.
+flag:
+  - outdoors
+  - cold

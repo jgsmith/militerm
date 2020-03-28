@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:3"
+      south:
+        target: "scene:aber:stjames:1"
+      west:
+        target: "scene:aber:stjames:11"
+    short: St. James Park
+    sight: >
+      You are on a beautiful green lawn just north of the main park entrance. To the northwest is a pond full
+      of cool and clear water. To the south is an enormous open grassy area with a number of large shade
+      trees.
+flag:
+  - outdoors

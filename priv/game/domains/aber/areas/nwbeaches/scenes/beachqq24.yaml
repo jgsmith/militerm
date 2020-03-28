@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq21"
+    short: "Lighthouse Keeper's Daughter's Bedroom"
+    sight: >
+      What a cute little room! Twin bed with a pink down comforter, a doll collection which even impresses
+      you, and many other assorted toys sit on shelves, all neatly stacked and color-coordinated.
+flag:

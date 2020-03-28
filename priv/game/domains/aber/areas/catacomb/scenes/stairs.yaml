@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:catacomb:foot"
+      north:
+        target: "scene:aber:catacomb:foot"
+      up:
+        target: "scene:aber:catacomb:beggar"
+    short: The Stone-Carved Stairs
+    sight: >
+      Here, the spiral staircase straightens out. You may climb the stairs, or descend to the north.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:forest4"
+    short: Cave of the Grizzy Bear
+    sight: >
+      You walk into the cave, wondering what could possibly be in a bear cave (besides a grizzy bear of
+      course). The first thing you notice is that you're still alive for now. Then you notice a strange
+      growling from the back of the cave.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:brookmere:brookmere49"
+    short: Alcove
+    sight: >
+      An ordinary old indentation in the main corridor, about a metre deep, traditionally used to display
+      large objects tastefully that would otherwise block traffic - except that there isn't any `object d'art'
+      being displayed here. There is only the &+Rbrick wall&* at the back of the alcove, which looks a bit out
+      of place compared to the stone walls surrounding it.
+flag:

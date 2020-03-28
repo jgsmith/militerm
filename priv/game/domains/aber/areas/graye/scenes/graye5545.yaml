@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:graye:graye5544"
+    short: "Rymat's Chamber"
+    sight: >
+      You find yourself in a small undecorated chamber. There is a &+Bbed&*, &+Bdesk&*, and finely crafted
+      &+Bwashbasin.
+flag:

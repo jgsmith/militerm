@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:grand"
+      north:
+        target: "scene:aber:novice:small"
+      south:
+        target: "scene:aber:novice:corner"
+    short: Western Oak
+    sight: >
+      You are now standing at the base of the western-most oak in the ring. This particular tree captures your
+      attention because it seems almost as grandiose as the center tree, although you almost get a feeling
+      that the center tree would never allow for such competition.
+flag:
+  - outdoors
+  - real

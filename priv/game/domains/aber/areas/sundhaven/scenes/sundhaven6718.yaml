@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6720"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6717"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6719"
+    short: A circle of golden lanterns
+    sight: >
+      The path fades into a broad circular clearing, ringed with white stones and hanging golden lanterns that
+      provide a bright radiance. A few white stone houses, small but cozy-looking, lie just east and west,
+      enjoying the luminescence.
+flag:
+  - outdoors

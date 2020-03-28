@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18636"
+      west:
+        target: "scene:aber:newbee:newbee18638"
+    short: A Large Room
+    sight: >
+      As you enter, you light glints of the wall to the east. There appears to be words scrawled on the
+      &+Gwall&*, and a crude picture. To the west the room extends beyond the reach of your light, and the
+      dark shadows make you paranoid... anything could be hiding there. You are painfully aware of how exposed
+      you are without walls around you.
+flag:
+  - dark

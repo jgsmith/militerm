@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6667"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6674"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6669"
+    short: Atop a bluff of purple flowers
+    sight: >
+      The wind blows your hair from your face as you stand atop a small bluff, beautiful in its blossom colors
+      of lavender and mist-grey flowers. The abodes of the residents of Sundhaven litter the surroundings,
+      nestled among the rocks and clinging to the precarious cliff edge.
+flag:
+  - outdoors

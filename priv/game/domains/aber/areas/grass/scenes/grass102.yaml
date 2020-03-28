@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass25"
+      north:
+        target: "scene:aber:grass:grass101"
+      south:
+        target: "scene:aber:grass:grass103"
+      west:
+        target: "scene:aber:grass:grass24"
+    short: Cobblestone Road
+    sight: >
+      The road continues north and south with tall grasses along each side with woods flanking the ends of the
+      prairie far into the distance. You happen to see signs of a town to the north.
+flag:
+  - outdoors

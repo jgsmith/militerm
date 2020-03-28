@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount28"
+      south:
+        target: "scene:aber:rainforest:mount30"
+    short: Top Of The Cliff
+    sight: >
+      At the top of the rock face the air is freezing. Snow-covered mountains tower around you, although you
+      are so high up now that their peaks are now no more than three or four thousand feet above you. To the
+      south is a broad snowfield which looks fairly safe to walk on. The only other exit is back down the
+      cliff.
+flag:
+  - outdoors
+  - cold

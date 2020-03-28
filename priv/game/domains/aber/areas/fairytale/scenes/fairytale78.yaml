@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale80"
+      west:
+        target: "scene:aber:fairytale:fairytale42"
+    short: Well
+    sight: >
+      A series of rungs have been set into the wall of this well to allow access to the bottom. They are cold
+      and slimy, and you pray that no rain falls to raise the level of the brackish water below. On the east
+      wall, far below you, is a door which you suspect you could reach if you jumped from the rungs.
+flag:
+  - nomobiles

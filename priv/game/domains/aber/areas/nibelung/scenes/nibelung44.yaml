@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung41"
+      west:
+        target: "scene:aber:nibelung:nibelung43"
+    short: Parsonage
+    sight: >
+      The parsonage, like most of the other buildings in the village, is damp and musty. The air hangs heavy
+      here, as if it hadn't moved in several years. The tapestries along the opposite wall are rotten and
+      covered with mildew. To the west you spy a rotting church, and to the north an open doorway opens out to
+      an alley of sorts.
+flag:

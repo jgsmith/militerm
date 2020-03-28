@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:graye:graye5545"
+      south:
+        target: "scene:aber:graye:graye5541"
+      west:
+        target: "scene:aber:graye:graye5543"
+    short: The Throne Room
+    sight: >
+      King Relnar's &+Mthrone&* sits here, empty. There are rooms to the east and west.
+flag:
+  - nomobiles

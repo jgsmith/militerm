@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:newvillage:road3n"
+    short: The General Store
+    sight: >
+      The store is small and quaint but seems to have just about anything a person could need. The store sells
+      food supplies, containers, guns, fabric, and hundreds of other little necessities. There are also
+      several items in the store that are not necessities but appear to be interesting imported little items
+      such as dolls and toys.
+flag:

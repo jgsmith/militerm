@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:dam"
+    short: Western End of the Dam
+    sight: >
+      You have come to the west end of the damwall. The damwall stops abruptly here where the western wall of
+      the cavern begins. The only exit is to the east.
+flag:

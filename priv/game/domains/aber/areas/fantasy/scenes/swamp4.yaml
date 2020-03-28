@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp3"
+      south:
+        target: "scene:aber:fantasy:swamp5"
+    short: Murky Swamp
+    sight: >
+      The swamp here is a little more murky than the other swampy areas that you have seen so far. The mud is
+      very cold here and you start to feel like this swamp will never end.
+flag:
+  - outdoors

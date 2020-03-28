@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nibelung:nibelung56"
+    short: Guardhouse
+    sight: >
+      The guardhouse is very small. A tiny table is off to one side with a ledger on it. Some hooks run along
+      the far wall, and a small stool is in one corner. Murky sunlight struggles to shine through the streaked
+      window. To the west is the northern gate of the castle.
+flag:
+  - dark

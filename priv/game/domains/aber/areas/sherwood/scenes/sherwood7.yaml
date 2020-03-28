@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood8"
+      south:
+        target: "scene:aber:sherwood:sherwood6"
+    short: Trampled Path
+    sight: >
+      You are on a heavily worn path. It looks as if many a wagon has traveled through here. The trees thin
+      here allowing the bright sunlight to shine down. A tiny rabbit scurries through the bushes but he is too
+      fast for you. The path continues to the north.
+flag:
+  - outdoors

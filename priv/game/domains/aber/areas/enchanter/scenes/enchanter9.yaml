@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter8"
+    short: End of the Trail
+    sight: >
+      The trail emerges into a small clearing. A stream of sparkling clear &+Cwater&* runs by. There is a
+      stone &+Cmarker&* here.
+flag:
+  - outdoors
+  - real
+  - tempreal

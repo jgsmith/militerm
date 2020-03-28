@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter7"
+    short: Overgrown Trail
+    sight: >
+      The trail turns northwest here. It's almost impossible to hack your way through the bushes here.
+flag:
+  - outdoors
+  - real
+  - tempreal

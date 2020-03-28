@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop26"
+      north:
+        target: "scene:aber:bishop:bishop30"
+      south:
+        target: "scene:aber:bishop:bishop28"
+      west:
+        target: "scene:aber:bishop:bishop24"
+    short: Crossways
+    sight: >
+      The two main roads of the garden intersect here. The garden surrounds everywhere except to the north,
+      where the monastery place of worship sits in a sheltered alcove.
+flag:
+  - outdoors

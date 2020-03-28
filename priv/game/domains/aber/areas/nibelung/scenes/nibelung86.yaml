@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung87"
+      north:
+        target: "scene:aber:nibelung:nibelung85"
+      south:
+        target: "scene:aber:nibelung:nibelung87"
+    short: Carniverous Cave
+    sight: >
+      You are in an enormous cave. The ceiling is well out of the range of your lightsource, as are several of
+      the walls. You can hear the echo of dripping water in the distance. A great feeling of awe overcomes you
+      as you contemplate the great power that must have gone into the makings of such a large cavern. The
+      dampness chills you a bit as you weave across the room, trying to avoid some puddles of greenish water
+      that lie about. A small opening in the south wall catches your attention.
+flag:
+  - dark
+  - nosummon

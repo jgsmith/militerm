@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:cobwebs"
+    short: "&+GMillarca's Bedchamber"
+    sight: >
+      This room is decked out in fine victorian style, with elegant baseboards and trim. A large mirror adorns
+      the wall, and a king-sized canopy bed is perched in the center of the room. Plush carpeting cushions
+      your feet as you walk. A table sits in the corner, filled with nicknacks.
+flag:
+  - light

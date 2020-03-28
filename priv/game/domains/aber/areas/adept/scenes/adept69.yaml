@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept67"
+    short: Underground Cavern
+    sight: >
+      The passageway in here can only be made crawling on all fours, but the ceiling is much higher up inside
+      the chamber. Every wall and the floor are covered in thick, gnarled roots. There is no place for bugs to
+      even live since the mass of roots is so thick.
+flag:
+  - dark

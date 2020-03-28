@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:60"
+      up:
+        target: "scene:aber:cyrus:58"
+    short: End of the staircase
+    sight: >
+      You arrive at the bottom of the stairs. The heat is so intense that it is now slowly taking away your
+      life away. Ahead of you can see three different gates. Obviously, you will have a choice to make. You
+      are now in a fiery red room. Hot ashes are flying everywhere.
+flag:
+  - negregen
+  - hot

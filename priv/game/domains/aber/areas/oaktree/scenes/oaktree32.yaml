@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:oaktree33"
+      south: null
+    short: Between Worlds
+    sight: >
+      The air seems heavy, almost wooden, and gray mists prevent you from seeing more than two feet in front
+      of you. You have to grope around before finding a way out to the north.
+flag:
+  - outdoors

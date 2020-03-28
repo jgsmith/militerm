@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: "Sam's Gym and Workout"
+    sight: >
+      Well here is the gym. Bodybuilders at work. Lots of strange machines. Some people seem to be working on
+      exercises that will let them build their strength build slowly over time.
+flag:
+  - peace
+  - soundproof

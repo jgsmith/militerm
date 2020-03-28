@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:1"
+      north:
+        target: "scene:aber:waste:1"
+      south:
+        target: "scene:aber:waste:1"
+      west:
+        target: "scene:aber:waste:2"
+    short: Wasteland
+    sight: >
+      You are traversing a black and dusty wasteland, a dull, black, flat, mind numbing extent which receeds
+      on and on and on...
+flag:
+  - hot

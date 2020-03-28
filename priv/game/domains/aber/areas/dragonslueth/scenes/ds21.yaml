@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds15"
+      south:
+        target: "scene:aber:dragonslueth:ds24"
+      west:
+        target: "scene:aber:dragonslueth:ds22"
+    short: Left Wing
+    sight: >
+      This wing is huge and is the intersection point for several other areas of the castle. There are several
+      footprints on the ground as you look around.
+flag:

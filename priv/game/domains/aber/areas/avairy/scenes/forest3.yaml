@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:forest4"
+      south:
+        target: "scene:aber:avairy:forest2"
+    short: Within the Forest
+    sight: >
+      You are within a large, florishing forest. You hear many birds whistling and squaking to one another.
+      Squirrels and chipmunks scurry here and there. The floor is covered by leaves, twigs, and large branches
+      making your walk very unstable.
+flag:
+  - outdoors
+  - light

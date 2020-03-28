@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot59"
+      south:
+        target: "scene:aber:camelot:camelot57"
+    short: Outside the Village
+    sight: >
+      The road you are on leads north into a tiny village, and south winds it's way towards a huge castle set
+      atop a hill.
+flag:
+  - outdoors

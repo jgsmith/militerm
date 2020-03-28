@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome58"
+      up:
+        target: "scene:aber:rome:rome56"
+    short: A Mountain Path
+    sight: >
+      You are standing on a path that leads up through a stand of large &+Gtrees. Everything is green and it
+      seems like eternal spring - this is Mother Nature at her finest. It is possible to descend into a
+      tranquil valley from here.
+flag:
+  - outdoors

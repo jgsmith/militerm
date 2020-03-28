@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gold:churchsteps"
+      west:
+        target: "scene:aber:gold:pathtochurch"
+    short: Church Path
+    sight: >
+      You are travelling along a well groomed line of trees. The steeple you saw before is now closer to you,
+      and appears to be more beautiful the closer you get to it.
+flag:
+  - outdoors

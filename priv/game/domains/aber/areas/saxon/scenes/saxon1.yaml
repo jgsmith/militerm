@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:saxon:saxon2"
+      west:
+        target: "scene:aber:saxon:saxon22"
+    short: "&*The &+BWater's &*Edge"
+    sight: >
+      As you stand on the rocky beach here, you see the expansion of a beautiful clear blue sea to the west of
+      you. Above you towers a steep cliff which may lead to treasure and glory, or pain and loss of life.
+      Seagulls call out as you take in the beauty and ponder your options.
+flag:
+  - light
+  - outdoors

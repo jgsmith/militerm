@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town47"
+      north:
+        target: "scene:aber:town:town48"
+      south:
+        target: "scene:aber:town:town45"
+    short: Wilderness Road
+    sight: >
+      Gently the grass plains roll into a heavily wooded area. To the east you can just make out a small camp
+      that seems to be burning. The northen path continues to go deeper into the woods and behind you, you can
+      feel the southern breeze blowing gently in from the planes.
+flag:
+  - outdoors

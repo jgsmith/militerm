@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:river"
+      south:
+        target: "scene:aber:abyss:river"
+    short: In the Rocks
+    sight: >
+      This mound of rocks could have been the ancient remains of a watchtower that afforded a good view of the
+      river. The far bank looks even more desolate and forbidding than the near one, it is probably a good
+      thing that the river separates them. Up river, to the north, the current is much swifter as it gushes
+      through a rocky narrow canyon. To the south the river wends it way slowly out of sight.
+flag:

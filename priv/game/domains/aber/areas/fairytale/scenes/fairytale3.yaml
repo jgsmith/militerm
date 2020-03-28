@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale2"
+      east:
+        target: "scene:aber:fairytale:fairytale4"
+      up:
+        target: "scene:aber:fairytale:fairytale5"
+    short: On the Vine
+    sight: >
+      The vine here is softer than that above and below it. You suspect that parasites have been nibbling at
+      it. It continues up and down.
+flag:

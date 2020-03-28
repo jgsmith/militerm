@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:gaia3"
+      north:
+        target: "scene:aber:fantasy:gaia5"
+    short: Towards the Exit
+    sight: >
+      Looking to the north you can see the end of the Gaia cave. You still have an uneasy feeling of something
+      watching you though.
+flag:
+  - dark

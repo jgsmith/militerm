@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:shore1"
+      east:
+        target: "scene:aber:fareast:cliffs5"
+      north:
+        target: "scene:aber:fareast:cliffs1"
+      up:
+        target: "scene:aber:fareast:cliffs5"
+      west:
+        target: "scene:aber:fareast:shore1"
+    short: Atop the Northern Cliffs- Plateau
+    sight: >
+      The top of the cliffs is flat and broad, and offers a very good view of the shoreline to the west, as
+      well as the drop-off to the south, where a stream has cut through the stone, forming a wide valley. A
+      narrowing rise leads towards the east, deeper into the cliffs and further up. Travelling north, however,
+      will only take you to a small overhang, and from there the only way is down or back.
+flag:
+  - outdoors

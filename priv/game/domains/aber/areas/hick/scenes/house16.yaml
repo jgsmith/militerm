@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house15"
+    short: "Jeremy's Room"
+    sight: >
+      This is Jeremy's room, nothing real special, just a bed, a dresser, and some model cars sitting around.
+flag:

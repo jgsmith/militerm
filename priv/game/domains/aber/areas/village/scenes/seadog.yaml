@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:behind"
+      west:
+        target: "scene:aber:village:inn_yard"
+    short: The Old Seadog
+    sight: >
+      You are standing in the 'Old Seadog' inn. The inn radiates age and charm, with its oak beam roof, and
+      many seafaring momentos secured firmly around the walls. Even the bar is a single thick oak slab, worn
+      and chipped with years of service to rowdy sailors. The door out is west.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park6"
+      north:
+        target: "scene:aber:balharbor:park8"
+      south:
+        target: "scene:aber:balharbor:park2"
+      west:
+        target: "scene:aber:balharbor:park4"
+    short: Pond
+    sight: >
+      What would a park be without a pond that attracts water fowl? Here is a nice little pond where people
+      can fish or feed the ducks and geese. It's somewhat too small to take a boat on it, it's easier to just
+      walk around the perimeter. Already some ducks have gathered nearby quacking hoping you brought them some
+      corn or bread crumbs to feed them with. A picnic area is to the west, and the front of the park to the
+      south. Running water can be seen to the east and kids playing to the north.
+flag:
+  - outdoors

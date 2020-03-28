@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:tria2"
+      south:
+        target: "scene:aber:evolution:perm2"
+      west:
+        target: "scene:aber:evolution:tria8"
+    short: Tree Fern Glade
+    sight: >
+      This is an open patch of ground surrounded by tall tree ferns, which sway slightly in the breeze. All
+      about you is the Triassic landscape, dry and hot, inhabited by thecodonts and dicynodonts and a variety
+      of archosauromorphs and lepidosauromorphs. This really is the reptiles' heyday.
+flag:
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Treasure Room
+    sight: >
+      Now you know why they call this the treasure room. From the skeletons and debris, it appears you're not
+      the first foolhardy soul to lose his loot to this fiendish trap...
+flag:
+  - death
+  - underwater

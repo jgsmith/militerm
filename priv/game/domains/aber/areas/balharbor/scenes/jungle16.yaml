@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle17"
+      north:
+        target: "scene:aber:treadmill:tread13"
+    short: Side Trail
+    sight: >
+      This side trail runs off the main trail, and several large animals can be heard all around you. All
+      that's missing is the famous Tarzan yell.
+flag:
+  - outdoors

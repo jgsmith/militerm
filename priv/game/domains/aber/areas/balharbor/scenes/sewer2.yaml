@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:sewer5"
+      north:
+        target: "scene:aber:balharbor:sewer1"
+      south:
+        target: "scene:aber:balharbor:sewer3"
+    short: The Sewer Pipe
+    sight: >
+      Going down the sewer pipe, it becomes dark very quickly. You hear trickling water further down and the
+      smell of methane fumes begins to increase. Footprints go right into a side tunnel going east.
+flag:
+  - dark
+  - noregen

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd64"
+      north:
+        target: "scene:aber:sdesert:desertsd63"
+      south:
+        target: "scene:aber:sdesert:desertsd63"
+      west:
+        target: "scene:aber:sdesert:desertsd62"
+    short: A Brush-Filled Trail
+    sight: >
+      The &+ydesert&* stretches out in every direction, and you can no longer make out a path.
+flag:
+  - outdoors
+  - hot

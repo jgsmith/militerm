@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund38"
+      west:
+        target: "scene:aber:sommerlund:sommerlund9"
+    short: Farmland Outskirts
+    sight: >
+      The pastures out here need very little irrigation as the waters of the Holmgulf are close at hand. The
+      land slopes down gently to the east towards a boathouse, while it begins a steeper climb to the west.
+      The number of cattle increase dramatically in that direction.
+flag:
+  - outdoors

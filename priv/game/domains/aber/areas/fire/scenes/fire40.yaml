@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire39"
+      south:
+        target: "scene:aber:fire:fire41"
+    short: Prison way
+    sight: >
+      You are standing in a small dark room. There is only something lying on the &+yground&*. You can go
+      north and south.
+flag:
+  - dark
+  - cold

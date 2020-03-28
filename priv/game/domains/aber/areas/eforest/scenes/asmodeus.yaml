@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:den"
+    short: "Asmodeus' Treasury"
+    sight: >
+      You have entered the treasury of the vile demon-lord, Asmodeus. In the corner of this room sits an easy
+      &+Gchair&*. Without a doubt, Asmodeus would spend long hours in here, simply counting his treasures. You
+      grin evilly at the thought of stealing from a demon lord.
+flag:

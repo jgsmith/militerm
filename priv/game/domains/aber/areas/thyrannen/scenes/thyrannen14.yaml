@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen16"
+      north:
+        target: "scene:aber:thyrannen:thyrannen12"
+    short: Redwood Forest
+    sight: >
+      The Trees seem to take a lessened interest in you here, yet you still feel as if some strange presence
+      is watching you. You can go north or west from here.
+flag:
+  - outdoors

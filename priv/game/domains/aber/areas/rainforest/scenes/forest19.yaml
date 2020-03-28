@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest17"
+      south:
+        target: "scene:aber:rainforest:river2"
+      west:
+        target: "scene:aber:rainforest:forest21"
+    short: Bank Of The River Malazon
+    sight: >
+      You are on the bank of a smallish river. It is quiet and flows slowly, and you could cross here if you
+      wished. Above you spider monkeys chatter in the canopy, feeding on figs and any other fruit that they
+      can find.
+flag:
+  - outdoors

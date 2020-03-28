@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:eterdark"
+      west:
+        target: "scene:aber:cathedral:royal"
+    short: The North Portal
+    sight: >
+      You step into the &+Ldarkness&* of the portal, and to your surprise the way to the east appears clear,
+      though it leads into complete &+Ldarkness&*. The jamb statues here are the most hideous of all. Their
+      heads are mere skulls, some of which display gaping cracks, thier feet rest upon what appear to be the
+      artists rendition of bodies &+ydecaying&*.
+flag:
+  - dark
+  - outdoors

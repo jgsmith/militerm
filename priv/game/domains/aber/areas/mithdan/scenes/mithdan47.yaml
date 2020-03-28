@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan43"
+      south:
+        target: "scene:aber:mithdan:mithdan49"
+    short: Fire and Ice
+    sight: >
+      Amazingly, in this room fire and ice flow together, covering the walls and creating a living, moving
+      sculpture in the center of the chamber. You gaze at it breifly, but when you look away it is several
+      hours later. Time means nothing in this room. To the north there is a smooth stone hallway, and to the
+      south there is a terrific wind, and you see what appears to be a contained tornado.
+flag:

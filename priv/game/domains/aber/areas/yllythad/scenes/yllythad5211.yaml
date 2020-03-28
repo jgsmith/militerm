@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5212"
+      north:
+        target: "scene:aber:yllythad:yllythad5216"
+      south:
+        target: "scene:aber:yllythad:yllythad5206"
+    short: Among the Tradewinds
+    sight: >
+      These constant winds are what ensures that commercial boating types can move their cargo from one
+      continent to another. The wind blows from the west without cessation.
+flag:
+  - onwater
+  - outdoors

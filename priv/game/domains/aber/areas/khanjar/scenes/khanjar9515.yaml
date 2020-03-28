@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9555"
+      north:
+        target: "scene:aber:khanjar:khanjar9516"
+      west:
+        target: "scene:aber:khanjar:khanjar9514"
+    short: A Path
+    sight: >
+      As the path finds its way through the forest it sometimes becomes very narrow, wriggling by the side of
+      some large stones. Passing by a wagon of any kind would be impossible. To the east grows dense thicket.
+flag:
+  - nomobiles
+  - outdoors

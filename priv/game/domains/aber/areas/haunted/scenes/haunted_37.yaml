@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_36"
+      south:
+        target: "scene:aber:haunted:haunted_38"
+    short: End of the Path
+    sight: >
+      You come to the end of the path. To the right, you see a little covered area. You hear some strange
+      chomping noises coming from inside.
+flag:

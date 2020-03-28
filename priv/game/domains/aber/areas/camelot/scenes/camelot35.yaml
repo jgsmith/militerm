@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:camelot:camelot35"
+      north:
+        target: "scene:aber:camelot:camelot35"
+      south:
+        target: "scene:aber:camelot:camelot35"
+      west:
+        target: "scene:aber:camelot:camelot34"
+    short: The campsite deep in the forest
+    sight: >
+      The woods are quiet, dark and deep, which perfectly camouflages a little green tent that was set up
+      here. There's a small campfire next to it, but it's just hot coals now. Maybe someone's here?
+flag:
+  - outdoors

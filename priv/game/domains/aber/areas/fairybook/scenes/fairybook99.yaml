@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook100"
+      south:
+        target: "scene:aber:fairybook:fairybook104"
+      up:
+        target: "scene:aber:fairybook:fairybook100"
+    short: The Jolly Roger
+    sight: >
+      You stand at the dock of Kidd's Creek, overlooking the pirate ship the Jolly Roger. It lies before you,
+      low in the water, a rakish-looking craft foul to the hull, every beam in her detestable, like ground
+      strown with mangled feathers. She is the cannibal of the seas. Two huge windows dominate the rear of the
+      ship, which look into Hook's cabin. At the front end of the ship is a huge skeleton, holding aloft a
+      sword which slices through the sails of enemy ships. It is trimmed in black and red and swarms with
+      pirates. The deck of the ship is above you, and a large clearing is to the south.
+flag:
+  - outdoors

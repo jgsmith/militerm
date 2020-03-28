@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest91"
+      north:
+        target: "scene:aber:rainforest:forest83"
+    short: In The Shallows
+    sight: >
+      You are wading through tea-coloured water, your feet fortunately on firm sand rather than thick yielding
+      mud. The water is cool and pleasant, and comes as a relief in the humid heat of the jungle. A tall tree
+      has fallen into the river to the west, and you prefer to ignore that direction rather than wading in
+      deeper to try to get around it.
+flag:
+  - outdoors
+  - nomobiles

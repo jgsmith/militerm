@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid24"
+      south: null
+      west:
+        target: "scene:aber:pyramid:pyramid26"
+    short: "Queen's Tomb"
+    sight: >
+      Though much smaller than the king's, this sarcophagus is as intricately carved. The royal emblems of
+      Isis are inlaid with semi-precious stones. The face carved in the stone wears a look of suffering, holds
+      the sadness of death in youth. Another set of &+mhieroglpyhs&N have been carved into the side. Tempted
+      not to disturb the final rest of this tragic woman, you feel the need to tip-toe quietly away. Yet
+      curiosity to gaze upon the funeral mask makes you pause.
+flag:
+  - dark

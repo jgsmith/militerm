@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest103"
+      south:
+        target: "scene:aber:rainforest:forest104"
+      west:
+        target: "scene:aber:rainforest:forest97"
+    short: Forest Trail
+    sight: >
+      There is a trail here which runs east. Certainly the going is easier in that direction, although you
+      could also head south, where the jungle is not too dense. To the west is the river bank.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

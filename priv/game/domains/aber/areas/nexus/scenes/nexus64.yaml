@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus65"
+      south:
+        target: "scene:aber:nexus:nexus63"
+    short: Magma River
+    sight: >
+      A narrow, crystalline bridge spans the river here, over a mile long in length. Bubbles of methane and
+      sulfur dioxide gas explode from the depths of it, occasionally splattering the bridge with bits of
+      burning rock, fresh from the mantle of this planet.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark
+  - hot

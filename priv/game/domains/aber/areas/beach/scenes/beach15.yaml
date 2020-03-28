@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach14"
+      west:
+        target: "scene:aber:beach:beach11"
+    short: Beautiful sea
+    sight: >
+      This is a calm beautiful sea, the sun casts its rays upon these smooth, calm, open, waters and reflects
+      back into your eyes, as a stunning orange image. There is nothing here that would cause you fear, the
+      waters are calm, and smooth, and the sailing is wonderful.
+flag:
+  - outdoors
+  - onwater

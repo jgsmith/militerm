@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:current2"
+    short: Cold Current
+    sight: >
+      You find yourself caught up in a strong current which is sweeping up from the southern polar regions.
+      You are powerless to prevent yourself being carried northwards at considerable speed. To the west the
+      trees pass by in an endless procession, and you begin to appreciate the vast size of it.
+flag:
+  - outdoors
+  - onwater
+  - nomobiles

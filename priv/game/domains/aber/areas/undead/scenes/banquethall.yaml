@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:library"
+      north:
+        target: "scene:aber:undead:waitingroom"
+      south:
+        target: "scene:aber:undead:corridor1"
+      west:
+        target: "scene:aber:undead:kitchen"
+    short: Banquet Hall
+    sight: >
+      As you enter the banquet hall you can almost hear the ghostly remnants of laughter from happier times.
+      There must have been fine banquets here. Although the decoration is somewhat sparse, the hall is huge
+      and must measure some 500 foot square. A large oak &+Btable&* runs in a square around the hall, enough
+      to sit at least 200 people with room to spare. To your &+Cnorth&* there emanates incredible heat, and
+      you think you may be able to hear movement. To your &+Ceast&* and &+Cwest&* are small arched doorways
+      which lead of further into the castle. To your &+Csouth&* lies the entrance to the castle.
+flag:
+  - hot
+  - dark

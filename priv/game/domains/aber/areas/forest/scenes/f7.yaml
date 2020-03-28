@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f6"
+      north:
+        target: "scene:aber:forest:f4"
+      south:
+        target: "scene:aber:forest:f6"
+      west:
+        target: "scene:aber:forest:f8"
+    short: Forest
+    sight: >
+      You are standing in a small clearing deep in the forest. The thick trees press inwards from all sides,
+      searching to cover this tiny gap in their mighty ranks. A huge tree lies across the clearing, apparently
+      uprooted by the wind. Quite possibly this is what left the clearing in the first place.
+flag:
+  - outdoors

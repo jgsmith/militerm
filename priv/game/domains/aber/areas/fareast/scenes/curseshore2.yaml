@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curseshore1"
+      north:
+        target: "scene:aber:fareast:curse4"
+      south:
+        target: "scene:aber:fareast:curseacid2"
+    short: Shore of the Acid River
+    sight: >
+      A beach of black, glassy sand divides this area between a thick, blackened forest to the north and east,
+      and a stinking, bubbling river of acid to the south. The river looks shallow enough that you could cross
+      quickly, but you still might lose some boot leather.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:ruins:gooey"
+      west:
+        target: "scene:aber:ruins:cwest"
+    short: Third Level Catacomb
+    sight: >
+      This is a rather dark and murky area and you feel a slight chill of fear run up and down your spine.
+      Looking around the dimly lit area you see a few bones laying around on the floor which doesn't help your
+      already nervous condition any. The catacomb has two passageways, one to the west and one to the south.
+flag:
+  - dark

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins46"
+      south: null
+    short: The Cave
+    sight: >
+      You walk underneath the waterfall and enter a small cave. The interior of the cave contains a bed, a
+      table, and other small living essentials. It is otherwise void of anything else. The walls here are
+      actual stone, not metal. The cave's exit is to the south, and at the far corner of the interior, you
+      spot a flight of steps.
+flag:
+  - dark
+  - peaceful
+  - party
+  - private
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood9"
+      south:
+        target: "scene:aber:sherwood:sherwood7"
+    short: Worn Path
+    sight: >
+      You have entered a small clearing of the sorts. There is a wagon sitting off the path to the north.
+      There is some kind of contraption there. It looks like it's brewing up some kind of magical potion or
+      something. Maybe you can talk the owner, into parting with some of his brew.
+flag:
+  - outdoors

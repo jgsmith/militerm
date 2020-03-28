@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:bottom"
+      north:
+        target: "scene:aber:blizzard:blizzard"
+      south:
+        target: "scene:aber:blizzard:blizzard"
+      west:
+        target: "scene:aber:blizzard:blizzard"
+    short: Crevasse
+    sight: >
+      You are standing on the edge of a deep crevasse looking down into darkness. Heavy snow is piled all
+      around you, partially hiding the distant mountains. The snows extend in all direction save east, where
+      the crevasse bars the route. You could clamber down into the crevasse but would have great problems in
+      getting back out of it.
+flag:

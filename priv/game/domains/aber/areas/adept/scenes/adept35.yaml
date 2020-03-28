@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept33"
+      north:
+        target: "scene:aber:adept:adept36"
+      west:
+        target: "scene:aber:adept:adept37"
+    short: Side Hallway
+    sight: >
+      This hallway is quiet compared to the business happening to the east. Small groups of people, talking in
+      low voices about the status of the war, huddle by the few windows and under the torchlight. Two open
+      oaken doors, cross-braced with steel, lead north and west.
+flag:

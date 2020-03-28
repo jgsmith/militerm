@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott18"
+      west:
+        target: "scene:aber:slott:slott16"
+    short: Backhall
+    sight: >
+      This is the servants' entrance to the castle, this room is Spartan furnished with small benches and
+      hooks on the walls to hang up their outdoor clothes. The door in the eastern wall has been forced of
+      it's hinges and lies outside on the stairs, looking out through the hole where the door's used to be you
+      see a backyard!
+flag:

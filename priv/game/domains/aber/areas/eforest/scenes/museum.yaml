@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:mosaic"
+      north:
+        target: "scene:aber:eforest:hate"
+      south:
+        target: "scene:aber:eforest:art"
+      west:
+        target: "scene:aber:eforest:hot"
+    short: Demonic Museum
+    sight: >
+      You have entered what could only be a demonic museum. All about you are statues and paintings, most of
+      which are quite grotesque. You see sculptures of demons torturing humans in many gruesome ways, as well
+      as paintings of what must be Hades. The whole sight is quite sickening. Doors lead North, East and South
+      into additional museum rooms, while to the west lies the exit to this perverted place.
+flag:
+  - hot

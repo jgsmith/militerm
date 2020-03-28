@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18634"
+      north:
+        target: "scene:aber:newbee:newbee18621"
+    short: Another Corner
+    sight: >
+      Well... what is there to say. More fungus, more weird sounds, and a slight breeze from the north. Bet
+      you want to sign a lease, don't ya...
+flag:

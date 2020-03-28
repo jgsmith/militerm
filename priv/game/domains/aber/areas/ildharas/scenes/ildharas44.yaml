@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas46"
+      up:
+        target: "scene:aber:ildharas:ildharas43"
+    short: Guardroom
+    sight: >
+      Some chairs have been thrown against the far wall with enough force to shatter them. A few playing cards
+      lie scattered in a corner by a broken table. A doorway leads to the east, and a set of steep steps goes
+      up to the castle proper.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale97"
+      north:
+        target: "scene:aber:fairytale:fairytale57"
+      south:
+        target: "scene:aber:fairytale:fairytale59"
+      west:
+        target: "scene:aber:fairytale:fairytale98"
+    short: End of the Road
+    sight: >
+      Happy Road ends here. To leave the village, one must go north. To the south is a rather large department
+      store, and to the east and west are houses labeled 'Ariel' and 'Rumplestilskin', respectively.
+flag:

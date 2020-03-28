@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie18"
+      west:
+        target: "scene:aber:newbee:newbee18600"
+    short: Heading Into Danger
+    sight: >
+      Being the adventurous type, you march right into danger looking to battle some monsters. If you can
+      clear this area of its monsters, you'll be ready to go adventuring in the real world. It all starts west
+      of here. Hope you've done your strength training...
+flag:
+  - nomobiles

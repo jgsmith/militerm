@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund76"
+      south:
+        target: "scene:aber:sommerlund:sommerlund78"
+    short: Fallen Plains
+    sight: >
+      The fiery chasm lies just to the south, and a hundred miles of open, pocked wasteland is to the north.
+      The constant scarlet glow in the sky is produced by the endless volcanic eruptions within the chasm and
+      the lava flow which snakes its way into the chasm. Great clouds of poison gas and intense heat pour
+      forth from it.
+flag:
+  - outdoors

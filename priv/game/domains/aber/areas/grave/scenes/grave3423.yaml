@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:grave:grave3416"
+    short: The small crypt
+    sight: >
+      You find what dug the hole. The wight decided the graveyard just wasn't good enough for him and he had
+      to have a better home than what the living could have made for him. The small crypt smells terrible and
+      is small even for something that is dead! You could always just leave back up.
+flag:
+  - dark

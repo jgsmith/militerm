@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan11"
+      north:
+        target: "scene:aber:mithdan:mithdan6"
+    short: Dirt Trail
+    sight: >
+      Although the trail still has a lingering abandoned feel, it appears to be used occaisionally. The trail
+      winds through the deep woods to the east and north. The canopy of the forest reaches overhead, blocking
+      out much of the sunlight, but the forest still has a warm feel.
+flag:
+  - outdoors

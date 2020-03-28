@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:saxon:saxon49"
+      up:
+        target: "scene:aber:saxon:saxon51"
+    short: &+LCharcoal&*
+    sight: >
+      The forest here is nothing but charcoal, nothing stands over six inches above the ground. Total
+      destruction describes it best. Glancing upward, you see the fireplace is actually a huge cave, and
+      climbing upward will take you there.
+flag:
+  - light
+  - outdoors

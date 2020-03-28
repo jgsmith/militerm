@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar25"
+      north:
+        target: "scene:aber:balharbor:balhar40"
+      south:
+        target: "scene:aber:balharbor:balhar93"
+      west:
+        target: "scene:aber:balharbor:balhar23"
+    short: Main Street
+    sight: >
+      Dark smoke rises from an empty lot to the north coming from trash cans, carriages, and an abandoned
+      building. A few thugs wielding boards, bats, and clubs can be seen smashing vehicles, windows, and
+      mailboxes. A building fenced on three sides with barbed and razor wire can be seen to the south,
+      obviously to stop people from jumping the fence to trash it. Just in front of that fence is a small
+      building that looks like some sort of information trailer. You can get right into the middle of the
+      fight to the north, head back into the square west, or travel Main Street to the east into more grim
+      scenery.
+flag:
+  - outdoors

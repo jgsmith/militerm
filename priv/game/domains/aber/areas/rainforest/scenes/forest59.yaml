@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest61"
+      west:
+        target: "scene:aber:rainforest:forest57"
+    short: Swampy Ground
+    sight: >
+      Here the ground dips a little, and you find yourself splashing through water which comes halfway up your
+      shins. The going is slow, and every time you lift up a foot, it breaks free of the water with a sucking
+      noise - there is mud beneath. Looking east you can see more of the same kind of ground, but it is drier
+      to the west.
+flag:
+  - outdoors
+  - rainforest

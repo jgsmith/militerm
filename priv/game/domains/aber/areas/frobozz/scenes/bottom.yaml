@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:steep2"
+      north:
+        target: "scene:aber:frobozz:stairs2"
+      south:
+        target: "scene:aber:frobozz:dame"
+      up:
+        target: "scene:aber:frobozz:stairs2"
+    short: Bottom of the Stairs
+    sight: >
+      You are standing by the east wall of an enormous cavern. This cavern is in fact a huge reservoir of
+      water, and stretching out before you to the west is an artificial damwall. Up to the north is a steep
+      stairway, and one step up from the ground right east of you is a large and heavy steeldoor, which is
+      corroded stuck in an open position. The east end of the damwall is south.
+flag:

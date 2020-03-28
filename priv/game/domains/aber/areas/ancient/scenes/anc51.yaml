@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ancient:anc52"
+    short: "The Warlord's Living Quarters"
+    sight: >
+      You enter a chamber decorated with paintings of great wars on the walls. The warlord earned his eternal
+      home by guarding the city from the mountain tribes living south of the city. He also saved the emperor
+      from assasins who tried to take his life, after the priests had predicted the devastation. The only exit
+      is to the south.
+flag:

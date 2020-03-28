@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:courtyard5"
+      north:
+        target: "scene:aber:undead:courtyard7"
+      south:
+        target: "scene:aber:undead:courtyard1"
+    short: Western Courtyard
+    sight: >
+      You stand at the western side of the courtyard. Above you the battlements runs &+Cnorth&* and
+      &+Csouth&*, as the cobblestones continue in the same direction the silence is becoming deafening. Even
+      the moss between the cobblestones seems to be turning black and giving up its struggle for life. You are
+      starting to feel a little uncomfortable here, and decide to get moving...
+flag:
+  - outdoors

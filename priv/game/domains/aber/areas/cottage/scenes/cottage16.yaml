@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage17"
+      south: null
+    short: "Giant's Chamber"
+    sight: >
+      Everything here seems to be expanded to a grand scale; easily twice as large as usual. A huge stone
+      table, covered by a plain, white cloth, dominates the center of the room. A large cot is set along the
+      western wall, and a simple, writing desk stands opposite it.
+flag:

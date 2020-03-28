@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: A crawlspace
+    sight: >
+      You slip into someone's private domain. Better leave without a trace before long, it could be dangerous
+      to remain, should the dweller of this place return and claim what is theirs.
+flag:
+  - private
+  - nomobiles

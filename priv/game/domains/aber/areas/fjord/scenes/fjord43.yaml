@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord44"
+      south:
+        target: "scene:aber:fjord:fjord42"
+    short: Foot of the Trail
+    sight: >
+      Forged and broken in years ago, this path has been kept in excellent condition. It is clear of weeds and
+      minor rockslides as it follows a steady-grade and relatively safe path up and around the mountain. Far
+      below you is the treeline, and shadows play overhead as the condensation clouds drift slowly.
+flag:
+  - outdoors

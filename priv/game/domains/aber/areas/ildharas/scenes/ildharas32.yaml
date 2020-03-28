@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas35"
+      south:
+        target: "scene:aber:ildharas:ildharas30"
+    short: Guest Room
+    sight: >
+      The room smells of expensive musks and spicy food. A long wooden table sits in the center with the
+      remains of a feast upon it. Silver candlesticks stand untarnished by age, and no dust adorns the
+      settings. Goblets half-filled with wine litter the table beside greasy napkins and dirty plates. It
+      looks to have been a mirthful evening.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fire:fire1"
+    short: Living room
+    sight: >
+      You are in the living room. It is terribly &+Rhot&* here, you shouldn't stay here for a long time. There
+      are clouds of &+wsmoke&*, so you can't see much except the source of the heat. The fireplace is standing
+      against the door, which was totally smashed by the explosion. The small camin door is crap. Gas powered
+      &+rflames&* are trying to come out and burn everything around. The only way out is back to the entrance
+      hall.
+flag:
+  - hot
+  - negregen

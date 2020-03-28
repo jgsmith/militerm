@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:cherent1"
+    short: Clearing
+    sight: >
+      This clear spot is almost totally surrounded by apple trees, which drop pink and white petals around you
+      as the wind picks up. A narrow path leads back to the south, where a wider road crosses it. The branches
+      rustle occasionally, and you shiver.
+flag:
+  - nomobiles

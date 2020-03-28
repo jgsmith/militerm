@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:talon:talon2"
+    short: Study
+    sight: >
+      You enter a small dark study filled with various articles of clothes. A large antique bookcase lies on
+      the northern wall. The room seems to be in a state of disarray, as books and papers seem to be thrown
+      out of place, as if someone was searching for something.
+flag:
+  - dark

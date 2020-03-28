@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven5"
+      east:
+        target: "scene:aber:heaven:heaven7"
+      south:
+        target: "scene:aber:heaven:heaven16"
+      up:
+        target: "scene:aber:heaven:heaven7"
+      west:
+        target: "scene:aber:heaven:heaven5"
+    short: The Garden
+    sight: >
+      You are in a lush garden. All forms of trees, flowers, and shrubbery surround you. All the creatures of
+      the land and air approach you innocently, and the creatures of the water leap out of a near-by lake to
+      give you their greetings. You feel peaceful. To the south you see the glimmer of gold.
+flag:
+  - private
+  - peaceful

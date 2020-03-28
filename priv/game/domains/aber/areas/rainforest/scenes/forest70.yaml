@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest71"
+      north:
+        target: "scene:aber:rainforest:forest69"
+    short: Looking Across The Fork
+    sight: >
+      You are on the bank of the river once more, looking out over the river. You can see that a tributary
+      joins the Kerapi, its clear mountain water joining the Kerapi's muddy flow. From here you can head north
+      into the jungle or east along the river bank.
+flag:
+  - outdoors

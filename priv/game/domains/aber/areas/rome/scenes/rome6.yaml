@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome5"
+      south:
+        target: "scene:aber:rome:rome7"
+    short: "Swords 'R  Us"
+    sight: >
+      Welcome to the weaponshop of Titus Andronicus!! Rare halberds, whips, &+Cswords and other instruments of
+      death are proudly displayed on the walls and in gleaming glass cases. More common weapons are stacked
+      like wood on the floor. To the north you can barely make out a gate. There is a very secure looking door
+      to the south.
+flag:

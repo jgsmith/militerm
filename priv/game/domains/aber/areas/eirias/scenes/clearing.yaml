@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:road"
+      west:
+        target: "scene:aber:eirias:cottage"
+    short: Out of the Forest
+    sight: >
+      The coach stops here, and somehow you know you have to walk the rest of the way. You get out, and look
+      around you. You have come out of the forest into a country area, with a little lane continuing on
+      northwards and fields all around. There is a little cottage to the west with a white maytree growing out
+      of the roof.
+flag:
+  - outdoors

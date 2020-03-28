@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lhall3"
+      north:
+        target: "scene:aber:jbs:lavatory"
+      west:
+        target: "scene:aber:jbs:lhall5"
+    short: Large Hallway
+    sight: >
+      You are in a large east west hallway. There is a large room off to the north.
+flag:

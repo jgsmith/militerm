@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:fantasy:dcave2"
+    short: In front of the Dwarf Mine
+    sight: >
+      You are in front of what looks to be an old abandoned mine. This area looks to be long forgotten as
+      well, there are overgrown shrubs and bushes that are partially covering the entrance to the cave.
+flag:
+  - outdoors

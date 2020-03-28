@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:corridor"
+    short: Pentacle Hall
+    sight: >
+      You are in a huge pillared hall deep within the mountain. Huge, ornately carved pillars support the
+      millions of tons of rock above you. Sinister and rather ugly gargoyles protrude from the pillars gazing
+      centrally towards a mass of mystical symbols engraved on the floor.
+flag:

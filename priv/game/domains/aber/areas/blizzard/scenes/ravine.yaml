@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:snow_temple"
+      west:
+        target: "scene:aber:blizzard:pass3"
+    short: Ravine
+    sight: >
+      You are on a path climbing up a narrow ravine towards the crumbling remains of a snow shrouded temple.
+flag:
+  - cold
+  - outdoors

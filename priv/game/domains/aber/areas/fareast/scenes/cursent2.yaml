@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countrybcurse"
+      west:
+        target: "scene:aber:fareast:curse5"
+    short: Entrance to the Cursed Lands
+    sight: >
+      The only difference between this area and the desolation to the west is that the remains of a forest,
+      black and tangled, reach above you to embrace the noxious clouds. Within the forest to the east, the
+      road is eroded away and eventually vanishes.
+flag:

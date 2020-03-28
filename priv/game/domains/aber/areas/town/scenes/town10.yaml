@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town5"
+      west:
+        target: "scene:aber:town:town12"
+    short: On the Docks
+    sight: >
+      You have entered the docks of a small port town. The docks are crowded with much activity as many sea
+      faring vessels are being loaded or unloaded. A road heads west to the main square of the town and to the
+      east is the bay.
+flag:
+  - outdoors

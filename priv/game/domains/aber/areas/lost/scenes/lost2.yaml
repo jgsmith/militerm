@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:lost:lost3"
+      west:
+        target: "scene:aber:lost:lost1"
+    short: Garden
+    sight: >
+      When time was young and people still worshiped at the wooden altar this garden was planned and created
+      for the enjoyment of their goddess. Painstaking care was taken to create a garden of surpassing beauty.
+      The people who created and tended the garden have long since passed from the world, but the garden and
+      it's peaceful beauty remain. The garden acts as an enterway into the holy grove, and many roads converge
+      here.
+flag:
+  - outdoors
+  - peaceful
+  - nomobiles

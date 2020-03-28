@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:corridor"
+    short: Store Room
+    sight: >
+      You are in a small rather dirty room which appears to have been a store room of some kind. Through a
+      doorway to the south is a corridor.
+flag:

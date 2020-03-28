@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:dame"
+      west:
+        target: "scene:aber:frobozz:damw"
+    short: The Dam
+    sight: >
+      Standing here on the middle of this huge damwall makes you feel small compard to your surroundings. Way
+      down below you on the south side of the damwall you hear the sound of fastflowing water and to the north
+      the huge cavern stretches out for houndreds of yards. The damwall continues to the east and west.
+flag:

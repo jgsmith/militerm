@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:connecting"
+      north:
+        target: "scene:aber:frobozz:cellar"
+      south:
+        target: "scene:aber:frobozz:stairs"
+      west:
+        target: "scene:aber:frobozz:lookout"
+    short: Cross-section
+    sight: >
+      This is a cross-section of two passages, one which comes from the north and continuing south into a
+      steep descending tunnel and another one comming in from the west and going on eastwards.
+flag:
+  - dark

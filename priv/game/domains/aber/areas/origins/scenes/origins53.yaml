@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins54"
+    short: Constellation Pegasus
+    sight: ...and northwest of Pegasus...
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

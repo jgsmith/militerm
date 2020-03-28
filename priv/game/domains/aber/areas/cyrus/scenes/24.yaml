@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:25"
+    short: The Chapel
+    sight: >
+      The chapel is made of white marble. Cobwebs are lying in every corner of the chapel. There is a huge
+      altar. Many benches are placed in order to hear the rituals. A lot of blood had splattered all around
+      the place. What beast can do such a thing ?
+flag:
+  - noregen

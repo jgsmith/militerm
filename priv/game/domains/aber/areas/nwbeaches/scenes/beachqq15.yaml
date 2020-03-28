@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq14"
+      north:
+        target: "scene:aber:nwbeaches:beachqq17"
+      west:
+        target: "scene:aber:nwbeaches:beachqq16"
+    short: "Rocky Path at Takker's Jetty"
+    sight: >
+      The path continues east or west from you, depending which way you are heading. A jetty runs out into the
+      sea to your south, a strong, bold lighthouse at it's end.
+flag:

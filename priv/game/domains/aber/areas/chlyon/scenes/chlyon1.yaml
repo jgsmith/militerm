@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon2"
+      south:
+        target: "scene:aber:eastcoast:clifftop"
+    short: Hidden Path
+    sight: >
+      A small path meanders down from here toward a small meadow from which a number of roads branch off in
+      all directions.
+flag:
+  - outdoors

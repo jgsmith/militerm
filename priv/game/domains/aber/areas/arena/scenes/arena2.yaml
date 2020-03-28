@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:arena:arena1"
+      west:
+        target: "scene:aber:arena:arena3"
+    short: The Arena
+    sight: >
+      Dust floats up into the stale air as you move acorss the dry hard ground underfoot. The Southern wall
+      here has a large rock chip missing from it, and the wire mesh above to protect the people watching has
+      been torn open leaving a small hole. Well out of your reach. The eastern wall looks very solid and
+      extends all the way to the roof.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

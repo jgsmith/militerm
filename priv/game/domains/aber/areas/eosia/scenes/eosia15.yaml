@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "Elenia's Throne Room"
+    sight: >
+      From this room Queen Ehlana used to rule the whole Kingdom of Elenia. Now, it lies empty, sealed by
+      order of Primate Annias. The air is cold and stale, and you suspect no one has been in this room for
+      months. A sound catches your attention, but when you look, there is nothing there. A sadness fills the
+      room, and in the silence, you can just make out a heartbeat. A chill fills you to the bone when you
+      realize that what you hear is the heartbeat of Queen Ehlana, encased in crystal in the front of the
+      room.
+flag:
+  - dark
+  - cold

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest109"
+    short: Totally Fatal Quicksand Deathtrap
+    sight: >
+      You plunge suddenly into quicksand! Before you can react you have sunk up to your thighs in the
+      treacherous mix of sand and water. There, however, you stop. The quicksand is not deep and you are able
+      to extricate yourself quite easily, counting yourself very lucky as you do so. You have no doubt that to
+      a small animal this quicksand would indeed be totally fatal.
+flag:
+  - outdoors
+  - nomobiles

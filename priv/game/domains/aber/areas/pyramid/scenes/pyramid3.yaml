@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid2"
+      north:
+        target: "scene:aber:pyramid:pyramid4"
+    short: In the &+yDune Sea&N
+    sight: >
+      As you wander through a sea of buff-colored &+ysand&N, waves of &+rheat &Nshimmer above the ground
+      making it appear as if the dunes are alive. With each step you take, the weight of your equipment drives
+      your feet deeper beneath the top layer. Just how far can you go before you are swallowed whole by a sea
+      of &+ysand&N?
+flag:
+  - outdoors

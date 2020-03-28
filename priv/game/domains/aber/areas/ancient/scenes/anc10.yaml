@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc11"
+      north:
+        target: "scene:aber:ancient:anc16"
+      south:
+        target: "scene:aber:ancient:anc9"
+    short: The Bridge
+    sight: >
+      You have arrived at a wide stone bridge. The bridge consists of four huge monoliths placed side by side
+      over the river and pavement made of smaller flagstones quite like the others in the town. The San Juan
+      river flows gently under the bridge to the east. You are considering a little refreshing dive into the
+      river, but as you see all the alligators you think it might be better to take a boat.
+flag:
+  - outdoors

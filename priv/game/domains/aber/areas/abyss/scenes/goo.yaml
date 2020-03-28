@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:downstream"
+      up:
+        target: "scene:aber:abyss:bank1"
+    short: On the River of Goo
+    sight: >
+      You are floating down the river of goo. The goo resembles the stuff you blow from your nose and is very
+      thick.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:khanjar:khanjar9554"
+      west:
+        target: "scene:aber:khanjar:khanjar9515"
+    short: Through The Bushes
+    sight: >
+      You are struggling at a thicket, disturbed by several multicolorous spiders and gadflies. Most of these
+      bushes are unusually tough, lashing your face with an unpleasant force. There is a small ditch to the
+      south.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park5"
+      north:
+        target: "scene:aber:balharbor:park11"
+      south:
+        target: "scene:aber:balharbor:park1"
+    short: Picnic Area
+    sight: >
+      Several picnic tables are scattered around for people to sit and eat their lunches. If you brought your
+      lunch, have a seat and chow! The tables look to be in fairly good shape and freshly painted--vandals
+      must not have found these yet. The entrance to the park is south while the pond is to the east.
+flag:
+  - outdoors

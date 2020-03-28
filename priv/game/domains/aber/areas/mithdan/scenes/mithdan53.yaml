@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan52"
+    short: Crystal Trees
+    sight: >
+      As you pass beneath the magestic crystal trees, a gust of wind blows through the top branches. There is
+      a tremendous crack, and as you gaze up in horror a huge crystal branch crashes through the thinner
+      boughs. You run as fast as possible, and throw yourself to the ground. The huge branch misses you, but
+      when it strikes the ground it shatters into thousands of needle sharp shards. Almost is slow motion,
+      several pieces fly at you, and the last thing you see is the sunlight glinting through them in beautiful
+      rainbow patterns.
+flag:
+  - outdoors
+  - death

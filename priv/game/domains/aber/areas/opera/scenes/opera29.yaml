@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera31"
+      north:
+        target: "scene:aber:opera:opera30"
+      south:
+        target: "scene:aber:opera:opera29"
+      west:
+        target: "scene:aber:opera:opera29"
+    short: Lost in the Mist
+    sight: >
+      Here the mist swirls around you, then thins slightly, allowing you to look into the glass-like surface
+      of the inky waters.
+flag:
+  - onwater

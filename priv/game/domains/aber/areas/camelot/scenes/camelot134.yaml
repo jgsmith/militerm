@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot135"
+      north:
+        target: "scene:aber:camelot:camelot133"
+    short: Well, I told you it was a long tunnel...
+    sight: >
+      Have you ever heard of a tunnel with no end? No? Well, trust me, anything is possible...
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc57"
+    short: Library
+    sight: >
+      The wisdom of the universe has been collected on the shelves of this room in the form of old &+Cbooks&*,
+      written centuries ago by wizards and mages who reigned these, now so desolated, lands. The books have
+      been written in some unknown language so you can't share the wisdom with those wizards who died a long
+      time ago. The owner of the &+Cbooks&*, however, seems not to have this problem for the books look as if
+      they have been read through thousands of times during the preceding centuries.
+flag:
+  - cold
+  - peaceful
+  - nomagic

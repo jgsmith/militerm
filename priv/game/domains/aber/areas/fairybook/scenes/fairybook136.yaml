@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook135"
+      north:
+        target: "scene:aber:fairybook:fairybook137"
+    short: On the Road
+    sight: >
+      You stand on the yellow brick road, which goes north to the Emerald City and east to a poppy field.
+flag:
+  - outdoors

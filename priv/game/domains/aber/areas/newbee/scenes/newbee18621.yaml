@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18622"
+      south:
+        target: "scene:aber:newbee:newbee18633"
+      west:
+        target: "scene:aber:newbee:newbee18620"
+    short: A T-Intersection In The Passage
+    sight: >
+      This is an intersection of a long east-west passage with a corridor leading south. The air seems a bit
+      clearer here though, as if you were approaching an exit.
+flag:

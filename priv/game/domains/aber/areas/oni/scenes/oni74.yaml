@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni76"
+      east:
+        target: "scene:aber:oni:oni73"
+      up:
+        target: "scene:aber:oni:oni75"
+    short: Deufel Temple
+    sight: >
+      The interior of Deufel Temple is lit by large braziers placed at the corners of the room. Also providing
+      light are the large stain glass windows depicting various events in the Order of the White Phoenix's
+      history. A small alcove to the south provides access to a staircase to the balcony above and to the
+      basement.
+flag:
+  - cantsummon

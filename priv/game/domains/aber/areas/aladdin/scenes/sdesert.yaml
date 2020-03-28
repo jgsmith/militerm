@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:aladdin:entry"
+      east:
+        target: "scene:aber:sdesert:desertsd48"
+      west:
+        target: "scene:aber:aladdin:entry"
+    short: The Southern Desert
+    sight: >
+      These desert sands seem endless, but in the distance you spot something poking out of the sand. Is it
+      another mirage?
+flag:
+  - outdoors
+  - hot

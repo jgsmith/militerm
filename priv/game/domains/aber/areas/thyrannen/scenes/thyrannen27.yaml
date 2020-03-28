@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen28"
+      west:
+        target: "scene:aber:thyrannen:thyrannen26"
+    short: Marsh
+    sight: >
+      The marsh is sapping you energy and your will, never have you traveled in such a terrible, desolate
+      place. More and more, your thoughts turn to home...
+flag:
+  - outdoors

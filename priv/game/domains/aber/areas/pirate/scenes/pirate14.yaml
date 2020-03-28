@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate13"
+      south:
+        target: "scene:aber:pirate:pirate16"
+      west:
+        target: "scene:aber:pirate:pirate22"
+    short: Among the Trees
+    sight: >
+      You are in the shlter of a group of palm trees that surround you in almost a perfect circle. To the
+      east, you can see a sandy beach. Small bushes dominate the south, and a small hill rises to the west.
+flag:
+  - outdoors

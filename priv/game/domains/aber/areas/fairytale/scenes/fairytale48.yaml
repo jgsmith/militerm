@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale50"
+      east:
+        target: "scene:aber:fairytale:fairytale48"
+      north:
+        target: "scene:aber:fairytale:fairytale48"
+      south:
+        target: "scene:aber:fairytale:fairytale47"
+      up:
+        target: "scene:aber:fairytale:fairytale46"
+      west:
+        target: "scene:aber:fairytale:fairytale49"
+    short: On the Bars
+    sight: >
+      You climb on the monkey bars. Many bars are missing, and some are loose.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nexus:nexus19"
+    short: Groove in Some Rock
+    sight: >
+      This is a deep depression in the side of the rock, situated on the leeward side. The smoothness and
+      cuvature of the groove suggests that the effects of erosion have occurred more slowly than usual, as
+      there are no signs of cracks or water leakage. Some droppings and bones lay inside the fissure, awaiting
+      the old ally of decomposition - time.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

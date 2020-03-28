@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:temple"
+      south: null
+    short: The Void
+    sight: >
+      You stand in the void, which is an infinitely large room. There is almost nothing here.
+flag:

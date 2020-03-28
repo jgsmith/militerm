@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon28"
+      south:
+        target: "scene:aber:saxon:saxon19"
+    short: &*Entering the &+LCave&*
+    sight: >
+      Your body trembles from the feeling of evil that washes over you in this cave. It is very cold, and your
+      extremeties start to ache from not moving around. A path leads down deeper into the cave, while another
+      exit leads to the south.
+flag:
+  - dark
+  - cold

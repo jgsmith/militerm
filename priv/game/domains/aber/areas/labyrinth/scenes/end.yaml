@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:end2"
+      south:
+        target: "scene:aber:labyrinth:x"
+    short: The End of the Labyrinth
+    sight: >
+      ...is something of an anti-climax after you have made it this far. All it apparently consists of is a
+      hole in the ground which becomes a spiral staircase after a while.
+flag:
+  - dark

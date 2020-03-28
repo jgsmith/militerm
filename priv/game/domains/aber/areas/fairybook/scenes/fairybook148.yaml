@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook138"
+      west:
+        target: "scene:aber:fairybook:fairybook149"
+    short: Western Path
+    sight: >
+      Walking over fields of soft green grass dotted here and there with daisies and buttercups, you see a
+      sign that points to the west. The sign tells you that that is the direction towards the castle of the
+      Wicked Witch of the West, and you recall hearing a rumor that she has reportedly enslaved all
+      trespassers. The path also goes east to the yellow brick road.
+flag:
+  - outdoors

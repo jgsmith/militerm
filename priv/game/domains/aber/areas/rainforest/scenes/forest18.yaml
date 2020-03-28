@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest16"
+    short: River Bank
+    sight: >
+      You find your way blocked by a fallen tree which sticks out into the middle of the river. You find
+      yourself unable to climb it since its trunk is smooth and slippery from having recently been submerged
+      in a flood. Your only option is to go back west.
+flag:
+  - outdoors

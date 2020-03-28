@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:windy:windy6"
+      south:
+        target: "scene:aber:windy:windy9"
+    short: Rocky Trail
+    sight: >
+      You are walking along a rocky trail which winds its way through the foothills. Craggy snow-covered
+      mountains rise to the south, casting dark shadows across the land. A quick breeze has picked up,
+      creating a high- pitched wail as it rushes through the hills.
+flag:
+  - outdoors

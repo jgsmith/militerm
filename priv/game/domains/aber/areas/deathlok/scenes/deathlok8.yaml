@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:deathlok:deathlok9"
+      west:
+        target: "scene:aber:deathlok:deathlok13"
+    short: Chamber of Death
+    sight: >
+      You have just reached entered the Chamber of Death. Entry into Death's chamber means ultimate
+      destruction by her deadly touch. Looking around you see nothing, but everything that you have witnessed
+      in your sad and pityful life. The walls here are jet black as well as the floor and ceiling. Exits from
+      this point are to the east and west.
+flag:
+  - dark

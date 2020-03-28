@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:3"
+      north:
+        target: "scene:aber:stjames:9"
+      south:
+        target: "scene:aber:stjames:11"
+    short: The Wading Area
+    sight: >
+      Moving through the wading area, the water is refreshing. Feeling a bit frisky, you splash a nearby
+      child. He looks at you pathetically and goes quickly back to the edge of the pond. To the west of you,
+      the pond continues, but a rope line keeps you from wading into that area.
+flag:
+  - outdoors

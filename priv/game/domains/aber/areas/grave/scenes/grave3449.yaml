@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "The Priest's Hidden Closet!"
+    sight: >
+      You have found the real closet of the priest. On the back wall is a finely crafted cabinet with solid
+      glass door. As you look in the &+Cchest&* your heart stops as you realize the value of the equipment the
+      priest left behind. You now understand what the invaders were looking for and feel relieved you have
+      discovered this treasure first. There is a door to the east.
+flag:

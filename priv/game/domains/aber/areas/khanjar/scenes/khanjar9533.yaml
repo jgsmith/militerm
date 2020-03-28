@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9535"
+      south:
+        target: "scene:aber:khanjar:khanjar9549"
+      west:
+        target: "scene:aber:khanjar:khanjar9532"
+    short: A Weak Trail
+    sight: >
+      You have arrived at a bend. From here the trail turns to the north, leading through the dark green arch
+      of the gigantic trees. To the south lies a small grove.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome25"
+      south:
+        target: "scene:aber:rome:rome19"
+      west:
+        target: "scene:aber:rome:rome10"
+    short: South Entrance to the Coliseum
+    sight: >
+      You are standing at the south entrance to the Coliseum. There are citizens of Rome everywhere,
+      apparently in a mad rush to get in. A &+Cstatue of Caligula&* the Mad Emperor overlooks the area. There
+      are long &+Ylines&* of people standing to the east, an acrid smell is coming from the west and a busy
+      road lies to the south.
+flag:
+  - outdoors

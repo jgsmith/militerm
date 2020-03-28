@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate29"
+      west: null
+    short: Accounting Room
+    sight: >
+      You are in a room that through some miracle is still full of air. Though stale, it appears to be
+      breathable. A small desk is in shambles in one corner of the room, and papers lie everywhere. There is a
+      doorway to the west, and stairs lead down into water.
+flag:
+  - dark

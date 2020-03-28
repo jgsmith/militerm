@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore3"
+      south:
+        target: "scene:aber:avairy:jungle4"
+      west:
+        target: "scene:aber:avairy:jungle7"
+    short: The Avairy Jungle
+    sight: >
+      The steamy jungle surrounds you. Pathes lead into the jungle to the south, west, and eastern directions.
+flag:
+  - outdoors
+  - light

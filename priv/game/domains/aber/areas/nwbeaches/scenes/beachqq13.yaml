@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq12"
+      west:
+        target: "scene:aber:nwbeaches:beachqq14"
+    short: Rocky Path
+    sight: >
+      The path continues it's way in a southwesterly direction toward the lighthouse, or you may head
+      northeast toward a less cluttered-looking beach.
+flag:

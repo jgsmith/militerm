@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere45"
+    short: Orc Barracks
+    sight: >
+      The barracks are mostly empty and smell like a stable. Wooden bunk beds are built three high against the
+      walls. The beds are unmade and armor and pieces of dirty orc underwear litter the floor. Pictures of
+      female orc beauties are on the walls. A wooden table in the middle of the room is covered with torn
+      cards and a set of dice made from real bones.
+flag:
+  - dark

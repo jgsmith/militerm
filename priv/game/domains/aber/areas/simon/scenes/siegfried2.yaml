@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:church"
+      up:
+        target: "scene:aber:simon:siegfried1"
+    short: "&+cSiegfried's Living Room"
+    sight: >
+      The beach leave the place to another place. All here is calm. It's dark here but a fire in a fireplace
+      provide a bit of light. The walls are grey and there's grey moquette. All you feel is to relax and sleep
+      on the comforty couch just in front of the fire.
+flag:
+  - party

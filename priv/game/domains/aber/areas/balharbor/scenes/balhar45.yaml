@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: "Judge's Chambers"
+    sight: >
+      This cozy little chamber is where the judge sits to review the arguments presented by attorneys or give
+      them a good tongue-lashing. A large desk dominates the center of the room surrounded by several book
+      shelves containing many volumes on law. You can exit the chambers and head back to court through the
+      door south.
+flag:
+  - noquit
+  - soundproof
+  - nosnoop
+  - party
+  - cantsummon

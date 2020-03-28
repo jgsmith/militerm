@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:jbs:nwpasture"
+      south:
+        target: "scene:aber:jbs:swpasture"
+      west:
+        target: "scene:aber:jbs:path2"
+    short: In the Pasture
+    sight: >
+      You are in a large, fragrant cow pasture. The field continues to the north and south and you can enter
+      the path to the west.
+flag:
+  - outdoors

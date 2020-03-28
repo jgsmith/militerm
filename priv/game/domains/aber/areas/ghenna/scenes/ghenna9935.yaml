@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9936"
+      south:
+        target: "scene:aber:ghenna:ghenna9934"
+    short: Eaten to death.
+    sight: >
+      Boy, the smell of sulfur just keeps getting stronger - YUCK! As if that werent bad enough, there are
+      about a hundred horribly disfigured corpses laying here. It looks as though the flesh was eaten off of
+      their living bodies as they writhed in agony. The stream of blood you witnessed at the entrance is much
+      larger here, apparently you are onto something.
+flag:
+  - dark

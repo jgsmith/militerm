@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:churchaltar"
+      west: null
+    short: Church
+    sight: >
+      You have passed through the nave and are now standing at the transept crossing in the monk's church.
+      Although it's difficult to see because the windows don't allow very much light in, there is enough to
+      see an altar beyond the chancel and inside the choir.
+flag:

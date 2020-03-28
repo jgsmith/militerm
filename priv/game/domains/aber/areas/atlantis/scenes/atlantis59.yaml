@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis60"
+      south:
+        target: "scene:aber:atlantis:atlantis61"
+    short: Crevice
+    sight: >
+      The crack that serves as the entrance appears to have been ripped open from the surrounding wall and the
+      space behind it has been made into a lair for a giant squid. Bones of various creatures litter the floor
+      of the crevice and it doesn't look much like a pleasant place to remain long. You can leave this place
+      to the east or towards a small glimmer to the south.
+flag:
+  - dark
+  - underwater

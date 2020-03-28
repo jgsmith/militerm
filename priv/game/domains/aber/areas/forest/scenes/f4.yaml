@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f2"
+      north:
+        target: "scene:aber:forest:f2"
+      south:
+        target: "scene:aber:forest:f5"
+      west:
+        target: "scene:aber:forest:f3"
+    short: Forest
+    sight: >
+      You would guess you are now somewhere near the center of the forest. Certainly you can see nothing but
+      trees around here. Narrow tracks lead off in all directions.
+flag:
+  - outdoors

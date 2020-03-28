@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot128"
+      west:
+        target: "scene:aber:camelot:camelot126"
+    short: In The Tunnel
+    sight: >
+      You are walking down an apparently endless east-west tunnel. The floor is covered by loose gravel and
+      dirt, but it is not possible to tell if others have come this way. Or if they returned.
+flag:
+  - dark

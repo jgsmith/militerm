@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook23"
+      west:
+        target: "scene:aber:fairybook:fairybook135"
+    short: Field of Flowers
+    sight: >
+      You find yourself in a huge field of poppies. Your thoughts fly about your head without meaning as you
+      begin to hallucinate about wicked witches on broomsticks and tin woodsmen. You feel the urge to sleep
+      here, safe from the rest of the world. To the east is a field of mushrooms, and to the west the field
+      becomes larger.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: &+r-=-=-&+ROver The Cliff Edge&+r-=-=-
+    sight: >
+      You stumble off of the edge of the cliff and tumble &+Rdown&* the edge. Your body bounces along the
+      rocks, breaking rib after rib. Your lifeless corpse thuds on a rocky outcropping, much to the hapiness
+      of the screeching vultures overhead.
+flag:
+  - outdoors
+  - nomobiles
+  - death

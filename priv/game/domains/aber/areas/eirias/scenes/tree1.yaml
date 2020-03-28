@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree2"
+      west:
+        target: "scene:aber:eirias:river"
+    short: First Tree - Alder
+    sight: >
+      Facing you, with their backs to the river, are a crowded clump of slender trunks, green-barked, with
+      broad round dancing leaves. Alder, growing with its feet wet, as the saying goes. The tree of fire, to
+      free the earth from water.
+flag:
+  - outdoors

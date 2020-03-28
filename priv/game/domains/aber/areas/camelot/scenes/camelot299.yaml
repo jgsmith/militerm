@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot298"
+      west:
+        target: "scene:aber:camelot:camelot300"
+    short: "Yeenoghu's Room"
+    sight: >
+      At first glance, Yeenoghu resembles a human. But his head is that of a hyena, his chest is rather canine
+      in form, his feet are paws, and his hands are clawed. He is thin to the point of being skeletal, and his
+      only body hair is a putrid yellow crest running to mid-back. His skin is dead gray, and his amber eyes
+      glow evilly in the darkness.
+flag:
+  - dark

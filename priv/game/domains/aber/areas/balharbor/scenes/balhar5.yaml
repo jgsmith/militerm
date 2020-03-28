@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:sewer1"
+      west:
+        target: "scene:aber:balharbor:balhar4"
+    short: Narrow Alley
+    sight: >
+      Between the backs of the guild and the restaurant, muggers usually lay in wait for a hapless victim to
+      take a wrong turn here. The entrance to the sewers of Bal Harbor lies in front of you.
+flag:
+  - outdoors

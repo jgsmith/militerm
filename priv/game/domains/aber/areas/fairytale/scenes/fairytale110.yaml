@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale111"
+      south:
+        target: "scene:aber:fairytale:fairytale109"
+    short: Coal Room
+    sight: >
+      You have entered a large room, full of coal. The walls are thick with dust, and the coal is stacked
+      hip-deep along the walls, sloping down to a narrow path which leads from the south door to the north
+      doorway.
+flag:

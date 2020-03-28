@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon8"
+      south:
+        target: "scene:aber:talon:talon12"
+    short: Certain Death
+    sight: >
+      You enter a dim cave, and reach forward to crawl into the cavern, only to find you are grasping thin air
+      while plummeting to your death in a black pit at breakneck speed. You lose consciousness, and never even
+      feel your bones shatter into thousands of pieces as your life finds its destiny at the hands of cold,
+      twisted rocks.
+flag:
+  - dark
+  - death

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd47"
+      south:
+        target: "scene:aber:sdesert:desertsd50"
+      west:
+        target: "scene:aber:sdesert:desertsd48"
+    short: The Southern Desert
+    sight: >
+      The small trail you have been painstakingly following leads to the north and south, and a smaller trail
+      wanders to the west.
+flag:
+  - outdoors
+  - hot

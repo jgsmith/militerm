@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryb_5"
+      west:
+        target: "scene:aber:fareast:countrya_2"
+    short: Karst Sinkhole
+    sight: >
+      Sharply sloped on either side, this sinkhole is shallow at the bottom, and goes deep under the bedrock
+      of the area through a wide, low tunnel. Through here, you can travel east or west, either way leading
+      back up to the light.
+flag:
+  - dark
+  - nomobiles

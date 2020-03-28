@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas61"
+      west:
+        target: "scene:aber:ildharas:ildharas59"
+    short: Stately White Corridor
+    sight: >
+      The corridor continues for a bit and ends at a set of iron doors to the north. Candles burn in arches
+      created by a series of vaults in the ceiling, creating a dramatic passage of light and stone. A stairway
+      to the west leads up to the ground floor.
+flag:

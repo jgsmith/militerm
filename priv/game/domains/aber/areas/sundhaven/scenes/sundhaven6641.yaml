@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6619"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6643"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6640"
+    short: A black sand road
+    sight: >
+      Black sand has been hauled up the steep cliffs from the beaches to reduce the unpleasant affects of
+      copious mud during the frequent rains and heavy fogs of the region. The road is so heavily travelled it
+      has almost been packed down into a hard surface.
+flag:
+  - outdoors

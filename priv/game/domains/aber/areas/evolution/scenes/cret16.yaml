@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:cret15"
+    short: Shaded Hollow
+    sight: >
+      You are in a small dip, nestling under the foot of a tall rocky dike. The trees around you cast mottled
+      shadows on to the ground, and the effect is rather soothing. To the west is a dry river bed.
+flag:
+  - outdoors

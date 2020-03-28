@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:playhouse:house25"
+      west: null
+    short: "Child's Nightmare: The Attic"
+    sight: >
+      What could possibly be going through your head to venture up into the attic? It is cold and dreary up
+      here and very little light is up here. You hear scratching yet see nothing that causes it. There are
+      boxes upon boxes of junk cluttering the rooms up here. Where could all of this stuff come from? The
+      attic continues to the west, or you can return to the house by going down.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:woods3"
+      north:
+        target: "scene:aber:village:village45"
+      south:
+        target: "scene:aber:blizzard:woods2"
+      west:
+        target: "scene:aber:blizzard:waterfall"
+    short: The Woods
+    sight: >
+      You are in the woods, walking amongst the huge trunks watching the birds as they flit from branch to
+      branch, filling the air with their lively chirping calls.
+flag:
+  - outdoors

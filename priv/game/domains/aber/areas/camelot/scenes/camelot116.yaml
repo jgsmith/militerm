@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot115"
+      north:
+        target: "scene:aber:camelot:camelot117"
+      west:
+        target: "scene:aber:camelot:camelot118"
+    short: Dirty Hallway
+    sight: >
+      The stone corridors have always been dusty and dirty, but here, it literally stinks. Either something
+      died near here, or you're close to the Kobold trash heap.
+flag:
+  - dark

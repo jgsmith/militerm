@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung25"
+      south:
+        target: "scene:aber:nibelung:nibelung31"
+    short: Village Gate
+    sight: >
+      On the path before you, the arched gateway to a town is attempting to stand. Off to the left and right,
+      the remains of an outer wall taper off into the brush. Weeds can be seen growing here and there from the
+      cracks. A rusted gate hangs off one hinge, but you realize it won't be much longer.
+flag:
+  - outdoors

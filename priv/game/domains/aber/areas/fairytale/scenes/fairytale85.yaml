@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale84"
+      north:
+        target: "scene:aber:fairytale:fairytale86"
+    short: Mirror Room
+    sight: >
+      A staircase descends here to the base of the tower which you now stand in. A tall, full-length mirror
+      leans against the wall, and a window faces out to the cliffs below. The mirror has been perfectly
+      carved, and reflects your image perfectly. You hear a rustling sound behind you.
+flag:

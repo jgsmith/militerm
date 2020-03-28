@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:cattle7"
+      north:
+        target: "scene:aber:hick:cattle6"
+      south:
+        target: "scene:aber:hick:cattle2"
+      west:
+        target: "scene:aber:hick:cattle8"
+    short: Northern Livestock Area Road
+    sight: >
+      This road is very muddy here and you can feel your feet sink deep into the mud, a very disgusting
+      feeling. You look around you and see pig stalls to the east and west. To the north the road continues
+      and to the distant south you can see the exit.
+flag:
+  - outdoors

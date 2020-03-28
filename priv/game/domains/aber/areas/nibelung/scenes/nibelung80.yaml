@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung66"
+      north:
+        target: "scene:aber:nibelung:nibelung81"
+      south:
+        target: "scene:aber:nibelung:nibelung79"
+      west:
+        target: "scene:aber:nibelung:nibelung90"
+    short: "Knights' Hall"
+    sight: >
+      You are standing in a very long hall. The wooden floorboards echo to the tread of your booted feet as
+      you walk down the hall. The many windows in this hall allow a great amount of light into the room.
+      Stuffed animal heads, like lions and tigers and bears (Oh my!), are hung periodically along the wall.
+      The ceiling is painted with murals depicting the hunts where the various trophies were acquired. To the
+      east is the main entrance of the castle, and to the south is a trophy room. A large table in the room to
+      the west brings you to the conclusion that it's a dining room.
+flag:

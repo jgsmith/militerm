@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:princess:path2"
+    short: The Entrance to the Castle
+    sight: >
+      You stand on a &+ydrawbridge&* looking at a majestic white castle. Hanging from the walls are yellow and
+      blue &+Gbanners&*. &+YFlags&* of the same colors are waving in the wind. You wonder who lives here; the
+      castle looks abandoned!
+flag:
+  - outdoors

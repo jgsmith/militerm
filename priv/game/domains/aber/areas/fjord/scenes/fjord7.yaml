@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord8"
+      south:
+        target: "scene:aber:fjord:fjord2"
+    short: Small Pine Grove
+    sight: >
+      A heavy cluster of wayward pines are grouped together irregularly away from the major bulk of the
+      forest. The trail leads in a complete circle around the grove via a fork in the path. Every pine in this
+      grove, however, has been struck by lightning, their tops burnt to cinders. From each lifeless trunk
+      protrudes new shoots for future growth. Mingled within the remaining branches are a few &+ynests&*, and
+      chirps from baby birds getting fed their earthly delight of squiggling earthworms bring new sparks of
+      life to this shattered grove.
+flag:
+  - outdoors

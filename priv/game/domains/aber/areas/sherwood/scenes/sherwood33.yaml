@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:hut4"
+      north:
+        target: "scene:aber:sherwood:sherwood34"
+      south:
+        target: "scene:aber:sherwood:sherwood32"
+    short: Under the Pine Trees
+    sight: >
+      You stand under many pine trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:wiz:chump2"
+      up:
+        target: "scene:aber:blizzard:elemental"
+    short: "Chump's Home"
+    sight: >
+      The grassy field that you have entered makes you feel lonely. You wonder what kind of Chump makes this
+      place their home. The southern path leads back to civilization whille to the north you see a lake. You
+      begin to feel lost and confused when you peer at the lake in the distance for too long. Maybe you should
+      return the way you came and seek adventure elsewhere.
+flag:
+  - outdoors
+  - soundproof

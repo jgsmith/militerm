@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni60"
+      west:
+        target: "scene:aber:oni:oni62"
+    short: Underground Stream
+    sight: >
+      The stream continues to flow west. Off in the distance is a point of light that is probably the exit.
+flag:
+  - cantsummon

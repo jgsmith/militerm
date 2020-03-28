@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:aladdin:palace1"
+      south:
+        target: "scene:aber:aladdin:palace3"
+    short: Somewhere in the Palace
+    sight: >
+      This poor palace. What Jafar has done to it. Your heart swells with anger as you notice the slime
+      covering the once polished marble castle walls. You hear screams and moans of terror coming from far off
+      areas of the castle.
+flag:
+  - dark

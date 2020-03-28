@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott43"
+      west:
+        target: "scene:aber:slott:slott40"
+    short: Basement
+    sight: >
+      This is a small corridor leading to the &+Cwest&* and to the &+Ceast&*. The air is so thick in here that
+      you almost could cut it with your knife.
+flag:
+  - dark

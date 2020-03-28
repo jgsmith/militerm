@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp6"
+      south:
+        target: "scene:aber:fantasy:dforest1"
+    short: End of Swamp
+    sight: >
+      You smile happily and sigh a breath of relief as you realize that you have reached the end of the swamp.
+      To the south you can see a forest which makes you feel even better.
+flag:
+  - outdoors

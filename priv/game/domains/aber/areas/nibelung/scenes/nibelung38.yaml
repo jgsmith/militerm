@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung39"
+      north:
+        target: "scene:aber:nibelung:nibelung35"
+      south:
+        target: "scene:aber:nibelung:nibelung41"
+      west:
+        target: "scene:aber:nibelung:nibelung37"
+    short: Abandoned House
+    sight: >
+      Inside the abandoned house you find lots of cobwebs, some dust and little else. To the north, through
+      some rotting doorposts, you see an old cellarhole. A bench is along one wall, one leg partially chewed
+      out by parasites of some kind. A rotting door is off to your left, one hinge still holding it in place,
+      the other has apparently decided to go on to better things. To the west, through another doorway, you
+      see a gazebo.
+flag:

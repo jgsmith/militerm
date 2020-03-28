@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river20"
+      north:
+        target: "scene:aber:rainforest:river18"
+      south:
+        target: "scene:aber:rainforest:river19"
+      west:
+        target: "scene:aber:rainforest:river13"
+    short: Midstream
+    sight: >
+      You are in the middle of the river, alone and surrounded by more water than you would have thought could
+      possibly be contained in one river. The banks to north and south are now just out of sight below the
+      horizon. You can go in any direction.
+flag:
+  - outdoors
+  - onwater

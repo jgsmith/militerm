@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord81"
+    short: Within the Caldera
+    sight: >
+      The basin housing the volcano to the south stretches away to the west. It is filled with quite a lot of
+      snow, some places reaching as much as twenty feet deep. Fortunately, most of the pack is somewhat solid
+      and enchanced in strength by the surface layers of ice. Wandering aimlessly through the caldera are many
+      shades of the underworld, stark against the snow and looking for bodies to drain life-force from. Cold
+      temperatures and the thin air here have prevented many of the corpses from decomposing, and some faces
+      are forever frozen in ice, shock, and pain. At least they didn't suffer long as their spirits were sent
+      to join the army of roamers here.
+flag:
+  - cold
+  - outdoors

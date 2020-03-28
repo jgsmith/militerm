@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3417"
+      north: null
+      south:
+        target: "scene:aber:grave:grave3430"
+    short: The Foyer
+    sight: >
+      Here is the foyer of the grand church of the GOD of ATOR. The foyer is large and at one time ornately
+      decorated with religous symbols. Now the foyer has been severly shredded with unspeakable evil. On the
+      west wall still visible is a painting of an old man. While the painting has been shredded you can still
+      make out the likeness of on old man you seem to recognize. He has a white beard and very wise, forgiving
+      eyes that seem to pierce you soul. You almost notice a tear in his eye. Below the painting is a book or
+      rather what once was a &+Cregistry&*. To the north you may leave the church, or to the east you may
+      visit the classrooms of ATOR. Or to the South you may visit the grand cathedral.
+flag:
+  - nomobiles

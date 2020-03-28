@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen30"
+      south:
+        target: "scene:aber:thyrannen:thyrannen31"
+      west:
+        target: "scene:aber:thyrannen:thyrannen28"
+    short: Marsh
+    sight: >
+      The smelly, slimy marsh waters continue on to the north, south and west of here, making you wish the you
+      knew just why you came. Yet still you push on.
+flag:
+  - outdoors

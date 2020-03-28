@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds9"
+    short: Closet
+    sight: >
+      Well, it is pretty self explanatory. You are sitting in a closet with tons of crap laying around. The
+      room is very small and looks like only one person can fit in here. The only exit is &+Cnorth&*.
+flag:
+  - oneperson

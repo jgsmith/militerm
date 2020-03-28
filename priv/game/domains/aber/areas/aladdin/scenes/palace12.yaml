@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:aladdin:palace11"
+    short: "Ashkan's Room"
+    sight: >
+      This is the head guardsman's room. One thing's for sure... If you save this place, the sultan's gonna
+      need some new help. There is no more than large oak desk with an open drawer and one chair. You wonder
+      why this Ashkan guy even needs his own room.
+flag:
+  - light

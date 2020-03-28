@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:bishop:bishop16"
+    short: Attic Space
+    sight: >
+      Not many shafts of sunlight penetrate the only window in this junk-filled room - a few, small slats in a
+      wooden circle. A footlocker of an approximate 45 years of age lies open to reveal old military
+      dispatches, letters from long-gone people and their sweethearts, and collectibles from faraway nations.
+      Quilted pillow and embroidered linens are wrapped in protective tarps and stacked neatly to one side of
+      the window. The air is slightly musty, but surprisingly dust free, as if the room was swept on a daily
+      basis.
+flag:

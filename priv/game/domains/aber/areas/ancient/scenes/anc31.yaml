@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:ancient:anc32"
+      west:
+        target: "scene:aber:ancient:anc21"
+    short: Before the Sun Pyramid
+    sight: >
+      You are standing in front of a large green opening. The sun casts it last faint rays to the side of the
+      sun pyramid. It gives an impression of a snake climbing down from the top of the pyramid
+flag:
+  - outdoors

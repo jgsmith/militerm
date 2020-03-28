@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire10"
+      south:
+        target: "scene:aber:fire:fire7"
+      west:
+        target: "scene:aber:fire:fire11"
+    short: Living room
+    sight: >
+      You are standing in the living room used for inviting visitors. There is a &+rfireplace&* opposite the
+      entrance. There are two seats made of very valuable wood and wool, and a small &+yoak&* table between
+      them for drink. The floor is covered with bearskins. There are hunting trophies on walls. Sir Gruoch
+      should be a very good fighter. The ceiling is decorated with wonderful frescos showing antic history.
+      There are two swords and a shield hanging above the &+rfireplace&*, seemingly not used very often, and
+      are in perfect condition.
+flag:

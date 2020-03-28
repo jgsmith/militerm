@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sherwood:sherwood28"
+      south:
+        target: "scene:aber:sherwood:sherwood26"
+    short: Under the Cottonwood Trees
+    sight: >
+      You stand under many cottonwood trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

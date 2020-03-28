@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6797"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6791"
+    short: Rocky Coastline
+    sight: >
+      You have arrived along the northern shores of Sundhaven. From here you have difficulty seeing the top of
+      the cliffs due to the fog hanging in this area. The shoreline is too rocky for you to make landfall, but
+      there seems to be something jutting out into the water in the west. To the north is the open sea.
+flag:
+  - outdoors
+  - onwater

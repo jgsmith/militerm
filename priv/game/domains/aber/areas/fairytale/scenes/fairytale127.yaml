@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale129"
+      west:
+        target: "scene:aber:fairytale:fairytale128"
+    short: Gallery
+    sight: >
+      This gallery is devoted to the art of the royal family. Portraits of dragons and knights hang on the
+      walls, partitioned off by thin red cords. A tiny box in the southwest corner hums softly, on which is
+      mounted a switch.
+flag:

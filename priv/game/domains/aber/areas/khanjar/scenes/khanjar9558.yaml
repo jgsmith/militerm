@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9559"
+      up:
+        target: "scene:aber:khanjar:khanjar9557"
+    short: On A Grey Trunk
+    sight: >
+      Reaching the foot of the hillside you notice a large greyish trunk, penetrating into the forest as if it
+      were a straight bridge. You begin to walk on it.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:mioc2"
+      south:
+        target: "scene:aber:evolution:mioc4"
+      west:
+        target: "scene:aber:evolution:plio1"
+    short: Miocene Savannah
+    sight: >
+      As you continue to wander the plains a cool breeze blows, and you feel colder than you have for a long
+      while. The climate is changing, and the consistent warmth you have experienced up until now is giving
+      way to more variable weather. You shiver slightly and continue on your way.
+flag:
+  - outdoors

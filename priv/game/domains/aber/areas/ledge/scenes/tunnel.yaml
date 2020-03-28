@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:ledge:cave"
+    short: Narrow Tunnel
+    sight: >
+      You are clambering along a narrow slanted passage. Rubble and loose stones rain down around you as you
+      move, suggesting the roof is not very strong. Light shines along the passage from a junction to the
+      west.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:eastend"
+      north:
+        target: "scene:aber:eforest:narrow"
+      up:
+        target: "scene:aber:eforest:entrance"
+    short: Cathedral Room
+    sight: >
+      You are in a vast cavern. The ceiling is lost in shadows, but you can make out a ledge encircling the
+      room. Evenly spaced along the ledge are stone &+Bgargoyles&*, which seem to be jeering at you. In the
+      wall far to the north, you see the black mouth of a passage out, and the room seems to continue to the
+      east, where dim light can be made out. To the south, an upward sloping passage seems to ascend to the
+      surface.
+flag:
+  - dark

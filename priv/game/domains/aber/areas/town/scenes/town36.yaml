@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town35"
+    short: Casino
+    sight: >
+      This is a large open area where there are many games of chance running. There is a much activity in this
+      room as people's spirits soar and drop to all time lows as they win and lose their hard-earned, or in
+      some cases stolen, money. The only exit is to the east, back to the main brothel reception area.
+flag:

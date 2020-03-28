@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Fine Bedroom
+    sight: >
+      This room appears to be a bit more finished then the others. The walls are smooth, though still just the
+      rock of which they were carved. There is a real &+Cbed&* sitting in the middle of the room properly
+      made. The room itself is immaculate in its cleanliness and you wonder that an orc lives here at all.
+flag:

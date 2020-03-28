@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:spiral"
+      up:
+        target: "scene:aber:island:brink"
+    short: Top of Spiral Staircase
+    sight: >
+      You are standing at what is a carved spiral staircase descending down into the gloom of below. From down
+      there come strange sounds, which you cannot place.
+flag:

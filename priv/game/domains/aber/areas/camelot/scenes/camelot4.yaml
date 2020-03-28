@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot2"
+    short: The Camelot Armory
+    sight: >
+      Racks of unfinished weapons and armor fill the room, while one entire wall is taken up by the massive
+      forges used by the castle armorers in the pursuit of their craft. The heat here is incredible, and you
+      marvel that the smiths are able to work so hard in such heat.
+flag:

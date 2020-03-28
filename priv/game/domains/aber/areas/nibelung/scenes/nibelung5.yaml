@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung2"
+    short: River Bank
+    sight: >
+      You are standing along the east bank of a river, which meanders off to the north. The bank here is very
+      sandy and your toes dig into the warm sand, relaxing you a bit. A gentle breeze sends ripples across the
+      water, and stirs the branches of some trees nearby.
+flag:
+  - outdoors

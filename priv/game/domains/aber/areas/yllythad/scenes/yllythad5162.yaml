@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5163"
+      north:
+        target: "scene:aber:yllythad:yllythad5167"
+      south:
+        target: "scene:aber:yllythad:yllythad5157"
+      west:
+        target: "scene:aber:yllythad:yllythad5161"
+    short: A Strong Current
+    sight: >
+      This area of the sea is carried along by a strong undercurrent which moves the water in its own
+      direction, regardless of the wind or weather topside.
+flag:
+  - onwater
+  - outdoors

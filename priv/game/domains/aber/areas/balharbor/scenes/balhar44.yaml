@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar52"
+      south:
+        target: "scene:aber:balharbor:balhar35"
+      west:
+        target: "scene:aber:balharbor:balhar43"
+    short: Cross Road
+    sight: >
+      You are standing next to the Mage Guild which can be entered to the west. Debris, scorchmarks, decay,
+      death can be seen everywhere in front of this building. It looks like some rioters attempted to torch
+      this place as well but were driven off by someone who blasted them with every fireball and missile spell
+      he could muster. You might learn a trick or two from him if you pay him a visit.
+flag:
+  - outdoors

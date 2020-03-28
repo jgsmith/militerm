@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar21"
+      south: null
+      west:
+        target: "scene:aber:balharbor:balhar19"
+    short: Main Street
+    sight: >
+      Venturing into the city, you're just outside of Idol Square, there lies an Adventurer's Guild to the
+      south...perhaps you being one would feel welcome? Main Street runs west and into Idol Square to the
+      east.
+flag:
+  - outdoors

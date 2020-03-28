@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:area"
+      west:
+        target: "scene:aber:abyss:road2"
+    short: End of the Road
+    sight: >
+      The road ends here, where it meets another street running south. Back to the west the sounds of street
+      hawkers drones on. A street lamp that once lit this corner has gone dark.
+flag:
+  - dark

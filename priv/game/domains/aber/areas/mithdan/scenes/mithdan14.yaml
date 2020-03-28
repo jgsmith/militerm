@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan15"
+      north:
+        target: "scene:aber:mithdan:mithdan9"
+      west:
+        target: "scene:aber:mithdan:mithdan13"
+    short: Thick Woods
+    sight: >
+      The woods streches off into the distance, filling the area from horizon to horizon. You struggle not to
+      lose your direction, but it is impossible to tell if you are still facing the way you began. The forest
+      is full of sharp thorns to the south, but to the north, and west it continues uninteruptes. To the east
+      there is a thin path covered in snow.
+flag:
+  - outdoors

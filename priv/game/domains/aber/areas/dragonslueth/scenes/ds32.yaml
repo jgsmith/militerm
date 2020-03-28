@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Holding Cell
+    sight: >
+      This is the place where all the bad people in the castle go. There are various types of whips and chains
+      hanging on the wall. Some of them have metal straps on them with little steel balls. There is a torture
+      device here that pulls a person's hands off from his body. Obviously it hasn't been cleaned because you
+      see some bones still stuck in it. The exit is to the &+Cwest&*, and that's it.
+flag:

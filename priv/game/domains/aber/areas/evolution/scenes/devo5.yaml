@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:devo3"
+      north:
+        target: "scene:aber:evolution:devo2"
+      south:
+        target: "scene:aber:evolution:devo4"
+      up:
+        target: "scene:aber:evolution:devo6"
+      west:
+        target: "scene:aber:evolution:devo5"
+    short: Adrift In The Devonian Seas
+    sight: >
+      You are lost, alone and vulnerable, swimming about in a forgotten ocean, at the mercy of arthrodires,
+      giant armoured fish with crushing jaws filled with jagged bone plates which serve (very effectively) in
+      place of teeth. You search in vain for a glimpse of the shore.
+flag:
+  - soundproof
+  - underwater

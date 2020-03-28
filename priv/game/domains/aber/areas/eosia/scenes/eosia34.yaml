@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia35"
+      west:
+        target: "scene:aber:eosia:eosia33"
+    short: The Dark Mountains
+    sight: >
+      The road ends here at the base of the Dark Mountains, on the border of Zemoch. You feel drained of all
+      your magic here and are weighed down by the oppressive air. The clouds above you are swirling in a
+      patterns and off in the distance rumbling can be heard. The sooner you leave here, probably the better.
+flag:
+  - cold
+  - outdoors
+  - negregen
+  - nomagic

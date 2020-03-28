@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:clearing"
+    short: Cottage
+    sight: >
+      There is one small window that lets in a dim shadowy light, a broken shutter hangs from that wall. There
+      are a couple of crude shelves on the wall, but this cottage was never lived in. Probably used for
+      animals, judging by the smell.
+flag:

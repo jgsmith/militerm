@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:lair"
+      up:
+        target: "scene:aber:labyrinth:end"
+    short: Spiral Stairs
+    sight: >
+      You stand almost at the bottom of the stairs. At the foot of the stairs is a large room, half obscured
+      by mist. The walls are decorated with faces and spectacular carvings of dying people.
+flag:
+  - dark

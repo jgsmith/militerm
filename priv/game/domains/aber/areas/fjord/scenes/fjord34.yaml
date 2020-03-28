@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord35"
+      south:
+        target: "scene:aber:fjord:fjord36"
+      west:
+        target: "scene:aber:fjord:fjord33"
+    short: In the Thicker Undergrowth
+    sight: >
+      Branches, leaves, and masses of roots protrude and block your way in all directions. Progress is made
+      with effort, but at least it is a good workout. The sunlight fades as the forest floor drops down and
+      the pines rise overhead further to the south and east. Black pits lie there, and a low, continuous buzz
+      emanates from the eastern one. The ground becomes soggy to the south, and something sloshing around is
+      heard from that pit. There is total absence of civilized animal life here, but it can be found to the
+      west.
+flag:
+  - outdoors

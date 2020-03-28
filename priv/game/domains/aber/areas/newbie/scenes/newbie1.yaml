@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:newbie:newbie2"
+    short: "New Players' Welcome Centre"
+    sight: >
+      You are standing in a large room, covered with pictures and paintings of the lands around the world. One
+      large sign says 'Welcome to Promised Land!' For those of you unfamiliar with this kind of adventure
+      game, an Abermud, or MUDs in general, the objective is to score points and complete quests, eventually
+      reaching the level of wizard, at which point you become immortal and gain all kinds of special powers.
+      Typing the words &+YINFO GAME&* will give you an overview of the game. A tour for new players begins to
+      the south of here. Type &+MS&* to go south. First MUD ever players should type '&+MINFO README&*' at
+      this time.
+flag:
+  - newbie
+  - peaceful

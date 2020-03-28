@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chlyon:chlyon6"
+      north:
+        target: "scene:aber:chlyon:chlyon10"
+      south:
+        target: "scene:aber:chlyon:chlyon6"
+      west:
+        target: "scene:aber:chlyon:chlyon6"
+    short: Lost Inside The Mountain...
+    sight: >
+      You are lost among the myriad of tunnels carved inside the mountain. Exits are everywhere...
+flag:
+  - dark

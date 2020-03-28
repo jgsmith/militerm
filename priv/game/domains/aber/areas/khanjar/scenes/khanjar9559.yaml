@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:khanjar:khanjar9560"
+      west:
+        target: "scene:aber:khanjar:khanjar9558"
+    short: Walking On The Trunk
+    sight: >
+      You move forward, keeping your balance quite easily since the trunk is so broad. It seems that many
+      smaller trees remained under when this giant overturned years ago. Now, there lies the rhizome. The
+      roots appear to give passage to the south.
+flag:
+  - outdoors

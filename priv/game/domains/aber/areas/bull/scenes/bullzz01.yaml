@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz02"
+      south:
+        target: "scene:aber:sherwood:sherwood3"
+    short: A Grassy Field
+    sight: >
+      You are travelling across a great &+Ggrassy&* field. The wind blows softly, causing the ripe ends of the
+      grass stalks to bob lazily back and forth. To the &+Gnorth&* you spy what appears to be some sort of
+      temple, its great white walls blazing with the light of the sun.
+flag:
+  - nomobiles
+  - outdoors

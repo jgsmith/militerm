@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy10"
+      west:
+        target: "scene:aber:windy:windy6"
+    short: West End of Ravine
+    sight: >
+      You are in a shallow ravine which cuts through the hills like a savage wound. Feldspar-rich sediments in
+      the soil give off a ruddy reflection to the dim light here. The ravine continues to the east, and rises
+      into the hills to the west.
+flag:
+  - outdoors

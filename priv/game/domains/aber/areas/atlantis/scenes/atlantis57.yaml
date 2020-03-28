@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis58"
+      west:
+        target: "scene:aber:atlantis:atlantis56"
+    short: Cave Corner
+    sight: >
+      The cave turns a corner here, leading from the west to the south. The water here seems very dead as
+      there are few vibrations in the water and you can feel very little current passing by you. You also take
+      notice that you haven't seen any aquatic life since you've entered the cave. The thought makes you
+      shiver slightly. The cave leads on into darkness to the south or back out towards the cave mouth to the
+      west.
+flag:
+  - dark
+  - underwater

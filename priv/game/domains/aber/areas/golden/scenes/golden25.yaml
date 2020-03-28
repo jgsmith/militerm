@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:golden:golden24"
+      west:
+        target: "scene:aber:golden:golden26"
+    short: &+WApproach to the Temple&*
+    sight: >
+      You are walking on a hard clay path that twists and turns around boulders and trees. There are large
+      human footprints leading west to the temple. The sound of monkeys and growls echo through the jungle.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook48"
+      north:
+        target: "scene:aber:fairybook:fairybook49"
+      south:
+        target: "scene:aber:fairybook:fairybook51"
+      west:
+        target: "scene:aber:fairybook:fairybook50"
+    short: Garden of Live Flowers
+    sight: >
+      A path here leads up to the top of a hill. You wander up and down, try turn after turn, but always wind
+      up back where you began.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:parlor"
+      south:
+        target: "scene:aber:jbs:lhall1"
+    short: The Library
+    sight: >
+      This is a fairly small library for being in a place of this size. There could scarcely be many more than
+      a hundred volumes in here, making you think that this would definitely not be a good place to start work
+      on a research paper. The books that there are, however, are so big that you would have to stand on them
+      to read them.
+flag:

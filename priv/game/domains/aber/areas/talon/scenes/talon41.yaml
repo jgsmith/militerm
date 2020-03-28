@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon40"
+    short: Kitchen
+    sight: >
+      You enter a large room which appears to serve as the kitchen for this dark palace. Long counters line
+      the edges of the room, and seem to be used for food preparation. On one end of the room lies a large
+      iron furnace which could be used to prepare large feasts. The only exit is to the south.
+flag:

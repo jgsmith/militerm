@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:avairy:castle6"
+    short: Kitchen Storage Room
+    sight: >
+      You are in the kitchen storage room. Must be a famine going on around here cause it doesn't appear like
+      too much is being stored.
+flag:
+  - light

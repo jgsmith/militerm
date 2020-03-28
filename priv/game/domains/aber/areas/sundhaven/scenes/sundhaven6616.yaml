@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6615"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6617"
+    short: The Tower of Sorcery
+    sight: >
+      Gently curving sigils have been worked into the ancient, weathered stone of the tower of the local
+      wizards, winding towards the ceiling in a sloping spiral. A stairwell has its foot at the north wall,
+      rickety but presumably stable enough to support you. A dim violet faerie glow illuminates the room.
+flag:
+  - nomobiles

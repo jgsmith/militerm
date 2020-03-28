@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:catacomb:sledge1"
+      south:
+        target: "scene:aber:catacomb:stairs"
+      up:
+        target: "scene:aber:catacomb:stairs"
+    short: The Foot of the Stairs
+    sight: >
+      You are standing in an underground cave at the foot of a set of stone stairs which ascend to the south.
+      The front of the first step is decorated with a carving of a human skull. To the north, an archway has
+      been carved out of the rock wall.
+flag:

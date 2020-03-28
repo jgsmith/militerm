@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund20"
+      south:
+        target: "scene:aber:sommerlund:sommerlund22"
+    short: Forest Tor
+    sight: >
+      The forest begins and ends here. The cool, leafy greenness of the forest beckons to those travelers it
+      can enchant into exploring its depths. Toward the opposite pole of the earth, a structure of unknown
+      design looms in the distance.
+flag:
+  - outdoors

@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gumby:gumby6"
+      up:
+        target: "scene:aber:gumby:gumby4"
+      west:
+        target: "scene:aber:gumby:gumby2"
+    short: Sensual Solitude
+    sight: >
+      As you step into the room, your feet seem to be swallowed by the thousands of petals from various
+      flowers covering the floor. A large bed lined with black silk sheets and covered with pillows, dominates
+      the west end of the room. A black marble fireplace makes up the north wall and is occupied by a warm
+      fire. Soft melodies seem to emanate from within the walls and float about the room. To the east is a
+      sliding glass door that leads to the balcony.
+flag:
+  - private
+  - party
+  - nomobiles
+  - nomagic
+  - soundproof

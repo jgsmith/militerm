@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      south: null
+      west:
+        target: "scene:aber:castle:chamber"
+    short: Torture Chamber
+    sight: >
+      You are standing in a pleasant torture chamber which would appear to have been in regular use as not a
+      single implement lies rusted. Many implements of torture lie about the room with various pieces of
+      anatomy still attached to some of them. A single doorway leads west.
+flag:

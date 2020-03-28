@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:talon:talon16"
+      west:
+        target: "scene:aber:talon:talon52"
+    short: Beneath the Thunder
+    sight: >
+      You stand at the base of a huge waterfall which cascades down from high above into a small deep pool.
+      The water here is crystal clear, and seems to glow with a brilliant white light which covers the entire
+      room and shines through the mist of the waterfall to form a rainbow which arcs across the entire cavern.
+      The water from the pool flows to the west through a small cavern.
+flag:

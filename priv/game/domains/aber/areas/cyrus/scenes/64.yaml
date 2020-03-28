@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: "Evil's residence"
+    sight: >
+      Here is the summum of all the evil. The place where lies the leader of destruction. Many humans have
+      been slayed here. Blood is dripping from the ceiling. Fire is burning all around the place. In fact, we
+      could call it a &+Rblazing inferno&*.
+flag:
+  - dark
+  - hot

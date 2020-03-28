@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills12"
+      north:
+        target: "scene:aber:caledonia:hills4"
+      west:
+        target: "scene:aber:caledonia:hills13"
+    short: Spruce Glen
+    sight: >
+      You find yourself in amongst a grove of perky little spruce trees which to the south become too
+      closely-packed to penetrate. You can see some way in all other directions though, and mostly all you can
+      see are evergreen trees of varying types.
+flag:
+  - outdoors

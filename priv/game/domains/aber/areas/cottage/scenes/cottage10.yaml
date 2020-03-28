@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Collapsing Ledge
+    sight: >
+      The ledge narrows here to an untraversable width. As you attempt to turn and make your way back up to
+      the west, the ledge collapses. You are wondering how deep the chasm truly is when the sudden stop
+      enlightens you.
+flag:
+  - death

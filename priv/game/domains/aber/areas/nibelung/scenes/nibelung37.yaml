@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung38"
+      north:
+        target: "scene:aber:nibelung:nibelung34"
+      south:
+        target: "scene:aber:nibelung:nibelung40"
+      west:
+        target: "scene:aber:nibelung:nibelung36"
+    short: Rotten Gazebo
+    sight: >
+      You are standing in a dilapidated gazebo. The structure looks on the verge of collapse, and you realize
+      that it wouldn't be all that bad if it did just that. A few wooden chairs remain here, but they don't
+      appear strong enough to hold the band members anymore. The wood has long since lost any appeal and is
+      now a dull grey color. Off to the east is a rotting old house, which looks like it is tired of standing
+      there. On the doorpost you see the rusted remains of the address, "2B".
+flag:

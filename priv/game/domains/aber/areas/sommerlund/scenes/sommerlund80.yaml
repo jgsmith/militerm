@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund81"
+      north:
+        target: "scene:aber:sommerlund:sommerlund78"
+    short: Helgedad
+    sight: >
+      Every road and every building is made out of black steel and/or similar alloys. Thousands of exploding
+      fireballs and gargoyle torches that produce blue flames are the main sources of light in this dark city.
+      The avenues are wide and long, forming an endless chain of sharply cut squares when seen from an aerial
+      perspective. Skulls and deadly-looking racks of weaponry line most doorways and windows. There is a
+      massive, cloying stench of sulphur and carbon dioxide, and these two compounds account for the heavy
+      amounts of acid-rain in the oxygen-killing atmosphere. Slow-moving transports are pulled rythymically
+      and mechanically by thick-furred beasts of burden. The drivers of these huge, metal carts wear cloaks,
+      capes, and hoods to hide their hideous, orcish features. The pace of the this city is disturbing and
+      foreboding - it is truly a place of decay.
+flag:
+  - outdoors

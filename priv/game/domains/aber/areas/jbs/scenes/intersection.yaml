@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:secret2"
+      north:
+        target: "scene:aber:jbs:secret4"
+      west:
+        target: "scene:aber:jbs:secret3"
+    short: Dark Intersection
+    sight: >
+      You have come to a three way intersection. You can go to the north or west down the passage, or you can
+      go down a flight of stairs that leads into darkness.
+flag:
+  - dark

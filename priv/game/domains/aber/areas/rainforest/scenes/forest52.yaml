@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest49"
+      west:
+        target: "scene:aber:rainforest:forest53"
+    short: River Shore
+    sight: >
+      You are on the bank of the River Malazon. Small trees grow out from the river's edge and overshadow the
+      water. Looking down you see large fish cruising about not far beneath the surface. As fruit falls from
+      the trees into the water, the fish quickly rush towards it and gobble it up. You scan the murk for signs
+      of piranhas but can see none. You can go north or west along the river bank.
+flag:
+  - outdoors

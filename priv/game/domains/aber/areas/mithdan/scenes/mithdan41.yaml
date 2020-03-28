@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan38"
+      south:
+        target: "scene:aber:mithdan:mithdan44"
+    short: Tiled Hallway
+    sight: >
+      The tiles beneath your feet appear to shift as you walk, but when you look closer they seem perfectly
+      normal. The walls are windowless and made of perfectly smooth polished stone. The hallway turns a corner
+      to both the north and south.
+flag:

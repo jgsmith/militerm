@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house2"
+      west:
+        target: "scene:aber:village:road3"
+    short: Foyer
+    sight: >
+      The glass windows next to the huge oak door let in a good amount of light that allows the ferns hung in
+      front of them to flourish. You look down and smile as you wipe your feet off on the welcome mat
+      (manners!). The coatrack to the left of the door has several children's jackets hanging from it along
+      with an adult one. The house is to the east or you can leave to the west.
+flag:
+  - nomobiles

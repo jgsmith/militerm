@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus38"
+      south:
+        target: "scene:aber:nexus:nexus40"
+    short: Messy Beach
+    sight: >
+      The shoreline is crammed full of foamy wtaer, which has brought and dumped over the aeons a rather
+      tremendous amount of floatable debris. Empty shells of crab, lobster, and mussel, rotting driftwood, and
+      numerous species of seaweed lay strewn at irregular intervals. Not all is dead slowly petrifying,
+      however, as twitchy movements in the shadows reveal the locations of some hidden nests of those who
+      dwell in this intertidal zone. The usual sweet and salt smell of the sea is coupled with the screeches
+      of the gulls as they zoom overhead on the sea breeze.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

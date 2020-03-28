@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot29"
+      south:
+        target: "scene:aber:camelot:camelot26"
+      west:
+        target: "scene:aber:camelot:camelot30"
+    short: Gazebo
+    sight: >
+      You can picture in your mind King Arthur, with his Lady and court, sitting here in the gazebo while
+      watching some traveling troop of performers, or judging a joust.
+flag:
+  - outdoors

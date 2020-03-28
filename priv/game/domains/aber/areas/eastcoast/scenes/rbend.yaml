@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eastcoast:llpath"
+      west:
+        target: "scene:aber:moor:waste"
+    short: Rocky Bend
+    sight: >
+      The path here cuts like a wound into a hill, curving off to the west and south. Rocks are strewn about,
+      some look recently fallen there, hints of recent rockfalls. You don't think it would be a good idea to
+      stick around to confirm your suspicions.
+flag:
+  - outdoors
+  - nomobiles

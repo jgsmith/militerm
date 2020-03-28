@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9572"
+      north:
+        target: "scene:aber:khanjar:khanjar9542"
+    short: The Brink Of A Gorge
+    sight: >
+      You are standing on the brink of a deep, deep gorge. Its walls are very smooth and rush straight down,
+      where nothing but a jet-black emptiness can be seen.
+flag:
+  - outdoors
+  - cold

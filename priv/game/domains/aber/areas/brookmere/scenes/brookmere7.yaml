@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere49"
+      up:
+        target: "scene:aber:brookmere:brookmere3"
+      west:
+        target: "scene:aber:brookmere:brookmere8"
+    short: Foot of the Rock Fall
+    sight: >
+      At the bottom of the rockfall you almost lose your footing on some gravel and utter a whispered curse.
+      Peering into the darkness you can see two dark stone tunnels at the foot of the rock fall, one going
+      east, the other, north. Looking carefully, you can see a green glow at the end of the west tunnel. To
+      the north you can see only darkness.
+flag:
+  - dark

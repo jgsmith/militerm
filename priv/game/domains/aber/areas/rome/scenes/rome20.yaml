@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rome:rome13"
+    short: The Outhouse
+    sight: >
+      PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!! Boy does it stink in here!!! You taste bile in your mouth and your
+      eyes begin to water. As you wipe away your tears, you see that this is a small room, in the far corner
+      of which a &+yhole&* is dug. The odor intensifies as you move closer and there is a &+Croll of toilet
+      paper sitting on the ground. The only exit is to the west and your nose and stomach are strongly
+      suggesting that you use it.
+flag:

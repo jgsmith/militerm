@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9911"
+      south:
+        target: "scene:aber:ghenna:ghenna9901"
+      up:
+        target: "scene:aber:ghenna:ghenna9905"
+    short: The realm of the hopeless.
+    sight: >
+      The incessant wailing of souls in torment causes visible shivers up and down your spine. The walls,
+      floor and ceiling are a viscous, blood-red mass that eludes description. A rift in the ceiling above you
+      causes a slight breeze to ruffle your hair. A magic portal stands south, leading into the unknown.
+flag:
+  - dark
+  - outdoors
+  - maze

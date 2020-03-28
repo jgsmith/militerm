@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:orchold:trap"
+      south:
+        target: "scene:aber:orchold:entryway"
+    short: Damp Hallway
+    sight: >
+      This hallway shows the same poor craftsmanship as the rest of the compound. Water drips from a large
+      &+Cstalactite&* near the eastern wall, making the whole room damp and uncomfortable. The hallway
+      continues north and south.
+flag:
+  - dark

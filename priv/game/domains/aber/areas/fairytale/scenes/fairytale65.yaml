@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale66"
+      south:
+        target: "scene:aber:fairytale:fairytale64"
+    short: The River
+    sight: >
+      The river continues to the north and south, and the pleasant hills have changed to rocky cliffs which
+      bar further passage to the east and west. You hear a loud roaring noise from the north.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis9"
+      west:
+        target: "scene:aber:atlantis:atlantis5"
+    short: "Ship's Prow"
+    sight: >
+      The crushed prow of the cargo ship lies half-buried in the sand here. Fish swim leisurely through holes
+      in the prow while half-hidden creatures tenatively poke their heads out from the prow to investigate the
+      disturbance your presence is making through the water. You can almost make out the graceful features of
+      a mermaid that adorns the front of the prow but the features have been eaten away by the currents of the
+      sea. Underneath the mermaid you notice a plaque that reads 'The Anemone'.
+flag:
+  - underwater

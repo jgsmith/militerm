@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale101"
+      west:
+        target: "scene:aber:fairytale:fairytale103"
+    short: Living Room East
+    sight: >
+      You are in a large living room, which extends the depth of the house. To the west it continues, and to
+      the south is a kitchen. Out the window to the east you see a staircase going up to the next level. A
+      card table is set up here, with a deck of cards and four piles of colored discs. Four chairs have been
+      carefully set around the table. In the corner is a bar, fully stocked.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:14"
+      south:
+        target: "scene:aber:cyrus:17"
+      west:
+        target: "scene:aber:cyrus:12"
+    short: &+cHall
+    sight: >
+      A long and curved hall allows you to continue in that direction. There is absolutely no noise and you
+      can hear the little rocks crackling under your steps. You can see the origin of the light: the light is
+      emerging from a guarded door.
+flag:

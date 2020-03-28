@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge43"
+      west:
+        target: "scene:aber:ledge:ledge41"
+    short: Underwater Cavern
+    sight: >
+      Small pockets of air can be seen above where the ceiling has a few cracks but your mouth can't get to
+      them to breathe. Hopefully that gear you're wearing won't run out of air soon. Some clams seem to have
+      taken up residence in this section of tunnel, which continues west and east.
+flag:
+  - underwater

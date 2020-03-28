@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven3"
+      east:
+        target: "scene:aber:heaven:heaven5"
+      north:
+        target: "scene:aber:heaven:heaven9"
+      south:
+        target: "scene:aber:heaven:heaven15"
+      up:
+        target: "scene:aber:heaven:heaven5"
+      west:
+        target: "scene:aber:heaven:heaven3"
+    short: Plains
+    sight: >
+      You are on the plains. To the west is a tent, to the east an untouched wilderness, to north is a cloud
+      bank, and to the south you can see the ruins of a walled city.
+flag:
+  - private

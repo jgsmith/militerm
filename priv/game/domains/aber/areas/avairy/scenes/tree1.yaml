@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:avairy:forest5"
+    short: High up in a Tree
+    sight: >
+      You have climbed high up into a tree. You can see far... but you can only see trees.
+flag:
+  - outdoors
+  - light

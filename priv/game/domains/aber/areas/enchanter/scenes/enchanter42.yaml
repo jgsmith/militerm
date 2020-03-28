@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:enchanter:enchanter41"
+    short: Kitchen
+    sight: >
+      The castle's kitchen used to be a busy, noisy place. It's quiet now... but the room clearly has a story
+      to tell. Shortly after Krill came to this land, he enslaved the people of the castle. Some of them, he
+      set to work at dreary tasks, and others he simply tortured to death for the fun of it. He transformed
+      the kitchen to a torture chamber, and clearly spent many hours here watching the bodies twitch. They
+      aren't twitching now. You turn your head in disgust.
+flag:

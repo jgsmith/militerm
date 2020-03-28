@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Empty Cell
+    sight: >
+      The wood on the inside of this door has been scratched to a smooth finish long ago. The ensuing years
+      have embalmed it in a fine layer of moisture. Rusted iron chains look as if they could be easily
+      snapped. This cell probably fell into disuse long before the Ildharas were attacked.
+flag:
+  - dark

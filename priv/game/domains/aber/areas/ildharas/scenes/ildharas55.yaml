@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas54"
+    short: Ward Room
+    sight: >
+      You feel the power centered in this heptagonal room. A scale model of the castle sits in the center and
+      mystical symbols cover the entire floor. You realize at once that this is the heart of the castle's
+      magical defense system. Some of the symbols have been marred, and the outer wall of the model has been
+      broken in several places. 	The Ildharas slain during the attack are stacked along the walls like
+      firewood, perfectly preserved by the strange timeless properties of the castle.
+flag:

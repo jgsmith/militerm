@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:fire:fire45"
+      west: null
+    short: Cross
+    sight: >
+      You are standing between two prison cells. It is smelling here terribly. You can see rats everywhere. It
+      must be terrible to guard here and it has to be much worse for the prisoners here. You can see bars to
+      the east and west. An exit leads north.
+flag:
+  - cold

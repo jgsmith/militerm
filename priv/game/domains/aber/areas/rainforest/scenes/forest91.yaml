@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest86"
+      west:
+        target: "scene:aber:rainforest:forest87"
+    short: Shallow Tributary
+    sight: >
+      You are up to your knees in the water. From here you can go west past the tangled bush, or you could
+      head north back on to the shore. You are keen to get out fairly soon, for you spy dark shapes beneath
+      the surface a little further out in the river.
+flag:
+  - outdoors
+  - nomobiles

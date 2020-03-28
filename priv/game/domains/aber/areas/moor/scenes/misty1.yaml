@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:misty2"
+      north:
+        target: "scene:aber:moor:edge"
+      south:
+        target: "scene:aber:valley:moorpath"
+    short: Misty Moorland
+    sight: >
+      You are standing on the south-eastern edge of a vast tract of misty, tangled moorland. Thick gorse and
+      bracken make travel almost impossible save for narrow, animal-worn tracks to the north and east.
+flag:
+  - outdoors

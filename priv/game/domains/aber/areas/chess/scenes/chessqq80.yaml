@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq82"
+      west:
+        target: "scene:aber:chess:chessqq78"
+    short: The Dock
+    sight: >
+      As you step onto the dock, it sags crazily and settles more firmly into the river. A sudden bright light
+      shines out from upriver, blinding you momentarily. The light approaches closer, and you realize that it
+      is some strange form of boat. It stops at the north side of the dock, ready to be boarded.
+flag:

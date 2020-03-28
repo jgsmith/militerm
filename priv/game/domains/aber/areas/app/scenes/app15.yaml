@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app12"
+      north:
+        target: "scene:aber:app:app16"
+      south:
+        target: "scene:aber:app:app16"
+      west:
+        target: "scene:aber:app:app13"
+    short: Dead Woods
+    sight: >
+      You are inside the Dead Woods. Strange sounds of ghosts and other horrors drift through the woods,
+      giving you an eerie feeling.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orchold:hallway16"
+      north:
+        target: "scene:aber:orchold:hallway17"
+      west:
+        target: "scene:aber:orchold:hallway6"
+    short: Central Chamber
+    sight: >
+      This is apparently the main place for the orcs to congregate. The room reeks of filth and decay.
+      Hallways lead north, east, and west.
+flag:
+  - dark

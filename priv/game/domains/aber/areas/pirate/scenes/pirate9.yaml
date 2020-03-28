@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Powder Room
+    sight: >
+      You are in the room that the ship stores its gunpowder suppies in. You see several huge barrels, some
+      full of gunpowder, others full of cannonballs. A door can be seen in the north wall.
+flag:

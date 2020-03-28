@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung22"
+      south:
+        target: "scene:aber:nibelung:nibelung24"
+    short: Muddy Road
+    sight: >
+      You find yourself ankle deep in a grey-brownish mud, which sucks at your boots, almost pulling them off.
+      The going is a bit more difficult, but you notice dryer road to the north and south. With a bit of
+      perseverance you should be able to make it to either end.
+flag:
+  - outdoors

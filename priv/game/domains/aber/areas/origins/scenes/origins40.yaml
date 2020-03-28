@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+    short: "The Necromancer's Room"
+    sight: >
+      You enter a small chamber, filled to the brim with test tubes, distillation tubes, decanters, flasks,
+      and various other equipment an evil, dark mage would have. Numerous volumes of the "Arcanum Magicana
+      Disciplina," penned by the greatest Dark Mage, the legendary &+LSuraklin&n himself, rest on the
+      bookshelf. You stare in abject horror; how could one live for so long in such a small room, with so
+      little remaining space? But the answer to that is painfully obvious: the Necromancer stopped 'living' in
+      days long since past...
+flag:
+  - dark
+  - soundproof
+  - negregen

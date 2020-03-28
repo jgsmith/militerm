@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:pitpass"
+      north:
+        target: "scene:aber:fareast:countrybcher"
+      south:
+        target: "scene:aber:fareast:countryb_3"
+      west:
+        target: "scene:aber:fareast:pitpass"
+    short: Countryside- A Glimpse of Life
+    sight: >
+      This unpleasant countryside makes you look longingly to the north, where pink cherry blossoms fall from
+      a thick, living orchard. The land here, in contrast, is dry and rocky, barely touched by greenery.
+      Further to the south, it even seems to be dotted with dark, smoking puddles and patches of yellow ooze,
+      ending in haze-shrouded cliffs. Another escape, however, is offered by a sinkhole to the west, where the
+      roadbed drops away toward a bare, dry floor.
+flag:

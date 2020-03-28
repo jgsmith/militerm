@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot100"
+      west:
+        target: "scene:aber:camelot:camelot102"
+    short: Small Cavemouth
+    sight: >
+      You are resting in a small cave. The dirt floor is scuffed and it is obvious that many feet have passed
+      this way in recent weeks. To the south, there is a treacherous climb down the cliff face.
+flag:

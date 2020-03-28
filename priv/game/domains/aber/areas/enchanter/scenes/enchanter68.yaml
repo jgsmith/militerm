@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter90"
+      north:
+        target: "scene:aber:enchanter:enchanter82"
+      south:
+        target: "scene:aber:enchanter:enchanter55"
+    short: Closet
+    sight: This is a spacious closet.
+flag:
+  - dark

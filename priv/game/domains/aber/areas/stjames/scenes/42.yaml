@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:41"
+      north:
+        target: "scene:aber:stjames:43"
+      west:
+        target: "scene:aber:stjames:55"
+    short: St. James Park
+    sight: >
+      You are near the western edge of the park. Off to the west, the park ends where it meets the fence of
+      the Palace gardens. You can see a bit of the garden through the ivy growing on the fence, but your view
+      is pretty much obstructed.
+flag:
+  - outdoors

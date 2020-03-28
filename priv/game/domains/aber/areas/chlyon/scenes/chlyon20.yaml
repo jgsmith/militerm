@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:chlyon:chlyon21"
+    short: The Thyreen Forges
+    sight: >
+      The mythical Thyreenean forge stands before you. According to legend, it was created by the old god of
+      fire for the Thyreenean craftsmen to create weapons for the gods themselves. Some of those weapons have
+      now found their way in mortal hands. Maybe.. just maybe.. if the legends are true.. you could forge your
+      own great weapon!
+flag:

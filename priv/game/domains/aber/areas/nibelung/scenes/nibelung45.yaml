@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung27"
+      up:
+        target: "scene:aber:nibelung:nibelung47"
+      west:
+        target: "scene:aber:nibelung:nibelung46"
+    short: Turm
+    sight: >
+      You are standing in an archway which runs through the center of a very large tower. Some steps lead
+      upwards to the upper levels of the tower and a drawbridge is open to the west. Your boots click upon the
+      cobblestones, and you notice a rusty porticullis dangling overhead. A path wanders off to the east.
+flag:

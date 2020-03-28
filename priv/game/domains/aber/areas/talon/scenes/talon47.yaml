@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:talon:talon48"
+      west:
+        target: "scene:aber:talon:talon44"
+    short: Base of Dragon Tower
+    sight: >
+      You stand at the base of a tremendous tower which is even taller than the black tower to the west. A
+      raw, dark energy seems to surge down upon you from the top of the tower, and orange flashes flicker high
+      above you. A small ladder ascends to the top of the tower, and an archway leads back to the west.
+flag:

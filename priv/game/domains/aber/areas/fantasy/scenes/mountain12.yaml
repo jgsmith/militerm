@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain13"
+      west:
+        target: "scene:aber:fantasy:mmaze7"
+    short: Mountain Cave
+    sight: >
+      The cave is a little bit lighter here and to the west the passage looks to start twisting and turning
+      alot.
+flag:

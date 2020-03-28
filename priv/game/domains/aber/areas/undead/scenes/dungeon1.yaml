@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:dungeon2"
+      west:
+        target: "scene:aber:undead:throneroom"
+    short: Entrance to Dungeon
+    sight: >
+      You stand at the entrance to the Undead King dungeon. Unlike the rest of the castle there is a
+      remarkable lack of damp, it is not cold and it is well lit and remarkably clean. Several lanterns built
+      into the wall light your way. This stark contrast to what you expected is somewhat perplexing. The walls
+      appear to be made of a smooth hard rock, slightly cold to the touch. To the &+Cwest&* is an opened wall
+      that seems to lead to the throne room. To your &+Ceast&* the dungeon continues.
+flag:

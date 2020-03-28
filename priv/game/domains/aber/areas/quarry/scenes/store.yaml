@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:quarry:north"
+    short: Stone Store
+    sight: >
+      You are in a cold, damp stone store, which was evidently warm and cosy at one time. The store appears to
+      still be used by someone, as there are marks on the floor.
+flag:

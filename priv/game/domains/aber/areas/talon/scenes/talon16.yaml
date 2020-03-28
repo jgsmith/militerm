@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon53"
+      west:
+        target: "scene:aber:talon:talon14"
+    short: Waterfall
+    sight: >
+      The stream here becomes extremely fast, and disappears over a waterfall which plummets down, at least
+      one hundred feet to the bottom. There is a light which seems to have gotten even brighter here than to
+      the west, and it continues to increase in intensity as you look down the waterfall to the pool below.
+      You think you might just be able to scramble down the rocks to the side of the waterfall, but it looks
+      very treacherous. The stream flows in from a cavern to the west.
+flag:

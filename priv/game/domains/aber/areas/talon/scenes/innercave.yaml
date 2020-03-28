@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon26"
+    short: Inside the Peak
+    sight: >
+      This is an even smaller cave, but just as still and quiet as the one to south.
+flag:
+  - dark

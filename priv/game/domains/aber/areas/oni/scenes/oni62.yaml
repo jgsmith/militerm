@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni61"
+      west:
+        target: "scene:aber:oni:oni63"
+    short: East Shore
+    sight: >
+      You find yourself at the eastern edge of a large lake. To the west is a high sheer cliff with a small
+      cave set into it. The lake is surrounded by dense forests to the north and south. To the west is a large
+      dirt road, which heads towards a large wall.
+flag:
+  - outdoors
+  - cantsummon

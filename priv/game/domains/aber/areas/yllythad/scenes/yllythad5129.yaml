@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:yllythad:yllythad5128"
+      west:
+        target: "scene:aber:yllythad:yllythad5120"
+    short: West of the Jetty
+    sight: >
+      A long rock jetty with a lighhouse at its end runs out into the sea. It appears that climbing the rocks
+      to the jetty's walkway might be hazardous to one's health, so another way up must be found.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis50"
+      west:
+        target: "scene:aber:atlantis:atlantis46"
+    short: Outside the Garden
+    sight: >
+      As you leave the garden behind, you notice the plant life becoming less well cultivated and that the
+      coral hedges that define the path are becoming sparse. Obviously, this path is not used frequently.
+      Still, you can view a shy fish or two darting in and out of the coral hedges and your eye catches a
+      small lobster underneath some of the plants. You are able to swim between the hedges west back into the
+      garden or east towards a cave mouth you see before you.
+flag:
+  - underwater

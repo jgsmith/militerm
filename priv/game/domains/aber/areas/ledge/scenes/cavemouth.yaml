@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge"
+      north:
+        target: "scene:aber:ledge:cave"
+      west:
+        target: "scene:aber:ledge:on"
+    short: Cavemouth
+    sight: >
+      You are standing on a narrow precipitous ledge. The ledge runs east-west, and to the north a narrow
+      cavemouth leads into semi-darkness. Braving vertigo, you gaze over the lip of the ledge across the vast
+      expanse of trees far below.
+flag:
+  - outdoors

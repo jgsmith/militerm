@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road7"
+      north:
+        target: "scene:aber:stjames:2"
+      south:
+        target: "scene:aber:stjames:56"
+      west:
+        target: "scene:aber:stjames:12"
+    short: Entrance to St. James Park
+    sight: >
+      You are standing at the entrance to St. James Park. Set in the middle of London, very close to
+      Westminster Abbey, the park is a refreshing change from the dirt and bustle of the city itself. The park
+      stretches out to the west and consists of many green lawns, a pond spanned by a single bridge, and two
+      stone paths; one on either side of the pond. To the north is the pond, to the south are the green lawns,
+      and way ahead to the west you can just make out the back wings of Buckingham Palace. Outside the park to
+      the south is the Abbey.
+flag:
+  - outdoors

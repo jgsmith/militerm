@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field5"
+      north:
+        target: "scene:aber:hick:field15"
+      south:
+        target: "scene:aber:hick:field3"
+      west:
+        target: "scene:aber:hick:field13"
+    short: Wheat Field
+    sight: >
+      This is a large wheat field. To the north is a tomato patch, to the west is a corn field, and to the
+      east and south there is an irrigation ditch.
+flag:
+  - outdoors

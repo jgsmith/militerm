@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cyrus:26"
+    short: Secret room of Zijaz
+    sight: >
+      You arrive in here gaping. You didn't know that religion can be as strong to bring people to heaven. You
+      see here another great panoramic view. In the center of the room, like in the other one, an incredible
+      weapon is held in a huge pedestal.
+flag:

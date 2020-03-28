@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan44"
+      north:
+        target: "scene:aber:mithdan:mithdan40"
+      west:
+        target: "scene:aber:mithdan:mithdan42"
+    short: Stone Hallway
+    sight: >
+      The stone in the hall flows and drips as you walk, but is not hot. The floor beneath you rises and falls
+      as if it were an ocean, and the walls shift in liquid, flowing patterns. The noise is much stronger
+      here, and an ethereal light spills out of the northern chamber. The hall turns a corner to the east.
+flag:

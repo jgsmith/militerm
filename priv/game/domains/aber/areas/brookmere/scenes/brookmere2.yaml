@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere3"
+      up:
+        target: "scene:aber:brookmere:brookmere1"
+    short: Gaping Hole
+    sight: >
+      The hole lies in the shadow of the hulking remains of Brookmere's watchtower. It looks quite old, as
+      various grasses and weeds have sprung up around the rim, obscuring any exposed digging work. The hole
+      leads down into the dungeons that the orcs, goblins and gnolls must have made their home. Peering down
+      into the wide, gaping maw you see a rockfall that would take you down to the dungeon level if you are
+      careful.
+flag:
+  - nomobiles

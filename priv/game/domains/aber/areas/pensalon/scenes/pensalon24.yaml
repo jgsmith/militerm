@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon23"
+      north: null
+      west:
+        target: "scene:aber:pensalon:pensalon36"
+    short: Large Cavern
+    sight: >
+      You stand in a Large Cavern that expand beyond the light of your torch. To the west is a shore line
+      along some unknown underground lake. To the east is a small tunnel leading off into the darkness.
+flag:
+  - dark

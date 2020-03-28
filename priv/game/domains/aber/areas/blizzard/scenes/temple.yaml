@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:workroom"
+      north:
+        target: "scene:aber:blizzard:lava_led2"
+    short: The Temple
+    sight: >
+      You are in a sinister temple. Hideous shapes seem to reach out of nothing- ness towards you and vanish
+      as immaterial shadows. The whole room radiates a crushing sense of power filling you with awe and dread.
+      A huge fire burns at an end of the temple, seemingly without a source. Doorways lead lead north and
+      east.
+flag:

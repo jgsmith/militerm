@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: "The Black Queen's Chamber"
+    sight: >
+      You are in a small chamber, containing only a &+Cbed&*, basin, mirror and braided rug. Despite being
+      very small, it looks comfortable enough to rest in for a bit. As you seat yourself on the bed, you see a
+      flicker of motion in the &+Cmirror..
+flag:

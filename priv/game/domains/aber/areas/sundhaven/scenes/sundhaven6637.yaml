@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6636"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6759"
+    short: A shaded lane
+    sight: >
+      You travel on a wide lane lined with ash and oak trees, whose limbs bend in various directions and give
+      ample shade. Little things seem to be sparkling through the doorway of a building to the west, though it
+      is hard to tell from here exactly what.
+flag:
+  - outdoors

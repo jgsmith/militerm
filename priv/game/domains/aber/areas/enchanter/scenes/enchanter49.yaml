@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter50"
+      west:
+        target: "scene:aber:enchanter:enchanter48"
+    short: The Machine Room
+    sight: >
+      You run into the room, and dodge the first few axe blades. Then, a saw blade flies at your neck, and you
+      don't duck fast enough to avoid decapitation. Your head rolls a few feet away from your body, then the
+      hammer squashes it.
+flag:
+  - death

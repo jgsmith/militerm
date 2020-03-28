@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:blizzard:r_land"
+    short: Winding Path
+    sight: >
+      You are on a winding path which climbs up to what appears from your position to be a fortress on top of
+      a hill to the east. To the north is a small village. As you approach the structure, you notice an
+      opening in the walls and move yourself toward it. The opening now appears to be an archway with a
+      portcullis. Chiselled into the arch are these words, "NOMINE ROSAE", evidently the name of this place.
+flag:
+  - outdoors
+  - nomobiles

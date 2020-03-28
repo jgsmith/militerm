@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:forest4"
+    short: Up in the Tree
+    sight: >
+      You are about 10 feet above the ground nestled among some large branches. The nearest branch above you
+      is above your reach. Beside you on the branch is a small bird's &+ynest.
+flag:
+  - outdoors

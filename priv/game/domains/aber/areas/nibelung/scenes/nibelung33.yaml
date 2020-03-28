@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung34"
+      north:
+        target: "scene:aber:nibelung:nibelung30"
+    short: Playground
+    sight: >
+      The playground is overgrown with weeds now, although it probably was well cared for at one time. Some
+      toys lie here, discarded long ago and left to rot. A little red schoolhouse lies to the north, and off
+      to the east you notice a town square of some kind.
+flag:
+  - outdoors

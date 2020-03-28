@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott28"
+      west:
+        target: "scene:aber:slott:slott24"
+    short: Manfreds bedroom
+    sight: >
+      This is a small bedroom, there is a small bed, a &+Bcupboard&*, and a small &+Bcloset&* in here. This is
+      the bedroom of the butler; he must really be doing his job well to have his own room.
+flag:

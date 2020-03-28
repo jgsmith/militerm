@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:kastle:23"
+      north:
+        target: "scene:aber:kastle:15"
+    short: Smelly Room
+    sight: >
+      The sewer empties into a large pit here creating an unbearable odor. A chain hangs from the ceiling
+      directly over the pit and just out of your reach.
+flag:
+  - dark

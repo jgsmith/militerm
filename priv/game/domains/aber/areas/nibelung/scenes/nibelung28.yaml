@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung22"
+    short: Boathouse
+    sight: >
+      You find yourself in a boathouse of sorts. The ceiling has collapsed at one end, allowing sunlight to
+      work its way into the room. Water is lapping up against the pilons, but if there ever was a boat here,
+      it is long gone. The river can be seen flowing by the eastern side of the building. A bird's nest can be
+      seen in one of the rafters, but it too appears to have been abandoned.
+flag:

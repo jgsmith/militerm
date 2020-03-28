@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Sulphurous Cave
+    sight: >
+      The interior of the cave is lined with hidden crevices and fissures which pump forth yellowish, pungent
+      clouds of gas with no particular pattern or frequency. Porous rock makes up the walls, and there are a
+      significant number of small bones strewn about, as if something once used this room as a home. Nestled
+      against the back is the remains of a grass nest, matted down and decayed by the sulfur gas. Next to it
+      lies a small puddle of bubbling orange goo, fed by a vent directly underneath it. Fresh air and light
+      may be found beyond the cove opening to the west.
+flag:
+  - dark

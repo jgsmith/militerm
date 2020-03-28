@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas32"
+    short: Small Sunlit Chamber
+    sight: >
+      This small, cheery room is filled with plush chairs and footstools. From a window in the southern wall,
+      you can see the overgrown forest in the valley. A thick and priceless carpet of tan and cream nestles
+      comfortably against your feet, beautiful except for the enormous blood stain in the center.
+flag:
+  - nomobiles

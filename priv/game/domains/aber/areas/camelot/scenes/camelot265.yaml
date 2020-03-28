@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot259"
+      west:
+        target: "scene:aber:camelot:camelot260"
+    short: The Sitting Room
+    sight: >
+      This large, plush room is used as a place to sit in the quiet and meet with visitors. There is a sense
+      of quiet, of privacy, that makes you feel quite comfortable. The floor is heavily carpeted, and your
+      steps make no sound. And no sounds penetrate from the world outside either.
+flag:
+  - private
+  - party
+  - soundproof

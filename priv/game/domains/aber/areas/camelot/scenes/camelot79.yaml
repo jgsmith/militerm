@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot78"
+      north:
+        target: "scene:aber:camelot:camelot80"
+    short: The Back Yard
+    sight: >
+      Standing on a thick lawn, you enjoy the view. All around you lies a majestic landscape, the sort artists
+      kill to paint. To the east, a tavern offers rest and comfort, while a trail winds off to the north.
+flag:
+  - outdoors

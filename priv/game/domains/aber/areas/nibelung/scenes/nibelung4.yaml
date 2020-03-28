@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills20"
+      north:
+        target: "scene:aber:nibelung:nibelung6"
+      south:
+        target: "scene:aber:nibelung:nibelung3"
+      west:
+        target: "scene:aber:nibelung:nibelung19"
+    short: Fork
+    sight: >
+      The path branches of in several directions here. To the west you hear running water, and to the north
+      the trail starts to rise steeply. As you look around to try to decide where to go, you spy a path
+      through a grassy field to the south. You could also climb east up the steep sides of a low mountain.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chess:chessqq06"
+    short: The Slide
+    sight: >
+      You come out of the last spin, and are abruptly deposited on a slide made of some slick metal. You
+      descend rapidy, being abruptly slammed against the walls as the slide banks through several tight
+      corners. Ahead of you, approaching rapidly is a small point of &+Ylight.
+flag:

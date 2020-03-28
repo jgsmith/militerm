@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6788"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6786"
+    short: The shoreline and docks
+    sight: >
+      You step onto wood instead of rocks on a well-constructed dock. The docks haven't been used very much of
+      late due to the dangerous sea creatures encountered by boaters. The fog is still thick along the
+      shoreline, but the wind breaks it up in the open sea. If you're willing to go out on the open sea, there
+      may be some boats tied up at the end.
+flag:
+  - outdoors

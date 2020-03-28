@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:aira"
+    short: "Aquarius's Home"
+    sight: >
+      This room is small and modest and is sparsely furnished. About the only interesting thing you see here
+      is a small poster on the wall that reads: A radical is a man with both feet planted firmly in the air.
+      The initials F.D.R. are printed at the bottom of the poster.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:throne"
+      south:
+        target: "scene:aber:eforest:boiling"
+    short: Stone Room
+    sight: >
+      You stand in a perfectly cubical room, obviously not natural. What makes the room eerie is the fact that
+      no signs of construction are visible. It is almost as if the entire room sprung from the earth in its
+      present shape. To the South you hear the sounds of liquid boiling, while to the north, beyond a perfect
+      archway, you see what looks like a throne room.
+flag:
+  - hot

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven12"
+      up:
+        target: "scene:aber:heaven:heaven14"
+    short: Diamond Palace
+    sight: >
+      The entire palace is made of diamond. The light from above is broken into rainbows, and their
+      glitterings seem to enchant you.
+flag:
+  - private

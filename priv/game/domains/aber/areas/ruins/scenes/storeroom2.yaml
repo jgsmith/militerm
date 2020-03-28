@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: A Room
+    sight: >
+      You are in what looks to be a storeroom. There are shelves built into the stone walls that are covered
+      with thick layers of dust. Looking around at the various hooks and imprints on the wall you suspect that
+      this once was an armory of some sort.
+flag:
+  - dark

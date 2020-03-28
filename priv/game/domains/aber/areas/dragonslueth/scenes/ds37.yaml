@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds35"
+      south:
+        target: "scene:aber:dragonslueth:ds38"
+    short: Path
+    sight: >
+      From here you keep walking and walking down the same path and it looks all the same to you as you trudge
+      on. To the &+Csouth&* you see the end of the path, but it doesn't look like you want to go there.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:pass"
+      up:
+        target: "scene:aber:blizzard:treravine"
+      west:
+        target: "scene:aber:blizzard:chamber"
+    short: Cliff Window
+    sight: >
+      You are hanging onto a fairly precipitous cliff, beside a rocky window. Far below you can see the pass
+      which seems to sway backwards and forwards as the icy wind tries to tear you away from the cliff and
+      lashes you with huge clouds of blinding snow. The window is west.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

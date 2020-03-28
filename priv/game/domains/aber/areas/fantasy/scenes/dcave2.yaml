@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave1"
+      north:
+        target: "scene:aber:fantasy:dcave3"
+    short: Entrance to Dwarf Mine
+    sight: >
+      Once inside of the mine you realize that your first impression was probably correct, this mine has been
+      long forgotten. A thick layer of dust covers the walls, the floor and the ceiling. The mine looks to
+      lead to the north, and the exit is to the east.
+flag:
+  - nomobiles

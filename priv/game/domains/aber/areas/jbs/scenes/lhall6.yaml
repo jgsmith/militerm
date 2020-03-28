@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lhall5"
+      south:
+        target: "scene:aber:jbs:guest1"
+      west:
+        target: "scene:aber:jbs:lhall7"
+    short: Large Hallway
+    sight: >
+      This is a large east west hallway. There is also an exit into a room to the south.
+flag:

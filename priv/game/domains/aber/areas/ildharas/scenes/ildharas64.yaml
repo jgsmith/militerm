@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Inside the Ruby
+    sight: >
+      You wander an architect's nightmare of stairways that double back on themselves, halls with but a single
+      end, and random, chaotic angles. Time stretches out to eternity. There is nowhere to go here, and
+      nothing to do. Memory grows dim, fading against the monotony of the present.
+flag:

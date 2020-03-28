@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Shadowrealms
+    sight: >
+      Dark, living shadows swirl around you, and the sky overhead is pure black without a hint of sunlight.
+      Every step you take drains your strength as your hope bleeds away into the darkness.
+flag:

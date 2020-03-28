@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus64"
+      south:
+        target: "scene:aber:nexus:nexus62"
+    short: Magma River
+    sight: >
+      Pieces of ash and pumice buffet the bridge, which is quite transparent, allowing the image of one's feet
+      dangling over a pit of death to become a reality. Deep-throated noises issue forth from the belching
+      geysers far below, creating a hideous song.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark
+  - hot

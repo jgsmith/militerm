@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord12"
+      west:
+        target: "scene:aber:fjord:fjord10"
+    short: Muskrat Pine Forest
+    sight: >
+      Sap concentrations increase further to the east, its production fueled by the significant amounts of
+      light and water in that direction. Clinging to most trees in at least three places are the only life
+      form unique to this forest. The Sap Swarmers are a distant cousin of the small blood-sucking leeches,
+      but gorge themselves on sap instead of the liquid of life. They are equipped with serrated claws which
+      cut through the protective lichen and bark of the pine and allow access to the phloem, where the pine
+      sap is readily available, but are careful to avoid causing permanent damage to the tree. Sap Swarmers
+      lack eyes and ears, but have a wonderful detection system of shape and dimension, which is why they will
+      sometimes try to attach themselves to a passing organism. The forest thickens to the west and thins to
+      the east.
+flag:
+  - outdoors

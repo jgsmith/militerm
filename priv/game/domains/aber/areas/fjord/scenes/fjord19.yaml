@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord20"
+      south:
+        target: "scene:aber:fjord:fjord23"
+      west:
+        target: "scene:aber:fjord:fjord18"
+    short: Middle of the Lake
+    sight: >
+      The central area of the lake is a giant whirlpool. Water and surface matter are drawn counterclockwise
+      to am calm ring ten feet beneath the lake surface, forming a large sunken pit of water. Once something
+      is drawn into the pit, it spirals down and then spits back up to the rim through means of enormous air
+      bubbles. This whirlpool is, therefore, not considered dangerous, but used as a fun ride and a small
+      challenge to escape.
+flag:
+  - outdoors
+  - onwater

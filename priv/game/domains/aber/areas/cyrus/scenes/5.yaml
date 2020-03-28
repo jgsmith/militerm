@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:67"
+      south:
+        target: "scene:aber:cyrus:2"
+      west:
+        target: "scene:aber:cyrus:6"
+    short: &+cNorth End of the Village
+    sight: >
+      The street becomes a little trail as you walk toward the north caves. At your left, you see a little
+      ruinous house. Smoke is coming out of the chimney.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas03"
+      north:
+        target: "scene:aber:ildharas:ildharas05"
+    short: Steep Trail
+    sight: >
+      The trail flattens out a little and enters a clearing. Looking south, you can see the graveyard and the
+      barrow mound, then the forest beyond them. To the north, it looks like the hill you stand on is only the
+      first in a series of foothills leading to a craggy mountain range.
+flag:
+  - outdoors

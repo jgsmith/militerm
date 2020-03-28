@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar20"
+      north:
+        target: "scene:aber:volcano:bandilbar15"
+      west:
+        target: "scene:aber:volcano:bandilbar23"
+    short: Yorrin Wood
+    sight: >
+      You are at the southern edge of the wood. To the south the river, curling around from the east, runs
+      approximately due west, passing under the shadow of the great volcano. A narrow rope bridge spans the
+      river, and on the other side you see a broad road leading south between an imposing pair of iron gates
+      into the ever-changing town of the wizards of Crossroads MUD.
+flag:
+  - outdoors

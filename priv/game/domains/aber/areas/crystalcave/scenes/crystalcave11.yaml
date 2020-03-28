@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:crystalcave:crystalcave10"
+      north:
+        target: "scene:aber:crystalcave:crystalcave9"
+      south:
+        target: "scene:aber:crystalcave:crystalcave6"
+      west: null
+    short: &+CCrystal Caves&N
+    sight: >
+      &+BWater&N spills down the west wall reflecting the &+Wlight&N making it seem like liquid &+Wcrystal&N.
+      Mosses cling to the walls, giving off a decidedly &+ggreen&N tint. Steam rises from the &+Bpool&N of
+      &+Bwater&N just inches from your feet. You wish you could stand under the falls and wash all your
+      troubles away. Looking over your shoulder, you heave a weary sigh, not wishing to find your way back
+      through the seemingly endless &+Wcrystal&N passages.
+flag:

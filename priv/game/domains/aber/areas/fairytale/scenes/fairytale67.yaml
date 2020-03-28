@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale68"
+      east:
+        target: "scene:aber:fairytale:fairytale69"
+      west:
+        target: "scene:aber:fairytale:fairytale66"
+    short: On the Rainbow
+    sight: >
+      The rainbow crosses the hole in the ground. You risk a glance into the darkness below and feel a sudden
+      rush of vertigo. The rainbow continues to the east and the west, where you see a river bank and a cave,
+      respectively.
+flag:

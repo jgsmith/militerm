@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:kastle:4"
+    short: Royal Bedroom
+    sight: >
+      A sense of awe briefly overcomes you at the splendor of the royal bedroom. Gold seems to guild
+      everything here. Even the ceiling is inlaid with gold patterns surrounding the splendid royal seal. The
+      bed, perhaps the largest you have ever seen, is covered with sheets of luxurious gold silk. You get the
+      impression that this king was a little obsessed with his gold.
+flag:
+  - peaceful

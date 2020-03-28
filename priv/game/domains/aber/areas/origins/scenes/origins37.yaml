@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins35"
+    short: Top of the Tower
+    sight: >
+      You climb the stairs to the top of the tower. From this vantage, you can see the courtyard below, and
+      most of the lands that the castle overlooks outdoors. The one option is to return down the stairs.
+flag:
+  - outdoors
+  - soundproof
+  - negregen

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6697"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6699"
+    short: A garden of wild witchbane
+    sight: >
+      As you brush through the wild garden, a slightly sticky substance with a dark red hue adheres itself to
+      your legs, raising the hairs of suspicion on the back of your neck. The tenuous climbing vines are dark
+      green with black undersides, rather resembling.. poison ivy.
+flag:
+  - dark
+  - outdoors

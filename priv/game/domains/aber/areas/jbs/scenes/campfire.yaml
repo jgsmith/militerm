@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fsun"
+      north:
+        target: "scene:aber:jbs:bears"
+      west:
+        target: "scene:aber:jbs:vines"
+    short: Around the Campfire
+    sight: >
+      As you come to your senses for another burst of something that looks as if it could vaguely approach
+      reality, you find yourself sitting by a small campfire in the middle of nowhere discussing the finer
+      qualities of crossbreeding earthworms with racehorses with several people you have never seen before in
+      your life. This, however, doesn't strike you as very inconvenient or unusual because your having a good
+      time anyway.
+flag:
+  - outdoors

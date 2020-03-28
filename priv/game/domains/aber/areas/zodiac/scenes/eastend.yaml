@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:firea"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:eastsky"
+    short: The Far Eastern Sky
+    sight: >
+      Just to the east you can see the constellations governed by the power of fire. They seem to be having a
+      rather heated debate.
+flag:
+  - nomobiles

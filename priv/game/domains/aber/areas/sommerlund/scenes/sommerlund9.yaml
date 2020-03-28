@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund37"
+      north:
+        target: "scene:aber:sommerlund:sommerlund8"
+      south:
+        target: "scene:aber:sommerlund:sommerlund46"
+      west:
+        target: "scene:aber:sommerlund:sommerlund10"
+    short: Crossroads
+    sight: >
+      The trail becomes a road, and vice versa, at this point. Another road intersects it perpendicularly. To
+      the west, the road slips out of the farmlands and enters a forest. To the east, it dips toward a sea. A
+      scarecrow hangs on a signpost here, probably a warning to those crows who choose to visit this area.
+flag:
+  - outdoors

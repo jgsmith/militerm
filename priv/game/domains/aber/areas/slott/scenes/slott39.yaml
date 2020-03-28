@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott19"
+      south:
+        target: "scene:aber:slott:slott29"
+    short: NW tower
+    sight: >
+      This is the northwest tower, the only thing in here accept the dust is a stair leading &+Cdown&*.
+flag:

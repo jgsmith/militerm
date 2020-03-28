@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:start:temple"
+      south:
+        target: "scene:aber:camelot:camelot279"
+      west:
+        target: "scene:aber:camelot:camelot303"
+    short: Family Room
+    sight: >
+      The furniture in this room seems to be slightly less opulent then in other parts of the Keep, as if it
+      was selected more for comfort then for style or appearances. A large stone fireplace is set into the
+      north wall, and the furniture is arranged around it, so that all guests will be comfortable and at a
+      conversational distance.
+flag:
+  - private
+  - party

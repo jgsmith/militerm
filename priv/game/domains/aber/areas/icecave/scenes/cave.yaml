@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:passage"
+      north:
+        target: "scene:aber:icecave:home"
+      south:
+        target: "scene:aber:icecave:tunnel"
+      west: null
+    short: The Cave of the Ice People
+    sight: >
+      You are standing in a vast icy cave. Ice covers the floor, making your balance precarious at best.
+      Judging from the footprints, however, it seems others have been here before you and safely traversed
+      this slippery surface. A message carved into one wall reads "We Always Bit Chips." Passages lead in all
+      directions.
+flag:

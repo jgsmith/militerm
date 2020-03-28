@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:tria5"
+    short: Troubled Waters
+    sight: >
+      You are in the middle of the river, up to your waist in murky water. A number of large logs are floating
+      by, and you wonder who has been felling trees upriver. Then you notice, to your alarm, that some of
+      these logs appear to have eyes...
+flag:
+  - outdoors

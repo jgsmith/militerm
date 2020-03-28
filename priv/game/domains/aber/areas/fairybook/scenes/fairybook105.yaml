@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale99"
+      west:
+        target: "scene:aber:fairybook:fairybook94"
+    short: The Doorway Home
+    sight: >
+      Guarded by a single boy, the doorway home beckons. "Once you go," The boy tells you, "you may never
+      return . . ." He draws his sword, prepared to prevent you from leaving Neverland. An exit lies north,
+      beyond him. To the west is a large gulch.
+flag:
+  - outdoors

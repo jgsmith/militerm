@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3476"
+      south:
+        target: "scene:aber:grave:grave3478"
+    short: Glowing Cave
+    sight: >
+      You have come upon a cave that is lit from a light that you cannot determine the source. The cave is
+      very large and there seems to be a dead end here. As you look you spot something evil that rather than
+      rushing to attack, rathers seems to defend something. You can exit safely to the east.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6762"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6764"
+    short: Along the town wall
+    sight: >
+      A small path lined with broad trees breaks off to the south from the cobblestone wall of Sundhaven,
+      which runs eastwards to a corner. The gate of the town must be somewhere near. You can make out the buzz
+      of city life, hushed by the stone barrier, from the north.
+flag:
+  - outdoors

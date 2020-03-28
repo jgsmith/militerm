@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Weapon Storeroom
+    sight: >
+      This room is full of oversized swords, scabbards, shields and other implements of war, belonging to the
+      orcs. There are bottles of lard on a shelf in the back and bunches of chain hung on a hook for cleaning
+      sword blades, but they don't look like they have been used very often, all the sword blades you can see
+      being encrusted with something dark and congealed. Unfortunately everything in here is way too big for
+      you to use.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:forest_path3"
+      south:
+        target: "scene:aber:undead:forest_path5"
+    short: &+GForest&* &+GClearing&*
+    sight: >
+      You emerge from the hacked path of the forest, into some form of clearing. Scattered around an open fire
+      there are several large logs good for sitting on or chopping bits of wood for the fire. You have the
+      strange feeling you really don't want to be here. As you consider sitting by the fire you hear voices in
+      the wind. To the &+Csouth&* appears to be a shimmering portal, definitely magical. The only other exit
+      is back to the &+Ceast&*.
+flag:
+  - outdoors

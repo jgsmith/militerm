@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot130"
+      west:
+        target: "scene:aber:camelot:camelot128"
+    short: "Yes, It's More Tunnel!"
+    sight: >
+      Yes, you are still wandering in this apparently never ending tunnel. But don't worry, after all this,
+      would I be mean enough to put a death room at the end?
+flag:
+  - dark

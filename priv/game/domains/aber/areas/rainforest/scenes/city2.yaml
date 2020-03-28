@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:rainforest:city3"
+      south:
+        target: "scene:aber:rainforest:city4"
+      west:
+        target: "scene:aber:rainforest:city5"
+    short: El Dorado
+    sight: >
+      You gasp in awe as you stand in the centre of what must once have been an incredibly beautiful city.
+      While not actually made of gold, the city must nevertheless have been extremely rich in the precious
+      metal. Around you the buildings and many statues and sculptures all show signs of having once been
+      plated with gold leaf, and flashes of golden light from flakes on the ground constantly catch your eye.
+      To the north is a massive temple, not a subtle affair perhaps, but nevertheless a construction of great
+      majesty. To the west is a proud and kingly statue standing tall in the middle of the square. And to the
+      south, most magnificent of all, a palace of ancient kings towers into the sky.
+flag:
+  - outdoors

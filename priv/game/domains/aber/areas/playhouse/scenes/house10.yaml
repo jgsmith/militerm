@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard1"
+      west:
+        target: "scene:aber:playhouse:house3"
+    short: Kitchen
+    sight: >
+      The walls are clean and spotless. Everything seems to &B&+Wsparkle &*and shine. There is a refridgerator
+      over in the corner. All of the appliances and pots and pans are all out of the children's reach. The
+      cupboards all have child proofing items hooked on them.
+flag:
+  - nomobiles

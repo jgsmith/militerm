@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town57"
+      north:
+        target: "scene:aber:town:town58"
+      south:
+        target: "scene:aber:town:town56"
+      west:
+        target: "scene:aber:town:town59"
+    short: Lost in The Woods
+    sight: >
+      Woods surround you on all sides you seem to have lost all sense of directions. You wander in all
+      directions but none of them seem to lead you out of the woods.
+flag:
+  - outdoors

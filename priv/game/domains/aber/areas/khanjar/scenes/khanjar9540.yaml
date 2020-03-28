@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9539"
+      east:
+        target: "scene:aber:khanjar:khanjar9541"
+      south:
+        target: "scene:aber:khanjar:khanjar9542"
+      up:
+        target: "scene:aber:khanjar:khanjar9544"
+    short: Climbing On The Mountainside
+    sight: >
+      You ascend a narrow split and arrive at a small plateau that continues both south and east. Dark fungus
+      appears to grow profuse here.
+flag:
+  - nomobiles
+  - outdoors
+  - cold

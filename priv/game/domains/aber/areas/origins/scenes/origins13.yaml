@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins11"
+    short: Elven Temple
+    sight: >
+      You enter the primary worship center of the Rivendell elves. In contrast to the rest of the city, this
+      place is peaceful and submissive. It is not in disarray. A single exit leads east back into the city.
+flag:
+  - party
+  - peaceful

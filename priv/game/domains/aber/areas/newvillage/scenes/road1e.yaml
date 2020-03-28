@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road2e"
+      north:
+        target: "scene:aber:newvillage:newwell"
+      south:
+        target: "scene:aber:newvillage:inn"
+      west:
+        target: "scene:aber:newvillage:green"
+    short: Village Track
+    sight: >
+      You are to the east of the village green, off of which are the main administrative buildings of the
+      town. The track you are on is of hard packed dirt and extends east and west from here. To the east is
+      another path leading to the north that seems to lead to the village shops. Off to the west, the
+      landscape rises and then cuts off sharply into the sea. Just to the south is the entrance to the Village
+      Inn. To the north is a small village well; apparently still in use.
+flag:
+  - outdoors

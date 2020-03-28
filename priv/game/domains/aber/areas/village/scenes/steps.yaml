@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:cellar"
+      up:
+        target: "scene:aber:village:behind"
+    short: Cellar Steps
+    sight: >
+      You are standing on the narrow, precarious steps which lead down into the cellars of the inn. A pale
+      shaft of light shines down from the top of the steps, revealing the cellars below.
+flag:

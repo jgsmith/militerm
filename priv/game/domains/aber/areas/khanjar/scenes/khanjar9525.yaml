@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9524"
+      north:
+        target: "scene:aber:khanjar:khanjar9526"
+    short: A Steep Hillside
+    sight: >
+      You ascend the hillside, struggling between the trees and their twisted branches. A figure of grey
+      building begins to discern slowly to the northwest.
+flag:
+  - nomobiles
+  - outdoors

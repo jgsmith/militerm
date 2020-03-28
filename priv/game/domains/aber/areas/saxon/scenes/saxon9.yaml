@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon41"
+      north:
+        target: "scene:aber:saxon:saxon8"
+      west:
+        target: "scene:aber:saxon:saxon6"
+    short: &+gRolling Prairie&*
+    sight: >
+      The tall grasses abruptly end to the east, as a forest looms there. A pen has been built here, the home
+      of a peasants sheep. The sheep softly murmur and whimper at their enclosure, but it is best for them.
+      Such animals make a welcome feast for evil creatures of the dark which occupy the surroundings. Maybe a
+      touch from a good soul would calm their fears.
+flag:
+  - light
+  - outdoors

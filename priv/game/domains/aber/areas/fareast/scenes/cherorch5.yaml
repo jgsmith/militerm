@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cherorch1"
+      north:
+        target: "scene:aber:fareast:cherorch4"
+      south:
+        target: "scene:aber:fareast:cherorch7"
+      west:
+        target: "scene:aber:fareast:cherent1"
+    short: Cherry Orchard
+    sight: >
+      The waving branches and falling petals of the cherry trees disorient you and make it difficult to find
+      the way out...
+flag:
+  - outdoors

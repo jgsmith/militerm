@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung37"
+      south:
+        target: "scene:aber:nibelung:nibelung43"
+    short: Monument
+    sight: >
+      You are in a small square of some kind, with a large granite monument in front of you. Its grey surface
+      has a dull luster to it, and you see some runes etched into its side. To the south you spy a small white
+      church, and to the east is a small alleyway, leading into darkness.
+flag:
+  - outdoors

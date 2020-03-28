@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale33"
+      north:
+        target: "scene:aber:fairytale:fairytale30"
+      west:
+        target: "scene:aber:fairytale:fairytale28"
+    short: Tapestry Room
+    sight: >
+      A large tapestry hangs on the northern wall, depicting many knights and sorcerors battling a race of
+      giants. The giants appear to be winning. The passage continues to the east and the west.
+flag:

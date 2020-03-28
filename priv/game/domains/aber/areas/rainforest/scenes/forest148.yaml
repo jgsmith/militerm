@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest147"
+    short: Hilltop Village
+    sight: >
+      You are in the middle of a tiny Indian village, surrounded by a cluster of huts arranged in a rough
+      circle. To the west and north a solid wall of trees marks the edge of the forest, and it looks
+      impenetrable at this point. To the south you could climb back down the slope to the river.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:abyss:l663"
+      west: null
+    short: Level 664
+    sight: >
+      Nearly at the bottom now, you have made it to the 664th level of the Abyss. In the western face of the
+      pit is a heavy iron door with a massive lock. A sign on the door announces: None shall pass. A large gap
+      in the stairs, where something or someone has smashed through them, prevents you from going further
+      down.
+flag:
+  - dark

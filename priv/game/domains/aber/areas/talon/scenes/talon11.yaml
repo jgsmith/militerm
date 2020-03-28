@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon28"
+      west:
+        target: "scene:aber:talon:talon10"
+    short: Through the Teeth
+    sight: >
+      You enter a long cave, with a low ceiling and walls etched with strange markings. Water drips slowly to
+      the floor from stalactites in the ceiling, and forms stalagmites, which makes passage through the cavern
+      difficult. A strange white light shines thorugh the stalactites and stalagmites to give the ghostly
+      appearance of passing through the mouth of a tremendous dragon.
+flag:

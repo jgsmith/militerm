@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung14"
+    short: Overlook
+    sight: >
+      You are in a small clearing in the north of Zaryat's Teeth. A wooden bench is off to one side, where you
+      could rest and enjoy the view. The vista from here is an awe-inspiring one. You command a view of a
+      valley, through which you see a small stream cutting its way. Beyond the stream, you see a very small
+      temple on a hill. To the north, you see a large, fortress-like structure rising from the cliff-tops. The
+      valley is adorned with trees, many of which still retain some autumn colors. Way off in the eastern
+      horizon your keen eye spies a tower on a ledge, and some buildings to the south of it. There are some
+      moors off to the far north-east.
+flag:
+  - outdoors

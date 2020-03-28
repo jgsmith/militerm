@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:icecave:passage"
+    short: The Lost Shrine of the Ice People
+    sight: >
+      A cobweb brushes across your face. From the abundace of them here, it would seem that this room does not
+      see much use. Though the dimness of the light does not allow you to be sure, the groaning of the ceiling
+      causes you to move quietly, as you would rather not have the tons of mountain above you fall in. Closer
+      inspection of the walls reveals ancient, intricate images of huge glaciers and a figure you can only
+      guess to be the god of the Ice People, who they venerate here.
+flag:

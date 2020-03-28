@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept51"
+      south:
+        target: "scene:aber:adept:adept58"
+      west:
+        target: "scene:aber:adept:adept53"
+    short: Crossways
+    sight: >
+      The path splits into two here, one leading east and west along the forest track and the other to an
+      ocean on the horizon to the southwest.
+flag:

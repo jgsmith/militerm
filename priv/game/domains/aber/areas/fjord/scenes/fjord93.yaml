@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord96"
+      north:
+        target: "scene:aber:fjord:fjord95"
+      south:
+        target: "scene:aber:fjord:fjord94"
+      west:
+        target: "scene:aber:fjord:fjord92"
+    short: Kyerstarn Village Square
+    sight: >
+      The infamous market square of this remote village has thousands of buisness transactions done each day.
+      The entire open are is packed with bazaar merchants from as far as away as the deserts near the southern
+      end of the continent to trade for the largest sizes in some exotic species of fish, fresh from the north
+      inlets. Selling at high prices while using the resources of the inlet efficiently, the people of
+      Kyerstarn will take gold in exchange form their catches, but prefer cold winter survivial gear and the
+      wonder of knowledge. They will even sell for a good story, since they lack many books commonplace to
+      most of the world. What they do have is kept safe in the library to the south, while the town meeting
+      hall is to the north.
+flag:
+  - outdoors
+  - cold

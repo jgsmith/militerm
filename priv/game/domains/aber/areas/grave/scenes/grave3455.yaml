@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3452"
+    short: Rally Point
+    sight: >
+      This room has no furnishings whatsoever. The room is very large and from the center you can barely see
+      the walls with this reduced lighting. As you move closer to the walls you see scratched patrol A patrol
+      B patrol C, etc. This room is very clean but as you look around you see a few weapons of war that have
+      been left behind. There is an exit west.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grandstand:betting"
+      west:
+        target: "scene:aber:grandstand:grandstand"
+    short: Party Room
+    sight: >
+      Champagne? Mead? Cider? All have taps on the wall. If you only care if your bet wins, then have blast...
+flag:
+  - peace
+  - party

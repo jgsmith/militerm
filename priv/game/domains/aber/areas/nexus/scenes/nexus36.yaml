@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nexus:nexus34"
+    short: Alcove
+    sight: >
+      A solid line of trunks around and branches above form a cozy shelter. Althogh the solid wall of brown
+      does not make a very attractive feature of the forest, an enormous pile of &+Gleaves&* on the ground is
+      bathed in the only light which enters this area.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

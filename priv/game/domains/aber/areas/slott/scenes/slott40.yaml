@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott42"
+      south:
+        target: "scene:aber:slott:slott45"
+      west:
+        target: "scene:aber:slott:slott41"
+    short: Basement
+    sight: >
+      The room is cold and dim, the walls absorbs the light almost completely. The air could have been better,
+      but at least it's breathable!
+flag:
+  - dark

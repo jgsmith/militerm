@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:gumby:gumby5"
+    short: The Balcony
+    sight: >
+      As you step out from the sanctum, you feel the whisper of curtains closing behind you. Ignoring them,
+      you step out to overlook the rail, where you see a white beach and a deep blue sea. The skies have just
+      begun to clear, and a rainbow begins to peep through. From the dawn of the new day's sun, each of the
+      colors in it shines through brilliantly. As you peer over the rail of this small, cement balcony, you
+      can see the dark blue ocean crashing against a rocky shore several hundred feet below you. A salty,
+      brisk wind rushes through the air leaving the taste of salt on your lips. A gentle breeze trickles
+      through your hair as you look down to the sea, and spot a dolphin jumping into the air. On the edge of
+      the sea near the beach, children are playing games and swimming. Further out, you notice the fisherman
+      set out for this morning's work.
+flag:
+  - private
+  - party
+  - outdoors

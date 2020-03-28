@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon36"
+      north:
+        target: "scene:aber:pensalon:pensalon41"
+      south:
+        target: "scene:aber:pensalon:pensalon41"
+      west:
+        target: "scene:aber:pensalon:pensalon42"
+    short: On the Lake
+    sight: >
+      You're lost on the lake. Every direction is the same. No way seems correct. Your mind is spinning as you
+      try to figure your way out. A deep thick mist hangs all about causing even more confusion.
+flag:
+  - dark
+  - onwater

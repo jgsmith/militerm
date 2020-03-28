@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook144"
+      west: null
+    short: The Throne Room
+    sight: >
+      You stand in a big, round room with a high, arched roof, and the walls and ceiling and floor are covered
+      with large emeralds set closely together. In the center of the roof is a great light, as bright as the
+      sun, which make the emeralds sparkle in a wonderful manner. A big throne of green marble stands in the
+      middle of the room. It is shaped like a chair and sparkles with gems, as does everything else. In the
+      center of the chair is an enormous head, without body to support it or any arms or legs whatever. The
+      path leads south, and a curtain hangs in the west corner.
+flag:

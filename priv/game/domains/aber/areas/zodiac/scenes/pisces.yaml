@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:zodiac:watera"
+    short: A Freshwater Pond
+    sight: >
+      The massive ice floor of this place has a large pond dug into it. There are no plants or small fish in
+      there at all, but the water tastes clean.
+flag:

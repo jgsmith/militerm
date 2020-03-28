@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:devo9"
+    short: "Arctica's Greenhouse"
+    sight: >
+      You are in a vast greenhouse whose roof is two hundred feet above you. You stare in awe as you gaze upon
+      a whole host of plantlife taken from every period of Earth's history. To the left are tree ferns,
+      towering thirty feet high, spreading their feathery fronds for many yards in all directions. To the
+      right are horsetails as big as trees with great woody trunks that bear no resemblance to the little
+      grass-like weeds that are so common around wet ground in the countryside. And in front of you, towering
+      towards the roof, are several huge lycopods, like trees in size and shape but related to mosses and
+      their kin. A number of less massive exhibits are lined up against the glass walls of the greenhouse, and
+      some shrubs and monkey puzzle saplings grow here and there in the shade of the lycopods.
+flag:
+  - party
+  - private
+  - peaceful
+  - nomobiles

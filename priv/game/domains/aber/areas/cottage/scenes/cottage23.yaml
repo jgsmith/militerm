@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage22"
+      west:
+        target: "scene:aber:cottage:cottage24"
+    short: Lost Cavern
+    sight: >
+      Water runs in rivulets down the walls of this cave, feeding the stream which meanders eastward toward
+      the damn. the western wall of this forgotten cave has been cut smooth and adorned with magnificent
+      carvings. In the midst of these carvings stands an ornately wrought golden door, covered in runes. You
+      seem to feel strange emanations of magic brush your consciousness from somewhere behind the golden
+      portal.
+flag:
+  - dark
+  - nomagic
+  - nosummon

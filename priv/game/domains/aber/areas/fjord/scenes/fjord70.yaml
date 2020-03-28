@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord69"
+      north:
+        target: "scene:aber:fjord:fjord78"
+      south:
+        target: "scene:aber:fjord:fjord77"
+    short: The Stage
+    sight: >
+      A wide semi-circular sweep of stone benches tier down to an alcove of solid black lava rock. His fists
+      waving furiously and yelling in a dark tongue, the lecturing zombie meister curses the eastern side
+      ghouls for their foul trickery and swears to have undying vengeance. In response to the rotting corpse,
+      cackling howls echo from the rows of seated, hooded, reptilian horrors. One lifts its head above the
+      rest, and a massive fireball sent up by the power of the crowd illuminates thousands of fluidic teeth
+      which grind ceaselessly against each other and claws made of shifting sulfur vapor, forming and
+      reforming hideous versions of claws. Small volcanic alleys lead north and south, and a large street
+      leads east.
+flag:
+  - dark

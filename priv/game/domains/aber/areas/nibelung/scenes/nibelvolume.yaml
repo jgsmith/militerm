@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:nibelung:nibelung35"
+    short: Dark Hole
+    sight: >
+      This is just a small hole with crumbling dirt walls.
+flag:
+  - dark

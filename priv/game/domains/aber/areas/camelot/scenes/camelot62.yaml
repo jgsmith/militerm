@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot60"
+    short: Feed Lot
+    sight: >
+      The shop you have entered provides all manner of animal feed. Everything you could want, from hay and
+      oats to Purina Dragon Chow can be had here. You even see a stack of bags labeled "Low Cal Dragon bits,
+      for the hefty dragon in your life". I wonder who would need that?
+flag:

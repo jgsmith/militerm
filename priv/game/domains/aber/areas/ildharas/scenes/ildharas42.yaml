@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas40"
+    short: "Muralain's Room"
+    sight: >
+      Strangely untouched by vandals, this beautiful room with pale carpeting and dark-stained paneling has
+      seen other intruders. Someone has taken whatever valuables there were and dumped the contents of the
+      shelves and drawers into a central pile, hoping to find more. A doorway leads south.
+flag:

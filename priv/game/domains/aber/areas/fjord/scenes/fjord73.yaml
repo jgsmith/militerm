@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord72"
+    short: Intoxication Mindshop
+    sight: >
+      The proprietor of this 'store' is a disproportioned, three-legged ghoul bearing a forked tongue, eye
+      stalks, and a sunken hole for a nose. He readily sells his brainwashing, mind-searching, and psionic
+      techniques at a considerable profit. With all the warring found here in the dark city, he never needs
+      fear a lack of customers, whether they are buying or being acted upon by his disastrous methods. A chair
+      with manacles and a rack of needles sticking above it appears to be the main workplace. Next to it
+      stands a tray of all sort of device designed solely to pierce cranial matter and give its victim a major
+      headache.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:golden:golden21"
+      west:
+        target: "scene:aber:golden:golden23"
+    short: &+GThrough the Trees&*
+    sight: >
+      High above any visible ground, you cling to anything attached to the tree that you can find. Cautiously
+      approaching the biggest tree branch, you take small steps to get across this half-rotted branch. To the
+      west the tree limbs grow thinner.
+flag:
+  - outdoors

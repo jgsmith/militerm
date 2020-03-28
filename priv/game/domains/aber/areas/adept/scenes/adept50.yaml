@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept49"
+    short: Dracwen Range
+    sight: >
+      From here, people attempt to scale the near-vertical faces of the Dracwen Mountains. This has been the
+      jump-off point for many of such expeditions and rescue attempts. In the hopes of getting good luck with
+      their mountain-climbing skills, travelers sometimes leave small gifts in a sheltered alcove of one of
+      the faces or in a nearby gully.
+flag:

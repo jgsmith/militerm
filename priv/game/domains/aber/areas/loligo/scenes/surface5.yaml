@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface7"
+      north:
+        target: "scene:aber:loligo:surface4"
+      south:
+        target: "scene:aber:loligo:surface4"
+      west:
+        target: "scene:aber:loligo:surface3"
+    short: Upon The Ocean Waves
+    sight: >
+      You are drifting alone in the open ocean, far from the comforting firmness of land. You feel rather
+      uneasy since you are at the mercy of the elements here - your craft is not an ocean-going vessel and the
+      weather out here can be extremely violent at times.
+flag:
+  - outdoors
+  - onwater

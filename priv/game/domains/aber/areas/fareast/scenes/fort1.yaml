@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:forthall"
+    short: War Room
+    sight: >
+      No battle plans are drawn up in the War Room, no maps with clay or bronze figurines marking the
+      placement of troops: there was no preparation for the battle that lost this fortress. No opposing army
+      swept over the southern plains. The only strategic element in this room, in fact, seems to be a large Go
+      board, standing in a quiet corner.
+flag:

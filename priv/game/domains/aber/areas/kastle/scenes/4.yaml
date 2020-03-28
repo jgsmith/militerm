@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:kastle:6"
+      up:
+        target: "scene:aber:kastle:7"
+    short: Cozy Room
+    sight: >
+      You are in a cozy little room inside the royal hideout. The west wall is hung with a large colorful
+      tapestry meant to depict the heroic deeds of the royal family. Oddly enough, however, it is completely
+      blank. The east wall is occupied by a huge fireplace in front of which sits the royal Lazy-boy, a chair
+      fit for a king.
+flag:

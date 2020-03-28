@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:jbs:throne"
+      west:
+        target: "scene:aber:jbs:giants_bed"
+    short: Sitting Room
+    sight: >
+      This is the kings private sitting room. A kind of cozy looking place even though it is pretty huge.
+      exits lead south and west.
+flag:

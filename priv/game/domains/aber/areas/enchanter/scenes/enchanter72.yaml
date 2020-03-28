@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:enchanter:enchanter22"
+      south:
+        target: "scene:aber:enchanter:enchanter69"
+    short: Featureless Hallway
+    sight: "You're in a long north-south hallway."
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept2"
+    short: On the Branch
+    sight: >
+      The wind glides through the trees at this height, brushing the remaining gray leaves and gently swaying
+      the branches. Far below and around you lies the thick jungle, and you can also see the top of a large
+      waterfall with a village and temple nearby. Some tropical birds fly overhead, and their screeching
+      leader orders the fine-feathered formation occupy the upper parts of the great tree.
+flag:

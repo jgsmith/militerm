@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle17"
+      south:
+        target: "scene:aber:avairy:castle11"
+      up:
+        target: "scene:aber:avairy:castle20"
+    short: Stairwell
+    sight: >
+      You are in a stairwell leading, well go figure, up and down. You can also go either north or south.
+flag:
+  - light

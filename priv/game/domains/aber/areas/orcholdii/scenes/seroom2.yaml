@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Unfinished Bedroom
+    sight: >
+      This bedroom seems to still be in its incipient stages. The walls are only vaguely defined and there is
+      loose stone all over the room.
+flag:

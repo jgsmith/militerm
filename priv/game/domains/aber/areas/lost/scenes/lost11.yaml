@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:lost:lost10"
+      south:
+        target: "scene:aber:lost:lost12"
+    short: Foothills
+    sight: >
+      These are the foothills for the great mountains beyond. It is still humid enough that trees and grass
+      grow thickly on the hills. The mountains rise stark from the hills, barren of life almost entirely.
+flag:
+  - outdoors

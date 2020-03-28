@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins22"
+      west:
+        target: "scene:aber:origins:origins20"
+    short: The River Don
+    sight: >
+      You have reached the great River Don, the outermost boundary of the lands of the Necromancer. It appears
+      impassable, save for a bridge that does not appear to be in very good condition. You may retreat back
+      west or ford the river to the east.
+flag:
+  - outdoors
+  - negregen
+  - soundproof

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6797"
+      north:
+        target: "scene:aber:yllythad:yllythad5281"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6791"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6795"
+    short: In the Fog
+    sight: >
+      A dense fog has rolled in, making it hard to see for any distance. You hear water hitting against
+      something to the south, which could mean you're very close to shore, or the side of a cliff.
+flag:
+  - outdoors
+  - onwater

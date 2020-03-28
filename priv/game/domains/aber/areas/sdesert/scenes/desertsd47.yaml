@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd43"
+      south:
+        target: "scene:aber:sdesert:desertsd49"
+    short: The Southern Desert
+    sight: This is the largest desert you have ever seen...
+flag:
+  - outdoors
+  - hot

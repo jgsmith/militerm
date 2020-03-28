@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar18"
+      north:
+        target: "scene:aber:balharbor:jungle21"
+      south:
+        target: "scene:aber:balharbor:jungle20"
+      west:
+        target: "scene:aber:balharbor:jungle18"
+    short: On a Road
+    sight: >
+      You're standing just outside the gate where a trail runs north and the road heads toward jungle to the
+      west. What looks to be separate paths running north and south have been formed off the main road. You
+      can enter the gate to the east.
+flag:
+  - outdoors

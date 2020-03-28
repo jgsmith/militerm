@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus59"
+    short: Plane of Torture
+    sight: >
+      Cries of anguish echo around as their sources writhe in unspeakable agony. Skin splits, muscles tear,
+      and bones shatter and then dissolve as countless victims of innumerable species are run through
+      mercilessly again and again with blades of boiling acid. They are manacled so that their backs suffer
+      the burns of vertical columns of magma. Their attendants are hooded behemoths clad in flowing crimson
+      robes, resembling only hulking masses silhouetted in the red glaze of the molten rock. To the north lies
+      a river of magma.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

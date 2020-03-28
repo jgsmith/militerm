@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins30"
+      south:
+        target: "scene:aber:origins:origins33"
+      west:
+        target: "scene:aber:origins:origins32"
+    short: Inside the Castle
+    sight: >
+      You continue southward, undaunted by the fear which grips your skin and chills you to the bone. This
+      room is a simple, square affair, void of items or furniture, with exits to the south and west.
+      Optionally, you can exit the castle to the north of here.
+flag:
+  - dark
+  - soundproof
+  - negregen

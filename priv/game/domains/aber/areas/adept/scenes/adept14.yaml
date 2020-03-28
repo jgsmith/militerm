@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept16"
+      north:
+        target: "scene:aber:adept:adept15"
+      south:
+        target: "scene:aber:adept:adept22"
+      west:
+        target: "scene:aber:adept:adept13"
+    short: Square of Statues
+    sight: >
+      This is a large cobblestoned plaza near the center of Whisper City. The great stony figures of past
+      citizens - prominent politicians, war heroes, undefeated lawyers, and even one of a horse named Zogo -
+      stand in no particular arrangement around a larger sculpture in the middle. The centerpiece is truly a
+      work of art in its craftsmanship. Three slender strips of a metal alloy not commonly used in the
+      production of normal weapons and armor twine around each other elegantly in a triple helix. Squares of a
+      contrasting metal have been soldered against the outside surfaces of the helix at regular intervals. A
+      block of the same metal forms the base on which the sculpture and an inscription rest.
+flag:

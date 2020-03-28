@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:olig1"
+      west:
+        target: "scene:aber:evolution:mioc1"
+    short: Muddy Ground
+    sight: >
+      You are struggling through a patch of sticky mud, into which you sink up to your knees with every step.
+      The carnivores of the oligocene epoch are mostly big cats and dogs, and you hope they do not find you in
+      such an encumbered state as the one you are now in.
+flag:
+  - outdoors
+  - nomobiles

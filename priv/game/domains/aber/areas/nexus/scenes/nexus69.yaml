@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus71"
+      up:
+        target: "scene:aber:nexus:nexus70"
+      west: null
+    short: House of Minions
+    sight: >
+      This is a place of residence without windows. The air is deathly still, and even the loudest scream from
+      the tortured sous far above do not penetrate these walls. Gargoyles are not lining the walls between the
+      pictures of bad moons rising, but rather portrayed on the floor running and being swallowed whole by an
+      army of nine-limbed horrors. Revulsion, insatiable hunger, and disfigurement are the way of life here.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

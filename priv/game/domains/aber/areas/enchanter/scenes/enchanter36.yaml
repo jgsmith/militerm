@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:enchanter:enchanter31"
+      south:
+        target: "scene:aber:enchanter:enchanter37"
+    short: Library
+    sight: >
+      The bookshelves here are empty, and from the amount of dust on them, you can see they've been empty for
+      centuries. Has Krill reallly been around that long? You can hear low chanting sounds from the south.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:fig_garden"
+      south:
+        target: "scene:aber:grove:gate"
+      west:
+        target: "scene:aber:grove:ferns"
+    short: Flower Garden
+    sight: >
+      The flowers that abound here in color lie all about you. In the trees, on the ground, in many forms and
+      colors. The breeze blows some of the scent toward you, and you become heady at the fragrance.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

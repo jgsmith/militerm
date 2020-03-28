@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bishop:bishop4"
+      east:
+        target: "scene:aber:bishop:bishop6"
+    short: Tunnel Slope
+    sight: >
+      The ground slopes sharply downward here, pouring the running water almost in the style of a waterfall.
+      The lightning on the walls flickers madly as some of it is routed through the trickling rivers. Spots of
+      underground moss and lichen grow here, striped with earth tones and glowing weakly whenever a pulse of
+      electricity reaches them. To the downside, the tunnel is virtually black despite the vegetation and
+      lightning. From the east a swirling vortex sucks remote, trace amounts of dust into its core and tugs at
+      the lichen.
+flag:
+  - dark

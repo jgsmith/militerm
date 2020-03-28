@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:stop"
+    short: On the River Styx
+    sight: >
+      You are moving slowly down the River Styx. The water gives off a foul odor and looks just as bad. It
+      appears to boil in places and its color is a mixture of grayish brown and yellow. Even though the water
+      moves slowly here, movement upstream would be impossible without supernatural help.
+flag:

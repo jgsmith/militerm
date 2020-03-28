@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook16"
+      west: null
+    short: Little Path
+    sight: >
+      You stand on a garden path, which stretches out to the east and west. For some reason, you are certain
+      that you shall be late for something. You notice that the trees here are made of toothpicks and tissue
+      paper, and seem quite old. To the west us a small door, through which you can make out an ocean far in
+      the distance. Far ahead to the south, you see a white blur on the same path as you.
+flag:
+  - outdoors

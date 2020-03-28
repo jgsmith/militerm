@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar22"
+      north:
+        target: "scene:aber:volcano:bandilbar19"
+      south:
+        target: "scene:aber:volcano:bandilbar23"
+    short: Yorrin Wood
+    sight: >
+      You are in the depths of Yorrin wood. In every direction but west, trees abound as far as the eye can
+      see. To the west the slopes of the fiery mountain are encrusted with lava, old and black.
+flag:
+  - outdoors

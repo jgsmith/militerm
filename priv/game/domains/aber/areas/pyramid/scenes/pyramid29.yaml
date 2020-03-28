@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid31"
+      west:
+        target: "scene:aber:pyramid:pyramid28"
+    short: Shrine to Osiris
+    sight: >
+      A sense of awe comes over you as you step inside the shrine. The paintings covering the walls tell the
+      tragic story of Osiris, once an early king who was betrayed and murdered by his brother, Set. A huge
+      statue atop a long &+cquartz&N altar representing the God of the &+LDead&N, is cast of pure &+Ygold&N.
+      Kneeling beneath the altar is a very large, robed Sultan come to pay homage to the powerful god.
+flag:
+  - dark

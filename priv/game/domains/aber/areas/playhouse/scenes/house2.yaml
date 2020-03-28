@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house3"
+      north:
+        target: "scene:aber:playhouse:house5"
+      south:
+        target: "scene:aber:playhouse:house8"
+      up:
+        target: "scene:aber:playhouse:house11"
+      west:
+        target: "scene:aber:playhouse:house1"
+    short: Main Room
+    sight: >
+      You drag your feet along the plush rug until you feel your feet goosh into someone's accident. You wipe
+      off your shoe on a dry part of the carpet and continue on your way. There are exits in all directions
+      and a staircase leads up to the second floor.
+flag:

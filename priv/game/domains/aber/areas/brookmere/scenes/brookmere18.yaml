@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere19"
+      south:
+        target: "scene:aber:brookmere:brookmere17"
+      west: null
+    short: Enormous Cavern
+    sight: >
+      The roof of the cavern flickers in the red light of many torches. The walls are known to learned people
+      as ribbon rock, and are striped with bands of orange and red. Stalagmites and stalacties rise and
+      descend out of the gloom like huge teeth that look stained with blood from the colour in the limestone.
+      Centuries of dripping mineral water have created this glittering crystalised room. At the back wall of
+      the cavern a fossilised &+Cwaterfall&* hangs in frozen space. A throne sits on the crest of the stone
+      wave. Corridors lead east and south out of the cavern.
+flag:

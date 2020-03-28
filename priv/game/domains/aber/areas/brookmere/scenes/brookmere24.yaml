@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere25"
+      west:
+        target: "scene:aber:brookmere:brookmere19"
+    short: Narrow Corridor
+    sight: >
+      This corridor is rather quaint and skinny, but so narrow as to be one way! It leads east and west.
+flag:
+  - dark

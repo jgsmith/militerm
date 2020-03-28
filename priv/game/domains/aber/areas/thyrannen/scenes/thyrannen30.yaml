@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen36"
+      south:
+        target: "scene:aber:thyrannen:thyrannen29"
+    short: Marsh
+    sight: >
+      The waters here smell, as does all the water in this vast marsh, you trudge along, wishing you did not
+      have to be here, or wishing you had not come in the first place.
+flag:
+  - outdoors

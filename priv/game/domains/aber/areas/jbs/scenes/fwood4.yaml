@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fwood4"
+      east:
+        target: "scene:aber:jbs:fwood4"
+      north:
+        target: "scene:aber:jbs:fwood1"
+      south:
+        target: "scene:aber:jbs:fwood"
+      up:
+        target: "scene:aber:jbs:fwood"
+      west:
+        target: "scene:aber:jbs:fwood5"
+    short: Fairy Wood
+    sight: >
+      You are still in the fairy wood. The mist here is thinner than in other places, but still thick enough
+      to make you feel as eerie as everywhere else in this place. There is a small brook here that looks like
+      it would be a rather nice place to hang about for a while, if only the water wasn't lime green.
+flag:
+  - outdoors

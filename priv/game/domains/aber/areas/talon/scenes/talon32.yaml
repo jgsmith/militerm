@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:talon:talon33"
+      west:
+        target: "scene:aber:talon:talon31"
+    short: Base of the Mountain
+    sight: >
+      You stand at the base of a tremendous mountain peak which rises into the midst of the black smog which
+      blankets this land. A large black stronghold lies near the top of the peak, and every so often a stream
+      of fire emanates from the tallest of the towers of the castle. The sky here is now almost utterly black
+      as any ray of the sun has been choked out of existence by the dark haze. A small and precarious path
+      leads up the side of the mountain and a path continues back to the west of a valley bathed in shadows.
+flag:

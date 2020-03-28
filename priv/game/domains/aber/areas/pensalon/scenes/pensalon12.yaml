@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:pensalon:pensalon13"
+      west:
+        target: "scene:aber:pensalon:pensalon10"
+    short: Base of the Tower
+    sight: >
+      You stand at the base of a large tower which reaches high into the sky. You may enter the tower at the
+      spiral staircase, or you may go west to a spot along the wall.
+flag:

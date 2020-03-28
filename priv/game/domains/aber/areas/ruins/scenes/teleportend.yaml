@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:southhall"
+    short: End of the Southern Hall
+    sight: >
+      This looks to be the end of the southern hall. The floor is very slippery from water leaking in from the
+      upper level. A thick blanket of moss grows from the ceiling down the walls to the floor. You look around
+      this room one more time before deciding to turn back to the north.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:tforest"
+      north:
+        target: "scene:aber:valley:path"
+      south:
+        target: "scene:aber:valley:sedge"
+      west:
+        target: "scene:aber:valley:oak"
+    short: Forests Edge
+    sight: >
+      You stand on the edge of the forest, which extends south east and west as far as you can see. To the
+      north the trees give way to a grassy hill. A narrow worn path leads north up the hill. To the south the
+      path through the forest is almost blocked by thick hedges, but a few gaps enable you to squeeze through.
+flag:
+  - outdoors

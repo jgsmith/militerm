@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus53"
+    short: Clearing
+    sight: >
+      The trail has an endpoint here, stopping in a large, irregular-shaped clearing. The southern side,
+      however, is blocked by a large wall. The wall is vertical and stretches far upwards, but is not sheer.
+      Perhaps it could be scaled.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle13"
+      north:
+        target: "scene:aber:avairy:castle8"
+      west:
+        target: "scene:aber:avairy:castle2"
+    short: Corridor
+    sight: >
+      Well, it's a corridor. Another drab boring everyday, run of the mill, castle corridor. Why do zone
+      writers like corridors so much?
+flag:
+  - light

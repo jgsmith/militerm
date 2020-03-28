@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter45"
+      north:
+        target: "scene:aber:enchanter:enchanter43"
+    short: Green Meadow
+    sight: >
+      You momentarily forget about the horror of the castle as you look around in awe. The meadow is green,
+      birds are singing, rabbits are hopping through the grass, and all is peaceful. You feel like taking off
+      your shoes and running around barefoot, but you'd probably stub your toe on a hidden rock. There's a
+      path leading southwest, and the castle rises to the north.
+flag:
+  - outdoors
+  - real
+  - tempreal
+  - peaceful
+  - party
+  - nomobiles

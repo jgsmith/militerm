@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott11"
+      north:
+        target: "scene:aber:slott:slott13"
+    short: Hallway
+    sight: >
+      This is a hallway that reaches from south to the north. The eastern walls are filled with &+Bportraits&*
+      and on the western walls there are &+Bwindows&*. The hallway continues to the &+Cnorth&*.
+flag:

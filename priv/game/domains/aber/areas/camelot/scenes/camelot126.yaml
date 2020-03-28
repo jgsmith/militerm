@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot127"
+      north:
+        target: "scene:aber:camelot:camelot125"
+    short: Long Twisting Tunnel
+    sight: >
+      You are standing at the end of a long twisting tunnel. At this point, it runs more or less east-west.
+      The walls seem not to have been worked at all, except for a few places where it may have been widened
+      enough to allow passage.
+flag:
+  - dark

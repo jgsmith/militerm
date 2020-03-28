@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven7"
+      north:
+        target: "scene:aber:heaven:heaven12"
+      up:
+        target: "scene:aber:heaven:heaven12"
+      west:
+        target: "scene:aber:heaven:heaven7"
+    short: Seventh Heaven
+    sight: >
+      Streams of milk and honey roll down the sides of the purple and white mountains to water the green
+      plains. The blue sky plays host to a blue moon and a golden sun, which is setting in magnificent
+      splendor. To the west you spy a rainbow. To the north you see a palace.
+flag:
+  - private

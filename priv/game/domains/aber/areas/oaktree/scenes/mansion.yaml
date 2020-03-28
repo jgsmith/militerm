@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairytale:fairytale99"
+      up:
+        target: "scene:aber:oaktree:landing"
+      west:
+        target: "scene:aber:oaktree:entrance"
+    short: Mansion
+    sight: >
+      Here in the mansion, silver shines and lacquer glows, carved gilt chairs line the walls, sofas have legs
+      like swans' necks and rest on lions' paws, and a great deal of dust spirals slowly through the air, lit
+      by innumerable softly glowing candles. A marble staircase curves upwards, and you can see the gardens
+      through a doorway to the west.
+flag:

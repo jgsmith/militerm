@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park7"
+      north:
+        target: "scene:aber:balharbor:park9"
+      south:
+        target: "scene:aber:balharbor:park5"
+      west:
+        target: "scene:aber:balharbor:park11"
+    short: Playground
+    sight: >
+      Some children can be seen playing on the swings, the rockers, the merry-go-round, the monkeybars, and
+      the slides. Most of the equipment here is fairly new and seems to have been built so even the "bigger"
+      kids like you can use it. A pavilion where you can watch these kids play is to the north, and a place to
+      watch the ducks swim around in the pond to the south and east.
+flag:
+  - outdoors

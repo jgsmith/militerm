@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower26"
+      east:
+        target: "scene:aber:balharbor:btower23"
+      north:
+        target: "scene:aber:balharbor:btower17"
+      south:
+        target: "scene:aber:balharbor:btower27"
+      west:
+        target: "scene:aber:balharbor:btower21"
+    short: Dark Corridor
+    sight: >
+      You get the feeling you're moving in circles in this dark tower! There are exits everywhere but not
+      necessarily leading somewhere. There looks like there's a letter 'R' in the floor.
+flag:
+  - dark
+  - maze

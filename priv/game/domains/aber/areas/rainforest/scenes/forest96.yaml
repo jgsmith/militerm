@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest90"
+      south:
+        target: "scene:aber:rainforest:forest92"
+    short: Clearing
+    sight: >
+      You are in a small clearing in which cecropias and heliconias thrive, as well as banana palms which have
+      not yet been completely plundered by monkeys. The only ways out of the clearing are to the east and
+      south.
+flag:
+  - outdoors
+  - rainforest

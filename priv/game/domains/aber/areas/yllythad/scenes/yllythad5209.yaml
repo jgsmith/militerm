@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5210"
+      north:
+        target: "scene:aber:yllythad:yllythad5214"
+      south:
+        target: "scene:aber:yllythad:yllythad5204"
+      west:
+        target: "scene:aber:yllythad:yllythad5208"
+    short: A Swift Wind
+    sight: >
+      A solid wind blows up from the east, carrying with it the tang and fresh scent of the sea and all it's
+      creatures. There are little to no clouds anywhere in the sky, the world seeming limitless from this
+      perspective.
+flag:
+  - onwater
+  - outdoors

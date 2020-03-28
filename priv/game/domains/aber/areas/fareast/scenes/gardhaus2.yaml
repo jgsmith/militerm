@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:gardhaus"
+    short: Guard House Tower
+    sight: >
+      The top floor of the guard house overlooks the countryside around Eno.. a view one could easily do
+      without. To match the destruction within the city walls, sections of the land are also burned away, in
+      strips that match the path of a landing meteorite. Bubbling pools of various colors have erupted from
+      the ground where these streaks end, and seem to spread across the land as you watch. The cherry orchard
+      to the south smokes where Kashai fell. The only safe way out of here is down...
+flag:

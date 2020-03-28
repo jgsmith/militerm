@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:sundhaven:sundhaven6623"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6626"
+    short: The town dump
+    sight: >
+      The foul stench of rotting food and other miscellaneous goods creates an almost visible brown haze among
+      the heaps of trash, clouding your senses. Those who call it home certainly smell as decayed as it does.
+flag:
+  - outdoors

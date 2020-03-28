@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6073"
+      south:
+        target: "scene:aber:haondor:sundforest6063"
+      west:
+        target: "scene:aber:haondor:sundforest6069"
+    short: An Intersection On The Shaded Path
+    sight: >
+      You are on a small shaded path leading through the dense forest. The crowns of the old trees leave the
+      forest in an unreal twilight illumination. The path continues north, south, and west.
+flag:
+  - real
+  - outdoors

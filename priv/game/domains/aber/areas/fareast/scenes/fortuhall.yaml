@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:fortu3"
+      north:
+        target: "scene:aber:fareast:fortu1"
+      south:
+        target: "scene:aber:fareast:throneroom"
+      up:
+        target: "scene:aber:fareast:throneroom"
+      west:
+        target: "scene:aber:fareast:fortu2"
+    short: Fortress- Upper Level
+    sight: >
+      The upper hall of the fortress has been the site of many battle plans, but never before has conflict
+      reached such a secure spot. Now, however, the bodies of many loyal samurai lie atop each other, slain by
+      an enemy powerful enough to breach that security and occupy the fortress itself. A staircase leads back
+      down to the fortress' lower floors, and three pairs of double doors stand to the north, east, and south.
+flag:

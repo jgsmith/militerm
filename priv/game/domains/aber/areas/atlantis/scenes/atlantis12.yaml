@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis17"
+      north:
+        target: "scene:aber:atlantis:atlantis11"
+    short: Sea Ridge
+    sight: >
+      A large rock formation juts out from the sea floor here, making a large impenetrable wall to the south.
+      Colorful plant life sticks to the wall, making it look like the outcropping has polka-dots if you stand
+      back far enough from it. Your eye catches a glimpse of something moving in the wall, then loses track of
+      it. You can swim back north or follow the wall to the east.
+flag:
+  - underwater

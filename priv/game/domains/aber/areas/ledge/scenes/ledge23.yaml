@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge24"
+    short: End of the Ride
+    sight: >
+      A set of railroad tracks designed for mine carts comes to an abrupt end at a large pile of gravel,
+      mainly to stop runaway carts from barreling into working miners. The walls and ceiling of this part of
+      the mine seems less susceptable to quakes, with some formations of stalactites to hold things together.
+      A tunnel going upwards in what looks to have been hand drilled is completely out of reach due to the
+      rather large gaps in the floor and the recent collapsing of sections of track going over those gaps. A
+      more natural looking cavern can be entered to the east.
+flag:
+  - dark

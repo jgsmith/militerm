@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan67"
+      west:
+        target: "scene:aber:mithdan:mithdan11"
+    short: Town Entrance
+    sight: >
+      The town entrance is on a slight rise, giving you a good view of the town before you. It is dotted by
+      several temples, and has only a few merchants. Thick woods lead away to the west, and what appears to be
+      the main street of the town continues to the east.
+flag:
+  - outdoors
+  - nomobiles

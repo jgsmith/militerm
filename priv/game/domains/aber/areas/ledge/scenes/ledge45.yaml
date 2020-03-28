@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge50"
+      north:
+        target: "scene:aber:ledge:ledge48"
+      south:
+        target: "scene:aber:ledge:ledge46"
+      up:
+        target: "scene:aber:ledge:ledge57"
+      west:
+        target: "scene:aber:ledge:ledge44"
+    short: Under the Sea
+    sight: >
+      An underwater opening can be seen in the side of the cliff which seems to lead to an submerged cave.
+      Since that scuba gear won't run out anytime soon, exploration isn't out of the question. The cave can be
+      entered to the west, while swimming about the water can be done in any direction.
+flag:
+  - underwater

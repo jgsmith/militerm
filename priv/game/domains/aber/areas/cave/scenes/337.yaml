@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:340"
+      north:
+        target: "scene:aber:cave:338"
+      up: null
+    short: Entrance to the Thorbadin Mines
+    sight: >
+      Tunnels are delved into the darkness to the east and to the north.
+flag:
+  - dark

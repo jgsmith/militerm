@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9535"
+      south:
+        target: "scene:aber:khanjar:khanjar9532"
+    short: A Square of Mushrooms
+    sight: >
+      You are standing at a small square, surrounded by tall trees. Dozens of deep brown mushrooms grow here,
+      seemingly alluring the animals of the forest, for many of them appear munched. The trail lies to the
+      southeast.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aephir:aephir"
+      north:
+        target: "scene:aber:aephir:nwsacred"
+      south:
+        target: "scene:aber:aephir:swsacred"
+    short: Sacred Forest
+    sight: >
+      You are standing among a forest teeming with life. You feel cool breezes around you, and hear the rustle
+      of leaves. High in the tall oak and maple trees you can hear the enchanting songs of birds. Below the
+      canopy of trees are fern plants and short dark green grass. You feel the strong urge to simply wander
+      about and follow the songs of the birds above.
+flag:
+  - outdoors
+  - peaceful
+  - aephir

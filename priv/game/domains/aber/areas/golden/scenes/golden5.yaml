@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden4"
+      west:
+        target: "scene:aber:golden:golden6"
+    short: &+BBright&* and &+YSunny&* Clearing
+    sight: >
+      You are standing in a large, grassy clearing with hardly any sharp rocks protruding from the ground.
+      Exotic flowers and fruits grow in abundance here, for the thick jungle canopy is opened to let in
+      sunshine in and a small stream trickles down a small bed of granite into a small pool of water which
+      rounds the bend beyond your sight. Small animals scamper aimlessly around the ground, but keep a bit of
+      distance between you and them. Coming from the west you hear the sounds of laughter and shouting, and
+      you suspect that there might be a village of natives living near there.
+flag:
+  - outdoors

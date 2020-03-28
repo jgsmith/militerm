@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:jbs:end"
+    short: "The Gopher's Den"
+    sight: >
+      This is a large room that has been dug out for the gopher who dug all of these tunnels to live in. It
+      doesn't look like the most comfortable place in the world to live, but to a gopher.. who knows? It might
+      be paradise.
+flag:
+  - dark

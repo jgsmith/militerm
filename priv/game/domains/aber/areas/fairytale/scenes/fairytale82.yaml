@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Base of Tower
+    sight: >
+      You are standing at the base of a tall tower. Written on the wall, high above you, are the words 'ICBM'.
+      The tower itself looks like an ancient version of the missile which you just launched, or perhaps just a
+      model of it. To the east is a small door, and all around you is a tall wall.
+flag:

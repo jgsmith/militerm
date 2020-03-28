@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:start"
+      south:
+        target: "scene:aber:ruins:teleportend"
+    short: Hall South of the Ruins
+    sight: >
+      This is the south hall that branches off of the main ruins. The walls are covered with a very thick moss
+      and there is a thin layer of slime covering the floor. The hallway leads to the south and the main ruins
+      are back to the north.
+flag:
+  - dark

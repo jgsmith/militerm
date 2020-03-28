@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia11"
+      north:
+        target: "scene:aber:eosia:eosia13"
+      south:
+        target: "scene:aber:eosia:eosia5"
+    short: Square North
+    sight: >
+      You are standing in the northern part of the main square of Cimmura. Before you stands the gates to the
+      royal castle, to the east, lays the local chapterhouse of the Pandion knights, the Elenian branch of the
+      Church Knights. Pennants fly all about preparing for the coronation of the Prince Reagant as King.
+flag:

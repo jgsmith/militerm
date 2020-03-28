@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter75"
+      up:
+        target: "scene:aber:enchanter:enchanter73"
+    short: Going down...
+    sight: >
+      You go down... and down... and down... and down... Are you getting anywhere?
+flag:

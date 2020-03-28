@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:ruins:mageroom"
+    short: Libary of the Mage
+    sight: >
+      This is an ancient library full of shelves and shelves of many books. The room is lit by a magical
+      sphere of light that is hovering in the middle of the ceiling, it's dancing white light grabbing your
+      attention. Just being in this room seems to make you feel more magically refreshed. Looking to the west,
+      you notice another lit room.
+flag:
+  - fastmana

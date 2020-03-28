@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pensalon:pensalon29"
+      west:
+        target: "scene:aber:pensalon:pensalon34"
+    short: "Castle's Kitchens"
+    sight: >
+      Extravagant meals are spread out all over this room in preparation for the King's nightly feast. To the
+      south is a small hall, and to the west you can see crates piled up.
+flag:

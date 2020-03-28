@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills1"
+      north:
+        target: "scene:aber:caledonia:hills12"
+      west:
+        target: "scene:aber:caledonia:hills18"
+    short: Under The High Crags
+    sight: >
+      The pine forest ends here at the foot of the last great rise of the black mountains. A high wind bears
+      the clouds swiftly through the sky, the sharp peaks cleaving them as they pass overhead. To the north
+      and west you can make your way among the trees.
+flag:
+  - outdoors

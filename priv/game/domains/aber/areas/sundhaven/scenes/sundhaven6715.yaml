@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6679"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6722"
+    short: Passing through a vine-wreathed gate
+    sight: >
+      A gate swathed in green, fruitless vine lies open, but the path looks little-travelling. You wonder if
+      there is anything of use to you out this remote way, apparently passing out of the residential area.
+flag:
+  - outdoors

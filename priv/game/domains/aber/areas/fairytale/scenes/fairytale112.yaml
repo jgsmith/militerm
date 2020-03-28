@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale111"
+    short: Sewer Intake
+    sight: >
+      The first thing you notice about this room is the large pipe which sticks out of the ceiling. From it, a
+      trickle of water runs down into a large cavity in the floor. From below, you hear the sound of rushing
+      water, as if from an underground river. It would appear that you have discovered an early form of sewer
+      system.
+flag:

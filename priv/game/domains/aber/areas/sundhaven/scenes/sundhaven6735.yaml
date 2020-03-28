@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6733"
+      south: null
+    short: The southern gate
+    sight: >
+      You stand before the southern gate,forged into ornaments of the triskelion in black iron and covered
+      with ivy. Beyond it, days distant, the mountains of black glass rise shrouded in permanent night.
+      Northwards lies the spread of the town of Sundhaven, hooded in wreaths of cooking smoke.
+flag:
+  - outdoors

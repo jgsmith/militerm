@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar55"
+      south:
+        target: "scene:aber:balharbor:balhar38"
+      west:
+        target: "scene:aber:balharbor:balhar46"
+    short: River Street
+    sight: >
+      This is the city's main road leading to the North Gate. Somewhat less debris is scattered about here
+      leaving Idol Square, but a recent battle in front of the Supply Shop has taken place as looters were
+      unsuccessful in attempts to empty out the shop.
+flag:
+  - outdoors

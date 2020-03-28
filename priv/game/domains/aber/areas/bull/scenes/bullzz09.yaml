@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz12"
+      south:
+        target: "scene:aber:bull:bullzz06"
+      west:
+        target: "scene:aber:bull:bullzz08"
+    short: The Temple
+    sight: >
+      The echo of your footsteps reverberates through the temple. Everything is white, the tiled floor, the
+      walls, the ceiling.....
+flag:

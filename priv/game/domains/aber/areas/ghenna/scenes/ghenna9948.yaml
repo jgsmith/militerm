@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: Free fall.
+    sight: >
+      You start \S \L \I \D \I \N \G \ \D \O \W \N \W \A \R \D 	 And land in a heap, right next 				 to a
+      small hole in the floor 				 Smells like somethings cooking.
+flag:
+  - dark

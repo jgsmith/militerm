@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge49"
+      south:
+        target: "scene:aber:ledge:ledge45"
+      up:
+        target: "scene:aber:ledge:ledge57"
+    short: Under the Sea
+    sight: >
+      The underwater current of the ocean pushes against the side of the underwater cliff, making scuba diving
+      a dangerous activity in calm weather, deadly in stormy weather. The cliff curves to the east here
+      following the edge of the klint. Exploring the sea can be done south and east.
+flag:
+  - underwater

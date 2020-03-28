@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road2"
+      north:
+        target: "scene:aber:village:yard"
+      south:
+        target: "scene:aber:village:alley"
+      west:
+        target: "scene:aber:village:track"
+    short: Village Road
+    sight: >
+      You are following a narrow dirt road which leads east into the village. To the north a track leads into
+      a small yard of some sort, to the south it leads down a narrow walled alley to the village well.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome3"
+      up:
+        target: "scene:aber:rome:rome1"
+    short: "Caesar's Private Box"
+    sight: >
+      This is the best view in the house! You can see gladiators fighting or the chariot races with an
+      unobstructed view. The seats are upholstered in red velvet and are in top-notch condition. There is a
+      rickety ladder leading up and a marble staircase leading down.
+flag:

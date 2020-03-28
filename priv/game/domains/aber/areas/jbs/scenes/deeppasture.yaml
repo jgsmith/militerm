@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:gate"
+      west:
+        target: "scene:aber:jbs:nwpasture"
+    short: Deep in the Pasture
+    sight: >
+      As you enter this part of the pasture you notice that the grass is a little more sparse than in other
+      areas. You look around and see a fence to the north and more pasture to the east and west.
+flag:
+  - outdoors

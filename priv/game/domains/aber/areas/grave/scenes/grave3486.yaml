@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3485"
+      south:
+        target: "scene:aber:grave:grave3488"
+      west:
+        target: "scene:aber:grave:grave3487"
+    short: Hallway
+    sight: >
+      You have discovered a hallway that is clean and well cared for. The walls and floor are polished stone
+      and there are lit torches along the walls. There is a room to the west and the hallway continues to the
+      south.
+flag:

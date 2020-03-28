@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot218"
+      east:
+        target: "scene:aber:camelot:camelot248"
+      up:
+        target: "scene:aber:camelot:camelot251"
+      west:
+        target: "scene:aber:camelot:camelot238"
+    short: The West Gatetower
+    sight: >
+      Exits from the guardroom allow you to go up to the top of the tower, west along the top of the wall, or
+      east, to the wall above the portcullis.
+flag:

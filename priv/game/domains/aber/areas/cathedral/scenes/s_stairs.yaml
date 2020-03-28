@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cathedral:s_tower"
+      up:
+        target: "scene:aber:cathedral:s_top"
+    short: The Stairs
+    sight: >
+      The stairs are rickety and worn with age, but they seem secure enough to support your weight. There
+      appear to be no windows in this tower, as you cannot make out any &+Ylight&* from above. At the top the
+      stairs emerge into a small unlit room.
+flag:
+  - dark

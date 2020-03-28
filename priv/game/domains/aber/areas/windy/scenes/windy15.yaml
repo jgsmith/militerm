@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:windy:windy14"
+      north:
+        target: "scene:aber:windy:windy16"
+    short: Mountain Plateau
+    sight: >
+      The view from here is spectacular: To the south spreads out the misty expanse of a plain, and beyond it
+      a thick forest. The top of this mountain is flat and rubble-strewn, eroded by decades of wind and storm.
+      The only noticeable feature is a fairly large building which squats in the center of the plateau to the
+      north. A rocky trail winds its way down into the mist.
+flag:
+  - outdoors
+  - oneperson

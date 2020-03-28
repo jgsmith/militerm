@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:narrow"
+      west: null
+    short: "Captain's Office"
+    sight: >
+      You are standing in a sparsely furnished office. Sputtering torches provide light, but many shadows
+      still abound. The main piece of furniture is a large oak &+ydesk&* in the center of the room. A large
+      door is in the west wall, and a passageway leads to the east.
+flag:

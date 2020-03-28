@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:rainforest:mount11"
+      west:
+        target: "scene:aber:rainforest:mount9"
+    short: Fast-Flowing River
+    sight: >
+      You are standing on a rather slippery rock by the side of a swiftly-moving but youthful torrent which is
+      flowing rapidly eastwards. Unfortunately it passes under an archway of rock to the east and you cannot
+      follow its course in that direction. However you may be able to climb a little way up the slope on this
+      side of the river.
+flag:
+  - outdoors

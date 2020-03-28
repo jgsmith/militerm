@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:cret18"
+      west:
+        target: "scene:aber:evolution:cret22"
+    short: On The Dunes
+    sight: >
+      You are in a little dip between two of the tallest dunes. Although the northern one looks easily
+      scalable, the southern dune is steep and you can get no purchase in the shifting sand. To the west the
+      ground drops quickly to the seashore, and clumps of uncovered seaweed tell you that the tide is either
+      out or at least not fully in.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:newbie:newbie9"
+      west:
+        target: "scene:aber:newbie:newbie17"
+    short: Sailing on a Pond
+    sight: >
+      Some rooms can also be over water, underwater, or in the sky. You will need to find something that
+      allows you to travel to these places. You brought along a boat with you, so you were able to enter here
+      without having to swim. Later on, you will need scuba gear to swim underwater, or wings to fly in the
+      sky. Be careful that you don't lose your boat while on water, or you will drown. Some rooms are also too
+      dark to see in or are dark during the night, of which you need to have an object to light up the room.
+      An island is to the west of you, or you can climb up on the bank upwards.
+flag:
+  - onwater
+  - peaceful
+  - newbie

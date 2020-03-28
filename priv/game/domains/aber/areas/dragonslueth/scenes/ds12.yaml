@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:dragonslueth:ds8"
+    short: Hallway of Worship
+    sight: >
+      This cave is very beautiful and magnificiant. The walls are laced with pure gold that looks like it is
+      worth a fortune. The ground is made up of stone and small sapphires that sparkle when you move your
+      body. There a picture of an altar painted on the wall and a nice welcome mat for your knees to rest.
+flag:

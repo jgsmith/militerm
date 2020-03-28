@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: The Dark Pit
+    sight: >
+      Ick... a dark damp dirty pit. Even worse, what is that dark damp dirty thing looking at you from the
+      corner? Ewww... maybe you should go back up where it is a bit safer, unless you think you can tackle
+      that thing in the corner.
+flag:
+  - dark

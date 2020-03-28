@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds34"
+      south:
+        target: "scene:aber:dragonslueth:ds37"
+      west:
+        target: "scene:aber:dragonslueth:ds36"
+    short: Fork in the Path
+    sight: >
+      There is a fork in the path. The path leads to the &+Csouth&* and &+Cwest&*.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:undead:courtyard1"
+      west:
+        target: "scene:aber:undead:battlements7"
+    short: Upon the battlements
+    sight: >
+      You stand upon the battlements, from here you can overlook both the desolate courtyard, and look out
+      over the surrounding land. It takes you just a moment to realize that something is very wrong
+      here.....no sound. There should be wind at this height, but despite feeling the wind gently caressing
+      your face there is no sound but your own shallow footsteps. The battlements continue to the &+Cwest&*,
+      and a large set of stone steps lead down.
+flag:
+  - outdoors
+  - nomobiles

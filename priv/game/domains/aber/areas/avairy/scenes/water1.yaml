@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:avairy:fall1"
+      east:
+        target: "scene:aber:avairy:pond1"
+    short: A Waterfall
+    sight: >
+      You stand next to a small waterfall. Crisp clear water falls rapidly in its passage to the pond to the
+      east. Through the water you can see a small passage leading down.
+flag:
+  - outdoors
+  - light
+  - nomagic

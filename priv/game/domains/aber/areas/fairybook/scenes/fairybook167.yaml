@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook168"
+      up:
+        target: "scene:aber:fairybook:fairybook166"
+    short: China Land
+    sight: >
+      You stand on the other side of the wall. Little people made of china are running all over, being
+      bothersome. A ladder leads up, and a path leads south.
+flag:
+  - outdoors

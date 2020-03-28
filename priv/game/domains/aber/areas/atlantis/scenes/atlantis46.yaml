@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis49"
+      north:
+        target: "scene:aber:atlantis:atlantis45"
+      west:
+        target: "scene:aber:atlantis:atlantis33"
+    short: "Octopus' Garden"
+    sight: >
+      A glorious sight to behold is the Octopus' Garden. Streaks of color come from arranged anemones and
+      colored plant life. Statues of coral are arranged tastefully about the garden and small pathways lead in
+      winding circles through all the colorful plants. Hedges of darker coral block off your view from certain
+      sections which, once beyond the hedge, provide even more spectacular views due to the partitioning.
+      Lovers swim along the paths through the plants and tourists come from all over to view this beautiful
+      sight.
+flag:
+  - underwater
+  - nomobiles

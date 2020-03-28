@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot93"
+      south:
+        target: "scene:aber:camelot:camelot82"
+    short: The Edge of the Swamp
+    sight: >
+      You are pushing your way through tall reeds and grasses, following a faint trail. The way to the south
+      grows easier, climbing gradually onto dryer land. East and west the way is blocked by tough thick reeds.
+flag:
+  - outdoors

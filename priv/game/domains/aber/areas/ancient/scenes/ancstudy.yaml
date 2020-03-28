@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Aztec Study Center
+    sight: >
+      You are strapped to a table. Your head screams with pain. The canyon faced man seems to have a very
+      direct method of putting knowledge into your brain... He has cut your skull open and has a funnel into
+      which whispy streamers of ... something ... are pouring.
+flag:
+  - peaceful
+  - soundproof

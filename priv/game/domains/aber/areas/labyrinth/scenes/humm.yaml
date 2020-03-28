@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:spiral3"
+      up:
+        target: "scene:aber:labyrinth:spiral"
+    short: Humm...
+    sight: >
+      As you stand here a blanket of mist envelopes you. The only ways out are to grope upwards or downwards.
+flag:

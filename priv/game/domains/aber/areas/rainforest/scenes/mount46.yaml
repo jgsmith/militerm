@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:forest1"
+      east:
+        target: "scene:aber:rainforest:forest1"
+      up:
+        target: "scene:aber:rainforest:mount45"
+      west:
+        target: "scene:aber:rainforest:mount45"
+    short: Above The Rainforest
+    sight: >
+      You are on a narrow stony path which climbs out of the trees to the east and heads up into the dizzy
+      heights of the mountains to the west of you. Many shrubs and tall grasses line the sides of the path,
+      but further up you can see the vegetation becoming less plentiful.
+flag:
+  - outdoors

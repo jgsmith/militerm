@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni55"
+      south:
+        target: "scene:aber:oni:oni56"
+      west:
+        target: "scene:aber:oni:oni36"
+    short: Small Hallway
+    sight: >
+      The small hallway gives you a good view of the tall ceilings, but you cannot see into the rest of the
+      room. The ceiling shimmers from some unseen object. It could possibly be some light reflecting off
+      water. There doesn't appear to be anything else of interest in this room. It is possible to go north or
+      south or back west to the staircase.
+flag:

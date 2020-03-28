@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:geast6"
+      west:
+        target: "scene:aber:ruins:geast4"
+    short: The End of the Eastern Passage
+    sight: >
+      You have reached the end of the eastern passage only to find that now the catacomb turns to the south.
+      You start to hear voice of the past echoing through the passage and makes the hair on the back of your
+      neck stand up.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd63"
+      west:
+        target: "scene:aber:sdesert:desertsd61"
+    short: A Brush-Filled Trail
+    sight: >
+      The desert stretches out in every direction, and the main path leads &+yeast&*; westward it begins to
+      diminish....
+flag:
+  - outdoors
+  - hot

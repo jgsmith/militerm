@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path3"
+      west:
+        target: "scene:aber:undead:stony_path1"
+    short: Stony Path
+    sight: >
+      The path continues along side the moat both &+Ceast&* and &+Cwest&*. Thick forest bars the way
+      &+Csouth&*, and the moat still looks utterly impassable to the &+Cnorth&*.
+flag:
+  - outdoors

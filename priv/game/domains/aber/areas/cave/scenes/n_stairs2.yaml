@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:n_stairs3"
+      east: null
+      up:
+        target: "scene:aber:cave:n_stairs"
+    short: Narrow Stairs
+    sight: >
+      You are on a small landing on the narrow staircase. The roof here is a mere four feet high so you are
+      forced to stoop. There is a low door in the east wall. The stairs continue up and down from here.
+flag:
+  - dark

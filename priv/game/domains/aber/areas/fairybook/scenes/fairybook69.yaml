@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook68"
+      west:
+        target: "scene:aber:fairybook:fairybook70"
+    short: Horse Path
+    sight: >
+      A troop of horses run past you to help repair the broken egg, Humpty Dumpy. A few of them stop to harass
+      you. The path goes east and west.
+flag:
+  - outdoors

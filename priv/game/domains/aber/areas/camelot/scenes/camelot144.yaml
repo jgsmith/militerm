@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:camelot:camelot140"
+    short: In The Hot Spring
+    sight: >
+      Ahhhhhh that feels good! Soaking in a hot tub could never feel better. I sure hope you removed any metal
+      armor or weapons before you got in...
+flag:
+  - dark

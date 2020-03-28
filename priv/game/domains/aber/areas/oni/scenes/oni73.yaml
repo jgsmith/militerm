@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni72"
+      west:
+        target: "scene:aber:oni:oni74"
+    short: Deufel Temple
+    sight: >
+      When travelers first see Deufel Temple they are amazed at the beauty. Then they wonder why it is not
+      within the town walls. The clerics of Deufel Temple have always felt that walls were not need to protect
+      them. Their faith would be enough to protection. Even so, the temple has been destroyed on multiple
+      occasions in the past, which results in the current, relatively new, temple.
+flag:
+  - outdoors
+  - cantsummon

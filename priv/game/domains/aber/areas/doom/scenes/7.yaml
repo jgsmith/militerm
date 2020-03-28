@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:8"
+      north:
+        target: "scene:aber:doom:9"
+      south:
+        target: "scene:aber:doom:4"
+    short: &+cTown Road
+    sight: >
+      The forest to the north looks very thick and dark. The road you are standing on is narrower here than to
+      the south, and it gets even narrower to the north. The dirt here looks like ashes, and there is a smell
+      in the air of rotting flesh. There is a large shack to the east or you can go north or south on the town
+      road.
+flag:
+  - outdoors

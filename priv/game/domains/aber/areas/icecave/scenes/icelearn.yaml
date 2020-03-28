@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:magician"
+      up:
+        target: "scene:aber:newbie:newbie13"
+    short: "Magician's Mana Tutoring"
+    sight: >
+      The magician has made the streams of ether evident to advertise his skill, and they swirl around in many
+      hues, knotting, unknotting, endlessly changing. The magician sits in a corner knitting with the strands.
+      To find out what he charges for his lessons, type "&+Clearn info&*".
+flag:
+  - peaceful
+  - nomobiles

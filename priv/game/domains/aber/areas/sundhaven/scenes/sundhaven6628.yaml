@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6630"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6642"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6619"
+    short: A black sand road
+    sight: >
+      The black sand of the road absorbs heat and feels pleasant to those without coverings on their feet,
+      attracting all sorts of loafers and siteseers who come on days off to relax and watch the festivities at
+      the gallows. A &+Rbloody trail&* leads into a building to the south.
+flag:
+  - outdoors

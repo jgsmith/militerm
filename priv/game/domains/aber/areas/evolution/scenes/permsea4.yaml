@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:permsea2"
+      west:
+        target: "scene:aber:evolution:triasea1"
+    short: Where Continents Collide
+    sight: >
+      This is the end of the permian period. A catastrophic event is taking place: the continents of the world
+      have drifted together and are even now colliding to form the supercontinent Pangaea. The effect on sea
+      life is vast. Four fifths of all aquatic species are destined to disappear forever from the earth, their
+      habitat destroyed by continental drift.
+flag:
+  - soundproof
+  - underwater

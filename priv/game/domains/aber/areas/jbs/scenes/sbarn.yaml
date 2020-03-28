@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:sestall"
+      north:
+        target: "scene:aber:jbs:nbarn"
+      west:
+        target: "scene:aber:jbs:swstall"
+    short: Southern End of the Barn
+    sight: >
+      Looks just like the northern end of the barn here. To the east and west are more stalls.
+flag:

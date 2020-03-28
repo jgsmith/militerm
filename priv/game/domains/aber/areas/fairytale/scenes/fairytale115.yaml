@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale114"
+      north:
+        target: "scene:aber:fairytale:fairytale116"
+      south:
+        target: "scene:aber:fairytale:fairytale117"
+      west:
+        target: "scene:aber:fairytale:fairytale119"
+    short: Hallway
+    sight: >
+      You stand in the hallway outside the two guest rooms (one north, the other south). To the east is a
+      large, railed porch and to the west the hallway continues. Pictures of Sleeping Beauty and her ancestors
+      line the walls.
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town20"
+      north:
+        target: "scene:aber:town:town24"
+      south:
+        target: "scene:aber:town:town26"
+      west:
+        target: "scene:aber:town:town38"
+    short: Town Square
+    sight: >
+      This is the main town sqare. It is a large area where many merchants are setting up carts and tables for
+      a day of selling wares to travelers who freqent this town. To the north is a square near the weapons
+      shop, to the south you see another part of the square where a Tavern is located, to the east is the main
+      road heading for the docks, and lastly to the west the Square continues.
+flag:
+  - outdoors

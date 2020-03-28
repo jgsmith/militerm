@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:saxon:saxon9"
+      west:
+        target: "scene:aber:saxon:saxon4"
+    short: &+gRolling Prairie&*
+    sight: >
+      The wild grasslands extend from here, but what appears to be a forest is far away to the southeast. No
+      signs of human destruction mark this place, a welcome sight in this world of ours. To the south and west
+      the prairie fills the horizon.
+flag:
+  - light
+  - outdoors

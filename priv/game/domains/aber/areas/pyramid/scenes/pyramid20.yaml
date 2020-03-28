@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid13"
+      north:
+        target: "scene:aber:pyramid:pyramid19"
+    short: Tomb of Slaves
+    sight: >
+      An unpleasant odor hangs in the air. Piles of moldy garbage are strewn around the floor. Before you can
+      back out of this place and continue your explorations, you spy something that looks like a hand. A chill
+      skips down your spine as you notice other human remains, a toe, a part of an arm, a shriveled skull.
+      Abruptly, you become aware you have stumbled across the burial chambers of mummified slaves, those
+      killed to serve the dead king and queen in the afterlife. Obviously, they weren't given the same care as
+      their more important counterparts.
+flag:
+  - dark

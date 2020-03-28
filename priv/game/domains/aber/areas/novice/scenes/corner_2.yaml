@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:southern"
+      north:
+        target: "scene:aber:novice:western"
+    short: Corner Oak
+    sight: >
+      You have come out from between the roots of the tree. You remember that when you last passed this tree
+      the hole was the size of your hand. You panic as you realize that you must have shrunk while on your
+      journey. As you look around, the trees look much bigger than they did before. Just when you decided that
+      you are stuck at this small size forever, you feel yourself growing once again back to your normal size.
+      You shake your head in disbelief and decide to go back to the safety of the mighty Gate of Sorcerers.
+flag:
+  - outdoors
+  - real

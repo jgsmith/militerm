@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9921"
+      west:
+        target: "scene:aber:ghenna:ghenna9923"
+    short: The master suite.
+    sight: >
+      This is the master suite inside Blood Tavern. A liquor cabinet stands against one wall, filled with
+      dusty old bottles, while a king sized bed stands opposite. A half opened door to the West leads into a
+      bathroom.
+flag:

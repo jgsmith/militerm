@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot118"
+      north:
+        target: "scene:aber:camelot:camelot120"
+      south:
+        target: "scene:aber:camelot:camelot122"
+      west:
+        target: "scene:aber:camelot:camelot121"
+    short: North End Of The Tunnel
+    sight: >
+      You have entered a newer, smooth walled tunnel. It extends far off to the south. Exits lead in all
+      directions.
+flag:
+  - dark

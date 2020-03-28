@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:novice:bottom"
+      east:
+        target: "scene:aber:novice:trail_3"
+      west:
+        target: "scene:aber:novice:bottom"
+    short: Path to the Valley
+    sight: >
+      You are picking your way down the hill and into a lush-looking valley. Out of the corner of your eye,
+      you think you see something moving among the trees.
+flag:
+  - outdoors
+  - real

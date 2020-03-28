@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount45"
+      east:
+        target: "scene:aber:rainforest:mount45"
+      up:
+        target: "scene:aber:rainforest:mount43"
+    short: Winding Path
+    sight: >
+      You are on the path, a few hundred feet above the tops of the trees. Above you the path seems to
+      continue endlessly up and up into the clouds, winding back and forth as it ascends steeply. Below you it
+      levels off a bit and heads east in what is almost a straight line.
+flag:
+  - outdoors

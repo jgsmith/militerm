@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund84"
+      south:
+        target: "scene:aber:sommerlund:sommerlund86"
+    short: Shadow Gate
+    sight: >
+      This is the void of unconsciousness which doesn't exist in your perspective. Between the realms of
+      sunlight and utter twilight lies this empty abyss. The five senses of which you are so accustomed to
+      crackle and distort. In here, time has no place while space is infinite, and where the power of thought
+      is your only guide.
+flag:
+  - dark

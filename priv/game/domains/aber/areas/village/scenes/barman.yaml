@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:village:behind"
+    short: "Barman's Room"
+    sight: >
+      You are crouched in the barman's small, and very personalized room. The walls have a large collection of
+      battered naval memorabilia fastened securely to them. Indeed, even the lone window is a porthole, giving
+      the room that distinctive sea-cabin look. A single low doorway leads west into the inn proper.
+flag:

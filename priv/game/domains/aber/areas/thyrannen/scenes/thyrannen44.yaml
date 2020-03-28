@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen43"
+      south:
+        target: "scene:aber:thyrannen:thyrannen45"
+    short: Barren road to the mesa
+    sight: >
+      You continue along this barren, nondescript north-south road.
+flag:
+  - outdoors

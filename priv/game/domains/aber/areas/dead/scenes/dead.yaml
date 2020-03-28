@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Dead
+    sight: >
+      You stand in a black cavernous hall where beings await their turn to be called forth once more by the
+      mighty magics of the wizards. Welcome to their ranks...
+flag:
+  - death

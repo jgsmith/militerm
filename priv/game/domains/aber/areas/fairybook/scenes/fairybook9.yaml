@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook10"
+      west:
+        target: "scene:aber:fairybook:fairybook8"
+    short: Low Hall
+    sight: >
+      The passage here connects a long, low hall to the east and a small, cluttered hallway to the west.
+flag:

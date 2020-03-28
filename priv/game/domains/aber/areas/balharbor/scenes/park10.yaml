@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:park7"
+      west:
+        target: "scene:aber:balharbor:park9"
+    short: In Front of the Bee Hive
+    sight: >
+      You have come toward a bee hive mounted on post where bee keepers empty honey and jelly the bees produce
+      over several months time. However, the bees here do not seem happy with people coming close to their
+      hive. I wouldn't stay here for long if you don't like being stung. You can head for the pavilion to the
+      west or the pond to the south.
+flag:
+  - outdoors

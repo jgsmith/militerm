@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5505"
+      south:
+        target: "scene:aber:graye:graye5510"
+    short: The Forest of Graye
+    sight: >
+      You are in a hardwood forest, walking through noisy leaves. There is a sheer &+Ccliff&* face to the
+      west, rising up above the forest. There is a &+Csign&* nailed neatly on the cliff wall.
+flag:
+  - outdoors

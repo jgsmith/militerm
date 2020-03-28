@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fgate"
+      east:
+        target: "scene:aber:jbs:fwood5"
+      north:
+        target: "scene:aber:jbs:fwood"
+      south:
+        target: "scene:aber:jbs:fwood"
+      up:
+        target: "scene:aber:jbs:fwood3"
+      west:
+        target: "scene:aber:jbs:fwood4"
+    short: Fairy Wood
+    sight: >
+      You are lost in a large wood. There is thick mist covering the ground in all directions and you think
+      you see small animals moving around underneath it, but you can't make out what they might be.
+flag:
+  - outdoors

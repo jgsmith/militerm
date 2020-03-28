@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest69"
+      north:
+        target: "scene:aber:rainforest:forest65"
+    short: Leeches Galore
+    sight: >
+      You have come upon the kind of terrain leeches love best. And in this humid jungle the leeches are of
+      staggering sizes. However the large ones are easy to cope with; it is the small ones that get inside
+      your clothes that you are most concerned about. You continually have to stop and pluck them from your
+      body, and that is not always easy... their suction-cup mouths grip you with surprising strength.
+flag:
+  - outdoors
+  - rainforest

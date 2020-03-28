@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:sundhaven:sundhaven6648"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6652"
+    short: Some battered stone steps
+    sight: >
+      Broad, shallow stairs of dark stone descend into a hallway warm with the heat of sparring warriors.
+      Above you the sounds of the alehouse distract you with bawdy laughter. A doorway is west, bruised with
+      sword-points.
+flag:

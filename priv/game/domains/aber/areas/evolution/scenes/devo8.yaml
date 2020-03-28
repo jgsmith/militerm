@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carb1"
+      north:
+        target: "scene:aber:evolution:devo9"
+      south:
+        target: "scene:aber:evolution:devo7"
+    short: Devonian Beach
+    sight: >
+      You are standing on a gently sloping beach, on the edge of a forest of lycopods. As you walk along the
+      shoreline, a number of large fish with powerful-looking fins scuttle into the water. Further up the
+      beach you spy other creatures, fish-like and yet not so... You wonder if these creatures bridge the
+      evolutionary gap between fish and amphibians.
+flag:
+  - outdoors

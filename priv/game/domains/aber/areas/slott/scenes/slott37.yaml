@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott36"
+      south:
+        target: "scene:aber:slott:slott31"
+      west:
+        target: "scene:aber:slott:slott38"
+    short: Corridor
+    sight: >
+      This is a corridor that runs at the north side of the castle, connecting the different bedrooms to
+      gather. The corridor continues to the &+Cwest&* and the &+Ceast&*.
+flag:

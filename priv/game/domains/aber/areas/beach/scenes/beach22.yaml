@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach21"
+    short: Paradise
+    sight: >
+      This is a dense, tropical paradise. Birds sing, and fly from tree to tree, playing the games that birds
+      play.
+flag:
+  - outdoors

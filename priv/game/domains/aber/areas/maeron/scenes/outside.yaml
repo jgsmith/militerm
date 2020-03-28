@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:treravine"
+      north:
+        target: "scene:aber:maeron:entrance"
+      west:
+        target: "scene:aber:maeron:path1"
+    short: "&+BOutside Maeron's Mansion"
+    sight: >
+      Before you stands the mansion of Maeron. This mansion has been abandoned for years, after the lone Mage
+      Maeron died in one of his daring experiments. Many an adventuror has tried to retrieve the treasures
+      from his mansion and failed. The mansion's spires twist menacingly skyward, daring you to enter... You
+      may boldly head &+Rnorth&* toward the mansion of Maeron or return &+Reast&* to the ravine above the
+      cliff window. A sunny path lies to the &+Rwest&* invitingly.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairytale:fairytale70"
+    short: Boatwreck
+    sight: >
+      A large boat has been smashed here, as though it had been hurled into the cave by a tremendous force, or
+      some huge giant. Scattered among the wreckage are bones of unwary travellers.
+flag:

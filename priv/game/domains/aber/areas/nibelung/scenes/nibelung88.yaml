@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung89"
+    short: Armory
+    sight: >
+      ar*mory, n. / pl. ar*mor*ies (14c) a place where arms and military equipment are stored; esp: one used
+      for training military reserve personnel. - Webster's. There is an exit to the east. A legend has been
+      rudely carved into one wall which reads: The arrow of the proper hue will always fly straight and true.
+flag:
+  - dark

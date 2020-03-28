@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:fort3"
+      north:
+        target: "scene:aber:fareast:fort1"
+      south:
+        target: "scene:aber:fareast:courtyard"
+      west:
+        target: "scene:aber:fareast:fort2"
+    short: Entrance Hall of the Eno Fortress
+    sight: >
+      Your footsteps echo in the vast hallway, the only sound in this hollow emptiness. Timbers bracing the
+      lofted ceiling are scraped along the underside, but the walls are unmarked. Passages lead off in the
+      cardinal directions, with the one to the south opening onto the courtyard outside.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:graye:graye5560"
+    short: The Tomb of Graye
+    sight: >
+      You enter a huge circular room. A guilded gold &+Ycoffin rests in the center atop at &+Cstone&* tablet.
+      Treasure is piled high against all the walls. You have found the final resting place of the paladin
+      knight Graye.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rome:rome50"
+    short: "Judge's Chambers"
+    sight: >
+      You are in a small room that is filled with legal &+Rtomes&*. There is a small desk here, literally
+      buried under legal &+Cdocuments&*. There is also a small window overlooking the northern part of the
+      city.
+flag:

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar81"
+      north:
+        target: "scene:aber:balharbor:balhar80"
+      south:
+        target: "scene:aber:balharbor:balhar82"
+      west:
+        target: "scene:aber:balharbor:balhar81"
+    short: Waistdeep in the Water
+    sight: >
+      You run into the water defying the demands of a few hundred beach brats on your tail with a few hundred
+      beach brats approaching you from the water. It seems you may have to fight with physical force for your
+      right to have a day at the beach. You can either run back into the crowd to a certain confrontation to
+      the north or swim to an approaching boat to the south and fight with security. The water extends itself
+      forever east and west.
+flag:
+  - maze
+  - outdoors

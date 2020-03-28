@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rats:stairsdown"
+      east: null
+      west:
+        target: "scene:aber:rats:chbedroom"
+    short: Hallway
+    sight: >
+      You are standing in the hallway in first floor. All things in this room are made of wood. This room is
+      full of sunshine because of the large window above the staircase. Against the window stands an armchair.
+      It looks to be very comfortable for reading.
+flag:

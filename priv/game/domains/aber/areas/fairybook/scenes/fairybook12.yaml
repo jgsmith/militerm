@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook13"
+      west:
+        target: "scene:aber:fairybook:fairybook11"
+    short: Ocean of Tears
+    sight: >
+      You stand in a puddle up to your waist, which turns out to be deeper than it looks. Fortunately, it is
+      an ocean of tears, filled with salt water which buoys you up. You see other creatures splashing their
+      way toward the shore to the east. To the west is dry land, and a large table.
+flag:

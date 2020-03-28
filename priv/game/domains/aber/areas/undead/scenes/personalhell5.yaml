@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:personalhell4"
+      west:
+        target: "scene:aber:undead:personalhell6"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You watch yourself trying to &+Rwork out what you are doing. You seem to be
+      examining yourself carefully &+Rin a mirror, it seems there is a blemish that has somehow upset you. If
+      &+Ronly it were different, things would all be better if it was not for that &+Rblemish. If only.
+flag:
+  - soundproof

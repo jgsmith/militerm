@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road1"
+      north:
+        target: "scene:aber:hick:hick1"
+      south:
+        target: "scene:aber:village:hospital"
+      west:
+        target: "scene:aber:village:green"
+    short: Village Track
+    sight: >
+      You are following a path which leads east through the village towards the sea. To the west a few
+      buildings are clustered around the village green, while to the east the village becomes a collection of
+      small houses and narrow streets. A small path leads to the north.
+flag:
+  - outdoors

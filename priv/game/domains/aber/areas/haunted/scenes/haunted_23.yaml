@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_16"
+      south:
+        target: "scene:aber:haunted:haunted_24"
+    short: Texas Chili Shack
+    sight: >
+      Looks like this shack has been converted into a little chili cafe. At least, that what the letters on
+      the door says. Maybe you should go in and get a bite to eat.
+flag:
+  - real

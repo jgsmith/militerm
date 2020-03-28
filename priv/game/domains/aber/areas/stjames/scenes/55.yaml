@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:42"
+      north:
+        target: "scene:aber:stjames:54"
+    short: St. James Park
+    sight: >
+      You are in the very southwestern corner of the park. The beauty of it spreads to the east. To your west
+      is a huge and unfriendly-looking wall, disguised with flowers and the like.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest76"
+      west:
+        target: "scene:aber:rainforest:forest74"
+    short: "Trail's Bend"
+    sight: >
+      You are at a bend in the trail, where the creatures making it obviously took the easier rather than the
+      straighter path. Ferns abound here, their tall fronds reaching higher than your head, and you push them
+      aside as you pass by. You can follow the trail north or west.
+flag:
+  - outdoors
+  - rainforest

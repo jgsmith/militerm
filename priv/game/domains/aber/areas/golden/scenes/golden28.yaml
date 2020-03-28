@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden27"
+    short: Corridor
+    sight: >
+      The ceiling of this corridor has collapsed, leaving you no choice but to go east. There is a dank and
+      musty smell seeping from a small crack in the wall. It reminds you of your grandmother's closet.
+flag:
+  - dark

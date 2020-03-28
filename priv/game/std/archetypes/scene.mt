@@ -11,8 +11,12 @@ is scene
 can move:receive
 can move:release
 
-reacts to pre-move:receive with
+reacts to pre-move:receive with do
+  if traits:hospital:zone then
+    Populate( traits:hospital:zone )
+  end
   True
+end
 
 reacts to pre-move:release with
   True

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:dungeon4"
+      up:
+        target: "scene:aber:undead:dungeon2"
+    short: Flaming Cavern
+    sight: >
+      At the base of the stairs you pause...momentarily taken aback by the sight that confronts you. You stand
+      on the precipice of a sea of molten lava. This huge cavern stretches for as far as the eye can see. From
+      the ceiling of the cavern, hundreds of feet above, huge stalactites hang as they have for aeons
+      threatening to crush the unwary adventurer. Lava spits and bubbles from all around, desperate to share
+      with you its warm embrace. To your &+Ceast&* a rickety wooden bridge spans the lava, although it sways
+      alarmingly if you hold on tight and move quickly you should be safe.
+flag:

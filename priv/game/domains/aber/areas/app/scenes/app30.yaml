@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Prison Cell
+    sight: >
+      The prisoners within this room look like they haven't been fed for a long time. Many of them barely move
+      when you enter. From the looks of it, you won't be able to save them right now. You can only hope to
+      save them by killing the dark mage. In the corner of the room, bodies of the dead prisoners have been
+      piled up and left there to rot. The most recent body looks like one of the mages from the Tower of
+      Sorcery.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:evolution:perm2"
+    short: Far Shore Of The Permian River
+    sight: >
+      You are on the far shore. The creatures you had seen from the other side do not, in fact, appear to be
+      all that threatening, and most plunge into the water as you approach, or slink off into the trees.
+      Probably they just do not know what to make of such a strange creature as yourself.
+flag:
+  - outdoors

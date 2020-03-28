@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord66"
+    short: The Platform
+    sight: >
+      Staircases lead down from this raised section of pumice on all cardinal points. This is one of the
+      transport devices used by the inhabitants of the volcano to leave and return from this dark world. Black
+      structures stretch down wide avenues, and a distant rumbling comes from deep within the Phaylax Volcano.
+      The air is totally deadly to human life with its near total sulfur and phosphorus content. Murmurs from
+      adjoining streets float through the toxic soup.
+flag:
+  - dark

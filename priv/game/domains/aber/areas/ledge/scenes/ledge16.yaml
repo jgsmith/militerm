@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge19"
+      north:
+        target: "scene:aber:ledge:ledge13"
+      south:
+        target: "scene:aber:ledge:ledge19"
+    short: Old Mining Tunnel
+    sight: >
+      The southern tunnel you are now treking through seems to have to been dug for a short distance until
+      they broke into an sealed cave. No coal deposits were found, neither were any other kind of mineral
+      except limestone and granite. You can step in this cave to the south or head back to the intersection
+      north.
+flag:
+  - dark

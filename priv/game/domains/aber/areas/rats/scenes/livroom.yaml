@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:rats:kitchen"
+      west:
+        target: "scene:aber:rats:hallway_2"
+    short: Living room
+    sight: >
+      You are standing in the living room. It looks very relaxing. There is a long sofa, two armchairs, and a
+      wooden table in the middle with four chairs around it. You also locate a &+Cbookcase&* next to the door.
+      It seems that this room was really decorated with passion.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bull:bullzz09"
+      north:
+        target: "scene:aber:bull:bullzz11"
+      west:
+        target: "scene:aber:bull:bullzz07"
+    short: The Atrium and Gardens
+    sight: >
+      Beautiful green &+Gplants&* wind around bamboo poles here, leaves outfolded to catch the sun's rays
+      coming in from the open sky. The smell of rich dark earth overwhelms your senses, and a small &+Bbrook
+      winds beneath your feet.
+flag:
+  - outdoors

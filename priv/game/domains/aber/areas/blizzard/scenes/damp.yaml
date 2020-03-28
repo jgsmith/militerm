@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:pillared2"
+      west:
+        target: "scene:aber:blizzard:rocky_can"
+    short: Large Damp Cave
+    sight: >
+      You are in a large cave. The cave echoes to the dripping of water from its cold damp roof, thickly
+      coated in algae and mosses. A pillared hall stretches off the the east, and a rocky canyon goes west.
+flag:

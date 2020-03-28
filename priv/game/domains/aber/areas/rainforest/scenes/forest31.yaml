@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:forest22"
+      east:
+        target: "scene:aber:rainforest:forest32"
+      south:
+        target: "scene:aber:rainforest:forest37"
+      up:
+        target: "scene:aber:rainforest:forest40"
+    short: In The Canopy
+    sight: >
+      You are up in the canopy. Looking up, you can see the sky, but in every other direction all you can see
+      are leaves. The tree you are in is one of the particularly competitive species which tower up into the
+      sky, its top high above the canopy. You could probably climb it if you had a mind to. Otherwise you can
+      descend to the ground or move across the branches into another tree.
+flag:
+  - outdoors

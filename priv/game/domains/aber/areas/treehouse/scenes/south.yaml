@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:treehouse:house"
+    short: Treehouse South
+    sight: >
+      You are at the southern end of the treehouse, which appears to be used by its occupant for a sleeping
+      area. Large amounts of thick &+Cbedding&* insure that its occupant will be comfortable even in bad
+      weather. A single way leads north between the branches.
+flag:

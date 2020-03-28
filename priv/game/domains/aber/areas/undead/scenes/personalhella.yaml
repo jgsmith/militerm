@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: id
+    sight: >
+      &+RAll that you are is here, your very soul laid bare, your jealousy, &+Rvanity, sloth, cowardice are
+      all here and more...everything that holds you &+Rback, all you fight against and pretend does not exist.
+      All your &+Rinsecurity and weakness are here for you to see, all you have lost, all &+Rthe dreams of
+      what you may possess all clamour for attention, for they are &+Rall the centre of your own personal
+      hell.
+flag:
+  - soundproof

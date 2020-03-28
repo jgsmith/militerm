@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:cemetery"
+      north:
+        target: "scene:aber:nrose:aedificium"
+      south:
+        target: "scene:aber:nrose:churchsteps"
+    short: Wide Path
+    sight: >
+      You are on a wide dirt path. To the north is the tall tower of the aedificium and to the south you see
+      the smaller monastery bell tower.
+flag:
+  - outdoors

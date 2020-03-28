@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:square"
+      north:
+        target: "scene:aber:novice:pool"
+      south:
+        target: "scene:aber:novice:stream_3"
+    short: Further Downstream
+    sight: >
+      The water forms more of a stream once again at this point. The water moves a little faster and you can
+      see more signs of erosion. For the first time you notice that it is not really grass that you are
+      walking on, but clover.
+flag:
+  - outdoors
+  - real

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saic:9"
+      west:
+        target: "scene:aber:saic:6"
+    short: Deeper in the cave
+    sight: >
+      You are walking toward the force that you were feeling. A small river of blood flows eastward. You feel
+      that an omnipresent force is pretty close to you. It seems like great evil lies ahead. When you look
+      around you, you can see some human bodyparts lying around. You wonder who did this. You can continues to
+      the east of come back to the west.
+flag:
+  - saic

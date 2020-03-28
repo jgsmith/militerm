@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: Under the Stage
+    sight: >
+      You are under the stage of the Castle Playhouse. Cobwebs cover the walls and you break through them as
+      you walk.
+flag:
+  - light

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon31"
+      east:
+        target: "scene:aber:saxon:saxon32"
+      north:
+        target: "scene:aber:saxon:saxon31"
+      south:
+        target: "scene:aber:saxon:saxon31"
+      up:
+        target: "scene:aber:saxon:saxon21"
+      west:
+        target: "scene:aber:saxon:saxon31"
+    short: &+rBlood &+bSea&*
+    sight: >
+      As float atop the sea, you can hear the cries of tortured souls drifting up from the bottom. You wonder
+      what lives down below this hordid sea. If you could only find the way down..
+flag:
+  - dark
+  - hot
+  - onwater
+  - outdoors

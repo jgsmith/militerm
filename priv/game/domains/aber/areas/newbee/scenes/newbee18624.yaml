@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:newbee:newbee18630"
+      west:
+        target: "scene:aber:newbee:newbee18623"
+    short: Another Turn
+    sight: >
+      Hmmm... the passage turns south here. You beginning to realize you can easily lose your bearings if you
+      aren't careful, and you don't think you would like spending too much time here...
+flag:

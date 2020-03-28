@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:storeroom"
+      north:
+        target: "scene:aber:eastcoast:niche"
+      south:
+        target: "scene:aber:eastcoast:entrance"
+    short: Round Cave
+    sight: >
+      You walk into a somewhat dank and musty smelling cave. Looking at the furs and the animal heads lined up
+      on the walls, you must surmise that this is the humble residence of the Trapper, with all the piles of
+      useless traps lying nearby in a corner. From here, you spy a darker niche in the northern end of the
+      cave, while to the east is a dark hole that your light source cannot penetrate.
+flag:
+  - dark
+  - soundproof

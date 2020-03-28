@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest73"
+      north:
+        target: "scene:aber:rainforest:forest74"
+      west:
+        target: "scene:aber:rainforest:forest71"
+    short: River Bank
+    sight: >
+      You are on the bank of the river. It is very wide at this point although the river has a very long way
+      to go until it reaches the sea. You can continue along the bank or head north into the forest.
+flag:
+  - outdoors

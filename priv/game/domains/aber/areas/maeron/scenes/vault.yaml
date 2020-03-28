@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: &+WInside The Vault
+    sight: >
+      This rather smallish room appears to have been untouched by the passing of time. Its reinforced iron
+      walls and floor gleam under your light. This room was obviously constructed with the highest security in
+      mind, as it appears nothing mortal could penetrate its defenses. You may return to the laboratory by
+      heading &+RSouth&*.
+flag:
+  - dark
+  - nosummon
+  - soundproof
+  - cantsummon

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:beach:beach2"
+      south:
+        target: "scene:aber:village:green"
+    short: "Sadie's Room"
+    sight: >
+      As you wander across a beautiful stretch of beach, you spy a lonely beach house. Your curiousity draws
+      you inside. Once there you are amazed with the beauty and peacfulness you find. On the West wall you see
+      nothing but windows looking out over the most beautiful ocean you have ever seen. The waters are so
+      blue, it seems like the sky has come down to touch the edge of the earth. There is a lit fireplace, with
+      burning logs crackling. There are candles burning on the mantle produce a peaceful dim atmosphere about
+      the room. In the shadows of light you see a soft white bear skin rug in front of the fireplace. Soft
+      music is playing. You feel so at ease here. It would be easy to fall fast asleep if not careful. This
+      place must belong to someone who loves the ocean very much. As you lie by the fire you hear the faint
+      roar of the ocean waves outside.
+flag:

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: &+RPerturbations
+    sight: >
+      This is the disformed segment of Adept's memory which retains the objects and other garbage necessary to
+      complete the Jenintog quest.
+flag:

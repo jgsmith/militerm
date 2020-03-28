@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon7"
+      south:
+        target: "scene:aber:town:town55"
+    short: Drawbridge
+    sight: >
+      Standing on the drawbridge you notice the size of the castle and the splendor of your surroundings. To
+      the north you may enter the castle and to the south a beautiful road winds away into the distance.
+flag:
+  - outdoors

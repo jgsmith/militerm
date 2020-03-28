@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:doom:f3"
+    short: &+cThe Gates to Doom
+    sight: >
+      You are in a small clearing. To your south is a path through the forest surrounded by trees. To the
+      north of you is a giant iron gate, and on each side of the gate is a wall stretching out for miles.
+      Looking through the gate you can kind of make out a small town. The gates look very large and heavy.
+flag:
+  - outdoors

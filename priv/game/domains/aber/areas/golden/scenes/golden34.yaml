@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: &+WChasm&*
+    sight: >
+      You have chosen poorly. The strange black mist that was drifting from the northern exit comes from a
+      bottomless chasm. It seems like you are falling for an eternity until you hit the bottom, splattering
+      beyond recognition.
+flag:
+  - dark
+  - death

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rats:hallway_2"
+      up:
+        target: "scene:aber:rats:stairsup"
+    short: On the staircase
+    sight: >
+      You are standing on a small landing in the middle of the staircase. The whole staircase is made of wood.
+flag:

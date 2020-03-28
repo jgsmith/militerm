@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven8"
+      east:
+        target: "scene:aber:heaven:heaven18"
+      up:
+        target: "scene:aber:heaven:heaven13"
+    short: "Heaven's Forest"
+    sight: >
+      You on a path in a vast forest. Above you is a palace seeingly made of diamond. To the east is a silver
+      sea. Below you you spy a land of milk and honey.
+flag:
+  - private

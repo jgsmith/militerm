@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter10"
+      north:
+        target: "scene:aber:enchanter:enchanter10"
+      up:
+        target: "scene:aber:enchanter:enchanter12"
+    short: Halfway to the Top of Signal Mountain
+    sight: >
+      The footing is treacherous here, but the view is worth it. Just wait till you get to the top.
+flag:
+  - outdoors
+  - real
+  - tempreal

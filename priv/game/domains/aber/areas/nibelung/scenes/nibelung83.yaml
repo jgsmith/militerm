@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung84"
+      east:
+        target: "scene:aber:nibelung:nibelung82"
+    short: Damp Hall
+    sight: >
+      This short hallway links the guard room to the dungeons below. A chilled breeze blows from the
+      stairwell, sending shivers up your spine. The walls are moist to the touch, and you notice mildew
+      growing here and there, giving the walls a polka-dot effect.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cottage:cottage18"
+      south:
+        target: "scene:aber:cottage:cottage20"
+    short: Still Water
+    sight: >
+      You're knee-deep in the still waters of the underground resevoir. These waters extend west around a bend
+      lying to the south.
+flag:
+  - dark

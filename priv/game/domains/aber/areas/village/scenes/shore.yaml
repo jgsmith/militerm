@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:jetty"
+      north:
+        target: "scene:aber:beach:beach1"
+      south:
+        target: "scene:aber:treadmill:tread15"
+      west:
+        target: "scene:aber:village:road2"
+    short: Village Shore
+    sight: >
+      You stand on the sea shore, to the east of the village. A narrow jetty leads east out into the waves.
+      The road also leads westwards back into the center of the village.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden33"
+      west:
+        target: "scene:aber:golden:golden37"
+    short: &+WHall of the Headless&*
+    sight: >
+      You have chosen wisely. Your body is still intact, but only because two sharp half-circle blades that
+      were supposed shoot out of the wall and decapitate you have rusted in place. The tunnel continues to the
+      west.
+flag:
+  - dark

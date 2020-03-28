@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:deathlok:deathlok6"
+      north:
+        target: "scene:aber:deathlok:deathlok8"
+    short: Temple of Death
+    sight: >
+      Before you lies the Temple of Death. Entry into the temple, lies to the north. Looking about you, you
+      see a huge sacrifical pit that allows you to pit items in ofference to Death. Gazing around, you notice
+      that the temple is well constructed in reverence of Death. Looking to your left, you see huge pillars
+      that symbolize a millenia of destruction due to Death's rule over the land. Looking to your right, you
+      see unknown runes that lie on the wall. Looking closer, you realize that the runes are written in Latin
+      and Greek. Suddenly, you feel an evil presence forcing you to go north. Entry into the Temple means
+      ultimate annhilation, but leaving the temple means Death has prevailed over you.
+flag:
+  - dark

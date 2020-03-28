@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund79"
+      north:
+        target: "scene:aber:sommerlund:sommerlund77"
+      south:
+        target: "scene:aber:sommerlund:sommerlund80"
+    short: Steel Bridge
+    sight: >
+      A vast bridge of pure black metal spans the chasm here. Despite the extreme heat, the bridge does not
+      melt. The ends of it are festooned with metal spikes, preventing unauthorized transport vehicles from
+      crossing. At the bottom of the chasm is a nest for a VERY large creature. It lies on a mound jutting up
+      above the lava bed.
+flag:
+  - hot
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9916"
+      south: null
+      west:
+        target: "scene:aber:ghenna:ghenna9917"
+    short: Blood Tavern.
+    sight: >
+      You are standing inside Blood Tavern - a bizarre looking place, at first sight. The parquet floor creaks
+      under the weight of an odd looking bar to the north which seems to be moving somehow. Next to the bar a
+      stairwell disappears into blackness above. The ceiling is vaulted, and sports three candeled
+      chandeliers, which hang like victims above you.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills13"
+      north:
+        target: "scene:aber:caledonia:hills19"
+      west:
+        target: "scene:aber:caledonia:hills20"
+    short: Summit Of Ben Mor
+    sight: >
+      You are on the highest point of the peak known as Ben Mor. Your view over the flatlands to the west is
+      unimpeded and you can see all the way to the infamous Castle Hohenzollern, somewhat hazy and ill-defined
+      in the distance. To the north, halfway down the mountain, is a small cottage in which you could perhaps
+      shelter from the cold wind that chills your bones as you stand here.
+flag:
+  - outdoors

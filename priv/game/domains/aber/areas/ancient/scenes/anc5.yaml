@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Altitude = 900
+The Swamp
+    sight: >
+      You have entered a large swamp area. Suddenly you find out that you can't move your feet any more.
+      &+gThe Swamp Thing rises up from the mud... &+gYou are swallowed by the Swamp Thing... &+gYou are not
+      feeling very good now... &+R*BURP*
+flag:
+  - outdoors
+  - death

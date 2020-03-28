@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon22"
+      north:
+        target: "scene:aber:talon:talon24"
+    short: Inside the Fissure
+    sight: >
+      This is a small, dark crack in the earth, with walls barely large enough to squeeze past, while holding
+      your breath. The fissure stretches up into the darkness, and becomes too narrow to pass through to the
+      west. You come upon an entrance to a lit cave to the north.
+flag:

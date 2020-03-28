@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis44"
+      west:
+        target: "scene:aber:atlantis:atlantis41"
+    short: Intersection
+    sight: >
+      You've reached an intersection just off of the Courtyard. There is an opening in the buildings, leading
+      off into what looks like servant's quarters, but it is being guarded. Merfolk bustle mostly out of the
+      opening, heading out towards the throne room to the south. A few others cross the courtyard to the west
+      on other business.
+flag:
+  - underwater

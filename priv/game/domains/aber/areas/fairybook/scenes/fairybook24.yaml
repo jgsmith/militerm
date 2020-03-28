@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook23"
+    short: The Mushroom
+    sight: >
+      You stand atop a mushroom, over-looking the rest of the mushroom field. The mushroom you stand on is
+      purple and red, and you cannot recall having ever seen one like this before. From here, you can see the
+      field of flowers to the west, the paths to the north and south, and a house to the east.
+flag:
+  - nomobiles
+  - outdoors

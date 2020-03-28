@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pyramid:pyramid23"
+      west:
+        target: "scene:aber:pyramid:pyramid25"
+    short: "Queen's Chamber"
+    sight: >
+      There is a similar shrine here to the one in the King's Chamber, yet there are far more chests pushed
+      against the opposite wall. Jars holding herbs, spices and oils to annoint the long-dead Queen are capped
+      with fine &+Walabastar&N stoppers and sit waiting for Sitman's attendants to arise to the afterlife and
+      minister to their mistresses. Through the open door, you see a smaller sarcophagus holding the body of
+      the young queen.
+flag:
+  - dark

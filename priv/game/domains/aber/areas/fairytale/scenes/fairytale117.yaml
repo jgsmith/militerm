@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale115"
+    short: Bedroom
+    sight: >
+      You have entered the smaller of two guest rooms. The only exit is to the north, into the hallway. A
+      closet, a small bed, a tiny desk, and a padded chair decorate the room. A tapestry is spread across the
+      west wall, bulging slightly in the center as though it were warped by water.
+flag:

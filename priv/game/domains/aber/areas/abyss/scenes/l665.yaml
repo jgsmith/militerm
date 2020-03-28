@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:l666"
+      north:
+        target: "scene:aber:abyss:netherhells"
+      up: null
+    short: Level 665
+    sight: >
+      This is the next to last level of the Abyss. Below you, you can just make out the floor of the Abyss. To
+      the north a tunnel has been bored into the rock. Words cut into the rock next to the entry remove all
+      doubt who dwells here: I, Guxx Unfufadoo, rule this region soon your head I'll be a squeezin' A gap in
+      the stairs above you prevents you from going up.
+flag:
+  - dark

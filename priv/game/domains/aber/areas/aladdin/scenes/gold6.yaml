@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:aladdin:gold5"
+      south:
+        target: "scene:aber:aladdin:gold7"
+    short: Within the Mounds of Gold
+    sight: >
+      More gold and jewels. How crazy is this? If you could take all of this stuff you could probably wiz 1...
+      2... 3 thousand times! But since you can't, you might as well just go north or south.
+flag:
+  - light

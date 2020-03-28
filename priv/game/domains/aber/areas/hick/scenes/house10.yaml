@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:house9"
+    short: Kitchen
+    sight: >
+      You start to feel a little hungry as you take in the smells of freshly cooked food. The kitchen is very
+      nice with all of the appliances that are needed for someone to prepare a wonderful meal.
+flag:

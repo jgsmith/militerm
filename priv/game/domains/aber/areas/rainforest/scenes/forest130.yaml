@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest134"
+      north:
+        target: "scene:aber:rainforest:forest126"
+      south:
+        target: "scene:aber:rainforest:forest131"
+      west:
+        target: "scene:aber:rainforest:forest135"
+    short: Open Forest
+    sight: >
+      Here the trees are widely spaced, yet there is very little ground cover. The soil here is very low in
+      nutrients and even the trees have a hard time finding sufficient sustenance in the ground. There are
+      exits in every direction.
+flag:
+  - outdoors
+  - rainforest

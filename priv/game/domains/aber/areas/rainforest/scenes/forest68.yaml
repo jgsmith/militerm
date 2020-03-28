@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest69"
+      west:
+        target: "scene:aber:rainforest:forest66"
+    short: Ant Trail
+    sight: >
+      The forest floor is covered with leaves and twigs, and across this litter marches a long line of large
+      ants. The trail consists of several lines of one- way traffic, flanked by defensive soldiers patrolling
+      the borders. You are careful not to get too close, for they can give a very painful bite and tend to
+      attack by the hundred.
+flag:
+  - outdoors
+  - rainforest

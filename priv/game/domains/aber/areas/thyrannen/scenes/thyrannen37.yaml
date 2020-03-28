@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen38"
+      west:
+        target: "scene:aber:thyrannen:thyrannen36"
+    short: Marsh
+    sight: >
+      The marsh waters here are as unforgiving as the rest of the marsh. You are tired and weary, and the
+      marsh seems to be pulling you deeper into its waters. To the north is what looks to be a cave entrance.
+flag:
+  - outdoors

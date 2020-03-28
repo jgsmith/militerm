@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq04"
+      up:
+        target: "scene:aber:nwbeaches:beachqq02"
+    short: On the Steps
+    sight: >
+      Nearing the bottom, you really begin to get a good whiff of the clean sea air as a breeze ruffles your
+      clothing. You begin to feel a bit better about your day - the sea can do that to a person.
+flag:
+  - outdoors

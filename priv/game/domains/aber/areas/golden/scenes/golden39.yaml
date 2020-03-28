@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden40"
+      up: null
+    short: &+WSecret Passage&*
+    sight: >
+      After pushing the statue aside, you have crawled down into a tiny, cramped hand-dug tunnel. There are
+      veins of gold running horizontally across the passage, rounding a bend in the tunnel. The passage
+      continues to the north.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd36"
+      north:
+        target: "scene:aber:sdesert:desertsd35"
+      south:
+        target: "scene:aber:sdesert:desertsd35"
+      west:
+        target: "scene:aber:sdesert:desertsd34"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction, a rugged terrain reminding you of the moon. Quite a way off
+      to the south-west you can just see a mesa, sitting on the horizon.
+flag:
+  - outdoors
+  - hot

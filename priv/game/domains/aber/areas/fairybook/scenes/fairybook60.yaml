@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook59"
+      south:
+        target: "scene:aber:fairybook:fairybook61"
+    short: Odd Beach
+    sight: >
+      You continue down the path and find yourself suddenly on a beach. To the north and south are wooded
+      paths, but here is a piece of sandy paradise. The surf crashes at your feet, washing up shells and
+      stones and things.
+flag:
+  - nomobiles
+  - outdoors

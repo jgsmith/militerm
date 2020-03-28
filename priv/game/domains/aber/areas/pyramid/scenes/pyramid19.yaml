@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid18"
+      south:
+        target: "scene:aber:pyramid:pyramid20"
+      up:
+        target: "scene:aber:pyramid:pyramid27"
+    short: Sepulchral Hall
+    sight: >
+      The walls of this long hall are also filled with bright colorful paintings depicting the rites of
+      worship to the gods. Your excitement grows as you see several pictures of a falcon, rumored to be the
+      chosen symbol of the high priestess Neferteri. Visions of the treasure she reportedly stole from the
+      people dance in your head urging you to explore and move deeper into the pyramid. Again you wonder if
+      the &+mhieroglyphs&N on the wall hold the secret to defeating Neferteri and the way to obtaining her
+      treasure.
+flag:
+  - dark

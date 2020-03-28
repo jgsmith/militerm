@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:eforest:fungus"
+    short: Large Lake
+    sight: >
+      Although not as cool as the marvelous fungus cavern, this room is much more comfortable than the
+      surrounding caves. In the center of this cavern is a large &+Blake&*. Looking over the walls, you notice
+      strange writing. To you, it almost looks like elven writing, somehow corrupted. Overall, the entire
+      cavern seems quite gloomy. You better leave this place before you get real depressed!
+flag:
+  - dark

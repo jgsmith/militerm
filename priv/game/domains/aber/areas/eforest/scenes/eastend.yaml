@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:eforest:planning"
+      west:
+        target: "scene:aber:eforest:cathedral"
+    short: East End of the Cathedral
+    sight: >
+      You are now in the eastern section of the cathedral. A subdued glow emanates from a phosphorescent moss
+      lining the walls and ceiling. Against the far eastern wall is a large &+Cthrone&* hewn from granite. A
+      thick layer of dust covers everything. To the north, a passage leads to a small, brightly lit room.
+flag:

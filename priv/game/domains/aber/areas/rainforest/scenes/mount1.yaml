@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc1"
+      south:
+        target: "scene:aber:rainforest:mount2"
+    short: Skirting The Mountainside
+    sight: >
+      You are traversing a treacherous slope, following a narrow path which runs south from here. Further
+      south it looks dangerously crumbly, but to the north is surer ground.
+flag:
+  - outdoors

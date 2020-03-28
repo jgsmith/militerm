@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:caledonia:hills8"
+      south:
+        target: "scene:aber:caledonia:hills15"
+      west:
+        target: "scene:aber:caledonia:hills9"
+    short: Whiting Fell
+    sight: >
+      You are in a picturesque little fell, surrounded by trees and hidden from the sun for much of the time
+      by the mountains to the south and east. A thin veil of mist curls about among the trees, clinging to the
+      branches which are beginning to drip from the accumulated condensation.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:335"
+      south:
+        target: "scene:aber:cave:333"
+    short: The Rubble
+    sight: >
+      Rubble is strewn all about the room. Bones are scattered everywhere and some rusted weapons are stuck in
+      the wall. A battle of long time past seems to have taken place in the very place you are standing in.
+      You sense great powers were used here in this battle. The passage continues on northward.
+flag:
+  - dark

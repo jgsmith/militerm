@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:castle10"
+      south:
+        target: "scene:aber:avairy:castle3"
+      west:
+        target: "scene:aber:avairy:castle6"
+    short: Corridor
+    sight: >
+      There is nothing to say about this corridor. I'm sorry, I've been trying to think of something creative
+      to say about it, but I can't... It's just a corridor. "And that's all I have to say about that."
+flag:
+  - light

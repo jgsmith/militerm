@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:forest1"
+    short: The Coach
+    sight: >
+      You get into the coach and it moves off, out of the City. Before you lie broad green fields, and a rough
+      sandy road stretching brown-gold into the distance with a wood beyond. Somewhere a lark sings in the
+      summer sky, a blue sky, patched here and there with puffy fair-weather clouds, the sun high amongst them
+      now.
+flag:
+  - outdoors

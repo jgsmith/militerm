@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town42"
+      north:
+        target: "scene:aber:town:town44"
+      west:
+        target: "scene:aber:app:app1"
+    short: Commerce Road
+    sight: >
+      This dirt road starts at the town gates and heads off into the distance. On the side of the road there
+      is a sign that says 300 miles to the King's castle. The road is very crowded, and you see large commerce
+      caravans moving along the length of the road as far as you can see. At the corner lies a small tower.
+flag:
+  - outdoors

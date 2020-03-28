@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter40"
+      up:
+        target: "scene:aber:enchanter:enchanter39"
+      west:
+        target: "scene:aber:enchanter:enchanter37"
+    short: Tower Landing
+    sight: >
+      You can go up, or down. It looks awfully far... Or you can go back west. It's up to you.
+flag:
+  - oneperson

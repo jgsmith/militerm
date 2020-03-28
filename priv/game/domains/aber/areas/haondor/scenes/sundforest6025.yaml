@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6027"
+      south:
+        target: "scene:aber:haondor:sundforest6024"
+      west:
+        target: "scene:aber:haondor:sundforest6026"
+    short: Beside The Lake In A Grassy Field
+    sight: >
+      The &+Ggrass&* stops shortly before the &+Blake&*, replaced by mud covered in &+ytracks from the local
+      animals. When you come close many animals scatter into the tall grass and some even into the forest. To
+      the west you see &+Ybirds&* circling in the high in the air, and to the north you see a small lake,
+      surrounded by tall reeds. The field continues to the south, and the forest blocks passage to the east.
+flag:
+  - outdoors

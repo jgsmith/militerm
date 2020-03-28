@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6724"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6726"
+    short: Climbing a small bluff
+    sight: >
+      A few gnarled, wind-tortured trees spread their meager limbs in hunched eastward arcs. There is little
+      that is extraordinary about this place. It is deserted, it is lonely, yet a particularly green bluff
+      forms a plateau just above you. It calls to you in an eerie way, yet emits a chaotic aura that might be
+      best left alone.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:noxypickle:ladder"
+      east:
+        target: "scene:aber:noxypickle:door"
+    short: Looted Chamber
+    sight: >
+      The chamber you are in was once a place of some import, for it is well- hewn and a lot of care was put
+      into its construction. Now, however, it is bare, stripped of its contents by looters. Next to the west
+      wall is a hole in the floor, and a series of steps, carved into the solid rock, lead downwards into the
+      darkness.
+flag:
+  - dark

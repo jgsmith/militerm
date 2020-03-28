@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:office"
+    short: "Lich's Room"
+    sight: >
+      You stand in the Lich's bedroom. The walls are covered with tapestries, and the floor is richly
+      carpeted. A huge feather bed is in the middle of the room. A small glowing ball provides a soft light.
+      The Lich's office is just to the north.
+flag:

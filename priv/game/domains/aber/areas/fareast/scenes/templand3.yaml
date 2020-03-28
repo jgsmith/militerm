@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:temple1"
+      south:
+        target: "scene:aber:fareast:templand2"
+      west:
+        target: "scene:aber:fareast:templand1"
+    short: Snowy Peak
+    sight: >
+      The highest point in this part of the mountains flattens out to form a mesa, covered in a thin blanket
+      of powdery snow. The snow does not reach any lower, but seems to stay contained on this level. Steep
+      slopes lead down into the crags and cliffs below, either to the south or west. To the east, a short walk
+      would take you to the terraced temple that fills the horizon. Snow clings to its eaves, and piles in
+      drifts before its open doors.
+flag:
+  - outdoors

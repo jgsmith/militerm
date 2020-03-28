@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter43"
+      west:
+        target: "scene:aber:enchanter:enchanter53"
+    short: Empty Hallway
+    sight: >
+      That's just it... it's an empty hallway. You hear the crashing of a giant hammer somewhere to the east.
+flag:

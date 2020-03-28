@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere42"
+      south:
+        target: "scene:aber:brookmere:brookmere57b"
+    short: The Churning River
+    sight: >
+      You are bobbing up and down on the underground river as it swirls and boils around you. From here you
+      can direct your craft to the sandy island in the middle of the river or to the silty shore.
+flag:
+  - onwater

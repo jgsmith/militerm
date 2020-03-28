@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road6e"
+      west:
+        target: "scene:aber:newvillage:road4e"
+    short: The Path
+    sight: >
+      The path that you are walking on through the prairie meets with a few scattered homes ahead, and seems
+      to widen off to the west. Way off in the distance there are some buildings that seem to belong to some
+      small town.
+flag:
+  - outdoors

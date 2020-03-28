@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus67"
+      up:
+        target: "scene:aber:nexus:nexus65"
+    short: Magma Pond
+    sight: >
+      The mad haze of red is all around with intermittent flashes of bright yellow flame. Magma swirls around
+      in a slow circle, always kindling the destructive potential here as a sort of undeniable threat to
+      surface dwellers.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

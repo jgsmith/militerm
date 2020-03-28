@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:volcano:bandilbar3"
+      up:
+        target: "scene:aber:volcano:bandilbar1"
+    short: Gully
+    sight: >
+      The mountain looms above you as you struggle to keep your footing in this small gully, which above you
+      climbs steeply up to the path by which you came here, and levels off just below you. At this point the
+      gradient is still quite steep, and gorse bushes clinging to the slope grow out at an angle. There is
+      little else in the way of vegetation though, and your way is relatively unencumbered. To the south,
+      still some way below you, a little-used path begins, winding westwards.
+flag:
+  - outdoors

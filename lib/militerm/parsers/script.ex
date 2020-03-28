@@ -95,7 +95,7 @@ defmodule Militerm.Parsers.Script do
       ...>     end
       ...>
       ...>     reacts to post-foo:gaz with do
-      ...>       : "<actor:name> <foo> around."
+      ...>       :"<Actor:name> <foo> around."
       ...>     end
       ...>
       ...>     reacts to pre-move:accept with
@@ -104,6 +104,16 @@ defmodule Militerm.Parsers.Script do
       ...>     reacts to post-move:accept with
       ...>       if physical:location.detail:default:position and not (this.physical:position & trait:allowed:positions) then
       ...>         set physical:position to physical:location.detail:default:position
+      ...>       end
+      ...>
+      ...>     reacts to post-scan:env:brief as actor with
+      ...>       if eflag:brief-scan then
+      ...>         :"<Actor:name> <look> around."
+      ...>         Emit( "{title}{{ location:environment }}{/title}" )
+      ...>         Emit( "{env sense='sight'}{{ Describe() }}{/env}" ) #"
+      ...>         Emit( "Obvious exits: {{ ItemList( Exits() ) }}." ) #"
+      ...>         reset eflag:brief-scan
+      ...>         reset eflag:scanning
       ...>       end
       ...>
       ...>     reacts to msg:sight with
@@ -121,6 +131,7 @@ defmodule Militerm.Parsers.Script do
       "foo:bar"
       iex> info[:mixins]
       ["positional", "movable", "gendered", "reading", "smelling", "viewing"]
+      iex> IO.inspect(info)
       iex> info[:calculations]
       [
         {"bar", {
@@ -1039,7 +1050,7 @@ defmodule Militerm.Parsers.Script do
       Scanner.scan(source, ~r/:\s*/) ->
         case parse_expression(source) do
           {:ok, exp} ->
-            {:sensation, "sight", exp}
+            {:sensation, "sight", 0, exp}
 
           {:error, _} = otherwise ->
             otherwise
@@ -1047,8 +1058,9 @@ defmodule Militerm.Parsers.Script do
 
       Scanner.scan(source, ~r/#{@sensations}\s*:\b/) ->
         with [_, sense | _] <- Scanner.matches(source),
-             {:ok, exp} <- parse_expression(source) do
-          {:sensation, sense, exp}
+             {:ok, exp} <- parse_expression(source),
+             {:ok, strength} <- maybe_parse_sensation_strength(source) do
+          {:sensation, sense, strength, exp}
         else
           {:error, _} = otherwise ->
             otherwise
@@ -1114,6 +1126,24 @@ defmodule Militerm.Parsers.Script do
                "Expected a dictionary, list, number, string, constant, variable, or expression"
              )}
         end
+    end
+  end
+
+  defp maybe_parse_sensation_strength(source) do
+    if Scanner.scan(source, ~r/\s*@\s*(([+-]\d+)|(whisper|normal|shout))/) do
+      case Scanner.matches(source) do
+        [_, _, "", word] ->
+          case word do
+            "whisper" -> {:ok, -2}
+            "normal" -> {:ok, 0}
+            "shout" -> {:ok, +2}
+          end
+
+        [_, _, number, _] ->
+          {:ok, String.to_integer(number)}
+      end
+    else
+      {:ok, 0}
     end
   end
 

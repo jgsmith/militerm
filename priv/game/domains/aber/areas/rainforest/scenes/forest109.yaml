@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest110"
+      south:
+        target: "scene:aber:rainforest:forest111"
+    short: Under The Trees
+    sight: >
+      You are on the bank of the river, overshadowed by a clump of trees which reach out over the water,
+      dropping into it red berries from time to time, where they are quickly snapped up by fish darting up
+      from the bottom. Such fish will carry the seeds for miles up or down the river where they will deposit
+      them to grow at the water's edge. Thus do these fruit trees propagate. You try a berry experimentally
+      but find the taste highly unpleasant.
+flag:
+  - outdoors

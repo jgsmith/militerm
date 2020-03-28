@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest72"
+      south:
+        target: "scene:aber:rainforest:river3"
+      west:
+        target: "scene:aber:rainforest:forest70"
+    short: Overgrown Bank
+    sight: >
+      As you proceed along the bank of the river you find your way hampered by tangled shrubs which grow from
+      the top of the bank and tumble straggling into the water. You can follow the river bank east and west
+      from here.
+flag:
+  - outdoors
+  - nomobiles

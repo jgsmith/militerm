@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore18"
+      south:
+        target: "scene:aber:avairy:cave1"
+      west:
+        target: "scene:aber:avairy:shore16"
+    short: The Shore
+    sight: >
+      You are on the northern shore line. To the south, a large opening in a cliff allows passage into a dark
+      cave. Looking down, you notice the beauty and purity of the sand. You remove a shoe and run your toes
+      through it. The shore line continues to the east and west.
+flag:
+  - outdoors
+  - light

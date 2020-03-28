@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:tunnel"
+      north:
+        target: "scene:aber:novice:square"
+      west:
+        target: "scene:aber:novice:stream_3"
+    short: End of the Path
+    sight: >
+      You have reached the end of the main village path. To the west you can see the water slowly heading away
+      from you. To the east is the entrance to a tunnel.
+flag:
+  - outdoors
+  - real

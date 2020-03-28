@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni74"
+    short: Deufel Temple Balcony
+    sight: >
+      The balcony overlooking the main floor of Deufel Temple allows more people to occupy the temple when
+      needed.
+flag:
+  - cantsummon

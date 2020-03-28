@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:catacomb"
+      south:
+        target: "scene:aber:cathedral:wolven"
+    short: Western Catacombs
+    sight: >
+      The &+ydust&* here is chokingly thick, and obscures your vision. You hear scraping and panting to the
+      south.
+flag:
+  - dark

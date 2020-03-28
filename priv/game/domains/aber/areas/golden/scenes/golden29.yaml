@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden30"
+      west:
+        target: "scene:aber:golden:golden27"
+    short: &+WSideroom&*
+    sight: >
+      This room is filled with all kinds of worthless items. There are a few pots and weapons, but nothing of
+      importance. There is a another small room to the north.
+flag:
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6780"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6776"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6777"
+    short: A black-bottom pool
+    sight: >
+      Swamp-like waters black as coal enclose you and wash like cold slime over every limb, each movement
+      sending a chill coursing through from ears to toes. The smooth, dark bottom of the pool shows traces of
+      faded ornamental designs, now mostly hidden and eroded with moss and algae. Few can pin a name on the
+      grotesque underwater creatures that now make this their home.
+flag:
+  - dark
+  - underwater

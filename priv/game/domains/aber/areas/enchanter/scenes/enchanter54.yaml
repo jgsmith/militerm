@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter53"
+      west:
+        target: "scene:aber:enchanter:enchanter55"
+    short: Gallery
+    sight: >
+      You yawn in boredom as you walk through this art gallery. As art goes, this is definitely nothing to
+      write home about. Almost all of the paintings are still-life fruit bowls. One, however, catches your
+      eye... it's a painting of the castle as it was before Krill took it over. It's hard to believe the
+      castle was once beautiful. You notice that in the &+Cpainting&*, there are only four towers. It seems
+      that Krill added his fifth tower himself. You shiver in fear as you think about that inky black tower.
+      The painting seems to be glowing faintly.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:mountain2"
+      south:
+        target: "scene:aber:fantasy:forest2"
+    short: Head of Mountain Path
+    sight: >
+      Looking ahead you notice that the mountains that this path goes through are pretty impressive. They seem
+      to just continue onward and upward forever. The path continues to the north and the forest is to the
+      south.
+flag:
+  - outdoors
+  - nomobiles

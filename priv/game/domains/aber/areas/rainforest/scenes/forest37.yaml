@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:forest28"
+      east:
+        target: "scene:aber:rainforest:forest38"
+      north:
+        target: "scene:aber:rainforest:forest31"
+      south:
+        target: "scene:aber:rainforest:forest34"
+    short: In The Canopy
+    sight: >
+      You are up in the canopy. Here on the spreading branches many plants make their home which you would
+      normally think of as belonging on the ground. Orchids and other epiphytes make use of their hosts in
+      order to catch the sun's rays which are too rare on the dim forest floor below. You can descend to the
+      ground or move across the branches into another tree.
+flag:
+  - outdoors

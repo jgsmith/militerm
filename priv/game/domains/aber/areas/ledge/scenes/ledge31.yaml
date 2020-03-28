@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge32"
+      south:
+        target: "scene:aber:ledge:ledge36"
+      west:
+        target: "scene:aber:ledge:ledge24"
+    short: Natural Cavern
+    sight: >
+      Hundreds of years ago the level of the sea was much higher and this cavern was not much more than a
+      large hole in the side of a submerged section of cliff. The wave action of the saltwater cut away at the
+      rock on the inside until one underwater cavern joined up with another unsubmerged cavern, effectively
+      flooding it also, and greatly enlarging its size. Now, the sea level has dropped since, draining the
+      water from the higher sections but still keeping the lower sections underwater. The cavern extends
+      itself to the west and south with some sort of wall to the east.
+flag:
+  - dark

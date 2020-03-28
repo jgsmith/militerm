@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:arena:arena12"
+    short: Small niche
+    sight: >
+      You look around this place and get a pleasant peaceful feeling. There is a nice smell in the air, and
+      you begin to think this is a nice quiet place to rest. There is certainly no other way in here, and any
+      creature larger than human size would not fit.
+flag:
+  - nosummon
+  - cantsummon
+  - negregen
+  - pkzone

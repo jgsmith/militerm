@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:forest2"
+      north:
+        target: "scene:aber:princess:forest1"
+      south:
+        target: "scene:aber:princess:forest5"
+      west:
+        target: "scene:aber:princess:death"
+    short: The Forest
+    sight: >
+      You continue along the path. You notice that the trees have changed colors from blue to green to yellow.
+      What a strange forest this is!! The path continues south. An ominous growling comes from a cave to the
+      west.
+flag:
+  - outdoors

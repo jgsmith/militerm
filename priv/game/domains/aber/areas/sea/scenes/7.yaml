@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: All At Sea
+    sight: >
+      The heavy seas and strong waves pound you out of existance. If this continues much longer, you're going
+      to lose your lunch.
+flag:
+  - death
+  - onwater

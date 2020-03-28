@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest131"
+      north:
+        target: "scene:aber:rainforest:forest125"
+      south:
+        target: "scene:aber:rainforest:forest132"
+    short: Stone God
+    sight: >
+      You are in a deep part of the forest where only a little light reaches the ground. An enormous stone
+      statue stands here, partially crumbled but still imposing. It appears to be a god of some kind, and its
+      terrible eyes are intact and manage to convey a sense of awesome power. Whether the race who carved it
+      is still flourishing somewhere in the heart of the rainforest, you have no idea.
+flag:
+  - outdoors
+  - rainforest

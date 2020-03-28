@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6635"
+    short: The aviary
+    sight: >
+      Shrill and murmuring bird calls alike assail your ears. The aviary is crowded with bird cages holding
+      the trained variety of species for sale, and something like aspirin is available on a small,
+      high-standing round table by the door.
+flag:
+  - nomobiles

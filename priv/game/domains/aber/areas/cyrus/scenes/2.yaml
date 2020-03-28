@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:4"
+      north:
+        target: "scene:aber:cyrus:5"
+      south:
+        target: "scene:aber:cyrus:1"
+      west:
+        target: "scene:aber:cyrus:3"
+    short: "&+cAsdam's Town Square"
+    sight: >
+      You feel the insanity floating in the air. Many people are running in the streets as if they were
+      escaping someone very scary. People are packing up and leaving the town. The houses are empty and
+      ruinous except two or three houses and the tavern.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:noxypickle:step"
+      north:
+        target: "scene:aber:noxypickle:cesspit"
+    short: Temple Of Nasty Smells
+    sight: >
+      Inside the temple a greenish light filters through cracks in the roof. A great pendulum hangs from a
+      gantry overhead, but it has long since stopped swinging. The thing that strikes you most is a powerful,
+      nauseating smell which seems to be coming from the north. However, the scent of the plants outside is
+      still strong enough to overcome the mind-clearing effects of this new odour.
+flag:

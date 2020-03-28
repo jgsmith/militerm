@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: &+cBrick House
+    sight: >
+      You are in a large brick house. The main feature of this room is book- shelves; a lot of shelves and a
+      lot of books. You can hear death cries much more loudly here coming from beneath you. Through an opening
+      you can see stairs that lead down into darkness.
+flag:

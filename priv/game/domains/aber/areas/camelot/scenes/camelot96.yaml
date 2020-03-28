@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot95"
+      up:
+        target: "scene:aber:camelot:camelot97"
+    short: The End Of The Trail (Finally!)
+    sight: >
+      You didn't think you'd make it, but here you are, at the end of the trail at last. Above you is a sheer
+      cliff face. From here it looks climbable, but just barely.
+flag:
+  - outdoors

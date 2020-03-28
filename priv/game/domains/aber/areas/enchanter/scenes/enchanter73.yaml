@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter75"
+      east:
+        target: "scene:aber:enchanter:enchanter76"
+      up:
+        target: "scene:aber:enchanter:enchanter74"
+      west:
+        target: "scene:aber:enchanter:enchanter37"
+    short: Tower Landing
+    sight: >
+      The stairs go up a long way, and down a long way. But there's a tunnel leading east that you didn't see
+      before. Dark smoke billows out of the tunnel and rises up the tower.
+flag:
+  - oneperson

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:grave:grave3459"
+    short: The Deep, Dark Pool
+    sight: >
+      Anyone or thing that fell into here was meant to stay here for a long time. It is very dark here but as
+      you swim around you can sense corpses, equipment, and SOMETHING else. Swimming up quickly would be a
+      very good idea.
+flag:
+  - nosnoop
+  - dark
+  - underwater

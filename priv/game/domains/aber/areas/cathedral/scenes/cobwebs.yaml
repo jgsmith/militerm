@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cathedral:lowpass"
+      west:
+        target: "scene:aber:cathedral:milbed"
+    short: &+LCobwebs
+    sight: >
+      The dimensions of this room seem to be made out by the thicker portions of webbing, rather than by
+      walls. you can vaguely make out exits to the north and west. In the center of the room is a small bed.
+      Its &+Ybrass&* head and base rise a few feet into the air. You feel fear in the gathering gloom, and
+      there's suddenly a movement in the corner of the room. There's nothing you can do, as you realize with
+      &+Rfright&*...
+flag:
+  - dark

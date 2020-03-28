@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome27"
+    short: An Opulent House
+    sight: >
+      You stand in a house, the size and splendor of which almost defies the imagination. The &+Cfloor&* is
+      done with hand crafted marble tile with silver and jeweled inlays. The light coming through the
+      exquisitely crafted stained glass &+Cwindows&* bathes the room in splendor and the &+Bfurniture&* looks
+      as though it was made by master craftsmen from all over the empire. A path through the estate is north
+      of here.
+flag:

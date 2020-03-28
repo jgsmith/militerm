@@ -1,0 +1,26 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:footcliff"
+      east:
+        target: "scene:aber:eastcoast:footcliff"
+      north:
+        target: "scene:aber:eastcoast:cave"
+      south:
+        target: "scene:aber:eastcoast:glade"
+      west:
+        target: "scene:aber:eastcoast:cliffpath"
+    short: At the Cave Entrance
+    sight: >
+      The path here rises up and you find yourself looking down into the murky swamp, wishing that you didn't.
+      A vast expanse of dark and demented plant growth, you feel some dreadfully evil influence has been the
+      cause of this. In the face of the cliff here is recessed a cave, where within, you can only discern
+      blackness, though you spy some boot prints leading in and out of the cave, evidence that someone resides
+      here. A smell emanates from the cave, reminding you of some old stale bread and musty animal skins. To
+      the east and west, the path continues to thread its way along the base of the cliff. Looking again into
+      the swamp, as if your eyes are drawn there, you spy a glimmer of gold in the dark murk, but before you
+      can blink to clear your vision, the bright spot is gone. The path leads off at a descending slope to the
+      east and west, and a smaller trail leads south, toward a small grassy glade.
+flag:
+  - outdoors

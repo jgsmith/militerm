@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:frobozz:rough"
+    short: Behind the Blackboard
+    sight: >
+      You are behind the large cupboard in a dusty and roughly made passage- way which leads eastwards into
+      darkness. A strong wind blow from the west.
+flag:
+  - dark

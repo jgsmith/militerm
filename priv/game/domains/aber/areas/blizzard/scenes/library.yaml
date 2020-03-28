@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:entrance"
+    short: The Library
+    sight: >
+      You are in a dusty, bare library. Hundreds of worm eaten &+Bbookcases&* stand devoid of all books, their
+      shelves laden only with dust. An archway leads north.
+flag:

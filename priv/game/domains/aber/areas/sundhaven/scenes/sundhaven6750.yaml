@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6652"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6751"
+    short: The Lodge of Wrath
+    sight: >
+      The home lodge of warriors is a surprisingly comfortable place, furnished with a thick, hardy rug of a
+      red so dark as to almost be black, beds shelved in bunks of hearty oak, a roaring fireplace in the
+      corner. Several large chairs stuffed with coarse wool are situated round the fire for the rowdy telling
+      of tales over inebriating brews.
+flag:
+  - peaceful

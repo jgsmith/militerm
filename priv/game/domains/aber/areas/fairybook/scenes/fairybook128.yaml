@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook129"
+      north:
+        target: "scene:aber:fairybook:fairybook126"
+    short: The Great Ditch
+    sight: >
+      You stand at a great ditch that crosses the road and divides the forest as far as you can see on either
+      side. It is a very wide ditch, and when you look over the edge you can see many big, jagged rocks at the
+      bottom. The sides are too steep to climb down, but you might be able to jump across. . . The path
+      continues to the north.
+flag:
+  - outdoors

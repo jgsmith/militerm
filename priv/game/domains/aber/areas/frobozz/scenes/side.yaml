@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:frobozz:by"
+    short: Side Entrance
+    sight: >
+      This is the west side of the bank of Frobozz and it seems much more promising than the main entrance.
+      That is due to a door of normal size and construction which is situated right in front of you in a
+      corner of the building. The bank is certainly in lack of windows, but you have already figured out that
+      the bank trusts the Great Under- ground Empire's inhabitants because this side entrance will certainly
+      not be impossible to break down even for you.
+flag:
+  - dark

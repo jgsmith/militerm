@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd00"
+      south:
+        target: "scene:aber:sdesert:desertsd02"
+    short: The Beginning Of The Southern Desert
+    sight: >
+      Scrub brush and cacti of many sorts are beginning to appear, you are thankful that they do not grow on
+      the path. To the &+gsouth&*, you see a desert, teeming with desert life.
+flag:
+  - outdoors

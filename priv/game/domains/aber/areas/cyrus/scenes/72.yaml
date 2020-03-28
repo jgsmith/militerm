@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:cyrus:71"
+    short: In front of a small house
+    sight: >
+      You are still walking on that trail until you arrive in front of the house. It is a small house, that
+      looks deserted. Probably nobody is living in such a place. A closed door is in front of that house.
+      Perhaps you could explore it? The trail only leads in the house, and back from where you came from.
+flag:

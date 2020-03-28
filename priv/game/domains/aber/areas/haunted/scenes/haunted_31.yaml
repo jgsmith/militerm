@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_33"
+      north:
+        target: "scene:aber:haunted:haunted_32"
+      south:
+        target: "scene:aber:haunted:haunted_31"
+      west:
+        target: "scene:aber:haunted:haunted_30"
+    short: Pumpkin Patch
+    sight: You are lost in the pumpkin patch.
+flag:
+  - real

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:passage"
+      up:
+        target: "scene:aber:cave:top_west"
+    short: West Tower
+    sight: >
+      You are in a small room at the base of the west tower. A narrow passage leads east, and a set of spiral
+      stairs climb up towards the top of the tower.
+flag:
+  - dark

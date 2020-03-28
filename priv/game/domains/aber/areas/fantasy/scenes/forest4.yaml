@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:swamp1"
+      north:
+        target: "scene:aber:fantasy:forestshop"
+      west:
+        target: "scene:aber:fantasy:forest3"
+    short: Small Pond in Forest
+    sight: >
+      There is a large clearing in the forest here with a small pond in the middle of it. The pond is a
+      beautiful shade of blue and you can see little fish swimming around in it. To the north is a small shop
+      and to the east is what looks to be the beginning of a swamp.
+flag:
+  - outdoors
+  - nomobiles

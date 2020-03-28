@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:kastle:18"
+    short: Castle Dungeons
+    sight: >
+      Rows of cells line the the walls of this place, however they are all empty now. A heavy iron door has
+      been set in the eastern wall.
+flag:
+  - dark

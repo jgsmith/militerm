@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:coastal"
+      north:
+        target: "scene:aber:chlyon:chlyon1"
+      south:
+        target: "scene:aber:eastcoast:point"
+      west:
+        target: "scene:aber:eastcoast:gold"
+    short: Eastern Cliff Top
+    sight: >
+      At least three hundred feet below you stand jagged rocks, deadly spires of teeth that could kill any who
+      are foolhardy enough to jump from here. Even if a lucky soul were to miss the rocks, then surely the
+      waves will be the end of them, crashing and whipping into the rocks with uncontrolled fury. Safer
+      grounds lie to the west, where a haze of yellow brilliance arises, and to the south toward a high point
+      at the cliff's end, but a thrill-seeking trail cuts a rut into the cliff face to the rocks below for
+      those that are not too encumbered.
+flag:
+  - outdoors

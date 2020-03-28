@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:37"
+      north:
+        target: "scene:aber:stjames:47"
+      south:
+        target: "scene:aber:stjames:45"
+      west:
+        target: "scene:aber:stjames:51"
+    short: On the Pond
+    sight: >
+      You are nearing the western side of the pond. Near you is a fountain, much smaller than the other main
+      fountain on the other side of the pond. Looming to the west is a gigantic wall.
+flag:
+  - outdoors
+  - onwater

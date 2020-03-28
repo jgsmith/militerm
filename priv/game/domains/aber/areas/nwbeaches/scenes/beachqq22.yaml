@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:nwbeaches:beachqq21"
+    short: "Lighthouse Keeper's Bedroom"
+    sight: >
+      A huge plush king size bed, four posted with satin drapes. A mahoganey dresser with a matching vanity
+      desk and mirror. This lighthouse keeper must be one heck of a guy!
+flag:

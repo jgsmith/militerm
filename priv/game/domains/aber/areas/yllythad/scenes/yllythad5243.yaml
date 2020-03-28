@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5248"
+      north:
+        target: "scene:aber:yllythad:yllythad5244"
+      south:
+        target: "scene:aber:yllythad:yllythad5242"
+      west:
+        target: "scene:aber:yllythad:yllythad5238"
+    short: In the Fog
+    sight: >
+      A dense fog has rolled in, making it hard to see for any distance. Everything seems to have gotten very
+      quiet, making it almost surreal in this area.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house13"
+      north:
+        target: "scene:aber:playhouse:house11"
+      west:
+        target: "scene:aber:playhouse:house15"
+    short: Hallway
+    sight: >
+      This hallway leads in several different directions. Hanging on the walls are various pictures of
+      children and adults alike. You think it is pretty safe to wander around up here. The hallway leads
+      north, west and east.
+flag:

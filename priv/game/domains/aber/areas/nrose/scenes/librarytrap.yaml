@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Library
+    sight: >
+      You fall thru a trap door and find yourself trapped in a room of the library. I hope someone can summon
+      you out.
+flag:
+  - dark
+  - private

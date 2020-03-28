@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cave:kitchen"
+    short: Pantry
+    sight: >
+      You are in the dwarves' pantry. The only exit is south into the kitchens.
+flag:
+  - dark

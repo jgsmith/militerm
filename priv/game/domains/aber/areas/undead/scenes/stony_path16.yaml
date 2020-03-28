@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:stony_path15"
+      south:
+        target: "scene:aber:undead:stony_path17"
+    short: Stony Path
+    sight: >
+      Continuing along the moat you still see no sign of how to cross. To the &+Cwest&* thick forest continues
+      to prevent progress. The only exits appear to be &+Cnorth&* and &+Csouth&*.
+flag:
+  - outdoors

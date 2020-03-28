@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest5"
+    short: Churning Pool
+    sight: >
+      A small waterfall crashes down here into a pool, making the water froth and churn. A few rounded rocks,
+      smoothed by continuous erosion, stick out of the water to form resting spots for the torrent ducks. You
+      struggle to keep your feet steady against the undertow.
+flag:
+  - outdoors

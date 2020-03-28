@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:40"
+      north:
+        target: "scene:aber:stjames:44"
+      south:
+        target: "scene:aber:stjames:42"
+      west:
+        target: "scene:aber:stjames:54"
+    short: Path Through St. James Park
+    sight: >
+      You are almost at the western edge of the pond. To the south is the grassy area, while to the north, the
+      pond is phasing out.
+flag:
+  - outdoors

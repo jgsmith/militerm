@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5537"
+    short: The City Streets
+    sight: >
+      Small houses line both sides of the street, and armed guards are posted at every junction. You see a
+      small &+Yposter&* pasted to the wall here.
+flag:
+  - outdoors

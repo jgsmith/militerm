@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:mugwumps"
+      north:
+        target: "scene:aber:jbs:dreams"
+      south:
+        target: "scene:aber:jbs:bears"
+      up:
+        target: "scene:aber:jbs:mugwumps"
+      west:
+        target: "scene:aber:jbs:campfire"
+    short: The Sun
+    sight: >
+      You find yourself suddenly walking on the surface of the sun. You are surrounded by a vast expanse of
+      incredibly bright surface upon which through much squinting and shading you can vaguely make out the
+      shapes of strange creatures floating around you in all directions. As you look down at your feet, you
+      notice that they are on fire, but it seems ok because you can't feel any pain right now.
+flag:
+  - outdoors

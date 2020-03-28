@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:stream3"
+    short: Forest Edge
+    sight: >
+      You are standing in amongst some trees. The forest continues only to the east, as all other routes are
+      blocked by tall sheer cliffs.
+flag:
+  - outdoors

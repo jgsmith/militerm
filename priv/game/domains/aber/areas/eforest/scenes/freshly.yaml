@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:oaks"
+      west:
+        target: "scene:aber:eforest:cave"
+    short: Freshly Hewn Pathway
+    sight: >
+      You stand in a pathway which is quite freshly-hewn. From the marks made during the construction of this
+      pathway, it seems that something moved out into the forest from the west. To the west, the stench of
+      brimstone is stronger than ever.
+flag:
+  - outdoors

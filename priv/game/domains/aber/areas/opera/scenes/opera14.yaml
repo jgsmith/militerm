@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera16"
+      up:
+        target: "scene:aber:opera:opera13"
+    short: Bottom Of the Secret Stairs
+    sight: >
+      You guess you are at about the level of the third cellar underneath the opera house. A flight of narrow
+      stone steps leads upward and a passage leads off to the east.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:templand2"
+      north:
+        target: "scene:aber:fareast:templand1"
+      south:
+        target: "scene:aber:fareast:countryacave"
+      west:
+        target: "scene:aber:fareast:cliffs7"
+    short: Cliffside Pass
+    sight: >
+      This pass is cold and windswept, due to the breeze coming from the peaks high above. This wind whistles
+      in a crack in the rock face to your south, a gap wide enough to squeeze through. A narrow gap in the
+      eastern rockface allows you to ascend from here. Below, a broad plateau stretches off to the west,
+      toward a chasm spanned by a narrow rope bridge. The pass continues on toward the north, rising more
+      gradually toward a cavern mouth.
+flag:
+  - outdoors

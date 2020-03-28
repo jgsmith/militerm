@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      west: null
+    short: "Iago's Room"
+    sight: >
+      This room is filled with various perches, parrot toys, and gold coins. Pictures of various birds line
+      the walls. A "Playbird" centerfold featuring Rockin' Robin is posted to the ceiling.
+flag:
+  - dark

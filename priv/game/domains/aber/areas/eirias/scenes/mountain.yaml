@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eirias:shore"
+      west:
+        target: "scene:aber:caledonia:hills1"
+    short: Mountain Path
+    sight: >
+      You are standing on a mountain path leading downwards towards a lake. A mist covers the lake and
+      everything around you.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:hut1"
+      north:
+        target: "scene:aber:sherwood:sherwood31"
+      south:
+        target: "scene:aber:sherwood:sherwood29"
+    short: Under the Thorn Apple Trees
+    sight: >
+      You stand under many thorn apple trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

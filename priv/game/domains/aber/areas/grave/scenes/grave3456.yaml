@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3453"
+    short: Rally Point
+    sight: >
+      The room here is several large wooden benches all facing a large board. On the board you see a map of
+      the church above with checkpoints drawn on the map. You can tell the attack was well organized and would
+      overwhelm the peaceful church. Written under the map you can make out the words TAKE ONLY ONE PRISONER.
+      At that your heartbeat quickens when you know that there might be someone left alive. There is an exit
+      to the east.
+flag:

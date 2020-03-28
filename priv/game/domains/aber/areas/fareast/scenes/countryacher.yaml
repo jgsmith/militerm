@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cherent1"
+      west:
+        target: "scene:aber:fareast:countrya_4"
+    short: Countryside- Near a Cherry Orchard
+    sight: >
+      Small orchards grow on either side of the road here, increasing in number the further you look to the
+      east. This progression ends in a vast orchard of pink blossomed cherry trees. To the west, the land
+      grows flatter and featureless, a farmed plain reaching to where this road crosses another.
+flag:
+  - outdoors
+  - nomobiles

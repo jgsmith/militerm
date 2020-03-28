@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:escarpment"
+      up:
+        target: "scene:aber:slott:slott1"
+    short: Escarpment Path
+    sight: >
+      You are half climbing, half slipping on the stones and dirt of a steep path climbing the side of an
+      escarpment. From here, you can see a expanse of swampland to the south, and to the east you can see a
+      blue sea stretching out. Looking back to the dreariness of your surroundings, the path appears to
+      continue above you, heading near some old castle walls, and down into the murky swamplands below.
+flag:
+  - outdoors
+  - nomobiles

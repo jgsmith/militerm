@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path10"
+      west:
+        target: "scene:aber:undead:stony_path12"
+    short: Stony Path
+    sight: >
+      You continue walking behind the castle. Mountains loom ominously to the &+Cnorth&* and the granite wall
+      beyond the moat looks just as impassable as ever. You may be able to cross the moat here if you could
+      jump a mere 500 feet. The path continues &+Ceast&* and &+Cwest&* from here.
+flag:
+  - outdoors

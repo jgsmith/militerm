@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:road1"
+      north:
+        target: "scene:aber:abyss:l666"
+    short: Bottom of the Abyss
+    sight: >
+      Amazingly enough, this level resembles a small town. A wide road heads east from here. Off in that
+      direction can be seen lurid lights and the sounds of voices shouting.
+flag:

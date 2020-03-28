@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fjord:fjord119"
+    short: Basement
+    sight: >
+      Deep piles of mildew fill up this sagging hole. The earth could collapse at any time, and the citizens
+      of Kyerstarn would be greatly appreciative of that fact. A pile of wood thrown in corner seems to be
+      composed mainly of rotting ship timbers, school desks, chairs which have just completely fallen apart,
+      and some planks from a house that collapsed on the edge of the village last week. Mud splatters from the
+      room occasionally into an equally muddy pool of water on the floor of this earthen conclave.
+flag:
+  - dark

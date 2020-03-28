@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Hell
+    sight: >
+      You are now in hell. The heat and searing flames slowly drive you mad and you start to panic a little.
+      There are clawmarks on the wall from the last person that was brought here, and the pool of blood that
+      you step in doesn't help your nerves any. It seems that you upset the Gods pretty well and you are now
+      getting the punishment that you deserve.
+flag:

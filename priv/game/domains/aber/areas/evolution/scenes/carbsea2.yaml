@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:carbsea1"
+      west:
+        target: "scene:aber:evolution:permsea1"
+    short: Carboniferous Seas
+    sight: >
+      You are in shallow water, just off the shore, where cliffs rise out of the sea, making it impossible for
+      you to attempt a landing there. You do not feel quite safe here. You can feel yourself rising and
+      falling in a heavy swell, and you have to keep swimming in order to prevent yourself drifting ever
+      nearer those cliffs.
+flag:
+  - soundproof
+  - underwater

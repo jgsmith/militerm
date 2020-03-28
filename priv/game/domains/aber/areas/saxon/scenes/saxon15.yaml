@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:saxon:saxon14"
+      west:
+        target: "scene:aber:saxon:saxon10"
+    short: &*The &+YGreat &+RHall&*
+    sight: >
+      In this section of Heorot the common folk gather together. Here they gather to socialize and relax from
+      a hard day in the field. Small children play with one another here, finding security inside these thick
+      stone walls. No one is gathered here today though, it appears the walls are caked with blood from last
+      nights festivities.
+flag:
+  - light

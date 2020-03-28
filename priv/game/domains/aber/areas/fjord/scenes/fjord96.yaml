@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord113"
+      north:
+        target: "scene:aber:fjord:fjord97"
+      south:
+        target: "scene:aber:fjord:fjord98"
+      west:
+        target: "scene:aber:fjord:fjord93"
+    short: Main Street, Kyerstarn
+    sight: >
+      The bazaar continues down the sodden, muddy ground of the center of the Kyerstarn village. Hubbub all
+      around feeds the festive and busy atmosphere as the grains of the Muskrats are traded by paper agreement
+      and confidence in the good. Young urchins of Kyerstarn ride by on their latest homemade inventions -
+      two-person balances connected to a series of pulleys which run off the idea of a bicycle, but are more
+      stable.
+flag:
+  - cold
+  - outdoors

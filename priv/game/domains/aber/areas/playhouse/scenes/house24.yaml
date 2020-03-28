@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:playhouse:house23"
+    short: On Your Way to the Closet
+    sight: >
+      You were told this way lead you to the children's closet. Children are running around bumping into you
+      and everyone else. Upon the walls are more pictures of kids who have been here before. There is writing
+      on the wall in crayon. You are sure whoever did this has been punished appropriately. Your journey into
+      what you are sure must resemble a madhouse on the bad days continues north into a closet. It also leads
+      west into the house.
+flag:

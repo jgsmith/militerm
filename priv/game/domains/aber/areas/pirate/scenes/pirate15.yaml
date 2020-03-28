@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pirate:pirate13"
+      west:
+        target: "scene:aber:pirate:pirate16"
+    short: White Beach
+    sight: >
+      You are standing on a pure sand beach, blindingly white. Pounding waves make a soothing sound, and you
+      feel relaxed here. Raucous calls of the seagulls can be heard in the distance. Small bushes take over
+      the shore to the west, and the beach continues to the north.
+flag:
+  - outdoors

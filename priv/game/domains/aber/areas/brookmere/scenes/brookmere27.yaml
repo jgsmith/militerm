@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Dungeon Treasure Room
+    sight: >
+      Despite the room being heavily fortified, with thick stone walls and door, there is no treasure here -
+      not the usual kind anyway. This is where the goblins and gnolls are supposed to store any treasure or
+      unusual objects they find in Brookmere. The generals check this room on their rounds every week, in case
+      there is something `dangerous' that needs to be taken away for further examination. Of course, the
+      goblins and gnolls know what the really means and keep anything they find under their pillows or in
+      their lockers instead. This room has instead become a makeshift casino, where any hobgoblin might stake
+      their wages on a game of blackjack or gin rummy. Its treasures are the dice and the cards scattered
+      around on the floor.
+flag:
+  - dark

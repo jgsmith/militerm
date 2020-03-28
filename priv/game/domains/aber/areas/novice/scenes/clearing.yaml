@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:trail_2"
+      north:
+        target: "scene:aber:novice:dead"
+      south:
+        target: "scene:aber:novice:enchanting"
+      west:
+        target: "scene:aber:novice:grand"
+    short: Oak Clearing
+    sight: >
+      You have reached the cluster of oaks, but as you stand at the edge of it, you notice that it is not a
+      cluster, but a ring of trees! In the center of the ring is the largest oak tree you have ever seen. You
+      stare up at it with a feeling of utter awe. You suddenly feel very small and insignificant.
+flag:
+  - outdoors
+  - real

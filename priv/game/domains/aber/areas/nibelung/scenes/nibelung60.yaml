@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung58"
+      south:
+        target: "scene:aber:nibelung:nibelung61"
+      west:
+        target: "scene:aber:nibelung:nibelung65"
+    short: Along the Wall
+    sight: >
+      You are standing along the wall of the castle. Bits of mortar from the wall lie on the ground, as the
+      wall begins its slow decay. You notice a small side yard through a doorway to the left.
+flag:
+  - outdoors

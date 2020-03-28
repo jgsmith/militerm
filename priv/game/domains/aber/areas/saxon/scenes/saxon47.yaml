@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:saxon:saxon53"
+      north:
+        target: "scene:aber:saxon:saxon48"
+      west:
+        target: "scene:aber:saxon:saxon46"
+    short: &+yCovered &+gPath&*
+    sight: >
+      A path emerges from the forest to the west of here. It is covered with small bushes and trees, and has
+      not been travelled on for many months. To the north you spy flames shooting up into the sky from a house
+      that's on fire and filling the sky with smoke.
+flag:
+  - light
+  - nomobiles
+  - outdoors

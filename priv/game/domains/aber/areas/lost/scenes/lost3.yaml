@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:lost:lost2"
+      west:
+        target: "scene:aber:lost:lost4"
+    short: Crossway
+    sight: >
+      Grassy trails which were once roads lead off to the east and west. Rolling hills and giant trees show no
+      mark of human inhabitants. To the north lies a lovely garden.
+flag:
+  - outdoors

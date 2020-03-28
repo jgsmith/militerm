@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fareast:fortuhall"
+    short: "Daimyo's Quarters"
+    sight: >
+      Blood stains the sheets of the Daimyo's bed, and his quarters show the signs of an attack. The wardrobe
+      is over on its side, and its sides show evenly spaced slashes, like claw marks. Chairs and other small
+      furniture lie smashed in one corner, and every one of the ruler's personal effects has been broken- his
+      sword, his helmet, his seals, everything.
+flag:

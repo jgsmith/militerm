@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ghenna:ghenna9980"
+    short: A slimey footpath.
+    sight: >
+      What the heck?! This footpath is covered with a slimey substance akin to ectoplasm - its really gross.
+      The path is so slippery that you cant ascend to where there is a covered walkway above you. Your only
+      option is to go West.
+flag:
+  - nomobiles
+  - dark
+  - outdoors

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The Training Grounds
+    sight: >
+      The Thyreenean legion commander turns towards you menancingly and then shouts an order to his troops.
+      Moments later, you are grabbed, tied up, and impaled! That must hurt!
+flag:
+  - death

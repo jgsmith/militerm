@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:13"
+      north:
+        target: "scene:aber:stjames:15"
+      west:
+        target: "scene:aber:stjames:27"
+    short: St. James Park
+    sight: >
+      You are southeast of the main park entrance, against the southern fence. The city lies beyond it, but
+      for now you are so taken with the park that you do not wish to go back out into it. It amazes you how
+      such a clean and beautiful place can exist in such a large and dirty city.
+flag:
+  - outdoors

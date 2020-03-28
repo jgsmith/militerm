@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc10"
+      south:
+        target: "scene:aber:ancient:anc3"
+    short: Calle de los Muertos
+    sight: >
+      You are following a wide street paved with large flagstones. The street continues to the north. You can
+      see a bridge further north bridging your way over a river. Two great pyramids are dominating the
+      northern horizon while to the south-east there's a temple of some sort.
+flag:
+  - outdoors

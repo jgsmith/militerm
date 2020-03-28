@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:princess:entrance"
+      north:
+        target: "scene:aber:princess:path1"
+    short: Winding Pathway
+    sight: >
+      You are walking down a long winding narrow path. A large castle reaches up towards the sky in the
+      distance to the east. But here, there is little out of the ordinary. The path is just sand, and not well
+      travelled either.
+flag:
+  - outdoors

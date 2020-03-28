@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:icecave:tunnel"
+      south:
+        target: "scene:aber:icecave:pool"
+    short: Narrow Ice Tunnel
+    sight: >
+      The tunnel tapers down considerably here, and you must crawl on all fours to squeeze by. To the north
+      the tunnel widens out. You can hear the faint chirping and buzzing of magical critters emanating from a
+      small hole to the south.
+flag:

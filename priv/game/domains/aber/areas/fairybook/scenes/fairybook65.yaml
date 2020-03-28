@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook66"
+      west:
+        target: "scene:aber:fairybook:fairybook64"
+    short: The Wall
+    sight: >
+      You come across a high wall, which looks especially narrow. Sitting atop it is a rather large egg,
+      babbling away to itself about horses and doorways. A short ladder ascends the wall. To the west is the
+      inside of a small shop.
+flag:
+  - nomobiles
+  - outdoors

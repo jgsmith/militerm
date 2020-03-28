@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:icecave:palace"
+      east:
+        target: "scene:aber:newbee:newbee18630"
+      north:
+        target: "scene:aber:newbee:newbee18620"
+    short: The Red Room
+    sight: >
+      It takes you a moment to realize that the red glow here is coming from a round &+Gportal&* on the floor.
+      It looks almost as if someone had painted a picture of a white icy fountain bubbling invigorating water.
+      Oddly enough, it is so realistic you can feel the cold air and the wet mist coming out of the picture.
+flag:
+  - nomobiles

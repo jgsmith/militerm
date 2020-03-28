@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd05"
+      north:
+        target: "scene:aber:sdesert:desertsd03"
+      south:
+        target: "scene:aber:sdesert:desertsd08"
+    short: A Fork In The Path
+    sight: >
+      The small footpath you have been following splits here; one part leading off to the &+geast&* where it
+      disappears into the sagebrush. To the &+ysouth&* the path continues, getting more and more overgrown as
+      it goes. Near to the south the northern edge of the large mesa looms up, a black wall against the sky.
+flag:
+  - outdoors
+  - hot

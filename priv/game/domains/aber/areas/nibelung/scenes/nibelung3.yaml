@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung4"
+      south:
+        target: "scene:aber:nibelung:nibelung2"
+    short: Grass Trail
+    sight: >
+      There is an unkempt grassy trail here. By the looks, it hasn't been mowed or used in some time. The path
+      is surrounded by wildflowers of many different varieties, which undulate in the light breeze.
+flag:
+  - outdoors

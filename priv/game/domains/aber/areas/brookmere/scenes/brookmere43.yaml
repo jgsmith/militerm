@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere10"
+      south:
+        target: "scene:aber:brookmere:brookmere42"
+      west:
+        target: "scene:aber:brookmere:brookmere44"
+    short: Smallish Tunnel
+    sight: >
+      This tunnel must be a squeeze to the orcs and goblins currently occupying Brookmere, but it is still
+      bigger than average for you. It looks very old, being built of unshaped stone boulders, with &+Gmoss&*
+      and other things that don't need much light growing in the cracks. The tunnel climbs upwards to the
+      north, while another good sized tunnel branches off west. To the south you can hear sounds of moving
+      water.
+flag:
+  - dark
+  - nomobiles

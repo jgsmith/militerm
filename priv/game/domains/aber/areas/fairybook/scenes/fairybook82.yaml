@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:fairybook:fairybook83"
+    short: Outside the Window
+    sight: >
+      You stand on the windowledge thinking happy thoughts. Below you, in the yard, is a large english
+      sheepdog, who barks at you as if to say "Come down this instant and go to bed!" But the night air smells
+      of adventure, and you are too awake to sleep now. Ahead of you you can see the stars . . .
+flag:
+  - outdoors

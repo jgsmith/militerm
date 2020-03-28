@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:cret4"
+      west:
+        target: "scene:aber:evolution:cret2"
+    short: Wooded Hills
+    sight: >
+      Young deciduous trees, now in blossom, cover these low hills. This is a landscape very much akin to what
+      you are used to, although some of the trees do look a little unusual. The hills continue to the north.
+flag:
+  - outdoors

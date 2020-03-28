@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar74"
+    short: A House
+    sight: >
+      Ack...here's another house victimized by young gang members. All the carpet on the floor has been ripped
+      up, the furniture broken, and some small dead animals everywhere. The house has been throughly trashed.
+      Not much you can do here, this house probably is irreparable now. You can leave east through the broken
+      door.
+flag:

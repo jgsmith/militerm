@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis11"
+      north:
+        target: "scene:aber:atlantis:atlantis4"
+    short: Gentle Slope
+    sight: >
+      The sea bed rises slightly to the east here. Small creatures scuttle along the sea floor or glide
+      gracefully through the water. Larger fish chase after smaller ones through the water, providing a merry
+      spectacle as they dart to and fro. A large ridge of earth blocks any sort of passage to the south, while
+      the cliff behind you foils any attempt to head back in that direction. The bend of the sea bed allows
+      for passage to the north or up to a slightly raised area to the east.
+flag:
+  - underwater

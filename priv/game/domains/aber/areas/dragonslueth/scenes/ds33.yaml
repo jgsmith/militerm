@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:dragonslueth:ds34"
+      east:
+        target: "scene:aber:dragonslueth:ds31"
+    short: Throne Room
+    sight: >
+      Wow! There has been someone here. All of the gold and treasures in this room have been looted and there
+      isn't even a throne any more. There is a passageway dug &+Cdown&*.
+flag:

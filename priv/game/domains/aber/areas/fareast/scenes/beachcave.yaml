@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cursecave"
+      north:
+        target: "scene:aber:fareast:shore2"
+    short: Sea Cave
+    sight: >
+      Carved by the tides, this cave stretches back underneath the cliffs. The cavern is dark, despite being
+      open to the beach on one end, and a cold wind saps your strength.
+flag:
+  - dark

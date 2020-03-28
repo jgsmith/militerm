@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:kastle:18"
+      south:
+        target: "scene:aber:kastle:16"
+    short: Under the Trap Door
+    sight: >
+      You are in the lower reaches of the castle, directly beneath a trap door. An open sewer runs to the
+      south and a terrible odor is coming from that direction. The tunnel continues to the north.
+flag:
+  - dark

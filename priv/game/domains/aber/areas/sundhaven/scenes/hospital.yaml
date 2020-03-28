@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6640"
+    short: Sundhaven Hospital
+    sight: >
+      This small hospital doesn't seem adequate for a city of this size. Numerous warriors, gladiators, and
+      amazons are lined up along a wall with broken, bleeding bodies waiting their turn to be patched up. You
+      should hope that when you need medical attention you won't have to wait too long. The northern doors
+      lead back out to the black sandy street.
+flag:
+  - peaceful
+  - nomobiles

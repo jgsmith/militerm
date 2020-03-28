@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6602"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6604"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6600"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6603"
+    short: The Temple of Mercy
+    sight: >
+      A myriad of candles, burning brightly in amber hues, illuminate the black-domed temple. This is where
+      all adventurers of human ilk must begin their trials of danger and discovery. You stand in a cast of
+      rosy-gold light, stretching along the floor from a stained glass window that serves as your first sight
+      of the known world. The unknown world awaits you with open.. jaws. There is an &+Cinscription&* in the
+      north wall.
+flag:
+  - peaceful

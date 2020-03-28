@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept8"
+      north:
+        target: "scene:aber:adept:adept10"
+      west:
+        target: "scene:aber:adept:adept11"
+    short: Axilator Village
+    sight: >
+      A bakery lies to the north. Smoke pours from its short chimney stack while fresh-smelling steam works
+      its way out the open front door and windows. Pastries and various kinds of cakes and other cream-filled
+      delights line the shelves beyond the windows. Lining the road on both sides past the bakery are more of
+      the simple cottages.
+flag:

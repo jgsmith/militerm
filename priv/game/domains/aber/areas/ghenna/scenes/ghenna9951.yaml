@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9903"
+      west:
+        target: "scene:aber:ghenna:ghenna9954"
+    short: The streets of Ghenna.
+    sight: >
+      You are standing on a city street in Ghenna. Paved with cobble- stones, the road is slick with the blood
+      of many a wayward adventurer. Watch your step!
+flag:
+  - dark
+  - outdoors

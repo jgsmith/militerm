@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept35"
+    short: Laboratory
+    sight: >
+      Some mad scientist's dream lab is in this room! On tables randomly spread about the chamber are many
+      kinds of glass equipment connected to each other via corks and rubber tubing. Small flames heat a green
+      liquid in one corner, transforming it into a pale gas, which flows through the entire apparatus and
+      settles into a gigantic flask bolted to the floor.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryb_3"
+      west:
+        target: "scene:aber:fareast:countrybcurse"
+    short: Countryside- Gnarled Scrub
+    sight: >
+      The scrub brush and vegetation that overgrows this area of countryside is twisted and stunted, as if the
+      soil were poisoned. Only small clumps of grass remain, though the earth is dark and seemingly fertile.
+      Looking south, this blight seems to get worse, and a pall hangs over the sky in that direction. Back to
+      the north, the road meets another, and the land gives way to cultivated farmlands, albeit in rocky soil.
+flag:

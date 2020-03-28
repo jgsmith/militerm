@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar3"
+      west:
+        target: "scene:aber:volcano:bandilbar5"
+    short: Disused Road
+    sight: >
+      You are progressing along an old road, once busy with traffic, now grass- covered and forgotten. It
+      continues east and west from here, but to the west it crosses a swiftly-moving river which hurries by as
+      if anxious to leave the area as soon as possible. There is a bridge over the river, and a decaying pier
+      to the north of the bridge suggests that there was once some traffic along the river, although you
+      cannot imagine how any boat could possibly travel upstream from here.
+flag:
+  - outdoors

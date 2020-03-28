@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Rotten ladder located just above spiky rocks
+    sight: >
+      The title wasn't obvious enough ??? Then, you're dead, Bob.
+flag:
+  - death

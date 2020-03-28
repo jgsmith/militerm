@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Fine Bedroom
+    sight: >
+      This room appears to be a bit more finished then the others. The walls are smooth, though still just the
+      rock of which they were carved. There is a real bed sitting in the middle of the room, it's sheets
+      rumpled. From the stench of stale Orc sweat and cigars you have a pretty good idea what occured here.
+      You are somewhat thankful you missed it.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:magelib"
+    short: "The Mage's Study Room"
+    sight: >
+      You have entered the Mage's private study room. You hope that he will not be upset that you have entered
+      his dwelling or disturb his peace. You approach him quietly and humbly. His desk is cluttered with
+      several ancient and modern scrolls and tablets of wisdom and he is thoughtfully examining them. You
+      notice that his shelves are full of several spellbooks and magical items of all sorts. You would attempt
+      to take something, but feel that it would not be right. As you move closer, the mage turns around and
+      smiles at you.
+flag:
+  - fastmana
+  - peaceful

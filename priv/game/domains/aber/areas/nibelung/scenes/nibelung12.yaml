@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung13"
+      north:
+        target: "scene:aber:nibelung:nibelung14"
+      south:
+        target: "scene:aber:nibelung:nibelung11"
+    short: Mountain Peak
+    sight: >
+      You are amongst the peaks of the mountains. It is very cold here, and a strong wind stirs up the snow
+      around you, making it difficult to see. The snow is much deeper here, and small amounts of it slip into
+      your boots from time to time, making them cold. It seems very quiet and desolate up here, and no one has
+      apparently been along in quite some time. But with the shifting, drifting snow, it is difficult to tell.
+flag:
+  - outdoors
+  - cold
+  - soundproof

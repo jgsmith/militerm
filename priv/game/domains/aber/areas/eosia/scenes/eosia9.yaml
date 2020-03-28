@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eosia:eosia5"
+    short: Alley
+    sight: >
+      You are in a rather dark and sinister alleyway. The shadows from the buildings would be an excellent
+      place for a thief to hide. Perhaps it would be wise to visit someplace with a little more light.
+flag:
+  - outdoors

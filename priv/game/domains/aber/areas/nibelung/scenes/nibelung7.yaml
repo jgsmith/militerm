@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung8"
+      south:
+        target: "scene:aber:nibelung:nibelung6"
+      up:
+        target: "scene:aber:nibelung:nibelung10"
+    short: Base of Teeth
+    sight: >
+      The trail's difficulty increases as you head north, but isn't as bad to the south. The foothills of the
+      mountain rise above you, and a sense of awe and perhaps fear fills you. The path curves around a bend to
+      the mouth of a canyon to the north.
+flag:
+  - outdoors

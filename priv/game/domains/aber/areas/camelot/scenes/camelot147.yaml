@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot146"
+      west:
+        target: "scene:aber:camelot:camelot148"
+    short: Glowing Cave
+    sight: >
+      The cave walls here are covered with a strange moss. It gives off a dim green light of it's own. To the
+      eat is a dark cave, and there is a crumbling tunnel to the west.
+flag:

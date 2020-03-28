@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate25"
+      east:
+        target: "scene:aber:pirate:pirate17"
+      west:
+        target: "scene:aber:pirate:pirate25"
+    short: Shore of the Lagoon
+    sight: >
+      You are on the shore of a lagoon that fills the center of the extict volcano. Beautiful blue water laps
+      gently against th sand, and because it is crystal clear, You can make out some sort of submerged
+      building. A small set of stairs lead down into the water toward the building, and to the east, a pathway
+      leads through the side of the volcano.
+flag:
+  - nomobiles
+  - outdoors

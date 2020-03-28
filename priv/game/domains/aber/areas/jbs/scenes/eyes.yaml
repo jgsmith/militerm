@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:jbs:head"
+    short: Behind the Eyes
+    sight: >
+      You suddenly find yourself in a spacious hollow room with all kinds of strange panels with buttons and
+      switches and lights all over them. In the front of the room you see two huge glass &+Cwindows.
+flag:
+  - dark

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6741"
+    short: Beside a row of hanging spines
+    sight: >
+      This is where the rogues of Sundhaven come to gain and improve their skills of the trade. A hanging row
+      of the spines of previous victims covers the east wall, scarred with the dagger twists of countless
+      thieves perfecting their backstab. You may have to travel far in search of more fine-tuned skills, but
+      the guildmistress is willing to give newcomers their start in the art of fiends.
+flag:
+  - peaceful

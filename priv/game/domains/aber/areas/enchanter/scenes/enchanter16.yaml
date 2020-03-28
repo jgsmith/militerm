@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter18"
+      south:
+        target: "scene:aber:enchanter:enchanter17"
+    short: Inside the Village
+    sight: >
+      There is an eerie silence here. All of the houses are deserted, and several have actually burned down.
+      One small hovel to the south, however, has smoke rising from the chimney. The road here turns to the
+      northwest.
+flag:
+  - outdoors
+  - real
+  - tempreal

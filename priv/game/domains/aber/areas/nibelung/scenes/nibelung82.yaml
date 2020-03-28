@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nibelung:nibelung81"
+      west:
+        target: "scene:aber:nibelung:nibelung83"
+    short: "Guards' Room"
+    sight: >
+      You are in a very small room, apparently a place for the guards to sit and monitor prisoners. A small
+      table and chair are in one corner, while the rest of the room is empty. Some papers, probably logbooks,
+      lie scattered about the table. To the south you notice a hallway, and a few steps west would take you
+      into a smaller hallway, which apparently leads to the dungeons.
+flag:
+  - dark

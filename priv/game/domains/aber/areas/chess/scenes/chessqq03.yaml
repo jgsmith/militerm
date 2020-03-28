@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chess:chessqq04"
+      up: null
+    short: The Stone Staircase
+    sight: >
+      You find yourself in a rough stone &+Cstaircase&*, which winds around a smooth core of stone, descending
+      deeper into the bowels of the earth. Small torches are set into the stone, guiding your way.
+flag:

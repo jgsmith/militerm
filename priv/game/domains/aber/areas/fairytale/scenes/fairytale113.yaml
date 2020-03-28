@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale107"
+      south:
+        target: "scene:aber:fairytale:fairytale118"
+      up:
+        target: "scene:aber:fairytale:fairytale122"
+    short: Stairs
+    sight: >
+      You stand on a small platform, which serves as a landing. To your west is a mirror on the wall of the
+      house, and to the south is a screened door through which you can see a porch, complete with furniture.
+      The stairs continue up and down, encased in glass to protect people from the elements.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6678"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6718"
+    short: A path hung with golden lanterns
+    sight: >
+      A wide path of chalky-white cobblestone leads to southwards towards some dense illumination. Here the
+      lane is lined with poles hung with lanterns giving off a mild golden glow, swinging in the breeze. The
+      wind passes more strongly along a lane to the north.
+flag:
+  - outdoors

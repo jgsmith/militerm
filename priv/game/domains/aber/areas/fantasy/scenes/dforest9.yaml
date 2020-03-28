@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dforest10"
+      south:
+        target: "scene:aber:fantasy:dforest8"
+    short: End of the Path
+    sight: >
+      The path seems to end here and the dwarven forest continues onward. You look into the forest and see the
+      rustling of animals of various shapes and sizes. You know that the dwarven forest is a place that is
+      full of danger and evil monsters. You also know that the forest is a place full of mystery and many
+      treasures lie within it.
+flag:
+  - outdoors
+  - nomobiles

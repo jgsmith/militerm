@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sagewood:swamp8"
+    short: Cleft in the rocks
+    sight: >
+      This place seems dry and safe, in stark contrast of the swamp around you. Carved in the walls are runes
+      of healing. This place must've had a special use before the dark druids came in and corrupted. A few
+      weak rays of sunlight shine in from the small entrace to the &+CSouth&*.
+flag:
+  - dark

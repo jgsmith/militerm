@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage10"
+      south:
+        target: "scene:aber:cottage:cottage11"
+    short: Cliff Turn
+    sight: >
+      You stand on a narrow ledge, your back to the cliff face. Above you can see the top of the cliff, but
+      there is no way to climb up. Silver mists obsucre the bottom of the chasm far below. It is here that the
+      wide ledge to the south meets up with a very narrow ledge to the east.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis30"
+    short: The Pasture
+    sight: >
+      A large area of the sea bed has been marked off with a stone barrier of some sort, defining the confines
+      of the pasture the sea cows get to roam in. There is a section at the far end of the field where kelp
+      grows for the sea cows to eat. Looking at the cows it appears that they are pretty content to be here.
+flag:
+  - underwater

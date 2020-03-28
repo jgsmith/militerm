@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grave:grave3486"
+    short: Crack in the Wall
+    sight: >
+      You have found a crack in the wall just large enough for you to make your way through. As you squeeze
+      your way through the sharp rocks poke into your skin making your armor very uncomfortable. Just as you
+      leave the tiny crawlspace an earthquake takes place closing off the exit west. You have a distinct
+      feeling that this was not a random event. There is now only an exit south.
+flag:
+  - oneperson
+  - dark

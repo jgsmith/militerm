@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon40"
+      north:
+        target: "scene:aber:talon:talon36"
+      south:
+        target: "scene:aber:talon:talon38"
+      west:
+        target: "scene:aber:talon:talon34"
+    short: Great Hall
+    sight: >
+      You stand in the center of a huge hall. A cathedral ceiling spans far above you, and the walls are lined
+      with stunning oil paintings of magnificent dragons. Every step you take upon the black marble floor
+      echoes like thunder around the room, and you are startled by the sound of your own breathing as the
+      tension is so thick you can almost taste it. Archways lead in all directions from here.
+flag:

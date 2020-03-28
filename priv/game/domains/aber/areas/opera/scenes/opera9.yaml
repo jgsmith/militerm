@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:opera:opera10"
+      south:
+        target: "scene:aber:opera:opera8"
+    short: In The Aisles
+    sight: >
+      Here amongst the soft, red velvet seats, you can look around at the ornate gold scrollwork that lines
+      each tier of boxes, the magnificant frescoed ceiling, and the enormous, gas lit, crystal chandelier. To
+      the north is the stage and to the south is the lobby.
+flag:

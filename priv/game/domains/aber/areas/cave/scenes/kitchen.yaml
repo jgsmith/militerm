@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:dining"
+      north:
+        target: "scene:aber:cave:pantry"
+    short: Dwarven Kitchen
+    sight: >
+      You are in a sooty, low roofed kitchen. An exit leads north into a small pantry, and another leads east
+      into a large hall.
+flag:
+  - dark

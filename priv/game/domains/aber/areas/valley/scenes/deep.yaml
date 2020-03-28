@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:valley:gap"
+      south:
+        target: "scene:aber:valley:dark"
+    short: Deep Tunnel
+    sight: >
+      You are following a deep, seemingly magically lit tunnel, which plunges beneath the mountain. The tunnel
+      continues north and south.
+flag:

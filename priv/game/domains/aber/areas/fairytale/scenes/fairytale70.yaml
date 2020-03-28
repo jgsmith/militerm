@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale75"
+      east:
+        target: "scene:aber:fairytale:fairytale72"
+      north:
+        target: "scene:aber:fairytale:fairytale71"
+      south:
+        target: "scene:aber:fairytale:fairytale73"
+      up:
+        target: "scene:aber:fairytale:fairytale69"
+      west:
+        target: "scene:aber:fairytale:fairytale74"
+    short: Cave Mouth
+    sight: >
+      Below you, you see a light glowing in the darkness. The cavern itself extends in all directions.
+flag:

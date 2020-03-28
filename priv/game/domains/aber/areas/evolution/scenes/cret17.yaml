@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret15"
+      west:
+        target: "scene:aber:evolution:cret18"
+    short: Before The Dunes
+    sight: >
+      You are standing at the foot of a long line of sand dunes which rise up just west of you. A dry river
+      bed terminates here, cut off by the drifting sand. You could follow it to the east or climb the dunes to
+      the west.
+flag:
+  - outdoors

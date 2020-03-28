@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5287"
+      north:
+        target: "scene:aber:yllythad:yllythad5102"
+      south:
+        target: "scene:aber:yllythad:yllythad5293"
+      west:
+        target: "scene:aber:yllythad:yllythad5297"
+    short: Among the Tradewinds
+    sight: >
+      The constant wind that blows out of the east pushes the sea along at a steady pace, along with all that
+      is upon it. The tang and swill of the sea assails from the wind blowing so constant, giving the day a
+      fresh, new feeling.
+flag:
+  - onwater
+  - outdoors

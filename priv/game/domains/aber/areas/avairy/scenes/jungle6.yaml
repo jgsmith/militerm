@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:jungle2"
+      north:
+        target: "scene:aber:avairy:jungle5"
+      west:
+        target: "scene:aber:avairy:pond1"
+    short: The Avairy Jungle
+    sight: >
+      Pathes lead into the jungle to the north and east. Through the foilage ahead, you can make out a
+      peacelful pond.
+flag:
+  - outdoors
+  - light

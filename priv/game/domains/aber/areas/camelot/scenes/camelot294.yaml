@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot295"
+      north:
+        target: "scene:aber:camelot:camelot293"
+    short: "Moloch's Room"
+    sight: >
+      Moloch is a Grand Duke of Hell. He is a great, square-bodied creature with red-orange skin, short thick
+      arms and legs, and huge square hands and feet. His feet and head are horned. His head is huge with
+      slanting eyes and a gaping, fang filled mouth.
+flag:
+  - dark

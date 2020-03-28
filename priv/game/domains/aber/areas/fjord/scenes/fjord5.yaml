@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord6"
+      west:
+        target: "scene:aber:fjord:fjord4"
+    short: Back Room
+    sight: >
+      The air is fresh in here despite its locale to the outside world. Racks of candles line all the stony
+      walls at regular spacing, but their wicks are now composed of ash and the candle wax of very poor
+      quality. in the center of the room is a deep square dug into the ground, its walls reinforced with pine
+      two-by-fours and tar pitch. A smooth block of marble has been weathered and placed in the exact center
+      of the pit. Attached to each wall is an animal &+cskull&*, the bones glinting in your light.
+flag:
+  - dark

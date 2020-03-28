@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord62"
+      south:
+        target: "scene:aber:fjord:fjord64"
+    short: Rim of the Crater
+    sight: >
+      Smoke, sulfur fumes, and puffs of ash are choked up by the crater and provide a nice display of
+      pyrotechnics. The lip of the crater is a high and pointy ridge which slopes heavily down on all sides,
+      but provides an excellent view of the surrounding caldera and mountains. Past the northern reaches of
+      the Nolaks, the lands slopes sharply back down via ice and snowdrifts to the cold north sea. The lip
+      provides easy walking access to the south, while a stone-carved staircase drops back down the mountain.
+flag:
+  - outdoors
+  - cold

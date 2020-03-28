@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome15"
+    short: Peanut Heaven
+    sight: >
+      You are now so high up that you begin to feel lightheaded and your nose feels like it is going to start
+      bleeding. There aren't even benches to sit on here; just bare dirty stone. The view of the surrounding
+      &+gcountry&* is spectacular. Unfortunately you can barely see the playing field. There is a set of steps
+      here, leading down.
+flag:
+  - outdoors

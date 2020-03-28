@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot20"
+      north:
+        target: "scene:aber:camelot:camelot25"
+      south:
+        target: "scene:aber:camelot:camelot15"
+      west:
+        target: "scene:aber:camelot:camelot19"
+    short: Hallway
+    sight: >
+      The hallway continues to the south. North of you lies the entrance to King Arthur's chambers, while
+      bedrooms for two of his knights lay east and west.
+flag:

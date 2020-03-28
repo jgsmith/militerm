@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: An Underground Dwelling
+    sight: >
+      The space is a small, round chamber, lit by an extraordinary chandelier made of the rhizome of a tree
+      standing above there. All around lie small pieces of furniture, most of which you probably could not
+      use, for they are rather tiny. However, they are skillfully constructed, revealing both the artistic and
+      practical abilities of whoever was the maker. A thick, multicolorous carpet covers the floor. To the
+      west is a small, wooden door.
+flag:

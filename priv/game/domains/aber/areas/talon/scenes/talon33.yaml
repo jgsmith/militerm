@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon32"
+      east:
+        target: "scene:aber:talon:talon34"
+    short: Before Talon Castle
+    sight: >
+      You stand at the gates of a large, black castle. You are in the midst of the suffocating, black haze
+      which rains down upon this land. An air of impeding evil weighs down heavily upon your soul as you scan
+      the length of this monstrous castle. Down below, the landscape stretches out before you, and for a
+      moment, light seemed to reflect from a tall mountain in the distance, but then a cloud of smog drifts
+      before your eyes. To the east lie the tremendous gates to a castle which is most certainly responsible
+      for the demise of this land.
+flag:

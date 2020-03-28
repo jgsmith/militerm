@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:volcano:bandilbar9"
+    short: "Mayor's Home"
+    sight: >
+      You are in the front hall of the mayor's home. All the doors leading off from here are locked and
+      barred. You wonder what has happened here, and what might make the mayor so scared as to take such
+      extravagant precautions.
+flag:
+  - peaceful

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9501"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6760"
+    short: A Paved Path
+    sight: >
+      You are standing at the edge of the city. From here, a short, paved path leads toward the east. To the
+      northeast is a large building, its yard lined by an old fence of stone.
+flag:
+  - nomobiles
+  - outdoors

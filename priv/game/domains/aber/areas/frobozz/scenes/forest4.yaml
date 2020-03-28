@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:forest3"
+      north:
+        target: "scene:aber:frobozz:forest3"
+      south:
+        target: "scene:aber:frobozz:forest1"
+      up:
+        target: "scene:aber:frobozz:tree"
+      west:
+        target: "scene:aber:frobozz:forest1"
+    short: In the Forest
+    sight: >
+      This is a path winding through a dimly lit forest. The path heads north south here, but there is also a
+      small and overgrown path coming in from the east and continuing west from here. One particular large
+      tree with some low branches stands at the edge of the path.
+flag:
+  - outdoors

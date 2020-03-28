@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy12"
+      west:
+        target: "scene:aber:windy:windy8"
+    short: Ravine
+    sight: >
+      You are standing in the middle of a ravine which runs east to west. There are many small footprints in
+      the soft earth, leading every which way. A sharp wind has picked up, moaning loudly through the rocks.
+flag:
+  - outdoors

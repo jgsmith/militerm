@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:path1"
+      south:
+        target: "scene:aber:cathedral:inchurch"
+      west:
+        target: "scene:aber:moor:misty2"
+    short: Path To Church
+    sight: >
+      You are walking on a narrow dirt path bordered on each side by tall &+Gbushes&* which block out the
+      &+Csky&*. A &+Wcool&* wind blows across your face, and to the south you see the open doors of a tiny,
+      broken down old church welcoming you.
+flag:
+  - light
+  - outdoors

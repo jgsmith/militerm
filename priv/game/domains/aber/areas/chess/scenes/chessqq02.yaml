@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      south:
+        target: "scene:aber:chess:chessqq01"
+    short: The Furnished Chamber
+    sight: >
+      This chamber is furnished quite nicely, with a thick woven rug beneath your feet, and tapestries along
+      the walls. There is a rectangular hole in the rug, revealing a &+Ctrapdoor&* which seems to open via a
+      small iron ring, The room's exit looms behind you.
+flag:

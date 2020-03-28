@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_0"
+      south:
+        target: "scene:aber:aephir:trail1"
+      west:
+        target: "scene:aber:novice:trail_1"
+    short: The Forest Trail
+    sight: >
+      You have wandered into a forest filled with very large and majestic trees of every type imaginable. The
+      quietness of the forest amazes you as your feet crunch quietly on the fallen pine needles. The path that
+      you are on leads to the west.
+flag:
+  - outdoors
+  - real
+  - nomobiles

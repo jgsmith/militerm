@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:dungeon9"
+      north:
+        target: "scene:aber:undead:dungeon7"
+      south:
+        target: "scene:aber:undead:dungeon8"
+      west:
+        target: "scene:aber:undead:dungeon4"
+    short: Edge of the Island
+    sight: >
+      The temperature has dropped slightly to uncomfortably hot. You feel a strange sense of peace here
+      amongst all the spitting lava. The burning cinders that float around do not seem to affect you. To your
+      &+Cnorth&* and &+Csouth&* you and see more holding pens, to your &+Cwest&* is the edge of the island to
+      the &+Ceast&* a long outcrop of rock meanders towards a second smaller island in the lava.
+flag:
+  - peaceful
+  - hot

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fjord:fjord5"
+    short: Altar of Twilight
+    sight: >
+      The pit dimensions have been measured to perfection, perhaps to ensure that the rituals carried out here
+      go smoothly. The wooden walls and marble slab in the center were long since placed under magical
+      protection from the effects of erosion. The slab is decorated with many types of quartz and treated with
+      a super-hard coating of a potent magic solution in an effort to keep legible the inlaid signatures of
+      those who had previously performed evocations to other planes of existence here. Covering the sides of
+      the slab to the ground are strings of carefully pruned ivy as fresh and green as if they were
+      sproutlings. The only exit is out of the pit.
+flag:
+  - dark

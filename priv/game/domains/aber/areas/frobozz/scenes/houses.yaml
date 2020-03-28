@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:housee"
+      west:
+        target: "scene:aber:frobozz:housew"
+    short: Southern End of the House
+    sight: >
+      You are on the south side of the house. All windows are nailed shut with planks. The path continues its
+      way around the house leading east and west.
+flag:
+  - outdoors

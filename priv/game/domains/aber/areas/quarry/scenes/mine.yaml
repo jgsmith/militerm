@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Mineshaft
+    sight: >
+      The rungs break beneath your feet and without a chance to recover you plunge helplessly into the black
+      cold water below...
+flag:
+  - death

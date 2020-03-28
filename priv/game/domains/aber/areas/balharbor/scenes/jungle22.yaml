@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle9"
+      south:
+        target: "scene:aber:balharbor:jungle23"
+    short: Following the Creek
+    sight: >
+      You leave the main path through the jungle and walk along the edge of the creek. The water flow appears
+      to pick up a bit further down. Some small minnows can be seen swimming in the water while jungle frogs
+      jump underwater when they see you approach. The creek continues to the south.
+flag:
+  - outdoors

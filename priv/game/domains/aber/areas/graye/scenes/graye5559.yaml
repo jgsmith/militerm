@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5560"
+      up: null
+    short: The secret passage
+    sight: >
+      You step into the musty passage and let your eyes grow accustomed to the light. Stone walls block every
+      direction save north.
+flag:
+  - dark

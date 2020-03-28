@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:carnage2"
+      north:
+        target: "scene:aber:cathedral:vamcrypt"
+      south:
+        target: "scene:aber:cathedral:vambed"
+      west: null
+    short: &+LCrypt Entrance
+    sight: >
+      The walls here are made up entirely of hideous snarling gargoyles. The dark &+Lgrey&* stone is damp and
+      &+Bcold&* to the touch. You feel a &+Cchill&* set in that goes straight to your bones. Exits lead north
+      and south, but you wonder if it isn't better to turn tail and run back to the east. The outline of a
+      door marks the wall to the west. No handles or other markings appear on the wall.
+flag:
+  - dark

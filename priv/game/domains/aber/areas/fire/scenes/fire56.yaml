@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fire:fire49"
+    short: On the Moon
+    sight: >
+      You are standing on the Moon. It is not really a Moon, but it is looking like a real Moon. You are
+      floating above the ground lightly. You are feeling wonderful. Now you can take the award for your long
+      trip.
+flag:

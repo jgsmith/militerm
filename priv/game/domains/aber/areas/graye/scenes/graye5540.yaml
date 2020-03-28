@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5541"
+    short: Inside the Castle
+    sight: >
+      Everything here is a mess. Furniture has been overturned, paintings slashed, even the gold inlaid tiles
+      have been torn up.
+flag:

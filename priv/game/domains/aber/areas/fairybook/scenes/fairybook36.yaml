@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook37"
+      west:
+        target: "scene:aber:fairybook:fairybook35"
+    short: In Hat House
+    sight: >
+      The house is shaped like a giant hat. The room you now stand in is large and round, with a large and
+      round, with a ladder climbing up through a hole in the center of the ceiling. Hats hang all around the
+      room, almost covering the door to the west.
+flag:

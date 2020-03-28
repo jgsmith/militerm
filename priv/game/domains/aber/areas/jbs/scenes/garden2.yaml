@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:garden"
+    short: The Garden
+    sight: >
+      You have reached the end of the path. As you look around, though, you can't help but marvel at the
+      enormity of the plants here. What must only be small shrubs here look like the mightiest redwoods you
+      have ever encountered. You can only imagine the size of the beings that must care for this place.
+flag:

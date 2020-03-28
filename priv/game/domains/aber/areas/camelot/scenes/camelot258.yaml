@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot266"
+      east:
+        target: "scene:aber:camelot:camelot259"
+      north:
+        target: "scene:aber:camelot:camelot260"
+      south:
+        target: "scene:aber:camelot:camelot255"
+      up:
+        target: "scene:aber:camelot:camelot268"
+      west:
+        target: "scene:aber:camelot:camelot261"
+    short: The Grand Staircase
+    sight: >
+      Exits lead in all directions from here, but you are not in any hurry to take any of them. You would much
+      prefer to stand awhile and look at the works of art filling this room. From statuary and paintings to
+      tapestries and carpets, this room is filled with the treasures gathered from a lifetime of adventure.
+flag:
+  - nomobiles

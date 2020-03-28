@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3446"
+      west:
+        target: "scene:aber:grave:grave3448"
+    short: "The Priest's Office"
+    sight: >
+      Here is the office of the mighty priest. A desk sits in the middle of the room that has been ransacked.
+      There are many books, scrolls, and a few potions lying about the bookcase - all broken and destoyed. The
+      invaders were looking for something here and you wonder if they found what they were looking for. There
+      is an exit to the east and a door to the west.
+flag:

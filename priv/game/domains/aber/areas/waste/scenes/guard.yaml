@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:waste:foot"
+    short: Guard Room
+    sight: >
+      You are standing in a red burning guardroom which glitters redly with the heat of the surrounding rock.
+      A single doorway leads west.
+flag:
+  - hot

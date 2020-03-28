@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:forest3"
+      north:
+        target: "scene:aber:frobozz:forest3"
+      south:
+        target: "scene:aber:frobozz:forest1"
+      west:
+        target: "scene:aber:frobozz:forest1"
+    short: In the Forest
+    sight: >
+      You are in a dense forest with paths going off in all directions.
+flag:
+  - outdoors

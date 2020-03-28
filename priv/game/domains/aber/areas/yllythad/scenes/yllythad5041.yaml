@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5105"
+      north:
+        target: "scene:aber:yllythad:yllythad5042"
+      west:
+        target: "scene:aber:yllythad:yllythad5036"
+    short: Wild, Foaming Crests
+    sight: >
+      The water rises and falls with such force that it seems the world must be shaking on its foundations.
+      The water splashes and crashes against itself, foam and froth all over the surface of the sea. The sea
+      is dashed again and again against the rock face of a cliff on the south side. To the west a huge opening
+      in the cliff can be seen, opening into a large bay.
+flag:
+  - onwater
+  - outdoors

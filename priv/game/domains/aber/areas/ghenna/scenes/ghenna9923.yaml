@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9922"
+      north: null
+    short: The bathroom.
+    sight: >
+      Boy, the smell of feces here is awful!! There is a hole in the floor which serves as the toilet - pretty
+      primitive. A washbasin sits on the floor, filled with bloodied water, and a dirty &+Cmirror reflects
+      your image.
+flag:

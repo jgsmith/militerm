@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar74"
+    short: A House
+    sight: >
+      Boy, I wouldn't want to see the owners' reaction when they come home to see this! This house looks no
+      different than all the others you've seen, but you've had incredible luck catching the vandals in the
+      act. A trail of destruction leads to banging noise...sounds like a sledgehammer against a wall. You can
+      run out to the south.
+flag:

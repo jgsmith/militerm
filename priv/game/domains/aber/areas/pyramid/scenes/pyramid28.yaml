@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pyramid:pyramid26"
+      east:
+        target: "scene:aber:pyramid:pyramid29"
+      north:
+        target: "scene:aber:pyramid:pyramid30"
+    short: Dark Stairway
+    sight: >
+      A thick layer of dust covers the stone steps to this stairway. A chill descends over you as you peer up
+      and see only &+Ldarkness&N. A small nagging voice inside your head warns you to go back, leave this
+      place of death and forget your dreams of wealth and glory.
+flag:
+  - dark

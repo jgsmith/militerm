@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:road2"
+    short: Booth #3
+    sight: >
+      This is a small roadside bar. The bartender spies you approaching and says, "Hey! We don't serve your
+      kind here."
+flag:

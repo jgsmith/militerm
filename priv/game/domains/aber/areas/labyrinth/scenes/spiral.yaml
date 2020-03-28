@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:spiral2"
+      up:
+        target: "scene:aber:labyrinth:top"
+    short: Spiral Staircase
+    sight: >
+      You are on a spiral staircase, and you are not far from the top of it. Below you it is cold and gloomy,
+      although not yet dark enough to need a light.
+flag:

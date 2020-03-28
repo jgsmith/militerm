@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter32"
+    short: Dense Swamp
+    sight: >
+      The swamp is teeming with life... and most of it wants to kill you.
+flag:
+  - outdoors
+  - real
+  - tempreal

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:cretsea5"
+      west:
+        target: "scene:aber:evolution:cretsea3"
+    short: Close To The Shore
+    sight: >
+      You are fairly near to the shore here. When you look east you can sea the sea floor rising up steeply to
+      break the surface. However it would be unwise to proceed in that direction, since the rocks there are
+      sharp and the breakers dashing themselves upon them would surely pulverize you, should you attempt a
+      landing there.
+flag:
+  - soundproof
+  - underwater

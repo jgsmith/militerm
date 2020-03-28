@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The Treadmills of Hell Revisited
+    sight: >
+      You really wanted to come back here? Well now you're here and you may be sticking around a very long
+      time. The many tunnels in this section look exactly the same as all the others.
+flag:
+  - maze

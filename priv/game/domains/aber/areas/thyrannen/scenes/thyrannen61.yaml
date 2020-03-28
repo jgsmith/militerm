@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen62"
+      up:
+        target: "scene:aber:thyrannen:thyrannen60"
+    short: Dwarven mine
+    sight: >
+      You stand in what seems to be the entry way to a vast system of mine tunnels. The air is cool and damp.
+      You squint to make up for the lack of light and can make out scars from where the walls have been
+      blasted away.
+flag:
+  - dark

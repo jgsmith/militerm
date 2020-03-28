@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins7"
+      north:
+        target: "scene:aber:origins:origins4"
+      south:
+        target: "scene:aber:origins:origins5"
+      west:
+        target: "scene:aber:origins:origins4"
+    short: Lost in the Forest
+    sight: >
+      You are lost among the giant firs, redwoods, and elms that surround you on all fronts. You can go in any
+      direction.
+flag:
+  - outdoors
+  - tempreal

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: &+RSharp Rocks...
+    sight: >
+      You tumble over the edge and pierce your heart on the sharp rocks... As you glance around gasping for
+      air and the last precious moments of life, you notice a tall tower looming over you. You also notice the
+      corpses of several adventurers lying beside you.
+flag:
+  - outdoors
+  - death
+  - nomobiles

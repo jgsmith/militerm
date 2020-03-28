@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis14"
+    short: Kelp Bed
+    sight: >
+      Kelp grows in abundance here, but sparsely. You can see large fish swimming inbetween the strands and
+      smaller aquatic life scuttling along near the bottom of the plants. Exotic fish glide quietly in front
+      of your face, in search of nourishment. You get an odd feeling of peacefulness here.
+flag:
+  - underwater

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar30"
+      west:
+        target: "scene:aber:balharbor:balhar26"
+    short: Outside East Gate
+    sight: >
+      You are standing outside of town which lies to the west. A well traveled road can be seen running out
+      for miles east of here and you see a subdivision to the northeast which seems to not have escaped
+      trouble. You can see dark smoke rising from somewhere in town and hear a lot of shouting and screaming.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Castle Study Room
+    sight: >
+      The young woman hands you off to a steward, who shows you into a yard where some people are studiously
+      trying to meditate while ignoring students who practice stealing techniques on each other. On the far
+      western side of the yard, novices practice coating the wall with frost.
+flag:
+  - peaceful
+  - soundproof

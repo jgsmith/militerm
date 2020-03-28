@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest92"
+      north:
+        target: "scene:aber:rainforest:forest82"
+      south:
+        target: "scene:aber:rainforest:forest91"
+    short: Shady Bank
+    sight: >
+      You are on the bank of a small tributary, just twenty yards or so in width at this stage. To the west is
+      a tangled bush which you can only circumvent by first heading north into the jungle or south into the
+      river. Above you tall ferns and palms spread their fronds over the water.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung10"
+      north:
+        target: "scene:aber:nibelung:nibelung12"
+    short: In The Teeth
+    sight: >
+      The peaks of the mountains surround you, their sharp outlines cutting into the horizon. A cold wind
+      bites into your exposed flesh, chilling you. The path is now covered in snow, and glare from the sun
+      causes you to squint a bit. The powdery snow crunches under the tread of your boots as you proceed along
+      the trail.
+flag:
+  - outdoors
+  - cold

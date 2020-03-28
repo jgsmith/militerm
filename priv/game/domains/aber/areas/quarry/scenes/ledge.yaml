@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ladder_d2"
+      east:
+        target: "scene:aber:quarry:r_face"
+      up:
+        target: "scene:aber:quarry:ladder_d1"
+    short: Ladder Ledge
+    sight: >
+      You are standing on a narrow wooden ladder which plunges deep into the ground. A single narrow and very
+      roughly hewn passage leads east off the side of the ladder.
+flag:
+  - dark

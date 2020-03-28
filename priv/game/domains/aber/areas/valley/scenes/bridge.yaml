@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:sedge"
+      north:
+        target: "scene:aber:valley:oak"
+      south:
+        target: "scene:aber:valley:send"
+      west:
+        target: "scene:aber:valley:stream2"
+    short: Humpbacked Bridge
+    sight: >
+      You are standing at the northern end of a small humpbacked bridge, a picturesque stone structure coated
+      in moss and creepers, which crosses the stream to the south of you. Paths seem to converge here from the
+      north, west and east.
+flag:
+  - outdoors

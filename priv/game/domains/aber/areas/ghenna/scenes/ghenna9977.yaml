@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9976"
+    short: "The madame's room."
+    sight: >
+      This is the madame's room. A large bed stands against the opposite wall, under a ceiling made entirely
+      of mirrors. The two lamps that are located on either side of the bed are draped with a gauzy red
+      material which casts an eerie glow on an array of dildos which are mounted on the wall like trophys.
+flag:

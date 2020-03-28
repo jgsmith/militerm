@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newvillage:down2"
+      up:
+        target: "scene:aber:newvillage:waterfall"
+    short: On the Rocky Path
+    sight: >
+      Where you are standing on the path, you are so close to the water that you can feel yourself being
+      sprinkled upon by mist from the waterfall. The noise around you is deafening. Fortunately the water is
+      far enough away that it is not drenching the path upon which you are walking. Slowly you can work your
+      way down the path.
+flag:
+  - outdoors

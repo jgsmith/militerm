@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6721"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6728"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6748"
+    short: A clearing circled by oaks and maples
+    sight: >
+      The stone-rimmed path opens out to a clearing of dirt, encircled by broad oaks and maples with leaves
+      the color of honey. To the north a black gate is closed against the clamor of the world, and the road
+      continues east to town, and west where it vanishes into a fog banked forest.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord5"
+      west:
+        target: "scene:aber:fjord:fjord3"
+    short: Main Room
+    sight: >
+      A bed of dry, dead pine &+yneedles&* provides a natural layer of undergrowth within an otherwise
+      man-made structure. A wooden &+ycask&* with its rusting bands decays at its own pace and will never
+      likely hold any ales again. Stuffed away in a back corner is a small fireplace, fashioned with a hanging
+      apparatus which supports a dented, cast-iron &+ypot&*. The bed is not so fortunate, however. Its frame
+      has splintered to dust and collapsed into a small pile of termite-eaten debris, and the straw
+      &+ymattress&* is musty and decomposing. The only other pieces of furniture in the room are a simple
+      wooden rocking chair and a &+ychest&* of drawers, both of which lean at angles enough to make the human
+      eye ache.
+flag:
+  - dark

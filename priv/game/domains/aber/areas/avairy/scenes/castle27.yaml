@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle28"
+      south:
+        target: "scene:aber:avairy:castle18"
+    short: Security Hold
+    sight: >
+      You have found the hidden guardroom of the Avairy Castle. A single cell is off to the east.
+flag:
+  - light

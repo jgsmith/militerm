@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:clifftop"
+      north:
+        target: "scene:aber:nelatra:nelatra"
+      south:
+        target: "scene:aber:eastcoast:field"
+      west:
+        target: "scene:aber:eastcoast:hillock"
+    short: Field of Gold
+    sight: >
+      You stand amid a sea of yellow-flowered buttercups, giving this place an aura of golden beauty, making
+      you squint from the brightness. Colorful butterflies and birds flit by, giving this place a sense of
+      vibrant life and beauty. The golden sea appears to end to the east, where a sharp cliff drops off to the
+      dull sound of crashing water, and to the west leads a beaten trail into an area of grassy hills. To the
+      south, you see the hills flatten out to a large field, with what looks like sheep in the distance.
+flag:
+  - outdoors

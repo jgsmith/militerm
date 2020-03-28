@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter38"
+      up:
+        target: "scene:aber:enchanter:enchanter39"
+    short: Climbing up...
+    sight: >
+      You go up... and up... and up... and up... Are you getting anywhere?
+flag:

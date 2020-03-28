@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot149"
+    short: Cave Bears Lair
+    sight: >
+      Bones and scraps lie scattered all around the cave. It is obvious tha the creature who lives here is not
+      terribly fastidious. But it's a safe bet he won't like finding you here...
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chess:chessqq66"
+      north:
+        target: "scene:aber:chess:chessqq60"
+      west:
+        target: "scene:aber:chess:chessqq68"
+    short: The White Square
+    sight: >
+      You are standing on a highly polished white marble tile, which extends about six feet in either
+      direction.
+flag:

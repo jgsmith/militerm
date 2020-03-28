@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot260"
+      south:
+        target: "scene:aber:camelot:camelot261"
+      west:
+        target: "scene:aber:camelot:camelot263"
+    short: The Kitchen
+    sight: >
+      This is truely a marvel of a kitchen. Spacious, well stocked and equiped with everythign a chef could
+      need to prepare a meal, or a feast fit for a king.
+flag:

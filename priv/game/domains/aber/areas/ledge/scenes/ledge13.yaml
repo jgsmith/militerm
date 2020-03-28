@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge14"
+      north:
+        target: "scene:aber:ledge:ledge15"
+      south:
+        target: "scene:aber:ledge:ledge16"
+      up:
+        target: "scene:aber:ledge:ledge12"
+      west:
+        target: "scene:aber:ledge:ledge12"
+    short: Widened Mining Area
+    sight: >
+      This area appears to be a staging zone for drilling tunnels in all different directions and central
+      meeting place for all the miners. Old mining equipment lie abandoned and scattered about, most of it
+      broken and useless. A couple of tunnels lead in different directions, one of which appears to be the
+      source of some noises--the eastern tunnel. Other tunnels go north, south, and west.
+flag:
+  - dark

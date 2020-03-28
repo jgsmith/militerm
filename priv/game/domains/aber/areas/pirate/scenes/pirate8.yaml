@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate7"
+    short: "Crew's Quarters"
+    sight: >
+      You are in a small room, lined on two walls with bunk beds. You see all sorts of carvings in the wood
+      walls, which were probably made by idle sailors with large knifes. You see a small table made out of a
+      barrel and a wooden panel. A doorway is in the east wall.
+flag:

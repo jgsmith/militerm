@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:seamonster:smon11"
+    short: On the palm
+    sight: >
+      You have shimmied up the palm. You can see the whole island with a cave to the south, the beach to the
+      west and open water to the east. The only way from here leads back down.
+flag:
+  - outdoors

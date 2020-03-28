@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fjord:fjord40"
+    short: In the Bulb
+    sight: >
+      Perhaps a great hiding place in trying to lose a party of high-strung chasers, this nook within a dead
+      pine's roots provides plenty of knobs and knolls in which to reshape your back and give your butt
+      permanent depressions. It encloses like a rib cage, although wood instead of bone, acting like a
+      security blanket to its occupants. This tree died honorably and continues to serve while in death. On
+      one of the sides of the rooty cage is a small, fairly deep &+yindentation&* filled with some rain water,
+      providing you with a deep reflection.
+flag:
+  - outdoors

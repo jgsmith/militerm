@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar49"
+      south:
+        target: "scene:aber:balharbor:balhar24"
+      west:
+        target: "scene:aber:balharbor:balhar39"
+    short: Empty Lot
+    sight: >
+      You have walked into the middle of a major disturbance where a band of thugs are smashing carriages,
+      torching many buildings, and throwing stones and bottles toward the sash security force who are decked
+      in full riot gear and shielding. Standing here too long would not be a good idea as the rioters may make
+      you as a target. You can escape into the square to the west or head toward a large high wall to the
+      north.
+flag:
+  - outdoors

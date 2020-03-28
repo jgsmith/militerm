@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:tria1"
+      north:
+        target: "scene:aber:evolution:tria9"
+    short: Pine Grove
+    sight: >
+      Primitive pine trees abound here. Monkey Puzzles are the dominant variety, although you can also see
+      several other types. To the north an imposing plateau rises into the sky, and you can make out a path
+      leading up to the top which does not look too difficult. To the east tree ferns take over as the most
+      common form of plant life.
+flag:
+  - outdoors

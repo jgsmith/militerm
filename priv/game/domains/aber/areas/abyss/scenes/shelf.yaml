@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:closet"
+    short: On the Shelf
+    sight: >
+      You are squatting on large wooden shelf high up in the closet. It doesn't seem to get much use as
+      everything is covered with a thick coat of dust that threatens to make you sneeze.
+flag:
+  - dark
+  - oneperson

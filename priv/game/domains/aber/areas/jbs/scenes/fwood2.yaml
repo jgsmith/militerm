@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:fwood5"
+      east:
+        target: "scene:aber:jbs:fwood4"
+      north:
+        target: "scene:aber:jbs:fwood3"
+      south:
+        target: "scene:aber:jbs:fwood"
+      up:
+        target: "scene:aber:jbs:fwood"
+      west:
+        target: "scene:aber:jbs:fwood1"
+    short: Fairy Wood
+    sight: >
+      This is one of those spots that looks incredibly familiar, but you know you've probably never been here
+      before. The mist is thick here and wrapped around your feet and ankles so that whenever you take a step
+      it creates swirls and eddies in surface of the mist.
+flag:
+  - outdoors

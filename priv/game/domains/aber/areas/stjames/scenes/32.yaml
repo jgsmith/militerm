@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:33"
+      south:
+        target: "scene:aber:stjames:31"
+    short: On the Bridge
+    sight: >
+      You have decided to cross over to the other side of the pond. The water below is clean and clear. You
+      can even see fish in it. Over to the east someone is paddling a canoe toward the small island in the
+      pond. Beyond him, children are wading.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:aladdin:sdesert"
+      up:
+        target: "scene:aber:aladdin:sdesert"
+    short: Before the Cave of Wonders
+    sight: >
+      As you walk closer, a large head and mouth forms up from the sands ahead. You now stand before the
+      entrance to the Cave of Wonders. It doesn't look all that inviting. But if you'd like to look a little
+      closer, stairs lead down. Safety is back up.
+flag:
+  - light
+  - outdoors
+  - hot

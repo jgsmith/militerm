@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund85"
+      south:
+        target: "scene:aber:sommerlund:sommerlund87"
+    short: The Fire Room
+    sight: >
+      The entire room is red, and the curtains on the windows are made of a yellow blaze.
+flag:
+  - hot

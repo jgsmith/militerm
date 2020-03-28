@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni67"
+      south:
+        target: "scene:aber:oni:oni71"
+      west:
+        target: "scene:aber:oni:oni72"
+    short: West Deufel
+    sight: >
+      The west side of Deufel is mainly a residential area. Homes range from small humble dwellings to large
+      extravagant mansions.
+flag:
+  - outdoors
+  - cantsummon

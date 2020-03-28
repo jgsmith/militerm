@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon27"
+      south:
+        target: "scene:aber:saxon:saxon5"
+      west:
+        target: "scene:aber:saxon:saxon20"
+    short: &+LShadow&*
+    sight: >
+      The shadow of he huge mountain engulfs your body as you approach it. Wild brush nor tree nor weed can
+      grow here, the lack of sunshine is too much of a strain. Since the sun's rays do not penetrate here, the
+      temperature remains very cold at all times. The wind here blows strongly from the south, as if the
+      mountain is attempting to suck you in.
+flag:
+  - dark
+  - outdoors

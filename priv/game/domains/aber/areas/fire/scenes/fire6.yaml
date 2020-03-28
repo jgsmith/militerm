@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire13"
+      north:
+        target: "scene:aber:fire:fire12"
+      up:
+        target: "scene:aber:fire:fire4"
+    short: Staircase
+    sight: >
+      You are standing on the staircase. All stairs are made of &+ymahagony&*, covered with carpets. The metal
+      railing shall avoid a possible accident. You can go up, north to the vine store or east to the laundry.
+flag:
+  - dark

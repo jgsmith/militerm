@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar57"
+      north:
+        target: "scene:aber:balharbor:balhar64"
+      west:
+        target: "scene:aber:balharbor:balhar55"
+    short: Park Street
+    sight: >
+      You stand in front of the Warriors' Guild, where men train to be expert fighters. The rioters seem to
+      have been smart to avoid this building, because some thugs have been known to go in and never come out
+      again. The back of the inn is to the south. The road runs west and east.
+flag:
+  - outdoors

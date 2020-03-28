@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:enchanter:enchanter68"
+    short: The Hidden Bar
+    sight: >
+      Really, unless Krill's invited you here, you shouldn't be here. The walls are painted with blood, and
+      various implements of torture hang from the walls. No different from any other place here in the castle.
+      But of note in this room is the bar. At first glance, it seems to be a regular well stocked bar, with
+      everything from cinnamon schnapps to a bottle of tequila with the worm. You sit on a stool, and a
+      ghostly bartender materializes before you (a la Shining) to take your order. Before you can mouth your
+      wish, he nods, and turns his back to you, and begins mixing the marguerita you wanted. The bartender
+      turns around, and sets the glass on the bar before you. You begin conversing with him, sipping your
+      marguerita, and reminiscing about the days before Krill invaded the castle and murdered the local
+      populace. More apparitions begin appearing around you, and you order another drink, and then another.
+      Soon, you've forgotten who you are, and all you know is what these simple villagers knew when Krill came
+      and changed their world. Before long, you pass out, slumped over on the bar. When you wake up, you are
+      alone, shivering, afraid, and determined to undo the damage that Krill did here.
+flag:
+  - party

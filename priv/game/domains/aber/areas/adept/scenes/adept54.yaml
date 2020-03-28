@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept53"
+      west:
+        target: "scene:aber:adept:adept55"
+    short: Northwest Nareth
+    sight: >
+      The forest once extended to the distant coastline to the southwest and far across to the eastern reaches
+      of the land, but when humans came to this country, they greatly deforested the north and northeastern
+      sections. The Kengjun Elves, fearing the eventual destruction of their entire homeland, responded with
+      diplomats and petitions to ease the humans from the cutting of further trees. The diplomats were never
+      heard from again and the petitions burned. When the humans begin to invade the central regions, the
+      Elves launched a massive counteroffensive and drove back the humans halfway to the northern border of
+      their land. The castle to the east is the humans' base of operations, and the area east of that castle
+      is where the decades-long fight continues even now.
+flag:

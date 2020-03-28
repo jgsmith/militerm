@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest77"
+      south:
+        target: "scene:aber:rainforest:forest84"
+    short: Raised Ground
+    sight: >
+      You are on a patch of ground which is slightly higher than the surrounding area, and is therefore
+      somewhat drier. In the trees above you toucans and parakeets utter raucous cries, and you wonder whether
+      you are the reason for their unease.
+flag:
+  - outdoors
+  - rainforest

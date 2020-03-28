@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree5"
+      south:
+        target: "scene:aber:eirias:tree3"
+    short: Fourth Tree - Hazel
+    sight: >
+      The tree is broad and spreading, with the blunt rounded leaves and budding feathery nuts seen in a lot
+      of country hedges. Hazel is said to be for healing, and for feeding starving travellers.
+flag:
+  - outdoors

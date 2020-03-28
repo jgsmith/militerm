@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:tree4"
+      south:
+        target: "scene:aber:eirias:tree2"
+    short: Third Tree - Birch
+    sight: >
+      A great knotted white tree rises before you, hard catkins dancing from its long thin brown twigs.
+      Beneath the fluttering green leaves it is an old tree, with white-spotted scarlet toadstools growing
+      between its roots.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan26"
+      west:
+        target: "scene:aber:mithdan:mithdan32"
+    short: Bare Path
+    sight: >
+      The sun shines down brilliantly here, practically blinding you. Beneath you the storm clouds roil and
+      turn in hypnotic patterns. The stone path winds up to the north, and slopes down into the clouds to the
+      west.
+flag:
+  - outdoors
+  - cold

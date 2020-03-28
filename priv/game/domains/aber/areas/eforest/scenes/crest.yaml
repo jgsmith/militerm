@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:rclearing"
+      west:
+        target: "scene:aber:eforest:climb"
+    short: Mountain Crest
+    sight: >
+      You stand at the top of one of the mountains overlooking the valley. Just to the east, the path you are
+      on becomes rather precarious, sloping sharply down into a rocky clearing. To the west, the descent is
+      more gradual, ending in a rocky slope. You should be very careful. It looks like the area could all
+      tumble down in a landslide in a second!
+flag:
+  - outdoors
+  - nomobiles

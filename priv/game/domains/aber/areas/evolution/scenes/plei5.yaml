@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:plei4"
+      north:
+        target: "scene:aber:evolution:plei6"
+    short: Painted Cave
+    sight: >
+      You are inside the cave. Crude paintings adorn the walls, and you can't help wondering if you have
+      entered somebody's home. The paintings are mostly of animals: buffalo, zebra and so on, and there are
+      also depictions of what can only be humans with spears.
+flag:
+  - dark

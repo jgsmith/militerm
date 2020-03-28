@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:stream"
+      west:
+        target: "scene:aber:newvillage:stwest2"
+    short: By the River
+    sight: >
+      The river is getting ever faster as you head down-stream. The scenery on the opposite side of the river
+      is as breath-taking as ever. The mountains you can barely make out are snow-capped; probably year-round.
+      Every once in a while, you think you hear a loud noise coming from that general area, but you can't be
+      sure. The prairie grass on the other side is teeming with life of all kinds. The sun above is shining
+      bright and reflecting off of the river's water. The noise you hear coming from the west seems to be
+      getting louder and louder.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:ordo1"
+    short: Deep Sea Grotto
+    sight: >
+      You are in a partially enclosed sea cave which receives almost no light from above. There is no life
+      here save for a sparse growth of hardy weed which clings to the rock walls.
+flag:
+  - soundproof
+  - underwater
+  - dark

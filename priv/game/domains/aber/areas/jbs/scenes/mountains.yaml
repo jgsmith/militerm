@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Mountain Tops
+    sight: >
+      You have fallen to your death and now you can't get any of your stuff back until after a reset..or if
+      you are lucky enough to have robdeath. I hope you're pleased.... Oh yeah.. you are also splattered all
+      over the peak of a really big mountain.
+flag:
+  - death
+  - outdoors

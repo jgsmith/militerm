@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fwood"
+      north:
+        target: "scene:aber:jbs:fwood2"
+      south:
+        target: "scene:aber:jbs:vines"
+      up:
+        target: "scene:aber:jbs:fwood6"
+      west:
+        target: "scene:aber:jbs:fwood3"
+    short: Fairy Wood
+    sight: >
+      These woods seem to continue almost to forever and back. Every where you turn it looks almost exactly
+      the same. Large old trees everywhere, mist covering the ground, no end in sight...
+flag:
+  - outdoors

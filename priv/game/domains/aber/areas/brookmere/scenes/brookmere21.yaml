@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:brookmere:brookmere20"
+    short: Gnoll Quarters
+    sight: >
+      Cautiously you enter the room, lit only by the soft glow of a candle, and stifle a gasp as you see the
+      huddled forms of a dozen or more gnolls! Then, observing that they are all lying horizontally on bunks,
+      you relax, realising they are asleep. Gnolls love a snooze, at any time of the day or night, and never
+      miss a chance to catch forty winks. All is still, but for the quiet breathing of the sleepers, the rise
+      and fall of their chests under the covers and the flame of the solitary candle melting in a sconce.
+      There is nothing of interest here. You can probably leave without waking anyone if you tiptoe.
+flag:

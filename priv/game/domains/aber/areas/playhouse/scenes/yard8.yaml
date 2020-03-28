@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:playhouse:yard2"
+      west:
+        target: "scene:aber:playhouse:yard7"
+    short: Kiddy Motors
+    sight: >
+      This is the area set aside souly for the ridable toys to be played on. Children here are riding on three
+      wheelers and tricycles and even a little bitty bike made just for their size. The chainlink fence blocks
+      your exit to the east and to the south. To the north is the sandbox and west is the picnic area.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome11"
+      north:
+        target: "scene:aber:rome:rome3"
+    short: "Southern Commoner's Seats"
+    sight: >
+      This is the southeastern part of the common seating areas. The benches here are made of stone and are
+      probably centuries old. A few scratches on one of the benches catch your eye. An acrid smell is coming
+      from the east and a tunnel leads off to the north.
+flag:
+  - outdoors

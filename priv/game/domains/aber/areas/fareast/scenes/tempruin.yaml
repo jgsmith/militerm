@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:enoroad"
+      west:
+        target: "scene:aber:fareast:enogate"
+    short: Ruined Shrine
+    sight: >
+      This was once a Shinto shrine outside Eno. Now, it is a pile of rubble beneath two cracked pillars. The
+      main platform is largely intact beneath the rocks, but its surface has been scorched and scraped by
+      something. Trees that once made this an oasis of nature near the city's walls have been torn down,
+      giving you a clear view of those ramparts and the spires beyond.
+flag:

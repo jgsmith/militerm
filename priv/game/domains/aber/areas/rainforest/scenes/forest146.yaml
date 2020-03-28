@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest144"
+    short: Even Thicker Forest
+    sight: >
+      As you suspected the forest has brought you to an abrupt halt. The trees seem to be all branches,
+      criss-crossing at ground level and making progress impossible. You will have to return west.
+flag:
+  - outdoors
+  - rainforest

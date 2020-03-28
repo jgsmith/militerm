@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept9"
+    short: The Garden
+    sight: >
+      The archway that represents the passage in and out of the garden is made of simple adobe blocks, as are
+      the walls which surround the garden to a height of four feet. Guideposts along the various dug trenches
+      tell what type of plant or vegetable is currently growing within that row. Leaning up against a stone
+      dedication to the Axilator people are the usual gardening implements: shovel, hoe, rake, manure pile,
+      and a dusty, rickety wheelbarrow. The entire area is well tended and thus provides sufficient produce
+      every harvest for all the hungry souls.
+flag:

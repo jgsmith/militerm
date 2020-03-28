@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Coffin
+    sight: >
+      A coffin, bigger then the average coffin. But nonetheless just a wooden coffin, the type you use to bury
+      people in.
+flag:

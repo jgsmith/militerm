@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:landing"
+      west:
+        target: "scene:aber:oaktree:magnolia"
+    short: Mansion Bedroom
+    sight: >
+      This looks like a little girl's bedroom. An arched doorway leads east. The room is beautifully furnished
+      with curtains of white taffeta, a Persian carpet, and a tiny canopied bed with cushions of pale yellow
+      damask. Rosewood chairs surround a tiny silver table, with a doll's tea service set for two.
+flag:

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house18"
+    short: Grandparents Room
+    sight: >
+      This looks to be grandma and grandpa Hickdale's room, it is just as boring as the other rooms.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept17"
+      west:
+        target: "scene:aber:adept:adept14"
+    short: Main Street
+    sight: >
+      This is the widest and most heavily traveled section of the city, where many millions of both legal and
+      black market transactions have occurred. The road widens into a circular four-way to the west and
+      continues to curve slightly to the east.
+flag:

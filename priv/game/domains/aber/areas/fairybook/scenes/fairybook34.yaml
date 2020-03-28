@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook33"
+    short: Nursery
+    sight: >
+      The room is filled with cribs, and each crib seems to be full of screaming bunnies. They would be cute
+      if they were not so plentiful. You hear a noise behind you, and turn to see five or six older bunnies
+      approaching with tiny swords made of paper clips.
+flag:
+  - nomobiles

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook12"
+      up: null
+    short: Under the Table
+    sight: >
+      You stand beneath the glass table, staring up through it. From here, you realize that you can't reach
+      the doorknobs of any of the doors. To the east is a large body of water.
+flag:

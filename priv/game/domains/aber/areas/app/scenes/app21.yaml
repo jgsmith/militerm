@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:app:app20"
+      south:
+        target: "scene:aber:app:app22"
+    short: "Almin's Fortress"
+    sight: >
+      You have finally reached the dark mage's fortress. The entrance does not appear to be guarded. It looks
+      like you'll have an easy time getting in.
+flag:
+  - nomobiles
+  - outdoors

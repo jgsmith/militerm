@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon13"
+      west:
+        target: "scene:aber:talon:talon17"
+    short: Cavern into the Unknown
+    sight: >
+      You stand in a wide cavern with a soft sandy floor. To the western side of the cavern, a strange dim
+      white light pours from what appears to be some kind of shifting gateway into the unknown. The porthole
+      is like a distorted mirror, fluctuating at every instant in size and shape, and it casts strange white
+      waves of light across the cavern as it changes in shape. To the east lies the underground lake.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:throne"
+      north:
+        target: "scene:aber:icecave:g_hall"
+      south:
+        target: "scene:aber:icecave:bedroom"
+      west:
+        target: "scene:aber:icecave:magician"
+    short: Ice Palace
+    sight: >
+      You are in a huge ice hall forming the center of the ice palace. Huge pillars hold up the roof, although
+      small amounts of water now trickle down them. Archways lead in all directions.
+flag:

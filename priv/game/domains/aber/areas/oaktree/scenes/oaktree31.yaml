@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:oaktree29"
+      south: null
+    short: The Lions
+    sight: >
+      The path ends here at a large oak tree. The giant oak completely blocks the path, creating a dead end.
+      On either side of the oak tree are large statues of magnificent lions. One of the lions has its mouth
+      open.
+flag:
+  - nomobiles
+  - outdoors

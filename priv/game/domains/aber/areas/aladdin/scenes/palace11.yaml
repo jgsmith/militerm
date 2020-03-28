@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace12"
+      west:
+        target: "scene:aber:aladdin:palace10"
+    short: Another Hallway
+    sight: >
+      You are in an east/west hallway. Looking around, you notice nothing worth taking note of.
+flag:
+  - dark

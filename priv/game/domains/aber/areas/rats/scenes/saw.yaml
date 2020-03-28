@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:rats:hallway_3"
+    short: Saw
+    sight: >
+      You are standing at a saw. This is used to prepare the wood for the cutlet. You also can see a hole
+      leading down and as you look through it, you see the wood store. It is not often used because of the
+      baby. There is a staircase leading up.
+flag:
+  - dark

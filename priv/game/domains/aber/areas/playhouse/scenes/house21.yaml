@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house22"
+      west:
+        target: "scene:aber:playhouse:house20"
+    short: Bedroom
+    sight: >
+      This is a small bedroom with a bunkbed set built into the north wall. A dresser lines the south wall and
+      a large clock that resembles a cat hangs above it. To the east is a playpen or you can leave to the
+      west.
+flag:

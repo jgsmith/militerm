@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:zodiac:firea"
+    short: The Cheerful Home of Aries
+    sight: >
+      Well...perhaps not so cheerful....the floor is black with ash and the windows are curtain less. There is
+      no bed, nor are there any closets, tables, or chairs. Nothing about this place is in any way appealing
+      to you, lest of all the sulphurous stench that shreds at your nostrils.
+flag:

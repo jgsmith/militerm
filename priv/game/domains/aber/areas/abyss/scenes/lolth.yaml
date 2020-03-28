@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:web"
+    short: "Lolth's Lair"
+    sight: >
+      Uh, oh... this isn't Kansas anymore Toto. You have stumbled onto the lair of the Demon Queen of Spiders.
+      Darkness prevails here. Even the strongest light source can illuminate only a small portion of this
+      chamber. A touch of the wall nearest you reveals a sticky substance and you are standing in a pool of
+      warm liquid.
+flag:
+  - dark
+  - nosummon

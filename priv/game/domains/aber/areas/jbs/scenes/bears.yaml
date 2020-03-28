@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:dreams"
+      north:
+        target: "scene:aber:jbs:campfire"
+      up:
+        target: "scene:aber:jbs:fsun"
+    short: Dancing Bears
+    sight: >
+      You have reached a small clearing in the middle of somewhere, and to your surprise you find a group of
+      five or six small bears, all different colors ranging from blue to red and green, dancing around and
+      grooving to a really tripped out version of what sounds like Dark Star... You have no idea where the
+      music might be coming from.
+flag:
+  - outdoors

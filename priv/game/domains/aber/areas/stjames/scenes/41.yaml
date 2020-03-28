@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:28"
+      north:
+        target: "scene:aber:stjames:40"
+      west:
+        target: "scene:aber:stjames:42"
+    short: St. James Park
+    sight: >
+      Along the southern border of the park, you can look through the trees and light wrought-iron fence into
+      the city. The buildings near you are all rather old and have a lot of character. You can hear the sounds
+      of the city not far off. There seems to be major construction work underway near the Abbey.
+flag:
+  - outdoors

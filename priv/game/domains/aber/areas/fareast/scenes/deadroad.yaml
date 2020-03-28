@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countrybend"
+    short: Off the Edge
+    sight: >
+      Stepping off the edge of an abyss is never a good idea, especially when it is nearly a mile deep. You
+      splatter disgustingly on the rocks below.
+flag:
+  - death
+  - nomobiles

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3488"
+    short: Devils Quarters
+    sight: >
+      This room is very nicely decorated. But instead of decorating with equipment of battle this 'devil'
+      decorated his with stuffed heads of vanquished foes. Beside each head as before is a note as to name and
+      date of death. Another unique thing in this room is the devil. He motions for you to draw your weapons
+      and prepare yourself. He truly enjoys a good fight.
+flag:

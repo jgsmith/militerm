@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia24"
+    short: "King Rindor's Palace"
+    sight: >
+      This is the throne room of King Rindor of Rindor. There is not much to describe because his throne
+      'room' is nothing more than a tent. The Elenes have taken most of everything and left the King with only
+      what lies within this tent.
+flag:

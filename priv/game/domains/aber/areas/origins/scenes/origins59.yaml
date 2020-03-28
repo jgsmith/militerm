@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins60"
+    short: Wide Marble Road
+    sight: >
+      You wake up, your bones feeling like jelly and your heart beating a mile a minute. You look around for
+      your brave captain Neil Peart, but he is nowhere to be found... The road you stand on is very wide, and
+      directly ahead of you, yet miles away still, is a very, very large mountain. You can follow this road
+      north only, but for many miles.
+flag:
+  - outdoors

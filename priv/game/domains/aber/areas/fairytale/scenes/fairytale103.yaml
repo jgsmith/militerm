@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale104"
+      south:
+        target: "scene:aber:fairytale:fairytale96"
+    short: Living Room West
+    sight: >
+      You are in a large living room, which extends the depth of the house. A piano stands in one corner, and
+      a large display case is next to the southern door. The display case is filled with several pieces of
+      fine china and valuable-looking artifacts. A white pipe extends from ceiling to floor, from which you
+      can hear the sound of running water. To the south is the entry room, and to the east the living room
+      extends.
+flag:

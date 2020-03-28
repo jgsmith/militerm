@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The branches give way and...
+    sight: >
+      As you plummet to your demise, the cheery sounds of tiny woodland folk reverberate in your ears.
+flag:
+  - death

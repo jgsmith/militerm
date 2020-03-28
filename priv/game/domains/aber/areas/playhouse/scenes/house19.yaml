@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:playhouse:house20"
+      south:
+        target: "scene:aber:playhouse:house18"
+    short: Toy Room
+    sight: >
+      This is a rather nice toyroom with all the coolest toys available on the market. These people must keep
+      Toys 'R Us in business! This room truly does make you long to be a child again. Before you devulge in
+      this fantasy, however, you think it best to leave.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nexus:nexus69"
+    short: Basement of Flesh
+    sight: >
+      The stench of death is comforting to this room. The walls are made out of pulsing human flesh, slowly
+      glowing and oozing with a fresh mixture of pus and blood. Standing next to each of these open sores is a
+      giant black mosquito, its probiscus deeply embedded into the wound and body pulsing in sync with the
+      walls as it drinks its fill. At other spots, a shaggy-haired vampire rips away the skin covering and
+      pours grapefruit directly into the muscle, sloshing it around with its tongue before ramming the entire
+      length of its six inch fangs into the tear ecstatically. This room represents the heart of suffering,
+      and each new wound means another victim added to the continuous torture.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

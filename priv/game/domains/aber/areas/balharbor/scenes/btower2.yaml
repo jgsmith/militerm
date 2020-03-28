@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:btower1"
+      up:
+        target: "scene:aber:balharbor:btower3"
+    short: Stairs of Tower
+    sight: >
+      As you climb the stairs you can see the sky around you become dark already. You notice some transparent
+      figures floating about that see you coming and swarm together in preparation of attack. The door leading
+      into the tower is just past them upward while you can escape back down.
+flag:
+  - outdoors

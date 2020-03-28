@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot233"
+      south:
+        target: "scene:aber:camelot:camelot231"
+    short: Gazebo
+    sight: >
+      What a lovely gazebo! A snug little romantic spot for lovers to pass away an hour, or an entire
+      afternoon. A large garden lies south, and a tournament field is to the west.
+flag:
+  - outdoors
+  - party

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nwbeaches:beachqq01"
+      north:
+        target: "scene:aber:newvillage:jetty"
+    short: Steps Leading Down to the Sea
+    sight: >
+      You are on a long flight of steps cut into a cliff face. Just ahead of you, the boardwalk looms, while
+      below you, the steps continue for what seems an eternity.
+flag:
+  - outdoors
+  - nomobiles

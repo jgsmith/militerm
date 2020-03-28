@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon47"
+      up:
+        target: "scene:aber:talon:talon49"
+    short: Dragon Tower
+    sight: >
+      You are climbing a ladder traversing the length of a large dark tower. Below you, the ladder leads to
+      the bottom of the tower, which is barely visible. The ladder seems to lead up to the top of the tower,
+      where bright yellow sunlight streams in from above.
+flag:
+  - nomobiles

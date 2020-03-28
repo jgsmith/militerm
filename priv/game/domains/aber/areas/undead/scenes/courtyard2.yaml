@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:courtyard3"
+      north:
+        target: "scene:aber:undead:courtyard5"
+      south:
+        target: "scene:aber:undead:portcullis"
+      west:
+        target: "scene:aber:undead:courtyard1"
+    short: Entrance To Courtyard
+    sight: >
+      You stand just inside castle courtyard, the only sound the ghostly remnants of your footsteps as they
+      disappear into time. This is a wide open cobbled courtyard. The moss growing from between the cobbles is
+      the only living thing you see. The courtyard continues in all directions. There seems little sign of
+      life even within the castle walls.
+flag:
+  - outdoors

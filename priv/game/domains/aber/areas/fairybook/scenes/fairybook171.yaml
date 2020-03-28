@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook172"
+      north:
+        target: "scene:aber:fairybook:fairybook170"
+      south:
+        target: "scene:aber:fairybook:fairybook173"
+    short: Hallway
+    sight: >
+      The hallway is decorated with pictures of famous people in Oz's history. You recognize the Tin Woodman,
+      the Scarecrow, the Cowardly Lion, and Dorothy, posed together as they began their historic journey. The
+      hallway goes north and south, as well as east to a powder room.
+flag:

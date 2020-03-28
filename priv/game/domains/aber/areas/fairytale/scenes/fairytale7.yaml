@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale6"
+      up:
+        target: "scene:aber:fairytale:fairytale8"
+    short: "Giant's Garden"
+    sight: >
+      Tall flowers and huge vegetables loom above you. Some of the plants look strong enough to support your
+      weight, including a beautiful rose which casts its delicate shadow over you.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden35"
+      north:
+        target: "scene:aber:golden:golden34"
+      south:
+        target: "scene:aber:golden:golden33"
+      west:
+        target: "scene:aber:golden:golden36"
+    short: &+WChamber of Fate&*
+    sight: >
+      You are standing in a small room with four exits. Each exit holds a fate that you will not know unless
+      you enter it. The exit to the south will take you back to the round chamber, where you can sort your
+      thoughts. There is a symbol carved above each exit. A faint yellow light shines from the western exit
+      while a heavy, black mist drifts from the northern exit. From the eastern exit there is a soft, red
+      glow.
+flag:
+  - dark

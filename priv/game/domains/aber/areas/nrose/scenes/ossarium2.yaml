@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:ossarium"
+      up: null
+    short: Ossarium
+    sight: >
+      You have entered the monastery ossarium. The room has bones stacked up everywhere, some in niches dug
+      into the damp walls, others piled up on the ground. As you walk around, your feet slosh through the mud
+      on the floor. There is a heavy, musty smell here and you feel strange as if you are walking closer to
+      your own death. As you look around you see a stairway up and to the north is another part of the
+      ossarium.
+flag:
+  - dark
+  - nomobiles

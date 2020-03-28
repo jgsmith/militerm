@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:airship2"
+      north:
+        target: "scene:aber:fantasy:castle2"
+    short: In Front of Castle Glaive
+    sight: >
+      You are standing in front of a monsterous looking castle that seems to reach up to the sky. The black
+      walls block out most of the sunlight allowing only a few rays on sunlight to strike against the ground
+      revealing large bushes that climb the sides of the castle walls. The drawbridge leading into the castle
+      is open allowing you to see inside of the dimly lit entrance.
+flag:
+  - outdoors

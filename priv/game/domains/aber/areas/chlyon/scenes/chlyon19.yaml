@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:chlyon:chlyon12"
+    short: Lava River
+    sight: >
+      A river of molten rock blocks your progress. The heat is unbearable, and the air is hot and hard to
+      breathe. Don't even think about trying to cross it!. The low ceiling is cracked from the intense heat
+      and through one large crack you can see another room above you.
+flag:

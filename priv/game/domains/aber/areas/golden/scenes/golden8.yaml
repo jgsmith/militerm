@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden10"
+      south:
+        target: "scene:aber:golden:golden7"
+      west:
+        target: "scene:aber:golden:golden9"
+    short: Worn Path
+    sight: >
+      There are deep ruts in this part of the path from many travelers walking to and fro. You hear a rustling
+      in the bushes but it is only a small boar searching for its mate. Through the trees you see several
+      thatched huts scattered around in a small circle.
+flag:
+  - outdoors

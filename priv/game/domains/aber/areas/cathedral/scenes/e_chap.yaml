@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cathedral:e_amb"
+    short: East Chapel
+    sight: >
+      This chapel is the largest of the five. The walls here are decorated with fine paintings of St. Suorac.
+      Against the wall is a large reliquary, in which the bones of St. Suorac were supposed to be stored.
+      Unfortunately they never made it here since according to the Priest he was killed by the vampire, and
+      the cathedral turned into a &+rdemonic &+blair&*.
+flag:
+  - dark
+  - oneperson

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest10"
+      west:
+        target: "scene:aber:fantasy:dforest12"
+    short: Dwarven Forest
+    sight: >
+      As you go further into the forest you being to feel a little more uneasy about being here. You have a
+      feeling that there are things looking at you but when you turn around there is nothing there.
+flag:
+  - outdoors

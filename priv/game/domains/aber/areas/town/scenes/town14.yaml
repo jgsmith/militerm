@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town9"
+    short: "Smuggler's Storeroom"
+    sight: >
+      This small room is stacked with many items from all over the known world.
+flag:

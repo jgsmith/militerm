@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camlearn"
+      west:
+        target: "scene:aber:camelot:camelot63"
+    short: Alchemists Shop
+    sight: >
+      You cannot for the life of you imagine what all this junk is for. Everything from Albatross lips to
+      Zebra stripes seems to be sold here. You imagine it is used by alchemists and mages in their work, but
+      this place is really creepy!
+flag:

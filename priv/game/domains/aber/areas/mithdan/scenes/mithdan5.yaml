@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan6"
+      west:
+        target: "scene:aber:mithdan:mithdan4"
+    short: Sandy Clearing
+    sight: >
+      The floor of the clearing is covered with pure white sand. The edges are well defined, the sand not
+      mixing with the dirt of the forest. The clearing is filled with a sense of magic, but there is nothing
+      noticable. In the center of the clearing is a firepit, but the edges of the pit have no soot. Thick
+      brambles line the north and south of the pit, but the forest on the east and west the forest looks
+      thinner.
+flag:
+  - outdoors

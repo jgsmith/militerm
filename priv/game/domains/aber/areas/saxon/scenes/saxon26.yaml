@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon25"
+      west:
+        target: "scene:aber:town:town53"
+    short: &+ySandy &+CShoreline&*
+    sight: >
+      You are standing on the shoreline to a large sea. The beach is covered with soft sand, which you barely
+      sink into as you walk. Scattered here and there are sea shells which have washed onto the shore. A large
+      sea expands to the east.
+flag:
+  - light
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town12"
+      north:
+        target: "scene:aber:town:town21"
+      south:
+        target: "scene:aber:town:town19"
+      west:
+        target: "scene:aber:town:town25"
+    short: Main Road
+    sight: >
+      You are on the main thoroughfare of town which leads from the docks to the main gates. There are many
+      shops along the way, which contain many interesting items of food and weaponry. With a bit of looking,
+      you could probably find a bar or brothel around if you were interested.
+flag:
+  - outdoors

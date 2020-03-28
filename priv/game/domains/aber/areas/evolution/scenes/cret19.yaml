@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:cret18"
+    short: Northernmost Dune
+    sight: >
+      The dunes end here, and to the north sharp rocks lie below you, making you somewhat reluctant to jump.
+      The only safe path would be back south into the body of the dunes.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:abyss:pillars1"
+    short: "Demon's Vault"
+    sight: >
+      This place has an unnatural, sepulchral quietness to it. The ceiling of the vast chamber is supported by
+      regularly spaced massive columns. The columns are carved with the contorted faces of demons. The ground,
+      dry and dusty, is littered with dead leaves, which flutter slightly in an occasional light breeze.
+flag:
+  - dark
+  - peaceful

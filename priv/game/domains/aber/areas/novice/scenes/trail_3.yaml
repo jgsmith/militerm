@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:novice:small"
+      west:
+        target: "scene:aber:novice:hill"
+    short: Forest Path
+    sight: >
+      You have left the circle of oaks and are back on a trail that leads north, then turns to the west. The
+      trail gets steep here and goes down into a lush valley that is covered in green. Everywhere, green.
+flag:
+  - outdoors
+  - real

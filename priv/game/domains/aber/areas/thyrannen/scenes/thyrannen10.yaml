@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen9"
+    short: Redwood Forest
+    sight: >
+      This forest thickens in all directions save the north. The Redwoods grow taller and thicker all around
+      you. The sight fills your eyes with beauty. and your mind with awe, you gasp at their beauty.
+flag:
+  - outdoors

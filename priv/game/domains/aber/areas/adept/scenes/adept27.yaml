@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:adept:adept28"
+      west:
+        target: "scene:aber:adept:adept26"
+    short: First Floor
+    sight: >
+      This is the main production and shipping room, where crates, bags, boxes, and barrels stand in severe
+      stacks, ready to move to their destinations. Most of the equipment here is to be sent northward to fight
+      in the king's war. A manually-cranked conveyor belt and a full staff comprise the assembly line. Stone
+      stairs lead upward while the exit to the outside world is west.
+flag:

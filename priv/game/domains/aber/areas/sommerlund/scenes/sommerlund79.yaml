@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:sommerlund:sommerlund78"
+    short: The Nest
+    sight: >
+      This is the home of the leader of a dragon herd. The herd has been sent forth by Naar, the King of
+      Darkness, to destroy the fertile lands of Sommerlund. The nest itself is made of super-strong fibers,
+      interlaced to give it a nice, weaving appearance and strength when being moved. The plateau on which it
+      rests is formed of heavily scorched black glassy lava and under high enough heat and pressure to
+      transform it into a crystal with a clarity rivalling that of a diamond.
+flag:
+  - hot
+  - outdoors

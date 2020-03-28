@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar8"
+      up:
+        target: "scene:aber:volcano:bandilbar10"
+    short: Town Hall
+    sight: >
+      The town hall is cold and dusty. It shows signs of having been ransacked. Broken bits of furniture lie
+      scattered over the floor. Nothing of value has been left here. A staircase in one corner leads up to the
+      quarters of Yorrin's mayor.
+flag:
+  - nomobiles

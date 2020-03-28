@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:lhall4"
+    short: The Lavatory
+    sight: >
+      This must be where the inhabitants of Cloud Castle come when they have to satisfy that natural urge that
+      holds sway over all of nature's creations. This is rather reassuring considering that now you can stop
+      wondering if rain was actually these people satisfying their natural yearnings, though you may still not
+      be so sure about thunder.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:noxypickle:flag"
+      west:
+        target: "scene:aber:noxypickle:chamber"
+    short: Stone Doorway
+    sight: >
+      You are standing beneath a low arch of stone. Light pours through the doorway from the east, but to the
+      west all is black. Strange archaic letters adorn the heavy stones of the archway, but they are not like
+      any runes you have ever come across before.
+flag:

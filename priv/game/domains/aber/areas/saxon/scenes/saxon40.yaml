@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:saxon:saxon39"
+    short: &+LBottom &*of the &+rMere&*
+    sight: >
+      Here at the very bottom of the mere is the home of a pure evil. Lined on the walls are the weapons of
+      past warriors who tryed their luck here and lost. Suits of armor lie piled in one corner, the bones of
+      their owners lie in another. What kind of creature could cause such destruction? Stay around and you
+      will definitely find out.
+flag:
+  - dark
+  - hot
+  - deepwater

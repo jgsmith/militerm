@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_35"
+      west:
+        target: "scene:aber:haunted:haunted_37"
+    short: Eerie Path to the Lair
+    sight: >
+      Talk about a sugar rush! As you walk down the path, you see the trees are made of what appear to be
+      gumdrops. Little furry animals are feasting on flowers, which appear to be made of popcorn balls. As
+      your eyes turn to look further west, you see the greenish glow gets brighter as you proceed.
+flag:

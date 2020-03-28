@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni79"
+      south:
+        target: "scene:aber:oni:oni80"
+      west:
+        target: "scene:aber:oni:oni77"
+    short: Underground Intersection
+    sight: >
+      Three underground passages intersect here. It is reasonable to assume that the northern passage leads to
+      the Knight's compound, the southern passage to the Wizard's compound, and the western passage to Deufel
+      Temple.
+flag:
+  - cantsummon

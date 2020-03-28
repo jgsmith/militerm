@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung32"
+      north:
+        target: "scene:aber:nibelung:nibelung29"
+      south:
+        target: "scene:aber:nibelung:nibelung34"
+      west:
+        target: "scene:aber:nibelung:nibelung30"
+    short: Town Road
+    sight: >
+      You find yourself on a road which apparently leads into the center of town. To the left, a dilapidated
+      schoolhouse is attempting to convey a look of importance, but failing miserably. A tavern is off to the
+      right, if you are interested in refreshment.
+flag:
+  - outdoors

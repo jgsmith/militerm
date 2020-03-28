@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon60"
+      west:
+        target: "scene:aber:talon:talon58"
+    short: The Dark Cave
+    sight: >
+      This is a small, dark cave with walls of fossilized creatures of a time now lost. A sense of history
+      passes over you as you travel through the remains of those who were kind enough to leave a world for us
+      to destroy.
+flag:
+  - dark

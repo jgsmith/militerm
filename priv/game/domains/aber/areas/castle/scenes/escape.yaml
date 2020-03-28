@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+    short: Escape Passage
+    sight: >
+      This is a passageway which would be used by the King and his court if the castle defense was ever
+      penetrated, to escape from the attackers, and looking at the lack of dust and cobwebs it would seem to
+      have been used recently. The passage is small and dark, but probably more inviting than the wrong end of
+      a sword.
+flag:

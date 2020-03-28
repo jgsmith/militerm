@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oni:oni59"
+    short: Hidden Room
+    sight: >
+      You find yourself in a small room with a message carved into the walls. The sword and gem together is
+      not one but three. hikala hoei humae Only by the sword of a demon may they be called forth
+flag:
+  - nogoto
+  - noat

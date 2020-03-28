@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:limestone"
+      south: null
+      west:
+        target: "scene:aber:blizzard:dark_cave"
+    short: Shadowy Corridor
+    sight: >
+      You are in a shadowy east-west corridor that links two caves. There is a door to the south.
+flag:

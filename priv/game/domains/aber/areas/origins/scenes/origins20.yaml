@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins21"
+      south:
+        target: "scene:aber:origins:origins19"
+    short: Nightmare Road
+    sight: >
+      The road you have been following ends abruptly here, but you might be able to ford a river to your east.
+      You can also retrace the road back south. You feel as if you are walking right into the heart of
+      something extremely evil. You can't help but get that feeling of being watched.
+flag:
+  - outdoors
+  - negregen
+  - soundproof

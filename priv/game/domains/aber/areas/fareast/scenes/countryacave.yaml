@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:templepass"
+      south:
+        target: "scene:aber:fareast:countrya_5"
+    short: A Tight Squeeze
+    sight: >
+      This crack between two rock faces is barely wide enough for an armored human to squeeze through. It
+      rises sharply at its midpoint, and an icy wind blows north to south, from the high end... a snowy
+      mountainside can be seen beyond. To the south, a rocky field offers more warmth and comfort.
+flag:
+  - nomobiles

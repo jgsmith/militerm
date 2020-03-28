@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5502"
+      west:
+        target: "scene:aber:graye:graye5504"
+    short: "The Forest's Edge"
+    sight: >
+      The grassland fades to spotted scrub here, and finally merges into a great line of trees. To the far
+      north a stormcloud hangs in the air ominously, but strangely enough it is still quite pleasant out.
+      Crickets chirp merrily, and the sun's rays warm your skin. The wagon trail leads eastwards back into the
+      grassland, and dissapears westwards into the forest.
+flag:
+  - outdoors

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ledge:ledge34"
+      south:
+        target: "scene:aber:ledge:ledge37"
+      up:
+        target: "scene:aber:ledge:ledge34"
+      west:
+        target: "scene:aber:ledge:ledge31"
+    short: Short Wall
+    sight: >
+      The rather level floor of the cavern comes to a short climbable wall looking to be about four feet high
+      which appears to be another tunnel going to the north. Some track can be seen going to and from this
+      tunnel, along with a few droppings of some animal. Perhaps someone or something is living down here
+      after all. You can follow the tracks to the north, or else go to other parts of the cavern west and
+      south.
+flag:
+  - dark

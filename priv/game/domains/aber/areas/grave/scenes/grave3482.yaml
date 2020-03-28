@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3481"
+      north:
+        target: "scene:aber:grave:grave3483"
+    short: Twisting Tunnel
+    sight: >
+      As you move along the tunnel here you become very confused as it winds in several directions including
+      up and down. You do seem to remember exits to the north and east.
+flag:
+  - dark

@@ -1,0 +1,25 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9924"
+      north:
+        target: "scene:aber:ghenna:ghenna9912"
+      south:
+        target: "scene:aber:ghenna:ghenna9910"
+      up:
+        target: "scene:aber:ghenna:ghenna9901"
+      west:
+        target: "scene:aber:ghenna:ghenna9906"
+    short: An undulating room.
+    sight: >
+      This room undulates with an aura of incredible evil. The shifting floor causes you to stagger
+      uncontrollably, while the ceiling rhythmically pumps upwards and downwards. You can feel the lifeblood
+      draining from your body. To stay here long would surely mean the end of you. You feel a strong draft
+      coming from the north.
+flag:
+  - nomobiles
+  - dark
+  - outdoors
+  - negregen
+  - maze

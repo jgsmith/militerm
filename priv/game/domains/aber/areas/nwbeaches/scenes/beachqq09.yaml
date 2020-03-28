@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq10"
+      north:
+        target: "scene:aber:yllythad:yllythad5001"
+      west:
+        target: "scene:aber:nwbeaches:beachqq08"
+    short: Sandy Beach
+    sight: >
+      The beach slopes upwards, slowly, gently toward the town to your east which sits on a huge plateau. You
+      can now hear the sounds of a great many voices coming from that direction, however traffic along this
+      beach is at a bare minimum, which is to say not at all. There must be another entrance into the town
+      somewhere. To your west, the beach continues into the western horizon.
+flag:
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas33"
+    short: "Maric's Room"
+    sight: >
+      Numerous scorch marks decorate the walls, and the remains of a melted chandelier lie in the room's
+      center in a solidified heap of gold and crystal. Your boots stir up clouds of glittering dust from
+      pulverized vases, statues and other breakables. Oddly, the only thing spared this fate is a large map
+      hanging on the southern wall.
+flag:

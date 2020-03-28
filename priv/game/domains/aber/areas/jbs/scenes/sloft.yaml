@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:loft"
+    short: The Loft
+    sight: >
+      You have now entered the southern end of the hayloft, and, to your great surprise, you find more hay.
+      You can exit to the north.
+flag:

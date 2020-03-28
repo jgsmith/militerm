@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:crystalcave:crystalcave1"
+      north:
+        target: "scene:aber:island:path"
+    short: Cragg
+    sight: >
+      You are standing on the top of a high rocky cragg, which looks down upon heavy seas crashing against the
+      rocky shoreline far far below. A single path leads north into the bushes.
+flag:
+  - outdoors

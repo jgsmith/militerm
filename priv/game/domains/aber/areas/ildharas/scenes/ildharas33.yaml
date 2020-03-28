@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas34"
+      north:
+        target: "scene:aber:ildharas:ildharas36"
+      south:
+        target: "scene:aber:ildharas:ildharas31"
+    short: Hallway
+    sight: >
+      Hallways stretch out before you to the north and east, and a door on one hinge swings silently to the
+      south. Letters formed from a sharp instrument dipped in blood decorate the western wall.
+flag:

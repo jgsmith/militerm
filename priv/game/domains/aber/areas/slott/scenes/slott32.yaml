@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott33"
+      north:
+        target: "scene:aber:slott:slott36"
+    short: "Daughter's bedroom"
+    sight: >
+      You have entered a typical teenaged girls room, most things in here are pink, such as the blanket on the
+      bed, the drapes on the walls and even the thick &+Bcarpet&* that lies on the floor.
+flag:

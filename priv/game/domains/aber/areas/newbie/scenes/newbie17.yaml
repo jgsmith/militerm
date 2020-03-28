@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie16"
+      north:
+        target: "scene:aber:newbie:newbie10"
+    short: A Small Island
+    sight: >
+      When you enter dark areas, you need to have something that is lit, glowing, or can be lighted. Before
+      you can light an item like a torch, you may have to find something to light something else. There is a
+      fire in this room, and you have an unlit torch, type &+YLIGHT TORCH&*. To put it out, you can type
+      &+YUNLIGHT TORCH&* or &+YEXTINGUISH TORCH&*. Sometimes you will need to eat or drink food to quelsh your
+      hunger and thrist and keep your strength up in the heat of battle. Here is a pot of hot coffee, you
+      would type &+GDRINK COFFEE&*. Here is a bowl of salad, take it for when you are hungry, where you would
+      type &+GEAT SALAD&*. Carry food with you when you explore the land, it comes in handy. You can cross a
+      bridge north, or sail back out east.
+flag:
+  - peaceful
+  - real
+  - newbie

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc39"
+      south:
+        target: "scene:aber:ancient:anc43"
+    short: Southern Side Tunnel
+    sight: >
+      The tunnel is widening as you move further to the south and seems to end in a small chamber just a few
+      yards before you. The walls are glistening in the dim light coming from your torch. It looks like the
+      rock around you would consist of various valuable minerals. Despite this splendid sight you feel quite
+      uncomfortable and start feeling dizzy for some reason.
+flag:
+  - dark

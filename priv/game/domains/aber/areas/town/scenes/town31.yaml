@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town32"
+    short: Private Entertainment Room
+    sight: >
+      This is a small room used to entertain special guests. It is very nice with a small fireplace and a
+      single bed against the wall. To the north is the only exit to the brothel's main hallway.
+flag:

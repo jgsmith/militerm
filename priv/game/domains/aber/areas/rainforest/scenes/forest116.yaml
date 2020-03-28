@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest115"
+    short: "Chief's Hut"
+    sight: >
+      This is the largest and most impressive hut. In rows on the floor next to the walls are gifts which the
+      villagers have made for him: pots and bowls fashioned from clay and baked hard in the hot sun. Garlands
+      hang from the walls and the obligatory shrunken heads are also features.
+flag:

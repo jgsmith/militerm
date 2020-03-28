@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6770"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6603"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6662"
+    short: A silvery-lit landing
+    sight: >
+      Your steps echo in a hollow stairwell of naked stone. The air hangs light and silent about you as a
+      curtain of falling snow, though there is a chanting taking place, seemingly miles away, in the chamber
+      to the west. Lamps mounted on the walls give off a silver glow reminiscent of saints and martyrs,
+      whether they died for the cause of good, or for evil.
+flag:

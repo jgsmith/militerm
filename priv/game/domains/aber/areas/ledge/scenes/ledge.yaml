@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:death"
+      west:
+        target: "scene:aber:ledge:cavemouth"
+    short: Ledge
+    sight: >
+      The ledge narrows here, become only a couple of inches wide as it leads further eastwards. To the west
+      the ledge widens out.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:mirror7"
+      north:
+        target: "scene:aber:eirias:mirror6"
+      south:
+        target: "scene:aber:eirias:mirror8"
+      west:
+        target: "scene:aber:eirias:mirror9"
+    short: Maze of Mirrors
+    sight: >
+      All around, in an endless fierce glitter, are countless repeated images of yourself. It is a maze of
+      mirrors...
+flag:
+  - maze

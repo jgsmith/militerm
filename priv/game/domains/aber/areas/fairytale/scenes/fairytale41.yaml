@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale40"
+      east:
+        target: "scene:aber:fairytale:fairytale42"
+    short: Music Room
+    sight: >
+      This room is dedicated to music. A beautiful stereo system lines the north wall, and a rack of CDs lines
+      the south wall. Pictures of famous composers are on the western wall. A door to the east leads outside,
+      and a hole in the floor leads to a padded room.
+flag:

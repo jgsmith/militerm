@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:treepath"
+      south:
+        target: "scene:aber:nrose:guardhouse"
+      west: null
+    short: Portcullis
+    sight: >
+      You are beneath an archway which serves as the entrance to what now appears to be a monastery built
+      inside an old fortress. A guard house appears to be built into the walls to the south.
+flag:
+  - outdoors

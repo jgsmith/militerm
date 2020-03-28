@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:sundhaven:sundhaven6742"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6744"
+      west: null
+    short: A hall in the Assassins Guild
+    sight: >
+      You stand in a wide, dark hallway of the Assassins Guild. On the ceiling spreads a gigantic mural of the
+      black serpentlike naga, a model of stealth and intelligence, in muted blue and black. An elegant table
+      stands against the wall, laid with a simple black cloth and a few daggers.
+flag:

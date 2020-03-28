@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar43"
+      south:
+        target: "scene:aber:balharbor:btower1"
+    short: The Mage Guild
+    sight: >
+      This is the gathering place where potential new apprentices-wizards are trained and educated on the fine
+      art of spellcasting. The guildmaster kept this place from being burned to the ground when he bravely
+      went out burned his attackers instead. A door to the south leads to the tower, apparently because a
+      former guildmaster was friends of the owner.
+flag:

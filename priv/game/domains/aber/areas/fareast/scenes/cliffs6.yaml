@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:ropebridge"
+      south:
+        target: "scene:aber:fareast:cliffs4"
+    short: Top of the Northern Cliffs
+    sight: >
+      The northern path up these cliffs ends abruptly at this point, rising to a flat plateau with only two
+      ways off: to the south, where a path leads back down the cliff to the valley below, or to the east,
+      across a narrow bridge formed of ropes and wooden poles. Across the bridge, a similar plateau leads to a
+      higher cliffside.
+flag:
+  - outdoors
+  - nomobiles

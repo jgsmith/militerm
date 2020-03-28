@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale78"
+      north:
+        target: "scene:aber:fairytale:fairytale53"
+      south:
+        target: "scene:aber:fairytale:fairytale54"
+      up:
+        target: "scene:aber:fairytale:fairytale43"
+      west:
+        target: "scene:aber:fairytale:fairytale41"
+    short: Playground
+    sight: >
+      Children play here, giggling and laughing. They push each other and mock-fight on the swing-set. To the
+      north is a sand-box, to the south is a country lane, to the west is the music room, and to the east is a
+      river. A set of monkey bars climbs up into the sky.
+flag:

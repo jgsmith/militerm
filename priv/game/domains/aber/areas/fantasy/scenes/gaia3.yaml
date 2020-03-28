@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:gaia2"
+      west:
+        target: "scene:aber:fantasy:gaia4"
+    short: Past the Entrance
+    sight: >
+      It is beginning to get a bit darker in the cave as you go furthur into the cave. You still have this
+      feeling that something is watching you in here, you just can't figure out what it is.
+flag:
+  - dark

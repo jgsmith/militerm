@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:adept:adept42"
+      north:
+        target: "scene:aber:adept:adept31"
+      south:
+        target: "scene:aber:adept:adept6"
+      west:
+        target: "scene:aber:adept:adept51"
+    short: Circular Grove
+    sight: >
+      A lush forest surrounds this clearing, allowing the sky access to this place. Seven small shrubs form a
+      circle in this clearing. A &+Cstrange rock in the very middle of the circle has four stony three-pronged
+      holders extending from it, each covering a cardinal point. The rock is inscribed with the markings of a
+      forgotten language, but there is a picture of a cross on each holder. Within the clearing, no noise is
+      present except for the actions and footsteps of those who choose to enter the ring of shrubs.
+flag:
+  - peaceful

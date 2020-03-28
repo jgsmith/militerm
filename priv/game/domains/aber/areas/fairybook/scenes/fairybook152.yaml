@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook151"
+      west:
+        target: "scene:aber:fairybook:fairybook153"
+    short: Forest
+    sight: >
+      The forest here is frightening and dark. You are filled with the ominous feeling that you are being
+      watched by something with many eyes. . . The path goes east and west.
+flag:
+  - outdoors

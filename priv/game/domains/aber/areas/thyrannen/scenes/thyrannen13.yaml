@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen15"
+      south:
+        target: "scene:aber:thyrannen:thyrannen12"
+    short: Redwood Forest
+    sight: >
+      The trees this deep in the forest seem to be watching your every move. You can only hope they are not
+      waiting for the chance to attack. The forest continues on to the east and south.
+flag:
+  - outdoors

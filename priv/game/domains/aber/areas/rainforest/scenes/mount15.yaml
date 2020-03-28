@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount14"
+      up:
+        target: "scene:aber:rainforest:mount16"
+    short: North Face Of Mount Doragua
+    sight: >
+      It sounds impressive, but really this is a climb for novices and you can manage it without difficulty,
+      despite your lack of climbing gear. Below you thunders a green, frothing river, and you could climb down
+      towards it or up towards the summit, where the air is thin and the cold bites the skin.
+flag:
+  - outdoors
+  - nomobiles

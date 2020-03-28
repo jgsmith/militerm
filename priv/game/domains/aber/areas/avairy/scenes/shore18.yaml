@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore19"
+      west:
+        target: "scene:aber:avairy:shore17"
+    short: The Shore
+    sight: >
+      You are meandering along the northern edge of the Avairy Island. The breeze coming off the sea almost
+      knocks you down and you struggle to stand. Looking out over the sea you can find no sign of land. A
+      large cliff shoots up to your south blocking all passage in that direction. The shoreline continues east
+      and west.
+flag:
+  - outdoors
+  - light

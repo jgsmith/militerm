@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest118"
+    short: Mahogany Grove
+    sight: >
+      You are in a grove of tall hardwood trees, from which comes the reddish wood mahogany. The shrubs
+      gathered around the base of the trees form a thick impenetrable wall. You will have to return west.
+flag:
+  - outdoors
+  - rainforest

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface3"
+      west:
+        target: "scene:aber:loligo:surface1"
+    short: Coastal Waters
+    sight: >
+      You are floating on the seas just offshore. Looking down you can see the topmost fronds of a forest of
+      kelp which reaches up from the sea bed and sways in the current. To the east is deeper water, while to
+      the west you could clamber out on to the land.
+flag:
+  - outdoors
+  - onwater

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:hall"
+    short: Bedroom
+    sight: >
+      This is just a bedroom. You can leave to the south or hang out for a while. It's really kinda up to you.
+flag:
+  - private
+  - party

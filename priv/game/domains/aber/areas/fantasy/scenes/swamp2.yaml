@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fantasy:swamp3"
+      west:
+        target: "scene:aber:fantasy:swamp1"
+    short: Swampy Path
+    sight: >
+      You are now inside of a swamp area. The air has a foul odor to it and you start to feel a little sick as
+      you look down at the mud around your feet. The path looks to head to the south from here.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:seamonster:smon11"
+    short: Shiny way
+    sight: >
+      You are following the shiny way that leads to the sea. You can see wonderful &+gtrees&* and flowers
+      around. It is very silent and a really nice place. You don't have to look for something special, it's
+      special already.
+flag:
+  - outdoors

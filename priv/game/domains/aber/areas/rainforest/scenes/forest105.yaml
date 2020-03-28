@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest107"
+      south:
+        target: "scene:aber:rainforest:forest103"
+    short: River Fork
+    sight: >
+      The river Malazon joins the Kerapi here and the combined volume of water crawls eastwards toward the
+      sea, the pale waters of the Malazon running side by side with the muddy Kerapi for many miles before
+      they completely merge. You can follow the river east or head south into the forest.
+flag:
+  - outdoors

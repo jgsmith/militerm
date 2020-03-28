@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot287"
+      west:
+        target: "scene:aber:camelot:camelot289"
+    short: "Duergar's Room"
+    sight: >
+      This room is shaped to resemble the home of the Duergar, a race of extremely evil dwarves. The walls are
+      rough worked stone, and there is a stagnant puddle of water in the corner.
+flag:
+  - dark

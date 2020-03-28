@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:jura13"
+      south:
+        target: "scene:aber:evolution:jura14"
+      west:
+        target: "scene:aber:evolution:jura11"
+    short: Edge Of The Forest
+    sight: >
+      You are at the northern edge of the forest. To the south the trees tower over you, hundreds of feet
+      tall. The forest floor is uncluttered by undergrowth, but the leaf litter is very thick and springy
+      under your feet, making your progress very pleasant. To the north is a broad lake.
+flag:
+  - outdoors

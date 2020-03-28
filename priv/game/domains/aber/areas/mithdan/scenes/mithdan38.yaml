@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan41"
+      west:
+        target: "scene:aber:mithdan:mithdan37"
+    short: Stone Corner
+    sight: >
+      The stone tiles join each other in complex patterns that strech the entire hallway. The hall turns the
+      corner to the south with a perfect right angle, and with further inspection you see that the hall itself
+      is perfectly straight.
+flag:

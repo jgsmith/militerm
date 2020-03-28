@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire19"
+      south:
+        target: "scene:aber:fire:fire17"
+    short: Northern way
+    sight: >
+      You are standing in the northern way, which is here only to connect the center of cave with the
+      barracks.
+flag:
+  - dark

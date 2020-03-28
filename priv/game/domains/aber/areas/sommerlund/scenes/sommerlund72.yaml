@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund70"
+      south:
+        target: "scene:aber:sommerlund:sommerlund73"
+    short: Path to the Fallen Plains
+    sight: >
+      A little, dusty trail divides the great, ash-soaked wasteland which lies here. The only cool breeze out
+      here emanates from a pitch-black portal to the north.
+flag:
+  - hot
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:frobozz:cellar_chimney"
+      south:
+        target: "scene:aber:frobozz:crossection"
+      up: null
+    short: Cellar
+    sight: >
+      You are in a cellar right under the livingroom. The air here is a bit damp, and together with an odd
+      human-like smell drifting in from the south this place is not where you would like to stay for the
+      night. A faint light shines in from the north while a passage leads south into darkness and what you
+      sense is danger. You may of course also retreat back up into the livingroom.
+flag:

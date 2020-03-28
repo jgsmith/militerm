@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere50"
+      south:
+        target: "scene:aber:brookmere:brookmere49"
+    short: End of the Long Corridor
+    sight: >
+      As you draw closer to the end of the corridor you see a light. The light comes from a strange doorway
+      set in the stone wall of the passageway. The doorway glows with the brightness of sun on snow, making
+      everything around you dark. Thick white clouds puff and roll between the door frames. Stray whips reach
+      out toward you, beckoning you to see what is beyond the door. Will you follow the footprints?
+flag:

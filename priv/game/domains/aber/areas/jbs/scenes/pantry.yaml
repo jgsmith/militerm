@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:jbs:kitchen"
+    short: The Pantry
+    sight: >
+      This is the small pantry that holds the food for this small farmhouse. The backdoor is to the north
+      allowing you to leave this wonderful place if you would like to or you can go into the kitchen to the
+      south.
+flag:

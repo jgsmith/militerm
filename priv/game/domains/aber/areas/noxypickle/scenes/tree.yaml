@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:noxypickle:bough"
+    short: Floating Tree
+    sight: >
+      This is truly bizarre! You seem to be floating high in the air, your arms clasped around the trunk of a
+      small tree. You cannot see the ground as there is a thin layer of clouds below you, blocking your view.
+      A strong wind blows through the branches and roots of the tree, but you do not appear to be moving at
+      all - the tree is somehow anchored in its place by an unseen force. A heady, very pleasant odour is
+      making it hard for you to think straight.
+flag:

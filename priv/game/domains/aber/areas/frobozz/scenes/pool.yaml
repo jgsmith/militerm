@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:frobozz:forest3"
+      up:
+        target: "scene:aber:valley:falls"
+    short: By the Pool
+    sight: >
+      You are standing on a ledge a couple of feet above a pool filled with water from the waterfall above
+      you. The noise of the waterfall hitting the pool is quite immense, but you still feel relaxed by being
+      here. A few salmon are swimming around in the clear water snapping a fly now and then. A rainbow spans
+      the pool in the spray of the waterfall. The water flows southwards forming a river which through
+      thousands of years has dug out a big canyon cutting through the land. To the west, across the canyon,
+      you can see large fields and further beyond, a mountainrange. A though, but managable climb will take
+      you up into the mountain above, while a southgoing track leads into a vast forest.
+flag:
+  - outdoors

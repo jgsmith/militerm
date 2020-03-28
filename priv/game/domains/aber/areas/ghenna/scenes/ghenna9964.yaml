@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9963"
+      west:
+        target: "scene:aber:ghenna:ghenna9965"
+    short: "A child's room."
+    sight: >
+      This was evidently a child's room. Toys (most of them broken) lie scattered around the place. A mattress
+      leans against the far wall, completely slashed down the middle, its stuffing in a heap on the floor. One
+      of the dolls here seems strangely lifelike... Bizarre!
+flag:
+  - dark

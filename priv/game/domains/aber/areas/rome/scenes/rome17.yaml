@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The Lion Pit
+    sight: >
+      Let's just say that your demise was not pretty and that the lions had a tasty mid-day snack.....YOU. I'm
+      very sorry, but, you are really dead!!
+flag:
+  - death

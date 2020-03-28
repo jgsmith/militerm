@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot123"
+    short: Secret Store Room
+    sight: >
+      Oh, the piles of Kobold treasure! You can jsut imagine the throngs of adoring Kobolds come to give their
+      tithe to their leader here. For such creatures, this must be a great treasure chamber.
+flag:
+  - dark

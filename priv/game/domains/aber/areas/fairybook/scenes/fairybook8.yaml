@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook9"
+    short: Falling . . .
+    sight: >
+      The descent continues. Perhaps you will fall right through the earth? Surely they will miss you at
+      dinner tonight . . . With a thump, you land in a heap of sticks and dry leaves. You jump to your feet
+      and look around to find yourself in a long passage, stretching to the north. Squinting, you can barely
+      make out a bobbing, white shape down the passage to the east.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot263"
+      west:
+        target: "scene:aber:camelot:camelot231"
+    short: The Mud Room
+    sight: >
+      There are several muddy boot racks along the western wall, obviously for the use of servants who have
+      been working in the gardens beyond. Various tools for the tending of the garden are stored here, close
+      at hand when they are needed.
+flag:

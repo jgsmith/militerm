@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook153"
+      west:
+        target: "scene:aber:fairybook:fairybook155"
+    short: Forest
+    sight: >
+      The light ahead seems to indicate an end to the trees which you have become so used to seeing. As if to
+      herald the fact that you are near the edge of the forest, the birds begin to sing more loudly than
+      usual. The path goes east and west.
+flag:
+  - outdoors

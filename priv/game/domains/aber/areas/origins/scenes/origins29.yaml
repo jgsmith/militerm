@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins22"
+      south:
+        target: "scene:aber:origins:origins30"
+    short: The Lands of the Necromancer
+    sight: >
+      As grey traces of dawn tinge the eastern sky, you emerge from the forest shadow, ford the River Don, and
+      leave the trodden town of Willowdale. You turn south, journeying into the dark and forbidding lands of
+      the Necromancer. Even now, the intensity of his dread power can be felt, weakening the body and
+      saddening the heart. You reflect upon the empty, mindless spectres, stripped of will and soul. Only your
+      thirst to aid the elves of Rivendell gives you hunger for vengeance...
+flag:
+  - outdoors
+  - soundproof
+  - negregen

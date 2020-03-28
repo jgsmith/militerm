@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:swamp_land4"
+      west:
+        target: "scene:aber:undead:paddy_field1"
+    short: In The Swamp
+    sight: >
+      You float through a noxious empty swamp. You are sure nothing could live here, if it could you sure
+      would not want to meet it. You start to choke on the noxious fumes. Time to get going I think.
+flag:
+  - outdoors
+  - onwater
+  - negregen

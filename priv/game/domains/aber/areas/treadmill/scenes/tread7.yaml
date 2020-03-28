@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The Treadmills of Hell, the Sequel
+    sight: >
+      This is never ending story, and you have been caught up in it. How many times will you have to relive
+      the same tale before there is a change? The exits remain the same.
+flag:
+  - maze

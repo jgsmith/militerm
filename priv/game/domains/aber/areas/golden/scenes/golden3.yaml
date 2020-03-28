@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden1"
+      west:
+        target: "scene:aber:golden:golden4"
+    short: &+YSandy&* Path
+    sight: >
+      The path seems to end abruptly here, turning into a rocky dirt path. The vegetation has grown much
+      thicker now and vines have started to weave their way through the tree branches. Thick tree leaves have
+      formed a nearly impenetrable canopy, squeezing out almost all the natural light shining down on the
+      path.
+flag:
+  - outdoors

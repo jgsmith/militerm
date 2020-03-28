@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Vault
+    sight: >
+      Luckily the vault itself is open. You enter a small, dull room made completely of steel. There are many
+      shelves, and lockable drawers lining the walls.
+flag:

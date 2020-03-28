@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_1"
+    short: The Way Out
+    sight: >
+      Just as you think you are going to get out of this crazy house, a burned man with razor claws stands
+      before you. He tells you, 'You will become one of my children. There is no escape.'
+flag:
+  - nosnoop
+  - dark

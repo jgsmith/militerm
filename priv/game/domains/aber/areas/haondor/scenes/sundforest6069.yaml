@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6068"
+      south:
+        target: "scene:aber:haondor:sundforest6064"
+    short: A Shadowy Path Through The Dense Forest
+    sight: >
+      You are on a small shadowy path leading through the dense forest. The crowns of the old trees leave the
+      forest in an unreal twilight illumination. The path continues south and east.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie6"
+      west:
+        target: "scene:aber:newbie:newbie19"
+    short: Weapons And Armor
+    sight: >
+      If you didn't already know, the Promised Land is a dangerous place. And as you run around the world
+      saving princesses and finding treasure, fighting with your bare hands isn't your best option. The key to
+      survival is equipping yourself with weapons and armor. Armor can take many forms, and the more pieces
+      you are wearing, the better you will be protected. You can only wield one weapon at a time, but some
+      weapons are better than others. The equipment provided here is fairly good, but it is for new players
+      only - use it to try to find where to find good equipment elsewhere on the mud. You can come back again
+      and again to take this stuff until you reach level 6. To use this weapon, type &+YWIELD NEWBIESWORD&*,
+      and to use the armor, type &+YWEAR NEWBIEARMOR&*. If you are carrying a lot of clothes, you can put them
+      all on at once using the &+YWEARALL&* command--granted that aren't wearing something else there. To see
+      what equipment you are using and how much protection and power you have, type &+YEQUIPMENT&* or just
+      &+YEQ&*.
+flag:
+  - newbie

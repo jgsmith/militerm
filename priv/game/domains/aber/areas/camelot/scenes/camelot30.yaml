@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot28"
+      north:
+        target: "scene:aber:camelot:camelot31"
+      south:
+        target: "scene:aber:camelot:camelot26"
+      west:
+        target: "scene:aber:camelot:camelot32"
+    short: Forest Path
+    sight: >
+      Your wanderings have brought you to a wilder place in the garden. The path continues in all directions.
+      To the north you spy a gateway, to the east, a lovely gazebo. South lies the garden, and eventually,
+      Camelot itself. To the west is a deep dense forest.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:bottom_stairs"
+      north:
+        target: "scene:aber:jbs:guard"
+      south:
+        target: "scene:aber:jbs:seargent"
+      west: null
+    short: Dungeon Corridor
+    sight: >
+      This is a large, dim, smoky corridor that is lit by sparsely separated torches that are giving of
+      sputtery light and lots of smoke. So much smoke has come from these torches that all of the walls and
+      ceilings have been stained black with soot from them. The corridor leads west back to the stairs or east
+      through a door deeper into the dungeon. There are also rooms to the north and south.
+flag:

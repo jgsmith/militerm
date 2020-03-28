@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town7"
+      south:
+        target: "scene:aber:town:town9"
+    short: Sun-Drenched Beach
+    sight: >
+      Beautiful white sands intermix with the water here. There are many skid marks and footsteps all over the
+      beach. The beach looks like it has been used very recently for moving heavy objects to and from the
+      forest. There is a very used path that leads south into the forest.
+flag:
+  - outdoors

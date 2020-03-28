@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town15"
+      west:
+        target: "scene:aber:town:town17"
+    short: Darkened Square
+    sight: >
+      This is a small, darkened square covered with garbage and human waste. It looks like no one has been
+      through here in a long time. To the north is the entrance to a small building and to the west is a back
+      alleyway.
+flag:
+  - outdoors

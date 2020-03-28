@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:rats:bathroom"
+    short: Laundry
+    sight: >
+      You are standing in the laundry. It's a dark room, and maybe if you were a child, you would fear
+      yourself entering this room. There is also a bath, but not such a one like in the bathroom--this one
+      looks rather old. You can see some pipes following the ceiling leading in to the wall. Right next to the
+      bath is a &+yhole&*, where an awful stench is coming out.
+flag:
+  - dark

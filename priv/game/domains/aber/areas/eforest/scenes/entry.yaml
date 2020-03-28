@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eforest:guard"
+      east:
+        target: "scene:aber:eforest:cave"
+      north:
+        target: "scene:aber:eforest:coat"
+    short: Entry Room
+    sight: >
+      Standing at the entrance to this system of caves, the only description which comes to mind is 'hellish.'
+      The caverns glow with a strange red glow which speaks of nothing more than hellfire. It almost seems to
+      you that you can hear the screams of the damned. A set of stairs leads downwards, and the heat coming
+      from below almost knocks you out. Just to the North is a roughly carved doorway. Next to the door is a
+      sign which says : Please check in your souls before entering.
+flag:

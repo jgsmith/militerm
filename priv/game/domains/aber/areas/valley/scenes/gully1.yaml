@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:gully2"
+      east:
+        target: "scene:aber:valley:gully2"
+      north:
+        target: "scene:aber:valley:paths"
+      up:
+        target: "scene:aber:valley:paths"
+    short: Narrow Gully
+    sight: >
+      The path turns sharply from the north here, plunging steeply down into a narrow gully, a mere six feet
+      wide.
+flag:
+  - outdoors

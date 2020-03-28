@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:app:app32"
+    short: Treasure Chamber
+    sight: >
+      A king's ransom of gold and treasure lie in this room. Knowing you won't be able to take it all with
+      you, you selectively pick what you think are best.
+flag:

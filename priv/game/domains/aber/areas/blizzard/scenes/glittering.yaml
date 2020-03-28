@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:rough"
+    short: Glittering Cave
+    sight: >
+      You are in a huge glittering cave. Millions of tiny crystals on the wall scintilate with rainbows of
+      colors baffling your eyes and mind with a stunning mass of changing color. A set of huge steps lead
+      upwards out of the cave, but only a giant could hope to climb them.
+flag:

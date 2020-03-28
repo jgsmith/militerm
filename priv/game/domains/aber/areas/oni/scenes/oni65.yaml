@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:oni:oni64"
+    short: Deufel Library
+    sight: >
+      What makes Deufel Library so special is that it houses the largest collection of material related to
+      demons and demon-kind. Much of the information comes from books written by members of the Order of the
+      White Phoenix. The rest of the libraries collection isn't shabby either. There are &+Gshelves&* upon
+      shelves of books about various subjects on each of the nine floors.
+flag:
+  - cantsummon

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:13"
+      west:
+        target: "scene:aber:cyrus:9"
+    short: &+cArchway
+    sight: >
+      A little archway leads you more deeper in the cave. You see orange shimmering light coming from east,
+      after the curve. The hall continues to the east.
+flag:

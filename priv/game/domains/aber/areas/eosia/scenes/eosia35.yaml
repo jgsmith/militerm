@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia36"
+      north:
+        target: "scene:aber:eosia:eosia37"
+      south:
+        target: "scene:aber:eosia:eosia38"
+      west:
+        target: "scene:aber:eosia:eosia34"
+    short: Zemoch
+    sight: >
+      This is the city of Zemoch, in the Empire of Zemoch. It is here that the evil god Azash has made his
+      home. You can feel the evil in the air and you cringe at the feeling. The builings are all gray and
+      black, and the sky above you is muted in gray clouds. To the north is the palace, to the east, a dark
+      looking temple, and to the south, a strange, yet familiar looking temple.
+flag:
+  - cold
+  - negregen

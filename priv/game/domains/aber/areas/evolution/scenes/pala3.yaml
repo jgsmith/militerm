@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:pala4"
+      south:
+        target: "scene:aber:evolution:pala2"
+    short: Flatlands
+    sight: >
+      You are wandering through the flatlands of the palaeocene epoch. The area is browsed by a variety of
+      strange and primitive herbivores, entire families of which will vanish without trace millions of years
+      before the first hominids will appear.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town1"
+      west:
+        target: "scene:aber:town:town3"
+    short: Wide River
+    sight: >
+      The river narrows a little here, still allowing large sea-faring vessels to enter the bay to the west.
+      The water flows gently toward the entrance of the inlet, mixing the salt water with the fresh water from
+      the bay. To the east the endless void of the sea can still be seen and the memory of the long sea voyage
+      is still fresh in your mind.
+flag:
+  - outdoors
+  - onwater

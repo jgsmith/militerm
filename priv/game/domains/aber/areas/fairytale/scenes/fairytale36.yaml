@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale35"
+    short: In the Scar
+    sight: >
+      There is a huge scar across the trunk of the tree, the product of some ancient storm. It prevents any
+      further passage upwards. The tree here looks diseased and weakened, but it is healthy below.
+flag:
+  - nomobiles

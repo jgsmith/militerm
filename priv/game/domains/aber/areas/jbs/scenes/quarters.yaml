@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:seargent"
+    short: "Seargent's Quarters"
+    sight: >
+      This is the seargent's bedroom. He sleeps here. There is a bed. There is a closet. There is a dresser
+      with a mirror on it. You can leave to the north.
+flag:

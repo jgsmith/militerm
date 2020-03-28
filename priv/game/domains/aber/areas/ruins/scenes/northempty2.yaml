@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:northhall3"
+    short: An Empty Room
+    sight: >
+      This looks to be a fairly empty room except for the piles of human remains that clutter the floor and
+      the blood stains on the walls. Several shackles line the walls and a skeleton still hangs from one. This
+      must of been somesort of prison cell or torture room.
+flag:
+  - dark

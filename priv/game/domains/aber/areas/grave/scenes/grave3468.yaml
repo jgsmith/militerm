@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3470"
+      north:
+        target: "scene:aber:grave:grave3465"
+      south:
+        target: "scene:aber:grave:grave3471"
+      west:
+        target: "scene:aber:grave:grave3469"
+    short: Tunnel
+    sight: >
+      As you enter the room here you notice quiet has returned. When you look around you can see the walls and
+      floor are smooth and the ceiling is several feet above your head. There are exits to the north and
+      south, and smaller exits to the east and west.
+flag:
+  - dark

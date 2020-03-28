@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven2"
+    short: The Pearly Gates
+    sight: >
+      You seem to be standing on a cloud. Before you stand a pair of huge gates, which seem to be made of
+      pearl. The air about you is peaceful, yet a tinge of expectancy can also be felt.
+flag:
+  - private

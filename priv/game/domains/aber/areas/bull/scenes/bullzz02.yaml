@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz03"
+      south:
+        target: "scene:aber:bull:bullzz01"
+    short: Before the Temple
+    sight: >
+      The dazzling white stone walls of the temple momentarily blind you. Great columns are spaced evenly
+      around the perimeter of the temple, and an arch beckons you inside.
+flag:
+  - nomobiles
+  - outdoors

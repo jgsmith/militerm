@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:balharbor:balhar85"
+    short: Left Side of the Road
+    sight: >
+      You walk around the crowd of pillars on the left side. Before you get very far you stop in front of a
+      row of hedges that are too high to jump over. The pillars are too close together to go between. You will
+      have to try going around them on the other side.
+flag:
+  - tempreal

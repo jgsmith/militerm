@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:gold:passage1"
+      south:
+        target: "scene:aber:gold:passage3"
+    short: Passage Out!
+    sight: >
+      You are in a North <-> South passageway which runs underground. There are three pictures on the wall in
+      this room. The first is of a man with the word NED inscribed on his coat of arms. The second depicts NED
+      feeding a needy person who is lying on the ground. The third shows NED battling a mighty warrior with a
+      strong weapon and defense. It looks as if there may be a chalice of some sort in the background of the
+      painting, though the paint has faded somewhat, and it is hard to tell.
+flag:

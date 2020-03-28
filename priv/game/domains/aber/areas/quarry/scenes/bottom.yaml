@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:mine"
+      east:
+        target: "scene:aber:bishop:bishop1"
+      up:
+        target: "scene:aber:quarry:ladder_d4"
+      west:
+        target: "scene:aber:quarry:n_face"
+    short: Bottom Of The Mine
+    sight: >
+      You are standing at the bottom of a treacherous ladder which climbs up a narrow vertical shaft. To the
+      west you can crawl along a low, heavily shored up tunnel towards a face. Another ladder leads further
+      down, but it is rotted and descends only about ten feet before it dissappears into the flooded depths of
+      the mine. A hand-carved passage going east glows very dimly. To judge from the moss and slime on the
+      wall, this part of the mine is often flooded too.
+flag:
+  - dark

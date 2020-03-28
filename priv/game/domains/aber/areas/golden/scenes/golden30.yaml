@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:golden:golden29"
+    short: Storage Room
+    sight: >
+      You are standing in a moldy, dusty room that apparently was used for storing food during famines. There
+      are rats and bugs crawling around here, searching for some form of nourishment.
+flag:
+  - dark

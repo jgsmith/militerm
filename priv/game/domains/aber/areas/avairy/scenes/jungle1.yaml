@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:shore1"
+      south:
+        target: "scene:aber:avairy:jungle2"
+      west:
+        target: "scene:aber:avairy:jungle5"
+    short: The Avairy Jungle
+    sight: >
+      Trees rise high into the sky and you can not find the tops of most. Various types of birds fly in and
+      out of the trees and bushes all around you. The island shore is to the east, while the jungle continues
+      on west and south.
+flag:
+  - outdoors
+  - light

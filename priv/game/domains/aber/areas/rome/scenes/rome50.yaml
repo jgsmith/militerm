@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome55"
+      south:
+        target: "scene:aber:rome:rome60"
+      west:
+        target: "scene:aber:rome:rome43"
+    short: The Courtroom
+    sight: >
+      You stand inside of a large courtroom in which common civil disputes and criminal matters are decided.
+      There is a judge's bench and a witness stand on the far side of the room and a jury's box along side.
+      The emperor's &+Mseal is prominently displayed on the wall behind the judge's &+ystand&*, reminding all
+      who enter that he is an extension of his highness. There is a door, possibly leading to the judge's
+      chambers, to the east and the waiting room is to the west.
+flag:

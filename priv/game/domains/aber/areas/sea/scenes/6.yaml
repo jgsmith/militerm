@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:4"
+      north:
+        target: "scene:aber:sea:8"
+      south:
+        target: "scene:aber:sea:10"
+      west:
+        target: "scene:aber:sea:5"
+    short: All At Sea
+    sight: >
+      You are all at sea seemingly without hope of seeing land. The heavy waves make your small craft sway and
+      lurch horribly, sending you staggering as you try to keep your balance. The seas ease off to the north
+      and east and your craft might just about make it.
+flag:
+  - onwater
+  - outdoors

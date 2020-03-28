@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:glade"
+      south:
+        target: "scene:aber:eforest:oaks"
+    short: Warped Glen
+    sight: >
+      You have wandered into a small glen which is grotesquely warped. Trees form weird, diabolical shapes,
+      and the area seems pervaded by the stench of brimstone. You gag to avoid breathing the fouled air. To
+      the North and West are the mountains which shield this valley. It is quite unfortunate that they did not
+      protect the forest from whatever destroyed it...
+flag:
+  - outdoors

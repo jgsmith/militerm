@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Cell
+    sight: >
+      This is a small, uncomfortable looking cell. there is a wooden bed suspended from the wall and no
+      pillow. You wonder where these prisoners go to the bathroom.
+flag:

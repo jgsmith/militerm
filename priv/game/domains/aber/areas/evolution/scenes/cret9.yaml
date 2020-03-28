@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:cret10"
+      north:
+        target: "scene:aber:evolution:cret8"
+      west:
+        target: "scene:aber:evolution:cret10"
+    short: Thorny Bank
+    sight: >
+      You are scrambling through bushes halfway up a steep slope. Sharp thorns tear at your clothing and you
+      curse as they draw blood. Below you the bushes end as the ground flattens off in a wide marsh, shaded by
+      tall broad-leaved trees. Above you is the top of the bank.
+flag:
+  - outdoors
+  - nomobiles

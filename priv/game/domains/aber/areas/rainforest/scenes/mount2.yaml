@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:mount1"
+      west:
+        target: "scene:aber:rainforest:mount3"
+    short: Crumbling Ledge
+    sight: >
+      Several times here the rock gives under your feet, and you cling to the rockface in alarm. But somehow
+      you manage to stay on the ledge long enough to take stock of your surroundings and ponder which way to
+      go. The path bends here, heading north in one direction and in the other curving round to the west,
+      following the mountainside and descending slightly.
+flag:
+  - outdoors

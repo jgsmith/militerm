@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:app:app2"
+    short: Library
+    sight: >
+      You enter the main library, where many mages and apprentice mages are working. As you take your second
+      step, a voice in your head screams, "We did not invite you in this tower to explore! We have warned you,
+      now you must face the consequences!" A bolt of lightning appears out of nowhere and strikes you. You
+      feel no jolt of pain. You take a look at yourself and see that you have turned into a cricket. A very
+      dead cricket stuck to the bottom of a shoe.
+flag:
+  - death

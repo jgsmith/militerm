@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bull:bullzz16"
+    short: The Cul-de-Sac
+    sight: >
+      The corridor comes to an abrupt halt here, and the only exit appears to be back the way you came.
+flag:

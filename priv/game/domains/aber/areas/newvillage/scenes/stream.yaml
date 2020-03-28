@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:streameast"
+      south:
+        target: "scene:aber:newvillage:road3n"
+      west:
+        target: "scene:aber:newvillage:stwest1"
+    short: By the Stream
+    sight: >
+      The stream you are standing by could more likely be considered a small river. The water is moving quite
+      fast, and you feel that it would probably be unwise to attempt to cross it. The stream seems to flow
+      from the north-east and the water is cold. The water carries on to the west, where it seems to pick up
+      speed and get louder.
+flag:
+  - outdoors

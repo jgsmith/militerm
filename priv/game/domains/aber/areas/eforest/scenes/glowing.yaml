@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:fungoid"
+      west:
+        target: "scene:aber:eforest:cavern"
+    short: Glowing Passage
+    sight: >
+      You walk down a passage which curves to the West and South. The passage is lit by an eerie green glow
+      which seems to come from fungus growth on the walls. Ever once in a while, you think you see a dark
+      shape at the edge of your vision, but then it could just be your imagination.
+flag:

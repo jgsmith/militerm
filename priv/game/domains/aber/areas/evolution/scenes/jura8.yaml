@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura11"
+      north:
+        target: "scene:aber:evolution:jura9"
+      south:
+        target: "scene:aber:evolution:jura7"
+    short: Narrow Gorge
+    sight: >
+      Sheer cliff walls rise up either side of you as you make your way through a narrow gorge, at the bottom
+      of which flows a swift-moving but small river. Another river joins this one from the east, and you can
+      follow a gully in that direction, or continue north or south along the gorge.
+flag:
+  - outdoors
+  - nomobiles

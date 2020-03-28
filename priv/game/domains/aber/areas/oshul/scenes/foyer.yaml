@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oshul:oshul"
+      north:
+        target: "scene:aber:oshul:treasure"
+      south:
+        target: "scene:aber:oshul:treasure"
+      west:
+        target: "scene:aber:oshul:descent1"
+    short: &+LShadowy Foyer
+    sight: >
+      You are within a luxurious foyer. The only illumination is from a platinum chandalier hanging in the
+      black marble ceiling above. Its dim flickering light makes shadows dance off of the nearby black marble
+      pillars. To the north and south you can see two very large rooms filled with gold and platinum! East is,
+      through a doorway is a another large room, not quite as tantalizing as the ones to the north and east.
+flag:
+  - oshul

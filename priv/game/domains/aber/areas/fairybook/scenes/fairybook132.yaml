@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook133"
+      south:
+        target: "scene:aber:fairybook:fairybook131"
+    short: Forest
+    sight: >
+      The yellow brick road continues, as the forest begins to thin out. To the south a fallen tree crosses a
+      ditch, and to the north is a broad, flowing swiftly river. On the other side of the water you can see
+      the road of yellow brick running through a beautiful country, with green meadows dotted with bright
+      flowers and all the road bordered with trees hanging full of delicious fruits.
+flag:
+  - outdoors

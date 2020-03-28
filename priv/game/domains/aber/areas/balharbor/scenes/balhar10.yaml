@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar14"
+      north:
+        target: "scene:aber:balharbor:balhar21"
+      south: null
+      west:
+        target: "scene:aber:balharbor:balhar9"
+    short: Idol Square
+    sight: >
+      You are standing southwest of the statue. This corner of the square is dominated by the House of Pets to
+      the west and the Weapons Shop to the south. The building to the west looks like it was vandalized but
+      the shop to the south looks like it was untouched by the riots, probably because the sign on the front
+      that says: "Looters will be decapitated."
+flag:
+  - outdoors

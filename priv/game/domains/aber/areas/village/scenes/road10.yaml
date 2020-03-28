@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rats:garden"
+      north:
+        target: "scene:aber:graye:graye5501"
+      south:
+        target: "scene:aber:village:road9"
+    short: Main Street
+    sight: >
+      This is the northern end of main street. There are a few houses around here. A wagon trail leads north
+      out of town. A small garden in front of one of those houses is east.
+flag:
+  - outdoors
+  - nomobiles

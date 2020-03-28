@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage1"
+      north:
+        target: "scene:aber:town:town42"
+      up:
+        target: "scene:aber:chlyon:chlyon1"
+      west:
+        target: "scene:aber:chlyon:chlyon3"
+    short: The Crossroads
+    sight: >
+      A number of paths branch off from here. To the north, a well travelled roads leads off toward a city of
+      some sorts. To the west, a small path meanders into the mountains towards a large entryway carved in
+      stone. Eastwards, you may attempt to follow a narrow path into the thick forest. Somewhere in the
+      distance you hear a volcano erupting. There is a blinking construction sign here.
+flag:
+  - outdoors

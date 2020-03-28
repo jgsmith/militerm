@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park2"
+      north:
+        target: "scene:aber:balharbor:park4"
+      south:
+        target: "scene:aber:balharbor:balhar31"
+    short: City Park
+    sight: >
+      Ah, there's nothing like getting away for the big city into a more peaceful area like the park! Unlike
+      the torn apart city streets of Bal Harbor, this area outside of town seems to have escaped the
+      destruction. A large sign next to the fence says "Moli`ere Park", welcoming visitors. Lust green grass
+      covers this area and extends to the north and east.
+flag:
+  - outdoors

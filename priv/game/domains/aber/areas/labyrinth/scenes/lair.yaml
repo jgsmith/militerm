@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:labyrinth:end2"
+    short: "Minotaur's Lair"
+    sight: >
+      You stand in a huge chamber deep beneath the labyrinth. The walls and ceiling of the chamber are lined
+      with the heads of those who failed to find their way back from this legendary place and starved to death
+      amid the maze.
+flag:
+  - dark

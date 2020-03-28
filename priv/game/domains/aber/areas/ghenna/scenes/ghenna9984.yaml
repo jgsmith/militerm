@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9985"
+      north:
+        target: "scene:aber:ghenna:ghenna9983"
+    short: The mouth of a small cave.
+    sight: >
+      You have arrived at the mouth of a small cave, which is cut into a tall promontory. A rough hewn
+      staircase leads Downwards, while to the North is a small clearing.
+flag:
+  - dark
+  - outdoors

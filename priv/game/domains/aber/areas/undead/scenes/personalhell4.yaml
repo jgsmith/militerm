@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:personalhell5"
+      south:
+        target: "scene:aber:undead:personalhell3"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. Before you stands a vision of &+Rperfection, everything you wish your partner was
+      and will be. They are a &+Rperfect physical specimen, everything you could ever want or hope to
+      &+Rpossess. They watch you impassively, silent, ever distant. You know one &+Rday they shall be yours.
+flag:
+  - soundproof

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:greattree"
+      up:
+        target: "scene:aber:adept:adept2"
+    short: Climbing the Great Tree
+    sight: >
+      You hang on tightly to the trunk of the great tree. You think you see movement in the dark recesses of
+      the creepers and mosses around you. It would be easy to climb up or down from here. On many limbs,
+      clusters of round 'oak bombs' hang waiting to drop on an unsuspecting forest explorer and let loose
+      their clouds of concentrated sneeze dust. Above you the tree extends itself above you at incredible
+      heights.
+flag:

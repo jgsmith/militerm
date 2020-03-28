@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome64"
+      west:
+        target: "scene:aber:rome:rome46"
+    short: The East Gate of Rome
+    sight: >
+      You are standing inside of the eastern gate of Rome. There are two tall &+Mspires&* built into the city
+      wall, from which the guards can see the whole eastern side of the city. The &+ygate&* is currently open
+      and to the east, there is a heavily used road, made of packed clay, that leads out of Rome. Another road
+      leads westward into the city.
+flag:
+  - outdoors

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:pensalon:pensalon31"
+    short: Small Cell
+    sight: >
+      This is a small cell without a door. This is where white collar criminals are kept. To the west is a
+      large round room, and in the floor is a large hole that leads off into the darkness.
+flag:

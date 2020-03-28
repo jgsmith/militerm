@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:frobozz:pway"
+    short: Blocked-off Passage
+    sight: >
+      You are standing in the wide and highvaulted passage. Unfortunatly the passage has been block off by
+      what to normal standards looks like a major cave-in. The cave-in consists of nothing but large and
+      immovable rocks. From marks and scratches on the rocks you realise that there have been other people
+      here before you who have tried to make a passage through the cave-in. You might as weel give up the
+      thought of getting beyond this major rockfall. A wiser decession is to reenter to the west and try the
+      north or south passage.
+flag:
+  - dark

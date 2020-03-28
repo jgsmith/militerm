@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins49"
+      up:
+        target: "scene:aber:origins:origins51"
+    short: Inside the Rocinante
+    sight: >
+      You follow the man, and climb up into the ship. Before your eyes are huge panels on all four walls,
+      filled with buttons and lights you don't understand. The entire interior of the ship humms slightly, and
+      you can feel these subtle vibrations. They tickle you. The man seems to understand your need to get
+      home. You have one last chance to go back down, or you may press forward and follow his lead.
+flag:
+  - peaceful
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

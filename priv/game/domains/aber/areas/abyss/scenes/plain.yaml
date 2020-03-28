@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up: null
+      west:
+        target: "scene:aber:abyss:river"
+    short: Gloomy Plain
+    sight: >
+      You are standing at one end of a vast underground plain. A murky orange glow dimly illuminates this
+      place. A narrow path has been worn into the gray dust of the plain, which wends its way westward between
+      scattered clumps of withered plant life.
+flag:

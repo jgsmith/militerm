@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:oaktree25"
+      east:
+        target: "scene:aber:oaktree:oaktree27"
+      north: null
+      south:
+        target: "scene:aber:oaktree:oaktree29"
+      west:
+        target: "scene:aber:oaktree:oaktree28"
+    short: Sunny Clearing
+    sight: >
+      You find yourself in a large clearing amongst the trees. The sun shines brightly throughout the trees
+      here. One particularly intense sunbeam shines upon a large rock near the northern end of the clearing.
+      At the southern end you can make out neatly trimmed hedge rows, while a narrow path snakes through the
+      clearing from east to west. A sloping hole has been dug out of the earth.
+flag:
+  - peaceful
+  - outdoors

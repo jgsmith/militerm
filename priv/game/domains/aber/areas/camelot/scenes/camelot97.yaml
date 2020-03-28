@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot96"
+      east:
+        target: "scene:aber:camelot:camelot99"
+      north:
+        target: "scene:aber:camelot:camelot98"
+      south:
+        target: "scene:aber:camelot:camelot99"
+      up:
+        target: "scene:aber:camelot:camelot99"
+      west:
+        target: "scene:aber:camelot:camelot99"
+    short: Climbing The Mountain
+    sight: >
+      You struggle along a tiny ledge, moving slowly up the face of the cliff. You examine the rock face
+      carefully, knowing that if you make the slightest error, you will plunge to your death.
+flag:
+  - outdoors

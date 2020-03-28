@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house5"
+      west:
+        target: "scene:aber:hick:house3"
+    short: Hallway to the Study
+    sight: >
+      This is a short hallway that leads to a study. There are a few pictures hanging on the wall that you
+      assume to be the Hickdale family, some of the pictures look very old and you wonder how long the
+      Hickdales have owned this farm. To the east you can see a study and the hallway leads back to the west.
+flag:

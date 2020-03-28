@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:rocky"
+      west:
+        target: "scene:aber:newvillage:road6e"
+    short: The Field of Grass
+    sight: >
+      You are in a field of tall, blowing grass. Leaving the area of the moors, the ground becomes more solid,
+      and there is even a thin path leading to the west.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3421"
+      north:
+        target: "scene:aber:grave:grave3419"
+      south:
+        target: "scene:aber:grave:grave3420"
+      west:
+        target: "scene:aber:grave:grave3417"
+    short: End of the Hallway
+    sight: >
+      Here is the end of the hallway. It still smells very bad and looking at the floor and walls you see the
+      works of the evil beings have been very productive for them. There are doors north and south which are
+      obviously classrooms and a door to the east. Or you could take the safe path and exit west leading to
+      the hallway.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord96"
+    short: The Gutting Lodge
+    sight: >
+      It's carp time! But then again, that is only one of the many types of fish thrown on tables or hanging
+      by their tails on a rack. This is where the captured prizes of the inlet are cleaned, gutted, and made
+      ready to be cooked by the customer or traded away for the benefit of the entire village. Tags marking
+      species, weight, scarcity, and price are slapped to each fish to allow all to see the variety of
+      selection. On the processing tables strewn in rows about the room are cutting blocks stained with fish
+      gore, with cleavers streaked with a dark, crusty red material sitting next to the decapitated and
+      de-tailed fish. The fishheads and fishtails make excellent meals for the Kyerstarn husky dog population
+      and ensure the dogs' give swift sled travel during times of winter.
+flag:

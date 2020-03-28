@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:armor"
+      north:
+        target: "scene:aber:newvillage:road3n"
+      south:
+        target: "scene:aber:newvillage:road1n"
+      west:
+        target: "scene:aber:newvillage:weapons1"
+    short: The Village Track
+    sight: >
+      You are standing just outside the weapon shop, which is to the west, and the armor shop, which is to the
+      east. To the north the street continues to other shops and back to the south the street joins the rest
+      of the village.
+flag:
+  - outdoors

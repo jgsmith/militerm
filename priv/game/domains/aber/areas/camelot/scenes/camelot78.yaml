@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot76"
+      west:
+        target: "scene:aber:camelot:camelot79"
+    short: The Red Gem Tavern
+    sight: >
+      Walking into the tavern, you are struck by a feeling of warmth and comfort. The smell of good food
+      cooking, and the sight of good drink being passed around makes you long to stay awhile.
+flag:
+  - party
+  - soundproof
+  - peaceful

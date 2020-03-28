@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:escpath"
+      east:
+        target: "scene:aber:slott:slott2"
+      north: null
+      south:
+        target: "scene:aber:eastcoast:escpath"
+    short: The Yard
+    sight: >
+      You are standing in a large yard surrounded by high fences. To the &+Cnorth&* you see the entry to a
+      castle, and to the &+Ceast&* you see a small stable. The murky swampland can be seen below.
+flag:
+  - outdoors

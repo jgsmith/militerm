@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq32"
+      south:
+        target: "scene:aber:nwbeaches:beachqq34"
+    short: Cave Entrance
+    sight: >
+      You realize that if you wish to explore the confines of this cave, you will have to get wet. As you
+      stand looking into the cold, wet, darkness of the cave, the idea of jumping into that water just for the
+      sake of exploring does seem a bit nutty.
+flag:
+  - outdoors

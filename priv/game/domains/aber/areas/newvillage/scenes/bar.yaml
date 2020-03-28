@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newvillage:road2e"
+      west:
+        target: "scene:aber:newvillage:inn"
+    short: The Village Bar
+    sight: >
+      The bar is a dark and smokey place. You take your place at a stool at the bar, which is well-grooved
+      from many years of use by passing sailors and travelers alike. The bar seems to serve a wide variety of
+      drinks, and you settle down with a beer. Looking around the room, you see local men drinking with their
+      friends after a hard day's work, as well as a number of people who, from their shyness, you guess aren't
+      from around here. Yet another group of sailors is being rather rowdy at a table nearby.
+flag:

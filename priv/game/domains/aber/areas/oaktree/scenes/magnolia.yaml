@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:gardens"
+      east:
+        target: "scene:aber:oaktree:bedroom"
+      west:
+        target: "scene:aber:oaktree:mulberry"
+    short: Magnolia Tree
+    sight: >
+      The branches, although they are slender and of soft wood, bear your weight, and the points of your shoes
+      tear white wounds on the black bark. You are enveloped in the fresh scent of leaves, turned this way and
+      that by the wind, dull one moment and glittering the next. Quite far below the lowest branch is a
+      mysterious garden, and to the east, a half-hidden mansion. One high window is quite near your tree.
+flag:
+  - outdoors

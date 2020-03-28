@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:haondor:sundforest6029"
+      up:
+        target: "scene:aber:haondor:sundforest6032"
+      west:
+        target: "scene:aber:haondor:sundforest6031"
+    short: In The Lower Branches Of A Large Oak
+    sight: >
+      You are in a huge oak, about one third of the way to the top. The branches above you block out much of
+      the light, but enough filters through for you to see. Small animals and birds scatter at your approach,
+      rustling the leaves all about you. You could easily climb back down to the ground, or continue up the
+      tree. One large branch juts outward to the west, possibly providing a third choice of exit.
+flag:
+  - outdoors
+  - cold

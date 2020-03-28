@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eirias:mirror10"
+    short: Dead End?
+    sight: >
+      Suddenly, after the last turn, you come face to face with yourself in a blank mirrored wall. Is it a
+      dead end? You seem to hear a voice whispering "I think you should perhaps remember it..."
+flag:

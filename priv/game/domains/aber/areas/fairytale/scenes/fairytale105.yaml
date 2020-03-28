@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale109"
+      north:
+        target: "scene:aber:fairytale:fairytale101"
+      west:
+        target: "scene:aber:fairytale:fairytale102"
+    short: Pantry
+    sight: >
+      You have entered a large food-storage room. It is empty now, perhaps cleaned out by the inhabitants of
+      the three small mouse holes which are evenly placed on the south wall. One of the shelves has been
+      unfastened from the east wall.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle5"
+      east:
+        target: "scene:aber:balharbor:jungle7"
+    short: Top of the Cliff
+    sight: >
+      You're at the top of the cliff, and what a view! I told you it would be worthwhile. You get a nice view
+      of the small village and temples to the west, and the Yllythad Sea to the south. To the east you see the
+      edge of a jungle, and all the sounds of it. Be ready to fight any jungle beasts.
+flag:
+  - outdoors

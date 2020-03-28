@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:windy:windy24"
+      up:
+        target: "scene:aber:windy:windy26"
+    short: Stone Stairway
+    sight: >
+      A massive stone stairway rises to the roof of the temple here. The only other exit is a doorway to the
+      north.
+flag:

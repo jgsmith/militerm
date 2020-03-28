@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale107"
+      south:
+        target: "scene:aber:fairytale:fairytale108"
+      west:
+        target: "scene:aber:fairytale:fairytale101"
+    short: Porch
+    sight: >
+      You stand on the back porch, gazing out into the forest which surrounds the house. To the north, you see
+      a staircase leading up the side of the house, enclosed in glass. To your south is a large steel cube,
+      and to the west is a kitchen.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle12"
+      up:
+        target: "scene:aber:adept:adept1"
+      west:
+        target: "scene:aber:balharbor:jungle11"
+    short: The Foot of the Great Tree
+    sight: >
+      You are at the base of the trunk of an immense tree, at least twenty feet in diameter. The trunk is
+      covered with vines, mosses and kudzu, which you could probably climb. Ancient roots stretch out across
+      the leaf-covered forest floor. The dim sunlight filtering down through the leaves shows a path running
+      east and west.
+flag:
+  - outdoors

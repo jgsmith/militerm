@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar35"
+      north:
+        target: "scene:aber:balharbor:balhar43"
+    short: The Scribe Shop
+    sight: >
+      This little shop suffered little damage from the riot since this place houses the town's only scribe,
+      who warded off the thugs by reciting fireball spells at them from the front of the shop using the
+      scrolls he made. Looking at the shelves, you can see some scrolls for sale. There's a sign on the wall
+      that says 'No Spell-Casting Allowed'.
+flag:
+  - nomagic

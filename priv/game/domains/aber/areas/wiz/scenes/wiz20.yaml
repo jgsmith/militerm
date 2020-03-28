@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:wiz:wiz19"
+    short: The Bleak House
+    sight: >
+      The punishment for blasphemy is eternal banishment. In this case the losers here were unleashed upon the
+      world doing incredible amounts to the physical world. The powers that be after so long have tired from
+      all the mischief these people have caused and have locked them in here.
+flag:
+  - outdoors

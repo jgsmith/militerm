@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:plain8"
+      north:
+        target: "scene:aber:sagewood:plain4"
+      south:
+        target: "scene:aber:sagewood:plain5"
+      west:
+        target: "scene:aber:sagewood:plain1"
+    short: On Top Of The Hill
+    sight: >
+      The hill seams to be an oasis among the sad lands. All around you flowers bloom and birds sing. You
+      sense the presense of good magic. In all directions the sad plains extend.
+flag:
+  - outdoors
+  - peaceful
+  - fastheal

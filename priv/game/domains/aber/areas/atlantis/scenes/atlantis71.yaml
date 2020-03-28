@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis72"
+    short: Watery Crack
+    sight: >
+      You are in a low-ceilinged, somewhat small, narrow passage. Behind you the water ceases in a clean wall
+      as it meets an air tube. Looking down the tube you see a long drop with an odd shaped human-type
+      creature at the bottom of the shaft. It's a long drop and if you tried to jump into the tube you would
+      surely die but if you dropped something, it would probably land safely. The watery passage continues on
+      further to the north.
+flag:

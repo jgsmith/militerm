@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eirias:towerent"
+      up:
+        target: "scene:aber:eirias:toproom"
+    short: Wrought-iron staircase
+    sight: >
+      You climb and climb this staircase, past rooms that are scattered with the impedimenta of living, of
+      eating and sleeping, and yet had too, the strange deserted look of places left abandoned for a long
+      time.
+flag:

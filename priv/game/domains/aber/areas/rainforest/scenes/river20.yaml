@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:current1"
+      north:
+        target: "scene:aber:rainforest:river21"
+      south:
+        target: "scene:aber:rainforest:river22"
+      west:
+        target: "scene:aber:rainforest:river17"
+    short: Estuarine Waters
+    sight: >
+      The river here is so wide it is almost a sea. You can see trees in the distance, but the shoreline on
+      both sides is below the horizon. To the east is the sea, stretching for hundreds, perhaps thousands, of
+      miles. You can head in any direction.
+flag:
+  - outdoors
+  - onwater

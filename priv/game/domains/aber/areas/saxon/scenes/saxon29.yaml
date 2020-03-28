@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon28"
+      north:
+        target: "scene:aber:saxon:saxon30"
+    short: &*The &+LCave&*
+    sight: >
+      The cold is overbearing here and you wish you had brought that parka with with you afterall. A loud
+      roaring sound can be heard to the north, if you can make it there without falling down on the slippery
+      ice. The evil in you has built so high, any small argument could lead to death..
+flag:
+  - dark
+  - cold

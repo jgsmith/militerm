@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle32"
+      west:
+        target: "scene:aber:balharbor:jungle30"
+    short: Green Trail
+    sight: >
+      The land eastward is more clearer of large plants, just a few trees and a lot of shorter green grass. An
+      occasional chipmunk or squirrel can be seen scurrying past the track as it goes west to east.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:graye:graye5544"
+    short: "Relnar's Study"
+    sight: >
+      As soon as you enter this room, you feel it. A magical aura of goodness fills this room, and everything
+      is in a neat and tidy condition.
+flag:

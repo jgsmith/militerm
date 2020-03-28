@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:haondor:sundforest6016"
+      east:
+        target: "scene:aber:haondor:sundforest6030"
+    short: Out On A Limb In A Large Oak
+    sight: >
+      This sturdy branch hangs far out over a path to the west, which you might be able to jump down to.
+      Several squirrels scamper into hiding as you approach, leaving you alone and swaying slightly with the
+      wind. To your north you can see a small log cabin through the trees, and to the southeast there seems to
+      be some sort of clearing, with many birds circling above it.
+flag:
+  - nomobiles
+  - real
+  - outdoors

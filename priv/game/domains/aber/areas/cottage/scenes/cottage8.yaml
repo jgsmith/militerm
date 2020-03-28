@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west: null
+    short: Inside the Barn
+    sight: >
+      This is a clean, well kept barn. A large, cherry-red, horse-buggy sits here; it seems to be leering at
+      you. On its plate you can make out a set of runes spelling "Christine". There are a few dozen different
+      tools hanging here, but their purposes are beyond your experience.
+flag:

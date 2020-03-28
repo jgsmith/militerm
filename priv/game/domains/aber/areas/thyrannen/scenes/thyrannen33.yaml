@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen34"
+      south:
+        target: "scene:aber:thyrannen:thyrannen32"
+    short: Marsh
+    sight: >
+      The windy, murky waters of the marsh have made you disoriented. You don't know where you are, but you
+      don't care at this point. Exhaustion is taking over, making you see creatures that aren't there, yet you
+      continue on, somehow, each step agonizing pain.
+flag:
+  - outdoors

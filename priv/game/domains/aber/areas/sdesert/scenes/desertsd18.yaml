@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd19"
+      west:
+        target: "scene:aber:sdesert:desertsd17"
+    short: A Dusty Road
+    sight: >
+      Here the land is harsh and hot, reminding you of your 4th-grade teacher.
+flag:
+  - outdoors
+  - hot

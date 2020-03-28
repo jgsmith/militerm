@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan59"
+      south:
+        target: "scene:aber:mithdan:mithdan61"
+    short: Green Forest
+    sight: >
+      Healthy green forest streches as far as the eye can see. Far to the north you hear a faint musical song.
+      The forest to the west is filled with brambles and there is no way to get through. A thin trail that
+      must have been made by animals leads to the south, and the forest continues unabated to the north.
+flag:
+  - outdoors

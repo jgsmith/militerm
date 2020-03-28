@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:green"
+      north:
+        target: "scene:aber:blizzard:store"
+      west:
+        target: "scene:aber:village:village45"
+    short: The Village Market
+    sight: >
+      You are standing on a large square near the village gates. On special days this square is completely
+      filled with merchants selling their products. In the middle of the square a very old oak provides some
+      shadow from the sun. To the east the square changes into the village green. To the west you can see the
+      old gates that protected the village from the evils of the forest.
+flag:
+  - outdoors

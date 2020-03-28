@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:pillars5"
+      north:
+        target: "scene:aber:abyss:pillars7"
+      south:
+        target: "scene:aber:abyss:pillars9"
+      west:
+        target: "scene:aber:abyss:pain"
+    short: Among the Pillars
+    sight: >
+      You stand among the massive pillars of this expansive vaulted chamber. The faces of demons stare down at
+      you as you decide which way to go.
+flag:
+  - dark

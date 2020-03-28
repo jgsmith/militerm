@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:blizzard:bottom"
+    short: Elemental Temple
+    sight: >
+      You are in the Temple Of The Elements, surrounded by decorations depicting Earth, Air, Fire and Water.
+      This strange icy place gives off a feeling of unbalance and growing evil.
+flag:

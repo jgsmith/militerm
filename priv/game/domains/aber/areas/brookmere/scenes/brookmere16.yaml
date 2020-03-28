@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere17"
+      south:
+        target: "scene:aber:brookmere:brookmere14"
+    short: South End of Corridor
+    sight: >
+      This is the beginning of a straight corridor that leads south to a large room. The corridor continues
+      onto the north. The corridor was obviously damaged in the invasion and has been crudely repaired by the
+      invaders. Masonry is propped up with beams and poles, some of which are bending under the strain, and
+      the flagstone floor is very lumpy and uneven, like an unmade bed. You shake your head at the hobgoblins
+      pathetic attempt to render the corridor even serviceable and sigh, remembering the skill of the elves.
+flag:
+  - dark

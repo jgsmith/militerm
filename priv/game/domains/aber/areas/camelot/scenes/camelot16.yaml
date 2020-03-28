@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot15"
+    short: "Sir Palomides' Room"
+    sight: >
+      A small room, but very comfortable looking. It is apparent that the knight who lives here spends more
+      time on quest then lounging here. Such is the life of one of Arthur's knights.
+flag:

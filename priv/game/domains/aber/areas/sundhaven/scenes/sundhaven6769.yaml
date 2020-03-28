@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6768"
+    short: A whirlpool
+    sight: >
+      A slowly churning blue whirlpool pulls you gently underwater, without sound and without breath. The
+      tree-darkened sky disappears in a circular motion above your eyes as the world turns to water, and you
+      cannot help but feel that what goes down, must continue down.. The waters engulf you and suck you
+      downwards, where you awake with stars circling before your eyes.
+flag:
+  - underwater

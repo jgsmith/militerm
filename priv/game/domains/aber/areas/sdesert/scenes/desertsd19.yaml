@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd16"
+      west:
+        target: "scene:aber:sdesert:desertsd18"
+    short: "A Dusty 'T' Intersection"
+    sight: >
+      The dusty road here splits to the east and to the &+ywest&*. The desert continues to the south. There is
+      a blinking construction sign here, blocking the east way.
+flag:
+  - outdoors
+  - hot

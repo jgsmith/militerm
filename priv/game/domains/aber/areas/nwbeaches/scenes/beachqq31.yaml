@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq16"
+      west:
+        target: "scene:aber:nwbeaches:beachqq32"
+    short: Rocky Path
+    sight: >
+      The path continues along the beach, over rocks and scree. Your options are east or west.
+flag:
+  - outdoors

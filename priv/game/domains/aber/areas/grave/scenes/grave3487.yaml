@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3486"
+    short: Demons Quarters
+    sight: >
+      This room is decorated with weapons, and armor taken in battle and mounted upon the walls. The weapons
+      have nicks and the armor is bashed and there are notes by each with the victims name and date of death.
+      There are chairs and other furnishings fashionably placed. But what disturbes you is the presence that
+      is also here. There is always the exit back east.
+flag:

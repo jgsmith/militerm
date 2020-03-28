@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:palace5"
+      west:
+        target: "scene:aber:aladdin:palace3"
+    short: Long Straight Hall
+    sight: >
+      You are in a long straight hall leading east and west.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot260"
+    short: The Conservatory
+    sight: >
+      The north wall is filled by a fireplace large enough to roast an ox in. The rest of the room is filled
+      with chairs, couches, and decorative plants. The air is filled with the sound of birds and the perfume
+      of rare flowers.
+flag:

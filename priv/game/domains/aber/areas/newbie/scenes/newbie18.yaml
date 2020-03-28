@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie11"
+      south:
+        target: "scene:aber:icecave:palace"
+      west:
+        target: "scene:aber:newbee:newbee13"
+    short: The Fountain
+    sight: >
+      To help you start, there is a fountain from which you can drink to gain 4000 points. Type &+CLEVELS&*.
+      This will show you how many points you need for each level. Drinking the fountain will take you to level
+      3. To drink, simply type &+GDRINK FOUNTAIN&*. You must drink several times to reach level 3. But relax!
+      You don't need to type &+GDRINK FOUNTAIN&* forty times. The command &+G! will repeat whatever your last
+      command was. So type &+GDRINK FOUNTAIN&* once, then &+G!&* repeatedly or so until you get a message
+      telling you that you are now a hero/heroine. If you happen to drop below level 3, you can return to the
+      fountain to regain your level. &+Y If you rather just head directly into danger, go west...
+flag:

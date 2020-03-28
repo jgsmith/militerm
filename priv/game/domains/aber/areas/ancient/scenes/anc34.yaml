@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc32"
+      up:
+        target: "scene:aber:ancient:anc35"
+    short: Stairway to the Sun
+    sight: >
+      Up you go and you feel the endless strength of the sun making your climb to the top easier. You feel
+      like a new-born child as you go up the last steps. Suddenly you notice that the sun has risen high up to
+      the sky. The time seems to have lost its' significance to you.
+flag:
+  - outdoors

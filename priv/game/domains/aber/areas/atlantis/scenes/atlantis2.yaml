@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:atlantis:atlantis3"
+      up:
+        target: "scene:aber:atlantis:atlantis1"
+    short: Sinking
+    sight: >
+      The blue-green of the sea water embraces you upon your descent. You feel the tug and pull of water
+      currents as they gently move you. Small fish dart here and there in front of your eyes, appearing
+      somewhat startled by the intrusion upon their domain. Light from above is fading as you descend but your
+      eyes are becoming more adjusted to the new environment. You can either swim up or descend further.
+flag:
+  - underwater

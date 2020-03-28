@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:aladdin:oasis1"
+    short: In an Oasis
+    sight: >
+      You have entered a piece of the oasis with oddly shaped trees. One tree in particular appears to have
+      the shape of a stick figure doing an improve to "Walk Like An Arab" as the wind causes it to sway. While
+      yet another one twists and turns high into the sky.
+flag:
+  - light
+  - outdoors

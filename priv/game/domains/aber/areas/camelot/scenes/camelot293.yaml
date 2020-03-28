@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot292"
+      south:
+        target: "scene:aber:camelot:camelot294"
+    short: "Bael's Room"
+    sight: >
+      Bael is one of the Dukes of Hell. He appears as a well formed humanoid with golden skin, although his
+      appearance is rather spoiled by his bovine features and forward curving horns.
+flag:
+  - dark

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:doom:11"
+      west:
+        target: "scene:aber:doom:9"
+    short: &+cForest Path
+    sight: >
+      You are deep in the forest. You notice a house to the north of you which appears to be the source of
+      light for this area. You can hear something echoing in the background. It sounds almost like the screams
+      of children in pain.
+flag:
+  - outdoors

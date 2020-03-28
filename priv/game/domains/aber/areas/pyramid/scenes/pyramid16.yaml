@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pyramid:pyramid15"
+      west:
+        target: "scene:aber:pyramid:pyramid17"
+    short: Annex
+    sight: >
+      This small annex with its plain walls is disappointing. From the imprints left in the dust covering the
+      floor, you believe that several items had once been stored here. Yet according to legend, the greatest
+      treasures are stored in a magically sealed chamber that will only be accessible upon Neferteri's final
+      death.
+flag:
+  - dark

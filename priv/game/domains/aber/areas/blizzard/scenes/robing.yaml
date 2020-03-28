@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:stonewalled"
+    short: Robing Room
+    sight: >
+      You are in a small robing room which appears to have been unused for quite some time. To the south a
+      dark corridor leads east and west into darkness.
+flag:

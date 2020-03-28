@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon35"
+      west:
+        target: "scene:aber:talon:talon33"
+    short: Entranceway
+    sight: >
+      You pass under the black gothic arches, and stand in a large hall at the entrance of the stronghold.
+      Black marble gargoyles crouch at the corners of this room, and seem to jeer down in evil delight at your
+      curiosity which may just cause your demise. Above an archway to the east, the deep black letters TALON
+      are carved into stone. To the east lies an entrance into a large chamber, and to the west lie the gates
+      to this dark castle.
+flag:
+  - nomobiles

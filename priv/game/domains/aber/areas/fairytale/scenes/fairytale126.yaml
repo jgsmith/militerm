@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairytale:fairytale125"
+    short: Store-Room
+    sight: >
+      You stand in a store-room. Here artists keep their materials for their art, including canvasses, paints,
+      and slabs of stone. Light enters the room from the west door.
+flag:
+  - dark
+  - nomobiles

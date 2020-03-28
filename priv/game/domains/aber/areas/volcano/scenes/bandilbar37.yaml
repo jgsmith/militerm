@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar29"
+      north:
+        target: "scene:aber:volcano:bandilbar38"
+      west:
+        target: "scene:aber:volcano:bandilbar36"
+    short: Junction
+    sight: >
+      You are at the bottom of the slope. A low tunnel leads north, well-hewn and well-travelled. Here and
+      there on the floor are splashes of something sticky which you are careful not to tread in. To the west
+      at the end of the tunnel a flight of steps leads upwards to the south.
+flag:

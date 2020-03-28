@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount33"
+      north:
+        target: "scene:aber:rainforest:mount29"
+      south:
+        target: "scene:aber:rainforest:mount31"
+      up:
+        target: "scene:aber:rainforest:mount33"
+    short: Snowfield
+    sight: >
+      You are in the middle of a snowfield, sinking up to your knees in fresh snow. Your fingers and toes are
+      numb. Ice is forming on your eyebrows and you long to get back down into the warm. To the east the
+      ground just rises and rises up to the top of a high pass, while to the north the ground just ends at a
+      cliff wall which descends to meet a wide glacier.
+flag:
+  - outdoors
+  - cold

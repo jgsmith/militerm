@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eosia:eosia14"
+    short: The Royal Crypt
+    sight: >
+      This is were the Kings and Queens of Elenia have been buried over the centuries. The crypt extends back
+      into the darkness. The room is cold and dank, and you would rather not be down here, given the choice.
+      Many coffins stand along the walls, each with the name of its occupant on the cover. Perhaps if you stay
+      long enough, maybe you will see the ghost of the last king to sit on the throne of Elenia.
+flag:
+  - dark
+  - party

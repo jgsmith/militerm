@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: A quiet room
+    sight: >
+      This is a safe quiet room for people to discuss their private matters.
+flag:
+  - nomobiles
+  - private
+  - party

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:l664"
+      east: null
+      up:
+        target: "scene:aber:abyss:l662"
+    short: Level 663
+    sight: >
+      You have reached the entry to the 663rd level of the Abyss. A tunnel has been bored into the eastern
+      face of the pit. A sickly green goo seeps slowly from the tunnel, making the stairs here slippery.
+flag:
+  - dark

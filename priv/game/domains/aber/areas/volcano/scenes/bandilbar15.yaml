@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar17"
+      north:
+        target: "scene:aber:volcano:bandilbar14"
+      south:
+        target: "scene:aber:volcano:bandilbar18"
+      west:
+        target: "scene:aber:volcano:bandilbar19"
+    short: Yorrin Wood
+    sight: >
+      You are in the heart of the wood. In every direction you see trees after trees, their lowest branches so
+      near to the ground that you have to keep stooping in order to avoid them.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon49"
+      south:
+        target: "scene:aber:saxon:saxon47"
+    short: &+RB&+Yu&+Rr&+Yn&+Ri&+Yn&+Rg &+yShanty&*
+    sight: >
+      This house is on fire! The walls start to come down as you enter the house and the flames and smoke make
+      breathing almost impossible. Screams can be heard coming from a caved in bedroom, but there is no hope
+      in saving the lost soul.
+flag:
+  - light
+  - hot
+  - outdoors
+  - negregen

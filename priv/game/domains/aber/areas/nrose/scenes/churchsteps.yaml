@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:nrose:widepath"
+      south:
+        target: "scene:aber:nrose:towerbase"
+      west:
+        target: "scene:aber:nrose:treepath"
+    short: Church Steps
+    sight: >
+      You are standing in front of a romanesque church that serves as the place of worship for the monks. The
+      steps that lead up to the doors are covered with dead leaves that are stirred about by the gusts of the
+      wind. To the south is the monastery bell tower and to the north is a much larger tower.
+flag:
+  - outdoors

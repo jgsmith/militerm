@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:balharbor:sewer2"
+    short: The Lair
+    sight: >
+      You seem to have entered someone's lair. Footprints and hacked walls can be seen everywhere. Looking
+      around, you can see that a fight occurred here recently and the fighters must have taken a break and
+      left their weapons lying around. Apparently their sansei won't be took happy when he finds out they left
+      it and you took it.
+flag:
+  - dark

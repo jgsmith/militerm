@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:dragonslueth:ds27"
+    short: Relaxation Room
+    sight: >
+      There are about 20 couches lined up along the floor and pictures of some of the greatest pyschologists
+      in history on the walls. There is Sigmand Froud (not Sigmund Freud), and other greats that you can't
+      seem to think of right now. The exit is to the &+Csouth&*.
+flag:

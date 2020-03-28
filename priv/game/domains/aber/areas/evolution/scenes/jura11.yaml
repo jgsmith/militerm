@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jura12"
+      north:
+        target: "scene:aber:evolution:jura10"
+      west:
+        target: "scene:aber:evolution:jura8"
+    short: Foothills
+    sight: >
+      These are the foothills to the north of the jurassic plateau. The cliff wall to the south is too steep
+      to climb, but perhaps you could find an easier path to the top by going west from here. To the north, in
+      a flat patch of ground, is a tar pit containing a doomed ornithopod, and to the east lies a forest of
+      redwoods.
+flag:
+  - outdoors

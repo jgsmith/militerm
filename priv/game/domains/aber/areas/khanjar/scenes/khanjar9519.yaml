@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9520"
+      south:
+        target: "scene:aber:khanjar:khanjar9518"
+    short: A Grassy Path
+    sight: >
+      A grassy but quite a wide path leads here. According a few deep grooves that are yet visible on it, this
+      way was probably used much, a long time ago. Leaning against a greyish tree, there is a rottening,
+      wooden sign.
+flag:
+  - outdoors

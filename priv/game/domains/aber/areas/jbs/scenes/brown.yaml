@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:mugwumps"
+    short: Brown
+    sight: >
+      Brown is not a good color. This was a very bad room to try. Sorry you had a bad trip.. better luck next
+      time *wave*
+flag:
+  - death

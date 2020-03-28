@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:simon:siegfried2"
+    short: "&+cSiegfried's Beach"
+    sight: >
+      You don't understand why but the panorama slowly changes from the building to a beautiful golden sand
+      beach. It's a sunny day and the sun is really hot. You hear the waves pounding on the sand. This
+      splendid place gives you just the taste of lying on a soft towel to sleep on the sand. Not far off the
+      coast you see a shimmering light coming from the sea. As you approach from the source of the light, you
+      discover that's a sword.
+flag:
+  - party

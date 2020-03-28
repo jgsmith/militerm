@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9562"
+      west:
+        target: "scene:aber:khanjar:khanjar9560"
+    short: Under The Massive Roots
+    sight: >
+      Here the path goes very deep in the ground, almost as if it were an ancient trench. Tremendous, gnarled
+      roots from some brown and black arches above. The path leads both to the west and east.
+flag:
+  - outdoors

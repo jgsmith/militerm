@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:windy:windy13"
+    short: Mountain Trail
+    sight: >
+      You are walking along a thin trail which runs along the base of the mountain range to the south. High
+      above, the rocky crags loom menacingly against the dark sky. A terrible wind blows through here, howling
+      at you as it whips at your clothes and hair. The trail leads west and north, towards some low hills.
+flag:
+  - outdoors

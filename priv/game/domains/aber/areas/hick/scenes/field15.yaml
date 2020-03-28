@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field6"
+      north:
+        target: "scene:aber:hick:field8"
+      south:
+        target: "scene:aber:hick:field14"
+      west:
+        target: "scene:aber:hick:field16"
+    short: Tomato Patch
+    sight: >
+      This is a large tomato patch. To the south is a wheat field, to the west is a strawberry patch, and to
+      the north and east there is an irrigation ditch.
+flag:
+  - outdoors

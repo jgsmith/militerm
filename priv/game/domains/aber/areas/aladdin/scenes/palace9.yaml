@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      up: null
+    short: "Jafar's Throne Room"
+    sight: >
+      Jafar has created himself quite a nice throne room since last you saw him. He has evidentally wished for
+      great riches, for they are piled everywhere.
+flag:
+  - light

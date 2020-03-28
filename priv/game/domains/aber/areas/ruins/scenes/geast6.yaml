@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:geast5"
+      south:
+        target: "scene:aber:ruins:geast7"
+    short: Southern Passage
+    sight: >
+      You are in the southern passage in the eastern catacombs. As you walk into this new passageway an
+      overwhelming stench hits you causing you to almost fall over. After you regain your senses you look
+      around to find pools of blood all over the ground, and blood stains on the walls and on the ceiling. You
+      wonder what could possibly have caused such a massacre. This passage leads towards the south into
+      another large catacomb.
+flag:
+  - dark

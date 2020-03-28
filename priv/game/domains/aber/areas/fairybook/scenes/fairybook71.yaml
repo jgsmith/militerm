@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook70"
+      west:
+        target: "scene:aber:fairybook:fairybook72"
+    short: The Road to Town
+    sight: >
+      You approach the town along this road. In the distance, to the west, you can see two messengers far
+      ahead of you. Far to the east is a tall wall.
+flag:
+  - outdoors

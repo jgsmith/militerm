@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:house3"
+      south: null
+    short: Landing
+    sight: >
+      This is a small area with a floormat for wiping your feet clean of mud and other dirt. There is a rack
+      for coats and hats with a couple of small jackets hanging on it. There in a hallway leading to the north
+      and to the south you can see the porch.
+flag:

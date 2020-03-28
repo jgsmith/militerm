@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund40"
+      west:
+        target: "scene:aber:sommerlund:sommerlund38"
+    short: The Holmgulf
+    sight: >
+      The coastline stretches away to the west and south. Birds fly overhead on their approach to land,
+      squawking gleefully with their breakfasts caught firmly in their mouths. The open sea continues to the
+      north.
+flag:
+  - onwater
+  - outdoors

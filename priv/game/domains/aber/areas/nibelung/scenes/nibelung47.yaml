@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung45"
+    short: Top of the Turm
+    sight: >
+      The top of the tower appears to have been empty for quite some time. Your boots stir up dust as you walk
+      around, causing your nose to itch. Cobwebs adorn the corners, and you hear insects buzzing about busily
+      outside.
+flag:
+  - soundproof

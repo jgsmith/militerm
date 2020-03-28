@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar51"
+    short: The Chemistry Lab
+    sight: >
+      A large room with several tables and shelves filled with many vials and jars of chemicals and
+      ingredients serves as the alchemist's laboratory. Some large mixing beakers on the center table bubble
+      and fizz as the young chemist adds items to the brew creating some wondrous creation. You can go back
+      into the showroom to the south.
+flag:

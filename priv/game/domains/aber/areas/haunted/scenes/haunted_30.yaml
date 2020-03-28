@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_32"
+      north:
+        target: "scene:aber:haunted:haunted_31"
+      south:
+        target: "scene:aber:haunted:haunted_32"
+      west:
+        target: "scene:aber:haunted:haunted_27"
+    short: Start of the Pumpkin Patch
+    sight: >
+      This is the start of the pumpkin patch. Pumpkins lay as far as the eye can see.
+flag:
+  - real

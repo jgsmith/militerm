@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome39"
+      north:
+        target: "scene:aber:rome:rome31"
+      south:
+        target: "scene:aber:rome:rome33"
+    short: Town Square
+    sight: >
+      You are standing in the middle of a large open area which is the common area of Rome. During the day,
+      this place is alive with the hustle and bustle of all of the citizens of Rome and everyone in the city
+      is sure to stop by at some time or another. There are several street &+Yvendors&* peddling their wares
+      and the overall atmosphere is carnival-like in nature. To the southeast, off in the distance, you can
+      see the &+Baquaduct&* and the buildings of the Roman government lie to the northwest. Nero Drive leads
+      north and south from here and Clay Avenue runs east.
+flag:
+  - outdoors

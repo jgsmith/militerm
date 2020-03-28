@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon57"
+      north:
+        target: "scene:aber:talon:talon55"
+      south:
+        target: "scene:aber:talon:talon55"
+      west:
+        target: "scene:aber:talon:talon54"
+    short: Standing on a Beach
+    sight: >
+      You stand at the edge of a deep, blue sea; waves beat endlessly on the bone-white sand upon these
+      shores. To the west, a column of water rises from the ocean, and dissapears into a bright, white
+      porthole. The beach stretches out before you, along the edges of a towering mountain range lining its
+      shores. To the east, a small cave leads into the side of the cliff.
+flag:

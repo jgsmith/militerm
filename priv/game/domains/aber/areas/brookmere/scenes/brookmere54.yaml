@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:brookmere:brookmere34"
+    short: Long Tunnel
+    sight: >
+      A wide, dark tunnel travels a lengthy path straight ahead before curving gently to the south, cutting
+      off any view of the other end save a faint green glow that makes you feel edgy. All of a sudden you feel
+      the oppressive weight of the tones of earth above you, and remember that, from this point of view, the
+      laws of gravity do not work in your favour.
+flag:
+  - dark

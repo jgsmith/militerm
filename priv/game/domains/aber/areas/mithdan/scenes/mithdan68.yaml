@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan69"
+      north:
+        target: "scene:aber:mithdan:mithdan66"
+      south:
+        target: "scene:aber:mithdan:mithdan70"
+      west:
+        target: "scene:aber:mithdan:mithdan67"
+    short: Street
+    sight: >
+      The street is slightly dusty but well maintained. The cobblestones are neatly laid in geometric
+      patterns. To the north is a small temple, to the west are the main village gates and beyond them the
+      forest. To the east is a small garden filled with delicately carved stone statues. To the south there is
+      nothing but beautifully manicured gardens.
+flag:
+  - outdoors

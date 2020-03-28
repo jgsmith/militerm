@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:maeron:well"
+      north:
+        target: "scene:aber:maeron:center"
+      up:
+        target: "scene:aber:maeron:foyer"
+    short: &+BIn the basement
+    sight: >
+      This chamber has a very eerie aura about it. Shadows dance off the masonry, mocking you. A spiral
+      staircase leads back&+Rup&* to the relative saftey of the foyer. To the &+Rnorth&* sits a small room
+      with a large ornate pedestal. A small well is in the center of the room, and it doesn't look very safe
+      to go &+Rdown&* it.
+flag:
+  - dark

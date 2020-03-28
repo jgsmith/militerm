@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook43"
+      north:
+        target: "scene:aber:fairybook:fairybook41"
+    short: Croquet Field
+    sight: >
+      You suspect that you have never seen such a curious croquet ground in your life. It is all ridges and
+      furrows, bumpy and uneven ground. The croquet balls are live hedgehogs, the mallets are live flamingoes.
+      The arches are made of giant playing card soldiers, doubled over on their hands and feet. To the north
+      is a path leading to the garden, and to the east you see a low building.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:noxypickle:pit"
+    short: Defunct Deathtrap
+    sight: >
+      This place was once a rather brutal trap. A long wooden beam with a spring-loaded spike is stuck into
+      the wall, having impaled some hapless adventurer whose partially-collapsed skeleton is draped across the
+      end of the spike. You scan the walls a little nervously, seeking signs of further traps, but you can see
+      none.
+flag:
+  - dark

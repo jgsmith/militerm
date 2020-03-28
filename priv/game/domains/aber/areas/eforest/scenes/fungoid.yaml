@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:glowing"
+    short: Fungoid Cavern
+    sight: >
+      You stand in an enormous cavern which seems to be wall-to-wall fungus. Besides mushrooms and other
+      common fungus, you also see many unusual ones, much as in the fungus cavern above. As well, the green
+      fungus from the the passageway to the North may be seen. An &+galtar &*stands here.
+flag:

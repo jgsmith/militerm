@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook109"
+    short: Garden
+    sight: >
+      The garden consists of three or four scraggly flowers growing in a sun-baked clay field. Not a tree or a
+      house breaks the broad sweep of flat country that reaches the edge of the sky in all directions. The
+      plowed land has been baked into a grey mass, with little cracks running through it. From here, you can
+      see that the sun has blistered the paint on the house, and it is now as dull and grey as everything
+      else. To the west is the house.
+flag:
+  - nomobiles

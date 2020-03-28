@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis52"
+      west:
+        target: "scene:aber:atlantis:atlantis50"
+    short: Before the Cave
+    sight: >
+      A large stone cave opening looms before you, casting its shadow upon the sea bed behind you. Through the
+      opening you can see nothing but a lot of darkness and the cave gives you the appearance of being able to
+      swallow you up. You can enter into the cave to the east or head back along the path to the west.
+flag:
+  - underwater

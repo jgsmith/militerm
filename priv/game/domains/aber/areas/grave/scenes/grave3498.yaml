@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3494"
+    short: Treasure Room
+    sight: >
+      You have found the real treasure that the arch devil craves and protects. When he discovers that you
+      have found this place he is likely to be rather upset. For your own safety you better tiptoe back west.
+flag:

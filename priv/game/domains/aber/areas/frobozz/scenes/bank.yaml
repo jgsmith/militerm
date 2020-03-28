@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:frobozz:tellers"
+    short: The Bank of Frobozz
+    sight: >
+      You are in the main hall of the bank of Frobozz. The roof is held up by mighty stonepillars like those
+      you saw outside the main door which leads into this room. The ceiling is made of dark wood, and combined
+      with the light colours which the walls are decorated with and the fine gold inlay in the massive pillars
+      the whole room resembles something like a temple raised for a highheld god. Right to the north is the
+      tellers' room and that's where you may withdraw sparemoney or let the bank take care of them. In the
+      south wall of this stunning room there is the main entrance to the bank. The door is barred with strong
+      ironbars which makes the bank look very safe.
+flag:
+  - dark

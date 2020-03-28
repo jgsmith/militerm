@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:personalhell4"
+      west:
+        target: "scene:aber:undead:personalhell2"
+    short: Your own personal hell
+    sight: >
+      &+RYou walk through the crimson void, disjointed and misplaced, your mind &+Rworks frantically to
+      explain what you see. You seem heavier here, and you &+Rexamine yourself to see that you have gained
+      several hundred pounds in &+Rweight. You know there is no need to worry, you just should have not
+      &+Reaten that last meal, it will be all right.
+flag:
+  - soundproof

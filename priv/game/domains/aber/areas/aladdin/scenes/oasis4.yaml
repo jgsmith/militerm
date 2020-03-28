@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:oasis1"
+    short: In an Oasis
+    sight: >
+      You wish everyday in the desert were like this as you meander about lazily. There is a beautiful pool of
+      clear sparkling water. It reflects the sun sending rays shooting off everywhere.
+flag:
+  - light
+  - outdoors

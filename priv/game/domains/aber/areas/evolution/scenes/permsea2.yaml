@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:permsea3"
+      north:
+        target: "scene:aber:evolution:permsea4"
+      south:
+        target: "scene:aber:evolution:permsea1"
+    short: Permian Straits
+    sight: >
+      You are in a channel between two continents. Over time this channel will shrink, getting narrower until
+      the continents come together with devastating results. Meanwhile the shallow seas here still teem with
+      life, and you must be cautious.
+flag:
+  - soundproof
+  - underwater

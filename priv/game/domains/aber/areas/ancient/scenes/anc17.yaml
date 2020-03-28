@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc16"
+      west:
+        target: "scene:aber:ancient:anc18"
+    short: Stony Path
+    sight: >
+      You are walking along a narrow stony path which leads westwards to vast marshlands. The mosquitos have
+      found your blood very tasty and you start slapping them on your skin. If this is what it is here, what
+      might it be when you go further to the west? You wonder if you will catch malaria in this place. The
+      path leads west and back to the east.
+flag:
+  - outdoors

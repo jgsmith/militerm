@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nrose:ossarium2"
+      up:
+        target: "scene:aber:nrose:dampstair"
+      west:
+        target: "scene:aber:nrose:dampstair"
+    short: Ossarium
+    sight: >
+      This is the north part of the monastery ossarium. Deep niches have been dug in the walls to store large
+      piles of skulls and bones. Bones in neat piles fill the parts of the floor that isn't covered in mud. A
+      sudden chilly draft makes you jump and you can feel your heart beat in a faster pace. A narrow
+      passageway goes up towards the west, and to the south the ossarium continues.
+flag:
+  - dark
+  - nomobiles

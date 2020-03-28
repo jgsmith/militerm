@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung76"
+      west:
+        target: "scene:aber:nibelung:nibelung74"
+    short: Damp Room
+    sight: >
+      You are in a small room, which is very damp and chilly. A breeze is coming in from a small hole off to
+      one side. You notice some light coming from that direction, though not enough to see by. The purpose of
+      this room is unclear, but you would venture to speculate that it was used as a means of escape in times
+      of war.
+flag:
+  - dark

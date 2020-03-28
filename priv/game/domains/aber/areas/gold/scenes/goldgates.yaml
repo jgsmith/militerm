@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:gold:gold2"
+      south:
+        target: "scene:aber:gold:gold3"
+      west:
+        target: "scene:aber:gold:gold1b"
+    short: Gold Gates
+    sight: >
+      There is a pair of golden gates here. You see no possible way to open them, and it is frustrating you
+      because you realize there is no other way out. There is a large bright exit to the south, and a dark
+      hole that it looks like you could *just* squeeze through to the north.
+flag:
+  - nomobiles
+  - outdoors

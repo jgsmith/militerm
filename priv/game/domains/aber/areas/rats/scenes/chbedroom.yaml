@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rats:stairsup"
+      north: null
+      south:
+        target: "scene:aber:rats:bedroom"
+    short: "Child's bedroom"
+    sight: >
+      You are standing in the child's bedroom. The floor is covered with a very soft carpet. There is also a
+      large sofa made of leather; against the sofa is a cupboard filled with lot of porcelan. In the middle of
+      the room is a small &+Cbed&*, just for the child.
+flag:

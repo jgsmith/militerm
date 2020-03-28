@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus7"
+      south:
+        target: "scene:aber:nexus:nexus4"
+    short: Crystal Plain
+    sight: >
+      The mist closes in and around, obscuring vision to a few yards. It is a low-lying, thick, purple fog in
+      which streams of water vapor swirl in eddies and cause ghostly echoes off the crystalline rocks of the
+      plain.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

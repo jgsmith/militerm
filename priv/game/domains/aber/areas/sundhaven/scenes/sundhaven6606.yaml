@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6600"
+    short: The temple garden
+    sight: >
+      An impressionistic splash of red, black and gold meets the eye, accompanied by the intoxicating
+      fragrance of roses growing nearly wild in this garden.
+flag:
+  - outdoors

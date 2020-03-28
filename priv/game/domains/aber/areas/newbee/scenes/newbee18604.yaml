@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18647"
+      south: null
+    short: A Narrow Passage
+    sight: >
+      The thin passage is plain and undecorated, but still clean. It ends abruptly to the south at a small oak
+      door, behind which you here movement...
+flag:
+  - dark

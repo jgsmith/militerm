@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest139"
+      north:
+        target: "scene:aber:rainforest:forest142"
+      south:
+        target: "scene:aber:rainforest:forest140"
+      west:
+        target: "scene:aber:rainforest:forest138"
+    short: Stuck In The Fig Forest
+    sight: >
+      You are lost, deep in the fig forest. The only trees you can see here are strangler figs. Through some
+      quirk of nature, they have come to completely dominate this part of the rainforest and will allow no
+      other trees to grow. There are exits in all directions, though everywhere you look seems to be dark and
+      gloomy.
+flag:
+  - outdoors
+  - rainforest

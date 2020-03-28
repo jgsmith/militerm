@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook48"
+      up:
+        target: "scene:aber:fairybook:fairybook46"
+    short: Downstairs
+    sight: >
+      You stand at the bottom of the stairs. To the east lies a garden path, and above you is a small room.
+flag:

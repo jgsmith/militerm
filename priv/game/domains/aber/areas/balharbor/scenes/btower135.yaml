@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:btower137"
+      north:
+        target: "scene:aber:balharbor:btower136"
+      south:
+        target: "scene:aber:balharbor:btower134"
+      up:
+        target: "scene:aber:balharbor:btower139"
+      west: null
+    short: Inside the Upper Tower Room
+    sight: >
+      Having disposed of Kish you go inside the room he was guarding to see what he was guarding. Looking
+      around this room you see little of anything except a few tables and chairs. You do see some closed doors
+      to three other rooms, including one with iron bars on the west side.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis46"
+    short: "Octopus' Home"
+    sight: >
+      This home is extremely immaculate. Everything has its proper place and is stored there neatly. The pots
+      are all put away, the gardening utensils are all clean and stored in their rack, the bed is made and the
+      floor is swept (as much as the sea floor can be swept, anyway). The entire household is spotless which
+      isn't overly surprising since its inhabitant has eight arms to do everything with.
+flag:
+  - underwater

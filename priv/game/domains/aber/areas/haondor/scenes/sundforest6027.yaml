@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:haondor:sundforest6025"
+    short: On The Lake
+    sight: >
+      You are in the middle of a small &+Blake&*, fed from a small stream coming through the forest from the
+      northwest. The water is not that clear, but you can see fish swimming around below you. The bank is
+      clear to the south, providing a safe place to get back to the field. The &+Gtrees&* and the &+yreeds&*
+      are abundant.
+flag:
+  - onwater
+  - outdoors

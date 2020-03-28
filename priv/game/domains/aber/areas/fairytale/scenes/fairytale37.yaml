@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:fairytale:fairytale33"
+    short: Entrance to the Great Hall
+    sight: >
+      Two arched doors stand before you on the eastern wall. They are elaborately carved, and seem to tell a
+      story of a man named Jack who stole many things from a giant. The story ends with a panel of a large man
+      eating a sandwich, from which two feet protrude. To the west, you see colored light streaming in through
+      the open door. The walls are decorated with portraits of important giants of history.
+flag:

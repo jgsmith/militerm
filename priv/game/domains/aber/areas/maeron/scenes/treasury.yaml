@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:maeron:cave3"
+    short: &+RKobold Treasury&*
+    sight: >
+      You have stepped into the room that is most imporant to the Kobolds that live here: the treasury. The
+      only exit is &+Rnorth&* into the central chamber.
+flag:

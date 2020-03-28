@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot223"
+      south:
+        target: "scene:aber:camelot:camelot221"
+      up:
+        target: "scene:aber:camelot:camelot241"
+    short: The Bottom of the Northwest Tower
+    sight: >
+      You have reached the base of the northwestern tower. The large room you are in has a weapons rack on the
+      wall, which is used in time of battle to provide extra weapons as needed to the fighters in this area.
+flag:

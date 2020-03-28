@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fire:fire19"
+    short: Barracks
+    sight: >
+      You are standing in the barracks of the robbers. It is a normal accomodation for about ten people. It
+      isn't very comfortable here, just beds and one large table. The floor is made of wood, but on some
+      places is it already stepped through. The only way out is back to the arena.
+flag:
+  - dark

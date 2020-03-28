@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Escape Tunnel
+    sight: >
+      The inhabitant of the cell was trying to escape through here. He had dug six feet of tunnel from his
+      cell with a spoon, and was trying to dig upwards when he was caught. He hadn't gotten far enough to
+      escape.
+flag:
+  - dark

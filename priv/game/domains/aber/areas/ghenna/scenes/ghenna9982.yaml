@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9981"
+      south:
+        target: "scene:aber:ghenna:ghenna9983"
+    short: A slimey footpath.
+    sight: >
+      The slime seems to be lessening a bit here, though the way is still as slippery as can be. A clearing
+      can be seen to the South.
+flag:
+  - dark
+  - outdoors

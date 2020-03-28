@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle15"
+      south:
+        target: "scene:aber:avairy:castle8"
+      west:
+        target: "scene:aber:avairy:castle11"
+    short: Corridor
+    sight: >
+      You are in a branching corridor. Halls lead off to the east, west, and south. You hear someone whistling
+      a happy tune.
+flag:
+  - light

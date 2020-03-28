@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord38"
+      south:
+        target: "scene:aber:fjord:fjord33"
+    short: Slope of Dead Pines
+    sight: >
+      There is a surprising number of dead pines along this route. The path of the one who ripped asunder
+      weeds to the south has visited this section also, as claw marks are borne by the shredded bark on the
+      long-deceased trunks. To your right, a tree has even been felled by one monstrous sweep and thrown a
+      good twenty feet. The ground slopes upward to the north and down to the regular forest level to the
+      south.
+flag:
+  - outdoors

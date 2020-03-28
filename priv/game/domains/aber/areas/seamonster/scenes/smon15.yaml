@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:seamonster:smon13"
+      south:
+        target: "scene:aber:seamonster:smon16"
+    short: Before a cave
+    sight: >
+      You are standing before a small cave. It seems to be a good place for hiding from something big. You can
+      see around the entrance many deep gouges. They look like they were made by huge claws.
+flag:
+  - outdoors

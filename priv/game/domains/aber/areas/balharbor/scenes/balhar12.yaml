@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar13"
+      west:
+        target: "scene:aber:balharbor:balhar11"
+    short: Forge
+    sight: >
+      This is where is the town's blacksmith makes the weapons and armor he sells. There's an anvil in the
+      center of the room, a huge oven in the corner, sheets of steel stacked against the wall on the right,
+      and various tools on the workbench. Finished weapons are piled in a box in another corner. How these
+      shops remained untouched by the rioters is because of the fact that the blacksmith is very strong and a
+      complete expert on the usage of all the weapons and armor he makes. Don't even think of snatching stuff
+      when he's around, else he'll tear you apart. You can go back into either shop west and east.
+flag:

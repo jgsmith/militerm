@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:zodiac:amgstars"
+      east:
+        target: "scene:aber:zodiac:lost6"
+      north:
+        target: "scene:aber:zodiac:lost4"
+      south:
+        target: "scene:aber:zodiac:lost2"
+      up:
+        target: "scene:aber:zodiac:lost4"
+      west:
+        target: "scene:aber:zodiac:lost3"
+    short: The Pentagram
+    sight: >
+      There is a large pentagram etched into the nothingness on which you stand. It's floating about three
+      feet off the ground!
+flag:

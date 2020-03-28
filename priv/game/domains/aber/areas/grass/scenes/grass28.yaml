@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass29"
+      north:
+        target: "scene:aber:grass:grass18"
+      south:
+        target: "scene:aber:grass:grass38"
+      west:
+        target: "scene:aber:grass:grass27"
+    short: Grasslands
+    sight: >
+      The grasses blow in the wind about you, the sound of it moving against itself in the wind almost akin to
+      someone rubbing their dry hands together in a constant, ryhtymic fashion. This place seems almost too
+      peaceful as it is now, with no sound but that of the wind and nothing but open area all about you.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook105"
+      west:
+        target: "scene:aber:fairybook:fairybook104"
+    short: Slightly Gulch
+    sight: >
+      Slightly Gulch, the site of a famous battle between the Lost Boys and the Redskins, has been a piece of
+      history for years. The Redskins and Lost Boys decided one day to trade sides completely, and left at the
+      end of the day declaring a stalemate. It is populated by sparse shrubs and bushes and the occasional
+      scraggly tree. Exits lie to the east and the west.
+flag:
+  - outdoors

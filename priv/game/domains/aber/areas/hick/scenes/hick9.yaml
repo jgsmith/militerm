@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field1"
+      west:
+        target: "scene:aber:hick:hick8"
+    short: End of Road to Crop Fields
+    sight: >
+      You are at the end of the road to the crop fields. There are giant fields of corn, wheat, tomatoes, and
+      other various vegetables. There is a small irrigation ditch that leads to the east into the fields. The
+      road goes back to the west.
+flag:
+  - outdoors

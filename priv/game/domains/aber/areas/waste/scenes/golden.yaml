@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:waste:foot"
+      up:
+        target: "scene:aber:waste:top"
+    short: The Golden Stairs
+    sight: >
+      You are ascending a set of golden stairs, which reflect a fiery red light from the hot rocks all around
+      it. The stairs lead upwards to some kind of guard room, and downwards to a passage.
+flag:
+  - hot

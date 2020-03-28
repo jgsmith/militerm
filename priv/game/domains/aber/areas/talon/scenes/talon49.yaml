@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon48"
+      east:
+        target: "scene:aber:talon:talon50"
+    short: Top of Dragon Tower
+    sight: >
+      You stand atop a tremendous tower, which has been built partially into the side of a mountain. The tower
+      lies above the black cloud which plagues this land, and the sun reflects its bright yellow rays from the
+      blanket of smog stretched out before you. Far to the west lies a huge range of white mountains which
+      tower ominously above this large peak, and behind the mountains a hint of deep blue suggests the
+      existence of an ocean. To the east a deafening, dull roar echoes from a dark cave.
+flag:

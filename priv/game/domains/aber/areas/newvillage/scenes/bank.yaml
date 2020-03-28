@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newvillage:road1w"
+    short: The Bank
+    sight: >
+      You are in a little town bank where the village people can deposit and withdraw money. The bank will
+      also make loans to the people of the village. The building itself is small and somewhat more
+      modern-looking than the other main buildings in the village.
+flag:

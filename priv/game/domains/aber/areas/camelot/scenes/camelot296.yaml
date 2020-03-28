@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot297"
+      west:
+        target: "scene:aber:camelot:camelot295"
+    short: "Amon's Room"
+    sight: >
+      Amon is wolf-headed but otherwise appears human. He is considered one of the weaker of Hell Dukes, as he
+      is a vassal of Geryon. His greatest power is the ability to summon and control all wolves, including
+      werewolves.
+flag:
+  - dark

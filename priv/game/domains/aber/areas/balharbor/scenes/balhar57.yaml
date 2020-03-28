@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar58"
+      south:
+        target: "scene:aber:balharbor:balhar49"
+      west:
+        target: "scene:aber:balharbor:balhar56"
+    short: Park Street
+    sight: >
+      There appears to be smoke and a lot of noise to the south. It looks to be a riot! You can see some angry
+      thugs who set a building on fire and are throwing rocks and bottles. You can get right into the middle
+      of it to the south or avoid it by going west or east. You can see some sort of arena to the north, but
+      there's no entrance to it from this side.
+flag:
+  - outdoors

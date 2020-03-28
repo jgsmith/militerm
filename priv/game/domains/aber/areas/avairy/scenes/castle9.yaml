@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle8"
+      south:
+        target: "scene:aber:avairy:castle2"
+    short: Grand Ballroom
+    sight: >
+      You have enter a majestic, high ceilied ballroom. Large crystaline chandelliers hang down from above.
+      Many fine golden bird feeders line the walls.
+flag:
+  - light

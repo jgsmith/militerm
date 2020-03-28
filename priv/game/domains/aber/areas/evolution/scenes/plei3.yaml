@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:plei1"
+      north:
+        target: "scene:aber:evolution:plei4"
+    short: Hill Country
+    sight: >
+      You are amongst the trees nestling in a small valley between the hills. To the west a tall cliff bars
+      your way, and it continues north and south as far as the eye can see. A spur shoots off from it just
+      south of you, and to climb that, you decide would be more trouble than it was worth.
+flag:
+  - outdoors

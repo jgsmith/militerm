@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome54"
+      north:
+        target: "scene:aber:rome:rome54"
+      south:
+        target: "scene:aber:rome:rome58"
+      west:
+        target: "scene:aber:rome:rome41"
+    short: The Aquaduct
+    sight: >
+      You are in a massive stone structure that has been designed to channel water into the city of Rome. Due
+      to a recent drought, the water level is low, allowing passage without a boat. The walls and floor are
+      covered with algae and slime, producing treacherous footing conditions. A valley lies to the south and
+      the other cardinal directions lead further into the aqueduct.
+flag:

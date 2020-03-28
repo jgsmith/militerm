@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cave:landing"
+    short: Dwarven Bedroom
+    sight: >
+      You are in a dwarven bedroom. A single doorway leads north.
+flag:
+  - dark

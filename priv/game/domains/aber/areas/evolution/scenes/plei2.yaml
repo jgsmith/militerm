@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:plei1"
+      west:
+        target: "scene:aber:evolution:plei4"
+    short: Hill Country
+    sight: >
+      You are on the side of a small hill, surrounded by short, stubby trees with densely-packed leaves. The
+      visibility is poor in any direction, but you fancy you can see some kind of rock face to the west.
+flag:
+  - outdoors

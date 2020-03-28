@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mrealms:second"
+    short: The Beach
+    sight: >
+      Crystal clear blue waves break against an endless beach of white sand. Conch shells, palm trees, and sea
+      stars dot the land as you walk barefoot at the edge of the water while red and pink clouds chase a
+      setting sun down the horizon. In the distance you see a group of dolphins leaping out of the waves. You
+      could stay here forever.
+flag:
+  - peace
+  - private

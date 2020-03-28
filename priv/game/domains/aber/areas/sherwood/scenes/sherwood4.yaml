@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood1"
+      west:
+        target: "scene:aber:sherwood:sherwood5"
+    short: West Fork
+    sight: >
+      You are traveling on a paved road, making the journey quite easy. The road continues west into a dense
+      forest. You sense danger, and prepare yourself for what lies ahead. What ever that may be.
+flag:
+  - outdoors

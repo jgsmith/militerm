@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar77"
+      north:
+        target: "scene:aber:balharbor:balhar75"
+      south:
+        target: "scene:aber:balharbor:balhar68"
+      west:
+        target: "scene:aber:balharbor:balhar73"
+    short: Pines Road
+    sight: >
+      The further you go into the neighborhood, the worse the area looks. A bright yellow house lies to the
+      west...YOU HEAR A LOUD CRASH! There's a brick house to the north...you see someone spraypainting the
+      walls! More destruction lies east and south.
+flag:
+  - outdoors

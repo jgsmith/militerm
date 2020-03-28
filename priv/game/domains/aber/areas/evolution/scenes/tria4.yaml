@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:tria6"
+      south:
+        target: "scene:aber:evolution:tria3"
+    short: Rock Wall
+    sight: >
+      You have come to a wall of rock, a faultline perhaps, rising some fifty unclimbable feet above you. As
+      you look up you can see a patch of sky through a gap in the gingko foliage, and while you watch, a small
+      dark winged shape flaps by. You turn to look at possible exits. It seems the best possible routes lie to
+      the south and east.
+flag:
+  - outdoors

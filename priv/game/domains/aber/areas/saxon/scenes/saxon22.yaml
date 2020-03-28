@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon1"
+      north:
+        target: "scene:aber:saxon:saxon23"
+      south:
+        target: "scene:aber:saxon:saxon23"
+      west:
+        target: "scene:aber:saxon:saxon23"
+    short: &+WFoaming &+BWaters&*
+    sight: >
+      Here the waters come dangerously close to the sharp rocks which have fallen from the cliffs above. The
+      sound of the water crashing against the rocks is loud enough to deafen a person. Maybe you can make it
+      to land.
+flag:
+  - light
+  - onwater
+  - outdoors

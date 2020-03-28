@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5553"
+      south:
+        target: "scene:aber:graye:graye5551"
+    short: The Rift
+    sight: >
+      A great yawning rift breaks the earth's surface here. Tendrils of smoke waft their way upwards, stinging
+      your nose sharply. You sense that a great evil is near. You can try climbing &+Rdown&*, but you may not
+      get back up.
+flag:
+  - outdoors

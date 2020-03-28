@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Tower Prison
+    sight: >
+      This appears to be a jail cell for people that Sash has taken prisoner to interrogate or torture. A
+      skeleton is chained to the wall on one side of the room. A large chair sits on another side of the room
+      next to a table. Escape from this place is difficult, thanks to that maze to get up into the tower and
+      the fact that the room have a unsummonable force field to keep people from coming or going.
+flag:
+  - noquit
+  - nosummon
+  - cantsummon

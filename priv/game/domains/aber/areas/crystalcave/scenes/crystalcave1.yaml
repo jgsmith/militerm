@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:island:cragg"
+      west:
+        target: "scene:aber:crystalcave:crystalcave2"
+    short: Entrance to the &+CCrystal Caves&N
+    sight: >
+      Blinded by an &+Wintense&N light, it takes a few moments for your eyes to adjust. You gasp in awe when
+      you realize the cave walls are made up of hundreds of crystalline formations. The floor is littered with
+      glittering shards of &+Wcrystals&N that have somehow broken away from the walls. Peering up at the
+      ceiling, you can find no discernible light source that displays all this natural beauty.
+flag:
+  - nomobiles

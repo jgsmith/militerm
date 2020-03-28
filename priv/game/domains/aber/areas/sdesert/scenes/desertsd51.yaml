@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd52"
+      south:
+        target: "scene:aber:sdesert:desertsd53"
+    short: Cactus Land
+    sight: >
+      You wander between large cacti and jagged rocks, trying to stay away from all the pricks. The trail
+      leads &+geast and south&* from here.
+flag:
+  - outdoors
+  - hot

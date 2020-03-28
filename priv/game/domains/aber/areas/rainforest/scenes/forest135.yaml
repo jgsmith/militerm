@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest130"
+      west:
+        target: "scene:aber:rainforest:city1"
+    short: Shadowy Glade
+    sight: >
+      You are in a strangely still and quiet glade. There is no understorey and the canopy is continuous
+      overhead, yet you can hear no sounds of birdsong or of insect chatter or of howling monkeys. The trees
+      to the north and south press together so tightly that you can't help feeling you are in an avenue of
+      artificial design.
+flag:
+  - outdoors
+  - rainforest
+  - nomobiles

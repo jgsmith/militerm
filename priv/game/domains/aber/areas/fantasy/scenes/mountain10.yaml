@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain9"
+      west:
+        target: "scene:aber:fantasy:mmaze1"
+    short: Mine Shaft
+    sight: >
+      You walk into the mine shaft and it twists and turns.
+flag:

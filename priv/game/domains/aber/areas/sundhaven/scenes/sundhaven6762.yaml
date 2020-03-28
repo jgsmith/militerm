@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6761"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6763"
+    short: Along the town wall
+    sight: >
+      You reach a bend in the town wall, and the trail follows it on both sides to the north and west. Ivy
+      growing along the wall here brushes your arm as you pass. Dense shrubbery lining the path to the east
+      renders that way unnavigable.
+flag:
+  - outdoors

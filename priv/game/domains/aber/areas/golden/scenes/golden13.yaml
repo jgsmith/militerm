@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden11"
+      south:
+        target: "scene:aber:golden:golden14"
+    short: &+CSmall&* Hut
+    sight: >
+      This is a simple hut made of reeds and mud. A small spear and poison dart lie on the floor. To the south
+      there is wide opening leading out to a garden.
+flag:

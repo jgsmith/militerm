@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Secret Room
+    sight: >
+      I can't tell you what this room looks like. Its a secret. If you grope around in the void long enough,
+      perhaps you'll find something.
+flag:
+  - dark

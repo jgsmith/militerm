@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis47"
+      north:
+        target: "scene:aber:atlantis:atlantis34"
+      south:
+        target: "scene:aber:atlantis:atlantis36"
+    short: "Outside the Messenger's Shop"
+    sight: >
+      As you flow along with the rush of aquatic life forms bustling up and down Main Street you notice a
+      small sign on the outside of a building on the on the east side of the street proclaiming 'Speedy's
+      Message Service.' As you pass outside the doorway, you catch the blur of something that exits the
+      doorway and returns. You can investigate the interior of the store to the east or head along Main Street
+      to the north and south.
+flag:
+  - underwater

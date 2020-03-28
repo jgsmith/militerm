@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:novice:lawn"
+      south:
+        target: "scene:aber:novice:tunnel"
+      west:
+        target: "scene:aber:novice:square"
+    short: In the Valley
+    sight: >
+      This is the lowest point of the valley. To the north and south the hill slopes gently up. You can still
+      see the stream curving off to the west. A curious tunnel is coming up to the south.
+flag:
+  - outdoors
+  - real

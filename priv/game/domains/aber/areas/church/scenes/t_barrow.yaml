@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:ildharas:ildharas00"
+      west:
+        target: "scene:aber:church:barrow"
+    short: Top Of Barrow
+    sight: >
+      You stand on the top of a huge barrow. A single path leads back to the west. A huge stone pillar stands
+      on the center of the barrow marked with the words: Born To Live Bound To Die Born To Love Bound To Cry
+      Born To Win Bound To Lose Peace At Last Death Not Gloom
+flag:
+  - outdoors

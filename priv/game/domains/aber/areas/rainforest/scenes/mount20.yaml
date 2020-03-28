@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:mount19"
+    short: Crossing The Glacier
+    sight: >
+      As you make your way across the glacier, the snow collapses! You plummet a hundred feet to the bottom of
+      a deep crevasse, where your remains will never be found...
+flag:
+  - death
+  - nomobiles

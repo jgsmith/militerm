@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:2"
+    short: &+cThe Blacksmith
+    sight: >
+      The house of Richard the blacksmith is very luxurious. A few years ago, he became the first armorer of
+      the King Arthur. But, during the years, he became an old but noble aristocrat. The table is set and food
+      served. However, the house is vacant.
+flag:

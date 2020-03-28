@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cretsea3"
+      north:
+        target: "scene:aber:evolution:cretsea2"
+      south:
+        target: "scene:aber:evolution:jurasea5"
+    short: Lower Cretaceous Waters
+    sight: >
+      This is the cretaceous period, and a time of unusual creatures indeed. You wonder what new and alarming
+      surprises await you. Shoals of large deep water fish wheel and dart about you, changing direction as one
+      in response to some unknown stimulus. You watch in fascination as their silvery bodies catch the light
+      from above, almost forgetting the ever-present dangers around you.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

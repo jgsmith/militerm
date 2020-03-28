@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen35"
+      west:
+        target: "scene:aber:thyrannen:thyrannen33"
+    short: The Marsh
+    sight: >
+      As you clumsily move into this area, you breathe a huge sigh of relief. There about 20 feet in front of
+      you, is the beautiful sight of land! Glorious trees, and small bushes create a circle around a large
+      cauldron. Relieved that you will at least have a chance to rest, you push on...
+flag:
+  - outdoors

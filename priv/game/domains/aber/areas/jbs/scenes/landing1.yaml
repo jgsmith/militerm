@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:top_step"
+      east:
+        target: "scene:aber:jbs:archway"
+    short: Landing
+    sight: >
+      You are now at the landing at the top of the stairs. As you look back down you heave a sigh of relief
+      that you don't have to climb those things again, and you think that going back down will be much easier.
+      There is a giant archway to the east.
+flag:

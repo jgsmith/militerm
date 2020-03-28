@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:noxypickle:bank"
+    short: Decaying Forest
+    sight: >
+      The trees are rotting, the shrubs are rotting, the undergrowth is rotting. All about you the greenery
+      decays, and the fumes it gives off as it does so almost overwhelm you. You feel dizzy but very, very
+      happy. You feel sleepy. You feel very, very sleepy...
+flag:

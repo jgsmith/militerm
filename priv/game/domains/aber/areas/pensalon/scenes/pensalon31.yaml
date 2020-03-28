@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon32"
+      west:
+        target: "scene:aber:pensalon:pensalon30"
+    short: Dungeon Guardroom
+    sight: >
+      You are standing in a large circular room with cells all around it. To the west is a stairwell that
+      leads up to castle proper, and to the east is a small cell that has no door on it. A sign above reads
+      "White collar criminals inside".
+flag:

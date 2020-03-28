@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas25"
+      up:
+        target: "scene:aber:ildharas:ildharas39"
+    short: Behind the Throne
+    sight: >
+      This small room served as a place for the king to relax before he went out to court. A blue vase lies
+      against the wall where it was thrown, a dainty yellow flower looking slightly wilted. A small staircase
+      leads up and a doorway enters the main hall to the south.
+flag:

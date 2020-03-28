@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia39"
+      west:
+        target: "scene:aber:eosia:eosia35"
+    short: The Temple Maze
+    sight: >
+      You are at the start of a maze that leads into the Temple of Azash. It is a rather boring place, only
+      slightly more dull than the Start of the Labyrinth. The entrance is to the east.
+flag:
+  - nosummon
+  - cantsummon

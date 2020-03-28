@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:ildharas:ildharas23"
+      north:
+        target: "scene:aber:ildharas:ildharas25"
+      south:
+        target: "scene:aber:ildharas:ildharas18"
+      west:
+        target: "scene:aber:ildharas:ildharas21"
+    short: Main Hall
+    sight: >
+      The methodic destruction has been carried on into the castle's main hall. Scorch marks mar the southern
+      end, searing the great murals that once decorated the ceiling high above. Tapestries that once encircled
+      the walls must have fueled the blaze. A few charcoal strands disintegrate beneath your boots. A balcony
+      on the second level allowed courtiers to gaze down on the proceedings below. Doorways lead off to the
+      south, east and west, while to the north sits a sundered throne.
+flag:

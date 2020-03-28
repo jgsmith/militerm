@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook152"
+      west:
+        target: "scene:aber:fairybook:fairybook154"
+    short: Forest
+    sight: >
+      The forest path continues through the pine needles and fallen leaves. You think you see something in the
+      leaves above you, but upon closer examination you decide that your eyes must be playing tricks on you.
+      The path goes east and west.
+flag:
+  - outdoors

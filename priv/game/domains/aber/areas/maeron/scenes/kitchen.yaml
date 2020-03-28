@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:maeron:diningroom"
+    short: &+BThe Kitchen
+    sight: >
+      Even though the Kitchen appears ordinary, there is something eerie about it. Perhaps it is the large
+      black cauldron in the corner, or the black marble floor. Whatever it is, this room makes you feel
+      uneasy. You may return from whence you came to the &+RSouth&*.
+flag:

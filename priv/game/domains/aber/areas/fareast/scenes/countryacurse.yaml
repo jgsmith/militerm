@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countrya_2"
+      south:
+        target: "scene:aber:fareast:cursent1"
+    short: Countryside- Near the Cursed Lands
+    sight: >
+      The once green countryside looks sickly now, as some blight spreads northward across it. Nothing stands
+      higher than your calves, and what still stands is wilted, broken, or torn. Puddles of sticky black ooze
+      bubble up in small patches, which become larger toward the south. The sickly vapors from these puddles
+      rise and cast a dark haze over the entire southern sky, as well. At the far southern reach of this road,
+      a dark forest tries feebly to block the skyline. To the north, healthier pastures abut the road.
+flag:
+  - outdoors
+  - nomobiles

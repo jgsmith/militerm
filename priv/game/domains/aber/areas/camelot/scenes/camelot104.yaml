@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot105"
+      north:
+        target: "scene:aber:camelot:camelot106"
+      south:
+        target: "scene:aber:camelot:camelot103"
+    short: Small Cavern
+    sight: >
+      While the cavern you are standing in seems natural, the newly opened tunnel to the north most certainly
+      does not. East of you is another cave, and a branching tunnel lies south.
+flag:
+  - dark

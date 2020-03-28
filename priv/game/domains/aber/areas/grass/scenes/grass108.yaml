@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass85"
+      north:
+        target: "scene:aber:grass:grass107"
+      south:
+        target: "scene:aber:grass:grass109"
+      west:
+        target: "scene:aber:grass:grass84"
+    short: Rutted Track
+    sight: >
+      The path has become nothing more than matted grass, with tall grass surrounding you on every side, this
+      huge field within which you stand opens out for quite some distance.
+flag:
+  - outdoors

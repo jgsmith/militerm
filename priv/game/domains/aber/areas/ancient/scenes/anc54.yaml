@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc52"
+    short: "The Priest's Accommodation"
+    sight: >
+      Saying your prayers every night before you go to bed seems to pay. The walls of the room you just
+      entered are covered with silver reflecting the expensive tastes of the priest living here. The room has
+      no natural light, but two burning torches on the south wall are bringing light over the place. The exit
+      is to the north.
+flag:

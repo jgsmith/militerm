@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ruins:start"
+      up: null
+    short: Under the Ruined Temple Hall
+    sight: >
+      You are now under the ruined temple hall. The air here is very musky from this chamber not being
+      accessed for several centuries. A flight of stairs leads down into the ruins of the once great temple.
+flag:

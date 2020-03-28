@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar17"
+      west:
+        target: "scene:aber:volcano:bandilbar18"
+    short: Riverbank
+    sight: >
+      You are standing by the edge of the river, watching as it tumbles over boulders and pours over jutting
+      lips of bedrock, making its way rapidly towards the southern sea. To the north and west lie trees upon
+      trees, low-growing and densely foliated. The scenery is delightful, and would be perfect if it were not
+      for the distinct tinge of sulphur in the air.
+flag:
+  - outdoors

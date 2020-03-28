@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairytale:fairytale90"
+      west:
+        target: "scene:aber:fairytale:fairytale55"
+    short: "Cinderella's House"
+    sight: >
+      You stand in the doorway to the fabled house of Cinderella. Her famous housecleaning abilities are
+      reflected in this dust-free environment. A stairway leads up to a small landing, on which you can see a
+      table. A fireplace on the far wall, where she was rumored to have slept, has a pallet spread in it.
+      Wandering over to a table, you are startled to see your reflection in it. Amazingly, she has even done
+      the windows.
+flag:

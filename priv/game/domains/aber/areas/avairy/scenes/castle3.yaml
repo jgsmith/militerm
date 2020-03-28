@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle2"
+      north:
+        target: "scene:aber:avairy:castle5"
+    short: Corner Corridor
+    sight: >
+      Oooo... A corner corridor, to tell the truth that's just a really fancy way of saying a hallway that
+      doesn't run in a straight line.
+flag:
+  - light

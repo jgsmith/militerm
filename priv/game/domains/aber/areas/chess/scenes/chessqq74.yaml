@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:chess:chessqq75"
+    short: "The Joker's Teacup"
+    sight: >
+      You are sliding around in a highly polished porcelain cup.
+flag:

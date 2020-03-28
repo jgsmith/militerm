@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:balhar80"
+      east:
+        target: "scene:aber:balharbor:balhar1"
+    short: Western End of Dock
+    sight: >
+      You step to the western side of the dock, you get a somewhat clearer view of the docking bay for ships.
+      Below, you can see a huge beach with a few hundred sunbathers and out in the water some surfers and
+      swimmers. And there's a ladder here that will allow you to have a day at the beach, there's just one
+      problem. The people below have taken notice of you and are watching to see if you come down the ladder.
+      But why? Maybe you should check it out. There looks to be a sign here.
+flag:
+  - outdoors

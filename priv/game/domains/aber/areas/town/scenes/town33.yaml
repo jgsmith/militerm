@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:town:town35"
+      south:
+        target: "scene:aber:town:town32"
+    short: Balcony
+    sight: >
+      This is a small balcony overlooking the brothels main entrance room. To the south is the brothel's
+      hallway leading to the entertainment rooms and you may go down a grand staircase to the main floor of
+      the brothel.
+flag:

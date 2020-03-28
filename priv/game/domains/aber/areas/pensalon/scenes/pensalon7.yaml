@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon8"
+      south:
+        target: "scene:aber:pensalon:pensalon6"
+    short: The Gates
+    sight: >
+      Large Gates made out of metal, wood, and stone are swung aside allowing entrance into the splendid
+      interior of this gigantic castle. Northward a tunnel continues into the castle, and to the south is a
+      drawbridge.
+flag:
+  - outdoors

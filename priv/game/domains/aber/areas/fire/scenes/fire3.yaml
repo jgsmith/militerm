@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Kitchen
+    sight: >
+      You are standing in the kitchen. It is very clean, because Sir Gruoch has control over his cooks. It is
+      equipped like any normal kitchen with an oven, cupboards, cold store, and a sink for dishes. There is
+      also a small lift coming through the floor directly from the food store in the cellar. The ceiling,
+      floor, and walls are &+wwhite&*, there is no special decoration. The only exit is back to the entrance
+      hall.
+flag:

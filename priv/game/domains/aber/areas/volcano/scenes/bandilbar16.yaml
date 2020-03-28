@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar14"
+      south:
+        target: "scene:aber:volcano:bandilbar19"
+    short: Yorrin Wood
+    sight: >
+      You are at the western edge of the wood. The wood runs right up to the edge of the volcano, and you find
+      your westward path blocked by a rising wall of rock which is too steep and smooth to be climbable.
+flag:
+  - outdoors

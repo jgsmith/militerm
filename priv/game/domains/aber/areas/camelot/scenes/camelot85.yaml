@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:1"
+      south:
+        target: "scene:aber:camelot:camelot84"
+    short: The Rivers Shore
+    sight: >
+      You have climbed down from the foothills to the banks of a river. The rapids before you are obviously
+      impassable, if it weren't for an old bridge built here back when the river level was low. It leads
+      across to another small village to the north. You can climb back up the foothill to the south.
+flag:
+  - outdoors

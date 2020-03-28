@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up: null
+      west:
+        target: "scene:aber:grave:grave3418"
+    short: The Bottom of the Belltower
+    sight: >
+      The bottom of the Belltower is here. It is dark, dank, and smells like a sewer here. It is now very
+      quiet and you know at one time this room must have lead to a pleasing, musical place that called all
+      surrounding Shadowdale patrons to their church. Up is the top of the Belltower and to the west is
+      another exit to this now deserted room.
+flag:
+  - nomobiles
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:sitting"
+    short: "The Queen's Bedroom"
+    sight: >
+      Compared to the other rooms you have passed through, this chamber seems almost modest. There is a
+      four-poster queen sized canopy bed along the west wall. Next to the bed is a small &+Cnight stand&* and
+      along the north wall is a large &+Cwardrobe&*. It looks like the only exit is back the way you came.
+flag:

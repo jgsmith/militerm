@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3479"
+    short: Beginning of the END
+    sight: >
+      As soon as you step into this room the door behind slams shut and disappears. The only way back to the
+      safety of the surface is now down rather than the way you came. After looking around the room you
+      suddenly hear a loud, hideous laugh that echoes along the walls. You cannot tell from where the source
+      of the laugh is but you are sure it did come from behind you. The only exit now is to the west.
+flag:
+  - dark

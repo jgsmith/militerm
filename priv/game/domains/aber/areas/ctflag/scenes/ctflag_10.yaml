@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:ctflag:ctflag_9"
+      down:
+        target: "scene:aber:ctflag:ctflag_5"
+      east:
+        target: "scene:aber:ctflag:ctflag_1"
+      north:
+        target: "scene:aber:ctflag:ctflag_0"
+      south:
+        target: "scene:aber:ctflag:ctflag_2"
+      up:
+        target: "scene:aber:ctflag:ctflag_4"
+      west:
+        target: "scene:aber:ctflag:ctflag_3"
+    short: The Corridor
+    sight: >
+      You are standing in the center of a circle of ten doorways, each painted a different color. Here you
+      must decide which color is the one you wish to identify with, and pledge your allegiance to.
+flag:
+  - party
+  - peaceful

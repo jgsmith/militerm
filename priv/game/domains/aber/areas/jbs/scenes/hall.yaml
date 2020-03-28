@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:jbs:nbedroom"
+      south:
+        target: "scene:aber:jbs:top"
+    short: The Hall
+    sight: >
+      The stairs are south, the bathroom is east, and there is a bedroom to the north.
+flag:

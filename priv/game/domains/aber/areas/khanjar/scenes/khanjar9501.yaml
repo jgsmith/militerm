@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9514"
+      north: null
+      west:
+        target: "scene:aber:khanjar:khanjar9500"
+    short: Before A Small Gate
+    sight: >
+      The paving turns toward the north, toward the wooden gate of the fence. A sign has been fastened on the
+      gate, reading "Barumafir's Tavern". A brown path leads to the east, toward light forest.
+flag:
+  - outdoors

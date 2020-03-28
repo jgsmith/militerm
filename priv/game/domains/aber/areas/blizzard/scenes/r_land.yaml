@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:quarry:drop"
+      north:
+        target: "scene:aber:blizzard:woods3"
+      south:
+        target: "scene:aber:nrose:windpath"
+      west:
+        target: "scene:aber:blizzard:woods2"
+    short: Rough Land
+    sight: >
+      You are on a patch of rough land to the south of the village. To the east is an old, seemingly deserted
+      quarry. Other paths lead north and west.
+flag:
+  - outdoors

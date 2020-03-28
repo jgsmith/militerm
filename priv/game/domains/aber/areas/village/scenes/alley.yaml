@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:well2"
+      east:
+        target: "scene:aber:village:villlearn"
+      north:
+        target: "scene:aber:village:road1"
+    short: Narrow Alley
+    sight: >
+      You are standing in a narrow alleyway which deadends to the south. The alley is dark and dismal and is
+      simply a walled passage down to a small well which appears to serve the village itself.
+flag:
+  - outdoors

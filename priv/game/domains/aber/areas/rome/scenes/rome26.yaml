@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome33"
+      south:
+        target: "scene:aber:rome:rome27"
+      west:
+        target: "scene:aber:rome:rome19"
+    short: Paved Road
+    sight: >
+      You are on a paved road that runs east to west. You can see an elaborate looking estate to the south and
+      to the north-west, off in the distance, you can see a very large stone &+cstructure.
+flag:
+  - outdoors

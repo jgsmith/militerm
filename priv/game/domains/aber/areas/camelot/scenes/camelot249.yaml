@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot239"
+    short: Atop The Southwest Tower
+    sight: >
+      Guardsmen perched atop the tower here have a commanding view of the surrounding lands. With a few bows,
+      and a ballista or two, you could hold off an army for months.
+flag:
+  - outdoors

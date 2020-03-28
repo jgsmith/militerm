@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale56"
+    short: "Mother Hubbard's"
+    sight: >
+      You enter a sparsely furnished one-room house. A wooden chair sits before a rickety table, and a bed
+      lies in the corner. A thin mattress rests upon the bed. The only thing of interest is a cupboard on the
+      wall, carved with elaborate patterns.
+flag:
+  - nomobiles

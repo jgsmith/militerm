@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop8"
+      north:
+        target: "scene:aber:bishop:bishop7"
+      south:
+        target: "scene:aber:bishop:bishop7"
+      west:
+        target: "scene:aber:bishop:bishop5"
+    short: Vortex
+    sight: >
+      Fierce winds pull at your clothes and hair as the vortex slowly whirls you around in circles. Lines of
+      bright light emanate from various points, streaking past like sun rays or lasers, but none contain
+      enough power to be threatening. One exit of this portal is to the west, leading to a dark tunnel, and
+      the lines of light squiggle in arrow formations vectoring generally east and west.
+flag:
+  - dark

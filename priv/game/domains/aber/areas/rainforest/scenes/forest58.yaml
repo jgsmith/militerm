@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest60"
+      south:
+        target: "scene:aber:rainforest:forest57"
+      west:
+        target: "scene:aber:rainforest:forest56"
+    short: Forgotten Meander
+    sight: >
+      You are standing beside a narrow arc of water which does not appear to be connected to the river at all.
+      Here it stagnates, once the outer edge of a wide loop of the river, now left behind by the constant
+      shifting of the banks. One day, maybe, the river will reclaim it, but for now it serves little purpose
+      other than to bar your way north.
+flag:
+  - outdoors
+  - rainforest

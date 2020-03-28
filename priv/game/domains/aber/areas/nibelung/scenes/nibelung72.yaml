@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung73"
+      up:
+        target: "scene:aber:nibelung:nibelung68"
+    short: Damp Tunnel
+    sight: >
+      Water drips from the ceiling and runs along miniscule cracks in the walls. A thin layer of mud on the
+      floor coats about an inch of your boots, and makes walking difficult as you slide about. The tunnel
+      slopes down sharply, and it takes great effort to keep from sliding to the bottom. You can make out the
+      base of the tower above you.
+flag:
+  - dark

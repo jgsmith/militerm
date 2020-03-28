@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar44"
+      south:
+        target: "scene:aber:balharbor:balhar19"
+      west:
+        target: "scene:aber:balharbor:balhar34"
+    short: Cross Road
+    sight: >
+      You are moving through the west side of town where several shops serve the spell casters of the
+      community. To the west is the town's scribe shop which somehow escaped the rioters' wrath--you happen to
+      notice a few very badly burned bodies in the street near the shop where these guys attempted to set this
+      building on fire. The roof of the shop appears to have some repairs made to it due to the bottles of lit
+      flammable liquid that were thrown on top of it.
+flag:
+  - outdoors

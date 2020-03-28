@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sherwood:sherwood33"
+    short: Clearing
+    sight: >
+      You have reached a clearing at the edge of the woods. You are quite greatful that you have exited the
+      forest and can rest from your many battles. Thick brush cirles around the clearing keeping out any stray
+      animals that wander into this area.
+flag:
+  - outdoors
+  - dark

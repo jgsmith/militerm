@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6613"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6615"
+      west: null
+    short: At a swinging wooden gate
+    sight: >
+      You pass through a creaking gate of weathered wood, swinging idly in the wind. To the west rise the
+      bluffs and gardens of the homes of Sundhaven's varied people; citizens can also be seen passing
+      eastwards into the town itself.
+flag:
+  - outdoors

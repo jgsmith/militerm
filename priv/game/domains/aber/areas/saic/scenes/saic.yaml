@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:saic:9"
+    short: "Saic's Blood Reserve"
+    sight: >
+      This is the room where the evil god, Saic, live. Like you could expect from any evil god, dead bodies
+      are lying around and blood flows into a gigantic blood pool. Saic exerce his evil influence in total
+      silence. Not a word, not a sound. If I were you, I would suggest to be nice, because Saic sure doesn't
+      seem in a good mood. The only exit is west of here.
+flag:
+  - saic

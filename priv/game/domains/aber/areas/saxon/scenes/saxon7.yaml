@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon6"
+      south: null
+    short: &+YGrand &+WEntrance&*
+    sight: >
+      To the south of you lies Heorot. This is the great mead hall of the Danish people, and Hrothgar's
+      present to his many warriors. The hall does not hold the mystique it once did, as the evil creature
+      Grendel has many a night murdered the sleeping heroes in this hall. A sense of foreboding overwhelms you
+      as you take in the site, but you still feel drawn to it.
+flag:
+  - light
+  - nomobiles
+  - outdoors

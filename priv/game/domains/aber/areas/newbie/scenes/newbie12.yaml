@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:villlearn"
+      north:
+        target: "scene:aber:newbie:newbie13"
+      south:
+        target: "scene:aber:newbie:newbie10"
+    short: Building Yourself Up
+    sight: >
+      So how do you want to build your character? Buy strength? Mana? Surely you want to get your strength
+      increasing with level. Firstly you should go in the gym and build up your hit points. Sam's Strength
+      Center will increase your health, and if you have more health, you won't flee from battle as often.
+      Whenever you enter a training center, typing &+CLEARN INFO&* will list everything they offer. To train
+      yourself in a particular craft, type &+CLEARN <craft>&*. Go down now to start training your hit points.
+      &+RWe strongly urge you to take the opportunity to build your character now.
+flag:
+  - newbie
+  - peaceful

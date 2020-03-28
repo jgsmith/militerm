@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: A secret hideaway
+    sight: >
+      You slip down into the hideaway. A pleasant room encloses you, a windowless dugout hidden from the
+      lawful population and furnished with kick-back chairs and half-full bottles of wine. No bounty hunter
+      could find a lounging thief here, sheltered away from the executioners of town. No hunter, that is,
+      except a rogue like yourself.
+flag:
+  - dark

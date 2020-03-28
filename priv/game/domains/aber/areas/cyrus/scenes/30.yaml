@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:46"
+      east:
+        target: "scene:aber:cyrus:32"
+      north:
+        target: "scene:aber:cyrus:31"
+      south:
+        target: "scene:aber:cyrus:43"
+      up:
+        target: "scene:aber:cyrus:43"
+      west:
+        target: "scene:aber:cyrus:48"
+    short: Magic maze
+    sight: >
+      You are now stuck into a magic maze. The maze seems to react when you wander around. The walls are made
+      of black stone. The ceiling is made of black stone. The floor is made of black stone. Everything is made
+      of black stone. Black stone everywhere... Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK
+      &+WST&+CoNe &+BbL&+gaCk&+M StOn&+RE BLACK STONE!!! Whew, this maze is driving you crazy.
+flag:
+  - maze
+  - noregen

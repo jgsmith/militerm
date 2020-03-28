@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fjord:fjord117"
+    short: The Manor Yard
+    sight: >
+      The plush residence that is the property of the House of Snordsyk keeps well-tended in all seasons of
+      the year, even through the fact that all the seasons up this far north are cold. Servants of the manor
+      abound perform their daily duties without fail, for sometimes seldom are the available jobs in the
+      village. Siding the steps of the manor are two massive statues of wyverns, each depicting the royal
+      crest of the family. A flaming sword loaded on a strung crossbow suggests the fighting ferocity that
+      this house has produced over the centuries to combat the forces of Fallenthorp.
+flag:

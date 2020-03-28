@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5554"
+      up:
+        target: "scene:aber:graye:graye5558"
+    short: Inside the Rift
+    sight: >
+      There is a ledge here, and a tunnel which leads into the earth. Far below you, lava churns and bubbles.
+flag:
+  - dark
+  - nomobiles

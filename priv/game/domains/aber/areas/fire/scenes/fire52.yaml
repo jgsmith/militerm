@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Moonways
+    sight: >
+      You are gliding on moonbeams. You can't feel any gravitation here. You feel free. You feel wonderful.
+flag:
+  - dark

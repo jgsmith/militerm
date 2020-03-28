@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      west:
+        target: "scene:aber:slott:slott42"
+    short: Here be evil...
+    sight: >
+      This room is even darker then the rest of the basement, and in the dim light you see a large coffin
+      standing against the northern wall. At the eastern end of the room you see some &+Bfootlinks&* that are
+      fastened to the floor. The western wall is filled with paintings, many of them are of landscapes painted
+      in the spring.
+flag:
+  - dark

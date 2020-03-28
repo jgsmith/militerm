@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:sommerlund:sommerlund24"
+    short: Kai Monastery
+    sight: >
+      This is the foyer for the school of the warriors who attend classes here. The Kai Lords are the elite
+      warriors of the land, protecting their country from the scourge of the Darklords. Here, the young
+      warriors learn battle prowess, history, alchemy, and lore. These tutelages have been broken down into
+      thirty parts called 'disciplines.' According to the scenes displayed on the walls here, the warriors
+      enter as very young children and emerge as knowing adults. They appear ready to take on the world. The
+      northern arch leads to broad daylight while a large group of people have gathered to the south.
+flag:

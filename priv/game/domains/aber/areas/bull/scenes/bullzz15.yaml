@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bull:bullzz12"
+      south:
+        target: "scene:aber:bull:bullzz18"
+      up:
+        target: "scene:aber:bull:bullzz17"
+      west: null
+    short: The Upper Temple
+    sight: >
+      You find yourself atop a flight of stairs. A sturdy oak door is to the west, a corridor leads south, and
+      the stairs offer a path downwards.
+flag:
+  - dark

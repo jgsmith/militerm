@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:hick:house15"
+    short: "Tom's Room"
+    sight: >
+      This is Tom's room, very plain, a bed, a dresser, and some books on a shelf.
+flag:

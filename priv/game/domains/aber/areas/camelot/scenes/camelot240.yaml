@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot241"
+      south:
+        target: "scene:aber:camelot:camelot239"
+    short: Atop the Western Wall
+    sight: >
+      The tall merlons provide exellent protection for the bowmen and soldiers who might man this wall in time
+      of war. To the north and south lie tall towers.
+flag:
+  - outdoors

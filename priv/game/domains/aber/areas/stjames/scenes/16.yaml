@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:11"
+      north:
+        target: "scene:aber:stjames:17"
+      south:
+        target: "scene:aber:stjames:15"
+      west:
+        target: "scene:aber:stjames:25"
+    short: The Edge of the Pond
+    sight: >
+      Standing on the edge of the pond, the glorious fountain is straight ahead of you. The water it tosses
+      into the air is clean and clear and looks very refreshing on this hot day. The grass you are standing on
+      is perfectly manicured. To the northwest is a small island in the water. It looks as though there are a
+      few boats lying around on the shore that you could take if you felt like canoeing.
+flag:
+  - outdoors

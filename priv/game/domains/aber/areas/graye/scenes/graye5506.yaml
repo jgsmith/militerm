@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5505"
+      south:
+        target: "scene:aber:graye:graye5504"
+      west:
+        target: "scene:aber:graye:graye5510"
+    short: The Forest of Graye
+    sight: >
+      You are in a hardwood forest, walking through noisy leaves.
+flag:
+  - outdoors

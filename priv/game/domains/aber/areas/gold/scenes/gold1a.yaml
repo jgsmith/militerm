@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas01"
+      west:
+        target: "scene:aber:church:n_barrow"
+    short: Below The North Barrow
+    sight: >
+      A small path is winding its way down from the top of the large mound. It leads eastward between two
+      large boulders, and you can see some rolling fields with yellow, almost golden, crops in the far
+      distance.
+flag:
+  - outdoors

@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:foyer"
+    short: The Study
+    sight: >
+      This is a small, neatly kept study with a a few bookshelves against the north wall.
+flag:

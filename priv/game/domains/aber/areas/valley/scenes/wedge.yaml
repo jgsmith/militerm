@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:evalley"
+      north:
+        target: "scene:aber:valley:tforest2"
+      south:
+        target: "scene:aber:valley:evalley"
+    short: Western Edge Of Valley
+    sight: >
+      The forest stops here, against the sheer rocky walls that form the western edge of the valley. Elsewhere
+      the forest continues, although it doesn't appear to go much further south before the reaching the
+      southern end of the valley.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:saxon:saxon27"
+      west:
+        target: "scene:aber:saxon:saxon29"
+    short: &*The &+LCave&*
+    sight: >
+      The floor is covered with ice, making it hard for you to keep your balance. The ice is spotted with
+      blood, and skulls lay here and there. The evil grows stronger here, and the temperature colder. Going
+      west leads deeper into the cave, and climbing back out leads to the shadow of the mountain.
+flag:
+  - dark
+  - cold

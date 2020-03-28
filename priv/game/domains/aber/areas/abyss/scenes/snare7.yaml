@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:snare5"
+      south:
+        target: "scene:aber:abyss:snare6"
+      west: null
+    short: Snare of Guxx
+    sight: >
+      You are in a labyrinth of steel walls and doors designed to keep prisoners from escaping this demonic
+      prison. The walls seem to shift as you move around.
+flag:

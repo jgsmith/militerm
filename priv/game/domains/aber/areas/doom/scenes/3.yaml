@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:doom:2"
+    short: &+cA Wooden Shack
+    sight: >
+      This shack appears to have not been used in a long time. You notice that it is very messy and has a
+      strong musty smell to it. There is a table in the middle of the room that has scraps of old cut up fish
+      on it. On the east wall is an old rocking chair, the chair looks unused and has collected a lot of dust.
+      There are a lot of cracks in the ceiling and walls, letting dim, diffuse light into the room.
+flag:

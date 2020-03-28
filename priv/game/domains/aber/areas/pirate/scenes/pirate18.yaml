@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate17"
+      north:
+        target: "scene:aber:pirate:pirate17"
+      up:
+        target: "scene:aber:pirate:pirate20"
+      west:
+        target: "scene:aber:pirate:pirate20"
+    short: Volcano Path
+    sight: >
+      You stand on a rugged, but passable path leading up the side of the volcano. The path continues up to
+      the west, and back down to the north.
+flag:
+  - outdoors

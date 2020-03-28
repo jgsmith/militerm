@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass75"
+      north:
+        target: "scene:aber:grass:grass106"
+      south:
+        target: "scene:aber:grass:grass108"
+      west:
+        target: "scene:aber:grass:grass74"
+    short: Rutted Track
+    sight: >
+      The road here that runs north and south appears to be losing the battle with the growing grass, the
+      further south you go, the more the grass appears to be covering up the path. Soon grass will completely
+      take back what was formed by frequent travellers. Northward the path becomes more defined.
+flag:
+  - outdoors

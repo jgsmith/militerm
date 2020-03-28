@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:slott:slott35"
+    short: Northeast tower
+    sight: >
+      You find yourself in a dark moist tower room. There is a &+Bdoor&* in the western wall. Everything in
+      here is covered with a thick layer of dust! And the only thing in here besides the door is stairs
+      leading &+Cup&*.
+flag:
+  - dark

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon12"
+      north:
+        target: "scene:aber:pensalon:pensalon37"
+      west:
+        target: "scene:aber:pensalon:pensalon9"
+    short: Along the Wall
+    sight: >
+      Scampering along the wall you can feel just how strong the walls defending this castle are. You have a
+      feeling of how much energy was expended just to build this castle. To the north is a small practice yard
+      for the soldiers of this keep, and to the east is the base of a tower.
+flag:
+  - outdoors
+  - nomobiles

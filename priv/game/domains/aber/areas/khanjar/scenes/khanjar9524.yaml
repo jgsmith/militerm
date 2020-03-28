@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:khanjar:khanjar9521"
+      up:
+        target: "scene:aber:khanjar:khanjar9525"
+    short: The Marshland
+    sight: >
+      You are walking at the northern part of the marshland. Just to the north is an another hillside, high
+      and much more steeper than the one you just descended. It grows some deep brown hay and tall birches. A
+      faint trail climbs on it.
+flag:
+  - real
+  - outdoors

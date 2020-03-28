@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:northend"
+      east:
+        target: "scene:aber:valley:northend"
+      up:
+        target: "scene:aber:valley:gully1"
+      west:
+        target: "scene:aber:valley:gully1"
+    short: Narrow Gully
+    sight: >
+      You are clambering through a narrow rocky gully, the floor of which is sloping at an angle of almost 45
+      degrees. Shale and loose stone make the gully treacherous, as your feet send bits of rock tumbling down
+      into the valley below. You can clamber up the gully towards a turning or down towards the valley floor.
+flag:
+  - outdoors

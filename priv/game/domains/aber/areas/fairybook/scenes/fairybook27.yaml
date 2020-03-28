@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook28"
+      up:
+        target: "scene:aber:fairybook:fairybook26"
+      west:
+        target: "scene:aber:fairybook:fairybook23"
+    short: Path
+    sight: >
+      The path continues east and west, where you see mushrooms and a cottage, respectively. Above you is a
+      tall, climbable tree.
+flag:
+  - outdoors

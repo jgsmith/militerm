@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd40"
+      south:
+        target: "scene:aber:sdesert:desertsd46"
+    short: North Of A Rocky Mesa
+    sight: >
+      Here the going becomes more rugged, as outcroppings of rock jut up through the desert floor. The mesa to
+      the &+ysouth&* seems ominously silent...
+flag:
+  - outdoors
+  - hot

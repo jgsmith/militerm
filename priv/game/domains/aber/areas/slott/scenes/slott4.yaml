@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:slott:slott3"
+    short: The closet
+    sight: >
+      This is apparently where the guests' rocks and hats were hung when they arrived to the castle. There are
+      several &+Bshelves&* and &+Bhooks&* in here.
+flag:

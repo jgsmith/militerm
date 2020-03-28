@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:golden:golden11"
+    short: "&+bShaman's&* Hut"
+    sight: >
+      You are standing inside a fairly large thatched hut. The walls are decorated with mystical writings and
+      drawings. The ceiling tapers to a point, with different plants, herbs, and other items tied together in
+      a bundle hanging by a rope. Large, woven mats cover the floor and a bed made of reeds and leopard skins
+      occupies the western side.
+flag:

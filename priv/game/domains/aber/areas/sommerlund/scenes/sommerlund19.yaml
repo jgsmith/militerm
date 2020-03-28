@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund18"
+      south:
+        target: "scene:aber:sommerlund:sommerlund20"
+    short: River Tor
+    sight: >
+      The forest ground dips toward a narrow, snaking gully. The fast-flowing waters which gust through it
+      come from the Durncrag Mountains to the southwest before dumping themselves in the Holmgulf to the east.
+      The river is sparkling clear, but interestingly devoid of fish. The forest trees dip their roots into
+      the water and eagerly drink from its freshness. This is one spot where swimming is most definitely
+      allowed.
+flag:
+  - outdoors

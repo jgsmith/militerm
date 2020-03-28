@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:cave3"
+    short: &+YFetid Kobold Sleepingplace&*
+    sight: >
+      All about the room is strewn trinkets, bones, rotting food, and disgusting Kobold bedrolls. You may (to
+      the relief of your nose) leave this place by heading &+Reast&*.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eastcoast:cave"
+    short: Carved Store Room
+    sight: >
+      This small room seems to you a recent addition of the Trapper's, with rough edges still in the rock
+      walls, and even bits of freshly chipped stone still littering the floor. This room was apparently made
+      to store all the Trapper's rapidly growing piles of semi-useless equipment and other necessities. The
+      only exit from here is through a small carved hole to the west.
+flag:
+  - dark
+  - soundproof

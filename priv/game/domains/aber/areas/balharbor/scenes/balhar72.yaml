@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar68"
+    short: A House
+    sight: >
+      Oh no! Some violent street gang members decided to break into this house as well! This time around the
+      scums have ripped the carpet up, busted holes through the walls, torn the banister off the stairs, and
+      tossed chunks of wood all over. The furniture can be seen in broken apart in pieces, some of the time
+      used to break up the walls. And look at this! Someone is sitting in a corner painting a picture of
+      themselves and their handiwork so future generations can see how people their age acted before them!
+      This horrible scene can be abandoned by leaving through the hole smashed through the front door to the
+      east.
+flag:

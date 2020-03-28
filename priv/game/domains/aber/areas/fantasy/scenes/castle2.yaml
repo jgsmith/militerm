@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:castle3"
+      south:
+        target: "scene:aber:fantasy:castle1"
+    short: Entrance to Castle Glaive
+    sight: >
+      The inside of Castle Glaive is just as illumating as the outside is. Dark statues are set along the
+      walls and you can make out shadows of figures lurking in the dark corners.
+flag:

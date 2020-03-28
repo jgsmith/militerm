@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon29"
+      north:
+        target: "scene:aber:talon:talon29"
+      south:
+        target: "scene:aber:talon:talon68"
+      west:
+        target: "scene:aber:talon:talon29"
+    short: The Mist
+    sight: >
+      You are lost in a blinding white mist which distorts and confuses you, making travel of this land nearly
+      impossible. The mist is so perfect, and so confusing, it seems as if it must have secrets to hide.
+flag:

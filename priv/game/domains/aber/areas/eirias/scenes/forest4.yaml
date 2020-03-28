@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:clearing"
+      south:
+        target: "scene:aber:eirias:forest3"
+    short: End of the Forest?
+    sight: >
+      The trees interlace overhead..it is dark, cold and gloomy, then.. suddenly.. light begins to filter
+      through the branches overhead once more, sand appears between the tight-woven green leaves of the matted
+      path. You feel an immense sense of relief.
+flag:
+  - outdoors

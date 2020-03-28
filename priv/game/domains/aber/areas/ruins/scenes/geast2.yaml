@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast3"
+      west:
+        target: "scene:aber:ruins:geast"
+    short: Further into the Eastern Catacomb
+    sight: >
+      You are travelling in the eastern catacombs. The air is rank with the smell of rotting meat and you step
+      into a puddle of blood. You start to look around nervously only to see a complete skeleton hanging on
+      one of the walls. The catacombs continue to the east.
+flag:
+  - dark

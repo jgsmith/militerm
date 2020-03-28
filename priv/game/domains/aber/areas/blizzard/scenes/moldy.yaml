@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:limestone"
+      south:
+        target: "scene:aber:blizzard:dungeon"
+    short: Moldy Passage
+    sight: >
+      You are in a low passageway. Mold covers the walls and floor, making it slippery and quite treacherous.
+      To the north is a beautiful cave while to the south the mold gets even thicker.
+flag:

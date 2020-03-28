@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park12"
+      north:
+        target: "scene:aber:balharbor:balhar76"
+      south:
+        target: "scene:aber:balharbor:balhar78"
+      west:
+        target: "scene:aber:balharbor:balhar74"
+    short: Pines Road
+    sight: >
+      Boy, it just doesn't look any better over here! You see another house to the north, where the yard looks
+      to be unkept...so does the house! It looks kind of run-down, and you hear music coming from it...along
+      with some laughing and snickering. You see another house to the south, you see some ugly-looking sick
+      people coming in and out of it. Ugh! Some awful smell is coming from it too! And it smells
+      like...contraband! If you wish to get out of here, you can jump the fence to the east where the road
+      ends directly into the park. Else go back the way you came.
+flag:
+  - outdoors

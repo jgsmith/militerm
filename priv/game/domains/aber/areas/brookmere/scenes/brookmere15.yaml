@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere14"
+    short: Cloakroom
+    sight: >
+      This room is no bigger than a good sized cupboard, with bent and snapped hooks in a line on one wall.
+      This where the goblins store many of their supplies. There are many tattered and rumpled goblin cloaks
+      and helmets strewn about.
+flag:
+  - dark

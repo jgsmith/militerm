@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund11"
+      up:
+        target: "scene:aber:sommerlund:sommerlund13"
+    short: Tree Cave
+    sight: >
+      The forest enfolds and towers above and beyond you. As if to prove this, an enormous tree juts out
+      through a hole in the roof of the cave, complete with its roots buried in the mossy ground here. A
+      spiral staircase has been carved into the side of the tree.
+flag:
+  - outdoors

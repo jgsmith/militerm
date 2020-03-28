@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:cave"
+      south:
+        target: "scene:aber:village:slanted"
+    short: Narrow Tunnel
+    sight: >
+      You are clambering down a narrow tunnel which slopes downwards and east turning from the south. From the
+      east you can smell the sea and hear the sound of waves against the shore...
+flag:
+  - dark

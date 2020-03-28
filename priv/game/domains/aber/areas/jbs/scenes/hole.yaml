@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:bottom"
+      up:
+        target: "scene:aber:jbs:garden3"
+    short: In the Hole
+    sight: >
+      You are scrambling down the side of a huge tunnel that goes straight down for about fifty yards and then
+      continues off into darkness. Fortunately, the walls are rough enough to allow you to climb back out if
+      you need to.
+flag:

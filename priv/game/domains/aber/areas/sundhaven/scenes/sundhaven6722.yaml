@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6715"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6723"
+    short: An untravelled path
+    sight: >
+      A thin line of soil barely resembling a path threads its lonesome way between the dull grey stones. You
+      can only wonder if there is much of note out this direction, as a sense of barrenness is prominent.
+flag:
+  - outdoors

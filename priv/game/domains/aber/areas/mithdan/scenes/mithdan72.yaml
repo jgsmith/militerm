@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan71"
+    short: Fish Pond
+    sight: >
+      You stand on the bank of a large crystal clear fish pond. Large tropical fish glitter iridescently in
+      the sunlight, occaisionally leaping out of the water to snatch a bug that has strayed too close to the
+      surface. The atmosphere is one of calm and serenity, and you could sit and watch the fish for hours.
+flag:
+  - outdoors
+  - peaceful

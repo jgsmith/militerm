@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f11"
+      north:
+        target: "scene:aber:forest:f1"
+      south:
+        target: "scene:aber:forest:f2"
+      west:
+        target: "scene:aber:forest:f9"
+    short: Forest
+    sight: >
+      You are following a damp muddy path which runs south and east from here. A large notice, half covered by
+      thick tangled bushes points east and reads "T rq /th' |<ey". Years of rain and wind have pounded the
+      other letters beyond reading.
+flag:
+  - outdoors

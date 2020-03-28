@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale15"
+      north:
+        target: "scene:aber:fairytale:fairytale14"
+      south:
+        target: "scene:aber:fairytale:fairytale13"
+      west:
+        target: "scene:aber:fairytale:fairytale14"
+    short: Lost in the Fun House
+    sight: >
+      You have entered a maze of mirrors. No matter where you turn, you see yourself.
+flag:

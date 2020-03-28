@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:village45"
+      south:
+        target: "scene:aber:blizzard:stream"
+      west:
+        target: "scene:aber:blizzard:valley"
+    short: The Humpbacked Bridge
+    sight: >
+      You are standing on a crumbling humpbacked bridge looking over the side down onto a wide but shallow
+      stream. The sun sparkles gently off the ripples as the stream passes across pebbles and rocks and the
+      fish swim between them. You hear the faint roar of a waterfall somewhere downstream. You can go east or
+      west across the bridge or follow the stream southwards.
+flag:
+  - outdoors

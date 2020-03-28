@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale7"
+    short: Inside the Rose
+    sight: >
+      You stand inside a beautiful rose, as big as a house. You are almost knocked out by its smell. From your
+      vantage point, you can see a carnival with a ferris wheel and balloon rides. Also, far in the distance,
+      you can make out a castle which seems to be floating on a cloud.
+flag:
+  - nomobiles

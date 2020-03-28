@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis32"
+    short: Terrarium West
+    sight: >
+      You have just moved into the exotic section of the Terrarium. Behind the glass-like shields you see the
+      creatures that are quite familiar to you: orcs, dwarves, gnolls, insect-like creatures, a family of
+      ogres, a captured demon and even a baby dragon! The aquatic tourists are especially interested in this
+      place, with all the life forms they never see otherwise. You feel fortunate that you aren't one of the
+      displays.
+flag:
+  - underwater

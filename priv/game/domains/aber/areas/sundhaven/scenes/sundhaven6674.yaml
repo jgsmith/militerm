@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6668"
+    short: A cliffhanging home
+    sight: >
+      Quaint cobblestone and mortar walls enclose you, creating a quiet atmosphere. This is home now to only a
+      few small mice, but it appears that it could be a comforatble place to live, with a little work. And
+      enough gold. Perhaps it may be bought from one of the gods of the realm.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept40"
+      up:
+        target: "scene:aber:adept:adept39"
+      west:
+        target: "scene:aber:adept:adept33"
+    short: Stairwell
+    sight: A spiral stone staircase winds around this tower.
+flag:

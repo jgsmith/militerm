@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app32"
+    short: Balcony
+    sight: >
+      This balcony overlooks the Dead Woods. Though not much of a site, you can understand that it is better
+      than staying inside all day.
+flag:
+  - outdoors

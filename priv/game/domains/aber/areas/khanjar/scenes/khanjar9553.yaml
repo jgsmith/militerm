@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9552"
+      south:
+        target: "scene:aber:khanjar:khanjar9556"
+      west:
+        target: "scene:aber:khanjar:khanjar9554"
+    short: Walking At The Ditch
+    sight: >
+      You walk on the bottom of the ditch. As the bushes vanish in the south you can see a grassy hillside, on
+      where a narrow path descends. The ditch leads west and east.
+flag:
+  - real
+  - outdoors

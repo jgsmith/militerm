@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle9"
+      west:
+        target: "scene:aber:balharbor:jungle7"
+    short: Sunlit Path
+    sight: >
+      You have a clear view of the sky and the sun, weather permitting, through several breaks in the trees
+      above. The path widens to the west, while to the east the path approaches a log.
+flag:
+  - outdoors

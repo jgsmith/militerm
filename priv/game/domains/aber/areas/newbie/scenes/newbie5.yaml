@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie4"
+      south:
+        target: "scene:aber:newbie:newbie6"
+    short: Talk to the Whole World
+    sight: >
+      If you wish everyone on the mud to hear what you say, you can use the command &+YSHOUT <MESSAGE>&*. But
+      avoid using it when you can use TELLs or SAYs. If you wanted to send a message to just all the wizards
+      on the game, you can use the &+YWISH MESSAGE&* command, . A better way to talk to everyone is the
+      &+YCHAT&* command. Chatting a lot will not offend people, because everyone has the ability to switch off
+      the chat line. To do this type &+YNOCHAT&*. To switch the chat line back on again, simply type
+      &+YNOCHAT&* again. There are other chatlines available, including &+YGCHAT&*, and &+YABERCHAT&*. The
+      other help commands are listed in the HELP command. The tour continues to the south.
+flag:
+  - newbie
+  - peaceful

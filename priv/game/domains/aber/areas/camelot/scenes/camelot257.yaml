@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot255"
+    short: "Merlin's Library"
+    sight: >
+      You are in Merlin's library. Or at least, the part of it he allows mortals to see. While the number and
+      range of books is vast, you quickly ascertain that all of his works of magic must be kept elsewhere. The
+      room is well lit by tall windows on the south and west walls, and there are a number of soft chairs
+      placed around the room.
+flag:

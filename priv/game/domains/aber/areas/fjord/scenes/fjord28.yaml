@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord29"
+      south:
+        target: "scene:aber:fjord:fjord27"
+    short: Eastern Shore
+    sight: >
+      The meadow touches the lake here as the beach tapers out of existence. As a consequence, the water gets
+      deeper much faster from the steeper incline of the meadow hill's underwater slope. To the due east,
+      oddly enough, is a massive wayward pine tree, hollowed out by fire.
+flag:
+  - outdoors

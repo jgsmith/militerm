@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:blizzard:damp"
+    short: Slime Pit
+    sight: >
+      You are in the smelly pit which once contained the slime. The horrible charnel rotting smell is so
+      strong that you can scarcely keep your stomach under control.
+flag:

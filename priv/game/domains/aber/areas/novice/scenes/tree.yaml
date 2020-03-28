@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:novice:roots"
+      west:
+        target: "scene:aber:novice:mine"
+    short: Beneath the Roots
+    sight: >
+      You have left the mine and are standing in an area beneath a tree's roots. Looking straight up you can
+      see the structure of the root system. There is a root nearby and it looks like, with a little effort,
+      you could reach it and pull yourself up.
+flag:

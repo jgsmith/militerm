@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:volcano:bandilbar37"
+      west:
+        target: "scene:aber:volcano:bandilbar39"
+    short: Royal Tunnel
+    sight: >
+      You are in a tunnel with perfectly smooth walls, leading west from here. You guess it must lead
+      somewhere important, because it is spotlessly clean and a lot of care has gone into its fashioning. Just
+      south of here the main tunnel runs past, heading towards the entrance.
+flag:

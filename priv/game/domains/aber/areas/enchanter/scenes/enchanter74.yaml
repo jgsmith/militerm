@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter73"
+      up:
+        target: "scene:aber:enchanter:enchanter74"
+    short: Climbing up...
+    sight: >
+      You go up... and up... and up... and up... Are you getting anywhere? Dark inky smoke rises from below
+      you.
+flag:

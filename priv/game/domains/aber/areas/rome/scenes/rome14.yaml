@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome13"
+    short: The Bedchamber
+    sight: >
+      This is the bedroom. There is a hard and lumpy bed in the far corner. It looks like the commoner's wife
+      has been shirking her duties lately, as there is a big pile of soiled &+ylaundry&* here. The only way
+      out is from where you came.
+flag:

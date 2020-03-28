@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook157"
+    short: Kitchen
+    sight: >
+      You enter the kitchen. Workers scatter at your approach, in fear of their Witch's wrath falling on them
+      for even looking for you. Food lies in various states of preparation on the tables and counters, and you
+      are suddenly filled with hunger. The exit is to the south.
+flag:

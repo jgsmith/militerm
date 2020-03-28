@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:thyrannen:thyrannen34"
+    short: Oak Grove
+    sight: >
+      Thankfully trudging out of the marsh you have reached a huge grove, huge trees and scrub bushes form a
+      perfect circle about 15 feet away from a huge cauldron in the center of the grove. The smell of nature
+      is stong in the air, but there is also a strong pugnent odor of unnatural origin hanging in the air.
+flag:
+  - outdoors

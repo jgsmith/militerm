@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ctflag:ctflag_10"
+    short: &+yTan Locker Room
+    sight: >
+      Rows and rows of benches line the walls of this huge room. Nothing looks looks to have ever been painted
+      in here, the natural wood color dominates everything. Tan jerseys are being handed out to all the
+      players before they head out for combat.
+flag:
+  - party
+  - peaceful

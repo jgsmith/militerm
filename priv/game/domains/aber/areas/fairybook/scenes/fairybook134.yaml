@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook135"
+    short: Field of Flowers
+    sight: >
+      You walk along, listening to the singing of the brightly-colored birds and looking at the lovely flowers
+      which have now become so thick that the ground is carpeted with them. They are big yellow and white and
+      blue and purple blossoms, besides great clusters of scarlet poppies, which are so brilliant in color
+      that they almost dazzle your eyes. Their spicy scent makes you feel rather light- headed. The field
+      continues west.
+flag:
+  - outdoors

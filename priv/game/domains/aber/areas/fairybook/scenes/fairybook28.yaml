@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook29"
+      west:
+        target: "scene:aber:fairybook:fairybook27"
+    short: Cottage
+    sight: >
+      You stand outside a small house, about four feet high. Magically, you begin to shrink in size until you
+      are staring up at a two-story bungalow. To the east is the entrance to the small house, and to the west
+      is a path.
+flag:
+  - outdoors

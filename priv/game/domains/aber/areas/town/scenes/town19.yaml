@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town20"
+      south:
+        target: "scene:aber:town:town18"
+    short: Dim Alley
+    sight: >
+      This is a small alleyway leading from the main road to a dim dead end, where you can see the outline of
+      a few doors. The main road is to the north and the alleyway continues on to the south.
+flag:
+  - outdoors

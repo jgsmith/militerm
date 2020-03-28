@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Woodshop
+    sight: >
+      As you look over the tools, you hear a chainsaw start up. As you turn, the last thing you see is Freddy
+      swinging a large saw at you. Decapiated... You are one of his children now!
+flag:
+  - death

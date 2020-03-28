@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:deathlok:deathlok3"
+      south:
+        target: "scene:aber:deathlok:deathlok1"
+    short: Stoned Pathway
+    sight: >
+      Following the path, you notice that the road leads further north. Looking down the road, you see a large
+      ominous mountain. In the background, you notice dark clouds that encircle the mountain. Suddenly, you
+      realize that this must be the legendary mountain where the infinity is told to exist. To the north, the
+      path continues up to the mountain. To the south, the path leads back down.
+flag:

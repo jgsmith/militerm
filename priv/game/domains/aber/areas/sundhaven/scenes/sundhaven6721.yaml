@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:sundhaven:sundhaven6727"
+    short: A wide cart path
+    sight: >
+      The road outside the town of Sundhaven is well-travelled by vehicles of trade.... is it a path for wide
+      carts, or a wide path for carts? Westwards, a dense forest is blurred with low-hanging clouds.
+flag:
+  - outdoors

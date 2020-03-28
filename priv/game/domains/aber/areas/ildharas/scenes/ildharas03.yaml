@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas02"
+      up:
+        target: "scene:aber:ildharas:ildharas04"
+    short: Steep Trail
+    sight: >
+      The hill begins to rise, and the path (what you can see of it) starts to switch back and forth on
+      itself. Large, rocky outcroppings jut out from the slope, giving you a place to rest from time to time.
+      The trail continues up and down the hillside.
+flag:
+  - outdoors

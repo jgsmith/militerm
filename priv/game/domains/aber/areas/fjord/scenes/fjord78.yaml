@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord70"
+    short: The Spawning Vats
+    sight: >
+      Nearly overpowering the volcanic fumes in the air are those coming from an entire valley of bubbling and
+      simmering vats. Lined up in thirty rows of nearly five hundred to each row are the source of the ghouls
+      and lizard spawn for the entire Dark City. Hand-carved wells into an extremely deep lava flow are filled
+      with an oily, milky-colored fluid which swirls and bubbles with no particular pattern. A continuous
+      stream of popping noises announces the 'birth' of a new spawn, where it is taken by an appropriate
+      lizard or ghoul attendant and given its place of residence, armor, and a twisted black blade. The
+      closeness of the two species usually ends up in death for both sides, but here at the vat, the magic of
+      the darkness which surrounds and envelops this city prevents any fights from starting. Their warring is
+      meant to be meaningless and eternal.
+flag:
+  - dark

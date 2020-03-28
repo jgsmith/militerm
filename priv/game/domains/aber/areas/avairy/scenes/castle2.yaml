@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:castle4"
+      north:
+        target: "scene:aber:avairy:castle9"
+      south:
+        target: "scene:aber:avairy:castle1"
+      west:
+        target: "scene:aber:avairy:castle3"
+    short: Grand Hall
+    sight: >
+      Definition: Grand Hall - A really large, high ceiling hallway, usually found upon entering a castle.
+      Useful information? Probably not.
+flag:
+  - light

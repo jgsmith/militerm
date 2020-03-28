@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6680"
+    short: A red stone dwelling
+    sight: >
+      You stand in a quiet dwelling of mortar and rose-colored stone. Occupied now by only a few spiders, it
+      looks like it could be a comfortable place to live, with a little work. And gold, of course. Perhaps it
+      may be bought from one of the gods.
+flag:

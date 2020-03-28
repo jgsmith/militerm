@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house24"
+      north:
+        target: "scene:aber:playhouse:house22"
+    short: Hallway to the Closet
+    sight: >
+      This is a hallway much like the other hallways in the house. It's white, has blue markings, has some
+      pictures hanging on the wall. Extremely boring. You can go north into the playpen or to the east to
+      continue your way to the closet.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_30"
+      north:
+        target: "scene:aber:haunted:haunted_28"
+      south:
+        target: "scene:aber:haunted:haunted_16"
+      west:
+        target: "scene:aber:haunted:haunted_29"
+    short: End of the Path
+    sight: >
+      You come to a dead end in the path. Straight in front of you is a peculair looking cave. To the right is
+      a pumpkin patch. As you glance left, you see a section of land where the sun is shining.
+flag:
+  - real

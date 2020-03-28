@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park10"
+      south:
+        target: "scene:aber:balharbor:park8"
+      west:
+        target: "scene:aber:balharbor:park12"
+    short: Pavilion
+    sight: >
+      A nice little open-air shelter where people can picnic under, watch their kids play on the playground
+      equipment, or host an entertainment group has been built here for the convenience of park visitors. You
+      can hear the buzzing of bees a ways to the east, and the sounds of children playing to the south.
+flag:
+  - outdoors

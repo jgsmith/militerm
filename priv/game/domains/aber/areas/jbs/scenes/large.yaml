@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:jbs:smelly"
+    short: Large Chamber
+    sight: >
+      You discover rather quickly that this large chamber is the lair of the legendary
+      One-Eyed-One-Horned-Flying-Purple-People-Eater. This creature is reputed to be a very nasty thing and
+      you would be well advised to depart before it gets home.
+flag:
+  - dark

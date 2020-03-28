@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:lost:lost3"
+      north:
+        target: "scene:aber:lost:lost7"
+      south:
+        target: "scene:aber:lost:lost10"
+      west:
+        target: "scene:aber:lost:lost5"
+    short: Long Path
+    sight: >
+      The path continues for a long way both east and west. To the west lies the land bridge which the peoples
+      of this continent used in ancient times to escape the great evil which had invaded their homeland. The
+      great evil even their goddess could not defend them from. It was the goddess who created the land
+      bridge, and sealed the Evil deep within their holes, under the village.
+flag:
+  - outdoors

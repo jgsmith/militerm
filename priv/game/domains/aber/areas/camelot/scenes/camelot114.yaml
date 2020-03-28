@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot112"
+    short: Food Trough
+    sight: >
+      Judging from the bones and scraps of gristle tossed aside here, is seems you've found the dining room
+      where the pi... errr Kobolds come to dine on whatever they've managed to capture.
+flag:
+  - dark

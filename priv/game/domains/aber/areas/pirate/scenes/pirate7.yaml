@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pirate:pirate5"
+      south: null
+      west:
+        target: "scene:aber:pirate:pirate8"
+    short: Hallway
+    sight: >
+      You are walking in a narrow hallway. To the west, you see a doorway opening into what appears to be the
+      crew's bunks, and to the south, the hallway ends in a door.
+flag:

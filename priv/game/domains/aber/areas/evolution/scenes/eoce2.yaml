@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:eoce4"
+      north:
+        target: "scene:aber:evolution:eoce3"
+      south:
+        target: "scene:aber:evolution:eoce1"
+    short: Bank Of The Muddy River
+    sight: >
+      You are slipping and sliding along the bank of a meandering river which winds its way through the
+      flatlands. In the middle of the river you can see the primitive forebears of elephants taking advantage
+      of the plentiful water supply for washing and also for protection against the myriads of biting flies
+      which are just now beginning to plague you.
+flag:
+  - outdoors

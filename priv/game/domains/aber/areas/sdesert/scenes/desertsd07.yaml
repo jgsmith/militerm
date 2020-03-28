@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sdesert:desertsd09"
+      west:
+        target: "scene:aber:sdesert:desertsd06"
+    short: A Curve In The Path
+    sight: >
+      The small path you have been carefully following turns to the south, and runs off to the west. The sage
+      here now begins to irritate you, as it is spreading little burrs under your clothing. You are now hoping
+      that soon one of the oasis you see will be real.
+flag:
+  - outdoors
+  - hot

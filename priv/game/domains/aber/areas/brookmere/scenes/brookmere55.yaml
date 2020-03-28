@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere55b"
+      east:
+        target: "scene:aber:brookmere:brookmere55x"
+      south:
+        target: "scene:aber:brookmere:brookmere55x"
+      up:
+        target: "scene:aber:brookmere:brookmere55x"
+    short: Down the &+WStairs
+    sight: >
+      Walking down the stairs, you at are at first eager to see what is at the bottom and hurry down. But
+      after a long time going down, you decide that whatever is at the bottom is not worth the time and start
+      to make your way back up. However, after an equally long time you are still not back in the room in
+      which you started. You start to run up the stairs, striving to reach the top, but to no avail. The
+      stairs just go down, or up, and around and around without going anywhere.
+flag:

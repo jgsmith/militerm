@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:noxypickle:pit"
+      up:
+        target: "scene:aber:noxypickle:chamber"
+    short: Stone-Carved Ladder
+    sight: >
+      You are clinging to a ladder carved into the rock, about midway between the top and the bottom. A dim
+      light comes from above you, but below you all is pitch black. The vertical tunnel you are in is barely
+      wide enough to allow you passage, and the cramped conditions are making you feel somewhat
+      claustrophobic.
+flag:
+  - dark

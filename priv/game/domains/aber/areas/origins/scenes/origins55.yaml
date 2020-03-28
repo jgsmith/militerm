@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:origins:origins56"
+    short: Across the Milky Way
+    sight: >
+      ...On your ship, the Rocinante, spinning through the galaxies. Headed for...
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

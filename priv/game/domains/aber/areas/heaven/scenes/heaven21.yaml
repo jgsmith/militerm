@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven23"
+      south:
+        target: "scene:aber:heaven:heaven20"
+      west:
+        target: "scene:aber:heaven:heaven22"
+    short: Valaskjalf
+    sight: >
+      You stand in the Hall of the Slain. The roof is thatched with silver. Below you, you see the spirits of
+      all the slain creatures of the land.
+flag:
+  - private

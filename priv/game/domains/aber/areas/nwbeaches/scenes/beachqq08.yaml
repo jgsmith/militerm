@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq09"
+      north:
+        target: "scene:aber:yllythad:yllythad5146"
+      west:
+        target: "scene:aber:nwbeaches:beachqq07"
+    short: Sandy Beach
+    sight: >
+      The beach continues it's way east toward what appears to be a coastal town. A large pier juts out into
+      the sea, ships dot the horizon as far out to sea as you can see from the town. To your west you may
+      continue along the beach.
+flag:
+  - outdoors

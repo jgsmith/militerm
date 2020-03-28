@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9500"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6761"
+      west: null
+    short: A stone path
+    sight: >
+      You stand just outside the eastern gate of the town of Sundhaven. Fresh bread and cool drink await those
+      within who are willing to pay for the service, and about the city, other willing merchants may also be
+      found in abundance. Eastwards the land stretches in unmarred wilderness to the far horizon, and to the
+      southeast you think you can catch glimpses of the thatched roofs of yet another village, this one
+      smaller and more humble. A trail south along the cobblestone wall seems to head in that direction.
+flag:
+  - outdoors

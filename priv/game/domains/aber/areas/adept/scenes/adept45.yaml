@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept46"
+      north: null
+      south:
+        target: "scene:aber:adept:adept44"
+    short: Wall of Roots
+    sight: >
+      A thick mass of roots here blocks all normal travel except to the south, but there is a dark, uninviting
+      hole to the east. Foul fumes from rotting and diseased bodies emanate from it, and the side of the pit
+      is marked by an intensely green, spiked mushroom. A collection of the roots move down from high above
+      and flow together, entwining to form a knob at about two feet above the ground.
+flag:
+  - dark

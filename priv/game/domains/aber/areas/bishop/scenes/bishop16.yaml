@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bishop:bishop15"
+      north:
+        target: "scene:aber:bishop:bishop17"
+    short: Bedroom
+    sight: >
+      This is the private chamber of the caretaker, where his dreams take place and start the process into
+      real life. A full-length mirror is in one corner, and a small dresser stands next to the bed. Stairs
+      lead down, while a doorway is to the north.
+flag:

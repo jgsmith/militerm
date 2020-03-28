@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Empty Cell
+    sight: >
+      Somewhat cleaner and larger than most, it must have been used to house more important guests. Clean
+      straw somehow manages to keep the dankness at bay, and a small cot in the corner looks pretty much
+      pest-free.
+flag:
+  - dark

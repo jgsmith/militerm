@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6601"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6753"
+    short: A white portal
+    sight: >
+      You stand bathed in the glow of a portal of white light. This is the gift of the Archmage to the guild
+      of the ministry, in return for certain blessings, of course. Beyond the pale glare is a vision of the
+      temple courtyard, the center of town, below you.
+flag:

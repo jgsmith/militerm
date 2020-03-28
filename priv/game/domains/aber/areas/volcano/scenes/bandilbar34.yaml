@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar33"
+      west:
+        target: "scene:aber:volcano:bandilbar35"
+    short: Cavern Of The Worker Ants
+    sight: >
+      This is a curious place indeed. The cavern is vast, and in crossing it you merely skirt around the
+      northern wall. Elsewhere in the cavern many strange things are happening. Giant ants tend even larger
+      grubs, feeding them with piles of green leaves and being rewarded in turn by sticky secretions produced
+      by the grubs. Most of the ants fortunately seem far too busy to notice you.
+flag:

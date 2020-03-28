@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:kastle:16"
+    short: Sewage Pit
+    sight: >
+      The walls of this pit are still coated with sewage and the stench here is overpowering. Sewage is still
+      spilling in so you better not take too long.
+flag:
+  - dark
+  - oneperson

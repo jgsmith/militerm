@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:app:app24"
+      west:
+        target: "scene:aber:app:app26"
+    short: Top of Stairs
+    sight: >
+      You are at the top of the stairs. Good thing there are guardrails. It doesn't look like a pleasant fall.
+flag:

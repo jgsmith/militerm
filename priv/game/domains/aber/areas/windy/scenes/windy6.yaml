@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy8"
+      north:
+        target: "scene:aber:windy:windy5"
+      south:
+        target: "scene:aber:windy:windy7"
+    short: Foothills
+    sight: >
+      You stand on a small hillock overlooking the mist-shrouded plain. In the distant north you spy treetops
+      poking out of the fog. Rolling hills become towering mountains farther to the south. The trail widens
+      here, splitting to the south and east, where it heads into a small ravine.
+flag:
+  - outdoors

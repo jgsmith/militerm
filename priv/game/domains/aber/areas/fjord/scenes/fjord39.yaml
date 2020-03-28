@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord38"
+      north:
+        target: "scene:aber:fjord:fjord42"
+      west:
+        target: "scene:aber:fjord:fjord40"
+    short: Steep Slant
+    sight: >
+      There exists heavy indicators of an inverse relationship between the altitiude and the number of trees.
+      Parts of the mountain side are bare, covered in nothing but chipped slate and pieces of loose earth.
+      Each step over these areas causes minor avalanches of gravel, and the effort of treading such ground
+      causes continual disruption of the ability to keep alert. The fastest way to traverse this slope is via
+      a shallow gully filled with half-buried roots and gnarled, dried-up pine tree roots. About a hundred
+      feet below is where many miles of trees have been cleared by huge hands, while the gully breaks in two
+      up above, leading west and north.
+flag:
+  - outdoors

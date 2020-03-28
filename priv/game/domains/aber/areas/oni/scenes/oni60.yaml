@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:oni:oni61"
+    short: Underground Pond
+    sight: >
+      Looking around, you find yourself in a underground pond directly below a large circular opening in the
+      ceiling. The pond isn't very deep and flows out to the west.
+flag:
+  - cantsummon

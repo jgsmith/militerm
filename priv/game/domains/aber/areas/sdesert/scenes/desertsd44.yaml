@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd45"
+      north:
+        target: "scene:aber:sdesert:desertsd44"
+      south:
+        target: "scene:aber:sdesert:desertsd44"
+      west:
+        target: "scene:aber:sdesert:desertsd43"
+    short: In The Brush
+    sight: >
+      You are completely surrounded by tumbleweeds now, and the world is deathly silent.
+flag:
+  - outdoors
+  - hot

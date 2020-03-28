@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: "Magician's Mana Studying"
+    sight: >
+      Here the ether streams that you must gather to build your mana are faint, and you must work hard to
+      gather them. Some people are learning how to grab mana *now*, and others are learning exercises, that if
+      kept up over time will gradually increase their powers.
+flag:
+  - peaceful
+  - soundproof

@@ -355,7 +355,7 @@ defmodule Militerm.Machines.Script do
 
   defp execute_step(
          :narrate,
-         %{stack: [sense, message | stack], objects: %{"this" => this} = objects} = state
+         %{stack: [sense, volume, message | stack], objects: %{"this" => this} = objects} = state
        ) do
     # send the message out to everyone - it's a "msg:#{sense}" event that's tailored to them
     # so the target object decides if it gets displayed or not
@@ -385,10 +385,10 @@ defmodule Militerm.Machines.Script do
     entities = Enum.uniq_by(entities ++ observers, &elem(&1, 0))
 
     for {entity_id, role} <- entities do
-      Militerm.Systems.Entity.async_event(entity_id, event, to_string(role), %{
+      Militerm.Systems.Entity.event(entity_id, event, to_string(role), %{
         "this" => entity_id,
         "text" => bound_message,
-        "intensity" => 0
+        "intensity" => volume
       })
     end
 

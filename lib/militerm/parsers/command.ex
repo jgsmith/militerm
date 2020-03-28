@@ -176,8 +176,8 @@ defmodule Militerm.Parsers.Command do
       )
       when pattern_pos == pattern_size do
     # we're finished - just need to clean up any delayed pieces
-    cond do
-      [:optional] == delayed ->
+    case delayed do
+      [:optional] ->
         %{
           state
           | matches: [command_size | matches],
@@ -186,7 +186,7 @@ defmodule Militerm.Parsers.Command do
             command_pos: command_size
         }
 
-      [:single_word] == delayed ->
+      [:single_word] ->
         if command_pos < command_size - 1 do
           %{state | failed: true}
         else
@@ -199,7 +199,7 @@ defmodule Militerm.Parsers.Command do
           }
         end
 
-      [:string] == delayed ->
+      [:string] ->
         %{
           state
           | matches: [command_size | matches],
@@ -208,10 +208,10 @@ defmodule Militerm.Parsers.Command do
             command_pos: command_size
         }
 
-      [] == delayed ->
+      [] ->
         if command_pos < command_size, do: %{state | failed: true}, else: state
 
-      :else ->
+      _ ->
         pos = command_pos - word_offset
 
         {matches, command_pos} =
@@ -236,8 +236,8 @@ defmodule Militerm.Parsers.Command do
             command_pos: command_size
         }
 
-      command_pos < command_size ->
-        %{state | failed: true}
+        # command_pos < command_size ->
+        #   %{state | failed: true}
     end
     |> Map.update!(:pattern_pos, fn v -> v + 1 end)
     |> pattern_match()

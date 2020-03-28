@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott37"
+      south:
+        target: "scene:aber:slott:slott30"
+    short: End of corridor
+    sight: >
+      This is one end of an corridor leading to the &+Ceast&*. The walls are clean, not even a painting or a
+      drape hangs here.
+flag:

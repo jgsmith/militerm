@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fareast:forthall"
+    short: Dining Hall
+    sight: >
+      This vast dining hall was designed to feed the daimyo's troops, as well as to prepare the meals for that
+      ruler and his family. Now, it stands silent, the low tables smashed and the seat-cushions torn apart. A
+      pile of discarded sacks, husks, and other trash stands in the midst of the destruction, like the
+      remnants of a huge midnight snack.
+flag:

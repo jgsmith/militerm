@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cretsea5"
+      south:
+        target: "scene:aber:evolution:cretsea3"
+      west:
+        target: "scene:aber:evolution:cretsea2"
+    short: North End Of The Mountains
+    sight: >
+      You are swimming above the northernmost edge of a small submarine mountain range. What fell creatures
+      lurk in the valleys thereof, you can only guess, but you feel it would be best not to try to find out.
+flag:
+  - soundproof
+  - underwater

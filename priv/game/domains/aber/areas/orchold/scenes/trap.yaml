@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orchold:guardroom"
+    short: Trap Room
+    sight: >
+      This is the room where people foolish enough to fall through the trap door above wind up. Another room
+      lies to the east.
+flag:
+  - dark

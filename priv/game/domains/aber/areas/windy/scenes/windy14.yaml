@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy13"
+      up:
+        target: "scene:aber:windy:windy15"
+    short: Steep Ledge
+    sight: >
+      You are climbing a dangerously narrow ledge which runs up the side of the mountain. The air is
+      significantly colder and cloudier up here. The rocks rise up vertically to the south, forming an
+      unclimbable surface. Through the haze above, you make out a building of some kind.
+flag:
+  - outdoors

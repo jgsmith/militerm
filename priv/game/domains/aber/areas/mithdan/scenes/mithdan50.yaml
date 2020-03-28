@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Entrance Hall
+    sight: >
+      As you step into the entrance hall, the stone dragons bellow in anger and chase after you. You run ahead
+      of them, terror in your heart. One spreads its stone wings and flies ahead of you. You are trapped
+      between the two of them. The last sight you see is them approaching you.
+flag:
+  - death

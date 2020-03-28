@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:passage"
+      north:
+        target: "scene:aber:sherwood:sherwood1"
+      south:
+        target: "scene:aber:eforest:thorny"
+      west:
+        target: "scene:aber:eforest:glade"
+    short: The Elven Forest
+    sight: >
+      You stand at the entrance of what was once a grand elven forest. Now, it lies in ruins about you.
+      Blackened stumps abound and the trees which still stand reek of decay. This secluded vale has obviously
+      been destroyed by some great disaster. You are overcome by a sense of foreboding! The evil which ruined
+      this forest may still be around! Although deeply disturbed by the destruction around you, you manage to
+      look about to determine your position. To the North and East are the mountains which shield this valley.
+      The area to the South of you also heads into mountains, but a path makes passage possible. An archway
+      marks a tunnel through the eastern mountains.
+flag:
+  - outdoors

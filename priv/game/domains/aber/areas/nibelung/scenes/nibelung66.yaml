@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung61"
+      north:
+        target: "scene:aber:nibelung:nibelung65"
+      south:
+        target: "scene:aber:nibelung:nibelung67"
+      west:
+        target: "scene:aber:nibelung:nibelung80"
+    short: Castle Hohenzollern
+    sight: >
+      As you enter this room, you can't help but notice the large coat of arms placed in one corner of the
+      room. A few statues and a suit of armor are placed around the room as a form of decoration. The ceiling
+      is adorned with a paint- ing of the heavens opening, and an outpouring of cherubim and seraphim adorn
+      the edges. The trim of the room is a prime example of baroque architecture. To the north you notice a
+      small side yard through a doorway, while the eastern exit opens out into a courtyard. An antechamber is
+      through a doorway to the south, and to the west you notice a large, empty hall.
+flag:

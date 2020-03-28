@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund39"
+      west:
+        target: "scene:aber:sommerlund:sommerlund37"
+    short: Boathouse
+    sight: >
+      All sorts of boating gear and diving equipment line the walls of this tumbledown shack. The wooden walls
+      are dank, musty, and somewhat rotted. Fishing rods and large, empty boat racks are stationed in one
+      corner of the room. At one time, this place might have been a shop, but now it lies empty and forgotten.
+flag:

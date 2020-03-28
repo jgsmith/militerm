@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:jbs163"
+      south:
+        target: "scene:aber:jbs:path0"
+    short: Abandoned Pasture
+    sight: >
+      The path winds it way through what is left of a horse pasture. At one time, numerous horses roamed here,
+      but eventually, they died off. Most of the fencing that enclosed the area has rusted away leaving
+      rotting fence posts for the termites. The path continues toward an old cattle gate to the north.
+flag:
+  - outdoors

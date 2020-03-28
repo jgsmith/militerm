@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grove:flower_garden"
+      south:
+        target: "scene:aber:grove:dark_hole"
+    short: Gateway
+    sight: >
+      A large dingy gate lies before you, half-way open, partially hidden in the dense foliage. Even in this
+      beautiful land, you get an odd sense of forboding when you look at the gate. There is a sign:
+      +-----------------------------+ | NO MORTALS ALLOWED ACCESS | +-----------------------------+
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

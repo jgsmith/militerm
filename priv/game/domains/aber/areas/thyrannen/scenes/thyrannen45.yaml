@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen44"
+      south:
+        target: "scene:aber:thyrannen:thyrannen46"
+    short: Barren road to the mesa
+    sight: >
+      As you near the mesa, the side facing you seems more and more like a disgusting twisted face, stuck in
+      an eternal, silent scream of agony. Fear builds in your heart, yet you don't dare turn back.
+flag:
+  - outdoors

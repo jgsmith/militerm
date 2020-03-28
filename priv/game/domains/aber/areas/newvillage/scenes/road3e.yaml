@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road4e"
+      north: null
+      west:
+        target: "scene:aber:newvillage:road2e"
+    short: The Village Path
+    sight: >
+      The east-west path that you are coming into town on widens a bit here. The path is more definite and you
+      can see buildings in the west. All around you are homes of villagers.
+flag:
+  - outdoors

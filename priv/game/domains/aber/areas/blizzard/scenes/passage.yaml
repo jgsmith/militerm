@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:crypt"
+      north:
+        target: "scene:aber:blizzard:chamber"
+      west:
+        target: "scene:aber:blizzard:stonewalled"
+    short: Dark Passage
+    sight: >
+      You are following a dark passage which leads north into a brightly lit room and east-west at a T
+      junction. The thick dust on the floor shows that you are the only person to have come this way for a
+      long time.
+flag:

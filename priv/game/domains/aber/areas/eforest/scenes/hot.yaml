@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:museum"
+      south:
+        target: "scene:aber:eforest:fungus"
+      up:
+        target: "scene:aber:eforest:stairs"
+      west: null
+    short: Hot Cavern
+    sight: >
+      You stand in a huge, natural cavern. It is not just hot, but rather almost unbearable. There certainly
+      better be something valuable down here to make all of your suffering okay! To the south of you is
+      another natural cavern, while to the east lies a passage which is obviously manmade. Just to the west is
+      a stone door, set in the wall of the cavern. A diamond shaped hole lies in the center of the stone.
+flag:
+  - hot

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:foot"
+      east:
+        target: "scene:aber:frobozz:office"
+      north:
+        target: "scene:aber:frobozz:bottom"
+      west:
+        target: "scene:aber:frobozz:dam"
+    short: East End of Dam
+    sight: >
+      You are standing on the eastern part of a damwall. The damwall, being about 30 meters wide continues
+      westwards to the other end of the cavern. Through a door to the east there's a little office obviously
+      used by maintainance personell in the times when there where more traffic here than at present. There's
+      also a flight of steps leading down on the south side of the damwall. It disappears into the deep and
+      dark dry area of the cavern which is kept dry by the damwall. To the north you can make out the
+      beginning of a staircase leading up.
+flag:

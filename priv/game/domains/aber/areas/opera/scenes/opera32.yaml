@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:opera:opera30"
+      north:
+        target: "scene:aber:opera:opera29"
+      south:
+        target: "scene:aber:opera:opera33"
+      west:
+        target: "scene:aber:opera:opera31"
+    short: Lost in the Mist
+    sight: >
+      The mist seems to deaden all sound around you until all you can hear is the lapping of the water against
+      the boat and the beating of your own heart.
+flag:
+  - onwater

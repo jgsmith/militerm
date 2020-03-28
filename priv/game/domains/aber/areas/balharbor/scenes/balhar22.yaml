@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar23"
+      north:
+        target: "scene:aber:balharbor:balhar38"
+      south:
+        target: "scene:aber:balharbor:balhar14"
+      west:
+        target: "scene:aber:balharbor:balhar21"
+    short: Idol
+    sight: >
+      This appears to be an idol set in the middle of a fountain. The idol looks to be a figure of a large
+      fish spewing water from its mouth. Uh, no. That's just one part of it, whatever it is, it stands about
+      500 feet high. And whatever it is, someone has done a job on it...just look at that graffiti painted all
+      over it! The water in the fountain seems to have not suffered from the effects of the vandalism, its
+      waters seem to be a bit magical.
+flag:
+  - outdoors

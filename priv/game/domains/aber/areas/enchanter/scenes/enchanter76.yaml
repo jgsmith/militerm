@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:enchanter:enchanter73"
+    short: "Krill's Laboratory"
+    sight: >
+      You've stumbled into Krill's lab. He looks up at you, with a shocked expression on his face. As you
+      advance towards him, he begins mumbling the words to some ancient, terrible spell.
+flag:
+  - dark
+  - nosummon
+  - noquit

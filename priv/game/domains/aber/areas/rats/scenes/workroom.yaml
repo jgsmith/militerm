@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:hallway_3"
+    short: "Father's workroom"
+    sight: >
+      You are standing in the father's kingdom now. It's a room filled with materials, hammers, nails,
+      screwdrivers ... Your eyes catch a large workbench that has a drawer in it. On the bench are pieces of
+      wood that have been made into a small square.
+flag:

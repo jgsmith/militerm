@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: &+BEternal &+LDarkness&*
+    sight: >
+      You plunge face first into &+Beternal &+Ldarkness&*, never to be heard from again. Perhaps you will
+      appreciate the messages in sculpture more in the afterlife. As you look on from above, the figures on
+      the portal pack themselves more tightly together, and another figure, shaped like you, with a split
+      skull for a head, emerges from the marble wall to join them.
+flag:
+  - death

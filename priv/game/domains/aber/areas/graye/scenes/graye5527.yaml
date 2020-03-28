@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5528"
+      north:
+        target: "scene:aber:graye:graye5530"
+      west:
+        target: "scene:aber:graye:graye5533"
+    short: The Clearing
+    sight: >
+      You are in a wide clearing between the city walls and the forest. You see men atop the walls pointing at
+      you and gesturing frantically.
+flag:
+  - outdoors

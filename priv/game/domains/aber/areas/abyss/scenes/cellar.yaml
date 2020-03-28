@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:abyss:forge"
+      up:
+        target: "scene:aber:abyss:home"
+    short: "Demon's Cellar"
+    sight: >
+      You stand in a small room at the nadir of the world. There isn't much to see here, just a barrel filled
+      with water. A low arch leads south.
+flag:
+  - dark

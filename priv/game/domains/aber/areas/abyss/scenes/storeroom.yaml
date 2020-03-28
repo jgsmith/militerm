@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south: null
+    short: Store Room
+    sight: >
+      This is where the jailors keep spare chains, locks, and food for their prisoners. Most of the shelves
+      are empty now.
+flag:
+  - dark

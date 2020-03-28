@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot131"
+      south:
+        target: "scene:aber:camelot:camelot129"
+    short: "At Least It's Changed Directions..."
+    sight: >
+      This tunnel does have an end, doesn't it? By this time, you are beginning to wonder.
+flag:
+  - dark

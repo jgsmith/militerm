@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:rbank"
+      north:
+        target: "scene:aber:valley:eside"
+      south:
+        target: "scene:aber:valley:fedge5"
+      west:
+        target: "scene:aber:valley:pool"
+    short: Forests Edge
+    sight: >
+      You are standing on the eastern edge of the forest, which gives way to a steep rocky bank. The trees
+      continue north, south, and west.
+flag:
+  - outdoors

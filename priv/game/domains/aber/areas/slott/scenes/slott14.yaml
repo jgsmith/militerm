@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott20"
+      south:
+        target: "scene:aber:slott:slott11"
+      west:
+        target: "scene:aber:slott:slott13"
+    short: Dinner Room
+    sight: >
+      This is where the family of the house eats their dinner. The room is big and in the middle there is a
+      large &+Btable&* with six chairs around it. Along the walls there are a few cupboards and benches. The
+      air smells of food, and your stomach starts to rumble.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Dark Alcove
+    sight: >
+      The room seems to be centered around a small &+Bhole&* in the center of the stone floor. You have to
+      crouch down to avoid hitting your head on the ceiling in this claustrophobic chamber.
+flag:
+  - oneperson
+  - dark

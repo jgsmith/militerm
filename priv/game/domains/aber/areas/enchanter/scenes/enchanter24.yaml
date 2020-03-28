@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter27"
+      south:
+        target: "scene:aber:enchanter:enchanter23"
+      up:
+        target: "scene:aber:enchanter:enchanter25"
+    short: Northwestern Tower
+    sight: >
+      You are at the base of a short, squat tower. The hallway turns to the west here, and there is a short
+      flight of stairs leading up the tower.
+flag:

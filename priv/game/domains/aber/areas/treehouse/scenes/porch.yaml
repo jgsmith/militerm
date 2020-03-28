@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:treehouse:house"
+    short: Treehouse Porch
+    sight: >
+      You stand on the porch of the treehouse. A way leads west through the branches into the center of the
+      treehouse.
+flag:

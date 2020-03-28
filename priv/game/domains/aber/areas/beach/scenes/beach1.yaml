@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:beach:beach2"
+      south:
+        target: "scene:aber:village:shore"
+    short: Beach
+    sight: >
+      This is a patch of beach that extends to the north and south. The waves from the sea to the east come
+      rolling gently in, making you feel calm, and careless. Maybe you could take you shoes off and walk
+      barefoot in the sand. Or even better, wiggle your toes in the soft, warm sand.
+flag:
+  - outdoors

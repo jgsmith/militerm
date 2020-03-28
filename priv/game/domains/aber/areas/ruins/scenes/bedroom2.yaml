@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:westhall6"
+    short: A Small Room
+    sight: >
+      This room looks like it was a bedroom at one time. A large dresser with all of the drawers broken out
+      lines the northern wall and the remains of a bed litter the southern wall. A bricked up window is on the
+      west wall making this room look very unfriendly.
+flag:
+  - dark

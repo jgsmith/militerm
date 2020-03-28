@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen42"
+      west:
+        target: "scene:aber:thyrannen:thyrannen38"
+    short: Cave
+    sight: >
+      This is a dark damp cave, the ammonia smell is still noticeable, but much less strong than in the
+      entrance. There are two exits, one west, back to the start of the cave, and one, to the south deeper
+      into the cave.
+flag:
+  - dark

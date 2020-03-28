@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:seamonster:smon20"
+    short: Island shore
+    sight: >
+      You are following the devastated island shore. Really unbelievable what the creature was able to do. All
+      trees are broken, there are no animals, not even a ghost is here. That was a trip.
+flag:
+  - outdoors

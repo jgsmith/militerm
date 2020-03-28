@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:s_tran"
+      north:
+        target: "scene:aber:cathedral:nave3"
+      west:
+        target: "scene:aber:cathedral:s_aisle1"
+    short: South Aisle
+    sight: >
+      This is where you would wait to see the holy relics, but now the cathedral is deserted and the
+      reliquaries desecrated. the pictorial illustrations on the wall here are marred irrepairably by time.
+flag:
+  - dark

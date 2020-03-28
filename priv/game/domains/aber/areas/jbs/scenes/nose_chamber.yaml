@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:nose"
+      east:
+        target: "scene:aber:jbs:nose"
+      up: null
+    short: Small Chamber in the Nose
+    sight: >
+      You have reached a small somewhat square chamber deep in the giants nose and to your great amazement
+      there's a steel hatch in the ceiling here and a 12-runged ladder leading up to it.
+flag:
+  - dark

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:guard"
+      up:
+        target: "scene:aber:waste:golden"
+      west:
+        target: "scene:aber:waste:tunnel"
+    short: The Foot Of The Golden Stairs
+    sight: >
+      You are standing at the foot of a huge golden staircase, which rises upwards out of sight, reflecting
+      the fiery red light, like a river of molten flame. Passages lead east and west to other halls.
+flag:
+  - hot

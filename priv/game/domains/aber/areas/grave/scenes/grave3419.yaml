@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:grave:grave3418"
+    short: The Schoolroom
+    sight: >
+      The schoolroom has been used and is now decorated with a different kind of religion. The teachings here
+      now fill you with dread as you realize the evil things that were once here were learning how to welcome
+      YOU to their world of the undead. You grimace and decide you better take the exit south before they
+      return to further their education.
+flag:

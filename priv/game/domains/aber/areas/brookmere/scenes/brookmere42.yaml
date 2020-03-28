@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere43"
+      south:
+        target: "scene:aber:brookmere:brookmere57"
+      west:
+        target: "scene:aber:brookmere:brookmere41"
+    short: Water Cavern
+    sight: >
+      You have passed into an enormous cavern with a sandy floor and a fast flowing river bubbling its way
+      along to the east, until it disapears beneath the cavern wall. The cavern is as high as a cathederal,
+      the roof invisible in shadow, and the walls are smooth and shiny, polished over countless centuries by
+      the river than now flows under them. The river has also washed sand and silt into the cavern from
+      faraway riverbanks, creating a beach, and, in the middle of the river, a small island. The cavern is lit
+      by lines of light scribbled on the walls of the cavern by reflections off the eddying surface of the
+      water. To the west you can hear a continuous dull roar over the gurgles of the river. To the north is a
+      small tunnel.
+flag:

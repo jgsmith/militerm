@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:c_portal"
+      north:
+        target: "scene:aber:cathedral:n_portal"
+      south:
+        target: "scene:aber:cathedral:s_portal"
+      west:
+        target: "scene:aber:cathedral:path1"
+    short: The &+YRoyal&+c Portals
+    sight: >
+      The Western Facade of the Cathedral looms up before you into the &+Wmisty &+Csky&*. A triad of grand
+      portals lie before you. Each is flanked by monolithic jamb statues, sculptured figures which stand flat
+      against the architecture, and watch over the portals to this mighty cathedral. You are struck by the
+      malign expressions on their faces, for they look much more like grinning &+Rdevils&* than the holy
+      figures one would expect to find at the doors of a mighty church.
+flag:
+  - light
+  - outdoors

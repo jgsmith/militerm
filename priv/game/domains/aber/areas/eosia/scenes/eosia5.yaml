@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia9"
+      north:
+        target: "scene:aber:eosia:eosia10"
+      south:
+        target: "scene:aber:eosia:eosia4"
+      west:
+        target: "scene:aber:eosia:eosia6"
+    short: Main Square
+    sight: >
+      This is the main square of Cimmura. From this point roads head off in every direction into different
+      parts of the city. To the north lies the Royal Castle. From here you can see the flags of Elenia
+      fluttering in the breeze. People pass you all around hurrying to get to their destinations. If you're
+      not careful, you could get run over by one of the horses.
+flag:
+  - outdoors
+  - party

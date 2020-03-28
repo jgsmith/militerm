@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6792"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6788"
+    short: The west end of the dock
+    sight: >
+      A ramp running westward comes to an end here for loading and unloading larger boats and ships. Problem
+      is, it has been too dangerous to do any sort of travel by sea. If you're brave enough you may try your
+      hand at sailing and ridding the seas of these monsters.
+flag:
+  - outdoors

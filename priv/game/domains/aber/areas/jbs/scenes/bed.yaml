@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:giants_bed"
+      up:
+        target: "scene:aber:jbs:giant"
+    short: On the Bed
+    sight: >
+      You are now on the giants bed standing very close to a very big thing. If you're feeling REALLY brave
+      you can climb up onto this guys mammoth chest, or you can scramble back down the bedpost and hide under
+      the bed in case this guy awakens.
+flag:

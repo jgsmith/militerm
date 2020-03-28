@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot150"
+      south:
+        target: "scene:aber:camelot:camelot148"
+      west:
+        target: "scene:aber:camelot:camelot151"
+    short: Small Tunnel
+    sight: >
+      You are in a small tunnel. To the south is a wider tunnel. You can see large caves to the east and west.
+      Strange odors fill the air, but you cannot identify them.
+flag:
+  - dark

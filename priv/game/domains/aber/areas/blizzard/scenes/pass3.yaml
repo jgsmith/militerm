@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:ravine"
+      north:
+        target: "scene:aber:blizzard:n_pass"
+      south:
+        target: "scene:aber:blizzard:s_pass"
+    short: Scree Slope
+    sight: >
+      You are scrabbling for a firm footing on the side of a steep scree slope. With a lot of effort you could
+      probably make it to the top, but a far easier route would be south back down the path. In your effort to
+      stay upright you almost fail to notice a narrow ravine leading eastwards.
+flag:
+  - cold
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq87"
+      west:
+        target: "scene:aber:chess:chessqq85"
+    short: The Entrance Hall
+    sight: >
+      You find yourself standing at the beginning of a giant entrance hall. A fine red carpet leads north, and
+      extravagant silks line the walls.
+flag:

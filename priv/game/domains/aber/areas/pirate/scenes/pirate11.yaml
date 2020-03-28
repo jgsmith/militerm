@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:pirate:piratevol"
+    short: "Officer's Room"
+    sight: >
+      You are standing in what is obviously an officers' room. It is lushly accomodated, and it is large for a
+      ship. A large table is set up in the middle of the room, and a huge map of the ocean is spread out upon
+      it. To the north, a door opens out onto the deck.
+flag:

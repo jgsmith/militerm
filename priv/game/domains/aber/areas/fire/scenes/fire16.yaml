@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haondor:sundforest6022"
+      south:
+        target: "scene:aber:fire:fire17"
+    short: Dark cave
+    sight: >
+      You are standing in a dark cave. You can't see much here, everything you see is only a possible way
+      south, where it is much &+Ldarker&* or you can go back.
+flag:
+  - dark
+  - nomobiles

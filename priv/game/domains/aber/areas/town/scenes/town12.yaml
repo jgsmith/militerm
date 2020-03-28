@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town10"
+      north:
+        target: "scene:aber:town:town13"
+      south:
+        target: "scene:aber:town:town11"
+      west:
+        target: "scene:aber:town:town20"
+    short: Market Street
+    sight: >
+      This the main road into town where all the trade traffic flows through to get into the kingdom of
+      Pensalon. To the north is a trade building and to the south is a small shipyard office. The road
+      continues west into town and back east to the docks.
+flag:
+  - outdoors

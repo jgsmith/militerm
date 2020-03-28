@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot65"
+    short: Alchemists Academy
+    sight: >
+      The bottles, hides, hooves, and assorted stuff are here also, but there is also a large rack of scrolls.
+      You can see through the figure who hovers in mid air. Can he really teach you? Maybe a lot. Try "learn
+      info" to see what he offers, and his fees...
+flag:
+  - peaceful

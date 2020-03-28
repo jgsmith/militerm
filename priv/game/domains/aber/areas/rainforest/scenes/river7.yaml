@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river8"
+      north:
+        target: "scene:aber:rainforest:river6"
+      south:
+        target: "scene:aber:rainforest:river10"
+      west:
+        target: "scene:aber:rainforest:river9"
+    short: Midstream
+    sight: >
+      You are in the middle of the river. Here it is very wide indeed, perhaps half a mile from bank to bank.
+      The river is flowing from north to south at this point, having just swung around a long bend. Further
+      south it bends again and resumes its eastward course.
+flag:
+  - outdoors
+  - onwater

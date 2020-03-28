@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon51"
+      west:
+        target: "scene:aber:talon:talon49"
+    short: Lair of the Dragon
+    sight: >
+      You enter a huge chamber which appears to house the beast, and destroyer of this realm. The air here
+      seems to glow red hot, and the walls of this place are scorched a shade of black darker than the darkest
+      night. To the east lies a small chamber, and the outside air lies to the west.
+flag:
+  - dark

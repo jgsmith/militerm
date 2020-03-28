@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3410"
+      north:
+        target: "scene:aber:grave:grave3403"
+      south:
+        target: "scene:aber:grave:grave3405"
+      west:
+        target: "scene:aber:grave:grave3413"
+    short: In front of the Old Church
+    sight: >
+      You are on an open space before a large church. A gravel road leads north through the graveyard and the
+      church entrance is to the south.
+flag:
+  - outdoors

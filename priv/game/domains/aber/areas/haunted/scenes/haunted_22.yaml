@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_16"
+    short: Small Clearing
+    sight: >
+      You come to a clearing. Just to the east you see a way back to the main path. As you try to move that
+      way, a hidious looking creature blocks your way out.
+flag:
+  - real

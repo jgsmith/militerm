@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:village:steps"
+      east:
+        target: "scene:aber:village:barman"
+      west:
+        target: "scene:aber:village:seadog"
+    short: Behind The Bar
+    sight: >
+      You are standing behind the bar of the 'Old Seadog'. The bar surface is worn and pitted from years and
+      years of heavy use. Names are carved into its surface, 'Black Sea Pete', 'Grey Hook', 'Moog The Kipper',
+      no doubt some of the pirates who long ago made this their haunt. A narrow stairway leads down, and a
+      small room can be seen through a low doorway to the east.
+flag:

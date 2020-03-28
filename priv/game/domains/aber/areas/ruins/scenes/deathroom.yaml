@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: A Bottomless Pit...
+    sight: >
+      You start to fall down into an endless void... You land inside of a mouth of some sort.. or so you think
+      it is as the teeth of this monster eat you alive.. As your body is torn to shreds, your bones being
+      shattered, you think back to the room before this..
+flag:
+  - death
+  - nomobiles

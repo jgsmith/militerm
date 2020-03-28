@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni1"
+      south:
+        target: "scene:aber:haondor:sundforest6075"
+    short: In The Dense Forest Between The Hills
+    sight: >
+      You are at the end of a small shaded path leading between the trees. The forest is quite thick here, and
+      the ground is very rough and &+Ghilly&*, halting your progress. The path lies to the south.
+flag:
+  - outdoors

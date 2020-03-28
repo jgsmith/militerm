@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:northhall5"
+      north:
+        target: "scene:aber:ruins:closet2"
+      west:
+        target: "scene:aber:ruins:northhall7"
+    short: Western Hallway
+    sight: >
+      You are travelling in a western hallway. There are loud shrieks that are driving you mad coming from all
+      directions. You put your hands over your ears to stop the sound and it does. You look around the area to
+      see that there is a small room to the north with an old curtain in front of it. The hallway leads to the
+      east and west.
+flag:
+  - dark

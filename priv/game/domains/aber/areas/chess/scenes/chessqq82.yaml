@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:chess:chessqq83"
+    short: The Sulking Swan
+    sight: >
+      The sulking swan is a large wooden craft, carved to the exact likeness of a swan. Its wooden sides thump
+      hollowly against the tunnel sides, as it bobs gently and begins to carry you downstream.
+flag:

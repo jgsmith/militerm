@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord66"
+      west:
+        target: "scene:aber:fjord:fjord70"
+    short: Serastorm Way
+    sight: >
+      The denizens of the city revere the guardians of the evil winds, and this street was named after the one
+      entrusted with the west-blowing breeze of evil. The road rock is made into a cobblestoned pattern,
+      making walking a chore. Lining the sides are ditches in which flow small streams of magma. At some
+      points along these gutters are rocky bridges allowing the ghouls easy access to and from their
+      residences. Shouting comes from the west, and the plaza is to the east.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:hall"
+      north:
+        target: "scene:aber:abyss:treasure"
+      south:
+        target: "scene:aber:abyss:closet"
+    short: Control Room
+    sight: >
+      A large table dominates this room. On the table are charts, maps, and various scraps of vellum that
+      detail the construction of a new world. A piece of slate has been mounted on the back wall and on the
+      slate are strange formulae written with colored chalk.
+flag:
+  - nosummon

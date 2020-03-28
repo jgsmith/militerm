@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:village:road5"
+      south:
+        target: "scene:aber:village:road3"
+      west:
+        target: "scene:aber:village:road6"
+    short: Main Street
+    sight: >
+      You are at an intersection in the village road. To the north you can see some shops, amongst which there
+      is what looks like a weapons shop. The west leads to accommodation, the bank and some other stores,
+      while to the south is the older part of the village.
+flag:
+  - outdoors

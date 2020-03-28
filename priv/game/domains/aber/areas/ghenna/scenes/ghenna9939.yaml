@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9938"
+      north:
+        target: "scene:aber:ghenna:ghenna9940"
+      west:
+        target: "scene:aber:ghenna:ghenna9912"
+    short: The adit.
+    sight: >
+      The grotto opens up into an adit big enough for you to stand upright. Stalagmites and stalactites alike
+      jut from the floor and ceiling. There are exits East, North and West. A bit of a breeze is coming from
+      the west.
+flag:
+  - dark

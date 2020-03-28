@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc14"
+      north:
+        target: "scene:aber:ancient:anc44"
+      south:
+        target: "scene:aber:thyrannen:thyrannen1"
+      west:
+        target: "scene:aber:ancient:anc12"
+    short: Rio San Juan
+    sight: >
+      The river flows quite fast and you have to make a decision quickly between the river and the alligators.
+      You are breathing heavily as you try to keep your boat steady. The river continues east and west. To the
+      northern shore you see some sort of building. Unfortunately you have to pass by some hungry alligators
+      before you can step ashore. You desperately try to remember how Crocodile Dundee did the trick.
+flag:
+  - outdoors
+  - onwater

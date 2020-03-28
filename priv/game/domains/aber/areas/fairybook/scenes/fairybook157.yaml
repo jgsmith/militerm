@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook156"
+      north:
+        target: "scene:aber:fairybook:fairybook158"
+      south:
+        target: "scene:aber:fairybook:fairybook159"
+      up:
+        target: "scene:aber:fairybook:fairybook160"
+    short: Courtyard
+    sight: >
+      You stand on the cobbled stones of the yellow courtyard. The walls seem to glow with an un-earthly
+      light, washing out your features and making your skin turn orange. From here you can go up to Dorothy's
+      room, out to the exercise yard to the south, or to the kitchen to the north. The exit from the building
+      is to the east.
+flag:

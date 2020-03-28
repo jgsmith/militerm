@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass88"
+      north:
+        target: "scene:aber:grass:grass77"
+      south:
+        target: "scene:aber:grass:grass97"
+      west:
+        target: "scene:aber:grass:grass86"
+    short: Among the Grasses
+    sight: >
+      The grasses of this area seem to go on forever and ever, their size daunting even when standing in the
+      midst of the place - especially when standing in the midst of the place. The tall grasses gently wave in
+      the wind, the wind that blows them seeming to go on and on, never ending.
+flag:
+  - outdoors

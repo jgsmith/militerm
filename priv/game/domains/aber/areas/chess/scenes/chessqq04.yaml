@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chess:chessqq05"
+    short: Down..Down..Down..
+    sight: >
+      Your descent picks up speed, and you trip over an unseen obstacle in the stairway! As you tumble, the
+      stairs start to become narrower and then begin to slope forward. You soon find yourself sliding in
+      circles &+Cdown the tunnel, which has now become smooth stone, covered with very fine sand. You faintly
+      detect the sound of delighted laughter echoing in some faraway place.
+flag:

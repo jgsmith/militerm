@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan52"
+      south:
+        target: "scene:aber:mithdan:mithdan56"
+      west:
+        target: "scene:aber:mithdan:mithdan54"
+    short: Crystal Path
+    sight: >
+      A small path leads through the heart of this forest of living crystal. A light breeze whistles through
+      the boughs overhead, and as the branches rub together a beautiful melody floats through the air. The
+      path continues to the north and south, but it appears to dead end to the west.
+flag:
+  - outdoors

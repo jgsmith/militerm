@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3468"
+    short: Ghast Cave
+    sight: >
+      As you enter the cave here the first thing you see are two ghasts fighting over the remains of something
+      less fortunate than yourself. Unless you wish to be in the middle of another fight you better exit east
+      quickly.
+flag:
+  - dark

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:ordo3"
+      north:
+        target: "scene:aber:evolution:ordo2"
+      south:
+        target: "scene:aber:evolution:camb1"
+      west:
+        target: "scene:aber:evolution:silu1"
+    short: Domain Of The Trilobites
+    sight: >
+      You are on a large flat plain of Ordovician sand which stretches as far as the eye can see in every
+      direction. There is not much of a current here, and you stand upright on the sea bed with ease. To the
+      north a wall of rock is broken by a small gloomy-looking grotto, and to the east, between towering
+      cliffs, the floor teems with trilobites of all shapes and sizes.
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

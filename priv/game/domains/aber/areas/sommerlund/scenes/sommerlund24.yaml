@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund23"
+      south:
+        target: "scene:aber:sommerlund:sommerlund27"
+      west: null
+    short: Grand Courtyard
+    sight: >
+      Festivities are abundant today! Flyers announcing this year's week-long Fehmarn festival and celebration
+      decorate the walls of the courtyard, along with streamers and strung balloons. Flowers are worn by many
+      ladies here, and the men take part in drinking, wrestling, and dancing contests. A large wheel has been
+      hung on one booth, where the person strapped on the wheel attempts to endure constant circular motion.
+      The test, of course, is how long the person can spin without getting completely sick. There are also
+      side bets on what color the person's face will be when he or she does get sick.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot149"
+    short: Cave Wight Lair
+    sight: >
+      Anvils, hammers, and a huge forge set this room apart from the rest of the caves you've seen. There is a
+      pile of metal and barrels of ore stacked around the walls, just waiting to be forged into tools and
+      weapons by the wight.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town3"
+      west:
+        target: "scene:aber:town:town5"
+    short: Opening of Bay
+    sight: >
+      A gentle salt breeze can be felt coming from the east. To the west, the image of the small port town
+      grows as you enter a large bay with many large trading vessels. A lot of these vessels are laden with
+      supplies, heading back to the old world of the east.
+flag:
+  - outdoors
+  - onwater

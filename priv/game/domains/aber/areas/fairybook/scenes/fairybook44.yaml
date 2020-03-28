@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook45"
+      west:
+        target: "scene:aber:fairybook:fairybook43"
+    short: Court Room
+    sight: >
+      The King and Queen of Hearts are seated on their throne. A great crowd is assembled about them - all
+      sorts of little birds and beasts, as well as the whole pack of cards; the Knave stands before them, in
+      chains, with a soldier on each side to guard him; near the King stands the White Rabbit, with a trumpet
+      in one hand and a scroll of parchment in the other. The King serves as judge,. wearing his crown atop a
+      white powdered wig. Twelve creatures sit in the jury box, the jurors. You realize that most of these
+      creatures are merely ghosts of those you have killed. A great desk looms above you, behind which sits
+      the Judge.
+flag:
+  - nomobiles

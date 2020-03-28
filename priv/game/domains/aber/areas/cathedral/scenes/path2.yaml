@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:cathedral:path3"
+    short: Hidden Path
+    sight: >
+      The &+Gbushes&* to the north are cut away, allowing your safe passage, to the south this path continues
+      around the tower. The &+Gbushes&* around you protect you from the buffeting winds of the &+Lstorm&*
+      above.
+flag:
+  - light
+  - outdoors

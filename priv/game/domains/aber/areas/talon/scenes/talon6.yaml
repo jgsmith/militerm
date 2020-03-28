@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon7"
+      up:
+        target: "scene:aber:talon:talon5"
+    short: Narrow Shaft
+    sight: >
+      You are deep inside the earth, moving along a granite ladder covered with slippery moss at some times,
+      and missing rungs at others. Above, the shaft stretches before you, closing over into a dome of
+      darkness. Below, the blackness stretches on, too far to measure.
+flag:
+  - dark

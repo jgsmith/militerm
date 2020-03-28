@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grandstand:party"
+      south:
+        target: "scene:aber:grandstand:betting"
+    short: The Grandstand
+    sight: >
+      The flags are flying; the bleachers are loaded. The Sportscaster has its microphone ready. The Tourney!
+      Promised Land pauses -- who will win? MORTALS: note that in this specific location you can do the
+      following: where (with whatzone) eq <player> spec <player> score <player> knowledge <player> snoop
+      <contestant> user -- will show what immortals usually see
+flag:
+  - peaceful

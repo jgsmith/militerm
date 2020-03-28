@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund45"
+      north:
+        target: "scene:aber:sommerlund:sommerlund42"
+      west:
+        target: "scene:aber:sommerlund:sommerlund43"
+    short: The Holmgulf
+    sight: >
+      The rocking motion of the waves is not endless. An enormous whirlpool heads straight down through the
+      water to the bottom. A patch of dry sand is visible through the swirling vortex.
+flag:
+  - onwater
+  - outdoors

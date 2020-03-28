@@ -1,0 +1,26 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aephir:esacred"
+      north:
+        target: "scene:aber:aephir:nsacred"
+      south:
+        target: "scene:aber:aephir:ssacred"
+      up:
+        target: "scene:aber:aephir:climb"
+      west:
+        target: "scene:aber:aephir:wsacred"
+    short: In The Shade Of The Platinum Tree
+    sight: >
+      You are standing in a gigantic clearing, teeming with life. The grass here tickles your ankles, and in
+      the center of the clearing is a strange tree. The tree which, by some magic has been transformed to the
+      color of platinum seems to reach to the sky. The tree casts a huge shadow over you as you stand among
+      the dark green grass. A &+Bthrone&* seems to have grown out of the center of the tree's immense trunk.
+flag:
+  - aephir
+  - outdoors
+  - soundproof
+  - nosummon
+  - cantsummon
+  - peaceful

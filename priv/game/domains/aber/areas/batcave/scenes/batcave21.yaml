@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:batcave:batcave20"
+    short: Temple of Akasha
+    sight: >
+      You've reached the deepest heart of the cavern's network. You must be hundreds of meters beneath the
+      surface. And yet, this is surely one of the most beautiful rooms you've seen in a long long time.
+      Hundreds of &+Ycandles burn quietly. Potted plants hang from stalactites carved to resemble figures.
+      Scattered &+ystalagmites&* likewise have been carved to resemble all manner of fantastical creatures:
+      most look like men and women with the heads of animals; all wear distinctly Egyptian garb. &+CFrescos&*
+      cover parts of the walls, while magnificent &+Mmosaics&* brilliantly portray ancient scenes of Egyptian
+      life.
+flag:
+  - nosummon

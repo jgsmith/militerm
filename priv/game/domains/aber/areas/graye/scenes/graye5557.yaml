@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5543"
+      west: null
+    short: "Relnar's Cell"
+    sight: >
+      You stumble into a tiny cell, lit by a single candle. A portal seems to have been opened up for you on
+      the east wall!
+flag:

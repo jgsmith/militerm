@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:stables"
+      north:
+        target: "scene:aber:nrose:pigsties"
+      south:
+        target: "scene:aber:nrose:smithy"
+      west:
+        target: "scene:aber:nrose:cemetery"
+    short: Wide Path
+    sight: >
+      You are on a wide dirt path which leads from the cemetery to other buildings in the monastery. To the
+      north are the pigsties, to the east are the stables, and to the south is the smithy.
+flag:
+  - outdoors

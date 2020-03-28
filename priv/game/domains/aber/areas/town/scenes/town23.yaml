@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town22"
+      south:
+        target: "scene:aber:town:town24"
+    short: Weapons Shop
+    sight: >
+      There are many weapons on display here, with bows and very fancy swords on display at the back of the
+      room. Malicious weapons are locked to the walls to keep prying hands away from the wares. To the north
+      you see that you may enter a small room of the weapons shop, or you may go south to the Town square.
+flag:

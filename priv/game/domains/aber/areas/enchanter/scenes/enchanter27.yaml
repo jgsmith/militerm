@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter28"
+      west:
+        target: "scene:aber:enchanter:enchanter24"
+    short: Long Dull Hallway
+    sight: >
+      You are in a long dull hallway. You can't help but yawn...
+flag:

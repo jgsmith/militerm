@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:aladdin:gold3"
+    short: Within the Mounds of Gold
+    sight: >
+      Piles and piles of riches and jewels everywhere. The glitter is overwhelming, you've never seen such a
+      large amount of riches in your life.
+flag:
+  - light

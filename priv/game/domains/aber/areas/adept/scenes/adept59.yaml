@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:adept:adept58"
+      west:
+        target: "scene:aber:adept:adept60"
+    short: Scrublands
+    sight: >
+      A beautiful field of multi-colored weeds and small plants decorate this plain for miles. Only a few
+      trees from the Nareth ever made it this far to the ocean, the sea breezes having eroded away the
+      minerals of life from the grainy soil. However, the wind doesn't bother the insects who feed on the
+      weeds here in great quantities. Their bodies also rejuvenate the ground to make the vegetation even more
+      healthy in years to come.
+flag:

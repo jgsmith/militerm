@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6663"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6661"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6753"
+    short: The room of doctrine
+    sight: >
+      Artifacts and relics from a time before the known world are encased and illumined in airless, black
+      glass cabinets, their twinkling golden and silver chasings catching your eye with mocking immortality.
+      Urns of demon ash line polished amberwood shelves, and a small, simple altar edged in ivory stands
+      against the north wall. This is the sanctum of the ministry. Those of a pious bent would do well to
+      begin studies here.
+flag:
+  - peaceful
+  - nomobiles

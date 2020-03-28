@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest104"
+      west:
+        target: "scene:aber:rainforest:forest98"
+    short: Kapok Avenue
+    sight: >
+      You are in a curious arrangement of trees: an avenue running from east to west. On either side of the
+      avenue are tall kapok trees which reach high above the canopy, collecting a great deal of the sun's
+      light. Why they have grown in such a fashion though is a mystery. It does not seem to be have occurred
+      naturally. But if somebody planted them, then whom? And why?
+flag:
+  - outdoors
+  - rainforest

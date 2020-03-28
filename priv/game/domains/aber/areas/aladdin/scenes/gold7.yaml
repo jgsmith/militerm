@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:aladdin:gold8"
+      north:
+        target: "scene:aber:aladdin:gold6"
+    short: Within the Mounds of Gold
+    sight: >
+      You are in a dark cave. There are no fabulous mounds of gold and jewels here. There is but one large
+      glaring gem calling to you. There is an exit to the north which will bring you into the caves of riches.
+      To the east you see a long stairway.
+flag:
+  - light

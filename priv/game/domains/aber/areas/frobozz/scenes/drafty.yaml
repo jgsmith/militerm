@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:rough"
+      north:
+        target: "scene:aber:frobozz:dark"
+      south:
+        target: "scene:aber:frobozz:rough"
+    short: Drafty Tunnel
+    sight: >
+      This is the top of the ascending tunnel which comes up from the east. There is a passage to the north
+      from which a strong draft comes out nearly making extingusihing your light.
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook96"
+    short: Underwater
+    sight: >
+      The reefs beneath the waves serve as an underwater home for the mermaids. Each one has her own house
+      here beneath the waves, with her name written upon the door. They are all asleep now, except for the
+      guard patrol . . . A dark shadow reminds you that Marooners Rock is above you.
+flag:

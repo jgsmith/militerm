@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:labyrinth:start"
+      up:
+        target: "scene:aber:labyrinth:humm"
+    short: Spiral Staircase
+    sight: >
+      The staircase you are on ascends upwards into a blanket of mist or downwards into a large labyrinth of
+      columns, which, from your view point, appears to be endless.
+flag:
+  - dark

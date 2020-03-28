@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest59"
+      north:
+        target: "scene:aber:rainforest:forest58"
+      west:
+        target: "scene:aber:rainforest:forest54"
+    short: Sandy Bank
+    sight: >
+      You are at the edge of a wide strip of sand, constantly lapped by the water and no doubt frequently
+      submerged. For now though it appears to be a place where caimans rest, and as you arrive a few of them
+      slide into the water, hopefully considering you too large to be easy prey. At this point the river bends
+      gently round to the south as it goes downstream, so if you continue east you will be heading into the
+      jungle. North will also take you into thicker growth, while to the west you can follow the bank up the
+      river again.
+flag:
+  - outdoors

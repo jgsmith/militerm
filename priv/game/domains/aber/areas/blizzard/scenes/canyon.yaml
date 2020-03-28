@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:rocky_can"
+      up:
+        target: "scene:aber:blizzard:huge_cav"
+    short: Canyon
+    sight: >
+      You are at the bottom of a narrow canyon looking across a stream to the far bank. Narrow steps wind
+      steeply upwards behind you. You can easily wade east across the stream.
+flag:

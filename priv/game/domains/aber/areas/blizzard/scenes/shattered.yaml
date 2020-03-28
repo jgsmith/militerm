@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:blizzard:landing"
+    short: Shattered Hall
+    sight: >
+      You are in a shattered hall, scorch marks and strange burns indicate a tremendous amount of powerful
+      sorcery was used here. Indeed, sufficient to blow huge chunks out of the wall. The passage to the east
+      is now unreachable, as a huge fissure has opened up in the floor.
+flag:

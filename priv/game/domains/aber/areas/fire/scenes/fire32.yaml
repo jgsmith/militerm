@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire31"
+    short: End of the west cave
+    sight: >
+      You are standing at the end of the cave. The wall is diving in the cave like it has been one piece
+      forever. The wall isn't so straight like before. It had to be a hard work. The only exit leads north.
+flag:
+  - dark

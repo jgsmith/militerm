@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord34"
+    short: Pit of Fungus
+    sight: >
+      Your first step brings you sinking waist-deep into white, gooey muck. The air is alive with the ripeness
+      of death, as the muck lining the bottom half of the pit is a large soup of fungal decay. Growing above
+      the soup are mushrooms which actually are alive and patiently wait the day when they, too can become
+      'one with the soup.' Gnarled roots from nearby pines and undergrowth reach down into the muck and draw
+      life-giving nutrients, leaving you with all the smelly stuff! Sunlight drifts in from the north, but
+      doesn't cause even the slightest reactions of photosynthesis here.
+flag:
+  - dark
+  - outdoors

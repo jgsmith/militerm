@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret20"
+      north:
+        target: "scene:aber:evolution:cret21"
+      west:
+        target: "scene:aber:evolution:cretsea7"
+    short: Intertidal Zone
+    sight: >
+      You are scrambling among slimy weed-covered rocks, temporarily uncovered by the tide. As you pull clumps
+      of seaweed aside, small crabs and little hopping arthropods scurry for cover. To the west is a line of
+      sand dunes, and a sandy beach lies to the north.
+flag:
+  - outdoors

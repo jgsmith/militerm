@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni29"
+      north:
+        target: "scene:aber:oni:oni31"
+      south:
+        target: "scene:aber:oni:oni26"
+      west:
+        target: "scene:aber:oni:oni27"
+    short: Main Temple Floor
+    sight: >
+      You stand in the southern portion of the main temple floor. To the south you see the large temple doors,
+      leading back to the outside, at the top of large stone steps. It is too dark to see too much further in
+      any of the other directions.
+flag:

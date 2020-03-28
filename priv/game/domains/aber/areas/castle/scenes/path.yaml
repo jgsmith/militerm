@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:castle:leap"
+      south:
+        target: "scene:aber:castle:walls"
+    short: Long and Winding Path
+    sight: >
+      You are following a north-south path, which links the cliff edge with a large stone castle, out of which
+      rises a black tower which glitters with the light, and from stored magical energy, some of which
+      illuminates the very top of the tower with a bright, golden light.
+flag:
+  - outdoors
+  - nomobiles

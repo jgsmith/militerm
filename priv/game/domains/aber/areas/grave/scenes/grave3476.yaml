@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:grave:grave3475"
+      west:
+        target: "scene:aber:grave:grave3477"
+    short: Slopping Path
+    sight: >
+      The large tunnel levels out here. The ground is covered by a shallow layer of water providing for ankle
+      deep mud. Water drips from the walls and it smells of rank and decaying flesh. You can make out some
+      light to the west or climb back up.
+flag:
+  - dark

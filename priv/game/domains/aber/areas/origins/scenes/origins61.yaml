@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:origins:origins60"
+    short: "Dionysus's Hemisphere"
+    sight: >
+      You enter a large, forested area of the City, where naked beings of all races frolick about, care-free
+      and worry-free. Many dead bodies lay about, among them both naked ones and well-equipped ones. The naked
+      dead ones appear to have fallen victim to starvation, cold, and wolves, while a few have apparently been
+      killed by weapons from the well-equipped beings. The well-equipped bodies have obviously been slain by
+      primitive tools and weapons. A single path leads west back to the City.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6698"
+    short: A dark home filled with hanging moss
+    sight: >
+      You brush aside a curtain of dark green subterranean mosses and slip inside a roomy cave of pitch
+      darkness. The place has an eerie feel, as if inhabited by some ethereal spirit that forbids you to abide
+      within. Cool moss of deep azure and green hangs in flowing tresses from the ceiling, reminiscent of a
+      prehistoric time.
+flag:
+  - dark

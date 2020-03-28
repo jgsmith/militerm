@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9942"
+      up:
+        target: "scene:aber:ghenna:ghenna9953"
+      west:
+        target: "scene:aber:ghenna:ghenna9940"
+    short: Abode of the Efreeti.
+    sight: >
+      You have entered the magical abode of the great Efreeti. Done in an eastern motif, this room glimmers
+      with all the amenities one could want. Pillows, rugs and candelabra are everywhere. This definitely
+      looks like the lap of luxury. To the North lies the forbidden treasure room, to enter it is to ask for
+      certain death.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:saxon:saxon47"
+    short: &+RBeside A Burning Shanty
+    sight: >
+      The shanty burns with thick, sooty-black smoke filling the sky. The sides of the building begin to
+      collapse inward. With no means to fight the fire, you can only stand and watch helplessly.
+flag:
+  - outdoors

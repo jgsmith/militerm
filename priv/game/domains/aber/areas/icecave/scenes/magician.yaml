@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:palace"
+      west:
+        target: "scene:aber:icecave:icelearn"
+    short: "Magician's Research Room"
+    sight: >
+      You are in a magician's research room, surrounded by a clutter of useless equipment. This room is also
+      entirely ice, and to judge from the damp equipment the roof has melted quite considerably. There is a
+      doorway to the east.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:moss_maze1"
+      north:
+        target: "scene:aber:undead:before_castle"
+      south:
+        target: "scene:aber:undead:moss_maze1"
+      west:
+        target: "scene:aber:undead:moss_maze1"
+    short: Moss Maze
+    sight: >
+      You wade blindly through the mist. Mist rolls around the base of the trees disorienting you terribly.
+flag:
+  - outdoors

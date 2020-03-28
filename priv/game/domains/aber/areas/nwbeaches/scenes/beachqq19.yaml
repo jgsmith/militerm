@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:nwbeaches:beachqq18"
+    short: "Takker's Jetty at the Lighthouse"
+    sight: >
+      You stand at the entrance to the lighthouse, a solid oak door set back into the rounded wall. To your
+      north, the jetty leads you back to dry land.
+flag:
+  - outdoors

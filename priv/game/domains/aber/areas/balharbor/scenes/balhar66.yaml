@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar58"
+    short: The Bank
+    sight: >
+      What would be the perfect target after a riot has started? The bank of course! While the security force
+      is busy beating down the rioters, a criminal gang can come in and perform a heist with very little
+      resistance. And that's what seems to have happened. The vault door has been blown open with a bomb, and
+      all the cash and valuables deposited in it has been plundered. The body of the bank manager along with a
+      couple of tellers lie in the corner where they were ordered to lay down then shot to death. This
+      disturbing scene can be left to the south.
+flag:

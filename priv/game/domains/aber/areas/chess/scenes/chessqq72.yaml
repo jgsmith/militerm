@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The Lost Chamber
+    sight: >
+      This chamber is small, dark, and cramped. You begin to feel a bit claustrophobic. That &+Ctrapdoor&*
+      looks far out of reach!
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:lost:lost9"
+      south:
+        target: "scene:aber:lost:lost7"
+    short: Mountain Pass
+    sight: >
+      This passageway over the northern mountains was kept by the dwarves a long time ago, but the dwarves
+      have long since vanished. Their skill at working with the rock remains as a testimony to their prowess,
+      as the pass remains clear after centuries of neglect. To the north you can see a building, small with
+      the distance.
+flag:
+  - outdoors
+  - cold

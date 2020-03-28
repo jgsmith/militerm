@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon9"
+      south:
+        target: "scene:aber:pensalon:pensalon7"
+    short: Long Tunnel
+    sight: >
+      You are enshrouded by shadows as you enter a long and wide tunnel. High on the walls you notice little
+      slits cut into the stone and above you can see large holes. To the north the tunnel opens up into a
+      large courtyard and to the south you can just make out the structure of the castle's huge main gates.
+flag:
+  - outdoors

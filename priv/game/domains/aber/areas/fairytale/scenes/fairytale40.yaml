@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:heaven:heaven1"
+      up:
+        target: "scene:aber:fairytale:fairytale41"
+    short: Padded Room
+    sight: >
+      A long slide ends here, in a room which is entirely padded. Foam rubber lines the walls, the ceiling,
+      and the floor. A hole in the ceiling is marked 'Fairyland', and a hole in the floor is marked 'Heaven'.
+flag:
+  - nomobiles

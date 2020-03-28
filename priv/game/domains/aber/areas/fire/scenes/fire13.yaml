@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire15"
+      north:
+        target: "scene:aber:fire:fire14"
+      west:
+        target: "scene:aber:fire:fire6"
+    short: Laundry
+    sight: >
+      You are standing in the laundry. It stinks a bit here. Servants wash dirty clothes for Sir Gruoch. You
+      can see different objects helping servants with washing. There is no special decoration. Everything is
+      made of &+ywood&*. A candlestick for eleven candles hanging on a rope tied to the ceiling is the only
+      source of light here. You can go north to the hardware store, east to the food store and west onto the
+      staircase.
+flag:

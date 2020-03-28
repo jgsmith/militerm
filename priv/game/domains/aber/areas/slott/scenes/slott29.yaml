@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott30"
+      north:
+        target: "scene:aber:slott:slott39"
+      south:
+        target: "scene:aber:slott:slott27"
+    short: Crossway
+    sight: >
+      This is a small corridor leading to the &+Cnorth, &+Csouth&* and to the &+Ceast&*.
+flag:

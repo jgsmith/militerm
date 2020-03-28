@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar85"
+      north:
+        target: "scene:aber:balharbor:park3"
+      west:
+        target: "scene:aber:balharbor:balhar32"
+    short: Well-Travelled Road
+    sight: >
+      You stand near the park's southeast side up a small hill with the road continuing to the west and east.
+      East of here you notice a pick up in activity.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:swamp2"
+      west:
+        target: "scene:aber:fantasy:forest4"
+    short: Swampy Forest Path
+    sight: >
+      The forest seems to mix into a swamp here. The swamp looks to extend to the east.
+flag:
+  - outdoors
+  - nomobiles

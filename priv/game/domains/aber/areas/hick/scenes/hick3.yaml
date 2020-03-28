@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:hick4"
+      south:
+        target: "scene:aber:hick:hick2"
+    short: Main Road
+    sight: >
+      You kick at the gravel in the road here as you continue on your way down the road to Hickdale Farms. The
+      road is surrounded by large trees and beautiful flowers. The road leads to the north and goes back to
+      the south.
+flag:
+  - outdoors

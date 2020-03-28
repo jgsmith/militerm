@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp2"
+      south:
+        target: "scene:aber:fantasy:swamp4"
+    short: Swamp
+    sight: >
+      The path that you thought you were walking on seems to have disappeared. You are starting to get a
+      little sick of this swamp as you pick up your feet and look at the sludge on the bottom of your shoes.
+flag:
+  - outdoors

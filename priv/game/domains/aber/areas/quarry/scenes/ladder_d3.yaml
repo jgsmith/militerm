@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ladder_d4"
+      up:
+        target: "scene:aber:quarry:ladder_d2"
+    short: Ladder
+    sight: >
+      You are hanging onto a vertical wooden ladder, slippery with damp and hard to grasp with your wet cold
+      fingers. All around you the narrow tight walls of the shaft seem to press crushingly inwards.
+flag:
+  - dark

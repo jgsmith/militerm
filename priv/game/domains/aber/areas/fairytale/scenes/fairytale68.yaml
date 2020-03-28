@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Underground Waterfall
+    sight: >
+      Your body is caught up in the rush of water and is smashed repeatedly into the rocks. One by one, your
+      items are pulled from your hands and you die empty-handed.
+flag:
+  - death

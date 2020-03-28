@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:72"
+      west:
+        target: "scene:aber:cyrus:71"
+    short: Trail
+    sight: >
+      You are still walking on that trail. You are now standing in front of a small path that continues
+      forward to the north, to a small house. You wonder seriously if something is alive there. Who would like
+      to live far from a village, in such a creepy place? You will maybe find out soon. You can go north from
+      here, toward the house.
+flag:
+  - outdoors

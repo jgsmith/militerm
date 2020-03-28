@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon16"
+      north:
+        target: "scene:aber:talon:talon13"
+    short: Underground Stream
+    sight: >
+      The stream flows here from the north and continues in a cavern to the east. The rocks here are very
+      slippery, and you feel as if at any moment you could lose your footing, slip, and be carried into the
+      depths by the current rushing around you. There is a strange light shining through the water which
+      appears to get brighter as the stream continutes to the east.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ghenna:ghenna9949"
+    short: A makeshift bedroom.
+    sight: >
+      A cot lies against the far wall of this little alcove, directly beneath an inverted pentagram scribed in
+      blood. A bound &+yfootlocker stands opposite. The only exit is back towards the West.
+flag:
+  - dark

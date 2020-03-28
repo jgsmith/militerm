@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:6"
+      south:
+        target: "scene:aber:stjames:8"
+      west:
+        target: "scene:aber:stjames:20"
+    short: St. James Park
+    sight: >
+      You are on the northernmost edge of the park, just north of the northern path. The pond is to the south,
+      with a large grassy area beyond it. To the west you can see a bridge that spans the pond to join with
+      another path on the southern side.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:deathlok:deathlok3"
+      up:
+        target: "scene:aber:deathlok:deathlok5"
+    short: Up Into the Mountains
+    sight: >
+      After leaving the stoned pathway, you reach the mountain base. Before you lies a large dark mountain
+      filled with unknown danger. Looking up into the mountain you realize that the voyage up will be a
+      dangerous one. Journeying up into the mountain will be a quest by itself. From this point you can see
+      treacherous ledges, ravines, cliffs and all sorts of trouble. Slowly, you begin to wonder if going up
+      into the mountain would be worth the time and trouble.
+flag:

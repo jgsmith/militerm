@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:valley"
+      north:
+        target: "scene:aber:blizzard:s_pass"
+      up:
+        target: "scene:aber:orchold:path1"
+      west:
+        target: "scene:aber:orchold:path1"
+    short: Foot Of The Mountain Path
+    sight: >
+      You are at the southern end of a path which leads northward into an imposing range of snow-capped
+      mountains. To the east the hillside drops rapidly into a pleasant little valley, while to the west
+      another path winds up the side of a steep rocky slope.
+flag:
+  - outdoors

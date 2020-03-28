@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome46"
+      up:
+        target: "scene:aber:rome:rome44"
+    short: Outside the Capitol
+    sight: >
+      You stand on white marble steps that lead up and into the Capitol Building. There are several
+      &+Cstatues&*, none of any real significance, at the entrance to the building. The main entrance to the
+      building is at the top of the &+Cstairs.
+flag:
+  - outdoors

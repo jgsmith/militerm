@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: Punjee Trap
+    sight: >
+      Its only after you notice the many poison punjee sticks protruding from your chest, that you realize you
+      have surely taken a wrong turn. You won't make this mistake again.
+flag:
+  - death

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:dark"
+      south:
+        target: "scene:aber:eirias:tree7"
+    short: Caer Wydyr
+    sight: >
+      The great door of Caer Wydyr, the Tower of Glass, is visible at last, high on the rocky base at the top
+      of a steep rough-hewn flight of steps. But it is a door barred against entry by an enchantment you could
+      never have imagined. Before it, spinning so fast that it is like a bright disc, hangs a gigantic
+      &+Cwheel&*. There is no axle, nor any kind of support. The wheel hangs there in the air, deadly,
+      forbidding approach, flashing round and round with a speed that gives out a menacing hum.
+flag:
+  - outdoors

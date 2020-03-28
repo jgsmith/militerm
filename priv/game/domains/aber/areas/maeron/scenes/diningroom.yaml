@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:foyer"
+      north:
+        target: "scene:aber:maeron:kitchen"
+    short: &+BDining Room
+    sight: >
+      Grand feasts of Mages were once hosted in this chamber, when mages would come together to share secrets
+      with each other. What was once filled with the music of mages is now full of a dark oppressive silence.
+      Strangely, the table seems to be missing. You may return &+Reast&* to the foyer, or continue &+Rnorth&*
+      to the Kitchen.
+flag:

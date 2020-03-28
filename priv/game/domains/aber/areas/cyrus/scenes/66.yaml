@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:15"
+      south:
+        target: "scene:aber:cyrus:14"
+    short: Narrow hallway
+    sight: >
+      A long and curved hallway allows you to continue in that direction. There is absolutely no noise and you
+      can hear the little rocks crackling under your steps. The hallway continues forward to the north.
+      Something of great power seems to lies ahead.
+flag:

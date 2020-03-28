@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass17"
+      north:
+        target: "scene:aber:grass:grass06"
+      south:
+        target: "scene:aber:grass:grass26"
+      west:
+        target: "scene:aber:grass:grass15"
+    short: In a Large Open Field
+    sight: >
+      You stand in a huge field of tall, wind-blown grass. The grass grows wild all around you, the tops of
+      the stalks easily at waist level, many times even higher than that. Northward is the border of a light
+      forest, south it looks almost as if the land drops away, maybe there is a cliff or steep valley of some
+      sort.
+flag:
+  - outdoors

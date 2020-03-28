@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:golden:golden13"
+    short: &+GGarden&* Patch
+    sight: >
+      You are standing in neglected garden. The ground is dry and cracked from lack of water and the plants
+      are dead and brittle. A fence made of bamboo shoots keeps out animals that would greedily devour any
+      living plants here.
+flag:
+  - outdoors

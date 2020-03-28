@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:study"
+      north:
+        target: "scene:aber:grove:entrance"
+      south:
+        target: "scene:aber:grove:lab"
+    short: "Nature's Dwelling"
+    sight: >
+      You have entered the dwelling of Mother Nature. Of course she lives in these beautiful lands after
+      creating them. Plants and animals abound within this place, and you feel comfortable and warm. The whirr
+      of insects relaxes you and you wonder what sort of person the Green Mother really is. Couches and chairs
+      are made out of the natural things, grown out of either wood, moss, or some such living material. A
+      miniature sun warms the place, keeping it light. The walls allow fresh air through to circulate, and
+      little trickles of water flow from the ceiling keeping everything alive. The floor is springy with
+      plantlife, and you slightly bounce along as you walk. Two rooms are formed off of this one.
+flag:
+  - soundproof

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook124"
+      south:
+        target: "scene:aber:fairybook:fairybook126"
+    short: Forest Path
+    sight: >
+      The path extends on to the north and south through the heavy forest.
+flag:
+  - outdoors

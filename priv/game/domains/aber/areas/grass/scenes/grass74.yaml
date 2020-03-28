@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass107"
+      north:
+        target: "scene:aber:grass:grass64"
+      south:
+        target: "scene:aber:grass:grass84"
+      west:
+        target: "scene:aber:grass:grass73"
+    short: Grassland Expanse
+    sight: >
+      All around you lies the billowing, waving brown grasses of this grassland area of Sundhaven. The wind
+      blows in an almost constant flow, just enough to make it pleasant to feel upon the face. You hear a
+      faint rustling in the grasses off to the west.
+flag:
+  - outdoors

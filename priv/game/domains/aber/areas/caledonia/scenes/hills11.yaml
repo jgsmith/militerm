@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills6"
+      north:
+        target: "scene:aber:caledonia:hills14"
+    short: Peat Bog
+    sight: >
+      You are sinking up to your knees in peaty water, cunningly disguised as firm ground - a layer of mud
+      over the surface of the water gives the illusion of solidity. All around you are small moss-covered
+      tussocks, surrounded by pools of water or thick layers of sphagnum. Sundews and butterworts thrive in
+      this damp environment, and little horsetails grow in clumps in the drier spots. To the south is a small
+      lochan, brown with peat, which gains its colour from the water draining into it from this bog.
+flag:
+  - outdoors

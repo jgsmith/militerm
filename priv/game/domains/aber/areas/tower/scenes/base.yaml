@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:tower:black"
+      north: null
+    short: Base of the Tower
+    sight: >
+      You are now inside the black tower which stretches up out of the castle. The walls glisten with sorcery
+      and from high above come the noises of high level spells and experimentation. A doorway leads east into
+      another room, and a door lies north.
+flag:

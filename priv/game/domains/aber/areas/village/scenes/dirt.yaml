@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:chamber"
+      north:
+        target: "scene:aber:village:slanted"
+      west:
+        target: "scene:aber:village:tunnel"
+    short: Dirt Tunnel
+    sight: >
+      You are clambering along a low dirt tunnel which leads east and west. A wider tunnel joins from the
+      north.
+flag:
+  - dark

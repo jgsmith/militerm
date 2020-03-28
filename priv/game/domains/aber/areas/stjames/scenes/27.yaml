@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:14"
+      north:
+        target: "scene:aber:stjames:26"
+      west:
+        target: "scene:aber:stjames:28"
+    short: St. James Park
+    sight: >
+      You are in the southern area of the park, surrounded by tall shade trees. Many of the trees have people
+      sitting under them, protecting themselves from the summer sun while they hold their conversations. You
+      hear Big Ben chime the hour and wonder how long you have been in the park.
+flag:
+  - outdoors

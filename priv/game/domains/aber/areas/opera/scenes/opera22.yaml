@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:opera:opera26"
+      south:
+        target: "scene:aber:opera:opera21"
+      up:
+        target: "scene:aber:opera:opera23"
+    short: The Third Cellar
+    sight: >
+      Among the props and scenery you see a spriral staircase going both up and down.
+flag:

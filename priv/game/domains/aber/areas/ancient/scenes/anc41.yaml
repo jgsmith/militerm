@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc40"
+    short: The Fountain Cave
+    sight: >
+      You enter a round walled chamber which has a &+Cfountain&* gurgling in the center. The water flows out
+      to the direction where you came from. On the back wall there are carvings on the stone. The walls block
+      your way to any other direction, but west.
+flag:
+  - dark

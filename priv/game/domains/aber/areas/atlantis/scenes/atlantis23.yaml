@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis28"
+      north:
+        target: "scene:aber:atlantis:atlantis22"
+      south:
+        target: "scene:aber:atlantis:atlantis24"
+    short: End of Side Street
+    sight: >
+      This watery passage between buildings ends at a rough sandstone wall. You notice doors leading north
+      into a well furnished library and to the south into a spacious temple.
+flag:
+  - underwater

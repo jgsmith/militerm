@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar13"
+      south:
+        target: "scene:aber:volcano:bandilbar15"
+      west:
+        target: "scene:aber:volcano:bandilbar16"
+    short: Edge Of Yorrin Wood
+    sight: >
+      You are at the northern edge of a wood which continues south and west from here. The trees are
+      widely-spaced and dainty of stature, and therefore more friendly and less intimidating than most of the
+      woods you have recently had occasion to pass through. The broken gates of the village of Yorrin lie to
+      the west.
+flag:
+  - outdoors
+  - nomobiles

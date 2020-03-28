@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:endbeach"
+      up:
+        target: "scene:aber:eastcoast:clifftop"
+    short: Up the Coastal Cliff
+    sight: >
+      Scrabbling for a foothold, you stop for a moment, and look through the misty air to see treacherous
+      rocks far enough below you to make a jump a futile effort of survival. The only sound you hear is the
+      dull and thunderous sounds of the waves crashing into the rocks below. A thick mist envelops the air
+      around you, obscuring the surroundings and making the rocks here slippery to the touch, but you can
+      discern footholds safe enough to climb up the face of the cliff, and a slightly (but not by much) safer
+      path, only a crack in the rock, leading down near the rocks below.
+flag:
+  - outdoors
+  - nomobiles

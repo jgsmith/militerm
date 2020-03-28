@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cathedral:s_stairs"
+    short: The Top of the South Tower
+    sight: >
+      In the center of this room is a large &+Liron &+blantern&*, mounted solidly on the floor. The windows
+      which used to bring &+Ylight&* in by day, and allow the lantern to shine out by &+Lnight&*, have been
+      &+yboarded&* over. &+LCobwebs&* are strewn over everything, and a &+gmusty&* smell fills your nostrils.
+flag:
+  - dark

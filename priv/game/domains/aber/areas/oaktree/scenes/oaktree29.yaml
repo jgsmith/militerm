@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:oaktree26"
+      south:
+        target: "scene:aber:oaktree:oaktree31"
+    short: The Shrubbery
+    sight: >
+      The hedges are neatly trimmed shrubberies. One is a little higher than the others and produces a nice
+      tier effect with a path running down the middle. Someone certainly must care for the plants in this
+      area.
+flag:
+  - outdoors

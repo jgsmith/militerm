@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:wydyr"
+      south:
+        target: "scene:aber:eirias:tree6"
+    short: Seventh Tree - Oak
+    sight: >
+      The king of trees, the sturdy oak is massive, and towers above all the other trees here. You could fit
+      twenty men in the shade its branches cast, and it is cool and beautiful standing here.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:69"
+      south:
+        target: "scene:aber:cyrus:67"
+    short: The trail continues
+    sight: >
+      You are walking on a small trail north of the village. You can see a mountain ahead of you. The trail is
+      surrounded by trees. Birds aren't singing anymore. You can see a bifurcation in the trail. Everything
+      has a creepy atmosphere. You can follow the trail further to the north, or turn back.
+flag:
+  - outdoors

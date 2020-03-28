@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:forest13"
+      west:
+        target: "scene:aber:rainforest:forest11"
+    short: Waterfall
+    sight: >
+      You are at the top of a cliff, where the Kerapi river pours over the brink and drops in one unbroken
+      waterfall down a full five hundred feet to crash in huge clouds of spray at the bottom, whence it calms
+      down and begins to crawl eastward at a far more leisurely pace.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:bishop:bishop55"
+      north:
+        target: "scene:aber:bishop:bishop54"
+      south:
+        target: "scene:aber:bishop:bishop52"
+    short: Korisla Bog
+    sight: >
+      The marsh grows much wetter here, where every footstep squishes in two inches of mud. The 'firm ground'
+      consists of small mounds of stinking mire, located admist two-foot deep trenches of water. Vile methane
+      swamp gas hisses forth from subterranean geysers of bubbling muck, and swamp mosquitoes buzz angrily
+      around these explosions. Snakes and a few spiders are also resident here to breed within the warmth of
+      the geysers. As the many trenches of the river converge into a pool, the ground suddenly drops into a
+      pit, and no living thing has ever escaped from these quicksand-like holes. Vegetation is limited to
+      tufts of sickly brown grass and decaying weeds. On a nearby hill of sludge, those tufts are arranged
+      sporadically in a rhombus.
+flag:
+  - outdoors

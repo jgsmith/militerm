@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:bull:bullzz02"
+    short: Under the Arch
+    sight: >
+      Your eyes slowly adjust to the level of darkness under the protective shade of the arch. To the north is
+      a great &+Cmarble&* door, which seems to be the best way to get inside the temple. "Why the heck to I
+      want to go in there ?", you think to yourself. You shrug your shoulders and suddenly get the feeling
+      that you are being watched.
+flag:

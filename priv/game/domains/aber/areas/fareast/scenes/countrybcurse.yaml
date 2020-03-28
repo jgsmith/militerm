@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryb_1"
+      west:
+        target: "scene:aber:fareast:cursent2"
+    short: Darkening Skies
+    sight: >
+      The sky overhead seems to actively darken as you pass this way, going from a dim storminess to the
+      north, to a sickly slate to the south, where dark branches reach hopelessly toward the swirling clouds.
+      The road seems increasingly out of repair as you look in that direction, also.
+flag:
+  - nomobiles

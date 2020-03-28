@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house17"
+      north:
+        target: "scene:aber:playhouse:house19"
+    short: Hallway
+    sight: >
+      You are inside of a hallway. There are yet more pictures hanging from the walls and pretty blue markings
+      on the wall. To the north is a toyroom or you can go back to the east.
+flag:

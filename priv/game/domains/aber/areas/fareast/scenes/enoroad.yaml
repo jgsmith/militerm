@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:enogate"
+      south:
+        target: "scene:aber:fareast:cherblos"
+    short: Road to Eno
+    sight: >
+      The road stretches across the plain, from a cherry orchard far to the south to the vast city of Eno to
+      the north. The city is plainly visible, a dark mass of spires and rooftops stacked one on another,
+      surrounded by a palisaded earthen wall. Only the front edge of the orchard can be seen, with the road
+      passing into a gap therein. The countryside is burnt and blasted, and a black streak crosses the road in
+      front of you.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:larder1"
+      north:
+        target: "scene:aber:undead:larder3"
+      south:
+        target: "scene:aber:undead:larder5"
+    short: Larder
+    sight: >
+      You a the far end of the larder, it is dank and dark, not the ideal place to keep food. &+BDust&* has
+      settled over everything, and from the walls come the sounds of tiny bony feet. To the &+Cnorth&* and
+      &+Csouth&* the larder continues, to the &+Ceast&* you can return to the larder entrance.
+flag:
+  - dark

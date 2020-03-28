@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newvillage:road2n"
+      south:
+        target: "scene:aber:newvillage:road2e"
+    short: The Village Path
+    sight: >
+      You are on a north-south path that meets with an east-west path just to the south. On this street are
+      many of the merchants of the village. Here you can find a weaponsmith, locksmith, a general store, and
+      an armorer.
+flag:
+  - outdoors

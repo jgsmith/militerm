@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:valley:deep"
+      south:
+        target: "scene:aber:blizzard:gate"
+    short: Dark Tunnel
+    sight: >
+      You are following a dim magically lit tunnel which burrows deep underground. The walls glow gently
+      showing off the myriad sparkling colors of the tunnel walls, which were quite evidently dug, and are
+      certainly not natural.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:curseisland1"
+    short: Cursed Lands
+    sight: >
+      Sheer walls of shining black stone, like obsidian mirrors, jut from the ground, forming a slick, sharp
+      barrier. You can travel no further south.
+flag:
+  - dark

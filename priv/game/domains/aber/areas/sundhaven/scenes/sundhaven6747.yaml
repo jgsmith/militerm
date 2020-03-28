@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6730"
+    short: The blackberry orchard
+    sight: >
+      Dark brambles hung with dully shining berries form condensed hedges, growing in lines and stretching
+      their thorny tendrils across your path. The limbs trail low, heavy with fruit in temperate climate. High
+      stone walls protect this precious bower from the destructive noise and thoughts of ordinary humans.
+flag:
+  - outdoors

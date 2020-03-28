@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle19"
+    short: A Side Trail
+    sight: >
+      A path seems to have been cut through the brush which will someday lead to a new exciting land. Due to
+      budget cuts however, it seems it won't be open for a few years yet. The path stops here for the time
+      being.
+flag:
+  - outdoors

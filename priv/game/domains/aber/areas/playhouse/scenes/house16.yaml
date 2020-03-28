@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:house15"
+    short: Baby Room
+    sight: >
+      This room looks designed with a purpose in mind, and that was to be used by a baby. There are spit-up
+      rags cleaned and folded on shelves along with blankets and various other baby items. You look closer and
+      see a beautiful little dress waiting for a child here. You know whoever ends up with this room is going
+      to be one lucky little baby. The only exit from this room is to the east back into the master bedroom.
+flag:

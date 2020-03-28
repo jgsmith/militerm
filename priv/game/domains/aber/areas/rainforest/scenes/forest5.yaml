@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest4"
+    short: Weed-Covered Rock
+    sight: >
+      You are perched on the top of a wet rock which is covered in green weed, which trails out beyond the
+      edge of rock in the direction of flow. Here and there in the water and on the other rocks you see ducks
+      swimming underwater or climbing out or plunging into the river.
+flag:
+  - outdoors

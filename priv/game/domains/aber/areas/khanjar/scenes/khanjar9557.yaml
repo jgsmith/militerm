@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9558"
+      up:
+        target: "scene:aber:khanjar:khanjar9556"
+    short: Descending The Hillside
+    sight: >
+      You start climbing down a small worn-out path on the hillside. Despite the fresh footprints all around,
+      the way doesn't appear very busy.
+flag:
+  - outdoors

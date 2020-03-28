@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+    short: &+RThe unstable edge
+    sight: >
+      As you step over to the edge, it crumbles out from underneath you! You try to grasp for something as you
+      tumble &+Rdown&* to the rocks below the tower, but to no avail. With a loud thud, you hit the ground,
+      piercing your lung on one of the sharp rocks, and breaking most of your ribs. You try to breathe, but
+      fail miserably as your lungs fill up with blood. As vultures gather for their meal, you notice the
+      corpses of several other adventurers who were unfortunate like yourself. Your heart beats its last...
+flag:
+  - death
+  - nomobiles

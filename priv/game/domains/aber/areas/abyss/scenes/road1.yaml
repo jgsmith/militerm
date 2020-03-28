@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:road2"
+      north:
+        target: "scene:aber:abyss:booth1"
+      south:
+        target: "scene:aber:abyss:booth2"
+      west:
+        target: "scene:aber:abyss:bottom"
+    short: Merchants Road
+    sight: >
+      You stand at the beginning of rows of what could only be described as carnival booths. Dark secretive
+      people walk in and out of the booths and up and down the thoroughfare. Salesmen hawking their wares try
+      to outshout each other as the people pass by. There are booths to the north and south, or you can
+      continue east.
+flag:

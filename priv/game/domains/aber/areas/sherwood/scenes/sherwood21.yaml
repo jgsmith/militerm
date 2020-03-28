@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood6"
+      north:
+        target: "scene:aber:sherwood:sherwood22"
+      west:
+        target: "scene:aber:sherwood:sherwood20"
+    short: Near Waterfall
+    sight: >
+      You continue along the path. You hear the rush of falling water to the west. To the north runs a beaten
+      path. It is probably beaten down for some reason.
+flag:
+  - outdoors

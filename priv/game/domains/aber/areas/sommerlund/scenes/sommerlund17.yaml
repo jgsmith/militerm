@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund11"
+      south:
+        target: "scene:aber:sommerlund:sommerlund18"
+    short: Forest Tor
+    sight: >
+      The forest continues with no change in animal life, but it seems to have an aura of goodness here.
+      Everything seems to have more energy.
+flag:
+  - outdoors

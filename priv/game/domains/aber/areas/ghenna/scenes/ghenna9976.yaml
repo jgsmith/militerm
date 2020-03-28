@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9974"
+      south:
+        target: "scene:aber:ghenna:ghenna9977"
+    short: The end of the hallway.
+    sight: >
+      You have reached the end of the hallway. A door towards the South stands ajar, while the hallway
+      continues Eastward, back where you came.
+flag:
+  - dark

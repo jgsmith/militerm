@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:windy:windy25"
+      north:
+        target: "scene:aber:windy:windy27"
+    short: Temple Roof
+    sight: >
+      This is the highest point in the southern mountain range. From here, you see the lands of Mirage laid
+      out like a map. The mountains continue to the west, where they turn north and bisect the forest. A
+      dwarven citadel is visible in the far northwestern corner of the range. To the direct north are the
+      plains, followed by woodlands. A small village is visible beyond that, resting on the edge of an eternal
+      snowstorm. To the east is the shoreline of a vast sea, speckled with tiny islands. A set of stairs lead
+      down here, while an altar is visible to the north.
+flag:
+  - outdoors

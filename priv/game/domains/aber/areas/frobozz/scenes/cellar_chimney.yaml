@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:frobozz:cellar"
+      up: null
+    short: Cellar
+    sight: >
+      This part of the cellar is not that damp due to a faint, but fresh and warm wind that blows out of a
+      &+Cchimney&*. The chimney leads up to the kitchen making this a chance for you to climb up safer parts
+      of the world. There is also an exit to the south.
+flag:

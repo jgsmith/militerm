@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:volcano:bandilbar20"
+      west:
+        target: "scene:aber:volcano:bandilbar15"
+    short: Yorrin Wood
+    sight: >
+      This is the eastern edge of the wood. The river flows by here to the east, and is moving far too rapidly
+      for you to attempt a crossing. The woodland continues to the west.
+flag:
+  - outdoors

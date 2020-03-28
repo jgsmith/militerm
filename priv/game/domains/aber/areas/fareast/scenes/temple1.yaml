@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:templeu1"
+      north:
+        target: "scene:aber:fareast:temple2"
+      south:
+        target: "scene:aber:fareast:temple3"
+      up:
+        target: "scene:aber:fareast:templeu1"
+      west:
+        target: "scene:aber:fareast:templand3"
+    short: Temple Entrance
+    sight: >
+      The entry to the temple is cold and bare of effects, the only features are the three doors: one leading
+      outside, to the west, two others with circular insigne leading north and south, and a staircase leading
+      up and to the east, toward another level of the temple.
+flag:

@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven3"
+      north:
+        target: "scene:aber:heaven:heaven19"
+      south:
+        target: "scene:aber:heaven:heaven28"
+      up:
+        target: "scene:aber:heaven:heaven3"
+      west:
+        target: "scene:aber:heaven:heaven1"
+    short: Paradise Crossroads
+    sight: >
+      You are standing at the place where the heavens meet. Other than the fact that you are standing on a
+      cloud, this place seems rather ordinary. To the north, you see a land of mountains and fjords, with a
+      sign at the beginning of the road which reads "Valhalla." To the south you see a great and varied land
+      with a sign reading "The Happy Hunting Grounds." To the east you see you see a large tent with a firey
+      cloud above it.
+flag:
+  - private

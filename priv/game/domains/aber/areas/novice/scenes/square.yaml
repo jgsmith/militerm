@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:valley"
+      north:
+        target: "scene:aber:novice:track"
+      south:
+        target: "scene:aber:novice:end"
+      west:
+        target: "scene:aber:novice:stream_2"
+    short: Small Clearing
+    sight: >
+      You are now in the tiniest of clearings you have ever seen. It reminds you somewhat of a miniature
+      version of the village greens that were commonly found in Colonial American towns.
+flag:
+  - outdoors
+  - real

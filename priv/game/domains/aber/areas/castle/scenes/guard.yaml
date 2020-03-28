@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:castle:court"
+    short: Guard Room
+    sight: >
+      You find yourself in the guard room for the castle. Bunks line the walls, and weapon racks stand in the
+      center of the room, though they are all empty now. Judging by the upturned tables and chairs and the
+      dried blood on the floor you think that the guards may not have left on a Sunday afternoon stroll. A
+      single narrow doorway leads east.
+flag:

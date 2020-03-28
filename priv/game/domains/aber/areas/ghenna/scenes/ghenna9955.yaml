@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9956"
+      north:
+        target: "scene:aber:ghenna:ghenna9957"
+      south:
+        target: "scene:aber:ghenna:ghenna9954"
+    short: The streets of Ghenna.
+    sight: >
+      You are standing on a North-South running street. The cobblestone pavement batters your feet
+      unmercifully. To the west is the city wall, while a burnedout building is East of you, barely capable of
+      standing in the slight breeze which whips through here.
+flag:
+  - dark
+  - outdoors

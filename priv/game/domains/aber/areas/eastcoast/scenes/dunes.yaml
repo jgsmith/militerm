@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eastcoast:rocks"
+      west:
+        target: "scene:aber:eastcoast:brambles"
+    short: Sandy Dunes
+    sight: >
+      You stand along a ridge of sandy dunes that run parallel to the beach that lies to the east, the waves
+      of the sea crashing in where the beach breakers fail to cover, and apparently on a sand shoal resting
+      some hundred feet from shore as well. From this vantage, you spy to the north a long wall of cliffs, and
+      in front of that to the west, a dark green-black mass that is only known as the Swamps of Peril. To the
+      south, you observe a long beach leading back to a small set of docks. The sides of the dunes appear too
+      steep to climb back down except for the west side and a quick tumble down toward a line of wave breaking
+      rocks.
+flag:
+  - outdoors

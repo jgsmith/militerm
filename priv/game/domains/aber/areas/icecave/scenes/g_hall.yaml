@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:icecave:palace"
+    short: Glittering Hall
+    sight: >
+      You are in a glittering hall made entirely of ice. Multi-hued icicles hang from the ceiling and the hall
+      seems to be gradually melting! A slippery path leads south.
+flag:

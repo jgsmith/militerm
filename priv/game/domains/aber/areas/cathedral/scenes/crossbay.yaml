@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:cathedral:choir"
+      north:
+        target: "scene:aber:cathedral:n_tran"
+      south:
+        target: "scene:aber:cathedral:s_tran"
+      west:
+        target: "scene:aber:cathedral:nave3"
+    short: The Crossing Bay
+    sight: >
+      This is the crossing bay, where the nave and the transept cross. The transept hall lies to the north and
+      south. To the east the nave continues through the choir and toward the apse. A fountain sits here,
+      burbling. As you peer down into the fountain, you notice it runs &+Rred&* with &+rblood&*, rather than
+      &+Wclear &+Bwater&*, and yet it looks strangely tantalizing.
+flag:
+  - dark

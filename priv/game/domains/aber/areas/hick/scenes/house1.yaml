@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:hick:hick4"
+    short: Hickdale House Porch
+    sight: >
+      This is a small porch with a swing on it and a large chair to sit in during the warm evenings and watch
+      the sun set in the distance. The door leading to the inside of the house is to the north and a path is
+      to the south.
+flag:
+  - outdoors

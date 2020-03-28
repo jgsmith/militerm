@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6776"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6774"
+    short: A dark corridor
+    sight: >
+      The corridor halts abruptly. A drop opens out at your feet, beneath which water shivers and shimmers,
+      black against black. The pool is nearly still, only an occasional ripple moving across the surface gives
+      any indication of life, or life in death, within. Northwards the hall disappears into the dark.
+flag:
+  - dark

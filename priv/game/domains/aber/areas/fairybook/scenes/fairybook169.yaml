@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook168"
+      south:
+        target: "scene:aber:fairybook:fairybook170"
+    short: Forest
+    sight: >
+      The trees seems to be normal here, not nearly as vicious as they could be. In fact, they don't look
+      particularly threatening in the least bit. The sun is filtered through the leaves, making the ground a
+      pleasant shade of green. The path goes north and south.
+flag:
+  - outdoors

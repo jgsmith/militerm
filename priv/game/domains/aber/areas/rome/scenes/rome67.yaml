@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd32"
+      west:
+        target: "scene:aber:rome:rome66"
+    short: End of the Clay Road
+    sight: >
+      The mighty clay road turns into lesser, but still well traveled roads here. You feel a surge run through
+      your body as you look East into the desert that Rome has conquered. This looks like a safe place to rest
+      before starting into one of the power and dangerous cities ever to exist.
+flag:
+  - nomobiles
+  - peace
+  - outdoors

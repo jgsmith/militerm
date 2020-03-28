@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nexus:nexus60"
+    short: Magma River
+    sight: >
+      One bank of the river is in sight at the limit of vision in this hellish place, but a giant crack has
+      occurred in the bridge. The crystal is warped and splintered, as if a giant, clawed hand had swept out.
+      The distance is not so much that a running leap would fail.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark
+  - hot

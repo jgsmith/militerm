@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9901"
+      north: null
+      south:
+        target: "scene:aber:ghenna:ghenna9955"
+    short: The streets of Ghenna.
+    sight: >
+      You are standing on a corner street in Ghenna. To the west lies the city wall while to the North is a
+      door. The street continues South, and East.
+flag:
+  - dark
+  - outdoors

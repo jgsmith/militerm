@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:balhar83"
+      east:
+        target: "scene:aber:balharbor:balhar83"
+      north:
+        target: "scene:aber:balharbor:balhar81"
+      south:
+        target: "scene:aber:balharbor:balhar83"
+      west:
+        target: "scene:aber:balharbor:balhar83"
+    short: On the Boat
+    sight: >
+      You have swam into the hands of the police, national guard, and the beach security force who are
+      controlling this boat. Unfortunately even if you were to knock everyone off the boat you would not be
+      able to control it, since has no sail or rowing oars and it's anchored. If you want to get out of here,
+      it appears you're gonna have to fight these guys or else be executed for trespassing. You can try to
+      escape by jumping off in any direction but up.
+flag:
+  - maze
+  - outdoors

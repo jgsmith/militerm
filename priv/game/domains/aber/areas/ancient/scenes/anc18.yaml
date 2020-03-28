@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc17"
+      south:
+        target: "scene:aber:ancient:anc19"
+    short: Stony Path
+    sight: >
+      Well well... Now you know what it is when you go further to the west. A number of magnum size mosquitos
+      attack you buzzing madly of thirst for your blood. You feel, however, strong devotion to your liquid of
+      life and decide not to give up without a fight. As you prepare yourself for the battle you quickly look
+      around and notice two escape ways - one back east where the less enormous mosquitos were and one south
+      to the river bank.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:hick5"
+      north:
+        target: "scene:aber:hick:hick3"
+      south:
+        target: "scene:aber:hick:hick1"
+    short: Main Road
+    sight: >
+      The road is very dirty and you cough a little from the dust that is rising up from your feet. The road
+      turns to the east here and leads to a large field. The road also continues north and goes back to the
+      south.
+flag:
+  - outdoors

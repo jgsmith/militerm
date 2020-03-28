@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung4"
+      west:
+        target: "scene:aber:nibelung:nibelung20"
+    short: Sloping path
+    sight: >
+      There is a dirt path which slopes down to the west, and rises to the east. (Of course.) You can hear the
+      sound of running water off to the west, and a bridge off in the distance makes you realize there must be
+      a river there. There are fields of wildflowers stretching off to the north and south, their vibrant
+      colors waving about in the cool autumn breeze.
+flag:
+  - outdoors

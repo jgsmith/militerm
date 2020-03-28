@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:easthall4"
+      north:
+        target: "scene:aber:ruins:gardenrm"
+      west:
+        target: "scene:aber:ruins:easthall2"
+    short: Furthur Along in the Eastern Hall
+    sight: >
+      You have travelled quite a long way down this hall and start to wonder where the end is or if it leads
+      to anywhere. As you wonder more you look around and find that some sort of garden is to the north while
+      the hall continues to the east.
+flag:
+  - dark

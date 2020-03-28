@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9565"
+      up:
+        target: "scene:aber:khanjar:khanjar9563"
+    short: An Ancient Crater
+    sight: >
+      You find yourself standing at a vast and deep pit, obviously an ancient crater with a diameter of 30
+      metres, at least. The bottom is covered in brownish grass and there are several rough boulders around,
+      most of them black. Also you notice that the crater is full of small folk, everyone directing towards a
+      structure of some kind further away to the east.
+flag:
+  - nomobiles
+  - outdoors

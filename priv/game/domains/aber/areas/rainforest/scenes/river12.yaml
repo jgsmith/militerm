@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:river15"
+      north:
+        target: "scene:aber:rainforest:river10"
+      west:
+        target: "scene:aber:rainforest:river8"
+    short: By The Southern Bank
+    sight: >
+      You are floating along close by to the south bank of the Kerapi river. The bushes on the shore rustle
+      ominously, and once or twice you catch a glimpse of people moving about amongst them. You fear to climb
+      ashore here, but you can go in any other direction.
+flag:
+  - outdoors
+  - onwater

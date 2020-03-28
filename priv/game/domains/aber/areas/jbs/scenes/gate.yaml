@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:jbs:sepasture"
+      west:
+        target: "scene:aber:jbs:deeppasture"
+    short: By the Gate
+    sight: >
+      You are now in the northeast corner of the pasture. through the gate to the east you see a short path up
+      to a quaint little farmhouse. The pasture continues to the south and west.
+flag:
+  - outdoors

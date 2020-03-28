@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept40"
+    short: Torture Chamber
+    sight: >
+      A great rack is the most notable instrument of pain in this room. Suction pumps and iron-hot pokers
+      serve for frying off prisoners' nipples, while coiled whips, chains, and wooden sticks are thrown
+      haplessly in the corner designated for beating.
+flag:
+  - dark

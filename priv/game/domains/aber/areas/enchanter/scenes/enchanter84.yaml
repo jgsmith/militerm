@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:enchanter:enchanter89"
+      west:
+        target: "scene:aber:enchanter:enchanter81"
+    short: Temple of Krill
+    sight: >
+      You've wandered into the Temple of Krill. All of Krill's loyal followers are gathered here. The floor is
+      sticky with sacrificed blood here. None of the little hairy men have taken any notice of you... they're
+      all concentrating on the giant altar in the center of the room. At the top, there's a statue of Krill.
+flag:

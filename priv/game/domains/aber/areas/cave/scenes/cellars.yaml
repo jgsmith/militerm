@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cave:stairs"
+      east:
+        target: "scene:aber:cave:side"
+      up:
+        target: "scene:aber:cave:great"
+    short: Dwarven Cellars
+    sight: >
+      You are in the huge cellar of the dwarven fortress. Massive stone pillars and arches bear the weight of
+      the mighty stoneworks above. A narrow staircase winds down into darkness and up into the main castle
+      hall.
+flag:
+  - dark

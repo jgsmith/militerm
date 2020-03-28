@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbie:newbie3"
+      south:
+        target: "scene:aber:newbie:newbie5"
+    short: Interacting with Others
+    sight: >
+      There are many ways to communicate with the people on this mud. If you wish to talk to somebody directly
+      without anyone else hearing, use the &+YTELL command. For example if you wish to say hello to a player
+      called Dave, type: &+Ytell Dave hello&+w Usually the word &+YTELL&* is not necessary - you could also
+      type: &+YDave hello You can also type &+CREPLY MESSAGE&* to respond to a most previous tell. If you are
+      in the same room as other people and you wish to say something which they can all hear, use the &+YSAY
+      MESSAGE&* command. For example, type: &+YSAY Hi guys! What's new? You can also do&+Y 'Hi guys! What's
+      new? &*with a single quote in place of &+YSAY&*. Next, we tell you how to communicate with the world.
+flag:
+  - newbie
+  - peaceful

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fantasy:mountain3"
+      east:
+        target: "scene:aber:fantasy:mountain6"
+      up:
+        target: "scene:aber:fantasy:mountain5"
+    short: Ledge
+    sight: >
+      You are standing on a ledge that feels crumbly, but seems to lead east. The vines continue upward.
+flag:
+  - outdoors

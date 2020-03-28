@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9908"
+      north: null
+      south:
+        target: "scene:aber:ghenna:ghenna9905"
+      west:
+        target: "scene:aber:ghenna:ghenna9906"
+    short: The twisting hedges.
+    sight: >
+      You are standing amongst a row of twisting hedges about 7 feet tall. Pathways through the hedges lead in
+      all cardinal directions. Uh no, looks like you lost your way...you can't tell where you were.
+flag:
+  - maze
+  - nomobiles
+  - dark
+  - outdoors

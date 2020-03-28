@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town50"
+      south:
+        target: "scene:aber:town:town46"
+      west:
+        target: "scene:aber:town:town49"
+    short: Woodland Road
+    sight: >
+      The road just keeps meandering slowly through the woods with no definite destination in sight. To the
+      west is a small hole in the brush that you may be able to climb through. The road continues to lead to
+      the north and to the south.
+flag:
+  - outdoors

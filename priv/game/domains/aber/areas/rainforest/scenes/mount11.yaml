@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount10"
+    short: Steep Slope
+    sight: >
+      You are struggling to maintain your balance on a steep and scree-covered slope from which you can look
+      down upon a young river rushing past below you. You will be able to descend to its edge, but the
+      gradient of the slope and the presence of the ever-slipping scree prohibits an ascent.
+flag:
+  - outdoors

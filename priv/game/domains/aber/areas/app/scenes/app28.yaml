@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app27"
+      north:
+        target: "scene:aber:app:app29"
+      south: null
+      west: null
+    short: Dungeon
+    sight: >
+      As you step into the room, the stench that quickly enters your nose makes you cringe. When you have
+      adjusted to the smell as best you can, you take a look at your surroundings. To the north appears to be
+      some sort of laboratory or torture chamber, you're not quite sure. To the south and west are closed
+      doors, possibly locked. From behind the door to the west you hear some sort of scratching.
+flag:

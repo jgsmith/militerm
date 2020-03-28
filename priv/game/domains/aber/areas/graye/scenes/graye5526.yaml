@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5524"
+      north:
+        target: "scene:aber:graye:graye5528"
+    short: Top of the Cliff
+    sight: >
+      You reach the top of the cliff and struggle to your feet. You spend several moments just turning around,
+      taking in all that you see. To the south and east you see the forest sweeping outwards from the cliff
+      wall, and to the north you see a clearing surrounding a small town.
+flag:
+  - outdoors

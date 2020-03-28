@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:road3"
+      south:
+        target: "scene:aber:abyss:home"
+    short: Residential Area
+    sight: >
+      You are walking down a dark residential street. A street sign identifies it as Pleasant Avenue. The
+      street is lined with small brick houses. The only house that looks occupied however, is to the south at
+      the end of the street.
+flag:
+  - dark
+  - nomobiles

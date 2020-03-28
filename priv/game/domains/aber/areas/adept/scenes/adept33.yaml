@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept38"
+      north:
+        target: "scene:aber:adept:adept34"
+      south:
+        target: "scene:aber:adept:adept32"
+      west:
+        target: "scene:aber:adept:adept35"
+    short: Courtyard
+    sight: >
+      From the outside, this castle is seemingly huge, but its inner size suggests something else. The
+      cobblestoned plaza has a fountain in each corner and tapestries tacked to the stone walls. The king of
+      the land resides to the north, while the court jester and magician dwell to the west. Those enormous
+      walls stand to the south.
+flag:

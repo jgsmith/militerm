@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6613"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6638"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6637"
+    short: A shaded lane
+    sight: >
+      Loose leaves blow in tiny spirals along the surface of the wooded road as summer fades to autumn.
+      Between the trees to the west, something sparkles tauntingly from the dark doorway of a small shop.
+      Eastwards the dome of the temple can be seen rising.
+flag:
+  - outdoors

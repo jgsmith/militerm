@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds27"
+    short: Banquet Hall
+    sight: >
+      There is nothing in this room from what you can tell. It is empty; nothing but cans of empty paint and
+      brushes that have no bristles on them. How weird eh?
+flag:

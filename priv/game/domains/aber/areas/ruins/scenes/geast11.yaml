@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast12"
+      north:
+        target: "scene:aber:ruins:geast10"
+    short: Southwestern Corner
+    sight: >
+      You are in the southern corner of a large catacomb. There are small pools of blood on the floor and deep
+      scratches in the walls. By the looks of the scratches you suspect that they were caused by a sword being
+      swung at someone, or something, and missing. Looking at the deep scratches again you also suspect that
+      whoever, or whatever, was swinging a sword around is quite powerful. The corridor leads up to the north,
+      and seems to lead to the east.
+flag:
+  - dark

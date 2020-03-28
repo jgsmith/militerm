@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds36"
+    short: "Thieve's Room"
+    sight: >
+      Ahh Ha!!! You found it! Here it all lies - the throne, his books and records, everything! The throne is
+      gold with silver bands inlaid with rubies in the legs. The crown glitters and sparkles, catching your
+      eye. The room itself is very small and looks like it has been dug very quickly. The exit is to the
+      &+Ceast&* and that is the only one that you can find.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:jbs:top"
+    short: Master Bedroom
+    sight: >
+      This is the master bedroom. It is slightly larger than the other rooms upstairs, and it has a king sized
+      bed in the center of the east wall. You can leave to the west.
+flag:
+  - private
+  - party

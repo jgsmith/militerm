@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:before_castle"
+      west:
+        target: "scene:aber:undead:stony_path19"
+    short: Stony Path
+    sight: >
+      You stand to the &+Ceast&* of an enormous drawbridge. The moat in front of you is utterly impassable.
+      From it emerge bloodchilling roars of an unholy nature. To the &+Cwest&* the moat continues - maybe you
+      will have more luck that direction.
+flag:
+  - outdoors

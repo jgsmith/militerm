@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:48"
+      south:
+        target: "scene:aber:stjames:50"
+    short: Path Through St. James Park
+    sight: >
+      Here the path joins a sidewalk which runs along the street to Buckingham Palace. The rest of the park is
+      to the south and east.
+flag:
+  - outdoors

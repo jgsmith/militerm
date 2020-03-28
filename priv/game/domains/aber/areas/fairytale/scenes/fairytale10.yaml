@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale11"
+      south:
+        target: "scene:aber:fairytale:fairytale9"
+    short: Ferris Wheel
+    sight: >
+      A giant wheel stands before you. As you step up to the platform, you hear a voice call out 'Next!'. The
+      wheel slowly turns, and a car lowers itself to the north, waiting for you to step in.
+flag:

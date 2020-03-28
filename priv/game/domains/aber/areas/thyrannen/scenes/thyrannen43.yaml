@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen22"
+      south:
+        target: "scene:aber:thyrannen:thyrannen44"
+    short: Barren road to the mesa
+    sight: >
+      You are on a barren nodescript road, that leads right up to the base of the terrifying mesa ahead. Who
+      knows what challenges lie ahead? Who knows what you face? You could be marching proudly to your death,
+      or if luck, and wisdom are on your side, you could be proudly marching on...to victory, good luck...
+flag:
+  - outdoors

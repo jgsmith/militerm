@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field3"
+      north:
+        target: "scene:aber:hick:field13"
+      west:
+        target: "scene:aber:hick:field1"
+    short: Southern Irrigation Ditch
+    sight: >
+      You are standing on a small path with an irrigation ditch running through it that leads to the east and
+      the west. To the north is a field of corn.
+flag:
+  - outdoors

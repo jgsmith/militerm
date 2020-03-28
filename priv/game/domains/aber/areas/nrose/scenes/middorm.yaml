@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nrose:northdorm"
+      south:
+        target: "scene:aber:nrose:southdorm"
+      west: null
+    short: Dormitory
+    sight: >
+      You are in the hallway of the monk's dormitory which continues to the north and south. To the west is a
+      door.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6621"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6622"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6623"
+    short: On a weathered stone terrace
+    sight: >
+      This seems to be a plaza of sorts, but is so worn and cracked with age the stone is barely holding
+      together. Moss and weeds have all but overgrown the rock-strewn surface. Balmy, roguish scents are
+      drifting out of a dark, ivy-clothed building to the east.
+flag:
+  - outdoors

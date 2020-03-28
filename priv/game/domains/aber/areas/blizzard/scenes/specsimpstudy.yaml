@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+    short: Basic Practice Hall
+    sight: >
+      The man at the counter turns out to be a tireless teacher. You and a few others practice under his
+      wizened eye. After some time, you begin to get the hang of it...
+flag:
+  - peace
+  - soundproof

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd11"
+      west:
+        target: "scene:aber:sdesert:desertsd09"
+    short: Lonely Desert Mountains
+    sight: >
+      Here you stand in the foothills of the mountains to the &+yeast&*. The vegetation dies around you, as
+      the insects sing their lonesome song. The trail splits &+ywest.
+flag:
+  - outdoors
+  - hot

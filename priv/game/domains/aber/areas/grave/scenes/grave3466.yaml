@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3465"
+    short: Wight Warren
+    sight: >
+      This is a large room that is obviously the home for something you would rather not think about. As you
+      look around you can see dead and decaying corpses all over the room. As you look into one corner you
+      notice one of these corpses raise and begin to move toward you. There is still an exit to the east.
+flag:
+  - dark

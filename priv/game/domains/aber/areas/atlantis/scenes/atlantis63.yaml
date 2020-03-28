@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis64"
+      north:
+        target: "scene:aber:atlantis:atlantis61"
+      west:
+        target: "scene:aber:atlantis:atlantis65"
+    short: Sea Weed
+    sight: >
+      You're not certain how it managed to get here, but the passage is blocked by a large growth of sea weed.
+      It completely surrounds the tunnel around you and chokes off any further passage. If you want you can
+      attempt to push your way through it to the east or west, or head back up the corridor with a faint glow
+      to the north.
+flag:
+  - dark
+  - underwater

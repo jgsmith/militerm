@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:flower_garden"
+      south:
+        target: "scene:aber:grove:out_back"
+    short: Ferns
+    sight: >
+      This place is overloaded with ferns. You wade through the fronds, feeling lost in the overgrowth. Nice
+      place to get lost.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

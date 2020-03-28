@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: The Surgery Chamber
+    sight: >
+      This is a busy area with many doctors frantically running around to save patients. There are about 32
+      beds here, all with seperate sets of machines; some of these go BLIP-BLIP, others have red and green
+      flashing lights, and the remaining ones are some sort of measurement of your vitality.
+flag:
+  - peaceful
+  - soundproof

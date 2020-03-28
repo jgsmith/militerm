@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:olig1"
+      north:
+        target: "scene:aber:evolution:eoce2"
+      south:
+        target: "scene:aber:evolution:eoce5"
+      west:
+        target: "scene:aber:evolution:pala2"
+    short: On The Plain
+    sight: >
+      You are wandering about on the plain. The plants here are short, and the going easy, though the eocene
+      scenery is dull and featureless. Trees are dotted about here and there, but apart from those and the odd
+      small shrub you can see little of interest. Some way off to the south is a patch of tall bushes. A
+      &+yfallen tree&* is lying here, and several egret-like birds are using it as a perch.
+flag:
+  - outdoors

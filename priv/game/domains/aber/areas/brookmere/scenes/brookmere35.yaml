@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere28"
+      south:
+        target: "scene:aber:brookmere:brookmere36"
+      west:
+        target: "scene:aber:brookmere:brookmere37"
+    short: Smooth Corridor
+    sight: >
+      Stepping out into the corridor you find that there is no need to put a second foot down as you are
+      sliding along the floor on one foot! The floor is so smooth and polished that the gentlest push will
+      send you from one end of the corridor to the other. Gliding along you see a wall &+Changing&* that you
+      would very much like to examine, but when you put your hand to a wall to stop yourself your fingers slip
+      right off! The only thing you can grab hold of is the doorway of what looks like a supply room. From
+      here you can take a proper look at the room at the other end of the corridor, or turn back and go the
+      other way. Looking through the doorway of the room at the west end of the corridor you can see steps
+      leading down. To the east is a smooth door.
+flag:
+  - dark

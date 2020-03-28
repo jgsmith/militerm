@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:33"
+      north:
+        target: "scene:aber:stjames:35"
+      south:
+        target: "scene:aber:stjames:37"
+      west:
+        target: "scene:aber:stjames:47"
+    short: Path Through St. James Park
+    sight: >
+      You are on the northern path through the park, northwest of the bridge. To the south is the pond, and
+      the street is out of the park to the north. You can reach the street by continuing to the west and
+      leaving through the north entrance.
+flag:
+  - outdoors

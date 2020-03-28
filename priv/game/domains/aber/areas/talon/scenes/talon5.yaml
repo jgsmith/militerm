@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon6"
+      up: null
+    short: Into the Depths
+    sight: >
+      This is a narrow dark hole carved out of solid granite. It looks as if it was hollowed out with crude
+      tools. You traverse the depths by way of a ladder-like structure etched into the rocks. Below, small
+      pebbles dislodge from the movement of your feet against the crumbling, granite ladder disapears deep
+      into an abyss-like blackness, with no sound of hitting bottom.
+flag:
+  - dark

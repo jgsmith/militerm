@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest11"
+      south:
+        target: "scene:aber:rainforest:forest8"
+    short: By The Tumultuous Waters
+    sight: >
+      Spray from the raging river to the north saturates your clothes as you stand here on the bank of the
+      Kerapi river. Another river has just joined it from the north, and the resultant torrent thunders past
+      you with an almost deafening sound. You marvel at this mighty force of nature and at the sheer power of
+      the water as it bounces down the hillside, forging a channel for itself. You could not hope to cross
+      here, or even enter the water, for you would be carried away and dashed to pieces in a minute. To the
+      east the river drops suddenly downhill and you can follow its bank if you wish.
+flag:
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:side_hall"
+      north:
+        target: "scene:aber:cave:great"
+      west:
+        target: "scene:aber:cave:kitchen"
+    short: The Dwarven Dining Hall
+    sight: >
+      This huge hall is another tribute to the skilled stonework of the dwarves, a circular hall with a
+      spectacular painted domed roof that seems lost in the shadows high above you. From the walls,
+      spectacularly carved gargoyles leer down, attempting to put you off your food. Passages lead north, east
+      and west.
+flag:
+  - dark

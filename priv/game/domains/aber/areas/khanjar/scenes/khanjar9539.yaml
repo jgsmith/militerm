@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:khanjar:khanjar9540"
+      west:
+        target: "scene:aber:khanjar:khanjar9538"
+    short: Walking On Stony Soil
+    sight: >
+      As you walk on, the mountainside begins to change much more steeper before you. However it seems that
+      you can advance easily enough.
+flag:
+  - nomobiles
+  - outdoors

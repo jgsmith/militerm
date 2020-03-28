@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: "The Grue's Den"
+    sight: >
+      This is a small dry cave that has been carved from the living rock. Some dilapidated furniture has been
+      spread about the room, and the floor is littered with debris and old, gnawed bones - human bones.
+flag:
+  - dark

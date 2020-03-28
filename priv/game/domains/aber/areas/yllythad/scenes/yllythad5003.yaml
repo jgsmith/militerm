@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5004"
+      south:
+        target: "scene:aber:yllythad:yllythad5266"
+      west:
+        target: "scene:aber:yllythad:yllythad5002"
+    short: A Choppy Section of the Sea
+    sight: >
+      The water has grown tumultous and rough here, the waves not high but frequent. Water splashes into the
+      air as the small waves spalsh into each other. Bal Harbor's entryway lies just north from here, in fact
+      from this angle the city itself can be seen.
+flag:
+  - onwater
+  - outdoors

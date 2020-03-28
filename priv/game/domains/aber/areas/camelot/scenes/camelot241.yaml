@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot222"
+      east:
+        target: "scene:aber:camelot:camelot242"
+      south:
+        target: "scene:aber:camelot:camelot240"
+      up:
+        target: "scene:aber:camelot:camelot250"
+    short: The Northwestern Tower
+    sight: >
+      This portion of the tower seems to be used as office space for the guard commanders. Watch schedules,
+      training duty lists and other administrative paperwork is hung on the walls, or placed on desks.
+flag:

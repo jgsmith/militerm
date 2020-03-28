@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eforest:priest"
+    short: Inner Sanctum
+    sight: >
+      This is a small well finished room. The walls, floor, and ceiling are all polished black marble. A small
+      altar looks well cleaned, but you cannot help but wonder what may have been sacrificed there.
+flag:
+  - dark

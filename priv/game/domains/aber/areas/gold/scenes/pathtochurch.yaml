@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gold:churchpath"
+      west: null
+    short: Path to Church
+    sight: >
+      In the distance, you can make out the outline of a steeple standing amidst a carefully groomed lines of
+      trees. This path continues East and West.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle10"
+      south:
+        target: "scene:aber:balharbor:jungle22"
+      west:
+        target: "scene:aber:balharbor:jungle8"
+    short: Rotten Log
+    sight: >
+      You are walking on top of a rotten log lying across a creek underneath it. The log is hollow inside, but
+      it seems strong enough to support your weight. The sun shines on a path west, and you can go deeper into
+      the jungle to the east. You can follow the creek to the south.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave14"
+      south:
+        target: "scene:aber:batcave:batcave12"
+    short: Safe Space
+    sight: >
+      The roof of this cave is hidden high in darkness. The floor has gone from soil to hard limestone, and
+      the walls are carved with intricate &+Crunes that glow faintly blue. You feel completely at ease here. A
+      sense of peacefulness is strongly washing over you, and you realize how long it has been since you've
+      felt safe. The floor tilts upwards to the south, and there is a small, dark opening in the eastern wall.
+flag:
+  - nomagic
+  - peaceful
+  - party
+  - nosummon

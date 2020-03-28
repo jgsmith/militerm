@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:volcano:bandilbar28"
+    short: Paved Path
+    sight: >
+      You are on the path to the west of the channel. Paving stones descending into the channel disappear into
+      a wide river of lava, flowing southwards and cutting off your western route. They reappear on the far
+      side of the channel, heading towards a small and pleasant-looking wood. Just west from here is the
+      entrance to a deep cave cut into the volcano.
+flag:
+  - outdoors

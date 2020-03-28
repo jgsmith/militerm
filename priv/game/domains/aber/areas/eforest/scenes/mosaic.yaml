@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eforest:museum"
+    short: Mosaic Room
+    sight: >
+      The entirity of this room is covered by a huge mosaic. It covers all of the walls, as well as the
+      ceiling and the floor. You realize immediately that the area shown in the mosaic is that which mortals
+      call the wasteland. You see images of fire, a sword of awesome power, crystal flame and a great djinni.
+      For a moment, you almost become lost in the awesome vision. Flaming red letters in the center of the
+      room spell out the words, HOME, SWEET, HOME.
+flag:
+  - hot

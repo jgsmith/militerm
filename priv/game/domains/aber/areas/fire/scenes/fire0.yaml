@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fire:fire1"
+      south:
+        target: "scene:aber:haondor:sundforest6090"
+    short: Grand entrance
+    sight: >
+      You are standing before the mighty house where Sir Gruoch is living. It was build overlooking Sundhaven
+      and Haon-dor. The entrance is made of &+Wwhite&* stones and all around is covered with &+Ggrass&*. Two
+      lions statues are standing on both sides of the entrance. How can someone create something so realistic
+      looking? Exits lead to the north into Gruoch's house or south to the forest road.
+flag:

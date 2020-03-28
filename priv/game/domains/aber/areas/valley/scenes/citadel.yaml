@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:paths"
+      south: null
+    short: Citadel Entrance
+    sight: >
+      You are standing at the entrance to a huge citadel, carved from the very rock of the mountains. A pair
+      of gates are set into the southern edge of the deep rocky bowl you stand in. A single exit leads east
+      down a narrow path into the valley below.
+flag:
+  - nomobiles
+  - outdoors

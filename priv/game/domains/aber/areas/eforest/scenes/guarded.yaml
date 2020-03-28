@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:bottom"
+      south:
+        target: "scene:aber:eforest:undead"
+    short: Guarded Hallway
+    sight: >
+      You are in a small room used to guard the Lich's private rooms. A passage leads to the north, and to the
+      south you hear a loud, hollow roar.
+flag:
+  - dark

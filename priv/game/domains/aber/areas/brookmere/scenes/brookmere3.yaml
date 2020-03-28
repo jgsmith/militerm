@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere7"
+      up:
+        target: "scene:aber:brookmere:brookmere2"
+    short: Rock Fall
+    sight: >
+      It appears that at some point part of the hole above collapsed, creating a landslide of earth and rocks
+      from the ruin. This is what you are know gingerly climbing. Far above you, you can see a faint light and
+      the rim of the hole. Below, you can make out the dim outline of a passageway leading into the gloom.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:undead:stony_path8"
+    short: Corn Field
+    sight: >
+      You stand in a field of thigh high corn, which unfortunately for you looks not quite ripe yet. The wind
+      makes rustling noises as it moves through the corn husks. The field of golden corn continues as far as
+      the eye can see. The only obvious exit is back the way you came.
+flag:
+  - outdoors

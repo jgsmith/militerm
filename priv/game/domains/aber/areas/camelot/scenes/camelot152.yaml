@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot152"
+      north:
+        target: "scene:aber:camelot:camelot153"
+      south:
+        target: "scene:aber:camelot:camelot152"
+      west:
+        target: "scene:aber:camelot:camelot152"
+    short: Deep in the forest
+    sight: >
+      The woods are quiet, dark and deep, and you have miles to go before you sleep.
+flag:
+  - outdoors

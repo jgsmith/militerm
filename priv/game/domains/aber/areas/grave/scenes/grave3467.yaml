@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3465"
+    short: Home of the Skeleton King
+    sight: >
+      As you enter this room the first thing you see is the biggest, baddest, meanest, boneiest, skeleton you
+      ever saw. Before you can look around the bones start moving toward you.
+flag:
+  - dark

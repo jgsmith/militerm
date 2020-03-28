@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:arena:arena1"
+      south:
+        target: "scene:aber:arena:arena3"
+    short: The Arena
+    sight: >
+      It looks dangerous here. There are numerous piles of rubble laying about, some containing large
+      boulders. A few pieces of the crumbling roof fall beside you.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

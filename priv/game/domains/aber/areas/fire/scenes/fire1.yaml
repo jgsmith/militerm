@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:fire:fire2"
+      south:
+        target: "scene:aber:fire:fire0"
+      west:
+        target: "scene:aber:fire:fire4"
+    short: Entrance hall
+    sight: >
+      You have entered through the old entrance gate into a great hall. Sir Gruoch wants to impress everyone
+      with his home, so the hall is built in the old baroque style. Walls are covered with thick woollen
+      carpets and on the ceiling is a suggestive fresco showing a fight of two mystic giants. The floor is
+      made of hard &+ymahagony&* to slow the aging. Near the gate is a small closet for robes. There is a
+      mirror hanging next to the closet. It is mostly used by ladies to refresh their make-up. There is a
+      living room to the north, a small door to the east or you can go west onto the staircase.
+flag:

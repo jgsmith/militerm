@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen5"
+      west:
+        target: "scene:aber:thyrannen:thyrannen8"
+    short: Redwood Forest
+    sight: >
+      As you travel deeper into this forest the eerie feeling that you are being watched grows more intense,
+      but as you get deeper into the forest you also begin to sense the magistie of this forest, making you
+      feel more at-ease.
+flag:
+  - outdoors

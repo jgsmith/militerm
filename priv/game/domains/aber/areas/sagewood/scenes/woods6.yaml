@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sagewood:woods5"
+    short: Dark Clearing
+    sight: >
+      The dead and dying trees and vines here form a solid ceiling overhead, their branches, leaves, and vines
+      meshed together so that you cannot see the sunlight. In all directions, save &+CNorth&* things get too
+      dense to travel through...
+flag:
+  - dark

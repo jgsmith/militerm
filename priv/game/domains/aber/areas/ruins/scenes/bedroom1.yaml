@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:westhall2"
+    short: A Small Room
+    sight: >
+      This is a small room that looks like it was once a bedroom. There is a bed in the room. Actually, the
+      bed is nothing more then the wooden frame that once held the luxurious bedding that was once on it. You
+      look around this drab area and wonder when it was last occupied before leaving it unoccupied yet again.
+flag:
+  - dark

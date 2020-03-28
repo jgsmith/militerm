@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:guard"
+    short: Demon Treasury
+    sight: >
+      This room seems to be somewhat cleaner than the guard room to the North, but not much. The same reek of
+      garbage pervades the air, and piles of litter have been shoved to the sides of the room. However, in the
+      center of the room is a wooden pedestal which has been polished to perfection, and which is exceedingly
+      clean. You have come through the only entrance to this room.
+flag:

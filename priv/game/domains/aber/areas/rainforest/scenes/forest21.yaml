@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest19"
+      north:
+        target: "scene:aber:rainforest:forest20"
+    short: Swampy Ground
+    sight: >
+      Your feet sink up to the ankles in muddy water. You are pretty much on a level with a small river
+      flowing nearby to the south. A patch of treacherous- looking mud to the west makes you rule out that
+      exit.
+flag:
+  - outdoors
+  - rainforest

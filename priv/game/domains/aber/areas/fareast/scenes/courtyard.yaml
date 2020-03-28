@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:vilruin"
+      north:
+        target: "scene:aber:fareast:forthall"
+      west:
+        target: "scene:aber:fareast:gardhaus"
+    short: Eno Courtyard
+    sight: >
+      Just behind the walls of Eno is the only clear spot in the city: A large courtyard flanked by statues
+      and landscaping. Koi float belly-up in small pools, and once-beautiful stone gardens have been raked
+      across by claws rather than garden tools. A stench of sulfur hangs in the air, which seems to darken as
+      you near the center of the city, the daimyo's fortress to the north. To the west, a guardhouse has been
+      erected along the wall. To the east, the remains of the city's homes lie in long-dead ashes. The city
+      walls are in the opposite direction- south- and the barred gate looks impassable from this side. The
+      high earthen walls are too smooth to climb without aid.
+flag:
+  - outdoors

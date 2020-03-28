@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:golden:golden18"
+    short: &+BWhirlpool&*
+    sight: >
+      As you make your way into the viscious path of a whirlpool, you realize that it was a dumb choice to go
+      east. You still have time to escape before you are sucked under.
+flag:
+  - onwater
+  - outdoors

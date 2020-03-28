@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curseacid1"
+      south:
+        target: "scene:aber:fareast:curseisland1"
+      west:
+        target: "scene:aber:fareast:curseacid2"
+    short: Far Shore of the Acid River
+    sight: >
+      This shore is lined with black, shining sand, stretching back to the south until it fuses into a glassy
+      surface. The river that flows by is a yellowish hue, and bubbles where it comes in contact with the
+      shore... probably acid.
+flag:
+  - nomobiles

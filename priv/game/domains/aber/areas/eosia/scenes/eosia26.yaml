@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:eosia:eosia27"
+      west:
+        target: "scene:aber:eosia:eosia19"
+    short: The Motherhouse Walls
+    sight: >
+      You stand at the walls to the Pandion Motherhouse. Other than that there is not much to describe. The
+      gates are open and allow access to the south, and you can see the Long Road heading off into the west.
+flag:
+  - outdoors

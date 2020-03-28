@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:fedge5"
+      north:
+        target: "scene:aber:valley:fedge5"
+      south:
+        target: "scene:aber:cave:piper"
+      up:
+        target: "scene:aber:castle:leap"
+    short: Narrow Path
+    sight: >
+      You are following a narrow difficult path, which twists its way along a crack in the cliff rising up to
+      the south. A set of steps lead up towards the cliff top climb past a narrow, slanted cave-mouth which
+      leads south into darkness.
+flag:
+  - outdoors

@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:mstream"
+      north:
+        target: "scene:aber:eastcoast:glade"
+      west:
+        target: "scene:aber:eastcoast:peril"
+    short: Beside the Stream
+    sight: >
+      Walking on a grassy bank, you peer into an east-west running stream as it drains out of a dreary looking
+      swamp to the west. The water, instead of containing the vibrant life of plants and water life, bears the
+      smelly slimes, fetid algae, and uncleanliness of whatever dwells from within the dark swamp, causing
+      your nose to wrinkle. The stream looks no more than waist-deep, but any travel to the south bank appears
+      futile, with a formidable wall of thorny bramble bushes to meet you there. More hopeful paths lie to the
+      east, where the stream thins out into the sea, and to the north across a grassy field. To the west, you
+      see another, less traveled path following the stream toward the edge of the swamp itself. Such feelings
+      leave you to think that travelling into the swamp would not be a good idea.
+flag:
+  - outdoors

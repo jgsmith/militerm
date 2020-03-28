@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east: null
+      west:
+        target: "scene:aber:enchanter:enchanter19"
+    short: At the Castle Gates
+    sight: >
+      Everything around here is dead. The castle gates loom before you. The evil inside the castle is so
+      strong, you can feel it. You can still turn back... Maybe you should...
+flag:
+  - outdoors
+  - real
+  - tempreal

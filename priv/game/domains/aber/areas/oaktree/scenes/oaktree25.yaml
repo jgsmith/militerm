@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:oaktree24"
+      south:
+        target: "scene:aber:oaktree:oaktree24"
+      up:
+        target: "scene:aber:oaktree:oaktree26"
+    short: The Incline
+    sight: >
+      This is a low incline dug from the earth. By the looks of the deep claw marks in the walls, it was dug
+      by some animal. On one area of the wall the marks resemble words.
+flag:

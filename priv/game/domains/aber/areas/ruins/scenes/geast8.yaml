@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast7"
+      west:
+        target: "scene:aber:ruins:geast9"
+    short: Northwestern Corridor
+    sight: >
+      You are in the northwestern corridor of a large catacomb. The walls are a total crimson color as are the
+      ceiling and the floor. This room is not putting your already nervous mind at rest. The sounds of
+      crunching bone fill this whole catacomb and you swallow hard as you shiver from the cold. The corridor
+      leads to the east and to the west.
+flag:
+  - dark

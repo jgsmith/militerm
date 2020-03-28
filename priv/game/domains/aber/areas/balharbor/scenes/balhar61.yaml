@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar62"
+    short: The Healing Chamber
+    sight: >
+      Ah...a safe haven! The High Priest offers this room to those in danger or injured in battle who need a
+      place to rest and heal their wounds. He has also blessed this room so that mortals will be protected
+      from mobiles, magic and snooping. You can reenter the action to the east.
+flag:
+  - nomobiles
+  - cantsummon
+  - nomagic
+  - peaceful
+  - party
+  - nosnoop
+  - fastheal
+  - fastmana

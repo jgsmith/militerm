@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oni:oni70"
+      west:
+        target: "scene:aber:oni:oni73"
+    short: West Wall of Deufel
+    sight: >
+      The western edge of Deufel is protected by a large wall with a heavy iron portcullis allowing travelers
+      to enter and exit. Currently there are a few travelers entering and exiting the town.
+flag:
+  - outdoors
+  - cantsummon

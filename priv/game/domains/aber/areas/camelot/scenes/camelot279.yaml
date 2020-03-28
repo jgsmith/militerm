@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:camelot:camelot268"
+      north:
+        target: "scene:aber:camelot:camelot302"
+    short: Where mortals should not go...
+    sight: >
+      As you step onto the landing, you are grabbed by several extremely large, extremely strong, and very
+      protective guards. As they have orders to kill anyone who ignores the warnings and enters here, you are
+      quickly executed.
+flag:
+  - nomobiles
+  - death

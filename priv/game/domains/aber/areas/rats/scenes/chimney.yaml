@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rats:roof"
+    short: On the chimney
+    sight: >
+      Where did you bring this eagle? You are on a chimney! You can try to climb down like a Santa Claus.
+flag:

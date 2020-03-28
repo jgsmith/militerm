@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+      up: null
+      west:
+        target: "scene:aber:enchanter:enchanter31"
+    short: Guarded Door
+    sight: >
+      Other than the large oak door at the north end of the room, this room is bare. But what a door it is --
+      On the center of it is some sort of ornament. It looks like a wild boar's head.. with snakes for hair,
+      and razor-sharp knives for teeth. It seems to be slobbering acid.
+flag:

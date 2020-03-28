@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:undead:larder5"
+    short: Larder
+    sight: >
+      You stand at the bottom of a set of stone steps. The darkness embraces you, as your light flickers
+      weakly against the walls. This appears to have once been a wine cellar, there is little here now. Maybe
+      the long gone kitchen staff came here for their severance pay. Row upon row of empty wine racks stretch
+      for as far as the eye can see.
+flag:
+  - dark

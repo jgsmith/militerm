@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3406"
+      north: null
+      south:
+        target: "scene:aber:grave:grave3401"
+    short: A Gravel Road on the Graveyard
+    sight: >
+      You are on a well-kept gravel road that leads north-south through the graveyard. On both sides of the
+      road grow dark evergreen trees. An iron grate is to the north.
+flag:
+  - nomobiles
+  - outdoors

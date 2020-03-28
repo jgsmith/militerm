@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:tforest2"
+      north:
+        target: "scene:aber:valley:stream3"
+      west:
+        target: "scene:aber:eforest:crest"
+    short: Rocky Clearing
+    sight: >
+      You are standing in a rocky clearing, strewn with the debris of the many landslides, which have cascaded
+      down the cliffs to the south and west. To the east and north paths plunge back in amongst the trees that
+      fill most of the valley. A precarious path leads over the mountain to the West.
+flag:
+  - outdoors

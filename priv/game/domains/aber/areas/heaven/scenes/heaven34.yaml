@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven33"
+      south:
+        target: "scene:aber:heaven:heaven36"
+      west:
+        target: "scene:aber:heaven:heaven35"
+    short: The Southern Plains
+    sight: >
+      You stand in an arid land. Tumbleweeds blow in the wind about you.
+flag:
+  - private

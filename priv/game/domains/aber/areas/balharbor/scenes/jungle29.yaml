@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle30"
+      south:
+        target: "scene:aber:balharbor:jungle21"
+    short: Plains Trail
+    sight: >
+      You continue to follow the high city wall on the right, and the thick green jungle growth on the left.
+      Seems this trail was made as a city bypass.
+flag:
+  - outdoors

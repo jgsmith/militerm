@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:ghenna:ghenna9928"
+      north:
+        target: "scene:aber:ghenna:ghenna9925"
+      south:
+        target: "scene:aber:ghenna:ghenna9927"
+      up: null
+      west:
+        target: "scene:aber:ghenna:ghenna9925"
+    short: The mouth of a large cave.
+    sight: >
+      Out of the labyrinth at last! But whats this? You are standing at the mouth of a large cave about 100
+      feet in diameter. A steady trickle of blood runs down the stone steps which lead upwards - Dare you
+      enter?
+flag:
+  - dark
+  - outdoors

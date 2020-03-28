@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:talon:talon56"
+      south:
+        target: "scene:aber:talon:talon55"
+    short: Standing on a Beach
+    sight: >
+      You stand on a beach, with the cliffside to the east, the thundering ocean to the west, and the sand
+      stretching out before you. The warm sun shines down upon you, a light breeze blows in from the ocean.
+flag:

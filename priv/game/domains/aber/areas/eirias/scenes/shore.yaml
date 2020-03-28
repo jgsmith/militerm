@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eirias:mountain"
+    short: Shore
+    sight: >
+      You walk out of the mist into brilliant sunshine. Ahead of you is the lake, with the sun glittering off
+      the waves. There is a vast expanse of trees all around you, stretching for miles to either side of you.
+flag:
+  - outdoors

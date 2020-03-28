@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6635"
+    short: The cartographers
+    sight: >
+      You are in a closely walled-in room with little air and much light; a glass-fronted bookcase displays a
+      variety of map parchments, though as they are curled and bound with colored ribbon, it is difficult to
+      discern their contents.
+flag:
+  - nomobiles

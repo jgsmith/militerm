@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:s_aisle2"
+      north:
+        target: "scene:aber:cathedral:nave2"
+      south: null
+    short: South Aisle
+    sight: >
+      To the west the wall of the tower rises up, and tattered drapery of a deep &+Mpurple&* hue hangs down
+      from high above your head. To the south is a rather large doorway. The aisle continues to the east, or
+      you may enter the nave to the north.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:r_land"
+      north:
+        target: "scene:aber:blizzard:woods3"
+      south:
+        target: "scene:aber:blizzard:woods2"
+    short: The Woods
+    sight: >
+      You are in the woods listening to the trees as they rustle in the wind. There are no visible tracks
+      here, but you could travel through the woods in any direction, save to the west where thick holly bushes
+      block the route.
+flag:
+  - outdoors

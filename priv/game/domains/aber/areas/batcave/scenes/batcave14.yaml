@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave15"
+      west:
+        target: "scene:aber:batcave:batcave13"
+    short: Narrow Way Into Darkness
+    sight: >
+      This passageway is so narrow you have to turn sideways to squeeze through. At several points you nearly
+      get stuck between bottlenecks of limestone. Finally, tearing your clothes, you make your way through the
+      passage.
+flag:
+  - dark
+  - nosummon
+  - oneperson

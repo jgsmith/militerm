@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven4"
+      up:
+        target: "scene:aber:heaven:heaven4"
+    short: The Tabernacle
+    sight: >
+      You are standing within a large tent. To the east is a plain, while to the west you can see the gates of
+      pearl.
+flag:
+  - private

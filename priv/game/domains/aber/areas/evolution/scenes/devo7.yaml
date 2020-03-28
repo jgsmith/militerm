@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carb2"
+      north:
+        target: "scene:aber:evolution:devo8"
+      west:
+        target: "scene:aber:evolution:devo6"
+    short: Shady Shoreline
+    sight: >
+      You are standing on a quiet beach, overhung with the fronds of small clubmoss-like trees crowding
+      together by the water's edge. A gentle swell laps against the shore, and you see large fish swimming
+      about in the shallows. A few of them, to your surprise, seem to be crawling out of the water a little
+      further along the beach to the north.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cave:landing"
+    short: The Throne Room
+    sight: >
+      You stand in the center of the Dwarven Throne room, a vast arched hall whose ceiling appears to be a
+      huge picture of a dwarf's head made purely from rare and precious metals. A single door leads south.
+flag:
+  - dark

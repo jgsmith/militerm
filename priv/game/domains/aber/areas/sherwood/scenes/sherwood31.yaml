@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:hut2"
+      north:
+        target: "scene:aber:sherwood:sherwood32"
+      south:
+        target: "scene:aber:sherwood:sherwood30"
+    short: Under the Oak Trees
+    sight: >
+      You stand under many oaks trees that block out the sun. The path continues to the north.
+flag:
+  - outdoors
+  - dark

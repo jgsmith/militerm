@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot23"
+      south:
+        target: "scene:aber:camelot:camelot21"
+    short: Hallway
+    sight: >
+      The glow is brighter now, and you hear a faint clinking sound. It almost sounds like coins and bullion
+      being counted and stacked.
+flag:

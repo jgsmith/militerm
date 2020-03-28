@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord86"
+      up:
+        target: "scene:aber:fjord:fjord84"
+    short: The Northern Nolaks
+    sight: >
+      Snow-capped peaks with enormous avalanche and geological potential tower all around, pointing their tips
+      towards the heavens in total defiance of Mother Nature's attempts to erode them. Just visible from this
+      distance on Mt. Doralade is a nest made of the grass found only in the meadows far to the south. It is
+      currently uninhabited, however. The sounds of the ocean can be heard faintly as the waves crash against
+      the base of these mountainous slopes.
+flag:
+  - cold
+  - outdoors

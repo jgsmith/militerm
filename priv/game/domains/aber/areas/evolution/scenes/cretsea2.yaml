@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cretsea4"
+      south:
+        target: "scene:aber:evolution:cretsea1"
+    short: Cretaceous Seas
+    sight: >
+      You are in a very deep part of the ocean. All directions look pretty much the same. Only a hazy light
+      above you lets you keep your sense of direction, otherwise you would be totally lost. You notice that
+      the emphasis of the large sea life has changed. Ichthyosaurs are now all but extinct, and the dominant
+      marine predators are now the long-necked plesiosaurs and their cousins, the huge, short-necked
+      pliosaurs. It is the pliosaurs you fear, with their large heads and bone-crushing jaws...
+flag:
+  - soundproof
+  - underwater

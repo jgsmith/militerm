@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Magic maze
+    sight: >
+      Haha! You should always read the room description carefully.
+flag:
+  - death

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc31"
+      north:
+        target: "scene:aber:ancient:anc23"
+      south:
+        target: "scene:aber:ancient:anc20"
+      west:
+        target: "scene:aber:ancient:anc22"
+    short: Calle de los Muertos
+    sight: >
+      The street continues further north where the shape of the huge moon pyramid breaks the horizon. To the
+      east you see a massive building made of clay and stones rising up to the skies before you. At this very
+      moment the greatness of this ancient culture fills your mind and you can't help looking at this
+      breathtaking view while holding your breath. You shake your head and draw your mind back to reality. To
+      the west you notice a small house.
+flag:
+  - outdoors

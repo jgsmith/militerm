@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:3"
+      north:
+        target: "scene:aber:waste:2"
+      south:
+        target: "scene:aber:waste:2"
+      west:
+        target: "scene:aber:waste:2"
+    short: Fiery Crack
+    sight: >
+      You stand at the top of a huge fiery crack gazing down into the boiling flame beyond. The ground shakes
+      and trembles under the continued pounding from deep beneath the world.
+flag:
+  - hot

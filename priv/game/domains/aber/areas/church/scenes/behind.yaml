@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:church:altar"
+    short: Behind The Altar
+    sight: >
+      You stand behind the altar looking northwards along the length of the church which is a very sorry sight
+      indeed, everything wooden is rotting, the stonework is moss covered, and gaping holes in the roof allow
+      you to look skyward.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18602"
+      south:
+        target: "scene:aber:newbee:newbee18600"
+    short: The Beginning Of The Passage
+    sight: >
+      You find yourself entering a long corridor. You can hear the sound of creatures roaming about, but you
+      can't tell where the sound emanates from exactly. Exits lead to the east along the hallway, and south
+      back to the entrance.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:stjames:18"
+      south:
+        target: "scene:aber:stjames:16"
+      west:
+        target: "scene:aber:stjames:24"
+    short: In the Fountain
+    sight: >
+      Oops... you seem to have steered your canoe into the park's fountain. Luckily, the only damage you seem
+      to have done is to completely soak yourself. Now your troubles lie in trying to get your boat free of
+      the strong current pulling you toward the fountain base.
+flag:
+  - outdoors
+  - onwater

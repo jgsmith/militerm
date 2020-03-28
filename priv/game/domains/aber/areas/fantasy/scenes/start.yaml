@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:forest1"
+      west:
+        target: "scene:aber:blizzard:shady"
+    short: Forest Clearing
+    sight: >
+      You are standing in a clearing in a forest. All around the clearing there are trees that stand as tall
+      as giants, this must be a very old forest. To the north you see a large waterfall that seems to go up
+      for miles and miles and you stare at it in awe. The clearing becomes smaller and turns into a very large
+      path to the east.
+flag:
+  - outdoors
+  - nomobiles

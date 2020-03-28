@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar57"
+      south:
+        target: "scene:aber:balharbor:balhar40"
+    short: Foot of the Climbing Wall
+    sight: >
+      A one-hundred-foot high wall stands here where warriors and thieves come to practice their climbing
+      skills. Unfortunately, some nasty activity-- a riot--rages here making any attempts to climb the wall
+      impossible. Some of those rioters are up there on that wall to lob rocks at the police. Unruly angry
+      people chant rebellion slogans and call for the governor's head (without a body).
+flag:
+  - outdoors

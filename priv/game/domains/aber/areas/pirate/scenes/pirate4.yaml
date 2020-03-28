@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south: null
+      up:
+        target: "scene:aber:pirate:pirate2"
+    short: "Ship's Hold"
+    sight: >
+      You are in the ship's hold, apparently just a rather large, open space. It is immediately obvious that
+      the pirates have transported a large variety of objects in their ship, for you see everything from
+      scraps of cloth to animal droppings littering the floor. To the south, a large door leads to the rest of
+      the ship.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount16"
+      up:
+        target: "scene:aber:windy:windy29"
+    short: Atop Mount Doragua
+    sight: >
+      You are not actually on the summit here, for the final haul up to the top is almost sheer. The topmost
+      fifty feet is scored by a series of vertical grooves, and it is in one of these that you are now
+      sheltering, for in the more exposed areas the temperature is just too bitter to endure. The only way you
+      see going from here is back down to the shoulder. The clouds seem awfully thick around here, enough to
+      climb on.
+flag:
+  - outdoors
+  - cold
+  - nomobiles

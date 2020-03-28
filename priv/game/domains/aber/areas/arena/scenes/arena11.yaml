@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:arena:arena8"
+      south:
+        target: "scene:aber:arena:arena4"
+      west:
+        target: "scene:aber:arena:arena6"
+    short: The Arena
+    sight: >
+      The arena extends in all directions from here, except for a large pile of rocks blocking the way south.
+      The ground here is dry and the air stale. One large crack, big enough for you to look into, stretches
+      across your path.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

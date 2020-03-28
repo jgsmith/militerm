@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook142"
+      south:
+        target: "scene:aber:fairybook:fairybook140"
+    short: Inside the City
+    sight: >
+      Even with your eyes protected by green spectacles, you would dazzled by the brilliancy of the Emerald
+      City. The streets are lined with beautiful houses all built of green marble and studded everywhere with
+      sparkling emeralds. You walk over a pavement of the same green marble, and where the blocks are joined
+      together are rows of emeralds, set closely, and glittering in the brightness of the sun. The window
+      panes are of green glass; even the sun above the city has a green tint, and the rays of the sun appear
+      green. The path goes north and south.
+flag:

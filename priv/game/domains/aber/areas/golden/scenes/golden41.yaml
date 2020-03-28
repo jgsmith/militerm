@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:golden:golden40"
+      up:
+        target: "scene:aber:golden:golden1"
+    short: &+WPassage End&*
+    sight: >
+      You are standing in a small chamber. All around you big and small stars leap at you and it seems like
+      you could touch them. The are many voices talking and whispering as if some sort of conversation was
+      taking place. There is no floor needed here, for you are being suspended by some unknown force. There is
+      a mystical fog swirling and rotating around a small gateway to another land.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:bottom_stairs"
+      up:
+        target: "scene:aber:jbs:lhall2"
+    short: Half Way Down
+    sight: >
+      You have stopped to rest half way down the giant staircase. It's easier going while you are trying to go
+      down them than it will be trying to get back up, but if you're on your way back up you know that by now.
+flag:

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:zodiac:eartha"
+    short: "The Virgin's Bedroom"
+    sight: >
+      Well, you've always wanted to get in here, but there's nothing going to happen for you, sorry. There is
+      a large canopy bed here with white lace hanging from the top. The bed looks very soft and the light
+      glints off of the satin sheets.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:34"
+      south:
+        target: "scene:aber:stjames:36"
+      west:
+        target: "scene:aber:stjames:48"
+    short: St. James Park
+    sight: >
+      You are near the western entrance to the park, along the northern wall. Just to the south is the
+      northern path through the park. You can get a clear view of most of the park from here: the fountain and
+      island to the east, the grass to the south, and the street to the north.
+flag:
+  - outdoors

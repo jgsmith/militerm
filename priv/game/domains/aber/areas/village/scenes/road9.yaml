@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:store"
+      north:
+        target: "scene:aber:village:road10"
+      south:
+        target: "scene:aber:village:road8"
+      west:
+        target: "scene:aber:village:locksmith"
+    short: Main Street
+    sight: >
+      Standing near the northern end of main street, you can see a general store on the eastern side of the
+      road. While on the west there is a strange looking little shop.
+flag:
+  - outdoors

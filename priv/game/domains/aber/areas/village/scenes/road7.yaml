@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road6"
+      north:
+        target: "scene:aber:village:bank"
+      west:
+        target: "scene:aber:stjames:1"
+    short: Main Street
+    sight: >
+      Standing in Main street, there is a bank to the north, the enterance to a park is to the west, and the
+      back of the boat shed is to the south.
+flag:
+  - outdoors

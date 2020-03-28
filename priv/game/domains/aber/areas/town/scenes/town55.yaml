@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon6"
+      south:
+        target: "scene:aber:town:town54"
+    short: At The Drawbridge
+    sight: >
+      The drawbridge is lowered here allowing you access to the castle for commerce on the kings property in
+      safety. The King's Road stretches into the woods to the south towards a small commerce village.
+flag:
+  - outdoors
+  - nomobiles

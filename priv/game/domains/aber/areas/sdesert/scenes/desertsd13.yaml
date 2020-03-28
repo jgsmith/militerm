@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd14"
+      north:
+        target: "scene:aber:sdesert:desertsd11"
+      south:
+        target: "scene:aber:sdesert:desertsd16"
+    short: A Fork In The Rocky Road
+    sight: >
+      Here you really have to be careful as you travel. The number of rocks and dust particles in the path
+      seems to rise with the number of steps you take. A trail leads off to the &+yeast, and the path
+      continues &+ysouth.
+flag:
+  - outdoors
+  - hot

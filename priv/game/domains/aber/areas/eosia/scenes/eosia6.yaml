@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia7"
+      east:
+        target: "scene:aber:eosia:eosia5"
+      up:
+        target: "scene:aber:eosia:eosia8"
+    short: The Inn
+    sight: >
+      This is one of the more unsavory places to visit in Cimmura. Known for its fights, and wild times, this
+      establishment has been on the royal condemnation list for years. However, thanks to the local Thieves,
+      it has maintained its own existance. The Inn is closed right now, but perhaps if you came back later?
+flag:
+  - party
+  - peaceful
+  - soundproof

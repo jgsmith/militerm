@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town52"
+      west:
+        target: "scene:aber:town:town50"
+    short: Empty Campsite
+    sight: >
+      This is a well set up camp, it is very well organized except for one thing, you can't seem to find any
+      people in the area. There is food being cooked but there are no signs of a scuffle or anything. The
+      clearing is to the west and you can continue on into the woods to the east.
+flag:
+  - outdoors
+  - nomobiles

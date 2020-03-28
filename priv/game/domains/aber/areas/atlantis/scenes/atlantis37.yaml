@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis48"
+      north:
+        target: "scene:aber:atlantis:atlantis36"
+      south:
+        target: "scene:aber:atlantis:atlantis38"
+    short: Outside the Hotel
+    sight: >
+      As you swim along Main Street you see a plaque outside one building indicating that it is a hotel. You
+      notice all sorts of aquatic creatures enter and leave the hotel, some of whom can barely swim through
+      the door, they're so exhausted from sight-seeing. As you pass outside the Hotel, you hear the strains of
+      something that sounds like piano coming from inside the hotel, but it sounds odd and somewhat muffled.
+      You can enter the hotel to the east or head north and south on Main Street.
+flag:
+  - underwater

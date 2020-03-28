@@ -360,6 +360,16 @@ defmodule Militerm.Compilers.Script do
   def compile(acc, [{:sensation, sense, message} | rest]) do
     acc
     |> compile(message)
+    |> push(0)
+    |> push(sense)
+    |> encode(:narrate)
+    |> compile(rest)
+  end
+
+  def compile(acc, [{:sensation, sense, volume, message} | rest]) do
+    acc
+    |> compile(message)
+    |> push(volume)
     |> push(sense)
     |> encode(:narrate)
     |> compile(rest)

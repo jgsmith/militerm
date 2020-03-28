@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:scedge"
+      west:
+        target: "scene:aber:eastcoast:meadow"
+    short: Southern Edge of Cliff
+    sight: >
+      South of the rolling hills, you overlook from a cliff edge the lowlands of the swamps looming some two
+      hundred feet below you to the south. Lucky for you, a sturdy looking fence is between you and the ground
+      far below the cliff. Even with the fence, doing anything gymnastic would be foolhardy. You can follow
+      the cliff edge to the east, or follow a westward path wending its way to some hills.
+flag:
+  - outdoors

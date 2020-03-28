@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook32"
+      south:
+        target: "scene:aber:fairybook:fairybook35"
+      west:
+        target: "scene:aber:fairybook:fairybook30"
+    short: Intersection
+    sight: >
+      You stand at an intersection of three paths. To the west you see a small house in the distance, to the
+      north is a tiny grey hut, and to the south it leads to a clearing. A signpost here tells you that the
+      west is 'The Duchess', the north is 'March Hare', and the south is 'Mad Hatter.'
+flag:
+  - outdoors

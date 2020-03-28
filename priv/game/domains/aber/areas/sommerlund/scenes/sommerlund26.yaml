@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: The Speedster
+    sight: >
+      This is the coach of a magician. It has books abound in dealing with lore and arcane incantations. There
+      is also a wide variety of alchemy reagents lying in jars on the shelves, as well as a long, silver,
+      sleek staff propped against the bed. The walls are lined with runes themselves, perhaps warding off
+      something. There is neither an aura of good nor one of evil, but a crystal wand on the table has the
+      word 'kai' on it.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6768"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6766"
+    short: A stream
+    sight: >
+      A quietly flowing stream drifts down a slim riverbed, leading south from a small hole in the rock to the
+      north. The water is clear and pure, and seems entirely empty of creatures.. It may be true this stream
+      was taxed by heavy fishing long ago that long since cleaned it of all life.
+flag:
+  - onwater
+  - outdoors

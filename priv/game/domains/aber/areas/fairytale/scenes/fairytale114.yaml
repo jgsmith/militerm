@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale113"
+      south:
+        target: "scene:aber:fairytale:fairytale121"
+      west:
+        target: "scene:aber:fairytale:fairytale115"
+    short: Top Porch
+    sight: >
+      You stand on a railed porch. A glass roof is above you, and you can see clouds drift slowly past. To the
+      east you may look down on the trees, which are just below your height. To your south is a large metal
+      cube, and to the west is a hallway. Lying around the porch are various pieces of lounge furniture, such
+      as a patio chair, a hammock, and a porch swing. This room appears to be a lovely place for a porch
+      party.
+flag:

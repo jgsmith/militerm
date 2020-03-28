@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Vacuum
+    sight: >
+      You are inside a void. There is no way out, other than the way in. Bones of those before who could not
+      find that way out are neatly piled in one discreet corner.
+flag:

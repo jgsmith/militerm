@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eforest:cavern"
+      up: null
+    short: Long Ladder
+    sight: >
+      You are midway up a very long ladder. It seems rather damp as if water constantly dripped on it. You
+      think you can manage to keep a grip on the ladder which extends far above and below you.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest97"
+      south:
+        target: "scene:aber:rainforest:forest98"
+      west:
+        target: "scene:aber:rainforest:forest89"
+    short: Sheltered Cove
+    sight: >
+      The shore here curves inwards in a small arc, forming a bay in which the water is of uniform depth. If
+      it weren't so muddy you might consider having a paddle, but the thought of vicious piranhas dissuades
+      you. You can head east or west along the river bank or south into the forest.
+flag:
+  - outdoors

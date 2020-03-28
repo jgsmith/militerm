@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fire:fire34"
+      north: null
+      south:
+        target: "scene:aber:fire:fire36"
+      west:
+        target: "scene:aber:fire:fire35"
+    short: Village circle
+    sight: >
+      You are standing in the village, where robbers are living. All buildings are very simple built, mostly
+      made of wood. There are fires burning everywhere, so it isn't so cold here. You can hear some music,
+      loud voices coming from the greatest hut to the south of the circle. Also you can try to look in other
+      smaller huts.
+flag:
+  - dark

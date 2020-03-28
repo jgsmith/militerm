@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:adept:adept12"
+      north:
+        target: "scene:aber:adept:adept6"
+      west:
+        target: "scene:aber:adept:adept8"
+    short: Junction
+    sight: >
+      A three-way fork presents itself about a hundred yards further down the trail. The trail widens on the
+      eastern and western branches and narrows on the northern approach. A village lies to the west and a
+      medium-sized city is to the east.
+flag:

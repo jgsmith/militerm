@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung58"
+      north:
+        target: "scene:aber:nibelung:nibelung63"
+      south:
+        target: "scene:aber:nibelung:nibelung65"
+    short: Chapel
+    sight: >
+      You are standing in the chapel for the castle. A small altar indicating no specific denomination is in
+      one corner. Some murals adorn one wall, and a cross hangs from the ceiling behind the altar. Light
+      shines in from a window on one wall. To the north is the tapestry room, east affords an exit to the
+      exterior of the castle, while to the south you spy a small side yard.
+flag:

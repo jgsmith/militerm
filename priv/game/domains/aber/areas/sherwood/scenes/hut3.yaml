@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sherwood:sherwood32"
+    short: Ramshackle Hut
+    sight: >
+      As you enter, the ceiling beam starts to fall, then catches on something. Maybe this will hold together
+      for a little bit longer.
+flag:
+  - dark

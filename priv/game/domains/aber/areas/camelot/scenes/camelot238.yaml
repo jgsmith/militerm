@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot237"
+      west:
+        target: "scene:aber:camelot:camelot239"
+    short: Atop the Southwestern Wall
+    sight: >
+      Standing behind the tall embrassures, you look out over the moat to the village beyond. Exits lead east
+      into the Gatetower, or west into another tower.
+flag:
+  - outdoors

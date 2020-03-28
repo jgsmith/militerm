@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:n_aisle3"
+      north:
+        target: "scene:aber:cathedral:n_porch"
+      south:
+        target: "scene:aber:cathedral:crossbay"
+      west:
+        target: "scene:aber:cathedral:n_aisle2"
+    short: Northern End of the Transept
+    sight: >
+      The aisles branch off to the east and west. The crossing bay is to the south, and to the north an Open
+      portal leads out into the &+cmist&*.
+flag:
+  - dark

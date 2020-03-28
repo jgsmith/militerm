@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3493"
+      north: null
+    short: Guardians Chamber
+    sight: >
+      Well you've done it now! Along the north wall are two large gaurdians that rush to attack as soon as you
+      make your presence known. There are signs of others that have tried as the room is scarred with battle
+      marks. There are no signs, however of any that have succeded. Your fight here will be brutal with little
+      chance of success. The only exit appears to be east.
+flag:
+  - nosnoop

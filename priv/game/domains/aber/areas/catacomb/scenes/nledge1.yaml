@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:catacomb:sledge1"
+    short: Northern End of the Ledge
+    sight: >
+      You find yourself at the northern end of a narrow ledge overlooking a deep, seemingly bottomless chasm.
+      An archway has been carved into the stone here.
+flag:

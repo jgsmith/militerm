@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale79"
+      east:
+        target: "scene:aber:fairytale:fairytale82"
+      up:
+        target: "scene:aber:fairytale:fairytale78"
+    short: Down the Well
+    sight: >
+      You are partway down the well, in a good position to try for the door. The rungs are much more slippery
+      than you had thought that they would be.
+flag:

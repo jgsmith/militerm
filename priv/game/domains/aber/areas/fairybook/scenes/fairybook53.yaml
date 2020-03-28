@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook54"
+      east:
+        target: "scene:aber:fairybook:fairybook54"
+      west:
+        target: "scene:aber:fairybook:fairybook52"
+    short: Overlook
+    sight: >
+      You stand at the top of the hill and stand without speaking for a few minutes, looking out in all
+      directions over the country - and a most curious country it is. A number of tiny little brooks run
+      straight across it from side to side, and the ground between is divided into squares by a number of
+      little green hedges, that reach from brook to brook. You realize that it is laid out just like a chess
+      board, and search for the playing pieces. Sure enough, you see them. You also see a path leading from
+      your current location, down the hill, and across the field to the east.
+flag:
+  - outdoors

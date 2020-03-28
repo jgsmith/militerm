@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord18"
+      west:
+        target: "scene:aber:fjord:fjord16"
+    short: Rickety Pier
+    sight: >
+      The boards creak underneath your weight. The pier was excellently made to have been able to stand for as
+      long as it has. Beneath the waters of the lake, the ground quickly vanishes from view. This area for the
+      pier was selected because of the deep hole here, where the bigger trout and catfish choose to reside.
+      The pier ends near the edge of this hole as to allow fisherpersons the most possible area of the hole to
+      fish in.
+flag:
+  - outdoors
+  - nomobiles

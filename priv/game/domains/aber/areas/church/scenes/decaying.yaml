@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:church:church1"
+    short: A Decaying Room
+    sight: >
+      You stand in a decaying room, the stone walls and floor are soaked with damp and whatever used to be
+      stored in here has long since rotted away. The timbers of the roof above you now sag dangerously and the
+      whole room smells of rot. A single doorway leads west.
+flag:

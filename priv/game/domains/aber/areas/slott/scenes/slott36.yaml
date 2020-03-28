@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:slott:slott34"
+      north: null
+      south:
+        target: "scene:aber:slott:slott32"
+      west:
+        target: "scene:aber:slott:slott37"
+    short: End of corridor
+    sight: >
+      This is one end of a corridor; there are doorways in all directions. This must be the cleanest room in
+      the castle, not as much as a trace of dust and dirt is to be found anywhere. Even the ceiling looks like
+      it have been cleaned recently!
+flag:

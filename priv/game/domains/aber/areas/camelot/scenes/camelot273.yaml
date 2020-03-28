@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot276"
+      south:
+        target: "scene:aber:camelot:camelot275"
+      west:
+        target: "scene:aber:camelot:camelot268"
+    short: The Red Bedroom
+    sight: >
+      The vivid reds of wall and carpet, combined with the scarlet sheets of the bed, make this room feel
+      invigorating and stirs the blood.
+flag:
+  - private
+  - party

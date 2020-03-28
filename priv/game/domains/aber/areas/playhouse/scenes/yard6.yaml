@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard7"
+    short: Outdoor Playpen
+    sight: >
+      This is a nice large playpen with a fine layer of sand covering most of the grass within the plastic
+      mesh walls. You look down to see that the ground is littered with toy fire engines, toy ambulances, hot
+      wheel cars, transformers, and many other favorite children's toys. To the east is the children's picnic
+      area.
+flag:
+  - outdoors

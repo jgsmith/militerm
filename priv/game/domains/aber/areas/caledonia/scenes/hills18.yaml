@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:caledonia:hills15"
+      west:
+        target: "scene:aber:caledonia:hills16"
+    short: Pine Fell
+    sight: >
+      You are wandering through a lush valley among pine trees of small stature but considerable prickliness.
+      The branches from one tree extend all the way to the next, and in forcing your way between them you find
+      yourself constantly pierced by their long pine needles.
+flag:
+  - outdoors

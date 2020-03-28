@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:home"
+      south:
+        target: "scene:aber:eforest:glade"
+    short: Forest Path
+    sight: >
+      You are walking down a forest path which seems less corrupted than the surrounding areas. Some wildlife
+      still lives, and the trees are not rotting or dead. You see some of the beauty which once existed in
+      this realm. To the north of you lies more vibrant forest, while to the south you see only destruction.
+flag:
+  - outdoors

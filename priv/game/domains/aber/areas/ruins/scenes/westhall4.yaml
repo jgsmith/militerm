@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:westhall3"
+      north:
+        target: "scene:aber:ruins:westhall5"
+      south:
+        target: "scene:aber:ruins:closet1"
+    short: A Turn in the Western Hallway
+    sight: >
+      You are in the western hallway that branches off of the main ruins. The hallway looks to take a turn to
+      the north here and there seems to be a small room to the south of here.
+flag:
+  - dark

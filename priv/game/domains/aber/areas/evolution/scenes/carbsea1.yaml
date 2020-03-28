@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:carbsea2"
+      south:
+        target: "scene:aber:evolution:devo6"
+      west:
+        target: "scene:aber:evolution:carbsea3"
+    short: Inshore Waters
+    sight: >
+      This is the carboniferous period. Arthrodires, surprisingly, are extinct, having suddenly lost interest
+      in life at the end of the devonian. The seas are now free for sharks to conquer. To the east is a high
+      cliff rising out of the sea, and you would not be able to climb out on to the land there. A better
+      beaching point lies to the south.
+flag:
+  - soundproof
+  - underwater

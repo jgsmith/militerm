@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:mount42"
+      up:
+        target: "scene:aber:rainforest:mount40"
+    short: Winding Path
+    sight: >
+      You are on a long and winding path by which animals and explorers may climb from the rainforest up into
+      the mountains, or descend from the mountains into the trees. Whichever way you choose to go, it is a
+      long haul.
+flag:
+  - outdoors

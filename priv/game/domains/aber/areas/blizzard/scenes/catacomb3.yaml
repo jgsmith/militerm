@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:catacomb3"
+    short: Maze
+    sight: >
+      You are at a dead end in the catacombs. A passage leads east.
+flag:
+  - soundproof
+  - maze

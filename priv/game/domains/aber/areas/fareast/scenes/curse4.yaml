@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curse3"
+      south:
+        target: "scene:aber:fareast:curseshore2"
+      west:
+        target: "scene:aber:fareast:cursecave"
+    short: Cursed Forest
+    sight: >
+      This forest is revoltingly similar to its surroundings: rotting trees intertwine to form a roof
+      overhead, blocking what little light filters through the swirling haze. This noxious gas makes breathing
+      difficult and rest, impossible.
+flag:
+  - dark
+  - tempextreme

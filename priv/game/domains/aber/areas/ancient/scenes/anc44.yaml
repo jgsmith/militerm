@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc15"
+      south:
+        target: "scene:aber:ancient:anc13"
+    short: The Stone Jetty
+    sight: >
+      You decided to choose the alligators. Quicky you clamber to the jetty and prepare yourself for the
+      battle. The alligators, however, start preparing themselves for dinner. They obviously liked your
+      decision which makes you think that maybe it would have been a better idea to go further east along the
+      river despite the rapid. To the north you see a little sanctuary.
+flag:
+  - outdoors

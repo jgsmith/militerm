@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:1"
+      north:
+        target: "scene:aber:stjames:11"
+      south:
+        target: "scene:aber:stjames:13"
+      west:
+        target: "scene:aber:stjames:15"
+    short: Path Through St. James Park
+    sight: >
+      You are standing west of the main entrance to St. James Park. The park stretches out to the west and
+      consists of many green lawns, a pond, fountains, and two stone paths. To the north is the pond, to the
+      south the green lawns, and way ahead to the west you can just make out the back wings of Buckingham
+      Palace. The path is lined on both sides by green park benches.
+flag:
+  - outdoors

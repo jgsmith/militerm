@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon44"
+      east: null
+    short: Top of Staircase
+    sight: >
+      You stand at the top of a tall spiral staircase. A trememdous red door lies on the east wall. A chill
+      runs down your spine as a sense of foreboding evil completely overpowers all of your senses. There is an
+      almost blindking darkness which enshrouds the entire room. You may retreat to the safety of the known
+      points of the castle below, or venture into the unknown through doors to the east.
+flag:
+  - nomobiles

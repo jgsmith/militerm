@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fairybook:fairybook114"
+    short: In the House
+    sight: >
+      The house is primarily a bedroom. The bed here is covered with blue sheets, and a blue rug lies next to
+      it. A blue table stands next to the bed. The only exit is to the south.
+flag:
+  - outdoors

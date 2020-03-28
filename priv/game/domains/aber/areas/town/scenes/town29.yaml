@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:town:town17"
+      west:
+        target: "scene:aber:town:town30"
+    short: Precarious Ledge
+    sight: >
+      You are standing on a very small ledge that is very tough for you to balance on, but you manage as you
+      cling to a drainage pipe from the roof. The only ways out are to risk climbing down the pipe, or to go
+      west into one of the brothel's rooms.
+flag:
+  - outdoors

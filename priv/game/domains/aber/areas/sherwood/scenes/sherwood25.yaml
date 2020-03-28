@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood24"
+      north:
+        target: "scene:aber:sherwood:sherwood26"
+    short: Under the Elms
+    sight: >
+      You stand under very thick Elm trees. The path you are traveling on is more like a trail now. It doesn't
+      appear that too many people have ventured down this road. And maybe they had a good reason.
+flag:
+  - outdoors
+  - dark

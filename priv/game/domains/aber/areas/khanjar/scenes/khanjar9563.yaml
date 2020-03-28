@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9564"
+      south:
+        target: "scene:aber:khanjar:khanjar9562"
+    short: On A Trail Through High Osiers
+    sight: >
+      Despite the thickness of these bushes you still detect the path and walk on it easily. Now your trip
+      begins to wind downwards, from where you can hear some voices.
+flag:
+  - real
+  - outdoors

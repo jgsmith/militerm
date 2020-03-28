@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord17"
+      south:
+        target: "scene:aber:fjord:fjord13"
+    short: Pier Point
+    sight: >
+      The beach narrows slightly here, drawing the meadow closer to its water source. Rickety wooden planks
+      and vine-tied support logs form a pier which juts out eastward onto the lake.
+flag:
+  - outdoors

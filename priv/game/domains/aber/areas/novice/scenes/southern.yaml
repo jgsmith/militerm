@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:enchanting"
+      north:
+        target: "scene:aber:novice:grand"
+      west:
+        target: "scene:aber:novice:corner"
+    short: Southern Oak
+    sight: >
+      You now stand near the base of the southern-most tree of the ring. You look back at the center tree and
+      are still amazed at the size and grandeur of it. You wonder again how all this happened.
+flag:
+  - outdoors
+  - real

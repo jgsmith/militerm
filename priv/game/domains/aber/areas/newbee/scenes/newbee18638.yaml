@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18639"
+      north:
+        target: "scene:aber:newbee:newbee18631"
+    short: A Large Room
+    sight: >
+      You almost stumble as you enter this room... the sudden feeling of no walls on either side of you makes
+      you a bit nervous. Suddenly you are vulnerable on all sides. You can't even tell how big a room this is,
+      because it extends to the east farther than you light will reach...
+flag:
+  - dark

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:pyramid:pyramid4"
+    short: Up the &+yDune&N
+    sight: >
+      The sand is too loose, too unstable to allow you to climb and you slide back toward the sea of sand.
+flag:
+  - outdoors
+  - nomobiles

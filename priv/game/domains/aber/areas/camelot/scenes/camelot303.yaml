@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot302"
+      south:
+        target: "scene:aber:camelot:camelot280"
+      west:
+        target: "scene:aber:camelot:camelot282"
+    short: Master Bedroom
+    sight: >
+      This room was obviously designed with one thing in mind. Pleasure. The walls are of white marble, and
+      the floor is covered by a thick white rug, made from some sort of fur. The draperies over the windows
+      are red, and give a warm glow to the rest of the room. The single item of furniture takes up almost all
+      available floor space.
+flag:
+  - private
+  - party
+  - soundproof
+  - peaceful

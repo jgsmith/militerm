@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:brookmere:brookmere1"
+      west:
+        target: "scene:aber:caledonia:hills3"
+    short: Brookmere Castle
+    sight: >
+      You are wandering about amongst the ruins of an old castle. One solitary tower remains standing, as well
+      as much of the outer wall, but you discount immediately any thought of an ascent - the crumbling stone
+      looks as if it may collapse at any time. Once, though, you can imagine, this was probably an impressive
+      place, though somewhat vulnerable to assault. Perhaps that is why it now lies in ruins.
+flag:
+  - outdoors

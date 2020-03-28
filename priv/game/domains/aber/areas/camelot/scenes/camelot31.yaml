@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot29"
+      north:
+        target: "scene:aber:camelot:camelot57"
+      south:
+        target: "scene:aber:camelot:camelot30"
+    short: The Gateway
+    sight: >
+      You have reached the rear gateway of the castle grounds. To the north you see a long road, leading to a
+      small hamlet, east lies a small, quiet clearing. South can be seen a path through a dense forest.
+flag:
+  - outdoors

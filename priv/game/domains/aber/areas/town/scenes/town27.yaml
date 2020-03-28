@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town26"
+      south:
+        target: "scene:aber:town:town28"
+      west:
+        target: "scene:aber:town:town35"
+    short: Cheery Tavern
+    sight: >
+      This is a large, cheery tavern where many people come to drink and even seek some entertainment from
+      time to time after a long day of adventuring. The bar is made out of beautiful handcarved oak, and you
+      also notice that the bar is fully stocked. Basically, you name it, you can get it here. To the north you
+      may enter one of the town's small squares, to the south you could clamber behind the bar, and to the
+      west you may enter the town's brothel.
+flag:

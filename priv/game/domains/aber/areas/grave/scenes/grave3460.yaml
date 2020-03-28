@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:grave:grave3462"
+      south:
+        target: "scene:aber:grave:grave3459"
+    short: Vertical Shaft
+    sight: >
+      As you enter the room here the first you notice is a long tunnel that angles down at a severe angle into
+      the hel of below. To the south is a large pool of water, and anchored on the shore is a very large
+      barge. The barge is secured so thoroughly, you have no chance of making use of it. The floor here is
+      well worn as a great many people, or things have passed here.
+flag:

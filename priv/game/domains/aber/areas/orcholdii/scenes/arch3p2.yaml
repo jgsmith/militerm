@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:orcholdii:arch3"
+      west: null
+    short: Grand Hallway
+    sight: >
+      You are standing at the end of the northern hallway. The hall continues to be grandiose. There is a
+      painting at the end of the hallway that would give even the coldest person nightmares. From the regalia
+      it appears to be the queen of the orcs, Blanche. She must surely be ugly, even by orcish standards and
+      to you her visage is downright frightening. There are doorways to the east and west, you should probably
+      choose one fast.
+flag:

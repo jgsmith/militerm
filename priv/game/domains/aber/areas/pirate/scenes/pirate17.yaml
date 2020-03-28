@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pirate:pirate16"
+      south:
+        target: "scene:aber:pirate:pirate18"
+      up:
+        target: "scene:aber:pirate:pirate18"
+      west:
+        target: "scene:aber:pirate:pirate21"
+    short: The Beach
+    sight: >
+      You are standing on the shore of a lovely tropical island. White sand extends along the shoreline. The
+      western horizon is dominated by a huge volcano. To the west a small path leads to a tunnel that cuts
+      into the heart of the volcano. Another small path leads off to the south, winding its way up the side of
+      the volcano, and small bushes can be seen to the north.
+flag:
+  - outdoors
+  - nomobiles

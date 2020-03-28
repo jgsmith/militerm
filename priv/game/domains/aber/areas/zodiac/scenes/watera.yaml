@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:westend"
+      north:
+        target: "scene:aber:zodiac:cancer"
+      south:
+        target: "scene:aber:zodiac:pisces"
+      west:
+        target: "scene:aber:zodiac:scorpio"
+    short: The Land of Water
+    sight: >
+      This place is lovely, however you don't like the way the ice and snow hasn't been melted by the warm sun
+      and air. "BREAKING THE LAWS OF PHYSICS ISN'T RIGHT!" you shout, but no one here seems to care.
+flag:

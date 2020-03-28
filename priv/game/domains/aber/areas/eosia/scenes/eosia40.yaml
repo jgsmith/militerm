@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia41"
+      north:
+        target: "scene:aber:eosia:eosia39"
+      south:
+        target: "scene:aber:eosia:eosia40"
+      west:
+        target: "scene:aber:eosia:eosia40"
+    short: In the Temple Maze
+    sight: You are lost within the temple maze.
+flag:
+  - nosummon
+  - cantsummon

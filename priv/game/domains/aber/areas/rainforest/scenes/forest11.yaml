@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest12"
+      south:
+        target: "scene:aber:rainforest:forest10"
+      west:
+        target: "scene:aber:rainforest:forest9"
+    short: Bank Of The Roaring River
+    sight: >
+      You are careful not to get too close to the river's edge at this point, for the water is so violent that
+      its limits are not constant, and every so often a sudden surge washes over the rocks on the river bank.
+      At this point the river is descending in fits and bursts, yet to the east it seems to disappear over the
+      edge of a cliff.
+flag:
+  - outdoors

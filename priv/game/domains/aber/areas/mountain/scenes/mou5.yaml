@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc24"
+      west:
+        target: "scene:aber:mountain:mou4"
+    short: Rocky Path
+    sight: >
+      You can hardly make out a stony path winding between big rocks eastwards. The path widens as you wander
+      further east and you can recognize an old town far on the edge of your sight. Back to the west a vast
+      desert lies in the burning heat of the sun.
+flag:
+  - outdoors
+  - nomobiles

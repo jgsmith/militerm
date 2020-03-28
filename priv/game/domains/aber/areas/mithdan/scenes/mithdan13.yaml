@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan14"
+      north:
+        target: "scene:aber:mithdan:mithdan8"
+    short: Thick Forest
+    sight: >
+      All around you the forest is filled with brambles, although they look much thinner to the north, and the
+      eastern route has few. The forest turns you around, confusing your senses. The musty smell of aged
+      leaves clogs your mind.
+flag:
+  - outdoors

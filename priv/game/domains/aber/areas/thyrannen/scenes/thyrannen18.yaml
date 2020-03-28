@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen12"
+      south:
+        target: "scene:aber:thyrannen:thyrannen19"
+    short: Redwood Forest
+    sight: >
+      Here the forest seems to gasp in anticipation, and you think you can sense it lean forward, urging you
+      on, but urging you toward what?
+flag:
+  - outdoors

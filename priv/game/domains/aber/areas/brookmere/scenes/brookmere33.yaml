@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere32"
+      north:
+        target: "scene:aber:brookmere:brookmere34"
+    short: Corridor
+    sight: >
+      Looking down the length of this corridor you see that it tapers off sharply as it goes along. Even the
+      opening you stand at is small. Fighting back claustrophobia you crouch, crawl and finally wriggle you
+      way along, getting scratched and bruised by sharp rocks in the process. Towards the end of the
+      `corridor' you see a luminous green glow, coming from a cave at the very end. This glow is nothing like
+      that produced by the glowing fungus in the wetter parts of Brookmere. It looks ominous and creepy. You
+      have a bad feeling about the cave up ahead. You couldn't say exactly why, but past experience has taught
+      you to trust your intuition.
+flag:
+  - dark

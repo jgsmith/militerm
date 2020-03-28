@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:moor:lost2"
+      north:
+        target: "scene:aber:camelot:camelot"
+      south:
+        target: "scene:aber:moor:edge"
+      west:
+        target: "scene:aber:newvillage:road7e"
+    short: Rocky End
+    sight: >
+      The path you are following across the moor ends here, in a narrow rocky hollow. Another narrow path
+      leads northwards, and you espy a great castle in the distance.
+flag:
+  - outdoors

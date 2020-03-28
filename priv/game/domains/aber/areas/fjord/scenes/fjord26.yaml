@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord25"
+    short: Deep Depression
+    sight: >
+      The murky, sandy ditch continues right to a wall of root-entangled earth. The grasses of the meadow
+      surrounding the lake fight for room at this once-upon-a-time lake outlet, all wanting the most water
+      they can scrounge up. This section of the ditch dips about a foot lower than the rest of it to the
+      north, and the larger amount of water makes for a nice foot spa. Worms poke their heads or tails out of
+      the sodden bank, where they have eaten a path and are quickly reminded by the open air not to go any
+      farther.
+flag:
+  - outdoors

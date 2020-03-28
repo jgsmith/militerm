@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sea:1"
+      north:
+        target: "scene:aber:sea:7"
+      south:
+        target: "scene:aber:sea:4"
+      west:
+        target: "scene:aber:sea:7"
+    short: All At Sea
+    sight: >
+      You are lost out at sea. The waves pound heavily all around you, although it looks slightly safer to the
+      south and east.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rats:rat3"
+    short: "Master's room"
+    sight: >
+      How disgusting. It is a room full of pieces of different foods. There is a huge pipe dripping some green
+      liquid on the food.
+flag:
+  - dark

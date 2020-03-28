@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gold:goldgates"
+      west:
+        target: "scene:aber:ildharas:ildharas01"
+    short: On The Path
+    sight: >
+      You are following a small path that is leading you along golden coloured fields of grass and wheat. To
+      the west you see the path dissapear between two large boulders, and a huge mound rises above them.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:swamp4"
+      south:
+        target: "scene:aber:fantasy:swamp6"
+    short: Murkier Swamp
+    sight: >
+      The swamp is still getting murkier and even colder as you trudge onward. Your legs are half frozen now
+      and you are starting to lose all hope of ever making it out of this swamp.
+flag:
+  - outdoors

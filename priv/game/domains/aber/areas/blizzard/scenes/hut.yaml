@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:pasture"
+    short: "The Hermit's Hut"
+    sight: >
+      This small dank hut appears to have once been the home of a hermit or maybe even a sorceror of some
+      form, as the rotting junk which litters the floor contains bits of things you have never seen before. A
+      narrow doorway leads south into fresh air.
+flag:

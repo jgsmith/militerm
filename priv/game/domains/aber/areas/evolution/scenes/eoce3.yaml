@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:eoce2"
+    short: "River's Edge"
+    sight: >
+      The water laps at your feet. You find yourself having constantly to find new footing as you inexorably
+      sink into the mud. There are unfortunately no rocks or tufts of vegetation here to stand on, and you
+      would be well-advised to head back to surer ground.
+flag:
+  - outdoors

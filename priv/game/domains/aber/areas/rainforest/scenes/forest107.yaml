@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest108"
+      north:
+        target: "scene:aber:rainforest:river3"
+      south:
+        target: "scene:aber:rainforest:forest106"
+      west:
+        target: "scene:aber:rainforest:forest105"
+    short: Muddy Spit
+    sight: >
+      A more unattractive name for a location you could not imagine, yet that is what you are standing upon -
+      a short spit of hard-packed mud into which you sink only a little. It extends out into the river for a
+      few yards before dipping beneath the surface. Whether it has built up over a fallen tree, long
+      submerged, you have no idea, but it is certainly a product of natural rather than human effort.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia23"
+      west:
+        target: "scene:aber:eosia:eosia25"
+    short: The Shores of Rindor
+    sight: >
+      You have reached the northern shores of the Kingom of Rindor. Currently, the Elene Church is trying to
+      convert the heratics of the Eshandist cult back to the 'true' faith. As an Elene, perhaps it would be
+      best if you left Rindor as soon as possible.
+flag:
+  - outdoors
+  - nomagic
+  - hot

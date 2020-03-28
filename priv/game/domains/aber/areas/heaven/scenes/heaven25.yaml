@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:heaven:heaven24"
+      north:
+        target: "scene:aber:heaven:heaven27"
+      west:
+        target: "scene:aber:heaven:heaven26"
+    short: Valhalla
+    sight: >
+      Looking up, you notice that the roof is made of shields, and the rafters are spears. Breast-plates
+      litter the benches. A wolf lurks at the western door, and an eagle hovers over it. A deep and wild
+      looking river, Thund, roars beside Valgrind, the outer gate. Five hundred and forty doors lead off in
+      different directions, but you suspect that eight hundred warriors stand behind each one, so you opt not
+      to open any of them.
+flag:
+  - private

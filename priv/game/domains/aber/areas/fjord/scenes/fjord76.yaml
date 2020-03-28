@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord75"
+    short: The Platform
+    sight: >
+      This raised section of a cooled volcanic lava flow tapers up to a perfectly flat and smooth square.
+      Fireballs from the Dark City below explode high up into the volcano and briefly illuminate this area,
+      bringing forth the nearby mountain wall in all of its stark glory. Like its counterpart at the other end
+      of the city, this magical spot allows transport both within and without of Mount Phaylax. Volcanic
+      slopes lead down to the avenue of Loolander.
+flag:
+  - dark

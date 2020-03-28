@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ancient:anc7"
+      west:
+        target: "scene:aber:ancient:anc7"
+    short: "Quetzalcoatl's Temple"
+    sight: >
+      Looking back down where you came from makes you feel dizzy so you decide to pay more attention to a huge
+      monolith laying before you. The monolith is four feet high and twelve feet wide. Its' face is smooth,
+      but covered with dark red and brown spots all over it. This is probably a place where the priests of
+      this ancient city used to worship their god of Earth and the Universe later known as Quetzalcoatl by the
+      Aztecs. The sight could easily turn a flesh-eating beast to a true vegetarian.
+flag:
+  - outdoors

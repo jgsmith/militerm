@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot72"
+      north:
+        target: "scene:aber:camelot:camelot60"
+      south:
+        target: "scene:aber:camelot:camelot58"
+      west:
+        target: "scene:aber:camelot:camelot76"
+    short: A Crossing of the Ways
+    sight: >
+      Your feet walk a smooth road, carefully cobbled and maintained. Roads lead in all directions from here.
+flag:
+  - outdoors

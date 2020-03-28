@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9969"
+      south:
+        target: "scene:aber:ghenna:ghenna9966"
+      west:
+        target: "scene:aber:ghenna:ghenna9970"
+    short: A north-south street in Ghenna.
+    sight: >
+      This narrow lane runs North to South. The city wall towers above you to the east, and a door lies West,
+      beneath a glowing red light.
+flag:
+  - dark
+  - outdoors

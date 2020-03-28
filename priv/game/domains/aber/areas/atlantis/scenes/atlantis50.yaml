@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis51"
+      west:
+        target: "scene:aber:atlantis:atlantis49"
+    short: Watery Path
+    sight: >
+      As you pass along this path, you are surrounded by a large group of small, brighly colored yellow fish.
+      They swirl around you like a minature tornado then swiftly swim off again into the sea depths. You can
+      continue to swim along the path towards the cave to the east or back towards the garden to the west.
+flag:
+  - underwater

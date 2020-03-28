@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:26"
+      west:
+        target: "scene:aber:cyrus:55"
+    short: Hall
+    sight: >
+      The hall continues...you wish you'll find an end to it. But now, the walls look like the ones you saw
+      when you entered the cave. You doesn't have many choices. Guess you must continue forward.
+flag:

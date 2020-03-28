@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd07"
+      west:
+        target: "scene:aber:sdesert:desertsd05"
+    short: The Mirage
+    sight: >
+      Nearly delirious from the heat and thirst, you totter up to the front steps of the Taco Bell. (or is it
+      Taco Hell?) Stumbling through the weeds, you suddenly realize that this is all some deadly trick of the
+      desert. The mirage quivers, and disappears before your bloodshot eyes. The path here leads &+yeast and
+      west&*.
+flag:
+  - outdoors
+  - hot

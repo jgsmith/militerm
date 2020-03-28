@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haunted:haunted_34"
+      west:
+        target: "scene:aber:haunted:haunted_36"
+    short: Start of the Lair
+    sight: >
+      You come to a glowing section of the pumpkin patch. The pumpkins glow green as you make your way through
+      them. Two peculair little kids stand guard not allowing you to pass.
+flag:

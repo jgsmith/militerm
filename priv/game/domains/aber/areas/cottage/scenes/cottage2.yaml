@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cottage:cottage9"
+      east:
+        target: "scene:aber:cottage:cottage9"
+      north: null
+      south:
+        target: "scene:aber:cottage:cottage1"
+    short: Peaceful Valley
+    sight: >
+      You have entered a small valley snuggled amidst the towering peaks. It is so peaceful you can not help
+      but smile just from being here. Animals of all kinds play about you, some even cautiously approach,
+      their eyes aglow with curiosity. To the north stands a cozy cottage surrounded by a white picket fence,
+      and adorned with several neatly trimmed hedges. The main branch of the valley lies to the south, and you
+      may be able to slide down into a ledge to the east.
+flag:
+  - outdoors

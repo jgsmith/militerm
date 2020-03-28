@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Bedroom
+    sight: This is a bedroom.  You can leave to the north.
+flag:
+  - soundproof
+  - private
+  - party

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eirias:mirror1"
+    short: The Courtyard
+    sight: >
+      You are in the arched entrance to a courtyard. High pillared walls rise on all sides, set with tall
+      nine-paned windows, and fantastic pointed towers rise above the balustraded line of the roof. Every
+      window is blank, there are no faces anywhere. Before you, a narrowing stone staircase rises to a square
+      pillared doorway, ornamented with carved stone scrolls and figures, and a replica of the crest of the
+      leaping fish from the coach door.
+flag:
+  - outdoors

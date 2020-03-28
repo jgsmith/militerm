@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen40"
+      up:
+        target: "scene:aber:thyrannen:thyrannen38"
+    short: Cave
+    sight: >
+      Descending the small hole the smell of ammonia overtakes your lungs. Gasping for breath, and folding you
+      stomach at bay, you lower you head and push on.
+flag:
+  - dark

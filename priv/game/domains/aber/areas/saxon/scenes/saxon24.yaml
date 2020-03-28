@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:saxon:saxon24"
+      north:
+        target: "scene:aber:saxon:saxon23"
+      south:
+        target: "scene:aber:saxon:saxon25"
+      west:
+        target: "scene:aber:saxon:saxon24"
+    short: &+CCalm &+BSea&*
+    sight: >
+      Out here on the open sea you feel an inner peace. It is only you and the beautiful dwellers of the deep
+      here. As you look out on every direction, you see nothing but endless sea.
+flag:
+  - light
+  - onwater
+  - outdoors

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:house4"
+      north:
+        target: "scene:aber:hick:house8"
+      south:
+        target: "scene:aber:hick:house2"
+      west:
+        target: "scene:aber:hick:house6"
+    short: Main Hallway
+    sight: >
+      This is a large hallway with wooden floors that creak slightly under you. The house is painted a dull
+      white that seems a little boring to you. The hall branches off to the east and west leading to other
+      rooms and continues north through the rest of the house.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale135"
+      south:
+        target: "scene:aber:fairytale:fairytale133"
+    short: Weaving Room
+    sight: >
+      This room is devoted to the art of weaving. Tapestries decorate the walls, and an intricate pattern
+      decorates the rug on the floor. A large loom stands against the north wall, on which hangs a nearly
+      finished rug. A window looks out onto the street below to the west; a door leads south to the sewing
+      room, and to the east is a closed door.
+flag:

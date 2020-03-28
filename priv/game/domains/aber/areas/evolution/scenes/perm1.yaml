@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:perm2"
+      south:
+        target: "scene:aber:evolution:perm5"
+      west:
+        target: "scene:aber:evolution:carb8"
+    short: Shore Of Permian Lake
+    sight: >
+      You are standing on the shore of a large lake, which stretches away to the east and south. On the far
+      shore you can make out several curious-looking large reptiles with on their backs huge skin sails
+      supported by tall spines. They belong to the genus Dimetrodon, a pelycosaur often mistakenly called a
+      dinosaur. Though they look fearsome, they are too far away to trouble you. You can head north from here
+      along the bank of the river which flows into this lake, or you can return west towards the forest, or
+      you can try heading south along the edge of the lake.
+flag:
+  - outdoors

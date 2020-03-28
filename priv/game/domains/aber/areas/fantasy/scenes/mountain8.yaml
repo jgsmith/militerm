@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mountain8a"
+      north:
+        target: "scene:aber:fantasy:mountain9"
+      west:
+        target: "scene:aber:fantasy:mountain7"
+    short: Cave Entrance
+    sight: >
+      You are at the cave entrance that is lit by several torches that have been stuck into the walls. The
+      cave leads to the north and the ledge continues to the east.
+flag:
+  - nomobiles

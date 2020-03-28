@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:gardens"
+    short: Infirmary
+    sight: >
+      You are in the monastery infirmary. On the walls are shelves filled with unlabled clay jars that
+      probably contain odd and exotic herbs, spices, and potions. These potions might aid you in your
+      adventures but they could also be deadly poison.
+flag:

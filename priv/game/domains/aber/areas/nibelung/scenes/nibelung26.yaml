@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung22"
+      west:
+        target: "scene:aber:nibelung:nibelung27"
+    short: Sandy Patch
+    sight: >
+      There is a sandy patch of ground here. A few bits of scrub brush are here, but otherwise there is no
+      vegetation. Come to think of it, there are no animals here, either. The air smells tainted, as if a
+      great spell had been cast, or as if some evil being has been here recently.
+flag:
+  - outdoors
+  - nomobiles

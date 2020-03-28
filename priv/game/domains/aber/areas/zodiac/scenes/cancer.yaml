@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:zodiac:watera"
+    short: The Tide Pool
+    sight: >
+      It seems that the tide is permanently out here, since you can see no sign of an ocean, however this
+      large tide pool does exist. The water tastes of salt and there are hundreds of little minnows darting
+      about through the colourful water plants.
+flag:

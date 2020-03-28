@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:steep3"
+      north: null
+    short: Top of the Steep Passage
+    sight: >
+      You are in the uppermost part of a long passage which goes down to the south as a steep and narrow
+      passage leading into complete darkness.
+flag:
+  - dark

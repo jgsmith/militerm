@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:bull:bullzz15"
+    short: "Aten's Chamber"
+    sight: >
+      You are standing in a comfortable chamber. Sunlight streams in the the open windows, and a warm spring
+      breeze ruffles your hair. Thick furs cover the stone walls and floor. A stained oak table dominates the
+      center of the room, and couches line the walls. You look out the window and are vaguely surprised that
+      you can't see the ground.
+flag:
+  - nomobiles

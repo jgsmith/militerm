@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook113"
+      west:
+        target: "scene:aber:fairybook:fairybook110"
+    short: Yellow Brick Road
+    sight: >
+      You stand on the hard, yellow roadbed. The sun shines bright and the birds sing sweet, and you feel
+      good. The country around you is very pretty. Neat fences stand at the sides of the road, painted a
+      dainty blue color, and beyond them are fields of green and vegetables in abundance. To the east and west
+      the path continues.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:road4"
+      north:
+        target: "scene:aber:village:saloon1"
+      west:
+        target: "scene:aber:village:road7"
+    short: Main Street
+    sight: >
+      The newly built main street might well become the main street of the town. This part of it heads
+      east-west. To the north is a saloon. Looks like a pretty mean place to go.
+flag:
+  - outdoors

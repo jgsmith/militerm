@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood4"
+      north:
+        target: "scene:aber:sherwood:sherwood6"
+    short: South Fork
+    sight: The path continues north.
+flag:
+  - outdoors

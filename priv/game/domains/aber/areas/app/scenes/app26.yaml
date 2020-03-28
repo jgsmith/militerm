@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app25"
+      west:
+        target: "scene:aber:app:app32"
+    short: Upper Hallway
+    sight: >
+      Like the hallway below, it is dimly lit. Doors line the walls, but they all seem to be magically locked.
+      At the end of the hallway is a door marked with the word "Master." This door appears to be slightly
+      ajar.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:playhouse:house23"
+      west:
+        target: "scene:aber:playhouse:house21"
+    short: Playpen
+    sight: >
+      This is a rather messy playpen! Whoever owns this room really keeps it a mess! You can't stand to be in
+      this pigsty of a playpen much longer! You can go back to the bedroom to the west or to the closet to the
+      south.
+flag:

@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:nbarn"
+    short: Stall
+    sight: This is a small animal stall.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas20"
+      up:
+        target: "scene:aber:ildharas:ildharas37"
+      west:
+        target: "scene:aber:ildharas:ildharas22"
+    short: Library
+    sight: >
+      The books have all been gutted, their contents scattered throughout the room. The pages rustle like
+      leaves as you walk. You behold not the destruction of knowledge, but it's chaotic fusion, a systematic
+      but random dispersion of it's potency. 	A set of marble stairs leads up to the second floor, and
+      doorways lead south and west.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:start:temple"
+    short: Stonehenge
+    sight: >
+      You have arrived at Stonehenge. Here atop this green hill sit ancient rectangular rocks, each weighing
+      several tons. Every time you approach one of them, you feel a pulse of power run through you, soft but
+      constant. In the center of the arrangement is an altar of stone, used long ago for weddings of pagan
+      peoples. Looking out past the hill you see the entire Promised Land stretched out below, as bluebirds
+      and eagles swoop energetically in the sky. You notice quite suddenly that all your troubles have fled
+      from you, leaving you feeling happy and at peace.
+flag:
+  - nomobiles
+  - private
+  - party

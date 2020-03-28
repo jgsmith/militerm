@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: &+CCrystal Grotto&N
+    sight: >
+      Stepping inside, you see a large grotto formed entirely out of glowing &+Wcrystals&N. Light pouring in
+      from an unseen source reflects off the &+Wcrystals&N, dazzling you with a &+Rbrilliant&N display of
+      color. Disturbed by your presence, dozens of multi-colored &+rfire lizards&N take flight. The music of
+      those delicate, gossamer wings sounds like the sighing of the wind, can barely be heard over the sound
+      of the rushing &+bwater&N. On a low, narrow ledge, a statue of a sphinx rests. The ageless eyes seem
+      able to look straight into your very soul and see your secrets. A rounded stone the color of the
+      &+bsea&N rests between its claws. Looking closer, you see the ripple of muscles and realize this is no
+      statue, but something quite alive.
+flag:

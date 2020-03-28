@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:forest98"
+      west:
+        target: "scene:aber:rainforest:forest90"
+    short: Heart Of The Rainforest
+    sight: >
+      The forest floor here is clear, and the thin layer of leaf litter firm under your feet. In the subpolar
+      forests a pine needle may take seven years to decay; a fallen oak leaf in a temperate forest will
+      disappear in a year or so, yet in these humid conditions any leaf that falls will have completely rotted
+      away within six weeks. As you study the leaf litter you see thousands of tiny fungi toiling at the
+      process of decay.
+flag:
+  - outdoors
+  - rainforest

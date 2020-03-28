@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret9"
+      north:
+        target: "scene:aber:evolution:cret11"
+      up:
+        target: "scene:aber:evolution:cret9"
+      west:
+        target: "scene:aber:evolution:cret12"
+    short: Marshy Dell
+    sight: >
+      The ground here is wet and boggy, and you sink up to your ankles into the mud. Above you, among the
+      branches of the trees, small mammals cling to the branches, regarding you with a curious but watchful
+      gaze. Still small and unobtrusive, they bide their time, diversifying on a small scale, ready to inherit
+      the earth should some tragedy perchance befall the dinosaurs.
+flag:
+  - outdoors

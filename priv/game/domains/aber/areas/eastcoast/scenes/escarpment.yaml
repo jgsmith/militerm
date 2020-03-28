@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:swamplands"
+      up:
+        target: "scene:aber:eastcoast:escpath"
+    short: Base of the Escarpment
+    sight: >
+      You are standing at a drier spot in the swamplands, seemingly impervious to the thick plant growth.
+      Looking around, you see that most of the ground here consists of hard rocks and pebbles that have fallen
+      down from a nearby gully up the cliff, making it hard for plants to root in. A path hugs the cliff, but
+      still uncomfortably close to the swamps to the east, which for some strange reason makes your skin
+      crawl. A break in the twisted trees lie to the south, and it looks as if you could scrabble through the
+      pebbles up the side of the escarpment.
+flag:
+  - outdoors

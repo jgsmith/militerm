@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cretsea7"
+      south:
+        target: "scene:aber:evolution:cretsea6"
+      west:
+        target: "scene:aber:evolution:cretsea4"
+    short: Shallow Waters
+    sight: >
+      You are in very shallow water here, perhaps twenty feet deep. However you are not out of danger from
+      prowling mosasaurs and the like. To the west is deeper water and, no doubt, more danger. To the east the
+      sea floor shelves upwards towards land.
+flag:
+  - soundproof
+  - underwater

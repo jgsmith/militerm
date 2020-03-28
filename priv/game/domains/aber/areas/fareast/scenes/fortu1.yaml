@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:fortuhall"
+    short: "Princess's Quarters"
+    sight: >
+      Nothing except a smell of sulfur seems out of place in the quarters of the daimyo's daughter. Odd,
+      considering that the princess' body lies broken on the flagstones below the window...
+flag:

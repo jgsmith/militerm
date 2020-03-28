@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:rune_cave"
+      north:
+        target: "scene:aber:blizzard:large_cav"
+      south:
+        target: "scene:aber:blizzard:lava_cav"
+    short: Pillared Hall
+    sight: >
+      You are in a massive pillared hall decorated with the &+wshields&* of ancient and long forgotten heroes.
+      Exits between the pillars lead into several different caves.
+flag:

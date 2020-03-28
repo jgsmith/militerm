@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:graye:graye5525"
+      east:
+        target: "scene:aber:graye:graye5525"
+      west:
+        target: "scene:aber:graye:graye5524"
+    short: The Thin Ledge
+    sight: >
+      You are standing on a very thin ledge, just wide enough for your feet to stand on it widthwise. The
+      ledge widens to the west and east.
+flag:
+  - outdoors
+  - cold

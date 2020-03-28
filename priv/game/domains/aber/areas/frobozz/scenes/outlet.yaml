@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:frobozz:foot"
+    short: The Outlet
+    sight: >
+      You are down at the base of the damwall which stretches up houndreds of feet above you. Right above you,
+      out of the wall, three thick powerlines emerge and they are streched over a small, but very fastflowing
+      river out of sight to the southwest. A very fastflowing river emerges out of the damwall a couple of
+      yards west of you and disappears out of sight into southern parts of the cavern. There is no way of
+      following the river southwards or crossing it. Sparks jump now and then from lots of tiny cords which
+      hang down from the three powerlines, thus enlightning the place in a strange blue and green light. This
+      place is surely in lack of maintainance, so you would better get out of here. It can be done by climbing
+      a flight of stairs which is cut out in the side of the wall.
+flag:
+  - dark

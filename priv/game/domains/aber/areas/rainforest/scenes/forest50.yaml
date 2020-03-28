@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:rainforest:forest48"
+    short: "River's Edge"
+    sight: >
+      You are standing on a narrow strip of sand by the edge of the river. The water is still moving fairly
+      fast here, but it has a sedate quality, gliding eastward with a serene assurance. You find that you
+      cannot proceed any further east here, for a tangled mass of woody plants to the south grows out into the
+      river to the east.
+flag:
+  - outdoors

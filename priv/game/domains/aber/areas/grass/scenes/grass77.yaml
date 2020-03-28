@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass78"
+      north:
+        target: "scene:aber:grass:grass67"
+      south:
+        target: "scene:aber:grass:grass87"
+      west:
+        target: "scene:aber:grass:grass76"
+    short: In a Large Field of Grass
+    sight: >
+      Tall grasses grow in abundance, hiding the ground beneath your feet, making it hard to see whether there
+      is open land ahead, a hole, whatever. It also would be quite a good cover for any would-be attackers
+      should any decide to make themselves known to you for reasons of ill-faith. It is probably a very good
+      idea to keep an open eye out for any predators, be they animal or humanoid.
+flag:
+  - outdoors

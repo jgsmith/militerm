@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:haunted:haunted_27"
+    short: The Cave
+    sight: >
+      The cave is dark and stuffy. You turn your light to look at the walls. There are drawings on the walls.
+      You can make out two men dressed in suits choking each other. In another picture, a huge white house has
+      a rope wrapped around it. The same two men are pulling on each end of the rope. Two podiums with regal
+      looking seals stand before you. A sign on the wall reads, &+Y'Next &+Ydebate in 15 minutes.'&* You think
+      it would be a good idea to run the other way and miss this most horrid event!
+flag:
+  - dark

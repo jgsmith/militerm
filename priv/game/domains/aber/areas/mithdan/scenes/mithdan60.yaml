@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan51"
+    short: Forest
+    sight: >
+      Heavy brambles line every direction but west, where a large clearing throbs with immense magical energy.
+      Far to the northwest you hear a beautiful, but oddly random melody.
+flag:
+  - outdoors

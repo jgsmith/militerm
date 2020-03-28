@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:68"
+      south:
+        target: "scene:aber:cyrus:5"
+    short: Small trail
+    sight: >
+      You are walking on a small trail north of the village. You can see a mountain ahead of you. The trail is
+      surrounded by trees. Birds aren't singing anymore. Everything has a creepy atmosphere. You can follow
+      the trail further to the north, or turn back.
+flag:
+  - outdoors

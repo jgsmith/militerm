@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cresso:cresso1"
+    short: "Cresso's Closet"
+    sight: >
+      As you look around in His closet, you see sun beams filtering through the dust and reflecting off the
+      wooden floor. There are three chairs sitting around a table, showing off the closet's large size. There
+      is not much too this room except the odd aura of energy surrounding everything inside it, making you
+      feel quite powerful and tranquil at the same time.
+flag:

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia1"
+      west:
+        target: "scene:aber:island:island14"
+    short: Road
+    sight: >
+      The road definately has become more of a structure than it was towards the west. The air here is cooler
+      than it was to the west. Towards the east you can see people on the road traveling. A town must be
+      ahead.
+flag:
+  - outdoors

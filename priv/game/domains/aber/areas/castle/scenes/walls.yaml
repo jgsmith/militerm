@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:castle:path"
+      south: null
+    short: Castle Walls
+    sight: >
+      You stand at the walls of a large castle, out of which looms up a large tower, crackling with magical
+      energy. From here the castle looks deserted, but you can't be sure. The path leads back north, and the
+      main archway into the castle is south.
+flag:
+  - outdoors

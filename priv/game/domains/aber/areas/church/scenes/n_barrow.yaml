@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:gold:gold1a"
+      north:
+        target: "scene:aber:church:barrowlearn"
+      south:
+        target: "scene:aber:church:barrow"
+      west:
+        target: "scene:aber:church:nw_barrow"
+    short: The North Barrow
+    sight: >
+      You stand on the top of a large mound at the north end of the graveyard. To the north you spy an old
+      rotted out shack, perhaps property of the gravemaster. A path also leads back southward. On a small
+      gravestone is written "Beware of the Moog".
+flag:
+  - outdoors

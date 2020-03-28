@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:genstore"
+      north:
+        target: "scene:aber:newvillage:stream"
+      south:
+        target: "scene:aber:newvillage:road2n"
+      west:
+        target: "scene:aber:newvillage:locksmith"
+    short: The Village Road
+    sight: >
+      You have reached the northern end of this street. Beyond, to the north, there is a river bank, and
+      beyond, a large prairie filled with nothing but tall grass. On the other side, in the distance, you can
+      see some incredibly large mountains. They seem to be at their most impressive off to the north-east. To
+      the west is the locksmith's and to the east is the General Store. The main part of the village is back
+      to the south.
+flag:
+  - outdoors

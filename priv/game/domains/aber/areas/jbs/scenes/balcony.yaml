@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:jbs:throne"
+    short: The Balcony
+    sight: >
+      You have emerged onto a large balcony about 25 yards across. You realize that this is where the ruler of
+      this realm must stand to deliver public speeches and other stuff like that.
+flag:
+  - outdoors

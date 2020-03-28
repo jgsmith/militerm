@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: The Top of the Belltower
+    sight: >
+      You struggle to reach this room as it has been a long climb. There is a large bell here, still intact.
+      The room amazingly is undamaged and your heartbeat quickens as you realize that there still is a place
+      in the church untouched by evil. The windows here overlook the massive orchard that looks like a
+      warzone, and beyond you see the graveyard. The feeling of dread returns as you are aware that you must
+      past these places to return to your home. Looking closer at the bell you notice the intricate, ornate
+      carvings and are overcome with grief at the realization of all the wonderous things in the church that
+      must have been destroyed. The only exit is down.
+flag:
+  - peaceful
+  - nomobiles

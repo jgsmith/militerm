@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nrose:ingardens"
+      north:
+        target: "scene:aber:nrose:balneary"
+      south:
+        target: "scene:aber:nrose:treepath"
+      west:
+        target: "scene:aber:nrose:infirmary"
+    short: Gardens
+    sight: >
+      These are the monk's gardens where they grow some of their vegetables. There are more gardens to the
+      east. To the north and west are some other buildings.
+flag:
+  - outdoors

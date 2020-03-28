@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:abyss:swamp5"
+    short: The Swamp
+    sight: >
+      You have reached the end of the swamp. The trees form a small semicircle here around a little hillock.
+      On top of the mound is a large stone.
+flag:
+  - dark

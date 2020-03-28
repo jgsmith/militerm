@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass15"
+      north:
+        target: "scene:aber:grass:grass100"
+      south:
+        target: "scene:aber:grass:grass102"
+      west:
+        target: "scene:aber:grass:grass14"
+    short: Cobblestone Road
+    sight: >
+      The road continues north and south with tall grasses along each side with woods flanking the prairie far
+      in the distance. Sundhaven isn't too far away from your position.
+flag:
+  - outdoors

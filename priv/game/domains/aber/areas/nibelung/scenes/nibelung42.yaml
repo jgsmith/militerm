@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung43"
+    short: Cemetery
+    sight: >
+      The cemetery is a small, private lot. A few marble headstones mark the resting place of some of the
+      town's former residents. Tufts of grass are growing here and there, but otherwise the ground is barren.
+      A small breeze blows past, stirring the dust up a bit. One tombstone reads, "Here lies George Pratt. He
+      missed the cliff, now he's flat."
+flag:
+  - outdoors

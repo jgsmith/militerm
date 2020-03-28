@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ruins:geast3"
+    short: A Small Storeroom
+    sight: >
+      What luck! You have come upon a small storeroom, perhaps some items have been left behind by some other
+      traveler that has come this way. There is also a cross over the door going out, you decide not to take
+      it because it looks quite fragile.
+flag:
+  - dark
+  - nomobiles

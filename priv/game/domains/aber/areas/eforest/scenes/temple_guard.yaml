@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eforest:elf"
+    short: Temple Guard Room
+    sight: >
+      You stand in the room which housed the two dark elves who guarded the temple. It is a rather dark and
+      dreary. On the ground lie two worn &+Bmattresses while a wobbly table stands to the side.
+flag:
+  - dark

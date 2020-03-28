@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:59"
+      up:
+        target: "scene:aber:cyrus:57"
+    short: Stairs to Hell
+    sight: >
+      You are now getting deeper and deeper under the pressure of the evil forces residing below. As you could
+      expect, the heat keeps increasing and ever increasing. You can easily guess where you are going. What?
+      You cannot? It starts with the letter 'H' and ends with 'ell'.
+flag:
+  - hot

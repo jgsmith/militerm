@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni69"
+    short: South Wall of Deufel
+    sight: >
+      The southern edge of Deufel is protected by a large wall with a heavy iron portcullis allowing travelers
+      to enter and exit. This gate is used most often by the Wizards of the White Phoenix, who have a compound
+      to the south. Looking around the compound, you find that it doesn't have any entrances. It looks like
+      they use magic to move around.
+flag:
+  - outdoors
+  - cantsummon
+  - nomobiles

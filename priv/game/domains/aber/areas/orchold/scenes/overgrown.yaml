@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:wedge"
+    short: Overgrown Path
+    sight: >
+      You are on what could almost be called a path, treading your way through vines, rocks, and the like. The
+      path becomes clearer and flatter farther down. It is far too steep to go up the mountainside.
+flag:
+  - outdoors

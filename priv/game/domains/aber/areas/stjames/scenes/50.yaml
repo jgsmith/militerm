@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:47"
+      north:
+        target: "scene:aber:stjames:49"
+      south:
+        target: "scene:aber:stjames:51"
+    short: Path Through St. James Park
+    sight: >
+      The western exit from the park is just to the north, following a slender sidewalk onto the street. The
+      street heads to the front of Buckingham Palace. Way ahead, you can just tell that the flag is flying
+      over the palace, indicating the presence of the Queen.
+flag:
+  - outdoors

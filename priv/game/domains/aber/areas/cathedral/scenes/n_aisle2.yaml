@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:n_tran"
+      south:
+        target: "scene:aber:cathedral:nave3"
+      west:
+        target: "scene:aber:cathedral:n_aisle1"
+    short: North Aisle
+    sight: >
+      Long ago crowds lined up along this aisle, waiting to see the holy relics housed in the east end of the
+      cathedral. Now the mosaic paintings they once appreciated while they waited are in disrepair. Tiles
+      litter the floor, and what is left of the wall mosaics is covered in a thick coat of &+Lgrunge&*.
+flag:
+  - dark

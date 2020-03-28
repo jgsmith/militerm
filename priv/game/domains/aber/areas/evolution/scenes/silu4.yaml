@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:silu1"
+      north:
+        target: "scene:aber:evolution:silu3"
+      up:
+        target: "scene:aber:evolution:devo1"
+    short: Tectonic Ridge
+    sight: >
+      You are at the foot of a steep incline leading up to a long ridge running from north-west to south-east.
+      It is impossible to climb. This, you guess, must represent the boundary between two shifting continental
+      plates. It seems stable enough at the moment, but you can't help feeling a certain anxiety at being so
+      close to the fault.
+flag:
+  - soundproof
+  - underwater

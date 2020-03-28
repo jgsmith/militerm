@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:saxon:saxon13"
+    short: &*The &+YT&+Wh&+Yr&+Wo&+Yn&+We &*Room
+    sight: >
+      This is Hrothgar's throne room. In each corner of the room is a suit of armor stood up to resemble a
+      knight. The throne itself is raised above the floor on a platform adorned with gold. A large red carpet
+      leads from the entrance of the room to the platform. On the walls are paintings of past Danish rulers,
+      and of great warriors whose days have passed. Hanging on the wall behind the throne are the Danish
+      colors. The only exit is back to the north.
+flag:
+  - light

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6644"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6631"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6628"
+    short: A sandy bend before the east gate
+    sight: >
+      The wide road comes to a crossroads close to the eastern gate, which appears to be forged from some
+      heavy metal and painted white. The ground is a mix of shuffled black and gold sand where the two roads
+      meet.
+flag:
+  - outdoors

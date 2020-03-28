@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:35"
+      south:
+        target: "scene:aber:stjames:47"
+      west:
+        target: "scene:aber:stjames:49"
+    short: St. James Park
+    sight: >
+      You are very near the northern entrance to the park. You are almost out on the street, among the crowd.
+      They all seem to be moving toward the palace grounds. Perhaps you should follow them.
+flag:
+  - outdoors

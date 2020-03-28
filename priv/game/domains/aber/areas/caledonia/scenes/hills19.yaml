@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:caledonia:hills17"
+    short: Ramshackle Croft
+    sight: >
+      This is, or was, an old cottage belonging to a crofter who has long since moved on or died. Daylight
+      shows through holes in the roof and the stone walls utterly fail to keep out the cold. The furniture in
+      here is spartan to say the least, and you marvel at the hardiness of those who could permanently live in
+      such conditions.
+flag:
+  - nomobiles

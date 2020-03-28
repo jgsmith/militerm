@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sommerlund:sommerlund6"
+    short: Alleyway
+    sight: >
+      Set away from the prying eyes of the Ragadorn townguard, this filthy drainage street could be an ideal
+      place for merchants of the black market to conduct their business. Other denizens would include beggars,
+      thieves, and sewer rats.
+flag:
+  - outdoors

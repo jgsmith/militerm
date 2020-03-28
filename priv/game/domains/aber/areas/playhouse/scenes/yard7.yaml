@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard8"
+      north:
+        target: "scene:aber:playhouse:yard1"
+      west:
+        target: "scene:aber:playhouse:yard6"
+    short: Kiddy Picnic Table
+    sight: >
+      It looks to be a mini-picnic table. You get a picture of the seven dwarfs gone to dinner in your head.
+      (If you can actually picture this you're certifiable!) The table looks perfect for the children to sit
+      at and have a tea party or something at. The yard continues to the west into the playpen area. To the
+      north is the middle of the yard. To the east is where the kids ride on the kiddy bikes, tricycles and
+      things.
+flag:
+  - outdoors

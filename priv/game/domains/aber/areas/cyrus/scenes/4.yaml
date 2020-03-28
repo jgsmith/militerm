@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cyrus:2"
+    short: "&+cAsdam's Tavern"
+    sight: >
+      You are standing in a very usual tavern. Many barrels have been placed in the corner. The ambiance,
+      although, is very sad. Many people are here talking and taking one last drink before their leaves.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot290"
+      west:
+        target: "scene:aber:camelot:camelot292"
+    short: Mongrelman Room
+    sight: >
+      The Mongrelman is the sad result of too much inter-species breeding. Bearing the blood of literally
+      dozens of non-human races, he seems to have the worst characteristics of each.
+flag:
+  - dark

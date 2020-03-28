@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9914"
+      east:
+        target: "scene:aber:ghenna:ghenna9905"
+      north:
+        target: "scene:aber:ghenna:ghenna9900"
+      south:
+        target: "scene:aber:ghenna:ghenna9925"
+      up:
+        target: "scene:aber:ghenna:ghenna9911"
+      west:
+        target: "scene:aber:ghenna:ghenna9905"
+    short: A wrinkle in the fabric of time.
+    sight: >
+      You are caught in a swirling vortex of time, which is very nauseating. You spin and spin, unsure of
+      which way is which. It seems as though you could end up in any of several different places by choosing
+      an exit.
+flag:
+  - nomobiles
+  - dark
+  - maze

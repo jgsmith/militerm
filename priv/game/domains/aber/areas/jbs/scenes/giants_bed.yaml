@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:sitting"
+      south:
+        target: "scene:aber:jbs:chambers"
+      up:
+        target: "scene:aber:jbs:bed"
+      west:
+        target: "scene:aber:jbs:under"
+    short: Giants Bedroom
+    sight: >
+      This is the giants bedroom. You know this from the mammoth figure who is asleep on the bed about ten
+      feet above you and to the west. You can easily walk under it if you want to, or you could even climb up
+      the bedpost onto the bed if you want you risk getting that close to the &+ygiant&*. There are also exits
+      to the east and south.
+flag:

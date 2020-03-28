@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest75"
+    short: "Trail's End"
+    sight: >
+      Just as suddenly as it began, the trail comes to an end. If you were hoping to find a way through the
+      forest here, you are disappointed. The path must not have been used for some time, as the way forward is
+      now blocked by a tangled mass of creepers and bushes. You will have to return south.
+flag:
+  - outdoors
+  - rainforest

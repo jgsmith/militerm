@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6070"
+      north:
+        target: "scene:aber:haondor:sundforest6074"
+      south:
+        target: "scene:aber:haondor:sundforest6070"
+      west:
+        target: "scene:aber:haondor:sundforest6075"
+    short: A Small Trail Through The Forest
+    sight: >
+      You have just left the shaded path, and you are now standing at the head of a very short trail. It looks
+      like someone begin clearing away the underbrush here, but didn't get finished. You may leave in any
+      direction, but the path is to the west.
+flag:
+  - real
+  - outdoors

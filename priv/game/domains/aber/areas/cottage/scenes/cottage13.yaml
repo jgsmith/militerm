@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cottage:cottage14"
+      north:
+        target: "scene:aber:cottage:cottage12"
+    short: Bridge Landing
+    sight: >
+      Before you a monstrous, natural bridge stretches across the chasm to the east. A pair of stalagmites
+      stand like silent guardians forming an entryway onto the bridge.
+flag:
+  - outdoors

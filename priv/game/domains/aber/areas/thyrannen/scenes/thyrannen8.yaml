@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen5"
+      north:
+        target: "scene:aber:thyrannen:thyrannen7"
+      south:
+        target: "scene:aber:thyrannen:thyrannen9"
+      west:
+        target: "scene:aber:thyrannen:thyrannen11"
+    short: Redwood Forest
+    sight: >
+      The sun lowers itself deeper and deeper in the west filling the forest with rays of sparkling orange
+      light. The forest continues in all directions The eerie beauty of this strange place causes you to
+      wonder if anyone calls this forest home.
+flag:
+  - outdoors

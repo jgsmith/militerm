@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot272"
+    short: Dressing Room
+    sight: >
+      Guests are provided with all the comforts of home. The dressing room contains a table, chair, and a tub
+      which can be filled with steaming water at any time.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:brookmere:brookmere52"
+    short: Workroom
+    sight: >
+      Apart from a rough-hewn workbench and an empty glass-fronted cabinet on one wall, the workroom of
+      Orobius looks empty. Only a fool would believe it is really empty though; Orobius would have hidden his
+      secret work before he left Brookmere with a blanket illusion. Behind the door though, you find a small
+      &+Cblock of white marble&*, just big enough to support a person or elf, standing between four white
+      marble pillars.
+flag:
+  - dark
+  - nosummon

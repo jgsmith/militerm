@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:adept:adept32"
+      south:
+        target: "scene:aber:adept:adept5"
+    short: Forest Path
+    sight: >
+      This heavily wooded path leads through many twists and turns as it meanders along. The dense underbrush
+      snaps and crackles with each echoing footstep, scaring away all kinds of ground-dwelling critters. To
+      the north, the forest open onto grasslands.
+flag:

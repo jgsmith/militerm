@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook120"
+      south:
+        target: "scene:aber:fairybook:fairybook124"
+    short: Forest Path
+    sight: >
+      The rough path turns into a forested path, as bits of moss grow between the golden stones of the path.
+      The woods here as think, covering the bricks with dried branches and dead leaves from the trees. Birds
+      fly high overhead, occasionally swooping down to pick an insect out of the air. The exits are north and
+      south.
+flag:
+  - outdoors

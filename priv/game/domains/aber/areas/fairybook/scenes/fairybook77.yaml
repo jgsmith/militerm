@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook76"
+      north:
+        target: "scene:aber:fairybook:fairybook79"
+      south:
+        target: "scene:aber:fairybook:fairybook78"
+      up:
+        target: "scene:aber:fairybook:fairybook80"
+    short: Entry Hall
+    sight: >
+      You are greeted by two great knights. Each has a large letter 'A' on his chest, and each holds a large
+      weapon. The first one tells you that the throne room is to the north and the dining hall is to the
+      south. The second one asks what your business is. The exit is to the east, and a bedroom is above you.
+flag:

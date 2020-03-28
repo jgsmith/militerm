@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas07"
+      south:
+        target: "scene:aber:ildharas:ildharas05"
+      up:
+        target: "scene:aber:ildharas:ildharas07"
+    short: Small Valley
+    sight: >
+      A small valley nestles between the last foothill and the beginning of the first mountain. The path has
+      become very overgrown here, dwindling down to a footpath and less. Your nostrils tingle from the
+      astringency of pine. Every once in a while, when there is a break in the foliage, you catch a glimpse of
+      a castle against the northern mountainside.
+flag:
+  - outdoors

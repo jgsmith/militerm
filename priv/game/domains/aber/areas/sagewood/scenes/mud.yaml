@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+    short: Deep Mud...
+    sight: >
+      As you step into this area, you feel yourself sinking deeper and deeper under into the mud. It is all
+      you can do to keep your head above the surface of the brown water. Despite your best efforts, you are
+      unable to get back to the dry land...
+flag:
+  - nomobiles
+  - negregen
+  - outdoors
+  - nosummon
+  - cantsummon
+  - maze

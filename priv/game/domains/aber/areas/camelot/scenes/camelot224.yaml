@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot225"
+      up:
+        target: "scene:aber:camelot:camelot243"
+      west:
+        target: "scene:aber:camelot:camelot223"
+    short: The base of the Northeast Tower
+    sight: >
+      You are in a large guardroom in the base of the tower. From here you can go up, higher in the tower. Or
+      you can follow the walls to the west and south.
+flag:

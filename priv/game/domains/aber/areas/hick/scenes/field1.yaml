@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:field2"
+      north:
+        target: "scene:aber:hick:field12"
+      west:
+        target: "scene:aber:hick:hick9"
+    short: Southwestern Irrigation Ditch
+    sight: >
+      You are standing on a small path with an irrigation ditch running through it that leads to the north and
+      to the east. The road is to the west.
+flag:
+  - outdoors

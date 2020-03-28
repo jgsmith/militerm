@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:rainforest:forest102"
+      west:
+        target: "scene:aber:rainforest:forest95"
+    short: Palm Trees
+    sight: >
+      You are standing under a small grove of palm trees. Far above their uppermost fronds the deep green of
+      the canopy spreads far and wide. To the south, between the trunks of the trees, you see water
+      glistening. Yet another tributary is passing by there, slowly making its way east.
+flag:
+  - outdoors
+  - rainforest

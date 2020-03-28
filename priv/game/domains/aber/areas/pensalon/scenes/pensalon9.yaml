@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon10"
+      south:
+        target: "scene:aber:pensalon:pensalon8"
+      up:
+        target: "scene:aber:pensalon:pensalon11"
+    short: Courtyard
+    sight: >
+      The courtyard opens up into a large square where many people are gathering together to perhaps catch a
+      glimpse of this lands merciful ruler. From here stairs climb up to the entrance of castle proper, to the
+      south is the opening to a tunnel.
+flag:
+  - outdoors

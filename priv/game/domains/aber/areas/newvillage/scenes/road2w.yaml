@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road1w"
+      north:
+        target: "scene:aber:newvillage:shipyard"
+      south:
+        target: "scene:aber:newvillage:mill"
+      west:
+        target: "scene:aber:newvillage:jetty"
+    short: The Village Path
+    sight: >
+      You are on an incline just east of the village jetty. The hill you are on seems to grow right up to the
+      water and then cut off in a cliff. Thank goodness the hill isn't much higher than sea level. To the
+      north is the shipyard, while to the south is a large lumber mill.
+flag:
+  - outdoors

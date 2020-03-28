@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:aladdin:gold1"
+      up: null
+    short: Cave of Wonders
+    sight: >
+      You walk through a large open lion's mouth and find yourself in the Cave of Wonders. As you move
+      forward, a voice growls, "Only those of purest heart may enter." There is a long stairway in front of
+      you leading down into the darkness of the lion's throat. You may also chicken out and go back up.
+flag:
+  - light
+  - hot
+  - nomobiles

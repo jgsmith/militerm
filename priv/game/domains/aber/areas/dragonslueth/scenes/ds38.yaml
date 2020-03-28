@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: The End...
+    sight: >
+      I wasn't Joking when I said certain death. Sorry there pal but I got to cut you off here. Well, come
+      back and try going the other way next time. 				 Sincerely 				 Jojo 				 Zone Author
+flag:
+  - death

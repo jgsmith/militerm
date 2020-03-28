@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar53"
+      north:
+        target: "scene:aber:balharbor:balhar60"
+      south:
+        target: "scene:aber:balharbor:balhar44"
+      west:
+        target: "scene:aber:balharbor:balhar51"
+    short: Cross Road
+    sight: >
+      You are standing next to the alchemist shop which also turned back attempts to burn it down. The
+      building to the north, wasn't so fortunate. Holes in the pavement can be seen everywhere from what looks
+      to be caused from acid eating through it. You also notice some broken glass around those holes
+      confirming that theory. Those angry people that tried so hard to set a building on fire on every single
+      one of them on the block finally succeeded with a house to the north. You can marvel at their handiwork
+      by going that way or head down Park Street to the east.
+flag:
+  - outdoors

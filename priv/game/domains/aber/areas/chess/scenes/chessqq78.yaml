@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chess:chessqq80"
+    short: The Landing
+    sight: >
+      You drop down from the &+ytrapdoor&*, and land on soft dirt. You seem to be inside some sort of enclave,
+      and you see an underground river to the east. There is a small wooden &+ydock&* extending from your
+      enclave out into the river.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blackknight:death"
+      south:
+        target: "scene:aber:church:church1"
+    short: On your way to Evil
+    sight: >
+      You are walking on a strange way leading into darkness. A powerful evil seems to reside further. You
+      must absolutely not continue forward. You will probably get slayed.
+flag:
+  - negregen
+  - dark
+  - hot
+  - soundproof

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6692"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6690"
+    short: Over the edge
+    sight: >
+      You stand perched on the rocky brink of the cliffs of Sundhaven. Before you a sea of wavering fog holds
+      the land in its grip, undulating in the slight wind. You can make out a narrow trail sliding straight
+      down among the scant bushes and heather flowers.
+flag:
+  - outdoors

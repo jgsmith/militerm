@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:carnage1"
+      west:
+        target: "scene:aber:cathedral:wolven"
+    short: Hall of Weapons
+    sight: >
+      The floor here is smoothly tiled, as is the high ceiling. Racks line the walls, and upon the racks sit
+      weapons of all types from all places and times. Whomever built this place seems to have a fascination
+      for collecting fine things, or perhaps he just gets bored living for all eternity, and collecting gives
+      him a purpose. A piercing stench rises from the south.
+flag:
+  - light

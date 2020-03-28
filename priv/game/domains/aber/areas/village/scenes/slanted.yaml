@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:village:narrow"
+      south:
+        target: "scene:aber:village:dirt"
+    short: Slanted Tunnel
+    sight: >
+      You are clambering down a fairly wide earthen passage which descends from a junction of passages towards
+      a turning of some sort. The dirt floor is hard, as if heavy objects have passed this way many times.
+flag:
+  - dark

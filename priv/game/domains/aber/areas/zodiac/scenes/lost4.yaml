@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:zodiac:lost4"
+      east:
+        target: "scene:aber:zodiac:lost3"
+      north:
+        target: "scene:aber:zodiac:lost4"
+      south:
+        target: "scene:aber:zodiac:lost2"
+      up:
+        target: "scene:aber:zodiac:lost4"
+      west:
+        target: "scene:aber:zodiac:lost6"
+    short: The Infinite Void
+    sight: >
+      It really doesn't seem to matter which way you go, you're still going to be lost.
+flag:

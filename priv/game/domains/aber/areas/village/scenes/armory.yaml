@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:village:road8"
+    short: Armory
+    sight: >
+      Looking around this shop, you see piles of useless armor. The time it would take to look through it all
+      for something useful you decide isn't worth it.
+flag:

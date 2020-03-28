@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter11"
+    short: Signal Mountain
+    sight: >
+      Finally, you collapse in exhaustion at the peak of Signal Mountain, or Lonely Mountain as it is also
+      called. The air is chilly, but amazingly fresh up here. You look around in awe... Far off to the west,
+      you can barely make out the Temple of Paradise, and a small village. But your heart freezes in fear as
+      you look to the east. Rising out of the forest is a black castle, with five towers. One of the towers is
+      larger than the others, and inky black smoke rises from the top. From here, you can see that the road
+      you were on encircles the mountain. There is a small village to the south.
+flag:
+  - outdoors
+  - real
+  - tempreal
+  - private
+  - party

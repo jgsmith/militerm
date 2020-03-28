@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar6"
+    short: Swept Downstream
+    sight: >
+      You are in the river, being carried downstream at an alarming rate! As you struggle to keep your head
+      above water, you see the scenery flashing past and wonder if you will be swept all the way down to the
+      sea. Suddenly, however, you are winded by a hard thud as you collide with a wooden post sticking out of
+      the water. You cling to it like a drowned rat, and when you have recovered somewhat you realise that it
+      is the remnants of an old wooden pier that you have washed up against.
+flag:
+  - outdoors

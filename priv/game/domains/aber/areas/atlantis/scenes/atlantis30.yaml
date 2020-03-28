@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:atlantis:atlantis31"
+      west:
+        target: "scene:aber:atlantis:atlantis26"
+    short: Merfolk Home
+    sight: >
+      You enter a cozy little home made out of the sand-like substance you've viewed elsewhere. The home is
+      rather small, with some sleeping beds on the floor to one side neatly arranged. They appear to be made
+      out of kelp. A small cooking arrangement is along the far wall and a door leads west outside. A heavy
+      table made of stone dominates the room and you notice a note on the table held down by a rock. It says
+      'Went to work luring adventurers in the High Priest's Quarters again. Have a good day at the Hotel. All
+      my love. -Mara' Beyond this, the home is very clean and sparse. You can swim south back to the street or
+      west to the pasture where the family keeps their cows.
+flag:
+  - underwater
+  - nomobiles

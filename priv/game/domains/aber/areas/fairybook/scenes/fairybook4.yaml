@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook5"
+      east:
+        target: "scene:aber:fairybook:fairybook5"
+      west:
+        target: "scene:aber:fairybook:fairybook3"
+    short: The Edge of the Hole
+    sight: >
+      You stand in front of a hole, set into the side of a hill. Except for its size, it looks like the
+      entrance to a rabbit's warren. As much as you try, you cannot see more than a few feet in. A path also
+      leads to the west, where you see a large tree.
+flag:
+  - outdoors

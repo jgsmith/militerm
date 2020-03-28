@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:batcave:batcave18"
+      west:
+        target: "scene:aber:batcave:batcave15"
+    short: Hall of &+YRiddles
+    sight: >
+      This room is perfectly cylindrical; so perfectly smooth and proportional that it must have been carved
+      out of the earth magically. The featureless wall that forms the circumference of the room is broken only
+      by the entrances to the west and the north. The ceiling is as flat as the floor, (and the two are
+      exactly parallel, a feat you know to be otherwise impossible in nature), and perhaps five feet above
+      your head.
+flag:
+  - cantsummon
+  - noquit
+  - soundproof
+  - nosummon

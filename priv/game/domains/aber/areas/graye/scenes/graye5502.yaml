@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:graye:graye5501"
+      west:
+        target: "scene:aber:graye:graye5503"
+    short: The Great Field
+    sight: >
+      You are standing in a great field of tall grass. The smell of fresh dirt and sunlight surrounds you. The
+      air is filled with the sound of chirping birds happily building their nests in the depths of the knotted
+      grass. A wagon trail runs in an east-south direction.
+flag:
+  - outdoors

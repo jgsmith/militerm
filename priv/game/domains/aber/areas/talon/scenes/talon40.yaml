@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon44"
+      north:
+        target: "scene:aber:talon:talon41"
+      south:
+        target: "scene:aber:talon:talon42"
+      west:
+        target: "scene:aber:talon:talon35"
+    short: Central Hall
+    sight: >
+      You enter a smaller hall with a lower ceiling. The black marble floor here is inlaid with the finest
+      gold, and a great crystal chandelier hangs glittering from the ceiling. In the center of the room lies a
+      tremendous dark dragon sculpted out of pure black onyx, with red rubies for eyes which seem to glow with
+      a beastly fire in the light of the chandelier. Exits lead in all directions from here.
+flag:

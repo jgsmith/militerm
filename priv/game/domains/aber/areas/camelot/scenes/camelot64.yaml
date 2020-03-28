@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot63"
+    short: Blacksmith Shop
+    sight: >
+      You are in a tiny blacksmith shop, where you can have a pot mended, a horse shod, or a blade mended.
+      Heavy hammers and tongs hang from the walls, and a fire roars in the forge. Steam rises from the barrel
+      being used to quench the metals as they come out of the forge.
+flag:

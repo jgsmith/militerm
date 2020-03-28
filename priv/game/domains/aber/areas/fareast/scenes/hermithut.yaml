@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fareast:templand1"
+    short: Dilapidated Hut
+    sight: >
+      This hut is a framework of bamboo poles covered with insulating moss, an adequate protection against the
+      biting wind. Not many personal effects mark it as inhabited, but there is a fire ring near the center of
+      the floor, filled with charcoal, and a few cooking implements have been set out beside it.
+flag:

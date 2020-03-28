@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave5"
+      north:
+        target: "scene:aber:batcave:batcave7"
+      west:
+        target: "scene:aber:batcave:batcave22"
+    short: Drafty Room
+    sight: "Gee, it's dark and windy in here!"
+flag:
+  - dark
+  - nosummon

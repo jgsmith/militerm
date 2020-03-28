@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sherwood:sherwood11"
+      west:
+        target: "scene:aber:sherwood:sherwood13"
+    short: Turn in Path
+    sight: >
+      The path turns west. You definitely feel like you are getting somewhere now. You know it won't be long
+      before a great adventure falls upon you. You shiver with anticipation.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3484"
+      south:
+        target: "scene:aber:grave:grave3482"
+      west:
+        target: "scene:aber:grave:grave3485"
+    short: Large Dark Cave
+    sight: >
+      You have come upon a large cave that has a very high ceiling. You notice along the north wall a small
+      exit and on the west wall a crack that you may be able to get through. There is also an exit south.
+flag:
+  - dark

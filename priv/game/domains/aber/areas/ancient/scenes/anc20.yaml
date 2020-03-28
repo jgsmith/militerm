@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc21"
+      south:
+        target: "scene:aber:ancient:anc16"
+    short: Beneath the Cross
+    sight: >
+      You stand beneath a huge &+Ycross&* wondering the reason of its' presence. It looks like it has been
+      here more than thousand years - long before anyone knew anything of the Christian faith. From some
+      strange markings on its' base you draw the conclusion that there might be one more cross like this
+      somewhere in the town (what a detective!).
+flag:
+  - outdoors
+  - peaceful

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:mount13"
+      up:
+        target: "scene:aber:rainforest:mount15"
+    short: South Bank Of The Peranon
+    sight: >
+      You are on the south bank of the river Peranon. This point is the only suitable crossing-place that you
+      can see, and you could jump across to a large rock on the other side of the river, or you could attempt
+      the long climb up the mountainside to the south.
+flag:
+  - outdoors

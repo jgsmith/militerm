@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:catacomb:nledge2"
+    short: Suspended Above The Chasm
+    sight: >
+      You are borne up by a mysterious force. Below your feet, the chasm continues down into darkness. Above
+      you, the heights of the chasm also disappear into blackness. To the east is solid ground: a narrow
+      ledge.
+flag:

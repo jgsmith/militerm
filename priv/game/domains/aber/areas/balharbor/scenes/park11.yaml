@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:park8"
+      north:
+        target: "scene:aber:balharbor:park12"
+      south:
+        target: "scene:aber:balharbor:park4"
+    short: Playground
+    sight: >
+      Some children can be seen playing on the swings, the rockers, the merry-go-round, the monkeybars, and
+      the slides. Most of the equipment here is fairly new and seems to have been built so even the "bigger"
+      kids like you can use it. There's a clearing to the north, more playground east, and picnic areas to the
+      south.
+flag:
+  - outdoors

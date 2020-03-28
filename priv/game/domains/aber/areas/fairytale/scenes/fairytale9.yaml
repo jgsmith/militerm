@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale13"
+      north:
+        target: "scene:aber:fairytale:fairytale10"
+      south:
+        target: "scene:aber:fairytale:fairytale6"
+      west:
+        target: "scene:aber:fairytale:fairytale12"
+    short: Carnival Entrance
+    sight: >
+      You have entered a carnival. All around you, you see families enjoying themselves, riding rides and
+      eating cotton candy. To the north is a ferris wheel, to the west a balloon ride, and the the east you
+      see the entrance to a fun house.
+flag:

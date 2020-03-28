@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook34"
+      west:
+        target: "scene:aber:fairybook:fairybook32"
+    short: Inside the Hare House
+    sight: >
+      The first thing you notice inside this small building is the overall mess. Perhaps it has been burgled:
+      the sofa cushions are missing, and ink has been poured over all of the plants. A tiny door leads to the
+      north, and the exit is west. A sign next to the door reads 'Beware of the". The end of the sign appears
+      to have been chewed off.
+flag:
+  - nomobiles

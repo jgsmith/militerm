@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq32"
+    short: End of the Rocky Path
+    sight: >
+      You have come to the end of the rocky path you've been following along the sea. South of you is the
+      start of the beach, west is a moss- covered rock face, and to the north the way is impassable.
+flag:
+  - outdoors

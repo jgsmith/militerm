@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east: null
+      south:
+        target: "scene:aber:eforest:treasury"
+      up:
+        target: "scene:aber:eforest:entry"
+    short: Guard Room
+    sight: >
+      The heat in this room is stifling. As you struggle to breath the scalding air, you manage to take in the
+      surroundings. All about, you can see squalor. A broken &+Ctable&* lies off to one corner, with the
+      remnants of a meal, ages old on it, and several broken chairs litter the floor. The room itself actually
+      reeks of garbage, and covering the walls are a dried up substance that looks suspiciously like blood. A
+      crudely letter sign on the wall reads GARD ROME. To the South is an archway that seems to lead into a
+      somewhat cleaner room.
+flag:
+  - hot

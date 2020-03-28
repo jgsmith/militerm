@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:shore2"
+      south:
+        target: "scene:aber:avairy:shore4"
+      west:
+        target: "scene:aber:avairy:jungle3"
+    short: The Shore
+    sight: >
+      You are on the shore of Avairy Island. To the east the sea crashes violently against the shore line.
+      Passage to the west is allowed by a gap in the dense jungle. The sand is beautifully clean and pure. You
+      hear the sound of birds chirping somewhere off to the west.
+flag:
+  - outdoors
+  - light

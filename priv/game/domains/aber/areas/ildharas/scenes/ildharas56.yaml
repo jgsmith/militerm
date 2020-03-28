@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas57"
+      up: null
+    short: Stone Stairway
+    sight: >
+      The wide, shallow stairs curve gracefully around in a circle. Made from the same stone as the castle,
+      they gleam in the ambient light.
+flag:

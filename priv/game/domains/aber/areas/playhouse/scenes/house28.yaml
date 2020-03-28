@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "Child's Nightmare: End of the Attic"
+    sight: >
+      There is a little round window letting in just enough light for you to see your way arround here. This
+      somehow reminds you of what you always thought the attic would be like when you were a little kid.
+      Aren't you happy you conqured your fear? The attic leads to the east.
+flag:

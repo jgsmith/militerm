@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:tower:levitation"
+      east:
+        target: "scene:aber:tower:sorceror"
+    short: "Sorceror's Ante-room"
+    sight: >
+      You are standing in the Sorceror's ante-room, which sizzles with magical energy. Apart from the hole in
+      the floor the only exit available is to the east.
+flag:

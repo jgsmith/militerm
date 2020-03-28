@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9565"
+      up:
+        target: "scene:aber:khanjar:khanjar9568"
+    short: Before The Wooden Steps
+    sight: >
+      Just before you lie firm, wooden steps, ascending onto the dias. Simple, but elegant symbols have been
+      encarved on them.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung56"
+      south:
+        target: "scene:aber:nibelung:nibelung58"
+      west:
+        target: "scene:aber:nibelung:nibelung63"
+    short: Along the Wall
+    sight: >
+      You are standing along the wall of the castle. Notched turrets mark off sections of the wall
+      periodically. Parts of the mortar are now crumbling away, littering the walkway around you. There is a
+      doorway to the west.
+flag:
+  - outdoors

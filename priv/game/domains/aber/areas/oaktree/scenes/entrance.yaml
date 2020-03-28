@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:mansion"
+      west:
+        target: "scene:aber:oaktree:gardens"
+    short: Mansion Entrance
+    sight: >
+      You are standing on a small white porch. A white flight of stairs lead west to the gardens. The mansion
+      door is to your east.
+flag:

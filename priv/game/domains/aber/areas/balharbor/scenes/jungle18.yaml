@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle19"
+      west:
+        target: "scene:aber:balharbor:jungle12"
+    short: "Jungle's Edge"
+    sight: >
+      Finally, you are about out of this jungle and closer to civilization. To the east you can see a large
+      gate, while to the west you can head back into the jungle.
+flag:
+  - outdoors

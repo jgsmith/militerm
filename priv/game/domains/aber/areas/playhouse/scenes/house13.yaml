@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:playhouse:house12"
+      west:
+        target: "scene:aber:playhouse:house14"
+    short: Washroom
+    sight: >
+      Well according to housing regulations a house this big must have at least two bathrooms. So this is
+      another bathroom just has a spiffed up name for it. There is a plaque on the wall saying &+C'Please wash
+      your hands before leaving.' And on that note, you look at the fine porcelain sink before you.
+flag:

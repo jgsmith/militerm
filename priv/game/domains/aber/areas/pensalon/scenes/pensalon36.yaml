@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon24"
+      west:
+        target: "scene:aber:pensalon:pensalon41"
+    short: Shoreline
+    sight: >
+      You stand on the shore of a very peaceful and tranquil lake. The darkness engulfs the water off in the
+      distance and you can hear a rumbling of some unknown source faintly coming to your ears. To the west is
+      the lake and back to the east is a large cave.
+flag:
+  - nomobiles

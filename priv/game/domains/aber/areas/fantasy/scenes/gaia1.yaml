@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:gaia2"
+      south:
+        target: "scene:aber:fantasy:dforest6"
+    short: Entrance to Gaia Cave
+    sight: >
+      The Gaia cave is a very strange place, you can feel that something is alive in here yet you do not see
+      anything moving.
+flag:
+  - dark
+  - nomobiles

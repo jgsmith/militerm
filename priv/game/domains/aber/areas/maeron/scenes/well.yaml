@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+    short: &+RDown the well...
+    sight: >
+      &+R-------------------------------------------------------------------- &+WYou let out a scream as you
+      plumet rapidly down the well! Your arms &+Wand legs flail desperatly as you pick up speed. Suddenly you
+      land in &+Wthick mud. The speed of your fall plunges you deep beneath the dark &+Wmud.
+      &+l+---------------------------------+ &+l|&+WYou slowly suffocate in the muck.&+l|
+      &+l+---------------------------------+
+      -------------------------------------------------------------------- So long
+flag:
+  - death
+  - nomobiles

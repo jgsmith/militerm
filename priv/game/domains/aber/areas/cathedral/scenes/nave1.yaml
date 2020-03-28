@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:nave2"
+      north:
+        target: "scene:aber:cathedral:n_tower"
+      south:
+        target: "scene:aber:cathedral:s_tower"
+    short: The Nave
+    sight: >
+      You stand at the beginning of the long nave of the cathedral, which stretches out a great distance to
+      the east. The triforiums run along the northern and southern sides, with great columns of polished
+      &+Wwhite&* marble soaring upward into &+Ldarkness&* to support the vaulted ceiling, which is onlybarely
+      visible. The clerestory windows are blocked off by the &+Lstorm&* ragingoutside, and no light passes
+      through. To your north, through a high arch, lies the northern tower. Likewise, to the south, there is
+      another tower. To the west the royal portals appear to be boarded up, but the nave continues to the
+      east.
+flag:
+  - dark

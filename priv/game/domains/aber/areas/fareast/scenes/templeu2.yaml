@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:temple2"
+      south:
+        target: "scene:aber:fareast:templeu1"
+    short: Temple Altar
+    sight: >
+      The temple's altar is brightly lit, filled from wall to wall with elaborate candelabras filled with
+      candles of every size, color, and type. The flickering lights illuminate brightly colored rugs on the
+      floor and elaborate paintings on the ceiling and walls. A wooden staircase in the far corner leads back
+      down into the ground floor.
+flag:

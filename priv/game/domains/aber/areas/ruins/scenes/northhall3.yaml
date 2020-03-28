@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ruins:northhall4"
+      south:
+        target: "scene:aber:ruins:northhall2"
+      west:
+        target: "scene:aber:ruins:northempty2"
+    short: Further into the Northern Hall
+    sight: >
+      You are travelling along in the northern hall. It is quite drafty and the dust in the air tickles your
+      nose. There is a small empty room to the west of here. The hall leads to the north and south.
+flag:
+  - dark

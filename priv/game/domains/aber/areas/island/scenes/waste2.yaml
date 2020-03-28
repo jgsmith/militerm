@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:island:flow"
+      east:
+        target: "scene:aber:island:waste1"
+      north:
+        target: "scene:aber:island:waste1"
+      south:
+        target: "scene:aber:island:waste2"
+      up:
+        target: "scene:aber:island:brink"
+      west:
+        target: "scene:aber:island:slope2"
+    short: Lava Wasteland
+    sight: >
+      You are trudging across a black lava wasteland, broken only by a few very hardy bushes and low trees.
+      The lava extends all around you.
+flag:
+  - outdoors

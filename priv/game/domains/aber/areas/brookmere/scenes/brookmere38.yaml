@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere37"
+      west:
+        target: "scene:aber:brookmere:brookmere39"
+    short: Damp Corridor
+    sight: >
+      Judging from this corridor you are nearing some body of water. The walls feel cold and damp, even more
+      so than is usual underground, and water drips through the ceiling in numerous places, collecting in just
+      as many puddles. A light breeze blows from the west and brings with it the smell of water and earth. The
+      corridor continues on to the wetter west and back to the dryer north.
+flag:
+  - dark

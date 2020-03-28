@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rainforest:forest36"
+    short: Topmost Branches
+    sight: >
+      You are in the uppermost branches of one of the taller trees in the rainforest, looking out over the
+      vast spread of the canopy which stretches out to the horizon in all directions but to the west, where
+      tall mountains and snow-capped volcanos rise up from the forests to touch the clouds. The next tree is
+      too far away for you to reach, so the only way from here is down.
+flag:
+  - outdoors

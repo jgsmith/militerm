@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:cyrus:57"
+      east:
+        target: "scene:aber:cyrus:55"
+    short: Before the stairs to Hell
+    sight: >
+      You stand just before a grand staircase. The heat is growing stronger. You can feel the heat gaining
+      your bones. You feel evil forces emaning from the bottom of the stairs. Obviously, something very
+      powerful resides down there.
+flag:
+  - hot

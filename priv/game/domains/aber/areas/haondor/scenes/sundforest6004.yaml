@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6003"
+      south:
+        target: "scene:aber:haondor:sundforest6005"
+      west:
+        target: "scene:aber:haondor:sundforest6010"
+    short: A Trail Through The Dense Forest
+    sight: >
+      You are on a trail winding east and west through the dense forest. To the west, the &+Gtrees&* are so
+      huge and their crowns so dense that forest remains in total darkness. A small path leads south through
+      the trees.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:66"
+      west:
+        target: "scene:aber:cyrus:13"
+    short: &+cGuarded door
+    sight: >
+      There's a door that makes approximately 3 meters high in front of you. But it's well guarded by a strong
+      looking wrestler.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grove:cottage"
+      south:
+        target: "scene:aber:grove:grove_path"
+    short: Glen
+    sight: >
+      A small glen opens up before you, several marble benches circle a large fountain in the center of the
+      area. The fountain bubbles water and glistens brightly in the warming sun. Carved into the fountain is a
+      sculpture of an elven woman playing the lute, perhaps a memorial to some great lady. You see a hidden
+      cottage through some bushes, amongst some trees.
+flag:
+  - soundproof
+  - outdoors
+  - cantsummon
+  - nosummon

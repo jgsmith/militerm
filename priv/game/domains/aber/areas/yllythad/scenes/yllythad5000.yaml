@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5095"
+      north:
+        target: "scene:aber:yllythad:yllythad5099"
+      south:
+        target: "scene:aber:yllythad:yllythad5150"
+      west:
+        target: "scene:aber:yllythad:yllythad5155"
+    short: Calm Waters
+    sight: >
+      The waters of the sea are very still here, so still that they bring a feeling of peace and comfort. They
+      are not the dead calm that always is associated with dread in a sailor's heart but a slowly moving roll
+      that promises a good day at sea.
+flag:
+  - onwater
+  - outdoors
+  - peaceful

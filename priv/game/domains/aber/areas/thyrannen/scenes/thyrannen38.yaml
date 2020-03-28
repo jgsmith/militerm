@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:thyrannen:thyrannen39"
+      east:
+        target: "scene:aber:thyrannen:thyrannen41"
+      south:
+        target: "scene:aber:thyrannen:thyrannen37"
+    short: Cave
+    sight: >
+      You have entered a dark, vast, cavernous cave, a putrid ammonia like smell emminates from an exit
+      leaving downward. Maybe the marsh, which is still to the south, was safer...
+flag:
+  - dark

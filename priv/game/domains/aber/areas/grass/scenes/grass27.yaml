@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass28"
+      north:
+        target: "scene:aber:grass:grass17"
+      south:
+        target: "scene:aber:grass:grass37"
+      west:
+        target: "scene:aber:grass:grass26"
+    short: Field of Grass
+    sight: >
+      You stand amid tall grasses which stretch for some distance in all directions. The grass grows tall and
+      brown, not a dead or ugly brown, simply a light windblown color which is actually quite pleasing to the
+      eye. To the north is the edge of a light forested area, south is the edge of the world, or so it appears
+      as all that can be seen from here is a wide, open expanse of air.
+flag:
+  - outdoors

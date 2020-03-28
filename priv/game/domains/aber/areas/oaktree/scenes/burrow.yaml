@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:den"
+      north:
+        target: "scene:aber:oaktree:hole"
+      south:
+        target: "scene:aber:oaktree:den"
+      up:
+        target: "scene:aber:oaktree:burrow"
+    short: Fox Burrow
+    sight: >
+      You are crawling around on your hands and knees in a cramped north-south fox burrow. The stench of fox
+      permeates the burrow and gets even stronger towards the south. The air to the north is somewhat fresher.
+flag:
+  - dark

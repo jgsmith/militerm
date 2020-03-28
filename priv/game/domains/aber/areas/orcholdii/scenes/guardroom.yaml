@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:cell1"
+      north: null
+      south:
+        target: "scene:aber:orcholdii:cell3"
+      west:
+        target: "scene:aber:orcholdii:cell2"
+    short: Guard Room
+    sight: >
+      This chamber is very plain, having just a chair and a small table. There are cell doors east, west, and
+      south.
+flag:

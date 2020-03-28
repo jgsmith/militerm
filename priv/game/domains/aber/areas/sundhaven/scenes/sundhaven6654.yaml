@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6634"
+    short: The blacksmiths
+    sight: >
+      The orange glow of the forge brightens an otherwise black, windowless room. This is the blacksmith's
+      home and workplace; a humble cot rests very close to the fire.
+flag:

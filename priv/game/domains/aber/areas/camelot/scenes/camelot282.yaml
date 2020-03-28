@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot303"
+      south:
+        target: "scene:aber:camelot:camelot281"
+    short: Bathing Room
+    sight: >
+      You are in what could easily be the most luxurious bathing room you have ever heard of. The walls and
+      floor are of white marble. The floor is warmed to a comfortable tempurature by some magic. In the center
+      of the room is a huge sunken tub. Water flows continually in and out of it, and the steam rising from it
+      makes you long to immerse yourself. Along the western side of the tub is a shelf holding bottles of
+      various soaps, oils, and lotions. A small stand holds a stack of thick, soft towels.
+flag:
+  - private
+  - party

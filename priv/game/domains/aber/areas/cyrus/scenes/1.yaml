@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:2"
+      south:
+        target: "scene:aber:camelot:camelot85"
+    short: &+cBridge to Amsdam
+    sight: >
+      You're walking on an old bridge leading to Amsdam. The skies are blue and trees are green, but you are
+      hearing so fearsome screams coming from the village. The bridge continues north to the Amsdam town.
+flag:
+  - outdoors

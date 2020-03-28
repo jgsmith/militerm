@@ -1,0 +1,23 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The New Treadmills of Hell, A New Beginning
+    sight: >
+      Just when you thought it was all over, the Treadmills of Hell begins anew and holds its grip upon the
+      evil beings that occupy this place. The exits still look no different than they have before.
+flag:
+  - maze

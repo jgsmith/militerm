@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nibelung:nibelung26"
+      west:
+        target: "scene:aber:nibelung:nibelung45"
+    short: Barren Land
+    sight: >
+      The air here burns your nostrils slightly, as if it had a high sulphur content. To the east lies a sandy
+      patch, and a path works its way off to the eastern horizon. To the west you see the ruins of a large
+      castle.
+flag:
+  - outdoors

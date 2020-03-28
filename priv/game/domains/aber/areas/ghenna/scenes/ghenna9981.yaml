@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9980"
+      west:
+        target: "scene:aber:ghenna:ghenna9982"
+    short: A slimey footpath.
+    sight: >
+      Slime, slime, everywhere. A wounded Dwarf is laying here, half immersed in the red slime. Maybe this
+      wasn't such a good idea... You can exit towards the West, or to the South.
+flag:
+  - dark
+  - outdoors

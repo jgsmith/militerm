@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq36"
+      west:
+        target: "scene:aber:nwbeaches:beachqq09"
+    short: The Base of the Village
+    sight: >
+      You stand at the edge of the sea shore staring at a huge rock formation which could be described (sort
+      of) as a plateau rising up out if the ocean floor and holding a sizable village atop it. To the north is
+      the cliff face you have been following, which happens to put an end to this path just a little ways
+      northeast from your current position. West the path heads along the beach for quite a long distance.
+flag:
+  - outdoors

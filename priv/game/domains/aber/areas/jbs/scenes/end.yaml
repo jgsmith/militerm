@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:gopher_den"
+      north:
+        target: "scene:aber:jbs:damp"
+    short: End of the Tunnel
+    sight: >
+      The tunnel runs into a dirt wall here. Obviously whatever dug this tunnel decided that this was far
+      enough to go. There is, however, a hole leading down into some sort of chamber.
+flag:
+  - dark

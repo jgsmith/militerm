@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:ceast"
+      north:
+        target: "scene:aber:ruins:cwest"
+    short: Southern Catacomb
+    sight: >
+      You have entered the southern catacombs. There are thick pools of blood covering the floors. You
+      nervously look around the room and find that one of the walls has strange runes written on it. You also
+      see that there are exits to the north and to the east.
+flag:
+  - dark

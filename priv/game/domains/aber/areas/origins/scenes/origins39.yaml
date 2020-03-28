@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:origins:origins38"
+      south: null
+    short: The Top of the Stairs
+    sight: >
+      You climb the long flight of steps, heading toward the zenith, and the climb is a long and tedious one.
+      The stairs squeak loudly as you tread upon them. You pray that the fragile stairs don't crumble
+      underneath your feet. As you reach the top, you see a door. Optionally, you may head back down the
+      stairs.
+flag:
+  - dark
+  - soundproof
+  - negregen

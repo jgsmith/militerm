@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:gold:basement"
+      east:
+        target: "scene:aber:gold:sanctuary"
+      west: null
+    short: Entryway
+    sight: >
+      What a beautiful work of art. There's a large archway leading into the center aisle of an incredible
+      sanctuary. You wonder how anyone could have built this place. All walls, doors and floors are trimmed in
+      pure gold, and it peaks your interest as to where the gold came from!
+flag:

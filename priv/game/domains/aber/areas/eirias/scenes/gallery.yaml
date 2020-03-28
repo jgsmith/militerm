@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eirias:inside"
+      east:
+        target: "scene:aber:eirias:light"
+      west: null
+    short: Gallery
+    sight: >
+      You come up through a trapdoor, close to one end of a long gallery. The floor stretches before you in
+      curious sections, one after another, on different levels, so that one might be higher than the one
+      before, and the next lower than either. The place seems to be a kind of library. Heavy square tables and
+      chairs fill it, separated by low stacks of bookshelves, and the wall on your left is covered entirely in
+      books. The ceiling is wood-panelled. There are people throughout the room, looking at various books, but
+      they don't seem to see or hear you. You look at one book a man is holding, but the title seems to be in
+      a foreign language and the pages are completely blank. You walk up the length of the gallery, past all
+      the people. As you turn a corner, the last section of the gallery is filled with strong light blazing in
+      from whatever lies beyond.
+flag:

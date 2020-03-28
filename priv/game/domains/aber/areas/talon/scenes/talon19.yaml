@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon18"
+      west:
+        target: "scene:aber:talon:talon20"
+    short: The Chasm
+    sight: >
+      You stand on a narrow natural bridge crossing a giant chasm. A bright yellow sun shines down upon you,
+      and clears your darkness-ridden mind. A cool wind blows across your skin, reminding you of what it is to
+      be alive, for now. Below, the chasm continues downwards, and disappears into a mist of swirling clouds.
+      To the west, the bridge leads to a small ledge carved into the side of a mountain. To the east, a cave
+      leads back into the large cavern.
+flag:

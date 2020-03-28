@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:avairy:shore4"
+      west:
+        target: "scene:aber:avairy:shore6"
+    short: The Shore
+    sight: >
+      You have reached the south eastern corner of the island. You stare out over the waters in search of any
+      land, but all you see are three and four feet high waves breaking for miles. You hear bird chirping
+      coming from the north-west.
+flag:
+  - outdoors
+  - light

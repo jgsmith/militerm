@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:tower:levitation"
+      west:
+        target: "scene:aber:tower:magical"
+    short: Wraith Room
+    sight: >
+      You find yourself in the room where the Sorceror keeps his undead creatures, in particular his pet
+      Wraith, until he needs them. Exits lead north and west.
+flag:

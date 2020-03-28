@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:icecave:palace"
+      south: null
+    short: Royal Bedroom
+    sight: >
+      You are in the royal bedroom. The bed appears to have melted. There is a large cupboard on the south
+      wall and a doorway to the north.
+flag:

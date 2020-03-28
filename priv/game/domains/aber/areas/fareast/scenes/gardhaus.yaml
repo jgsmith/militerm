@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:courtyard"
+      up:
+        target: "scene:aber:fareast:gardhaus2"
+    short: Guard House
+    sight: >
+      The only standing building higher than two stories, other than the fortress itself, is this guard tower,
+      set against the defensive wall. This lower floor held rows of bunks, which are now overturned and torn,
+      as well as the armor and personal effects of the city's defenders. A plank staircase leads up to the
+      open platform above.
+flag:

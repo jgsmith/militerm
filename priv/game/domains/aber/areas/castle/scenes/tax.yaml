@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:castle:o_hall"
+    short: Tax Room
+    sight: >
+      This would appear to be the room where the taxes for the surrounding area were collected and counted,
+      although not stored here, as you yourself found it so easy to get in.
+flag:

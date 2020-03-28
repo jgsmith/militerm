@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:brookmere:brookmere30"
+      west:
+        target: "scene:aber:brookmere:brookmere28"
+    short: Dusty Corridor
+    sight: >
+      This corridor is a lot less dusty than the room to the north, although it could still do with a good
+      clean. Tapestries on the walls are obscured by a mantle of cobwebs and dust has piled up in drifts along
+      the wall. With each step you take a gray cloud erupts under your foot and dust gets into your nose,
+      making you sneeze. To the west you can see an open doorway, and something flashes in the dark.
+flag:
+  - dark

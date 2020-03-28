@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan22"
+    short: Thin Ledge
+    sight: >
+      The ledge narrows until you are balancing only on your heels. The ice is slick, and on your next step
+      you slip. As you fall, you manage a desperate grab at the ledge, and by some miracle manage to grasp it.
+      You dangle from the ledge, unable to scramble back up, for hours, shouting for help. No one is here to
+      hear you. Finially your strength gives out, and you plunge hundreds of paces into the deep gorge below
+      you.
+flag:
+  - outdoors
+  - cold
+  - death

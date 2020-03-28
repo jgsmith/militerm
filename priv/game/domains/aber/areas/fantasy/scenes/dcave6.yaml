@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dcave5"
+      south:
+        target: "scene:aber:fantasy:dcave7"
+    short: Another turn in the mine
+    sight: >
+      You can no longer see any kind of light coming from the way you came and it is still getting colder in
+      here. You look around for an exit and find one to the south.
+flag:
+  - dark

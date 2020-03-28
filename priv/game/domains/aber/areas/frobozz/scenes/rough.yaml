@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:frobozz:behind"
+      up:
+        target: "scene:aber:frobozz:drafty"
+      west:
+        target: "scene:aber:frobozz:drafty"
+    short: Rough and Narrow Tunnel
+    sight: >
+      You are in an uneven, rough, narrow and ascending tunnel leading up to the west and down to the east.
+      There is a strong draft blowing through the tunnel which nearly treathens to blow out your light out.
+flag:
+  - dark

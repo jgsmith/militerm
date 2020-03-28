@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter77"
+      north:
+        target: "scene:aber:enchanter:enchanter23"
+      south:
+        target: "scene:aber:enchanter:enchanter72"
+      west:
+        target: "scene:aber:enchanter:enchanter21"
+    short: Junction
+    sight: >
+      The corridor splits up here, going north and south to towers, or continuing east into a large courtyard.
+      You hear the sound of chanting from the courtyard.
+flag:

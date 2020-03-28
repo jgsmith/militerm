@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nexus:nexus54"
+      west:
+        target: "scene:aber:nexus:nexus52"
+    short: Elbow of Lush Trail
+    sight: >
+      Nestled in the outside corner of the trail is a broken tree, its trunk crushed and splintered by a
+      pounding force that once passed over this area. A small family of foxes, also multi-hued, now live
+      inside the devastated tree. The trail leads to the beach to the west and comes to and end to the south.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

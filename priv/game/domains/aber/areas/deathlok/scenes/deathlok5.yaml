@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:deathlok:deathlok4"
+      up:
+        target: "scene:aber:deathlok:deathlok6"
+    short: Mountain Pathway
+    sight: >
+      Once into the mountain you reach a mountain pathway that leads up to the mountain peak. Before lies a
+      narrow path leading to a ledge. Looking around you notice that the path has not been used for years or
+      even decades. You notice that underbrush has grown around the path making the path difficult to see. To
+      the north of you lies a treacherous ledge. To the south, leads back down to the mountain base.
+flag:

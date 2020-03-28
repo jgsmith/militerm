@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon21"
+      east:
+        target: "scene:aber:saxon:saxon19"
+    short: Path to &+bSea&*
+    sight: >
+      This path winds to the west and slightly downhill. You see at the end of it a large sea, which appears
+      to be dark red, and boiling. The path is grown over with brush, this must not be the way to a popular
+      fishing hole.
+flag:
+  - light
+  - outdoors

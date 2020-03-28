@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund10"
+      south:
+        target: "scene:aber:sommerlund:sommerlund17"
+      west:
+        target: "scene:aber:sommerlund:sommerlund12"
+    short: Forest Tor
+    sight: >
+      Tall trees surround you, but the sun still penetrates. Your feet crackle the twigs and underbrush,
+      sending jittery chipmunks and squirrels back to their respective homes. Birds sing out sweet choruses of
+      seemingly random chirping as they quaintly build their nests. A fox dashes out of the ground and runs
+      past you, in search of a friendly anteater. Its red tail brushes your leg and smacks a tree in its
+      haste. The forest grows deeper to the west, where the start of a rocky cave looms proudly from the
+      ground. Towards the sea in the east, the forest grows lighter and emerges onto plains of grass.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:god:god2"
+    short: "God's home&N"
+    sight: >
+      Did you ever wondered what god's home would look like? We did too.
+flag:
+  - party
+  - private
+  - nomobiles
+  - god
+  - nosnoop
+  - noat

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:balhar42"
+      up:
+        target: "scene:aber:balharbor:btower2"
+    short: Base of Tower
+    sight: >
+      Going out the side door of the Mage's Guild, you are at the foot of a tall spooky-looking tower which is
+      shrouded in dark clouds and thunder and lightening. Looking straight up, you can't even see the top of
+      the structure and wonder what could be hiding up there. You sort of wonder who would occupy this tower,
+      but looking up toward the entrance you see some spirit guards wielding bastard swords. You may have to
+      go up there eventually, but considering how much you're trembling in fear, only as a last resort. Stairs
+      leads up to the tower while you can double back to the north.
+flag:

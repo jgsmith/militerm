@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc41"
+      north:
+        target: "scene:aber:ancient:anc45"
+      west:
+        target: "scene:aber:ancient:anc39"
+    short: Moist Tunnel
+    sight: >
+      The passageway leads further to the east and widens in the distance to some kind of cavern. You notice
+      that the floor has become wet and you regret putting on sandals instead of the boots you had on when
+      comming into this hot part of the world. The water on the floor seems to come from the cavern. To the
+      north you see a low side tunnel.
+flag:
+  - dark

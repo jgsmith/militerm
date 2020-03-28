@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:abyss:l662"
+      up:
+        target: "scene:aber:abyss:stairs"
+    short: Abyssal Stairway
+    sight: >
+      You seem to be nearing the bottom now, but having lost track of how far you have come, you can't be
+      sure. It looks like as good a place as any to rest.
+flag:
+  - dark

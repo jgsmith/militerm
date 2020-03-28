@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:holo1"
+      south:
+        target: "scene:aber:evolution:plei5"
+    short: Narrow Crack
+    sight: >
+      You are squeezed into a crack in the north wall of the cave. It is very uncomfortable, but you notice
+      that it widens out to the north, and you think you can probably get through to the open part without too
+      much difficulty.
+flag:
+  - dark

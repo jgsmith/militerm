@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome67"
+      west:
+        target: "scene:aber:rome:rome65"
+    short: Clay Road
+    sight: >
+      You travel upon an East-West road wide enough for 30 men to march abreast.
+flag:
+  - outdoors

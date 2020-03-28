@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:orchold:entryway"
+      north:
+        target: "scene:aber:nibelung:nibelung2"
+      west:
+        target: "scene:aber:arena:entrance"
+    short: Path
+    sight: >
+      You are standing on a sharply-inclined trail, which winds down to a roughly carved opening below. It
+      continues on to the north, leveling off a bit in the process.
+flag:
+  - outdoors

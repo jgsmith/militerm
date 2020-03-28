@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+    short: A Strange Wall
+    sight: >
+      You walk into the strange wall and feel yourself falling and then flying all at once. You close your
+      eyes hoping that this experience will end soon.
+flag:
+  - dark

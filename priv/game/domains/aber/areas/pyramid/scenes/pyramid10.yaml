@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pyramid:pyramid9"
+      up:
+        target: "scene:aber:pyramid:pyramid13"
+    short: Temple Steps
+    sight: >
+      Blinking your eyes, you are amazed to find that you're on the steps of a large, &+ysand&N scoured
+      pyramid. Carved out of rock and made smooth by the constantly blowing wind, they lead up to a small,
+      &+Ldark&N, opening. Excitment courses through you. You have traveled far, endured much and have finally
+      found the tomb of Neferteri. Visions of the wealth she stripped from the people dance in your head,
+      overshadowing all thoughts of the &+Lcurse&N.
+flag:
+  - outdoors
+  - nomobiles

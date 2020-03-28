@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon27"
+      up:
+        target: "scene:aber:chlyon:chlyon25"
+    short: Rocky Path Winding Down
+    sight: >
+      You are following a narrow path that descends abruptly along the face of the mountain. Below you,
+      another path joins in.
+flag:
+  - outdoors

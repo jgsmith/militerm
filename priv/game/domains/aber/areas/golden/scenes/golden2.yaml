@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:golden:golden1"
+    short: &+WRocky Outcrop&*
+    sight: >
+      Standing atop a small cluster of cracked rocks, you are able to survey some of the jungle that lies
+      ahead of you. A heavy layer of moss coats most of these rocks making them very slippery so you decide to
+      get down before you slip and break your neck.
+flag:
+  - outdoors

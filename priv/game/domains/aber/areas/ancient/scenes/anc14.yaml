@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: Rio San Juan
+    sight: >
+      The river has suddenly turned into a rapids and you find it impossible to turn back. You keep fighting
+      against the stream, but its' power turns your small boat upside down making you wish you were a salmon.
+      All this time the river flows endlessly to the sea.
+flag:
+  - outdoors
+  - onwater
+  - death

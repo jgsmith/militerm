@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie7"
+      west:
+        target: "scene:aber:newbie:newbie8"
+    short: The Sacificial Pit
+    sight: >
+      While you're running around gathering items, at some point your arms become full and you can't carry
+      anymore. Other times you pillage a treasure trove full of jewels, gold, silver, and other valuables and
+      need to unload it all somewhere before ending your running session. This is when you travel to one of
+      the many sacificial pits in the game and drop it in to add big points to your score. But be careful, you
+      want to &+YVALUE ALL&* the stuff you're carrying and avoid dropping items that aren't worth anything or
+      take points away.
+flag:
+  - peaceful
+  - newbie

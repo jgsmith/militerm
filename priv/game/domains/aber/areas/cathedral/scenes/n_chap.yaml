@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:n_amb"
+    short: North Chapel
+    sight: >
+      Inscribed in the marble walls you read: 	Herein lies the Holy China Set, used by our lord at his last
+      supper. Despite the inscription, you see that the box in the center of the room is most clearly empty.
+flag:
+  - dark
+  - oneperson

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:doom:f2"
+      east:
+        target: "scene:aber:doom:f2"
+      up:
+        target: "scene:aber:blizzard:snow_temple"
+      west:
+        target: "scene:aber:blizzard:snow_temple"
+    short: &+cPath Down The Mountain
+    sight: >
+      You are on a steep path that leads up and down the mountain, with snow lashing you from all sides. Above
+      you you can make out some sort of stone structure, while below you see the beginnings of a large forest.
+      To the northeast you see what may be smoke rising above the trees.
+flag:
+  - cold
+  - outdoors

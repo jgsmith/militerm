@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale25"
+      north:
+        target: "scene:aber:fairytale:fairytale23"
+      west:
+        target: "scene:aber:fairytale:fairytale6"
+    short: Rolling Hills
+    sight: >
+      The clouds here slope gently up and down, and in some places grass has sprouted. In the distance to the
+      east you see a floating castle, and to the north lies a pile of fallen rubble. To the west you see a
+      clearing.
+flag:

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung78"
+    short: Castle Treasury
+    sight: >
+      The treasury seems to have been ransacked several times before. If there ever was a treasure, you can be
+      sure it is long gone. Some shelves which lined the back wall are now broken or empty. A legend has been
+      enscribed into one wall, apparently engraved with some spell. It reads: Whosoever partaketh of the
+      wizard's delight shall not quake nor quiver at any plight.
+flag:
+  - dark

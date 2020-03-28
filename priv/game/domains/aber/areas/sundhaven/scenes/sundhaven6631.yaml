@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6632"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6630"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6646"
+    short: A gold sand road
+    sight: >
+      A thick stone and mortar building with small windows stands to the east, but no entrance can be seen
+      from here, and the black stone of the weapons shop is westwards. The road is treeless and wide, the air
+      laiden with smoke and the shouts of bartering.
+flag:
+  - outdoors

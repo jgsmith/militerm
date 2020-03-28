@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9506"
+      north:
+        target: "scene:aber:khanjar:khanjar9510"
+      west: null
+    short: At The Top Floor
+    sight: >
+      This north- and south-directed corridor is where the local guest rooms are located at. The walls are
+      paneled in some fine wood, and there hang deep green tapestries with some white decorations on them.
+      Torches cast soft light into the space.
+flag:

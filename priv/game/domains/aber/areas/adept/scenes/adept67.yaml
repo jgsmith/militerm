@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept70"
+      east:
+        target: "scene:aber:adept:adept68"
+      up:
+        target: "scene:aber:adept:adept66"
+      west:
+        target: "scene:aber:adept:adept69"
+    short: On the Ladder
+    sight: >
+      The shaft has been smoothened out over the years, allowing the ladder to firmly lean against the side.
+      There are two holes alongside the ladder attainable by crawlboards.
+flag:
+  - dark

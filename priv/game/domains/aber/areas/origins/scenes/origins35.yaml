@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:origins:origins33"
+      up:
+        target: "scene:aber:origins:origins37"
+    short: Base of the Tower
+    sight: >
+      You arrive at the base of one of the great towers which dominate the castle's exterior. The walls of the
+      tower are covered with moss and and decay, and a vile stench pervades the air. You may climb the stairs
+      to the top or return to the courtyard.
+flag:
+  - dark
+  - soundproof
+  - negregen

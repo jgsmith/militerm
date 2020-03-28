@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook161"
+      south:
+        target: "scene:aber:fairybook:fairybook163"
+    short: Forest
+    sight: >
+      You walk through the forest, keeping your eyes open for anything which looks out of the ordinary. The
+      path goes north and south.
+flag:
+  - outdoors

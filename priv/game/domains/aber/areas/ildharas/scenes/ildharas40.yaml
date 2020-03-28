@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas42"
+      south:
+        target: "scene:aber:ildharas:ildharas37"
+      west:
+        target: "scene:aber:ildharas:ildharas39"
+    short: Hallway
+    sight: >
+      The hallway branches to the south and west, and a door leads north. Below you see the ruins of the main
+      hall, and above, where hungry flames have licked away the paintings on the ceiling.
+flag:

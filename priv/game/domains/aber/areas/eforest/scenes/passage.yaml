@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:nwcorner"
+      west:
+        target: "scene:aber:eforest:eforest"
+    short: Mountain Passage
+    sight: >
+      You are walking down a long passage which has been carved out of the heart of this mountain. It is
+      obvious that great time has been spent carving this passage. You have heard rumors of the dwarves of the
+      North cutting a passage through to a beautiful forest for the elves of this realm. Perhaps, that
+      beautiful, fabled realm lies to the West!
+flag:
+  - nomobiles

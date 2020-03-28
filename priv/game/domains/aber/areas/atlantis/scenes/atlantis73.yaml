@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis74"
+      south:
+        target: "scene:aber:atlantis:atlantis72"
+    short: Tight Fit
+    sight: >
+      Whew! Good thing you're small or you probably wouldn't have made it into here. The walls of this passage
+      are rather narrow and a full sized human wouldn't be able to fit through here at all. Luckily that is no
+      problem for you in your present state. The passage hedges in on both sides but allows you to swim to the
+      north and south.
+flag:

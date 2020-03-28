@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook73"
+      west:
+        target: "scene:aber:fairybook:fairybook75"
+    short: Castle Path
+    sight: >
+      The path continues west, across a brook to a castle. It also goes east, towards a battlefield. Perhaps
+      you have reached the end of your quest?
+flag:
+  - nomobiles

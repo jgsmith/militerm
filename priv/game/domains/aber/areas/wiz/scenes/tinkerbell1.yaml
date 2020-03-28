@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:start:temple"
+    short: "Tinky's Room"
+    sight: >
+      As you approach this small abode, you can't help but wonder how someone could live in a home so small.
+      As you walk through the yellowwood entry, though, you gasp in amazement. This place is HUGE! Plush red
+      carpeting stretches away to the far wall stopping only to scuttle under the large comforting easy chairs
+      and sofas. Red and yellow roses sit before a magnificent picture window revealing a splendid view of the
+      cool blue ocean below. All in all, it looks like a very nice place to kick back, relax, and talk to your
+      favourite person for hours on end!
+flag:
+  - party
+  - peaceful

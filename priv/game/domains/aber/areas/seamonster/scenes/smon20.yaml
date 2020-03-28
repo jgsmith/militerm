@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:seamonster:smon21"
+      west:
+        target: "scene:aber:seamonster:smon19"
+    short: Island shore
+    sight: >
+      You are standing on another island shore. How many islands are here? This island used to be is very
+      special. Now it's very wasted. Everything is smashed apart into nothing. Total devastation.
+flag:
+  - outdoors

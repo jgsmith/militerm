@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome24"
+      west:
+        target: "scene:aber:rome:rome18"
+    short: At the Ticket Booth
+    sight: >
+      People are standing in long lines here, waiting to buy tickets. There are 3 vendors working furiously,
+      but hopelessly backed up. Ticket stubs litter the ground and you can see that the people are getting
+      very impatient. There is a large, open &+Gcashbox&* here. Main entrances to the Coliseum are to the
+      north and west.
+flag:
+  - outdoors

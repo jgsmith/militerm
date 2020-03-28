@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north: null
+      south: null
+    short: The Black Hall
+    sight: >
+      A sense of peace pervades you in this dark, silent place. A great seven-rayed star is inscribed on the
+      floor in the center, glowing with a silvery lambency. Aligned with each of the points are seven pillars
+      of jet supporting a roof somewhere above. Seven eternal candles gleam on the pillars, small pinpoints of
+      light in infinity. A set of doors leads south.
+flag:

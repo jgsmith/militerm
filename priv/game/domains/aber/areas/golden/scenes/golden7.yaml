@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden6"
+      north:
+        target: "scene:aber:golden:golden8"
+    short: Worn Path
+    sight: >
+      You are walking along a well-worn path that leads west towards the sound of voices. The undergrowth here
+      is almost covering the entire ground and you stumble over it as it entangles your feet. High above you
+      there is a large lizard climbing through the trees. The path continues west.
+flag:
+  - outdoors

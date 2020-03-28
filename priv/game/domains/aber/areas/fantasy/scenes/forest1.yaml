@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:forest2"
+      west:
+        target: "scene:aber:fantasy:start"
+    short: Old Forest
+    sight: >
+      As you look up you notice that the trees seem to almost touch the sky. The path that you are walking on
+      is covered with pine needles and pine cones of various sizes and sorts. The path continues to the east
+      and there is a clearing to the west.
+flag:
+  - outdoors

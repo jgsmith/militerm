@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:town:town58"
+      up:
+        target: "scene:aber:town:town60"
+    short: Cliff Face
+    sight: >
+      You are hanging onto the cliff face with your life. You think you may be able to climb up the face of
+      the cliff, or you could always chicken out and go back down.
+flag:
+  - outdoors

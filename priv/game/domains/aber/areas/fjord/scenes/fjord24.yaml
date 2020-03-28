@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord25"
+      north:
+        target: "scene:aber:fjord:fjord23"
+    short: Southern Beach
+    sight: >
+      The lakeside continues to be sandy around the south bank. Here the sand takes on a darker glow with
+      flecks of black in it. Clumps of soggy, decaying &+yweeds&* and broken pieces of &+ybark&* wash up
+      occasionally and deposit themselves ever deeper into the sand. The dirt white line left by the lake's
+      foamy wave tips is prominent as it meanders across the beach. The ebb and flow of the tide moves this
+      line up and down at various times of the day. A large tree trunk blocks the beach to the west, but the
+      eastern way is clear.
+flag:
+  - outdoors
+  - nomobiles

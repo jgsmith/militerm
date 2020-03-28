@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:tower:candle"
+    short: Scroll Room
+    sight: >
+      You are in a large, dry and well lit store room for scrolls, which would appear to be the Sorceror's
+      supply.
+flag:

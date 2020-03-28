@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan63"
+      north:
+        target: "scene:aber:mithdan:mithdan51"
+    short: Thick Forest
+    sight: >
+      It is hard to tell which direction is which in this thick forest. The only way you can tell directions
+      is that there is a huge clearing filled with immense magical energy to the north. The forest continues
+      to the east, but all other directions are blocked by brambles and thorns.
+flag:
+  - outdoors

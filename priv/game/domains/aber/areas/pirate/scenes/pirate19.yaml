@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate20"
+      north:
+        target: "scene:aber:pirate:pirate20"
+      south:
+        target: "scene:aber:moor:circle"
+    short: The Gateway
+    sight: >
+      You are standing in front of a large, pillared archway. In between the pillars you see a hazy cloud,
+      through which the moors can be seen. This is strange though, for when you look behind the archway, all
+      you can see is a large cliff, at the bottom of which you can see waves crash. A path extends off to the
+      north here, winding down the side of the volcano.
+flag:
+  - outdoors
+  - nomobiles

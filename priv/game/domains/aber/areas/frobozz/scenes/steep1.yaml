@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:frobozz:stairs2"
+      north:
+        target: "scene:aber:frobozz:stairs"
+      south:
+        target: "scene:aber:frobozz:stairs2"
+      up:
+        target: "scene:aber:frobozz:stairs"
+    short: Steep Passage
+    sight: >
+      You are in a steep passage leading southwards. The ceiling of the passage is high above you, making
+      space for those bigger creatures like cyclops ands such.
+flag:
+  - dark

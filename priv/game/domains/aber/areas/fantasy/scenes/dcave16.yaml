@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dcave15"
+      west: null
+    short: Lower Passage
+    sight: >
+      Now you see where the stench was coming from, there are rotting bodies all over the floor and the walls
+      have blood stains on them.
+flag:
+  - dark

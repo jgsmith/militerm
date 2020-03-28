@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan38"
+      north:
+        target: "scene:aber:mithdan:mithdan35"
+      west:
+        target: "scene:aber:mithdan:mithdan36"
+    short: Temple Chamber
+    sight: >
+      You stand just inside the temple. To the north the huge stone dragons return to their positions guarding
+      the entrance. To the east and west smooth stone corridors turn corners to the south with mathematical
+      precision.
+flag:

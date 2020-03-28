@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:castle4"
+      south:
+        target: "scene:aber:fantasy:castle2"
+    short: Main Hallway
+    sight: >
+      You are in the main hallway of Castle Glaive. You look to the north to see what is furthur up ahead but
+      the dim lighting prevents you from doing so.
+flag:

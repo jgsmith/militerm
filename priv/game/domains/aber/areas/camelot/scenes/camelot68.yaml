@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:camelot:camelot66"
+    short: The Tavern
+    sight: >
+      Ah, what a lovely place to sit of an evening, while the sun sets slowly and the wenches rise. The air
+      smells of a robust brew which reminds you how long it's been since you last settled down for a leisurely
+      drink.
+flag:

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:24"
+      north:
+        target: "scene:aber:stjames:37"
+      south:
+        target: "scene:aber:stjames:39"
+      west:
+        target: "scene:aber:stjames:45"
+    short: On the Pond
+    sight: >
+      You are just to the west of the center of the bridge. Your view of the Palace is obscured by its tall
+      fence. To the east is the fountain. On the paths at the edges of the pond, people are walking and
+      talking.
+flag:
+  - outdoors
+  - onwater

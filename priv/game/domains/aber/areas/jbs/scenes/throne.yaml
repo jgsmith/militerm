@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:balcony"
+      north:
+        target: "scene:aber:jbs:sitting"
+      south:
+        target: "scene:aber:jbs:side"
+      west:
+        target: "scene:aber:jbs:waiting"
+    short: Throne Room
+    sight: >
+      As you enter this room you are immediately struck by a gigantic &+Ythrone&* made of pure gold! Once you
+      manage to tear your eyes away from that huge treasure, you notice many finely woven tapestries and
+      banners hung tastefully about the room. There are exit's leading in all directions, and to the east you
+      can go out onto the balcony.
+flag:

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6614"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6616"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6664"
+    short: Wisteria park
+    sight: >
+      The dark greenery of the park extends eastwards, grown over with purple- flowering wisteria vine which
+      slowly ambles up the town walls. To the south, the cliff lane runs east-west. An occasional explosion
+      from a pale stone tower to the north startles you, and piques your curiousity about that strange place.
+flag:
+  - outdoors

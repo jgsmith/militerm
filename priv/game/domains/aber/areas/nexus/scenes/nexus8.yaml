@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nexus:nexus9"
+      south:
+        target: "scene:aber:nexus:nexus7"
+    short: Crystal Plain
+    sight: >
+      The fog is much less dense here than to the southwest and southeast. It allows more bright, yellow
+      sunlight in, revealing the thin outlines of the cloud castles above. The wind has picked up
+      considerably, driving the fog swirls faster and in tighter circles. To the north the plain continues as
+      far as the can see.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

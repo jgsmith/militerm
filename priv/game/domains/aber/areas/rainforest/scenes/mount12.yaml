@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:mount9"
+      west:
+        target: "scene:aber:rainforest:mount13"
+    short: River Peranon
+    sight: >
+      The wind-whipped spray from the river lashes your face as you wander along its bank, and you try to keep
+      as far away from the water's edge as you can, although the rock wall to the north prevents you from
+      keeping the distance you would like. You can follow the river east and west from here.
+flag:
+  - outdoors

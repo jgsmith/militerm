@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale134"
+      south:
+        target: "scene:aber:fairytale:fairytale132"
+    short: Sewing Room
+    sight: >
+      The east wall of this room is covered with spools of thread. Two cabinets are set up in the northeast
+      and southeast corners of the room; each is open and filled with fabric. Dressmaker dolls stand around
+      the room, with half- finished clothing hanging from them. Four large tables have been pushed against the
+      west wall for cutting and sewing. To the south is a large room, and to the north is a room full of
+      tapestries.
+flag:

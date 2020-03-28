@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle2"
+      up:
+        target: "scene:aber:balharbor:jungle4"
+    short: Steep Trail
+    sight: >
+      You're now about halfway up the cliff, or down it whichever way you are going. You've got a ways to go.
+flag:
+  - outdoors

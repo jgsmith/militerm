@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newbee:newbee18622"
+      west:
+        target: "scene:aber:newbee:newbee18627"
+    short: A Corner Room
+    sight: >
+      This room is hardly more than a crossing of passages. You do sense a slight breeze wafting down the
+      passage to the north though, but it smells altogether bad...
+flag:

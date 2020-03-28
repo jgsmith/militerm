@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nrose:ossarium"
+      south: null
+      up:
+        target: "scene:aber:nrose:librentr"
+    short: Damp Stairway
+    sight: >
+      You are at the base of a very long stairway that leads up into the aedificium tower.
+flag:
+  - dark

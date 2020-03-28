@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:lhall2"
+      west:
+        target: "scene:aber:jbs:lhall4"
+    short: Large Hallway
+    sight: >
+      This is a long stretch of north south hallway that turns to the west at southernmost end.
+flag:

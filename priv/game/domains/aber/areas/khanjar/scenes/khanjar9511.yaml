@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: A Guest Room
+    sight: >
+      The air in this room is musty, and it smells of hard liquor. On the floor there lie a bundle of creased
+      clothes and a couple of muddy shoes. As you step toward the window you notice that the floor there is
+      sticky and covered in thousands of tiny glass fragments all around. Obviously there has been a festival
+      of some kind in the City at last night.
+flag:
+  - dark

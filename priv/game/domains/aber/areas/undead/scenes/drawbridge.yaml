@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:before_castle"
+    short: Drawbridge
+    sight: >
+      You stand upon a large wooden drawbridge. Beneath you snap the undead jaws of a hundred alligators.
+      Fortunately the drawbridge is very solid so there is no danger of falling off. To your &+Cnorth&* lies a
+      guarded portcullis and to the &+Csouth&* lies safe dry land.
+flag:
+  - outdoors
+  - nomobile

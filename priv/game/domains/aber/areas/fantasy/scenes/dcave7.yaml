@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fantasy:dcave6"
+      west:
+        target: "scene:aber:fantasy:dcave8"
+    short: Yet another turn in the mine
+    sight: >
+      While shining around your light you notice that the walls seem to sparkle a little bit. Looking around
+      you find an exit to the west.
+flag:
+  - dark

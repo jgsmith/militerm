@@ -1,0 +1,26 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon40"
+      east:
+        target: "scene:aber:saxon:saxon39"
+      north:
+        target: "scene:aber:saxon:saxon39"
+      south:
+        target: "scene:aber:saxon:saxon38"
+      up:
+        target: "scene:aber:saxon:saxon39"
+      west:
+        target: "scene:aber:saxon:saxon39"
+    short: &*The &+rMere&*
+    sight: >
+      The mere is not a pleasant site. It is like being in a sea composed of pure blood, and having a
+      blindfold on so that you can't see where you are headed. The floor of the mere is covered with bones of
+      dead animals, and their solid rotting flesh. You also sense small sea-going vessels crumpled in pieces,
+      no doubt that their owners went down with them.
+flag:
+  - dark
+  - hot
+  - nomobiles
+  - deepwater

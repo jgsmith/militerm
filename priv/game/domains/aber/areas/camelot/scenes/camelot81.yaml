@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot80"
+      west:
+        target: "scene:aber:camelot:camelot84"
+    short: The Western Branch
+    sight: >
+      You stand on an east-west portion of the trail. To the west lie foothills, with mountains beyond. To the
+      east the trail flattens. Off to the southeast, you can see some sort of buildings, perhaps a village or
+      a large farm.
+flag:
+  - outdoors

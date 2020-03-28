@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:oaktree:mulberry"
+      north:
+        target: "scene:aber:oaktree:fig"
+      south:
+        target: "scene:aber:oaktree:tree2"
+      west:
+        target: "scene:aber:oaktree:walnut"
+    short: Elm Tree
+    sight: >
+      You are in an elm tree, high above the ground. This is not an easy tree to move about on as the branches
+      grow upwards, slender and thickly covered, leaving little foothold. To the north you can see the twisted
+      shape of a fig tree, to your west is a knobby walnut, and to your east is a mulberry. In the south are
+      the oaks, haughty and detached.
+flag:
+  - outdoors

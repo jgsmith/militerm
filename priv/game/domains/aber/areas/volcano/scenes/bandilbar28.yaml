@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar26"
+      west:
+        target: "scene:aber:volcano:bandilbar29"
+    short: Entrance To Bandilbar
+    sight: >
+      You are standing beneath a low arch marking the entrance to the network of caves inside the volcano. The
+      air is warm and a sharp smell of sulphur wafts towards you from within. To the east the cave continues,
+      while west of here a paved path leads down towards a deep channel running along the foot of the
+      mountain.
+flag:

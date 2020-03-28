@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:volcano:bandilbar34"
+      north:
+        target: "scene:aber:volcano:bandilbar36"
+    short: Honey Pool
+    sight: >
+      You are at the west end of the cavern. A deep trough has been dug into the ground here, and it is half
+      full of sticky fluid. You sniff it and are somewhat surprised to discover that it seems to be honey, or
+      something very similar. A flight of steps leads down to the north.
+flag:

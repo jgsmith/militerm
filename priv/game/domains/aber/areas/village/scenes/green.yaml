@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:village:track"
+      north:
+        target: "scene:aber:start:church"
+      west:
+        target: "scene:aber:village:village44"
+    short: The Village Green
+    sight: >
+      You are standing on a square of grass in the center of the village. A road leads east into the rest of
+      the village. To the north is a small church, and a path leads west into the trees.
+flag:
+  - outdoors

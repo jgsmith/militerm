@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:curse3"
+      north:
+        target: "scene:aber:fareast:curse2"
+      south:
+        target: "scene:aber:fareast:curseburnt"
+      west:
+        target: "scene:aber:fareast:curseshore1"
+    short: Cursed Forest- Raging Fire
+    sight: >
+      In this small patch of the blasted forest, a fire still burns, opening a hole through the clustered
+      trees and filling the air with blistering smoke. If you stay too long, that smoke could prove fatal.
+flag:
+  - negregen

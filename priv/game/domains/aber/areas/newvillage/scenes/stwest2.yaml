@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:stwest1"
+      west:
+        target: "scene:aber:newvillage:waterfall"
+    short: By the River
+    sight: >
+      Here the river is so loud you can hardly hear yourself think about the scenery. The water is moving
+      incredibly fast, and you believe that you must be coming along a waterfall.
+flag:
+  - outdoors

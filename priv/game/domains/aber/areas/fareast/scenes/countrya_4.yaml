@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:countryacher"
+      west:
+        target: "scene:aber:fareast:countrya_3"
+    short: Countryside- Orchards
+    sight: >
+      Planted and cultivated trees form small orchards along the sides of this east-west road, thickening to
+      the east until only a vast pink forest of blossoms is distinguishable. In the west, the trees become
+      more and more sparse, giving way to fields and pasture, flat land that makes it easy to see where this
+      path crosses another, forming a crossroads.
+flag:
+  - outdoors

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:oaktree:oaktree22"
+      north:
+        target: "scene:aber:oaktree:olive2"
+    short: Olive Tree
+    sight: >
+      In this tree there is a kind of hanging bookcase, sheltered somewhat from the rains. The olive grove
+      continues to the north.
+flag:
+  - outdoors

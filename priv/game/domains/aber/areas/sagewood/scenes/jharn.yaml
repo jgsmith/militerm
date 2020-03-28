@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: "Jharn's Dwelling"
+    sight: >
+      This place appears to be Jharn's dwelling. A small &+Bbed&* of dry leaves is the only object in the
+      small room. A small tunnel leads &+CEast&* into the cave's main chamber. Small, and simple. All a
+      dark-druid sentry needs.
+flag:
+  - nomobiles

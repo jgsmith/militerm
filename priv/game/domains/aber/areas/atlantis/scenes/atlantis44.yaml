@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis42"
+      west:
+        target: "scene:aber:atlantis:atlantis43"
+    short: Throne Room
+    sight: >
+      The throne against the center of the far wall is the first thing that captures your attention. It is
+      carved out of an enormous black pearl. You probably wouldn't want to meet up with the oyster that
+      created that! Carved into the surface of the pearl throne is pictures of historical battles, true loves
+      and tragic losses. It is a marvel to behold and the rest of the room no less so. The room is lit by
+      phosphorescent fish standing at attention at even intervals throughout the room. The ceiling of the room
+      is covered in all the riches of the sea. Brightly colored clownfish do tricks for everyone's amusement
+      and there is gaiety all around. The only odd thing about the room is that the floor is completely
+      barren. Looking down you see nothing but the sea bed below you.
+flag:
+  - underwater

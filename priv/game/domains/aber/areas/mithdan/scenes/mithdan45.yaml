@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:mithdan:mithdan42"
+      south:
+        target: "scene:aber:mithdan:mithdan47"
+    short: Ice Hall
+    sight: >
+      The hallway here is dripping with slowly flowing icicles and the floor is slick with ice. No matter how
+      much you try, you cannot focus on the walls, as if they are actually further away then they appear. To
+      the north the hall becomes more normal, and to the south it appears that fire and ice meet each other in
+      a flowing artwork.
+flag:

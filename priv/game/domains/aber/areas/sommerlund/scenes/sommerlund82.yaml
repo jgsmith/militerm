@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sommerlund:sommerlund83"
+      west:
+        target: "scene:aber:sommerlund:sommerlund81"
+    short: Kaag Apartments
+    sight: >
+      This is the Helgedad ghetto area, where thousands of horrors dwell in ebony black cages. They are "pets"
+      of the inhabitants of the city. Pleas for mercy, food, and an end to torment and pain echo forth from
+      these city blocks. A cross between a monkey, hippo, and a tree moans loudly in one corner cage, its
+      useless eyes staring out of an empty head.
+flag:
+  - outdoors

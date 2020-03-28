@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:blizzard:e_pass"
+      east:
+        target: "scene:aber:blizzard:e_pass"
+      up:
+        target: "scene:aber:orchold:path2"
+      west:
+        target: "scene:aber:volcano:bandilbar1"
+    short: Trampled Path
+    sight: >
+      You stand on a steep upwards path. The path has obviously been made by the trampling of many feet rather
+      than by any plan. Below you lies the end of the mountain pass.
+flag:
+  - outdoors

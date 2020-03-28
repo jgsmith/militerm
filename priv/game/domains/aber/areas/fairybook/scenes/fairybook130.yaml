@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook131"
+      south:
+        target: "scene:aber:fairybook:fairybook129"
+    short: Forest
+    sight: >
+      A signpost here warns of the Kalidahs, with bodies like bears and heads like tigers, and with claws so
+      long and sharp that they could tear you in two as easily as you squash a bug. The path goes north and
+      south.
+flag:
+  - outdoors

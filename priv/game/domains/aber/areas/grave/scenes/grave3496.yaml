@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down: null
+    short: Arch Devils Lair
+    sight: >
+      Centered squarely in this room is a &+Ythrone&*. Made of gold and silver the throne is exquisitely
+      decorated with gems and jewels. On the &+Ythrone&* sits a large grinning devil which smiles and motions
+      you closer. You feel compelled to obey as as you step up to the throne his smile deepens. Your coming
+      was foreseen - even watched. But now, finally...... YOU MUST DIE!
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook77"
+    short: Bedroom
+    sight: >
+      You ascend to an A-shaped room. As you gaze around it, you are astonished at the awesome spectacle
+      about. All of the things here are made of gold, and all are adorned with the letter 'A'. Upon the
+      A-shaped bed lies a beautiful little girl with blonde hair and a blue dress.
+flag:
+  - nomobiles

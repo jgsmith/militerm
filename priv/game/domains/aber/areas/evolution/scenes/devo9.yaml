@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:devo8"
+    short: Mossy Dip
+    sight: >
+      You are at the north end of the beach. Here the sand gives way to marshy ground, and large mosses are
+      growing up out of it to crawl into the forest, sending up thick fronded shoots. Your feet sink into the
+      ground here, and greenish water seeps over your footwear.
+flag:
+  - outdoors

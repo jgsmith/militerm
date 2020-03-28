@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:labyrinth:r"
+      north:
+        target: "scene:aber:labyrinth:b"
+      south:
+        target: "scene:aber:labyrinth:p"
+      west:
+        target: "scene:aber:labyrinth:start"
+    short: Labyrinth
+    sight: You are lost in the labyrinth.
+flag:
+  - dark

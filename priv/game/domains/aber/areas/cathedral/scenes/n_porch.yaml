@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:n_tran"
+    short: Northern Porch
+    sight: >
+      As you emerge from the cathedral, you see a tall spiked &+Lfence&* of &+ggothic&* design. You could
+      climb it... if you were into impalement. Beyond the fence lie desolate mountains, and above you &+Lstorm
+      clouds&* roll, and &+Wlightning&* arcs down in the distance.
+flag:
+  - dark
+  - outdoors

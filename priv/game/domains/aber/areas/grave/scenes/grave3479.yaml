@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3478"
+      north:
+        target: "scene:aber:grave:grave3480"
+      south:
+        target: "scene:aber:grave:grave3481"
+    short: Tunnel Junction
+    sight: >
+      Here is a junction that connects the tunnel with a ledge to the north and another, larger room to the
+      east. You can barely make out a faint noise to the north.
+flag:
+  - dark

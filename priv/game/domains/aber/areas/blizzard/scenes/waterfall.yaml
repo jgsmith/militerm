@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:woods3"
+      south:
+        target: "scene:aber:blizzard:grassy"
+      west:
+        target: "scene:aber:blizzard:woods"
+    short: The Waterfall
+    sight: >
+      You are in a secluded clearing beside a waterfall which sprays cool water gently over you. Several paths
+      diverge here, leading south, east and west.
+flag:
+  - outdoors

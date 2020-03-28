@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:blizzard:pillared2"
+    short: Throne Hall
+    sight: >
+      You are in a magnificent throne hall. The walls and roof are carved and painted into stunning
+      otherworldly scenes of mystical beasts and magical forms. Dark curtains cover the walls.
+flag:

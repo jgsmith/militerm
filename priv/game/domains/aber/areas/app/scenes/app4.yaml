@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:app:app2"
+    short: Laboratory
+    sight: >
+      The mages laboratory is filled with glass beakers and flasks. Some filled with mysterious liquids. To
+      one side of the wall, cages are stacked on top of each other, containing various small animals. As you
+      take your second step, a voice in your head screams, "We did not invite you in this tower to explore! We
+      have warned you, now you must face the consequences!" A bolt of lightning appears out of nowhere and
+      strikes you. Though you are sure it hit you, you felt no jolt of pain. As you take a look at yourself to
+      make sure, you notice a long elongated nose with whiskers, and furry paws. You seem to have been turned
+      into a mouse. As you take a look at your surroundings, you are picked up by the tail and put into one of
+      the cages. Here you wait for whatever horrible fate awaits you.
+flag:
+  - death

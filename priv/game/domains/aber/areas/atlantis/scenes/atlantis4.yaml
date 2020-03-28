@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis10"
+      north:
+        target: "scene:aber:atlantis:atlantis6"
+      south:
+        target: "scene:aber:atlantis:atlantis7"
+      up:
+        target: "scene:aber:atlantis:atlantis3"
+    short: Sea Bed
+    sight: >
+      Actually, it doesn't resemble a bed at all. As the water swirls about you, you sway under its pressure
+      and feel the crunch of sand under your feet as you attempt to keep your footing. The cliff face behind
+      you is covered with all sorts of sea life and riddled full of holes, ripe for the dwellings of small
+      animals. The sea bed stretches out in front of you to the north, east and south.
+flag:
+  - underwater

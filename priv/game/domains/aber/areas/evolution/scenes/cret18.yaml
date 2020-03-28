@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret17"
+      north:
+        target: "scene:aber:evolution:cret19"
+      south:
+        target: "scene:aber:evolution:cret20"
+      west:
+        target: "scene:aber:evolution:cret21"
+    short: On The Dunes
+    sight: >
+      You are on the top of a high sand dune. Coarse plants grow here, harried by the wind, holding the sand
+      together just enough to prevent the dunes collapsing. The beach lies to the west, the dunes continue
+      north and south, and to the east lies a long-dry river delta, once a network of watercourses, now choked
+      with weeds.
+flag:
+  - outdoors

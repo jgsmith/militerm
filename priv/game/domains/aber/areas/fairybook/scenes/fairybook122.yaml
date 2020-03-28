@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairybook:fairybook121"
+    short: Little Spring
+    sight: >
+      You walk through a short stretch of forest until you reach a little spring of clear water. Standing
+      beside the spring is a statue of a woodman, made entirely of tin. In front of him is a tree, partly
+      chopped through. The only exit is to the west.
+flag:
+  - outdoors

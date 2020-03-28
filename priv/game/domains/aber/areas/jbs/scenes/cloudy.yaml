@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:cloudy1"
+      south:
+        target: "scene:aber:jbs:top_beanstalk"
+    short: Cloudy Path
+    sight: >
+      The ground is solid under your feet, but there is a haze of cloud over everything. The path here turns
+      to the east up ahead and goes south back towards the beanstalk.
+flag:

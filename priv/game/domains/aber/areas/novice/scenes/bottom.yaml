@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:novice:hill"
+      south:
+        target: "scene:aber:novice:lawn"
+      up:
+        target: "scene:aber:novice:hill"
+      west:
+        target: "scene:aber:novice:entrance"
+    short: Bottom of the Hill
+    sight: >
+      You have just come to the bottom of the hill. You are standing in a very beautiful valley with tall
+      trees all around you. Out of the corner of your eye, you think you see something move. You hear a sound
+      that resembles giggling. Could something be laughing at you? Watching you???
+flag:
+  - outdoors
+  - real

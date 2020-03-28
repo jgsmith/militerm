@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge26"
+      north:
+        target: "scene:aber:ledge:ledge28"
+      south:
+        target: "scene:aber:ledge:ledge33"
+    short: Glowing Tunnel
+    sight: >
+      Something seems odd here. Unlike the rest of the tunnels, the walls give off a bit of a glow. Also it is
+      quite a bit warmer and humid. Almost like a steam bath. There looks to be a pool to the south, and
+      something that appears to be the source of the heat lies to the north.
+flag:

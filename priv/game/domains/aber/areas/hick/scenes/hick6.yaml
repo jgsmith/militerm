@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:hick:hick9"
+      north:
+        target: "scene:aber:hick:hick7"
+      west:
+        target: "scene:aber:hick:hick5"
+    short: Road to Crop Fields
+    sight: >
+      The road has fresh footprints in it leading to the east towards the fields, maybe someone is working out
+      there? There are large trees to the south of the road that are losing their leaves covering the grass
+      with orange and yellow colors. The road leads to the east and goes back to the west. To the north is the
+      road to the livestock area.
+flag:
+  - outdoors

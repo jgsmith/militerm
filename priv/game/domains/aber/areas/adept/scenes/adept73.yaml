@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept57"
+    short: In the Cradle
+    sight: >
+      The vine top is the formation of a huge cradle supporting the reproductive organs of the vine. The smell
+      of carbolic acid is still in the air as the plant produces more of it to sustain its internal transport
+      system. Close to the center of the cradle rests a flatop mound of plant flesh.
+flag:

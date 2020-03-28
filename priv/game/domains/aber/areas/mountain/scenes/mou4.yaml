@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mountain:mou5"
+      west:
+        target: "scene:aber:mountain:mou3"
+    short: Shadow of the Cactus
+    sight: >
+      You take a deep reliefing breath as you find a nice seat in the shadow of a tall thorny cactus. You kick
+      your shoes off and let the heat dry your sweating toes. Weak winds from the east blow gently through
+      your hair and the sweat on your wet shirt slowly evaporates cooling down your back. You glance at the
+      eastern skyline broken by odd structures in the distance. Paths lead east and west.
+flag:
+  - outdoors

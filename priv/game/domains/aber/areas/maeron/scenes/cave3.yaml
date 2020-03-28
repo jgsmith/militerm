@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:maeron:cave2"
+      north:
+        target: "scene:aber:maeron:leader"
+      south:
+        target: "scene:aber:maeron:treasury"
+      west:
+        target: "scene:aber:maeron:dorm"
+    short: &+YCentral Chamber
+    sight: >
+      The stench is almost unbearable here, causing you to nearly lose your lunch. All about the floor is
+      strewn gnawed on bones, rotten food, and a few things better left unmentioned. Torches light up the room
+      even more brightly here, giving the room a warmth, which encourages the cockroaches' growth. To the
+      &+Rnorth&* is an almost luxurious-looking room, to the &+Rwest&* a fetid kobold sleepingplace. Off to
+      the &+Rsouth&* you notice the glint of something shiny.
+flag:
+  - nomobiles

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:atlantis:atlantis33"
+      south:
+        target: "scene:aber:atlantis:atlantis35"
+      west:
+        target: "scene:aber:atlantis:atlantis28"
+    short: North Main Street
+    sight: >
+      As you enter this section you can see a group of fish that appear to be playing a game called "airball"
+      where they bat around an air-filled ball with their fins and try and knock it into a couple of
+      enclosures. It looks like they're having a lot of fun. Passages between the buildings lead north towards
+      the end of the street, west down a short street and back south along the rest of Main Street.
+flag:
+  - underwater

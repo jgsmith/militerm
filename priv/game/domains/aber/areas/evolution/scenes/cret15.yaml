@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret16"
+      north:
+        target: "scene:aber:evolution:cret14"
+      west:
+        target: "scene:aber:evolution:cret17"
+    short: River Bend
+    sight: >
+      You have come to a bend in the old river bed. The plant growth is less tangled here, and you have more
+      freedom of movement as you walk. The smell of the sea is strong in the air. The river bed continues to
+      the north and west.
+flag:
+  - outdoors

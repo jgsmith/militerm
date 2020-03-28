@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5289"
+      north:
+        target: "scene:aber:yllythad:yllythad5293"
+      south:
+        target: "scene:aber:yllythad:yllythad5295"
+      west:
+        target: "scene:aber:yllythad:yllythad5299"
+    short: Wild, Foaming Crests
+    sight: >
+      Waves crash and slam against each other in a constant swirl of motion, spray and foam spitting high into
+      the air. The sky has darkened, looking just a bit stormy.
+flag:
+  - onwater
+  - outdoors

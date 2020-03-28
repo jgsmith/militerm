@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:cathedral:ne_amb"
+    short: Northeast Chapel
+    sight: >
+      Sculpted in low relief in the wall is a crucifix, and at the bottom of the wall is an open case made of
+      pure &+Ygold&*. On the inside of its lid it describes the contents as a piece of the Crucifix. But you
+      can see no such thing here. The case looks empty.
+flag:
+  - dark
+  - oneperson

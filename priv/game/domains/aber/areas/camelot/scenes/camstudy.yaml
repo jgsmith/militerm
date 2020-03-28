@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Alchemists Study Quarters
+    sight: >
+      This is tough stuff. You study and study, practice and practice, and where do you get. Right back here.
+      The ghostly figure points out a scroll every now and then, or motions towards a practical exercise.
+      Surely you will get it eventually...
+flag:
+  - peaceful
+  - soundproof

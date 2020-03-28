@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:waste:golden"
+      west:
+        target: "scene:aber:waste:fire"
+    short: Top Of Stairs
+    sight: >
+      You are standing at the top of a set of glowing golden stairs. A wide, gold lined doorway leads west
+      into a huge hall.
+flag:
+  - hot

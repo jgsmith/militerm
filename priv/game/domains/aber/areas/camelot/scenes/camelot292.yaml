@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot291"
+      west:
+        target: "scene:aber:camelot:camelot293"
+    short: "Glasya's Room"
+    sight: >
+      Glasya is the consort of Mammon, and as such she is one of the most powerful female devils in existance.
+      She is incredibly lovely, but her wings and tail reveal her origins. Her father is Asmodeus.
+flag:
+  - dark

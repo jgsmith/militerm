@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:slott:slott47"
+      west:
+        target: "scene:aber:slott:slott49"
+    short: The path turns...
+    sight: >
+      Here the path does a turn around the tower. And you smell something resembling horse manure.
+flag:
+  - outdoors

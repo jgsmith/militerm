@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sagewood:sagewood2"
+      north:
+        target: "scene:aber:sagewood:daerius"
+      south:
+        target: "scene:aber:sagewood:cavern1"
+      west:
+        target: "scene:aber:sagewood:plain8"
+    short: Ravaged Clearing
+    sight: >
+      You are overcome by a feeling of tremendous grief for the land around you. It is almost as if someone
+      came here and ripped the life away from the land. The bare cracked soil beneath is light brown and dry.
+      To the &+CWest&* is a shimmering haze, while an ominous cavern lies to the &+CSouth&*. The wasteland
+      continues &+CEast&* and a small mud-hut is &+CNorth&*.
+flag:
+  - outdoors

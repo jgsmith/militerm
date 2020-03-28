@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni25"
+      south:
+        target: "scene:aber:oni:oni23"
+    short: Forest Clearing
+    sight: >
+      You stand in a clearing. Before you is what appears to be a very decrepit shrine or temple of some
+      forgotten culture. The high walls that surround the shrine has started to crumble in some areas. Through
+      the various gaps, you see a one story building with four pillars at the corner. Each pillar is topped
+      with a different statue. The building and pillars appear to be in good shape, unlike the wall that
+      surrounds it. Even with this fact, it appears that this place has been abandoned for quite some time.
+flag:
+  - outdoors
+  - nomobiles

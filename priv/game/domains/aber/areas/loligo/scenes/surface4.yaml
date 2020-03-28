@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:loligo:surface6"
+      north:
+        target: "scene:aber:loligo:surface5"
+      south:
+        target: "scene:aber:loligo:surface5"
+      west:
+        target: "scene:aber:loligo:surface3"
+    short: Upon The Ocean Waves
+    sight: >
+      Water, water everywhere... Not a hint of land can be seen in any direction. Even the gulls are rarely to
+      be seen here. Your craft rises and falls on the mid-ocean swell, and you begin to feel somewhat queasy.
+      You can head in any direction from here.
+flag:
+  - outdoors
+  - onwater

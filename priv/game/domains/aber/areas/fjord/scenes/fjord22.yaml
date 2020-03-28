@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord21"
+    short: Shrine of Tranquility
+    sight: >
+      A ring of four smooth stone pyramids line a small area of cropped bluegrass. The inner side of each
+      stone is entirely reflective, where any rays of the electromagnetic spectrum bounce off the highly
+      polished surfaces. The light is directed toward the center of the ring, enhancing the eternal blue flame
+      which burns at the heart of this shrine, streaked with enamel. The cast iron brazier upon which the fire
+      rests glows red in the heat. No offerings or sacrifices are made in this holy place as only a magical
+      ritual involving the human spirit can be done here.
+flag:
+  - outdoors
+  - peaceful

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:westsky"
+      up:
+        target: "scene:aber:zodiac:lost1"
+      west:
+        target: "scene:aber:zodiac:watera"
+    short: Near the Edge of the West Sky
+    sight: >
+      'Not much farther now' you keep telling yourself...and you're right. The constalations Cancer, Scorpio,
+      and Pisces are right after the next mile-astroid, which you can see from here.
+flag:
+  - nomobiles

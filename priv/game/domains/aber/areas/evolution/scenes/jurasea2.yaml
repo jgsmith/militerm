@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:evolution:jurasea3"
+      south:
+        target: "scene:aber:evolution:jurasea1"
+      west:
+        target: "scene:aber:evolution:jurasea4"
+    short: "Ichthyosaurs' Hunting Ground"
+    sight: >
+      It is quiet here... too quiet. In these still waters small fish feed in peace, and they take no notice
+      of you in the slightest. However, you know that appearances can be deceptive, and you constantly turn
+      around and around, watching for any signs of large ichthyosaurs which might appear from out of nowhere
+      to devour you.
+flag:
+  - soundproof
+  - underwater

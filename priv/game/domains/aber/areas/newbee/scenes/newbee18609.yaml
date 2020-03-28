@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18610"
+      west:
+        target: "scene:aber:newbee:newbee18608"
+    short: The End Of The Passage
+    sight: >
+      Ahhh... at last, the end of the hallway... you can exit into open air to the west, or return to the east
+      and make sure you didn't miss anything.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Tower Vault
+    sight: >
+      The excavation task here must have been enormous. A circular chamber stands twenty feet high with
+      pillars depicting the sun. A life-size statue of the sun god Kai stands in one area of the circle. Kai
+      Lords come here on 'pilgrimages' to further study their disciplines by meditating in the prescene of
+      Kai. A bronze pedestal in the middle of the chamber supports a velveted cushion on which several
+      spherical, many-faceted, crystal gems lay in as many indentation inside a glass box. These polished
+      rocks are the reknowned lorestones which were reclaimed by Lone Wolf during his quest for the 'Magnakai'
+      - the greater disciplines. However, there is a good size crack in the box, and one of the stones seems
+      to have fallen out of it.
+flag:

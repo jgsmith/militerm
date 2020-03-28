@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:tria7"
+      north:
+        target: "scene:aber:evolution:tria6"
+      west:
+        target: "scene:aber:evolution:tria3"
+    short: Shady River
+    sight: >
+      You are on the bank of a swift-moving river, which descends a gentle slope to the south. Tall trees lean
+      over the water, providing shade and a somewhat peaceful atmosphere. If you weren't in constant fear of
+      attack in these parts, you could quite happily doze off to sleep here.
+flag:
+  - outdoors

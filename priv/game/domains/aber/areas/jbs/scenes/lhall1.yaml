@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:lhall2"
+      north:
+        target: "scene:aber:jbs:library"
+      west:
+        target: "scene:aber:jbs:entry"
+    short: Large Hallway
+    sight: >
+      You are in a large east west hallway that is lined with magnificent pillars and draperies. There is a
+      large room off to the north.
+flag:

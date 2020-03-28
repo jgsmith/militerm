@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carbsea2"
+      north:
+        target: "scene:aber:evolution:permsea2"
+      south:
+        target: "scene:aber:evolution:carbsea3"
+    short: Lower Permian Ocean
+    sight: >
+      You are swimming through the seas of the lower permian period, a time of rapid evolution for bony fish,
+      and a rise to dominance for sharks, which are steadily improving their design, and their size...
+flag:
+  - soundproof
+  - underwater
+  - nomobiles

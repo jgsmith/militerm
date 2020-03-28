@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:landing"
+      east:
+        target: "scene:aber:jbs:steep"
+      south:
+        target: "scene:aber:jbs:landing"
+      up:
+        target: "scene:aber:jbs:steep"
+    short: Sloping Tunnel
+    sight: >
+      The tunnel begins to level out here and turns to the south. As you continue you begin to wonder how far
+      down this tunnel can go as you remember that you are still up among the clouds.
+flag:
+  - dark

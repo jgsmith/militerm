@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot280"
+      north:
+        target: "scene:aber:camelot:camelot282"
+    short: The Solarium
+    sight: >
+      The entire south and west walls of this room are transparent. But oddly, when you looked at the Keep
+      from outside, they seemed to be made of solid stone. The floor is covered by a thick carpet, and the
+      room is filled with rare flowering plants. There are several lounge chairs around the room, and on a
+      small table by one is a vase of white roses.
+flag:
+  - private
+  - party

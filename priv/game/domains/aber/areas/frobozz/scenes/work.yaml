@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:frobozz:connecting"
+    short: Wizards Workshop
+    sight: >
+      This is probably the place where the once mighty and powerfull Wizard of Frobozz developed his spells
+      and potions. There is a long, wide and very sturdy workbench here. Attached to it are handcuffs and
+      chained clammers used for keeping strong beings immovable. Deep marks in the bench bears signs of a
+      hooved animal once held here against its will.
+flag:
+  - dark

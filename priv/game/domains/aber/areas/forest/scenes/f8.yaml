@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f9"
+      north:
+        target: "scene:aber:forest:f7"
+      south:
+        target: "scene:aber:forest:f2"
+      west:
+        target: "scene:aber:forest:f1"
+    short: Forest
+    sight: >
+      You are following a path through the trees. The path diverges here and paths run off in all directions,
+      turning and twisting into the forest.
+flag:
+  - outdoors

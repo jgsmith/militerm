@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret10"
+      north:
+        target: "scene:aber:evolution:cret13"
+    short: Stony Incline
+    sight: >
+      The ground here slopes up to the north-west, descending on the one hand into a small marsh, and rising
+      up to a dike which runs roughly north and south. There the trees end, and you catch a faint whiff of
+      salt in the air.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairybook:fairybook106"
+    short: Cyclone Cellar
+    sight: >
+      The smell of fresh earth assails your nostrils as you climb into the cyclone cellar, which is really
+      nothing more than a hole dug in the ground. Kansas is rather prone to tornados, and it never hurts to be
+      safe just in case one arrives. The house is upstairs.
+flag:

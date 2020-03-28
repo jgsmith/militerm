@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down: null
+      up:
+        target: "scene:aber:nibelung:nibelung83"
+    short: Dungeon
+    sight: >
+      The dungeon is cold and dank, as dungeons tend to be. Some rusted shackles hang from one wall, and you
+      spy a ball and chain in one corner. The floor is covered in a thin layer of green slime, making walking
+      treacherous. As you look about, you notice claw marks in the floor leading towards a bench at the far
+      wall, where they suddenly end.
+flag:
+  - dark

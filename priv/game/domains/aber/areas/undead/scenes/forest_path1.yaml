@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path17"
+      north:
+        target: "scene:aber:undead:forest_path2"
+    short: Forest Path
+    sight: >
+      You struggle through a hacked path in the forest. Whoever made this path must have spent considerable
+      energy in the task. Lying on the floor are the remains of an undead skeleton. Anything he was carrying
+      was long ago taken.
+flag:
+  - outdoors

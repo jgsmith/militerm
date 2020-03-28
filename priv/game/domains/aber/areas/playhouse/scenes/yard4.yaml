@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:playhouse:yard5"
+      south:
+        target: "scene:aber:playhouse:yard1"
+      west:
+        target: "scene:aber:playhouse:yard3"
+    short: Swings
+    sight: >
+      Here we have a huge set of swings. The a-frame pipes are painted &+Rred&* and &+Wwhite&* like a
+      &+Rc&+Wa&+Rn&+Wd&+Ry &+Wc&+Ra&+Wn&+Re&*. The swing seats are &+Bblue&* and the empty ones are swaying
+      gently in the breeze. There are even a few baby seats that are &+Ggreen&* in color. The north is blocked
+      off by a chainlink fence that surrounds the entire yard keeping the children in. To the west is the
+      jungle gym. To the east is the teeter-totters. To the south is the middle of the yard.
+flag:
+  - outdoors

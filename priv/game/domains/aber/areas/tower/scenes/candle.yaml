@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:tower:scroll"
+    short: Candle Room
+    sight: >
+      This room looks like a cross between a Queen video and Madam Toussaud's after an arson attack, as
+      candles of all shapes, sizes and colors fill the room. A passageway leads west.
+flag:

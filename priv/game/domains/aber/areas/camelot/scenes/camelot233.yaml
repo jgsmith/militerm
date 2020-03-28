@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot234"
+      west:
+        target: "scene:aber:camelot:camelot232"
+    short: List Field
+    sight: >
+      The ground in this large empty field has been packed hard as rock by the passing of countless riders and
+      footmen practicing their skills of war. There are weapons racks and score boards on the edges, for use
+      during tournaments. Spectators can watch from the benches placed all around the field.
+flag:
+  - outdoors

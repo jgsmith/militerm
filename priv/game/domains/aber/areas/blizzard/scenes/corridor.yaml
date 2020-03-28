@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:dark"
+      north:
+        target: "scene:aber:blizzard:storage"
+      west:
+        target: "scene:aber:blizzard:pentacle"
+    short: Corridor
+    sight: >
+      You are in a short section of east-west corridor. To the west, the corridor leads to a huge hall, while
+      to the north is a small, dimly lit room.
+flag:

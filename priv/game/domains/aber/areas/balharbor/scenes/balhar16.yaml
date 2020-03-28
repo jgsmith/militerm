@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar17"
+      west:
+        target: "scene:aber:balharbor:balhar15"
+    short: Sash Guard Room
+    sight: >
+      You step inside the Sash Headquarters into the reception area. This place is carefully guarded from the
+      rioters in order to protect the sash commander. It looks to be highly furnished, with a beautiful rug
+      with the sash insignia sewn into it spread on the floor. Some trophies of past sash excursions line the
+      walls along with a few skulls of those gotten rid of. If you can get past the guards you can go south
+      into the commander's office.
+flag:
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere38"
+      west:
+        target: "scene:aber:brookmere:brookmere40"
+    short: Soggy Corridor
+    sight: >
+      The corridor is a good deal wetter here, and much less pleasant that the corridor to the north. Black
+      water drips fast from the walls and ceiling. You sense you are descending as the water on the floor is
+      now ankle deep. A strong breeze blows, a threat to any flame. The air is damp and uncomfortable, and
+      your hair is limp as it soaks up the moisture in the air. Gloomily you splash onwards, downhill to the
+      west or uphill to the east.
+flag:
+  - dark

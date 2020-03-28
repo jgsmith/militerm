@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott3"
+      east:
+        target: "scene:aber:slott:slott26"
+      north:
+        target: "scene:aber:slott:slott31"
+      west:
+        target: "scene:aber:slott:slott25"
+    short: Upperhall
+    sight: >
+      As you enter this room the first thing you notice is the big &+Bwindow&* in the southern wall. This used
+      to be a peaceful room but someone tore the furniture apart and left them on the floor.
+flag:

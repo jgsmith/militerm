@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:batcave:batcave2"
+      north:
+        target: "scene:aber:valley:falls"
+      west:
+        target: "scene:aber:batcave:batcave5"
+    short: Bottom of the Stairs.
+    sight: >
+      A wave of dank air hits and you almost choke; it smells as though something is rotting down here, and
+      has been for quite a while. Flashing lights come from the room to the west, and a strange flapping sound
+      comes from the east.
+flag:
+  - dark
+  - nosummon

@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:dragonslueth:ds35"
+      up:
+        target: "scene:aber:dragonslueth:ds33"
+    short: Path Below Throne
+    sight: >
+      This path is very new and fresh. It seems that it has just been dug recently and it could be possible
+      that there could be the throne up ahead. There is large earthworms and maggots coming out of it. The
+      earth is very hot for some reason.
+flag:

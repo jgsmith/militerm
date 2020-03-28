@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5527"
+      north:
+        target: "scene:aber:graye:graye5534"
+    short: "The Demon's Wood"
+    sight: >
+      You find yourself among the twisted, gnarled trunks of giant thorn trees. Mist covers the forest floor
+      and everything is completely silent.
+flag:
+  - dark
+  - outdoors

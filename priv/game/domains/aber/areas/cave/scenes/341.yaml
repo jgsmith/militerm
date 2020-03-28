@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cave:342"
+      west:
+        target: "scene:aber:cave:340"
+    short: Fire Blasted Tunnel
+    sight: >
+      The walls glow a faint red as heat cause you to sweat profusely. The walls have been fire blasted to as
+      smooth as glass. To the east seems to be the source of the heat. Back to the west you can see the dark
+      passage continues.
+flag:
+  - dark

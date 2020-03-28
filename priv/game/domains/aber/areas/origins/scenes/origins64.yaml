@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:origins:origins63"
+    short: Inside Olympus
+    sight: >
+      You walk forward, entering the huge mountain. It is but a small, hollowed-out area within the mountain,
+      designed for the purpose of holding a beast.
+flag:
+  - dark

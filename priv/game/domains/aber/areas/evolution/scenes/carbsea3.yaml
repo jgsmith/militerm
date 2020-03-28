@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carbsea1"
+      north:
+        target: "scene:aber:evolution:permsea1"
+    short: Above The Continental Shelf
+    sight: >
+      You are in moderately shallow water here, swimming above a shelf of rock which drops away to the west.
+      You can see the dull grey bodies of early sharks cruising along in the distance, now the top marine
+      predators since the recent extinction of the arthrodires.
+flag:
+  - soundproof
+  - underwater

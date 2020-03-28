@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18626"
+      south:
+        target: "scene:aber:newbee:newbee18631"
+    short: A Large Room
+    sight: >
+      The passage opens into a large oval room. There really isn't much of interest here though.
+flag:

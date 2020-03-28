@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down: null
+      west:
+        target: "scene:aber:sundhaven:sundhaven6620"
+    short: Nightbreak Cafe
+    sight: >
+      You have entered the infamous Nightbreak Cafe, home by night to those who secret themselves away in
+      hideouts by day. The place is well-known to be run by the local assassins guild, and it is common to
+      witness conversations here spoken in whispers as deals are cut and bounties arranged. The &+Crules&* of
+      conduct are etched on the back wall.
+flag:

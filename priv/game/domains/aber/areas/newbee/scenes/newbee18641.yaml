@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbee:newbee18642"
+      west:
+        target: "scene:aber:newbee:newbee18640"
+    short: The Hallway
+    sight: >
+      As you continue wandering down the hallway, you notice banners, pictures, and other fine decorations
+      adorning the walls all along this passage. It seems very different from the dismal passage where you
+      entered.
+flag:

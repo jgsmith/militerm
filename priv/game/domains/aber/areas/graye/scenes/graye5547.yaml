@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:graye:graye5548"
+      south:
+        target: "scene:aber:graye:graye5546"
+    short: The Tunnel
+    sight: The tunnel begins to curve upwards.
+flag:
+  - nomobiles

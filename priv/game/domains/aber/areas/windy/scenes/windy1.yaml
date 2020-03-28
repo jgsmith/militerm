@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:jungle1"
+      south:
+        target: "scene:aber:windy:windy2"
+    short: Misty Plain
+    sight: >
+      You stand at the wooded edge of a vast plain, looking out over miles of grass and scrub. A soft lavender
+      mist blankets the ground here, growing thicker towards the foothills in the distant south. Faint trails
+      lead farther into the plain.
+flag:
+  - outdoors

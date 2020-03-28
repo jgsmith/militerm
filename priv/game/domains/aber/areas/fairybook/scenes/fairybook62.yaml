@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook63"
+      west:
+        target: "scene:aber:fairybook:fairybook62"
+    short: Still In the Woods
+    sight: >
+      A woman dressed in white is here, leaning against a tree. She looks at you oddly for a moment, and then
+      begins to scream about the cut on her hand. You look, but see no blood. You wonder if she lives
+      backwards . . . The path goes east and west here. You see a small building to the east and a wall to the
+      west.
+flag:
+  - outdoors

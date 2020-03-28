@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6601"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6608"
+    short: A narrow terrace north of the temple
+    sight: >
+      You stand on a thin stone terrace before the temple. Southwards the dome of the temple rises among the
+      town smoke, and a set of steps to the north leads up to the northern square before the cliffs edge.
+      Black willows grow in small clusters to the east and west.
+flag:
+  - outdoors

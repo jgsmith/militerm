@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eosia:eosia35"
+    short: The Temple of Paradise
+    sight: >
+      Or so it seems. Everything about this place would make you think that you were actually in the Temple of
+      Paradise, except for the fact that the familiar pit is gone. Why this room should exist is a mystery,
+      and given the fact the Emperor Zemoch has gone insane, this room could serve any purpose. In any case,
+      it has provided you some shelter from the dreary air outside. The only exit is back to the north.
+flag:
+  - party
+  - peaceful

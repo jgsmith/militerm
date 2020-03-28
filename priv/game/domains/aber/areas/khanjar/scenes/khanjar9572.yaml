@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9573"
+      east:
+        target: "scene:aber:khanjar:khanjar9999"
+      up:
+        target: "scene:aber:khanjar:khanjar9543"
+      west:
+        target: "scene:aber:khanjar:khanjar9999"
+    short: Climbing the Gorge
+    sight: >
+      Despite all better judgements, you claw your way along the side of the walls. Be aware though, one false
+      move and you will fall to your death.
+flag:
+  - outdoors
+  - nomobiles

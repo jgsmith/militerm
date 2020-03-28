@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:road1"
+    short: Booth #2
+    sight: >
+      The hawker here is trying to sell miniature busts of Orcus. One customer is complaining that the dealer
+      cheated him and the two are trying to shout each other down.
+flag:

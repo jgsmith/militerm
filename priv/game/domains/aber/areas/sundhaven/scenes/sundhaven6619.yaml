@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6607"
+      east:
+        target: "scene:aber:sundhaven:sundhaven6628"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6622"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6641"
+    short: At the gallows
+    sight: >
+      In the shade of old gnarl-limbed elder trees stands the bane of all thieves and murderers, the platform
+      of the gallows. The dark sand of the road shows none of the blood that has been shed here, but the
+      legends of the dead live on in tales and nightmares. The executions still take place at irregular
+      intervals, to the joy of hidden enemies and law-abiding citizens. You note there is plenty of room for
+      spectators. Besides the east-west road, a stone arch stands to the north, and a well-travelled path
+      leads southwards.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6610"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6614"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6636"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6664"
+    short: A lane bordering the cliffs
+    sight: >
+      You have come to a crossroads of sorts. A park lies to the north, from which a pleasant scent is
+      drifting, and the road continues, narrowing, to the west towards the homes of the residents. Eastwards
+      lies shops and the northern gate; a shaded lane travels to the south.
+flag:
+  - outdoors

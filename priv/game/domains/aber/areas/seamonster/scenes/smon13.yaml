@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:seamonster:smon11"
+      south:
+        target: "scene:aber:seamonster:smon15"
+    short: Muddy Way
+    sight: >
+      You are standing on a very muddy way. You can't imagine where the way leads. Around you are high palms,
+      impossible to see or go through.
+flag:
+  - outdoors

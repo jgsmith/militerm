@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:rapids"
+      east:
+        target: "scene:aber:fareast:cliffs7"
+      west:
+        target: "scene:aber:fareast:cliffs6"
+    short: On the Rope Bridge
+    sight: >
+      The bridge sways alarmingly as you stand at its center. It reaches from east to west, with a small
+      plateau supporting either end. Looking down, the stream is visible, constrained by the narrow pass and
+      foaming over rapids. Someone crossing this bridge could easily lose their footing and tumble to the
+      water below.
+flag:
+  - outdoors

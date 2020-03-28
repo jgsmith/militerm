@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest16"
+      west:
+        target: "scene:aber:rainforest:forest13"
+    short: Southern River Bank
+    sight: >
+      In stark contrast to the fury and energy of the waterfall to the west, this spot is very peaceful. The
+      river here is flat and unbroken by rocks, although debris from the foothills can be seen floating by
+      here and there. The flow is fairly swift, but calm and smooth, and you feel yourself relaxing under its
+      soothing influence.
+flag:
+  - outdoors

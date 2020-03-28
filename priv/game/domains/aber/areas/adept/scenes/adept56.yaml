@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept55"
+      up:
+        target: "scene:aber:adept:adept57"
+    short: Base of the Mesa
+    sight: >
+      A sheer, vertical wall of reddish-brown rock blocks all passage except to the south. The mesa appears to
+      be over 2000 feet above the forest floor and should provide excellent scouting terrain. The trees stop
+      abruptly at the base of the wall, where there is a staircase winding up and around the mesa.
+flag:

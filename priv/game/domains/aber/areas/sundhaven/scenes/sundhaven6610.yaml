@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6608"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6611"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6612"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6613"
+    short: A lane bordering the cliffs
+    sight: >
+      The wind from the northern sea finds its way over the rooftops of shops and fills the heavily trafficked
+      lane with a salty scent. The path is lined with a few oaks, and shops lie to the north and south.
+flag:
+  - outdoors

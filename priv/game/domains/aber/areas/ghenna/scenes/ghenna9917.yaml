@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ghenna:ghenna9915"
+      north:
+        target: "scene:aber:ghenna:ghenna9916"
+    short: The card table.
+    sight: >
+      A card table constructed from the skeleton of an odd quadroped sits here, with a few unplayed &+Chands&*
+      left sitting upon it... Wonder where the rest of the poor souls' bodies are. The tavern door lies east
+      of here, while to the north is a bar made of what appears to be human skin.
+flag:

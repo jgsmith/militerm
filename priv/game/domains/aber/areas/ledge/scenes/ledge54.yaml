@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge55"
+      south:
+        target: "scene:aber:ledge:ledge54"
+      west:
+        target: "scene:aber:ledge:ledge53"
+    short: Shallow Water
+    sight: >
+      The water starts to go above the knees, but you can continue wading a lot further without a boat. Use
+      caution, check the weather conditions for your safety.
+flag:
+  - outdoors

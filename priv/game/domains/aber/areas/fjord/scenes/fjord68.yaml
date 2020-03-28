@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord79"
+      south:
+        target: "scene:aber:fjord:fjord80"
+      west:
+        target: "scene:aber:fjord:fjord67"
+    short: Firepit
+    sight: >
+      This cul-de-sac dips down nearly a hundred feet to a flat square about three feet across at the bottom.
+      Around the edges, cackling ghouls with serrated ears and blue insignias dump freshly melted rock down
+      the sides and howl with laughter as an orange lizard of an opposing faction scrambling frantically and
+      futilely is set on fire by the advancing lava. An iron cage stands nearby, filled with more lizards to
+      be fed to the &+Rpit of lava&*. After the mass executions are done, the ghouls break up in search of
+      more fodder for their fire.
+flag:
+  - dark
+  - hot

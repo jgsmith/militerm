@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: The Arena Void
+    sight: >
+      You stand in a strange looking room, most definately magical, for it does not seem to have any walls, or
+      floor or roof, or anything much for that matter. It just is. Or is it? Maybe your imagining this. There
+      are no exits, as you know them, but then again, there is nothing apparently stopping you from going any
+      way in which you please, except, you can't quite tell which ways is which.
+flag:
+  - nosummon
+  - peaceful
+  - nomagic
+  - cantsummon
+  - soundproof
+  - nomobile

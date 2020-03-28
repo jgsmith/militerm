@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ledge:ledge18"
+      north:
+        target: "scene:aber:ledge:ledge18"
+      south:
+        target: "scene:aber:ledge:ledge13"
+    short: Old Mining Tunnel
+    sight: >
+      The northern tunnel you are now treking through appears to have been dug where a large portion of the
+      coal deposit was located. The width of the tunnel appears to indicate that the miners did a little too
+      much digging along the sides making it easier for a ceiling collapse. The tunnel continues a little
+      further downward while you can return back south.
+flag:
+  - dark

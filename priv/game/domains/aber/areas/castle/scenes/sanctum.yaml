@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:castle:o_hall"
+      south:
+        target: "scene:aber:castle:chamber"
+    short: Inner Sanctum
+    sight: >
+      This is the stately room where the Lords and Ladies of court would wait to be entertained by the King of
+      the Castle, although now the tapestries hang in shreds on the walls and all the treasures that once
+      stood on pedestals have been smashed or stolen... it would appear that the castle has been raided and
+      the King overthrown. Archways lead north and south.
+flag:

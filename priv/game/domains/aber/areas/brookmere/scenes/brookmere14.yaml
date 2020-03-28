@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere13"
+      north:
+        target: "scene:aber:brookmere:brookmere16"
+      south:
+        target: "scene:aber:brookmere:brookmere15"
+      west:
+        target: "scene:aber:brookmere:brookmere31"
+    short: Large Room
+    sight: >
+      You are now in a large room where it looks as if a battle has taken place recently. The wall on the far
+      side of the room shows great destruction. Most of the stonework has fallen into the room. Large boulders
+      lie scattered about the floor and the earthen wall is braced with a crisscross of metal plates held in
+      place by massive wooden beams. Furniture has been thrown about and a great mantle has been thrown down
+      from the fireplace. What on earth happened here?
+flag:

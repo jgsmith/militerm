@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd44"
+      north:
+        target: "scene:aber:sdesert:desertsd41"
+      south:
+        target: "scene:aber:sdesert:desertsd47"
+    short: Way Out In The Southern Desert
+    sight: The desert stretches out in every direction.
+flag:
+  - outdoors
+  - hot

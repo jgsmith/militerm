@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: The Mountain in the East
+    sight: >
+      The light from the staff increases in magnitude until all you can see is a blinding white light and all
+      you can hear in your head are the words 'Draw towards the fountain'. But soon the sound dies down and
+      the light gives way to a most soothing and pastoral scene. You stand high atop a mountain, overlooking a
+      vast ocean to the west and a beautiful sylvan forest in all other directions. The sheer natural beauty
+      of this place, so pure and relaxing it is, has you in a total state of relaxation. From here, you can
+      see the whole world it seems, and you feel invincible, almost immortal... Above you and slightly to the
+      east, you hear the sounds of running water, and a mysterious, sultry voice beckons to you. "Come up,"
+      the voice soothes.
+flag:
+  - outdoors
+  - cantsummon
+  - nosummon

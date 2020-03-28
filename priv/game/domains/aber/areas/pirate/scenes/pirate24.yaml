@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:pirate:pirate23"
+      east:
+        target: "scene:aber:pirate:pirate23"
+    short: End of the Path
+    sight: >
+      You are at the end of the path, blocked by a solid stone wall. The only exit appears to be back down the
+      mountain to the east.
+flag:
+  - outdoors

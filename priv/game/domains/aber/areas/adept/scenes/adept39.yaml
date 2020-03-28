@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:adept:adept38"
+    short: Turret
+    sight: >
+      Scratches on the walls depict the thousands of prisoners of war who were locked up in here and died from
+      starvation. A small pile of hay that the king calls a bed for prisoners has been permanently ground into
+      the cold floor. Birds also inhabit this tower, as there are cracked eggshells and nest remains all over
+      the floor.
+flag:

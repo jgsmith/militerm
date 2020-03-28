@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pensalon:pensalon31"
+      up:
+        target: "scene:aber:pensalon:pensalon29"
+    short: Stairwell
+    sight: >
+      A small stairwell leads up to a small hall and to the east is the castle's dungeon guardroom.
+flag:

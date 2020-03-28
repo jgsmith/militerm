@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar83"
+      north:
+        target: "scene:aber:balharbor:balhar81"
+      south:
+        target: "scene:aber:balharbor:balhar83"
+      west:
+        target: "scene:aber:balharbor:balhar83"
+    short: Up To Your Neck In Water
+    sight: >
+      You take the plunge into the water and it feels nice now you have it all to yourself having gotten rid
+      of the jerks that polluted that beach. The ocean is shallow for a great distance out to sea and you can
+      swim all you like without fear of sinking of drowning--unless you try taking a nap out here. You can
+      head back to shore to the south.
+flag:
+  - maze
+  - outdoors

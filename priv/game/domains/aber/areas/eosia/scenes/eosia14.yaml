@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia17"
+      north: null
+      south:
+        target: "scene:aber:eosia:eosia13"
+      west: null
+    short: The Front Hall
+    sight: >
+      Your footsteps echo on the marble flooring of the castle. Massive pillars stretch up into the darkness,
+      supporting the massive ceiling. Banners hang from the walls, and you think you might even recognize some
+      of them. The castle has fallen into a state of decay ever since Queen Ehlana fell ill. Dust now gathers
+      on the suits of armor and cobwebs can be seen in the corners. Even though you appear to be quite alone,
+      you think you can see a shadow flickering just beyond the edge of your vision.
+flag:
+  - dark
+  - party

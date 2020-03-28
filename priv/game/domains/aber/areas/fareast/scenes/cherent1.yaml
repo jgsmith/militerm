@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:cherorch5"
+      north:
+        target: "scene:aber:fareast:cherapple"
+      south:
+        target: "scene:aber:fareast:cherorch8"
+      west:
+        target: "scene:aber:fareast:countryacher"
+    short: Cherry Orchard- Western Entrance
+    sight: >
+      The road here passes from the open countryside to the west to a tangled "orchard" of cherry trees to the
+      east. The road passes directly under the boughs, and is covered with falling petals. A small path leads
+      north from this spot, toward another grove of blossoming trees, possibly apple or pear. These orchards
+      are the pride of Eno, and stretch on for many miles.
+flag:
+  - outdoors

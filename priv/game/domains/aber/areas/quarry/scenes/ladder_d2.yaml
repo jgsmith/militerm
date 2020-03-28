@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:quarry:ladder_d3"
+      up:
+        target: "scene:aber:quarry:ledge"
+    short: Ladder
+    sight: >
+      You are standing on a wet slippery ladder that plunges down a narrow mossy shaft deep underground. The
+      air is already noticeably colder and you feel closed in and claustrophobic.
+flag:
+  - dark

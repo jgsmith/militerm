@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:thyrannen:thyrannen45"
+      south:
+        target: "scene:aber:thyrannen:thyrannen47"
+    short: Barren road to the mesa
+    sight: >
+      The base of the mesa is just ahead, you can see a distorted gate swinging back and forth in the breeze.
+      As the gate swings it makes a load, high pitched wailing sound, almost as if to scream for the figure in
+      the mesa...
+flag:
+  - outdoors

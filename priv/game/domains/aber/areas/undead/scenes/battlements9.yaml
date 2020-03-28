@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:undead:battlements10"
+      south:
+        target: "scene:aber:undead:battlements8"
+    short: Upon the battlements
+    sight: >
+      You stand upon the battlements, it is very cold here, solid ice has formed beneath your feet, and you
+      slide around precariously holding onto the castle wall to prevent you sliding off. Your skin starts to
+      freeze as the cold quickly penetrates your armor. The battlements continue to the &+Csouth&*. You could
+      head &+Cnorth&*, but the ice looks a little over powering, and you may not make it back.
+flag:
+  - outdoors
+  - cold

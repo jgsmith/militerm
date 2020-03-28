@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:enchanter:enchanter5"
+    short: Inside the Shack
+    sight: >
+      You are inside the small shack. Broken &+Cbenches&*, chairs, and tables are strewn about the room. There
+      is a broken &+Coven&* in the corner.
+flag:

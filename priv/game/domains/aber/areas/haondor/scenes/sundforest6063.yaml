@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6062"
+      north:
+        target: "scene:aber:haondor:sundforest6068"
+    short: A Shaded Path Through The Dense Forest
+    sight: >
+      You are on a small shaded path through the dense forest. The crowns of the old trees leave the forest in
+      an unreal twilight illumination. The path continues north and east.
+flag:
+  - real
+  - outdoors

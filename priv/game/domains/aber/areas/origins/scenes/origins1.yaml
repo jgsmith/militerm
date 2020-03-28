@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:origins:origins2"
+      west:
+        target: "scene:aber:sherwood:sherwood2"
+    short: The Entrance to Rivendell
+    sight: >
+      You stand at the beginning of a fantastic forest, whose very trees seem to be as old as the earth they
+      grow from. Despite the density of the foliage, the sunlight shines through nearly unobstructed. The
+      majesty of these trees gives you a sense of smallness... A well-worn path leads north into the forest.
+flag:
+  - outdoors
+  - tempreal
+  - nomobiles

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sommerlund:sommerlund28"
+      up: null
+    short: Tower Stairs
+    sight: >
+      The staircase comes to an abrupt halt at a series of floorboards.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eosia:eosia2"
+      west:
+        target: "scene:aber:island:island15"
+    short: Dirt Road
+    sight: >
+      You are walking along a a dirt road that runs east-west through the countryside. Behind you, to the west
+      lies a pass into the mountains. Judging by the tracks, it would appear that this is a heavily used road
+      by the locals.
+flag:
+  - outdoors
+  - cold

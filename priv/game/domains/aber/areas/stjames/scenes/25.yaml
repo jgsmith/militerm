@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:16"
+      north:
+        target: "scene:aber:stjames:24"
+      south:
+        target: "scene:aber:stjames:26"
+      west:
+        target: "scene:aber:stjames:39"
+    short: The Edge of the Pond
+    sight: >
+      The pond is just beyond your toes now. Directly to the west is the bridge which spans the pond to meet
+      with another path on the northern side.
+flag:
+  - outdoors

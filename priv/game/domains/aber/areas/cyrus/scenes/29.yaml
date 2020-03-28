@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:cyrus:30"
+      south:
+        target: "scene:aber:cyrus:26"
+    short: Hall
+    sight: >
+      The walls are made of black stone. There are exits southward and northward.
+flag:

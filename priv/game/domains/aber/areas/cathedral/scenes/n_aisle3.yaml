@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cathedral:n_amb"
+      south:
+        target: "scene:aber:cathedral:choir"
+      west:
+        target: "scene:aber:cathedral:n_tran"
+    short: North Aisle
+    sight: >
+      Just another action packed, thrilling hallway... the monotony is almost too much to bear.
+flag:
+  - dark

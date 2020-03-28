@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis41"
+      south:
+        target: "scene:aber:atlantis:atlantis43"
+    short: Sand Tower
+    sight: >
+      You stand before one of the Sand Towers you could see from outside the Castle. The tower is in slight
+      need of repair because it is starting to sag a bit under the water's weight but it otherwise holding up
+      well. Looking through the windows further up the tower you can see a hollow passage leading all the way
+      up to the top of the tower in which fish and sharks are swimming up and down, patrolling the tower,
+      viewing the surrounding water. You are able to swim back to the east to the courtyard or south to a
+      sandy passage.
+flag:
+  - underwater

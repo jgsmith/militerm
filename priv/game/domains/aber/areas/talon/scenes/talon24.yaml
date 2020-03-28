@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:talon:talon23"
+    short: Peaceful Cave
+    sight: >
+      You enter a small cave with an atmosphere of peace and warmth to it. There is a small stream here and
+      there is an inscription in the rocks at the base of the stream which seems to warn those not bearing a
+      staff of fire from exploring the realm further.
+flag:

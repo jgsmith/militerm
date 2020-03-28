@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:brookmere:brookmere8"
+      west:
+        target: "scene:aber:brookmere:brookmere10"
+    short: Ruined Room
+    sight: >
+      You are in a small ruined room, one that must have been wrecked when Brookmere was invaded. The stone
+      walls and ceiling have been taken away to fortify other parts of the dungeon, so bare earth, threaded
+      through with the roots of weeds on the surface, is all that remains. The green glow is especially bright
+      here after the dimness of the corridor. The source of the glow is an archway at the far end of the room,
+      dripping with a glowing green fungus. A bitter smell like rotting mushrooms fills your nostrils. Slowly,
+      small pieces of the fungus break off and fall to the floor where they collect in a shimmering pool.
+flag:

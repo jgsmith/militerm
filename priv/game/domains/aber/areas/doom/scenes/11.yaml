@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:doom:12"
+      south:
+        target: "scene:aber:doom:10"
+      west:
+        target: "scene:aber:doom:13"
+    short: &+cPath
+    sight: >
+      You are standing on a path in front of a large shack to your north. There are very loud screams coming
+      from the west. The path here is well lit due to the light that is spilling out through the open doorway
+      of the shack. The path also continues to the west and south.
+flag:
+  - outdoors

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newbie:newbie19"
+      west:
+        target: "scene:aber:newbie:newbie9"
+    short: Mobiles And Combat
+    sight: >
+      Mobiles, or non-playing characters, are your adversaries in this game. Some are there to help you, but
+      most are ripe for the killing. Beware though, some may be tougher or better-armed than you, so it is
+      advisable to find out how strong a mobile is before attacking it. To do this, use the &+CEXAMINE
+      command, or &+CEX&* for short, followed by the name of the mobile. This will tell you how tough it is.
+      To attack a mobile called 'Troll' type &+RKILL TROLL&*. For every mob you slay, you gain points. If you
+      &+CFLEE&* from a mob, you lose points. Sometimes you have to &+CFLEE&* to stay alive. The mobiles regain
+      their strength here, meaning you can't damage them, run away, heal, and return to finish them off.
+flag:
+  - newbie

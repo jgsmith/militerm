@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:sundhaven:sundhaven6704"
+    short: A home embedded in the cliff
+    sight: >
+      This is a windowless, but airy nook of walls inside cliff stone. It looks as though with some cleaning
+      up it could be a comfortable place to live.
+flag:

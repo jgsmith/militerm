@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:blizzard:temple"
+    short: "Sorceror's Workroom"
+    sight: >
+      You are standing in a circular workroom. The only exit is a western doorway, through which the temple
+      fire casts its flickering glow across the room.
+flag:

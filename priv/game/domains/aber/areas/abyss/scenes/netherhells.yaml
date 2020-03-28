@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east: null
+      north: null
+      south:
+        target: "scene:aber:abyss:l665"
+      west:
+        target: "scene:aber:abyss:snare1"
+    short: Netherhells Prison
+    sight: >
+      An iron archway dominates the western wall of this small antechamber. A placard over the archway states:
+      Absolutely NO VISITORS Allowed In The Prison Maze A small wood door covered with graffiti occupies the
+      north wall.
+flag:
+  - peaceful
+  - nomobiles

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pyramid:pyramid1"
+      west:
+        target: "scene:aber:pyramid:pyramid3"
+    short: Off the Path
+    sight: >
+      Though it was a tight fit, you managed to push between the rocks and now find yourself on a narrow,
+      hard-packed trail covered with a thin layer of gritty &+ysand&N. Clearly marked in the &+ysand&N are
+      dozens of tiny &+Ctracks &N made by some unknown animal. Looking off to the west, your breath lodges in
+      your throat as you see endless waves of &+ysand&N that stretch clear to the horizon and beyond.
+flag:
+  - outdoors

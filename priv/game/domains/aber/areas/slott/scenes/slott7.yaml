@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:slott:slott27"
+    short: Southwest tower
+    sight: >
+      You find yourself on the bottom floor of an tower. This is one of the corner towers of the castle.
+      Spiral stairs head &+Cup&*.
+flag:

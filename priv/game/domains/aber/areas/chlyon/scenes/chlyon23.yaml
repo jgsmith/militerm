@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:chlyon:chlyon22"
+      east:
+        target: "scene:aber:chlyon:chlyon24"
+    short: Windy Clearing
+    sight: >
+      You stand atop of a windy clearing on top of the mountain. The view is breathtaking. In the distance you
+      can see the city of Themiscyra, and somewhere in the distance a dark castle with a black tower reigns
+      atop of a mountain peak. A path windes down to the east from here.
+flag:
+  - outdoors

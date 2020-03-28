@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:hick:cattle9"
+      south:
+        target: "scene:aber:hick:cattle3"
+    short: In Front of the Bull Pen
+    sight: >
+      To the north of here you can see a large bull pin and you wonder if it is currently occupied. The road
+      leads south into the livestock area.
+flag:
+  - outdoors
+  - nomobiles

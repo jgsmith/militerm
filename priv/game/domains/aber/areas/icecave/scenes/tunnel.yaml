@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:icecave:cave"
+      south:
+        target: "scene:aber:icecave:n_tunnel"
+    short: Ice Tunnel
+    sight: >
+      You find yourself walking in a well lit tunnel with ice covered walls, ceiling, and floor. In addition
+      to the frozen footprints of the Ice People you also make out some hoofprints. The tunnel continues to
+      the south. An exit to the north leads to the relative safety of a great hall.
+flag:

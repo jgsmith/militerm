@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook110"
+    short: Kansas
+    sight: >
+      Dorothy's house in Kansas is small, for the lumber to build it had to be carried by wagon for several
+      miles. There are four walls, a floor, and a roof, which make one room; and this room contains a rusty
+      looking cooking stove, a cupboard for the dishes, a table, three or four chairs, and two beds. A
+      trap-door leads down to the cyclone cellar, a door to the east leads to the garden, and a shimmering
+      door to the north goes back to the library. Suddenly, from the north, you hear a low wail of wind. A
+      cyclone is coming! You run to the trapdoor, but just before you get there the house is shaken violently
+      and you are thrown to the floor. The house seems to spin three or four times and rises in the air.
+      Through the trap-door, you can see the ground rapidly receding. After a few hours of flight, the house
+      lands with a crash.
+flag:

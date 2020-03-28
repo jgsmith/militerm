@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:treehouse:porch"
+      north:
+        target: "scene:aber:treehouse:north"
+      south:
+        target: "scene:aber:treehouse:south"
+    short: Tree House
+    sight: >
+      You are standing in the center of an elven treehouse. Arched doorways between the branches lead north,
+      east and south.
+flag:

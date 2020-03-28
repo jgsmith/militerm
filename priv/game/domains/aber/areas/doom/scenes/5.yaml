@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:doom:4"
+      west:
+        target: "scene:aber:doom:6"
+    short: &+cShack
+    sight: >
+      You are in a large, tidy, and nice-smelling one room shack. There is a nice sized dinner table in the
+      middle of the room with a white cloth over the it. An old iron stove sits against the north wall. The
+      shack is nicely decorated with paintings hanging from walls and resting on shelves around the room.
+      There is a door to the east that leads out to the town road, and to the west a door goes out to a large
+      yard.
+flag:

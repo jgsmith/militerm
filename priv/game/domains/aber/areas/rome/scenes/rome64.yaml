@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome65"
+      west:
+        target: "scene:aber:rome:rome51"
+    short: Before Rome
+    sight: >
+      You travel upon an East-West road wide enough for 30 men to march abreast. It is packed hard through
+      heavy use. To the west stand the Gates of Rome inviting you to enter and partake of all the glory and
+      splendor that is Rome.
+flag:
+  - outdoors

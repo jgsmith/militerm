@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:doom:1"
+      south:
+        target: "scene:aber:doom:f2"
+    short: &+cThe Silent Forest
+    sight: >
+      This forest definitely needs some life. The trees on either side of the path block passage to the east
+      and west, and to the south the forest path continues. To the north you see a small clearing.
+flag:
+  - outdoors

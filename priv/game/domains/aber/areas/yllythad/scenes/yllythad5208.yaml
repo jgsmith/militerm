@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5209"
+      north:
+        target: "scene:aber:yllythad:yllythad5213"
+      south:
+        target: "scene:aber:yllythad:yllythad5203"
+      west:
+        target: "scene:aber:yllythad:yllythad5207"
+    short: A Swift Wind
+    sight: >
+      A good, steady wind blows from the east, making sea travel swift and easy in this area. The sea's
+      currents move with the direction of the winds, at least on the surface and help to lend direction to the
+      traveler.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:orcholdii:hallway"
+      north:
+        target: "scene:aber:orcholdii:arch3"
+      south:
+        target: "scene:aber:orcholdii:arch2"
+      up:
+        target: "scene:aber:orcholdii:balcony"
+      west:
+        target: "scene:aber:orcholdii:arch1"
+    short: Grand Entry
+    sight: >
+      You have entered what appears to be a grand palace at first look. There are stairs leading up to a
+      balcony. There is a rosy marble floor and what appears to be a genuine crystal chandalier. There are
+      grand archways leading north, south, and east. Then you notice that the nobility are actually orcs in
+      human finery and begin to wonder if perhaps you're in the wrong place!
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:olive"
+      south:
+        target: "scene:aber:oaktree:elm"
+    short: Fig Tree
+    sight: >
+      You are in a fig tree, under the pavilion of leaves, watching the sun move slowly through the network of
+      twigs and branches, smelling the scent of flowers budding in the stalks. The fig tree seems to absorb
+      you, permeate you with its gummy texture and the buzz of hornets, and you feel uneasy. To the north is a
+      small olive grove.
+flag:
+  - outdoors

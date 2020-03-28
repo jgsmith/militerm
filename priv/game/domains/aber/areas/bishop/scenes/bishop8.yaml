@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:bishop:bishop6"
+    short: Vortex
+    sight: >
+      Fierce winds pull at your clothes and hair as the vortex slowly whirls you around in circles. Lines of
+      bright light emanate from various points, streaking past like sun rays or lasers, but none contain
+      enough power to be threatening. Suddenly, the background drops away to reveal only a single, supportive,
+      rotating disc for the vortex travelers. The wind also dies out, exposing the full nature of this
+      unnatural emptiness.
+flag:
+  - dark

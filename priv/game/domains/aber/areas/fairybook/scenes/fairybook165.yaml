@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook164"
+      up:
+        target: "scene:aber:fairybook:fairybook166"
+    short: Wall
+    sight: >
+      A huge wall stands here, built among the trees. It is made of clay laid over tall trees, and looks thick
+      enough to support people standing on top of it. Fortunately, there is a ladder here to assist you in
+      case you want to climb it. The path goes north from here.
+flag:
+  - outdoors

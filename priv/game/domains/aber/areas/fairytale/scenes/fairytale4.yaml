@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairytale:fairytale3"
+    short: In the Vine
+    sight: >
+      You stand inside a small rooms. A few copies of Playbug are scattered around the room; one is open to
+      the centerfold. The room looks like a basic bachelor's pad.
+flag:

@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:treadmill:tread9"
+      down:
+        target: "scene:aber:treadmill:tread6"
+      east:
+        target: "scene:aber:treadmill:tread3"
+      north:
+        target: "scene:aber:treadmill:tread1"
+      south:
+        target: "scene:aber:treadmill:tread4"
+      up:
+        target: "scene:aber:treadmill:tread5"
+      west:
+        target: "scene:aber:treadmill:tread2"
+    short: The New Treadmills of Hell Part Two
+    sight: >
+      You should be pleased that no mortal can come to this place, else they would be horrified at the sight
+      of endless tunnels that lead no where. Somehow they keep most of these demons occupied for a while.
+      Exits are everywhere.
+flag:
+  - maze

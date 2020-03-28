@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:mmaze1"
+      west:
+        target: "scene:aber:fantasy:mountain9"
+    short: Mine Shaft
+    sight: >
+      You walk into the mine shaft, but it drops away fast. You slip down,.. you start to fall,... you land in
+      a pool of water and knock your head on the bottom,... you are knocked out and drown.
+flag:
+  - death

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rome:rome27"
+    short: The Slave Quarters
+    sight: >
+      This is where the slaves sleep. There are hard boards set out for use as beds and not much else. The
+      only exit is to the north.
+flag:

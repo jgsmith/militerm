@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest17"
+      west:
+        target: "scene:aber:fantasy:airship1"
+    short: Large Clearing
+    sight: >
+      You are standing in a large clearing. To the west is what looks like an airship of some sort. The
+      waterfall and the tree at the top of it are much clearer now, and you realize that the tree is the Tree
+      of Mana, the source of life for the world.
+flag:
+  - outdoors

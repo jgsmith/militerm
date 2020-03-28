@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan51"
+      west:
+        target: "scene:aber:mithdan:mithdan58"
+    short: Forest Path
+    sight: >
+      A thin path made by animals as they traveled daily to a water hole or food source leads away to the
+      west. Thick, green forest spreads away around you. To the east a large clearing throbs with stored
+      magical energy.
+flag:
+  - outdoors

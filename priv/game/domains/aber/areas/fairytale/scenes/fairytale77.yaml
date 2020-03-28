@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:fairytale:fairytale76"
+    short: Treasure Chamber
+    sight: >
+      You have discovered the treasure chamber of the ancient priests of the rainbow tribe! The cavern is damp
+      and cold, and the sights are as chilling as the air. Skeletons lie randomly around the room, as though
+      thrown around by some giant hand. Scraps of fabrics and jewelry are visible mixed with the bones.
+flag:
+  - nomobiles

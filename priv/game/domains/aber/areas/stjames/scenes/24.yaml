@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:17"
+      north:
+        target: "scene:aber:stjames:23"
+      south:
+        target: "scene:aber:stjames:25"
+      west:
+        target: "scene:aber:stjames:38"
+    short: On the Pond
+    sight: >
+      Drifting near the fountain, you get a good view of its set up. There are many jets tossing water into
+      the air, forming a striking pattern in the air. You feel a little mist from the fountain landing on you,
+      but you are not really getting wet. In fact, the mist feels good on this hot day.
+flag:
+  - outdoors
+  - onwater

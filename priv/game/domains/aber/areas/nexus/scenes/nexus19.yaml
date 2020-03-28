@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus20"
+    short: Top of Some Rock
+    sight: >
+      The pores here pock-mark the sunny slopes of the rock down to its base. A few white spots near the
+      summit prove that some of the local birds have done their unwritten duty here. A set of stairs
+      hand-carved into the side of the massive stone provides a means of getting down.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - nomobiles

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nwbeaches:beachqq18"
+      south:
+        target: "scene:aber:nwbeaches:beachqq15"
+    short: "Takker's Jetty"
+    sight: >
+      The jetty heads south into the sea ending at a lighthouse. All along the way, fishermen try their luck.
+flag:

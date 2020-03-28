@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:dojoent"
+      north:
+        target: "scene:aber:fareast:dojo2"
+      south:
+        target: "scene:aber:fareast:dojo3"
+      up:
+        target: "scene:aber:fareast:dojou1"
+      west:
+        target: "scene:aber:fareast:dojo4"
+    short: Unhallowed Halls
+    sight: >
+      The everpresent gas seeps into this hallway through rips and tears in the paper walls. Sliding doors in
+      all major directions do little to hide the contents of this building's other rooms. From the general
+      layout, this would be a dojo, a training hall. To the north are the sleeping quarters, to the south, a
+      training facility, an armory of sorts lies to the west, and the eastern portal is open to the "air." A
+      rickety ladder also leads upward onto wooden platforms above.
+flag:
+  - dark

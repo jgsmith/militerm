@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq15"
+      west:
+        target: "scene:aber:nwbeaches:beachqq31"
+    short: Rocky Path
+    sight: >
+      The path, still rocky and hard to navigate, continues along to the east and west. Directly east of you
+      begins a jetty which hosts a lighthouse at it's end. West seems only to host more rocks and possibly a
+      cave or two.
+flag:

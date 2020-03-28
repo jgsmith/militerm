@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9537"
+      west:
+        target: "scene:aber:khanjar:khanjar9535"
+    short: A Weak Trail
+    sight: >
+      The forest is clearly more lighter now, and you sense gentle sunshine on your cheeks. The trail leads
+      east toward the mountain, and west, into the deeper forest.
+flag:
+  - outdoors

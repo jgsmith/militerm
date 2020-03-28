@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6786"
+      up:
+        target: "scene:aber:sundhaven:sundhaven6659"
+    short: A narrow path down the cliff
+    sight: >
+      The fog engulfs you, making you step carefully as you barely can see a couple steps ahead of you. You
+      hear the gentle breaking of waves below and hope you don't confuse that with stepping on loose rocks.
+      The cliff continues a good distance downward, while it seems more inviting to go upward.
+flag:
+  - outdoors

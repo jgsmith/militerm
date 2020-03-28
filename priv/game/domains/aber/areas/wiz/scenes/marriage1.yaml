@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Gazebo Altar
+    sight: >
+      This is a large open park set in the area just outside Boston. The air smells fresh and sweat, making
+      this a wonderful place to be wed. Dominating the center of the park is a large gazebo, decorated with
+      flowers of many kinds.
+flag:
+  - party
+  - peaceful

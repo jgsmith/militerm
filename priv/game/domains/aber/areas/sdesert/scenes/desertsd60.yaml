@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd59"
+      south:
+        target: "scene:aber:sdesert:desertsd61"
+    short: The Southern Desert
+    sight: >
+      The desert stretches out in every direction, and the main path leads north and south.
+flag:
+  - outdoors
+  - hot

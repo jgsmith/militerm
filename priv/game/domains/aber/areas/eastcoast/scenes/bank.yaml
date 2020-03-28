@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eastcoast:rocks"
+    short: End of the Rock Bank
+    sight: >
+      You precariously stand on a slanted rock here, overlooking the beach nearby. Waves crash around the
+      rocks here, spraying them and you with cold water, and making the rocks increasingly slippery, making
+      even walking a telling task, let alone anything more theatrical. To the north you spy another row of
+      rocks, and to the south, you see a small dock jut into the water. The only survivable way out of here
+      appears to be back along the wet rocks to the west.
+flag:
+  - outdoors

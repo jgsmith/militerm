@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      up: null
+    short: Vaulted Hall
+    sight: >
+      You are in a high vaulted hall, whose white walls are hung with rich tapestries and brilliant paintings.
+      You look and there is the door that slammed shut behind you at the start of the maze, but there is no
+      sign of the maze. You wonder if it was real...
+flag:
+  - dark

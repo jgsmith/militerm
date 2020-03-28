@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9985"
+      south:
+        target: "scene:aber:ghenna:ghenna9993"
+      west:
+        target: "scene:aber:ghenna:ghenna9989"
+    short: A wide tunnel.
+    sight: >
+      This tunnel is a little broader, and easier to maneuver in. However, you have become confused... which
+      way is which? There is a hole in the wall to the North, and another path leads South.
+flag:
+  - dark

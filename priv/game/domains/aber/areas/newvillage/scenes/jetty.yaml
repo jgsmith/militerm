@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:newvillage:under"
+      east:
+        target: "scene:aber:newvillage:road2w"
+      south:
+        target: "scene:aber:nwbeaches:beachqq01"
+    short: The Jetty
+    sight: >
+      You have reached the high point of the hill and are standing on a type of wooden boardwalk, overlooking
+      the sea. There is a brisk, warm breeze here that feels refreshing as it blows across your face. Beneath
+      you, the hill drops out into the water, which beats against the dirt with an incredible rate. There is a
+      little path beside the boardwalk that leads down to a dry patch of sand below the jetty. Toward the
+      south, a cliff face stands slightly higher than the boardwalk, with a set of stairs carved into its
+      side.
+flag:
+  - outdoors

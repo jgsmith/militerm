@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook36"
+      north:
+        target: "scene:aber:fairybook:fairybook31"
+      west:
+        target: "scene:aber:fairybook:fairybook38"
+    short: Mad Hatter
+    sight: >
+      There is a table set under a tree in front of a house. Three rather odd characters sit around it. The
+      table is rather large, but the three are crowded at one corner. An armchair is empty at the head of the
+      table. On top of the table is a full spread for tea. A path leads to the west, a second leads north, and
+      a house stands to the east.
+flag:

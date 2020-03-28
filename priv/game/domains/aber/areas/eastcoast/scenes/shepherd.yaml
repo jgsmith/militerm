@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:eastcoast:field"
+    short: "Inside the Shepherd's Home"
+    sight: >
+      This is the sparse and simple home of the shepherd, a little too simplistic for an adventurer of your
+      tastes, but obviously adequate to the shepherd. A table with two chairs rests against the eastern wall,
+      a window over the table showing more rolling hills outside. A simple straw bed lies to the south, a
+      stone hearth to the north, and an exit back outside lies to the west.
+flag:
+  - nomobiles

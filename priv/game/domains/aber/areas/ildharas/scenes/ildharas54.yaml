@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ildharas:ildharas55"
+      west:
+        target: "scene:aber:ildharas:ildharas53"
+    short: Small Antechamber
+    sight: >
+      A small antechamber lies outside a much larger room, perhaps meant as a waiting area. Eternal candles
+      gleam softly in their silver holders, and you note that the walls are purple and curiously smooth, like
+      glass. The floor is so polished that you can see yourself in it. Silence lingers here, deeper than the
+      falling snow.
+flag:

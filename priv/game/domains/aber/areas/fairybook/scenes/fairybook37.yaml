@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook36"
+    short: "Hatter's Bedroom"
+    sight: >
+      The floor of this room is decorated with a large black-and-white checkerboard pattern. The walls are
+      curved slightly, creating the illusion of being inside a giant checkered hat. In the center of the room
+      is a hat the size of a rowboat, with an open top. Curious, you peer over the top to find that the inside
+      is padded. In random places around the room, someone has left hats lying around. Below you is a large
+      room.
+flag:
+  - nomobiles

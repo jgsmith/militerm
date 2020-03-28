@@ -1,0 +1,7 @@
+detail:
+  default:
+    exits:
+    short: The Silver Sea
+    sight: You are floating on a silver sea.
+flag:
+  - private

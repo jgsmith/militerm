@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook35"
+      north: null
+    short: Odd Path
+    sight: >
+      The path continues this direction for awhile, then suddenly stops. Surrounded by trees, you wonder if
+      you have reached a dead end. As you stand here, a small door slowly swings open to the east. Through the
+      door is a garden.
+flag:
+  - outdoors

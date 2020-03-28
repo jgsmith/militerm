@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot219"
+      north:
+        target: "scene:aber:camelot:camelot221"
+    short: The Southwest Tower
+    sight: >
+      The guardroom you are in has arrow slits allowing coverage of the south and west sides of the castle.
+      There are a few chairs and tables here, so that guards may rest in their off hours.
+flag:

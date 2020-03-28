@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6602"
+    short: Chamber of Charity
+    sight: >
+      This room is full of things that players before you were thoughtful enough to donate. Items found in
+      this room are as good as they normally are, and have the same properties, but they aren't worth any
+      points. Players can change their personnas here.
+flag:
+  - peaceful
+  - party
+  - nomobiles

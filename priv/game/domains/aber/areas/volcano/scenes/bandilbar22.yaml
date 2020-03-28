@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:volcano:bandilbar21"
+    short: Yorrin Wood
+    sight: >
+      You are in a small open glade, where no trees are growing due to the poor quality of the soil here,
+      which is suffused with a yellow tint that indicates the presence of sulphur. Whether it has boiled up
+      from beneath at some point or fallen from above you cannot tell, but it effectively prevents any plants
+      from growing within an area of twenty square yards or more.
+flag:
+  - outdoors

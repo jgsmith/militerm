@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6723"
+    short: "The Devil's Triangle"
+    sight: >
+      An unusual rock formation stands here where three tall wickedly sharp pointed rocks reach toward the sky
+      as if they were stabbing at it from the depths of hades. It is believed that this has been a portal for
+      underworld beings to enter the outer world and many that have walked into the middle of these three
+      spiked rocks were never seen again. Hopefully this fable is just a tale told around the campfire.
+flag:
+  - peaceful
+  - outdoors

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:rome:rome10"
+      south:
+        target: "scene:aber:rome:rome4"
+      up:
+        target: "scene:aber:rome:rome2"
+    short: "West Side Commoner's Seating Area"
+    sight: >
+      This is the western side commoner's seating area. There are row upon row of rough wooden benches bolted
+      to the floor. There is stadium garbage everywhere and the smell makes you want to puke. Stairs lead up
+      to Caesar's private box, a small ramp leads down to the playing field and a hallway leads south.
+flag:
+  - outdoors

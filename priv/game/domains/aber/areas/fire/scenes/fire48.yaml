@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: Prison cell
+    sight: >
+      You are standing in a horrible smelling dark room. You can't see much, but you know you wouldn't choose
+      this place for your holidays.
+flag:
+  - negregen

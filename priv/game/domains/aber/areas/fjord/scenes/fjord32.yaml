@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord33"
+      south:
+        target: "scene:aber:fjord:fjord31"
+    short: An End of the Track
+    sight: >
+      The deer track comes to an abrupt halt as the undergrowth merges together from all sides. The northern
+      sections of this pine forest are filled with less common animals, some of which are rumored to be
+      titanic beasts. Many think it an old wives' tale to allure young children into eating their vegetables,
+      but there have also been unconfirmed reports of people disappearing in this area, once even an entire
+      expedition. An unobstructed way through the forest is to the east, and the deer have been kind and
+      methodical enough to form a path leading south, more towards the heart of the of the Muskrats. The woods
+      here are darker, and the trees more towering. Usually, it is rare to find pine trees that are over
+      seventy-five feet tall, but perhaps the bones of the supposedly inhabiting beasts provide certain
+      minerals into the ground and act as a super-growth formula.
+flag:
+  - outdoors

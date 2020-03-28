@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:5"
+    short: &+cHouse of Catix
+    sight: >
+      As you enter the house, you notice that the atmosphere of the house is absolutely the oposite of the
+      outside's one. The serenity and the calmness of the house is calming you down. The walls are covered by
+      several bookcases and books are covered by dust.
+flag:

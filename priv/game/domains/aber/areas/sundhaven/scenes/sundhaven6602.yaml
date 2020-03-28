@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:start:donate_sun"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6601"
+    short: The alms room
+    sight: >
+      Murals of black and gold adorn the walls in swirling patterns, within which are outlined several dark
+      silhouettes. Under some scrutiny you can trace a basilisk, a chimera, and a dragon circling a deity, a
+      dusty red cloak about her neck. Homage and sacrifice to this human deity are paid here by the other
+      citizens of the realm.
+flag:
+  - peaceful
+  - party
+  - nomobiles

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:crack"
+    short: Fissure Bottom
+    sight: >
+      You are at the bottom of the fissure. Precipitous rocky walls reach upwards hanging over you as if about
+      to crush you. To the south, the walls vanish beyond your light without any sign of a break.
+flag:

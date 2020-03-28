@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd09"
+      south:
+        target: "scene:aber:sdesert:desertsd15"
+    short: The Desert Foothills
+    sight: >
+      Here the desert forbids your life to get any easier, and you are forced to exert yourself to travel
+      uphill. Cursing mother nature, you ignore your thirst and plod onward. To the &+ysouth&* the mountains
+      rise up out of the earth like an ill specter. Other trails go &+ynorth and east.
+flag:
+  - outdoors
+  - hot

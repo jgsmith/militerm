@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc25"
+    short: The Observatory
+    sight: >
+      This small round shaped building has several little windows in all directions. The walls are covered
+      with paintings and markings that leave you in ignorance of the higher sciences of the people who used to
+      reign this ancient city. You understand, though, that this building has been used for observing the
+      planets and stars. The planet Venus, seems to have had some significance to these people - maybe as a
+      god or something like that.
+flag:

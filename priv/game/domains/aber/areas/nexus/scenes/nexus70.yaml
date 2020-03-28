@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nexus:nexus69"
+    short: Attic
+    sight: >
+      Someone has used this huge chamber as a junkyard for millenia, given the amount of antique items in
+      here. There is not much gold, silver, or jewelrey, but one cabinet has a thousand small jars in it. The
+      souls of all those captured by the demons of the Plane of Torture fly around endlessly in these
+      encapsulated places, suffering as much astral agony as they do physical.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - dark

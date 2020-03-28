@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:haunted:haunted_7"
+    short: Bathroom
+    sight: >
+      Looks like the bathroom hasn't been touched. Pretty blue towels hang from the holders. Decorative soap
+      sits beside the sink. You look over at the bathtub and wonder what is behind the curtains.
+flag:
+  - dark

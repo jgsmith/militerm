@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas20"
+      north:
+        target: "scene:aber:ildharas:ildharas22"
+      south:
+        target: "scene:aber:ildharas:ildharas17"
+      west:
+        target: "scene:aber:ildharas:ildharas19"
+    short: Entry Hall
+    sight: >
+      The attackers have systematically ruined this room, slashing tapestries, cracking floor tiles, and
+      carving on the walls. Puddles of smeared blood decorate the white marble. It glistens wetly. You wonder
+      briefly where all the bodies are. Exits lead off in all directions.
+flag:

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pyramid:pyramid31"
+      south:
+        target: "scene:aber:pyramid:pyramid28"
+    short: Shrine to Isis
+    sight: >
+      The glint of &+Ygold&N greets you as you move into the room. The carvings on the &+Yglided&N walls
+      depict Isis, the Earth Goddess, mourning the death of her husband Osiris. Seeing the exquisitely lovely
+      features of the small &+Ygolden&N statue sitting atop a low, long altar, you realize why she is also the
+      Goddess of Magic and Guile. A small movement brings your attention to a young woman of breath-taking
+      beauty by the altar. You look again in amazement for she so closely resembles the statue, making you
+      wonder if you are seeing a living representation of the Earth Goddess -- or just a mirage. A pile of
+      coins lies on the altar -- perhaps an offering, or a temptation?
+flag:
+  - dark

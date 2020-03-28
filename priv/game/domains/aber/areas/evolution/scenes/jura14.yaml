@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret1"
+      north:
+        target: "scene:aber:evolution:jura12"
+    short: Redwood Forest
+    sight: >
+      The tallest trees you have ever seen reach high into the sky. Strangely, the lowest branches which still
+      bear foliage are more than fifty feet high. You surmise that a herd of sauropods must have passed this
+      way and eaten their fill. A roar close by makes your hair stand on end, and you hope that whatever made
+      it is not still hungry.
+flag:
+  - outdoors
+  - nomobiles

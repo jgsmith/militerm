@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:northhall6"
+      west:
+        target: "scene:aber:ruins:westhall10"
+    short: Western Hallway meets Northern Hall
+    sight: >
+      You are travelling in a western hallway. It looks like the hallways from the north and west of the ruins
+      meet here making a complete circle. The dust in the area is getting much thicker and it makes you cough
+      and wheeze a little. You then start to see spots before your eyes and decide to rest for a few minutes.
+      After your head clears you decide to press on. The hallway leads to the east and to the west.
+flag:
+  - dark

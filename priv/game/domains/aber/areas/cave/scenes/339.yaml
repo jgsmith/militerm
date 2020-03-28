@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+    short: Drop Off
+    sight: >
+      The tunnel drops off too quickly and you lose your footing and fall to your death on the rocks belo.
+      Geesh!! Come on, I told you the tunnel was very steep to the north, you should have listened and went
+      back!!!
+flag:
+  - death
+  - dark

@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5030"
+      north:
+        target: "scene:aber:yllythad:yllythad5080"
+      south:
+        target: "scene:aber:yllythad:yllythad5020"
+      west:
+        target: "scene:aber:yllythad:yllythad5024"
+    short: Upon the Mighty Sea
+    sight: >
+      All around is the wide open expanse of the sea, its mighty presence so strong, so overwhelming as to be
+      staggering. From horizon to horizon, only blue sky and a deeper blue can be seen.
+flag:
+  - onwater
+  - outdoors

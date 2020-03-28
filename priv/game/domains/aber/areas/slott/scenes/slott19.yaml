@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott50"
+      south:
+        target: "scene:aber:slott:slott13"
+      up:
+        target: "scene:aber:slott:slott39"
+    short: Northwest Tower
+    sight: >
+      You entered a round tower like room, and the first you notice is a &+Bhole&* in the floor, looks like
+      the stairs down have caved in. But the stairs leading &+Cup&* are still in good shape.
+flag:

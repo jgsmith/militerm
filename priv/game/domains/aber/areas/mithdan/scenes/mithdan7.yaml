@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan6"
+    short: Brambles
+    sight: >
+      The thick brambles catch at you clothes as you walk. The trail ahead is covered with them, but you
+      perservere. Hidden by the growth, the trail unexpectedly drops away under you. You trip and fall into
+      the brambles, unable to stop your rolling. The trail becomes steeper, and the last sight you see is an
+      endless sea of brambles and thorns.
+flag:
+  - outdoors
+  - death

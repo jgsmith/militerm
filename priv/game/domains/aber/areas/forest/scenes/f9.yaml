@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:forest:f2"
+      north:
+        target: "scene:aber:forest:f10"
+      south:
+        target: "scene:aber:forest:f5"
+      west:
+        target: "scene:aber:forest:f8"
+    short: Forest
+    sight: >
+      The forest seems friendlier here than in most places. The tall straight trees give plenty of room to
+      move around and lack the annoying tangles of low branches which scratch at you throughout the
+      surrounding forest. A narrow worn path leads northwards.
+flag:
+  - outdoors

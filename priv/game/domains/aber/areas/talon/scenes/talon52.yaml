@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:talon:talon53"
+      west:
+        target: "scene:aber:talon:talon54"
+    short: Stream of Light
+    sight: >
+      This is a small stream which flows from east to west through a low cavern. The water in this cavern
+      glows as if it were liquid energy. The air here is charged with the kind of excitement that one finds
+      after a spring thunderstorm. To the west lies a large cavern which is filled with a light so bright it
+      seems to blot out its dark walls.
+flag:

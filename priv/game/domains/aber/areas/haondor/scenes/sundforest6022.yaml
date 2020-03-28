@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:haondor:sundforest6021"
+      south:
+        target: "scene:aber:fire:fire16"
+    short: Inside The Cave
+    sight: >
+      You are in a natural cave. Various sorts of &+Cdebris&* cover the stone &+Cfloor, emitting a rather
+      unpleasant smell that makes the &+Cair&* thick and hard to breathe. The only obvious exit is east.
+flag:
+  - dark

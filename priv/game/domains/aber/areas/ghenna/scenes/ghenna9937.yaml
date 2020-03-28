@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9936"
+      up: null
+    short: A lair full of corpses.
+    sight: >
+      This ledge is slippery with the blood of hundreds of vanquished adventurers who made the mistake of
+      entering here. Corpses, corpses, everywhere. At least you finally found the source of that horrific
+      sulfur smell. A black, steaming substance is smeared all over the walls emitting the funk. As if this
+      werent bad enough, you suddenly have the feeling that your life is about to end soon. ---> HASTA LA
+      VISTA!
+flag:
+  - dark

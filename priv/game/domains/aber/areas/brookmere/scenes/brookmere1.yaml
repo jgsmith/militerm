@@ -1,0 +1,22 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:brookmere:brookmere2"
+      north:
+        target: "scene:aber:caledonia:hills7"
+      south:
+        target: "scene:aber:caledonia:hills8"
+      west:
+        target: "scene:aber:caledonia:hills2"
+    short: Ruinous Forest Edge
+    sight: >
+      You stop at the edge of a forest that once ringed a castle and stare in disbelief. The only thing that
+      still stands is the broken shell of a tower. All else is ruins. Scattered across the ground are enormous
+      piles of boulders and chunks of masonry. Carved on one such boulder you spy the word 'Brookmere'. This
+      then must have been the great elven castle of Brookmere, or at least it was until it was invaded by the
+      orcs, goblins and gnolls from the surrounding lands, forcing the elves to flee. The most noticeable
+      feature on the ruined landscape is a wide black hole in the area of the castle that once seems to have
+      housed the dungeons of Brookmere.
+flag:
+  - outdoors

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:curseshore1"
+      south:
+        target: "scene:aber:fareast:curseshore3"
+      west:
+        target: "scene:aber:fareast:curseacid2"
+    short: Acid River
+    sight: >
+      The acidic waters of this festering river eat away at the soles of your boots... It would be best to
+      leave before it reaches the soles of your feet.
+flag:
+  - negregen

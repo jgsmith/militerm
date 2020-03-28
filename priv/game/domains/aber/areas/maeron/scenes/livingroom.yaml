@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:maeron:foyer"
+    short: "&+BMaeron's Living-Room"
+    sight: >
+      This room seem in better condition then the other chambers. The slightly-faded carpet is a dull crimson.
+      The floor creaks a bit as you move around. To the &+Rwest&* is the foyer.
+flag:

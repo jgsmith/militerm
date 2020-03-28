@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: "&+MAstasia's BedChamber"
+    sight: >
+      As you enter the room, you marvel at the huge posterbed before you. The room has a rather ethereal
+      quality, and a faint light shines from the chandolier hanging from the marble tiled ceiling. In one
+      corner is a magnificently crafted armoire, trimmed with &+Ygold&*.
+flag:
+  - light

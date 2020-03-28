@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:nibelung:nibelung38"
+    short: Cellar
+    sight: >
+      The cellar is very damp and musty. Off in the blackness you hear the sound of dripping water. A mouse
+      runs away into a crevasse at the sound of your approach. The floor - had it been dry - would be dirt,
+      but is currently occupied with the task of being mud instead. It pulls at your boots slightly as you
+      step off the final step. In front of you is a pedestal with a box resting on it. From its long,
+      rectangular shape, and ornate finish, you guess it to be a coffin.
+flag:
+  - dark

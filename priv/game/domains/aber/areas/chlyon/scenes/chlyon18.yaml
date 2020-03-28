@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: The Royal Chambers
+    sight: >
+      You stand inside the chambers of the king of Thyreen. As the other rooms, this place is lavishly
+      decorated with colorful tapestries. A large feather bed occupies most of the room, and a massive black
+      marble desk lies on the east wall.
+flag:
+  - private
+  - party

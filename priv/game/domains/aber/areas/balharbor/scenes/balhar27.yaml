@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:balharbor:balhar26"
+    short: Guard Tower
+    sight: >
+      You are standing in the tower north of the east gate which houses the lookouts. Apparently these are
+      being utilized to watch for invaders coming into town or keep watch over the rioters. Other than the
+      view, there's not much else to see.
+flag:
+  - outdoors

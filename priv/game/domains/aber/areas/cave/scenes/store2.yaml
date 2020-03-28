@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      south: null
+      west:
+        target: "scene:aber:cave:tunnel"
+    short: Dwarven Store Room
+    sight: >
+      You are in a small dwarven store room. To the south is another door, and a passage leads west.
+flag:
+  - dark

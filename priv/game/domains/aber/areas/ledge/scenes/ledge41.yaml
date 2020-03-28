@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ledge:ledge42"
+      west:
+        target: "scene:aber:ledge:ledge40"
+    short: Underwater Cavern
+    sight: >
+      The water inside the cave is gentle, no current, no undertow. There is no telling how far this cave goes
+      back inside the cliff, but hopefully it isn't too long. Smaller fish can be seen swimming by who have
+      been hiding in here from the bigger fish. The tunnel continues west and east.
+flag:
+  - underwater

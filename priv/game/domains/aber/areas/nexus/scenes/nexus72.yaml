@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+    short: &+RMishappen Void
+    sight: >
+      This is the holding place of some nexus zone material.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon
+  - death

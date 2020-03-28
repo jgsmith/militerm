@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:pensalon:pensalon50"
+      south:
+        target: "scene:aber:pensalon:pensalon48"
+    short: Dark Passage
+    sight: >
+      The passage continues to lead north. To the south is a large lake.
+flag:
+  - dark
+  - nomobiles

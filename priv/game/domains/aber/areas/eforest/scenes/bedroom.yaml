@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eforest:den"
+    short: "Asmodeus' Bedroom"
+    sight: >
+      You realize that this must be what the demonlord calls a bedroom. It is little more than a space of
+      level rock in the center of the room. Asmodeus obviously worries little about the ordinary comforts of
+      life. At the least, this room is not as grotesque as the study that you just passed through.
+flag:

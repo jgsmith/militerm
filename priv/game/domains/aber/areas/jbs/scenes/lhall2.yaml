@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:half_way_d"
+      north:
+        target: "scene:aber:jbs:banquet"
+      south:
+        target: "scene:aber:jbs:lhall3"
+      up:
+        target: "scene:aber:jbs:first_step"
+      west:
+        target: "scene:aber:jbs:lhall1"
+    short: Large Hallway
+    sight: >
+      The hallway turns to either the south or the west here depending on which way you are going. To the east
+      is a huge staircase that goes up and down, but the stairs are almost as tall as you are and you would
+      have to struggle to get all the way up or down them. There is a large hall to the north.
+flag:

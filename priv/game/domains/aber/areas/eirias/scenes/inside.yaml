@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:eirias:gallery"
+      west: null
+    short: Inside
+    sight: >
+      A glimmer of light from somewhere, untraceable, shows you that you are in a narrow corridor, low-roofed,
+      ending a few yards ahead where a ladder rises upwards out of sight.
+flag:
+  - dark

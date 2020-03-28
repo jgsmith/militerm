@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:jbs:lhall2"
+      up:
+        target: "scene:aber:jbs:top_step"
+    short: The First Step
+    sight: >
+      After much heaving, groaning, and pulling you finally make it onto the first step of this mammoth
+      staircase. As you look up you begin to feel disheartened at the prospect of climbing the rest of this
+      thing.
+flag:

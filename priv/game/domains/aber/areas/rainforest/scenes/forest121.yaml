@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:rainforest:forest122"
+      north:
+        target: "scene:aber:rainforest:river5"
+      south:
+        target: "scene:aber:rainforest:forest120"
+    short: On The Riverbank
+    sight: >
+      You are on the bank of the river Kerapi. Here it is hundreds of yards wide and a uniform muddy brown. To
+      the east you could make your way along the bank, while to the south the trees are tall and dark, though
+      well-spaced.
+flag:
+  - outdoors

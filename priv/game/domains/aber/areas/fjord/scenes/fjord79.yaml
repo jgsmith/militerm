@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:fjord:fjord68"
+    short: Industrial Sector
+    sight: >
+      During the times that the city dwellers are not fighting or feasting on the bones of the slain, they
+      gather here in homogenous factories to labor on the ore needed for the nearly constant demand of fresh
+      weapons for the new spawn produced to the west. Smokestacks reaching higher than the tallest skyscraper
+      let loose the billowing clouds of hazardous by-products of the manufacturing processes. The clang of
+      metal on metal beats at an even rhythm as hundreds of shields, swords, and suits of scale mail are
+      eagerly produced, fed by the ghouls' and lizards' mutual undying need for vengeance and pain.
+flag:
+  - dark

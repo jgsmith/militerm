@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook138"
+      south:
+        target: "scene:aber:fairybook:fairybook162"
+    short: Southern Path
+    sight: >
+      This path goes north and south, where the castle of Glinda the Good Witch is rumored to stand. This area
+      is inhabited by living trees, Quadlings, and China people. Not Chinese people - China people.
+flag:
+  - outdoors

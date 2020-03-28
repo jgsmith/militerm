@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: A Room
+    sight: >
+      As you enter the room, you stir up some dust that has been still for countless ages. When it clears, you
+      notice runes, of a long forgotten language. You dust your fingers over them, feeling the rise and fall
+      of the letters.
+flag:
+  - dark

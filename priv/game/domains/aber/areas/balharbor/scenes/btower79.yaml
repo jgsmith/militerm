@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower63"
+      east:
+        target: "scene:aber:balharbor:btower70"
+      north:
+        target: "scene:aber:balharbor:btower64"
+      west:
+        target: "scene:aber:balharbor:btower68"
+    short: Dark Corridor
+    sight: >
+      This tower is driving you nuts. Hope you can get out of here soon. There appears to be a letter 'D' in
+      the floor!
+flag:
+  - dark
+  - maze

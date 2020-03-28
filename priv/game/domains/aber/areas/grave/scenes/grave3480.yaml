@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:grave:grave3499"
+      south:
+        target: "scene:aber:grave:grave3479"
+    short: Narrow Ledge
+    sight: >
+      As you move toward the ledge you can see that there appears to be no bottom. It would be dangerous to
+      try to levitate over the cavern and try to find an exit further north even though there might be one.
+      There is not much room to manuever here and there is always the way back south.
+flag:
+  - dark

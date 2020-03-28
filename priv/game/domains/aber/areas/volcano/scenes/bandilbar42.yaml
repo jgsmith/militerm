@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar43"
+      west:
+        target: "scene:aber:volcano:bandilbar41"
+    short: Ant Nursery
+    sight: >
+      This cavern is where the larval ants are fed. However, the place is in a state of some disarray as the
+      cavern is slowly filling up with lava, engulfing workers and larvae alike. To the north a small tunnel
+      leads up a shallow slope. The roar of the eruption fills your ears.
+flag:

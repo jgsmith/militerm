@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:avairy:forest5"
+    short: Overlooking the Avairy Kingdom
+    sight: >
+      You are standing on a high cliff overlooking the kingdom of Avairy. In the middle is a graceful lake
+      encircled by trees populated by a large number of swans. The Swan Princess speaks... 'Thank you for
+      destroying that evil sorceror. Rothbart has hurt so many innocent people with his mad ambitions for
+      power turning all the women into swans. With him vanquished, he cannot turn anyone else into one. But
+      the spell over us cannot be broken, for we all need handsome princes to fall in love with us. Though we
+      can transform into humans for a few hours in the middle of the night, we must stay at Swan Lake for our
+      safety.' There is a glowing portal here, ready to send you back to where you were brought. You can't
+      help but feel sorry for all the swans, yet you are only one person and could only break the spell for
+      one of them.
+flag:
+  - outdoors
+  - light

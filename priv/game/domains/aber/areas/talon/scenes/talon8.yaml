@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:talon:talon10"
+      west:
+        target: "scene:aber:talon:talon9"
+    short: Bottom of the Ladder
+    sight: >
+      This appears to be the end of an incredible descent into the depths. You are peering down into a large
+      cavern below, which seems to be alive with movement. The entire cavern beneath is bathed in a dark
+      orange glow, which makes it difficult to distinguish living figures from shadows flitting in the
+      torchlight. It seems as if you could make your way down the sides of the cave, to the bottom. To the
+      west, a small crack, just wide enough to fit through, leads off into the darkness. Above, the shaft
+      leads back to a world that is but a quickly fading memory in the somber blackness of the new realm you
+      have discovered.
+flag:

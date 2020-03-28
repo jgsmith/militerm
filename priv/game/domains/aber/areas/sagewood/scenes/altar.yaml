@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down: null
+      east:
+        target: "scene:aber:sagewood:portal1"
+      west:
+        target: "scene:aber:sagewood:sagewood2"
+    short: Near The Sinister Altar
+    sight: >
+      The whole area seems to be a large hole carved into the earth. At the bottom of the hole you notice a
+      terrible-looking black &+Baltar&*. A hellish portal is to the &+CEast&* and it looks anything but safe.
+      The only safe-looking way out is &+CWest&*.
+flag:
+  - outdoors

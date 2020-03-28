@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ancient:anc52"
+    short: "The Chief Astronomer's Residence"
+    sight: >
+      The emperors' chief astronomer walks these underground caverns. She was the first one to notice the
+      signs of destruction on the sky years ago. Signs of her wisdom and skill can still be found in the
+      deserted town. There are calendars and large astronomical maps covering the walls. Surprisingly you find
+      your birthday on the calendar - and the day of your death! The only way out is to the west.
+flag:

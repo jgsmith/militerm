@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:nwbeaches:beachqq04"
+      west:
+        target: "scene:aber:nwbeaches:beachqq06"
+    short: Along the Beach
+    sight: >
+      You stand on a beach which stretches east and west from here. The waves, not very large at this time,
+      lap gently near your, making patterns in the fine sand. To the west you see a few rocks jutting from the
+      sand and sea. East is flat beach to the horizon.
+flag:
+  - outdoors

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5174"
+      north:
+        target: "scene:aber:yllythad:yllythad5203"
+      south:
+        target: "scene:aber:yllythad:yllythad5168"
+      west:
+        target: "scene:aber:yllythad:yllythad5172"
+    short: Among Fifteen Foot Waves
+    sight: >
+      A blinding storm has erupted across the seas, causing the water to jump from casual swells to the
+      fifteen foot walls which are now completely surrounding this area. Rain lashes down, stinging the sea
+      with its driving force.
+flag:
+  - onwater
+  - outdoors

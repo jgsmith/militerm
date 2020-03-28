@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:valley:oak"
+      north:
+        target: "scene:aber:talon:talon1"
+      south:
+        target: "scene:aber:valley:oak"
+      up:
+        target: "scene:aber:valley:steps2"
+    short: Tree Tops
+    sight: >
+      You are almost at the bottom of the cliff path, which leads south into thick forest. The steps wind up
+      and up the cliff dwindling to a mere speck. The evil Talon lies north of here. Beware.
+flag:
+  - outdoors

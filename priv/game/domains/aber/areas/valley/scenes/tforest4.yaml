@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:valley:fedge5"
+      north:
+        target: "scene:aber:valley:pool"
+      south:
+        target: "scene:aber:valley:evalley"
+      west:
+        target: "scene:aber:valley:evalley"
+    short: Thick Forest
+    sight: >
+      You are lost in thick forest, tangles of bushes and the shadowy tree trunks prevent you from seeing far
+      in any direction. Even the surrounding mountains don't help, as they are in all directions.
+flag:
+  - outdoors

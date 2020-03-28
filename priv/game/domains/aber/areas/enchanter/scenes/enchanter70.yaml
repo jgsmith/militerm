@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:enchanter:enchanter69"
+      south: null
+    short: Atop the Tower
+    sight: >
+      You're at the top of the southwestern tower. There's a solid oak door here.
+flag:

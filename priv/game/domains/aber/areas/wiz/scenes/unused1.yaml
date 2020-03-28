@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Unused Room
+    sight: >
+      This is a room that is sitting here just waiting for someone to wiz and take over the room. :)
+flag:
+  - public

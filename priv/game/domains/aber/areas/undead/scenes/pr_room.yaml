@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:undead:secretpassage3"
+    short: Dark Reading Room
+    sight: >
+      Within this room the unearthly silence is total, the darkness is engulfing and welcomes you, holding you
+      like a long lost friend. The cold instantly starts to chill you to the bone. Your light struggles to
+      light the grim granite walls and hard stone floor. In the centre of the room appears a small
+      unremarkable wooden &+Bstool&*. It would appear as uncomfortable and cold this room is it may actually
+      be a private reading room, it would appear the Undead King has little use for home comforts.
+flag:
+  - dark
+  - cold
+  - soundproof
+  - oneperson

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan68"
+    short: Temple
+    sight: >
+      This temple is dedicated to the elemental gods. Each wall is painted with intricate and beautiful
+      murals, each of a different elemental deity. The north wall is painted with a figure surrounded with
+      lightning bolts, the west wall is painted with a figure made completly of water stands up from the sea,
+      and on the east wall there is a figure that is made of living vines, rocks, and other matter standing
+      high above a forest. The south wall is open to the air, and leads to the main street of the town.
+flag:
+  - peaceful

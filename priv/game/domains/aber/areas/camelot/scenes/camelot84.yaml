@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot81"
+      north:
+        target: "scene:aber:camelot:camelot85"
+      south:
+        target: "scene:aber:camelot:camelot86"
+      west:
+        target: "scene:aber:camelot:camelot87"
+    short: In the Foothills
+    sight: >
+      You are climbing in low foothills adjoining high mountains. The trail here runs east and west, although
+      it looks like you might be able to leave the trail here and go north or south.
+flag:
+  - outdoors

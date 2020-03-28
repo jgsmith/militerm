@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fjord:fjord32"
+      south:
+        target: "scene:aber:fjord:fjord30"
+    short: Bumps On A Log
+    sight: >
+      A slew of fallen trees criss-cross the deer track here. Bugs inhabit crevices in the rot-eaten &+ylogs&*
+      of what used to be tree trunks. The stench of decay is thick and rich, but the humidity of the
+      atmosphere does begin to falter finally. It drops to the north and is greater in the less odorific areas
+      to the south. The ground also begins to get hilly to the north as moss-covered stumps clamor upward from
+      earthen mounds. The Sap Swarmers diminish to the north, perhaps unnerved by the slight climatic changes.
+      Their home live relatively far to the south anyway. However, one striking change is that there are
+      practically no deer living in this section of the Muskrat. The foliage remains relatively unscathed, and
+      no blueberry-like droppings are present.
+flag:
+  - outdoors

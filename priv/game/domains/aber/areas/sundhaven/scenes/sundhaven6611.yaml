@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6610"
+    short: The alchemy shop
+    sight: >
+      Vials and bottles of all shapes and sizes line the cluttered shelves of this small shop. On a window in
+      the north wall sits a bizarre golden squid-like creature in a jar, glinting in the sun. You wonder what
+      oddities could be found in storage.
+flag:
+  - nomagic
+  - peaceful
+  - nomobiles

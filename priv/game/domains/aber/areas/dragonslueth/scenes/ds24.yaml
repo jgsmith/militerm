@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:dragonslueth:ds21"
+    short: Armory
+    sight: >
+      This looks like one of those armories out of the old roman movies. It has huge sets of platemail armor
+      with weird symbols on it. There is also a picture on the wall that looks like it has been there for
+      years. It shows a picture dragonsluth himself.
+flag:

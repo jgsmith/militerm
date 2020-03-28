@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ruins:geast2"
+      west:
+        target: "scene:aber:ruins:gooey"
+    short: Eastern Catacomb
+    sight: >
+      You are travelling into the eastern catacombs. You are walking in a thin trail of slime from the room to
+      the west of here. There are a few bones laying along the walls and dried pools of blood. You can see
+      that this catacomb continues for a great way to the east.
+flag:
+  - dark
+  - nomobiles

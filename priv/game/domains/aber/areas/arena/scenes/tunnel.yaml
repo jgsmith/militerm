@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Tunnel
+    sight: >
+      A damp tunnel extends southward, but suddenly blocked by a pile of stones, with bright red spray paint
+      on them reading '&+rUnder construction&N'
+flag:
+  - nomagic
+  - pkzone
+  - nosummon
+  - cantsummon

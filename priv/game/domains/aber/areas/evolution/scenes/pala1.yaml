@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:evolution:pala2"
+      north:
+        target: "scene:aber:evolution:pala2"
+      south:
+        target: "scene:aber:evolution:cret7"
+    short: Rocky Outcrop
+    sight: >
+      You are standing atop an outcrop of rock, overlooking a vast plain to the north. Herds of mammals browse
+      the flatlands, growing huge to fill the ecological niche left empty by the vanished dinosaurs. Overhead
+      soar birds of prey, replacing the pterosaurs of the mesozoic era.
+flag:
+  - outdoors
+  - nomobiles

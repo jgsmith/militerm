@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:volcano:bandilbar29"
+      west:
+        target: "scene:aber:volcano:bandilbar34"
+    short: Corner
+    sight: >
+      You are at a corner of the tunnel. This area is obviously frequently used, and many curious footprints
+      are imprinted on the ground here. To the west the tunnel widens out into a large cavern, while to the
+      north is a crossroads of tunnels.
+flag:

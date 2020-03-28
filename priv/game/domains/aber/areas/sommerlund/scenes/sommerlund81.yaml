@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund82"
+      west:
+        target: "scene:aber:sommerlund:sommerlund80"
+    short: Argazad Avenue
+    sight: >
+      Featureless blocks of steel are piled up on each other to form a small pyramid here. It is an altar of
+      worship and sacrifice to the rulers of this dread city and the heat-plastered wastelands outside - the
+      Darklords. Several creatures surround the shrine, some shedding their own blood into crystalline
+      chalices at specific points along the altar.
+flag:
+  - outdoors

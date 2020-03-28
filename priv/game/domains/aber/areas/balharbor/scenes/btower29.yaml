@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      :
+        target: "scene:aber:balharbor:btower23"
+      north:
+        target: "scene:aber:balharbor:btower24"
+      west:
+        target: "scene:aber:balharbor:btower28"
+    short: Dark Corridor
+    sight: >
+      You think you feel a draft in this room, but cannot tell its source. There looks to be a letter 'W' in
+      the floor.
+flag:
+  - dark
+  - maze

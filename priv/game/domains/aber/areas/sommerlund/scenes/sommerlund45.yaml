@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:sommerlund:sommerlund44"
+    short: The Holmgulf Oasis
+    sight: >
+      This is the one spot of the Holmgulf which is dry. A whirlpool above you tumbles water, and you can see
+      the sky through it like the eye of a hurricane. You stand on a small area of sand which is completely
+      protected from the water.
+flag:
+  - outdoors

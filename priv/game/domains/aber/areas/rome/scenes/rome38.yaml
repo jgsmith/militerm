@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rome:rome37"
+    short: The House of Commons
+    sight: >
+      This is the lower house of the advising body to the emperor. Common men from all parts of Rome work here
+      to further assist the senators in advising the emperor on critical matters of state. The seal of the
+      emperor is painted on the far wall. The only exit is to the north.
+flag:

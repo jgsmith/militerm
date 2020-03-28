@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:avairy:jungle11"
+      north:
+        target: "scene:aber:avairy:shore13"
+      south:
+        target: "scene:aber:avairy:shore11"
+    short: The Shore
+    sight: >
+      This is the western shore line of Avairy Island. The waves to the west are not as bad as most you have
+      seen from the island. The breeze here is significantly weaker than that of other parts of the island and
+      sweat begins to form on your forehead. To your east you notice that the jungle has thinned leaving a
+      small path. The shore line continues north and south.
+flag:
+  - outdoors
+  - light

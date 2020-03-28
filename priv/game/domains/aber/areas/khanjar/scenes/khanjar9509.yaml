@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east: null
+    short: A Dusty Room
+    sight: >
+      The room has been furnished by a small elegant table, a strong bed, an old bookcase, and a chest of
+      drawers. Somehow you feel that it won't be hired out so often, although it seems that no one has been
+      here in a few weeks. But no doubt, there is someone's property around...
+flag:
+  - dark

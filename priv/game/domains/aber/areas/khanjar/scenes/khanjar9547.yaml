@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east: null
+      up:
+        target: "scene:aber:khanjar:khanjar9548"
+    short: Under A Brown Dome
+    sight: >
+      You are standing inside a brownish chamber, under some massive roots, from which various fibres with
+      soil still hang down. There are small footprints on the ground. While an improvised ladder leads up,
+      there is a small, wooden door the east.
+flag:
+  - nomobiles
+  - dark
+  - outdoors

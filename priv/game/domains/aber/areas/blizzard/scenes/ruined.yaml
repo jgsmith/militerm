@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:blizzard:secret"
+    short: Ruined Temple Hall
+    sight: >
+      You are in a dark rather gloomy temple. Huge pillars hold up the roof of this vast chamber and cast
+      strange shadows that seem to dance around you as you move around. The center of the temple is a flat
+      platform with a now broken altar as its centerpiece.
+flag:

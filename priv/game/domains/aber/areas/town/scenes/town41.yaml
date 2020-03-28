@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:town:town38"
+      west:
+        target: "scene:aber:town:town42"
+    short: Main Street
+    sight: >
+      Once again the main road stretches here along the length of the town. This part of the road is closer to
+      the Town gates, and the sea and its fresh salty smell is far behind you to the east.
+flag:
+  - outdoors
+  - nomobiles

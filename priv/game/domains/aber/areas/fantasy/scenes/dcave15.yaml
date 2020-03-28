@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fantasy:dcave16"
+      north:
+        target: "scene:aber:fantasy:dcave11"
+    short: Southern Passageway
+    sight: >
+      A cold blast of air jets from the chamber below you and you turn your head from the freezing jet of air.
+      The blast of air also brought up a horrible stench of rotting meat and you start to choke a little. You
+      can turn back and go north or go downward.
+flag:
+  - dark

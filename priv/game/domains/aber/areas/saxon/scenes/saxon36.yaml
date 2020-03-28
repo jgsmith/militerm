@@ -1,0 +1,25 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:saxon:saxon37"
+      east:
+        target: "scene:aber:saxon:saxon37"
+      north:
+        target: "scene:aber:saxon:saxon37"
+      south:
+        target: "scene:aber:saxon:saxon37"
+      up:
+        target: "scene:aber:saxon:saxon35"
+      west:
+        target: "scene:aber:saxon:saxon37"
+    short: &+LDown &*in the &+rMere&*
+    sight: >
+      Here underwater, the liquid blood and water mix makes it impossible to see. The sea is also hotter here
+      than above, and more bubbles rise past you. Many a warrior have lost his life here, maybe you will be
+      the next.
+flag:
+  - dark
+  - hot
+  - deepwater
+  - negregen

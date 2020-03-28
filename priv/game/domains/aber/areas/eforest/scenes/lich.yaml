@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eforest:worn"
+      north: null
+      west:
+        target: "scene:aber:eforest:interrogation"
+    short: "Lich's Prison"
+    sight: >
+      You are in a dank, moldy prison. Something that looks suspiciously like dried blood covers the floor. A
+      large door can be seen to the north, a small passage leads east, and another one leads to the west.
+flag:
+  - dark

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:kastle:20"
+      north:
+        target: "scene:aber:kastle:19"
+      south:
+        target: "scene:aber:kastle:15"
+      up: null
+    short: Damp Tunnel
+    sight: >
+      It is dank and musty here and slime coats the walls. To one side there is a a set of stairs leading up.
+      To the north the tunnel opens up and to the east can be seen rows of cells.
+flag:
+  - dark

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sommerlund:sommerlund15"
+    short: Tree Shack
+    sight: >
+      In a small room, you might not expect many things. But in here, there is a huge bed in one corner. A
+      dining table for two sits as the centerpiece, and shelves and cabinets line two walls. A sink lies in
+      one corner, with the pipe going only god-knows-where. This is not the home of a hermit, but that of a
+      well-paid, professional businessman or politician.
+flag:

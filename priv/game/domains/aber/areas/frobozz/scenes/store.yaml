@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:frobozz:connecting"
+    short: Storeroom
+    sight: >
+      You have entered a rather large storeroom which is filled with racks that seem to have been robbed of
+      their contents. Along the walls, shelves have been suspended, most of them containing nothing but dust.
+      You may reenter the tunnel from where you came, to the west.
+flag:
+  - dark

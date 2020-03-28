@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook14"
+      west:
+        target: "scene:aber:fairybook:fairybook12"
+    short: The Ocean Shore
+    sight: >
+      You stand on the shore of a large ocean, which stretches out to the distant west. To the east is a small
+      door, set into midair.
+flag:

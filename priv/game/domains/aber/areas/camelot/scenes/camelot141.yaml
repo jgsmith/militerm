@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot140"
+      south:
+        target: "scene:aber:camelot:camelot145"
+      west:
+        target: "scene:aber:camelot:camelot142"
+    short: Hot Cave
+    sight: >
+      At first, you thik that the reason for the heat in this room is the hot spring to the east, but you
+      change your mind as soon as you look around. The entire western wall is covered with flames.
+flag:
+  - dark

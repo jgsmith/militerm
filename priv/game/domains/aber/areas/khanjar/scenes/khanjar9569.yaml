@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:khanjar:khanjar9566"
+      south:
+        target: "scene:aber:khanjar:khanjar9568"
+    short: Descending The Steps
+    sight: You start descending from the dais.
+flag:
+  - outdoors

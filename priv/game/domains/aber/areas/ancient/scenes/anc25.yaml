@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc26"
+      north:
+        target: "scene:aber:ancient:anc28"
+      south:
+        target: "scene:aber:ancient:anc24"
+      up:
+        target: "scene:aber:ancient:anc28"
+      west:
+        target: "scene:aber:ancient:anc27"
+    short: Large Square
+    sight: >
+      You have arrived at a large square. In the middle you see three twenty feel long monoliths around a
+      small stone table guarding it from intruders. To the north a stony stairway leads up the side of the
+      moon pyramid. To the east and west there are several small buildings and the street leads southwards
+      back to where you came from.
+flag:
+  - outdoors

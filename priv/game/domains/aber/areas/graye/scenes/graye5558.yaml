@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: The Lava
+    sight: >
+      You slip.. 		 .. 		 .. 		 &+Rhot 			 &+RHot 			 &+RHOT!!
+flag:
+  - death

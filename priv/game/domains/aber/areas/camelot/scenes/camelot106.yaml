@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot107"
+      south:
+        target: "scene:aber:camelot:camelot104"
+    short: New Tunnel
+    sight: >
+      There are signs of digging here, as if the tunnel had been recently enlarged. From the roughness of the
+      walls, you are willing to bet that either the workers are not finished, or that they are just very poor
+      workers.
+flag:
+  - dark

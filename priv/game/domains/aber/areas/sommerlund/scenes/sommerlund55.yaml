@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sommerlund:sommerlund56"
+      north: null
+      south:
+        target: "scene:aber:sommerlund:sommerlund58"
+      west:
+        target: "scene:aber:sommerlund:sommerlund57"
+    short: Center Cave
+    sight: >
+      This cave of the Durncrags has been made entirely by nature, with the usual elements of caves hanging
+      overhead.
+flag:

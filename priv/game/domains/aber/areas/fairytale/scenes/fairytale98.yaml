@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale58"
+    short: "Rumplestilskin's House"
+    sight: >
+      You enter a large, cave-like room. Doors lead to the north, west, and south, but gossamer-like strands
+      of webbing stretch across them and bar them from your use. The only clear door is the one you entered
+      from, to the east. In the center of the room is a crib, in which a sack full of gold rests, but the
+      webbing covers it as well. Following the strands with your eye, you realize that they originate from a
+      spinning wheel which lies in the corner.
+flag:

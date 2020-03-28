@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:yllythad:yllythad5016"
+      north:
+        target: "scene:aber:yllythad:yllythad5150"
+      south:
+        target: "scene:aber:yllythad:yllythad5148"
+      west:
+        target: "scene:aber:yllythad:yllythad5144"
+    short: A Drizzling Rain
+    sight: >
+      The rain falls in a steady drizzle that soaks to the bone, but does not cause any harm. The wind has all
+      but died out, making the rain all the final and somber.
+flag:
+  - onwater
+  - outdoors

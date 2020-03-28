@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oaktree:burrow"
+      up:
+        target: "scene:aber:oaktree:burrow"
+    short: Fox Den
+    sight: >
+      You are wedged into a reeking fox den. Strangely enough, the vixen has built her den adjoining a huge
+      natural cavern that extends deep into the earth, much farther than your feeble flame can penetrate. It
+      looks like it might go all the way to China! You could jump in, but you would fall a long way.... There
+      is a blinking construction sign here.
+flag:
+  - dark

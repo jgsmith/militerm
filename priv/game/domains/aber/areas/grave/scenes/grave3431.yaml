@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:grave:grave3430"
+    short: Back of the Church
+    sight: >
+      You are in the right side of the back of the church. The stench is strong. There is a corpse here hacked
+      to pieces by the conquerors of the church. You just hope there are not others that met the same fate but
+      your sixth sense tells you otherwise. A little light filters in through the window here that has been
+      shattered and is lying in small pieces of glass on the floor. You can exit to the west.
+flag:

@@ -1,0 +1,20 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:cyrus:70"
+      north:
+        target: "scene:aber:cyrus:83"
+      south:
+        target: "scene:aber:cyrus:68"
+      west:
+        target: "scene:aber:cyrus:75"
+    short: The trail splits up
+    sight: >
+      You arrive in front of a mountain. The trail splits west and east. Some trees have been smashed down to
+      the west. The ambiance is very creepy. No animals seems to live around here. In fact, except plants,
+      nothing is willing to live in a place like this. To the east, a trail looks like it curves toward the
+      north. The mountain in front of you at its base has a number of rocks that come to rest. The closest
+      footholds feel loose.
+flag:
+  - outdoors

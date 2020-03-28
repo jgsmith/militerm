@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:windy:windy18"
+      north:
+        target: "scene:aber:windy:windy23"
+      south:
+        target: "scene:aber:windy:windy16"
+      west:
+        target: "scene:aber:windy:windy20"
+    short: Great Hall
+    sight: >
+      This is the main place of worship in the temple, although you don't see very many followers present. A
+      large statue, formed to resemble a massive cloud, stands atop a dias in the center of the room. The
+      statue seems to have eyes... evil eyes. Corridors lead north, south, east and west.
+flag:
+  - dark

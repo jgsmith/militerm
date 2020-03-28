@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:road2n"
+      west:
+        target: "scene:aber:newvillage:weapons2"
+    short: The Weapon Shop
+    sight: >
+      The waiting room you are standing in displays many kinds of weapons made by the weaponsmith who owns
+      this shop. He seems to be skilled in many types of weapons; even some you don't recognize. You can hear
+      him working away in the back room. The little door that allows you to go behind the counter is open.
+flag:

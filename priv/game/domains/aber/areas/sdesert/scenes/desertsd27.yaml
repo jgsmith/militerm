@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sdesert:desertsd28"
+      north:
+        target: "scene:aber:sdesert:desertsd25"
+      south:
+        target: "scene:aber:sdesert:desertsd31"
+    short: An Overgrown Trail
+    sight: >
+      You are walking down a trail, overgrown with cactus and other dry plants. A path leads &+yeast&* from
+      here, off into the distance.
+flag:
+  - outdoors
+  - hot

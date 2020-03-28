@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:carb2"
+      west:
+        target: "scene:aber:evolution:devo8"
+    short: Among The Rotting Stumps
+    sight: >
+      You are wandering through a fairly open part of the forest, among some decaying &+ytree stumps&*. You
+      have to step over fallen lycopod trees in order to progress, and it is slow going. The smell of rotting
+      vegetation gets to you after a while, and you feel anxious to move out of the area.
+flag:
+  - outdoors
+  - nomobiles

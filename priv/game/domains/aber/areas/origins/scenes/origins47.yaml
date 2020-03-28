@@ -1,0 +1,27 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:origins:origins41"
+    short: &+BThe Temples of &+CSyrinx&n
+    sight: >
+      Upon first entering these buildings, the bleakness of the walls, all metallic grey, seem monotonous and
+      foreboding. But upon further and closer examination, you see that they pulse with life!! Electronic
+      signals and lights of origin unknown convey a deep sense of mystery. In its own way, the machinery of
+      these rooms is alive; electronic impulses are its language and electricity is its oxygen... You get the
+      feeling that the Temples and the things within them are as old as time itself, though nothing within has
+      ever been seen before. As you approach the largest of the buildings, you realize that it is probably the
+      central edifice of the group of Temples here -- a seat for the "town's" government. You enter the only
+      room available, which seems to be the largest as well, and from its atmosphere, the most important.
+      Three elaborate thrones dominate the center of the room, raised on a dias. On the lowest step of the
+      dias is written "&+GElder Race&n". On each of the three thrones is a single word, beautifully rendered
+      in flowing script. The left throne says "&+rRed Star&n", the right one "&+RSolar Federation&n" and the
+      central throne reads "&+CSYRINX&n". There are a myriad of computers, monitors, and sound equipment all
+      over the room, all in perfect order. On the floor in the very center, right below the dias, is a
+      pentagram inscribed within a circle, all in red. The topmost point of the pentagram points directly to
+      the central throne.
+flag:
+  - nomagic
+  - soundproof
+  - cantsummon
+  - nosummon

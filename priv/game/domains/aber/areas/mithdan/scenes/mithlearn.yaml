@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:mithdan:mithdan69"
+    short: Dragon Demonstrations
+    sight: >
+      The wall is ceramic, which is good, because it still shows scorch marks. A dragon sits in one corner.
+      Well, a small dragon. Very intelligent looking eyes. It licks a forked tongue in and out. Wonder if it's
+      enchanted? Well, try "learn info" to see what it offers.
+flag:
+  - peaceful

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9522"
+      north:
+        target: "scene:aber:khanjar:khanjar9524"
+      up:
+        target: "scene:aber:khanjar:khanjar9520"
+    short: The Marshland
+    sight: >
+      As you reach the marshland, the clouds of insects catch you in their unpleasant embrace, penetrating
+      your very equipment. You move on quickly, over the damp hummocks and over the small pools of black
+      disgusting water, to escape those tiny winged beasts. Further away to the north seems to be an another
+      hillside, growing high trees. Remainders of a bridge-like structure still lie here, leading across the
+      marsh.
+flag:
+  - real
+  - outdoors

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:avairy:shore14"
+    short: Inside the Cave
+    sight: >
+      You are in a dark, dank cave. Judging by the smoothness of the walls, you can tell this cave was made by
+      thousands of years of waves smashing against it. The floor is covered with little bird foot prints. A
+      small pirch made from well warn drift wood is off to one corner.
+flag:
+  - dark

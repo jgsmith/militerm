@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eforest:hot"
+      west: null
+    short: Stairs to Hades
+    sight: >
+      You have no doubt in your mind that the stairs in the middle of this room must go down to hell itself.
+      If you thought the earlier rooms were hot, you were obviously sadly mistaken. Here, every breath you
+      take burns your lungs. Your skin is already beginning to blister from the intense heat, and you are
+      worried that your clothing may spontaneously combust! As well, flames appear in the corners of this room
+      and the smell of brimstone is so strong that it makes you want to vomit immediately. Surely, nothing but
+      Hades itself could lie in the Inferno below...
+flag:
+  - hot

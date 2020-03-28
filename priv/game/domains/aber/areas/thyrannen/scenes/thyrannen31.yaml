@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:thyrannen:thyrannen32"
+      north:
+        target: "scene:aber:thyrannen:thyrannen29"
+    short: Marsh
+    sight: >
+      The marsh is just as nasty here as everywhere else, with exits to the north and to the east.
+flag:
+  - outdoors

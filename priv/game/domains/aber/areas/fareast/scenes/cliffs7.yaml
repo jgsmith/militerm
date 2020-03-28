@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fareast:templepass"
+      up:
+        target: "scene:aber:fareast:templepass"
+      west:
+        target: "scene:aber:fareast:ropebridge"
+    short: Eastern Plateau and Overlook
+    sight: >
+      This side of the steep river valley offers a spectacular view of the eastern skyline... where a terraced
+      shrine rises up before the forests that separate this area from the spires of the capitol, Eno. To the
+      west, a rope bridge leads back across the valley, where a similar plateau offers a path downward toward
+      the local village. A less steep path leads up from this side into a craggy hillside in the east, through
+      which it will hopefully lead toward the temple.
+flag:
+  - outdoors
+  - nomobiles

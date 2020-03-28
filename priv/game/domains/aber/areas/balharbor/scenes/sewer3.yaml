@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:balharbor:sewer2"
+      south:
+        target: "scene:aber:balharbor:sewer4"
+    short: The Sewer Pipe
+    sight: >
+      The pipe continues on down, and the water looks even more icky. The methane fumes have increased
+      considerably, and if you don't get some fresh air fast, you could perish.
+flag:
+  - dark
+  - negregen

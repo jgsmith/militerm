@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:graye:graye5542"
+      north:
+        target: "scene:aber:graye:graye5544"
+      south:
+        target: "scene:aber:graye:graye5537"
+      west:
+        target: "scene:aber:graye:graye5540"
+    short: "Entrance to Relnar's Castle"
+    sight: >
+      You stand before the ajar gate of the castle. You here complete silence from inside. City life continues
+      to bustle around you.
+flag:
+  - outdoors

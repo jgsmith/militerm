@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:nexus:nexus9"
+    short: Crystal Plain
+    sight: >
+      The clouds now only allow sporadic sunbeams to strike the ground as the rays of ultraviolet radiation
+      desperately attempt to weave through the maze of white fluffiness. However, slivers of crystal and small
+      shards are whisked away from the plain and shot up into the atmosphere by mysterious forces.
+      Effortlessly, the crystal fragments are inexorably drawn into the cloud bottoms, where they vanish from
+      view. All around the plain seems to be distorted slightly - the crystals warping, or maybe that is a
+      trick of the sunlight.
+flag:
+  - soundproof
+  - oneperson
+  - noat
+  - cantsummon

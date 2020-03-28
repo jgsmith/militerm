@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:valley:pool"
+      west:
+        target: "scene:aber:valley:send"
+    short: Stream Bank
+    sight: >
+      You are standing on the bank of the stream, which swings round from north to east. Tracks lead south and
+      west through the trees.
+flag:
+  - outdoors

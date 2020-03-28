@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ancient:anc60"
+      south:
+        target: "scene:aber:ancient:anc59"
+      up:
+        target: "scene:aber:ancient:anc56"
+      west:
+        target: "scene:aber:ancient:anc58"
+    short: The Hall
+    sight: >
+      You climb down the stairs and come into a hall which has exits west, south, up and down. The hall itself
+      has no furniture, but the floor is so soft that you could actually sleep on it. The ceiling is emitting
+      blue light and the walls are covered with somewhat extraordinary pictures about the history of
+      spacetravels.
+flag:
+  - cold

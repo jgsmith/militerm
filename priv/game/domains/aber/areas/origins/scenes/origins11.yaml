@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      east: null
+      north:
+        target: "scene:aber:origins:origins14"
+      south:
+        target: "scene:aber:origins:origins10"
+      west:
+        target: "scene:aber:origins:origins13"
+    short: The City of Rivendell
+    sight: >
+      The marvel of this city's architecture only increases as your eyes get closer to it. The homes all about
+      you are shaped, not built from the wood of the trees, and are thus part of them. Sunlight is captured
+      beautifully by a crystal arch spanning the entire city from your left to right, and it is focused
+      miraculously into one spot in the center of the city. All around you are numerous elven dwellings. Yet
+      the city seems oddly quiet for so large an area, and so merry a people... You see numerous destroyed
+      musical instruments littering the streets; lyres with broken strings, recorders and flutes with
+      shattered bodies, and drums with broken heads. There is a door to your right, leading to a large elven
+      home, and a large threshold to your left. The city continues on to the north.
+flag:
+  - outdoors
+  - tempreal
+  - nomobiles

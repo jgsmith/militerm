@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle25"
+    short: On a Rock
+    sight: >
+      Temporarily climbing out of that river gives you a chance to catch your breath and figure out your
+      situation. Unfortunately there seems to be only one obvious way out...and that's over the falls. Hope
+      you've practiced some cliff diving.
+flag:
+  - outdoors

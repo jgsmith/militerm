@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down: null
+      north:
+        target: "scene:aber:aladdin:tower"
+    short: Stairway to Top of the Tower
+    sight: >
+      You are in a spiral stairway which appears to lead to the top of a tower. Soon remember how much you
+      hate spiral stairways as you look down through the stairway's center.
+flag:
+  - light

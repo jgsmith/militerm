@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale77"
+      west:
+        target: "scene:aber:fairytale:fairytale75"
+    short: Underground Lake
+    sight: >
+      The waterfall ends here in a pool, and the river flows on through a myriad of tiny holes. In the pool,
+      you see the remains of many dead adventurers who tried to sail down the falls. A tube on the wall spews
+      forth filthy water.
+flag:

@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:garden1"
+      north:
+        target: "scene:aber:jbs:courtyard"
+      west:
+        target: "scene:aber:jbs:garden2"
+    short: The Garden
+    sight: >
+      You have entered a vast garden filled with all kinds of huge plants. Unfortunately, though, you can't go
+      and wander among them because apparently they have enough of a rodent problem up here to have a fence
+      with holes just barely too small for you to squeeze through.
+flag:

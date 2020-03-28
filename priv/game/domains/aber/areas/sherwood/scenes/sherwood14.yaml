@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sherwood:sherwood13"
+      south:
+        target: "scene:aber:sherwood:sherwood15"
+    short: Dismal Forest
+    sight: >
+      Oh no! You have reached a very dark dismal part of the forest. You do not feel safe here, and wish to
+      get out of here as soon as possible. There is the intersection back to the east, but there is also a
+      very nice path leading to the south
+flag:
+  - outdoors
+  - dark

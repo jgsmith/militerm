@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot229"
+      north:
+        target: "scene:aber:camelot:camelot231"
+    short: Shade Trees
+    sight: >
+      Oaks and Elms grow in a dense thicket here, providing shade for those who wish it, and a sheltered,
+      private nook for those who desire that.
+flag:
+  - outdoors

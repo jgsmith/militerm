@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:sundhaven:sundhaven6617"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6660"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6755"
+    short: "The mages' laboratory"
+    sight: >
+      **BOOM!** When your vision returns to normal, you find yourself surrounded by narrow black lab tables
+      cluttered with a chaotic mess of bubbling vials, shattered beakers, and miscellaneous spell components.
+      The latest experiment in familiars, a leathery-skinned fork-tailed creature, hops knavishly from
+      shoulder to shoulder among the mages at work here. If you need practice in the magic arts, this would be
+      a good place to start.
+flag:
+  - peaceful
+  - nomobiles

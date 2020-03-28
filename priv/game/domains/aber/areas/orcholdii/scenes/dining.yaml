@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orcholdii:arch1"
+      south:
+        target: "scene:aber:orcholdii:kitchen"
+    short: Dining Hall
+    sight: >
+      You have entered what can only be termed a dining hall, though you are shocked that orcs would even
+      bother with one. There is a massive chandalier above the dining room table. The table though is only
+      large enough for 6 to eat at and there are &+Ccushions and blankets&* piled all over this large room.
+      From the scraps of food lying about you would guess that the orcs just eat anywhere they choose in here.
+      A set of swinging doors leads south into the kitchen and the hallway is to the north.
+flag:

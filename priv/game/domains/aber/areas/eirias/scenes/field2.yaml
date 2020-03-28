@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eirias:field1"
+      north:
+        target: "scene:aber:eirias:clearing2"
+      south:
+        target: "scene:aber:eirias:field4"
+      west:
+        target: "scene:aber:eirias:field3"
+    short: Fields
+    sight: >
+      There is a lot of farmland round here, obviously. There are fields on every side of you, except north
+      which is the clearing by the forest.
+flag:
+  - outdoors

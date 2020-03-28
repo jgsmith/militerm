@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6782"
+      north:
+        target: "scene:aber:sundhaven:sundhaven6654"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6633"
+      west:
+        target: "scene:aber:sundhaven:sundhaven6635"
+    short: A bend in the road
+    sight: >
+      You have come to a narrow bend, and can feel the faint heat of a fire from a small, blackened stone
+      structure to the north. Patches of gold sand are scattered about.
+flag:
+  - outdoors

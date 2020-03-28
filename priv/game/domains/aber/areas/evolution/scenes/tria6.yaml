@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:evolution:tria5"
+      west:
+        target: "scene:aber:evolution:tria4"
+    short: "Wood's End"
+    sight: >
+      You are at the edge of the wood. A steep cliff wall to the north prevents your progress in that
+      direction. To the east a river glistens, flowing rapidly south, presumably towards the lake. The air is
+      dry but hot.
+flag:
+  - outdoors

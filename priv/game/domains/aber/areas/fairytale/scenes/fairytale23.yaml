@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairytale:fairytale24"
+      south:
+        target: "scene:aber:fairytale:fairytale22"
+    short: Landslide
+    sight: >
+      You stand amidst a pile of fallen limestone, as though a mountain has collapsed in upon itself. Cleared
+      through the rubble is a path to the north.
+flag:

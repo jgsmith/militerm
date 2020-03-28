@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairybook:fairybook44"
+      west:
+        target: "scene:aber:fairybook:fairybook42"
+    short: Court House
+    sight: >
+      The building before you is marked, quite clearly, "Court House." Headless bodies have been randomly
+      scattered around the entrance. Inside, to the east, is the court room. To the west is the croquet field.
+flag:
+  - nomobiles

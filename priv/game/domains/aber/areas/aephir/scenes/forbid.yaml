@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:aephir:sesacred"
+      west:
+        target: "scene:aber:aephir:sesacred"
+    short: The Forbidden Forest
+    sight: >
+      One can see why it is forbidden--it is Aephir's sanctuary for the rarest, most magical trees in the
+      world. No mortal could ever claim a twig or leaf from any single tree, neither could the lower
+      immortals. If you are here, you are privileged.
+flag:
+  - nogoto
+  - archwizard
+  - nomobiles
+  - aephir

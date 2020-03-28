@@ -1,0 +1,21 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fjord:fjord34"
+      north:
+        target: "scene:aber:fjord:fjord37"
+      west:
+        target: "scene:aber:fjord:fjord32"
+    short: Mowed Down
+    sight: >
+      Something awful has been here! Trees have been ripped from their roots and shoved aside as if they were
+      no more than toothpicks. The forest floor is trampled down by enormous &+yfeet&*; the spacing between
+      the toes measures no less than a yard across. Webbing spans that spacing, given the near total leveling
+      of the undergrowth. Light shines much more strongly from the north, towards the border of the Muskrat
+      Pine Forest, as a result of the destructive travel. The rejoicing chirping of crickets echoes in this
+      section as the little green and black pests come to inhabit the fallen trunks. Fresh sap runs over those
+      trees, implying that this chaos happened recently. To the west and east, the forest drops in altitude
+      slightly, but rises considerably to the north.
+flag:
+  - outdoors

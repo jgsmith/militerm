@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:ildharas:ildharas14"
+    short: Stables
+    sight: >
+      It smells like hay and horses. The straw scattered on the ground looks new and you notice fresh water in
+      the troughs. Without looking at the ruined wall, you would think that horses lived here quite recently.
+      The barracks lie to the east.
+flag:

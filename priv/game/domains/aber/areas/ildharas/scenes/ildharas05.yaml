@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ildharas:ildharas04"
+      north:
+        target: "scene:aber:ildharas:ildharas06"
+      south:
+        target: "scene:aber:ildharas:ildharas04"
+    short: Foothills
+    sight: >
+      The path winds its way through the foothills, rising in altitude as it goes north. The air has become
+      crisp. It feels good on your face and in your lungs. The path continues its way north or south.
+flag:
+  - outdoors

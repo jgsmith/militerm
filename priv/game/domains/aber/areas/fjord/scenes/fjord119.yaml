@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fjord:fjord120"
+      east:
+        target: "scene:aber:fjord:fjord117"
+    short: Abandoned Shack
+    sight: >
+      Dusty bits of mold and paper blow through this derelict building. No one in Kyerstarn has bothered to
+      fix this now tilting conglomeration of high-pressed clay because of its indeterminable value. It might
+      prove to be a complete lemon of an investment. A damp staircase of mildew leads to an underground
+      cellar.
+flag:

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:ghenna:ghenna9972"
+      west:
+        target: "scene:aber:ghenna:ghenna9974"
+    short: The top of the stairs.
+    sight: >
+      Apparently the hookers who work here are pretty slovenly. There are all manner of clothing on the floor
+      - most of it soiled quite badly. A hallway leads towards the West, lit by a single red lightbulb.
+flag:

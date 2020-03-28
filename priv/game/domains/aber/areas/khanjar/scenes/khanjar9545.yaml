@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9544"
+    short: On The Mountainside
+    sight: >
+      Climbing changes more and more difficult as you struggle on. It would take a long time to find a
+      reasonable way to climb forward. And if one existed it would still be very arduous at all events.
+flag:
+  - outdoors
+  - cold

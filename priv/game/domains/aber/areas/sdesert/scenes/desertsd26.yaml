@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd20"
+      south:
+        target: "scene:aber:sdesert:desertsd30"
+    short: Way Out In The Southern Desert
+    sight: >
+      Here the air is as dry as your step-mother's humor. (Thank God she's not here to watch you mud.)
+flag:
+  - outdoors
+  - hot

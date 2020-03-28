@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:blizzard:window"
+      north:
+        target: "scene:aber:blizzard:gloomy"
+      south:
+        target: "scene:aber:blizzard:passage"
+    short: Stonewalled Chamber
+    sight: >
+      You are in a small stonewalled chamber. Light streams in through a somewhat vandalized window east of
+      you, to the north is a darker chamber only partially lit, while to the south through a doorway veiled in
+      deep shadow you can see a dark passage.
+flag:

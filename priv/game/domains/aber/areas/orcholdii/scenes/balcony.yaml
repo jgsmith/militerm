@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:orcholdii:entry"
+    short: On the Balcony
+    sight: >
+      From up here you have a good view of the action down below. The Orcs look no less silly all dressed up
+      like that though. You are amazed to notice however that there is absolutely no dust on the chandalier.
+flag:

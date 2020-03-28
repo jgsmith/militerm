@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan2"
+      south:
+        target: "scene:aber:mithdan:mithdan6"
+      west:
+        target: "scene:aber:blizzard:pass"
+    short: Thin Trail
+    sight: >
+      Origionally created by animals, this trail has been widened by human passage, although it looks as if it
+      has not been traveled lately. The forest has grown close to the edge of the trail, and thick branches
+      reach overhead that catch the snow. The thin trail continues to the east and to the south, the snow much
+      thinner there, and to the west there is an icy trail.
+flag:
+  - outdoors
+  - nomobiles

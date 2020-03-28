@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:waste:hall"
+      west:
+        target: "scene:aber:waste:before"
+    short: The Flaming Gates
+    sight: >
+      You are standing before a set of gigantic flaming gates, wrought entirely of a strange, blood tinged
+      gold. The gates reflect the hellish, fiery red glow from two huge lava channels which flank the path you
+      walk. To the east through the gates everything becomes a confusing mass of reflected flames against
+      gold.
+flag:
+  - hot

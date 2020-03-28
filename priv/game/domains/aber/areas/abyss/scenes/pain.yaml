@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:pillars8"
+      west:
+        target: "scene:aber:abyss:orcus"
+    short: Archway of Pain
+    sight: >
+      At the far end of the vault here is a twenty-foot-high archway. On either side of the arch is a mound of
+      skulls and set above the keystone is a statue of a large winged demon, half ram - half human. Through
+      the arch to the west can be seen a large palatial room.
+flag:
+  - nosummon

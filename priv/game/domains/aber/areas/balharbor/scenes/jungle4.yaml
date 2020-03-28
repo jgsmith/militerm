@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:balharbor:jungle3"
+      up:
+        target: "scene:aber:balharbor:jungle5"
+    short: Steep Trail
+    sight: >
+      The edge of the cliff is now in sight, those heading up don't stop climbing...you're almost there! Those
+      heading down, it's an easy run to the bottom, just don't slip.
+flag:
+  - outdoors

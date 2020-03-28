@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:orcholdii:dining"
+    short: Kitchen
+    sight: >
+      Just considering what an orcish diet consists off should make you ill. Fortunately it looks like you
+      caught them between meals. Surprisingly enough there are a few things that almost look edible to you.
+flag:

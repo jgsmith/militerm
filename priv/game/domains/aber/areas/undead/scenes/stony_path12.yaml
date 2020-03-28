@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:undead:stony_path11"
+      west:
+        target: "scene:aber:undead:stony_path13"
+    short: Stony Path
+    sight: >
+      You are now behind the castle. The moat still looks impassable, Even if it were passable there would be
+      no where to go, as all that is visible is a large granite wall. The path continues both &+Ceast&* and
+      &+Cwest&*.
+flag:
+  - outdoors

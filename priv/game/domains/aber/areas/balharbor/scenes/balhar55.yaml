@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar56"
+      north:
+        target: "scene:aber:balharbor:balhar63"
+      south:
+        target: "scene:aber:balharbor:balhar47"
+      west:
+        target: "scene:aber:balharbor:balhar54"
+    short: Park and River Intersection
+    sight: >
+      You stand at a four-way intersection at Park and River. A gate leading out of town lies to the north, a
+      large square lies to the south, and access to two of the city guilds lie west and east.
+flag:
+  - outdoors

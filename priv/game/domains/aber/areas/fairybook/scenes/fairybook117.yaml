@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook116"
+    short: "Scarecrow's Field"
+    sight: >
+      You stand in a huge cornfield. Overlooking the field is a scarecrow. Its head is a small sack stuffed
+      with straw, with eyes, nose, and mouth painted on it to represent a face. An old, pointed blue hat, that
+      once belonged to a Munchkin, is perched upon this head, and the rest of the figure is a blue suit of
+      clothes, worn and faded, which has also been stuffed with straw. On the feet are some old boots with
+      blue tops, and the figure is raised above the stalks of corn by means of the pole stuck up its back. As
+      you look, it winks at you. The only exit is to the north.
+flag:
+  - outdoors

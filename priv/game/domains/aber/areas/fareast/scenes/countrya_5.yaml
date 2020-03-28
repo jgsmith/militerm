@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countryacave"
+      south:
+        target: "scene:aber:fareast:countrya_3"
+    short: Countryside- Gravel
+    sight: >
+      The road is strewn with gravel and small pebbles, which thicken toward the north until the path is
+      completely obscured. Larger and larger piles of stone end at a high rockface, split by a narrow crack.
+      Toward the south, the gravelly soil clears enough that it has been cultivated. The road in that
+      direction is crossed by an east-west path, forming a crossroads.
+flag:
+  - outdoors

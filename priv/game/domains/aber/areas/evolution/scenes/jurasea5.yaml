@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:jurasea3"
+      north:
+        target: "scene:aber:evolution:cretsea1"
+      south:
+        target: "scene:aber:evolution:jurasea4"
+    short: Decline Of The Ichthyosaurs
+    sight: >
+      You are swimming through the oceans in the latter part of the jurassic period. To the north are deeper
+      waters, though since you cannot see the bottom you have no idea just how deep they are. You shiver
+      involuntarily, ill-at-ease in this aquatic environment. You notice that the once-common ichthyosaurs
+      seem to be more rare here, and you wonder why their numbers should be declining.
+flag:
+  - soundproof
+  - underwater

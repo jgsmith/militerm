@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fairytale:fairytale126"
+      north:
+        target: "scene:aber:fairytale:fairytale124"
+      south:
+        target: "scene:aber:fairytale:fairytale128"
+    short: Gallery
+    sight: >
+      This half of the gallery is devoted to sculpture. 'Three Women Praying', piece by Mac Gimse, is the most
+      prominent, and other pieces are demonstrated here as well. To the north is more of the gallery, to the
+      east is a closed door, and to the south is a work- room.
+flag:
+  - dark
+  - nomobiles

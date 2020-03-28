@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:bones"
+      up: null
+    short: Silent Room
+    sight: >
+      You are standing in a small dark room, beneath the northern barrow. All around you lie the relics of an
+      ancient time, crumbling slowly into dust. Everything is dark and creepy, and the sense of malice and
+      foreboding makes you jump at the slightest movement in the shadows. The center of the room is a tall
+      gravestone bearing the words: "White The Wizard - A man pledged never to make his own coffee."
+flag:

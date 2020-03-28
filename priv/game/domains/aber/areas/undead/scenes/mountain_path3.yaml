@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:undead:mountain_path2"
+    short: Mountain Ledge
+    sight: >
+      Well, it was quite a climb, but it seems to have ended here. You can no longer climb any further up, but
+      at least the view is nice. The ledge upon which you stand is only about ten feet wide and utterly
+      lifeless.
+flag:
+  - outdoors

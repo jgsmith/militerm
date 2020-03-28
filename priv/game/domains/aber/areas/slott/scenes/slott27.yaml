@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:slott:slott7"
+      north:
+        target: "scene:aber:slott:slott29"
+    short: SW tower
+    sight: >
+      You have entered the southwest tower. There is not much to see in here except the stairs leading
+      &+Cdown&* and the doorway to the &+Cnorth&*.
+flag:

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:zodiac:watera"
+    short: The Dry Spot
+    sight: >
+      This is a nice dry sandy beach. There is no ocean or anything, just like a small oasis of sand in this
+      world of water.
+flag:

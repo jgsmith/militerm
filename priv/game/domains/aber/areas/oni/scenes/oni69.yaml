@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni67"
+      south:
+        target: "scene:aber:oni:oni85"
+    short: South Deufel
+    sight: >
+      The southern section of Deufel is known as the entertainment section. Many artists, actors, singers and
+      a variety of other entertainers have gathered here to perform in theaters and on open air stages. The
+      scene changes as you go further south. A large castle like structure stands out to the south with the
+      banner of a white phoenix.
+flag:
+  - outdoors
+  - cantsummon

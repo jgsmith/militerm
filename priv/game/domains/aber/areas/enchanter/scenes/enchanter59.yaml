@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:enchanter:enchanter56"
+      south:
+        target: "scene:aber:enchanter:enchanter60"
+    short: Translucent Room
+    sight: >
+      You're an a room with not-quite-opaque cream colored walls. Behind the walls you can see slow, fluid
+      movement, as if the rock was alive.
+flag:
+  - dark

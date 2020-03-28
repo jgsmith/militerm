@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot62"
+      north:
+        target: "scene:aber:camelot:camelot63"
+      south:
+        target: "scene:aber:camelot:camelot59"
+      west:
+        target: "scene:aber:camelot:camelot61"
+    short: Main Street
+    sight: >
+      Your path leads north along a wide avenue, south to an intersection of several roads, or into the
+      buildings to the east and west.
+flag:
+  - outdoors

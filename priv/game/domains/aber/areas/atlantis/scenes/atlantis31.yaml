@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis38"
+      north:
+        target: "scene:aber:atlantis:atlantis30"
+      south:
+        target: "scene:aber:atlantis:atlantis32"
+    short: Short Street
+    sight: >
+      This short waterway ends abruptly after a short distance. You see a large number of tourists heading
+      through a door to the south and hear a coughing sound coming from the doorway to the north. A few sharks
+      also emerge from the doorway to the south, making gestures as if something were jumping around inside.
+flag:
+  - underwater

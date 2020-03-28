@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:fairytale:fairytale58"
+    short: "Mermaid's Home"
+    sight: >
+      The little mermaid, Ariel, has decorated her home with pictures of her father and sisters, as well as a
+      statue of her husband, Eric. A large swimming pool is set into the east wall, where you see a fish and a
+      crab. When you enter, they eye you suspiciously. Many common household items, such as Snarfblatts and
+      Dinglehoppers, have been placed around the room in positions of honor. One Snarfblatt hangs on the wall
+      with a plaque beneath it.
+flag:
+  - nomobiles

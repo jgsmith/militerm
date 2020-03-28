@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:camelot:camelot1"
+      south:
+        target: "scene:aber:moor:rocky"
+    short: Narrowing Path
+    sight: >
+      You have followed this narrow path to this huge structure you could see far to the south. Before you
+      stands the fabled castle of Camelot. An entryway leads into the castle to the north. A narrow path leads
+      back to the south from here.
+flag:
+  - outdoors
+  - nomobiles

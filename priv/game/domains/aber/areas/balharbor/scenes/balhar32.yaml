@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:balhar33"
+      north:
+        target: "scene:aber:balharbor:park2"
+      west:
+        target: "scene:aber:balharbor:balhar31"
+    short: Well-Travelled Road
+    sight: >
+      The road continues to run along the park's south side west and east. The road begins to incline up a bit
+      on the hill.
+flag:
+  - outdoors

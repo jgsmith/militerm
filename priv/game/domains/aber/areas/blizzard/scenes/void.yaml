@@ -1,0 +1,8 @@
+detail:
+  default:
+    exits:
+    short: Void
+    sight: You have ceased to exist.
+flag:
+  - nosummon
+  - cantsummon

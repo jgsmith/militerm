@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot289"
+      west:
+        target: "scene:aber:camelot:camelot291"
+    short: Tarrasque Room
+    sight: >
+      The huge Tarrasque is a creature brought into existance totally by magic. It's skin is as hard as steel,
+      and it's teeth are both as long, and as sharp, as daggers.
+flag:
+  - dark

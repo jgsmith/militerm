@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:fantasy:dforest7"
+      north:
+        target: "scene:aber:fantasy:dforest9"
+    short: Shady Path
+    sight: >
+      The trees have blocked out the sun here making it a little shadier than the other parts of the forest. A
+      cool breeze blows through your hair sending a small chill down your neck.
+flag:
+  - outdoors

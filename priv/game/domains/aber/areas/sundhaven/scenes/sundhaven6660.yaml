@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:sundhaven:sundhaven6618"
+    short: A balcony of the tower
+    sight: >
+      This high point on the northern edge of Sundhaven boasts quite a view. When fog is not seen rolling
+      about the balcony's railing, one can see the graveyard near the foot of the cliff to the north, and
+      beyond it, the pearl blue sea, clothing the far horizon. The mages have made this a favored place for
+      recreational studies.
+flag:
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west: null
+    short: Inside the Iron Maiden
+    sight: >
+      You appear to be inside the Iron Maiden, an ancient form of torture, and you notice how good the fit
+      is...
+flag:
+  - nosummon
+  - oneperson

@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook8"
+    short: Falling . . .
+    sight: >
+      You continue your descent, wondering how many miles you have fallen. You must be approaching the center
+      of the earth.
+flag:

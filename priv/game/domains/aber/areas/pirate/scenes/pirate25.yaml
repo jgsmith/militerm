@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:pirate:pirate21"
+      up:
+        target: "scene:aber:pirate:pirate21"
+      west:
+        target: "scene:aber:pirate:pirate26"
+    short: In the Lagoon
+    sight: >
+      You are under the surface of the lagoon. To the west of you, amidst the seaweed flaoting gently on the
+      current, you see the entrance to the submerged temple. Though eroded and barnacle covered, it looks
+      stable and remarkably intact. To the east, a narrow staircase leads up out of the water.
+flag:
+  - underwater

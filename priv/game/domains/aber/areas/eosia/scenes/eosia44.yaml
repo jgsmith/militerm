@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eosia:eosia43"
+      north:
+        target: "scene:aber:eosia:eosia45"
+    short: Above the Maze
+    sight: >
+      You are somewhere above the temple maze. An archway in front of you leads north.
+flag:

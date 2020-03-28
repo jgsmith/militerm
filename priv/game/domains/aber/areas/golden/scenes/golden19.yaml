@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:golden:golden18"
+    short: Cave behind the Waterfall
+    sight: >
+      This cave has been carved out from the powerful force of rushing water. The walls are smooth, damp, and
+      patches of moss cling everywhere. Heavy mist hangs about this cave, making it slippery. The glitter of
+      diamonds embedded in the walls catches your attention.
+flag:
+  - peaceful

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:camelot:camelot3"
+      west:
+        target: "scene:aber:camelot:camelot7"
+    short: Throne Room
+    sight: >
+      Although the entire room is filled with wonders, your eyes are drawn again and again to the mighty war
+      banner of King Arthur, hanging on the wall behind his throne. The dragon, worked in gold thread, ripples
+      as a draft moves the cloth, and it seems to you that it is almost alive, ready to spring down from it's
+      perch to defend it's master.
+flag:

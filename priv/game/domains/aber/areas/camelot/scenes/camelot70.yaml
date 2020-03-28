@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:camelot:camelot69"
+    short: The Vault
+    sight: >
+      You've never seen a room like this before. The very walls are made of steel, and the metal door was so
+      thick, you are sure it takes at least 3 people to open and close it. Whatever they keep in here, it must
+      be pretty important to them.
+flag:

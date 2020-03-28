@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grass:grass65"
+      north:
+        target: "scene:aber:grass:grass105"
+      south:
+        target: "scene:aber:grass:grass107"
+      west:
+        target: "scene:aber:grass:grass64"
+    short: Rutted Track
+    sight: >
+      The road turns to merely a flattened dirt path from so many trodding upon it by foot and wheel. It cuts
+      through the grass further southward into the wilderness, but becomes better defined to the north. The
+      field stretches far to the west and east.
+flag:
+  - outdoors

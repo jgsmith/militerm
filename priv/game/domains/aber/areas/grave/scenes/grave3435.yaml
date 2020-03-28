@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:grave:grave3433"
+    short: The Side Row of Pews
+    sight: >
+      As you look out the window here you notice the overgrown garden and the hole in the ground there. As you
+      move the vines to get a closer look you notice in that hole may hold some key to what caused this
+      destruction. As before the smell is terrible and is becoming even more overpowering as you near the
+      altar. The is an exit east.
+flag:

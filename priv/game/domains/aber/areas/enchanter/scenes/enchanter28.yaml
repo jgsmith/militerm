@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:enchanter:enchanter29"
+      west:
+        target: "scene:aber:enchanter:enchanter27"
+    short: First Hall of Mirrors
+    sight: >
+      This is a long, mirrored hall. You do a doubletake as you realize the mirrors aren't reflecting the
+      hall... they seem to show some sort of maze of twisting passages, all alike.
+flag:

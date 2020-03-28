@@ -1,0 +1,24 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:icecave:icelearn"
+      south:
+        target: "scene:aber:newbie:newbie12"
+      west:
+        target: "scene:aber:newbie:newbie14"
+    short: Magic Power
+    sight: >
+      Besides health, you also have the ability to cast spells. But to cast spells, you have to have mana
+      points. But before you can cast spells, you have to learn those as well. Below you is Magician's Mana
+      Tutoring. Though actual spells aren't taught there, they train you in gathering the magical energies to
+      cast them. &+CINFO MANA&* will give more info. You may well want to save some of your coins for the many
+      specials that are available around the mud. There are seven learning locations besides these two, and
+      part of the game is finding them. Each learning center teaches different specials. &+YINFO SPECIALS&*
+      will get you more detail on what they are. The coins to pay for continued lessons will come the first
+      time you reach a level (250 coins), and the first time you solve a quest (200 coins). You can give the
+      command &+YSPECIALS&* (or &+YSPEC&* for short) to see what specials you have at any time. &+ROkay then,
+      go down now to train in the magical energies.
+flag:
+  - newbie
+  - peaceful

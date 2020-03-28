@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:town:town60"
+      north: null
+    short: Lookout Point
+    sight: >
+      From this point you can see all around the lands of Pensalon. Off in the distance you can see a small
+      commerce town, and you can even see the mighty Castle of the King of Pensalon where the Elemental Wizard
+      resides and works his mighty magic. Towards the East you can see a small man wearing a hard hat and
+      wielding mighty magics and shaping the land itself. As you come back to your senses you notice that you
+      are standing in a small campsite with a little signal fire burning merrily. You can climb back down the
+      cliff or go explore the cave to the north.
+flag:
+  - outdoors

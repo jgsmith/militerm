@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:khanjar:khanjar9538"
+      west:
+        target: "scene:aber:khanjar:khanjar9536"
+    short: A Lighter Forest
+    sight: >
+      You are approaching the edge of the forest from where a stony mountainside begins to ascend, very gentle
+      at first. Rippling of water can be heard from nearby.
+flag:
+  - outdoors

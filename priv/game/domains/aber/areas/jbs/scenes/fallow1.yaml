@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:jbs:fallow3"
+      south:
+        target: "scene:aber:jbs:fallow2"
+      west:
+        target: "scene:aber:jbs:fallow"
+    short: Fallow Field
+    sight: >
+      The field here continues in all directions from here except north, where there is a small wooden fence.
+flag:
+  - outdoors

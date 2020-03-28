@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:countryacurse"
+      south:
+        target: "scene:aber:fareast:curse3"
+    short: Entrance to the Cursed Lands
+    sight: >
+      Dark, gnarled branches reach over the road, marking a boundary between the merely grotesque and the
+      completely twisted. The southern road splinters and falls to ruins before reaching the dark forest,
+      leaving only brackish mud and loose stones to mark the way. Out to the north, the darkness thins and the
+      road continues undamaged.
+flag:

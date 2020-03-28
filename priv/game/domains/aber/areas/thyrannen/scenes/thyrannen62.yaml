@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:thyrannen:thyrannen63"
+      west:
+        target: "scene:aber:thyrannen:thyrannen61"
+    short: Dwarven mine
+    sight: >
+      This is a dark damp mine tunnel, the exits are to the south and west.
+flag:
+  - dark

@@ -1,0 +1,19 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:newvillage:green"
+      north:
+        target: "scene:aber:newvillage:oldwell"
+      south:
+        target: "scene:aber:newvillage:bank"
+      west:
+        target: "scene:aber:newvillage:road2w"
+    short: The Village Path
+    sight: >
+      Here the path starts to climb to the west. You can just barely make out the tops of the tall ships
+      harboured at the shipyard. The path climbs west to the open sea, and slopes down to the village in the
+      east. To the southwest is a large mill and just to the north, a very old well that looks like it hasn't
+      been used in years.
+flag:
+  - outdoors

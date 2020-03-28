@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:ordo4"
+      west:
+        target: "scene:aber:evolution:ordo1"
+    short: Ordovician Gully
+    sight: >
+      Steep submarine cliffs rise about you on both sides as you swim along the gully. Trilobites scatter as
+      you approach, seeking protective nooks and crannies in the walls of rock. The floor is covered with a
+      thick layer of &+Csediment&*.
+flag:
+  - soundproof
+  - underwater

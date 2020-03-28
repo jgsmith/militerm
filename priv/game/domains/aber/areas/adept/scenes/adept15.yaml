@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept14"
+    short: Siddily Street
+    sight: >
+      The commerce of the city is much more muted in the residential areas of which these blocks encompass.
+      Several brick houses of the same stature reveal what kinds of buildings the citizens live in.
+flag:

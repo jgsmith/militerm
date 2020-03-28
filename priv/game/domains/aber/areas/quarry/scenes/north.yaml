@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:quarry:store"
+      south:
+        target: "scene:aber:quarry:south"
+    short: Quarry North
+    sight: >
+      You are at the north end of the quarry. The quarry extends away to the south. To the east a small
+      battered stone hut appears to have once served the workmen's needs.
+flag:

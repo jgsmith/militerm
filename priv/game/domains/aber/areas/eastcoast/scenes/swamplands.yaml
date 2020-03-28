@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:eastcoast:cliffpath"
+      west:
+        target: "scene:aber:eastcoast:escarpment"
+    short: North Swamplands
+    sight: >
+      This part of the swamp seems too close for comfort, and you think the plants and brambles are creeping
+      in on the thinning path against the cliff side. The path looks more comforting to the west, where a
+      clearing appears to be, and also to the east where the path rises above the stunted treetops.
+flag:
+  - outdoors

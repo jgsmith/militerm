@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan75"
+      north:
+        target: "scene:aber:mithdan:mithdan73"
+    short: Fountain Pool
+    sight: >
+      The fountain draws water from an immense pool in which several large fish swim. The fountain itself is
+      covered with runes and is made of the finest polished marble. The water jets over twenty paces into the
+      sky before cascading down several marble terraces back to the fountain pool. A path winds through the
+      garden to the north, and to the east is a quiet rock garden.
+flag:
+  - outdoors
+  - peaceful

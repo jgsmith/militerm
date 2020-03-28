@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north: null
+      south:
+        target: "scene:aber:start:temple"
+    short: "Neferteri's Altar"
+    sight: >
+      Your breath lodges in your throat as the &+Gglow&N from your torch reflects off the four &+Yglided&N
+      shrines covering the walls. The air crackles with your excitement and with a hint of fear, knowing you
+      must now face a creature of such monumental evil -- and power. An altar, cast in solid &+Ygold&N, rests
+      in the center of the room. On it lies a &+Lblack&N-haired woman of such incredible beauty, you can not
+      but wonder if she could possibly be real or just a mirage sent by the gods to taunt you. The sight of
+      such indescribable loveliness lures you closer, as you ignore the faint warnings sounding in your mind.
+flag:
+  - dark

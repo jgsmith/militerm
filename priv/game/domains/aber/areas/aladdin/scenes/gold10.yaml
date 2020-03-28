@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:aladdin:gold9"
+    short: At the Top
+    sight: >
+      You have reached the top of the stairs. A mysterious and bright light from the ceiling is intensely
+      focused onto this point. Shielding your eyes, you see a stone pedastal.
+flag:
+  - light

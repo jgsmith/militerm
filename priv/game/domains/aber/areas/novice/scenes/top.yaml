@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:novice:grand"
+    short: Top of the Oak Tree
+    sight: >
+      You are sitting safely in a fork in the tree trunk. You feel kind of bad for climbing the tree, but you
+      see that it was worth the effort, if only because of the view you get of the forest from where you sit.
+      You feel like a kind on a throne as you look down into a valley to the northwest. You wonder what could
+      be down there. You decide to climb down and have a look.
+flag:
+  - outdoors
+  - real

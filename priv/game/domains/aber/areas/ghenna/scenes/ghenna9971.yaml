@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ghenna:ghenna9970"
+      west:
+        target: "scene:aber:ghenna:ghenna9972"
+    short: The waiting room.
+    sight: >
+      This is a quaint little waiting room where the customers to this brothel can relax and kick back at
+      will. A lovely floral couch is sitting here before a solid glass coffee table littered with lingerie
+      magazines. To the West is a staircase.
+flag:

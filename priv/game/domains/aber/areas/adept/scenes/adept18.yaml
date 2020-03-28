@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:adept:adept17"
+    short: "Peter's Armor"
+    sight: >
+      All kinds of armor, shields, and helmets line the walls on shelves and racks. On a stand off to one side
+      is a suit of silver mithrail - a rare form of magical armor. A bronze shield lays at the base of the
+      counter, and a battered and dented helm badly in need of repair or scrapping has been tossed onto a pile
+      of broken equipment.
+flag:

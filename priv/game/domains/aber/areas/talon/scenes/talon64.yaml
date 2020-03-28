@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:talon:talon63"
+    short: Small Cavern
+    sight: >
+      This is a small cavern which appears to have been formed by the action of endless beating of the waves
+      in the cavern to the west. There is a small pedestal carved out of the side of the rocks on the wall
+      face here.
+flag:
+  - dark

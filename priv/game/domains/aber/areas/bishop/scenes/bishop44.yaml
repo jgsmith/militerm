@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop43"
+      south:
+        target: "scene:aber:bishop:bishop45"
+    short: Horizon Expanse Trail
+    sight: >
+      Long, tall, thin grasses grow everywhere in this prairie, blowing in the cross winds and shedding their
+      pollen to the skies. Crickets chirp from deep within the grass, forever only to be heard. Among the
+      grasses are also various types of grain. The wild herds of oxen and cows which roam these plains live in
+      utter bliss with the sheer amount of food present around them. Spread throughout the prairie are patches
+      set aside by nature for extremely tall sunflowers. These circles of petals around a darker core grow in
+      unconcealed delight as they process the natural radiation tossed down at them.
+flag:
+  - outdoors
+  - nomobiles

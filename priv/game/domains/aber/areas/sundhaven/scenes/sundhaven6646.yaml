@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:sundhaven:sundhaven6631"
+    short: The Dirk & Dagger
+    sight: >
+      A circular stone is whirring in a fast spin at the far wall, as the weaponsmaster of Sundhaven
+      continually sharpens his wares, and re-hangs them to display on the stone and mortar walls. A single
+      window admits virtually no light, so filled with the webs and dust of neglect is it.. obviously the
+      shopowner prefers to seclude himself to the obsessive labors of his work. You wonder if he ever makes
+      anything new, so fanatical he is about sharpening and re-sharpening the old.
+flag:
+  - nomagic
+  - peaceful
+  - nomobiles

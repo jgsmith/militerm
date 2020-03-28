@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:dragonslueth:ds18"
+      north:
+        target: "scene:aber:dragonslueth:ds1"
+      south:
+        target: "scene:aber:dragonslueth:ds19"
+    short: "Dragonsluth's Study"
+    sight: >
+      As soon as you enter, you notice the craftmanship it must have taken to make this room what it is. There
+      is a tree with gold leaves growing from it. Porceline maidens dance around the base, placing food
+      everywhere they can think of. The exits are &+Cnorth&+C, &+Csouth&* and &+Ceast&*.
+flag:

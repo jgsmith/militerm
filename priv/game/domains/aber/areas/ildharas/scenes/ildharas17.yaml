@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ildharas:ildharas18"
+      south:
+        target: "scene:aber:ildharas:ildharas15"
+    short: Inner Gates
+    sight: >
+      Unlike the outer gates, the inner gates have been destroyed by the marauders. One swings soundlessly in
+      the slight breeze, half of the splintered bar still in its housing. A white and ethereal castle lies
+      directly to the north and its courtyard to the south.
+flag:
+  - outdoors
+  - nomobiles

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:town:town46"
+    short: Burning Campsite
+    sight: >
+      Wildfires leap about you as a wind whips up the flames. Everything in the area seems to have been set on
+      fire by a torch. Carts, equipment and occasionaly a grossly deformed body can be seen burning among the
+      ruins of the camp. It seems that a furious battle has just been fought here. The only way of escape is
+      back to the west.
+flag:
+  - outdoors
+  - nomobiles

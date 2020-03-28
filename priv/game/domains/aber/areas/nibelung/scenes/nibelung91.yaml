@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:nibelung:nibelung93"
+      north:
+        target: "scene:aber:nibelung:nibelung90"
+      west:
+        target: "scene:aber:nibelung:nibelung92"
+    short: Kitchens
+    sight: >
+      Pots and pans are scattered everywhere. Some foodstuffs lie rotting on one table, and a mouse scurries
+      off into a corner. A large black, cast-iron stove is along the far wall, and shelves for food storage
+      line another. To the north a swinging door leads to the dining room, and to the west is a small chamber,
+      apparently used for the servants.
+flag:

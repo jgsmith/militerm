@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sundhaven:sundhaven6767"
+      south:
+        target: "scene:aber:sundhaven:sundhaven6769"
+    short: A stream
+    sight: >
+      The clear waters begin to shift and curl and the current increase slightly. Tiny brown reeds on the
+      banks lean downstream, sending the dragonflies airborne from their stalks. A wind whistles in the leaves
+      of the trees above and no sound can be made out from ahead.
+flag:
+  - onwater
+  - outdoors

@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:icecave:pool"
+    short: Gambling Hall
+    sight: >
+      This room is all but magical and wondrous: Cheap decor covers the grimy walls, smoke fills the air, and
+      the smell isn't exactly winter fresh. Broken glass is scattered on the floor, along with some playing
+      cards and dice. If your mother knew you were here, she'd be shocked.
+flag:

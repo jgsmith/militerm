@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:evolution:cret11"
+      south:
+        target: "scene:aber:evolution:cret12"
+      west:
+        target: "scene:aber:evolution:cret14"
+    short: Top Of The Dike
+    sight: >
+      You are standing atop a rocky natural dike, from where you can see quite a long way in all directions.
+      To the west you can see, on the other side of a now-dry ancient delta, the blue line of the sea
+      stretching to the horizon. To the east the ground drops into a wet bog.
+flag:
+  - outdoors

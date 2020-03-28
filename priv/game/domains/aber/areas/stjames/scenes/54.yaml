@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:stjames:43"
+      north:
+        target: "scene:aber:stjames:53"
+      south:
+        target: "scene:aber:stjames:55"
+    short: Path Through St. James Park
+    sight: >
+      The path through the park meets its end at the fence to the Palace Gardens. Here too, the grassy lawns
+      stop and the pond ends. It seems your only choices are to either head back east, or to the northwestern
+      exit.
+flag:
+  - outdoors

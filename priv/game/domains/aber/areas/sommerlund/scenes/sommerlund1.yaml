@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:sdesert:desertsd61"
+      south:
+        target: "scene:aber:sommerlund:sommerlund2"
+    short: Wildlands
+    sight: >
+      The desert remains ever so parched further to the south. Mile after mile you plod on, your thirst
+      increasing as the sun beats down relentlessly. Mirages of water wink in and out of existence before you,
+      tempting your dry mouth to gobble some sand. The desert plains seem to contain almost no life, only a
+      few yellowish-white handfuls of dehydrated scrub grass.
+flag:
+  - outdoors
+  - hot

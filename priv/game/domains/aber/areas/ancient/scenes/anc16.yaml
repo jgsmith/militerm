@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc20"
+      south:
+        target: "scene:aber:ancient:anc10"
+      west:
+        target: "scene:aber:ancient:anc17"
+    short: Calle de los Muertos
+    sight: >
+      The street disappears north to a great pyramid as far as you can see. To the north you can see a big
+      cross standing aside the street. To the west there is a path leading somewhere in the marshlands. Back
+      to the south there is a bridge crossing the San Juan river.
+flag:
+  - outdoors

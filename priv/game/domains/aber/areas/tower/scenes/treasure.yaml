@@ -1,0 +1,9 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: Treasure Chamber
+    sight: >
+      This is large treasure store and naturally everything in it belongs to the Sorceror and might take a
+      rather nasty attitude to being removed.
+flag:

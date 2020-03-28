@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:blizzard:pass3"
+      south:
+        target: "scene:aber:blizzard:e_pass"
+    short: Steep Path
+    sight: >
+      You are trudging along the path. The towering mountains, their peaks cloaked in snow, seem to leer down
+      at you as your feet tread the well-worn track leading steeply northward into the blizzard mountains. The
+      path continues north and south.
+flag:
+  - cold
+  - outdoors

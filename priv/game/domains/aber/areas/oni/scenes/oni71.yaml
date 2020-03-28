@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:oni:oni70"
+    short: "Corrin's Home"
+    sight: >
+      Corrin's home is pretty empty. Just a cot and a chair.
+flag:
+  - cantsummon

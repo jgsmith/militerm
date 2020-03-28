@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rats:chbedroom"
+    short: Bedroom
+    sight: >
+      You are standing in the bedroom. The whole room could also be named the white room, because everything
+      is made in white. There is a large double bed, a mirror and a huge &+Cwardrobe&*.
+flag:

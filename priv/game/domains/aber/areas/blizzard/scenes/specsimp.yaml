@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:blizzard:store"
+    short: Basic Training Center
+    sight: >
+      As you enter, you notice the wooden floor leading up to a small counter has been worn smooth by the boot
+      soles of countless adventurers. A few leatherbound books, with covers in disrepair, line the strong high
+      shelves on either side of you. This must be a place of learning, and from the looks of it quite a few
+      have been enlightened here. This would be a fine place to begin putting some tricks up your sleeve...
+      &+GType '&+Mlearn info&+G'.
+flag:
+  - peace

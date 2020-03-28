@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:beach:beach6"
+      north:
+        target: "scene:aber:beach:beach4"
+      south:
+        target: "scene:aber:beach:beach2"
+    short: Beach
+    sight: >
+      What more is there to say about this wonderful place that you thought existed in your dreams only? It's
+      splendor and beauty would make this an exellent place to retire from your travels. There is a small dock
+      here to launch boats into the calm waters.
+flag:
+  - outdoors

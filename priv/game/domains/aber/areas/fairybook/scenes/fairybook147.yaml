@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairybook:fairybook144"
+    short: Emerald Bedroom
+    sight: >
+      You are in what was once described as 'the sweetest little room in the world', with a soft, comfortable
+      bed that has sheets of green silk and a green velvet counterpane. There is a tiny fountain in the middle
+      of the room, that shoots a spray of green perfume into the air, to fall back into a beautifully carved
+      green marble basin. Beautiful green flowers stand in the windows, and there is a shelf with a row of
+      little green books. A staircase leads down.
+flag:

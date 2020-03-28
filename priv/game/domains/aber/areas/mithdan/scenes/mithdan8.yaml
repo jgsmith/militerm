@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:mithdan:mithdan9"
+      north:
+        target: "scene:aber:mithdan:mithdan3"
+      south:
+        target: "scene:aber:mithdan:mithdan13"
+    short: Thick Forest
+    sight: >
+      The thick forest surrounds you, overwhelming your senses. The forest streches to the north, south, and
+      east. The forest to the west is thick and overgrown with brambles as far as you can see. There appears
+      to be trails, but after following them for a short time they fade away, leaving you more lost then when
+      you began.
+flag:
+  - outdoors

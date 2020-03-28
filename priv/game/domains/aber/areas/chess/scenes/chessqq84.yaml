@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:chess:chessqq85"
+    short: Arrival
+    sight: >
+      The Sulking Swan heads directly to its berth, lining up alongside the wooden platform. Ropes move of
+      their own accord, rising from the pilings and intertwining themselves with the boat's brass brackets. It
+      seems safe to step east onto the second dock, or you could just sit here and keep the boat company.
+flag:

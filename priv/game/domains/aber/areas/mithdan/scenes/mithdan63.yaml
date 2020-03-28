@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:mithdan:mithdan65"
+      west:
+        target: "scene:aber:mithdan:mithdan62"
+    short: Forest
+    sight: >
+      Thick forest continues on to the west, north, and east, but only the west is passable. Magestic elms and
+      oaks tower above you. To the south is a very small clearing with some kind of hut in it.
+flag:
+  - outdoors

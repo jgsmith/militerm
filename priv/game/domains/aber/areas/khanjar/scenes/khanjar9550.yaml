@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:khanjar:khanjar9549"
+    short: On The Hill
+    sight: >
+      You are standing on a low and barren hill. There are several footprints on it. There is a small grove to
+      the north.
+flag:
+  - outdoors

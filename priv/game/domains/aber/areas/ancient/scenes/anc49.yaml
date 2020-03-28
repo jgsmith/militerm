@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:ancient:anc50"
+      south:
+        target: "scene:aber:ancient:anc47"
+    short: The Hall of the Sun God
+    sight: >
+      You feel strong magical powers surrounding you as you enter this room. The story tells that there was a
+      disc of the mighty Sun God originally placed on top of the huge sun pyramid by the sun god himself.
+      After the messages about the destruction were received, the priests had a holy stone and a feather of
+      the sacred Quetzalbird, brought from a hermit living at the Tropic of Cancer to move this holy item.
+      Passages lead north and south.
+flag:

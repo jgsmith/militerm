@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:bishop:bishop45"
+      south:
+        target: "scene:aber:bishop:bishop47"
+    short: Muddy Trail
+    sight: >
+      The southern edge of the prairie borders on a wide river going through the plains and marks the boundary
+      between dry fields and marshlands. This section of the trail is a muddy mixture of dirt and clay.
+      Footprints and pawprints give evidence of the small cats, rodents, and marsupials who roam this land.
+flag:
+  - outdoors

@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:newvillage:road2w"
+    short: The Lumber Mill
+    sight: >
+      The operation that is set up here is a primitive sort of wood mill. This is a place where the people of
+      the village can come to buy wood to make houses, furniture, and many other things that they might need.
+      The wood supplies are brought into the harbor and cut to the customer's specifications at the mill. The
+      floor is very dusty and you sneeze a lot as you move around. The floor beneath you echoes to your
+      footsteps.
+flag:
+  - outdoors

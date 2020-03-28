@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:ildharas:ildharas57"
+    short: Small Room
+    sight: >
+      You enter a small, square room. A desk and chair sit in the center, the chair pushed away as if someone
+      had been sitting there recently. A quill rests in a silver inkwell, and the ink comes away wet when you
+      examine it.
+flag:

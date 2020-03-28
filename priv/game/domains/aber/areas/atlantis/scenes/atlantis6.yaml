@@ -1,0 +1,18 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:atlantis:atlantis9"
+      north:
+        target: "scene:aber:atlantis:atlantis5"
+      south:
+        target: "scene:aber:atlantis:atlantis4"
+    short: In Front of the Ship
+    sight: >
+      This once proud cargo ship lies in ruins along the bottom of sea. From what is left you can tell that it
+      was a very large vessel at one time, although much of it has washed away. Barnacles cover the wood and
+      some of it looks rather unsteady, like the wood remaining was rotten clear through. Still, parts of it
+      seem to be holding together quite well. The sea bed declines slightly to the east and leads into the
+      wreck to the north.
+flag:
+  - underwater

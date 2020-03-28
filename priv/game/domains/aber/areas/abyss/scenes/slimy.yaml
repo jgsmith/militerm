@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:trees"
+      west: null
+    short: Slimy Bank
+    sight: >
+      You are standing on the western bank of a river of slime. The slime level is high here and some of the
+      goo occasionally slops over the bank and runs down toward a tunnel in the earth to the west.
+flag:
+  - outdoors

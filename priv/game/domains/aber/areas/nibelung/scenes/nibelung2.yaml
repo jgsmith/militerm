@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:nibelung:nibelung3"
+      south:
+        target: "scene:aber:nibelung:nibelung1"
+      west:
+        target: "scene:aber:nibelung:nibelung5"
+    short: Gravel Way
+    sight: >
+      The path turns to gravel under your feet. You hear a burbling river off to the west, and there is a
+      grassy trail to the north. It seems like a peaceful day to be out for a stroll.
+flag:
+  - outdoors

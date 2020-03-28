@@ -1,0 +1,15 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:eforest:cathedral"
+      east:
+        target: "scene:aber:eforest:cathedral"
+      west: null
+    short: The Cave Entrance
+    sight: >
+      You stand at the entrance to what appears to be a vast system of caves. A cool breeze strikes you in the
+      face as you peer ahead into the blackness, and you sense strong evil emanating from the cavern. To the
+      west, you see the blackened mouth of the cave, to the east, a downward sloping passage leads to
+      darkness.
+flag:

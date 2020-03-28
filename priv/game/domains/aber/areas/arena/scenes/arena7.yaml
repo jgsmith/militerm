@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:arena:arena8"
+      south:
+        target: "scene:aber:arena:arena6"
+    short: The Arena
+    sight: >
+      The northwest corner of the arena looks badly damaged. The walls are blackened, and in parts seem to
+      have melted a little. The wire mesh above has been destroyed. You can see the charred remains of a less
+      than fortunate spectator caught in the mesh.
+flag:
+  - nosummon
+  - cantsummon
+  - pkzone

@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:abyss:cellar"
+    short: "Demon's Forge"
+    sight: >
+      Heat-scorched bricks line this room and the floor is covered in sand. Scraps of iron, steel, and other
+      metals lie about the room. Tongs, hammers, and various other tools line the walls. A large anvil sits
+      next to a forge and bellows.
+flag:
+  - dark

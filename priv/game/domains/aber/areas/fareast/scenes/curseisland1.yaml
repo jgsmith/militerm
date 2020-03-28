@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fareast:curseshore3"
+      south:
+        target: "scene:aber:fareast:curseisland2"
+      west:
+        target: "scene:aber:fareast:dojoent"
+    short: Cursed Lands
+    sight: >
+      The ground is hard and glassy underfoot, and it is difficult to stand. The mists that cover the northern
+      forest are unrestrained here, and seep down around your ankles, rising occasionally in choking plumes.
+      To the west, a greyish building fights to stay above this flood, but its paper-thin walls have already
+      been breached. The northern edge of this area is the shore of a foul yellowish river, and to the south,
+      a wall of solid black stone rises to block the horizon.
+flag:

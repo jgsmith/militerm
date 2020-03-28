@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:rainforest:city2"
+    short: Golden Palace
+    sight: >
+      The roof of the palace, unfortunately, has caved in under centuries of battling against the elements.
+      However, there is much here to please the eye and you spend some time looking around the wonderful
+      statues and wall carvings, many of which are either of solid gold or covered with gold leaf. This was
+      once an unbelievably opulent race and you wonder what can have happened to bring it to such an end.
+flag:
+  - outdoors

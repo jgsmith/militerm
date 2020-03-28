@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:tower:sorceror"
+    short: The Window Ledge
+    sight: >
+      You are perched on a precarious window ledge looking down the black tower into the courtyard below. The
+      safety (?) of the Sorceror's Room is back west.
+flag:

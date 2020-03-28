@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:princess:forest4"
+      south:
+        target: "scene:aber:princess:forest6"
+    short: The Forest
+    sight: >
+      The path continues northward and southward. In the distance you can see mountains. The trees become
+      fewer and fewer as you continue down the path.
+flag:
+  - outdoors

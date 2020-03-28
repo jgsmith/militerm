@@ -1,0 +1,12 @@
+detail:
+  default:
+    exits:
+      up:
+        target: "scene:aber:novice:hut"
+    short: In the Cellar
+    sight: >
+      If the hut you are standing in was in better repair, this would be a very dark and foreboding room. The
+      shape of the walls, however, allows you to look around and see that this is a simple storage area which
+      the owner of this hut must have once used to keep his gardening tools.
+flag:
+  - real

@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fareast:fortuhall"
+      north:
+        target: "scene:aber:fareast:fortuhall"
+      south:
+        target: "scene:aber:fareast:goalroom"
+    short: "Daimyo's Throne Room"
+    sight: >
+      The Throne Room's opulent surroundings are befouled by demon stench and brimstone haze, and the throne
+      itself is smeared with grime and blood. Silk tapestries that once hung proudly on the walls have been
+      apparently used as handkerchiefs and... toiletries. The daimyo and his court are piled on either side of
+      the throne like so much cordwood, and your ire rises at such mocking destruction.
+flag:

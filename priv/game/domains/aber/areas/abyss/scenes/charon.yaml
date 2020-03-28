@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:abyss:river"
+      north:
+        target: "scene:aber:abyss:creek"
+      south:
+        target: "scene:aber:abyss:styx"
+    short: "Charon's Boat"
+    sight: >
+      You stand on Charon's boat at the edge of the River Styx. The boat is actually little more than a raft
+      propelled by polling it along the slow current. From here you could return to the eastern bank, though
+      you get the feeling that few passengers do. Charon is not here now, but there is a collection box with a
+      coin slot in it.
+flag:

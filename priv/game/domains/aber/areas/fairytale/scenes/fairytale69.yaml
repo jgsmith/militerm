@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      down:
+        target: "scene:aber:fairytale:fairytale68"
+      north:
+        target: "scene:aber:fairytale:fairytale70"
+      west:
+        target: "scene:aber:fairytale:fairytale67"
+    short: Cave Entrance
+    sight: >
+      You stand before the dark mouth of a cave, which seems to extend far into the distance. To the west is a
+      cloud of mist, in which you see a rainbow suspended in the air.
+flag:

@@ -1,0 +1,17 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:eastcoast:sharprocks"
+      south:
+        target: "scene:aber:eastcoast:shore"
+      up:
+        target: "scene:aber:eastcoast:coastal"
+    short: End of the Beach
+    sight: >
+      Mist condenses on your face as you gaze upon the frothy waters around you. Not much can be seen of the
+      sea, with all the mist and the tall jagged rocks, some towering fifteen feet in the air. Turning around
+      you see a virtually unclimbable cliff, save for a crack that runs up diagonally along the face. The
+      beach continues to the south.
+flag:
+  - outdoors

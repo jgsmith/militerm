@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      north: null
+    short: A Small Cave
+    sight: >
+      As your eyes begin to adjust, you can make out scattered bits of bone and broken pottery strewn across
+      the floor. To one corner you see the remains of what looks like a campfire. Feeling claustrophobic, you
+      suddenly feel the urge to leave!
+flag:

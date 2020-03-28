@@ -1,0 +1,11 @@
+detail:
+  default:
+    exits:
+      east:
+        target: "scene:aber:balharbor:jungle14"
+    short: Garden of Weeds
+    sight: >
+      This part of the garden seems to have been overrun by weeds. Some of these weeds seem to be alive! You
+      can escape back east.
+flag:
+  - outdoors

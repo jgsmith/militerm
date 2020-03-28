@@ -1,0 +1,10 @@
+detail:
+  default:
+    exits:
+      west:
+        target: "scene:aber:cyrus:24"
+    short: Archway to the Chapel
+    sight: >
+      The walls are collapsing behind you. The only way to escape is to continue onward in the hall. The hall
+      continues to the west.
+flag:

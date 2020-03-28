@@ -1,0 +1,16 @@
+detail:
+  default:
+    exits:
+      south:
+        target: "scene:aber:ghenna:ghenna9935"
+      up:
+        target: "scene:aber:ghenna:ghenna9937"
+    short: Lair entrance.
+    sight: >
+      This is an arched cavern of great size - it looks like the Houston Astrodome. a great ledge of rock juts
+      out above your head, showering you with a steady gush of blood and entrails. A raucous sound of
+      crunching viscera, intermingled with a slurp here and there, turns your stomach. Then you hear it... an
+      encouraging voice which keeps repeating "Yes, yes, thats it... just a few steps more...You're almost
+      there."
+flag:
+  - dark

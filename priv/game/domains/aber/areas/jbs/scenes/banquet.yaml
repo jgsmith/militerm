@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:jbs:lkitchen"
+      south:
+        target: "scene:aber:jbs:lhall2"
+    short: Banquet Hall
+    sight: >
+      You have entered a gargantuan banquet hall, and as you look around you find that the place is a total
+      mess! There are old bits of food lying on the &+ytables, and all over the floor. There are bits of dirty
+      silverware lying haphazardly around as well. From the north you hear the loud banging and crashing of
+      utensils that tells you it must be the kitchen.
+flag:

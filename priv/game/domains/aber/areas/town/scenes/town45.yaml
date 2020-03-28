@@ -1,0 +1,14 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:town:town46"
+      south:
+        target: "scene:aber:town:town44"
+    short: Wide Open Road
+    sight: >
+      You are now travelling down the commerce road which at this point widens greatly. In all directions you
+      see wide open grasslands but they look very dangerous and unsafe so you figures its only safe to travel
+      to the north or to the small town you see just to the south of your current position.
+flag:
+  - outdoors

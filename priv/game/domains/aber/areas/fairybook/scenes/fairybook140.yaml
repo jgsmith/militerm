@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook141"
+      south:
+        target: "scene:aber:fairybook:fairybook138"
+    short: Outside the City
+    sight: >
+      You see a beautiful green glow in the sky before you, coming from the huge wall which surrounds the City
+      to the north. It is high, and thick, and of a bright green color.
+flag:
+  - outdoors

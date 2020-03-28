@@ -1,0 +1,13 @@
+detail:
+  default:
+    exits:
+      north:
+        target: "scene:aber:fairybook:fairybook130"
+      west:
+        target: "scene:aber:fairybook:fairybook128"
+    short: Forest
+    sight: >
+      You find the forest very thick here, and it looks dark and gloomy to the north. To the east is a great
+      ditch, and to the north the yellow brick road enters the forest.
+flag:
+  - outdoors
