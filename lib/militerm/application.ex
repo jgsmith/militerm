@@ -21,6 +21,19 @@ defmodule Militerm.Application do
       Militerm.Services.Script
     ]
 
+    interfaces =
+      [
+        MilitermTelnet.Endpoint
+      ]
+      |> Enum.filter(& &1.start_server?())
+
+    caches = [
+      {Militerm.Cache.LocalComponent, []},
+      {Militerm.Cache.LocalSession, []},
+      {Militerm.Cache.Component, []},
+      {Militerm.Cache.Session, []}
+    ]
+
     components = Map.values(Militerm.Config.components())
 
     endpoints = if standalone, do: [MilitermWeb.Endpoint], else: []
@@ -35,16 +48,19 @@ defmodule Militerm.Application do
        ]}
     ]
 
-    children = repos ++ services ++ components ++ endpoints ++ cluster
+    children = cluster ++ repos ++ caches ++ services ++ components ++ endpoints ++ interfaces
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: Militerm.Supervisor]
     result = Supervisor.start_link(children, opts)
 
+    Swarm.register_name(Gossip, Militerm.Gossip.Process, :start_link, [])
+
     # TODO: make this easier to manage
     Task.async(&Militerm.Systems.Logger.initialize/0)
     Task.async(&Militerm.Systems.Entity.initialize/0)
+    Task.async(&Militerm.Systems.Gossip.initialize/0)
     Task.async(&Militerm.Systems.MML.initialize/0)
     Task.async(&Militerm.Systems.Location.initialize/0)
     Task.async(&MilitermWeb.Tags.Colors.initialize/0)

@@ -419,6 +419,72 @@ defmodule Militerm.Systems.Entity.Controller do
     {:stop, :shutdown, state}
   end
 
+  def handle_info(
+        {:gossip_player_sign_in, game, player},
+        %{module: module, entity_id: entity_id} = state
+      ) do
+    apply(module, :handle_event, [
+      entity_id,
+      "gossip:player:sign_in",
+      "player",
+      %{"game" => game, "player" => player}
+    ])
+
+    {:noreply, state}
+  end
+
+  def handle_info(
+        {:gossip_player_sign_out, game, player},
+        %{module: module, entity_id: entity_id} = state
+      ) do
+    apply(module, :handle_event, [
+      entity_id,
+      "gossip:player:sign_out",
+      "player",
+      %{"game" => game, "player" => player}
+    ])
+
+    {:noreply, state}
+  end
+
+  def handle_info(
+        {:gossip_player_sign_in, player},
+        %{module: module, entity_id: entity_id} = state
+      ) do
+    apply(module, :handle_event, [
+      entity_id,
+      "local:player:sign_in",
+      "player",
+      %{"player" => player}
+    ])
+
+    {:noreply, state}
+  end
+
+  def handle_info(
+        {:gossip_player_sign_out, player},
+        %{module: module, entity_id: entity_id} = state
+      ) do
+    apply(module, :handle_event, [
+      entity_id,
+      "local:player:sign_out",
+      "player",
+      %{"player" => player}
+    ])
+
+    {:noreply, state}
+  end
+
+  def handle_info({:gossip_game_up, game}, %{module: module, entity_id: entity_id} = state) do
+    apply(module, :handle_event, [entity_id, "gossip:game:up", "player", %{"game" => game}])
+    {:noreply, state}
+  end
+
+  def handle_info({:gossip_game_down, game}, %{module: module, entity_id: entity_id} = state) do
+    apply(module, :handle_event, [entity_id, "gossip:game:down", "player", %{"game" => game}])
+    {:noreply, state}
+  end
+
   @impl true
   def handle_cast({:swarm, :end_handoff, state}, _state) do
     {:noreply, state}
@@ -446,6 +512,21 @@ defmodule Militerm.Systems.Entity.Controller do
     new_context = apply(module, :process_input, [entity_id, input, context])
 
     {:noreply, %{state | context: new_context}}
+  end
+
+  @impl true
+  def handle_call(
+        {:process_input, input},
+        _from,
+        %{context: context, module: module, entity_id: entity_id} = state
+      ) do
+    new_context = apply(module, :process_input, [entity_id, input, context])
+
+    {:reply, :ok, %{state | context: new_context}}
+  end
+
+  def handle_call(:get_entity_id, _from, %{entity_id: entity_id} = state) do
+    {:reply, entity_id, state}
   end
 
   @impl true

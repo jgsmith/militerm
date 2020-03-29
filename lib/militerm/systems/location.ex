@@ -260,6 +260,9 @@ defmodule Militerm.Systems.Location do
 
       [single_target] ->
         move_to(class, this, target, "default", this)
+
+      nil ->
+        nil
     end
   end
 
@@ -359,7 +362,7 @@ defmodule Militerm.Systems.Location do
   end
 
   def find_exits(nil), do: []
-  
+
   def find_exits(this) do
     # find exits appropriate for the given entity
     # details:$detail:exits:$exit
@@ -403,7 +406,7 @@ defmodule Militerm.Systems.Location do
   def place(entity_id, {prep, {:thing, target_id, coord}} = target) do
     Militerm.Services.Location.place(entity_id, target)
   end
-  
+
   defp map_keys(nil), do: []
   defp map_keys(map), do: Map.keys(map)
 

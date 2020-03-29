@@ -21,10 +21,14 @@ spec:
           env:
             - name: MILITERM_HOST
               value: example.org
-            - name: MILITERM_INTERNAL_PORT
+            - name: MILITERM_INTERNAL_HTTP_PORT
               value: "4000"
-            - name: MILITERM_EXTERNAL_PORT
+            - name: MILITERM_EXTERNAL_HTTP_PORT
               value: "80"
+            - name: MILITERM_INTERNAL_TELNET_PORT
+              value: "6666"
+            - name: MILITERM_EXTERNAL_TELNET_PORT
+              value: "6666"
             - name: MILITERM_SECRET_KEY_BASE
               valueFrom:
                 secretKeyRef:
@@ -72,9 +76,11 @@ spec:
                 secretKeyRef:
                   name: env
                   key: RELEASE_COOKIE
-            
+
           ports:
             - containerPort: 4000
               name: web
             - containerPort: 4369
               name: epmd
+            - containerPort: 6666
+              name: telnet

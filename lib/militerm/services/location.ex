@@ -13,14 +13,12 @@ defmodule Militerm.Services.Location do
       t: t,
       relationship: prep
     }
-    
+
     # ensure the target location exists
-    if Militerm.Systems.Entity.whereis({:thing, target_id}) do
-      Militerm.Components.Location.update(entity_id, fn
-        nil -> new_data
-        old_data -> Map.merge(old_data, new_data)
-      end)
-    end
+    Militerm.Components.Location.update(entity_id, fn
+      nil -> new_data
+      old_data -> Map.merge(old_data, new_data)
+    end)
   end
 
   def place({:thing, entity_id}, {prep, {:thing, target_id, detail}}) when is_binary(detail) do
@@ -30,12 +28,10 @@ defmodule Militerm.Services.Location do
       detail: detail
     }
 
-    if Militerm.Systems.Entity.whereis({:thing, target_id}) do
-      Militerm.Components.Location.update(entity_id, fn
-        nil -> new_data
-        old_data -> Map.merge(old_data, new_data)
-      end)
-    end
+    Militerm.Components.Location.update(entity_id, fn
+      nil -> new_data
+      old_data -> Map.merge(old_data, new_data)
+    end)
   end
 
   def place({:thing, entity_id}, {prep, {:thing, target_id, {x, y, z}}}) do
@@ -45,12 +41,10 @@ defmodule Militerm.Services.Location do
       point: [x, y, z]
     }
 
-    if Militerm.Systems.Entity.whereis({:thing, target_id}) do
-      Militerm.Components.Location.update(entity_id, fn
-        nil -> new_data
-        old_data -> Map.merge(old_data, new_data)
-      end)
-    end
+    Militerm.Components.Location.update(entity_id, fn
+      nil -> new_data
+      old_data -> Map.merge(old_data, new_data)
+    end)
   end
 
   @doc """

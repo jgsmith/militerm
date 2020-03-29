@@ -43,7 +43,7 @@ defmodule Militerm.Gossip do
       "Gossip - new player sign in #{player_name}@#{game_name}"
     end)
 
-    :ok
+    Militerm.Systems.Gossip.player_sign_in(game_name, player_name)
   end
 
   @impl true
@@ -52,7 +52,7 @@ defmodule Militerm.Gossip do
       "Gossip - new player sign out #{player_name}@#{game_name}"
     end)
 
-    :ok
+    Militerm.Systems.Gossip.player_sign_out(game_name, player_name)
   end
 
   @impl true
@@ -68,7 +68,8 @@ defmodule Militerm.Gossip do
       "Gossip - received tell from #{from_player}@#{from_game} for #{to_player}"
     end)
 
-    # find the entity id for the character and trigger an async event
+    Militerm.Systems.Gossip.tell_receive(from_game, from_player, to_player, message)
+
     :ok
   end
 
@@ -76,8 +77,20 @@ defmodule Militerm.Gossip do
   def game_update(_game), do: :ok
 
   @impl true
-  def game_connect(_game), do: :ok
+  def game_connect(game) do
+    Logger.info(fn ->
+      "Gossip - #{game} up"
+    end)
+
+    Militerm.Systems.Gossip.game_connect(game)
+  end
 
   @impl true
-  def game_disconnect(_game), do: :ok
+  def game_disconnect(game) do
+    Logger.info(fn ->
+      "Gossip - #{game} down"
+    end)
+
+    Militerm.Systems.Gossip.game_disconnect(game)
+  end
 end

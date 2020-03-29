@@ -37,6 +37,8 @@ defmodule MilitermWeb.Router do
     resources "/game", CharacterController, only: [:index, :show, :new, :create]
     get "/game/:character/play", CharacterController, :play
 
+    get "/game/auth/:session_id", SessionController, :auth_session
+
     post "/auth/logout", AuthController, :delete
   end
 

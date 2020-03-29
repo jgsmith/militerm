@@ -10,36 +10,50 @@ defmodule Militerm.Services.Characters do
   players log in to the new node.
   """
 
-  def enter_game(entity_id, opts \\ []) do
+  alias Militerm.Accounts
+
+  def enter_game({:thing, entity_id} = entity, opts \\ []) do
     receiver = Keyword.fetch!(opts, :receiver)
 
-    Militerm.Systems.Entity.unhibernate(entity_id)
-    Militerm.Systems.Entity.register_interface(entity_id, receiver)
+    %{cap_name: cap_name} = Accounts.get_character(entity_id: entity_id)
+
+    Militerm.Systems.Entity.unhibernate(entity)
+    Militerm.Systems.Entity.register_interface(entity, receiver)
     # TODO: increment player count in-game
 
-    Militerm.Systems.Entity.event(entity_id, "enter:game", "actor", %{
-      "this" => entity_id,
-      "actor" => [entity_id]
+    Militerm.Systems.Entity.event(entity, "enter:game", "actor", %{
+      "this" => entity,
+      "actor" => [entity]
     })
+
+    {:ok, entity_pid} = Militerm.Systems.Entity.whereis(entity)
+
+    Swarm.join(:players, entity_pid)
+    Militerm.Systems.Gossip.player_sign_in(cap_name)
   end
 
-  def leave_game(entity_id) do
+  def leave_game({:thing, entity_id} = entity) do
     # TODO: decrement player count in-game
-    Militerm.Systems.Entity.event(entity_id, "leave:game", "actor", %{
-      "this" => entity_id,
-      "actor" => [entity_id]
+
+    {:ok, entity_pid} = Militerm.Systems.Entity.whereis(entity)
+    %{cap_name: cap_name} = Accounts.get_character(entity_id: entity_id)
+
+    Militerm.Systems.Gossip.player_sign_out(cap_name)
+    Swarm.leave(:players, entity_pid)
+
+    Militerm.Systems.Entity.event(entity, "leave:game", "actor", %{
+      "this" => entity,
+      "actor" => [entity]
     })
 
-    Militerm.Systems.Entity.unregister_interface(entity_id)
-    Militerm.Systems.Entity.hibernate(entity_id)
+    Militerm.Systems.Entity.unregister_interface(entity)
+    Militerm.Systems.Entity.hibernate(entity)
   end
 
   def list_characters() do
-    Swarm.registered()
-    |> Enum.filter(fn
-      {{:character, _}, _} -> true
-      _ -> false
-    end)
-    |> Enum.map(fn {{:character, name}, _} -> name end)
+    :players
+    |> Swarm.members()
+    |> Enum.filter(fn pid -> pid != self() end)
+    |> Enum.map(&Militerm.Systems.Entity.whatis/1)
   end
 end

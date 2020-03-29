@@ -131,7 +131,6 @@ defmodule Militerm.Parsers.Script do
       "foo:bar"
       iex> info[:mixins]
       ["positional", "movable", "gendered", "reading", "smelling", "viewing"]
-      iex> IO.inspect(info)
       iex> info[:calculations]
       [
         {"bar", {

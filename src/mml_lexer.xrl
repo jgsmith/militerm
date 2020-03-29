@@ -1,5 +1,7 @@
 Definitions.
 
+CodeOpen = {{
+CodeClose = }}
 TagOpen = {
 EscapedTagOpen = \\{
 ClosingTagOpen = {/
@@ -22,13 +24,16 @@ Word = [^{}<>\n=\s'":\\-]+
 Colon = :
 Dash = -
 Space = \s+
-Quote = ['"]
+% Quote = ['"]
+SQuote = '
+DQuote = "
 NewLine = (\n|\n\r|\r)
 Equal = =
 Rules.
 {Word} : {token, {word, TokenLine, TokenChars}}.
 {VerbLiteral} : {token, {verb_literal, TokenLine, TokenChars}}.
-{Quote} : {token, {quote, TokenLine, TokenChars}}.
+{SQuote} : {token, {squote, TokenLine, TokenChars}}.
+{DQuote} : {token, {dquote, TokenLine, TokenChars}}.
 {Space} : {token, {space, TokenLine, TokenChars}}.
 {Colon} : {token, {colon, TokenLine, TokenChars}}.
 {Dash} : {token, {dash, TokenLine, TokenChars}}.
@@ -47,6 +52,8 @@ Rules.
 {EscapedTagClose} : {token, {'\\}', TokenLine, TokenChars}}.
 {VariableOpen} : {token, {'<', TokenLine, TokenChars}}.
 {VariableClose} : {token, {'>', TokenLine, TokenChars}}.
+{CodeOpen} : {token, {'{{', TokenLine, TokenChars}}.
+{CodeClose} : {token, {'}}', TokenLine, TokenChars}}.
 {ScriptInclusion} : {token, {script, TokenLine, TokenChars}}.
 % {VerbOpen} : {token, {'[', TokenLine, TokenChars}}.
 % {VerbClose} : {token, {']', TokenLine, TokenChars}}.

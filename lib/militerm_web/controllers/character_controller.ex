@@ -18,7 +18,7 @@ defmodule MilitermWeb.CharacterController do
   end
 
   def play(conn, %{"character" => character}) do
-    render(conn, "play.html", character: character)
+    render(conn, "play.html", character: character, current_user: current_user(conn))
   end
 
   def new(conn, _params) do

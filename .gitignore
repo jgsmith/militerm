@@ -5,6 +5,7 @@
 /doc
 /.env
 /.fetch
+/dw
 erl_crash.dump
 *.ez
 *.beam

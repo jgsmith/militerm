@@ -4,41 +4,7 @@ defmodule Game.CommandsTest do
   alias Militerm.Test.{Entity, Scene}
 
   setup do
-    Scene.new("scene:test:area:start", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a short place",
-          "sight" => "A short place with not much stature.",
-          "exits" => %{
-            "north" => %{
-              "target" => "scene:test:area:north"
-            }
-          }
-        },
-        "floor" => %{
-          "short" => "the floor",
-          "sight" => "Broad planks of wood form a solid floor.",
-          "related_to" => "default",
-          "related_by" => "in",
-          "nouns" => ["floor"],
-          "adjectives" => []
-        }
-      }
-    })
-
-    Scene.new("scene:test:area:north", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a tall place",
-          "sight" => "A tall place with much stature.",
-          "exits" => %{
-            "south" => %{
-              "target" => "scene:test:area:start"
-            }
-          }
-        }
-      }
-    })
+    Militerm.Systems.Entity.whereis({:thing, "scene:test:area:start"})
 
     entity =
       Entity.new("std:character", %{
@@ -63,6 +29,9 @@ defmodule Game.CommandsTest do
   end
 
   describe "setup" do
+    test "Scene is loaded and running" do
+      assert not is_nil(Militerm.Systems.Entity.whereis({:thing, "scene:test:area:start"}))
+    end
   end
 
   describe "look at the floor" do

@@ -15,10 +15,10 @@ defmodule Militerm.Systems.Events do
 
     args = Map.put(args, :trigger, entity_id)
     observed = {:thing, entity_id}
-    Militerm.Systems.Entity.async_event(observed, event, "observed", args)
+    Militerm.Systems.Entity.event(observed, event, "observed", args)
 
     for observer <- observers -- [observed] do
-      Militerm.Systems.Entity.async_event(observer, event, "observer", args)
+      Militerm.Systems.Entity.event(observer, event, "observer", args)
     end
 
     :ok

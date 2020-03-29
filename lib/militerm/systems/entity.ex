@@ -85,6 +85,17 @@ defmodule Militerm.Systems.Entity do
   def process_input(entity_id, command) do
     case whereis(entity_id) do
       {:ok, pid} ->
+        GenServer.call(pid, {:process_input, command})
+        :ok
+
+      _ ->
+        :noent
+    end
+  end
+
+  def process_input_async(entity_id, command) do
+    case whereis(entity_id) do
+      {:ok, pid} ->
         GenServer.cast(pid, {:process_input, command})
         :ok
 
@@ -156,6 +167,10 @@ defmodule Militerm.Systems.Entity do
 
   def whereis(_), do: nil
 
+  def whatis(pid) when is_pid(pid) do
+    GenServer.call(pid, :get_entity_id)
+  end
+
   def try_loading_from_files(<<"scene:", rest::binary>> = entity_id) do
     [domain, area | path] = String.split(rest, ":", trim: true)
 
@@ -183,7 +198,7 @@ defmodule Militerm.Systems.Entity do
                 Militerm.Entities.Scene.create(entity_id, "std:scene", data)
 
               {:error, message} ->
-                Logger.warn("Unable to read #{filename_base}#{extension}: #{message}")
+                Logger.warn("Unable to read #{filename_base}#{extension}: #{inspect(message)}")
                 nil
             end
 

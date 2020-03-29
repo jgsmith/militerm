@@ -4,37 +4,8 @@ defmodule Game.DescribeTest do
   alias Militerm.Test.{Entity, Scene}
 
   setup do
-    Scene.new("scene:test:area:start", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a short place",
-          "sight" => "A short place with not much stature.",
-          "exits" => %{
-            "north" => %{
-              "target" => "scene:test:area:north"
-            }
-          }
-        },
-        "floor" => %{
-          "short" => "the floor",
-          "sight" => "Broad planks of wood form a solid floor."
-        }
-      }
-    })
-
-    Scene.new("scene:test:area:north", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a tall place",
-          "sight" => "A tall place with much stature.",
-          "exits" => %{
-            "south" => %{
-              "target" => "scene:test:area:start"
-            }
-          }
-        }
-      }
-    })
+    Militerm.Systems.Entity.whereis({:thing, "scene:test:area:start"})
+    Militerm.Systems.Entity.whereis({:thing, "scene:test:area:north"})
 
     entity =
       Entity.new("std:character", %{
