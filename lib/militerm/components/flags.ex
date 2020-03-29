@@ -15,7 +15,7 @@ defmodule Militerm.Components.Flags do
   def read_data(_), do: MapSet.new()
 
   def set(entity_id, nil), do: :ok
-  
+
   def set(entity_id, flags) when is_list(flags) do
     for flag <- flags do
       set_value(entity_id, String.split(flag, ":"), true)

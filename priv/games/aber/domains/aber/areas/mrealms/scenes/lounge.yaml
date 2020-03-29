@@ -1,8 +1,8 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:mrealms:mrealms"
+      # :
+      #   target: "scene:aber:mrealms:mrealms"
     short: The Mortal Lounge
     sight: >
       You step into the lounge and begin to feel relaxed right away. A large plush couch sits right in the

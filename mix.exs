@@ -37,10 +37,11 @@ defmodule Militerm.MixProject do
       {:ecto_sql, "~> 3.0"},
       {:floki, ">= 0.0.0", only: :test},
       {:gettext, "~> 0.11"},
-      {:gossip, "~> 1.0"},
+      {:gossip, "~> 1.0", runtime: false},
       {:guardian, "~> 2.0"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.1.1"},
+      {:nebulex, "~> 1.1.1"},
       {:oauth2, "~> 0.9"},
       {:phoenix, "~> 1.4.0"},
       {:phoenix_ecto, "~> 4.0"},
@@ -50,9 +51,13 @@ defmodule Militerm.MixProject do
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
+      {:secure_random, "~> 0.5"},
       {:swarm, "~> 3.0"},
       {:yaml_elixir, "~> 2.0"},
       {:ueberauth, "~> 0.4"},
+      #      {:prometheus_process_collector, "~> 1.4.3"},
+      #      {:prometheus_ecto, "~> 1.4.1"},
+      #      {:prometheus_ex, "~> 3.0"},
       {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end

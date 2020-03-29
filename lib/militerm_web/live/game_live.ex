@@ -7,14 +7,14 @@ defmodule MilitermWeb.GameLive do
     ~L"""
     <div class="text-monospace h-100">
       <div class="row h-100">
-        <div class="col-2 h-100">
+        <div class="col-3 h-100">
           <div class="">
             <h2>Map</h2>
             <%= @location.prep %> <%= @location.target %> @ <%= @location.coord %>
           </div>
           <div class=""><h2><%= @character.name %></h2></div>
         </div>
-        <div class="col-8 h-100">
+        <div class="col-9 h-100">
           <div class="narrative-panel">
             <div id="narration" class="container" phx-update="append"  phx-hook="ScrollToEnd">
               <%= for {message, idx} <- Enum.with_index(Enum.reverse(@messages)) do %>
@@ -29,9 +29,9 @@ defmodule MilitermWeb.GameLive do
             </form>
           </div>
         </div>
-        <div class="col-2 h-100">
+        <!-- div class="col-2 h-100">
           <div class=""><h2>Comms</h2></div>
-        </div>
+        </div -->
       </div>
     </div>
     """
@@ -76,7 +76,7 @@ defmodule MilitermWeb.GameLive do
 
   def handle_event("command", %{"command" => command}, socket) do
     # send command through parser / event system
-    Militerm.Systems.Entity.process_input({:thing, socket.assigns.entity_id}, command)
+    Militerm.Systems.Entity.process_input_async({:thing, socket.assigns.entity_id}, command)
 
     {:noreply,
      assign(socket,

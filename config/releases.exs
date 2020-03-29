@@ -6,16 +6,16 @@
 
 # General application configuration
 import Config
-# 
+#
 # config :militerm,
 #   ecto_repos: [Militerm.Repo]
 
 # Configures the endpoint
 config :militerm, MilitermWeb.Endpoint,
-  http: [port: System.fetch_env!("MILITERM_INTERNAL_PORT")],
+  http: [port: System.fetch_env!("MILITERM_INTERNAL_HTTP_PORT")],
   url: [
     host: System.fetch_env!("MILITERM_HOST"),
-    port: System.fetch_env!("MILITERM_EXTERNAL_PORT")
+    port: System.fetch_env!("MILITERM_EXTERNAL_HTTP_PORT")
   ],
   live_view: [
     signing_salt: System.fetch_env!("MILITERM_SECRET_KEY_BASE")
@@ -23,6 +23,10 @@ config :militerm, MilitermWeb.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: System.fetch_env!("MILITERM_SECRET_KEY_BASE"),
   pubsub: [name: Militerm.PubSub, adapter: Phoenix.PubSub.PG2],
+  server: true
+
+config :militerm, MilitermTelnet.Endpoint,
+  tcp: [port: System.fetch_env!("MILITERM_INTERNAL_TELNET_PORT")],
   server: true
 
 config :militerm, MilitermWeb.UserAuth.Guardian,

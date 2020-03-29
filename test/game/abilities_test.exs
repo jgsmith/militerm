@@ -4,38 +4,6 @@ defmodule Game.AbilitiesTest do
   alias Militerm.Test.{Entity, Scene}
 
   setup do
-    Scene.new("scene:test:area:start", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a short place",
-          "sight" => "A short place with not much stature.",
-          "exits" => %{
-            "north" => %{
-              "target" => "scene:test:area:north"
-            }
-          }
-        },
-        "floor" => %{
-          "short" => "the floor",
-          "sight" => "Broad planks of wood form a solid floor."
-        }
-      }
-    })
-
-    Scene.new("scene:test:area:north", "std:scene", %{
-      detail: %{
-        "default" => %{
-          "short" => "a tall place",
-          "sight" => "A tall place with much stature.",
-          "exits" => %{
-            "south" => %{
-              "target" => "scene:test:area:start"
-            }
-          }
-        }
-      }
-    })
-
     entity =
       Entity.new("std:character", %{
         detail: %{
@@ -71,10 +39,6 @@ defmodule Game.AbilitiesTest do
 
     test "is true for the character", %{entity: entity} do
       assert true == Militerm.Systems.Entity.is?(entity, "living")
-    end
-
-    test "is false for a scene" do
-      assert false == Militerm.Systems.Entity.is?({:thing, "scene:test:area:start"}, "living")
     end
   end
 

@@ -1,0 +1,15 @@
+---
+detail:
+  default:
+    short: a short place
+    sight: A short place with not much stature.
+    exits:
+      north:
+        target: scene:test:area:north
+  floor:
+    short: the floor
+    sight: "Broad planks of wood form a solid floor."
+    related_to: default
+    related_by: in
+    nouns: ["floor"]
+    adjectives: []

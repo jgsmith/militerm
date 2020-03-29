@@ -26,12 +26,13 @@ WORKDIR '/app'
 
 COPY --from=builder /app/_build /app/_build
 COPY --from=builder /app/priv /app/priv
-COPY --from=builder /app/priv/game /app/game
+COPY --from=builder /app/priv/games/aber /app/game
 
 ENV REPLACE_OS_VARS=true
 ENV MILITERM_GAME_DIR=/app/game
 
 EXPOSE 4000
 EXPOSE 4369
+EXPOSE 6666
 
 CMD ["/app/_build/prod/rel/militerm/bin/militerm", "start"]

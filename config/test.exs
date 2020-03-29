@@ -6,7 +6,11 @@ config :militerm, MilitermWeb.Endpoint,
   http: [port: 4002],
   server: false
 
-config :militerm, :game, dir: "priv/test-game"
+config :militerm, MilitermTelnet.Endpoint,
+  tcp: [port: 16666],
+  server: false
+
+config :militerm, :game, dir: "priv/games/test"
 
 config :militerm,
   post_events_async: false

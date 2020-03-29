@@ -10,7 +10,7 @@ defmodule Militerm.Accounts do
 
   alias Militerm.Accounts.User
 
-  @start_location {"in", {:thing, "scene:start:start:start", "default"}}
+  @start_location {"in", {:thing, "scene:aber:village:seadog", "default"}}
 
   @doc """
   Returns the list of users.
@@ -195,6 +195,12 @@ defmodule Militerm.Accounts do
     opts
     |> add_constraint(Character)
     |> Config.repo().one!()
+  end
+
+  def get_character(opts) do
+    opts
+    |> add_constraint(Character)
+    |> Config.repo().one()
   end
 
   @doc """

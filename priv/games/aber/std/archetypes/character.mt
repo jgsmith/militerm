@@ -28,14 +28,44 @@ reacts to msg:sound with
 ##
 # channel:* supports chat channels
 #
-reacts to channel:receive with do
+reacts to channel:receive as player with do
   Emit( "{channel name='{{name}}'}{{ message }}{/channel}")
+end
+
+##
+# gossip:* supports gossip info messages
+#
+reacts to gossip:player:sign_in as player with do
+  Emit( "{info}{{ player }}@{{ game }} signed in{/info}")
+end
+
+reacts to gossip:player:sign_out as player with do
+  Emit( "{info}{{ player }}@{{ game }} signed out{/info}")
+end
+
+reacts to gossip:game:up as player with do
+  Emit( "{info}{{ game }} came up{/info}")
+end
+
+reacts to gossip:game:down as player with do
+  Emit( "{info}{{ game }} went down{/info}")
+end
+
+##
+# local:* supports gossip-like info messages for local players
+#
+reacts to local:player:sign_in as player with do
+  Emit( "{info}{{ player }} signed in{/info}")
+end
+
+reacts to local:player:sign_out as player with do
+  Emit( "{info}{{ player }} signed out{/info}")
 end
 
 ##
 # tell:remote supports player-to-player chat across games via gossip
 #
-reacts to tell:remote with do
+reacts to tell:remote as player with do
   Emit( "{remote-tell from='{{from}}'}{{ message }}{/remote-tell}")
 end
 

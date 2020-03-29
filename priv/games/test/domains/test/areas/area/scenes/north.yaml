@@ -1,0 +1,8 @@
+---
+detail:
+  default:
+    short: a tall place
+    sight: A tall place with much stature.
+    exits:
+      south:
+        target: scene:test:area:start

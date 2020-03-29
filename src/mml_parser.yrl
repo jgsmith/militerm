@@ -17,12 +17,15 @@ Terminals
 word
 % verb_literal
 space
-quote
+squote
+dquote
 colon
 dash
 script
 new_line
 '{'
+'{{'
+'}}'
 '{/'
 '/}'
 '}'
@@ -45,14 +48,15 @@ Rootsymbol text.
 text -> markup text : ['$1' | '$2'].
 text -> markup : ['$1'].
 
-% markup -> resource : '$1'.
+markup -> resource : '$1'.
 markup -> tag : '$1'.
 markup -> slot : '$1'.
 % markup -> verb : '$1'.
 
 markup -> word : string('$1').
 markup -> space : string('$1').
-markup -> quote : string('$1').
+markup -> squote : string('$1').
+markup -> dquote : string('$1').
 markup -> colon : string('$1').
 markup -> new_line : string('$1').
 markup -> dash : string('$1').
@@ -80,17 +84,20 @@ tag_name -> word : [string('$1')].
 attributes -> attribute space attributes : ['$1' | '$3'].
 attributes -> attribute : ['$1'].
 
-attribute -> word '=' quote attribute_value quote : attribute('$1', '$4').
+attribute -> word '=' squote attribute_value squote : attribute('$1', '$4').
+attribute -> word '=' dquote attribute_value dquote : attribute('$1', '$4').
 
 attribute_value -> word attribute_value : [string('$1') | '$2'].
 attribute_value -> space attribute_value : [string('$1') | '$2'].
 attribute_value -> slot attribute_value : ['$1' | '$2'].
+attribute_value -> resource attribute_value : ['$1' | '$2'].
 attribute_value -> word : [string('$1')].
 attribute_value -> space : [string('$1')].
 attribute_value -> slot : ['$1'].
+attribute_value -> resource : ['$1'].
 
-% resource -> '{' '{' word '}' '}' : {value, val('$3')}.
-% resource -> '{' '{' word colon word '}' '}' : {resource, val('$3'), val('$5')}.
+resource -> '{{' word '}}' : {value, val('$3')}.
+resource -> '{{' word colon word '}}' : {resource, val('$3'), val('$5')}.
 
 slot -> '<' slot_spec '>' : {slot, '$2'}.
 % verb -> '<' verb_literal colon slot_spec '>' : {verb, '$2'}.

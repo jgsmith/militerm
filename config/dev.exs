@@ -24,7 +24,11 @@ config :militerm, MilitermWeb.Endpoint,
     ]
   ]
 
-config :militerm, :game, dir: "priv/game"
+config :militerm, :game, dir: "priv/games/aber"
+
+config :militerm, MilitermTelnet.Endpoint,
+  tcp: [port: 6666],
+  server: true
 
 # ## SSL Support
 #
