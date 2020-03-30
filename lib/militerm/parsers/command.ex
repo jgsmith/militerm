@@ -5,9 +5,12 @@ defmodule Militerm.Parsers.Command do
   other values are in the slots.
   """
 
-  alias Militerm.Binder
   alias Militerm.Services
   alias Militerm.Config
+
+  alias Militerm.Systems.Commands.Binder
+
+  @obj_slots ~w[actor direct indirect instrument]
 
   defmodule PatternMatch do
     defstruct command_pos: 0,
@@ -21,11 +24,11 @@ defmodule Militerm.Parsers.Command do
               matches: [0],
               command: [],
               pattern: [],
-              actor: nil
+              context: %{}
   end
 
-  def parse(command, actor) do
-    %{command: String.split(command, ~r{\s+}), actor: actor}
+  def parse(command, context) do
+    %{command: String.split(command, ~r{\s+}), context: context}
     |> take_adverbs()
     |> fetch_syntaxes()
     |> match_syntax()
@@ -58,16 +61,18 @@ defmodule Militerm.Parsers.Command do
 
   ## Examples
 
-    iex> syntax = VerbSyntax.parse("at <direct:object'thing>")
-    ...> Command.match_syntax(%{actor: :actor, command: ["look", "at", "the", "lamp"], syntaxes: [syntax], adverbs: []})
-    %{command: ["look", "at", "the", "lamp"], adverbs: [], direct: [{:object, :singular, [:me, :near], ["the", "lamp"]}], syntax: VerbSyntax.parse("at <direct:object'thing>")}
-
-    iex> syntax = VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")
-    ...> Command.match_syntax(%{
-    ...>   actor: :actor,
-    ...>   command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"],
-    ...>   syntaxes: [syntax], adverbs: []
-    ...> })
+    These need to be rewritten.
+    
+    # iex> syntax = VerbSyntax.parse("at <direct:object'thing>")
+    # ...> Command.match_syntax(%{context: %{actor: {:thing, "actor"}}, command: ["look", "at", "the", "lamp"], syntaxes: [syntax], adverbs: []})
+    # %{command: ["look", "at", "the", "lamp"], adverbs: [], direct: [{:object, :singular, [:me, :near], ["the", "lamp"]}], syntax: VerbSyntax.parse("at <direct:object'thing>")}
+    #
+    # iex> syntax = VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")
+    # ...> Command.match_syntax(%{
+    # ...>   context: %{actor: {:thing, "actor"}},
+    # ...>   command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"],
+    # ...>   syntaxes: [syntax], adverbs: []
+    # ...> })
     %{
       adverbs: [],
       command: ["look", "at", "the", "lit", "lamp", "through", "the",
@@ -92,26 +97,103 @@ defmodule Militerm.Parsers.Command do
   """
   # %{command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"], adverbs: [], direct: [{:object, :singular, [:me, :near], ["the", "lit", "lamp"]}], instrument: [{:object, :singular, [:me, :near], ["the", "big", "telescope"]}], syntax: VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")}
   def match_syntax(
-        %{actor: actor, command: [verb | bits] = command, syntaxes: syntaxes, adverbs: adverbs} =
-          state
+        %{
+          context: context,
+          command: command,
+          syntaxes: syntaxes,
+          adverbs: adverbs
+        } = state
       ) do
-    case first_syntax_match(bits, syntaxes) do
+    case first_syntax_match(command, context, syntaxes) do
       nil ->
         nil
 
       match ->
         match
-        |> Map.put(:command, command)
         |> Map.put(:adverbs, adverbs)
     end
   end
 
-  def first_syntax_match(_, []), do: nil
+  # {["look", "at", "the", "floor"],
+  #  %{actor: {:thing, "std:character#a90eedc5-8cf8-4abd-be27-9c7270b6e4bc"}},
+  #  [
+  #    %{
+  #      actions: ["scan:item:brief", "finish:verb"],
+  #      pattern: ["at", {:direct, :object, :singular, [:me, :near]}],
+  #      short: "at <thing>",
+  #      weight: 17
+  #    },
+  #    %{actions: ["scan:env:brief", "finish:verb"], pattern: [], short: "", weight: 0}
+  #  ]}
 
-  def first_syntax_match(bits, [syntax | rest]) do
+  def first_syntax_match(_, _, []), do: nil
+
+  def first_syntax_match([_ | bits] = command, context, [syntax | rest]) do
     case try_syntax_match(bits, syntax) do
-      nil -> first_syntax_match(bits, rest)
-      match -> Map.put(match, :syntax, syntax)
+      nil ->
+        first_syntax_match(command, context, rest)
+
+      match ->
+        data =
+          match
+          |> Map.put(:syntax, syntax)
+          |> Map.put(:command, command)
+
+        case try_binding(context, data) do
+          nil -> first_syntax_match(command, context, rest)
+          binding -> binding
+        end
+    end
+  end
+
+  # def first_syntax_match(x, y, z) do
+  #   IO.inspect({x, y, z})
+  # end
+
+  def try_binding(context, match) do
+    case Binder.bind(context, match) do
+      %{slots: slots, syntax: %{actions: events}} ->
+        slots =
+          @obj_slots
+          |> Enum.reduce(slots, fn slot, slots ->
+            case Map.get(slots, slot) do
+              nil ->
+                slots
+
+              [] ->
+                slots
+
+              v ->
+                Map.put(
+                  slots,
+                  slot,
+                  v
+                  |> accepts_events(to_string(slot), events, slots)
+                  |> maybe_scalar
+                )
+            end
+          end)
+          |> Enum.map(fn {k, v} -> {to_string(k), v} end)
+          |> Enum.into(%{})
+
+        all_slots_filled =
+          map_size(slots) == 0 or
+            Enum.all?(slots, fn
+              {_, []} -> false
+              {_, nil} -> false
+              _ -> true
+            end)
+
+        if all_slots_filled do
+          match
+          |> Map.put(:slots, slots)
+          |> Map.put(:events, events)
+        else
+          nil
+        end
+
+      _ ->
+        nil
     end
   end
 
@@ -586,4 +668,17 @@ defmodule Militerm.Parsers.Command do
     do: ~w[east west north south up down northeast southwest northwest southeast]
 
   def word_list(_), do: []
+
+  def maybe_scalar([v]), do: v
+  def maybe_scalar(v), do: v
+
+  def accepts_events(list, slot, [event | _], slots) when is_list(list) do
+    Enum.filter(list, fn entity_id ->
+      Militerm.Systems.Entity.can?(entity_id, event, slot, slots)
+    end)
+  end
+
+  def accepts_events(entity_id, slot, [event | _], slots) do
+    if Militerm.Systems.Entity.can?(entity_id, event, slot, slots), do: entity_id, else: []
+  end
 end
