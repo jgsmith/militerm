@@ -3,8 +3,12 @@ detail:
     exits:
       east:
         target: "scene:aber:brookmere:brookmere44"
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere46"
+      south:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere47"
       west:
         target: "scene:aber:brookmere:brookmere48"
     short: Small Room

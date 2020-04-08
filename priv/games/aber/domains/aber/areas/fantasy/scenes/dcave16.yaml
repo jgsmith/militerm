@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:fantasy:dcave15"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fantasy:dcave17"
     short: Lower Passage
     sight: >
       Now you see where the stench was coming from, there are rotting bodies all over the floor and the walls

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:eforest:bottom"
       north:
         target: "scene:aber:eforest:planning"
       west:

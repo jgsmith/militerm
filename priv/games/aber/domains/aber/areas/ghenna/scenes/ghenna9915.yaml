@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:ghenna:ghenna9916"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9904"
       west:
         target: "scene:aber:ghenna:ghenna9917"
     short: Blood Tavern.

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6741"
       west:
         target: "scene:aber:sundhaven:sundhaven6739"
     short: A doorway hung with daggers

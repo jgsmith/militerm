@@ -15,4 +15,4 @@ detail:
       west is the mouth of a dark cave, and you wonder what it might contain.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

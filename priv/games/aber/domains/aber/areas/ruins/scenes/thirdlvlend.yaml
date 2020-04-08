@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ruins:teleport"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ruins:geast16"
     short: A Room
     sight: >
       This room is quite unusual. It is warm and welcoming unlike the rest of the catacombs. You also seem to
@@ -13,6 +15,6 @@ detail:
       be a room much like one that you were in on the first level of these ruins.
 flag:
   - dark
-  - fastheal
-  - fastmana
-  - nomobiles
+  - fast-heal
+  - fast-mana
+  - no-mobiles

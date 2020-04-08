@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:hick:house3"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:hick:house1"
     short: Landing
     sight: >
       This is a small area with a floormat for wiping your feet clean of mud and other dirt. There is a rack

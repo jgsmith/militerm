@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cave:336"
       south:
         target: "scene:aber:cave:334"
     short: The Gates of Thorbadin

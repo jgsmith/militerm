@@ -1,14 +1,18 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:village:cove"
       north:
         target: "scene:aber:pirate:pirate2"
       south:
         target: "scene:aber:pirate:pirate10"
       up:
         target: "scene:aber:pirate:pirate1"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:pirate:pirate13"
     short: On the Deck
     sight: >
       You are standing on the wooden planking of the main deck of a large pirate ship. A mast climbs into the

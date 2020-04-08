@@ -14,7 +14,7 @@ detail:
       of life?
 flag:
   - saic
-  - nogoto
-  - soundproof
+  - no-goto
+  - sound-proof
   - god
-  - noat
+  - no-at

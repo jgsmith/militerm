@@ -1,0 +1,607 @@
+groups:
+  house12:
+    npcs:
+      grandie: 1
+      sweetie: 1
+  house20:
+    npcs:
+      mikey: 1
+      prissy: 1
+  house26:
+    npcs:
+      dinosaur: 1
+      soldier: 1
+  house27:
+    npcs:
+      elephant: 1
+      teddy: 1
+  house28:
+    npcs:
+      coatrack: 1
+      robot: 1
+      stretch: 1
+  house9:
+    npcs:
+      biff: 1
+      buffy: 1
+locations:
+  house1:
+    npcs:
+      angelica: 1
+  house10:
+    npcs:
+      cody: 1
+  house11:
+    npcs:
+      patrick: 1
+  house12:
+    groups:
+      house12: 1
+  house15:
+    npcs:
+      nanny: 1
+  house16:
+    npcs:
+      andrea: 1
+  house17:
+    npcs:
+      nellie: 1
+  house19:
+    npcs:
+      jack: 1
+  house2:
+    npcs:
+      darla: 1
+  house20:
+    groups:
+      house20: 1
+  house21:
+    npcs:
+      tony: 1
+  house22:
+    npcs:
+      maggie: 1
+  house25:
+    npcs:
+      snotty: 1
+  house26:
+    groups:
+      house26: 1
+  house27:
+    groups:
+      house27: 1
+  house28:
+    groups:
+      house28: 1
+  house3:
+    npcs:
+      tot: 1
+  house5:
+    npcs:
+      chester: 1
+  house6:
+    npcs:
+      john: 1
+  house8:
+    npcs:
+      peter: 1
+  house9:
+    groups:
+      house9: 1
+  yard1:
+    npcs:
+      kara: 1
+  yard2:
+    npcs:
+      bully: 1
+  yard3:
+    npcs:
+      brat: 1
+npcs:
+  andrea:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andrea
+          short: Andrea
+          sight: Baby Andrea is here chewing on a teething ring.
+      flag:
+      identity:
+        name: Andrea
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  angelica:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - angelica
+          short: Angelica
+          sight: "Everyone's little Angelica is here."
+      flag:
+      identity:
+        name: Angelica
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  biff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - biff
+          short: Biff
+          sight: Biff is here making out with Buffy.
+      flag:
+      identity:
+        name: Biff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brat
+          short: Brat
+          sight: Brat is here, well, being a brat.
+      flag:
+      identity:
+        name: Brat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buffy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buffy
+          short: Buffy
+          sight: Buffy is here making out with Biff.
+      flag:
+      identity:
+        name: Buffy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bully:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bully
+          short: Bully
+          sight: Bully is here throwing sand at you.
+      flag:
+      identity:
+        name: Bully
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chester:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chester
+          short: Chester
+          sight: >
+            Chester is here boasting about how he 'knows-it-all.'
+      flag:
+      identity:
+        name: Chester
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  coatrack:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - coat rack
+            - coatrack
+          short: Coat Rack
+          sight: A Coat Rack is here, waiting to attack.
+      flag:
+      identity:
+        name: Coat Rack
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cody:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cody
+          short: Cody
+          sight: Cody is here munching happily on a graham cracker.
+      flag:
+      identity:
+        name: Cody
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  darla:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - darla
+          short: Darla
+          sight: Darla is here waiting to chat.
+      flag:
+      identity:
+        name: Darla
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dinosaur:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dinosaur
+          short: Dinosaur
+          sight: >
+            A toy Dinosaur, T. Rex, is here looking for a snack.
+      flag:
+      identity:
+        name: Dinosaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elephant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elephant
+          short: Elephant
+          sight: A toy Elephant is here stomping around.
+      flag:
+      identity:
+        name: Elephant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grandie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grandie
+          short: Grandie
+          sight: >
+            Grandie is here, and he wants to grow up to be just like Grandar!
+      flag:
+      identity:
+        name: Grandie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jack:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jack
+          short: Jack
+          sight: A Jack in the Box is here, and he looks mean.
+      flag:
+      identity:
+        name: Jack
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  john:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - john
+          short: John
+          sight: Little boy John is here, and he has to GO!
+      flag:
+      identity:
+        name: John
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kara
+          short: Kara
+          sight: Kara is here screaming for her mommy.
+      flag:
+      identity:
+        name: Kara
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  maggie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maggie
+          short: Maggie
+          sight: Maggie is here sucking on a shiny pacifier.
+      flag:
+      identity:
+        name: Maggie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mikey:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mikey
+          short: Mikey
+          sight: Mikey is here acting like a little devil.
+      flag:
+      identity:
+        name: Mikey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nanny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nanny
+          short: Nanny
+          sight: The Nanny is here watching the babies.
+      flag:
+      identity:
+        name: Nanny
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nellie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nellie
+          short: Nellie
+          sight: Baby Nellie is here in a puddle, whimpering.
+      flag:
+      identity:
+        name: Nellie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  patrick:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - patrick
+          short: Patrick
+          sight: Patrick is here bossing you around.
+      flag:
+      identity:
+        name: Patrick
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+          short: Peter
+          sight: >
+            Peter is here trying to look innocent about something.
+      flag:
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  prissy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prissy
+          short: Prissy
+          sight: Prissy is here acting like a little princess.
+      flag:
+      identity:
+        name: Prissy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  robot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robot
+          short: Robot
+          sight: A toy Robot is here clinking around.
+      flag:
+      identity:
+        name: Robot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snotty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snotty
+          short: Snotty
+          sight: >
+            Snotty is here, and his nose looks like it needs to be wiped.
+      flag:
+        - no-hassle
+      identity:
+        name: Snotty
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  soldier:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - soldier
+          short: Soldier
+          sight: A toy Soldier is here yelling out orders.
+      flag:
+      identity:
+        name: Soldier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stretch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stretch armstrong
+            - stretch
+          short: Stretch Armstrong
+          sight: >
+            Stretch Armstrong is here waiting to reach out and touch someone.
+      flag:
+      identity:
+        name: Stretch Armstrong
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sweetie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sweetie
+          short: Sweetie
+          sight: >
+            Sweetie is here, and she wants to grow up to be just like Sweetums.
+      flag:
+      identity:
+        name: Sweetie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  teddy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teddy
+          short: Teddy
+          sight: >
+            A big Teddy bear is here looking for someone to bearhug.
+      flag:
+      identity:
+        name: Teddy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tony:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tony
+          short: Tony
+          sight: Tony is here, and he stinks from a dirty diaper.
+      flag:
+      identity:
+        name: Tony
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tot
+          short: Tot
+          sight: A little Tot is here waving his rattle at you.
+      flag:
+      identity:
+        name: Tot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

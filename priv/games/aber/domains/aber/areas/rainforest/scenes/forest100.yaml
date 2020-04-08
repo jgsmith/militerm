@@ -13,5 +13,5 @@ detail:
       could also head south, where the jungle is not too dense. To the west is the river bank.
 flag:
   - outdoors
-  - rainforest
-  - nomobiles
+  - rain-forest
+  - no-mobiles

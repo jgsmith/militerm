@@ -1,0 +1,1361 @@
+groups:
+  fjord100:
+    npcs:
+      blarg: 1
+      cap: 1
+      creepazoid: 1
+      dopey: 1
+      dunkster: 1
+      flatface: 1
+      glosh: 1
+      lyddakin: 1
+      minddude: 1
+      pbear2: 1
+      rembrant: 1
+      scrapheap: 1
+      skullos: 1
+      swarmer: 1
+      whiffle: 1
+  fjord108:
+    npcs:
+      halofish: 1
+      octopus: 1
+      squid: 1
+  fjord118:
+    npcs:
+      kid: 1
+      mom: 1
+      pop: 1
+  fjord19:
+    npcs:
+      catfish: 1
+      gator: 1
+  fjord33:
+    npcs:
+      faun: 1
+      schmuck: 1
+  fjord35:
+    npcs:
+      bugs: 1
+      slimy: 1
+  fjord51:
+    npcs:
+      shade1: 1
+      shade2: 1
+      shade3: 1
+      shade8: 1
+  fjord66:
+    npcs:
+      adarkar: 1
+      baldour: 1
+      bjorlak: 1
+      discera: 1
+      gump: 1
+      icexand: 1
+      porto: 1
+  fjord83:
+    npcs:
+      shade4: 1
+      shade5: 1
+      shade6: 1
+  fjord89:
+    npcs:
+      kraken: 1
+      watergal: 1
+  fjord98:
+    npcs:
+      bastard: 1
+      owner: 1
+locations:
+  fjord100:
+    groups:
+      fjord100: 1
+  fjord104:
+    npcs:
+      pbear: 1
+  fjord108:
+    groups:
+      fjord108: 1
+  fjord11:
+    npcs:
+      fawn: 1
+  fjord116:
+    npcs:
+      dendine: 1
+  fjord118:
+    groups:
+      fjord118: 1
+  fjord12:
+    npcs:
+      hog: 1
+  fjord19:
+    groups:
+      fjord19: 1
+  fjord29:
+    npcs:
+      fox: 1
+  fjord30:
+    npcs:
+      buck: 1
+  fjord33:
+    groups:
+      fjord33: 1
+  fjord35:
+    groups:
+      fjord35: 1
+  fjord36:
+    npcs:
+      f_duck: 1
+  fjord4:
+    npcs:
+      rusting: 1
+  fjord40:
+    npcs:
+      bear: 1
+  fjord45:
+    npcs:
+      elk: 1
+  fjord48:
+    npcs:
+      fireguy: 1
+  fjord49:
+    npcs:
+      eagle: 1
+  fjord51:
+    groups:
+      fjord51: 1
+  fjord64:
+    npcs:
+      shade7: 1
+  fjord66:
+    groups:
+      fjord66: 1
+  fjord79:
+    npcs:
+      snork: 1
+  fjord8:
+    npcs:
+      chipmunk: 1
+  fjord80:
+    npcs:
+      vine: 1
+  fjord83:
+    groups:
+      fjord83: 1
+  fjord89:
+    groups:
+      fjord89: 1
+  fjord9:
+    npcs:
+      doe: 1
+  fjord94:
+    npcs:
+      librarian: 1
+  fjord96:
+    npcs:
+      mayor: 1
+  fjord97:
+    npcs:
+      gutter: 1
+  fjord98:
+    groups:
+      fjord98: 1
+  fjord99:
+    npcs:
+      goodwind: 1
+npcs:
+  snork:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie snork
+            - snork
+          short: Ghoulie Snork
+          sight: One of the local ghouls is hard at work here.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Ghoulie Snork
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  porto:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie porto
+            - porto
+          short: Ghoulie Porto
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Porto
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squid
+          short: Squid
+          sight: A small squid swims nearby.
+      flag:
+      identity:
+        name: Squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chipmunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chipmunk
+          short: Chipmunk
+          sight: >
+            A flying chipmunk soars at you with short, black claws.
+      flag:
+        - blind
+      identity:
+        name: Chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  icexand:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie icexand
+            - icexand
+          short: Ghoulie Icexand
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Icexand
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buck
+          short: Buck
+          sight: >
+            A built buck with flashing antlers looks for his mate.
+      flag:
+      identity:
+        name: Buck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redfox
+            - fox
+          short: Redfox
+          sight: >
+            A furry red fox attempts to avoid being stepped on.
+      flag:
+      identity:
+        name: Redfox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  creepazoid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lizzie creepazoid
+            - creepazoid
+          short: Lizzie Creepazoid
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Lizzie Creepazoid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gutter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - carmegan
+            - gutter
+          short: Carmegan
+          sight: >
+            Carmegan stands here gutting fish with his huge hands.
+      flag:
+      identity:
+        name: Carmegan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minddude:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - owner
+            - minddude
+          short: Owner
+          sight: >
+            The owner of the brainwashing shop is here to rip you apart.
+      flag:
+      identity:
+        name: Owner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gump:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie gump
+            - gump
+          short: Ghoulie Gump
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Gump
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  f_duck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fungus duck
+            - f_duck
+          short: Fungus Duck
+          sight: >
+            A duck made from animated fungal matter swims toward you, quacking grotesquely as it splashes the
+            soup eveywhere.
+      flag:
+      identity:
+        name: Fungus Duck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skullos:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie skullos
+            - skullos
+          short: Ghoulie Skullos
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Ghoulie Skullos
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  schmuck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - schmuck
+          short: Schmuck
+          sight: Some schmuck has apparently lost the trail.
+      flag:
+        - cripple
+      identity:
+        name: Schmuck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  catfish:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - catfish
+          short: Catfish
+          sight: >
+            A good-sized catfish swims innocently here, looking for small minnows.
+      flag:
+      identity:
+        name: Catfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hifnog
+            - kid
+          short: Hifnog
+          sight: Hifnog the spoiled brat asks for your help.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Hifnog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fawn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fawn
+          short: Fawn
+          sight: A young fawn searches for her mother.
+      flag:
+        - shock
+      identity:
+        name: Fawn
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  adarkar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie adarkar
+            - adarkar
+          short: Ghoulie Adarkar
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Adarkar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pbear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - polar bear
+            - pbear
+          short: Polar Bear
+          sight: >
+            A polar bear wanders around on the iceberg, surviving on snatching fish.
+      flag:
+      identity:
+        name: Polar Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stormbear
+            - bear
+          short: Stormbear
+          sight: >
+            A rather large blackbear growls as sparks travel between its cloudy eyes.
+      flag:
+        - frost
+        - ice-storm
+      identity:
+        name: Stormbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dendine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dendine
+          short: Dendine
+          sight: >
+            The local magician, Dendine, practices her arts of the physical laws.
+      flag:
+        - shock
+        - frost
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Dendine
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  baldour:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie baldour
+            - baldour
+          short: Ghoulie Baldour
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Baldour
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blarg:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lizzie blarg
+            - blarg
+          short: Lizzie Blarg
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Lizzie Blarg
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  octopus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - octopus
+          short: Octopus
+          sight: >
+            An octopus well-trained in the art of 'coloring thine enemies' is here.
+      flag:
+      identity:
+        name: Octopus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  goodwind:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - incarnation
+            - goodwind
+          short: Incarnation
+          sight: >
+            The current Incarnation of the divine winds is here daydreaming.
+      flag:
+        - missile
+        - frost
+      identity:
+        name: Incarnation
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bastard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bastard
+          short: Bastard
+          sight: A drunkard here is the official town bastard.
+      flag:
+      identity:
+        name: Bastard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  doe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - doe
+          short: Doe
+          sight: >
+            A doe tiptoes through the area, looking for her mate.
+      flag:
+        - missile
+        - shock
+        - fireball
+      identity:
+        name: Doe
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dopey:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie dopey
+            - dopey
+          short: Ghoulie Dopey
+          sight: >
+            An idiot minion of the underworld looks for his favorite dinner here.
+      flag:
+      identity:
+        name: Ghoulie Dopey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slimy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slimy
+          short: Slimy
+          sight: >
+            Something cold and slimy slips down the inside of your shirt and feels its way along your chest,
+            stopping its teeth directly above your living, beating heart!
+      flag:
+      identity:
+        name: Slimy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flatface:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flatface
+          short: Flatface
+          sight: >
+            The altar is guarded by a face inset in the top of it!
+      flag:
+      identity:
+        name: Flatface
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehog
+            - hog
+          short: Hedgehog
+          sight: >
+            A roaming hedgehog leads his tracks everywhere in the meadow.
+      flag:
+      identity:
+        name: Hedgehog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bjorlak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie bjorlak
+            - bjorlak
+          short: Ghoulie Bjorlak
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Bjorlak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  discera:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie discera
+            - discera
+          short: Ghoulie Discera
+          sight: One of the local ghouls is here.
+      flag:
+      identity:
+        name: Ghoulie Discera
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rusting:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rusting bucket
+            - rusting
+          short: rusting bucket
+          sight: >
+            A rusting bucket jumps at you with fingers of splinters!
+      flag:
+        - shock
+      identity:
+        name: rusting bucket
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  owner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - torqous
+            - owner
+          short: Torqous
+          sight: >
+            The owner of the inn, Torqous, mends some bed sheets.
+      flag:
+      identity:
+        name: Torqous
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pbear2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - polar bear
+            - pbear
+          short: Polar Bear
+          sight: >
+            A &+Rpolar bear &*is happy to be reunited with his family.
+      flag:
+      identity:
+        name: Polar Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  watergal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - madronica
+            - watergal
+          short: Madronica
+          sight: >
+            Madronica, legend of the arctic oceans, hunts for kraken here.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Madronica
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  whiffle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lizzie whiffle
+            - whiffle
+          short: Lizzie Whiffle
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Lizzie Whiffle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lyddakin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lyddakin
+          short: Lyddakin
+          sight: >
+            The CEO of the Fallenthorp ghouls, Lyddakin, plods along his golem path.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Lyddakin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  librarian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - linkon
+            - librarian
+          short: Linkon
+          sight: >
+            Linkon the librarion yells from the overload of overdue books.
+      flag:
+      identity:
+        name: Linkon
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  eagle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eagle
+          short: Eagle
+          sight: A buzzard eagle swoops down from its nearby nest.
+      flag:
+        - blind
+        - mute
+      identity:
+        name: Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  halofish:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - halofish
+          short: Halofish
+          sight: >
+            A bubble blowing behemoth of a halofish swims around brilliantly.
+      flag:
+      identity:
+        name: Halofish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+            - gator
+          short: Alligator
+          sight: A really scaly alligator swims through the waters.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kraken:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kraken
+          short: Kraken
+          sight: >
+            A large spawn of the deep is here, hiding from a larger terror.
+      flag:
+      identity:
+        name: Kraken
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elk
+          short: Elk
+          sight: A mountain elk peacefully stalks the rocks here.
+      flag:
+      identity:
+        name: Elk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shade3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shade
+          short: The Shade
+          sight: >
+            Hands of shadowy death reach for you while crying your name.
+      flag:
+      identity:
+        name: The Shade
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swarmer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sap swarmer
+            - swarmer
+          short: Sap Swarmer
+          sight: >
+            One of the Sap Swarmers has made a serious mistake!
+      flag:
+      identity:
+        name: Sap Swarmer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mayor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rankine hugoniot
+            - mayor
+          short: Rankine Hugoniot
+          sight: >
+            The leader of Kyerstarn stands debating with some fish merchants.
+      flag:
+      identity:
+        name: Rankine Hugoniot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moldvine
+            - vine
+          short: Moldvine
+          sight: >
+            A barbed, snake-like vine tries to wrap itself about your soft neck.
+      flag:
+      identity:
+        name: Moldvine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dunkster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie dunkster
+            - dunkster
+          short: Ghoulie Dunkster
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Ghoulie Dunkster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glosh:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie glosh
+            - glosh
+          short: Ghoulie Glosh
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Ghoulie Glosh
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rembrant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie rembrant
+            - rembrant
+          short: Ghoulie Rembrant
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Ghoulie Rembrant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cap:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mushcap
+            - cap
+          short: Mushcap
+          sight: >
+            A mushroom cap with clicking, serrated thorns rips at your scalp.
+      flag:
+      identity:
+        name: Mushcap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mom:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kryseah
+            - mom
+          short: Kryseah
+          sight: "Kryseah attempts to comfort her son's loss."
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Kryseah
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  scrapheap:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoulie scrapheap
+            - scrapheap
+          short: Ghoulie Scrapheap
+          sight: >
+            A blood-soaked minion of the underworld is here, enjoying its freedom as it methodically rips
+            apart this area of the world of life.
+      flag:
+      identity:
+        name: Ghoulie Scrapheap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fireguy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corpuloso
+            - fireguy
+          short: Corpuloso
+          sight: >
+            Corpuloso, legend of the Nolak Range, sniffs for food here.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Corpuloso
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pop:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ambar
+            - pop
+          short: Ambar
+          sight: The leader of the house currently is Ambar.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Ambar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bugs:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mess o bugs
+            - bugs
+          short: Mess O Bugs
+          sight: >
+            The main mass of buzzing, humming, and flying critters invades you!
+      flag:
+      identity:
+        name: Mess O Bugs
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  faun:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - faun
+          short: Faun
+          sight: A young faun searches for the rest of his family.
+      flag:
+      identity:
+        name: Faun
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

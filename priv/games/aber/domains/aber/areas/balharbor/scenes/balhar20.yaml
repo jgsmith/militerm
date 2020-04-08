@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:balharbor:balhar21"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:balharbor:balhar7"
       west:
         target: "scene:aber:balharbor:balhar19"
     short: Main Street

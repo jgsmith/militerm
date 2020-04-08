@@ -10,6 +10,6 @@ detail:
       bathed in the only light which enters this area.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

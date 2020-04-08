@@ -10,4 +10,4 @@ detail:
       A long slide ends here, in a room which is entirely padded. Foam rubber lines the walls, the ceiling,
       and the floor. A hole in the ceiling is marked 'Fairyland', and a hole in the floor is marked 'Heaven'.
 flag:
-  - nomobiles
+  - no-mobiles

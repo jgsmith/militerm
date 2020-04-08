@@ -13,7 +13,7 @@ detail:
       home. You have one last chance to go back down, or you may press forward and follow his lead.
 flag:
   - peaceful
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

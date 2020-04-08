@@ -15,4 +15,4 @@ detail:
       you dare. The village continues east of you, while the forest lies to the west.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

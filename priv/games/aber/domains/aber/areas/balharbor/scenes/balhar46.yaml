@@ -12,5 +12,5 @@ detail:
       this shop yourself is risky, the owner looks to be very powerful. You can go back into Idol Square to
       the south, or get on River Street to the east.
 flag:
-  - nomobiles
-  - cantsummon
+  - no-mobiles
+  - cant-summon

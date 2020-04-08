@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter44"
+      southwest:
         target: "scene:aber:enchanter:enchanter46"
     short: Edge of the Beach
     sight: >
@@ -10,5 +12,5 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real
   - peaceful

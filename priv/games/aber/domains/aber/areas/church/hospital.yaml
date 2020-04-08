@@ -1,0 +1,43 @@
+groups:
+locations:
+  barrowlearn:
+    npcs:
+      teacher: 1
+  church2:
+    npcs:
+      zombie: 1
+npcs:
+  teacher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moog
+            - teacher
+          short: The Moog
+          sight: >
+            Moog aims a level gaze your way and says '&+YYou have come to learn, yes?&*'
+      flag:
+      identity:
+        name: The Moog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zombie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombie
+          short: The Zombie
+          sight: A rotting zombie stomps past.
+      flag:
+      identity:
+        name: The Zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:sundhaven:sundhaven6739"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6621"
     short: Slippery stone steps
     sight: >
       The darkness of a steep stairwell encloses you. The dripping and oozing sounds of slime creeping down

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:frobozz:living"
       up:
         target: "scene:aber:frobozz:attic"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:frobozz:housew"
     short: The Kitchen
     sight: >
       You are in a tiny kitchen. The strong smell of food indicates that something edible has been prepared

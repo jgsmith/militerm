@@ -1,0 +1,1440 @@
+groups:
+  desertsd00:
+    npcs:
+      mobsd01_3: 1
+      mobsd12: 1
+  desertsd12:
+    npcs:
+      mobsd00_2: 1
+      mobsd05: 1
+  desertsd13:
+    npcs:
+      mobsd02_1: 1
+      mobsd04_1: 1
+  desertsd14:
+    npcs:
+      mobsd04: 1
+      mobsd04_2: 1
+  desertsd15:
+    npcs:
+      mobsd03: 1
+      mobsd05_1: 1
+  desertsd17:
+    npcs:
+      kangaroorat: 1
+      mobsd00_1: 1
+      mobsd02_5: 1
+      mobsd12_4: 1
+  desertsd21:
+    npcs:
+      mobsd00_3: 1
+      mobsd06_4: 1
+      mobsd11: 1
+  desertsd32:
+    npcs:
+      mobsd00_4: 1
+      mobsd02_7: 1
+      mobsd03_4: 1
+  desertsd34:
+    npcs:
+      mobsd01_5: 1
+      mobsd05_2: 1
+      mobsd05_3: 1
+  desertsd37:
+    npcs:
+      mobsd00_6: 1
+      mobsd02_4: 1
+  desertsd41:
+    npcs:
+      mobsd00_8: 1
+      mobsd11_2: 1
+  desertsd45:
+    npcs:
+      mobsd03_5: 1
+      mobsd08: 1
+  desertsd47:
+    npcs:
+      mobsd02_6: 1
+      mobsd06_5: 1
+  desertsd55:
+    npcs:
+      mobsd00_7: 1
+      mobsd02: 1
+      mobsd02_2: 1
+      mobsd07_1: 1
+  desertsd57:
+    npcs:
+      mobsd03_6: 1
+      mobsd06_1: 1
+      mobsd06_3: 1
+      mobsd06_6: 1
+      mobsd07_2: 1
+  desertsd61:
+    npcs:
+      mobsd11_4: 1
+      ostrich: 1
+  desertsd62:
+    npcs:
+      mobsd03_1: 1
+      mobsd03_7: 1
+      mobsd07_3: 1
+  desertsd65:
+    npcs:
+      mobsd06_7: 1
+      mobsd09_1: 1
+  desertsd66:
+    npcs:
+      mobsd01_7: 1
+      mobsd09: 1
+locations:
+  desertsd19:
+    npcs:
+      mobsd01: 1
+  desertsd16:
+    npcs:
+      mobsd06: 1
+  desertsd44:
+    npcs:
+      mobsd00_5: 1
+  desertsd67:
+    npcs:
+      mobsd10: 1
+  desertsd66:
+    groups:
+      desertsd66: 1
+  desertsd13:
+    groups:
+      desertsd13: 1
+  desertsd34:
+    groups:
+      desertsd34: 1
+  desertsd17:
+    groups:
+      desertsd17: 1
+  desertsd61:
+    groups:
+      desertsd61: 1
+  desertsd06:
+    npcs:
+      mobsd12_3: 1
+  desertsd03:
+    npcs:
+      mobsd01_2: 1
+  desertsd47:
+    groups:
+      desertsd47: 1
+  desertsd51:
+    npcs:
+      mobsd11_3: 1
+  desertsd41:
+    groups:
+      desertsd41: 1
+  desertsd12:
+    groups:
+      desertsd12: 1
+  desertsd15:
+    groups:
+      desertsd15: 1
+  desertsd53:
+    npcs:
+      mobsd07: 1
+  desertsd28:
+    npcs:
+      mobsd03_2: 1
+  desertsd65:
+    groups:
+      desertsd65: 1
+  desertsd22:
+    npcs:
+      mobsd01_4: 1
+  desertsd07:
+    npcs:
+      mobsd01_1: 1
+  desertsd29:
+    npcs:
+      mobsd03_3: 1
+  desertsd00:
+    groups:
+      desertsd00: 1
+  desertsd37:
+    groups:
+      desertsd37: 1
+  desertsd02:
+    npcs:
+      mobsd12_1: 1
+  desertsd14:
+    groups:
+      desertsd14: 1
+  desertsd04:
+    npcs:
+      mobsd12_2: 1
+  desertsd21:
+    groups:
+      desertsd21: 1
+  desertsd01:
+    npcs:
+      mobsd00: 1
+  desertsd31:
+    npcs:
+      mobsd11_1: 1
+  desertsd62:
+    groups:
+      desertsd62: 1
+  desertsd55:
+    groups:
+      desertsd55: 1
+  desertsd54:
+    npcs:
+      mobsd04_3: 1
+  desertsd57:
+    groups:
+      desertsd57: 1
+  desertsd08:
+    npcs:
+      mobsd06_2: 1
+  desertsd27:
+    npcs:
+      mobsd02_3: 1
+  desertsd56:
+    npcs:
+      mobsd00_9: 1
+  desertsd45:
+    groups:
+      desertsd45: 1
+  desertsd43:
+    npcs:
+      mobsd01_6: 1
+  desertsd32:
+    groups:
+      desertsd32: 1
+npcs:
+  mobsd03_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slashing boar
+            - mobsd
+          short: Slashing Boar
+          sight: >
+            The Indian ruler of the south is here, smoking a strange weed.
+      flag:
+        - no-summon
+      identity:
+        name: Slashing Boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd11_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant condor
+            - mobsd11_
+          short: the giant condor
+          sight: The Giant condor peers off into the south...
+      flag:
+      identity:
+        name: the giant condor
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd02:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd12_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horny toad
+            - mobsd12_
+          short: the horny toad
+          sight: >
+            A spiky-looking horny toad is here, taking an afternoon nap.
+      flag:
+      identity:
+        name: the horny toad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd02_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant condor
+            - mobsd
+          short: the giant condor
+          sight: The Giant condor peers off into the south...
+      flag:
+      identity:
+        name: the giant condor
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd11_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant condor
+            - mobsd11_
+          short: the giant condor
+          sight: The Giant condor peers off into the south...
+      flag:
+      identity:
+        name: the giant condor
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd03:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd09_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - massive indian guard
+            - mobsd09_
+          short: the massive Indian guard
+          sight: >
+            A massive Indian guard is here, ready to defend his post to the death!
+      flag:
+      identity:
+        name: the massive Indian guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd05_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - razorback boar
+            - mobsd05_
+          short: the razorback boar
+          sight: >
+            A razorback boar stands here, looking angry as hell.
+      flag:
+      identity:
+        name: the razorback boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd12_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horny toad
+            - mobsd12_
+          short: the horny toad
+          sight: >
+            A spiky-looking horny toad is here, taking an afternoon nap.
+      flag:
+      identity:
+        name: the horny toad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd01_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd04_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lemming
+            - mobsd04_
+          short: the lemming
+          sight: >
+            A lemming pauses here, looking for a cliff to leap off.
+      flag:
+      identity:
+        name: the lemming
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd05:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - razorback boar
+            - mobsd
+          short: the razorback boar
+          sight: >
+            A razorback boar stands here, looking angry as hell.
+      flag:
+      identity:
+        name: the razorback boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ostrich:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ostrich
+          short: ostrich
+          sight: An ostrich trots by, looking for the savannah.
+      flag:
+      identity:
+        name: ostrich
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd09:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - massive indian guard
+            - mobsd
+          short: the massive Indian guard
+          sight: >
+            A massive Indian guard is here, ready to defend his post to the death!
+      flag:
+      identity:
+        name: the massive Indian guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd11_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant condor
+            - mobsd11_
+          short: the giant condor
+          sight: The Giant condor peers off into the south...
+      flag:
+      identity:
+        name: the giant condor
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd05_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - razorback boar
+            - mobsd05_
+          short: the razorback boar
+          sight: >
+            A razorback boar stands here, looking angry as hell.
+      flag:
+      identity:
+        name: the razorback boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd12_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horny toad
+            - mobsd12_
+          short: the horny toad
+          sight: >
+            A spiky-looking horny toad is here, taking an afternoon nap.
+      flag:
+      identity:
+        name: the horny toad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd04:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lemming
+            - mobsd
+          short: the lemming
+          sight: >
+            A lemming pauses here, looking for a cliff to leap off.
+      flag:
+      identity:
+        name: the lemming
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd07_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - indian scout
+            - mobsd07_
+          short: the Indian scout
+          sight: >
+            An Indian scout sneaks about here, glaring at you with suspicious eyes.
+      flag:
+      identity:
+        name: the Indian scout
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd07:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - indian scout
+            - mobsd
+          short: the Indian scout
+          sight: >
+            An Indian scout sneaks about here, glaring at you with suspicious eyes.
+      flag:
+      identity:
+        name: the Indian scout
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd11_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant condor
+            - mobsd11_
+          short: the giant condor
+          sight: The Giant condor peers off into the south...
+      flag:
+      identity:
+        name: the giant condor
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd06_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd07_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - indian scout
+            - mobsd07_
+          short: the Indian scout
+          sight: >
+            An Indian scout sneaks about here, glaring at you with suspicious eyes.
+      flag:
+      identity:
+        name: the Indian scout
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd01_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd03_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild dog
+            - mobsd03_
+          short: the wild dog
+          sight: A thin, mangy beast lurks about here.
+      flag:
+      identity:
+        name: the wild dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd02_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeping cactus
+            - mobsd02_
+          short: the creeping cactus
+          sight: There is a strange looking cactus here.
+      flag:
+      identity:
+        name: the creeping cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kangaroorat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kangaroo rat
+            - kangaroorat
+          short: Kangaroo Rat
+          sight: >
+            A small kangaroo rat is digging for catcus seeds here.
+      flag:
+      identity:
+        name: Kangaroo Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd00_
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd04_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lemming
+            - mobsd04_
+          short: the lemming
+          sight: >
+            A lemming pauses here, looking for a cliff to leap off.
+      flag:
+      identity:
+        name: the lemming
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd00:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+            - mobsd
+          short: the armadillo
+          sight: >
+            A small rodent with armored scales slowly crosses the path.
+      flag:
+      identity:
+        name: the armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd12_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horny toad
+            - mobsd12_
+          short: the horny toad
+          sight: >
+            A spiky-looking horny toad is here, taking an afternoon nap.
+      flag:
+      identity:
+        name: the horny toad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd01_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+            - mobsd01_
+          short: the tarantula
+          sight: An oversized, hairy spider scuttles away.
+      flag:
+      identity:
+        name: the tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd05_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - razorback boar
+            - mobsd05_
+          short: the razorback boar
+          sight: >
+            A razorback boar stands here, looking angry as hell.
+      flag:
+      identity:
+        name: the razorback boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd12:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horny toad
+            - mobsd
+          short: the horny toad
+          sight: >
+            A spiky-looking horny toad is here, taking an afternoon nap.
+      flag:
+      identity:
+        name: the horny toad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobsd07_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - indian scout
+            - mobsd07_
+          short: the Indian scout
+          sight: >
+            An Indian scout sneaks about here, glaring at you with suspicious eyes.
+      flag:
+      identity:
+        name: the Indian scout
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd06_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamondback rattler
+            - mobsd06_
+          short: the diamondback rattler
+          sight: >
+            A rattler is coiled up here, trying to be invisible.
+      flag:
+      identity:
+        name: the diamondback rattler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd04_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lemming
+            - mobsd04_
+          short: the lemming
+          sight: >
+            A lemming pauses here, looking for a cliff to leap off.
+      flag:
+      identity:
+        name: the lemming
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobsd08:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mad hermit
+            - mobsd
+          short: the mad hermit
+          sight: >
+            A mad hermit is here, getting ready to mutilate you!
+      flag:
+      identity:
+        name: the mad hermit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

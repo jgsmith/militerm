@@ -13,5 +13,5 @@ detail:
       east and west from here.
 flag:
   - outdoors
-  - rainforest
-  - nomobiles
+  - rain-forest
+  - no-mobiles

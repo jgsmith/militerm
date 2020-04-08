@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eforest:hot"
       north:
         target: "scene:aber:eforest:stone"
     short: Boiling Lake

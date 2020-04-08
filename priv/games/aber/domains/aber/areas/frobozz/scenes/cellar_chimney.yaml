@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:frobozz:cellar"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:frobozz:kitchen"
     short: Cellar
     sight: >
       This part of the cellar is not that damp due to a faint, but fresh and warm wind that blows out of a

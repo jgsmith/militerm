@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:cave:n_stairs3"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:cave:long"
       up:
         target: "scene:aber:cave:n_stairs"
     short: Narrow Stairs

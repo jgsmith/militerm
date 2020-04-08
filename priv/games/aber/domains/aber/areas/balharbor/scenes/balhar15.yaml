@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:balharbor:balhar16"
       north:
         target: "scene:aber:balharbor:balhar23"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:balharbor:balhar13"
       west:
         target: "scene:aber:balharbor:balhar14"
     short: Idol Square

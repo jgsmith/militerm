@@ -12,5 +12,5 @@ detail:
       to the north.
 flag:
   - outdoors
-  - cantsummon
-  - nomobiles
+  - cant-summon
+  - no-mobiles

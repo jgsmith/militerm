@@ -17,9 +17,9 @@ detail:
       is enchanted with numerous spells of protection. To the north you see a small fountain bubbling. To the
       south is Almin's treasure room. To the west is a balcony.
 flag:
-  - nomagic
-  - cantsummon
-  - nosummon
-  - noquit
-  - nosnoop
+  - no-magic
+  - cant-summon
+  - no-summon
+  - no-quit
+  - no-snoop
   - soundproof

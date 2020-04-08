@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:cottage:cottage6"
       north:
         target: "scene:aber:cottage:cottage4"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cottage:cottage2"
     short: Front Porch
     sight: >
       You are standing on the front porch of the picturesque cottage. The woman of the house stands here

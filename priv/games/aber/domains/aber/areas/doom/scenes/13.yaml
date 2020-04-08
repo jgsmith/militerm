@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:doom:11"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:doom:14"
     short: &+cPath
     sight: >
       You are at the end of a long road standing before a large brick house. You notice a strange light and

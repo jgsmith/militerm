@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:playhouse:house27"
     short: "Child's Nightmare: End of the Attic"
     sight: >
       There is a little round window letting in just enough light for you to see your way arround here. This

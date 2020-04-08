@@ -1,9 +1,15 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
-      west: null
+      north:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere32"
+      south:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere12"
+      west:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere35"
     short: Long and Narrow Room
     sight: >
       This room is long, narrow and...full of mirrors! They panel the roof, hang floor to ceiling on the walls
@@ -13,5 +19,5 @@ detail:
       another mirror on the back, making it impossible to find again. You find yourself trapped in a room of
       seemingly infinite proportions.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon

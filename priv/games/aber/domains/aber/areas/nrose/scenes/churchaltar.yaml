@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:nrose:ossarium2"
       south:
         target: "scene:aber:nrose:northdorm"
       west:

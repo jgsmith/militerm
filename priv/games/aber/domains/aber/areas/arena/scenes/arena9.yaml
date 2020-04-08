@@ -12,7 +12,7 @@ detail:
       small bush growing against the northern wall, and a pleasant smell in the air. You feel a little
       strange.
 flag:
-  - nosummon
-  - cantsummon
-  - nomagic
+  - no-summon
+  - cant-summon
+  - no-magic
   - pkzone

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas62"
     short: The Sigil Wardment
     sight: >
       Great power exists here. You can sense it without trying. It thrills up and down your spine and numbs
@@ -9,4 +11,4 @@ detail:
       something not quite recognizable. From here, you can sense the various rooms and even the surrounding
       land.
 flag:
-  - cantsummon
+  - cant-summon

@@ -12,7 +12,7 @@ detail:
       the house, you do hear the actual sounds of running water to your north! It is also possible to return
       east to Megadon.
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

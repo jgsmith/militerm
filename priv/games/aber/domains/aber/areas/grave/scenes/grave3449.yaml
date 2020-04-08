@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:grave:grave3448"
     short: "The Priest's Hidden Closet!"
     sight: >
       You have found the real closet of the priest. On the back wall is a finely crafted cabinet with solid

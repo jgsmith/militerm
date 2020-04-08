@@ -14,4 +14,4 @@ detail:
       decide to ignore you.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:origins:origins46"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:origins:origins44"
     short: The Cave
     sight: >
       You walk underneath the waterfall and enter a small cave. The interior of the cave contains a bed, a
@@ -15,7 +17,7 @@ flag:
   - peaceful
   - party
   - private
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:town:town60"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:town:town62"
     short: Lookout Point
     sight: >
       From this point you can see all around the lands of Pensalon. Off in the distance you can see a small

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:doom:2"
       south:
         target: "scene:aber:doom:f3"
     short: &+cThe Gates to Doom

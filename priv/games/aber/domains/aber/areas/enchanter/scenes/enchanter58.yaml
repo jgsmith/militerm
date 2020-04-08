@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter57"
     short: Escape Tunnel
     sight: >
       The inhabitant of the cell was trying to escape through here. He had dug six feet of tunnel from his

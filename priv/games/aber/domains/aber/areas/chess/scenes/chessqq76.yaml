@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:chess:chessqq79"
     short: "The Black Queen's Chamber"
     sight: >
       You are in a small chamber, containing only a &+Cbed&*, basin, mirror and braided rug. Despite being

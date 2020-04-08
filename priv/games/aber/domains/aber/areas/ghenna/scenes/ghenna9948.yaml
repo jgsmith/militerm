@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9949"
     short: Free fall.
     sight: >
       You start \S \L \I \D \I \N \G \ \D \O \W \N \W \A \R \D 	 And land in a heap, right next 				 to a

@@ -1,0 +1,146 @@
+groups:
+  hills2:
+    npcs:
+      adder: 1
+      cow: 1
+locations:
+  hills10:
+    npcs:
+      eagle: 1
+  hills12:
+    npcs:
+      marten: 1
+  hills2:
+    groups:
+      hills2: 1
+  hills3:
+    npcs:
+      otter: 1
+  hills8:
+    npcs:
+      buck: 1
+  hills9:
+    npcs:
+      badger: 1
+npcs:
+  adder:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adder
+          short: Adder
+          sight: >
+            An adder hisses at you when you almost step on her.
+      flag:
+      identity:
+        name: Adder
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  badger:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - badger
+          short: Badger
+          sight: >
+            A badger is peering at you from its set with sleepy eyes.
+      flag:
+      identity:
+        name: Badger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roe buck
+            - buck
+          short: Roe Buck
+          sight: >
+            A young roe buck stares at you with dark brown eyes.
+      flag:
+      identity:
+        name: Roe Buck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - highland cow
+            - cow
+          short: Highland Cow
+          sight: A highland cow is here, chewing the cud.
+      flag:
+      identity:
+        name: Highland Cow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  eagle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golden eagle
+            - eagle
+          short: Golden Eagle
+          sight: >
+            A golden eagle is perched proudly on the rocky peak.
+      flag:
+      identity:
+        name: Golden Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marten:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pine marten
+            - marten
+          short: Pine Marten
+          sight: A vicious little pine marten nips at your heels.
+      flag:
+      identity:
+        name: Pine Marten
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  otter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - otter
+          short: Otter
+          sight: >
+            An otter gambols about playfully by the water's edge.
+      flag:
+      identity:
+        name: Otter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

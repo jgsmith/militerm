@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:brookmere:brookmere53"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere51"
     short: Throne Room of Orobius
     sight: >
       The only thing in the entire room is a large white marble throne, shot through with black, set up on a
@@ -18,4 +20,4 @@ detail:
       unless, of course, it is an illusion.
 flag:
   - dark
-  - nosummon
+  - no-summon

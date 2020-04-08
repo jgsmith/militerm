@@ -1,0 +1,817 @@
+groups:
+  graye5514:
+    npcs:
+      mob5501_4: 1
+      mob5502_3: 1
+  graye5516:
+    npcs:
+      mob5501_2: 1
+      mob5503_1: 1
+  graye5517:
+    npcs:
+      mob5501_3: 1
+      mob5502_4: 1
+  graye5537:
+    npcs:
+      mob5506: 1
+      mob5506_1: 1
+      mob5506_2: 1
+  graye5538:
+    npcs:
+      mob5506_3: 1
+      mob5509: 1
+      mob5510: 1
+  graye5539:
+    npcs:
+      mob5506_4: 1
+      mob5509_1: 1
+      mob5510_1: 1
+  graye5550:
+    npcs:
+      mob5507: 1
+      mob5508: 1
+      mob5511: 1
+  graye5551:
+    npcs:
+      mob5507_1: 1
+      mob5508_1: 1
+  limbo@limbo:
+    npcs:
+      mob5514b: 1
+      mob5517: 1
+locations:
+  graye5505:
+    npcs:
+      mob5501: 1
+  graye5508:
+    npcs:
+      mob5501_1: 1
+  graye5509:
+    npcs:
+      mob5502: 1
+  graye5510:
+    npcs:
+      mob5502_1: 1
+  graye5511:
+    npcs:
+      mob5502_2: 1
+  graye5513:
+    npcs:
+      mob5503_2: 1
+  graye5514:
+    groups:
+      graye5514: 1
+  graye5515:
+    npcs:
+      mob5504: 1
+  graye5516:
+    groups:
+      graye5516: 1
+  graye5517:
+    groups:
+      graye5517: 1
+  graye5519:
+    npcs:
+      mob5503: 1
+  graye5533:
+    npcs:
+      mob5505: 1
+  graye5534:
+    npcs:
+      mob5505_1: 1
+  graye5535:
+    npcs:
+      mob5505_2: 1
+  graye5536:
+    npcs:
+      mob5505_3: 1
+  graye5537:
+    groups:
+      graye5537: 1
+  graye5538:
+    groups:
+      graye5538: 1
+  graye5539:
+    groups:
+      graye5539: 1
+  graye5545:
+    npcs:
+      mob5514: 1
+  graye5550:
+    groups:
+      graye5550: 1
+  graye5551:
+    groups:
+      graye5551: 1
+  graye5552:
+    npcs:
+      mob5512: 1
+  graye5553:
+    npcs:
+      mob5513_1: 1
+  graye5554:
+    npcs:
+      mob5513: 1
+  graye5555:
+    npcs:
+      mob5515: 1
+  graye5556:
+    npcs:
+      mob5516: 1
+  limbo@limbo:
+    groups:
+      limbo@limbo: 1
+npcs:
+  mob5502_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+            - mob5502_
+          short: the wolf
+          sight: a wolf trots by, looking for a rabbit.
+      flag:
+      identity:
+        name: the wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5514b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rymat
+            - mob5514b
+          short: Rymat
+          sight: >
+            The King's Advisor is here, relieved his king has returned safely.
+      flag:
+      identity:
+        name: Rymat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5512:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rift guardian
+            - mob
+          short: The rift guardian
+          sight: A shadow wraith drifts into your way.
+      flag:
+      identity:
+        name: The rift guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5506_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye guardsman
+            - mob5506_
+          short: The Graye guardsman
+          sight: The Graye guardsman is posted here.
+      flag:
+      identity:
+        name: The Graye guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5501:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forest brownie
+            - mob
+          short: the forest brownie
+          sight: A forest brownie scampers about here.
+      flag:
+      identity:
+        name: the forest brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5514:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rymat
+            - mob
+          short: Rymat
+          sight: "The King's Advisor is here, weeping."
+      flag:
+        - no-hassle
+      identity:
+        name: Rymat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5517:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - relnar
+            - mob
+          short: Relnar
+          sight: The good king Relnar is here.
+      flag:
+        - missile
+      identity:
+        name: Relnar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5503_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown rabbit
+            - mob5503_
+          short: the brown rabbit
+          sight: A brown rabbit hops along merrily.
+      flag:
+      identity:
+        name: the brown rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5506_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye guardsman
+            - mob5506_
+          short: The Graye guardsman
+          sight: The Graye guardsman is posted here.
+      flag:
+      identity:
+        name: The Graye guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5505_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian demon
+            - mob5505_
+          short: the guardian demon
+          sight: A shadowy form steps out of the mist.
+      flag:
+      identity:
+        name: the guardian demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5501_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forest brownie
+            - mob5501_
+          short: the forest brownie
+          sight: A forest brownie scampers about here.
+      flag:
+      identity:
+        name: the forest brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5501_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forest brownie
+            - mob5501_
+          short: the forest brownie
+          sight: A forest brownie scampers about here.
+      flag:
+      identity:
+        name: the forest brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5513_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jail guard
+            - mob5513_
+          short: The jail guard
+          sight: A jail guard patrols here, whipping the prisoners.
+      flag:
+      identity:
+        name: The jail guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5501_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forest brownie
+            - mob5501_
+          short: the forest brownie
+          sight: A forest brownie scampers about here.
+      flag:
+      identity:
+        name: the forest brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5510_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye citizen
+            - mob5510_
+          short: The Graye Citizen
+          sight: >
+            A citizen of Graye rushes by here, looking over her shoulder.
+      flag:
+      identity:
+        name: The Graye Citizen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5505_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian demon
+            - mob5505_
+          short: the guardian demon
+          sight: A shadowy form steps out of the mist.
+      flag:
+      identity:
+        name: the guardian demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5506_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye guardsman
+            - mob5506_
+          short: The Graye guardsman
+          sight: The Graye guardsman is posted here.
+      flag:
+      identity:
+        name: The Graye guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5508:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minor demon
+            - mob
+          short: the minor demon
+          sight: A minor demon jumps out of the shadows at you!
+      flag:
+      identity:
+        name: the minor demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5511:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - major demon
+            - mob
+          short: A major demon
+          sight: A major demon lurks about here.
+      flag:
+      identity:
+        name: A major demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5503_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown rabbit
+            - mob5503_
+          short: the brown rabbit
+          sight: A brown rabbit hops along merrily.
+      flag:
+      identity:
+        name: the brown rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5502_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+            - mob5502_
+          short: the wolf
+          sight: a wolf trots by, looking for a rabbit.
+      flag:
+      identity:
+        name: the wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5507_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demon imp
+            - mob5507_
+          short: the demon imp
+          sight: A tiny demon snarls at you.
+      flag:
+      identity:
+        name: the demon imp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5503:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown rabbit
+            - mob
+          short: the brown rabbit
+          sight: A brown rabbit hops along merrily.
+      flag:
+      identity:
+        name: the brown rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5516:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scrytin
+            - mob
+          short: Scrytin
+          sight: >
+            Scrytin, the demon lord's apprentice, smiles at you.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: Scrytin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5502_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+            - mob5502_
+          short: the wolf
+          sight: a wolf trots by, looking for a rabbit.
+      flag:
+      identity:
+        name: the wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5509:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye citizen
+            - mob
+          short: The Graye Citizen
+          sight: >
+            A citizen of Graye rushes by here, looking over his shoulder.
+      flag:
+      identity:
+        name: The Graye Citizen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5506_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye guardsman
+            - mob5506_
+          short: The Graye guardsman
+          sight: The Graye guardsman is posted here.
+      flag:
+      identity:
+        name: The Graye guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5513:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jail guard
+            - mob
+          short: The jail guard
+          sight: A jail guard patrols here, whipping the prisoners.
+      flag:
+      identity:
+        name: The jail guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5510:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye citizen
+            - mob
+          short: The Graye Citizen
+          sight: >
+            A citizen of Graye rushes by here, looking over her shoulder.
+      flag:
+      identity:
+        name: The Graye Citizen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5507:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demon imp
+            - mob
+          short: the demon imp
+          sight: A tiny demon snarls at you.
+      flag:
+      identity:
+        name: the demon imp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5504:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tomal
+            - mob
+          short: Tomal
+          sight: >
+            A woodsman watches you, a stalk of grass hanging from his mouth.
+      flag:
+      identity:
+        name: Tomal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5501_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forest brownie
+            - mob5501_
+          short: the forest brownie
+          sight: A forest brownie scampers about here.
+      flag:
+      identity:
+        name: the forest brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5502:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+            - mob
+          short: the wolf
+          sight: A wolf trots by, looking for a rabbit.
+      flag:
+      identity:
+        name: the wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5515:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arch-demon irgon
+            - mob
+          short: The Arch-Demon Irgon
+          sight: The Arch-Demon Irgon emerges from the shadows.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: The Arch-Demon Irgon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5502_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+            - mob5502_
+          short: the wolf
+          sight: a wolf trots by, looking for a rabbit.
+      flag:
+      identity:
+        name: the wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5505:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian demon
+            - mob
+          short: the guardian demon
+          sight: A shadowy form steps out of the mist.
+      flag:
+      identity:
+        name: the guardian demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5506:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye guardsman
+            - mob
+          short: The Graye guardsman
+          sight: The Graye guardsman is posted here.
+      flag:
+      identity:
+        name: The Graye guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5508_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minor demon
+            - mob5508_
+          short: the minor demon
+          sight: A minor demon jumps out of the shadows at you!
+      flag:
+      identity:
+        name: the minor demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5509_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - graye citizen
+            - mob5509_
+          short: The Graye Citizen
+          sight: >
+            A citizen of Graye rushes by here, looking over his shoulder.
+      flag:
+      identity:
+        name: The Graye Citizen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5505_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian demon
+            - mob5505_
+          short: the guardian demon
+          sight: A shadowy form steps out of the mist.
+      flag:
+      identity:
+        name: the guardian demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

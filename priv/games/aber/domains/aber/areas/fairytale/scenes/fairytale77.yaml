@@ -9,4 +9,4 @@ detail:
       and cold, and the sights are as chilling as the air. Skeletons lie randomly around the room, as though
       thrown around by some giant hand. Scraps of fabrics and jewelry are visible mixed with the bones.
 flag:
-  - nomobiles
+  - no-mobiles

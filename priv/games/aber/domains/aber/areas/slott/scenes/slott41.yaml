@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:slott:slott40"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:slott:slott19"
     short: Basement
     sight: >
       You find yourself standing in a small room. This room had been bigger but now the west wall has

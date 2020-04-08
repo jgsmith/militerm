@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:saxon:saxon6"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:saxon:saxon10"
     short: &+YGrand &+WEntrance&*
     sight: >
       To the south of you lies Heorot. This is the great mead hall of the Danish people, and Hrothgar's
@@ -12,5 +14,5 @@ detail:
       as you take in the site, but you still feel drawn to it.
 flag:
   - light
-  - nomobiles
+  - no-mobiles
   - outdoors

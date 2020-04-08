@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:abyss:plain"
       west:
         target: "scene:aber:church:silent"
     short: Old Bones

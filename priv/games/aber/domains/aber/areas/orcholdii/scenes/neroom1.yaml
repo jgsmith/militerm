@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:orcholdii:arch3"
     short: Bedroom
     sight: >
       You are amazed at the poor quality of the bedroom. It looks to be of the finest orcish make, that is to
@@ -10,4 +12,4 @@ detail:
       a surprisingly human manner all manner of &+Cclothes&* are strewn about the room. You have no idea which
       are clean and which not.
 flag:
-  - dark
+  - d-a-r-k

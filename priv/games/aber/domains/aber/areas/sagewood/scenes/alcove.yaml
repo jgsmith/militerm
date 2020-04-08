@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sagewood:cavern1"
     short: Dark Alcove
     sight: >
       The room seems to be centered around a small &+Bhole&* in the center of the stone floor. You have to

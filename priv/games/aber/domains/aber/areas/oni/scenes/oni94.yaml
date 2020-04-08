@@ -1,9 +1,11 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:oni:oni92"
     short: Prison Cell
     sight: >
       The prison cell is completely bare. Just the cold faces of the magically fortified stone walls.
 flag:
-  - cantsummon
+  - cant-summon

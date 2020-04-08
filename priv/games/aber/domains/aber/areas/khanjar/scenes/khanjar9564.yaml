@@ -12,5 +12,5 @@ detail:
       most of them black. Also you notice that the crater is full of small folk, everyone directing towards a
       structure of some kind further away to the east.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

@@ -3,12 +3,14 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9990"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna100"
     short: An east-west tunnel.
     sight: >
       This cramped little tunnel dead ends here at a huge &+yboulder&*. The only apparent exit seems to be
       back the way you came.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - private

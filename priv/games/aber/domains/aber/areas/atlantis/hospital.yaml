@@ -1,0 +1,405 @@
+groups:
+  atlantis48:
+    npcs:
+      merman: 1
+      ray: 1
+locations:
+  atlantis19:
+    npcs:
+      lobster: 1
+  atlantis22:
+    npcs:
+      puffer: 1
+  atlantis24:
+    npcs:
+      aquarian: 1
+  atlantis26:
+    npcs:
+      seacow: 1
+  atlantis30:
+    npcs:
+      merboy: 1
+  atlantis34:
+    npcs:
+      seadog: 1
+  atlantis36:
+    npcs:
+      urchin: 1
+  atlantis41:
+    npcs:
+      manatee: 1
+  atlantis44:
+    npcs:
+      emperess: 1
+  atlantis45:
+    npcs:
+      octopus: 1
+  atlantis46:
+    npcs:
+      shrimp: 1
+  atlantis47:
+    npcs:
+      speedy: 1
+  atlantis48:
+    groups:
+      atlantis48: 1
+  atlantis55:
+    npcs:
+      crab: 1
+  atlantis60:
+    npcs:
+      squid: 1
+  atlantis63:
+    npcs:
+      seaweed: 1
+  atlantis66:
+    npcs:
+      seaserpent: 1
+  atlantis71:
+    npcs:
+      seahorse: 1
+  atlantis9:
+    npcs:
+      school: 1
+npcs:
+  aquarian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aquarian
+          short: Aquarian
+          sight: >
+            Aquarian the Merman priest tends to the shrine of Poseidon.
+      flag:
+      identity:
+        name: Aquarian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crab
+          short: Crab
+          sight: >
+            A crotchety old Hermit Crab sits here, just wanting to be left alone.
+      flag:
+        - no-summon
+        - no-hassle
+      identity:
+        name: Crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  emperess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - emperess
+          short: Emperess
+          sight: >
+            The mermaid Emperess sits on her throne ruling over her aquatic subjects.
+      flag:
+        - no-summon
+        - no-hassle
+      identity:
+        name: Emperess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  lobster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lobster
+          short: Lobster
+          sight: A lobster hides in the kelp, ready to attack!
+      flag:
+      identity:
+        name: Lobster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  manatee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manatee
+          short: Manatee
+          sight: >
+            A large Manatee stands here, gawking at the sights of the Castle.
+      flag:
+      identity:
+        name: Manatee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  merboy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merboy
+          short: Merboy
+          sight: >
+            A small merchild is in bed ill...he doesn't like the sea.
+      flag:
+      identity:
+        name: Merboy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  merman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+          short: Merman
+          sight: >
+            A Merman is here taking reservations for the hotel.
+      flag:
+      identity:
+        name: Merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  octopus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - octopus
+          short: Octopus
+          sight: >
+            A gentle Octopus is taking a break from tending her garden.
+      flag:
+        - no-hassle
+      identity:
+        name: Octopus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  puffer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - puffer
+          short: Puffer
+          sight: >
+            A Puffer swells up in exasperation because you didn't return your library book!
+      flag:
+      identity:
+        name: Puffer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ray:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ray
+          short: Ray
+          sight: A blind Manta Ray is at the piano, singing blues.
+      flag:
+      identity:
+        name: Ray
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  school:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - school
+          short: School
+          sight: A school of brightly colored fish dart around you.
+      flag:
+      identity:
+        name: School
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seacow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seacow
+          short: SeaCow
+          sight: >
+            A large sea cow munches quietly on some of the kelp nearby.
+      flag:
+      identity:
+        name: SeaCow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seadog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seadog
+          short: Seadog
+          sight: >
+            An ole sea dog is here, sniffing along the ground for something to eat.
+      flag:
+      identity:
+        name: Seadog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seahorse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seahorse
+          short: Seahorse
+          sight: >
+            A small, oddly shaped, seahorse swims quietly in the passage.
+      flag:
+        - no-summon
+        - no-hassle
+      identity:
+        name: Seahorse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seaserpent:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seaserpent
+          short: Seaserpent
+          sight: >
+            A massive Sea Serpent appears to be trapped here and hasn't eaten in a while.
+      flag:
+      identity:
+        name: Seaserpent
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seaweed:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seaweed
+          short: Seaweed
+          sight: A large growth of seaweed blocks the passage here.
+      flag:
+      identity:
+        name: Seaweed
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shrimp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shrimp
+          short: Shrimp
+          sight: >
+            A shrimp moves around the garden mumbling 'I am NOT short!'.
+      flag:
+      identity:
+        name: Shrimp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  speedy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - speedy
+          short: Speedy
+          sight: >
+            Speedy Snail asks if you saw him leave and return as you walked in?
+      flag:
+      identity:
+        name: Speedy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squid
+          short: Squid
+          sight: An enormous Squid flails his tentacles at you.
+      flag:
+      identity:
+        name: Squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  urchin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - urchin
+          short: Urchin
+          sight: A scruffy-looking Sea Urchin is here begging.
+      flag:
+      identity:
+        name: Urchin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

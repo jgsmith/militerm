@@ -13,4 +13,4 @@ detail:
       treasures lie within it.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon15"
       south:
         target: "scene:aber:chlyon:chlyon12"
       west:

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fantasy:dcave16"
     short: Treasure Room
     sight: >
       Now you see what the monster was guarding all this time, a treasure room filled with many assorted

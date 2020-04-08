@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:kastle:13"
       north:
         target: "scene:aber:kastle:11"
     short: Snow Drift

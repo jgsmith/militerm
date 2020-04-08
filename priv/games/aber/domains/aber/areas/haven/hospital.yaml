@@ -1,0 +1,45 @@
+groups:
+  haven:
+    npcs:
+      applicant: 1
+      bard: 1
+locations:
+  haven:
+    groups:
+      haven: 1
+npcs:
+  applicant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - applicant
+          short: Applicant
+          sight: >
+            A doomed soul is here, filling out a massive pile of applications.
+      flag:
+      identity:
+        name: Applicant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bard
+          short: The Bard
+          sight: >
+            An ageless bard sits on a stool by the fire, strumming a mandolin and telling cryptic tales of
+            times long-past.
+      flag:
+      identity:
+        name: The Bard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

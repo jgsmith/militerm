@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:chess:chessqq03"
       south:
         target: "scene:aber:chess:chessqq01"
     short: The Furnished Chamber

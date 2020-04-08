@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter31"
       west:
         target: "scene:aber:enchanter:enchanter33"
     short: Edge of the Swamp
@@ -10,4 +12,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

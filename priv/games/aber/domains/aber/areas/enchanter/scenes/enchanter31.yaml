@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:enchanter:enchanter34"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter32"
       south:
         target: "scene:aber:enchanter:enchanter36"
       west:

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:nrose:treepath"
       south:
         target: "scene:aber:nrose:guardhouse"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nrose:windpath"
     short: Portcullis
     sight: >
       You are beneath an archway which serves as the entrance to what now appears to be a monastery built

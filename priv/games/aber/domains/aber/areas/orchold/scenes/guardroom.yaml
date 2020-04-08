@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:orchold:hallway1"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:orchold:observation"
       west:
         target: "scene:aber:orchold:trap"
     short: Orc Guardroom

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:grave:grave3452"
       south:
         target: "scene:aber:grave:grave3453"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:grave:grave3446"
     short: Beneath the Church
     sight: >
       Here is the final rally point for the undead hordes that overran the church. Laying in scattered piles

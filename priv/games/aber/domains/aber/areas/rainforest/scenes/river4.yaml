@@ -12,5 +12,5 @@ detail:
       thick to attempt a landing there.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

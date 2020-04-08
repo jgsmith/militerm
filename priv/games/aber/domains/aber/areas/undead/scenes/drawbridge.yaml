@@ -10,4 +10,4 @@ detail:
       guarded portcullis and to the &+Csouth&* lies safe dry land.
 flag:
   - outdoors
-  - nomobile
+  - no-mobile

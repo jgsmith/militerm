@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:jbs:secret7"
       south:
         target: "scene:aber:jbs:throne"
       west:

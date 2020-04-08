@@ -8,5 +8,5 @@ detail:
       Alongside this gentle brook is a soft, green bank. The brook itself gurgles happily, the water clear and
       sparkling. The trees which grow here are full of delicious fruit. The exit is to the south.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

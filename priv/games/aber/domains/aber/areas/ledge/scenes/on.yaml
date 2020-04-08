@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ledge:cavemouth"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ledge:steps"
     short: On The Ledge
     sight: >
       You are standing on a narrow ledge high up the side of some steep cliffs. The ledge continues west

@@ -22,7 +22,7 @@ detail:
       shimmering water out of a flask. As you reach forward to let the water fall over your hand, you feel a
       wave of calmness and joy wash over you.
 flag:
-  - nosnoop
-  - noat
+  - no-snoop
+  - no-at
   - private
   - party

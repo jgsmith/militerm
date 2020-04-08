@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:jbs:master"
       north:
         target: "scene:aber:jbs:hall"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:jbs:sbedroom"
     short: Top of the stairs
     sight: >
       This is the top of the stairs. You can go north or east, and there is a door to the south.

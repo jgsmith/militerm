@@ -1,0 +1,176 @@
+groups:
+locations:
+  camelot104@camelot:
+    npcs:
+      moor: 1
+  crystalcave10:
+    npcs:
+      asp: 1
+  crystalcave12:
+    npcs:
+      sphinx: 1
+  crystalcave3:
+    npcs:
+      burrower: 1
+  crystalcave5:
+    npcs:
+      archaeologist: 1
+  crystalcave8:
+    npcs:
+      tunnelrat: 1
+  nibelung35@nibelung:
+    npcs:
+      chimera: 1
+  swamp5@abyss:
+    npcs:
+      willie: 1
+npcs:
+  archaeologist:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archaeologist
+          short: archaeologist
+          sight: >
+            A sight-less man in ragged clothes sits here, his face reflecting that all hope is lost.
+      flag:
+        - no-zap
+        - no-exo
+      identity:
+        name: archaeologist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asp
+          short: asp
+          sight: A hissing, &+gvenomous&N asp slithers here.
+      flag:
+      identity:
+        name: asp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  burrower:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - burrower
+          short: burrower
+          sight: >
+            A cute, furry ball of &+Wfluff&N rolls aimlessly here.
+      flag:
+      identity:
+        name: burrower
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chimera:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chimera
+          short: chimera
+          sight: A mighty Chimera eyes you hungrily.
+      flag:
+        - fireball
+        - shock
+        - imm-fireball
+        - imm-shock
+        - no-zap
+        - no-exo
+      identity:
+        name: chimera
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  moor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moor
+          short: moor
+          sight: >
+            A moor searching for a great wizard eyes you suspiciously.
+      flag:
+        - no-zap
+        - no-exo
+      identity:
+        name: moor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sphinx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sphinx
+          short: sphinx
+          sight: >
+            An intricately carved statue of a sphinx sits here.
+      flag:
+        - no-zap
+        - no-exo
+      identity:
+        name: sphinx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tunnelrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tunnelrat
+          short: tunnelrat
+          sight: >
+            A large, ugly rat with &+Lblack&N, beady eyes is crouched here.
+      flag:
+      identity:
+        name: tunnelrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  willie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - one eyed willie
+            - willie
+          short: One Eyed Willie
+          sight: >
+            One Eyed Willie, the scourge of the seven seas lurks here.
+      flag:
+        - imm-fireball
+        - imm-shock
+      identity:
+        name: One Eyed Willie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

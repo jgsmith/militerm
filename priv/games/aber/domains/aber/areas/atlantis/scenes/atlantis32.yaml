@@ -14,5 +14,5 @@ detail:
       indicates that they obtain air for them from above the waves and that the animals are treated well. A
       sign indicates that there are more creatures to the west or you may step back outside.
 flag:
-  - underwater
-  - nomobiles
+  - under-water
+  - no-mobiles

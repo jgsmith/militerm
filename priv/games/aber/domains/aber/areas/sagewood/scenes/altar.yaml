@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:sagewood:gloom"
       east:
         target: "scene:aber:sagewood:portal1"
       west:

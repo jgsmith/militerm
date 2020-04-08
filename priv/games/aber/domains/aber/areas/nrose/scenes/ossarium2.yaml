@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:nrose:ossarium"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:nrose:churchaltar"
     short: Ossarium
     sight: >
       You have entered the monastery ossarium. The room has bones stacked up everywhere, some in niches dug
@@ -13,4 +15,4 @@ detail:
       ossarium.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

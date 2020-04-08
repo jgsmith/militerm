@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:atlantis:atlantis18"
       south:
         target: "scene:aber:atlantis:atlantis20"
       west:
@@ -13,4 +15,4 @@ detail:
       Thick growths of the plant form dense walls to the north and east, and seem only slightly less dense to
       the west and south.
 flag:
-  - underwater
+  - under-water

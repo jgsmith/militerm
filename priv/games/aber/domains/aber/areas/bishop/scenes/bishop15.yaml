@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:bishop:bishop18"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:bishop:bishop14"
       up:
         target: "scene:aber:bishop:bishop16"
     short: Front Room

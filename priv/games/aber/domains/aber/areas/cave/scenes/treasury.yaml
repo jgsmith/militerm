@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:cave:top_east"
     short: The Treasury
     sight: >
       You are standing in the dwarven treasury. A large and very well protected room that few are privileged

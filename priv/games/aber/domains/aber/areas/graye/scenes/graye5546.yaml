@@ -3,10 +3,12 @@ detail:
     exits:
       north:
         target: "scene:aber:graye:graye5547"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:graye:graye5544"
     short: The Tunnel
     sight: >
       The tunnel has a bare dirt floor, and its sides are of rough-hewn rock. Magical &+Ytorches&* are set in
       each side of the tunnel wall, providing light.
 flag:
-  - nomobiles
+  - no-mobiles

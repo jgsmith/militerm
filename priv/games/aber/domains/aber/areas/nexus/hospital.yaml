@@ -1,0 +1,631 @@
+groups:
+  nexus20:
+    npcs:
+      bee: 1
+      chipmunk1: 1
+      chipmunk2: 1
+      deer: 1
+      ent: 1
+      fatbird: 1
+      fox: 1
+      mosquitoes: 1
+      swarm: 1
+  nexus45:
+    npcs:
+      crab: 1
+      lobster: 1
+  nexus72:
+    npcs:
+      bagofwind: 1
+      minion2: 1
+      minion3: 1
+      minion4: 1
+      minion5: 1
+      moldy: 1
+      troutmonster: 1
+locations:
+  nexus10:
+    npcs:
+      snake3: 1
+  nexus14:
+    npcs:
+      skeleton: 1
+  nexus16:
+    npcs:
+      fisherman: 1
+  nexus20:
+    groups:
+      nexus20: 1
+  nexus3:
+    npcs:
+      snake1: 1
+  nexus36:
+    npcs:
+      wizardess: 1
+  nexus37:
+    npcs:
+      rockqueen: 1
+  nexus45:
+    groups:
+      nexus45: 1
+  nexus50:
+    npcs:
+      slug: 1
+  nexus57:
+    npcs:
+      screwball: 1
+  nexus66:
+    npcs:
+      minnow: 1
+  nexus67:
+    npcs:
+      whale: 1
+  nexus69:
+    npcs:
+      minion1: 1
+  nexus7:
+    npcs:
+      snake2: 1
+  nexus71:
+    npcs:
+      quaron: 1
+  nexus72:
+    groups:
+      nexus72: 1
+npcs:
+  bagofwind:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bag o wind
+            - bagofwind
+          short: Bag O Wind
+          sight: >
+            A large airhead floats before you, full of useless wisdom.
+      flag:
+        - no-hassle
+        - no-steal
+        - no-magic
+      identity:
+        name: Bag O Wind
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bloated bee
+            - bee
+          short: Bloated Bee
+          sight: Words fail as you spot a bloated bee.
+      flag:
+      identity:
+        name: Bloated Bee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chipmunk1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - klathox
+            - chipmunk
+          short: Klathox
+          sight: >
+            Klathox the chipmunk has gone rabid in his senility.
+      flag:
+      identity:
+        name: Klathox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chipmunk2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - renwad
+            - chipmunk
+          short: Renwad
+          sight: >
+            Renwad the chipmunk somersaults down a nearby tree.
+      flag:
+      identity:
+        name: Renwad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crab
+          short: Crab
+          sight: >
+            A crab crawls across the ground, attemping to nab your toe!
+      flag:
+      identity:
+        name: Crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  deer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deer
+          short: Deer
+          sight: A well-muscled deer whips by you.
+      flag:
+      identity:
+        name: Deer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ent:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redwood ent
+            - ent
+          short: Redwood Ent
+          sight: >
+            One tree is very out of place here. Redwood Ent stands defiantly.
+      flag:
+        - no-steal
+      identity:
+        name: Redwood Ent
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fatbird:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fatbird
+          short: Fatbird
+          sight: A rather fat bird attempts to poke your eyes out!
+      flag:
+        - blind
+      identity:
+        name: Fatbird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fisherman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fisherman
+          short: Fisherman
+          sight: >
+            A fisherman tries out his new pole and curses his ill luck.
+      flag:
+        - no-hassle
+        - no-steal
+        - no-magic
+      identity:
+        name: Fisherman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fox
+          short: Fox
+          sight: >
+            This quick &+Bblue &*fox couldn't jump if it wanted to.
+      flag:
+      identity:
+        name: Fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lobster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lobster
+          short: Lobster
+          sight: >
+            A rather symmetrical lobster crawls across the ground.
+      flag:
+      identity:
+        name: Lobster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skaraug
+            - minion
+          short: Skaraug
+          sight: >
+            One of Quaron's minions, a scaly, orange reptile, has decided to pay you a visit. Skaraug has
+            determined your livingness is just plain wrong.
+      flag:
+      identity:
+        name: Skaraug
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maestro
+            - minion
+          short: Maestro
+          sight: >
+            The decomposing conductor Maestro waves his baton at you.
+      flag:
+      identity:
+        name: Maestro
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alberto
+            - minion
+          short: Alberto
+          sight: >
+            Alberto the wind spirit is going to huff and puff and blow you down!
+      flag:
+      identity:
+        name: Alberto
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hexnogon
+            - minion
+          short: Hexnogon
+          sight: >
+            The maintainence man of torture is going to grease his machines with you. Hexnogon adjusts his
+            tool belt and sneers at you.
+      flag:
+      identity:
+        name: Hexnogon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - riffraff
+            - minion
+          short: Riffraff
+          sight: >
+            An aquamarine-skinned spawn of the deep, Riffraff, is here to defend its master.
+      flag:
+      identity:
+        name: Riffraff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minnow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - magma minnow
+            - minnow
+          short: Magma Minnow
+          sight: >
+            A small minnow made out of pure molten rock swims toward you.
+      flag:
+        - imm-bhands
+        - imm-fireball
+        - fear-icestorm
+      identity:
+        name: Magma Minnow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moldy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mold monster
+            - moldy
+          short: Mold Monster
+          sight: >
+            The thick arms of Mold Monster attempt to rot your pristine throat.
+      flag:
+        - missile
+      identity:
+        name: Mold Monster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mosquitoes:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mosquitoes
+          short: The Mosquitoes
+          sight: >
+            A swarm of mosquitoes quickly sink their shnozzes into you.
+      flag:
+      identity:
+        name: The Mosquitoes
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quaron:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quaron
+          short: Quaron
+          sight: The demon lord Quaron awaits his next slave.
+      flag:
+      identity:
+        name: Quaron
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rockqueen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rockqueen
+          short: Rockqueen
+          sight: >
+            Grand Poomba Rockqueen of the rock stares sullenly at your mug.
+      flag:
+        - no-steal
+      identity:
+        name: Rockqueen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  screwball:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - screwball
+          short: Screwball
+          sight: A lanky Screwball failing at life is here.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Screwball
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skeleton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+          short: Skeleton
+          sight: >
+            Slurking about is a skeleton with a still-beating heart.
+      flag:
+      identity:
+        name: Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slug:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slug
+          short: Slug
+          sight: >
+            There is a slug of inordinate size here. It is immune to salt.
+      flag:
+      identity:
+        name: Slug
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: >
+            A crystalline snake attempts to serrate you quite painfully.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: >
+            A crystalline snake attempts to serrate you quite painfully.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: >
+            A thick crystalline snake attempts to sleep soundly.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swarm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swarm
+          short: Swarm
+          sight: A swarm of gnats buzzes angrily around you.
+      flag:
+      identity:
+        name: Swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  troutmonster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - troutmonster
+          short: Troutmonster
+          sight: >
+            Never fear! Troutmonster and all its teeth are here!
+      flag:
+      identity:
+        name: Troutmonster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  whale:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - magma whale
+            - whale
+          short: Magma Whale
+          sight: The shadow of a bulky whale looms over you.
+      flag:
+        - imm-bhands
+        - imm-fireball
+        - fear-ice-storm
+      identity:
+        name: Magma Whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wizardess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wizardess
+          short: Wizardess
+          sight: >
+            A wizardess of the earth tries to become one with nature.
+      flag:
+        - frost
+        - missile
+      identity:
+        name: Wizardess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

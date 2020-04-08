@@ -21,7 +21,7 @@ detail:
       place of residence you can recognize. It reminds you of familiar houses at home, except that it is made
       of metal.
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

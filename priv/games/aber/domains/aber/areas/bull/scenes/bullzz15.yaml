@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:bull:bullzz18"
       up:
         target: "scene:aber:bull:bullzz17"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:bull:bullzz14"
     short: The Upper Temple
     sight: >
       You find yourself atop a flight of stairs. A sturdy oak door is to the west, a corridor leads south, and

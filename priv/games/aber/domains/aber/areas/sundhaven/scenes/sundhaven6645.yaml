@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:sundhaven:sundhaven6640"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6721"
     short: The west gate of Sundhaven
     sight: >
       An ornate gate, heavy and wrought from black iron, hangs on ancient hinges to the west, bordered by

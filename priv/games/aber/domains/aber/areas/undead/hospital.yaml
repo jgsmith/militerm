@@ -1,0 +1,1716 @@
+groups:
+  courtyard8:
+    npcs:
+      s_warriorg5: 1
+      s_warriorg6: 1
+  forest_path4:
+    npcs:
+      mercenary1: 1
+      mercenary2: 1
+      mercenary3: 1
+      mercenary4: 1
+  larder1:
+    npcs:
+      s_rat10b: 1
+      s_rat11b: 1
+      s_rat12b: 1
+      s_rat1b: 1
+      s_rat2b: 1
+      s_rat3b: 1
+      s_rat4b: 1
+      s_rat5b: 1
+      s_rat6b: 1
+      s_rat7b: 1
+      s_rat8b: 1
+      s_rat9b: 1
+  moss_maze7:
+    npcs:
+      mist_leader: 1
+      mist_lion1: 1
+      mist_lion3: 1
+      mist_lion4: 1
+  personalhella:
+    npcs:
+      hellhound1: 1
+      hellhound2: 1
+      hellhound666: 1
+      hellhound667: 1
+  portcullis:
+    npcs:
+      s_warriorg1: 1
+      s_warriorg2: 1
+  throneroom:
+    npcs:
+      akoo: 1
+      undead_king: 1
+  waitingroom:
+    npcs:
+      hydra1: 1
+      hydra10: 1
+      hydra11: 1
+      hydra2: 1
+      hydra3: 1
+      hydra4: 1
+      hydra5: 1
+      hydra6: 1
+      hydra7: 1
+      hydra8: 1
+      hydra9: 1
+locations:
+  secretpassage1:
+    npcs:
+      s_guard: 1
+  stony_path13:
+    npcs:
+      s_warrior5: 1
+  battlements8:
+    npcs:
+      s_warriorg7: 1
+  personalhell2:
+    npcs:
+      nightmare2: 1
+  personalhella:
+    groups:
+      personalhella: 1
+  personalhell4:
+    npcs:
+      nightmare4: 1
+  personalhell9:
+    npcs:
+      nightmare9: 1
+  corn_field1:
+    npcs:
+      corn_field_crow: 1
+  larder1:
+    groups:
+      larder1: 1
+  swamp_land1:
+    npcs:
+      s_rat6: 1
+  personalhell7:
+    npcs:
+      nightmare7: 1
+  stony_path6:
+    npcs:
+      u_gator1: 1
+  swamp_land3:
+    npcs:
+      s_rat4: 1
+  dungeon4:
+    npcs:
+      prisonguard: 1
+  waitingroom:
+    groups:
+      waitingroom: 1
+  courtyard8:
+    groups:
+      courtyard8: 1
+  moss_maze7:
+    groups:
+      moss_maze7: 1
+  swamp_land5:
+    npcs:
+      s_rat2: 1
+  swamp_land2:
+    npcs:
+      s_rat5: 1
+  courtyard1:
+    npcs:
+      s_warriorg3: 1
+  swamp_land4:
+    npcs:
+      s_rat3: 1
+  portcullis:
+    groups:
+      portcullis: 1
+  stony_path20:
+    npcs:
+      s_warrior2: 1
+  forest_path4:
+    groups:
+      forest_path4: 1
+  personalhell3:
+    npcs:
+      nightmare3: 1
+  stony_path17:
+    npcs:
+      s_warrior6: 1
+  stony_path8:
+    npcs:
+      s_warrior4: 1
+  personalhell8:
+    npcs:
+      nightmare8: 1
+  personalhell6:
+    npcs:
+      lucifer: 1
+  stony_path11:
+    npcs:
+      u_gator2: 1
+  battlements3:
+    npcs:
+      s_warriorg8: 1
+  stony_path4:
+    npcs:
+      s_warrior3: 1
+  dungeon5:
+    npcs:
+      amanda: 1
+  forest_path2:
+    npcs:
+      m_golem: 1
+  throneroom:
+    groups:
+      throneroom: 1
+  moss_maze6:
+    npcs:
+      mist_lion2: 1
+  courtyard3:
+    npcs:
+      s_warriorg4: 1
+  mountain_path2:
+    npcs:
+      m_giant: 1
+  stony_path1:
+    npcs:
+      s_warrior1: 1
+  personalhell5:
+    npcs:
+      nightmare5: 1
+  stony_path15:
+    npcs:
+      u_gator3: 1
+  swamp_land6:
+    npcs:
+      s_rat1: 1
+npcs:
+  s_warriorg4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal tiger
+            - s_warriorg
+          short: Skeletal Tiger
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a young tiger charge at you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Tiger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corn_field_crow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+            - corn_field_crow
+          short: Crow
+          sight: >
+            A lonely little &+Rcrow&* sits here looking at you with sad, pathetic eyes.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Crow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_warrior6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - s_warrior
+          short: Skeleton
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat12b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat12b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hellhound2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hound
+            - hellhound
+          short: Hound
+          sight: >
+            A large &+Rhellhound&* all muscle and sinew sits here, alert and waiting.
+      flag:
+      identity:
+        name: Hound
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat6b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat6b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hydra6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - ice-storm
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mist_leader:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - natashia
+            - mist_leader
+          short: Natashia
+          sight: >
+            &+RNatashia&* charges at you from the mist, her pride of mist lions hard on her heels.
+      flag:
+        - fireball
+        - frost
+        - no-zap
+        - no-summon
+        - no-magic
+        - no-exorcise
+      identity:
+        name: Natashia
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  u_gator1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+            - u_gator
+          short: Alligator
+          sight: >
+            A grotesque rotting &+Ralligator&* roars at you from the moat.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat2b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat2b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hydra7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - cripple
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat10b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat10b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat9b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat9b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hydra2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - frost
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightmare8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+RDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  u_gator2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+            - u_gator
+          short: Alligator
+          sight: >
+            A grotesque rotting &+Ralligator&* whimpers pathetically at you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warrior5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - s_warrior
+          short: Skeleton
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  undead_king:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - king
+            - undead_king
+          short: King
+          sight: &+RThe Undead King&* is here.
+      flag:
+        - neg-fire-ball
+        - neg-shock
+        - no-zap
+        - no-exorcise
+        - no-alias
+      identity:
+        name: King
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - mute
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat5b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat5b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  prisonguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tinkerbell
+            - prisonguard
+          short: Tinkerbell
+          sight: A large muscular woman eyes you hungrily.
+      flag:
+      identity:
+        name: Tinkerbell
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mercenary4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spooky
+            - mercenary
+          short: Spooky
+          sight: >
+            &+RSpooky&* the scribe, stands here casting an eye around nervously.
+      flag:
+        - missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Spooky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  m_giant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant
+            - m_giant
+          short: Giant
+          sight: A thirty foot tall &+Rgiant&* looms above you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Giant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mist_lion4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lion
+            - mist_lion
+          short: Lion
+          sight: The &+RLion&* pounces at you from the mist.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - blind
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mist_lion1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lion
+            - mist_lion
+          short: Lion
+          sight: The &+RLion&* pounces at you from the mist.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mercenary3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giovanna
+            - mercenary
+          short: Giovanna
+          sight: >
+            &+RGiovanna,&* the &+Yelven&* princess stands here.
+      flag:
+        - no-zap
+        - no-exorcise
+        - no-magic
+      identity:
+        name: Giovanna
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nightmare7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+RDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal ogre
+            - s_guard
+          short: Skeletal Ogre
+          sight: >
+            The &+Rskeletal&* remains of a huge ogre patrol here.
+      flag:
+        - neg-fireball
+        - neg-frost
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Ogre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightmare4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+YDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warrior4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal warrior
+            - s_warrior
+          short: Skeletal Warrior
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightmare5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+YDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warriorg8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal cheetah
+            - s_warriorg
+          short: Skeletal Cheetah
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a cheetah patrolling here.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Cheetah
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat1b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat1b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hellhound666:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hound
+            - hellhound
+          short: Hound
+          sight: >
+            A large hell &+Rhound&* all muscle and sinew watches you carefully.
+      flag:
+        - no-magic
+      identity:
+        name: Hound
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mist_lion3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lion
+            - mist_lion
+          short: Lion
+          sight: The &+RLion&* pounces at you from the mist.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mist_lion2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lion
+            - mist_lion
+          short: Lion
+          sight: The &+RLion&* pounces at you from the mist.
+      flag:
+      identity:
+        name: Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  u_gator3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+            - u_gator
+          short: Alligator
+          sight: >
+            A grotesque rotting &+Ralligator&* roars at you from the moat.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  m_golem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golem
+            - m_golem
+          short: Golem
+          sight: >
+            A huge &+Rgolem&*, dripping mud, stands here barring all further progress.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Golem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightmare2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+YDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warriorg7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal cheetah
+            - s_warriorg
+          short: Skeletal Cheetah
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a cheetah patrolling here.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Cheetah
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hydra1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - fireball
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warrior2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal warrior
+            - s_warrior
+          short: Skeletal Warrior
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  akoo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - akoo
+          short: Akoo
+          sight: >
+            The mighty &+RAkoo P Mai&* stands here guarding her master.
+      flag:
+      identity:
+        name: Akoo
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_warriorg2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal unicorn
+            - s_warriorg
+          short: Skeletal Unicorn
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a baby unicorn here.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Unicorn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightmare3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+RDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warriorg6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal tiger
+            - s_warriorg
+          short: Skeletal Tiger
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a mature male Bengal tiger.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Tiger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hellhound667:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hound
+            - hellhound
+          short: Hound
+          sight: >
+            A large hell &+Rhound&* all muscle and sinew watches you carefully.
+      flag:
+        - no-magic
+      identity:
+        name: Hound
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hydra8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - deaf
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - v-touch
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mercenary2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - khaos
+            - mercenary
+          short: Khaos
+          sight: >
+            &+RKhaos&*, the &+Yledgendary&* warrior stands here.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Khaos
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat8b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat8b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  lucifer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucifer
+          short: Lucifer
+          sight: >
+            A handsome young man wearing a smart red suit, smiles at you quizzically.
+      flag:
+        - neg-fire-ball
+        - no-exorcise
+        - no-zap
+        - no-alias
+      identity:
+        name: Lucifer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warriorg1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal gorilla
+            - s_warriorg
+          short: Skeletal Gorilla
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a gorilla here.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Gorilla
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hellhound1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hound
+            - hellhound
+          short: Hound
+          sight: >
+            A large &+Rhellhound&* all muscle and sinew sits here, alert and waiting.
+      flag:
+      identity:
+        name: Hound
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat11b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat11b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_rat7b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat7b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_warrior3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal warrior
+            - s_warrior
+          short: Skeletal Warrior
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat3b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat3b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_warriorg3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal lion
+            - s_warriorg
+          short: Skeletal Lion
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a lion charge at you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mercenary1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grenfield
+            - mercenary
+          short: Grenfield
+          sight: &+RGrenfield&*, master necromancer, stands here.
+      flag:
+        - missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Grenfield
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hydra11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hydra
+          short: Hydra
+          sight: The head of the &+Rhydra&* snaps at you viciously.
+      flag:
+        - bhands
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Hydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_warriorg5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal tiger
+            - s_warriorg
+          short: Skeletal Tiger
+          sight: >
+            You see the hideous &+Rskeletal&* remains of a mature female Bengal tiger.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Tiger
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  amanda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - amanda
+          short: Amanda
+          sight: >
+            A beautiful young &+Relven girl&* lies here in a pool of blood.
+      flag:
+      identity:
+        name: Amanda
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  s_warrior1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal warrior
+            - s_warrior
+          short: Skeletal Warrior
+          sight: >
+            You see a hideous &+Rskeletal&* warrior who seems in no mood for conversation.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swamp rat
+            - s_rat
+          short: Swamp Rat
+          sight: A vicious, diseased swamp &+Rrat&* attacks you.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Swamp Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  s_rat4b:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletal rat
+            - s_rat4b
+          short: Skeletal Rat
+          sight: >
+            The &+Rskeletal&* remains of a large rat attack you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-shock
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Skeletal Rat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nightmare9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightmare
+          short: Nightmare
+          sight: >
+            &+RDarkness and shadow swirls as it slowly transforms to your worst &+Rnightmare&*.
+      flag:
+      identity:
+        name: Nightmare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

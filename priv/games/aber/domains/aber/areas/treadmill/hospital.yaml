@@ -1,0 +1,437 @@
+groups:
+  tread1:
+    npcs:
+      crashd: 1
+      demwitt: 1
+      joe: 1
+      lagmonster: 1
+      lawyer: 1
+      linkdeath: 1
+  tread2:
+    npcs:
+      madman: 1
+      serpentina: 1
+      speed: 1
+  tread3:
+    npcs:
+      horseman: 1
+      wacko: 1
+      zerocks: 1
+  tread4:
+    npcs:
+      lamebrain: 1
+      xiphoid: 1
+  tread5:
+    npcs:
+      goofball: 1
+      visitant: 1
+  tread7:
+    npcs:
+      idiot: 1
+      kleptomaniac: 1
+  tread8:
+    npcs:
+      badcop: 1
+      bursar: 1
+      greek: 1
+locations:
+  tread1:
+    groups:
+      tread1: 1
+  tread2:
+    groups:
+      tread2: 1
+  tread3:
+    groups:
+      tread3: 1
+  tread4:
+    groups:
+      tread4: 1
+  tread5:
+    groups:
+      tread5: 1
+  tread6:
+    npcs:
+      maniac: 1
+  tread7:
+    groups:
+      tread7: 1
+  tread8:
+    groups:
+      tread8: 1
+npcs:
+  badcop:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bad cop
+            - badcop
+          short: The Bad Cop
+          sight: >
+            One of your city's least finest stands here snacking on donuts.
+      flag:
+      identity:
+        name: The Bad Cop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bursar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bursar
+          short: The Bursar
+          sight: >
+            The Bursar is here demanding you pay up on all the debt you've racked up since you've started
+            college!
+      flag:
+      identity:
+        name: The Bursar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crashd:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crashd
+          short: Crashd
+          sight: >
+            Crashd the demon walks by with a large fender twisted around his neck.
+      flag:
+      identity:
+        name: Crashd
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demwitt:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demwitt
+          short: Demwitt
+          sight: >
+            Demwitt the terrorist is here, looking to skewer you with a sword.
+      flag:
+      identity:
+        name: Demwitt
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goofball:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goofball
+          short: Goofball
+          sight: >
+            A total goofball terrorist is here, looking for someone to terrorize.
+      flag:
+      identity:
+        name: Goofball
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  greek:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - greek
+          short: The Greek
+          sight: >
+            A Greek man runs toward you shouting 'Stop playing that MUD NOW!!!'
+      flag:
+      identity:
+        name: The Greek
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  horseman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - headless horseman
+            - horseman
+          short: The Headless Horseman
+          sight: >
+            &+RGalloping toward you on horseback...someone with a pumpkin on his head &+Rdraws his sword to
+            chop your head off!
+      flag:
+      identity:
+        name: The Headless Horseman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  idiot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - babbling idiot
+            - idiot
+          short: The Babbling Idiot
+          sight: The babbling idiot is here, babbling on and on...
+      flag:
+      identity:
+        name: The Babbling Idiot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  joe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - joe
+          short: Joe
+          sight: >
+            An out of work camel trots by you, smoke emminating from its body.
+      flag:
+      identity:
+        name: Joe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kleptomaniac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kleptomaniac
+          short: Kleptomaniac
+          sight: >
+            An obsessed thief tries to take everything not nailed down.
+      flag:
+      identity:
+        name: Kleptomaniac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lagmonster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lagmonster
+          short: Lagmonster
+          sight: >
+            The hideous Lagmonster is here, trying to slow you down to a stop!
+      flag:
+      identity:
+        name: Lagmonster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lamebrain:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lamebrain
+          short: Lamebrain
+          sight: >
+            Another lamebrain terrorist is here, screaming his fanatical rhetoric.
+      flag:
+      identity:
+        name: Lamebrain
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lawyer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "devil's advocate"
+            - lawyer
+          short: "Devil's Advocate"
+          sight: >
+            A lawyer is here, trying to sue God for the devil's release from hell.
+      flag:
+      identity:
+        name: "Devil's Advocate"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  linkdeath:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - linkdeath
+          short: Linkdeath
+          sight: >
+            The hideous Linkdeath is here, with a torn off cord in his hand.
+      flag:
+      identity:
+        name: Linkdeath
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  madman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - madman
+          short: Madman
+          sight: >
+            Madman the terrorist is here, lighting bombs behind your shoes.
+      flag:
+      identity:
+        name: Madman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maniac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maniac
+          short: Maniac
+          sight: >
+            A maniacal cold-blooded killer has come to spread terror all over the world.
+      flag:
+      identity:
+        name: Maniac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  serpentina:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - serpentina
+          short: Serpentina
+          sight: A woman is here trying to find leaders to seduce.
+      flag:
+      identity:
+        name: Serpentina
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  speed:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - speed
+          short: Speed
+          sight: A speed demon zooms by you.
+      flag:
+        - imm-cripple
+      identity:
+        name: Speed
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  visitant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - visitant
+          short: Visitant
+          sight: You feel there is a visitant lurking nearby.
+      flag:
+      identity:
+        name: Visitant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wacko:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wacko
+          short: Wacko
+          sight: >
+            The terrorist Wacko is here, acting like a complete wacko.
+      flag:
+      identity:
+        name: Wacko
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  xiphoid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xiphoid
+          short: Xiphoid
+          sight: A figure having the shape of a sword approaches.
+      flag:
+      identity:
+        name: Xiphoid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zerocks:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zerocks
+          short: Zerocks
+          sight: A little imp is here copying all that you do.
+      flag:
+      identity:
+        name: Zerocks
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

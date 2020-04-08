@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cathedral:n_aisle1"
     short: Trap Door
     sight: >
       As you exit the cathedral, the door slams shut, and its heavy bolts fall into place. You can hardly see

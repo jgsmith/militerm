@@ -10,4 +10,4 @@ detail:
       A score of soldiers hurry past you to help repair the broken egg, humpty Dumpty. A few of them stop to
       harass you. The path goes east and west.
 flag:
-  - nomobiles
+  - no-mobiles

@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      east: null
+      down:
+        guarded: true
+        target: "scene:aber:eirias:vaulted"
+      east:
+        guarded: true
+        target: "scene:aber:eirias:gallery"
       up:
         target: "scene:aber:eirias:balustrade"
     short: Staircase

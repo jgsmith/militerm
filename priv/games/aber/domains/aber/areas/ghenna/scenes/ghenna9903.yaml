@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9912"
       north:
         target: "scene:aber:ghenna:ghenna9901"
       south:

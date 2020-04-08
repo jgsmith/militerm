@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northwest:
+        target: "scene:aber:enchanter:enchanter7"
+      southeast:
         target: "scene:aber:enchanter:enchanter14"
     short: Still on the Road
     sight: >
@@ -9,4 +11,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

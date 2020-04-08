@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon21"
       west:
         target: "scene:aber:pensalon:pensalon23"
     short: Under the Throne
@@ -12,4 +14,4 @@ detail:
       passage widens.
 flag:
   - dark
-  - oneperson
+  - one-person

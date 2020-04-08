@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter25"
     short: Treasure Room
     sight: >
       The light streaming through the open window casts a million reflections in here. You gaze in awe at the

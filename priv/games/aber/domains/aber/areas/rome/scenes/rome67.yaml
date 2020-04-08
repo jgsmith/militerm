@@ -11,6 +11,6 @@ detail:
       your body as you look East into the desert that Rome has conquered. This looks like a safe place to rest
       before starting into one of the power and dangerous cities ever to exist.
 flag:
-  - nomobiles
+  - no-mobiles
   - peace
   - outdoors

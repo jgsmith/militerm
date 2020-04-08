@@ -1,0 +1,151 @@
+groups:
+  mithdan69:
+    npcs:
+      druid: 1
+      druid2: 1
+locations:
+  mithdan24:
+    npcs:
+      snowcritter: 1
+  mithdan3:
+    npcs:
+      earth_elemental: 1
+  mithdan40:
+    npcs:
+      red_dragon: 1
+  mithdan47:
+    npcs:
+      beast: 1
+  mithdan69:
+    groups:
+      mithdan69: 1
+  mithdan74:
+    npcs:
+      beauty: 1
+npcs:
+  beast:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beast
+          short: Beast
+          sight: >
+            An immense beast, a living combination of fire and ice, stands before you.
+      flag:
+        - nosteal
+      identity:
+        name: Beast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beauty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - woman
+            - beauty
+          short: woman
+          sight: >
+            A beautiful woman sits on the edge of the fountain, sunning herself.
+      flag:
+      identity:
+        name: woman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  druid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - druid
+          short: Druid
+          sight: >
+            A druid wanders the town, his face concealed by a deep cowl.
+      flag:
+      identity:
+        name: Druid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  druid2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - druid
+          short: Druid
+          sight: >
+            A druid wanders the town, his face concealed by a deep cowl.
+      flag:
+      identity:
+        name: Druid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  earth_elemental:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elemental
+            - earth_elemental
+          short: Elemental
+          sight: >
+            On the edge of your vision a graceful but immensely huge earth elemental slips among the trees.
+      flag:
+      identity:
+        name: Elemental
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  red_dragon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red dragon
+            - red_dragon
+          short: Red Dragon
+          sight: >
+            A huge red dragon settles down and wraps itself around the fountain. Although it looks very calm,
+            you remember the old addage 'Let Sleeping Dragons Lie' and decide that it is a good idea not to
+            irratate it.
+      flag:
+      identity:
+        name: Red Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snowcritter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - critter
+            - snowcritter
+          short: Critter
+          sight: >
+            A creature with glowing red eyes and snow-white fur snarls and leaps at you!
+      flag:
+      identity:
+        name: Critter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:eosia:eosia14"
     short: "The Royal Council's Chambers"
     sight: >
       This room looks like it has been used a lot recently. This is where the Royal governing council of

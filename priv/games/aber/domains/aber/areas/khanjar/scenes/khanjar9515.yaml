@@ -12,5 +12,5 @@ detail:
       As the path finds its way through the forest it sometimes becomes very narrow, wriggling by the side of
       some large stones. Passing by a wagon of any kind would be impossible. To the east grows dense thicket.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

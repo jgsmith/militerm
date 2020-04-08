@@ -1,0 +1,451 @@
+groups:
+  pyramid26:
+    npcs:
+      assistant: 1
+      mummy: 1
+  pyramid7:
+    npcs:
+      dustdevil: 1
+      sandant3: 1
+  pyramid9:
+    npcs:
+      nomad: 1
+      sandant4: 1
+locations:
+  pyramid14:
+    npcs:
+      streetthief: 1
+  pyramid15:
+    npcs:
+      hawker: 1
+  pyramid16:
+    npcs:
+      haremdancer: 1
+  pyramid2:
+    npcs:
+      trader: 1
+  pyramid20:
+    npcs:
+      slave: 1
+  pyramid21:
+    npcs:
+      neferteri: 1
+  pyramid22:
+    npcs:
+      tombrobber: 1
+  pyramid26:
+    groups:
+      pyramid26: 1
+  pyramid27:
+    npcs:
+      physician: 1
+  pyramid29:
+    npcs:
+      sultan: 1
+  pyramid3:
+    npcs:
+      sandant1: 1
+  pyramid30:
+    npcs:
+      handmaiden: 1
+  pyramid31:
+    npcs:
+      ocelot: 1
+  pyramid32:
+    npcs:
+      horus: 1
+  pyramid4:
+    npcs:
+      sandworm: 1
+  pyramid5:
+    npcs:
+      camel: 1
+  pyramid7:
+    groups:
+      pyramid7: 1
+  pyramid8:
+    npcs:
+      sandant2: 1
+  pyramid9:
+    groups:
+      pyramid9: 1
+npcs:
+  assistant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - assistant
+          short: assistant
+          sight: "A harried physician's assistant hurries by you."
+      flag:
+      identity:
+        name: assistant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  camel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - camel
+          short: camel
+          sight: A shaggy, bad tempered camel wanders here.
+      flag:
+      identity:
+        name: camel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dustdevil:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dust devil
+            - dustdevil
+          short: Dust Devil
+          sight: A whirling mass of &+ysand&N howls here.
+      flag:
+        - imm-fireball
+        - imm-frost
+      identity:
+        name: Dust Devil
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  handmaiden:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - handmaiden
+          short: handmaiden
+          sight: >
+            A shy hand maiden carrying a tray of fruit stands here.
+      flag:
+      identity:
+        name: handmaiden
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  haremdancer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yasmine
+            - haremdancer
+          short: Yasmine
+          sight: A svelte, sloe-eyed dancer sways before you.
+      flag:
+      identity:
+        name: Yasmine
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hawker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - monte
+            - hawker
+          short: Monte
+          sight: >
+            A bazaar hawker looking to make a deal stands here.
+      flag:
+      identity:
+        name: Monte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  horus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horus
+          short: Horus
+          sight: >
+            Horus, the son of Isis and Osiris, stands guard here.
+      flag:
+        - no-zap
+        - no-exo
+        - no-summon
+      identity:
+        name: Horus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mummy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mummy
+          short: The Mummy
+          sight: A linen-wrapped mummy lies here.
+      flag:
+      identity:
+        name: The Mummy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  neferteri:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - neferteri
+          short: Neferteri
+          sight: >
+            Neferteri, the high priestess of Isis, awaits you here.
+      flag:
+        - imm-fireball
+        - imm-shock
+        - shock
+        - no-zap
+        - no-exo
+        - no-summon
+        - no-alias
+      identity:
+        name: Neferteri
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nomad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nomad
+          short: nomad
+          sight: A thirsty-looking, travel-weary nomad rests here.
+      flag:
+      identity:
+        name: nomad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ocelot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ocelot
+          short: ocelot
+          sight: A sleek, spotted ocelot is stretched out here.
+      flag:
+      identity:
+        name: ocelot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  physician:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - physician
+          short: physician
+          sight: >
+            A worried-looking, white-haired physician stands here.
+      flag:
+      identity:
+        name: physician
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandant1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandant
+          short: Sandant
+          sight: A little brown ant scurries here.
+      flag:
+      identity:
+        name: Sandant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandant2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandant
+          short: Sandant
+          sight: A little brown ant scurries here.
+      flag:
+      identity:
+        name: Sandant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandant3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandant
+          short: Sandant
+          sight: A little brown ant scurries here.
+      flag:
+      identity:
+        name: Sandant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandant4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandant
+          short: Sandant
+          sight: A little brown ant scurries here.
+      flag:
+      identity:
+        name: Sandant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandworm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandworm
+          short: sandworm
+          sight: A long, large dun-colored worm lies here.
+      flag:
+        - imm-fireball
+        - imm-shock
+      identity:
+        name: sandworm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slave:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slave
+          short: slave
+          sight: >
+            A terrified slave, hiding from his master cowers here.
+      flag:
+      identity:
+        name: slave
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  streetthief:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - street thief
+            - streetthief
+          short: Street Thief
+          sight: A thin-faced, narrow-eyed thief lurks here.
+      flag:
+      identity:
+        name: Street Thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sultan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sultan
+          short: sultan
+          sight: A rather large, bejeweled Sultan prays here.
+      flag:
+      identity:
+        name: sultan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tombrobber:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tomb robber
+            - tombrobber
+          short: Tomb Robber
+          sight: >
+            A yellow-toothed, leather skinned Tomb Robber is waiting here.
+      flag:
+      identity:
+        name: Tomb Robber
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  trader:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - trader
+          short: trader
+          sight: >
+            A sharp-eyed trader looking for his lost camel stands here.
+      flag:
+      identity:
+        name: trader
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

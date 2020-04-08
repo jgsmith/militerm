@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9547"
     short: An Underground Dwelling
     sight: >
       The space is a small, round chamber, lit by an extraordinary chandelier made of the rhizome of a tree

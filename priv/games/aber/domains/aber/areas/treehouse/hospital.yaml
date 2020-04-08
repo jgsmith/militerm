@@ -1,0 +1,22 @@
+groups:
+locations:
+  porch:
+    npcs:
+      elf: 1
+npcs:
+  elf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elf
+          short: The Elf
+          sight: A tall, lean elf steps quietly amid the shadows.
+      flag:
+      identity:
+        name: The Elf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

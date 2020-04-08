@@ -12,4 +12,4 @@ detail:
       clearing is to the west and you can continue on into the woods to the east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

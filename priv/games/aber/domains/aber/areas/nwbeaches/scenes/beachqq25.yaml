@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:nwbeaches:beachqq26"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq22"
     short: On the Spiral Staircase
     sight: >
       You have begun a descent down into the Lower Reaches of the Lighthouse. You wonder why the basement of

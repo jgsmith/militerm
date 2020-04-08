@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:gold:pathtochurch"
       north:
         target: "scene:aber:gold:gold2"
       south:

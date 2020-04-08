@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9528"
     short: A Chaotic Room
     sight: >
       The room is in chaotic order. Parts of the upper floor have fallen down here, and the former furniture

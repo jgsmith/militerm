@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter62"
+      northwest:
         target: "scene:aber:enchanter:enchanter60"
     short: Translucent Room
     sight: >

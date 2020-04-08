@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:khanjar:khanjar9506"
       north:
         target: "scene:aber:khanjar:khanjar9510"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9509"
     short: At The Top Floor
     sight: >
       This north- and south-directed corridor is where the local guest rooms are located at. The walls are

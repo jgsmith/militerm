@@ -1,0 +1,451 @@
+groups:
+  gardenrm:
+    npcs:
+      ant: 1
+      mantis: 1
+locations:
+  bathroom:
+    npcs:
+      john: 1
+  bedroom1:
+    npcs:
+      diafear: 1
+  bedroom2:
+    npcs:
+      richard: 1
+  closet1:
+    npcs:
+      jeeves: 1
+  closet2:
+    npcs:
+      dilbert: 1
+  csouth:
+    npcs:
+      beholder: 1
+  gardenrm:
+    groups:
+      gardenrm: 1
+  geast10:
+    npcs:
+      skeltwo: 1
+  geast12:
+    npcs:
+      skelthree: 1
+  geast15:
+    npcs:
+      skelfour: 1
+  geast18:
+    npcs:
+      skelfive: 1
+  geast7:
+    npcs:
+      skelone: 1
+  gooey:
+    npcs:
+      cube: 1
+  magelib:
+    npcs:
+      margoyle: 1
+  mageroom:
+    npcs:
+      zephere: 1
+  northempty2:
+    npcs:
+      mummy: 1
+  northhall7:
+    npcs:
+      rat: 1
+  westhall:
+    npcs:
+      mouse: 1
+  westhall6:
+    npcs:
+      tom: 1
+  westhall9:
+    npcs:
+      spider: 1
+npcs:
+  ant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ant
+          short: Ant
+          sight: "A giant ant is here, and he doesn't look happy."
+      flag:
+      identity:
+        name: Ant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beholder:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beholder
+          short: Beholder
+          sight: >
+            A large, mean looking Beholder is here, hovering in front of you.
+      flag:
+        - fireball
+        - missile
+        - b-hands
+        - imm-fireball
+      identity:
+        name: Beholder
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cube:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gelatinous cube
+            - cube
+          short: Gelatinous Cube
+          sight: >
+            A gelatinous cube is here, leaving a slimy trail in it's path.
+      flag:
+        - fear-fireball
+        - fear-shock
+        - fear-b-hands
+        - fear-missile
+        - no-steal
+      identity:
+        name: Gelatinous Cube
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  diafear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - princess diaphere
+            - diafear
+          short: Princess Diaphere
+          sight: >
+            The ghost of Princess Diaphere is here moaning and groaning.
+      flag:
+      identity:
+        name: Princess Diaphere
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dilbert:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir dilbert
+            - dilbert
+          short: Sir Dilbert
+          sight: The ghost of Sir Dilbert is here walking around.
+      flag:
+      identity:
+        name: Sir Dilbert
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jeeves:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jeeves
+          short: Jeeves
+          sight: The ghost of Jeeves is here, cleaning away.
+      flag:
+      identity:
+        name: Jeeves
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  john:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir john
+            - john
+          short: Sir John
+          sight: Sir John is here.
+      flag:
+      identity:
+        name: Sir John
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mantis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - praying mantis
+            - mantis
+          short: Praying Mantis
+          sight: A giant praying mantis is here, gleaming at you.
+      flag:
+      identity:
+        name: Praying Mantis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  margoyle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - margoyle
+          short: Margoyle
+          sight: >
+            A Margoyle hovers here, barring you from going west.
+      flag:
+      identity:
+        name: Margoyle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mouse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mouse
+          short: Mouse
+          sight: >
+            A little white mouse is here, looking for it's friend the rat.
+      flag:
+      identity:
+        name: Mouse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mummy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mummy
+          short: Mummy
+          sight: >
+            An ancient mummy is here, and he isn't happy that you disturbed his rest.
+      flag:
+      identity:
+        name: Mummy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rat
+          short: Rat
+          sight: >
+            A little rat is here scurrying around very quickly.
+      flag:
+      identity:
+        name: Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  richard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prince richard
+            - richard
+          short: Prince Richard
+          sight: >
+            The ghost of Prince Richard is here looking for Princess Diaphere.
+      flag:
+      identity:
+        name: Prince Richard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skelfive:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton warrior
+            - skelfive
+          short: Skeleton Warrior
+          sight: >
+            A very strong looking skeleton warrior in a black cloak is here.
+      flag:
+      identity:
+        name: Skeleton Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skelfour:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton warrior
+            - skelfour
+          short: Skeleton Warrior
+          sight: A very weak, bony skeleton warrior is here.
+      flag:
+      identity:
+        name: Skeleton Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skelone:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton warrior
+            - skelone
+          short: Skeleton Warrior
+          sight: A grave looking skeleton warrior is here.
+      flag:
+      identity:
+        name: Skeleton Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skelthree:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton warrior
+            - skelthree
+          short: Skeleton Warrior
+          sight: A powerful blue cloaked skeleton warrior is here.
+      flag:
+      identity:
+        name: Skeleton Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skeltwo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton warrior
+            - skeltwo
+          short: Skeleton Warrior
+          sight: A skeleton warrior adorned in a red cloak is here.
+      flag:
+      identity:
+        name: Skeleton Warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spider
+          short: Spider
+          sight: >
+            A very large, mean looking spider is here waiting for lunch.
+      flag:
+      identity:
+        name: Spider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tom:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir tom
+            - tom
+          short: Sir Tom
+          sight: >
+            The ghost of Sir Tom is here looking at you and grinning.
+      flag:
+      identity:
+        name: Sir Tom
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zephere:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zephere
+          short: Zephere
+          sight: Zephere, the wise mage is here.
+      flag:
+        - fireball
+        - imm-fireball
+        - missile
+        - imm-missile
+        - frost
+        - imm-frost
+        - v-touch
+        - imm-v-touch
+        - light
+        - damage
+        - blur
+        - b-hands
+        - imm-b-hands
+        - ice-storm
+        - imm-ice-storm
+        - no-steal
+      identity:
+        name: Zephere
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

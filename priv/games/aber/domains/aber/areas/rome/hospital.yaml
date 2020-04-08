@@ -1,0 +1,1223 @@
+groups:
+  rome1:
+    npcs:
+      adjudicator: 1
+      scorekeeper: 1
+  rome11:
+    npcs:
+      doctor: 1
+      nurse: 1
+  rome21:
+    npcs:
+      bassianus: 1
+      lucullus: 1
+      valentine: 1
+  rome23:
+    npcs:
+      cominius: 1
+      quintus: 1
+  rome32:
+    npcs:
+      junius: 1
+      marcus: 1
+      trebonius: 1
+  rome36:
+    npcs:
+      caesar: 1
+      velutus: 1
+  rome4:
+    npcs:
+      aufidius: 1
+      balorus: 1
+  rome42:
+    npcs:
+      marullus: 1
+      menenius: 1
+  rome43:
+    npcs:
+      boetius: 1
+      marcius: 1
+      page: 1
+      scheduler: 1
+  rome49:
+    npcs:
+      froboz: 1
+      lucretia: 1
+  rome50:
+    npcs:
+      bailiff: 1
+      defendant: 1
+      plaintiff: 1
+  rome51:
+    npcs:
+      gateguard_1: 1
+      martius: 1
+  rome6:
+    npcs:
+      adrianus: 1
+      lartius: 1
+      lavinia: 1
+      marcia: 1
+  rome8:
+    npcs:
+      saturninus: 1
+      sicinius: 1
+locations:
+  rome7:
+    npcs:
+      titus: 1
+  rome51:
+    groups:
+      rome51: 1
+  rome61:
+    npcs:
+      executioner: 1
+  rome2:
+    npcs:
+      nobleman: 1
+  rome6:
+    groups:
+      rome6: 1
+  rome50:
+    groups:
+      rome50: 1
+  rome8:
+    groups:
+      rome8: 1
+  rome29:
+    npcs:
+      gateguard_2: 1
+  rome56:
+    npcs:
+      mars: 1
+  rome23:
+    groups:
+      rome23: 1
+  rome1:
+    groups:
+      rome1: 1
+  rome4:
+    groups:
+      rome4: 1
+  rome54:
+    npcs:
+      ball: 1
+  rome43:
+    groups:
+      rome43: 1
+  rome47:
+    npcs:
+      jupiter: 1
+  rome32:
+    groups:
+      rome32: 1
+  rome25:
+    npcs:
+      tullus: 1
+  rome36:
+    groups:
+      rome36: 1
+  rome55:
+    npcs:
+      judge: 1
+  rome16:
+    npcs:
+      driver: 1
+  rome12:
+    npcs:
+      dominius: 1
+  rome48:
+    npcs:
+      slime: 1
+  rome3:
+    npcs:
+      demetrius: 1
+  rome9:
+    npcs:
+      coach: 1
+  rome30:
+    npcs:
+      aemilius: 1
+  rome40:
+    npcs:
+      colonius: 1
+  rome63:
+    npcs:
+      lucius: 1
+  rome10:
+    npcs:
+      gladiator: 1
+  rome42:
+    groups:
+      rome42: 1
+  rome52:
+    npcs:
+      venus: 1
+  rome62:
+    npcs:
+      ventidius: 1
+  rome57:
+    npcs:
+      slimeball: 1
+  rome49:
+    groups:
+      rome49: 1
+  rome45:
+    npcs:
+      sempronius: 1
+  rome37:
+    npcs:
+      senator: 1
+  rome59:
+    npcs:
+      mercury: 1
+  rome35:
+    npcs:
+      gateguard_3: 1
+  rome31:
+    npcs:
+      tonnus: 1
+  rome11:
+    groups:
+      rome11: 1
+  rome5:
+    npcs:
+      gateguard_4: 1
+  rome21:
+    groups:
+      rome21: 1
+npcs:
+  marcius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marcius
+          short: Marcius
+          sight: >
+            A haggard peddler is standing here, trying to support his meager existence.
+      flag:
+      identity:
+        name: Marcius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  venus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - venus
+          short: Venus
+          sight: >
+            Venus, the god of beauty and knowledge, is resting here.
+      flag:
+        - fireball
+        - frost
+        - shock
+      identity:
+        name: Venus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  scheduler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scheduler
+          short: The Scheduler
+          sight: >
+            The master scheduler is here, writing in an appointment book.
+      flag:
+      identity:
+        name: The Scheduler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bassianus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bassianus
+          short: Bassianus
+          sight: A spectator is here watching the games.
+      flag:
+      identity:
+        name: Bassianus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  aufidius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aufidius
+          short: Aufidius
+          sight: >
+            A stadium vendor is walking here, selling overpriced hotdogs and beer.
+      flag:
+      identity:
+        name: Aufidius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gladiator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gladiator
+          short: The Gladiator
+          sight: There is a gladiator standing here.
+      flag:
+      identity:
+        name: The Gladiator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  doctor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - doctor
+          short: The Doctor
+          sight: A doctor is standing here.
+      flag:
+      identity:
+        name: The Doctor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  menenius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - menenius
+          short: Menenius
+          sight: >
+            Menenius, Froboz's shopkeeper is here, minding the store.
+      flag:
+      identity:
+        name: Menenius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cominius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cominius
+          short: Cominius
+          sight: A citizen of Rome is standing here.
+      flag:
+      identity:
+        name: Cominius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  froboz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - froboz
+          short: Froboz
+          sight: >
+            Froboz the wizard is standing here, working on a new spell.
+      flag:
+      identity:
+        name: Froboz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  martius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - martius
+          short: Martius
+          sight: A soldier on leave is wandering around.
+      flag:
+      identity:
+        name: Martius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  velutus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - velutus
+          short: Velutus
+          sight: >
+            There is a royal bodyguard here, ready to die for the emperor, if necessary.
+      flag:
+      identity:
+        name: Velutus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tonnus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tonnus
+          short: Tonnus
+          sight: >
+            Tonnus Rooverus, public enemy no. 1, is sneaking around, trying to take something away from you.
+      flag:
+      identity:
+        name: Tonnus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ventidius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ventidius
+          short: Ventidius
+          sight: >
+            The Baker looks at you calmly, wiping flour from his face with one hand.
+      flag:
+      identity:
+        name: Ventidius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  balorus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - balorus
+          short: Balorus
+          sight: A spectator is here watching the games.
+      flag:
+      identity:
+        name: Balorus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateguard_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - decius
+            - gateguard_
+          short: Decius
+          sight: A gateguard stands here, tending the gate.
+      flag:
+      identity:
+        name: Decius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  junius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - junius
+          short: Junius
+          sight: >
+            A poor peddler is standing here, trying to support his meager existence.
+      flag:
+      identity:
+        name: Junius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tullus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tullus
+          short: Tullus
+          sight: >
+            A ticket master is here, looking at you expectantly.
+      flag:
+      identity:
+        name: Tullus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  valentine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - valentine
+          short: Valentine
+          sight: A slave stands here, wishing that she was free.
+      flag:
+      identity:
+        name: Valentine
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  slime:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slime
+          short: slime
+          sight: There is a slippery slimeball here.
+      flag:
+      identity:
+        name: slime
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ball:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ball
+          short: ball
+          sight: There is a slippery slimeball here.
+      flag:
+      identity:
+        name: ball
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  titus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - titus
+          short: Titus
+          sight: >
+            Titus Andronicus is standing here, polishing a few swords.
+      flag:
+      identity:
+        name: Titus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dominius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dominius
+          short: Dominius
+          sight: A citizen of Rome is standing here.
+      flag:
+      identity:
+        name: Dominius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lavinia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lavinia
+          short: Lavinia
+          sight: A slave stands here, wishing that she was free.
+      flag:
+      identity:
+        name: Lavinia
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  demetrius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demetrius
+          short: Demetrius
+          sight: A filthy spectator is here watching the games.
+      flag:
+      identity:
+        name: Demetrius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  page:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - page
+          short: A Page
+          sight: A page stands here, waiting to run an errand.
+      flag:
+      identity:
+        name: A Page
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bailiff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bailiff
+          short: The Bailiff
+          sight: >
+            The bailiff stands here, keeping order in the courtroom.
+      flag:
+      identity:
+        name: The Bailiff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lucius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucius
+          short: Lucius
+          sight: >
+            Lucius the Grocer stands at the counter, with a slightly impatient look on his face.
+      flag:
+      identity:
+        name: Lucius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nurse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nurse
+          short: A nurse
+          sight: There is a beautiful nurse standing here.
+      flag:
+      identity:
+        name: A nurse
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  plaintiff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plaintiff
+          short: The Plaintiff
+          sight: The plaintiff stands here, pleading his case.
+      flag:
+      identity:
+        name: The Plaintiff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  defendant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - defendant
+          short: The defendant
+          sight: A defendant stands here, pleading her case.
+      flag:
+      identity:
+        name: The defendant
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  marcus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marcus
+          short: Marcus
+          sight: >
+            Marcus Dupus is trying to find out how he can install Turbo Pascal.
+      flag:
+      identity:
+        name: Marcus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  adrianus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adrianus
+          short: Adrianus
+          sight: A soldier on leave is walking around.
+      flag:
+      identity:
+        name: Adrianus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marullus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marullus
+          short: Marullus
+          sight: A soldier on leave is walking around.
+      flag:
+      identity:
+        name: Marullus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  senator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - senator
+          short: A senator
+          sight: The senator is here, waiting for debate to begin.
+      flag:
+      identity:
+        name: A senator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jupiter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jupiter
+          short: Jupiter
+          sight: Jupiter, King of the Gods, is resting here.
+      flag:
+        - fireball
+        - frost
+        - shock
+      identity:
+        name: Jupiter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lartius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lartius
+          short: Lartius
+          sight: >
+            Lartius, Titus's shopkeeper, is here, minding the store.
+      flag:
+      identity:
+        name: Lartius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  trebonius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - trebonius
+          short: Trebonius
+          sight: A citizen of Rome is here.
+      flag:
+      identity:
+        name: Trebonius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  judge:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - judge
+          short: The Judge
+          sight: A judge is standing here, reading a case.
+      flag:
+      identity:
+        name: The Judge
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mars:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mars
+          short: Mars
+          sight: Mars, the god of war and state, is here.
+      flag:
+        - fireball
+        - frost
+        - shock
+      identity:
+        name: Mars
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  coach:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - coach
+          short: The Coach
+          sight: >
+            There is a coach standing here, going over last minute strategy.
+      flag:
+      identity:
+        name: The Coach
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sicinius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sicinius
+          short: Sicinius
+          sight: >
+            A stadium vendor is walking here, selling ice cream and candy bars.
+      flag:
+      identity:
+        name: Sicinius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  executioner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - executioner
+          short: The Executioner
+          sight: >
+            The executioner stands here, waiting to torture some sorry soul.
+      flag:
+      identity:
+        name: The Executioner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lucullus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucullus
+          short: Lucullus
+          sight: A citizen of Rome is standing here.
+      flag:
+      identity:
+        name: Lucullus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  boetius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boetius
+          short: Boetius
+          sight: >
+            A fat peddler is standing here, trying to support his meager(?) existence.
+      flag:
+      identity:
+        name: Boetius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sempronius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sempronius
+          short: Sempronius
+          sight: A soldier on leave is walking around.
+      flag:
+      identity:
+        name: Sempronius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lucretia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucretia
+          short: Lucretia
+          sight: A slave stands here waiting for her master.
+      flag:
+      identity:
+        name: Lucretia
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  caesar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - caesar
+          short: Caesar
+          sight: >
+            Julius Caesar, the emperor of Rome is sitting here.
+      flag:
+      identity:
+        name: Caesar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  saturninus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - saturninus
+          short: Saturninus
+          sight: A spectator is here watching the games.
+      flag:
+      identity:
+        name: Saturninus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  driver:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - driver
+          short: The Driver
+          sight: There is a chariot driver here.
+      flag:
+      identity:
+        name: The Driver
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateguard_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - popilius
+            - gateguard_
+          short: Popilius
+          sight: A gateguard stands here, tending the gate.
+      flag:
+      identity:
+        name: Popilius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marcia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marcia
+          short: Marcia
+          sight: >
+            A small peddler is standing here, trying to support her meager existence.
+      flag:
+      identity:
+        name: Marcia
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mercury:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mercury
+          short: Mercury
+          sight: >
+            Mercury, the messenger of the gods, is standing here.
+      flag:
+        - fireball
+        - frost
+        - shock
+      identity:
+        name: Mercury
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateguard_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - octavius
+            - gateguard_
+          short: Octavius
+          sight: A gateguard stands here, tending the gate.
+      flag:
+      identity:
+        name: Octavius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nobleman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nobleman
+          short: The Nobleman
+          sight: The nobleman stands here looking aloof.
+      flag:
+      identity:
+        name: The Nobleman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  adjudicator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adjudicator
+          short: The adjudicator
+          sight: The adjudicator is watching the games intently.
+      flag:
+      identity:
+        name: The adjudicator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scorekeeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scorekeeper
+          short: The Scorekeeper
+          sight: >
+            A scorekeeper has one eye on his stopwatch and the other on a clipboard.
+      flag:
+      identity:
+        name: The Scorekeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateguard_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ligarius
+            - gateguard_
+          short: Ligarius
+          sight: A gateguard stands here, tending the gate.
+      flag:
+      identity:
+        name: Ligarius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slimeball:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slimeball
+          short: A Slimeball
+          sight: There is a slippery slimeball here.
+      flag:
+      identity:
+        name: A Slimeball
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  colonius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - colonius
+          short: Colonius
+          sight: >
+            A poor peddler is standing here, trying to support his meager existence.
+      flag:
+      identity:
+        name: Colonius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  aemilius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aemilius
+          short: Aemilius
+          sight: >
+            A soldier on leave is looking for a nice pub to spend his pay in.
+      flag:
+      identity:
+        name: Aemilius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quintus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quintus
+          short: Quintus
+          sight: A drunken spectator is screaming his head off.
+      flag:
+      identity:
+        name: Quintus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

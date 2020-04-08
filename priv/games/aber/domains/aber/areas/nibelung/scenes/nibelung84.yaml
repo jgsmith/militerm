@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung85"
       up:
         target: "scene:aber:nibelung:nibelung83"
     short: Dungeon

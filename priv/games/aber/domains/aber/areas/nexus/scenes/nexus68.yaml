@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:nexus:nexus69"
       up:
         target: "scene:aber:nexus:nexus67"
     short: Magma Pond
@@ -14,6 +16,6 @@ detail:
       pond.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

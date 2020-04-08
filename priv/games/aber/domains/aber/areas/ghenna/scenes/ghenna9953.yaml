@@ -8,5 +8,5 @@ detail:
       You are under a pile of loosely stacked bones. The night sky shows through the vacant eye socket of a
       human skull above you. With a minimal amount of effort, you could free yourself.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

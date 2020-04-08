@@ -1,10 +1,12 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:origins:origins40"
     short: Inside the Cylinder
     sight: >
       You step into the giant cylinder, which is just as metallic and plain here on the inside as it appeared
       on the outside. The glow here persists, but strangely enough, it doesn't provide any illumination.
 flag:
-  - oneperson
+  - one-person

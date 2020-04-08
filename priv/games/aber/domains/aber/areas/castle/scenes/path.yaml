@@ -12,4 +12,4 @@ detail:
       illuminates the very top of the tower with a bright, golden light.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

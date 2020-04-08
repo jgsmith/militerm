@@ -11,6 +11,6 @@ detail:
       upon to the south.
 flag:
   - party
-  - cantsummon
+  - cant-summon
   - nomobiles
   - nomagic

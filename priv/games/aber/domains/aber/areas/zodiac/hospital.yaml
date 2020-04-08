@@ -1,0 +1,384 @@
+groups:
+  gemini:
+    npcs:
+      gemini1: 1
+      gemini2: 1
+  void:
+    npcs:
+      eternity: 1
+      infinity: 1
+locations:
+  aquarius:
+    npcs:
+      aquarius: 1
+  aries:
+    npcs:
+      aries: 1
+  cancer:
+    npcs:
+      cancer: 1
+  capricorn:
+    npcs:
+      capricorn: 1
+  gemini:
+    groups:
+      gemini: 1
+  leo:
+    npcs:
+      leo: 1
+  libra:
+    npcs:
+      libra: 1
+  lost1:
+    npcs:
+      nightwing: 1
+  lost4:
+    npcs:
+      hellhound: 1
+  sagittarius:
+    npcs:
+      sagittarius: 1
+  scorpio:
+    npcs:
+      scorpio: 1
+  taurus:
+    npcs:
+      taurus: 1
+  virgo:
+    npcs:
+      virgo: 1
+  void:
+    groups:
+      void: 1
+npcs:
+  aquarius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aquarius
+          short: Aquarius
+          sight: >
+            A young woman stands here holding water without a container.
+      flag:
+        - missile
+        - neg-missile
+        - neg-frost
+        - neg-fireball
+        - no-steal
+      identity:
+        name: Aquarius
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  aries:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aries
+          short: Aries
+          sight: A large ram glares at you.
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-shock
+        - neg-missile
+        - no-steal
+      identity:
+        name: Aries
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cancer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cancer
+          short: Cancer
+          sight: >
+            Cancer looks really crabby today...better stay out of his way!
+      flag:
+        - frost
+        - neg-frost
+        - neg-shock
+        - neg-missile
+        - no-steal
+      identity:
+        name: Cancer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  capricorn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - capricorn
+          short: Capricorn
+          sight: >
+            Capricorn doesn't look like he's having a good day...boy does he look mad!
+      flag:
+        - shock
+        - neg-frost
+        - neg-fireball
+        - neg-shock
+        - no-steal
+      identity:
+        name: Capricorn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eternity:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eternity
+          short: Eternity
+          sight: >
+            Eternity, the god of time, towers above you in his eternal silence.
+      flag:
+      identity:
+        name: Eternity
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gemini1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gemini
+          short: Gemini
+          sight: >
+            One of the gemini twins stands before you smiling happily.
+      flag:
+        - missile
+        - neg-missile
+        - neg-frost
+        - neg-fireball
+        - no-steal
+      identity:
+        name: Gemini
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gemini2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gemini
+          short: Gemini
+          sight: >
+            One of the gemini twins stands before you waving happily.
+      flag:
+        - missile
+        - neg-missile
+        - neg-frost
+        - neg-fireball
+        - no-steal
+      identity:
+        name: Gemini
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hellhound:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hellhound
+          short: Hellhound
+          sight: >
+            A Hellhound wanders the area in search of a soul to feed on.
+      flag:
+        - no-steal
+      identity:
+        name: Hellhound
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  infinity:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - infinity
+          short: Infinity
+          sight: >
+            All that exists radiates from Infinity, who stands several inches above the floor.
+      flag:
+      identity:
+        name: Infinity
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leo
+          short: Leo
+          sight: Leo looks &=lrvery&n happy to see you!
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-shock
+        - neg-missile
+        - no-steal
+      identity:
+        name: Leo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  libra:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - libra
+          short: Libra
+          sight: >
+            An almost perfectly balanced person stands before you.
+      flag:
+        - missile
+        - neg-missile
+        - neg-frost
+        - neg-fireball
+        - no-steal
+      identity:
+        name: Libra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nightwing:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nightwing
+          short: Nightwing
+          sight: >
+            No other hunter has the power or the grace of Nightwing. She was about to feast on her latest kill
+            until you disturbed her.
+      flag:
+        - no-magic
+        - no-steal
+      identity:
+        name: Nightwing
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  sagittarius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sagittarius
+          short: Sagittarius
+          sight: >
+            Sagittarius seems to be peeved at Leo and Aries...I wonder what they did?
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-shock
+        - neg-missile
+        - no-steal
+      identity:
+        name: Sagittarius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scorpio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scorpio
+          short: Scorpio
+          sight: A massive scorpion stares at you poised to strike.
+      flag:
+        - frost
+        - no-steal
+        - no-magic
+      identity:
+        name: Scorpio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  taurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - taurus
+          short: Taurus
+          sight: >
+            Taurus is tired of all the bull$#it that goes on in this place.
+      flag:
+        - shock
+        - neg-frost
+        - neg-fireball
+        - neg-shock
+        - no-steal
+      identity:
+        name: Taurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  virgo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - virgo
+          short: Virgo
+          sight: >
+            A young virgin sits here on the bed. Virgo winks suggestively at you.
+      flag:
+        - shock
+        - neg-frost
+        - neg-fireball
+        - neg-shock
+        - no-steal
+      identity:
+        name: Virgo
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

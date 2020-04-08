@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:tower:black"
       west:
         target: "scene:aber:tower:scroll"
     short: Candle Room

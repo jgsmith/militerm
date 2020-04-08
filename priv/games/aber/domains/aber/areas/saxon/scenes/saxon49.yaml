@@ -1,12 +1,14 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:saxon:saxon53"
       north:
         target: "scene:aber:saxon:saxon50"
       south:
         target: "scene:aber:saxon:saxon48"
+      southeast:
+        target: "scene:aber:saxon:saxon54"
+      southwest:
+        target: "scene:aber:saxon:saxon53"
     short: &+yBurnt &+gForest&*
     sight: >
       The trees here are singed a horrible black color. It would appear to the average eye that a raging

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:enchanter:enchanter24"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter26"
     short: Atop the Tower
     sight: >
       You're at the top of the tower. There is a wooden door to the north.

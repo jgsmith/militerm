@@ -20,7 +20,7 @@ detail:
       off in the far corner. There are but a few other items within the room, including a few Escher paintings
       and the like.
 flag:
-  - nomobiles
-  - nomagic
+  - no-mobiles
+  - no-magic
   - peaceful
   - party

@@ -15,5 +15,5 @@ detail:
       currents move with the direction of the winds, at least on the surface and help to lend direction to the
       traveler.
 flag:
-  - onwater
+  - on-water
   - outdoors

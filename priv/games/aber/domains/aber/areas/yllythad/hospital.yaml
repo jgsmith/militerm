@@ -1,0 +1,2088 @@
+groups:
+  yllythad5014:
+    npcs:
+      mob5000: 1
+      mob5003: 1
+  yllythad5050:
+    npcs:
+      mob5008: 1
+      mob5013: 1
+  yllythad5062:
+    npcs:
+      mob5001: 1
+      mob5004_1: 1
+  yllythad5114:
+    npcs:
+      mob5000_3: 1
+      mob5003_5: 1
+  yllythad5116:
+    npcs:
+      mob5009_2: 1
+      mob5014_1: 1
+  yllythad5162:
+    npcs:
+      mob5001_3: 1
+      mob5004_3: 1
+  yllythad5214:
+    npcs:
+      mob5000_6: 1
+      mob5003_6: 1
+  yllythad5262:
+    npcs:
+      mob5001_6: 1
+      mob5004_4: 1
+locations:
+  yllythad5192:
+    npcs:
+      mob5008_5: 1
+  yllythad5037:
+    npcs:
+      mob5009_1: 1
+  yllythad5250:
+    npcs:
+      mob5008_7: 1
+  yllythad5072:
+    npcs:
+      mob5002: 1
+  yllythad5016:
+    npcs:
+      mob5009: 1
+  yllythad5000:
+    npcs:
+      mob5003_2: 1
+  yllythad5028:
+    npcs:
+      mob5011: 1
+  yllythad5143:
+    npcs:
+      mob5001_4: 1
+  yllythad5043:
+    npcs:
+      mob5001_1: 1
+  yllythad5203:
+    npcs:
+      mob5007_8: 1
+  yllythad5263:
+    npcs:
+      mob5005_5: 1
+  yllythad5211:
+    npcs:
+      mob5002_8: 1
+  yllythad5209:
+    npcs:
+      mob5001_7: 1
+  yllythad5294:
+    npcs:
+      mob5000_7: 1
+  yllythad5060:
+    npcs:
+      mob5014: 1
+  yllythad5218:
+    npcs:
+      mob5010_5: 1
+  yllythad5266:
+    npcs:
+      mob5007_6: 1
+  yllythad5018:
+    npcs:
+      mob5010_1: 1
+  yllythad5035:
+    npcs:
+      mob5006_1: 1
+  yllythad5166:
+    npcs:
+      mob5007_5: 1
+  yllythad5066:
+    npcs:
+      mob5007: 1
+  yllythad5111:
+    npcs:
+      mob5002_3: 1
+  yllythad5172:
+    npcs:
+      mob5002_5: 1
+  yllythad5139:
+    npcs:
+      mob5012_2: 1
+  yllythad5137:
+    npcs:
+      mob5009_3: 1
+  yllythad5109:
+    npcs:
+      mob5001_5: 1
+  yllythad5284:
+    npcs:
+      mob5005_4: 1
+  yllythad5235:
+    npcs:
+      mob5006_5: 1
+  yllythad5117:
+    npcs:
+      mob5004_2: 1
+  yllythad5094:
+    npcs:
+      mob5000_1: 1
+  yllythad5021:
+    npcs:
+      mob5013_1: 1
+  yllythad5214:
+    groups:
+      yllythad5214: 1
+  yllythad5151:
+    npcs:
+      mob5002_4: 1
+  yllythad5146:
+    npcs:
+      mob5010_2: 1
+  yllythad5279:
+    npcs:
+      mob5012_4: 1
+  yllythad5272:
+    npcs:
+      mob5002_6: 1
+  yllythad5024:
+    npcs:
+      mob5011_1: 1
+  yllythad5107:
+    npcs:
+      mob5003_4: 1
+  yllythad5179:
+    npcs:
+      mob5012_3: 1
+  yllythad5044:
+    npcs:
+      mob5008_2: 1
+  yllythad5084:
+    npcs:
+      mob5005: 1
+  yllythad5292:
+    npcs:
+      mob5008_6: 1
+  yllythad5039:
+    npcs:
+      mob5012_1: 1
+  yllythad5050:
+    groups:
+      yllythad5050: 1
+  yllythad5017:
+    npcs:
+      mob5004: 1
+  yllythad5116:
+    groups:
+      yllythad5116: 1
+  yllythad5237:
+    npcs:
+      mob5009_4: 1
+  yllythad5251:
+    npcs:
+      mob5002_7: 1
+  yllythad5012:
+    npcs:
+      mob5007_1: 1
+  yllythad5184:
+    npcs:
+      mob5005_3: 1
+  yllythad5124:
+    npcs:
+      mob5011_2: 1
+  yllythad5224:
+    npcs:
+      mob5011_5: 1
+  yllythad5003:
+    npcs:
+      mob5007_2: 1
+  yllythad5135:
+    npcs:
+      mob5006_2: 1
+  yllythad5092:
+    npcs:
+      mob5008_1: 1
+  yllythad5239:
+    npcs:
+      mob5012_5: 1
+  yllythad5089:
+    npcs:
+      mob5006: 1
+  yllythad5128:
+    npcs:
+      mob5011_3: 1
+  yllythad5100:
+    npcs:
+      mob5003_3: 1
+  yllythad5114:
+    groups:
+      yllythad5114: 1
+  yllythad5144:
+    npcs:
+      mob5008_3: 1
+  yllythad5289:
+    npcs:
+      mob5006_4: 1
+  yllythad5244:
+    npcs:
+      mob5008_8: 1
+  yllythad5046:
+    npcs:
+      mob5010: 1
+  yllythad5052:
+    npcs:
+      mob5000_2: 1
+  yllythad5212:
+    npcs:
+      mob5007_7: 1
+  yllythad5150:
+    npcs:
+      mob5008_4: 1
+  yllythad5162:
+    groups:
+      yllythad5162: 1
+  yllythad5152:
+    npcs:
+      mob5000_5: 1
+  yllythad5200:
+    npcs:
+      mob5003_8: 1
+  yllythad5112:
+    npcs:
+      mob5007_4: 1
+  yllythad5246:
+    npcs:
+      mob5010_4: 1
+  yllythad5103:
+    npcs:
+      mob5007_3: 1
+  yllythad5163:
+    npcs:
+      mob5005_2: 1
+  yllythad5189:
+    npcs:
+      mob5006_3: 1
+  yllythad5014:
+    groups:
+      yllythad5014: 1
+  yllythad5262:
+    groups:
+      yllythad5262: 1
+  yllythad5216:
+    npcs:
+      mob5009_5: 1
+  yllythad5007:
+    npcs:
+      mob5003_1: 1
+  yllythad5207:
+    npcs:
+      mob5003_7: 1
+  yllythad5118:
+    npcs:
+      mob5010_3: 1
+  yllythad5062:
+    groups:
+      yllythad5062: 1
+  yllythad5079:
+    npcs:
+      mob5012: 1
+  yllythad5051:
+    npcs:
+      mob5002_1: 1
+  yllythad5243:
+    npcs:
+      mob5001_8: 1
+  yllythad5063:
+    npcs:
+      mob5005_1: 1
+  yllythad5228:
+    npcs:
+      mob5011_4: 1
+  yllythad5009:
+    npcs:
+      mob5001_2: 1
+  yllythad5252:
+    npcs:
+      mob5000_8: 1
+  yllythad5194:
+    npcs:
+      mob5000_4: 1
+  yllythad5011:
+    npcs:
+      mob5002_2: 1
+npcs:
+  mob5005_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob5005_
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5014:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea demon
+            - mob
+          short: a sea demon
+          sight: >
+            A sea demon snarls in fury as you enter into its domain.
+      flag:
+        - no-summon
+      identity:
+        name: a sea demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5012_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob5012_
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5008_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching i for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5013_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - water elemental
+            - mob5013_
+          short: a water elemental
+          sight: >
+            A water elemental swirls in with a rush of water and wind.
+      flag:
+        - no-summon
+      identity:
+        name: a water elemental
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5012_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob5012_
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5008_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob5009_
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5004_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - mob5004_
+          short: a killer whale
+          sight: >
+            A killer whale skims just under the surface of the water.
+      flag:
+      identity:
+        name: a killer whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5014_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea demon
+            - mob5014_
+          short: a sea demon
+          sight: >
+            A sea demon snarls in fury as you enter into its domain.
+      flag:
+        - no-summon
+      identity:
+        name: a sea demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob5011_
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5010_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob5010_
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob5006_
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5007_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5012:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5008:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5005_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob5005_
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5001_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5004_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - mob5004_
+          short: a killer whale
+          sight: >
+            A killer whale skims just under the surface of the water.
+      flag:
+      identity:
+        name: a killer whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob5006_
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob5011_
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob5009_
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5013:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - water elemental
+            - mob
+          short: a water elemental
+          sight: >
+            A water elemental swirls in with a rush of water and wind.
+      flag:
+        - no-summon
+      identity:
+        name: a water elemental
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5004_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - mob5004_
+          short: a killer whale
+          sight: >
+            A killer whale skims just under the surface of the water.
+      flag:
+      identity:
+        name: a killer whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob5009_
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5004_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - mob5004_
+          short: a killer whale
+          sight: >
+            A killer whale skims just under the surface of the water.
+      flag:
+      identity:
+        name: a killer whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob5009_
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob5011_
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob5011_
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5010:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob5011_
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5012_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob5012_
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5010_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob5010_
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob5006_
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5010_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob5010_
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5010_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob5010_
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5010_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seal
+            - mob5010_
+          short: a seal
+          sight: >
+            A seal gracefully leaps the waves as it happily plays on the surface.
+      flag:
+      identity:
+        name: a seal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5005_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob5005_
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5008_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+            - mob5008_
+          short: a jellyfish
+          sight: >
+            A gooey mass of greenish yuck is floating on the surface.
+      flag:
+      identity:
+        name: a jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5009_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+            - mob5009_
+          short: a walrus
+          sight: >
+            The dark colored head of a walrus is all that is visible from here.
+      flag:
+      identity:
+        name: a walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5005_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob5005_
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5003_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mob5003_
+          short: a pelican
+          sight: >
+            A pelican glides over the surface of the water, skimming for food.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching i for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob5006_
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5004:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - mob
+          short: a killer whale
+          sight: >
+            A killer whale skims just under the surface of the water.
+      flag:
+      identity:
+        name: a killer whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5011:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merman
+            - mob
+          short: a merman
+          sight: >
+            A merman gives a gasp as he realizes you've spotted him and dives under.
+      flag:
+      identity:
+        name: a merman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5005_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob5005_
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5012_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob5012_
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5012_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+            - mob5012_
+          short: a mermaid
+          sight: >
+            A mermaid's eyes get very wide and afraid as she spots you.
+      flag:
+      identity:
+        name: a mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5005:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great white shark
+            - mob
+          short: a great white shark
+          sight: A curved fin is visible swimming very near to you.
+      flag:
+      identity:
+        name: a great white shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5007_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright red crab
+            - mob5007_
+          short: a bright red crab
+          sight: A small red crab bobs at the top of the water.
+      flag:
+      identity:
+        name: a bright red crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5000_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea zombie
+            - mob5000_
+          short: a sea zombie
+          sight: >
+            A sea zombie rises from the sea with a blast of water and attacks!
+      flag:
+        - no-summon
+      identity:
+        name: a sea zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5001_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5006_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea elf
+            - mob5006_
+          short: a sea elf
+          sight: >
+            The head of a sea elf pokes out of the water nearby.
+      flag:
+      identity:
+        name: a sea elf
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob5001_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant squid
+            - mob5001_
+          short: a giant squid
+          sight: >
+            A giant squid moves through the water at a lightning pace.
+      flag:
+      identity:
+        name: a giant squid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob5002_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon turtle
+            - mob5002_
+          short: a dragon turtle
+          sight: >
+            An enormous dragon turtle glides across the surface of the sea, searching for food.
+      flag:
+      identity:
+        name: a dragon turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

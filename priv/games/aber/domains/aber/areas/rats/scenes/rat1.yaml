@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:rats:rat2"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:rats:laundry"
     short: Tunnel
     sight: >
       You are standing in a stinking tunnel. The stench is really horrible. There is nothing special here;

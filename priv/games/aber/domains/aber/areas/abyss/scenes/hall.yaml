@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:home"
+      south:
+        guarded: true
+        target: "scene:aber:abyss:elevator"
       west:
         target: "scene:aber:abyss:control"
     short: Front Hall

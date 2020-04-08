@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:maeron:lab"
     short: &+WInside The Vault
     sight: >
       This rather smallish room appears to have been untouched by the passing of time. Its reinforced iron

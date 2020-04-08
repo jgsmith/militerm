@@ -1,12 +1,16 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon26"
+      south:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon24"
     short: Crawlspace
     sight: >
       The Hole you have crawled into is very cramped and there is room for only one person here. This little
       passageway seems to have been created for no reason at all.
 flag:
   - dark
-  - oneperson
+  - one-person

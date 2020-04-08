@@ -1,0 +1,274 @@
+groups:
+  golden16:
+    npcs:
+      monkey: 1
+      monkie: 1
+      munkee: 1
+  golden3:
+    npcs:
+      cockatoo: 1
+      mawcaw: 1
+locations:
+  golden12:
+    npcs:
+      shaman: 1
+  golden16:
+    groups:
+      golden16: 1
+  golden17:
+    npcs:
+      venzual: 1
+  golden19:
+    npcs:
+      arturo: 1
+  golden26:
+    npcs:
+      xena: 1
+  golden3:
+    groups:
+      golden3: 1
+  golden37:
+    npcs:
+      statue: 1
+  golden4:
+    npcs:
+      viper: 1
+  golden8:
+    npcs:
+      panther: 1
+  golden9:
+    npcs:
+      boar: 1
+npcs:
+  arturo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arturo
+          short: Arturo
+          sight: >
+            Venzual's twin brother, Arturo, stands here looking for a wild boar to kill.
+      flag:
+      identity:
+        name: Arturo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  boar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild boar
+            - boar
+          short: The Wild Boar
+          sight: >
+            A wild boar shuffles through the undergrowth looking for some insects to snack on.
+      flag:
+      identity:
+        name: The Wild Boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cockatoo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cockatoo
+          short: Cockatoo
+          sight: >
+            A snow-white cockatoo is grooming itself along side the Mawcaw.
+      flag:
+        - no-steal
+      identity:
+        name: Cockatoo
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mawcaw:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mawcaw
+          short: Mawcaw
+          sight: >
+            A beautiful, multi-colored Mawcaw sits perched on a tree branch above you.
+      flag:
+        - no-steal
+      identity:
+        name: Mawcaw
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monkey:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - monkey
+          short: Monkey
+          sight: >
+            A small brown monkey is sitting on a vine, covering its eyes.
+      flag:
+        - blind
+      identity:
+        name: Monkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monkie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - monkie
+          short: Monkie
+          sight: >
+            Another monkey is has hands firmly in place over its mouth.
+      flag:
+        - mute
+      identity:
+        name: Monkie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  munkee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - munkee
+          short: Munkee
+          sight: >
+            There is a small brown monkey sitting on a vine, covering its ears.
+      flag:
+        - deaf
+      identity:
+        name: Munkee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  panther:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - panther
+          short: The Panther
+          sight: >
+            A sleek, black panther is alerted by your foot steps and prepares to pounce.
+      flag:
+      identity:
+        name: The Panther
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  shaman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shaman
+          short: The Shaman
+          sight: >
+            The village Shaman bursts into a fiery rage as you intrude into his hut.
+      flag:
+        - fireball
+        - shock
+        - no-magic
+      identity:
+        name: The Shaman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  statue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - statue
+          short: The Statue
+          sight: >
+            A large marble statue of a great emperor stands solemnly next to the temple entrance.
+      flag:
+      identity:
+        name: The Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  venzual:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - venzual
+          short: Venzual
+          sight: >
+            A scrawny, cautious native watches you from behind a bush.
+      flag:
+      identity:
+        name: Venzual
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  viper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - viper
+          short: The Viper
+          sight: >
+            A long, red, poisonous viper hisses at you and shows its fangs.
+      flag:
+      identity:
+        name: The Viper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  xena:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xena
+          short: Xena
+          sight: >
+            The legendary Xena, Guardian of the Mayan Temple, stands here ready to face any willing
+            challenger.
+      flag:
+        - no-magic
+      identity:
+        name: Xena
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

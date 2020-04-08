@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:frobozz:chairman"
       west:
         target: "scene:aber:frobozz:rough"
     short: Behind the Blackboard

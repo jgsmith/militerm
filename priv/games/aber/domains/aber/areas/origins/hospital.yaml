@@ -1,0 +1,505 @@
+groups:
+  origins3:
+    npcs:
+      cathshee: 1
+      cooshee: 1
+      koshee: 1
+locations:
+  origins10:
+    npcs:
+      sothurithidan: 1
+  origins16:
+    npcs:
+      lee: 1
+  origins17:
+    npcs:
+      panacea: 1
+  origins18:
+    npcs:
+      specter: 1
+  origins21:
+    npcs:
+      spectre: 1
+  origins23:
+    npcs:
+      skeletree: 1
+  origins3:
+    groups:
+      origins3: 1
+  origins36:
+    npcs:
+      numbskull: 1
+  origins37:
+    npcs:
+      dumbskull: 1
+  origins39:
+    npcs:
+      snowdog: 1
+  origins40:
+    npcs:
+      necromancer: 1
+  origins42:
+    npcs:
+      addict: 1
+  origins43:
+    npcs:
+      lifeson: 1
+  origins47:
+    npcs:
+      brown: 1
+  origins48:
+    npcs:
+      broonsie: 1
+  origins50:
+    npcs:
+      peart: 1
+  origins61:
+    npcs:
+      dionysus: 1
+  origins62:
+    npcs:
+      apollo: 1
+  origins64:
+    npcs:
+      imbalance: 1
+npcs:
+  addict:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - addict
+          short: The Addict
+          sight: >
+            One guy has had a little too much TempleVision for one day!
+      flag:
+      identity:
+        name: The Addict
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  apollo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - apollo
+          short: Apollo
+          sight: >
+            &+WApollo, &+gBringer of &+BWisdom,&n says '&+WI bring Truth and Understanding, &+WI bring Wit and
+            Wisdom fair; precious gifts beyond compare.&n'
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-steal
+        - no-hassle
+      identity:
+        name: Apollo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  broonsie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tc broonsie
+            - broonsie
+          short: TC Broonsie
+          sight: T.C. Broonsie asks for your spaceport pass.
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-hassle
+      identity:
+        name: TC Broonsie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brown:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - father brown
+            - brown
+          short: Father Brown
+          sight: >
+            Father Brown, Head Priest of the Temples of Syrinx, smiles warmly at you.
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-steal
+        - no-summon
+        - no-magic
+      identity:
+        name: Father Brown
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cathshee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cathshee
+          short: Cathshee
+          sight: >
+            The mythical elven cat, Cath-shee, protects her sacred forest unto death.
+      flag:
+      identity:
+        name: Cathshee
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  cooshee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cooshee
+          short: Cooshee
+          sight: >
+            Cooshee, legendary dog of the elves, defends Rivendell with his brother Koshee.
+      flag:
+      identity:
+        name: Cooshee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dionysus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dionysus
+          short: Dionysus
+          sight: >
+            &+WDionysus, &+gBringer of &+RLove,&n says '&+WI bring Love to give you solace, &+Win the Darkness
+            of the Night; only Love can steer you right.&n'
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-steal
+        - no-hassle
+      identity:
+        name: Dionysus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dumbskull:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dumbskull
+          short: Dumbskull
+          sight: >
+            The skeletal guard Dumbskull wants you off his post!
+      flag:
+        - neg-frost
+      identity:
+        name: Dumbskull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  imbalance:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - imbalance
+          short: Imbalance
+          sight: >
+            The bestial personification of imbalance, bane of all orderly and productive life, threatens you
+            mockingly.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+      identity:
+        name: Imbalance
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  koshee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - koshee
+          short: Koshee
+          sight: >
+            Koshee, the fabled elven dog, guards his woods zealously.
+      flag:
+      identity:
+        name: Koshee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - geddy lee
+            - lee
+          short: Geddy Lee
+          sight: >
+            Geddy Lee, keeper of the magical Bridge of Lamneth, stands here looking worried. &+WGeddy Lee&n
+            asks you '&+WHave you seen my &+Wmagical bass?&n'
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-magic
+      identity:
+        name: Geddy Lee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lifeson:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alex lifeson
+            - lifeson
+          short: Alex Lifeson
+          sight: >
+            &+WAlex Lifeson &nsays '&+WMy mentor Jon has been &+Wmurdered! &+WLet's discuss this &+Wgrave
+            issue.&n'
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-magic
+      identity:
+        name: Alex Lifeson
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  necromancer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - necromancer
+          short: The Necromancer
+          sight: >
+            Suddenly, a human-shaped wraith materializes in front of you!
+      flag:
+        - frost
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - neg-shock
+        - no-exorcise
+        - no-zap
+        - no-alias
+        - no-summon
+        - no-steal
+      identity:
+        name: The Necromancer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  numbskull:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - numbskull
+          short: Numbskull
+          sight: >
+            Numbskull the mindless skeleton guard doesn't like intruders!
+      flag:
+        - neg-frost
+      identity:
+        name: Numbskull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  panacea:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - panacea
+          short: Panacea
+          sight: >
+            Panacea, liquid grace and passion pure, seductively beckons you. &+WPanacea &nwhispers '&+WI will
+            soothe your primal fears...&n'
+      flag:
+        - no-exorcise
+        - no-zap
+      identity:
+        name: Panacea
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  peart:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - neil peart
+            - peart
+          short: Neil Peart
+          sight: >
+            Neil Peart, the 'professor' of percussion, wields his drumsticks expertly. &+WNeil Peart &nsays
+            '&+WI can take you home, on my &+Wship.&n'
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-summon
+        - no-magic
+      identity:
+        name: Neil Peart
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skeletree:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeletree
+          short: SkeleTree
+          sight: >
+            A skeletal tree weeping blood sits rooted miserably to the ground here.
+      flag:
+        - neg-missile
+        - neg-frost
+        - neg-shock
+      identity:
+        name: SkeleTree
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snowdog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snowdog
+          short: SnowDog
+          sight: >
+            SnowDog, centurion of evil, nemesis of ByTor, and guardian of The Necromancer, attacks!
+      flag:
+        - neg-frost
+      identity:
+        name: SnowDog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sothurithidan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sothurithidan
+          short: Sothurithidan
+          sight: >
+            The sword guard of Rivendell, Sothurithidan, will allow no passage!
+      flag:
+        - no-exorcise
+        - no-zap
+        - no-summon
+        - no-steal
+        - no-alias
+      identity:
+        name: Sothurithidan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  specter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bytors specter
+            - specter
+          short: ByTors Specter
+          sight: >
+            The slain body of the hero ByTor has been animated!
+      flag:
+      identity:
+        name: ByTors Specter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spectre:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spectre
+          short: The Spectre
+          sight: >
+            A wispy, shadowy, form guards the location of its death fiercely! '&+WStay back or die,&n' the
+            weary shade of the Traveler moans. Its very voice drains the courage out of you.
+      flag:
+        - no-steal
+        - no-alias
+        - no-summon
+      identity:
+        name: The Spectre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

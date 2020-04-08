@@ -11,5 +11,5 @@ detail:
       grass stalks to bob lazily back and forth. To the &+Gnorth&* you spy what appears to be some sort of
       temple, its great white walls blazing with the light of the sun.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

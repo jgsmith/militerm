@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ruins:gnorth2"
       west:
         target: "scene:aber:ruins:mageroom"
     short: Libary of the Mage
@@ -11,4 +13,4 @@ detail:
       attention. Just being in this room seems to make you feel more magically refreshed. Looking to the west,
       you notice another lit room.
 flag:
-  - fastmana
+  - fast-mana

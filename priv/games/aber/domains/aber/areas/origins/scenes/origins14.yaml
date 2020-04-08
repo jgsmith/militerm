@@ -13,5 +13,5 @@ detail:
       dangerous to negotiate.
 flag:
   - outdoors
-  - tempreal
-  - nomobiles
+  - temp-real
+  - no-mobiles

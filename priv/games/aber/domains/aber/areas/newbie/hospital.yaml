@@ -1,0 +1,62 @@
+groups:
+locations:
+  newbie1:
+    npcs:
+      receptionist: 1
+  newbie4:
+    npcs:
+      dave: 1
+  newbie8:
+    npcs:
+      troll: 1
+npcs:
+  dave:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dave
+          short: Dave
+          sight: >
+            Dave stands here ready to listen to your every word.
+      flag:
+      identity:
+        name: Dave
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  receptionist:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - receptionist
+          short: Receptionist
+          sight: A receptionist stands here smiling at you.
+      flag:
+      identity:
+        name: Receptionist
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  troll:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - troll
+          short: Troll
+          sight: >
+            A wimpy-looking troll is here, scratching at his armpits.
+      flag:
+      identity:
+        name: Troll
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

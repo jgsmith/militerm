@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:adept:adept23"
     short: Maintenance Shack
     sight: >
       This small chamber has jars of contaminated cleaning solutions covered in dust and spiderwebs. A coat

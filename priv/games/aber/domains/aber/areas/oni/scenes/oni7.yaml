@@ -7,5 +7,5 @@ detail:
       tumble forward toward the rapids below.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles
   - death

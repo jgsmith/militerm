@@ -5,8 +5,12 @@ detail:
         target: "scene:aber:app:app27"
       north:
         target: "scene:aber:app:app29"
-      south: null
-      west: null
+      south:
+        guarded: true
+        target: "scene:aber:app:app30"
+      west:
+        guarded: true
+        target: "scene:aber:app:app31"
     short: Dungeon
     sight: >
       As you step into the room, the stench that quickly enters your nose makes you cringe. When you have

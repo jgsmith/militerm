@@ -12,4 +12,4 @@ detail:
       back up to the light.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

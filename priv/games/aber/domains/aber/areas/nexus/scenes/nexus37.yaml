@@ -11,7 +11,7 @@ detail:
       the old ally of decomposition - time.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon
   - dark

@@ -60,7 +60,7 @@ defmodule Militerm.Parsers.Command do
 
     iex> syntax = VerbSyntax.parse("at <direct:object'thing>")
     ...> Command.match_syntax(%{actor: :actor, command: ["look", "at", "the", "lamp"], syntaxes: [syntax], adverbs: []})
-    %{command: ["look", "at", "the", "lamp"], adverbs: [], direct: [{:object, :singular, [:me, :near], ["the", "lamp"]}], syntax: VerbSyntax.parse("at <direct:object'thing>")}
+    %{command: ["look", "at", "the", "lamp"], adverbs: [], slots: %{"direct" => [{:object, :singular, [:me, :near], "the lamp"}]}, syntax: VerbSyntax.parse("at <direct:object'thing>")}
 
     iex> syntax = VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")
     ...> Command.match_syntax(%{
@@ -72,17 +72,19 @@ defmodule Militerm.Parsers.Command do
       adverbs: [],
       command: ["look", "at", "the", "lit", "lamp", "through", "the",
        "big", "telescope"],
-      direct: [
-        {:object, :singular, [:me, :near], ["the", "lit", "lamp"]}
-      ],
-      instrument: [
-        {:object, :singular, [:me, :near], ["the", "big", "telescope"]}
-      ],
+      slots: %{
+        "direct" => [
+          {:object, :singular, [:me, :near], "the lit lamp"}
+        ],
+        "instrument" => [
+          {:object, :singular, [:me, :near], "the big telescope"}
+        ]
+      },
       syntax: %{
         pattern: [
-          "at",
+          {:word_list, ["at"], nil},
           {:direct, :object, :singular, [:me, :near]},
-          "through",
+          {:word_list, ["through"], nil},
           {:instrument, :object, :singular, [:me, :near]}
         ],
         short: "at <thing> through <object>",
@@ -95,7 +97,7 @@ defmodule Militerm.Parsers.Command do
         %{actor: actor, command: [verb | bits] = command, syntaxes: syntaxes, adverbs: adverbs} =
           state
       ) do
-    case first_syntax_match(bits, syntaxes) do
+    case first_syntax_match(command, syntaxes) do
       nil ->
         nil
 
@@ -123,17 +125,12 @@ defmodule Militerm.Parsers.Command do
   """
   def try_syntax_match(bits, %{pattern: pattern} = syntax) do
     # return nil if not a match - otherwise, return a structure with slots and such identified
-    case pattern_match(%PatternMatch{
-           command: bits,
-           pattern: pattern,
-           pattern_size: Enum.count(pattern),
-           command_size: Enum.count(bits)
-         }) do
+    case Militerm.Parsers.Command.PatternMatcher.pattern_match(bits, pattern) do
       nil ->
         nil
 
       matches ->
-        matches
+        %{slots: assign_matches_to_slots(bits, pattern, matches)}
         # now see if we can bind to objects given the matches
     end
   end
@@ -142,448 +139,44 @@ defmodule Militerm.Parsers.Command do
     nil
   end
 
-  @doc """
-  If the pattern matches the bits, then this will return a mapping of slots to
-  word lists and information on how to resolve the word lists to objects, if necessary.
-
-  This function has to manage backtracking if a guess doesn't work out.
-  """
-  def pattern_match(%{failed: true} = state) do
-    nil
-  end
-
-  def pattern_match(
-        %{
-          pos: command_pos,
-          command_size: command_size,
-          pattern_pos: pattern_pos,
-          pattern_size: pattern_size
-        } = state
-      )
-      when command_pos >= command_size and pattern_pos < pattern_size,
-      do: pattern_match(%{state | failed: true})
-
-  def pattern_match(
-        %{
-          command_pos: command_pos,
-          command_size: command_size,
-          pattern_pos: pattern_pos,
-          pattern_size: pattern_size,
-          word_offset: word_offset,
-          matches: matches,
-          delayed: delayed
-        } = state
-      )
-      when pattern_pos == pattern_size do
-    # we're finished - just need to clean up any delayed pieces
-    case delayed do
-      [:optional] ->
-        %{
-          state
-          | matches: [command_size | matches],
-            delayed: [],
-            word_offset: 0,
-            command_pos: command_size
-        }
-
-      [:single_word] ->
-        if command_pos < command_size - 1 do
-          %{state | failed: true}
-        else
-          %{
-            state
-            | matches: [command_size | matches],
-              delayed: [],
-              word_offset: 0,
-              command_pos: command_size
-          }
-        end
-
-      [:string] ->
-        %{
-          state
-          | matches: [command_size | matches],
-            delayed: [],
-            word_offset: 0,
-            command_pos: command_size
-        }
-
-      [] ->
-        if command_pos < command_size, do: %{state | failed: true}, else: state
-
-      _ ->
-        pos = command_pos - word_offset
-
-        {matches, command_pos} =
-          delayed
-          |> Enum.reverse()
-          |> Enum.reduce({matches, pos}, fn
-            :optional, {[prev_pos | _] = matches, pos} ->
-              {[prev_pos | matches], pos}
-
-            atom, {matches, pos} when atom in [:single_word, :string] ->
-              {[pos | matches], pos + 1}
-
-            _, acc ->
-              acc
-          end)
-
-        %{
-          state
-          | matches: [command_size | matches],
-            delayed: [],
-            word_offset: 0,
-            command_pos: command_size
-        }
-
-        # command_pos < command_size ->
-        #   %{state | failed: true}
-    end
-    |> Map.update!(:pattern_pos, fn v -> v + 1 end)
-    |> pattern_match()
-  end
-
-  def pattern_match(%{pattern_pos: pattern_pos, pattern_size: pattern_size, delayed: []} = state)
-      when pattern_pos >= pattern_size do
-    %{matches: matches, command_size: command_size, pattern: pattern, command: command} = state
-    skips = Enum.reverse([command_size | matches])
-    # now match up skips with the slots and similar in the pattern
-    # we want a mapping of slot name to string/info, numbers, etc.
+  def assign_matches_to_slots(bits, pattern, [_ | matches]) do
     pattern
-    |> Enum.with_index()
-    |> Enum.reduce(%{}, fn {pat, idx}, acc ->
-      case pat do
-        word when is_binary(word) ->
-          acc
-
-        {slot, type, count, env} when is_atom(slot) and is_atom(type) ->
-          Map.put(acc, slot, [
-            {
-              type,
-              count,
-              env,
-              Enum.slice(command, Enum.at(skips, idx), Enum.at(skips, idx + 1))
-            }
-            | Map.get(acc, slot, [])
-          ])
-
-        {:word_list, word_list} ->
-          Map.put(acc, word_list, [
-            Enum.join(Enum.slice(command, Enum.at(skips, idx), Enum.at(skips, idx + 1)), " ")
-            | Map.get(acc, word_list, [])
-          ])
-
-        atom when is_atom(atom) ->
-          Map.put(acc, atom, [
-            Enum.slice(
-              command,
-              Enum.at(skips, idx),
-              Enum.at(skips, idx + 1) - Enum.at(skips, idx)
-            )
-            | Map.get(acc, atom, [])
-          ])
-
-        _ ->
-          acc
-      end
+    |> Enum.zip(Enum.chunk_every(matches, 2, 1))
+    |> Enum.map(&assign_match_to_slot(&1, bits))
+    |> Enum.reject(&is_nil/1)
+    |> Enum.group_by(&elem(&1, 0))
+    |> Enum.map(fn {key, values} ->
+      {key, Enum.map(values, &elem(&1, 1))}
     end)
+    |> Enum.into(%{})
   end
 
-  def pattern_match(%{pattern_pos: pattern_pos, pattern_size: pattern_size} = state)
-      when pattern_pos >= pattern_size do
-    %{
-      command_size: command_size,
-      word_offset: word_offset,
-      matches: matches,
-      delayed: delayed
-    } = state
+  def assign_match_to_slot({pattern, [start, stop]}, bits) do
+    phrase = Enum.join(Enum.slice(bits, start, stop - start), " ")
 
-    pos = command_size - word_offset
-
-    new_state = handle_delayed(%{state | command_pos: pos}, true)
-
-    pattern_match(%{new_state | command_pos: command_size, word_offset: 0})
-  end
-
-  def pattern_match(state) do
-    %{
-      command_size: command_size,
-      pattern: pattern,
-      pattern_pos: pattern_pos
-    } = state
-
-    pattern
-    |> Enum.at(pattern_pos)
-    |> process_pattern(state)
-    |> Map.update!(:pattern_pos, fn v -> v + 1 end)
-    |> pattern_match()
-  end
-
-  def process_pattern(
-        {slot, :player, count, _},
-        %{
-          last: last,
-          delayed: delayed,
-          word_offset: word_offset,
-          command_pos: command_pos,
-          command_size: command_size,
-          matches: matches
-        } = state
-      )
-      when is_atom(slot) and count in [:singular, :plural] do
-    if last do
-      %{
-        state
-        | delayed: [:single_word | delayed],
-          word_offset: word_offset + 1,
-          command_pos: command_pos + 1,
-          failed: command_pos > command_size
-      }
-    else
-      %{
-        state
-        | command_pos: command_pos + 1,
-          matches: [command_pos | matches],
-          failed: command_pos > command_size
-      }
+    case pattern do
+      {:number, nil} -> {"number", {:number, phrase}}
+      {:number, name} -> {name, {:number, phrase}}
+      {:fraction, nil} -> {"fraction", {:fraction, phrase}}
+      {:fraction, name} -> {name, {:fraction, phrase}}
+      {slot, type, count, env} -> {to_string(slot), {type, count, env, phrase}}
+      {:string, nil} -> {"string", phrase}
+      {:string, name} -> {name, phrase}
+      {:quoted_string, nil} -> {"quoted_string", remove_quotes(phrase)}
+      {:quoted_string, name} -> {name, remove_quotes(phrase)}
+      {:short_string, nil} -> {"string", phrase}
+      {:short_string, name} -> {name, phrase}
+      {:single_word, nil} -> {"word", phrase}
+      {:single_word, name} -> {name, phrase}
+      {:word_list_spaces, _, nil} -> nil
+      {:word_list_spaces, _, name} -> {name, phrase}
+      {:word_list, _, nil} -> nil
+      {:word_list, _, name} -> {name, phrase}
+      _ -> nil
     end
   end
 
-  def process_pattern(
-        {slot, _, count, _},
-        %{
-          last: last,
-          delayed: delayed,
-          word_offset: word_offset,
-          command_pos: command_pos,
-          command_size: command_size
-        } = state
-      )
-      when is_atom(slot) and count in [:singular, :plural] do
-    if last do
-      %{
-        state
-        | delayed: [:single_word | delayed],
-          word_offset: word_offset + 1,
-          command_pos: command_pos + 1
-      }
-    else
-      %{
-        state
-        | delayed: [:string],
-          last: :find_first,
-          word_offset: word_offset + 1,
-          command_pos: command_pos + 1
-      }
-    end
+  def remove_quotes(string) do
+    String.slice(string, 1, String.length(string) - 2)
   end
-
-  def process_pattern(:string, state) do
-    %{command_pos: command_pos} = new_state = handle_delayed(state)
-
-    %{
-      new_state
-      | delayed: [:string],
-        word_offset: 1,
-        command_pos: command_pos + 1,
-        last: :find_last
-    }
-  end
-
-  def process_pattern(
-        :short_string,
-        %{last: last, delayed: delayed, word_offset: word_offset, command_pos: command_pos} =
-          state
-      ) do
-    delayed = if last, do: [:single_word | delayed], else: [:string]
-
-    %{
-      state
-      | delayed: delayed,
-        word_offset: word_offset + 1,
-        command_pos: command_pos + 1,
-        last: :find_first
-    }
-  end
-
-  def process_pattern(
-        :single_word,
-        %{
-          last: last,
-          delayed: delayed,
-          word_offset: word_offset,
-          command_pos: command_pos,
-          command_size: command_size,
-          matches: matches
-        } = state
-      ) do
-    if last do
-      %{
-        state
-        | delayed: [:single_word | delayed],
-          word_offset: word_offset + 1,
-          command_pos: command_pos + 1,
-          failed: command_pos >= command_size
-      }
-    else
-      %{
-        state
-        | matches: [command_pos | matches],
-          command_pos: command_pos + 1,
-          failed: command_pos >= command_size
-      }
-    end
-  end
-
-  def process_pattern({:word_list, :number}, state) do
-  end
-
-  def process_pattern({:word_list, :fraction}, state) do
-  end
-
-  def process_pattern(
-        {:word_list, word_list},
-        %{matches: matches, command: command, command_pos: command_pos} = state
-      )
-      when is_atom(word_list) do
-    # words = Config.master().word_list(word_list) -- [nil]
-    words = word_list(word_list)
-
-    words_by_count =
-      Enum.group_by(words, fn
-        word ->
-          word
-          |> String.split(" ")
-          |> Enum.count()
-      end)
-
-    {min_count, max_count} =
-      case map_size(words_by_count) do
-        0 -> {0, 0}
-        _ -> Enum.min_max(Map.keys(words_by_count))
-      end
-
-    count =
-      max_count..min_count
-      |> Enum.flat_map(fn size ->
-        given = command |> Enum.slice(command_pos, size) |> Enum.join(" ")
-        if given in words, do: [size], else: []
-      end)
-      |> List.first()
-
-    if is_nil(count) do
-      # no match
-      %{state | failed: true}
-    else
-      %{state | matches: [command_pos + count | matches], command_pos: command_pos + count}
-    end
-  end
-
-  # we treat a literal word as a single-member word list
-  # a bare atom as a named word list
-  @doc """
-  ## Examples
-
-    iex> Command.process_pattern("at", %Command.PatternMatch{command: ["at", "the"], command_pos: 0, command_size: 2, pattern: ["at", {:direct, :object, :singular, [:near, :me]}], pattern_pos: 0, pattern_size: 2, delayed: []})
-    %Command.PatternMatch{command: ["at", "the"], command_pos: 1, command_size: 2, pattern: ["at", {:direct, :object, :singular, [:near, :me]}], pattern_pos: 0, pattern_size: 2, matches: [1, 0], delayed: []}
-  """
-  def process_pattern(
-        word,
-        %{
-          last: last,
-          command: command,
-          command_pos: command_pos,
-          command_size: command_size,
-          pattern_pos: pattern_pos,
-          matches: matches,
-          delayed: delayed
-        } = state
-      )
-      when is_binary(word) do
-    new_state =
-      case last do
-        nil ->
-          if word != Enum.at(command, command_pos) do
-            %{state | failed: true}
-          else
-            %{state | matches: [command_pos + 1 | matches], command_pos: command_pos + 1}
-          end
-
-        :find_first ->
-          # look through command for the word starting at pos
-          tmp = command |> Enum.drop(command_pos) |> Enum.find_index(fn w -> w == word end)
-
-          if is_nil(tmp) do
-            %{state | failed: true}
-          else
-            {matches, command_pos} =
-              delayed
-              |> Enum.reverse()
-              |> Enum.reduce({matches, command_pos + tmp}, fn
-                :optional, {[prev_pos | _] = matches, pos} ->
-                  {[prev_pos | matches], pos}
-
-                atom, {matches, pos} when atom in [:single_word, :string] ->
-                  {[pos - 1 | matches], pos + 1}
-
-                _, acc ->
-                  acc
-              end)
-
-            %{
-              state
-              | matches: [command_pos | matches],
-                command_pos: command_pos + 1,
-                delayed: [],
-                last: nil
-            }
-          end
-
-        :find_last ->
-          tmp =
-            command
-            |> Enum.drop(command_pos)
-            |> Enum.reverse()
-            |> Enum.find_index(fn w -> w == word end)
-
-          if is_nil(tmp),
-            do: %{state | failed: true},
-            else: handle_delayed(%{state | command_pos: command_size - tmp}, last)
-      end
-  end
-
-  def handle_delayed(%{failed: true} = state), do: state
-
-  def handle_delayed(
-        %{matches: matches, command_pos: command_pos, delayed: delayed, word_offset: word_offset} =
-          state,
-        last \\ false
-      ) do
-    {matches, command_pos} =
-      delayed
-      |> Enum.reverse()
-      |> Enum.reduce({matches, command_pos}, fn
-        :optional, {[prev_pos | _] = matches, pos} ->
-          {[prev_pos | matches], pos}
-
-        atom, {matches, pos} when atom in [:single_word, :string] ->
-          {[pos - if(last, do: 0, else: 1) | matches], pos + 1}
-
-        _, acc ->
-          acc
-      end)
-
-    %{
-      state
-      | matches: [command_pos | matches],
-        command_pos: command_pos + 1,
-        delayed: [],
-        last: nil
-    }
-  end
-
-  def word_list(:direction),
-    do: ~w[east west north south up down northeast southwest northwest southeast]
-
-  def word_list(_), do: []
 end

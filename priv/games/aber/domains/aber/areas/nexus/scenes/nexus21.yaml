@@ -16,6 +16,6 @@ detail:
       is the order of the day as a quiet wind whistles through the tree tops.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

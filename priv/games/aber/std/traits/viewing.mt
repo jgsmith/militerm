@@ -57,6 +57,7 @@ reacts to post-scan:env:brief as actor with
     :"<Actor:name> <glance> around."
     Emit( "{title}{{ location:environment }}{/title}" )
     Emit( "{env sense='sight'}{{ Describe() }}{/env}" ) #"
+    Emit( Inventory( location:environment ) )
     Emit( "Obvious exits: {{ ItemList( Exits() ) }}." ) #"
     reset eflag:brief-scan
     reset eflag:scanning
@@ -72,6 +73,7 @@ reacts to post-scan:env as actor with
     :"<Actor:name> <look> around."
     Emit( "{title}{{ location:environment }}{/title}" )
     Emit( "{env sense='sight'}{{ DescribeLong() }}{/env}" ) #"
+    Emit( Inventory( location:environment ) )
     Emit( "Obvious exits: {{ ItemList( Exits() ) }}." ) #"
     reset eflag:scan
     reset eflag:scanning

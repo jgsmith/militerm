@@ -11,5 +11,5 @@ detail:
       they use magic to move around.
 flag:
   - outdoors
-  - cantsummon
-  - nomobiles
+  - cant-summon
+  - no-mobiles

@@ -12,5 +12,5 @@ detail:
       east a small town rests peacefully beneath the waves. Beyond the small town you can see the opening of a
       large cave mouth. You can swim upward or descend down to the sea bed.
 flag:
-  - underwater
-  - nomobiles
+  - under-water
+  - no-mobiles

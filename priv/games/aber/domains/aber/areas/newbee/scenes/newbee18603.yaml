@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      north: null
+      east:
+        guarded: true
+        target: "scene:aber:newbee:newbee18646"
+      north:
+        guarded: true
+        target: "scene:aber:newbee:newbee18644"
       south:
         target: "scene:aber:newbee:newbee18607"
       west:

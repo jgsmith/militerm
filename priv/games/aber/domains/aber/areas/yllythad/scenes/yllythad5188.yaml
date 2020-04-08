@@ -14,5 +14,5 @@ detail:
       This area of the sea is carried along by a strong undercurrent which moves the water in its own
       direction, regardless of the wind or weather topside.
 flag:
-  - onwater
+  - on-water
   - outdoors

@@ -14,7 +14,7 @@ detail:
       of Cygnus X-1. Six stars of the &+WNorthern Cross, in mourning for their sister's loss, in a final
       &+Wflash of glory, nevermore to grace the night...&n"
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

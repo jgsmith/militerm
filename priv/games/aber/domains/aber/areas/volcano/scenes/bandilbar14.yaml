@@ -15,4 +15,4 @@ detail:
       the west.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

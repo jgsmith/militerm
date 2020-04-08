@@ -14,4 +14,4 @@ detail:
       surrounds it. Even with this fact, it appears that this place has been abandoned for quite some time.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

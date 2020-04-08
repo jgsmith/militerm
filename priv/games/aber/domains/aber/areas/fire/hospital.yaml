@@ -1,0 +1,288 @@
+groups:
+  dead@dead:
+    npcs:
+      gerst1: 1
+      servant2: 1
+  fire26:
+    npcs:
+      rubber4: 1
+      rubber5: 1
+  fire37:
+    npcs:
+      rubber6: 1
+      rubber7: 1
+      rubber9: 1
+  fire8:
+    npcs:
+      gruoch: 1
+      servant1: 1
+locations:
+  dead@dead:
+    groups:
+      dead@dead: 1
+  fire20:
+    npcs:
+      rubber1: 1
+  fire21:
+    npcs:
+      rubber2: 1
+  fire22:
+    npcs:
+      rubber3: 1
+  fire26:
+    groups:
+      fire26: 1
+  fire37:
+    groups:
+      fire37: 1
+  fire46:
+    npcs:
+      rubber8: 1
+  fire47:
+    npcs:
+      gerst: 1
+  fire8:
+    groups:
+      fire8: 1
+npcs:
+  gerst:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gerst
+          short: Gerst
+          sight: "Gerst, Sir Gruoch's son is hiding here."
+      flag:
+        - no-hassle
+      identity:
+        name: Gerst
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gerst1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gerst
+          short: Gerst
+          sight: "Gerst, Sir Gruoch's son is here."
+      flag:
+        - no-hassle
+      identity:
+        name: Gerst
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gruoch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gruoch
+          short: Gruoch
+          sight: Sir Gruoch is here.
+      flag:
+        - no-hassle
+      identity:
+        name: Gruoch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - one eye
+            - rubber
+          short: One Eye
+          sight: One Eye is preparing himself to attack you.
+      flag:
+      identity:
+        name: One Eye
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - one leg
+            - rubber
+          short: One Leg
+          sight: One Leg is preparing himself to attack you.
+      flag:
+      identity:
+        name: One Leg
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - one arm
+            - rubber
+          short: One Arm
+          sight: One Arm is preparing himself to attack you.
+      flag:
+      identity:
+        name: One Arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bredy
+            - rubber
+          short: Bredy
+          sight: Bredy is guarding the gate.
+      flag:
+      identity:
+        name: Bredy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ardy
+            - rubber
+          short: Ardy
+          sight: Ardy is guarding the gate.
+      flag:
+      identity:
+        name: Ardy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drunk
+            - rubber
+          short: Drunk
+          sight: Drunk robber is waving with his hands.
+      flag:
+      identity:
+        name: Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drunk
+            - rubber
+          short: Drunk
+          sight: Drunk robber is laying on the ground.
+      flag:
+      identity:
+        name: Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prisoner
+            - rubber
+          short: Prisoner
+          sight: Prisoner is guarding here.
+      flag:
+      identity:
+        name: Prisoner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rubber9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leader
+            - rubber
+          short: Leader
+          sight: >
+            The leader of this whole group is laying totally drunk on his throne.
+      flag:
+      identity:
+        name: Leader
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  servant1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - servant
+          short: Servant
+          sight: >
+            &+GThe servant&* asks you: 'Did you come to help Sir Gruoch?'
+      flag:
+        - no-hassle
+      identity:
+        name: Servant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  servant2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - servant
+          short: Servant
+          sight: >
+            The servant says 'Sir gruoch doesn't want to see anyone.'
+      flag:
+        - no-hassle
+      identity:
+        name: Servant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

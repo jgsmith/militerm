@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:nibelung:nibelung72"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung67"
       south:
         target: "scene:aber:nibelung:nibelung69"
       up:

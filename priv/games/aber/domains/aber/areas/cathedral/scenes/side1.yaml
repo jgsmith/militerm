@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cathedral:s_aisle1"
       west:
         target: "scene:aber:cathedral:path5"
     short: Side Door

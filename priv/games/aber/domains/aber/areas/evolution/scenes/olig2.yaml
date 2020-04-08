@@ -12,4 +12,4 @@ detail:
       such an encumbered state as the one you are now in.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

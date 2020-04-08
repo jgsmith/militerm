@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:blizzard:hall"
       west:
         target: "scene:aber:blizzard:flickering"
     short: Fire Gate

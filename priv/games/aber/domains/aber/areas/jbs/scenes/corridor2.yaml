@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:jbs:corridor1"
       north:
         target: "scene:aber:jbs:cell1"
       south:

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:maeron:vault"
       south:
         target: "scene:aber:maeron:foyer"
     short: &+RThe Laboratory

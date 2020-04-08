@@ -1,0 +1,23 @@
+groups:
+locations:
+  siegfried1:
+    npcs:
+      didier: 1
+npcs:
+  didier:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - didier
+          short: Didier
+          sight: >
+            Didier, Siegfried's brother, is lying here on a towel and taking a tan.
+      flag:
+      identity:
+        name: Didier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

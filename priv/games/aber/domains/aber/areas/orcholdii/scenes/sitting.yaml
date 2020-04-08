@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:orcholdii:audience"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:orcholdii:guardroom"
       west:
         target: "scene:aber:orcholdii:chambers"
     short: "The Queen's Sitting Room"

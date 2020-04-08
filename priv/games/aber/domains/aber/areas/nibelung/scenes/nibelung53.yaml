@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:nibelung:nibelung52"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung54"
     short: In the Moat
     sight: >
       You are in the castle moat. Stone walls rise up around you. As you stand here, you notice your boots are

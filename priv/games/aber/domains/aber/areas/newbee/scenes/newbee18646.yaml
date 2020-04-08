@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:newbee:newbee18647"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:newbee:newbee18603"
     short: A Bright Hallway
     sight: >
       Wow! What a change from the dismal passage to the west. Whoever keeps this room up must really like

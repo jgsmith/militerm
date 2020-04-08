@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:graye:graye5546"
       east:
         target: "scene:aber:graye:graye5545"
       south:
@@ -12,4 +14,4 @@ detail:
     sight: >
       King Relnar's &+Mthrone&* sits here, empty. There are rooms to the east and west.
 flag:
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook91"
       east:
         target: "scene:aber:fairybook:fairybook104"
     short: The Clearing

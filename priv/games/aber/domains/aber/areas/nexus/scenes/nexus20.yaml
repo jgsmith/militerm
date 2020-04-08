@@ -18,6 +18,6 @@ detail:
       slightest pressure, giving perhaps an unnecessary scare to the small animals scurrying around.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

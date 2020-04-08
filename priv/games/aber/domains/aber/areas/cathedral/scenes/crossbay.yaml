@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:cathedral:vaulcham"
       east:
         target: "scene:aber:cathedral:choir"
       north:

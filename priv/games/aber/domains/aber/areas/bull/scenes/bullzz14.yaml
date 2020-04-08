@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:bull:bullzz15"
     short: "Mateon's Chamber"
     sight: >
       You find yourself in a small, cramped chamber. A &+Cwindow is set in the north wall, and a sturdy oak

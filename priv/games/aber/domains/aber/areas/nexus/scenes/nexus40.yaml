@@ -14,6 +14,6 @@ detail:
       is extremely shallow, and the sea bottom rises up to form a long sandbar.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

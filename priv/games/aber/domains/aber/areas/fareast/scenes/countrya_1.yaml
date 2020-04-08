@@ -13,4 +13,4 @@ detail:
       meets with another at an unmarked crossing.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

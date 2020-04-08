@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:arena:entrance"
       north:
         target: "scene:aber:arena:arena10"
       south:
@@ -17,5 +19,5 @@ detail:
       air as you move.
 flag:
   - pkzone
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon

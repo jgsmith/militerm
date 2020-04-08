@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas63"
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas61"
     short: The Black Hall
     sight: >
       A sense of peace pervades you in this dark, silent place. A great seven-rayed star is inscribed on the

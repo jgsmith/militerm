@@ -1,0 +1,173 @@
+groups:
+  trap:
+    npcs:
+      andy: 1
+      brandy: 1
+      mandy: 1
+      randy: 1
+      sandy: 1
+locations:
+  audience:
+    npcs:
+      usher: 1
+  limbo@limbo:
+    npcs:
+      maggot: 1
+  observation:
+    npcs:
+      watchman: 1
+  throne:
+    npcs:
+      king: 1
+  trap:
+    groups:
+      trap: 1
+npcs:
+  andy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andy
+          short: Andy
+          sight: Andy Orc looks at you viciously.
+      flag:
+      identity:
+        name: Andy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brandy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brandy
+          short: Brandy
+          sight: Brandy Orc looks at you viciously.
+      flag:
+      identity:
+        name: Brandy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  king:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - king
+          short: The King
+          sight: >
+            Harold the King Orc glares at you with a look of royal intolerance.
+      flag:
+      identity:
+        name: The King
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maggot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maggot
+          short: The Maggot
+          sight: >
+            A giant maggot slithers around, leaving a slimy trail behind him.
+      flag:
+        - no-summon
+      identity:
+        name: The Maggot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mandy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mandy
+          short: Mandy
+          sight: Mandy Orc looks at you viciously.
+      flag:
+      identity:
+        name: Mandy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  randy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - randy
+          short: Randy
+          sight: Randy Orc looks at you viciously.
+      flag:
+      identity:
+        name: Randy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sandy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sandy
+          short: Sandy
+          sight: Sandy Orc looks at you viciously.
+      flag:
+      identity:
+        name: Sandy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  usher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - usher
+          short: The Usher
+          sight: >
+            The Usher Orc, dressed in black livery, sneers down his nose at you.
+      flag:
+      identity:
+        name: The Usher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  watchman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - watchman
+          short: The Watchman
+          sight: The Watchman Orc growls at you.
+      flag:
+      identity:
+        name: The Watchman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

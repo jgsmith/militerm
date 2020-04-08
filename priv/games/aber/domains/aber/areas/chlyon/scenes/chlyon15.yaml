@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon13"
     short: The Hold
     sight: >
       You stand in a baren room, everything around you is stone and iron. Large chains once hanged from the

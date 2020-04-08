@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas52"
     short: Storage
     sight: >
       Piles of burlap, sacks of straw, and old bits of leather fill this cell. The Ildharas must not have had

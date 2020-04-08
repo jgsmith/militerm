@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas56"
       east:
         target: "scene:aber:ildharas:ildharas23"
       north:

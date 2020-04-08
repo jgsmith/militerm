@@ -1,0 +1,23 @@
+groups:
+locations:
+  mou6:
+    npcs:
+      vulture: 1
+npcs:
+  vulture:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vulture
+          short: The Vulture
+          sight: >
+            A vulture is hovering above you searching for prey.
+      flag:
+      identity:
+        name: The Vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

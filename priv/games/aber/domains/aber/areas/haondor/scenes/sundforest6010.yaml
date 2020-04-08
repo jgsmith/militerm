@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:haondor:sundforest6009"
     short: Inside The Cabin
     sight: >
       You are inside a small one-room cabin made entirely from heavy logs. It is very sparsely furnished,

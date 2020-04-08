@@ -7,7 +7,7 @@ detail:
     sight: >
       ...Flew into the light of Deneb, sailed across the Milky Way...
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

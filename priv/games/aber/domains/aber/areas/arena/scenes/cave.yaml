@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:arena:arena6"
     short: Cave
     sight: >
       This is a large dark cave cut into the stone of the cliff. The walls are burnt, and few rocks lay round

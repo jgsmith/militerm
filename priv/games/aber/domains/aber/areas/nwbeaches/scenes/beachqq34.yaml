@@ -8,5 +8,5 @@ detail:
       Something seems wrong here, very wrong. Something makes the water move and not just in a small spot, ALL
       of the water is moving from some kind of monstrous movement under the water.
 flag:
-  - onwater
+  - on-water
   - outdoors

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:adept:adept46"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:adept:adept47"
       south:
         target: "scene:aber:adept:adept44"
     short: Wall of Roots

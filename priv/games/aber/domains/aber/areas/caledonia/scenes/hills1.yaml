@@ -14,4 +14,4 @@ detail:
       leading west. You could follow that or descend into the valley.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

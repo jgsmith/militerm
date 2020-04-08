@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund35"
     short: Tower Vault
     sight: >
       The excavation task here must have been enormous. A circular chamber stands twenty feet high with

@@ -1,0 +1,3452 @@
+groups:
+  fairybook67:
+    npcs:
+      ed: 1
+      francis: 1
+      horse: 1
+  fairybook41:
+    npcs:
+      kingohearts: 1
+      knaveohearts: 1
+      queenohearts: 1
+  fairybook42:
+    npcs:
+      flaminga: 1
+      flamingo: 1
+      flamingogo: 1
+      hedgehog: 1
+      hedgehogie: 1
+      hedgehogy: 1
+  fairybook71:
+    npcs:
+      haigha: 1
+      hatta: 1
+      kingy: 1
+  fairybook78:
+    npcs:
+      mutton: 1
+      pudding: 1
+  fairybook73:
+    npcs:
+      redknight: 1
+      whiteknight: 1
+  fairybook167:
+    npcs:
+      chinacow: 1
+      chinadog: 1
+      chinamaid: 1
+      chinaprincess: 1
+  fairybook117:
+    npcs:
+      crow: 1
+      jem: 1
+      lem: 1
+      scarecrow: 1
+      tem: 1
+  fairybook155:
+    npcs:
+      zik: 1
+      zuzzy: 1
+  fairybook35:
+    npcs:
+      dormouse: 1
+      hatter: 1
+      marchhare: 1
+  fairybook154:
+    npcs:
+      hello: 1
+      zizzy: 1
+  fairybook104:
+    npcs:
+      blacky: 1
+      boar: 1
+      cecco: 1
+      cookson: 1
+      crocodile: 1
+      curly: 1
+      eats: 1
+      jukes: 1
+      laughing: 1
+      lily: 1
+      lion: 1
+      mason: 1
+      mullins: 1
+      nibs: 1
+      noodler: 1
+      panther: 1
+      skylights: 1
+      slightly: 1
+      smee: 1
+      starkey: 1
+      tootles: 1
+      twin: 1
+      twins: 1
+      walks: 1
+  fairybook43:
+    npcs:
+      gryphon: 1
+      mock: 1
+  fairybook60:
+    npcs:
+      carpenter: 1
+      oyster: 1
+      oysterer: 1
+      walrus: 1
+  fairybook169:
+    npcs:
+      tarantula: 1
+      tiger: 1
+  fairybook34:
+    npcs:
+      babe: 1
+      beatrice: 1
+      bianca: 1
+      brent: 1
+      brucie: 1
+      bugs: 1
+      busterbunny: 1
+  fairybook168:
+    npcs:
+      elm: 1
+      maple: 1
+      oak: 1
+  fairybook28:
+    npcs:
+      fishfoot: 1
+      frogfoot: 1
+  fairybook40:
+    npcs:
+      ace: 1
+      eight: 1
+      five: 1
+      four: 1
+      nine: 1
+      seven: 1
+      six: 1
+      ten: 1
+      three: 1
+      two: 1
+  fairybook97:
+    npcs:
+      ochre: 1
+      vermillion: 1
+  fairybook56:
+    npcs:
+      breadfly: 1
+      gnat: 1
+      rockingfly: 1
+      snapfly: 1
+  fairybook162:
+    npcs:
+      elephant: 1
+      quadling: 1
+  fairybook163:
+    npcs:
+      flathead: 1
+      fox: 1
+  fairybook109:
+    npcs:
+      dorothy: 1
+      toto: 1
+  fairybook77:
+    npcs:
+      knaght: 1
+      knught: 1
+  fairybook153:
+    npcs:
+      hillo: 1
+      hollo: 1
+  fairybook165:
+    npcs:
+      grizzly: 1
+      sleepyhead: 1
+  fairybook164:
+    npcs:
+      eraserhead: 1
+      wolfie: 1
+  fairybook55:
+    npcs:
+      beatle: 1
+      gentleman: 1
+      goat: 1
+  fairybook151:
+    npcs:
+      swarm: 1
+      winky: 1
+      witch: 1
+  fairybook29:
+    npcs:
+      cheshirecat: 1
+      cooky: 1
+      duchess: 1
+  fairybook68:
+    npcs:
+      quentin: 1
+      quirk: 1
+      quisby: 1
+  fairybook12:
+    npcs:
+      canary: 1
+      dodo: 1
+      duck: 1
+      eaglet: 1
+      lory: 1
+      magpie: 1
+  fairybook152:
+    npcs:
+      eppe: 1
+      kekke: 1
+      peppe: 1
+  fairybook145:
+    npcs:
+      humbug: 1
+      oz: 1
+  fairybook59:
+    npcs:
+      tweedledee: 1
+      tweedledum: 1
+  fairybook156:
+    npcs:
+      blinky: 1
+      winkie: 1
+locations:
+  fairybook67:
+    groups:
+      fairybook67: 1
+  fairybook49:
+    npcs:
+      rose: 1
+  fairybook41:
+    groups:
+      fairybook41: 1
+  fairybook42:
+    groups:
+      fairybook42: 1
+  fairybook63:
+    npcs:
+      sheep: 1
+  fairybook170:
+    npcs:
+      amazon: 1
+  fairybook149:
+    npcs:
+      crower: 1
+  fairybook71:
+    groups:
+      fairybook71: 1
+  fairybook105:
+    npcs:
+      pan: 1
+  fairybook78:
+    groups:
+      fairybook78: 1
+  fairybook73:
+    groups:
+      fairybook73: 1
+  fairybook167:
+    groups:
+      fairybook167: 1
+  fairybook117:
+    groups:
+      fairybook117: 1
+  fairybook51:
+    npcs:
+      larkspur: 1
+  fairybook112:
+    npcs:
+      toomer: 1
+  fairybook122:
+    npcs:
+      woodman: 1
+  fairybook161:
+    npcs:
+      quelala: 1
+  fairybook103:
+    npcs:
+      captainhook: 1
+  fairybook155:
+    groups:
+      fairybook155: 1
+  fairybook125:
+    npcs:
+      coward: 1
+  fairybook35:
+    groups:
+      fairybook35: 1
+  fairybook91:
+    npcs:
+      wendy: 1
+  fairybook111:
+    npcs:
+      timmer: 1
+  fairybook53:
+    npcs:
+      redqueen: 1
+  fairybook154:
+    groups:
+      fairybook154: 1
+  fairybook21:
+    npcs:
+      guinea: 1
+  fairybook115:
+    npcs:
+      boq: 1
+  fairybook131:
+    npcs:
+      kalidah: 1
+  fairybook135:
+    npcs:
+      fieldmouse: 1
+  fairybook54:
+    npcs:
+      guardo: 1
+  fairybook150:
+    npcs:
+      kingcrow: 1
+  fairybook98:
+    npcs:
+      neverbird: 1
+  fairybook104:
+    groups:
+      fairybook104: 1
+  fairybook43:
+    groups:
+      fairybook43: 1
+  fairybook137:
+    npcs:
+      mouse: 1
+  fairybook72:
+    npcs:
+      unicorny: 1
+  fairybook108:
+    npcs:
+      em: 1
+  fairybook60:
+    groups:
+      fairybook60: 1
+  fairybook136:
+    npcs:
+      wildcat: 1
+  fairybook81:
+    npcs:
+      boxer: 1
+  fairybook169:
+    groups:
+      fairybook169: 1
+  fairybook34:
+    groups:
+      fairybook34: 1
+  fairybook168:
+    groups:
+      fairybook168: 1
+  fairybook28:
+    groups:
+      fairybook28: 1
+  fairybook114:
+    npcs:
+      glinda: 1
+  fairybook64:
+    npcs:
+      rush: 1
+  fairybook80:
+    npcs:
+      alice: 1
+  fairybook40:
+    groups:
+      fairybook40: 1
+  fairybook97:
+    groups:
+      fairybook97: 1
+  fairybook17:
+    npcs:
+      billy: 1
+  fairybook56:
+    groups:
+      fairybook56: 1
+  fairybook20:
+    npcs:
+      guineapig: 1
+  fairybook162:
+    groups:
+      fairybook162: 1
+  fairybook163:
+    groups:
+      fairybook163: 1
+  fairybook110:
+    npcs:
+      munchkin: 1
+  fairybook109:
+    groups:
+      fairybook109: 1
+  fairybook93:
+    npcs:
+      tinkerbel: 1
+  fairybook132:
+    npcs:
+      kally: 1
+  fairybook22:
+    npcs:
+      puppy: 1
+  fairybook48:
+    npcs:
+      tigerlily: 1
+  fairybook77:
+    groups:
+      fairybook77: 1
+  fairybook153:
+    groups:
+      fairybook153: 1
+  fairybook107:
+    npcs:
+      henry: 1
+  fairybook165:
+    groups:
+      fairybook165: 1
+  fairybook24:
+    npcs:
+      caterpillar: 1
+  fairybook164:
+    groups:
+      fairybook164: 1
+  fairybook140:
+    npcs:
+      gateman: 1
+  fairybook61:
+    npcs:
+      redking: 1
+  fairybook55:
+    groups:
+      fairybook55: 1
+  fairybook151:
+    groups:
+      fairybook151: 1
+  fairybook113:
+    npcs:
+      tommer: 1
+  fairybook29:
+    groups:
+      fairybook29: 1
+  fairybook68:
+    groups:
+      fairybook68: 1
+  fairybook50:
+    npcs:
+      daisy: 1
+  fairybook12:
+    groups:
+      fairybook12: 1
+  fairybook133:
+    npcs:
+      stork: 1
+  fairybook152:
+    groups:
+      fairybook152: 1
+  fairybook145:
+    groups:
+      fairybook145: 1
+  fairybook57:
+    npcs:
+      doe: 1
+  fairybook59:
+    groups:
+      fairybook59: 1
+  fairybook62:
+    npcs:
+      whitequeen: 1
+  fairybook156:
+    groups:
+      fairybook156: 1
+  fairybook66:
+    npcs:
+      humpty: 1
+  fairybook141:
+    npcs:
+      soldier: 1
+npcs:
+  dormouse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dormouse
+          short: Dormouse
+          sight: The Dormouse hides in the teapot.
+      flag:
+      identity:
+        name: Dormouse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cookson:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cookson
+          short: Cookson
+          sight: >
+            Cookson, the Pirate Cook, wields a sharpened spatula.
+      flag:
+      identity:
+        name: Cookson
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ace:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ace
+          short: Ace
+          sight: The Ace of Clubs paints white roses red.
+      flag:
+      identity:
+        name: Ace
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glinda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - glinda
+          short: Glinda
+          sight: Glinda the Good Witch smiles benevolently at you.
+      flag:
+        - frost
+        - shock
+      identity:
+        name: Glinda
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  amazon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - amazon
+          short: Amazon
+          sight: An amazon warrior stops you in your path.
+      flag:
+      identity:
+        name: Amazon
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  humpty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humpty
+          short: Humpty
+          sight: >
+            A rather large egg seems intent on not letting you pass.
+      flag:
+      identity:
+        name: Humpty
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eraserhead:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eraserhead
+          short: Eraserhead
+          sight: A quadling stands before you.
+      flag:
+      identity:
+        name: Eraserhead
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ed:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ed
+          short: Ed
+          sight: A horse bares its teeth at you.
+      flag:
+      identity:
+        name: Ed
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cecco:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cecco
+          short: Cecco
+          sight: >
+            Cecco, the Italian Pirate, grins evilly as he brandishes his sword.
+      flag:
+      identity:
+        name: Cecco
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fox
+          short: Fox
+          sight: A fox hides in the bushes.
+      flag:
+      identity:
+        name: Fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quentin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quentin
+          short: Quentin
+          sight: A soldier waves his shield at you.
+      flag:
+      identity:
+        name: Quentin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tweedledee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tweedledee
+          short: TweedleDee
+          sight: Tweedle-Dee looks like his brother.
+      flag:
+      identity:
+        name: TweedleDee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redqueen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redqueen
+          short: RedQueen
+          sight: A woman in red stands before you.
+      flag:
+      identity:
+        name: RedQueen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  alice:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alice
+          short: Alice
+          sight: Alice sits here, glaring at you.
+      flag:
+      identity:
+        name: Alice
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  henry:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - henry
+          short: Henry
+          sight: Uncle Henry hides his head in the cellar.
+      flag:
+      identity:
+        name: Henry
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gateman
+          short: Gateman
+          sight: >
+            The Guardian of the Gate offers you a pair of spectacles.
+      flag:
+      identity:
+        name: Gateman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  two:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - two
+          short: Two
+          sight: The Two of Diamonds paints red roses white.
+      flag:
+      identity:
+        name: Two
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tigerlily:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tigerlily
+          short: Tigerlily
+          sight: A tiger-lily nods her head at you.
+      flag:
+      identity:
+        name: Tigerlily
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  snapfly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snapfly
+          short: Snapfly
+          sight: A Snapdragonfly explodes in your ear.
+      flag:
+      identity:
+        name: Snapfly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chinaprincess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chinaprincess
+          short: Chinaprincess
+          sight: >
+            A princess, made of china, sits regally on a pillow.
+      flag:
+      identity:
+        name: Chinaprincess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  winkie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - winkie
+          short: Winkie
+          sight: One of the winkies blinks frantically.
+      flag:
+      identity:
+        name: Winkie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ten:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ten
+          short: Ten
+          sight: The Ten of Clubs paints white roses red.
+      flag:
+      identity:
+        name: Ten
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  noodler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - noodler
+          short: Noodler
+          sight: >
+            Noodler, the tallest Pirate, has his hands on backwards.
+      flag:
+      identity:
+        name: Noodler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kalidah:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kalidah
+          short: Kalidah
+          sight: >
+            A kalidah snarls and flexes his muscles as he stalks you.
+      flag:
+      identity:
+        name: Kalidah
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  duck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duck
+          short: Duck
+          sight: >
+            A duck shakes its wings at you, splashing you with tears.
+      flag:
+      identity:
+        name: Duck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  four:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - four
+          short: Four
+          sight: The Four of Clubs paints white roses red.
+      flag:
+      identity:
+        name: Four
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  magpie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - magpie
+          short: Magpie
+          sight: A magpie, shining brightly, saunters past you.
+      flag:
+      identity:
+        name: Magpie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  skylights:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skylights
+          short: Skylights
+          sight: >
+            Skylights, the Irish Pirate, has painted his hair green.
+      flag:
+      identity:
+        name: Skylights
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lion
+          short: Lion
+          sight: A lion roars as he attacks.
+      flag:
+      identity:
+        name: Lion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jem
+          short: Jem
+          sight: A crow dives lower to see you better.
+      flag:
+      identity:
+        name: Jem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  starkey:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - starkey
+          short: Starkey
+          sight: >
+            Gentleman Starkey, the polite Pirate, asks permission to kill you.
+      flag:
+      identity:
+        name: Starkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chinamaid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chinamaid
+          short: Chinamaid
+          sight: >
+            A milk-maid, made of china, milks the china cow carefully.
+      flag:
+      identity:
+        name: Chinamaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  blacky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blacky
+          short: Blacky
+          sight: >
+            Blacky, the African Pirate, eats children for breakfast.
+      flag:
+      identity:
+        name: Blacky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  curly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - curly
+          short: Curly
+          sight: Curly, the guilty Lost Boy, points at you.
+      flag:
+      identity:
+        name: Curly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  em:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - em
+          short: Em
+          sight: Auntie Em works hard in the garden.
+      flag:
+      identity:
+        name: Em
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  hello:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hello
+          short: Hello
+          sight: A flying monkey smiles politely.
+      flag:
+      identity:
+        name: Hello
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quirk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quirk
+          short: Quirk
+          sight: A soldier threatens you with his sword.
+      flag:
+      identity:
+        name: Quirk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mason:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mason
+          short: Mason
+          sight: >
+            Mason, the smiling Pirate, laughs as he draws his sword.
+      flag:
+      identity:
+        name: Mason
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tem
+          short: Tem
+          sight: A crow screams at you with indolence.
+      flag:
+      identity:
+        name: Tem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  neverbird:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - neverbird
+          short: Neverbird
+          sight: >
+            The Never-Bird squawks at you, protecting her nest.
+      flag:
+      identity:
+        name: Neverbird
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  whitequeen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - whitequeen
+          short: WhiteQueen
+          sight: The White Queen cries out in pain.
+      flag:
+      identity:
+        name: WhiteQueen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gnat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gnat
+          short: Gnat
+          sight: A gnat lands on your shoulder.
+      flag:
+      identity:
+        name: Gnat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolfie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolfie
+          short: Wolfie
+          sight: A wolfie howls at the sun.
+      flag:
+      identity:
+        name: Wolfie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  winky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - winky
+          short: Winky
+          sight: One of the winkies backs away in fear.
+      flag:
+      identity:
+        name: Winky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hedgehogie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehogie
+          short: Hedgehogie
+          sight: A hedgehog cringes in expectation of your blow.
+      flag:
+      identity:
+        name: Hedgehogie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hollo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hollo
+          short: Hollo
+          sight: >
+            A flying monkey throws darts at you with deadly accuracy.
+      flag:
+      identity:
+        name: Hollo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guinea:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guinea
+          short: Guinea
+          sight: A guinea pig nuzzles you experimentally.
+      flag:
+      identity:
+        name: Guinea
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jukes:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jukes
+          short: Jukes
+          sight: Bill Jukes, the Tattooed Pirate, loves his candy.
+      flag:
+      identity:
+        name: Jukes
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oak
+          short: Oak
+          sight: A tree waves its limbs menacingly at you.
+      flag:
+      identity:
+        name: Oak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pudding:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pudding
+          short: Pudding
+          sight: A plate of pudding introduces itself to you.
+      flag:
+      identity:
+        name: Pudding
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sleepyhead:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sleepyhead
+          short: Sleepyhead
+          sight: A quadling stands before you.
+      flag:
+      identity:
+        name: Sleepyhead
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cheshirecat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cheshirecat
+          short: CheshireCat
+          sight: A cheshire cat grins at you from his perch.
+      flag:
+      identity:
+        name: CheshireCat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  six:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - six
+          short: Six
+          sight: The Six of Clubs paints red roses white.
+      flag:
+      identity:
+        name: Six
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hedgehogy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehogy
+          short: Hedgehogy
+          sight: A hedgehog bounces across the field.
+      flag:
+      identity:
+        name: Hedgehogy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chinacow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chinacow
+          short: Chinacow
+          sight: A cow, made of china, chews china grass.
+      flag:
+      identity:
+        name: Chinacow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tommer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tommer
+          short: Tommer
+          sight: A munchkin carries a pail of water.
+      flag:
+      identity:
+        name: Tommer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brucie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brucie
+          short: Brucie
+          sight: >
+            Brucie Bunny wails pitifully, trying to play the guitar.
+      flag:
+      identity:
+        name: Brucie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guineapig:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guineapig
+          short: Guineapig
+          sight: A guinea pig pokes you playfully.
+      flag:
+      identity:
+        name: Guineapig
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vermillion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vermillion
+          short: Vermillion
+          sight: >
+            A vermillion mermaid swims past you, slapping you with her fins.
+      flag:
+      identity:
+        name: Vermillion
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  slightly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slightly
+          short: Slightly
+          sight: >
+            Slightly, the conceited Lost Boy, sneers at you from where he floats.
+      flag:
+      identity:
+        name: Slightly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rockingfly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rockingfly
+          short: Rockingfly
+          sight: A Rockinghorsefly rocks in place.
+      flag:
+      identity:
+        name: Rockingfly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  babe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - babs
+            - babe
+          short: Babs
+          sight: >
+            Babs Bunny hops around the room, impersonating famous comedians.
+      flag:
+      identity:
+        name: Babs
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  flathead:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flathead
+          short: Flathead
+          sight: A quadling stands before you.
+      flag:
+      identity:
+        name: Flathead
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knaveohearts:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knaveohearts
+          short: KnaveoHearts
+          sight: The Knave of Hearts stole some tarts.
+      flag:
+      identity:
+        name: KnaveoHearts
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  kekke:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kekke
+          short: Kekke
+          sight: >
+            A flying monkey with a bridle and saddle grins at you.
+      flag:
+      identity:
+        name: Kekke
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  three:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - three
+          short: Three
+          sight: The Three of Clubs paints red roses white.
+      flag:
+      identity:
+        name: Three
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redknight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redknight
+          short: RedKnight
+          sight: The Red Knight falls from his horse.
+      flag:
+      identity:
+        name: RedKnight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  toto:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - toto
+          short: Toto
+          sight: Toto snarls and chews on your pant leg.
+      flag:
+      identity:
+        name: Toto
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gryphon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gryphon
+          short: Gryphon
+          sight: The gryphon shakes his head sadly.
+      flag:
+      identity:
+        name: Gryphon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knught:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knught
+          short: Knught
+          sight: A Knight will not let you go up the steps.
+      flag:
+      identity:
+        name: Knught
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hatta:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hatta
+          short: Hatta
+          sight: Hatta waits on the King.
+      flag:
+      identity:
+        name: Hatta
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  walks:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walks
+          short: Walks
+          sight: >
+            Walks at Night, the Redskin who walks at night, grins evilly.
+      flag:
+      identity:
+        name: Walks
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ochre:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ochre
+          short: Ochre
+          sight: >
+            A ochre mermaid swims past you, slapping you with her tail.
+      flag:
+      identity:
+        name: Ochre
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  doe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - doe
+          short: Doe
+          sight: >
+            A small brown, four-legged thing stands here, looking at you with gentle eyes.
+      flag:
+      identity:
+        name: Doe
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  oyster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oyster
+          short: Oyster
+          sight: An oyster spits water at you.
+      flag:
+      identity:
+        name: Oyster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  busterbunny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buster bunny
+            - busterbunny
+          short: Buster Bunny
+          sight: Buster Bunny tells bad jokes.
+      flag:
+      identity:
+        name: Buster Bunny
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elm
+          short: Elm
+          sight: A tree threatens you with its branches.
+      flag:
+      identity:
+        name: Elm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  toomer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - toomer
+          short: Toomer
+          sight: A munchkin offers you a lollypop.
+      flag:
+      identity:
+        name: Toomer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  captainhook:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - captainhook
+          short: Captainhook
+          sight: >
+            Hook brandishes his hook, shouting 'Bad form!' as he attacks.
+      flag:
+      identity:
+        name: Captainhook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  daisy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - daisy
+          short: Daisy
+          sight: A daisy shakes her head sadly.
+      flag:
+      identity:
+        name: Daisy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  seven:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seven
+          short: Seven
+          sight: The Seven of Diamonds paints white roses red.
+      flag:
+      identity:
+        name: Seven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hillo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hillo
+          short: Hillo
+          sight: A flying monkey swings his mace wildly.
+      flag:
+      identity:
+        name: Hillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humbug:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humbug
+          short: Humbug
+          sight: >
+            A tiny man shouts 'Pay no attention to the man behind the curtain!'
+      flag:
+      identity:
+        name: Humbug
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardo
+          short: Guardo
+          sight: A guard asks for your ticket.
+      flag:
+      identity:
+        name: Guardo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rush:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rush
+          short: Rush
+          sight: >
+            A Rush-Giant looms up suddenly from out of the swamp and attacks.
+      flag:
+      identity:
+        name: Rush
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mock:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mock
+          short: Mock
+          sight: The Mock Turtle talks about the good old days.
+      flag:
+      identity:
+        name: Mock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  twin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - twin
+          short: Twin
+          sight: >
+            Twin, the identical Lost Boy, swings his sword in the air.
+      flag:
+      identity:
+        name: Twin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  francis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - francis
+          short: Francis
+          sight: A stallion rears and kicks at you!
+      flag:
+      identity:
+        name: Francis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flamingogo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flamingogo
+          short: Flamingogo
+          sight: A flamingo flaps his wings wildly.
+      flag:
+      identity:
+        name: Flamingogo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zizzy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zizzy
+          short: Zizzy
+          sight: >
+            A flying monkey hums as he flies in circles over your head.
+      flag:
+      identity:
+        name: Zizzy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  twins:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - twins
+          short: Twins
+          sight: >
+            Twin, the identical Lost Boy, swings his sword in the air.
+      flag:
+      identity:
+        name: Twins
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  coward:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - coward
+          short: Coward
+          sight: A lion jumps out of the brush and attacks you!
+      flag:
+      identity:
+        name: Coward
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mutton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mutton
+          short: Mutton
+          sight: A leg of mutton introduces itself to you.
+      flag:
+      identity:
+        name: Mutton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mullins:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mullins
+          short: Mullins
+          sight: >
+            Mullins, the angry Pirate, chases you around the room.
+      flag:
+      identity:
+        name: Mullins
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lily:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lily
+          short: Lily
+          sight: >
+            Tiger Lily, the beautiful Redskin princess, proudly attacks you.
+      flag:
+      identity:
+        name: Lily
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  quisby:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quisby
+          short: Quisby
+          sight: A soldier tells you to move.
+      flag:
+      identity:
+        name: Quisby
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tweedledum:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tweedledum
+          short: TweedleDum
+          sight: Tweedle-Dum looks like his brother.
+      flag:
+      identity:
+        name: TweedleDum
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brent:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brent
+          short: Brent
+          sight: Brent Bunny seduces a young rabbit.
+      flag:
+      identity:
+        name: Brent
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eats:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eats
+          short: Eats
+          sight: >
+            Eats All, the hungry Redskin, looks hungrily at you.
+      flag:
+      identity:
+        name: Eats
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scarecrow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scarecrow
+          short: Scarecrow
+          sight: A scarecrow hangs upon a pole.
+      flag:
+      identity:
+        name: Scarecrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eppe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eppe
+          short: Eppe
+          sight: A flying monkey carries a rope.
+      flag:
+      identity:
+        name: Eppe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  horse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horse
+          short: Horse
+          sight: A horse nips at you.
+      flag:
+      identity:
+        name: Horse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flamingo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flamingo
+          short: Flamingo
+          sight: A flamingo has been polished for better croquet.
+      flag:
+      identity:
+        name: Flamingo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  larkspur:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - larkspur
+          short: Larkspur
+          sight: A lark-spur blows in the wind.
+      flag:
+      identity:
+        name: Larkspur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gentleman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gentleman
+          short: Gentleman
+          sight: A gentleman reads his newspaper.
+      flag:
+      identity:
+        name: Gentleman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  duchess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duchess
+          short: Duchess
+          sight: The Duchess protects her baby.
+      flag:
+      identity:
+        name: Duchess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  lory:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lory
+          short: Lory
+          sight: A lory pecks at the ground, searching for grubs.
+      flag:
+      identity:
+        name: Lory
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  timmer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - timmer
+          short: Timmer
+          sight: A munchkin welcomes you to munchkin land.
+      flag:
+      identity:
+        name: Timmer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dorothy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dorothy
+          short: Dorothy
+          sight: Dorothy looks at you with innocent eyes.
+      flag:
+      identity:
+        name: Dorothy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wendy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wendy
+          short: Wendy
+          sight: >
+            The Wendy lady looks at you with tears in her eyes.
+      flag:
+      identity:
+        name: Wendy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wildcat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wildcat
+          short: Wildcat
+          sight: A wildcat snarls at you from her treetop perch.
+      flag:
+      identity:
+        name: Wildcat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  fieldmouse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fieldmouse
+          short: Fieldmouse
+          sight: A field-mouse scampers past you.
+      flag:
+      identity:
+        name: Fieldmouse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flaminga:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flaminga
+          short: Flaminga
+          sight: A flamingo stretches out her neck.
+      flag:
+      identity:
+        name: Flaminga
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  quadling:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quadling
+          short: Quadling
+          sight: A quadling stands before you.
+      flag:
+      identity:
+        name: Quadling
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fishfoot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fishfoot
+          short: Fishfoot
+          sight: >
+            A footman stands at the door. He looks like a fish.
+      flag:
+      identity:
+        name: Fishfoot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  carpenter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - carpenter
+          short: Carpenter
+          sight: The Carpenter tries to catch a fish.
+      flag:
+      identity:
+        name: Carpenter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  boxer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boxer
+          short: Boxer
+          sight: >
+            A shadow dodges around behind you to throw the first punch.
+      flag:
+      identity:
+        name: Boxer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tootles:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tootles
+          short: Tootles
+          sight: >
+            Tootles, the unfortunate Lost Boy, shakes his sword menacingly.
+      flag:
+      identity:
+        name: Tootles
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  laughing:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - laughing
+          short: Laughing
+          sight: Laughing Tree, the tall Redskin, towers over you.
+      flag:
+      identity:
+        name: Laughing
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  munchkin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - munchkin
+          short: Munchkin
+          sight: A munchkin stares at you with fear in his eyes.
+      flag:
+      identity:
+        name: Munchkin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quelala:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quelala
+          short: Quelala
+          sight: >
+            Quelala, once a princess, has been reduced to the state of a peasant.
+      flag:
+      identity:
+        name: Quelala
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  soldier:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - soldier
+          short: Soldier
+          sight: >
+            A soldier asks you your business with the Great Oz.
+      flag:
+      identity:
+        name: Soldier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  walrus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walrus
+          short: Walrus
+          sight: The Walrus dances in the sand.
+      flag:
+      identity:
+        name: Walrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bianca:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bianca
+          short: Bianca
+          sight: Bianca Bunny stretches herself out on the divan.
+      flag:
+      identity:
+        name: Bianca
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  crow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: >
+            A crow spins and wheels in the air around your head.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stork:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stork
+          short: Stork
+          sight: A very large stork lands in front of you.
+      flag:
+      identity:
+        name: Stork
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  witch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - witch
+          short: Witch
+          sight: The Wicked Witch of the West grins evilly at you.
+      flag:
+        - bhands
+        - fireball
+      identity:
+        name: Witch
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  crocodile:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crocodile
+          short: Crocodile
+          sight: >
+            A gigantic crocodile ticks ominously as he crawls along the path.
+      flag:
+      identity:
+        name: Crocodile
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blinky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blinky
+          short: Blinky
+          sight: One of the winkies winks knowingly at you.
+      flag:
+      identity:
+        name: Blinky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elephant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elephant
+          short: Elephant
+          sight: An elephant raises his trunk and bellows.
+      flag:
+      identity:
+        name: Elephant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goat
+          short: Goat
+          sight: A goat peers at you through his spectacles.
+      flag:
+      identity:
+        name: Goat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oz
+          short: Oz
+          sight: >
+            Oz the Great and Terrible roars 'What do you want?'
+      flag:
+      identity:
+        name: Oz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  haigha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haigha
+          short: Haigha
+          sight: Haigha waits on the King.
+      flag:
+      identity:
+        name: Haigha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hatter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hatter
+          short: Hatter
+          sight: The Mad hatter offers you no tea.
+      flag:
+      identity:
+        name: Hatter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  unicorny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - unicorny
+          short: Unicorny
+          sight: The Unicorny tosses his mane in anger.
+      flag:
+      identity:
+        name: Unicorny
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chinadog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chinadog
+          short: Chinadog
+          sight: A dog, made of china, snarls at you.
+      flag:
+      identity:
+        name: Chinadog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hedgehog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehog
+          short: Hedgehog
+          sight: A hedgehog rolls across the field.
+      flag:
+      identity:
+        name: Hedgehog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beatle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beatle
+          short: Beatle
+          sight: A beetle crawls up your leg.
+      flag:
+      identity:
+        name: Beatle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kingcrow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kingcrow
+          short: Kingcrow
+          sight: The King of the Crows drops a rock on your head!
+      flag:
+      identity:
+        name: Kingcrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crower:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crower
+          short: Crower
+          sight: A huge crow swoops down and attacks you!
+      flag:
+      identity:
+        name: Crower
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beatrice:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beatrice
+          short: Beatrice
+          sight: >
+            Beatrice Bunny, Bet to her friends, chews your ear off with gossip.
+      flag:
+      identity:
+        name: Beatrice
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  queenohearts:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - queenohearts
+          short: QueenoHearts
+          sight: "The Queen of Hearts shouts 'Off with her head!'"
+      flag:
+      identity:
+        name: QueenoHearts
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  knaght:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knaght
+          short: Knaght
+          sight: >
+            A Knight bars your way up. 'The Queen is resting,' he says.
+      flag:
+      identity:
+        name: Knaght
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  caterpillar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - caterpillar
+          short: Caterpillar
+          sight: >
+            A hookah-smoking caterpillar fades in and out of existence.
+      flag:
+      identity:
+        name: Caterpillar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  frogfoot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frogfoot
+          short: Frogfoot
+          sight: >
+            A footman stands at the door. He looks like a frog.
+      flag:
+      identity:
+        name: Frogfoot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  canary:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - canary
+          short: Canary
+          sight: A canary sings a lovely song.
+      flag:
+      identity:
+        name: Canary
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  swarm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swarm
+          short: Swarm
+          sight: >
+            A swarm of bees flies around your head, looking for a place to sting.
+      flag:
+      identity:
+        name: Swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cooky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cooky
+          short: Cooky
+          sight: The cook pours pepper into the soup.
+      flag:
+      identity:
+        name: Cooky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nibs:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nibs
+          short: Nibs
+          sight: >
+            Nibs, the debonair Lost Boy, smiles innocently as he hovers above you.
+      flag:
+      identity:
+        name: Nibs
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grizzly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grizzly
+          short: Grizzly
+          sight: A bear looks hungrily in your direction.
+      flag:
+      identity:
+        name: Grizzly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peppe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peppe
+          short: Peppe
+          sight: >
+            A flying monkey carrying a harness flies towards you.
+      flag:
+      identity:
+        name: Peppe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  whiteknight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - whiteknight
+          short: WhiteKnight
+          sight: The White Knight falls on his head.
+      flag:
+      identity:
+        name: WhiteKnight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eaglet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eaglet
+          short: Eaglet
+          sight: An eaglet keens shrilly.  She looks hungry.
+      flag:
+      identity:
+        name: Eaglet
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  boar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boar
+          short: Boar
+          sight: A boar roars as he attacks.
+      flag:
+      identity:
+        name: Boar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  billy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - billy
+          short: Billy
+          sight: Billy the Lizard slides down the chimney.
+      flag:
+      identity:
+        name: Billy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sheep:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sheep
+          short: Sheep
+          sight: A Sheep sits in the corner, knitting.
+      flag:
+      identity:
+        name: Sheep
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  eight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eight
+          short: Eight
+          sight: The Eight of Clubs paints white roses red.
+      flag:
+      identity:
+        name: Eight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  woodman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - woodman
+          short: Woodman
+          sight: A statue of a woodcutter stands here, made of tin.
+      flag:
+      identity:
+        name: Woodman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  five:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - five
+          short: Five
+          sight: The Five of Diamonds paints red roses white.
+      flag:
+      identity:
+        name: Five
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  boq:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boq
+          short: Boq
+          sight: Boq the innkeeper asks you for a tip.
+      flag:
+      identity:
+        name: Boq
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zuzzy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zuzzy
+          short: Zuzzy
+          sight: >
+            A flying monkey calls out nasty names as she dances out of your reach.
+      flag:
+      identity:
+        name: Zuzzy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  oysterer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oysterer
+          short: Oysterer
+          sight: An oyster lies here, cracked open on a rock.
+      flag:
+      identity:
+        name: Oysterer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dodo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dodo
+          short: Dodo
+          sight: A dodo looks at you with confusion.
+      flag:
+      identity:
+        name: Dodo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marchhare:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marchhare
+          short: MarchHare
+          sight: The March Hare runs around the top of the table.
+      flag:
+      identity:
+        name: MarchHare
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pan
+          short: Pan
+          sight: Peter Pan threatens you with his Neversword.
+      flag:
+      identity:
+        name: Pan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kingy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kingy
+          short: Kingy
+          sight: The King gives orders to his servants.
+      flag:
+      identity:
+        name: Kingy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kingohearts:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kingohearts
+          short: KingoHearts
+          sight: The King of Hearts looks around with impunity.
+      flag:
+      identity:
+        name: KingoHearts
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maple:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maple
+          short: Maple
+          sight: A tree grumbles at you from deep inside its trunk.
+      flag:
+      identity:
+        name: Maple
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  breadfly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - breadfly
+          short: Breadfly
+          sight: >
+            A Bread-And-Butterfly lands face down on your foot.
+      flag:
+      identity:
+        name: Breadfly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  smee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smee
+          short: Smee
+          sight: "Smee, Hook's bo'sun, wields his blade mercilessly."
+      flag:
+      identity:
+        name: Smee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  panther:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - panther
+          short: Panther
+          sight: >
+            Panther, the silent Redskin, sneaks across the path.
+      flag:
+      identity:
+        name: Panther
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nine
+          short: Nine
+          sight: The Nine of Clubs paints red roses white.
+      flag:
+      identity:
+        name: Nine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zik:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zik
+          short: Zik
+          sight: A flying monkey wears a golden cap.
+      flag:
+      identity:
+        name: Zik
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mouse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mouse
+          short: Mouse
+          sight: A mouse crawls into your bag, looking for food.
+      flag:
+      identity:
+        name: Mouse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redking:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redking
+          short: RedKing
+          sight: The Red King wakes up suddenly.
+      flag:
+      identity:
+        name: RedKing
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tinkerbel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tinkerbel
+          short: Tinkerbel
+          sight: Tinkerbel floats above you, screaming obscenities.
+      flag:
+      identity:
+        name: Tinkerbel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tarantula:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarantula
+          short: Tarantula
+          sight: A giant spider crawls on a strand of fine webbing.
+      flag:
+      identity:
+        name: Tarantula
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kally:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kally
+          short: Kally
+          sight: >
+            A kalidah waits silently in the bushes for you to pass by.
+      flag:
+      identity:
+        name: Kally
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  rose:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rose
+          short: Rose
+          sight: A rose points back the way you came.
+      flag:
+      identity:
+        name: Rose
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tiger:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tiger
+          short: Tiger
+          sight: A tiger stalks his prey.
+      flag:
+      identity:
+        name: Tiger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lem
+          short: Lem
+          sight: >
+            A crow lets out a startled 'Squawk!' as someone pulls his tail.
+      flag:
+      identity:
+        name: Lem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bugs:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugs
+          short: Bugs
+          sight: Bugs Bunny nibbles on a carrot.
+      flag:
+      identity:
+        name: Bugs
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  puppy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - puppy
+          short: Puppy
+          sight: A puppy rolls over playfully.
+      flag:
+      identity:
+        name: Puppy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

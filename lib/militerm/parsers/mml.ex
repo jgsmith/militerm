@@ -54,7 +54,10 @@ defmodule Militerm.Parsers.MML do
 
     iex> MML.parse("This is a string")
     {:ok, ["This is a string"]}
-
+    
+    iex> MML.parse("{channel}[{{ player }}@{{ game }}:{{ channel }}] {{ message }}{/channel}")
+    {:ok, [{:tag, [name: "channel"], ["[", {:script, {"player", :get_context_var}}, "@", {:script, {"game", :get_context_var}}, ":", {:script, {"channel", :get_context_var}}, "] ", {:script, {"message", :get_context_var}}]}]}
+    
     iex> MML.parse("<actor> <hit> <direct> with <indirect>.")
     {:ok, [{:slot, "actor"}, " ", {:verb, "hit"}, " ", {:slot, "direct"}, " with ", {:slot, "indirect"}, "."]}
   """

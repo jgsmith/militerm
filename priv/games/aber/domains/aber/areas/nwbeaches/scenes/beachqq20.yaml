@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:nwbeaches:beachqq21"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq19"
     short: Entryway - Lighthouse
     sight: >
       You stand in a small chamber just inside the front door of the lighthouse. Just south of these cramped

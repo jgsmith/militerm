@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter21"
       west:
         target: "scene:aber:enchanter:enchanter19"
     short: At the Castle Gates
@@ -11,4 +13,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:pirate:pirate10"
       south:
         target: "scene:aber:pirate:piratevol"
     short: "Officer's Room"

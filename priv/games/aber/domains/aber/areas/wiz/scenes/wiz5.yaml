@@ -5,6 +5,6 @@ detail:
     sight: >
       This is a safe quiet room for people to discuss their private matters.
 flag:
-  - nomobiles
+  - no-mobiles
   - private
   - party

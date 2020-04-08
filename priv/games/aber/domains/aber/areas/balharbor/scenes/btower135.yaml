@@ -9,7 +9,9 @@ detail:
         target: "scene:aber:balharbor:btower134"
       up:
         target: "scene:aber:balharbor:btower139"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:balharbor:btower138"
     short: Inside the Upper Tower Room
     sight: >
       Having disposed of Kish you go inside the room he was guarding to see what he was guarding. Looking

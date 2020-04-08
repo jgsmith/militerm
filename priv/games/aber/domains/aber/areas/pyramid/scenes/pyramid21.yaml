@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid17"
       south:
         target: "scene:aber:start:temple"
     short: "Neferteri's Altar"

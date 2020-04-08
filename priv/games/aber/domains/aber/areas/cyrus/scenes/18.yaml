@@ -8,4 +8,4 @@ detail:
       The walls are collapsing behind you. The only way to escape is to continue onward in the hall. The hall
       continues to the south.
 flag:
-  - noregen
+  - no-regen

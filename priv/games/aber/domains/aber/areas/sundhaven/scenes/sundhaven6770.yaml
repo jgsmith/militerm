@@ -12,5 +12,5 @@ detail:
       undisturbed, and an aura of desertion hangs about the place. Whoever does traverse these ancient halls
       may or may not have the light of goodness in their motivations.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

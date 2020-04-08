@@ -7,4 +7,4 @@ detail:
     sight: >
       You stand on the opposite side of the pit. A small stairway leads further into the prison.
 flag:
-  - cantsummon
+  - cant-summon

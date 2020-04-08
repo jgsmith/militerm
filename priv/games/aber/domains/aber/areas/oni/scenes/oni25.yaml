@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:oni:oni26"
       south:
         target: "scene:aber:oni:oni24"
     short: Entrance to Temple
@@ -11,4 +13,4 @@ detail:
       and hideous demons, making you wonder what lies within.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

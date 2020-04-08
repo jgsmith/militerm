@@ -7,15 +7,17 @@ detail:
         target: "scene:aber:arena:arena7"
       south:
         target: "scene:aber:arena:arena5"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:arena:cave"
     short: The Arena
     sight: >
       The far end of the arena looks much like the rest of it. A wave of heat wafts over you from beyond the
       archway to the west. It feels very warm, here indeed. Looking upward, you notice that the veiwing area
       here is protected no by the usual wire mesh, but by a clear rock like substance.
 flag:
-  - nosummon
-  - cantsummon
-  - nomagic
+  - no-summon
+  - cant-summon
+  - no-magic
   - hot
   - pkzone

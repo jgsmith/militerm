@@ -1,0 +1,170 @@
+groups:
+  dorm:
+    npcs:
+      ghem: 1
+      mhiery: 1
+      nhie: 1
+      ookphishk: 1
+locations:
+  basement:
+    npcs:
+      rats: 1
+  dorm:
+    groups:
+      dorm: 1
+  foyer:
+    npcs:
+      vampire: 1
+  leader:
+    npcs:
+      khighen: 1
+  library:
+    npcs:
+      golem: 1
+npcs:
+  ghem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghem
+          short: Ghem
+          sight: Ghem is here.
+      flag:
+      identity:
+        name: Ghem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  golem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golem
+          short: Golem
+          sight: >
+            &+W Something is lurking in the shadows of the library&*
+      flag:
+        - immfrost
+        - immfireball
+        - immshock
+        - no-magic
+        - no-summon
+        - no-punt
+      identity:
+        name: Golem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  khighen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - khighen
+          short: Khighen
+          sight: >
+            &+RKhighen&*, the kobold-leader watches you casually.
+      flag:
+      identity:
+        name: Khighen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mhiery:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mhiery
+          short: Mhiery
+          sight: &+RMhiery&* the kobold-thief is here.
+      flag:
+      identity:
+        name: Mhiery
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nhie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nhie
+          short: Nhie
+          sight: &+RNhie&* the Kobold is here.
+      flag:
+      identity:
+        name: Nhie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ookphishk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ookphisk
+            - ookphishk
+          short: Ookphisk
+          sight: &+ROokphisk&* is here.
+      flag:
+      identity:
+        name: Ookphisk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rats:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rats
+          short: Rats
+          sight: >
+            &+LA horde of filthy black &+Rrats&+L scurries around the room!&*
+      flag:
+        - no-zap
+      identity:
+        name: Rats
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vampire:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vlir
+            - vampire
+          short: Vlir
+          sight: &+RAn evil vampire is here, guarding his domain.
+      flag:
+        - blind
+        - no-zap
+        - no-summon
+        - no-magic
+        - no-punt
+        - no-alias
+      identity:
+        name: Vlir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

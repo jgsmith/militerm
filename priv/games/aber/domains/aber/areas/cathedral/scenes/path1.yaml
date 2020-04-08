@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cathedral:royal"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cathedral:path2"
       west:
         target: "scene:aber:cathedral:church"
     short: Path to the &+RCathedral&*

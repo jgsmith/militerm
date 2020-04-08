@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eforest:inside"
       north:
         target: "scene:aber:eforest:glade"
       south:
@@ -16,4 +18,4 @@ detail:
       the east of you. To the west, the line of destruction seems to continue. Mercifully, mountains to the
       east protected any further realms from this corruption.
 flag:
-  - outdoors
+  - out-doors

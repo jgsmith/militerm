@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:bull:bullzz06"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:bull:bullzz03"
       west:
         target: "scene:aber:bull:bullzz04"
     short: The Temple

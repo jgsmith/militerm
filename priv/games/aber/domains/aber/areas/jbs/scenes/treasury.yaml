@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:jbs:side"
     short: The Treasury
     sight: >
       This is the treasury of this mighty castle. You see mountains of gold and jewels all over the place.

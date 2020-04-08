@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:orcholdii:cell1"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:orcholdii:sitting"
       south:
         target: "scene:aber:orcholdii:cell3"
       west:

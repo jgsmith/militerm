@@ -19,8 +19,8 @@ detail:
       overwhelmes you as you gaze in awe into this endless &+Wexpansion. Time and space seem to stand still
       here, and you get the sense &+Wthat this room is not of this world.
 flag:
-  - oneperson
-  - nosnoop
-  - cantsummon
-  - nosummon
+  - one-person
+  - no-snoop
+  - cant-summon
+  - no-summon
   - soundproof

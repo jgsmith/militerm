@@ -14,8 +14,8 @@ detail:
       possible for you to head back up north toward Megadon.
 flag:
   - peaceful
-  - nomobiles
-  - nomagic
+  - no-mobiles
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

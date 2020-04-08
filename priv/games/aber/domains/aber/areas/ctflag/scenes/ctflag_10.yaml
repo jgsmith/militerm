@@ -1,16 +1,22 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:ctflag:ctflag_9"
       down:
         target: "scene:aber:ctflag:ctflag_5"
       east:
         target: "scene:aber:ctflag:ctflag_1"
       north:
         target: "scene:aber:ctflag:ctflag_0"
+      northeast:
+        target: "scene:aber:ctflag:ctflag_6"
+      northwest:
+        target: "scene:aber:ctflag:ctflag_7"
       south:
         target: "scene:aber:ctflag:ctflag_2"
+      southeast:
+        target: "scene:aber:ctflag:ctflag_8"
+      southwest:
+        target: "scene:aber:ctflag:ctflag_9"
       up:
         target: "scene:aber:ctflag:ctflag_4"
       west:

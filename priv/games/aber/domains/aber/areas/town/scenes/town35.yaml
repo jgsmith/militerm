@@ -19,4 +19,4 @@ detail:
 flag:
   - party
   - peaceful
-  - nomobiles
+  - no-mobiles

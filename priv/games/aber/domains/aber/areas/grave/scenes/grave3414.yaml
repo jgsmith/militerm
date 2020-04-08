@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:grave:grave3417"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:grave:grave3405"
       south:
         target: "scene:aber:grave:grave3430"
     short: The Foyer
@@ -16,4 +18,4 @@ detail:
       rather what once was a &+Cregistry&*. To the north you may leave the church, or to the east you may
       visit the classrooms of ATOR. Or to the South you may visit the grand cathedral.
 flag:
-  - nomobiles
+  - no-mobiles

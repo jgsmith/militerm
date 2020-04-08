@@ -12,8 +12,8 @@ detail:
       cloud and so is the shrine too. As you look back the way you came, you don't feel very safe to try it
       the same way down again. You should possibily try to please them for some help.
 flag:
-  - nomobiles
-  - oneperson
+  - no-mobiles
+  - one-person
   - cold
   - outdoors
-  - negregen
+  - neg-regen

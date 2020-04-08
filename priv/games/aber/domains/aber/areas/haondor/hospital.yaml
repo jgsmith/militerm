@@ -1,0 +1,1077 @@
+groups:
+  sundforest6013:
+    npcs:
+      mob6008_1: 1
+      mob6009_2: 1
+  sundforest6026:
+    npcs:
+      mob6014: 1
+      mob6014_1: 1
+      mob6014_2: 1
+      mob6015: 1
+  sundforest6027:
+    npcs:
+      mob6014_3: 1
+      mob6017: 1
+      mob6017_1: 1
+      mob6017_2: 1
+      mob6018: 1
+      mob6018_1: 1
+      mob6019: 1
+      mob6019_1: 1
+  sundforest6030:
+    npcs:
+      mob6010: 1
+      mob6010_1: 1
+      mob6012_4: 1
+      mob6013: 1
+  sundforest6032:
+    npcs:
+      mob6009: 1
+      mob6012_3: 1
+  sundforest6033:
+    npcs:
+      mob6006: 1
+      mob6007: 1
+  sundforest6060:
+    npcs:
+      mob6001_8: 1
+      mob6005_3: 1
+  sundforest6062:
+    npcs:
+      mob6001_5: 1
+      mob6008_2: 1
+  sundforest6067:
+    npcs:
+      mob6011: 1
+      mob6013_2: 1
+locations:
+  sundforest6017:
+    npcs:
+      mob6001_2: 1
+  sundforest6070:
+    npcs:
+      mob6001_7: 1
+  sundforest6003:
+    npcs:
+      mob6012: 1
+  sundforest6014:
+    npcs:
+      mob6005: 1
+  sundforest6074:
+    npcs:
+      mob6005_2: 1
+  sundforest6021:
+    npcs:
+      mob6013_1: 1
+  sundforest6012:
+    npcs:
+      mob6001: 1
+  sundforest6075:
+    npcs:
+      mob6012_6: 1
+  sundforest6033:
+    groups:
+      sundforest6033: 1
+  sundforest6023:
+    npcs:
+      mob6004: 1
+  sundforest6027:
+    groups:
+      sundforest6027: 1
+  sundforest6065:
+    npcs:
+      mob6003: 1
+  sundforest6022:
+    npcs:
+      mob6002: 1
+  sundforest6025:
+    npcs:
+      mob6016: 1
+  sundforest6061:
+    npcs:
+      mob6013_3: 1
+  sundforest6060:
+    groups:
+      sundforest6060: 1
+  sundforest6030:
+    groups:
+      sundforest6030: 1
+  sundforest6019:
+    npcs:
+      mob6001_3: 1
+  sundforest6062:
+    groups:
+      sundforest6062: 1
+  sundforest6015:
+    npcs:
+      mob6001_1: 1
+  sundforest6026:
+    groups:
+      sundforest6026: 1
+  sundforest6005:
+    npcs:
+      mob6008: 1
+  sundforest6071:
+    npcs:
+      mob6001_6: 1
+  sundforest6013:
+    groups:
+      sundforest6013: 1
+  sundforest6016:
+    npcs:
+      mob6009_3: 1
+  sundforest6066:
+    npcs:
+      mob6009_1: 1
+  sundforest6069:
+    npcs:
+      mob6005_1: 1
+  sundforest6009:
+    npcs:
+      mob6000: 1
+  sundforest6007:
+    npcs:
+      mob6012_1: 1
+  sundforest6064:
+    npcs:
+      mob6012_5: 1
+  sundforest6068:
+    npcs:
+      mob6001_4: 1
+  sundforest6032:
+    groups:
+      sundforest6032: 1
+  sundforest6067:
+    groups:
+      sundforest6067: 1
+  sundforest6028:
+    npcs:
+      mob6012_2: 1
+npcs:
+  mob6007:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bobcat
+            - mob
+          short: the bobcat
+          sight: A medium sized bobcat is stalking a bird here.
+      flag:
+      identity:
+        name: the bobcat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6017_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fish
+            - mob6017_
+          short: the fish
+          sight: A fish is swimming about here.
+      flag:
+      identity:
+        name: the fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6013_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small chipmunk
+            - mob6013_
+          short: the small chipmunk
+          sight: >
+            A small brown-red chipmunk dashes from tree to tree here.
+      flag:
+      identity:
+        name: the small chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6014_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large black crow
+            - mob6014_
+          short: the large black crow
+          sight: >
+            A large black bird flits about here, picking at bits of carrion.
+      flag:
+      identity:
+        name: the large black crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6010:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squirrel
+            - mob
+          short: the squirrel
+          sight: A squirrel is here seeking refuge in its nest.
+      flag:
+      identity:
+        name: the squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6008:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparrow
+            - mob
+          short: the sparrow
+          sight: A sparrow is flapping around by the ground.
+      flag:
+      identity:
+        name: the sparrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6009:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+            - mob
+          short: the robin
+          sight: A robin is hopping around looking for bugs to eat.
+      flag:
+      identity:
+        name: the robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6009_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+            - mob6009_
+          short: the robin
+          sight: A robin is hopping around looking for bugs to eat.
+      flag:
+      identity:
+        name: the robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6014_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large black crow
+            - mob6014_
+          short: the large black crow
+          sight: >
+            A large black bird flits about here, picking at bits of carrion.
+      flag:
+      identity:
+        name: the large black crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6010_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squirrel
+            - mob6010_
+          short: the squirrel
+          sight: A squirrel is here seeking refuge in its nest.
+      flag:
+      identity:
+        name: the squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6018:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duckling
+            - mob
+          short: the duckling
+          sight: A duckling is swimming around in the pond.
+      flag:
+      identity:
+        name: the duckling
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6002:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown bear
+            - mob
+          short: the brown bear
+          sight: A big, brown, angry-looking bear is here.
+      flag:
+      identity:
+        name: the brown bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6019:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duck
+            - mob
+          short: the duck
+          sight: A duck is here, quacking happily.
+      flag:
+      identity:
+        name: the duck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6011:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sleepy badger
+            - mob
+          short: the sleepy badger
+          sight: >
+            A furry brown badger is curled up under a log here.
+      flag:
+      identity:
+        name: the sleepy badger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6004:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fallow deer
+            - mob
+          short: the fallow deer
+          sight: A fallow deer is grazing peacefully here.
+      flag:
+      identity:
+        name: the fallow deer
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6012:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6003:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ferocious rabbit
+            - mob
+          short: the ferocious rabbit
+          sight: >
+            A ferocious rabbit is here, glaring hungrily at you.
+      flag:
+      identity:
+        name: the ferocious rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6009_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+            - mob6009_
+          short: the robin
+          sight: A robin is hopping around looking for bugs to eat.
+      flag:
+      identity:
+        name: the robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6013_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small chipmunk
+            - mob6013_
+          short: the small chipmunk
+          sight: >
+            A small brown-red chipmunk dashes from tree to tree here.
+      flag:
+      identity:
+        name: the small chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6000:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - john the lumberjack
+            - mob
+          short: John the Lumberjack
+          sight: >
+            John the Lumberjack is here, looking for some trees to chop down.
+      flag:
+      identity:
+        name: John the Lumberjack
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6009_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+            - mob6009_
+          short: the robin
+          sight: A robin is hopping around looking for bugs to eat.
+      flag:
+      identity:
+        name: the robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6014:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large black crow
+            - mob
+          short: the large black crow
+          sight: >
+            A large black bird flits about here, picking at bits of carrion.
+      flag:
+      identity:
+        name: the large black crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6016:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - young buck
+            - mob
+          short: the young buck
+          sight: >
+            A young 5-point buck is drinking from the lake here.
+      flag:
+      identity:
+        name: the young buck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6006:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bird
+            - mob
+          short: the bird
+          sight: >
+            A large bird with a broken wing has been cornered here.
+      flag:
+      identity:
+        name: the bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6008_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparrow
+            - mob6008_
+          short: the sparrow
+          sight: A sparrow is flapping around by the ground.
+      flag:
+      identity:
+        name: the sparrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6005_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown fox
+            - mob6005_
+          short: the brown fox
+          sight: >
+            A brown fox is stalking rabbits through the underbrush here.
+      flag:
+      identity:
+        name: the brown fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6019_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duck
+            - mob6019_
+          short: the duck
+          sight: A duck is here, quacking happily.
+      flag:
+      identity:
+        name: the duck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6017_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fish
+            - mob6017_
+          short: the fish
+          sight: A fish is swimming about here.
+      flag:
+      identity:
+        name: the fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6014_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large black crow
+            - mob6014_
+          short: the large black crow
+          sight: >
+            A large black bird flits about here, picking at bits of carrion.
+      flag:
+      identity:
+        name: the large black crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6005_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown fox
+            - mob6005_
+          short: the brown fox
+          sight: >
+            A brown fox is stalking rabbits through the underbrush here.
+      flag:
+      identity:
+        name: the brown fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6008_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparrow
+            - mob6008_
+          short: the sparrow
+          sight: A sparrow is flapping around by the ground.
+      flag:
+      identity:
+        name: the sparrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6015:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grotesque vulture
+            - mob
+          short: the grotesque vulture
+          sight: >
+            A grotesque vulture covered in blood and gore is here feeding madly.
+      flag:
+      identity:
+        name: the grotesque vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6013:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small chipmunk
+            - mob
+          short: the small chipmunk
+          sight: >
+            A small brown-red chipmunk dashes from tree to tree here.
+      flag:
+      identity:
+        name: the small chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6013_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small chipmunk
+            - mob6013_
+          short: the small chipmunk
+          sight: >
+            A small brown-red chipmunk dashes from tree to tree here.
+      flag:
+      identity:
+        name: the small chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6005:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown fox
+            - mob
+          short: the brown fox
+          sight: >
+            A brown fox is stalking rabbits through the underbrush here.
+      flag:
+      identity:
+        name: the brown fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6005_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown fox
+            - mob6005_
+          short: the brown fox
+          sight: >
+            A brown fox is stalking rabbits through the underbrush here.
+      flag:
+      identity:
+        name: the brown fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6012_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - mob6012_
+          short: the grey squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: the grey squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6018_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duckling
+            - mob6018_
+          short: the duckling
+          sight: A duckling is swimming around in the pond.
+      flag:
+      identity:
+        name: the duckling
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6001_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+            - mob6001_
+          short: the rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: the rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6017:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fish
+            - mob
+          short: the fish
+          sight: A fish is swimming about here.
+      flag:
+      identity:
+        name: the fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

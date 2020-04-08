@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      west: null
+      north:
+        guarded: true
+        target: "scene:aber:fire:fire10"
+      west:
+        guarded: true
+        target: "scene:aber:fire:fire7"
     short: Bathroom
     sight: >
       You are standing in the bathroom. Everything is made of &+wwhite&* marble--the basin, mirrors, walls,

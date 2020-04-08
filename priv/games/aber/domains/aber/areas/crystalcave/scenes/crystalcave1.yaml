@@ -12,4 +12,4 @@ detail:
       glittering shards of &+Wcrystals&N that have somehow broken away from the walls. Peering up at the
       ceiling, you can find no discernible light source that displays all this natural beauty.
 flag:
-  - nomobiles
+  - no-mobiles

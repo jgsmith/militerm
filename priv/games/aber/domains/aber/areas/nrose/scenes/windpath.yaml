@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:nrose:portcullis"
       north:
         target: "scene:aber:blizzard:r_land"
     short: Winding Path
@@ -12,4 +14,4 @@ detail:
       portcullis. Chiselled into the arch are these words, "NOMINE ROSAE", evidently the name of this place.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

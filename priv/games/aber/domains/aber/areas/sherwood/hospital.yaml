@@ -1,0 +1,380 @@
+groups:
+  sherwood20:
+    npcs:
+      emmy: 1
+      little: 1
+  sherwood22:
+    npcs:
+      greg: 1
+      stacy: 1
+locations:
+  sherwood11:
+    npcs:
+      jim: 1
+  sherwood13:
+    npcs:
+      marian: 1
+  sherwood14:
+    npcs:
+      sheriff: 1
+  sherwood20:
+    groups:
+      sherwood20: 1
+  sherwood22:
+    groups:
+      sherwood22: 1
+  sherwood25:
+    npcs:
+      chad: 1
+  sherwood26:
+    npcs:
+      tim: 1
+  sherwood27:
+    npcs:
+      jason: 1
+  sherwood28:
+    npcs:
+      mike: 1
+  sherwood29:
+    npcs:
+      butch: 1
+  sherwood30:
+    npcs:
+      sil: 1
+  sherwood31:
+    npcs:
+      lars: 1
+  sherwood32:
+    npcs:
+      dan: 1
+  sherwood33:
+    npcs:
+      scott: 1
+  sherwood34:
+    npcs:
+      robin: 1
+  sherwood8:
+    npcs:
+      friar: 1
+npcs:
+  butch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman butch
+            - butch
+          short: Merryman Butch
+          sight: >
+            Merryman Butch is here kickboxing and antogonized Merryman Chris.
+      flag:
+      identity:
+        name: Merryman Butch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman chad
+            - chad
+          short: Merryman Chad
+          sight: >
+            Merryman Chad is sitting here playing with his lucky boiling sticks.
+      flag:
+      identity:
+        name: Merryman Chad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman dan
+            - dan
+          short: Merryman Dan
+          sight: >
+            Merryman Dan is saying, "You just better give it back!"
+      flag:
+      identity:
+        name: Merryman Dan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  emmy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - emmy
+          short: Emmy
+          sight: Emmy is here eating a peach and giggling.
+      flag:
+        - no-zap
+        - no-exorcise
+        - no-punt
+      identity:
+        name: Emmy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  friar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - friar tuck
+            - friar
+          short: Friar Tuck
+          sight: Friar Tuck sits here protecting his precious brew.
+      flag:
+      identity:
+        name: Friar Tuck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  greg:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman greg
+            - greg
+          short: Merryman Greg
+          sight: >
+            Merryman Greg is telling Merryman Stacy about his new obsession.
+      flag:
+      identity:
+        name: Merryman Greg
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jason:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman jason
+            - jason
+          short: Merryman Jason
+          sight: >
+            Merryman Jason is here complaining about his newest ailment.
+      flag:
+      identity:
+        name: Merryman Jason
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jim:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman jim
+            - jim
+          short: Merryman Jim
+          sight: Jim is here on his watch.
+      flag:
+      identity:
+        name: Merryman Jim
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lars:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman lars
+            - lars
+          short: Merryman Lars
+          sight: >
+            Merryman Lars is here, puking after completing the Century Club.
+      flag:
+      identity:
+        name: Merryman Lars
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  little:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - little john
+            - little
+          short: Little John
+          sight: >
+            Little John stands here practicing his dodge, parry, thrust, and spin.
+      flag:
+      identity:
+        name: Little John
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maid marian
+            - marian
+          short: Maid Marian
+          sight: >
+            Maid Marian is here trying to catch of glimpse of your butt.
+      flag:
+      identity:
+        name: Maid Marian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mike:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman mike
+            - mike
+          short: Merryman Mike
+          sight: >
+            Merryman Mike is here mumbling about not being a farmer.
+      flag:
+      identity:
+        name: Merryman Mike
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  robin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin hood
+            - robin
+          short: Robin Hood
+          sight: >
+            The famed Robin of Hood stands here, leading his merrymen.
+      flag:
+      identity:
+        name: Robin Hood
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scott:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman scott
+            - scott
+          short: Merryman Scott
+          sight: >
+            Merryman Scott is here, spitting in his little sisters mouth.
+      flag:
+      identity:
+        name: Merryman Scott
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sheriff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sheriff
+          short: Sheriff
+          sight: >
+            The Sheriff is here picking out the spot at which to bury you.
+      flag:
+      identity:
+        name: Sheriff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sil:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman sil
+            - sil
+          short: Merryman Sil
+          sight: "Merryman Sil is here awaiting Amy's next command."
+      flag:
+      identity:
+        name: Merryman Sil
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stacy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman stacy
+            - stacy
+          short: Merryman Stacy
+          sight: >
+            Merryman Stacy is following Merryman Greg around as always.
+      flag:
+      identity:
+        name: Merryman Stacy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tim:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merryman tim
+            - tim
+          short: Merryman Tim
+          sight: >
+            Merryman Tim is here anxiously awaiting his weekly drive home.
+      flag:
+      identity:
+        name: Merryman Tim
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

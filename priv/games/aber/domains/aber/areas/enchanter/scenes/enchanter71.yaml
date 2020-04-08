@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter70"
     short: Bedroom
     sight: >
       You're in a large bedroom with a four-poster feather bed here.

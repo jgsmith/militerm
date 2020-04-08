@@ -11,8 +11,8 @@ flag:
   - hot
   - cantsummon
   - nosummon
-  - noquit
+  - no-quit
   - nosnoop
   - nomobiles
-  - noat
-  - soundproof
+  - no-at
+  - sound-proof

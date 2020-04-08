@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:princess:mountain"
       up:
         target: "scene:aber:princess:tower"
     short: "Inside the Sorceress' Tower"

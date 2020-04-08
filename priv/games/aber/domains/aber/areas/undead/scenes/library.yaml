@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:undead:secretpassage1"
       west:
         target: "scene:aber:undead:banquethall"
     short: The Grand Library
@@ -16,4 +18,4 @@ detail:
 flag:
   - fastheal
   - peaceful
-  - nomobiles
+  - no-mobiles

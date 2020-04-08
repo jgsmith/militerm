@@ -8,4 +8,4 @@ detail:
       shattered, you think back to the room before this..
 flag:
   - death
-  - nomobiles
+  - no-mobiles

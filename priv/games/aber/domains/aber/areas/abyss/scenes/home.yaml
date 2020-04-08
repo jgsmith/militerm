@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:abyss:cellar"
       north:
         target: "scene:aber:abyss:area"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:abyss:hall"
     short: "Somebody's Home"
     sight: >
       You stand on the doorstep of someone's private quarters. From a small window a dim light shines through

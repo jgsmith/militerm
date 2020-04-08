@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6735"
       south:
         target: "scene:aber:grass:grass100"
     short: A cobblestone road

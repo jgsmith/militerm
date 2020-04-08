@@ -17,4 +17,4 @@ detail:
       shallows.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

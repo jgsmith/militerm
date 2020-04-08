@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:haunted:haunted_7"
       north:
         target: "scene:aber:haunted:haunted_6"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:haunted:haunted_4"
     short: Living Room
     sight: >
       Oh MAN! This place could use some maid service! Trash is scattered all over the room, and red splashes

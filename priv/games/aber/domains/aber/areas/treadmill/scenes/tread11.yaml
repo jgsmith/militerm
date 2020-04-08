@@ -1,16 +1,20 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:moor:circle"
       down:
         target: "scene:aber:treadmill:tread17"
       east:
         target: "scene:aber:treadmill:tread14"
       north:
         target: "scene:aber:treadmill:tread12"
+      northeast:
+        target: "scene:aber:blizzard:pentacle"
+      northwest:
+        target: "scene:aber:treadmill:tread18"
       south:
         target: "scene:aber:treadmill:tread15"
+      southwest:
+        target: "scene:aber:moor:circle"
       up:
         target: "scene:aber:treadmill:tread16"
       west:

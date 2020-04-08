@@ -9,7 +9,7 @@ detail:
 flag:
   - party
   - private
-  - nomobiles
+  - no-mobiles
   - god
-  - nosnoop
-  - noat
+  - no-snoop
+  - no-at

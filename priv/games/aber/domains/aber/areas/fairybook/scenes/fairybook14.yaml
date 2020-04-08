@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook15"
       west:
         target: "scene:aber:fairybook:fairybook13"
     short: The Door

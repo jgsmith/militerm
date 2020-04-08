@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:khanjar:khanjar9512"
       south:
         target: "scene:aber:khanjar:khanjar9508"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9511"
     short: At The Top Floor
     sight: >
       You walk on the corridor. A door to the west is ajar and you wonder if you heard some voices from behind

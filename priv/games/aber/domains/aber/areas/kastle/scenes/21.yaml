@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:kastle:20"
     short: Solitary
     sight: >
       This must be where they put prisoners they didn't want to see anymore. There are several skeletons here

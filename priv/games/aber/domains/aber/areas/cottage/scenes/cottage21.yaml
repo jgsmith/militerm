@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:cottage:cottage22"
     short: Top of Dam
     sight: >
       Standing atop the underground dam you can peer over the rusted guardrail to the south, but the dam's

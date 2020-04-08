@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:balharbor:btower3"
       south:
         target: "scene:aber:balharbor:btower5"
     short: Tower Foyer
@@ -12,4 +14,4 @@ detail:
       to give you a guided tour?
 flag:
   - maze
-  - nomobiles
+  - no-mobiles

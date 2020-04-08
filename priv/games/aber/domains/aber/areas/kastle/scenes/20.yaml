@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:kastle:21"
       west:
         target: "scene:aber:kastle:18"
     short: Castle Dungeons

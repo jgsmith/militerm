@@ -1,0 +1,495 @@
+groups:
+  limbo@limbo:
+    npcs:
+      ironmail: 1
+      platemail: 1
+      wolfarmor: 1
+  royal:
+    npcs:
+      drool: 1
+      spit: 1
+  side2:
+    npcs:
+      blinky: 1
+      inky: 1
+      stinkie: 1
+  vambed:
+    npcs:
+      drolza: 1
+      elisabeth: 1
+      gwendolyn: 1
+  wolven:
+    npcs:
+      benji: 1
+      rintintin: 1
+      spot: 1
+locations:
+  astbed:
+    npcs:
+      astasia: 1
+  cobwebs:
+    npcs:
+      spiderman: 1
+  inchurch:
+    npcs:
+      priest: 1
+  limbo@limbo:
+    groups:
+      limbo@limbo: 1
+  milbed:
+    npcs:
+      millarca: 1
+  n_top:
+    npcs:
+      vladimir: 1
+  royal:
+    groups:
+      royal: 1
+  s_porch:
+    npcs:
+      lasher: 1
+  s_top:
+    npcs:
+      countess: 1
+  secroom:
+    npcs:
+      ashram: 1
+  side2:
+    groups:
+      side2: 1
+  sorbtomb:
+    npcs:
+      sorbet: 1
+  vambed:
+    groups:
+      vambed: 1
+  vamcrypt:
+    npcs:
+      lesuorac: 1
+  wolven:
+    groups:
+      wolven: 1
+npcs:
+  ashram:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ashram
+          short: Ashram
+          sight: >
+            Ashram the &+RDemon &+LKnight&* peers at you &+bcoldly&*, calculating your weaknesses.
+      flag:
+        - no-steal
+        - no-magic
+      identity:
+        name: Ashram
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  astasia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seductress
+            - astasia
+          short: Seductress
+          sight: >
+            You have disturbed Astasia the Seductress's well deserved beauty sleep!
+      flag:
+      identity:
+        name: Seductress
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  benji:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - benji
+          short: Benji
+          sight: >
+            Benji the &+RHellhound&* licks his lips at the sight of you!
+      flag:
+      identity:
+        name: Benji
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blinky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blinky
+          short: Blinky
+          sight: >
+            &+MBlinky&* the &+WApparition&* hovers above your head menacingly.
+      flag:
+      identity:
+        name: Blinky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  countess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bathory
+            - countess
+          short: Bathory
+          sight: >
+            Countess Bathory &+Rscreams&* as you walk in on her bath!
+      flag:
+      identity:
+        name: Bathory
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  drolza:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drolza
+          short: Drolza
+          sight: >
+            Drolza longs to suck out your &+rblood&* as slowly as possible!
+      flag:
+      identity:
+        name: Drolza
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  drool:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drool
+          short: Drool
+          sight: >
+            Drool the Wolf is here, panting and drooling, hungry for his next meal, YOU!
+      flag:
+      identity:
+        name: Drool
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elisabeth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elisabeth
+          short: Elisabeth
+          sight: >
+            Elisabeth stares at you with &+Rlust&* in her eyes.
+      flag:
+      identity:
+        name: Elisabeth
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gwendolyn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gwendolyn
+          short: Gwendolyn
+          sight: Gwendolyn smiles coyly and beckons you closer.
+      flag:
+      identity:
+        name: Gwendolyn
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  inky:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - inky
+          short: Inky
+          sight: >
+            &+BInky&* the &+WApparition&* hovers above your head menacingly.
+      flag:
+      identity:
+        name: Inky
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ironmail:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ironmail
+          short: The Ironmail
+          sight: >
+            The Ironmail seems to have come alive, and is attacking you!
+      flag:
+      identity:
+        name: The Ironmail
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lasher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lasher
+          short: Lasher
+          sight: >
+            Lasher, spirit of the &+cwinds&*, rips through your path savagely!
+      flag:
+        - neg-fireball
+        - neg-frost
+        - neg-missile
+      identity:
+        name: Lasher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lesuorac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lesuorac
+          short: LeSuorac
+          sight: >
+            LeSuorac the &+RVampire&* grins as he prepares to &+Rslaughter&* you &+Wmercilessly!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - shock
+        - no-exorcise
+        - no-summon
+        - no-zap
+        - no-steal
+        - no-magic
+      identity:
+        name: LeSuorac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  millarca:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - millarca
+          short: Millarca
+          sight: >
+            Countess Millarca, the Vampiress invites you in for a bite.
+      flag:
+      identity:
+        name: Millarca
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  platemail:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - platemail
+          short: The Platemail
+          sight: >
+            The Platemail seems to have come alive, and is attacking you!
+      flag:
+      identity:
+        name: The Platemail
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  priest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - priest
+          short: The Priest
+          sight: The Priest stands here, looking upon you solemnly.
+      flag:
+        - no-steal
+        - no-hassle
+      identity:
+        name: The Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rintintin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rintintin
+          short: RinTinTin
+          sight: >
+            RinTinTin the &+RHellhound&* is playing with a snake in the west corner.
+      flag:
+      identity:
+        name: RinTinTin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sorbet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sorbet
+          short: Sorbet
+          sight: >
+            You have awakened Sorbet the &+LDark&* from his (almost) eternal slumber.
+      flag:
+      identity:
+        name: Sorbet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spiderman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spiderman
+          short: Spiderman
+          sight: The Spider Man is having you for dinner tonight!
+      flag:
+        - missile
+      identity:
+        name: Spiderman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spit
+          short: Spit
+          sight: Spit the Wolf bounds about, slobbering stupidly.
+      flag:
+      identity:
+        name: Spit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spot
+          short: Spot
+          sight: >
+            Spot the &+RHellhound&* guards the east hall visciously.
+      flag:
+      identity:
+        name: Spot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stinkie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stinkie
+          short: Stinkie
+          sight: >
+            &+yStinky&* the &+WApparition&* hovers above your head menacingly.
+      flag:
+      identity:
+        name: Stinkie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vladimir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vladimir
+          short: Vladimir
+          sight: >
+            Vladimir the &+rVampire&* stands here in the &+Ylight&* of the stained &+Cglass&* window.
+      flag:
+      identity:
+        name: Vladimir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolfarmor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolfarmor
+          short: The WolfArmor
+          sight: >
+            The WolfArmor seems to have come alive, and is attacking you!
+      flag:
+      identity:
+        name: The WolfArmor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

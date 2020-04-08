@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sdesert:desertsd46"
     short: A Small Cave
     sight: >
       As your eyes begin to adjust, you can make out scattered bits of bone and broken pottery strewn across

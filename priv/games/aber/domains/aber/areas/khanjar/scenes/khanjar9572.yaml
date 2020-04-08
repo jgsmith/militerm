@@ -15,4 +15,4 @@ detail:
       move and you will fall to your death.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

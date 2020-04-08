@@ -1,12 +1,14 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:balharbor:btower54"
       east:
         target: "scene:aber:balharbor:btower51"
       south:
         target: "scene:aber:balharbor:btower55"
+      southeast:
+        target: "scene:aber:balharbor:btower56"
+      southwest:
+        target: "scene:aber:balharbor:btower54"
       west:
         target: "scene:aber:balharbor:btower49"
     short: Dark Corridor

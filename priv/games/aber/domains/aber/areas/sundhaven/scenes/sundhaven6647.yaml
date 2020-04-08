@@ -9,6 +9,6 @@ detail:
       spawning from the forge. Goods of defensive metal may be bought and sold here, at nearly reasonable
       prices. Use 'list' to peruse the options.
 flag:
-  - nomagic
+  - no-magic
   - peaceful
-  - nomobiles
+  - no-mobiles

@@ -13,4 +13,4 @@ detail:
       woods.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -11,5 +11,5 @@ detail:
       to the gallows, but the butcher nonchalantly claims all his goods died peaceably, then turns away to
       stifle a chuckle.
 flag:
-  - nomagic
-  - nomobiles
+  - no-magic
+  - no-mobiles

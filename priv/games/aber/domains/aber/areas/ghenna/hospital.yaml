@@ -1,0 +1,1392 @@
+groups:
+  ghenna9901:
+    npcs:
+      mob9900: 1
+      mob9915_2: 1
+      mob9917_1: 1
+  ghenna9902:
+    npcs:
+      mob9904_1: 1
+      mob9917_3: 1
+      mob9918: 1
+  ghenna9903:
+    npcs:
+      mob9902_1: 1
+      mob9904: 1
+      mob9989_1: 1
+  ghenna9910:
+    npcs:
+      mob9902: 1
+      mob9905_1: 1
+  ghenna9926:
+    npcs:
+      mob9931: 1
+      mob9932_1: 1
+      mob9932_2: 1
+  ghenna9927:
+    npcs:
+      mob9915_3: 1
+      mob9931_2: 1
+      mob9932_3: 1
+  ghenna9929:
+    npcs:
+      mob9931_3: 1
+      mob9932_4: 1
+  ghenna9935:
+    npcs:
+      mob9906: 1
+      mob9906_1: 1
+      mob9906_2: 1
+      mob9906_3: 1
+      mob9911: 1
+      mob9911_1: 1
+  ghenna9955:
+    npcs:
+      mob9917_5: 1
+      mob9917_6: 1
+  ghenna9957:
+    npcs:
+      mob9912: 1
+      mob9915: 1
+      mob9917: 1
+  ghenna9959:
+    npcs:
+      mob9903: 1
+      mob9915_1: 1
+  ghenna9985:
+    npcs:
+      mob9985: 1
+      mob9986: 1
+  ghenna9987:
+    npcs:
+      mob9912_1: 1
+      mob9915_4: 1
+      mob9987: 1
+locations:
+  ghenna9929:
+    groups:
+      ghenna9929: 1
+  ghenna9908:
+    npcs:
+      mob9905: 1
+  ghenna9997:
+    npcs:
+      mob9997: 1
+  ghenna9986:
+    npcs:
+      mob9986_1: 1
+  ghenna9935:
+    groups:
+      ghenna9935: 1
+  ghenna9971:
+    npcs:
+      mob9971: 1
+  ghenna9998:
+    npcs:
+      mob9917_2: 1
+  ghenna9903:
+    groups:
+      ghenna9903: 1
+  ghenna9957:
+    groups:
+      ghenna9957: 1
+  ghenna9910:
+    groups:
+      ghenna9910: 1
+  ghenna9909:
+    npcs:
+      mob9989_2: 1
+  ghenna9964:
+    npcs:
+      mob9964: 1
+  ghenna9936:
+    npcs:
+      mob9908: 1
+  ghenna9959:
+    groups:
+      ghenna9959: 1
+  ghenna9975:
+    npcs:
+      mob9975: 1
+  ghenna9932:
+    npcs:
+      mob9932: 1
+  ghenna9901:
+    groups:
+      ghenna9901: 1
+  ghenna9989:
+    npcs:
+      mob9989: 1
+  ghenna9985:
+    groups:
+      ghenna9985: 1
+  ghenna9972:
+    npcs:
+      mob9972: 1
+  ghenna9977:
+    npcs:
+      mob9975_1: 1
+  ghenna9902:
+    groups:
+      ghenna9902: 1
+  ghenna9941:
+    npcs:
+      mob9913: 1
+  ghenna9958:
+    npcs:
+      mob9958: 1
+  ghenna9988:
+    npcs:
+      mob9903_1: 1
+  ghenna9916:
+    npcs:
+      mob9916: 1
+  ghenna9927:
+    groups:
+      ghenna9927: 1
+  ghenna9906:
+    npcs:
+      mob9904_2: 1
+  ghenna9920:
+    npcs:
+      mob9914: 1
+  ghenna9926:
+    groups:
+      ghenna9926: 1
+  ghenna9955:
+    groups:
+      ghenna9955: 1
+  ghenna9994:
+    npcs:
+      mob9994: 1
+  ghenna9937:
+    npcs:
+      mob9910: 1
+  ghenna9954:
+    npcs:
+      mob9917_4: 1
+  ghenna9931:
+    npcs:
+      mob9931_1: 1
+  ghenna9987:
+    groups:
+      ghenna9987: 1
+  ghenna9981:
+    npcs:
+      mob9981: 1
+  ghenna9956:
+    npcs:
+      mob9909: 1
+  ghenna9933:
+    npcs:
+      mob9933: 1
+  ghenna9900:
+    npcs:
+      mob9901: 1
+  ghenna9952:
+    npcs:
+      mob9923: 1
+  ghenna9907:
+    npcs:
+      mob9907: 1
+npcs:
+  mob9989_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragonet
+            - mob9989_
+          short: the Dragonet
+          sight: >
+            A &+Gwimpy little dragon&* is standing here, looking at you with deep blue eyes.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: the Dragonet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9912:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - erik
+            - mob
+          short: Erik
+          sight: >
+            An errant Elf is here, looking for denizens of evil.
+      flag:
+        - nomagic
+      identity:
+        name: Erik
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9971:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prostitute
+            - mob
+          short: the prostitute
+          sight: >
+            A young, innocent looking woman is sitting here reading a magazine.
+      flag:
+      identity:
+        name: the prostitute
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9904_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugbear
+            - mob9904_
+          short: The Bugbear
+          sight: >
+            A tall &+RBugbear&* stands here, poised for action.
+      flag:
+      identity:
+        name: The Bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9915_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dandy
+            - mob9915_
+          short: Dandy
+          sight: A big, stupid Orc is lumbering through here.
+      flag:
+      identity:
+        name: Dandy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9975_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - whore
+            - mob9975_
+          short: the whore
+          sight: >
+            A toothless &+Rwhore&* is sitting here on the bed, inviting you to join her.
+      flag:
+      identity:
+        name: the whore
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9986:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maedar
+            - mob
+          short: the Maedar
+          sight: >
+            A &+RMaedar&* stands here in the darkness smacking his lips.
+      flag:
+      identity:
+        name: the Maedar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9908:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gorgimera
+            - mob
+          short: The Gorgimera
+          sight: >
+            A &+RGorgimera&* roars at your entrance, and ATTACKS!!!
+      flag:
+        - fireball
+        - neg-fireball
+        - imm-mute
+        - imm-cripple
+      identity:
+        name: The Gorgimera
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9918:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - avon lady
+            - mob
+          short: the Avon lady
+          sight: >
+            An old lady (who is obviously lost) is trying to sell you some makeup here.
+      flag:
+        - no-summon
+      identity:
+        name: the Avon lady
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9913:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - efreeti
+            - mob
+          short: The Efreeti
+          sight: >
+            A Genie is levitating here with an evil grin on his face.
+      flag:
+        - icestorm
+        - bhands
+        - shock
+        - no-summon
+      identity:
+        name: The Efreeti
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9932_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arm
+            - mob9932_
+          short: an arm
+          sight: A claw fingered &+Rarm&* protrudes from the wall.
+      flag:
+      identity:
+        name: an arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9907:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - man-eating plant
+            - mob
+          short: a Man-Eating plant
+          sight: >
+            A large plant that reeks of carrion stands here stinking up the place.
+      flag:
+        - no-summon
+      identity:
+        name: a Man-Eating plant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9903_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - argos
+            - mob9903_
+          short: the Argos
+          sight: >
+            A multi-mouthed pseudopod of great girth is standing here.
+      flag:
+        - immblind
+      identity:
+        name: the Argos
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9904:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugbear
+            - mob
+          short: The Bugbear
+          sight: >
+            A tall &+RBugbear&* stands here, poised for action.
+      flag:
+      identity:
+        name: The Bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9933:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stone golem
+            - mob
+          short: the Stone Golem
+          sight: >
+            A large statue of a humanoid male has been cut out of the granite here.
+      flag:
+        - no-magic
+      identity:
+        name: the Stone Golem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9931_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foot
+            - mob9931_
+          short: a Foot
+          sight: A claw toed &+Rfoot&* protrudes from the wall.
+      flag:
+      identity:
+        name: a Foot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9909:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - death knight
+            - mob
+          short: The Death Knight
+          sight: A &+RDeath Knight&* stands here, lowering at you.
+      flag:
+        - neg-v-touch
+        - v-touch
+        - imm-blind
+        - imm-cripple
+      identity:
+        name: The Death Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9910:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deep dragon
+            - mob
+          short: The Deep Dragon
+          sight: A large snake sits here, munching on a human body.
+      flag:
+        - fireball
+        - frost
+        - imm-mute
+        - imm-cripple
+      identity:
+        name: The Deep Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9915_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tandy
+            - mob9915_
+          short: Tandy
+          sight: A big, stupid Orc is lumbering through here.
+      flag:
+      identity:
+        name: Tandy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9989_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragonet
+            - mob9989_
+          short: the Dragonet
+          sight: >
+            A &+Gwimpy little dragon&* is standing here, looking at you with deep blue eyes.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: the Dragonet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9905_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - broken one
+            - mob9905_
+          short: A Broken One
+          sight: &+RA Broken One&* stands here looking gruesome.
+      flag:
+      identity:
+        name: A Broken One
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9902:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - banshee
+            - mob
+          short: the Banshee
+          sight: >
+            The groaning spirit of a long-dead woman floats here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: the Banshee
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9914:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - medusa
+            - mob
+          short: The Medusa
+          sight: >
+            A woman sits here on the bed, with her back to you.
+      flag:
+      identity:
+        name: The Medusa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9989:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragonet
+            - mob
+          short: the Dragonet
+          sight: >
+            A &+Gwimpy little dragon&* is standing here, looking at you with deep blue eyes.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: the Dragonet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9911_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - derro
+            - mob9911_
+          short: The Derro
+          sight: &+RThe Derro&* is standing here, barking orders.
+      flag:
+      identity:
+        name: The Derro
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9932_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arm
+            - mob9932_
+          short: an arm
+          sight: A claw fingered &+Rarm&* protrudes from the wall.
+      flag:
+      identity:
+        name: an arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9931_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foot
+            - mob9931_
+          short: a Foot
+          sight: A claw toed &+Rfoot&* protrudes from the wall.
+      flag:
+      identity:
+        name: a Foot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9972:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lester
+            - mob
+          short: Lester
+          sight: >
+            &+RLester&* the molester is here with a pair of womens panties on his head.
+      flag:
+      identity:
+        name: Lester
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9985:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maedar
+            - mob
+          short: the Maedar
+          sight: >
+            A &+RMaedar&* stands here in the darkness smacking his lips.
+      flag:
+      identity:
+        name: the Maedar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9915_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - landy
+            - mob9915_
+          short: Landy
+          sight: A big, stupid Orc is lumbering through here.
+      flag:
+      identity:
+        name: Landy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9902_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - banshee
+            - mob9902_
+          short: the Banshee
+          sight: >
+            The groaning spirit of a long-dead woman floats here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: the Banshee
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9987:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roger the dodger
+            - mob
+          short: Roger the Dodger
+          sight: >
+            &+YRoger the Dodger&*, the elven apostle is looking for evil guys to kill here.
+      flag:
+        - nomagic
+      identity:
+        name: Roger the Dodger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9903:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - argos
+            - mob
+          short: the Argos
+          sight: >
+            A multi-mouthed pseudopod of great girth is standing here.
+      flag:
+        - immblind
+      identity:
+        name: the Argos
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9994:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant cockroach
+            - mob
+          short: The Giant Cockroach
+          sight: >
+            The biggest &+Rcockroach&* you have ever seen is standing here, looking down at you.
+      flag:
+        - no-summon
+      identity:
+        name: The Giant Cockroach
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9986_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maedar master
+            - mob9986_
+          short: the Maedar master
+          sight: >
+            A &+RMaedar master&* stands here in the darkness smacking his lips.
+      flag:
+      identity:
+        name: the Maedar master
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9932:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arm
+            - mob
+          short: an Arm
+          sight: A claw fingered &+Rarm&* protrudes from the wall.
+      flag:
+      identity:
+        name: an Arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9916:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barkeep
+            - mob
+          short: The barkeep
+          sight: >
+            There is a &+ybarkeep&* standing here, waiting to take your order.
+      flag:
+      identity:
+        name: The barkeep
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9906_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bullywog
+            - mob9906_
+          short: Bullywog
+          sight: >
+            A Bullywug is standing here, ready to defend his master's lair.
+      flag:
+      identity:
+        name: Bullywog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9901:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barrow wight
+            - mob
+          short: the barrow wight
+          sight: A twisted pile of cloth and bones lies here.
+      flag:
+        - no-summon
+      identity:
+        name: the barrow wight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9975:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - whore
+            - mob
+          short: the whore
+          sight: >
+            A toothless &+Rwhore&* is sitting here on the bed, inviting you to join her.
+      flag:
+      identity:
+        name: the whore
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9905:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - broken one
+            - mob
+          short: A Broken One
+          sight: &+RA Broken One&* stands here looking gruesome.
+      flag:
+      identity:
+        name: A Broken One
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9904_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugbear
+            - mob9904_
+          short: The Bugbear
+          sight: >
+            A tall &+RBugbear&* stands here, poised for action.
+      flag:
+      identity:
+        name: The Bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9906:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bullywig
+            - mob
+          short: Bullywig
+          sight: >
+            A Bullywug is standing here, ready to defend his master's lair.
+      flag:
+      identity:
+        name: Bullywig
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9915_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - handy
+            - mob9915_
+          short: Handy
+          sight: A big, stupid Orc is lumbering through here.
+      flag:
+      identity:
+        name: Handy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9900:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shamus
+            - mob
+          short: Shamus
+          sight: >
+            &+YShamus&*, the wandering liege, wants to protect you from the evil here.
+      flag:
+        - nomagic
+      identity:
+        name: Shamus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9981:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dwarf
+            - mob
+          short: the Dwarf
+          sight: A &+Gdwarf&* is lying here, stunned.
+      flag:
+      identity:
+        name: the Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9931:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foot
+            - mob
+          short: a Foot
+          sight: A claw toed &+Rfoot&* protrudes from the wall.
+      flag:
+      identity:
+        name: a Foot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9915:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - candy
+            - mob
+          short: Candy
+          sight: A big, stupid Orc is lumbering through here.
+      flag:
+      identity:
+        name: Candy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9931_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foot
+            - mob9931_
+          short: a Foot
+          sight: A claw toed &+Rfoot&* protrudes from the wall.
+      flag:
+      identity:
+        name: a Foot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9906_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bullywag
+            - mob9906_
+          short: Bullywag
+          sight: >
+            A Bullywug is standing here, ready to defend his master's lair.
+      flag:
+      identity:
+        name: Bullywag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9997:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deepspawn
+            - mob
+          short: the Deepspawn
+          sight: >
+            The &+yDeepspawn&* is standing here, ready to kill you.
+      flag:
+        - imm-blind
+        - no-summon
+      identity:
+        name: the Deepspawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9923:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghenna swordmaster
+            - mob
+          short: The Ghenna Swordmaster
+          sight: >
+            A broad shouldered man lies prostrate here, apparently praying.
+      flag:
+      identity:
+        name: The Ghenna Swordmaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9911:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - derro
+            - mob
+          short: The Derro
+          sight: &+RThe Derro&* is standing here, barking orders.
+      flag:
+      identity:
+        name: The Derro
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9964:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golem doll
+            - mob
+          short: the Golem Doll
+          sight: >
+            A &+Rdoll&* sits here leaning against the wall, forgotten by the child who owns it.
+      flag:
+      identity:
+        name: the Golem Doll
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9912_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+            - mob9912_
+          short: Peter
+          sight: >
+            An errant Elf is here, looking for denizens of evil.
+      flag:
+        - nomagic
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9958:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dominatrix
+            - mob
+          short: The Dominatrix
+          sight: >
+            An ugly woman clad in studded black leather turns toward you and shouts, 'Down on your knees,
+            maggot!!'
+      flag:
+        - no-summon
+      identity:
+        name: The Dominatrix
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9906_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bullywug
+            - mob9906_
+          short: Bullywug
+          sight: >
+            A Bullywug is standing here, ready to defend his master's lair.
+      flag:
+      identity:
+        name: Bullywug
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9932_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arm
+            - mob9932_
+          short: an arm
+          sight: A claw fingered &+Rarm&* protrudes from the wall.
+      flag:
+      identity:
+        name: an arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9917_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen of ghenna
+            - mob9917_
+          short: a citizen of Ghenna
+          sight: &+RA citizen of Ghenna&* stands here.
+      flag:
+      identity:
+        name: a citizen of Ghenna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9932_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arm
+            - mob9932_
+          short: an arm
+          sight: A claw fingered &+Rarm&* protrudes from the wall.
+      flag:
+      identity:
+        name: an arm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

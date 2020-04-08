@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:blizzard:guard"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:blizzard:crack"
     short: Gallery
     sight: >
       You are in an ornate gallery which overlooks a wide stone guardroom. A set of steps curve steeply down

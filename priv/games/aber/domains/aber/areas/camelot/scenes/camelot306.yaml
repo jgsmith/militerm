@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:camelot:camelot105"
     short: &+cHidden Somewhere
     sight: >
       Guess where you are. Hidden somewhere. It is a very small clearing. You think you see something moving

@@ -1,0 +1,551 @@
+groups:
+  limbo:
+    npcs:
+      eagle2: 1
+      earthmagic2: 1
+      sauroth2: 1
+  swamp2:
+    npcs:
+      leech1: 1
+      leech2: 1
+  swamp3:
+    npcs:
+      dhelvar: 1
+      leech3: 1
+  swamp5:
+    npcs:
+      asp: 1
+      leech5: 1
+  woods4:
+    npcs:
+      dryad: 1
+      tree2: 1
+locations:
+  alcove:
+    npcs:
+      asphinx: 1
+  altar:
+    npcs:
+      sauroth1: 1
+  cavern3:
+    npcs:
+      salamander: 1
+  cleft:
+    npcs:
+      eagle1: 1
+  gloom:
+    npcs:
+      earthmagic1: 1
+  hill:
+    npcs:
+      druid: 1
+  limbo:
+    groups:
+      limbo: 1
+  mud:
+    npcs:
+      alligator: 1
+  plain8:
+    npcs:
+      jharn: 1
+  portal1:
+    npcs:
+      demon: 1
+  sagewood1:
+    npcs:
+      daerius: 1
+  swamp2:
+    groups:
+      swamp2: 1
+  swamp3:
+    groups:
+      swamp3: 1
+  swamp4:
+    npcs:
+      leech4: 1
+  swamp5:
+    groups:
+      swamp5: 1
+  swamp6:
+    npcs:
+      leech6: 1
+  swamp7:
+    npcs:
+      leech7: 1
+  swamp9:
+    npcs:
+      abombination: 1
+  woods3:
+    npcs:
+      tree1: 1
+  woods4:
+    groups:
+      woods4: 1
+npcs:
+  abombination:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tentacled abomination
+            - abombination
+          short: The Tentacled Abomination
+          sight: &+gThe deadly Tentacled &+RAbomination&* is here.
+      flag:
+      identity:
+        name: The Tentacled Abomination
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alligator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+          short: The Alligator
+          sight: >
+            &+r--------------------------------------------------------------------------
+            &+R-------------------------------------------------------------------------- &+WBreaking the
+            surface of the brown water, an &+Yalligator&+W slinks toward &+Wyou, its powerful tail swishing
+            two and frow as it stalks its prey. There &+Wis no escape, as the reptile moves in to kill you in
+            your moment of &+Wweakness...
+            &+R--------------------------------------------------------------------------
+            &+r--------------------------------------------------------------------------
+      flag:
+      identity:
+        name: The Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - water asp
+            - asp
+          short: The Water Asp
+          sight: An &+Rasp&* is here.
+      flag:
+      identity:
+        name: The Water Asp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asphinx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asphinx
+          short: Asphinx
+          sight: >
+            Poking its head out of the hole, the &+RAsphinx&* glares up at you.
+      flag:
+        - no-hassle
+      identity:
+        name: Asphinx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  daerius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - daerius
+          short: Daerius
+          sight: >
+            &+RDaerius&* the dark druid glares at you from under his blue hood.
+      flag:
+        - frost
+        - ice-storm
+      identity:
+        name: Daerius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demon
+          short: demon
+          sight: >
+            &+R------------------------------------------------------------------------ &+YCackling in
+            delight, a foul demon stalks after you... You try to run &+Yaway, but there is no way out. The
+            demon walks closer and closer toward &+Yyou, razor-sharp claws shimmering mavolently in the
+            hellish light... &+R------------------------------------------------------------------------
+      flag:
+        - shock
+        - cripple
+      identity:
+        name: demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dhelvar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dhelvar
+          short: Dhelvar
+          sight: >
+            &+RDhelvar&*, the dark druid of the swamp wanders about.
+      flag:
+        - fireball
+      identity:
+        name: Dhelvar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  druid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - druid
+          short: Druid
+          sight: >
+            An old &+Rdruid&* stands here, looking over the land wistfully.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-punt
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Druid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dryad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark dryad
+            - dryad
+          short: The Dark Dryad
+          sight: The Dark Forest-&+RDryad&* sneers at you.
+      flag:
+        - v-touch
+      identity:
+        name: The Dark Dryad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  eagle1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eagle
+          short: The Eagle
+          sight: A wounded &+REagle&* lies here.
+      flag:
+      identity:
+        name: The Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eagle2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eagle
+          short: The Eagle
+          sight: >
+            An &+REagle&* perches nearby, watching and waiting.
+      flag:
+      identity:
+        name: The Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  earthmagic1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spirit
+            - earthmagic
+          short: Spirit
+          sight: >
+            The &+RSpirit Of The Earth-Magic&* is here, locked in Ethereal &+BChains.&*
+      flag:
+      identity:
+        name: Spirit
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  earthmagic2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spirit
+            - earthmagic
+          short: Spirit
+          sight: The &+REarth-Magic&* is fighting with Sauroth.
+      flag:
+      identity:
+        name: Spirit
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  jharn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jharn
+          short: Jharn
+          sight: &+RJharn&* the dark-druid sentry stands here.
+      flag:
+        - fireball
+        - b-hands
+      identity:
+        name: Jharn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: The Leech
+          sight: A horrid &+RLeech&* is here.
+      flag:
+      identity:
+        name: The Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  salamander:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - salamander
+          short: Salamander
+          sight: >
+            &+rThe &+Rsalamander&+r is here, boiling and hissing.
+      flag:
+        - neg-fireball
+        - fear-frost
+        - neg-b-hands
+        - b-hands
+        - fireball
+      identity:
+        name: Salamander
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sauroth1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sauroth
+          short: Sauroth
+          sight: The foul demon &+RSauroth&* smirks at you.
+      flag:
+        - no-punt
+        - no-steal
+      identity:
+        name: Sauroth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sauroth2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sauroth
+          short: Sauroth
+          sight: >
+            The demon &+RSauroth&* is here, locked in mortal combat with a strange Spirit.
+      flag:
+        - no-punt
+        - no-steal
+      identity:
+        name: Sauroth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tree1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - animated tree
+            - tree
+          short: The Animated Tree
+          sight: An animated &+RTree&* thunders toward you.
+      flag:
+        - v-touch
+      identity:
+        name: The Animated Tree
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tree2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - animated tree
+            - tree
+          short: The Animated Tree
+          sight: An animated &+RTree&* thunders toward you.
+      flag:
+        - v-touch
+      identity:
+        name: The Animated Tree
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -14,5 +14,5 @@ detail:
       you wish, or you could continue to follow the river in a roughly easterly direction.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

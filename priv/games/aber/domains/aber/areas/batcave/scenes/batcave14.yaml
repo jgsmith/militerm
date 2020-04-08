@@ -12,5 +12,5 @@ detail:
       passage.
 flag:
   - dark
-  - nosummon
-  - oneperson
+  - no-summon
+  - one-person

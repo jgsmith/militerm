@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:cathedral:vambed"
     short: The Library
     sight: >
       This is LeSuorac's private library. Here you see shelf upon shelf of fine volumes. As you browse you

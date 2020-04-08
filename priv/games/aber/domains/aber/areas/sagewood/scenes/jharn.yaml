@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sagewood:cavern1"
     short: "Jharn's Dwelling"
     sight: >
       This place appears to be Jharn's dwelling. A small &+Bbed&* of dry leaves is the only object in the

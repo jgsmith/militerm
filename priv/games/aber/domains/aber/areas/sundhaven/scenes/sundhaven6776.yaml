@@ -11,6 +11,6 @@ detail:
       pleasure bath for the priests and their guests, but has fallen into decay from recent lack of use. Who
       knows what creatures make their home beneath the dark surface.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - outdoors

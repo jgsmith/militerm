@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:saxon:saxon15"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:saxon:saxon7"
       south:
         target: "scene:aber:saxon:saxon13"
       west:

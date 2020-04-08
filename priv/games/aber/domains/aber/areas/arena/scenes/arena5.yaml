@@ -11,7 +11,7 @@ detail:
       stained walls are a few kinda of lichen. The ground is cold, but for once no dust puffs up as you move
       across it.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - dark
   - pkzone

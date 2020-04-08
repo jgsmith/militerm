@@ -144,6 +144,8 @@ defmodule Militerm.Systems.Entity do
     end
   end
 
+  def whereis({:thing, entity_id, _}), do: whereis({:thing, entity_id})
+
   def whereis({:thing, entity_id}) do
     # we want to find the module for the entity_id that we'll use to run events, etc.
     # the record gets created by the entity creation

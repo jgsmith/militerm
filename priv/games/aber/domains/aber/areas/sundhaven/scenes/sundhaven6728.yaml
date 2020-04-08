@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6729"
       south:
         target: "scene:aber:sundhaven:sundhaven6727"
     short: The black orchard gate
@@ -10,4 +12,4 @@ detail:
       of brambles are stretching past the range of your vision.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

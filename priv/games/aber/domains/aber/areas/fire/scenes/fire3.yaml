@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fire:fire1"
     short: Kitchen
     sight: >
       You are standing in the kitchen. It is very clean, because Sir Gruoch has control over his cooks. It is

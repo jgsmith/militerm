@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:fire:fire27"
       north:
         target: "scene:aber:fire:fire24"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fire:fire33"
       west:
         target: "scene:aber:fire:fire28"
     short: Guarded entrance

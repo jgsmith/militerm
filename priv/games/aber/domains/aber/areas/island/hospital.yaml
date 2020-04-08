@@ -1,0 +1,22 @@
+groups:
+locations:
+  ruins2:
+    npcs:
+      native: 1
+npcs:
+  native:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - native
+          short: The Native
+          sight: A native watches you warily from a safe distance.
+      flag:
+      identity:
+        name: The Native
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

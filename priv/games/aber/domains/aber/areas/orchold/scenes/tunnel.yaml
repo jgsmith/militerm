@@ -3,8 +3,12 @@ detail:
     exits:
       north:
         target: "scene:aber:orchold:mountainside"
-      south: null
-      west: null
+      south:
+        guarded: true
+        target: "scene:aber:orchold:throne"
+      west:
+        guarded: true
+        target: "scene:aber:orchold:treasury"
     short: Secret Tunnel
     sight: >
       This appears to be an escape route for the king in times of trouble. A passage leads west, and you can

@@ -7,4 +7,4 @@ detail:
     sight: You are onboard of a mighty airship..
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

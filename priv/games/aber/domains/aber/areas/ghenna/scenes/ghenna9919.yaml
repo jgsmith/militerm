@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9920"
       west:
         target: "scene:aber:ghenna:ghenna9918"
     short: An upstairs hallway.

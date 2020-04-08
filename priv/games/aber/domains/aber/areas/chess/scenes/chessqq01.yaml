@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:chess:chessqq02"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:chess:chessqq00"
     short: The Smooth Tunnel
     sight: >
       Looking down at your feet, you are somewhat surprised to find that you are walking on a thick woven rug.

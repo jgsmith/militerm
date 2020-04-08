@@ -13,4 +13,4 @@ detail:
       that have passed.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fire:fire9"
       west:
         target: "scene:aber:fire:fire8"
     short: Playroom

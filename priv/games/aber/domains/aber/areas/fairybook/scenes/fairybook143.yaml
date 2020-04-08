@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:fairybook:fairybook144"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook142"
     short: Inside the Palace
     sight: >
       You enter a big room with a green carpet and lovely green furniture set with emeralds. You wipe your

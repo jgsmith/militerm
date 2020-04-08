@@ -1,0 +1,30 @@
+groups:
+locations:
+  nelatra:
+    npcs:
+      nelatra: 1
+npcs:
+  nelatra:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nelatra
+          short: nelatra
+          sight: >
+            &+BN&+Ce&+Bl&+Ca&+Bt&+Cr&+Ba&* is here glowing with magical power.
+      flag:
+        - no-punt
+        - no-zap
+        - no-hassle
+        - no-summon
+        - no-alias
+        - no-exorcise
+        - no-burn
+      identity:
+        name: nelatra
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

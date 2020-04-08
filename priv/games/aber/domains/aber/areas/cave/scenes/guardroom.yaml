@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cave:wide"
     short: Dwarven Guardroom
     sight: >
       You are in what appears to be a dwarven guardroom. The roof is low and you have to crouch down inside

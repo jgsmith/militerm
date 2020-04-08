@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ruins:geast13"
     short: A Room
     sight: >
       You are in what looks to be a storeroom. There are shelves built into the stone walls that are covered

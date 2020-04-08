@@ -17,4 +17,4 @@ detail:
       night.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

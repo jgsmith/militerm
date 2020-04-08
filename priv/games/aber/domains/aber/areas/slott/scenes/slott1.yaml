@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:eastcoast:escpath"
       east:
         target: "scene:aber:slott:slott2"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:slott:slott3"
       south:
         target: "scene:aber:eastcoast:escpath"
     short: The Yard

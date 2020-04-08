@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:windy:windy24"
       south:
         target: "scene:aber:windy:windy17"
     short: Dark Passage

@@ -14,5 +14,5 @@ detail:
       A dense fog has rolled in, making it hard to see for any distance. Everything seems to have gotten very
       quiet, making it almost surreal in this area.
 flag:
-  - onwater
+  - on-water
   - outdoors

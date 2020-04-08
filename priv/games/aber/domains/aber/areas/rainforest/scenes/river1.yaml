@@ -11,5 +11,5 @@ detail:
       fate.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

@@ -6,7 +6,7 @@ detail:
     short: Constellation Pegasus
     sight: ...and northwest of Pegasus...
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

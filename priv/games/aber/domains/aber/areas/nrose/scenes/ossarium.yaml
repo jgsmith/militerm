@@ -15,4 +15,4 @@ detail:
       passageway goes up towards the west, and to the south the ossarium continues.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

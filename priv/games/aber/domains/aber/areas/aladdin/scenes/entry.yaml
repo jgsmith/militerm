@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:aladdin:cave"
       east:
         target: "scene:aber:aladdin:sdesert"
       up:

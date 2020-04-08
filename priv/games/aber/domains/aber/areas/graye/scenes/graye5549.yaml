@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:graye:graye5548"
       north:
         target: "scene:aber:graye:graye5550"
     short: The Valley of Demons

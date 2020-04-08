@@ -1,0 +1,34 @@
+groups:
+locations:
+  deathlok11:
+    npcs:
+      reaper: 1
+npcs:
+  reaper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - reaper
+          short: Reaper
+          sight: >
+            Death, the Grim Reaper, is here awaiting your soul.
+      flag:
+        - neg-fireball
+        - neg-shock
+        - neg-missile
+        - neg-frost
+        - shock
+        - fireball
+        - missle
+        - frost
+        - no-exorcise
+        - no-zap
+        - no-summon
+      identity:
+        name: Reaper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

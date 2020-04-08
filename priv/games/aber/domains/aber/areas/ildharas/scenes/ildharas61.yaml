@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas62"
       south:
         target: "scene:aber:ildharas:ildharas60"
     short: At the Doors of the Black Hall

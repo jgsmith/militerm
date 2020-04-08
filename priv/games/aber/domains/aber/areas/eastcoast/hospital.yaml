@@ -1,0 +1,247 @@
+groups:
+  field:
+    npcs:
+      flock: 1
+      shepherd: 1
+  gold:
+    npcs:
+      maya: 1
+      swallowtail: 1
+locations:
+  bank:
+    npcs:
+      manta: 1
+  cave:
+    npcs:
+      trapper: 1
+  field:
+    groups:
+      field: 1
+  gold:
+    groups:
+      gold: 1
+  grass:
+    npcs:
+      blackie: 1
+  lagoon:
+    npcs:
+      clammy: 1
+  meadow:
+    npcs:
+      sheepdog: 1
+  point:
+    npcs:
+      dreamer: 1
+  rocks:
+    npcs:
+      herman: 1
+  waistdeep:
+    npcs:
+      jaws: 1
+npcs:
+  blackie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lost blackie
+            - blackie
+          short: Lost Blackie
+          sight: >
+            Blackie, the black sheep of the flock, roams alone here, looking dejected.
+      flag:
+      identity:
+        name: Lost Blackie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  clammy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clammy
+          short: Clammy
+          sight: >
+            A large oyster, as big as a small man, sits under the water, making bubbles.
+      flag:
+      identity:
+        name: Clammy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dreamer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dreamer
+          short: The Dreamer
+          sight: >
+            A man in a flowing robe stands here, gazing across the sea, daydreaming.
+      flag:
+      identity:
+        name: The Dreamer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flock:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flock
+          short: The Flock
+          sight: >
+            A flock of sheep bleat contentedly here, nibbling at anything plant-like.
+      flag:
+      identity:
+        name: The Flock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  herman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - herman the pelican
+            - herman
+          short: Herman the Pelican
+          sight: >
+            Herman the Pelican waddles nearby, looking for a fish.
+      flag:
+      identity:
+        name: Herman the Pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jaws:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jaws
+          short: Jaws
+          sight: >
+            A big shark fin sticks out from the water, approaching you, and it's no fake!
+      flag:
+      identity:
+        name: Jaws
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  manta:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manta
+          short: Manta
+          sight: >
+            Flat against the sandy bottom of the shallow sea floor, a manta ray rests here.
+      flag:
+      identity:
+        name: Manta
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maya:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maya
+          short: Maya
+          sight: >
+            Maya the Bee flits from flower to flower here, looking terminally happy.
+      flag:
+      identity:
+        name: Maya
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  sheepdog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sheep dog
+            - sheepdog
+          short: The Sheep Dog
+          sight: >
+            A lean and swift sheepdog is here, looking for sheep to round up.
+      flag:
+      identity:
+        name: The Sheep Dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shepherd:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shepherd
+          short: The Shepherd
+          sight: A wizened shepherd is here, herding his sheep.
+      flag:
+      identity:
+        name: The Shepherd
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swallowtail:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swallowtail
+          short: The Swallowtail
+          sight: >
+            A Zebra Swallowtail flys nearby, fluttering gracefully in the breeze.
+      flag:
+      identity:
+        name: The Swallowtail
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  trapper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - trapper
+          short: The Trapper
+          sight: >
+            A ragged and dirty trapper is here, sputtering something incomprehensible.
+      flag:
+      identity:
+        name: The Trapper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

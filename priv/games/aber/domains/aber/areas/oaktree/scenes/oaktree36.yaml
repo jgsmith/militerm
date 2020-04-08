@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree24"
+      south:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree37"
     short: The Crack
     sight: >
       This is a tight squeeze, and you frequently have to scramble over large rocks that partially block the

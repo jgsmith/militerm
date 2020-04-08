@@ -15,4 +15,4 @@ detail:
 flag:
   - cold
   - dark
-  - nomobiles
+  - no-mobiles

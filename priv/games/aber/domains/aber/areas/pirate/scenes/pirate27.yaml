@@ -14,6 +14,6 @@ detail:
       is what appears to be the remains of food, apparently some sort of offering to the Gods. Exits lead to
       the east, south, and west.
 flag:
-  - nomobiles
-  - underwater
+  - no-mobiles
+  - under-water
   - dark

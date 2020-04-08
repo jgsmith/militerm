@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fire:fire9"
       north:
         target: "scene:aber:fire:fire8"
       west:

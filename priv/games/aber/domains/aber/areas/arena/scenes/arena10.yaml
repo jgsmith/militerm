@@ -10,6 +10,6 @@ detail:
       The north east corner of the arena has several bones scattered about, some human others not so. To the
       south west you see some fallen rocks.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

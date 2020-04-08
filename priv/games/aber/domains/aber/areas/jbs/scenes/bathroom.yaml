@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:hall"
     short: The Bathroom
     sight: >
       This is the bathroom that serves the family that lives here. It looks like any other ordinary bathroom.

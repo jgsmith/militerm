@@ -11,7 +11,7 @@ detail:
     sight: >
       You climb up stairs made of clouds, they don't seem to end. You still can turn back ....
 flag:
-  - nomobiles
-  - oneperson
+  - no-mobiles
+  - one-person
   - outdoors
   - cold

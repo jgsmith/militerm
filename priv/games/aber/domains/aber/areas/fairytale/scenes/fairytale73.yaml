@@ -9,4 +9,4 @@ detail:
       Bones are scattered around the room, stacked in piles by species. You recognize cats, dogs, people, and
       even a dragon or two.
 flag:
-  - nomobiles
+  - no-mobiles

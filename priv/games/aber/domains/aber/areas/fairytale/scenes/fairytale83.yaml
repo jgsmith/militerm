@@ -3,7 +3,9 @@ detail:
     exits:
       up:
         target: "scene:aber:fairytale:fairytale84"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale82"
     short: Bottom Floor
     sight: >
       A flight of stairs rises above you, and as you follow the spiral with your eyes, you find your gaze

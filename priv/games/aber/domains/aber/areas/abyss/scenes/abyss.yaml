@@ -14,4 +14,4 @@ detail:
       allowing you to make the long descent into the black pit.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

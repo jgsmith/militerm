@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:eforest:ladder"
       north:
         target: "scene:aber:eforest:fungus"
     short: Large Lake

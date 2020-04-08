@@ -1,0 +1,311 @@
+groups:
+locations:
+  castle3:
+    npcs:
+      guard: 1
+  castle8:
+    npcs:
+      julius: 1
+  dcave11:
+    npcs:
+      bat: 1
+  dcave16:
+    npcs:
+      silvermonster: 1
+  dcave7:
+    npcs:
+      dwarf: 1
+  dforest4:
+    npcs:
+      crow: 1
+  dforest9:
+    npcs:
+      wolf: 1
+  dforestshop:
+    npcs:
+      shopkeepertwo: 1
+  forest2:
+    npcs:
+      squirrel: 1
+  forestshop:
+    npcs:
+      shopkeeperone: 1
+  mmaze7:
+    npcs:
+      goldminer: 1
+  mountain12:
+    npcs:
+      miner: 1
+  swamp3:
+    npcs:
+      muckman: 1
+  swamp5:
+    npcs:
+      snake: 1
+  tree2:
+    npcs:
+      glaive: 1
+npcs:
+  bat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bat
+          short: Bat
+          sight: A large black bat hovers above you.
+      flag:
+      identity:
+        name: Bat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A black crow is perched on a nearby tree.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dwarf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dwarf
+          short: Dwarf
+          sight: A crazed dwarf is here swinging his axe around.
+      flag:
+      identity:
+        name: Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glaive:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lord glaive
+            - glaive
+          short: Lord Glaive
+          sight: >
+            Lord Glaive is standing here with his sword at his side.
+      flag:
+        - no-steal
+      identity:
+        name: Lord Glaive
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goldminer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - miner
+            - goldminer
+          short: Miner
+          sight: >
+            An old miner is here digging away with a gleam in his eye for gold.
+      flag:
+        - no-steal
+      identity:
+        name: Miner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: Guard
+          sight: >
+            A castle guard stands here, not letting you pass to the north.
+      flag:
+      identity:
+        name: Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  julius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - julius
+          short: Julius
+          sight: >
+            Lord Glaive's magician Julius is here studying various spells.
+      flag:
+        - fireball
+        - missile
+        - no-steal
+      identity:
+        name: Julius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  miner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - miner
+          short: Miner
+          sight: >
+            A dwarven miner is here chipping away at the rocks.
+      flag:
+      identity:
+        name: Miner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  muckman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - muckman
+          short: Muckman
+          sight: >
+            An angry looking muckman is here, dripping with his own mud.
+      flag:
+      identity:
+        name: Muckman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shopkeeperone:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shopkeeper
+            - shopkeeperone
+          short: Shopkeeper
+          sight: >
+            An old elven shopkeeper stands at his counter eager to serve you.
+      flag:
+        - no-steal
+        - no-hassle
+      identity:
+        name: Shopkeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shopkeepertwo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shopkeeper
+            - shopkeepertwo
+          short: Shopkeeper
+          sight: >
+            An old dwarven shopkeeper stands at his counter eager to serve you.
+      flag:
+        - no-steal
+        - no-hassle
+      identity:
+        name: Shopkeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  silvermonster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake creature
+            - silvermonster
+          short: Snake Creature
+          sight: >
+            An ancient snake creature stands here hissing at you.
+      flag:
+      identity:
+        name: Snake Creature
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: A rather large snake is here hissing at you.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squirrel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squirrel
+          short: Squirrel
+          sight: A curious little squirrel is here looking around.
+      flag:
+      identity:
+        name: Squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+          short: Wolf
+          sight: A large mean looking wolf is here.
+      flag:
+      identity:
+        name: Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

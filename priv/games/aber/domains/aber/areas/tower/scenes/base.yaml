@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:tower:black"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:tower:s_hall"
     short: Base of the Tower
     sight: >
       You are now inside the black tower which stretches up out of the castle. The walls glisten with sorcery

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:origins:origins11"
     short: An Elven Dwelling
     sight: >
       You enter a modestly furnished elven home. There are signs of a recent battle here. Furniture lies

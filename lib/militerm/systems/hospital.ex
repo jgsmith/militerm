@@ -37,7 +37,7 @@ defmodule Militerm.Systems.Hospital do
     The hospital works with the warehouse to create other items.
   """
 
-  defscript populate(zone), for: %{"this" => this} = _objects do
+  defscript populate(), for: %{"this" => this} = _objects do
     # figures out the hospital/zone and populates if necessary
     # doesn't do anything if there are already NPCs and players in the space
     # This function will usually be called *before* the player enters the room

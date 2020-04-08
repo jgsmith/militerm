@@ -16,6 +16,6 @@ detail:
       to the harsh conditions.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

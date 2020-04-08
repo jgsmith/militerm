@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:oaktree:burrow"
       south:
         target: "scene:aber:oaktree:burrow"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:oaktree:grove"
     short: Fox Hole
     sight: >
       You have crawled into a damp, narrow fox hole. The roots of the giant oak are all around you. The burrow

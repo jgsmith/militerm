@@ -1,0 +1,1438 @@
+groups:
+locations:
+  triasea5:
+    npcs:
+      nothosaurus: 1
+  devo8:
+    npcs:
+      eusthenopteron: 1
+  jura3:
+    npcs:
+      heterodontosaurus: 1
+  tria7:
+    npcs:
+      parasuchus: 1
+  holo1:
+    npcs:
+      palaeontologist: 1
+  cret10:
+    npcs:
+      saurolophus: 1
+  cret22:
+    npcs:
+      baryonyx: 1
+  triasea2:
+    npcs:
+      askeptosaurus: 1
+  plio2:
+    npcs:
+      glyptotherium: 1
+  silu3:
+    npcs:
+      climatius: 1
+  tria8:
+    npcs:
+      kannemeyeria: 1
+  devo3:
+    npcs:
+      cladoselache: 1
+  mioc1:
+    npcs:
+      indricotherium: 1
+  cret21:
+    npcs:
+      nodosaurus: 1
+  eoce4:
+    npcs:
+      moeritherium: 1
+  triasea4:
+    npcs:
+      utatsusaurus: 1
+  plei3:
+    npcs:
+      megatherium: 1
+  mioc2:
+    npcs:
+      hesperocyon: 1
+  jurasea1:
+    npcs:
+      plesiosaurus: 1
+  eoce5:
+    npcs:
+      andrewsarchus: 1
+  jura11:
+    npcs:
+      dryosaurus: 1
+  cret7:
+    npcs:
+      lambeosaurus: 1
+  cret4:
+    npcs:
+      deinonychus: 1
+  pala4:
+    npcs:
+      pantolambda: 1
+  jura9:
+    npcs:
+      camptosaurus: 1
+  jura14:
+    npcs:
+      cetiosaurus: 1
+  cret6:
+    npcs:
+      ankylosaurus: 1
+  cret19:
+    npcs:
+      oviraptor: 1
+  jurasea4:
+    npcs:
+      rhomaleosaurus: 1
+  cretsea2:
+    npcs:
+      xiphactinus: 1
+  triasea3:
+    npcs:
+      shonisaurus: 1
+  jurasea2:
+    npcs:
+      teleosaurus: 1
+  plei1:
+    npcs:
+      gigantopithecus: 1
+  jurasea5:
+    npcs:
+      temnodontosaurus: 1
+  carbsea1:
+    npcs:
+      gyracanthus: 1
+  silu1:
+    npcs:
+      pterygotus: 1
+  jurasea3:
+    npcs:
+      pachycormus: 1
+  carbsea2:
+    npcs:
+      orodus: 1
+  cretsea3:
+    npcs:
+      elasmosaurus: 1
+  ordo4:
+    npcs:
+      arandaspis: 1
+  tria5:
+    npcs:
+      coelophysis: 1
+  permsea2:
+    npcs:
+      xenacanthus: 1
+  cret15:
+    npcs:
+      styracosaurus: 1
+  devo2:
+    npcs:
+      dunkleosteus: 1
+  perm3:
+    npcs:
+      anteosaurus: 1
+  cretsea5:
+    npcs:
+      archelon: 1
+  pala2:
+    npcs:
+      diatryma: 1
+  tria2:
+    npcs:
+      ornithosuchus: 1
+  ordo2:
+    npcs:
+      paradoxides: 1
+  cret2:
+    npcs:
+      tenontosaurus: 1
+  jura13:
+    npcs:
+      allosaurus: 1
+  perm2:
+    npcs:
+      moschops: 1
+  tria4:
+    npcs:
+      eoraptor: 1
+  cret13:
+    npcs:
+      pachycephalosaurus: 1
+  devo9:
+    npcs:
+      ichthyostega: 1
+  cretsea6:
+    npcs:
+      tylosaurus: 1
+  camb2:
+    npcs:
+      anomalocaris: 1
+  permsea1:
+    npcs:
+      mesosaurus: 1
+  carb4:
+    npcs:
+      meganeura: 1
+  plei5:
+    npcs:
+      neanderthal: 1
+  carb5:
+    npcs:
+      eogyrinus: 1
+  jura4:
+    npcs:
+      kentrosaurus: 1
+  perm5:
+    npcs:
+      edaphosaurus: 1
+  cretsea4:
+    npcs:
+      champsosaurus: 1
+  olig1:
+    npcs:
+      arsinoitherium: 1
+  triasea1:
+    npcs:
+      lystrosaurus: 1
+  cret11:
+    npcs:
+      albertosaurus: 1
+  jura7:
+    npcs:
+      scelidosaurus: 1
+  cret16:
+    npcs:
+      protoceratops: 1
+  mioc3:
+    npcs:
+      merychippus: 1
+  tria9:
+    npcs:
+      plateosaurus: 1
+  cret8:
+    npcs:
+      ornithomimus: 1
+npcs:
+  eoraptor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eoraptor
+          short: Eoraptor
+          sight: >
+            The first dinosaur, Eoraptor, scampers about inquisitively here.
+      flag:
+      identity:
+        name: Eoraptor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  champsosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - champsosaurus
+          short: Champsosaurus
+          sight: >
+            Champsosaurus turns its long snout towards you and watches you hungrily.
+      flag:
+      identity:
+        name: Champsosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ankylosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ankylosaurus
+          short: Ankylosaurus
+          sight: >
+            The tank-like armour-plated Ankylosaurus gives you a baleful glare.
+      flag:
+      identity:
+        name: Ankylosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nodosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nodosaurus
+          short: Nodosaurus
+          sight: >
+            The small ankylosaur Nodosaurus is digging a nest for her eggs.
+      flag:
+      identity:
+        name: Nodosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gyracanthus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gyracanthus
+          short: Gyracanthus
+          sight: >
+            Gyracanthus, an early but bulky bony fish, watches you with mournful eyes.
+      flag:
+      identity:
+        name: Gyracanthus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  plesiosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plesiosaurus
+          short: Plesiosaurus
+          sight: >
+            Plesiosaurus swims lazily by, flapping its great flippers ponderously.
+      flag:
+      identity:
+        name: Plesiosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  allosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - allosaurus
+          short: Allosaurus
+          sight: >
+            The early but gigantic carnosaur Allosaurus is relaxing here after a long feed.
+      flag:
+      identity:
+        name: Allosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lambeosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lambeosaurus
+          short: Lambeosaurus
+          sight: >
+            Lambeosaurus, a huge duck-billed hadrosaur, browses on coarse shrubs here.
+      flag:
+      identity:
+        name: Lambeosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dryosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dryosaurus
+          short: Dryosaurus
+          sight: >
+            Dryosaurus looks up uneasily as you approach, and prepares to bolt.
+      flag:
+      identity:
+        name: Dryosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nothosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nothosaurus
+          short: Nothosaurus
+          sight: Nothosaurus ignores you as it hunts for fish here.
+      flag:
+      identity:
+        name: Nothosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cetiosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cetiosaurus
+          short: Cetiosaurus
+          sight: >
+            Cetiosaurus, a large-ish sauropod, utterly fails to notice your presence.
+      flag:
+      identity:
+        name: Cetiosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  deinonychus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deinonychus
+          short: Deinonychus
+          sight: >
+            The large raptor Deinonychus raises its sickle-like claws to attack you.
+      flag:
+      identity:
+        name: Deinonychus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oviraptor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oviraptor
+          short: Oviraptor
+          sight: Oviraptor is here, searching for eggs to steal.
+      flag:
+      identity:
+        name: Oviraptor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  orodus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - orodus
+          short: Orodus
+          sight: >
+            Orodus the shark thinks you will make a satisfying breakfast.
+      flag:
+      identity:
+        name: Orodus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gigantopithecus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gigantopithecus
+          short: Gigantopithecus
+          sight: >
+            Gigantopithecus, a huge pleistocene ape, offers you a bamboo shoot.
+      flag:
+      identity:
+        name: Gigantopithecus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shonisaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shonisaurus
+          short: Shonisaurus
+          sight: >
+            The giant ichthyosaur Shonisaurus is devouring whole shoals of fish here.
+      flag:
+      identity:
+        name: Shonisaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cladoselache:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cladoselache
+          short: Cladoselache
+          sight: >
+            The early shark Cladoselache is hunting here for little fishes.
+      flag:
+      identity:
+        name: Cladoselache
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  diatryma:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diatryma
+          short: Diatryma
+          sight: >
+            The huge land bird Diatryma stalks you with powerful legs.
+      flag:
+      identity:
+        name: Diatryma
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  edaphosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - edaphosaurus
+          short: Edaphosaurus
+          sight: >
+            Edaphosaurus, the docile sail-backed herbivore, is sunbathing happily here.
+      flag:
+      identity:
+        name: Edaphosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  andrewsarchus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andrewsarchus
+          short: Andrewsarchus
+          sight: >
+            The huge hoofed predator Andrewsarchus hurls itself at you with a snarl.
+      flag:
+      identity:
+        name: Andrewsarchus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  anteosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anteosaurus
+          short: Anteosaurus
+          sight: >
+            Anteosaurus, a powerful dinocephalian, seems eager for a challenge.
+      flag:
+      identity:
+        name: Anteosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rhomaleosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rhomaleosaurus
+          short: Rhomaleosaurus
+          sight: >
+            The pliosaur Rhomaleosaurus rushes at you, jaws agape.
+      flag:
+      identity:
+        name: Rhomaleosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  coelophysis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - coelophysis
+          short: Coelophysis
+          sight: >
+            The lightly-built predator Coelophysis hisses at you in warning.
+      flag:
+      identity:
+        name: Coelophysis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  temnodontosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - temnodontosaurus
+          short: Temnodontosaurus
+          sight: >
+            The heavy ichthyosaur Temnodontosaurus is feeling somewhat peckish.
+      flag:
+      identity:
+        name: Temnodontosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  climatius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - climatius
+          short: Climatius
+          sight: >
+            Climatius, one of the first jawed fish, chases after little prey here.
+      flag:
+      identity:
+        name: Climatius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glyptotherium:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - glyptotherium
+          short: Glyptotherium
+          sight: >
+            The six-foot long, tank-like armadillo Glyptotherium glares sullenly at you.
+      flag:
+      identity:
+        name: Glyptotherium
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pterygotus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pterygotus
+          short: Pterygotus
+          sight: >
+            The fearsome eurypterid Pterygotus reaches for you with its pincers.
+      flag:
+      identity:
+        name: Pterygotus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  indricotherium:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - indricotherium
+          short: Indricotherium
+          sight: >
+            The vast hornless rhinoceros Indricotherium feeds from the tree tops here.
+      flag:
+      identity:
+        name: Indricotherium
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dunkleosteus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dunkleosteus
+          short: Dunkleosteus
+          sight: >
+            The giant arthrodire Dunkleosteus swims towards you with gaping jaws.
+      flag:
+      identity:
+        name: Dunkleosteus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mesosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mesosaurus
+          short: Mesosaurus
+          sight: >
+            Mesosaurus explains that he didn't like it on the land.
+      flag:
+      identity:
+        name: Mesosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elasmosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elasmosaurus
+          short: Elasmosaurus
+          sight: >
+            The slender but huge plesiosaur Elasmosaurus snaps at passing fish.
+      flag:
+      identity:
+        name: Elasmosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  plateosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plateosaurus
+          short: Plateosaurus
+          sight: >
+            The prosauropod Plateosaurus wonders if you are a new kind of plant.
+      flag:
+      identity:
+        name: Plateosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  megatherium:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - megatherium
+          short: Megatherium
+          sight: >
+            The huge ground sloth Megatherium browses on the high leaves.
+      flag:
+      identity:
+        name: Megatherium
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moeritherium:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moeritherium
+          short: Moeritherium
+          sight: >
+            Moeritherium, a small ancestor of the elephants, is bathing here.
+      flag:
+      identity:
+        name: Moeritherium
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  albertosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - albertosaurus
+          short: Albertosaurus
+          sight: >
+            The lightly-built tyrannosaur Albertosaurus roars at you.
+      flag:
+      identity:
+        name: Albertosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  teleosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teleosaurus
+          short: Teleosaurus
+          sight: >
+            Teleosaurus is angry, and wants to take it out on you!
+      flag:
+      identity:
+        name: Teleosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ornithomimus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ornithomimus
+          short: Ornithomimus
+          sight: >
+            Ornithomimus, a slender ostrich dinosaur, snaps at you irritably.
+      flag:
+      identity:
+        name: Ornithomimus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tenontosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tenontosaurus
+          short: Tenontosaurus
+          sight: >
+            A long-tailed Tenontosaurus grazes here peacefully.
+      flag:
+      identity:
+        name: Tenontosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  baryonyx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baryonyx
+          short: Baryonyx
+          sight: >
+            Baryonyx is crouching by the water's edge, hoping to catch a fish.
+      flag:
+      identity:
+        name: Baryonyx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tylosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tylosaurus
+          short: Tylosaurus
+          sight: "Be thankful Tylosaurus hasn't noticed you yet!"
+      flag:
+      identity:
+        name: Tylosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ichthyostega:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ichthyostega
+          short: Ichthyostega
+          sight: >
+            Ichthyostega, the first amphibian, burps rudely in your direction.
+      flag:
+      identity:
+        name: Ichthyostega
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  arandaspis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arandaspis
+          short: Arandaspis
+          sight: >
+            The early jawless fish Arandaspis swims about close to the floor.
+      flag:
+      identity:
+        name: Arandaspis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  paradoxides:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - paradoxides
+          short: Paradoxides
+          sight: >
+            The large trilobite Paradoxides rests on the ocean floor here.
+      flag:
+      identity:
+        name: Paradoxides
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moschops:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moschops
+          short: Moschops
+          sight: >
+            The large herbivorous therapsid Moschops is here, browsing on the vegetation.
+      flag:
+      identity:
+        name: Moschops
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  protoceratops:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - protoceratops
+          short: Protoceratops
+          sight: >
+            Protoceratops is here, hiding from prowling raptors.
+      flag:
+      identity:
+        name: Protoceratops
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  parasuchus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - parasuchus
+          short: Parasuchus
+          sight: >
+            Parasuchus, the crocodile-like phytosaur, erupts out of the water at you.
+      flag:
+      identity:
+        name: Parasuchus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  askeptosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - askeptosaurus
+          short: Askeptosaurus
+          sight: >
+            The slender thalattosaur Askeptosaurus keeps its distance.
+      flag:
+      identity:
+        name: Askeptosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  styracosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - styracosaurus
+          short: Styracosaurus
+          sight: >
+            Styracosaurus lowers his well-armoured head and growls in warning.
+      flag:
+      identity:
+        name: Styracosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ornithosuchus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ornithosuchus
+          short: Ornithosuchus
+          sight: >
+            Ornithosuchus, a thecodont ancestor of the dinosaurs, bares his teeth at you.
+      flag:
+      identity:
+        name: Ornithosuchus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eusthenopteron:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eusthenopteron
+          short: Eusthenopteron
+          sight: >
+            Eusthenopteron, a lobe-finned fish, is resting here on the shore.
+      flag:
+      identity:
+        name: Eusthenopteron
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  camptosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - camptosaurus
+          short: Camptosaurus
+          sight: Camptosaurus is here, relaxing after a long feed.
+      flag:
+      identity:
+        name: Camptosaurus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  xenacanthus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xenacanthus
+          short: Xenacanthus
+          sight: >
+            A medium-sized shark, Xenacanthus, debates on whether you are worth eating.
+      flag:
+      identity:
+        name: Xenacanthus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pantolambda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pantolambda
+          short: Pantolambda
+          sight: >
+            The primitive mammalian herbivore Pantolambda keeps out of your way.
+      flag:
+      identity:
+        name: Pantolambda
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pachycormus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pachycormus
+          short: Pachycormus
+          sight: >
+            Pachycormus feels that, at ten feet long, he should not have to keep hiding!
+      flag:
+      identity:
+        name: Pachycormus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  meganeura:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - meganeura
+          short: Meganeura
+          sight: >
+            The huge carboniferous dragonfly Meganeura drones noisily past your ear.
+      flag:
+      identity:
+        name: Meganeura
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  kannemeyeria:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kannemeyeria
+          short: Kannemeyeria
+          sight: >
+            The lumbering dicynodont Kannemeyeria eyes you warily as it munches on plants.
+      flag:
+      identity:
+        name: Kannemeyeria
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hesperocyon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hesperocyon
+          short: Hesperocyon
+          sight: >
+            Hesperocyon, an early member of the dog family, growls at you.
+      flag:
+      identity:
+        name: Hesperocyon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pachycephalosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pachycephalosaurus
+          short: Pachycephalosaurus
+          sight: >
+            The bone-headed Pachycephalosaurus dares you to spell his name properly.
+      flag:
+      identity:
+        name: Pachycephalosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  archelon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archelon
+          short: Archelon
+          sight: >
+            The vast turtle Archelon paddles past, paying you no heed.
+      flag:
+      identity:
+        name: Archelon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  saurolophus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - saurolophus
+          short: Saurolophus
+          sight: Saurolophus browses on the higher leaves here.
+      flag:
+      identity:
+        name: Saurolophus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eogyrinus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eogyrinus
+          short: Eogyrinus
+          sight: >
+            The amphibian Eogyrinus grins at you, drooling with hunger.
+      flag:
+      identity:
+        name: Eogyrinus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scelidosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scelidosaurus
+          short: Scelidosaurus
+          sight: >
+            The well-armoured herbivore Scelidosaurus stares at you with curiosity.
+      flag:
+      identity:
+        name: Scelidosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  utatsusaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - utatsusaurus
+          short: Utatsusaurus
+          sight: >
+            The early ichthyosaur Utatsusaurus brushes past you in search of a mate.
+      flag:
+      identity:
+        name: Utatsusaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kentrosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kentrosaurus
+          short: Kentrosaurus
+          sight: >
+            The spiny herbivore Kentrosaurus waves its spiked tail at you.
+      flag:
+      identity:
+        name: Kentrosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  anomalocaris:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anomalocaris
+          short: Anomalocaris
+          sight: >
+            Anomalocaris, the top predator of these waters, swims about in search of food.
+      flag:
+      identity:
+        name: Anomalocaris
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lystrosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lystrosaurus
+          short: Lystrosaurus
+          sight: >
+            Lystrosaurus grunts at you as it helps itself to mouthfuls of the local flora.
+      flag:
+      identity:
+        name: Lystrosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  heterodontosaurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - heterodontosaurus
+          short: Heterodontosaurus
+          sight: >
+            The fleet-footed Heterodontosaurus plucks at the vegetation here.
+      flag:
+      identity:
+        name: Heterodontosaurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  xiphactinus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xiphactinus
+          short: Xiphactinus
+          sight: >
+            The shark-sized fish Xiphactinus watches you with interest.
+      flag:
+      identity:
+        name: Xiphactinus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  neanderthal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - neanderthal
+          short: Neanderthal
+          sight: >
+            A Neanderthal man shouts at you in a primitive tongue.
+      flag:
+      identity:
+        name: Neanderthal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  merychippus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merychippus
+          short: Merychippus
+          sight: >
+            The small early horse Merychippus trots about here, exercising her legs.
+      flag:
+      identity:
+        name: Merychippus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  arsinoitherium:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arsinoitherium
+          short: Arsinoitherium
+          sight: >
+            Arsinoitherium is here, happily wallowing in the mud.
+      flag:
+      identity:
+        name: Arsinoitherium
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  palaeontologist:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - palaeontologist
+          short: Palaeontologist
+          sight: >
+            An eminent palaeontologist is digging for fossils here.
+      flag:
+      identity:
+        name: Palaeontologist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

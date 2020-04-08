@@ -11,6 +11,6 @@ detail:
       have melted a little. The wire mesh above has been destroyed. You can see the charred remains of a less
       than fortunate spectator caught in the mesh.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

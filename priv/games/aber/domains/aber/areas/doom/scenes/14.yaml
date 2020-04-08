@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:doom:13"
     short: &+cBrick House
     sight: >
       You are in a large brick house. The main feature of this room is book- shelves; a lot of shelves and a

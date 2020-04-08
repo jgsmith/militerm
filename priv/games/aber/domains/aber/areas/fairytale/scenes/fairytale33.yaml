@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fairytale:fairytale37"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale35"
       west:
         target: "scene:aber:fairytale:fairytale29"
     short: Window Room

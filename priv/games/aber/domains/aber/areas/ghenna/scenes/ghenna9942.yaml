@@ -11,5 +11,5 @@ detail:
       giant hand emerges through a rift in time and squashes you flat, like a bug. 		 ------------------ 		
       			 &+RSPLAT!! 			 . 				 . 				 . &+RYOU ARE DEAD!!
 flag:
-  - nomobiles
+  - no-mobiles
   - death

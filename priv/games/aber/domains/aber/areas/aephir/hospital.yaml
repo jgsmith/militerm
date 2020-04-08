@@ -1,0 +1,53 @@
+groups:
+  aephir:
+    npcs:
+      aephir: 1
+      runner: 1
+locations:
+  aephir:
+    groups:
+      aephir: 1
+npcs:
+  aephir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aephir
+          short: Aephir
+          sight: 
+      flag:
+        - no-punt
+        - no-zap
+        - no-summon
+        - no-exorcise
+        - no-alias
+        - no-steal
+        - no-burn
+        - no-hassle
+      identity:
+        name: Aephir
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  runner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elven runner
+            - runner
+          short: Elven Runner
+          sight: 
+      flag:
+        - no-exorcise
+        - no-zap
+      identity:
+        name: Elven Runner
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

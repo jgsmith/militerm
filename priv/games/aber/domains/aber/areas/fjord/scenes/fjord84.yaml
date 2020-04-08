@@ -14,5 +14,5 @@ detail:
 flag:
   - cold
   - outdoors
-  - noregen
-  - nomobiles
+  - no-regen
+  - no-mobiles

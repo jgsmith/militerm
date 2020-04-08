@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      east: null
+      down:
+        guarded: true
+        target: "scene:aber:golden:golden39"
+      east:
+        guarded: true
+        target: "scene:aber:golden:golden37"
     short: &+WTemple Treasury&*
     sight: >
       Making your way past the giant bronze door, you stand in a ancient, sacred treasury. The floor is made

@@ -1,0 +1,261 @@
+groups:
+  entry:
+    npcs:
+      art: 1
+      brad: 1
+      buffy: 1
+      jason: 1
+      veronica: 1
+locations:
+  arch1:
+    npcs:
+      hilda: 1
+  arch2:
+    npcs:
+      rover: 1
+  arch3:
+    npcs:
+      spot: 1
+  cell1:
+    npcs:
+      larry: 1
+  cell2:
+    npcs:
+      curly: 1
+  cell3:
+    npcs:
+      moe: 1
+  chambers:
+    npcs:
+      blanch: 1
+  entry:
+    groups:
+      entry: 1
+  guardroom:
+    npcs:
+      barthalamu: 1
+npcs:
+  art:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - art
+          short: art
+          sight: Art the foppish Orc attempts to play a violin.
+      flag:
+      identity:
+        name: art
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  barthalamu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barthalamu
+          short: barthalamu
+          sight: >
+            Barthalamu, consort of the Queen, stands here guarding his charges.
+      flag:
+      identity:
+        name: barthalamu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blanch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blanche
+            - blanch
+          short: Blanche
+          sight: >
+            Blanche, Queen of the Orcs, frightens you with her visage.
+      flag:
+        - fireball
+        - frost
+        - missile
+        - shock
+        - neg-frost
+      identity:
+        name: Blanche
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brad
+          short: Brad
+          sight: Brad Orc in a tux charges you.
+      flag:
+      identity:
+        name: Brad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buffy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buffy
+          short: Buffy
+          sight: >
+            Buffy Orc in a ballroom dress rushes towards you menacingly.
+      flag:
+      identity:
+        name: Buffy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  curly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - curly the dwarf
+            - curly
+          short: Curly the Dwarf
+          sight: A dwarf in worn clothes stands here.
+      flag:
+      identity:
+        name: Curly the Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hilda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hilda
+          short: hilda
+          sight: >
+            Hilda the Orcish maid charges you with her feather duster drawn.
+      flag:
+      identity:
+        name: hilda
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  jason:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jason
+          short: jason
+          sight: Jason Orc in a tux moves to the attack.
+      flag:
+      identity:
+        name: jason
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  larry:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - larry the dwarf
+            - larry
+          short: Larry the Dwarf
+          sight: A dwarf in tattered clothes stands here.
+      flag:
+      identity:
+        name: Larry the Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moe the dwarf
+            - moe
+          short: Moe the Dwarf
+          sight: A dwarf in clean clothes stands here.
+      flag:
+      identity:
+        name: Moe the Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rover:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rover
+          short: rover
+          sight: >
+            Rover the Orc guardsman in formal livery leaps to the attack.
+      flag:
+      identity:
+        name: rover
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spot
+          short: spot
+          sight: >
+            Spot the Orc guardsman in formal livery informs you that you don't belong here.
+      flag:
+      identity:
+        name: spot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  veronica:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - veronica
+          short: veronica
+          sight: >
+            Veronica Orc in a ballroom dress rushes towards you.
+      flag:
+      identity:
+        name: veronica
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

@@ -8,4 +8,4 @@ detail:
       This closet is a storage room for linens. Sheets, pillowcases, and dressing gowns are stacked on the
       shelves which line the walls.
 flag:
-  - nomobiles
+  - no-mobiles

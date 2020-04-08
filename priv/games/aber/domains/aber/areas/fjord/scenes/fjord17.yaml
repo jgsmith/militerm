@@ -14,4 +14,4 @@ detail:
       fish in.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

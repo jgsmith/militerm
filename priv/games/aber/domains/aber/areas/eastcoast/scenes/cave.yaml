@@ -15,4 +15,4 @@ detail:
       cave, while to the east is a dark hole that your light source cannot penetrate.
 flag:
   - dark
-  - soundproof
+  - sound-proof

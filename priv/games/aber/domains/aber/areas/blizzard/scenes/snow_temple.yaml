@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:blizzard:14"
       east:
         target: "scene:aber:doom:f1"
       west:

@@ -6,4 +6,4 @@ detail:
       This appears to be the means Sauroth travels between this world and the next. Unfortunatly, not
       everything here is friendly towards mortals ...
 flag:
-  - nomobiles
+  - no-mobiles

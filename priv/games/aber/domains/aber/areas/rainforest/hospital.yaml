@@ -1,0 +1,1575 @@
+groups:
+  forest148:
+    npcs:
+      biguli: 1
+      nakorehu: 1
+  forest45:
+    npcs:
+      green: 1
+      scarlet: 1
+  forest67:
+    npcs:
+      leech1: 1
+      leech2: 1
+      leech3: 1
+      leech4: 1
+      leech5: 1
+      leech6: 1
+      leech7: 1
+  forest87:
+    npcs:
+      piranha1: 1
+      piranha2: 1
+      piranha3: 1
+      piranha4: 1
+  forest91:
+    npcs:
+      piranha5: 1
+      piranha6: 1
+      piranha7: 1
+  mount38:
+    npcs:
+      alpaca: 1
+      pudu: 1
+locations:
+  forest75:
+    npcs:
+      kinkajou: 1
+  river18:
+    npcs:
+      manatee: 1
+  forest7:
+    npcs:
+      umbrellabird: 1
+  forest20:
+    npcs:
+      tamandua: 1
+  forest68:
+    npcs:
+      ants: 1
+  forest45:
+    groups:
+      forest45: 1
+  forest38:
+    npcs:
+      howler: 1
+  forest91:
+    groups:
+      forest91: 1
+  mount38:
+    groups:
+      mount38: 1
+  mount17:
+    npcs:
+      condor: 1
+  forest82:
+    npcs:
+      turtle: 1
+  forest93:
+    npcs:
+      iguana: 1
+  forest126:
+    npcs:
+      tricops: 1
+  forest148:
+    groups:
+      forest148: 1
+  forest128:
+    npcs:
+      peccary: 1
+  forest116:
+    npcs:
+      axape: 1
+  forest34:
+    npcs:
+      squirrel: 1
+  forest87:
+    groups:
+      forest87: 1
+  forest56:
+    npcs:
+      capybara: 1
+  river12:
+    npcs:
+      king: 1
+  mount34:
+    npcs:
+      llama: 1
+  forest94:
+    npcs:
+      sloth: 1
+  mount1:
+    npcs:
+      explorer: 1
+  forest72:
+    npcs:
+      tegu: 1
+  forest144:
+    npcs:
+      agouti: 1
+  forest119:
+    npcs:
+      karitu: 1
+  forest118:
+    npcs:
+      jaguar: 1
+  forest113:
+    npcs:
+      beguriga: 1
+  forest79:
+    npcs:
+      anaconda: 1
+  mount44:
+    npcs:
+      horse: 1
+  forest122:
+    npcs:
+      egret: 1
+  forest16:
+    npcs:
+      bat: 1
+  mount16:
+    npcs:
+      chinchilla: 1
+  forest134:
+    npcs:
+      latuka: 1
+  forest81:
+    npcs:
+      swordbill: 1
+  forest17:
+    npcs:
+      parakeet: 1
+  forest5:
+    npcs:
+      duck: 1
+  mount23:
+    npcs:
+      caracara: 1
+  forest41:
+    npcs:
+      harpy: 1
+  forest133:
+    npcs:
+      toucan: 1
+  forest124:
+    npcs:
+      mogani: 1
+  forest59:
+    npcs:
+      ocelot: 1
+  mount12:
+    npcs:
+      stag: 1
+  forest43:
+    npcs:
+      vulture: 1
+  forest64:
+    npcs:
+      leech: 1
+  forest117:
+    npcs:
+      corixi: 1
+  forest10:
+    npcs:
+      owl: 1
+  mount4:
+    npcs:
+      guanaco: 1
+  river7:
+    npcs:
+      pirarucu: 1
+  forest109:
+    npcs:
+      tortoise: 1
+  forest114:
+    npcs:
+      tanacu: 1
+  forest115:
+    npcs:
+      potona: 1
+  forest112:
+    npcs:
+      pataniku: 1
+  forest36:
+    npcs:
+      uacari: 1
+  forest49:
+    npcs:
+      tapir: 1
+  forest106:
+    npcs:
+      curassow: 1
+  forest48:
+    npcs:
+      nineband: 1
+  forest37:
+    npcs:
+      capuchin: 1
+  river15:
+    npcs:
+      dolphin: 1
+  forest32:
+    npcs:
+      spider: 1
+  forest57:
+    npcs:
+      caiman: 1
+  mount7:
+    npcs:
+      puma: 1
+  forest67:
+    groups:
+      forest67: 1
+  mount45:
+    npcs:
+      bear: 1
+  forest131:
+    npcs:
+      hoatzin: 1
+npcs:
+  caiman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - caiman
+          short: Caiman
+          sight: >
+            A black caiman is annoyed that you have interrupted his bask.
+      flag:
+      identity:
+        name: Caiman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  explorer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - explorer
+          short: Explorer
+          sight: >
+            A wild-eyed and insane explorer suddenly leaps up, reaching for your throat.
+      flag:
+      identity:
+        name: Explorer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  uacari:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red uacari
+            - uacari
+          short: Red Uacari
+          sight: A red uacari monkey looks at you glumly.
+      flag:
+      identity:
+        name: Red Uacari
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  egret:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great egret
+            - egret
+          short: Great Egret
+          sight: >
+            A great egret, majestic and white, is standing by the water's edge.
+      flag:
+      identity:
+        name: Great Egret
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  manatee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manatee
+          short: Manatee
+          sight: >
+            A mournful-looking manatee surfaces just next to you.
+      flag:
+      identity:
+        name: Manatee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  capuchin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black capuchin
+            - capuchin
+          short: Black Capuchin
+          sight: >
+            A black capuchin monkey leaps about here among the branches.
+      flag:
+      identity:
+        name: Black Capuchin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  agouti:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - agouti
+          short: Agouti
+          sight: An agouti is digging here for roots and tubers.
+      flag:
+      identity:
+        name: Agouti
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jaguar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jaguar
+          short: Jaguar
+          sight: >
+            There is a terrifying roar and a yellow blur, and a jaguar is upon you!
+      flag:
+      identity:
+        name: Jaguar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spider monkey
+            - spider
+          short: Spider Monkey
+          sight: >
+            A spider monkey chatters at you from an adjacent branch.
+      flag:
+      identity:
+        name: Spider Monkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beguriga:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beguriga
+          short: Beguriga
+          sight: >
+            Beguriga the medicine-man shouts at you with obvious wrath.
+      flag:
+        - shock
+      identity:
+        name: Beguriga
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scarlet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scarlet macaw
+            - scarlet
+          short: Scarlet Macaw
+          sight: >
+            A scarlet macaw flies to and from his nest in the cliff.
+      flag:
+      identity:
+        name: Scarlet Macaw
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mogani:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mogani
+          short: Mogani
+          sight: Mogani the Indian is here hunting monkeys.
+      flag:
+      identity:
+        name: Mogani
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  owl:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horned owl
+            - owl
+          short: Horned Owl
+          sight: A horned owl scans the ground for mouse oppossums.
+      flag:
+      identity:
+        name: Horned Owl
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swordbill:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swordbill
+          short: Swordbill
+          sight: >
+            A swordbill hummingbird flits from flower to flower.
+      flag:
+      identity:
+        name: Swordbill
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guanaco:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guanaco
+          short: Guanaco
+          sight: >
+            A sure-footed guanaco plucks at the sparse greenery.
+      flag:
+      identity:
+        name: Guanaco
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stag:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stag
+          short: Stag
+          sight: A large stag is drinking from the river here.
+      flag:
+      identity:
+        name: Stag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  toucan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - toucan
+          short: Toucan
+          sight: >
+            A huge-beaked toucan squawks at you unattractively.
+      flag:
+      identity:
+        name: Toucan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tricops:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tricops
+          short: Tricops
+          sight: >
+            Tricops, a frog-eating bat, hangs upside down from a branch.
+      flag:
+      identity:
+        name: Tricops
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alpaca:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alpaca
+          short: Alpaca
+          sight: >
+            An alpaca is here, feeding on the hardy plants by the side of the path.
+      flag:
+      identity:
+        name: Alpaca
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nakorehu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nakorehu
+          short: Nakorehu
+          sight: Nakorehu glares at you in annoyance.
+      flag:
+      identity:
+        name: Nakorehu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tegu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tegu lizard
+            - tegu
+          short: Tegu Lizard
+          sight: >
+            A three-foot tegu lizard snaps its powerful jaws at you in warning.
+      flag:
+      identity:
+        name: Tegu Lizard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  duck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - torrent duck
+            - duck
+          short: Torrent Duck
+          sight: >
+            A torrent duck is plucking stonefly larvae from one of the rocks here.
+      flag:
+      identity:
+        name: Torrent Duck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vulture:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yellowheaded vulture
+            - vulture
+          short: Yellowheaded Vulture
+          sight: >
+            A yellow-headed vulture swoops down on you from above.
+      flag:
+      identity:
+        name: Yellowheaded Vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ocelot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ocelot
+          short: Ocelot
+          sight: An ocelot watches you keenly from the branches.
+      flag:
+      identity:
+        name: Ocelot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spectacled bear
+            - bear
+          short: Spectacled Bear
+          sight: A spectacled bear is taking a nap here.
+      flag:
+      identity:
+        name: Spectacled Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corixi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corixi
+          short: Corixi
+          sight: >
+            Corixi puts down an unfinished pot and orders you out of his hut.
+      flag:
+      identity:
+        name: Corixi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A truly elephantine leech fastens itself securely to your leg.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nineband:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ninebanded armadillo
+            - nineband
+          short: Ninebanded Armadillo
+          sight: >
+            A nine-banded armadillo is scuffling about here looking for food.
+      flag:
+      identity:
+        name: Ninebanded Armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dolphin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dolphin
+          short: Dolphin
+          sight: >
+            A freshwater dolphin leaps playfully in the water beside your raft.
+      flag:
+      identity:
+        name: Dolphin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  potona:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - potona
+          short: Potona
+          sight: >
+            Potona, the matriarch of the village, threatens you with a brandished pot.
+      flag:
+      identity:
+        name: Potona
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  green:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - green macaw
+            - green
+          short: Green Macaw
+          sight: A green macaw mobs you, agitated by your presence.
+      flag:
+      identity:
+        name: Green Macaw
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tamandua:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tamandua
+          short: Tamandua
+          sight: >
+            Tamandua the anteater rakes the nest with his huge claws.
+      flag:
+      identity:
+        name: Tamandua
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tapir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tapir
+          short: Tapir
+          sight: >
+            A tapir trundles by, apparently unaware of your presence.
+      flag:
+      identity:
+        name: Tapir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pirarucu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pirarucu
+          short: Pirarucu
+          sight: >
+            A pirarucu, an enormous freshwater fish, is swimming by the side of the raft.
+      flag:
+      identity:
+        name: Pirarucu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  umbrellabird:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - umbrella bird
+            - umbrellabird
+          short: Umbrella Bird
+          sight: >
+            The umbrella bird is the ugliest bird you have ever seen.
+      flag:
+      identity:
+        name: Umbrella Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  karitu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - karitu
+          short: Karitu
+          sight: >
+            Karitu the Indian is wandering through the forest here.
+      flag:
+      identity:
+        name: Karitu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  puma:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - puma
+          short: Puma
+          sight: >
+            A puma snarls at you and prepares to spring, his hair bristling.
+      flag:
+      identity:
+        name: Puma
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hoatzin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hoatzin
+          short: Hoatzin
+          sight: >
+            A hoatzin, an evil-smelling and primitive bird, is clinging to the branches by means of claws on
+            its wings.
+      flag:
+      identity:
+        name: Hoatzin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peccary:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - collared peccary
+            - peccary
+          short: Collared Peccary
+          sight: >
+            A pig-like collared peccary eats fungi from the forest floor.
+      flag:
+      identity:
+        name: Collared Peccary
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  axape:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - axape
+          short: Axape
+          sight: >
+            Axape the Indian chief leaps at you with murder on his mind.
+      flag:
+      identity:
+        name: Axape
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  king:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - king vulture
+            - king
+          short: King Vulture
+          sight: >
+            A brightly-coloured king vulture swoops down on you from above!
+      flag:
+      identity:
+        name: King Vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  horse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wild horse
+            - horse
+          short: Wild Horse
+          sight: >
+            A wild horse tosses his mane proudly and whinnies as you arrive.
+      flag:
+      identity:
+        name: Wild Horse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  latuka:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - latuka
+          short: Latuka
+          sight: Latuka the Indian is gathering herbs here.
+      flag:
+      identity:
+        name: Latuka
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  parakeet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - parakeet
+          short: Parakeet
+          sight: >
+            A beautiful but noisy parakeet flaps about your head annoyingly.
+      flag:
+      identity:
+        name: Parakeet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sloth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - threetoed sloth
+            - sloth
+          short: Threetoed Sloth
+          sight: >
+            A three-toed sloth climbs ponderously up one of the trees.
+      flag:
+      identity:
+        name: Threetoed Sloth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ants:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - army ants
+            - ants
+          short: Army Ants
+          sight: There are ants all over here!
+      flag:
+      identity:
+        name: Army Ants
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  anaconda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anaconda
+          short: Anaconda
+          sight: >
+            A giant anaconda glides towards you over the wet ground.
+      flag:
+      identity:
+        name: Anaconda
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pataniku:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pataniku
+          short: Pataniku
+          sight: >
+            Pataniku the Indian grins at you with yellow teeth.
+      flag:
+      identity:
+        name: Pataniku
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  biguli:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - biguli
+          short: Biguli
+          sight: >
+            Biguli is a well-built Indian who doesn't like trespassers.
+      flag:
+      identity:
+        name: Biguli
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tortoise:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tortoise
+          short: Tortoise
+          sight: >
+            A big tortoise leaps to the attack! In an hour he will be upon you!
+      flag:
+      identity:
+        name: Tortoise
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pudu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pudu
+          short: Pudu
+          sight: >
+            Pudu the dwarf deer is feeding on succulent plants here.
+      flag:
+      identity:
+        name: Pudu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  llama:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - llama
+          short: Llama
+          sight: >
+            A llama is here, protected from the cold by her thick fur.
+      flag:
+      identity:
+        name: Llama
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  piranha2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  iguana:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - iguana
+          short: Iguana
+          sight: >
+            A large green iguana is taking a nap on one of the nearby branches.
+      flag:
+      identity:
+        name: Iguana
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  turtle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - turtle
+          short: Turtle
+          sight: A turtle swims about in the shallow water.
+      flag:
+      identity:
+        name: Turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  harpy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - harpy eagle
+            - harpy
+          short: Harpy Eagle
+          sight: A harpy eagle reaches for you with massive talons.
+      flag:
+      identity:
+        name: Harpy Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chinchilla:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chinchilla
+          short: Chinchilla
+          sight: >
+            A chinchilla scurries about on the rocks by your feet.
+      flag:
+      identity:
+        name: Chinchilla
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  piranha6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piranha
+          short: Piranha
+          sight: A vicious piranha attacks your legs.
+      flag:
+      identity:
+        name: Piranha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  condor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - condor
+          short: Condor
+          sight: A condor has chosen this spot to make his nest.
+      flag:
+      identity:
+        name: Condor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  caracara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - caracara
+          short: Caracara
+          sight: >
+            A caracara flies close by you, mobbing you. Maybe you are near his nest.
+      flag:
+      identity:
+        name: Caracara
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kinkajou:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kinkajou
+          short: Kinkajou
+          sight: >
+            A kinkajou, a monkey-like carnivore, feeds from his perch in the trees.
+      flag:
+      identity:
+        name: Kinkajou
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  howler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - howler monkey
+            - howler
+          short: Howler Monkey
+          sight: >
+            A howler monkey emits deafening cries from its woody perch.
+      flag:
+      identity:
+        name: Howler Monkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  curassow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - curassow
+          short: Curassow
+          sight: >
+            A chunky flightless bird called a curassow is pecking scraps from the ground.
+      flag:
+      identity:
+        name: Curassow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vampirebat
+            - bat
+          short: vampirebat
+          sight: >
+            An evil blackbat vampire wants to taste your blood!
+      flag:
+      identity:
+        name: vampirebat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: >
+            A big hungry leech eagerly begins to feast on your blood.
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tanacu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tanacu
+          short: Tanacu
+          sight: Tanacu looks up in surprise as you enter his hut.
+      flag:
+      identity:
+        name: Tanacu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  capybara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - capybara
+          short: Capybara
+          sight: >
+            A capybara, the world's largest rodent, trots around on stumpy legs.
+      flag:
+      identity:
+        name: Capybara
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squirrel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squirrel monkey
+            - squirrel
+          short: Squirrel Monkey
+          sight: >
+            A squirrel monkey dangles from the branches using its prehensile tail.
+      flag:
+      identity:
+        name: Squirrel Monkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

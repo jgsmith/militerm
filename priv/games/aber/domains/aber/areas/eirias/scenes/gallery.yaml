@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:eirias:inside"
       east:
         target: "scene:aber:eirias:light"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eirias:staircase"
     short: Gallery
     sight: >
       You come up through a trapdoor, close to one end of a long gallery. The floor stretches before you in

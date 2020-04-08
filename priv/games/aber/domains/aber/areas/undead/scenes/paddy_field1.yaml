@@ -16,6 +16,6 @@ detail:
       &+Cnorth&* seem to head into less promising swampland.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles
   - fastheal

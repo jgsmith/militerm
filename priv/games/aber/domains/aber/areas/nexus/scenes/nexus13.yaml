@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:nexus:nexus14"
       north:
         target: "scene:aber:nexus:nexus15"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:nexus:nexus12"
     short: Portcullis
     sight: >
       The wind creaks through the cross-hatches of the portcullis, flexing its rusty, moss-covered bars eerily
@@ -13,6 +15,6 @@ detail:
       decisive, but long-forgotten battle. A gatehouse is to the east.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

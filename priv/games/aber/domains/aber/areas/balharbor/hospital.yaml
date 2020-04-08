@@ -1,0 +1,2294 @@
+groups:
+  balhar1:
+    npcs:
+      reporter: 1
+      sailor: 1
+  balhar18:
+    npcs:
+      jokim: 1
+      shaaph: 1
+  balhar19:
+    npcs:
+      molid: 1
+      peasant: 1
+  balhar22:
+    npcs:
+      bukki: 1
+      ithran: 1
+      pallu: 1
+  balhar29:
+    npcs:
+      freeloader: 1
+      handler: 1
+      mule: 1
+      pincushion: 1
+  balhar40:
+    npcs:
+      firebomber: 1
+      rockthrower: 1
+      secularius: 1
+  balhar41:
+    npcs:
+      alleycat: 1
+      criminal: 1
+      policeman: 1
+  balhar44:
+    npcs:
+      drunk: 1
+      hodiah: 1
+  balhar49:
+    npcs:
+      rioter: 1
+      scruffy: 1
+  balhar52:
+    npcs:
+      jacan: 1
+      vashti: 1
+  balhar76:
+    npcs:
+      beavis: 1
+      butthead: 1
+  balhar80:
+    npcs:
+      bather: 1
+      bum: 1
+      lifeguard: 1
+  balhar81:
+    npcs:
+      dipper: 1
+      surfer: 1
+      swimmer: 1
+  balhar82:
+    npcs:
+      guardsman: 1
+      patrolman: 1
+      securityguard: 1
+  btower60:
+    npcs:
+      manticore: 1
+      rattattailie: 1
+  limbo@limbo:
+    npcs:
+      beggarson: 1
+      lsdaemon: 1
+  park10:
+    npcs:
+      bees: 1
+      hornet: 1
+      wasp: 1
+  wiz20@wiz:
+    npcs:
+      hillary: 1
+      polliaska: 1
+      quietus: 1
+      willie: 1
+locations:
+  btower71:
+    npcs:
+      demagogue: 1
+  jungle12:
+    npcs:
+      gorilla: 1
+  btower28:
+    npcs:
+      wyvern: 1
+  balhar46:
+    npcs:
+      shopkeeper: 1
+  balhar65:
+    npcs:
+      subzero: 1
+  balhar44:
+    groups:
+      balhar44: 1
+  park1:
+    npcs:
+      hedgehog: 1
+  f1@forest:
+    npcs:
+      silencer: 1
+  btower31:
+    npcs:
+      poltergeist: 1
+  balhar52:
+    groups:
+      balhar52: 1
+  balhar1:
+    groups:
+      balhar1: 1
+  balhar71:
+    npcs:
+      vandal: 1
+  balhar49:
+    groups:
+      balhar49: 1
+  balhar5:
+    npcs:
+      mugger: 1
+  btower13:
+    npcs:
+      slime: 1
+  balhar51:
+    npcs:
+      alchemist: 1
+  btower68:
+    npcs:
+      evilotto: 1
+  balhar12:
+    npcs:
+      blacksmith: 1
+  btower25:
+    npcs:
+      grue: 1
+  balhar73:
+    npcs:
+      trasher: 1
+  balhar64:
+    npcs:
+      warcoach: 1
+  balhar88:
+    npcs:
+      apathor: 1
+  balhar75:
+    npcs:
+      smasher: 1
+  park5:
+    npcs:
+      rabbit: 1
+  balhar27:
+    npcs:
+      caleb: 1
+  btower134:
+    npcs:
+      kish: 1
+  jungle13:
+    npcs:
+      monkey: 1
+  park8:
+    npcs:
+      sparrow: 1
+  btower50:
+    npcs:
+      asp: 1
+  balhar26:
+    npcs:
+      hubbah: 1
+  balhar76:
+    groups:
+      balhar76: 1
+  jungle10:
+    npcs:
+      toucan: 1
+  balhar11:
+    npcs:
+      kid: 1
+  jungle26:
+    npcs:
+      crocodile: 1
+  balhar25:
+    npcs:
+      streetsweeper: 1
+  balhar82:
+    groups:
+      balhar82: 1
+  balhar72:
+    npcs:
+      homewrecker: 1
+  balhar19:
+    groups:
+      balhar19: 1
+  btower60:
+    groups:
+      btower60: 1
+  btower138:
+    npcs:
+      weaponsmith: 1
+  park7:
+    npcs:
+      mallard: 1
+  jungle11:
+    npcs:
+      python: 1
+  balhar43:
+    npcs:
+      kenaz: 1
+  balhar8:
+    npcs:
+      mercenary: 1
+  btower65:
+    npcs:
+      crawler: 1
+  park2:
+    npcs:
+      squirrel: 1
+  balhar16:
+    npcs:
+      ozem: 1
+  jungle7:
+    npcs:
+      vines: 1
+  balhar28:
+    npcs:
+      lecah: 1
+  balhar42:
+    npcs:
+      archmage: 1
+  btower51:
+    npcs:
+      wight: 1
+  jungle9:
+    npcs:
+      tick: 1
+  balhar81:
+    groups:
+      balhar81: 1
+  balhar78:
+    npcs:
+      dealer: 1
+  btower30:
+    npcs:
+      spider: 1
+  btower23:
+    npcs:
+      spectre: 1
+  balhar60:
+    npcs:
+      beggar: 1
+  balhar29:
+    groups:
+      balhar29: 1
+  park3:
+    npcs:
+      snake: 1
+  balhar34:
+    npcs:
+      scribe: 1
+  limbo@limbo:
+    groups:
+      limbo@limbo: 1
+  balhar80:
+    groups:
+      balhar80: 1
+  btower55:
+    npcs:
+      banshee: 1
+  btower2:
+    npcs:
+      spirit: 1
+  balhar13:
+    npcs:
+      otherkid: 1
+  park4:
+    npcs:
+      deer: 1
+  balhar41:
+    groups:
+      balhar41: 1
+  balhar40:
+    groups:
+      balhar40: 1
+  balhar18:
+    groups:
+      balhar18: 1
+  park10:
+    groups:
+      park10: 1
+  balhar70:
+    npcs:
+      masterthief: 1
+  balhar22:
+    groups:
+      balhar22: 1
+  balhar63:
+    npcs:
+      reu: 1
+  balhar9:
+    npcs:
+      rat: 1
+  balhar59:
+    npcs:
+      worker: 1
+  wiz20@wiz:
+    groups:
+      wiz20@wiz: 1
+  balhar62:
+    npcs:
+      highpriest: 1
+  balhar48:
+    npcs:
+      innkeeper: 1
+  balhar17:
+    npcs:
+      sisera: 1
+  balhar7:
+    npcs:
+      adventurer: 1
+  btower27:
+    npcs:
+      corpse: 1
+  btower4:
+    npcs:
+      mystagogue: 1
+  balhar47:
+    npcs:
+      farmer: 1
+npcs:
+  homewrecker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - homewrecker
+          short: The Homewrecker
+          sight: >
+            Another homewrecker is here, kicking holes in the walls.
+      flag:
+      identity:
+        name: The Homewrecker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  python:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - python
+          short: Python
+          sight: >
+            A python slithers down from another tree and tries to wrap around you!
+      flag:
+      identity:
+        name: Python
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bees:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swarm of bees
+            - bees
+          short: The Swarm of Bees
+          sight: >
+            A swarm of angry bees buzz around you to plant their stingers!
+      flag:
+      identity:
+        name: The Swarm of Bees
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  warcoach:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - war coach
+            - warcoach
+          short: The War Coach
+          sight: >
+            The War Coach, master of the guild is here ready to train new warriors.
+      flag:
+        - nosteal
+      identity:
+        name: The War Coach
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jokim:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jokim
+          short: Jokim
+          sight: >
+            Sash Lieutenant Jokim is here giving orders to his men.
+      flag:
+      identity:
+        name: Jokim
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scribe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chief scribe
+            - scribe
+          short: The Chief Scribe
+          sight: The Chief Scribe is here, selling spell scrolls.
+      flag:
+        - fireball
+        - bhands
+      identity:
+        name: The Chief Scribe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spirit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shadowy spirit
+            - spirit
+          short: Shadowy Spirit
+          sight: A shadowy spirit is here, guarding the tower.
+      flag:
+      identity:
+        name: Shadowy Spirit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  poltergeist:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - poltergeist
+          short: The Poltergeist
+          sight: A sinister, noisy, rapping Poltergeist floats by.
+      flag:
+      identity:
+        name: The Poltergeist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monkey:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - monkey
+          short: The Monkey
+          sight: >
+            A monkey is here, doing his typical monkey business.
+      flag:
+      identity:
+        name: The Monkey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scruffy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scruffy
+          short: Scruffy
+          sight: A scruffy dog is here, sniffing about.
+      flag:
+      identity:
+        name: Scruffy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mugger:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mugger
+          short: The Mugger
+          sight: A mugger is here, looking for his next victim.
+      flag:
+      identity:
+        name: The Mugger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spectre:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spectre
+          short: The Spectre
+          sight: A spectre flies by to haunt you!
+      flag:
+      identity:
+        name: The Spectre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant spider
+            - spider
+          short: The Giant Spider
+          sight: >
+            A giant spider spins his web and tries to grab you!
+      flag:
+      identity:
+        name: The Giant Spider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pincushion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - human pincushion
+            - pincushion
+          short: The Human Pincushion
+          sight: A pile of walking metal clinks by you.
+      flag:
+      identity:
+        name: The Human Pincushion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rioter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rioter
+          short: The Rioter
+          sight: >
+            A young enraged rioter is here throwing bottles at the troops.
+      flag:
+      identity:
+        name: The Rioter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mystagogue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mystagogue
+          short: The Mystagogue
+          sight: >
+            The Mystagogue stands here, spreading mystical doctrines.
+      flag:
+      identity:
+        name: The Mystagogue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vashti:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - queen vashti
+            - vashti
+          short: Queen Vashti
+          sight: >
+            The former Queen of Persia, Vashti stands here in anger.
+      flag:
+        - deaf
+        - mute
+        - blind
+        - fireball
+        - shock
+        - missile
+        - frost
+        - bhands
+        - neg-ice-storm
+        - neg-frost
+        - no-steal
+      identity:
+        name: Queen Vashti
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  molid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - molid
+          short: Molid
+          sight: Molid, the Sash Corporal stands here alertly.
+      flag:
+      identity:
+        name: Molid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alchemist:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alchemist
+          short: The Alchemist
+          sight: The Alchemist is here to sell you useful potions.
+      flag:
+      identity:
+        name: The Alchemist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gorilla:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gorilla
+          short: The Gorilla
+          sight: >
+            A large gorilla swings through the trees and beats his chest.
+      flag:
+      identity:
+        name: The Gorilla
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kid
+          short: The Kid
+          sight: >
+            One of the Blacksmith's sons is here minding the shop.
+      flag:
+        - nosteal
+      identity:
+        name: The Kid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  toucan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - toucan
+          short: Toucan
+          sight: A toucan sits perched on a tree branch chattering.
+      flag:
+      identity:
+        name: Toucan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mallard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mallard
+          short: The Mallard
+          sight: A mallard is here swimming on the pond.
+      flag:
+      identity:
+        name: The Mallard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  surfer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - waverider
+            - surfer
+          short: The Waverider
+          sight: >
+            A waverider who was riding the waves stops to confront your intrusion.
+      flag:
+      identity:
+        name: The Waverider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  patrolman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beach patrolman
+            - patrolman
+          short: The Beach Patrolman
+          sight: >
+            A Beach Patrolman assists in trying to take you down.
+      flag:
+      identity:
+        name: The Beach Patrolman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - obnoxious drunk
+            - drunk
+          short: Obnoxious Drunk
+          sight: >
+            An obnoxious drunk sings loudly and belches at you.
+      flag:
+      identity:
+        name: Obnoxious Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ithran:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ithran
+          short: Ithran
+          sight: >
+            Ithran of Red Sash stands here, watching the crowds.
+      flag:
+        - no-steal
+      identity:
+        name: Ithran
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  worker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lab worker
+            - worker
+          short: The Lab Worker
+          sight: >
+            A young lab worker mixes chemicals for new potions.
+      flag:
+      identity:
+        name: The Lab Worker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - green snake
+            - snake
+          short: The Green Snake
+          sight: A small green snake slithers by.
+      flag:
+      identity:
+        name: The Green Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bather:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sun bather
+            - bather
+          short: The Sun Bather
+          sight: >
+            A Sun-Bather sits soaking up the sun until you trespassed on her beach.
+      flag:
+      identity:
+        name: The Sun Bather
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  freeloader:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lazy jones
+            - freeloader
+          short: Lazy Jones
+          sight: >
+            Lazy Jones is here, demanding you give him handouts.
+      flag:
+      identity:
+        name: Lazy Jones
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crawler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creepy crawler
+            - crawler
+          short: The Creepy Crawler
+          sight: >
+            A slimy, creepy crawler smells blood and seeks you out!
+      flag:
+      identity:
+        name: The Creepy Crawler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swimmer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swimmer
+          short: The Swimmer
+          sight: >
+            A swimmer wades in the ocean toward you angry that you're on his beach.
+      flag:
+      identity:
+        name: The Swimmer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  caleb:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - caleb
+          short: Caleb
+          sight: >
+            Caleb, a black-skinned sash stands here, guarding the tower.
+      flag:
+      identity:
+        name: Caleb
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  innkeeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - innkeeper
+          short: The Innkeeper
+          sight: >
+            The Innkeeper is here, ready to rent you a room for the night.
+      flag:
+      identity:
+        name: The Innkeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  policeman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - constable
+            - policeman
+          short: The Constable
+          sight: >
+            A constable has a crooked criminal cornered with crossbow drawn ordering him to give up.
+      flag:
+      identity:
+        name: The Constable
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lecah:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lecah
+          short: Lecah
+          sight: >
+            Lecah, a black-skinned sash stands here, guarding the tower.
+      flag:
+      identity:
+        name: Lecah
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slime:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slime
+          short: The Slime
+          sight: >
+            A gooey, oozing, dripping, ball of Slime drops from the ceiling!
+      flag:
+      identity:
+        name: The Slime
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rockthrower:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rockthrower
+          short: The Rockthrower
+          sight: >
+            A young angry rioter is here throwing rocks at security.
+      flag:
+      identity:
+        name: The Rockthrower
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shaaph:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shaaph
+          short: Shaaph
+          sight: >
+            Shaaph, member of the famous mercenary organization the Red Sash, stands here as guard.
+      flag:
+        - nosteal
+      identity:
+        name: Shaaph
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  reu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - reu
+          short: Reu
+          sight: Reu of Red Sash stands here, watching the crowds.
+      flag:
+        - no-steal
+      identity:
+        name: Reu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wasp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wasp
+          short: The Wasp
+          sight: A wasp is buzzing around furiously!
+      flag:
+      identity:
+        name: The Wasp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  adventurer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adventurer
+          short: The Adventurer
+          sight: An adventurer is here, sitting at the bar.
+      flag:
+      identity:
+        name: The Adventurer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sailor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sailor
+          short: The Sailor
+          sight: >
+            A seedy-looking sailor is here, looking at you as a possible impressee.
+      flag:
+      identity:
+        name: The Sailor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ozem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ozem
+          short: Ozem
+          sight: >
+            Ozem, member of the famous mercenary organization the Red Sash, stands here as guard.
+      flag:
+        - nosteal
+      identity:
+        name: Ozem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dealer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dealer
+          short: The Dealer
+          sight: >
+            The Dealer is here, pushing contraband substances in this house.
+      flag:
+      identity:
+        name: The Dealer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  streetsweeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - streetsweeper
+          short: The Streetsweeper
+          sight: A streetsweeper is here, cleaning up the streets.
+      flag:
+      identity:
+        name: The Streetsweeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kish:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kish
+          short: Kish
+          sight: >
+            Kish, a Sash elite guardsman, stands here guarding the entrance.
+      flag:
+      identity:
+        name: Kish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  reporter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - reporter
+          short: The Reporter
+          sight: >
+            A member of the press is running around covering the riots.
+      flag:
+      identity:
+        name: The Reporter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alleycat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alley cat
+            - alleycat
+          short: The Alley Cat
+          sight: An alley cat is here, looking for mice to eat.
+      flag:
+      identity:
+        name: The Alley Cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  smasher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smasher
+          short: The Smasher
+          sight: This youngster hopes to make a big smash!
+      flag:
+      identity:
+        name: The Smasher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  evilotto:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - evil otto
+            - evilotto
+          short: Evil Otto
+          sight: >
+            &+YA bouncing yellow ball with a big smile on its face chants 'Intruder Alert! Intruder Alert!'
+      flag:
+        - neg-shock
+        - imm-cripple
+        - shock
+      identity:
+        name: Evil Otto
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  apathor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - apathor
+          short: Apathor
+          sight: >
+            Apathor the evil sorcerer is here trying to nullify all political division.
+      flag:
+        - blind
+        - mute
+        - deaf
+        - imm-mute
+        - imm-blind
+        - imm-deaf
+      identity:
+        name: Apathor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beggar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beggar
+          short: The Beggar
+          sight: An old beggar is here, asking for a few coins.
+      flag:
+      identity:
+        name: The Beggar
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  vines:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tangle vines
+            - vines
+          short: The Tangle Vines
+          sight: Some tangle vines grow here and wave in the wind.
+      flag:
+      identity:
+        name: The Tangle Vines
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shopkeeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shopkeeper
+          short: The Shopkeeper
+          sight: >
+            The Shopkeeper tries desperately to prevent looting of his store.
+      flag:
+      identity:
+        name: The Shopkeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wight
+          short: The Wight
+          sight: >
+            A hideous, horrible undead Wight creeps over to suck your life force!
+      flag:
+      identity:
+        name: The Wight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pallu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pallu
+          short: Pallu
+          sight: >
+            Pallu of Red Sash stands here, watching the crowds.
+      flag:
+        - no-steal
+      identity:
+        name: Pallu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  silencer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silencer
+          short: Silencer
+          sight: >
+            The evil silencer demon is here, seeking to silence you.
+      flag:
+        - mute
+        - imm-mute
+        - no-zap
+      identity:
+        name: Silencer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vandal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vandal
+          short: The Vandal
+          sight: >
+            Hey! That vandal is smashing windows with that baseball bat!
+      flag:
+      identity:
+        name: The Vandal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  manticore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manticore
+          short: The Manticore
+          sight: A Manticore charges toward you!
+      flag:
+      identity:
+        name: The Manticore
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  secularius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - secularius
+          short: Secularius
+          sight: >
+            Secularius is here searching for anyone who doesn't worship Nero to be thrown to the lions.
+      flag:
+      identity:
+        name: Secularius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bukki:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bukki
+          short: Bukki
+          sight: >
+            Bukki of Red Sash stands here, watching the crowds.
+      flag:
+        - no-steal
+      identity:
+        name: Bukki
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hillary:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hillary
+          short: hillary
+          sight: This woman wants to rule the world!
+      flag:
+      identity:
+        name: hillary
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mule:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mule
+          short: The Mule
+          sight: A stubborn mule is here, refusing to move.
+      flag:
+      identity:
+        name: The Mule
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  weaponsmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - weapon smith
+            - weaponsmith
+          short: The Weapon Smith
+          sight: The Weapon Smith is here unhappy with his plight.
+      flag:
+      identity:
+        name: The Weapon Smith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  securityguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - security guard
+            - securityguard
+          short: The Security Guard
+          sight: >
+            The Security Guard is here to arrest you for trespassing!
+      flag:
+      identity:
+        name: The Security Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  archmage:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archmage
+          short: The Archmage
+          sight: >
+            The Archmage, master of the mage guild stands here ready to train new potential wizards. He glows
+            with a bright light!
+      flag:
+        - fireball
+        - missile
+        - shock
+        - frost
+        - bhands
+      identity:
+        name: The Archmage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  masterthief:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - master thief
+            - masterthief
+          short: The Master Thief
+          sight: >
+            The Master Thief, master of the guild is here ready to train new criminals.
+      flag:
+      identity:
+        name: The Master Thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  handler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mules handler
+            - handler
+          short: The Mules Handler
+          sight: >
+            Another peasant is here, trying to get his mule to move.
+      flag:
+      identity:
+        name: The Mules Handler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rat
+          short: The Rat
+          sight: A rat is here, looking for food to eat.
+      flag:
+      identity:
+        name: The Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lifeguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - life guard
+            - lifeguard
+          short: The Life Guard
+          sight: >
+            A life guard stands here ordering you to get off the beach now!
+      flag:
+      identity:
+        name: The Life Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  willie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - willie
+          short: willie
+          sight: >
+            A totally slick individual stands before you playing sax.
+      flag:
+      identity:
+        name: willie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  criminal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - criminal
+          short: The Criminal
+          sight: >
+            A criminal is here, refusing to surrender to police.
+      flag:
+      identity:
+        name: The Criminal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  polliaska:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - polliaska
+          short: Polliaska
+          sight: >
+            Polliaska walks the streets asking people to throw away their swords.
+      flag:
+      identity:
+        name: Polliaska
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  blacksmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black smith
+            - blacksmith
+          short: The Black Smith
+          sight: The Black Smith is here pounding iron into shape.
+      flag:
+      identity:
+        name: The Black Smith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peasant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peasant
+          short: The Peasant
+          sight: >
+            A peasant goes by, carrying a load of apples to market.
+      flag:
+      identity:
+        name: The Peasant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crocodile:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crocodile
+          short: The Crocodile
+          sight: >
+            A large black crocodile sits here sunning himself lazily.
+      flag:
+      identity:
+        name: The Crocodile
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  trasher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - trasher
+          short: The Trasher
+          sight: "This creep loves trashing other people's houses!"
+      flag:
+      identity:
+        name: The Trasher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hubbah:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hubbah
+          short: Hubbah
+          sight: Hubbah, the Sash Corporal stands here alertly.
+      flag:
+      identity:
+        name: Hubbah
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kenaz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kenaz
+          short: Kenaz
+          sight: >
+            Kenaz, member of the famous mercenary organization the Red Sash, stands here as guard.
+      flag:
+        - nosteal
+      identity:
+        name: Kenaz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hedgehog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehog
+          short: The Hedgehog
+          sight: A hedgehog rolls in the grass.
+      flag:
+      identity:
+        name: The Hedgehog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  banshee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - banshee
+          short: The Banshee
+          sight: >
+            A wailing spirit, known as the Banshee screams at you.
+      flag:
+      identity:
+        name: The Banshee
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tick:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tick
+          short: The Tick
+          sight: >
+            A giant, bloodsucking tick tries to drop onto you from a tree!
+      flag:
+      identity:
+        name: The Tick
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beggarson:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beggars son
+            - beggarson
+          short: The Beggars Son
+          sight: >
+            A desperate, compulsive gambler is looking for cash here.
+      flag:
+      identity:
+        name: The Beggars Son
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  deer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fallow deer
+            - deer
+          short: Fallow Deer
+          sight: A fallow deer grazes here peacefully.
+      flag:
+      identity:
+        name: Fallow Deer
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  rabbit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cute rabbit
+            - rabbit
+          short: Cute Rabbit
+          sight: A cute rabbit nibbles on some grass.
+      flag:
+      identity:
+        name: Cute Rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sparrow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparrow
+          short: The Sparrow
+          sight: A sparrow flies overhead.
+      flag:
+      identity:
+        name: The Sparrow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wyvern:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wyvern
+          short: The Wyvern
+          sight: A Wyvern flies about and swoops in to attack!
+      flag:
+      identity:
+        name: The Wyvern
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grue
+          short: The Grue
+          sight: >
+            A vicious Grue emerges from the darkness trying to eat you up!
+      flag:
+      identity:
+        name: The Grue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asp
+          short: The Asp
+          sight: An Asp rears its head ready to strike!
+      flag:
+      identity:
+        name: The Asp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  highpriest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - high priest
+            - highpriest
+          short: The High Priest
+          sight: >
+            The High Priest, master of the cleric guild stands here ready to train new members of the cloth.
+            He glows with a bright light!
+      flag:
+        - blind
+        - deaf
+        - mute
+      identity:
+        name: The High Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dipper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skinny dipper
+            - dipper
+          short: The Skinny Dipper
+          sight: >
+            A skinny-dipper wades in the water toward you demanding you leave.
+      flag:
+      identity:
+        name: The Skinny Dipper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quietus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quietus
+          short: The Quietus
+          sight: >
+            The Quietus, a member of the Flush Rush contingent, seeks to kill listeners.
+      flag:
+        - mute
+        - imm-mute
+      identity:
+        name: The Quietus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sisera:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - commander sisera
+            - sisera
+          short: Commander Sisera
+          sight: The slim, trim Sash Commander stands here.
+      flag:
+      identity:
+        name: Commander Sisera
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mercenary:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mercenary
+          short: The Mercenary
+          sight: A mercenary is here, waiting for a job.
+      flag:
+      identity:
+        name: The Mercenary
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corpse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - walking corpse
+            - corpse
+          short: The Walking Corpse
+          sight: >
+            A hideous undead walking corpse moves in to attack!
+      flag:
+      identity:
+        name: The Walking Corpse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jacan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jacan
+          short: Jacan
+          sight: >
+            A male citizen of Bal Harbor takes a stroll through the city.
+      flag:
+      identity:
+        name: Jacan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rattattailie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rattattailie
+          short: Rattattailie
+          sight: A red-eyed rat stares at you.
+      flag:
+      identity:
+        name: Rattattailie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  subzero:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sub-zero
+            - subzero
+          short: Sub-Zero
+          sight: >
+            A cold-looking ninja in blue and black stands here waiting for his next challenger for kombat.
+      flag:
+        - frost
+        - icestorm
+        - imm-frost
+        - imm-ice-storm
+      identity:
+        name: Sub-Zero
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demagogue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demagogue
+          short: The Demagogue
+          sight: >
+            The Demagogue stands here, making impassionate appeals to you.
+      flag:
+      identity:
+        name: The Demagogue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beavis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beavis
+          short: beavis
+          sight: Beavis is standing here with a grin on his face.
+      flag:
+        - no-zap
+        - no-punt
+        - no-steal
+        - no-exorcise
+        - no-alias
+      identity:
+        name: beavis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lsdaemon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lsdaemon
+          short: LsDaemon
+          sight: >
+            After his escape from Unixs hell the LsDaemon has taken to drug dealing!
+      flag:
+      identity:
+        name: LsDaemon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hornet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hornet
+          short: The Hornet
+          sight: A hornet seems to have been stirred from its nest!
+      flag:
+      identity:
+        name: The Hornet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  otherkid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - other kid
+            - otherkid
+          short: The Other Kid
+          sight: >
+            The other one of the Blacksmith's sons is here selling armor.
+      flag:
+        - nosteal
+      identity:
+        name: The Other Kid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardsman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - national guardsman
+            - guardsman
+          short: National Guardsman
+          sight: >
+            A member of the National Guard is here to take you down!
+      flag:
+      identity:
+        name: National Guardsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  butthead:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - butthead
+          short: butthead
+          sight: Butthead is here looking very lost.
+      flag:
+        - no-zap
+        - no-punt
+        - no-steal
+        - no-exorcise
+        - no-alias
+      identity:
+        name: butthead
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bum:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flex
+            - bum
+          short: Flex
+          sight: >
+            A muscle-bound man stands here looking mean and selfish.
+      flag:
+      identity:
+        name: Flex
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hodiah:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hodiah
+          short: Hodiah
+          sight: >
+            A female citizen of Bal Harbor takes a stroll through the city.
+      flag:
+      identity:
+        name: Hodiah
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  farmer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - farmer
+          short: The Farmer
+          sight: >
+            A burly farmer is here, stunned by the sight of the big city.
+      flag:
+      identity:
+        name: The Farmer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squirrel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squirrel
+          short: The Squirrel
+          sight: A squirrel is here gathering nuts.
+      flag:
+      identity:
+        name: The Squirrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  firebomber:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - firebomber
+          short: The Firebomber
+          sight: A young angry rioter is here throwing firebombs.
+      flag:
+      identity:
+        name: The Firebomber
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

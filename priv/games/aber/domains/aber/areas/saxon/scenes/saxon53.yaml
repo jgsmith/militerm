@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:saxon:saxon49"
+      southeast:
         target: "scene:aber:saxon:saxon47"
     short: &+RBeside A Burning Shanty
     sight: >

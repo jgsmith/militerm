@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:cathedral:vamcrypt"
       south:
         target: "scene:aber:cathedral:vambed"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:cathedral:reliq"
     short: &+LCrypt Entrance
     sight: >
       The walls here are made up entirely of hideous snarling gargoyles. The dark &+Lgrey&* stone is damp and

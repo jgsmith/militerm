@@ -1,11 +1,13 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:castle:torture"
     short: Inside the Iron Maiden
     sight: >
       You appear to be inside the Iron Maiden, an ancient form of torture, and you notice how good the fit
       is...
 flag:
-  - nosummon
-  - oneperson
+  - no-summon
+  - one-person

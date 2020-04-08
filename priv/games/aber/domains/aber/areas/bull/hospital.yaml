@@ -1,0 +1,367 @@
+groups:
+  bullzz16:
+    npcs:
+      mobzz03_1: 1
+      mobzz07_4: 1
+  bullzz18:
+    npcs:
+      mobzz03_2: 1
+      mobzz07_5: 1
+  bullzz20:
+    npcs:
+      mobzz03_3: 1
+      mobzz05: 1
+locations:
+  bullzz03:
+    npcs:
+      mobzz01: 1
+  bullzz04:
+    npcs:
+      mobzz02: 1
+  bullzz05:
+    npcs:
+      mobzz07: 1
+  bullzz06:
+    npcs:
+      mobzz02_1: 1
+  bullzz07:
+    npcs:
+      mobzz07_1: 1
+  bullzz09:
+    npcs:
+      mobzz07_2: 1
+  bullzz10:
+    npcs:
+      mobzz02_2: 1
+  bullzz11:
+    npcs:
+      mobzz07_3: 1
+  bullzz12:
+    npcs:
+      mobzz02_3: 1
+  bullzz14:
+    npcs:
+      mobzz04: 1
+  bullzz16:
+    groups:
+      bullzz16: 1
+  bullzz18:
+    groups:
+      bullzz18: 1
+  bullzz19:
+    npcs:
+      mobzz03: 1
+  bullzz20:
+    groups:
+      bullzz20: 1
+  bullzz22:
+    npcs:
+      mobzz06: 1
+npcs:
+  mobzz01:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shaggy monk
+            - mobzz
+          short: the Shaggy Monk
+          sight: A shaggy monk stands here quietly.
+      flag:
+      identity:
+        name: the Shaggy Monk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz02:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silver statue
+            - mobzz
+          short: the Silver Statue
+          sight: A silver statue has posted itself in the corner.
+      flag:
+      identity:
+        name: the Silver Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz02_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silver statue
+            - mobzz02_
+          short: the Silver Statue
+          sight: A silver statue has posted itself in the corner.
+      flag:
+      identity:
+        name: the Silver Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz02_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silver statue
+            - mobzz02_
+          short: the Silver Statue
+          sight: A silver statue has posted itself in the corner.
+      flag:
+      identity:
+        name: the Silver Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz02_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silver statue
+            - mobzz02_
+          short: the Silver Statue
+          sight: A silver statue has posted itself in the corner.
+      flag:
+      identity:
+        name: the Silver Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz03:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - templar of mateon
+            - mobzz
+          short: the templar of Mateon
+          sight: "Mateon's Templar is here, looking out the window."
+      flag:
+      identity:
+        name: the templar of Mateon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz03_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - templar of mateon
+            - mobzz03_
+          short: the templar of Mateon
+          sight: "Mateon's Templar is here, looking out the window."
+      flag:
+      identity:
+        name: the templar of Mateon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz03_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - templar of mateon
+            - mobzz03_
+          short: the templar of Mateon
+          sight: "Mateon's Templar is here, looking out the window."
+      flag:
+      identity:
+        name: the templar of Mateon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz03_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - templar of mateon
+            - mobzz03_
+          short: the templar of Mateon
+          sight: "Mateon's Templar is here, looking out the window."
+      flag:
+      identity:
+        name: the templar of Mateon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz04:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grand knight mateon
+            - mobzz
+          short: the grand knight Mateon
+          sight: Mateon, defender of the Bull, scowers at you!
+      flag:
+      identity:
+        name: the grand knight Mateon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz05:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chambermaid
+            - mobzz
+          short: the Chambermaid
+          sight: >
+            A Chambermaid is here, desperately trying to straighten up.
+      flag:
+      identity:
+        name: the Chambermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobzz06:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - taurus
+            - mobzz
+          short: Taurus
+          sight: A man wearing a golden mask watches you.
+      flag:
+      identity:
+        name: Taurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz07_
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz07_
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz07_
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz07_
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobzz07_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acolyte
+            - mobzz07_
+          short: an acolyte
+          sight: An acolyte is here, looking for a broom.
+      flag:
+      identity:
+        name: an acolyte
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

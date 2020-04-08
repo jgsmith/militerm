@@ -11,4 +11,4 @@ detail:
     sight: "Gee, it's dark and windy in here!"
 flag:
   - dark
-  - nosummon
+  - no-summon

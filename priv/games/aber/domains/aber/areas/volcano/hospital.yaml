@@ -1,0 +1,320 @@
+groups:
+  bandilbar28:
+    npcs:
+      drekta: 1
+      kanek: 1
+  bandilbar40:
+    npcs:
+      kygar: 1
+      nokral: 1
+      queen: 1
+locations:
+  bandilbar10:
+    npcs:
+      mayor: 1
+  bandilbar12:
+    npcs:
+      dwarf: 1
+  bandilbar13:
+    npcs:
+      clancy: 1
+  bandilbar20:
+    npcs:
+      wildcat: 1
+  bandilbar21:
+    npcs:
+      mongrel: 1
+  bandilbar28:
+    groups:
+      bandilbar28: 1
+  bandilbar31:
+    npcs:
+      gorrak: 1
+  bandilbar34:
+    npcs:
+      tagra: 1
+  bandilbar35:
+    npcs:
+      merlak: 1
+  bandilbar37:
+    npcs:
+      kuglat: 1
+  bandilbar40:
+    groups:
+      bandilbar40: 1
+  bandilbar43:
+    npcs:
+      jabberwock: 1
+  bandilbar6:
+    npcs:
+      fisherman: 1
+npcs:
+  clancy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clancy
+          short: Clancy
+          sight: >
+            Clancy, once a respected citizen of Yorrin, stares at you with undead eyes.
+      flag:
+      identity:
+        name: Clancy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drekta:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drekta
+          short: Drekta
+          sight: >
+            Drekta, Kanek's sidekick, glares fiercely at you with bulging eyes.
+      flag:
+      identity:
+        name: Drekta
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dwarf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dwarf
+          short: Dwarf
+          sight: The shopkeeper is a dwarf.
+      flag:
+        - no-hassle
+      identity:
+        name: Dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fisherman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fisherman
+          short: Fisherman
+          sight: >
+            A fisherman sits on the edge of the pier, casting out into the river.
+      flag:
+      identity:
+        name: Fisherman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gorrak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gorrak
+          short: Gorrak
+          sight: Gorrak, a hero of the ants, stands guard warily.
+      flag:
+      identity:
+        name: Gorrak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jabberwock:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jabberwock
+          short: Jabberwock
+          sight: >
+            The Queen Ant's pet jabberwock cavorts here, oblivious to the danger.
+      flag:
+      identity:
+        name: Jabberwock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kanek:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kanek
+          short: Kanek
+          sight: >
+            Kanek, a huge ant, standing on its hind legs, guards the entranceway.
+      flag:
+      identity:
+        name: Kanek
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kuglat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kuglat
+          short: Kuglat
+          sight: >
+            Kuglat the royal ant guard blocks the northern exit.
+      flag:
+      identity:
+        name: Kuglat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kygar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kygar
+          short: Kygar
+          sight: >
+            Kygar, the queen's ant-in-waiting, orders you to leave.
+      flag:
+      identity:
+        name: Kygar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mayor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mayor
+          short: Mayor
+          sight: >
+            The town's mayor is here, pacing up and down, his face creased with worry.
+      flag:
+      identity:
+        name: Mayor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  merlak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - merlak
+          short: Merlak
+          sight: >
+            Merlak the worker ant waves his antennae at you in warning.
+      flag:
+      identity:
+        name: Merlak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mongrel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mongrel
+          short: Mongrel
+          sight: A half-starved stray mongrel snarls at you.
+      flag:
+      identity:
+        name: Mongrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nokral:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nokral
+          short: Nokral
+          sight: >
+            Nokral is the queen's personal bodyguard and he resents your presence here.
+      flag:
+      identity:
+        name: Nokral
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  queen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - queen
+          short: Queen
+          sight: >
+            The Queen Ant, bloated with eggs, lies across the northern exit.
+      flag:
+      identity:
+        name: Queen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tagra:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tagra
+          short: Tagra
+          sight: Tagra the ant guard is on patrol duty today.
+      flag:
+      identity:
+        name: Tagra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wildcat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wildcat
+          short: Wildcat
+          sight: >
+            A wildcat spits at you, back arched and hair bristling.
+      flag:
+      identity:
+        name: Wildcat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook81"
       north:
         target: "scene:aber:fairybook:fairybook83"
     short: Outside the Window

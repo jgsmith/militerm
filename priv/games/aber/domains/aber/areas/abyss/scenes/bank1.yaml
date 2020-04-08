@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:abyss:goo"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:bank2"
       south:
         target: "scene:aber:abyss:trees"
     short: West Bank

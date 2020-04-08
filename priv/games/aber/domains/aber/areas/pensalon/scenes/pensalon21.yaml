@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon22"
       south:
         target: "scene:aber:pensalon:pensalon20"
     short: Dias

@@ -6,6 +6,6 @@ detail:
       Your clumsy attempt to climb down the glacier has set off an avalanche burying you alive... well dead
       actually.
 flag:
-  - nomobiles
-  - nosummon
+  - no-mobiles
+  - no-summon
   - death

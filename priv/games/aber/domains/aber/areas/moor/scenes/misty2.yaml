@@ -1,12 +1,12 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:cathedral:church"
       down:
         target: "scene:aber:oshul:descent10"
       north:
         target: "scene:aber:moor:circle"
+      southeast:
+        target: "scene:aber:cathedral:church"
       west:
         target: "scene:aber:moor:misty1"
     short: Misty Moorland

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:pasture"
     short: Hidden Glade
     sight: >
       You are in the deepest inner reaches of this cow pasture. The thick Grass grows almost up to your waist,

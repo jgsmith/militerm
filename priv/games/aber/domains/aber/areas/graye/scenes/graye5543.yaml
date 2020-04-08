@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:graye:graye5559"
       east:
         target: "scene:aber:graye:graye5544"
     short: "Relnar's Study"

@@ -1,0 +1,228 @@
+groups:
+locations:
+  cell1:
+    npcs:
+      beranger: 1
+  cell2:
+    npcs:
+      william: 1
+  cemetery:
+    npcs:
+      salvatore: 1
+  churchsteps:
+    npcs:
+      abbot: 1
+  infirmary:
+    npcs:
+      severinus: 1
+  kitchen:
+    npcs:
+      whore: 1
+  librentr:
+    npcs:
+      bernardo: 1
+  libsecretroom2:
+    npcs:
+      jorge: 1
+  scriptorium:
+    npcs:
+      malachi: 1
+  stables:
+    npcs:
+      brunellus: 1
+  storehouse:
+    npcs:
+      remigio: 1
+npcs:
+  abbot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - abbot
+          short: Abbot
+          sight: "The Abbot says to you, 'Pax Nobiscum.'"
+      flag:
+      identity:
+        name: Abbot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beranger:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beranger
+          short: Beranger
+          sight: >
+            Brother Beranger is here whipping his sinful flesh.
+      flag:
+      identity:
+        name: Beranger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bernardo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bernardo
+          short: Bernardo
+          sight: >
+            The inquisitor Bernardo Gui prepares to torture you for entering the library.
+      flag:
+      identity:
+        name: Bernardo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brunellus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brunellus
+          short: Brunellus
+          sight: >
+            Brunellus, the Abbot's horse, is here trying to bite you.
+      flag:
+      identity:
+        name: Brunellus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jorge:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jorge
+          short: Jorge
+          sight: >
+            Brother Jorge, the blind old monk, guards the forbidden books.
+      flag:
+        - no-steal
+      identity:
+        name: Jorge
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  malachi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - malachi
+          short: Malachi
+          sight: >
+            Brother Malachi, the librarian, is here gathering books.
+      flag:
+      identity:
+        name: Malachi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  remigio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - remigio
+          short: Remigio
+          sight: >
+            Brother Remigio, the cellarer, is here taking inventory.
+      flag:
+      identity:
+        name: Remigio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  salvatore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - salvatore
+          short: Salvatore
+          sight: >
+            Brother Salvatore, the hunchback, is here looking for rats to eat.
+      flag:
+      identity:
+        name: Salvatore
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  severinus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - severinus
+          short: Severinus
+          sight: >
+            Brother Severinus, the herbalist, is brewing a potion.
+      flag:
+      identity:
+        name: Severinus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  whore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dirty peasant girl
+            - whore
+          short: Dirty Peasant Girl
+          sight: >
+            A dirty girl in rags offers you her favors in exchange for food.
+      flag:
+        - no-alias
+        - no-zap
+        - no-summon
+        - no-exorcise
+      identity:
+        name: Dirty Peasant Girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  william:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - william
+          short: William
+          sight: >
+            Brother William labors here endlessly in search of the truth.
+      flag:
+      identity:
+        name: William
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:newbee:newbee18606"
     short: The Dark Pit
     sight: >
       Ick... a dark damp dirty pit. Even worse, what is that dark damp dirty thing looking at you from the

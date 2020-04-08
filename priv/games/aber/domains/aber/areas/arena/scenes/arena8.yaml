@@ -11,6 +11,6 @@ detail:
     sight: >
       The arena extends to the south east and west from here. The dry ground is covered with small rocks.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

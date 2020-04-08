@@ -11,4 +11,4 @@ detail:
       bunch of people, but the monsters lurking in their ancient forest are not.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:jbs:foyer"
       west:
         target: "scene:aber:jbs:farmpath"
     short: In Front of the House

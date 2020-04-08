@@ -8,4 +8,4 @@ detail:
       You have entered an all-purpose store, where you may purchase food, drink, and weapons. The proprietor
       wanders in and out intermittently.
 flag:
-  - nomobiles
+  - no-mobiles

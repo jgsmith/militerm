@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:origins:origins39"
+      south:
+        guarded: true
+        target: "scene:aber:origins:origins67"
     short: "The Necromancer's Room"
     sight: >
       You enter a small chamber, filled to the brim with test tubes, distillation tubes, decanters, flasks,
@@ -14,4 +18,4 @@ detail:
 flag:
   - dark
   - soundproof
-  - negregen
+  - neg-regen

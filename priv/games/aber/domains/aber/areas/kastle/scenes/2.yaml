@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:kastle:1"
       south:
         target: "scene:aber:kastle:8"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:kastle:3"
     short: Entrance to the Royal Hideaway
     sight: >
       The tunnel continues south here into darkness and you feel a cold draft coming from that direction. To

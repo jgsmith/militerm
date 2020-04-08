@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:abyss:head"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:l662"
     short: Web City
     sight: >
       You are standing among a cluster of boulders high up on one side of a large cavern. The other side of

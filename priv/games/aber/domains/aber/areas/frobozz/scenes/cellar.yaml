@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:frobozz:cellar_chimney"
       south:
         target: "scene:aber:frobozz:crossection"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:frobozz:living"
     short: Cellar
     sight: >
       You are in a cellar right under the livingroom. The air here is a bit damp, and together with an odd

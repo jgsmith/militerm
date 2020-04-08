@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:abyss:control"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:abyss:secret"
     short: Closet
     sight: >
       The faint smell of mothballs can be detected as you look about this rather spacious closet. A torch here

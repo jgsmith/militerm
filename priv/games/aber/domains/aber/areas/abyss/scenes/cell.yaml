@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:snare7"
+      west:
+        guarded: true
+        target: "scene:aber:abyss:netherhells"
     short: Prison Cell
     sight: >
       You are inside a prison cell designed to hold a very large demon. The iron walls of the cell are deeply
@@ -10,4 +14,4 @@ detail:
       iron bench on one wall.
 flag:
   - dark
-  - nosummon
+  - no-summon

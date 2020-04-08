@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6784"
       south:
         target: "scene:aber:sundhaven:sundhaven6775"
       west:

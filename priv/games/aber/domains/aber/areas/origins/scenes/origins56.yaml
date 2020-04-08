@@ -8,7 +8,7 @@ detail:
       ...headlong into mystery! The x-ray is her siren song, your ship cannot resist her long, nearer to your
       deadly goal, until...
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

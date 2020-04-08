@@ -12,5 +12,5 @@ detail:
       breath, you spy a small trail to the south imprinted with some tiny tracks. Would it be possible, you
       wonder, to squeeze between the rocks and continue your journey?
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

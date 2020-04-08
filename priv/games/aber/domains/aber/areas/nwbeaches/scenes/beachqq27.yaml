@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq26"
     short: "Keeper's Playroom"
     sight: >
       This small ten by ten room once was a simple like the others which connect to the Operating Room,

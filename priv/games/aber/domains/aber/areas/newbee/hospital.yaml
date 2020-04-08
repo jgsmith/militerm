@@ -1,0 +1,526 @@
+groups:
+  newbee18602:
+    npcs:
+      mob18603: 1
+      mob18606: 1
+  newbee18606:
+    npcs:
+      mob18604: 1
+      mob18606_1: 1
+  newbee18620:
+    npcs:
+      mob18607: 1
+      mob18609: 1
+locations:
+  newbee18600:
+    npcs:
+      mob18602: 1
+  newbee18602:
+    groups:
+      newbee18602: 1
+  newbee18604:
+    npcs:
+      mob18614: 1
+  newbee18605:
+    npcs:
+      mob18601: 1
+  newbee18606:
+    groups:
+      newbee18606: 1
+  newbee18607:
+    npcs:
+      mob18602_1: 1
+  newbee18609:
+    npcs:
+      mob18606_2: 1
+  newbee18610:
+    npcs:
+      mob18616: 1
+  newbee18612:
+    npcs:
+      mob18605: 1
+  newbee18620:
+    groups:
+      newbee18620: 1
+  newbee18621:
+    npcs:
+      mob18608_3: 1
+  newbee18624:
+    npcs:
+      mob18607_1: 1
+  newbee18627:
+    npcs:
+      mob18608: 1
+  newbee18633:
+    npcs:
+      mob18607_3: 1
+  newbee18636:
+    npcs:
+      mob18608_1: 1
+  newbee18637:
+    npcs:
+      mob18607_2: 1
+  newbee18638:
+    npcs:
+      mob18608_2: 1
+  newbee18639:
+    npcs:
+      mob18610: 1
+  newbee18640:
+    npcs:
+      mob18613: 1
+  newbee18642:
+    npcs:
+      mob18612: 1
+  newbee18645:
+    npcs:
+      mob18615: 1
+  newbee18646:
+    npcs:
+      mob18611: 1
+npcs:
+  mob18601:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pit beast
+            - mob
+          short: the pit beast
+          sight: >
+            The big, ugly pit-beast is standing here sizing you up.
+      flag:
+      identity:
+        name: the pit beast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18602:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - newbie monster
+            - mob
+          short: the newbie monster
+          sight: >
+            The newbie monster stands here looking confused. Kill him! Kill him!
+      flag:
+      identity:
+        name: the newbie monster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18602_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - newbie monster
+            - mob18602_
+          short: the newbie monster
+          sight: >
+            The newbie monster stands here looking confused. Kill him! Kill him!
+      flag:
+      identity:
+        name: the newbie monster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18603:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baby dragon
+            - mob
+          short: the baby dragon
+          sight: >
+            Someone's little pet dragon has gotten loose, and is sniffing about here.
+      flag:
+      identity:
+        name: the baby dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18604:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - newbie guard
+            - mob
+          short: the Newbie Guard
+          sight: >
+            The Newbie Guard is here wondering where that dragon went.
+      flag:
+      identity:
+        name: the Newbie Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18605:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - newbie alchemist
+            - mob
+          short: the Newbie Alchemist
+          sight: >
+            The Newbie Alchemist is here trying to make something.
+      flag:
+      identity:
+        name: the Newbie Alchemist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18606:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creepy crawler
+            - mob
+          short: the creepy crawler
+          sight: >
+            A creepy little crawling thing is scuttling along the floor at your feet.
+      flag:
+      identity:
+        name: the creepy crawler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18606_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creepy crawler
+            - mob18606_
+          short: the creepy crawler
+          sight: >
+            A creepy little crawling thing is scuttling along the floor at your feet.
+      flag:
+      identity:
+        name: the creepy crawler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18606_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creepy crawler
+            - mob18606_
+          short: the creepy crawler
+          sight: >
+            A creepy little crawling thing is scuttling along the floor at your feet.
+      flag:
+      identity:
+        name: the creepy crawler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18607:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombiefied newbie
+            - mob
+          short: the zombiefied newbie
+          sight: >
+            A VERY gaunt looking newbie... it looks like a zombie!
+      flag:
+      identity:
+        name: the zombiefied newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18607_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombiefied newbie
+            - mob18607_
+          short: the zombiefied newbie
+          sight: >
+            A VERY gaunt looking newbie... it looks like a zombie!
+      flag:
+      identity:
+        name: the zombiefied newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18607_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombiefied newbie
+            - mob18607_
+          short: the zombiefied newbie
+          sight: >
+            A VERY gaunt looking newbie... it looks like a zombie!
+      flag:
+      identity:
+        name: the zombiefied newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18607_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombiefied newbie
+            - mob18607_
+          short: the zombiefied newbie
+          sight: >
+            A VERY gaunt looking newbie... it looks like a zombie!
+      flag:
+      identity:
+        name: the zombiefied newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18608:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quasit
+            - mob
+          short: the quasit
+          sight: >
+            A funny little imp-like thing (a quasit perhaps?) is sneaking about here.
+      flag:
+      identity:
+        name: the quasit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18608_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quasit
+            - mob18608_
+          short: the quasit
+          sight: >
+            A funny little imp-like thing (a quasit perhaps?) is sneaking about here.
+      flag:
+      identity:
+        name: the quasit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18608_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quasit
+            - mob18608_
+          short: the quasit
+          sight: >
+            A funny little imp-like thing (a quasit perhaps?) is sneaking about here.
+      flag:
+      identity:
+        name: the quasit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18608_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quasit
+            - mob18608_
+          short: the quasit
+          sight: >
+            A funny little imp-like thing (a quasit perhaps?) is sneaking about here.
+      flag:
+      identity:
+        name: the quasit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18609:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - massive minotaur
+            - mob
+          short: the massive Minotaur
+          sight: >
+            The Great Minotaur is wondering just what you'll taste like.
+      flag:
+      identity:
+        name: the massive Minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18610:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark spectre
+            - mob
+          short: the dark spectre
+          sight: The dark spectre is lurking in the shadows.
+      flag:
+      identity:
+        name: the dark spectre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18611:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - annoying newbie
+            - mob
+          short: the annoying newbie
+          sight: A newbie is here annoying the hell out of you.
+      flag:
+      identity:
+        name: the annoying newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18612:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clueless newbie
+            - mob
+          short: the clueless newbie
+          sight: A newbie is here looking terribly confused.
+      flag:
+      identity:
+        name: the clueless newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18613:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - talkative newbie
+            - mob
+          short: the talkative newbie
+          sight: A newbie is here talking a lot.
+      flag:
+      identity:
+        name: the talkative newbie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob18614:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lost newbie
+            - mob
+          short: the lost newbie
+          sight: A newbie is here wandering about aimlessly.
+      flag:
+      identity:
+        name: the lost newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18615:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smart newbie
+            - mob
+          short: the smart newbie
+          sight: >
+            A newbie is here, and he looks quite sure of himself.
+      flag:
+      identity:
+        name: the smart newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob18616:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kamikaze newbie
+            - mob
+          short: The Kamikaze Newbie
+          sight: >
+            A newbie in kamikaze-like fashion attacks everything...including YOU!
+      flag:
+      identity:
+        name: The Kamikaze Newbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

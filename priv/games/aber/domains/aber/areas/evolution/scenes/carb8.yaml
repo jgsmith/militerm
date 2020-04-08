@@ -12,4 +12,4 @@ detail:
       primitive cone- bearing trees. To the west and north the plant growth is unfortunately impenetrable.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

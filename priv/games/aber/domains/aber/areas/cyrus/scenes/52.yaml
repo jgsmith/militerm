@@ -9,5 +9,5 @@ detail:
       courageous, patient and wise for it. Something very good waits for you downward. (Sarcasm)
 flag:
   - maze
-  - noregen
-  - nomobiles
+  - no-regen
+  - no-mobiles

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:khanjar:khanjar9503"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9505"
     short: By The Side Of The Tavern
     sight: >
       You are standing close to the western fence of the yard. The city can be seen further to the west -

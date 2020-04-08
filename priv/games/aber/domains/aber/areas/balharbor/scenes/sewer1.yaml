@@ -10,4 +10,4 @@ detail:
       This is the start of the Bal Harbor sewer system. You detect a faint scent of methane down the tunnel as
       well as some large footprints made by some upright walking reptile.
 flag:
-  - nomobiles
+  - no-mobiles

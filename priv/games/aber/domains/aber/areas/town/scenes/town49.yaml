@@ -15,4 +15,4 @@ detail:
       directions, but none of them seem to lead you out of the woods.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

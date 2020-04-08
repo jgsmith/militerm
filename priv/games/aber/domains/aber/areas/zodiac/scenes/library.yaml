@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:zodiac:void"
+      south:
+        guarded: true
+        target: "scene:aber:zodiac:frontdoor"
     short: The Library
     sight: >
       You find it kind of strange that this handsome room is the only room in the house. You wonder who might

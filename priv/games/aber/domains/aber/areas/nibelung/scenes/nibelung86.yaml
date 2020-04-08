@@ -16,4 +16,4 @@ detail:
       that lie about. A small opening in the south wall catches your attention.
 flag:
   - dark
-  - nosummon
+  - no-summon

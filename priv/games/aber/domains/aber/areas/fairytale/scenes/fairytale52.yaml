@@ -7,4 +7,4 @@ detail:
     sight: >
       You climb on the monkey bars. Many bars are missing, and some are loose.
 flag:
-  - nomobiles
+  - no-mobiles

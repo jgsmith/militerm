@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:playhouse:house24"
       up:
         target: "scene:aber:playhouse:house26"
     short: Kids Closet

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:fairytale:fairytale26"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale27"
       west:
         target: "scene:aber:fairytale:fairytale22"
     short: Moat

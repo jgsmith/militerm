@@ -1,0 +1,436 @@
+groups:
+  haunted_15:
+    npcs:
+      jas: 1
+      jason: 1
+      vince: 1
+  haunted_29:
+    npcs:
+      blob: 1
+      norman: 1
+      scream: 1
+  haunted_35:
+    npcs:
+      charlie: 1
+      pigpen: 1
+locations:
+  haunted_1:
+    npcs:
+      steven: 1
+  haunted_13:
+    npcs:
+      freddy: 1
+  haunted_15:
+    groups:
+      haunted_15: 1
+  haunted_16:
+    npcs:
+      shawn: 1
+  haunted_2:
+    npcs:
+      elease: 1
+  haunted_20:
+    npcs:
+      roxanne: 1
+  haunted_22:
+    npcs:
+      blair: 1
+  haunted_26:
+    npcs:
+      leatherface: 1
+  haunted_29:
+    groups:
+      haunted_29: 1
+  haunted_3:
+    npcs:
+      tim: 1
+  haunted_31:
+    npcs:
+      linus: 1
+  haunted_32:
+    npcs:
+      lucy: 1
+  haunted_33:
+    npcs:
+      sally: 1
+  haunted_35:
+    groups:
+      haunted_35: 1
+  haunted_38:
+    npcs:
+      jackolantern: 1
+  haunted_4:
+    npcs:
+      freda: 1
+  haunted_7:
+    npcs:
+      snake: 1
+npcs:
+  blair:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blair witch
+            - blair
+          short: The Blair Witch
+          sight: >
+            The Blair Witch cackles at you, daring you to leave her woods.
+      flag:
+        - vtouch
+        - blind
+        - fireball
+        - b-hands
+      identity:
+        name: The Blair Witch
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  blob:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blob
+          short: Blob
+          sight: The Blob is just....sitting, er lying here.
+      flag:
+      identity:
+        name: Blob
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  charlie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - charlie
+          short: Charlie
+          sight: Charlie Brown stands here, eating a candy bar.
+      flag:
+      identity:
+        name: Charlie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elease:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elease
+          short: Elease
+          sight: Elease is running around ringing doorbells.
+      flag:
+      identity:
+        name: Elease
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  freda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - freda
+          short: Freda
+          sight: >
+            Freda is giggling at you. She wants to tell you a secret.
+      flag:
+      identity:
+        name: Freda
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  freddy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - freddy
+          short: Freddy
+          sight: Freddy stands here, daring you to pass him.
+      flag:
+      identity:
+        name: Freddy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jackolantern:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jackolantern
+          short: JackOLantern
+          sight: >
+            The evil Jack O'Lantern Demon is here stuffing his face.
+      flag:
+      identity:
+        name: JackOLantern
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jas:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jas
+          short: Jas
+          sight: >
+            Jas is standing here, wondering where he put his popcorn ball at.
+      flag:
+      identity:
+        name: Jas
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jason:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jason
+          short: Jason
+          sight: >
+            As you bend down to get a closer look, a hockey mask surfaces. You reach to try to pick it up, and
+            find that there is a face and body attached to it! Jason pops out of the water, wielding a knife!
+      flag:
+      identity:
+        name: Jason
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leatherface:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leatherface
+          short: Leatherface
+          sight: Leatherface is here, ready to put you in the pot.
+      flag:
+      identity:
+        name: Leatherface
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  linus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - linus
+          short: Linus
+          sight: >
+            Linus is here, talking about something other than the &+y'Great Pumpkin.'
+      flag:
+      identity:
+        name: Linus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lucy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucy
+          short: Lucy
+          sight: Lucy is trying to steal your candy!
+      flag:
+      identity:
+        name: Lucy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  norman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - norman
+          short: Norman
+          sight: >
+            Norman Bates is frantically trying to find his mother.
+      flag:
+      identity:
+        name: Norman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pigpen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pigpen
+          short: PigPen
+          sight: >
+            Pig Pen is gathering dust as he pops some gum in his mouth.
+      flag:
+      identity:
+        name: PigPen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  roxanne:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roxanne
+          short: Roxanne
+          sight: Roxanne is here, trying to hide some of her candy.
+      flag:
+      identity:
+        name: Roxanne
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  sally:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sally
+          short: Sally
+          sight: Sally is here, looking for Linus.
+      flag:
+      identity:
+        name: Sally
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  scream:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scream
+          short: Scream
+          sight: Scream is here relaxing and reading a book.
+      flag:
+      identity:
+        name: Scream
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shawn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shawn
+          short: Shawn
+          sight: Shawn is here, trying fix a heel on his shoe.
+      flag:
+      identity:
+        name: Shawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: A long, slimy snake slithers around you.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  steven:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steven
+          short: Steven
+          sight: >
+            Little Steven is running around looking for his sack of candy.
+      flag:
+      identity:
+        name: Steven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tim:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tim
+          short: Tim
+          sight: >
+            Tim is here, trying to figure out which house to toilet paper first.
+      flag:
+      identity:
+        name: Tim
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vince:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vince
+          short: Vince
+          sight: Vince is here, trying to fix his mask.
+      flag:
+      identity:
+        name: Vince
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

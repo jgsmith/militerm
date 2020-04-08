@@ -1,0 +1,168 @@
+groups:
+  forest1:
+    npcs:
+      ffox: 1
+      fox: 1
+locations:
+  courtyard:
+    npcs:
+      child: 1
+  death:
+    npcs:
+      bear: 1
+  forest1:
+    groups:
+      forest1: 1
+  forest2:
+    npcs:
+      rabbit: 1
+  mountain:
+    npcs:
+      gizelle: 1
+  throne:
+    npcs:
+      stephen: 1
+  tower:
+    npcs:
+      gwendolyn: 1
+npcs:
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hungry bear
+            - bear
+          short: The Hungry Bear
+          sight: "Look out!  It's a hungry bear!"
+      flag:
+      identity:
+        name: The Hungry Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  child:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rose
+            - child
+          short: Rose
+          sight: A small child is playing in the courtyard.
+      flag:
+      identity:
+        name: Rose
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  ffox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vixan
+            - ffox
+          short: Vixan
+          sight: >
+            &+CVixan, a pretty little fox with &+Bblue &+Ceyes is looking at you from the bushes.
+      flag:
+      identity:
+        name: Vixan
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  fox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foxy loxy
+            - fox
+          short: Foxy Loxy
+          sight: Foxy Loxy is a cute little fox.
+      flag:
+      identity:
+        name: Foxy Loxy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gizelle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gizelle
+          short: Gizelle
+          sight: >
+            Standing in front of you is the evil sorceress &+RGizelle!
+      flag:
+        - missile
+      identity:
+        name: Gizelle
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gwendolyn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gwendolyn
+          short: Gwendolyn
+          sight: >
+            The lovely Princess Gwendolyn has been chained to the wall.
+      flag:
+        - no-hassle
+      identity:
+        name: Gwendolyn
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  rabbit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+            - rabbit
+          short: Peter
+          sight: You see a cute little bunny wiggling his nose.
+      flag:
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stephen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - king stephen
+            - stephen
+          short: King Stephen
+          sight: >
+            King Stephen is sitting on his throne, waiting for you.
+      flag:
+      identity:
+        name: King Stephen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

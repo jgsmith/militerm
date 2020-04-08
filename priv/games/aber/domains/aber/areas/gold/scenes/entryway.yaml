@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:gold:basement"
       east:
         target: "scene:aber:gold:sanctuary"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:gold:churchsteps"
     short: Entryway
     sight: >
       What a beautiful work of art. There's a large archway leading into the center aisle of an incredible

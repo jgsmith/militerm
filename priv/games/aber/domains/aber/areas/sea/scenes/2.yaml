@@ -16,6 +16,6 @@ detail:
       You are all at sea, riding the seas. To the north and south the waves are high and break heavily against
       the surrounding cliffs. To the east it might be safe to continue. The safety of the jetty is west.
 flag:
-  - nomobiles
-  - onwater
+  - no-mobiles
+  - on-water
   - outdoors

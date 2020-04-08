@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cyrus:73"
       south:
         target: "scene:aber:cyrus:71"
     short: In front of a small house

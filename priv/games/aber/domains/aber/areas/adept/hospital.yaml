@@ -1,0 +1,725 @@
+groups:
+  adept32:
+    npcs:
+      ramol: 1
+      yinkit: 1
+  adept49:
+    npcs:
+      anwar: 1
+      hepquan: 1
+  adept5:
+    npcs:
+      bear: 1
+      beaver: 1
+      bluejay: 1
+      chipmunk: 1
+      cricket: 1
+      robin: 1
+      woodchuck: 1
+locations:
+  adept10:
+    npcs:
+      baker: 1
+  adept11:
+    npcs:
+      digger: 1
+  adept14:
+    npcs:
+      teenager: 1
+  adept18:
+    npcs:
+      peter: 1
+  adept20:
+    npcs:
+      kelvin: 1
+  adept21:
+    npcs:
+      blob: 1
+  adept26:
+    npcs:
+      soldier: 1
+  adept32:
+    groups:
+      adept32: 1
+  adept34:
+    npcs:
+      fleeci: 1
+  adept36:
+    npcs:
+      westfall: 1
+  adept37:
+    npcs:
+      cropley: 1
+  adept39:
+    npcs:
+      woodpecker: 1
+  adept4:
+    npcs:
+      earthworm: 1
+  adept41:
+    npcs:
+      executioner: 1
+  adept47:
+    npcs:
+      termite: 1
+  adept49:
+    groups:
+      adept49: 1
+  adept5:
+    groups:
+      adept5: 1
+  adept50:
+    npcs:
+      intendant: 1
+  adept53:
+    npcs:
+      oldfart: 1
+  adept57:
+    npcs:
+      dog: 1
+  adept59:
+    npcs:
+      cactus: 1
+  adept62:
+    npcs:
+      swabbie: 1
+  adept66:
+    npcs:
+      mudclot: 1
+  adept67:
+    npcs:
+      creeper: 1
+  adept71:
+    npcs:
+      adept: 1
+  adept72:
+    npcs:
+      captain: 1
+  adept73:
+    npcs:
+      imp: 1
+npcs:
+  chipmunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chipmunk
+          short: Chipmunk
+          sight: >
+            A chipmunk chatterbox chitters crazily at the clouds.
+      flag:
+      identity:
+        name: Chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - conrad
+            - dog
+          short: Conrad
+          sight: >
+            The accursed hound of the plains, Conrad the Gummy, hops around.
+      flag:
+      identity:
+        name: Conrad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oldfart:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oldfart
+          short: Oldfart
+          sight: >
+            One of the oldfart trees leans over on a branch for support.
+      flag:
+      identity:
+        name: Oldfart
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  cropley:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cropley
+          short: Cropley
+          sight: >
+            Cropley is here in full bells and whistles, putting on a show for anyone who happens to be near
+            and care even in the slightest.
+      flag:
+      identity:
+        name: Cropley
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yinkit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yinkit
+          short: Yinkit
+          sight: >
+            The royal guard Yinkit stands rigid and stares impassively forward.
+      flag:
+        - no-zap
+      identity:
+        name: Yinkit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  woodpecker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - woody
+            - woodpecker
+          short: Woody
+          sight: A vicious woodpecker flies at you, claws extended!
+      flag:
+      identity:
+        name: Woody
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cricket:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cricket
+          short: Cricket
+          sight: >
+            Crickets are known for their musical ability, especially when drunk.
+      flag:
+      identity:
+        name: Cricket
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  earthworm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - earthworm
+          short: Earthworm
+          sight: >
+            A slow-moving piece of bait wriggles its earthwormy self toward you.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Earthworm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  creeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creeper
+          short: Creeper
+          sight: >
+            A long creeping underground vine snakes around your ankle.
+      flag:
+      identity:
+        name: Creeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cactus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cactus
+          short: The Cactus
+          sight: >
+            The jaws of life on this elf-eating cactus gnash viciously!
+      flag:
+      identity:
+        name: The Cactus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  intendant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - intendant
+          short: Intendant
+          sight: >
+            She has been genetically altered. She is the Intendant.
+      flag:
+        - fireball
+        - bhands
+      identity:
+        name: Intendant
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  westfall:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - westfall
+          short: Westfall
+          sight: >
+            The wizard of the castle, Westfall, attempts to make poisons even more deadly against the warring
+            elves.
+      flag:
+        - icestorm
+        - frost
+        - shock
+      identity:
+        name: Westfall
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grizzly
+            - bear
+          short: Grizzly
+          sight: A cuddly-looking grizzly prepares to cuddle you.
+      flag:
+      identity:
+        name: Grizzly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kelvin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kelvin
+          short: Kelvin
+          sight: >
+            Kelvin the arms dealer sells to all, human and elven alike.
+      flag:
+      identity:
+        name: Kelvin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fleeci:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fleeci
+          short: Fleeci
+          sight: >
+            With her hubby away making an idiot himself on the field of battle, Queen Fleeci is being less
+            than ladylike as she works on her martial arts skills. More than one guard has gone to barracks
+            speaking soprano.
+      flag:
+      identity:
+        name: Fleeci
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  anwar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anwar
+          short: Anwar
+          sight: >
+            Draxenguine Anwar of the main elven battalion is here.
+      flag:
+      identity:
+        name: Anwar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  captain:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - le capitan
+            - captain
+          short: Le Capitan
+          sight: >
+            The phantasm of Le Capitan is a direct result of &+LDEATH &*by scurvy!
+      flag:
+        - vtouch
+      identity:
+        name: Le Capitan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beaver:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beaver
+          short: Beaver
+          sight: A beaver scuttles around, looking for food.
+      flag:
+      identity:
+        name: Beaver
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  baker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baker
+          short: Baker
+          sight: >
+            An enormously fat baker invites you in to his shop.
+      flag:
+      identity:
+        name: Baker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hepquan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hepquan
+          short: Hepquan
+          sight: >
+            Whistling while he works (aka sitting on his behind). Hepquan the elven norcor twirls his spear
+            and generally makes a nuisance of himself.
+      flag:
+      identity:
+        name: Hepquan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bluejay:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bluejay
+          short: Bluejay
+          sight: A pretty bluejay chirps happily.
+      flag:
+      identity:
+        name: Bluejay
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  imp:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - imp
+          short: imp
+          sight: >
+            A thoroughly intoxicated imp is perched daintily on the harpsichord.
+      flag:
+        - no-hassle
+        - no-steal
+        - no-magic
+      identity:
+        name: imp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  woodchuck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - woodchuck
+          short: Woodchuck
+          sight: >
+            This woodchuck couldn't chuck wood even if it wanted to.
+      flag:
+      identity:
+        name: Woodchuck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swabbie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swabbie
+          short: Swabbie
+          sight: >
+            A lowly deck swabbie attempts to keep the ship clean.
+      flag:
+      identity:
+        name: Swabbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  robin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+          short: Robin
+          sight: A pretty robin chirps happily.
+      flag:
+      identity:
+        name: Robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  soldier:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - soldier
+          short: Soldier
+          sight: An insane soldier worries about his commander.
+      flag:
+        - no-hassle
+        - no-steal
+        - no-magic
+      identity:
+        name: Soldier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+          short: Peter
+          sight: >
+            Peter drips sweat as he continuously pounds away at shoddy plate metal.
+      flag:
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  executioner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - executioner
+          short: Executioner
+          sight: >
+            Wherever an elven soldier is found, the executioner's axe follows.
+      flag:
+        - no-steal
+      identity:
+        name: Executioner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blob:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cytoplasmic blob
+            - blob
+          short: Cytoplasmic Blob
+          sight: >
+            Feasting on the garbage around the grate is a &+Rcytoplasmic blob&*.
+      flag:
+        - neg-fireball
+        - neg-frost
+        - neg-missile
+        - neg-icestorm
+      identity:
+        name: Cytoplasmic Blob
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mudclot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mudclot
+          short: Mudclot
+          sight: A blockage of mud clots the way down.
+      flag:
+      identity:
+        name: Mudclot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teenager:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teenager
+          short: Teenager
+          sight: >
+            A really buff elven teenager is staring open-mouthed at the statue.
+      flag:
+        - frost
+      identity:
+        name: Teenager
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  adept:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adept
+          short: Adept
+          sight: >
+            This confused fossil of an elven cleric is an adept in many magical arts.
+      flag:
+        - no-hassle
+        - no-magic
+        - no-steal
+      identity:
+        name: Adept
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  termite:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - termite
+          short: Termite
+          sight: Oh wow! Look at the size of that termite!
+      flag:
+      identity:
+        name: Termite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  digger:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - digger
+          short: Digger
+          sight: >
+            The spade-handling digger REALLY doesn't like you walking on his plants!
+      flag:
+      identity:
+        name: Digger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ramol:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ramol
+          short: Ramol
+          sight: >
+            The retarded archer Ramol has been retired to less demanding duties than watching from the
+            battlements. He looks up to Yinkit as a kind of brother as he wipes the frothing foam from his
+            mouth.
+      flag:
+      identity:
+        name: Ramol
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

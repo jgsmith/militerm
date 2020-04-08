@@ -1,14 +1,16 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:balharbor:btower16"
       east:
         target: "scene:aber:balharbor:btower11"
       north:
         target: "scene:aber:balharbor:btower5"
+      northeast:
+        target: "scene:aber:balharbor:btower6"
       south:
         target: "scene:aber:balharbor:btower15"
+      southeast:
+        target: "scene:aber:balharbor:btower16"
     short: Dark Corridor
     sight: >
       You get the feeling you're moving in circles in this dark tower! There are exits everywhere but not

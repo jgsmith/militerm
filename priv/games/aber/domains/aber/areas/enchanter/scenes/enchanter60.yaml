@@ -1,12 +1,12 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:enchanter:enchanter61"
       east:
         target: "scene:aber:enchanter:enchanter62"
       north:
         target: "scene:aber:enchanter:enchanter59"
+      southeast:
+        target: "scene:aber:enchanter:enchanter61"
     short: Translucent Room
     sight: >
       You're an a room with not-quite-opaque cream colored walls. Behind the walls you can see slow, fluid

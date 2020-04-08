@@ -9,6 +9,6 @@ detail:
       The path is so slippery that you cant ascend to where there is a covered walkway above you. Your only
       option is to go West.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - outdoors

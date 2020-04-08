@@ -12,6 +12,6 @@ detail:
       except from a drop of water striking the ground every few seconds. As you look around you spot an exit
       to the south or you may be able to climb back up.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - cold

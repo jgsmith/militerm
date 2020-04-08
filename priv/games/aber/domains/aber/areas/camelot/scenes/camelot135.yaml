@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:camelot:camelot307"
       west:
         target: "scene:aber:camelot:camelot134"
     short: The Tunnel Ends

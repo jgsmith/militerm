@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:rats:cutlet"
       south:
         target: "scene:aber:rats:livroom"
     short: Kitchen

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:frobozz:steep3"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:frobozz:pway"
     short: Top of the Steep Passage
     sight: >
       You are in the uppermost part of a long passage which goes down to the south as a steep and narrow

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9902"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9915"
     short: A culdesac
     sight: >
       You are standing on a cobblestone circle of a small culdesac. To the East is a large fountain, and a
