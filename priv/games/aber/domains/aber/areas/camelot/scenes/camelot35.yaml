@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:camelot:camelot305"
       east:
         target: "scene:aber:camelot:camelot35"
       north:

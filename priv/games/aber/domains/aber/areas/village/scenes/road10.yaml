@@ -13,4 +13,4 @@ detail:
       out of town. A small garden in front of one of those houses is east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

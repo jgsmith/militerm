@@ -1,0 +1,42 @@
+groups:
+locations:
+  betting:
+    npcs:
+      bookie: 1
+  grandstand:
+    npcs:
+      sportscaster: 1
+npcs:
+  bookie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bookie
+          short: The Bookie
+          sight: A tall, lean elf stands behind the grilled window.
+      flag:
+      identity:
+        name: The Bookie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sportscaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sportscaster
+          short: The Sportscaster
+          sight: >
+            The fangs on the Sportscaster suggest it's just &+Rblood&+g that he likes.
+      flag:
+      identity:
+        name: The Sportscaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

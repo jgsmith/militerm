@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:eforest:hot"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eforest:guard"
     short: Stairs to Hades
     sight: >
       You have no doubt in your mind that the stairs in the middle of this room must go down to hell itself.

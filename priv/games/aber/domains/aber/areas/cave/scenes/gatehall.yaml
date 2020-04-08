@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cave:citadel"
       south:
         target: "scene:aber:cave:great"
     short: Dwarven Gatehall

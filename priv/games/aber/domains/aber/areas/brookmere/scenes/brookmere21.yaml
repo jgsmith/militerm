@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere26"
       west:
         target: "scene:aber:brookmere:brookmere20"
     short: Gnoll Quarters

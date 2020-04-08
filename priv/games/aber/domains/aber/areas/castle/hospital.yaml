@@ -1,0 +1,41 @@
+groups:
+locations:
+  s_hall:
+    npcs:
+      golem: 1
+  store:
+    npcs:
+      mouse: 1
+npcs:
+  golem:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golem
+          short: The Golem
+          sight: A huge stone golem stands watchfully on guard.
+      flag:
+      identity:
+        name: The Golem
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mouse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mouse
+          short: The Mouse
+          sight: A giant black mouse runs around on the floor.
+      flag:
+      identity:
+        name: The Mouse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

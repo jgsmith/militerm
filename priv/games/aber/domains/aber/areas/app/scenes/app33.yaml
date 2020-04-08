@@ -9,6 +9,6 @@ detail:
       take over the world. Tasting the water from the fountain, finds the water slightly magical tasting, but
       nothing else.
 flag:
-  - fastheal
-  - fastmana
+  - fast-heal
+  - fast-mana
   - peaceful

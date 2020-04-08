@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook145"
     short: Control Room
     sight: >
       It is from here that the Wizard controls the great Oz. Knobs and levers stick out of the walls, and

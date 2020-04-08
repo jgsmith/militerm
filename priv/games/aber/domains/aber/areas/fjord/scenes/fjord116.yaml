@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fjord:fjord115"
     short: "Magician's Dwelling"
     sight: >
       Inside this house is an impossibly long table, since Dendine the magician keeps her secrets turned on in

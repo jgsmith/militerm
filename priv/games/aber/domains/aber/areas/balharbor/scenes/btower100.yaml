@@ -1,14 +1,20 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:start:church"
       east:
         target: "scene:aber:balharbor:btower5"
       north:
         target: "scene:aber:icecave:gambling"
+      northeast:
+        target: "scene:aber:waste:before"
+      northwest:
+        target: "scene:aber:heaven:heaven1"
       south:
         target: "scene:aber:island:beach"
+      southeast:
+        target: "scene:aber:camelot:camelot1"
+      southwest:
+        target: "scene:aber:start:church"
       up:
         target: "scene:aber:camelot:camelot303"
       west:
@@ -21,4 +27,4 @@ detail:
       lobby you started from.
 flag:
   - maze
-  - nomobiles
+  - no-mobiles

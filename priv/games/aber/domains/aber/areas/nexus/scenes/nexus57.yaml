@@ -11,6 +11,6 @@ detail:
       noontime sun cannot make a dent in this bottomless shadow.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

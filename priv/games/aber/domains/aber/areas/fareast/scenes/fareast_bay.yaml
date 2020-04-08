@@ -11,5 +11,5 @@ detail:
       Back to the west, the waves continue on toward the horizon, and clearer skies.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

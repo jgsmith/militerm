@@ -1,0 +1,825 @@
+groups:
+  chessqq86:
+    npcs:
+      mobqq14: 1
+      mobqq15: 1
+  chessqq87:
+    npcs:
+      mobqq16: 1
+      mobqq17: 1
+locations:
+  chessqq40:
+    npcs:
+      mobqq12: 1
+  chessqq46:
+    npcs:
+      mobqq01_4: 1
+  chessqq32:
+    npcs:
+      mobqq09: 1
+  chessqq48:
+    npcs:
+      mobqq07_1: 1
+  chessqq30:
+    npcs:
+      mobqq01_2: 1
+  chessqq64:
+    npcs:
+      mobqq03_1: 1
+  chessqq70:
+    npcs:
+      mobqq02_7: 1
+  chessqq31:
+    npcs:
+      mobqq07: 1
+  chessqq16:
+    npcs:
+      mobqq05: 1
+  chessqq63:
+    npcs:
+      mobqq05_1: 1
+  chessqq65:
+    npcs:
+      mobqq01_7: 1
+  chessqq83:
+    npcs:
+      mobqq13_1: 1
+  chessqq14:
+    npcs:
+      mobqq01: 1
+  chessqq33:
+    npcs:
+      mobqq01_3: 1
+  chessqq09:
+    npcs:
+      mobqq02: 1
+  chessqq44:
+    npcs:
+      checker: 1
+  chessqq54:
+    npcs:
+      mobqq02_5: 1
+  chessqq86:
+    groups:
+      chessqq86: 1
+  chessqq39:
+    npcs:
+      mobqq10: 1
+  chessqq82:
+    npcs:
+      mobqq13: 1
+  chessqq23:
+    npcs:
+      mobqq06: 1
+  chessqq24:
+    npcs:
+      mobqq08: 1
+  chessqq71:
+    npcs:
+      mobqq04_1: 1
+  chessqq62:
+    npcs:
+      mobqq01_6: 1
+  chessqq22:
+    npcs:
+      mobqq02_1: 1
+  chessqq57:
+    npcs:
+      mobqq02_6: 1
+  chessqq47:
+    npcs:
+      mobqq11: 1
+  chessqq87:
+    groups:
+      chessqq87: 1
+  chessqq25:
+    npcs:
+      mobqq02_2: 1
+  chessqq55:
+    npcs:
+      mobqq08_1: 1
+  chessqq41:
+    npcs:
+      mobqq02_4: 1
+  chessqq08:
+    npcs:
+      mobqq04: 1
+  chessqq17:
+    npcs:
+      mobqq01_1: 1
+  chessqq15:
+    npcs:
+      mobqq03: 1
+  chessqq56:
+    npcs:
+      mobqq06_1: 1
+  chessqq38:
+    npcs:
+      mobqq02_3: 1
+  chessqq01:
+    npcs:
+      mobqq00: 1
+  chessqq88:
+    npcs:
+      mobqq18: 1
+  chessqq49:
+    npcs:
+      mobqq01_5: 1
+npcs:
+  mobqq02_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq06:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white knight
+            - mobqq
+          short: the White Knight
+          sight: A white knight is here, looking for his horse.
+      flag:
+      identity:
+        name: the White Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq08_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white bishop
+            - mobqq08_
+          short: the White Bishop
+          sight: A white bishop stands here quietly.
+      flag:
+      identity:
+        name: the White Bishop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq16:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - card of the suit clubs
+            - mobqq
+          short: a card of the suit clubs
+          sight: A playing card shuffles around here.
+      flag:
+      identity:
+        name: a card of the suit clubs
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq15:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - card of the suit hearts
+            - mobqq
+          short: a card of the suit hearts
+          sight: A playing card shuffles around here.
+      flag:
+      identity:
+        name: a card of the suit hearts
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq07_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black bishop
+            - mobqq07_
+          short: the Black Bishop
+          sight: A black bishop stands here quietly.
+      flag:
+      identity:
+        name: the Black Bishop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq00:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tunnel troll
+            - mobqq
+          short: the Tunnel Troll
+          sight: A tunnel troll wanders about here.
+      flag:
+      identity:
+        name: the Tunnel Troll
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq03:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black rook
+            - mobqq
+          short: the Black Rook
+          sight: A black Rook stands here, having linear thoughts.
+      flag:
+      identity:
+        name: the Black Rook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq07:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black bishop
+            - mobqq
+          short: the Black Bishop
+          sight: A black bishop stands here quietly.
+      flag:
+      identity:
+        name: the Black Bishop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq17:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - card of the suit spades
+            - mobqq
+          short: a card of the suit spades
+          sight: A playing card shuffles around here.
+      flag:
+      identity:
+        name: a card of the suit spades
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq08:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white bishop
+            - mobqq
+          short: the White Bishop
+          sight: A white bishop stands here quietly.
+      flag:
+      identity:
+        name: the White Bishop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq03_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black rook
+            - mobqq03_
+          short: the Black Rook
+          sight: A black Rook stands here, having linear thoughts.
+      flag:
+      identity:
+        name: the Black Rook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq13:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flying fish
+            - mobqq
+          short: the flying Fish
+          sight: A flying fish jumps out of the water at you!
+      flag:
+      identity:
+        name: the flying Fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq02_
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq14:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - card of the suit diamonds
+            - mobqq
+          short: a card of the suit diamonds
+          sight: A playing card shuffles around here.
+      flag:
+      identity:
+        name: a card of the suit diamonds
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  checker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red checker
+            - checker
+          short: The Red Checker
+          sight: A red checker piece is here...on a chessboard?!?
+      flag:
+      identity:
+        name: The Red Checker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white pawn
+            - mobqq
+          short: the White Pawn
+          sight: A White Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the White Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq05_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black knight
+            - mobqq05_
+          short: the Black Knight
+          sight: A black Knight is here, looking for his horse.
+      flag:
+      identity:
+        name: the Black Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white king
+            - mobqq
+          short: the White King
+          sight: A white King stands here, looking grumpy.
+      flag:
+      identity:
+        name: the White King
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq01_
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white queen
+            - mobqq
+          short: the White Queen
+          sight: The white Queen stands here, blocking a door.
+      flag:
+      identity:
+        name: the White Queen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobqq05:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black knight
+            - mobqq
+          short: the Black Knight
+          sight: A black Knight is here, looking for his horse.
+      flag:
+      identity:
+        name: the Black Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq18:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - joker
+            - mobqq
+          short: the Joker
+          sight: The Joker bounces around, happy to see you.
+      flag:
+      identity:
+        name: the Joker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq06_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white knight
+            - mobqq06_
+          short: the White Knight
+          sight: A white knight is here, looking for his horse.
+      flag:
+      identity:
+        name: the White Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black king
+            - mobqq
+          short: the Black King
+          sight: A black King stands here, looking grumpy.
+      flag:
+      identity:
+        name: the Black King
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq09:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black queen
+            - mobqq
+          short: the Black Queen
+          sight: The Black Queen stands here, blocking a door.
+      flag:
+      identity:
+        name: the Black Queen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobqq13_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flying fish
+            - mobqq13_
+          short: the flying Fish
+          sight: A flying fish jumps out of the water at you!
+      flag:
+      identity:
+        name: the flying Fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq04_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white rook
+            - mobqq04_
+          short: the White Rook
+          sight: A white Rook stands here, having linear thoughts.
+      flag:
+      identity:
+        name: the White Rook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black pawn
+            - mobqq
+          short: the Black Pawn
+          sight: A Black Pawn shuffles around nervously here.
+      flag:
+      identity:
+        name: the Black Pawn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq04:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white rook
+            - mobqq
+          short: the White Rook
+          sight: A white Rook stands here, having linear thoughts.
+      flag:
+      identity:
+        name: the White Rook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

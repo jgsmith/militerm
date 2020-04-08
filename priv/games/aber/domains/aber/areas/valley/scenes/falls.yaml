@@ -18,4 +18,4 @@ detail:
       sound of bats inside to the south.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

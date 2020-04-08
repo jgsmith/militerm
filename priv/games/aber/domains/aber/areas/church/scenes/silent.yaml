@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:abyss:bones"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:church:t_barrow"
     short: Silent Room
     sight: >
       You are standing in a small dark room, beneath the northern barrow. All around you lie the relics of an

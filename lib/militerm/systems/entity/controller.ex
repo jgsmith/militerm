@@ -475,6 +475,20 @@ defmodule Militerm.Systems.Entity.Controller do
     {:noreply, state}
   end
 
+  def handle_info(
+        {:gossip_channel_broadcast, game, player, channel, message},
+        %{module: module, entity_id: entity_id} = state
+      ) do
+    apply(module, :handle_event, [
+      entity_id,
+      "gossip:channel:broadcast",
+      "player",
+      %{"game" => game, "player" => player, "channel" => channel, "message" => message}
+    ])
+
+    {:noreply, state}
+  end
+
   def handle_info({:gossip_game_up, game}, %{module: module, entity_id: entity_id} = state) do
     apply(module, :handle_event, [entity_id, "gossip:game:up", "player", %{"game" => game}])
     {:noreply, state}

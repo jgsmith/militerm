@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:talon:talon44"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:talon:talon46"
     short: Top of Staircase
     sight: >
       You stand at the top of a tall spiral staircase. A trememdous red door lies on the east wall. A chill
@@ -11,4 +13,4 @@ detail:
       almost blindking darkness which enshrouds the entire room. You may retreat to the safety of the known
       points of the castle below, or venture into the unknown through doors to the east.
 flag:
-  - nomobiles
+  - no-mobiles

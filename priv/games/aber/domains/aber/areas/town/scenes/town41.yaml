@@ -11,4 +11,4 @@ detail:
       the Town gates, and the sea and its fresh salty smell is far behind you to the east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

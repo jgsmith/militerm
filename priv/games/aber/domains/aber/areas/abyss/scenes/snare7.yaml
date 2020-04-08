@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:abyss:snare5"
       south:
         target: "scene:aber:abyss:snare6"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:abyss:cell"
     short: Snare of Guxx
     sight: >
       You are in a labyrinth of steel walls and doors designed to keep prisoners from escaping this demonic

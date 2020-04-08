@@ -1,0 +1,42 @@
+groups:
+locations:
+  cards1:
+    npcs:
+      dealer: 1
+  cards2:
+    npcs:
+      host: 1
+npcs:
+  dealer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dealer
+          short: The Dealer
+          sight: The Dealer is here, shuffling the cards.
+      flag:
+      identity:
+        name: The Dealer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  host:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - host
+          short: The Host
+          sight: >
+            The Host of this game is here, shuffling the tiles.
+      flag:
+      identity:
+        name: The Host
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

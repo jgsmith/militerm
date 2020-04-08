@@ -1,0 +1,801 @@
+groups:
+  grass01:
+    npcs:
+      mob11201_3: 1
+      mob11202: 1
+  grass27:
+    npcs:
+      mob11207: 1
+      mob11209: 1
+  grass31:
+    npcs:
+      mob11201: 1
+      mob11207_3: 1
+  grass69:
+    npcs:
+      mob11205_1: 1
+      mob11208: 1
+  grass71:
+    npcs:
+      mob11205: 1
+      mob11206: 1
+locations:
+  grass30:
+    npcs:
+      mob11200_3: 1
+  grass46:
+    npcs:
+      mob11212_1: 1
+  grass00:
+    npcs:
+      mob11200: 1
+  grass67:
+    npcs:
+      mob11203_1: 1
+  grass49:
+    npcs:
+      mob11213: 1
+  grass97:
+    npcs:
+      mob11203: 1
+  grass66:
+    npcs:
+      mob11201_2: 1
+  grass26:
+    npcs:
+      mob11210_1: 1
+  grass65:
+    npcs:
+      mob11200_2: 1
+  grass01:
+    groups:
+      grass01: 1
+  grass63:
+    npcs:
+      mob11208_1: 1
+  grass69:
+    groups:
+      grass69: 1
+  grass14:
+    npcs:
+      mob11209_1: 1
+  grass73:
+    npcs:
+      mob11206_3: 1
+  grass21:
+    npcs:
+      mob11211_1: 1
+  grass43:
+    npcs:
+      mob11205_2: 1
+  grass98:
+    npcs:
+      mob11206_1: 1
+  grass41:
+    npcs:
+      mob11212: 1
+  grass13:
+    npcs:
+      mob11210: 1
+  grass35:
+    npcs:
+      mob11212_2: 1
+  grass71:
+    groups:
+      grass71: 1
+  grass47:
+    npcs:
+      mob11211: 1
+  grass07:
+    npcs:
+      mob11204: 1
+  grass03:
+    npcs:
+      mob11204_1: 1
+  grass44:
+    npcs:
+      mob11207_2: 1
+  grass99:
+    npcs:
+      mob11206_2: 1
+  grass31:
+    groups:
+      grass31: 1
+  grass02:
+    npcs:
+      mob11203_3: 1
+  grass32:
+    npcs:
+      mob11203_2: 1
+  grass96:
+    npcs:
+      mob11201_1: 1
+  grass95:
+    npcs:
+      mob11200_1: 1
+  grass38:
+    npcs:
+      mob11207_1: 1
+  grass27:
+    groups:
+      grass27: 1
+npcs:
+  mob11208:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prairie hunter
+            - mob
+          short: a prairie hunter
+          sight: >
+            A prairie hunter walks past with a steady, strong gait.
+      flag:
+      identity:
+        name: a prairie hunter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11205:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prairie dog
+            - mob
+          short: a prairie dog
+          sight: >
+            A small prairie dog scuttles through the deep grass.
+      flag:
+      identity:
+        name: a prairie dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11204:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - larind
+            - mob
+          short: a larind
+          sight: >
+            A large animal resembling a lion spies you and begins heading your way.
+      flag:
+      identity:
+        name: a larind
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11201_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone grasshopper
+            - mob11201_
+          short: a lone grasshopper
+          sight: >
+            A lone grasshopper jumps from grass stalk to grass stalk.
+      flag:
+      identity:
+        name: a lone grasshopper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11212_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roving ranger
+            - mob11212_
+          short: a roving ranger
+          sight: A roving ranger scouts the terrain.
+      flag:
+      identity:
+        name: a roving ranger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11200_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - velvet ant swarm
+            - mob11200_
+          short: a velvet ant swarm
+          sight: >
+            A small, furry swarm of ants comes crawling out of the grasses.
+      flag:
+      identity:
+        name: a velvet ant swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11202:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - locust swarm
+            - mob
+          short: a locust swarm
+          sight: >
+            A locust swarm buzzes in around you, annoyingly bothersome.
+      flag:
+      identity:
+        name: a locust swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11201_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone grasshopper
+            - mob11201_
+          short: a lone grasshopper
+          sight: >
+            A lone grasshopper jumps from grass stalk to grass stalk.
+      flag:
+      identity:
+        name: a lone grasshopper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11203:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spotted lion
+            - mob
+          short: a spotted lion
+          sight: >
+            A spotted lion prowls the grasslands, looking for a good morsel or two.
+      flag:
+      identity:
+        name: a spotted lion
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob11200_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - velvet ant swarm
+            - mob11200_
+          short: a velvet ant swarm
+          sight: >
+            A small, furry swarm of ants comes crawling out of the grasses.
+      flag:
+      identity:
+        name: a velvet ant swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11209:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone coyote
+            - mob
+          short: a lone coyote
+          sight: >
+            A lone coyote prowls the area, looking for a scrap of dinner.
+      flag:
+      identity:
+        name: a lone coyote
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11206:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small sprite
+            - mob
+          short: a small sprite
+          sight: >
+            A small sprite flutters about the grass, leaping silently from stalk to stalk.
+      flag:
+      identity:
+        name: a small sprite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11201_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone grasshopper
+            - mob11201_
+          short: a lone grasshopper
+          sight: >
+            A lone grasshopper jumps from grass stalk to grass stalk.
+      flag:
+      identity:
+        name: a lone grasshopper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11209_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone coyote
+            - mob11209_
+          short: a lone coyote
+          sight: >
+            A lone coyote prowls the area, looking for a scrap of dinner.
+      flag:
+      identity:
+        name: a lone coyote
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11204_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - larind
+            - mob11204_
+          short: a larind
+          sight: >
+            A large animal resembling a lion spies you and begins heading your way.
+      flag:
+      identity:
+        name: a larind
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11212_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roving ranger
+            - mob11212_
+          short: a roving ranger
+          sight: A roving ranger scouts the terrain.
+      flag:
+      identity:
+        name: a roving ranger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11210:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plainsman
+            - mob
+          short: a plainsman
+          sight: >
+            A plainsman trudges past, lugging behind him all of his worldly goods.
+      flag:
+      identity:
+        name: a plainsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11211:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buffalo
+            - mob
+          short: a buffalo
+          sight: A buffalo nearly runs you down as it rumbles past.
+      flag:
+      identity:
+        name: a buffalo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11205_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prairie dog
+            - mob11205_
+          short: a prairie dog
+          sight: >
+            A small prairie dog scuttles through the deep grass.
+      flag:
+      identity:
+        name: a prairie dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11212:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roving ranger
+            - mob
+          short: a roving ranger
+          sight: A roving ranger scouts the terrain.
+      flag:
+      identity:
+        name: a roving ranger
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11210_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plainsman
+            - mob11210_
+          short: a plainsman
+          sight: >
+            A plainsman trudges past, lugging behind him all of his worldly goods.
+      flag:
+      identity:
+        name: a plainsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11200_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - velvet ant swarm
+            - mob11200_
+          short: a velvet ant swarm
+          sight: >
+            A small, furry swarm of ants comes crawling out of the grasses.
+      flag:
+      identity:
+        name: a velvet ant swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11206_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small sprite
+            - mob11206_
+          short: a small sprite
+          sight: >
+            A small sprite flutters about the grass, leaping silently from stalk to stalk.
+      flag:
+      identity:
+        name: a small sprite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11203_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spotted lion
+            - mob11203_
+          short: a spotted lion
+          sight: >
+            A spotted lion prowls the grasslands, looking for a good morsel or two.
+      flag:
+      identity:
+        name: a spotted lion
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob11201:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone grasshopper
+            - mob
+          short: a lone grasshopper
+          sight: >
+            A lone grasshopper jumps from grass stalk to grass stalk.
+      flag:
+      identity:
+        name: a lone grasshopper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11207_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant stag
+            - mob11207_
+          short: a giant stag
+          sight: >
+            A giant stag leaps through the grass, bounding far away in flurry of movement.
+      flag:
+      identity:
+        name: a giant stag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11207_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant stag
+            - mob11207_
+          short: a giant stag
+          sight: >
+            A giant stag leaps through the grass, bounding far away in flurry of movement.
+      flag:
+      identity:
+        name: a giant stag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11207_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant stag
+            - mob11207_
+          short: a giant stag
+          sight: >
+            A giant stag leaps through the grass, bounding far away in flurry of movement.
+      flag:
+      identity:
+        name: a giant stag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11203_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spotted lion
+            - mob11203_
+          short: a spotted lion
+          sight: >
+            A spotted lion prowls the grasslands, looking for a good morsel or two.
+      flag:
+      identity:
+        name: a spotted lion
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob11206_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small sprite
+            - mob11206_
+          short: a small sprite
+          sight: >
+            A small sprite flutters about the grass, leaping silently from stalk to stalk.
+      flag:
+      identity:
+        name: a small sprite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11213:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - druid hermit
+            - mob
+          short: a druid hermit
+          sight: >
+            A druid hermit rests on his back, arms folded behind his head.
+      flag:
+      identity:
+        name: a druid hermit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11206_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small sprite
+            - mob11206_
+          short: a small sprite
+          sight: >
+            A small sprite flutters about the grass, leaping silently from stalk to stalk.
+      flag:
+      identity:
+        name: a small sprite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11208_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prairie hunter
+            - mob11208_
+          short: a prairie hunter
+          sight: >
+            A prairie hunter walks past with a steady, strong gait.
+      flag:
+      identity:
+        name: a prairie hunter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11205_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prairie dog
+            - mob11205_
+          short: a prairie dog
+          sight: >
+            A small prairie dog scuttles through the deep grass.
+      flag:
+      identity:
+        name: a prairie dog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11211_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buffalo
+            - mob11211_
+          short: a buffalo
+          sight: A buffalo nearly runs you down as it rumbles past.
+      flag:
+      identity:
+        name: a buffalo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11200:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - velvet ant swarm
+            - mob
+          short: a velvet ant swarm
+          sight: >
+            A small, furry swarm of ants comes crawling out of the grasses.
+      flag:
+      identity:
+        name: a velvet ant swarm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11207:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant stag
+            - mob
+          short: a giant stag
+          sight: >
+            A giant stag leaps through the grass, bounding far away in flurry of movement.
+      flag:
+      identity:
+        name: a giant stag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob11203_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spotted lion
+            - mob11203_
+          short: a spotted lion
+          sight: >
+            A spotted lion prowls the grasslands, looking for a good morsel or two.
+      flag:
+      identity:
+        name: a spotted lion
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

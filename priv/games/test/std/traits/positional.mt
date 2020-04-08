@@ -44,7 +44,7 @@ reacts to change:physical:position with
     :"<this:name> <kneel>."
   end
 
-reacts to pre-act:sit as actor with
+reacts to pre-sit as actor with
   if is sitting then
     uhoh "You are already sitting."
   elsif can sit as actor then
@@ -57,13 +57,13 @@ reacts to pre-act:sit as actor with
     uhoh "Something prevents you from sitting."
   end
 
-reacts to post-act:sit as actor with
+reacts to post-sit as actor with
   if flag:is-about-to-sit then
     reset flag:is-about-to-sit
     set location:position to "sitting"
   end
 
-reacts to pre-act:crouch as actor with
+reacts to pre-crouch as actor with
   if is crouching then
     uhoh "You are already crouching."
   elsif can crouch as actor then
@@ -76,13 +76,13 @@ reacts to pre-act:crouch as actor with
     uhoh "Something prevents you from crouching."
   end
 
-reacts to post-act:crouch as actor with
+reacts to post-crouch as actor with
   if flag:is-about-to-crouch then
     reset flag:is-about-to-crouch
     set location:position to "crouching"
   end
 
-reacts to pre-act:kneel as actor with
+reacts to pre-kneel as actor with
   if is kneeling then
     uhoh "You are already kneeling."
   elsif can kneel then
@@ -95,13 +95,13 @@ reacts to pre-act:kneel as actor with
     uhoh "Something prevents you from kneeling."
   end
 
-reacts to post-act:kneel as actor with
+reacts to post-kneel as actor with
   if flag:is-about-to-kneel then
     reset flag:is-about-to-kneel
     set location:position to "kneeling"
   end
 
-reacts to pre-act:stand as actor with
+reacts to pre-stand as actor with
   if is standing then
     uhoh "You are already standing."
   elsif can stand then
@@ -114,7 +114,7 @@ reacts to pre-act:stand as actor with
     uhoh "Something prevents you from standing."
   end
 
-reacts to post-act:stand as actor with
+reacts to post-stand as actor with
   if flag:is-about-to-stand then
     reset flag:is-about-to-stand
     set location:position to "standing"

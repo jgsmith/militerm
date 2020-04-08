@@ -9,5 +9,5 @@ detail:
       purple and red, and you cannot recall having ever seen one like this before. From here, you can see the
       field of flowers to the west, the paths to the north and south, and a house to the east.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:sdesert:desertsd42"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sdesert:desertsd66"
     short: The Mesa
     sight: >
       You have finally reached the mesa. The rocky formation reached up to about the height of 200 feet, there

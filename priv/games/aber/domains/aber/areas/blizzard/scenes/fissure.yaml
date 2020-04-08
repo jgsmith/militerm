@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:blizzard:fis_bottom"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:blizzard:stone_cell"
     short: Fissure
     sight: >
       You are on a ledge in a huge fissure. The fissure is so wide that the far wall is hidden in darkness.

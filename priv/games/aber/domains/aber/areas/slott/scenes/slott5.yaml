@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:slott:slott3"
       north:
         target: "scene:aber:slott:slott11"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:slott:slott7"
     short: Ballroom
     sight: >
       You have entered a huge ballroom with crystal chandeliers and small oak &+Btables&*. Chairs are placed

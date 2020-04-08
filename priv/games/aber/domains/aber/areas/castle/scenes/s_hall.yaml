@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:castle:base"
       west:
         target: "scene:aber:castle:o_hall"
     short: Side Hall

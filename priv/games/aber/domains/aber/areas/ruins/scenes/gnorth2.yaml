@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:ruins:gnorth"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ruins:magelib"
     short: End of Northern Catacombs
     sight: >
       This looks to be the end of the northern catacombs. Looking around you wonder why this area is so small,

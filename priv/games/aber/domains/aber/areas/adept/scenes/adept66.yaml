@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:adept:adept67"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:adept:adept5"
     short: Below the Rock
     sight: >
       The sun shines down the central corridor of this shaft durin the midday hours. It is covered on all

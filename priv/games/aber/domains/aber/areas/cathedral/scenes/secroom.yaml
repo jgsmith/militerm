@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cathedral:armhall"
     short: Secret Room
     sight: >
       I can't tell you what this room looks like. Its a secret. If you grope around in the void long enough,

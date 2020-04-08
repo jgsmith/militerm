@@ -10,5 +10,5 @@ detail:
       As you crawl through a small hole you notice that the huge tree is completely hollow, and enables you to
       move about. Some kind of ladder leads down from here.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

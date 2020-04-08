@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:icecave:hall"
     short: Storage Chamber
     sight: >
       This is just a small store room, filled with empty crates and boxes, some marked 'Fragile' and others

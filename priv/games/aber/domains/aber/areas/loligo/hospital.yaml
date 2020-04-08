@@ -1,0 +1,23 @@
+groups:
+locations:
+  devo5@evolution:
+    npcs:
+      architeuthis: 1
+npcs:
+  architeuthis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - architeuthis
+          short: Architeuthis
+          sight: >
+            A pale glint of bioluminescent bacteria illuminates a vast shadowy shape.
+      flag:
+      identity:
+        name: Architeuthis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

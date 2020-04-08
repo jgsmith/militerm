@@ -1,0 +1,170 @@
+groups:
+locations:
+  den:
+    npcs:
+      vixen: 1
+  entrance:
+    npcs:
+      viola: 1
+  limbo@limbo:
+    npcs:
+      ottimo: 1
+  oaktree24:
+    npcs:
+      beetle: 1
+  oaktree26:
+    npcs:
+      dryad: 1
+  oaktree34:
+    npcs:
+      ent: 1
+  oaktree35:
+    npcs:
+      sapling: 1
+  olive3:
+    npcs:
+      cosimo: 1
+npcs:
+  beetle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beetle
+          short: Beetle
+          sight: >
+            A boring Beetle is crawling about here muttering to itself.
+      flag:
+      identity:
+        name: Beetle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cosimo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cosimo
+          short: cosimo
+          sight: >
+            A small boy in gaiters and tricorn brandishes his rapier at you.
+      flag:
+        - no-summon
+      identity:
+        name: cosimo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dryad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dryad
+          short: Dryad
+          sight: >
+            A very pretty Dryad is sitting on the rock sunning herself.
+      flag:
+      identity:
+        name: Dryad
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  ent:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ent
+          short: Ent
+          sight: There is a large Tree Ent blocking the entrance.
+      flag:
+        - no-summon
+        - no-hassle
+      identity:
+        name: Ent
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ottimo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ottimo
+          short: ottimo
+          sight: >
+            A small dachshund is here, panting hard and sniffing about for a fox.
+      flag:
+        - no-summon
+      identity:
+        name: ottimo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sapling:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sapling
+          short: Sapling
+          sight: >
+            There is a small Sapling standing majestically here absorbing bolts of lightning and casting a few
+            of its own back at the sky.
+      flag:
+      identity:
+        name: Sapling
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  viola:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - viola
+          short: viola
+          sight: >
+            A beautiful, ghostly little girl stands here with a disdainful air.
+      flag:
+        - no-summon
+        - no-steal
+      identity:
+        name: viola
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  vixen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vixen
+          short: The Vixen
+          sight: >
+            A sly and curvaceous vixen snarls at you from the corner.
+      flag:
+        - no-summon
+      identity:
+        name: The Vixen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

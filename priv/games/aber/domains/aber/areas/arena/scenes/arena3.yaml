@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:arena:arena2"
       north:
         target: "scene:aber:arena:arena12"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:arena:tunnel"
       west:
         target: "scene:aber:arena:arena4"
     short: The Arena
@@ -16,7 +18,7 @@ detail:
       whats behind those bars in. The seats above here have been placed behind a strange, clear type of rock,
       that allows light, but air to pass.
 flag:
-  - nosummon
-  - cantsummon
-  - nomagic
+  - no-summon
+  - cant-summon
+  - no-magic
   - pkzone

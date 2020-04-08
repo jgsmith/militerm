@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:church:silent"
       east:
         target: "scene:aber:ildharas:ildharas00"
       west:

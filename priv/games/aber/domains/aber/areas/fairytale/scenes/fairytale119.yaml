@@ -12,4 +12,4 @@ detail:
       The hallway ends here. It extends to the east, and to the south and the north are doors. The southern
       door is open.
 flag:
-  - nomobiles
+  - no-mobiles

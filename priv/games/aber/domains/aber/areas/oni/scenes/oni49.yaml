@@ -8,4 +8,4 @@ detail:
       You are standing on top of a small pillar. The floor is actually quite a distance below and actually
       appears to be moving!
 flag:
-  - cantsummon
+  - cant-summon

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:blizzard:lava_ledge"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:blizzard:fire_gate"
     short: The Hall Of Fire
     sight: >
       You are in the hall of fire. The very walls are tinged with a fiery radiance, as if the rock itself is

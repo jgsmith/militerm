@@ -8,5 +8,5 @@ detail:
       You look to the north and see the mighty Tree of Mana. You can feel it's magical energy even from this
       distance and begin to feel your very lifeforce be returned to you.
 flag:
-  - fastheal
-  - fastmana
+  - fast-heal
+  - fast-mana

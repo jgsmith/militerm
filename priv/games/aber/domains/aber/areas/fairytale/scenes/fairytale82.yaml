@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale83"
     short: Base of Tower
     sight: >
       You are standing at the base of a tall tower. Written on the wall, high above you, are the words 'ICBM'.

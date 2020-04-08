@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon17"
     short: The Royal Chambers
     sight: >
       You stand inside the chambers of the king of Thyreen. As the other rooms, this place is lavishly

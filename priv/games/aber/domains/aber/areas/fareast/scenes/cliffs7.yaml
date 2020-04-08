@@ -16,4 +16,4 @@ detail:
       which it will hopefully lead toward the temple.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

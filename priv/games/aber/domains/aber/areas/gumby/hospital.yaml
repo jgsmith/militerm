@@ -1,0 +1,44 @@
+groups:
+locations:
+  gumby1:
+    npcs:
+      panther: 1
+  gumby4:
+    npcs:
+      arissa: 1
+npcs:
+  arissa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arissa
+          short: Arissa
+          sight: >
+            A playful little kitten looks up at you at you and meows.
+      flag:
+        - no-hassle
+      identity:
+        name: Arissa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  panther:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - panther
+          short: Panther
+          sight: >
+            A panther lies at your feet, gazing up at you with her pale green eyes.
+      flag:
+      identity:
+        name: Panther
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

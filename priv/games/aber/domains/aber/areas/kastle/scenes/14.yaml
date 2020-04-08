@@ -3,11 +3,13 @@ detail:
     exits:
       south:
         target: "scene:aber:kastle:13"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:kastle:snow_temple"
     short: Snowy Stairs
     sight: >
       The stairs here are blocked by snow that has hardened into an icy crust. Perhaps you could dig through
       the ice if you had something to dig with.
 flag:
   - cold
-  - nomobiles
+  - no-mobiles

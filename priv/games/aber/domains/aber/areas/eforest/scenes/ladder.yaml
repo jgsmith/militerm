@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:eforest:cavern"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:eforest:lake"
     short: Long Ladder
     sight: >
       You are midway up a very long ladder. It seems rather damp as if water constantly dripped on it. You

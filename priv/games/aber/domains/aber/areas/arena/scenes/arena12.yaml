@@ -10,6 +10,6 @@ detail:
       It looks dangerous here. There are numerous piles of rubble laying about, some containing large
       boulders. A few pieces of the crumbling roof fall beside you.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

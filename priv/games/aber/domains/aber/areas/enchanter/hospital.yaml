@@ -1,0 +1,387 @@
+groups:
+  enchanter14:
+    npcs:
+      dog: 1
+      fly: 1
+  enchanter21:
+    npcs:
+      ogre1: 1
+      ogre2: 1
+      ogre3: 1
+  enchanter33:
+    npcs:
+      bullfrog: 1
+      frog: 1
+  enchanter41:
+    npcs:
+      dido: 1
+      fido: 1
+  enchanter76:
+    npcs:
+      basilisk: 1
+      krill: 1
+locations:
+  enchanter11:
+    npcs:
+      goat: 1
+  enchanter14:
+    groups:
+      enchanter14: 1
+  enchanter21:
+    groups:
+      enchanter21: 1
+  enchanter26:
+    npcs:
+      guardian: 1
+  enchanter33:
+    groups:
+      enchanter33: 1
+  enchanter34:
+    npcs:
+      ornament: 1
+  enchanter41:
+    groups:
+      enchanter41: 1
+  enchanter46:
+    npcs:
+      turtle: 1
+  enchanter67:
+    npcs:
+      presence: 1
+  enchanter76:
+    groups:
+      enchanter76: 1
+  enchanter77:
+    npcs:
+      mutie: 1
+  enchanter89:
+    npcs:
+      statue: 1
+  limbo@limbo:
+    npcs:
+      dragon: 1
+npcs:
+  basilisk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - basilisk
+          short: Basilisk
+          sight: >
+            Krill finishes his spell, and a very unfriendly basilisk appears hissing before you.
+      flag:
+      identity:
+        name: Basilisk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bullfrog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bullfrog
+          short: Bullfrog
+          sight: A rather large bullfrog is sitting on a key!
+      flag:
+      identity:
+        name: Bullfrog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dido:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dido
+          short: Dido
+          sight: >
+            Dido the faithful watchdog is here, looking for an eye to claw out.
+      flag:
+      identity:
+        name: Dido
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mangy
+            - dog
+          short: Mangy
+          sight: A mangy dog jumps at your throat!
+      flag:
+      identity:
+        name: Mangy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dragon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon
+          short: Dragon
+          sight: >
+            Krill's pet dragon is standing between you and Krill, ready to toast you.
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-b-hands
+      identity:
+        name: Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fido:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fido
+          short: Fido
+          sight: >
+            Fido the faithful watchdog is here, looking for scraps.
+      flag:
+      identity:
+        name: Fido
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fly
+          short: Fly
+          sight: >
+            A big yellow fly with a lethal looking stinger dive-bombs you.
+      flag:
+      identity:
+        name: Fly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  frog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frog
+          short: Frog
+          sight: "Funny, there's a frog here with claws."
+      flag:
+        - blind
+      identity:
+        name: Frog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goat
+          short: Goat
+          sight: A mountain goat is here, defending his territory.
+      flag:
+      identity:
+        name: Goat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian
+          short: Guardian
+          sight: >
+            A being made of pure evil is guarding the treasure.
+      flag:
+      identity:
+        name: Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  krill:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - krill
+          short: Krill
+          sight: >
+            The evil Enchanter Krill stands before you, weaving a spell of destruction.
+      flag:
+      identity:
+        name: Krill
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mutie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mutie
+          short: Mutie
+          sight: "There's a really ugly mutant here."
+      flag:
+      identity:
+        name: Mutie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ogre1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jubba
+            - ogre
+          short: Jubba
+          sight: "Jubba the Ogre can't wait to bash your head in."
+      flag:
+      identity:
+        name: Jubba
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ogre2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hubba
+            - ogre
+          short: Hubba
+          sight: Hubba the Ogre advances menacingly towards you.
+      flag:
+      identity:
+        name: Hubba
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ogre3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yubba
+            - ogre
+          short: Yubba
+          sight: Yubba the Ogre is going to have you for breakfast.
+      flag:
+      identity:
+        name: Yubba
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ornament:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ornament
+          short: Ornament
+          sight: >
+            Looks like you're going to have to kill the ornament... it's alive.
+      flag:
+      identity:
+        name: Ornament
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  presence:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - presence
+          short: The Presence
+          sight: >
+            You see a wavering form in the air before you... it's about to strike!
+      flag:
+      identity:
+        name: The Presence
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  statue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - statue
+          short: Statue
+          sight: The statue of Krill stands here.
+      flag:
+        - no-steal
+      identity:
+        name: Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  turtle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - turtle
+          short: The Turtle
+          sight: >
+            A large turtle is sunning himself on the beach here.
+      flag:
+        - no-hassle
+      identity:
+        name: The Turtle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

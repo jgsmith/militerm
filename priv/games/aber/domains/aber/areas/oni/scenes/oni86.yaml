@@ -1,16 +1,20 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:oni:oni87"
       north:
         target: "scene:aber:oni:oni89"
       up:
         target: "scene:aber:oni:oni53"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:oni:oni88"
     short: Prison Hall - South
     sight: >
       The prison consists of one long hallway with prison cells on either side. Currently the southern half of
       the hallway holds the minor demons. These aren't demons are weak though. Only compared to the other
       demons found further along can these be considered weak.
 flag:
-  - cantsummon
+  - cant-summon

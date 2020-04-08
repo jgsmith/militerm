@@ -104,9 +104,13 @@ defmodule Militerm.Services.Verbs do
                   do_add(word_store, scope, word, syntax)
 
                 [word | rest] ->
+                  rest_pattern =
+                    rest
+                    |> Enum.map(&{:word_list, [&1], nil})
+
                   aug_syntax = %{
                     syntax
-                    | pattern: rest ++ syntax.pattern,
+                    | pattern: rest_pattern ++ syntax.pattern,
                       short: Enum.join(rest, " ") <> " " <> syntax.short,
                       weight: Enum.count(rest) * 10 + syntax.weight
                   }

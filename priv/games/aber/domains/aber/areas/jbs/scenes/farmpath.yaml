@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:jbs:front"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:gate"
     short: Path to the Farmhouse
     sight: >
       This path runs east to the farmhouse and west back into the pasture.

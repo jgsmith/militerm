@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:chess:chessqq04"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:chess:chessqq02"
     short: The Stone Staircase
     sight: >
       You find yourself in a rough stone &+Cstaircase&*, which winds around a smooth core of stone, descending

@@ -9,4 +9,4 @@ detail:
       walls and ceiling are tightly packed, but you cannot help but feel a tiny bit nervous about the
       stability of the structure. To the south is a path leading through the rubble.
 flag:
-  - nomobiles
+  - no-mobiles

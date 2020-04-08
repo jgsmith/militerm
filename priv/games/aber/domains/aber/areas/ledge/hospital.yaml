@@ -1,0 +1,274 @@
+groups:
+  ledge49:
+    npcs:
+      grayshark: 1
+      jellyfish: 1
+  limbo@limbo:
+    npcs:
+      penguin: 1
+      weaponsmith: 1
+locations:
+  ledge19:
+    npcs:
+      cavebat: 1
+  ledge28:
+    npcs:
+      evil: 1
+  ledge38:
+    npcs:
+      bear: 1
+  ledge39:
+    npcs:
+      kobold: 1
+  ledge42:
+    npcs:
+      salmon: 1
+  ledge44:
+    npcs:
+      flounder: 1
+  ledge45:
+    npcs:
+      pike: 1
+  ledge47:
+    npcs:
+      cod: 1
+  ledge49:
+    groups:
+      ledge49: 1
+  ledge51:
+    npcs:
+      dummy: 1
+  limbo@limbo:
+    groups:
+      limbo@limbo: 1
+npcs:
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chained bear
+            - bear
+          short: Chained Bear
+          sight: >
+            A large bear sits across the cavern bound by chains.
+      flag:
+        - no-exorcise
+        - nozap
+      identity:
+        name: Chained Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cavebat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cave bat
+            - cavebat
+          short: A cave bat
+          sight: A bat is here flying around inside the cave.
+      flag:
+      identity:
+        name: A cave bat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cod:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swedish cod
+            - cod
+          short: Swedish Cod
+          sight: A swedish cod fish swims along the ocean floor.
+      flag:
+      identity:
+        name: Swedish Cod
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dummy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dummy
+          short: Dummy
+          sight: >
+            A dummy mobile wanders around, having escaped from the testing area.
+      flag:
+      identity:
+        name: Dummy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  evil:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - evil
+          short: Evil
+          sight: >
+            The personification of Evil is here to consume you!
+      flag:
+        - no-hassle
+        - no-exorcise
+        - nozap
+      identity:
+        name: Evil
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flounder:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flounder
+          short: flounder
+          sight: "An eatin' size flounder skirts by."
+      flag:
+      identity:
+        name: flounder
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grayshark:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey shark
+            - grayshark
+          short: Grey Shark
+          sight: A very lost grey shark swims by you.
+      flag:
+      identity:
+        name: Grey Shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jellyfish:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jellyfish
+          short: Jellyfish
+          sight: A jellyfish floats in the water.
+      flag:
+        - shock
+      identity:
+        name: Jellyfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kobold:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kobold
+          short: The Kobold
+          sight: A kobold sits on a boulder asleep.
+      flag:
+        - missile
+        - no-exorcise
+        - nozap
+      identity:
+        name: The Kobold
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  penguin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - penguin
+          short: penguin
+          sight: >
+            A ferocious penguin stands here chanting 'Do be...do be do!'
+      flag:
+      identity:
+        name: penguin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pike:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - northern pike
+            - pike
+          short: Northern Pike
+          sight: >
+            A northern pike fish swims by your head looking for minnows.
+      flag:
+      identity:
+        name: Northern Pike
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  salmon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - salmon
+          short: The Salmon
+          sight: An ocean salmon swims by your head.
+      flag:
+      identity:
+        name: The Salmon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  weaponsmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - apprentice
+            - weaponsmith
+          short: The Apprentice
+          sight: >
+            The weapon smith's apprentice is here cleaning up the shop for reopening.
+      flag:
+        - nosteal
+      identity:
+        name: The Apprentice
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -14,4 +14,4 @@ detail:
       follow a gully in that direction, or continue north or south along the gorge.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

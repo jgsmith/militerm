@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:oaktree:landing"
     short: Ilex Tree
     sight: >
       In the ilex, deep in the thickest press of leaves, you find a hanging pavilion with curtains flapping in

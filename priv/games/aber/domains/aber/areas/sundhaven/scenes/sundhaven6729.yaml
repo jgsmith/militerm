@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:sundhaven:sundhaven6730"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6728"
       west:
         target: "scene:aber:sundhaven:sundhaven6732"
     short: The blackberry orchard

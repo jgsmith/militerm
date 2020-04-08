@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:fantasy:dforest13"
       south:
         target: "scene:aber:fantasy:dforest15"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fantasy:dcave1"
     short: Northwest corner of a circular path
     sight: >
       The path seems to be in the shape of a circle through here. The path curves to the south and to the

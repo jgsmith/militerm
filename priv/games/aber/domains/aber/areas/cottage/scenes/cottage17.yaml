@@ -13,4 +13,4 @@ detail:
       collected on the walls. The passage slopes steeply downward to the south, but you can not see what lies
       that way, for it is too dark. A rectangle of light pours in from the western passage.
 flag:
-  - nomobiles
+  - no-mobiles

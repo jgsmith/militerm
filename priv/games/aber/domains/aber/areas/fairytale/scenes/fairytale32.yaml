@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale31"
     short: Prison
     sight: >
       You stand in the prison. The air hangs heavy with the stench of rotted flesh and human waste. Chains and

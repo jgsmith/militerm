@@ -9,4 +9,4 @@ detail:
       and slabs of stone. Light enters the room from the west door.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

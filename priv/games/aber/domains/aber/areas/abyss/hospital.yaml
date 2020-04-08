@@ -1,0 +1,389 @@
+groups:
+  control:
+    npcs:
+      beebop: 1
+      rocksteady: 1
+  web:
+    npcs:
+      blue: 1
+      brown: 1
+      green: 1
+      pink: 1
+      white: 1
+locations:
+  cell:
+    npcs:
+      guxx: 1
+  control:
+    groups:
+      control: 1
+  downstream:
+    npcs:
+      mucus: 1
+  lolth:
+    npcs:
+      lolth: 1
+  orcus:
+    npcs:
+      orcus: 1
+  pain:
+    npcs:
+      death: 1
+  pillars5:
+    npcs:
+      chuck: 1
+  road1:
+    npcs:
+      braxx: 1
+  secret:
+    npcs:
+      qbert: 1
+  stairs:
+    npcs:
+      daemon: 1
+  swamp3:
+    npcs:
+      mush: 1
+  swamp6:
+    npcs:
+      jubilex: 1
+  swamp7:
+    npcs:
+      ooze: 1
+  web:
+    groups:
+      web: 1
+  widow:
+    npcs:
+      widow: 1
+npcs:
+  beebop:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beebop
+          short: Beebop
+          sight: >
+            Beebop the Mutant Guard is standing here scratching his head.
+      flag:
+      identity:
+        name: Beebop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blue
+          short: Blue
+          sight: There is a blue spider here.
+      flag:
+      identity:
+        name: Blue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  braxx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - braxx
+          short: Braxx
+          sight: >
+            Smilin' Braxx the Salesdemon is here selling souvenirs and used weapons.
+      flag:
+      identity:
+        name: Braxx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brown:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown
+          short: Brown
+          sight: There is a brown spider here.
+      flag:
+      identity:
+        name: Brown
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chuck:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chuck
+          short: Chuck
+          sight: Chuck Gnoll is here.
+      flag:
+      identity:
+        name: Chuck
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  daemon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - daemon
+          short: Daemon
+          sight: Shadow Daemon is here skulking in the shadows.
+      flag:
+      identity:
+        name: Daemon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  death:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - death
+          short: Death
+          sight: The Death Knight stands ready to challenge you.
+      flag:
+        - no-summon
+      identity:
+        name: Death
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  green:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - green
+          short: Green
+          sight: There is a green spider here.
+      flag:
+      identity:
+        name: Green
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guxx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guxx
+          short: Guxx
+          sight: >
+            The Grand Hoohah Guxx Unfufadoo is standing here testing his razor sharp claws.
+      flag:
+        - no-summon
+        - no-exor
+      identity:
+        name: Guxx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jubilex:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jubilex
+          short: Jubilex
+          sight: Jubilex the Faceless Lord is here.
+      flag:
+      identity:
+        name: Jubilex
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lolth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lolth
+          short: Lolth
+          sight: >
+            Lolth, Demon Queen of the Spiders sits here waiting for her next victim.
+      flag:
+      identity:
+        name: Lolth
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mucus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mucus
+          short: Mucus
+          sight: The mucus monster is here spitting phlegm at you.
+      flag:
+      identity:
+        name: Mucus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mush:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mush
+          short: Mush
+          sight: The brown mush sits here bubbling.
+      flag:
+      identity:
+        name: Mush
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ooze:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ooze
+          short: Ooze
+          sight: A gray ooze slithers across the ground here.
+      flag:
+      identity:
+        name: Ooze
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  orcus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - orcus
+          short: Orcus
+          sight: The Demon Lord Orcus is here sizing up your skull.
+      flag:
+      identity:
+        name: Orcus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pink:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pink
+          short: Pink
+          sight: There is a pink spider here.
+      flag:
+      identity:
+        name: Pink
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  qbert:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - qbert
+          short: Qbert
+          sight: >
+            Qbert the Quasit is sitting at his desk going over the financial records.
+      flag:
+        - no-summon
+      identity:
+        name: Qbert
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rocksteady:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rocksteady
+          short: Rocksteady
+          sight: >
+            Rocksteady the Mutant Guard is here slobbering on himself.
+      flag:
+      identity:
+        name: Rocksteady
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  white:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white
+          short: White
+          sight: There is a white spider here.
+      flag:
+      identity:
+        name: White
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  widow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - widow
+          short: Widow
+          sight: The Black Widow sits here spinning her web.
+      flag:
+      identity:
+        name: Widow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

@@ -12,4 +12,4 @@ detail:
       You are at the cave entrance that is lit by several torches that have been stuck into the walls. The
       cave leads to the north and the ledge continues to the east.
 flag:
-  - nomobiles
+  - no-mobiles

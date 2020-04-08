@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:eosia:eosia33"
       east:
         target: "scene:aber:eosia:eosia31"
       west:

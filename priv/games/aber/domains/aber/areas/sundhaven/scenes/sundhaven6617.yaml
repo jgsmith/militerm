@@ -11,5 +11,5 @@ detail:
       stairwell. At each turn in the spiral steps a more mangled face than the last confronts you, drawing
       closer to the laboratory above. What is the sculptor implying about the study of magic?
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

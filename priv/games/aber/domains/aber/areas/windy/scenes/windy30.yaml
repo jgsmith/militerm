@@ -14,7 +14,7 @@ detail:
       After long climbing you just stop for a small break, those stairs are endless, but what do you see, they
       really seem to have an end. There in the clouds, seems to be something like a holy temple.
 flag:
-  - nomobiles
-  - oneperson
+  - no-mobiles
+  - one-person
   - cold
   - outdoors

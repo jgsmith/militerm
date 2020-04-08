@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:nrose:ossarium"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:nrose:scriptorium"
       up:
         target: "scene:aber:nrose:librentr"
     short: Damp Stairway

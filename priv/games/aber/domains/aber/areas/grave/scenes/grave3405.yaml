@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:grave:grave3415"
       north:
         target: "scene:aber:grave:grave3404"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:grave:grave3414"
       west:
         target: "scene:aber:grave:grave3416"
     short: On the steps of the Old Church

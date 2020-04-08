@@ -12,5 +12,5 @@ detail:
       You are standing among tightly packed trees on a medium sized hill. The dense forest spreads out all
       around you, and the crowns of the old trees leave the hills in an unreal twilight illumination.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

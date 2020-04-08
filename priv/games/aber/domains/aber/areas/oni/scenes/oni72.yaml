@@ -11,4 +11,4 @@ detail:
       to enter and exit. Currently there are a few travelers entering and exiting the town.
 flag:
   - outdoors
-  - cantsummon
+  - cant-summon

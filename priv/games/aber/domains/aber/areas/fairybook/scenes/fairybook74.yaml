@@ -10,4 +10,4 @@ detail:
       The path continues west, across a brook to a castle. It also goes east, towards a battlefield. Perhaps
       you have reached the end of your quest?
 flag:
-  - nomobiles
+  - no-mobiles

@@ -1,0 +1,345 @@
+groups:
+  eosia12:
+    npcs:
+      kurik: 1
+      sparhawk: 1
+locations:
+  eosia12:
+    groups:
+      eosia12: 1
+  eosia13:
+    npcs:
+      rolak: 1
+  eosia25:
+    npcs:
+      rindor: 1
+  eosia27:
+    npcs:
+      sephrenia: 1
+  eosia28:
+    npcs:
+      aphrael: 1
+  eosia31:
+    npcs:
+      dolmant: 1
+  eosia32:
+    npcs:
+      annias: 1
+  eosia34:
+    npcs:
+      seeker: 1
+  eosia37:
+    npcs:
+      othos: 1
+  eosia4:
+    npcs:
+      kalor: 1
+  eosia46:
+    npcs:
+      azash: 1
+  eosia50:
+    npcs:
+      ghwerig: 1
+  eosia7:
+    npcs:
+      platime: 1
+  eosia8:
+    npcs:
+      madame: 1
+  limbo@limbo:
+    npcs:
+      ehlana: 1
+npcs:
+  annias:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - annias
+          short: Annias
+          sight: >
+            Primate Annias of Cimmura is plotting to take control of the Church!
+      flag:
+      identity:
+        name: Annias
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  aphrael:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aphrael
+          short: Aphrael
+          sight: >
+            She floats like an angel. It is the Child-Goddess Aphrael of Styricum.
+      flag:
+        - shock
+        - frost
+        - fireball
+        - neg-fireball
+        - neg-frost
+        - no-hassle
+        - no-summon
+      identity:
+        name: Aphrael
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  azash:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - azash
+          short: Azash
+          sight: The Elder Dark God, Azash, wants the Bhelliom!
+      flag:
+        - fireball
+        - shock
+        - neg-fireball
+        - neg-frost
+        - nosummon
+      identity:
+        name: Azash
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dolmant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dolmant
+          short: Dolmant
+          sight: >
+            Primate Dolmant is busy preparing the Citadel for mass.
+      flag:
+      identity:
+        name: Dolmant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ehlana:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - queen ehlana
+            - ehlana
+          short: Queen Ehlana
+          sight: Queen Ehlana of Elenia stands before you smiling.
+      flag:
+        - nohassle
+      identity:
+        name: Queen Ehlana
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghwerig:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghwerig
+          short: Ghwerig
+          sight: >
+            Ghwerig, the troll, thinks you want to steal Bhelliom!
+      flag:
+        - fireball
+        - neg-shock
+        - nosummon
+      identity:
+        name: Ghwerig
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kalor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kalor
+          short: Kalor
+          sight: >
+            Kalor, the guard of the city gates, will not let you pass.
+      flag:
+      identity:
+        name: Kalor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kurik:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kurik
+          short: Kurik
+          sight: Sir Kurik, the Pandion, bows to you.
+      flag:
+        - shock
+      identity:
+        name: Kurik
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  madame:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - madame
+          short: Madame
+          sight: >
+            The Madame of the brothel wants to know if you are looking for a good time.
+      flag:
+      identity:
+        name: Madame
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  othos:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zemoch
+            - othos
+          short: Zemoch
+          sight: >
+            Emperor Othos of Zemoch knows you have the Bhelliom!
+      flag:
+      identity:
+        name: Zemoch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  platime:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - platime
+          short: Platime
+          sight: >
+            Platime, the head of the Thief's Guild, wants your stuff!
+      flag:
+        - nosteal
+      identity:
+        name: Platime
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rindor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rindor
+          short: Rindor
+          sight: >
+            King Rindor, of Rindor, thinks you are Elene trash.
+      flag:
+      identity:
+        name: Rindor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rolak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rolak
+          short: Rolak
+          sight: >
+            Rolak, the guard of the castle, will not let you pass.
+      flag:
+      identity:
+        name: Rolak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seeker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seeker
+          short: Seeker
+          sight: >
+            The hideous wraith known as the Seeker lurks in the shadows.
+      flag:
+      identity:
+        name: Seeker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sephrenia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sephrenia
+          short: Sephrenia
+          sight: >
+            Sephrenia, the Styric, is weighed down by the swords of the fallen.
+      flag:
+        - frost
+      identity:
+        name: Sephrenia
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sparhawk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparhawk
+          short: Sparhawk
+          sight: >
+            Sir Sparhawk, Ehlana's Champion, asks if you have found the Bhelliom.
+      flag:
+        - fireball
+        - shock
+        - nosummon
+      identity:
+        name: Sparhawk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

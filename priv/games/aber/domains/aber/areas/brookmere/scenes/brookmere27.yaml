@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere26"
     short: Dungeon Treasure Room
     sight: >
       Despite the room being heavily fortified, with thick stone walls and door, there is no treasure here -

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:cottage:cottage9"
       east:
         target: "scene:aber:cottage:cottage9"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cottage:cottage3"
       south:
         target: "scene:aber:cottage:cottage1"
     short: Peaceful Valley

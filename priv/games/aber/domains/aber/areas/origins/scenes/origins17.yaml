@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:origins:origins16"
     short: &+bThe &+BFountain &+bof &+RLamneth&n
     sight: >
       You follow the voice and come to a beautiful waterfall, which cascades gently down the sides of the
@@ -11,6 +13,6 @@ detail:
       its marvel. You want to stay here forever...
 flag:
   - outdoors
-  - cantsummon
-  - nosummon
-  - oneperson
+  - cant-summon
+  - no-summon
+  - one-person

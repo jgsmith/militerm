@@ -14,4 +14,4 @@ detail:
       branches, and they throw fruit at you when you stray too near.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

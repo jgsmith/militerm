@@ -17,6 +17,6 @@ detail:
       below.
 flag:
   - peace
-  - fastmana
-  - fastheal
+  - fast-mana
+  - fast-heal
   - party

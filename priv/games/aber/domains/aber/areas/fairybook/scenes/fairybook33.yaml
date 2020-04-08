@@ -12,4 +12,4 @@ detail:
       north, and the exit is west. A sign next to the door reads 'Beware of the". The end of the sign appears
       to have been chewed off.
 flag:
-  - nomobiles
+  - no-mobiles

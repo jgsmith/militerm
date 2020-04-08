@@ -3,8 +3,12 @@ detail:
     exits:
       east:
         target: "scene:aber:app:app3"
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:app:app5"
+      south:
+        guarded: true
+        target: "scene:aber:app:app1"
       west:
         target: "scene:aber:app:app4"
     short: Foyer

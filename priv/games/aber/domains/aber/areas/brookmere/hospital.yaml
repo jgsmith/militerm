@@ -1,0 +1,202 @@
+groups:
+  brookmere14:
+    npcs:
+      kurak: 1
+      rooke: 1
+      taurig: 1
+  brookmere26:
+    npcs:
+      grout: 1
+      murguth: 1
+locations:
+  brookmere1:
+    npcs:
+      nasnath: 1
+  brookmere14:
+    groups:
+      brookmere14: 1
+  brookmere15:
+    npcs:
+      swart: 1
+  brookmere18:
+    npcs:
+      frang: 1
+  brookmere26:
+    groups:
+      brookmere26: 1
+  brookmere31:
+    npcs:
+      sprak: 1
+  brookmere48:
+    npcs:
+      lug: 1
+npcs:
+  frang:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frang
+          short: Frang
+          sight: >
+            Frang, Render Of Flesh, sees you and begins to attack.
+      flag:
+      identity:
+        name: Frang
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grout:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grout
+          short: Grout
+          sight: Grout the gnoll is lurking here.
+      flag:
+        - deaf
+      identity:
+        name: Grout
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kurak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kurak
+          short: Kurak
+          sight: Kurak is here looking sulky.
+      flag:
+      identity:
+        name: Kurak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lug:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lug
+          short: Lug
+          sight: >
+            Lug is here ogling the orc - pinups in a girly magazine.
+      flag:
+      identity:
+        name: Lug
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  murguth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - murguth
+          short: Murguth
+          sight: Murguth the goblin is glowering here.
+      flag:
+      identity:
+        name: Murguth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nasnath:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nasnath
+          short: Nasnath
+          sight: Nasnath the pacifist gnoll sits here.
+      flag:
+        - cripple
+        - no-hassle
+        - no-magic
+      identity:
+        name: Nasnath
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  rooke:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rooke
+          short: Rooke
+          sight: >
+            Rooke, a goblin guard, is complaining about his share of plunder.
+      flag:
+      identity:
+        name: Rooke
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sprak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sprak
+          short: Sprak
+          sight: >
+            Sprak the shortsighted spider thinks you are a moth that has flown into his web.
+      flag:
+      identity:
+        name: Sprak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swart:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swart
+          short: Swart
+          sight: >
+            Swart, an orc guard, is here mumbling something about crummy goblins.
+      flag:
+      identity:
+        name: Swart
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  taurig:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - taurig
+          short: Taurig
+          sight: Taurig the goblin is here, looking bored.
+      flag:
+      identity:
+        name: Taurig
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

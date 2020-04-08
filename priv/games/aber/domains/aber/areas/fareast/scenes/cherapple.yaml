@@ -9,4 +9,4 @@ detail:
       as the wind picks up. A narrow path leads back to the south, where a wider road crosses it. The branches
       rustle occasionally, and you shiver.
 flag:
-  - nomobiles
+  - no-mobiles

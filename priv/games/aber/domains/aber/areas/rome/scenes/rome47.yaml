@@ -10,4 +10,4 @@ detail:
       is damp and the scent of lilac is in the air.
 flag:
   - private
-  - nomobiles
+  - no-mobiles

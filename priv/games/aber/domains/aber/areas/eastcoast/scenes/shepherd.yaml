@@ -10,4 +10,4 @@ detail:
       a window over the table showing more rolling hills outside. A simple straw bed lies to the south, a
       stone hearth to the north, and an exit back outside lies to the west.
 flag:
-  - nomobiles
+  - no-mobiles

@@ -8,4 +8,4 @@ detail:
     short: The Tunnel
     sight: The tunnel begins to curve upwards.
 flag:
-  - nomobiles
+  - no-mobiles

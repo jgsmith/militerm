@@ -4,8 +4,13 @@ defmodule Militerm.Systems.Gossip do
   """
   use Militerm.ECS.System
   alias Militerm.Systems.{Entity, Events}
+  alias Militerm.English
 
-  defcommand who([]), for: %{"this" => {:thing, this_id} = this} = args do
+  defcommand who(bits), for: %{"this" => this} = args do
+    do_who_command(bits, this)
+  end
+
+  def do_who_command([], {:thing, this_id} = this) do
     players =
       [this_id | Militerm.Services.Characters.list_characters()]
       |> Enum.map(fn entity_id ->
@@ -16,11 +21,71 @@ defmodule Militerm.Systems.Gossip do
       end)
       |> Enum.sort()
 
-    Entity.receive_message(
-      this,
-      "cmd",
-      "There are #{Enum.count(players)} player(s): #{Enum.join(players, ", ")}"
-    )
+    case players do
+      [] ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There no players:"
+        )
+
+      [_] ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There is one player: #{Enum.join(players, ", ")}"
+        )
+
+      _ ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There are #{English.cardinal(Enum.count(players))} players: #{Enum.join(players, ", ")}"
+        )
+    end
+  end
+
+  def do_who_command([<<"@", first::binary>> | rest], this) do
+    # get the player list for a game
+    given_game = Enum.join([first | rest], " ")
+    lc_game_name = String.downcase(given_game)
+
+    record =
+      Gossip.who()
+      |> Enum.find(fn {name, _} ->
+        String.downcase(name) == lc_game_name
+      end)
+
+    {real_game_name, players} =
+      case record do
+        {_, _} -> record
+        _ -> {given_game, []}
+      end
+
+    case players do
+      [] ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There no players on #{real_game_name}:"
+        )
+
+      [_] ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There is one player on #{real_game_name}: #{Enum.join(players, ", ")}"
+        )
+
+      _ ->
+        Entity.receive_message(
+          this,
+          "cmd",
+          "There are #{English.cardinal(Enum.count(players))} players on #{real_game_name}: #{
+            Enum.join(Enum.sort(players), ", ")
+          }"
+        )
+    end
   end
 
   def player_sign_in(game_name, player_name) do
@@ -55,6 +120,10 @@ defmodule Militerm.Systems.Gossip do
       _ ->
         :ok
     end
+  end
+
+  def message_broadcast(game, player, channel, message) do
+    Swarm.publish(:players, {:gossip_channel_broadcast, game, player, channel, message})
   end
 
   def game_connect(game_name) do

@@ -11,4 +11,4 @@ detail:
       anything moving.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

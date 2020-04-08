@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon51"
       west:
         target: "scene:aber:pensalon:pensalon37"
     short: "Armorer's Workshop"

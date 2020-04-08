@@ -15,5 +15,5 @@ detail:
       You struggle on in the hope of finding a more hospitable area.
 flag:
   - outdoors
-  - rainforest
-  - nomobiles
+  - rain-forest
+  - no-mobiles

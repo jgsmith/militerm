@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:haondor:sundforest6010"
       south:
         target: "scene:aber:haondor:sundforest6014"
       west:

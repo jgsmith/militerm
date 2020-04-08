@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:moor:pit"
       up:
         target: "scene:aber:moor:lost1"
     short: By The Pit

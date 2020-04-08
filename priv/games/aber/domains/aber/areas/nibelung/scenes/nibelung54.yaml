@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung53"
       up:
         target: "scene:aber:nibelung:nibelung62"
     short: Water Way
@@ -9,4 +11,4 @@ detail:
       Water cascades down around you, and runs back up again, as if by magic. It appears to be recycling
       itself for a fountain. You notice sunlight filtering down from the surface.
 flag:
-  - nomobiles
+  - no-mobiles

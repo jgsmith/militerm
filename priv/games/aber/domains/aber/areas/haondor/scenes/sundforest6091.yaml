@@ -11,5 +11,5 @@ detail:
       can be seen, heading to or from the forest. To the east is the walled city, Sundhaven, and to the west
       the road continues towards a large &+Gforest.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

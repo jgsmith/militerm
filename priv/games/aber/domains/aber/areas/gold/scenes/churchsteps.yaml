@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:gold:entryway"
       west:
         target: "scene:aber:gold:churchpath"
     short: Golden Church Steps

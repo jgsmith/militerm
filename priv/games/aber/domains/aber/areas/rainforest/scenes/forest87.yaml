@@ -13,4 +13,4 @@ detail:
       deeper to try to get around it.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:pyramid:pyramid29"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid32"
       west:
         target: "scene:aber:pyramid:pyramid30"
     short: Into the Soul

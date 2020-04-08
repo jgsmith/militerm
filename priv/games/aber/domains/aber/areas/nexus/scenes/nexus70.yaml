@@ -11,7 +11,7 @@ detail:
       encapsulated places, suffering as much astral agony as they do physical.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon
   - dark

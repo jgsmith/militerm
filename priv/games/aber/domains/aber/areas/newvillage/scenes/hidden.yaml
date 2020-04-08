@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:newvillage:under"
     short: Secret Storage Room
     sight: >
       Prying the metal sheet off of the stone wall that holds up the jetty, you go into a rather dark and dank

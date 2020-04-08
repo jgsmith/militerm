@@ -10,7 +10,7 @@ detail:
       are attached. The images seem quite amorphous to you, but the people using them probably see a whole new
       world... A single western exit heads back out to Megadon.
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

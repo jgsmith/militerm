@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:nrose:churchaltar"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nrose:churchsteps"
     short: Church
     sight: >
       You have passed through the nave and are now standing at the transept crossing in the monk's church.

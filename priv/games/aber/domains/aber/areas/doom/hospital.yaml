@@ -1,0 +1,181 @@
+groups:
+locations:
+  1:
+    npcs:
+      doomguard: 1
+  11:
+    npcs:
+      skeleton: 1
+  12:
+    npcs:
+      nathan: 1
+  14:
+    npcs:
+      huge: 1
+  15:
+    npcs:
+      doom: 1
+  3:
+    npcs:
+      oldman: 1
+  6:
+    npcs:
+      jeffery: 1
+  7:
+    npcs:
+      rudy: 1
+  8:
+    npcs:
+      drunk: 1
+npcs:
+  doom:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - doom
+          short: Doom
+          sight: >
+            Doom, the town Lord is standing here laughing at you.
+      flag:
+        - blind
+        - no-summon
+      identity:
+        name: Doom
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  doomguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+            - doomguard
+          short: The Guard
+          sight: >
+            There is a guard standing here looking down on you.
+      flag:
+      identity:
+        name: The Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drunk
+          short: The Drunk
+          sight: There is a drunk here.
+      flag:
+      identity:
+        name: The Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  huge:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - huge
+          short: Huge
+          sight: There is a huge guard standing here.
+      flag:
+      identity:
+        name: Huge
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jeffery:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jeffery
+          short: Jeffery
+          sight: Jeffery the gardener is here.
+      flag:
+      identity:
+        name: Jeffery
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nathan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nathan
+          short: Nathan
+          sight: Nathan the angry ogre is here.
+      flag:
+      identity:
+        name: Nathan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oldman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - man
+            - oldman
+          short: The Man
+          sight: A smelly old man is standing in front of you.
+      flag:
+      identity:
+        name: The Man
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rudy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rudy
+          short: Rudy
+          sight: >
+            Rudy the Cook is here brandishing her knives at you.
+      flag:
+      identity:
+        name: Rudy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  skeleton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+          short: The Skeleton
+          sight: There is a Skeleton warrior here.
+      flag:
+      identity:
+        name: The Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

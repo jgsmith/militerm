@@ -5,11 +5,13 @@ detail:
         target: "scene:aber:princess:forest6"
       north:
         target: "scene:aber:princess:forest6"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:princess:downtower"
     short: On Top of the Mountain
     sight: >
       You reach the top of the mountain. A huge &+Ctower&* rises out of the ground!! The air seems much
       thinner up here.
 flag:
-  - outdoors
-  - nomobiles
+  - out-doors
+  - no-mobiles

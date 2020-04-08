@@ -11,4 +11,4 @@ detail:
       which you cannot see more than 200 feet into, or head back to the west.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

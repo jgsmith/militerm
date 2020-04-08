@@ -21,4 +21,4 @@ detail:
       &+WST&+CoNe &+MbLa&+lC&+bk &+RS&+YtO&+cnE BLACK STONE!!! Whew, this maze is driving you crazy.
 flag:
   - maze
-  - noregen
+  - no-regen

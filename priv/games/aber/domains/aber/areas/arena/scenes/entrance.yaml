@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:nibelung:nibelung1"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:arena:arena1"
     short: The entrance to the Arena
     sight: >
       You stand inside the secret entrance to THE arena. Either side of you, to the north and south are the
@@ -11,8 +13,8 @@ detail:
       protected and no violence may take place here. A few burn marks scar the walls, around small archways
       leading to the stairway up into the viewing area.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - peaceful
-  - nomagic
-  - nomobile
+  - no-magic
+  - no-mobile

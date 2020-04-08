@@ -1,0 +1,413 @@
+groups:
+  talon10:
+    npcs:
+      asengar: 1
+      grum: 1
+      lirad: 1
+      sentul: 1
+  talon43:
+    npcs:
+      dyral: 1
+      rynor: 1
+locations:
+  talon1:
+    npcs:
+      sarac: 1
+  talon10:
+    groups:
+      talon10: 1
+  talon13:
+    npcs:
+      reptile: 1
+  talon18:
+    npcs:
+      cyrlan: 1
+  talon19:
+    npcs:
+      makir: 1
+  talon21:
+    npcs:
+      balak: 1
+  talon24:
+    npcs:
+      wiseman: 1
+  talon29:
+    npcs:
+      fog: 1
+  talon33:
+    npcs:
+      gatemaster: 1
+  talon36:
+    npcs:
+      alnor: 1
+  talon39:
+    npcs:
+      almerus: 1
+  talon4:
+    npcs:
+      talgur: 1
+  talon41:
+    npcs:
+      daelan: 1
+  talon43:
+    groups:
+      talon43: 1
+  talon46:
+    npcs:
+      morrum: 1
+  talon50:
+    npcs:
+      talon: 1
+npcs:
+  almerus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - almerus
+          short: almerus
+          sight: Almerus, the watchman, stands on guard here.
+      flag:
+      identity:
+        name: almerus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alnor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alnor
+          short: alnor
+          sight: Alnor, the watchman, stands on guard here.
+      flag:
+      identity:
+        name: alnor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asengar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asengar
+          short: asengar
+          sight: Asengar, the Talon elite soldier, glares at you.
+      flag:
+      identity:
+        name: asengar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  balak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - balak
+          short: balak
+          sight: Balak, the bronze dragon, sits solemnly here.
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - neg-bhands
+      identity:
+        name: balak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cyrlan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cyrlan
+          short: cyrlan
+          sight: >
+            Cyrlan, the silver dragon towers ominously above you.
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - neg-b-hands
+      identity:
+        name: cyrlan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  daelan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - daelan
+          short: daelan
+          sight: >
+            Daelan, the cook, is frantically preparing a meal here.
+      flag:
+      identity:
+        name: daelan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dyral:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dyral
+          short: dyral
+          sight: Dyral, the Talon elite guard, lunges toward you!
+      flag:
+      identity:
+        name: dyral
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fog
+          short: The Fog
+          sight: >
+            All around, the fog enshrouds... as if it were choking the very life out of you.
+      flag:
+      identity:
+        name: The Fog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gatemaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gatemaster
+          short: The Gatemaster
+          sight: >
+            A gatemaster guards the entrance to the stronghold.
+      flag:
+      identity:
+        name: The Gatemaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grum:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grum
+          short: grum
+          sight: Grum, the Talon elite soldier, glares at you.
+      flag:
+      identity:
+        name: grum
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lirad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lirad
+          short: lirad
+          sight: Lirad, the Talon elite soldier, glares at you.
+      flag:
+      identity:
+        name: lirad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  makir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - makir
+          short: makir
+          sight: >
+            Makir, the golden dragon, decends from the sky, glittering in the sunlight.
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - neg-b-hands
+      identity:
+        name: makir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  morrum:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - morrum
+          short: morrum
+          sight: >
+            Morrum, the evil dragonmaster, grins wickedly as he steps towards you.
+      flag:
+        - fireball
+        - shock
+        - frost
+        - no-magic
+      identity:
+        name: morrum
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  reptile:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea reptile
+            - reptile
+          short: Sea Reptile
+          sight: A massive sea reptile emerges from the depths.
+      flag:
+      identity:
+        name: Sea Reptile
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rynor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rynor
+          short: rynor
+          sight: Rynor, the Talon elite guard, lunges at you!
+      flag:
+      identity:
+        name: rynor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sarac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sarac
+          short: sarac
+          sight: Sarac the solemn hawk guards this cave.
+      flag:
+      identity:
+        name: sarac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sentul:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sentul
+          short: sentul
+          sight: Sentul, the Talon elite soldier, glares at you.
+      flag:
+      identity:
+        name: sentul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  talgur:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - talgur
+          short: talgur
+          sight: >
+            Talgur the ancient dragonrider sits here, lost in thought.
+      flag:
+      identity:
+        name: talgur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  talon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - talon
+          short: talon
+          sight: The Black Dragon, Talon, glares darkly at you.
+      flag:
+        - fireball
+        - shock
+        - frost
+        - neg-fireball
+        - neg-frost
+        - neg-shock
+      identity:
+        name: talon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wiseman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wiseman
+          short: wiseman
+          sight: >
+            An old wiseman sits here contemplating the complexities of the universe.
+      flag:
+        - shock
+      identity:
+        name: wiseman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

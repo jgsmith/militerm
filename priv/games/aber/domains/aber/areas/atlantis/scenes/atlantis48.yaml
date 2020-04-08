@@ -13,5 +13,5 @@ detail:
       certain how it operates, but it adds to the inviting atmosphere of the lobby. You may swim back out west
       to Main Street.
 flag:
-  - underwater
-  - nomobiles
+  - under-water
+  - no-mobiles

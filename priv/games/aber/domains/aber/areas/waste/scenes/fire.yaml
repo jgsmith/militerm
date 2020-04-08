@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:waste:top"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:waste:king"
     short: The Fire Hall
     sight: >
       You are standing in the center of a vast hall, lit by huge fountains of molten rock. The walls are

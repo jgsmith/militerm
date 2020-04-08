@@ -17,4 +17,4 @@ detail:
       up back where you began.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

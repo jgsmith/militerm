@@ -16,5 +16,5 @@ detail:
       point. The river is very wide, but you could gain the shore to north or south if you wish.
 flag:
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

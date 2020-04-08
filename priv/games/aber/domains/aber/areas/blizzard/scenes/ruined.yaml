@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:blizzard:underruined"
       north:
         target: "scene:aber:blizzard:secret"
     short: Ruined Temple Hall

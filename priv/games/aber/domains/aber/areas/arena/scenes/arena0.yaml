@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:arena:arena1"
     short: The Arena Void
     sight: >
       You stand in a strange looking room, most definately magical, for it does not seem to have any walls, or
@@ -9,9 +11,9 @@ detail:
       are no exits, as you know them, but then again, there is nothing apparently stopping you from going any
       way in which you please, except, you can't quite tell which ways is which.
 flag:
-  - nosummon
+  - no-summon
   - peaceful
-  - nomagic
-  - cantsummon
+  - no-magic
+  - cant-summon
   - soundproof
-  - nomobile
+  - no-mobile

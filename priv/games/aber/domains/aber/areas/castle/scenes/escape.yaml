@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:castle:chamber"
+      south:
+        guarded: true
+        target: "scene:aber:castle:1"
     short: Escape Passage
     sight: >
       This is a passageway which would be used by the King and his court if the castle defense was ever

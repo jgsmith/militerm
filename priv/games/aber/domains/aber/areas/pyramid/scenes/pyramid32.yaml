@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid31"
     short: Enlightment
     sight: >
       &+WLight&N pours in from two long slitted windows at the sides of the tip of this pyramid. Unlike the

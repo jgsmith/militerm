@@ -3,8 +3,12 @@ detail:
     exits:
       north:
         target: "scene:aber:chlyon:chlyon16"
-      south: null
-      west: null
+      south:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon25"
+      west:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon18"
     short: The Thyreenean Throne Room
     sight: >
       Even more beautiful than the hallway, this room is lavishly decorated with lively tapestry and

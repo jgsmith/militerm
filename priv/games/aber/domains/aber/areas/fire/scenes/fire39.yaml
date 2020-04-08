@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:fire:fire37"
       south:
         target: "scene:aber:fire:fire40"
     short: Prison way

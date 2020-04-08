@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sagewood:woods1"
       south:
         target: "scene:aber:sagewood:woods3"
     short: Ravaged Woods

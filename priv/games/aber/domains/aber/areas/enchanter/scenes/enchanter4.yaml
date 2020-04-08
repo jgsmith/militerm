@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter5"
+      southeast:
         target: "scene:aber:enchanter:enchanter18"
       west:
         target: "scene:aber:enchanter:enchanter3"
@@ -12,4 +14,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

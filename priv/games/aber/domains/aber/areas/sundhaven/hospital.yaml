@@ -1,0 +1,2714 @@
+groups:
+  sundhaven6604:
+    npcs:
+      mob6639: 1
+      mob6665: 1
+  sundhaven6607:
+    npcs:
+      mob6639_1: 1
+      mob6665_2: 1
+  sundhaven6608:
+    npcs:
+      mob6601: 1
+      mob6601_5: 1
+      mob6636: 1
+      mob6659_3: 1
+      mob6665_3: 1
+      mob6666: 1
+  sundhaven6613:
+    npcs:
+      mob6600: 1
+      mob6601_4: 1
+      mob6601_6: 1
+      mob6659_1: 1
+  sundhaven6614:
+    npcs:
+      mob6635: 1
+      mob6635_1: 1
+  sundhaven6619:
+    npcs:
+      mob6602: 1
+      mob6660: 1
+  sundhaven6620:
+    npcs:
+      mob6614_3: 1
+      mob6614_4: 1
+  sundhaven6624:
+    npcs:
+      mob6610: 1
+      mob6610_1: 1
+      mob6610_2: 1
+  sundhaven6627:
+    npcs:
+      mob6614_2: 1
+      mob6659_7: 1
+  sundhaven6628:
+    npcs:
+      mob6601_10: 1
+      mob6601_2: 1
+      mob6606_1: 1
+      mob6615: 1
+  sundhaven6634:
+    npcs:
+      mob6601_1: 1
+      mob6601_8: 1
+  sundhaven6638:
+    npcs:
+      mob6601_7: 1
+      mob6607: 1
+  sundhaven6640:
+    npcs:
+      mob6646: 1
+      mob6659: 1
+  sundhaven6641:
+    npcs:
+      mob6601_3: 1
+      mob6647_1: 1
+  sundhaven6645:
+    npcs:
+      mob6609_1: 1
+      mob6649_1: 1
+  sundhaven6648:
+    npcs:
+      mob6620: 1
+      mob6659_4: 1
+  sundhaven6649:
+    npcs:
+      mob6611: 1
+      mob6612: 1
+      mob6613: 1
+  sundhaven6652:
+    npcs:
+      mob6618: 1
+      mob6642: 1
+  sundhaven6655:
+    npcs:
+      mob6622: 1
+      mob6652: 1
+  sundhaven6663:
+    npcs:
+      mob6644: 1
+      mob6645: 1
+  sundhaven6664:
+    npcs:
+      mob6606_6: 1
+      mob6614: 1
+  sundhaven6707:
+    npcs:
+      mob6639_2: 1
+      mob6646_1: 1
+  sundhaven6719:
+    npcs:
+      mob6606_5: 1
+      mob6638_1: 1
+  sundhaven6731:
+    npcs:
+      brandy: 1
+      mob6605: 1
+      mob6605_1: 1
+  sundhaven6735:
+    npcs:
+      mob6649_3: 1
+      mob6659_6: 1
+  sundhaven6747:
+    npcs:
+      mob6605_2: 1
+      mob6608: 1
+      mob6608_1: 1
+  sundhaven6765:
+    npcs:
+      mob6663: 1
+      mob6663_2: 1
+  sundhaven6778:
+    npcs:
+      mob6662_3: 1
+      mob6662_4: 1
+      mob6662_5: 1
+      mob6662_6: 1
+  sundhaven6779:
+    npcs:
+      mob6662_7: 1
+      mob6662_8: 1
+      mob6662_9: 1
+  sundhaven6780:
+    npcs:
+      mob6662: 1
+      mob6662_1: 1
+      mob6662_2: 1
+locations:
+  sundhaven6689:
+    npcs:
+      mob6639_5: 1
+  sundhaven6628:
+    groups:
+      sundhaven6628: 1
+  sundhaven6620:
+    groups:
+      sundhaven6620: 1
+  sundhaven6645:
+    groups:
+      sundhaven6645: 1
+  sundhaven6684:
+    npcs:
+      mob6606: 1
+  sundhaven6653:
+    npcs:
+      mob6628: 1
+  sundhaven6616:
+    npcs:
+      mob6658: 1
+  sundhaven6627:
+    groups:
+      sundhaven6627: 1
+  sundhaven6743:
+    npcs:
+      mob6643: 1
+  sundhaven6660:
+    npcs:
+      mob6641: 1
+  sundhaven6665:
+    npcs:
+      mob6659_2: 1
+  sundhaven6647:
+    npcs:
+      mob6632: 1
+  sundhaven6622:
+    npcs:
+      mob6609: 1
+  sundhaven6662:
+    npcs:
+      mob6616: 1
+  sundhaven6748:
+    npcs:
+      mob6637: 1
+  sundhaven6612:
+    npcs:
+      mob6630: 1
+  sundhaven6780:
+    groups:
+      sundhaven6780: 1
+  sundhaven6740:
+    npcs:
+      mob6655: 1
+  sundhaven6699:
+    npcs:
+      mob6654: 1
+  sundhaven6677:
+    npcs:
+      mob6639_3: 1
+  sundhaven6654:
+    npcs:
+      mob6625: 1
+  sundhaven6640:
+    groups:
+      sundhaven6640: 1
+  sundhaven6758:
+    npcs:
+      mob6624: 1
+  sundhaven6723:
+    npcs:
+      mob6650: 1
+  sundhaven6708:
+    npcs:
+      mob6606_4: 1
+  sundhaven6624:
+    groups:
+      sundhaven6624: 1
+  sundhaven6744:
+    npcs:
+      mob6617: 1
+  sundhaven6655:
+    groups:
+      sundhaven6655: 1
+  sundhaven6614:
+    groups:
+      sundhaven6614: 1
+  sundhaven6615:
+    npcs:
+      mob6640: 1
+  sundhaven6719:
+    groups:
+      sundhaven6719: 1
+  sundhaven6618:
+    npcs:
+      mob6619: 1
+  sundhaven6690:
+    npcs:
+      mob6651: 1
+  sundhaven6607:
+    groups:
+      sundhaven6607: 1
+  sundhaven6749:
+    npcs:
+      mob6653: 1
+  sundhaven6626:
+    npcs:
+      mob6606_3: 1
+  sundhaven6603:
+    npcs:
+      mob6604: 1
+  sundhaven6646:
+    npcs:
+      mob6633: 1
+  sundhaven6735:
+    groups:
+      sundhaven6735: 1
+  sundhaven6631:
+    npcs:
+      mob6614_1: 1
+  sundhaven6686:
+    npcs:
+      mob6647: 1
+  sundhaven6763:
+    npcs:
+      mob6606_7: 1
+  sundhaven6738:
+    npcs:
+      mob6606_2: 1
+  sundhaven6782:
+    npcs:
+      mob6634: 1
+  sundhaven6759:
+    npcs:
+      mob6626: 1
+  sundhaven6611:
+    npcs:
+      mob6629: 1
+  sundhaven6779:
+    groups:
+      sundhaven6779: 1
+  sundhaven6781:
+    npcs:
+      mob6623: 1
+  sundhaven6650:
+    npcs:
+      mob6631: 1
+  sundhaven6657:
+    npcs:
+      mob6664: 1
+  sundhaven6606:
+    npcs:
+      mob6665_1: 1
+  sundhaven6652:
+    groups:
+      sundhaven6652: 1
+  sundhaven6733:
+    npcs:
+      mob6609_2: 1
+  sundhaven6649:
+    groups:
+      sundhaven6649: 1
+  sundhaven6766:
+    npcs:
+      mob6663_1: 1
+  sundhaven6661:
+    npcs:
+      mob6657: 1
+  sundhaven6675:
+    npcs:
+      mob6646_2: 1
+  sundhaven6734:
+    npcs:
+      mob6627: 1
+  sundhaven6609:
+    npcs:
+      mob6649_2: 1
+  sundhaven6765:
+    groups:
+      sundhaven6765: 1
+  sundhaven6731:
+    groups:
+      sundhaven6731: 1
+  sundhaven6634:
+    groups:
+      sundhaven6634: 1
+  sundhaven6608:
+    groups:
+      sundhaven6608: 1
+  sundhaven6729:
+    npcs:
+      mob6608_2: 1
+  sundhaven6601:
+    npcs:
+      mob6603: 1
+  sundhaven6676:
+    npcs:
+      mob6646_3: 1
+  sundhaven6648:
+    groups:
+      sundhaven6648: 1
+  sundhaven6664:
+    groups:
+      sundhaven6664: 1
+  sundhaven6707:
+    groups:
+      sundhaven6707: 1
+  sundhaven6621:
+    npcs:
+      mob6621: 1
+  sundhaven6778:
+    groups:
+      sundhaven6778: 1
+  sundhaven6613:
+    groups:
+      sundhaven6613: 1
+  sundhaven6678:
+    npcs:
+      mob6639_4: 1
+  sundhaven6644:
+    npcs:
+      mob6649: 1
+  sundhaven6604:
+    groups:
+      sundhaven6604: 1
+  sundhaven6642:
+    npcs:
+      mob6648: 1
+  sundhaven6619:
+    groups:
+      sundhaven6619: 1
+  sundhaven6663:
+    groups:
+      sundhaven6663: 1
+  sundhaven6638:
+    groups:
+      sundhaven6638: 1
+  sundhaven6632:
+    npcs:
+      mob6601_9: 1
+  sundhaven6641:
+    groups:
+      sundhaven6641: 1
+  sundhaven6633:
+    npcs:
+      mob6638: 1
+  sundhaven6757:
+    npcs:
+      mob6656: 1
+  sundhaven6747:
+    groups:
+      sundhaven6747: 1
+  sundhaven6726:
+    npcs:
+      mob6661: 1
+  sundhaven6630:
+    npcs:
+      mob6659_5: 1
+npcs:
+  mob6662_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6639_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob6639_
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6601_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6621:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - retired thief
+            - mob
+          short: a retired thief
+          sight: >
+            A retired thief cleans a shot glass behind the counter.
+      flag:
+      identity:
+        name: a retired thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6646_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey cat
+            - mob6646_
+          short: a grey cat
+          sight: A grey cat pads around, sniffing things.
+      flag:
+      identity:
+        name: a grey cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6600:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - earl of sundhaven
+            - mob
+          short: The Earl of Sundhaven
+          sight: The Earl of Sundhaven is out for a stroll.
+      flag:
+      identity:
+        name: The Earl of Sundhaven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6604:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black-robed priestess
+            - mob
+          short: a Black-robed Priestess
+          sight: >
+            A black-robed priestess is charting a stellar calendar on the wall.
+      flag:
+      identity:
+        name: a Black-robed Priestess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6662_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6603:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black-robed priest
+            - mob
+          short: a Black-robed Priest
+          sight: >
+            A black-robed priest is here, tending a candelabra.
+      flag:
+      identity:
+        name: a Black-robed Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6602:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - town hangman
+            - mob
+          short: The Town Hangman
+          sight: The town hangman is here, idly swinging a noose.
+      flag:
+      identity:
+        name: The Town Hangman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6646_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey cat
+            - mob6646_
+          short: a grey cat
+          sight: A grey cat pads around, sniffing things.
+      flag:
+      identity:
+        name: a grey cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6664:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - disgruntled courier
+            - mob
+          short: a disgruntled courier
+          sight: A disgruntled courier awaits your bidding.
+      flag:
+      identity:
+        name: a disgruntled courier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6635:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mockingbird
+            - mob
+          short: a mockingbird
+          sight: >
+            A grey and white mockingbird mimics you from an oak branch.
+      flag:
+      identity:
+        name: a mockingbird
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6662_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6658:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian imp
+            - mob
+          short: a guardian imp
+          sight: >
+            A horned imp is crouched nearby, unfolding its wings.
+      flag:
+      identity:
+        name: a guardian imp
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6608_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blackberry picker
+            - mob6608_
+          short: a blackberry picker
+          sight: A blackberry picker is singing among the bushes.
+      flag:
+      identity:
+        name: a blackberry picker
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6606_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6605:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raven
+            - mob
+          short: a raven
+          sight: >
+            A shadow passes along the ground something flies overhead.
+      flag:
+      identity:
+        name: a raven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6633:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - weaponsmaster
+            - mob
+          short: the weaponsmaster
+          sight: >
+            The weaponsmaster sharpens a kris at the back wall.
+      flag:
+      identity:
+        name: the weaponsmaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6619:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archmage
+            - mob
+          short: The Archmage
+          sight: >
+            The Archmage watches you through a crystal ball as you arrive.
+      flag:
+        - missile
+        - fireball
+        - frost
+        - icestorm
+      identity:
+        name: The Archmage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6661:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - old blind mage
+            - mob
+          short: an old blind mage
+          sight: >
+            A blind mage is sitting here, communing with nature.
+      flag:
+        - missile
+      identity:
+        name: an old blind mage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6614_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gypsy minstrel
+            - mob6614_
+          short: a gypsy minstrel
+          sight: A gypsy minstrel bows a fiddle nearby.
+      flag:
+      identity:
+        name: a gypsy minstrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6645:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black animal
+            - mob
+          short: a black animal
+          sight: >
+            An iron chain rattles as something moves in the back of the room.
+      flag:
+      identity:
+        name: a black animal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6665_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven noble
+            - mob6665_
+          short: a Sundhaven noble
+          sight: >
+            A Sundhaven noble stares past you with an aloof air.
+      flag:
+      identity:
+        name: a Sundhaven noble
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6638:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mischievious boy
+            - mob
+          short: a mischievious boy
+          sight: >
+            A mischievious boy is looking for something to set on fire.
+      flag:
+      identity:
+        name: a mischievious boy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6608_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blackberry picker
+            - mob6608_
+          short: a blackberry picker
+          sight: A blackberry picker is singing among the bushes.
+      flag:
+      identity:
+        name: a blackberry picker
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6662_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6647_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large white cat
+            - mob6647_
+          short: a large white cat
+          sight: A large white cat is sunning himself on a wall.
+      flag:
+      identity:
+        name: a large white cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6610:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mendicant
+            - mob
+          short: a mendicant
+          sight: A mendicant in rags shoves a cup in your face.
+      flag:
+      identity:
+        name: a mendicant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6617:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mistress of assassins
+            - mob
+          short: The Mistress of Assassins
+          sight: >
+            The Mistress of Assassins comes half out of the shadow.
+      flag:
+      identity:
+        name: The Mistress of Assassins
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6656:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian gryphon
+            - mob
+          short: a guardian gryphon
+          sight: A large guardian gryphon sits immobile before you.
+      flag:
+      identity:
+        name: a guardian gryphon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6646_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey cat
+            - mob6646_
+          short: a grey cat
+          sight: A grey cat pads around, sniffing things.
+      flag:
+      identity:
+        name: a grey cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6609_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peddler
+            - mob6609_
+          short: a peddler
+          sight: A halfling peddler is here calling his wares.
+      flag:
+      identity:
+        name: a peddler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6650:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - little sparrow
+            - mob
+          short: a little sparrow
+          sight: A little sparrow pecks at the ground.
+      flag:
+      identity:
+        name: a little sparrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6629:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - old alchemist
+            - mob
+          short: the old alchemist
+          sight: >
+            The old alchemist stands here preparing bubbling vials.
+      flag:
+      identity:
+        name: the old alchemist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6639_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob6639_
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6665:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven noble
+            - mob
+          short: a Sundhaven noble
+          sight: >
+            A Sundhaven noble stares past you with an aloof air.
+      flag:
+      identity:
+        name: a Sundhaven noble
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6649_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gate watchman
+            - mob6649_
+          short: the gate watchman
+          sight: >
+            The gate watchman stares glass-eyed at the horizon.
+      flag:
+      identity:
+        name: the gate watchman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6605_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raven
+            - mob6605_
+          short: a raven
+          sight: >
+            A shadow passes along the ground something flies overhead.
+      flag:
+      identity:
+        name: a raven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6632:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armourer
+            - mob
+          short: the armourer
+          sight: The armourer is here buffing a suit of scale mail.
+      flag:
+      identity:
+        name: the armourer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6657:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian basilisk
+            - mob
+          short: a guardian basilisk
+          sight: >
+            A basilisk summoned from the ether guards a doorway.
+      flag:
+      identity:
+        name: a guardian basilisk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6654:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - milady de winter
+            - mob
+          short: Milady de Winter
+          sight: >
+            A beautiful woman with fair hair flares angrily up at your intrusion.
+      flag:
+        - missile
+        - v-touch
+        - ice-storm
+        - imm-v-touch
+        - imm-mute
+      identity:
+        name: Milady de Winter
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6620:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bartender
+            - mob
+          short: the bartender
+          sight: The bartender is here doing his thing.
+      flag:
+      identity:
+        name: the bartender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6651:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blackbird
+            - mob
+          short: a blackbird
+          sight: A red-winged blackbird is preening nearby.
+      flag:
+      identity:
+        name: a blackbird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6637:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - silk trader
+            - mob
+          short: The silk trader
+          sight: A silk trader is strolling, looking for business.
+      flag:
+      identity:
+        name: The silk trader
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6630:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - magess
+            - mob
+          short: the magess
+          sight: The wise magess flies about the shop.
+      flag:
+        - no-hassle
+      identity:
+        name: the magess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6613:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - foreign princess
+            - mob
+          short: a foreign princess
+          sight: A foreign princess is downing shots at the bar.
+      flag:
+      identity:
+        name: a foreign princess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6639:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6618:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knightmaster
+            - mob
+          short: The Knightmaster
+          sight: >
+            The Knightmaster fingers his beard and ponders you.
+      flag:
+      identity:
+        name: The Knightmaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6662:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6640:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tabby cat
+            - mob
+          short: a tabby cat
+          sight: A tabby cat is stalking a mockingbird.
+      flag:
+      identity:
+        name: a tabby cat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6622:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - falconer
+            - mob
+          short: The Falconer
+          sight: The falconer stands proudly before several cages.
+      flag:
+      identity:
+        name: The Falconer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6652:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant kestrel
+            - mob
+          short: a giant kestrel
+          sight: A giant white kestrel is perched near its master.
+      flag:
+      identity:
+        name: a giant kestrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6608:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blackberry picker
+            - mob
+          short: a blackberry picker
+          sight: A blackberry picker is singing among the bushes.
+      flag:
+      identity:
+        name: a blackberry picker
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6659_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6636:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - paranoid adventurer
+            - mob
+          short: a paranoid adventurer
+          sight: >
+            A paranoid adventurer hides within the town walls, afraid to leave.
+      flag:
+      identity:
+        name: a paranoid adventurer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6614_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gypsy minstrel
+            - mob6614_
+          short: a gypsy minstrel
+          sight: A gypsy minstrel bows a fiddle nearby.
+      flag:
+      identity:
+        name: a gypsy minstrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6601_9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6663_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moth
+            - mob6663_
+          short: a moth
+          sight: A small moth flits about nearby.
+      flag:
+      identity:
+        name: a moth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6614_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gypsy minstrel
+            - mob6614_
+          short: a gypsy minstrel
+          sight: A gypsy minstrel bows a fiddle nearby.
+      flag:
+      identity:
+        name: a gypsy minstrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6612:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - squire
+            - mob
+          short: a squire
+          sight: An eager squire stands attendant.
+      flag:
+      identity:
+        name: a squire
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6605_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raven
+            - mob6605_
+          short: a raven
+          sight: >
+            A shadow passes along the ground something flies overhead.
+      flag:
+      identity:
+        name: a raven
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6663_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moth
+            - mob6663_
+          short: a moth
+          sight: A small moth flits about nearby.
+      flag:
+      identity:
+        name: a moth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6614:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gypsy minstrel
+            - mob
+          short: a gypsy minstrel
+          sight: A gypsy minstrel bows a fiddle nearby.
+      flag:
+      identity:
+        name: a gypsy minstrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6662_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6623:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cartographer
+            - mob
+          short: The Cartographer
+          sight: >
+            The cartographer grins at you over wire-rimmed spectacles.
+      flag:
+      identity:
+        name: The Cartographer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6627:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - phadela
+            - mob
+          short: Phadela
+          sight: Phadela is here grinning maniacally in a mirror.
+      flag:
+      identity:
+        name: Phadela
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6642:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - young warrior
+            - mob
+          short: a young warrior
+          sight: A young warrior is sparring with his shadow.
+      flag:
+      identity:
+        name: a young warrior
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6662_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6639_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob6639_
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6639_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob6639_
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6624:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - town treasurer
+            - mob
+          short: The Town Treasurer
+          sight: >
+            The town treasurer sits happily on a huge pile of gold.
+      flag:
+      identity:
+        name: The Town Treasurer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6609_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peddler
+            - mob6609_
+          short: a peddler
+          sight: A halfling peddler is here calling his wares.
+      flag:
+      identity:
+        name: a peddler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6644:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sacrificial priestess
+            - mob
+          short: a sacrificial priestess
+          sight: >
+            A priestess is preparing a blindfolded animal for sacrifice.
+      flag:
+        - nosteal
+      identity:
+        name: a sacrificial priestess
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6601_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6631:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mekala
+            - mob
+          short: Mekala
+          sight: Mekala tosses some pad tai in a pan nearby.
+      flag:
+      identity:
+        name: Mekala
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6649_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gate watchman
+            - mob6649_
+          short: the gate watchman
+          sight: >
+            The gate watchman stares glass-eyed at the horizon.
+      flag:
+      identity:
+        name: the gate watchman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6628:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hobbit pastry chef
+            - mob
+          short: the hobbit pastry chef
+          sight: >
+            The hobbit pastry chef rolls some dough behind the counter.
+      flag:
+      identity:
+        name: the hobbit pastry chef
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6625:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blacksmith
+            - mob
+          short: the blacksmith
+          sight: The blacksmith stands in the glare of the fire.
+      flag:
+      identity:
+        name: the blacksmith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6646:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey cat
+            - mob
+          short: a grey cat
+          sight: A grey cat pads around, sniffing things.
+      flag:
+      identity:
+        name: a grey cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6660:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lord of the black watch
+            - mob
+          short: the Lord of the Black Watch
+          sight: >
+            The Lord of the Black Watch keeps the peace as he sips a scotch.
+      flag:
+      identity:
+        name: the Lord of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6614_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gypsy minstrel
+            - mob6614_
+          short: a gypsy minstrel
+          sight: A gypsy minstrel bows a fiddle nearby.
+      flag:
+      identity:
+        name: a gypsy minstrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6643:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wanted thief
+            - mob
+          short: a wanted thief
+          sight: >
+            A thief is lounging, hiding out from the bounty hunters.
+      flag:
+      identity:
+        name: a wanted thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6662_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6634:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - little old lady
+            - mob
+          short: a little old lady
+          sight: A little old lady hovers around you.
+      flag:
+      identity:
+        name: a little old lady
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6611:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bright knight
+            - mob
+          short: The Bright Knight
+          sight: >
+            A knight in bright armor is telling tales in a roaring voice.
+      flag:
+      identity:
+        name: The Bright Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6626:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jeweller
+            - mob
+          short: the jeweller
+          sight: The jeweller stands behind a glass case of rubies.
+      flag:
+        - no-steal
+      identity:
+        name: the jeweller
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6601_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brandy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brandy
+          short: Brandy
+          sight: >
+            Brandy is here, picking blackberries and humming a tune.
+      flag:
+      identity:
+        name: Brandy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6659_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6649:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gate watchman
+            - mob
+          short: the gate watchman
+          sight: >
+            The gate watchman stares glass-eyed at the horizon.
+      flag:
+      identity:
+        name: the gate watchman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6615:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - village idiot
+            - mob
+          short: The village idiot
+          sight: The village idiot is dancing about.
+      flag:
+      identity:
+        name: The village idiot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6655:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black naga guardian
+            - mob
+          short: a black naga guardian
+          sight: The black naga guardian is coiled here.
+      flag:
+      identity:
+        name: a black naga guardian
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6665_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven noble
+            - mob6665_
+          short: a Sundhaven noble
+          sight: >
+            A Sundhaven noble stares past you with an aloof air.
+      flag:
+      identity:
+        name: a Sundhaven noble
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6610_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mendicant
+            - mob6610_
+          short: a mendicant
+          sight: A mendicant in rags shoves a cup in your face.
+      flag:
+      identity:
+        name: a mendicant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6641:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - old mage
+            - mob
+          short: an old mage
+          sight: >
+            An old mage studies the chessboard in rapt contemplation.
+      flag:
+        - frost
+        - missile
+      identity:
+        name: an old mage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6606_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smoke rat
+            - mob6606_
+          short: a smoke rat
+          sight: A smoke-colored rat sits in the shadows.
+      flag:
+      identity:
+        name: a smoke rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6616:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - priestess of the ministry
+            - mob
+          short: The Priestess of the Ministry
+          sight: >
+            The Priestess of the Ministry is here, garbed in black.
+      flag:
+      identity:
+        name: The Priestess of the Ministry
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6610_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mendicant
+            - mob6610_
+          short: a mendicant
+          sight: A mendicant in rags shoves a cup in your face.
+      flag:
+      identity:
+        name: a mendicant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6601_10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven guard
+            - mob6601_
+          short: a Sundhaven guard
+          sight: A guard of Sundhaven stands watchfully.
+      flag:
+      identity:
+        name: a Sundhaven guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6609:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peddler
+            - mob
+          short: a peddler
+          sight: A halfling peddler is here calling his wares.
+      flag:
+      identity:
+        name: a peddler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6649_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gate watchman
+            - mob6649_
+          short: the gate watchman
+          sight: >
+            The gate watchman stares glass-eyed at the horizon.
+      flag:
+      identity:
+        name: the gate watchman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6662_9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6662_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black lamprey
+            - mob6662_
+          short: a black lamprey
+          sight: >
+            Something makes an eel-like motion under the water.
+      flag:
+      identity:
+        name: a black lamprey
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6665_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sundhaven noble
+            - mob6665_
+          short: a Sundhaven noble
+          sight: >
+            A Sundhaven noble stares past you with an aloof air.
+      flag:
+      identity:
+        name: a Sundhaven noble
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6666:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stu
+            - mob
+          short: Stu
+          sight: Stu the Recruit is standing here.
+      flag:
+      identity:
+        name: Stu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6659_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - warrior of the black watch
+            - mob6659_
+          short: a warrior of the Black Watch
+          sight: >
+            A warrior of the Black Watch maintains a alert vigilance here.
+      flag:
+      identity:
+        name: a warrior of the Black Watch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6638_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mischievious boy
+            - mob6638_
+          short: a mischievious boy
+          sight: >
+            A mischievious boy is looking for something to set on fire.
+      flag:
+      identity:
+        name: a mischievious boy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6635_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mockingbird
+            - mob6635_
+          short: a mockingbird
+          sight: >
+            A grey and white mockingbird mimics you from an oak branch.
+      flag:
+      identity:
+        name: a mockingbird
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6647:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large white cat
+            - mob
+          short: a large white cat
+          sight: A large white cat is sunning himself on a wall.
+      flag:
+      identity:
+        name: a large white cat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6653:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - athos
+            - mob
+          short: Athos
+          sight: >
+            Athos the great knight is somberly nursing a bottle of wine.
+      flag:
+      identity:
+        name: Athos
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6607:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thief
+            - mob
+          short: a thief
+          sight: You sense someone lurking about.
+      flag:
+      identity:
+        name: a thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6639_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dark-haired girl
+            - mob6639_
+          short: a dark-haired girl
+          sight: A dark-haired girl is eyeing you curiously.
+      flag:
+      identity:
+        name: a dark-haired girl
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob6663:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moth
+            - mob
+          short: a moth
+          sight: A small moth flits about nearby.
+      flag:
+      identity:
+        name: a moth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob6648:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - butcher
+            - mob
+          short: the butcher
+          sight: >
+            The town butcher tosses meat cleavers about listlessly.
+      flag:
+      identity:
+        name: the butcher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cathedral:wolven"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cathedral:secroom"
     short: &*Hall of &+LArmor
     sight: >
       The walls of this room are made up of cubicles, each containing a suit of armor and a small plaque

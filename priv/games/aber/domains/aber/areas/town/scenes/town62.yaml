@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:town:town63"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:town:town61"
     short: Cave
     sight: >
       You enter a large cave that looks like it is currently being used by somebody as a home. There are

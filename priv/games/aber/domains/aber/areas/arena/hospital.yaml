@@ -1,0 +1,51 @@
+groups:
+locations:
+  arena5:
+    npcs:
+      ymold: 1
+  limbo@limbo:
+    npcs:
+      crawler: 1
+npcs:
+  crawler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - carrion crawler
+            - crawler
+          short: Carrion Crawler
+          sight: >
+            A large worm like creature half way moves toward you, just coming far enough from the hole to
+            attack.
+      flag:
+      identity:
+        name: Carrion Crawler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ymold:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yellow mold
+            - ymold
+          short: Yellow mold
+          sight: >
+            Near a small crack in the wall, you notice one rather large, yellow brownish colored mold growing
+            happily in the dark.
+      flag:
+        - neg-missile
+        - neg-frost
+        - neg-shock
+        - negicestorm
+      identity:
+        name: Yellow mold
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

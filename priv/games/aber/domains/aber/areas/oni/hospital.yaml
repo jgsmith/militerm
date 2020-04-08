@@ -1,0 +1,688 @@
+groups:
+  oni13:
+    npcs:
+      treefrog1: 1
+      treefrog2: 1
+      treefrog3: 1
+  oni200:
+    npcs:
+      knight1: 1
+      knight2: 1
+      knight3: 1
+      knight4: 1
+      knight5: 1
+      knight6: 1
+  oni201:
+    npcs:
+      wizard1: 1
+      wizard2: 1
+      wizard3: 1
+      wizard4: 1
+      wizard5: 1
+      wizard6: 1
+  oni31:
+    npcs:
+      ghoul1: 1
+      ghoul2: 1
+      spider: 1
+  oni70:
+    npcs:
+      citizen4: 1
+      corrin: 1
+  oni999:
+    npcs:
+      statue1: 1
+      statue2: 1
+locations:
+  oni13:
+    groups:
+      oni13: 1
+  oni2:
+    npcs:
+      chipmunk: 1
+  oni200:
+    groups:
+      oni200: 1
+  oni201:
+    groups:
+      oni201: 1
+  oni31:
+    groups:
+      oni31: 1
+  oni64:
+    npcs:
+      citizen1: 1
+  oni66:
+    npcs:
+      klink: 1
+  oni68:
+    npcs:
+      citizen2: 1
+  oni69:
+    npcs:
+      citizen3: 1
+  oni70:
+    groups:
+      oni70: 1
+  oni87:
+    npcs:
+      demon1: 1
+  oni90:
+    npcs:
+      demon3: 1
+  oni91:
+    npcs:
+      demon2: 1
+  oni93:
+    npcs:
+      demon4: 1
+  oni99:
+    npcs:
+      xergon: 1
+  oni999:
+    groups:
+      oni999: 1
+npcs:
+  chipmunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chipmunk
+          short: Chipmunk
+          sight: A cute little chipmunk stares intently at you.
+      flag:
+      identity:
+        name: Chipmunk
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  citizen1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen
+          short: citizen
+          sight: A local citizen passes by.
+      flag:
+      identity:
+        name: citizen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  citizen2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen
+          short: citizen
+          sight: A local citizen passes by.
+      flag:
+      identity:
+        name: citizen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  citizen3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen
+          short: citizen
+          sight: A local citizen passes by.
+      flag:
+      identity:
+        name: citizen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  citizen4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - citizen
+          short: citizen
+          sight: A local citizen passes by.
+      flag:
+      identity:
+        name: citizen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  corrin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corrin
+          short: Corrin
+          sight: >
+            A odd person stands next to building with the sign 'Corrin's Home'
+      flag:
+      identity:
+        name: Corrin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minor demon
+            - demon
+          short: The Minor Demon
+          sight: A minor demon quickly sees you!
+      flag:
+      identity:
+        name: The Minor Demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - medium demon
+            - demon
+          short: The Medium Demon
+          sight: A medium threat demon charges at you!
+      flag:
+        - no-magic
+      identity:
+        name: The Medium Demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - medium demon
+            - demon
+          short: The Medium Demon
+          sight: A medium threat demon sits here unmoving.
+      flag:
+        - no-magic
+      identity:
+        name: The Medium Demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - high demon
+            - demon
+          short: The High Demon
+          sight: >
+            A high threat demon appears before you and surrounds you with its body.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - neg-shock
+        - neg-v-touch
+        - neg-b-hands
+      identity:
+        name: The High Demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghoul1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+          short: Ghoul
+          sight: >
+            The decaying carcass of a ghoul makes its way across the room.
+      flag:
+      identity:
+        name: Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghoul2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+          short: Ghoul
+          sight: >
+            The decaying carcass of a ghoul makes its way across the room.
+      flag:
+      identity:
+        name: Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  klink:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - klink
+          short: Klink
+          sight: The owner, Klink, is behind the counter.
+      flag:
+        - imm-mute
+        - mute
+        - fireball
+        - v-touch
+      identity:
+        name: Klink
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  knight4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: A Knight of the White Phoenix prepares for battle!
+      flag:
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: knight
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  spider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spider
+          short: Spider
+          sight: A large black spider hangs from the ceiling.
+      flag:
+      identity:
+        name: Spider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  statue1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - statue
+          short: Statue
+          sight: >
+            An ugly creature reminding you of a statue rushes towards you.
+      flag:
+        - imm-mute
+        - imm-cripple
+        - mute
+        - cripple
+      identity:
+        name: Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  statue2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - statue
+          short: Statue
+          sight: >
+            An ugly creature reminding you of a statue rushes towards you.
+      flag:
+        - imm-mute
+        - imm-cripple
+        - mute
+        - cripple
+      identity:
+        name: Statue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  treefrog1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frog
+            - treefrog
+          short: Frog
+          sight: A very large tree frog clings to a nearby tree.
+      flag:
+      identity:
+        name: Frog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  treefrog2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frog
+            - treefrog
+          short: Frog
+          sight: A very large tree frog clings to a nearby tree.
+      flag:
+      identity:
+        name: Frog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  treefrog3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frog
+            - treefrog
+          short: Frog
+          sight: A large tree frog clings to a nearby tree.
+      flag:
+      identity:
+        name: Frog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wizard1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sorceress
+            - wizard
+          short: sorceress
+          sight: >
+            A Sorceress of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: sorceress
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wizard2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wizard
+          short: wizard
+          sight: >
+            A Wizard of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: wizard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wizard3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sorceress
+            - wizard
+          short: Sorceress
+          sight: >
+            A Sorceress of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: Sorceress
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wizard4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wizard
+          short: wizard
+          sight: >
+            A Wizard of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: wizard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wizard5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sorceress
+            - wizard
+          short: Sorceress
+          sight: >
+            A Sorceress of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: Sorceress
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wizard6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wizard
+          short: wizard
+          sight: >
+            A Wizard of the White Phoenix is beginning to cast a spell!
+      flag:
+        - fireball
+        - missile
+        - frost
+        - v-touch
+        - ice-storm
+        - no-magic
+      identity:
+        name: wizard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  xergon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xergon
+          short: Xergon
+          sight: Xergon the arch-demon stares cruelly at you.
+      flag:
+        - fireball
+      identity:
+        name: Xergon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

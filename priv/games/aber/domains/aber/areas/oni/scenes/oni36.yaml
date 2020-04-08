@@ -9,4 +9,4 @@ detail:
     sight: >
       You stand in a small room that seems to separate the main temple floor with a small hallway to the west.
 flag:
-  - nomobiles
+  - no-mobiles

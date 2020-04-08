@@ -11,4 +11,4 @@ detail:
       tops of the trees. A vertical drop off the rock to the west means that you will have to head back east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

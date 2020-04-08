@@ -15,5 +15,5 @@ detail:
       mass. The seas are heavy all around you, though not too rough to the west. To the south the waves smooth
       off quite a bit, providing you can cross the rough waters before it.
 flag:
-  - onwater
+  - on-water
   - outdoors

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund22"
       south:
         target: "scene:aber:sommerlund:sommerlund24"
     short: Kai Monastery

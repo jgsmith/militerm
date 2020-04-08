@@ -1,7 +1,11 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter7"
+      northwest:
+        target: "scene:aber:enchanter:enchanter6"
+      southwest:
         target: "scene:aber:enchanter:enchanter4"
     short: Outside the Shack
     sight: >
@@ -10,4 +14,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

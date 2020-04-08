@@ -9,4 +9,4 @@ detail:
       hiding place for special items. There is not furniture or decoration.
 flag:
   - dark
-  - nomagic
+  - no-magic

@@ -10,7 +10,7 @@ detail:
       This is a long, winding road. Far off to the east, you can see Signal Mountain. There is a &+Csign&*
       here, by the road.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors
   - real
-  - tempreal
+  - temp-real

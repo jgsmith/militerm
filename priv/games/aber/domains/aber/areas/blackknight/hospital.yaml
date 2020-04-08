@@ -1,0 +1,45 @@
+groups:
+locations:
+  death:
+    npcs:
+      knight: 1
+npcs:
+  knight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black knight
+            - knight
+          short: Black knight
+          sight: The evil Black Knight is here.
+      flag:
+        - blind
+        - deaf
+        - mute
+        - fireball
+        - frost
+        - shock
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - negshock
+        - neg-bhands
+        - neg-vtouch
+        - neg-ice-storm
+        - nopunt
+        - nozap
+        - noexorcise
+        - noalias
+        - nosummon
+        - nosteal
+        - noforce
+        - noburn
+        - nosic
+      identity:
+        name: Black knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

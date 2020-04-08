@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cottage:cottage17"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cottage:cottage15"
     short: "Giant's Chamber"
     sight: >
       Everything here seems to be expanded to a grand scale; easily twice as large as usual. A huge stone

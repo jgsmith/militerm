@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:pyramid:pyramid16"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid21"
       west:
         target: "scene:aber:pyramid:pyramid18"
     short: Shrine of Neferteri

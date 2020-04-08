@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:khanjar:khanjar9526"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9529"
       up:
         target: "scene:aber:khanjar:khanjar9530"
     short: An Empty Vestibule
@@ -13,4 +15,4 @@ detail:
       small spirits howling their regret. To the north is a door, blackened but still in existence. Rather
       dangerous looking stairs lead upwards.
 flag:
-  - nomobiles
+  - no-mobiles

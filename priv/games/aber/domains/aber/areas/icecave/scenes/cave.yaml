@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:icecave:home"
       south:
         target: "scene:aber:icecave:tunnel"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:icecave:throne"
     short: The Cave of the Ice People
     sight: >
       You are standing in a vast icy cave. Ice covers the floor, making your balance precarious at best.

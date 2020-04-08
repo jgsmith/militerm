@@ -15,4 +15,4 @@ detail:
       return ascent would appear to be manageable.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

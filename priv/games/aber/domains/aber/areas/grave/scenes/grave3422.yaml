@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:grave:grave3421"
     short: The Top of the Belltower
     sight: >
       You struggle to reach this room as it has been a long climb. There is a large bell here, still intact.
@@ -13,4 +15,4 @@ detail:
       must have been destroyed. The only exit is down.
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles

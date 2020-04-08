@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund36"
       up:
         target: "scene:aber:sommerlund:sommerlund34"
     short: Tower Base

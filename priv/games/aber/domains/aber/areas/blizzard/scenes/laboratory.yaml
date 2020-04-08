@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:blizzard:shadowy"
     short: Laboratory
     sight: >
       You are in an old laboratory for sorcerous experiments. Almost everything to indicate this has been

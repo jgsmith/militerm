@@ -1,0 +1,266 @@
+groups:
+  saloon1:
+    npcs:
+      barman: 1
+      drunk1: 1
+      drunk2: 1
+  store:
+    npcs:
+      baker: 1
+      lady: 1
+locations:
+  armory:
+    npcs:
+      armorer: 1
+  bank:
+    npcs:
+      bankteller: 1
+  locksmith:
+    npcs:
+      locksmith: 1
+  office:
+    npcs:
+      bankmanager: 1
+  road10:
+    npcs:
+      child: 1
+  saloon1:
+    groups:
+      saloon1: 1
+  seadog:
+    npcs:
+      professor: 1
+  store:
+    groups:
+      store: 1
+  vault1:
+    npcs:
+      bankguard: 1
+  yard:
+    npcs:
+      kenny: 1
+npcs:
+  armorer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armorer
+          short: The Armorer
+          sight: A bulky armorer stands before you.
+      flag:
+        - no-summon
+      identity:
+        name: The Armorer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  baker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baker
+          short: The Baker
+          sight: A tall, thin baker stands here.
+      flag:
+      identity:
+        name: The Baker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bankguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bankguard
+          short: The BankGuard
+          sight: "The bank's security guard stands here."
+      flag:
+        - neg-frost
+        - neg-fireball
+        - no-summon
+      identity:
+        name: The BankGuard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bankmanager:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manager
+            - bankmanager
+          short: The Manager
+          sight: A chubby bank manager stands here wearing a suit.
+      flag:
+        - no-summon
+      identity:
+        name: The Manager
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bankteller:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teller
+            - bankteller
+          short: The Teller
+          sight: A bank teller waits here patiently.
+      flag:
+        - no-summon
+      identity:
+        name: The Teller
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  barman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barman
+          short: The Barman
+          sight: A barman is here serving drinks.
+      flag:
+      identity:
+        name: The Barman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  child:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - child
+          short: The Child
+          sight: A small child looks very lost.
+      flag:
+      identity:
+        name: The Child
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  drunk1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bobby
+            - drunk
+          short: Bobby
+          sight: >
+            A drunken teenager stumbles around in front of you, looking for a fight.
+      flag:
+      identity:
+        name: Bobby
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drunk2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drunk
+          short: The Drunk
+          sight: A drunk stumbles around in front of you.
+      flag:
+      identity:
+        name: The Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kenny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kenny
+          short: Kenny
+          sight: Kenny stands here in a bright orange jacket.
+      flag:
+      identity:
+        name: Kenny
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lady:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lady
+          short: The Lady
+          sight: A lady stands here looking around for something.
+      flag:
+      identity:
+        name: The Lady
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  locksmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - locksmith
+          short: The Locksmith
+          sight: A crazy-looking man stands here looking at you.
+      flag:
+        - neg-fireball
+        - neg-frost
+        - neg-shock
+        - neg-missile
+        - no-summon
+      identity:
+        name: The Locksmith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  professor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - professor
+          short: Professor
+          sight: >
+            A crazed CIS professor stands here, threatening you with homework.
+      flag:
+      identity:
+        name: Professor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

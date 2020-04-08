@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:eforest:worn"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:eforest:prison"
       west:
         target: "scene:aber:eforest:interrogation"
     short: "Lich's Prison"

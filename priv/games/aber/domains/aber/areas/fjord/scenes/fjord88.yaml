@@ -19,5 +19,5 @@ detail:
 flag:
   - cold
   - outdoors
-  - onwater
-  - nomobiles
+  - on-water
+  - no-mobiles

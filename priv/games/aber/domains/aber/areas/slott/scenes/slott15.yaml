@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:slott:slott16"
       north:
         target: "scene:aber:slott:slott21"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:slott:slott10"
     short: Library
     sight: >
       This is a large library with bookcases full of books. There are small tables and chairs placed out

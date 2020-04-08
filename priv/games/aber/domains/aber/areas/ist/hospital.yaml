@@ -1,0 +1,24 @@
+groups:
+locations:
+  bargandpand2:
+    npcs:
+      claypool: 1
+npcs:
+  claypool:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - les claypool
+            - claypool
+          short: Les Claypool
+          sight: >
+            Les Claypool, bassist for Primus, is practicing his speed riffs here.
+      flag:
+      identity:
+        name: Les Claypool
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

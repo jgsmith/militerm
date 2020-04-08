@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sdesert:desertsd67"
       west:
         target: "scene:aber:sdesert:desertsd64"
     short: A Small Clearing

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:blizzard:rough"
       south:
         target: "scene:aber:blizzard:pillared2"
     short: Throne Hall

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:origins:origins17"
     short: The Mountain in the East
     sight: >
       The light from the staff increases in magnitude until all you can see is a blinding white light and all
@@ -14,5 +16,5 @@ detail:
       the voice soothes.
 flag:
   - outdoors
-  - cantsummon
-  - nosummon
+  - cant-summon
+  - no-summon

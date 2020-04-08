@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:slott:slott4"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:slott:slott1"
       up:
         target: "scene:aber:slott:slott24"
       west:

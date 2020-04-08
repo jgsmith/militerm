@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:windy:windy7"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:windy:windy11"
     short: Rising Trail
     sight: >
       You stand in front of a massive pile of rubble which has avalanched from the mountains above,

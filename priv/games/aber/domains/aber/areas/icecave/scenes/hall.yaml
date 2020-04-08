@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:icecave:storage"
       west:
         target: "scene:aber:icecave:pool"
     short: Hall Of The Ice People

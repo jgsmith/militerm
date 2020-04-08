@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:slott:slott6"
       west:
         target: "scene:aber:slott:slott9"
     short: Storage room

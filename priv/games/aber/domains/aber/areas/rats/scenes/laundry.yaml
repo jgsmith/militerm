@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:rats:rat1"
       south:
         target: "scene:aber:rats:bathroom"
     short: Laundry

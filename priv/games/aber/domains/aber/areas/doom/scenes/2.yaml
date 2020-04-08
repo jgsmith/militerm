@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:doom:3"
       north:
         target: "scene:aber:doom:4"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:doom:1"
     short: &+cRoad to Town
     sight: >
       You are on a road that leads to the north and south through a lifeless forest. You notice the flowers on
@@ -15,5 +17,5 @@ detail:
       to a large and heavy set of gates that lead through a long wall. To the east you see a small wooden
       shack through the trees.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

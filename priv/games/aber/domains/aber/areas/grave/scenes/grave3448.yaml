@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:grave:grave3447"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:grave:grave3449"
     short: "The Priest's Closet"
     sight: >
       Here is where the priest kept his robes, crowns and other instuments of the priesthood. You notice on

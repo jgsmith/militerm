@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      north: null
+      down:
+        guarded: true
+        target: "scene:aber:oaktree:hole"
+      north:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree31"
       south:
         target: "scene:aber:blizzard:valley"
       up:

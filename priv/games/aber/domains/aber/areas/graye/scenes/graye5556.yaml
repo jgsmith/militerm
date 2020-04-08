@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:graye:graye5557"
+      south:
+        guarded: true
+        target: "scene:aber:graye:graye5555"
     short: "Scrytin's Chamber of Doom"
     sight: >
       This chamber is COVERED in blood. The Arch-Demon Scrytin has made this foul place his abode. There is an

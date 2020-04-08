@@ -13,6 +13,6 @@ detail:
       The ground here is dry and the air stale. One large crack, big enough for you to look into, stretches
       across your path.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

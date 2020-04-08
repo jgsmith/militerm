@@ -11,5 +11,5 @@ detail:
       paths, but here is a piece of sandy paradise. The surf crashes at your feet, washing up shells and
       stones and things.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

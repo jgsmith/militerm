@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:ildharas:ildharas57"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas22"
     short: Stone Stairway
     sight: >
       The wide, shallow stairs curve gracefully around in a circle. Made from the same stone as the castle,

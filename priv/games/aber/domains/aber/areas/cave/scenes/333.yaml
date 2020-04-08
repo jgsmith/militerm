@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:cave:334"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cave:armory"
     short: Dark Passage
     sight: >
       You stand in a long and extremely dark passage that leads northward into a small room.

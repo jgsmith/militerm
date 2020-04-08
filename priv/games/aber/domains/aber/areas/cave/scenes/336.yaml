@@ -1,11 +1,15 @@
 detail:
   default:
     exits:
-      down: null
-      south: null
+      down:
+        guarded: true
+        target: "scene:aber:cave:337"
+      south:
+        guarded: true
+        target: "scene:aber:cave:335"
     short: The Forge
     sight: >
       This is a large circular room where dwarven craftsman have crafted the many mighty weapons of dwarven
       kings of past. You sense great magics have been cast here upon those weapons.
 flag:
-  - nomagic
+  - no-magic

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:playhouse:house25"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:playhouse:house27"
     short: "Child's Nightmare: The Attic"
     sight: >
       What could possibly be going through your head to venture up into the attic? It is cold and dreary up

@@ -8,5 +8,5 @@ detail:
       before the doctors all need the medical care...or else you may wake up during surgery.
 flag:
   - peaceful
-  - nosummon
+  - no-summon
   - cantsummon

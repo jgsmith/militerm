@@ -11,5 +11,5 @@ detail:
       protective guards. As they have orders to kill anyone who ignores the warnings and enters here, you are
       quickly executed.
 flag:
-  - nomobiles
+  - no-mobiles
   - death

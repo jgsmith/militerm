@@ -11,4 +11,4 @@ detail:
       and slimy, and you pray that no rain falls to raise the level of the brackish water below. On the east
       wall, far below you, is a door which you suspect you could reach if you jumped from the rungs.
 flag:
-  - nomobiles
+  - no-mobiles

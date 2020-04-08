@@ -11,4 +11,4 @@ detail:
       back to the west.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

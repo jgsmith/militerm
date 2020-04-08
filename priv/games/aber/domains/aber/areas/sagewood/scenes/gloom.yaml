@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:sagewood:altar"
     short: Gloomy Chamber
     sight: >
       This small chamber is carved even deeper into the ground. The only way out appears to be a poorly made

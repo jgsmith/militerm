@@ -1,0 +1,805 @@
+groups:
+  sommerlund50:
+    npcs:
+      giak1: 1
+      giak2: 1
+      giak3: 1
+      giak4: 1
+  sommerlund52:
+    npcs:
+      ixian: 1
+      wolfbane: 1
+  sommerlund63:
+    npcs:
+      vordak1: 1
+      vordak2: 1
+  sommerlund75:
+    npcs:
+      drakkar1: 1
+      drakkar2: 1
+      drakkar3: 1
+  sommerlund81:
+    npcs:
+      ghanesh: 1
+      slutar: 1
+      xog: 1
+  sommerlund82:
+    npcs:
+      haakon: 1
+      kraggenskul: 1
+      zagarna: 1
+  sommerlund83:
+    npcs:
+      gnaag: 1
+      taktaal: 1
+      vashna: 1
+locations:
+  sommerlund1:
+    npcs:
+      alyss: 1
+  sommerlund12:
+    npcs:
+      zakhan: 1
+  sommerlund15:
+    npcs:
+      qinefer: 1
+  sommerlund16:
+    npcs:
+      rimoah: 1
+  sommerlund18:
+    npcs:
+      fruitcake: 1
+  sommerlund20:
+    npcs:
+      muddle: 1
+  sommerlund24:
+    npcs:
+      banedon: 1
+  sommerlund4:
+    npcs:
+      barraka: 1
+  sommerlund45:
+    npcs:
+      shianti: 1
+  sommerlund50:
+    groups:
+      sommerlund50: 1
+  sommerlund52:
+    groups:
+      sommerlund52: 1
+  sommerlund53:
+    npcs:
+      dakomyd: 1
+  sommerlund54:
+    npcs:
+      ishir: 1
+  sommerlund56:
+    npcs:
+      lucille: 1
+  sommerlund57:
+    npcs:
+      protean: 1
+  sommerlund58:
+    npcs:
+      carboid: 1
+  sommerlund59:
+    npcs:
+      slavemaster: 1
+  sommerlund63:
+    groups:
+      sommerlund63: 1
+  sommerlund74:
+    npcs:
+      cadak: 1
+  sommerlund75:
+    groups:
+      sommerlund75: 1
+  sommerlund79:
+    npcs:
+      vaxagore: 1
+  sommerlund81:
+    groups:
+      sommerlund81: 1
+  sommerlund82:
+    groups:
+      sommerlund82: 1
+  sommerlund83:
+    groups:
+      sommerlund83: 1
+  sommerlund88:
+    npcs:
+      lonewolf: 1
+  sommerlund89:
+    npcs:
+      organodeath: 1
+npcs:
+  vordak2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vordak
+          short: Vordak
+          sight: Another Vordak waves its staff at you.
+      flag:
+      identity:
+        name: Vordak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghanesh:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghanesh
+          short: Ghanesh
+          sight: >
+            Darklord Ghanesh rolls doubles and buys Electric Company.
+      flag:
+      identity:
+        name: Ghanesh
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  giak2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eggy
+            - giak
+          short: Eggy
+          sight: Eggy wants your juicy red heart.
+      flag:
+      identity:
+        name: Eggy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ixian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deathlord
+            - ixian
+          short: The Deathlord
+          sight: >
+            The Deathlord of Ixia hasn't had his morning coffee and is, therefore, quite cranky!
+      flag:
+        - no-alias
+      identity:
+        name: The Deathlord
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drakkar2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pitza
+            - drakkar
+          short: Pitza
+          sight: >
+            A ferociously-eating Pitza wants to permanently stop your heart for that interruption.
+      flag:
+      identity:
+        name: Pitza
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  taktaal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - taktaal
+          short: Taktaal
+          sight: >
+            Taktaal puts on his sunglasses as he cruises to Boardwalk.
+      flag:
+      identity:
+        name: Taktaal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vordak1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vordak
+          short: Vordak
+          sight: >
+            A red-clad ghoul of the Vordak clan stares defiantly at you.
+      flag:
+      identity:
+        name: Vordak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  barraka:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barraka
+          short: Barraka
+          sight: >
+            The rogue bandit leader Barraka leaps at you with a rusty shovel.
+      flag:
+      identity:
+        name: Barraka
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shianti:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shianti
+          short: Shianti
+          sight: >
+            Grey Star the Shianti wizard is ready to go medieval on you!
+      flag:
+        - missile
+      identity:
+        name: Shianti
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drakkar3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - putza
+            - drakkar
+          short: Putza
+          sight: The runt Putza agrees with his comrade.
+      flag:
+      identity:
+        name: Putza
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gnaag:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gnaag
+          short: Gnaag
+          sight: >
+            Gnaag has a 12-streak as he zips past you again and again.
+      flag:
+      identity:
+        name: Gnaag
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zagarna:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zagarna
+          short: Zagarna
+          sight: Zagarna really stinks with B. and  O. Railroad.
+      flag:
+      identity:
+        name: Zagarna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  giak1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aggy
+            - giak
+          short: Aggy
+          sight: Aggy wants your hot-air head.
+      flag:
+      identity:
+        name: Aggy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zakhan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zakhan
+          short: Zakhan
+          sight: >
+            Zakhan Kimah is far away from his empire, but still thinks you should bow to him.
+      flag:
+        - shock
+      identity:
+        name: Zakhan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  protean:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - protean
+          short: Protean
+          sight: >
+            One of the ring builders of the shape shifting god Protean is here.
+      flag:
+      identity:
+        name: Protean
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  organodeath:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - organodeath
+          short: OrganoDeath
+          sight: >
+            A flying tree with inflatable hands of death bursts forth from the earth and fixes you with an icy
+            glare... In a deep, stentorian voice, OrganoDeath grumbles, 'My masters are dead?! Then, so shall
+            be you! Vashna's revenge shall be fulfilled!' With a unholy shriek of rage, OrganoDeath charges
+            toward you, branches ready to peel you like papier mache.
+      flag:
+        - blind
+        - no-zap
+        - no-alias
+        - no-exo
+        - no-magic
+        - no-steal
+      identity:
+        name: OrganoDeath
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vaxagore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vaxagore
+          short: Vaxagore
+          sight: >
+            Didn't anyone teach Vaxagore the Dragon not to play with his food?
+      flag:
+      identity:
+        name: Vaxagore
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dakomyd:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dakomyd
+          short: Dakomyd
+          sight: >
+            The great shadow of the Dakomyd's bulk falls upon you.
+      flag:
+        - neg-fireball
+        - neg-frost
+      identity:
+        name: Dakomyd
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  banedon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - banedon
+          short: Banedon
+          sight: >
+            The Guildmaster of the Brotherhood of the Crystal Star, Banedon, is putting on a magic show.
+      flag:
+        - blind
+        - no-magic
+      identity:
+        name: Banedon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  haakon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haakon
+          short: Haakon
+          sight: >
+            Haakon claps his claws together wildly as you go directly to jail!
+      flag:
+      identity:
+        name: Haakon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  qinefer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - qinefer
+          short: Qinefer
+          sight: >
+            Lone Wolf's love, Qinefer, stands here guarding her advisor.
+      flag:
+      identity:
+        name: Qinefer
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  slutar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slutar
+          short: Slutar
+          sight: >
+            Slutar asks if you want to play a game of Monopoly.
+      flag:
+      identity:
+        name: Slutar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lucille:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lucille
+          short: Lucille
+          sight: >
+            Though only eight herself, Lucille chose to join the undead.
+      flag:
+      identity:
+        name: Lucille
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  ishir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ishir
+          short: Ishir
+          sight: >
+            Ishir, High Priestess of the Moon, smiles at your approach.
+      flag:
+        - no-zap
+        - no-alias
+        - no-steal
+        - no-hassle
+        - no-punt
+      identity:
+        name: Ishir
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  carboid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - carboid
+          short: Carboid
+          sight: >
+            A shapeless mass of carboid goo attempts to smother you.
+      flag:
+      identity:
+        name: Carboid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drakkar1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - patza
+            - drakkar
+          short: Patza
+          sight: Patza glares at you for interrupting his dinner.
+      flag:
+      identity:
+        name: Patza
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vashna:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vashna
+          short: Vashna
+          sight: >
+            Vashna hates Monopoly and is interested only in sinking his weapon hilt-deep into your fleshy
+            abdomen.
+      flag:
+      identity:
+        name: Vashna
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rimoah:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rimoah
+          short: Rimoah
+          sight: >
+            Lord Rimoah ponders about the state of affairs in the kingdom.
+      flag:
+      identity:
+        name: Rimoah
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lonewolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lone wolf
+            - lonewolf
+          short: Lone Wolf
+          sight: Young Lone Wolf is here acting childishly.
+      flag:
+        - missile
+      identity:
+        name: Lone Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alyss:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alyss
+          short: Alyss
+          sight: >
+            Sarcastic Alyss flounces teasingly at you and howls at the sky.
+      flag:
+      identity:
+        name: Alyss
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  fruitcake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fruitcake
+          short: Fruitcake
+          sight: >
+            The legendary Fruitcake of lore is juggling fruit here.
+      flag:
+      identity:
+        name: Fruitcake
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  giak4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oggy
+            - giak
+          short: Oggy
+          sight: Oggy wants to take your health.
+      flag:
+      identity:
+        name: Oggy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  giak3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - iggy
+            - giak
+          short: Iggy
+          sight: Iggy wants to chop off your hands.
+      flag:
+      identity:
+        name: Iggy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cadak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cadak
+          short: Cadak
+          sight: >
+            Arch-druid Cadak needs a new guinea pig. How about you?
+      flag:
+        - fire-ball
+      identity:
+        name: Cadak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  muddle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - muddle
+          short: Muddle
+          sight: >
+            A muck-covered monstrosity, Muddle, moshes from the muddy mire, ready to maul your middle!
+      flag:
+        - blind
+      identity:
+        name: Muddle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  xog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - xog
+          short: Xog
+          sight: >
+            Xog lands on Free Parking and collects the income tax you just paid.
+      flag:
+      identity:
+        name: Xog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kraggenskul:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kraggenskul
+          short: Kraggenskul
+          sight: >
+            Kraggenskul, a 'community pest', can get out of jail free now.
+      flag:
+      identity:
+        name: Kraggenskul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slavemaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slavemaster
+          short: Slavemaster
+          sight: >
+            The famed Slavemaster of Aarnak looks over the latest T-shirt shipment requests.
+      flag:
+        - no-zap
+        - no-steal
+      identity:
+        name: Slavemaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolfbane:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - copycat
+            - wolfbane
+          short: Copycat
+          sight: An almost-exact copy of Lone Wolf sneers at you.
+      flag:
+      identity:
+        name: Copycat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

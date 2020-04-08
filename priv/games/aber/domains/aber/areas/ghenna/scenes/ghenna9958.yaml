@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9957"
     short: "The dominatrix's abode."
     sight: >
       This room is filled with all manner of black, silver studded leather. Whips, chains and handcuffs are

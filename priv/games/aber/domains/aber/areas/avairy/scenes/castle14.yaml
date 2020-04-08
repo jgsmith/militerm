@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:avairy:castle26"
       south:
         target: "scene:aber:avairy:castle13"
     short: Castle Playhouse

@@ -1,0 +1,373 @@
+groups:
+  elf:
+    npcs:
+      gorden: 1
+      keldar: 1
+  guarded:
+    npcs:
+      guido: 1
+      nunzio: 1
+locations:
+  bedroom:
+    npcs:
+      succubus: 1
+  bottom:
+    npcs:
+      gargoyle: 1
+  captain:
+    npcs:
+      captain: 1
+  cave:
+    npcs:
+      cerberus: 1
+  commander:
+    npcs:
+      commander: 1
+  den:
+    npcs:
+      asmodeus: 1
+  elf:
+    groups:
+      elf: 1
+  fungoid:
+    npcs:
+      truffle: 1
+  glen:
+    npcs:
+      bear: 1
+  guarded:
+    groups:
+      guarded: 1
+  inside:
+    npcs:
+      loonitherin: 1
+  lich:
+    npcs:
+      jailor: 1
+  museum:
+    npcs:
+      asmadeus: 1
+  priest:
+    npcs:
+      priest: 1
+  prison:
+    npcs:
+      prisoner: 1
+  room:
+    npcs:
+      lich: 1
+  tainted:
+    npcs:
+      rotty: 1
+npcs:
+  asmadeus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asmadeus
+          short: Asmadeus
+          sight: Asmadeus the Demon Artist growls at you.
+      flag:
+      identity:
+        name: Asmadeus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asmodeus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asmodeus
+          short: Asmodeus
+          sight: >
+            Asmodeus prepares to kill you for daring to confront him!
+      flag:
+      identity:
+        name: Asmodeus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bear
+          short: The Bear
+          sight: A grossly deformed black bear menaces you.
+      flag:
+      identity:
+        name: The Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  captain:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - captain
+          short: The Captain
+          sight: >
+            The Captain of the Guard looks at you suspiciously.
+      flag:
+      identity:
+        name: The Captain
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cerberus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cerberus
+          short: Cerberus
+          sight: Cerberus growls at you, looking very hungry.
+      flag:
+      identity:
+        name: Cerberus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  commander:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - commander
+          short: Commander
+          sight: The Dark Elven Commander looks at you menacingly.
+      flag:
+      identity:
+        name: Commander
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gargoyle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gargoyle
+          short: The Gargoyle
+          sight: A large stone gargoyle leers at you.
+      flag:
+      identity:
+        name: The Gargoyle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gorden:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gorden
+          short: Gorden
+          sight: >
+            Gorden the Dark Elf stands here, guarding the Dark Elven realms.
+      flag:
+      identity:
+        name: Gorden
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guido:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guido
+          short: Guido
+          sight: Guido the Guardsman flexes his muscles.
+      flag:
+      identity:
+        name: Guido
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jailor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jailor
+          short: The Jailor
+          sight: The Jailor advances menacingly towards you.
+      flag:
+      identity:
+        name: The Jailor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  keldar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - keldar
+          short: keldar
+          sight: Keldar the Dark Elf laughs at you.
+      flag:
+      identity:
+        name: keldar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lich:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lich
+          short: The Lich
+          sight: The Lich is here, an evil grin on his boney face.
+      flag:
+      identity:
+        name: The Lich
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  loonitherin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - loonitherin
+          short: Loonitherin
+          sight: Loonitherin the Mad Elf gazes at you arrogantly.
+      flag:
+      identity:
+        name: Loonitherin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  nunzio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nunzio
+          short: Nunzio
+          sight: Nunzio the Guardsman stares menacingly at you.
+      flag:
+      identity:
+        name: Nunzio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  priest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - priest
+          short: The Priest
+          sight: The Dark Elven Priest prepares to do you in.
+      flag:
+        - missile
+        - neg-fireball
+      identity:
+        name: The Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  prisoner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prisoner
+          short: The Prisoner
+          sight: A prisoner cowers in one corner.
+      flag:
+      identity:
+        name: The Prisoner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rotty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rotty
+          short: rotty
+          sight: >
+            Rotty the flying squirrel soars towards you, foaming at the mouth.
+      flag:
+      identity:
+        name: rotty
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  succubus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - succubus
+          short: The Succubus
+          sight: The Succubus looks at you greedily.
+      flag:
+      identity:
+        name: The Succubus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  truffle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - truffle
+          short: Truffle
+          sight: >
+            Truffle the Fungus Monster shuffles across the room.
+      flag:
+      identity:
+        name: Truffle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:crystalcave:crystalcave9"
       south:
         target: "scene:aber:crystalcave:crystalcave6"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:crystalcave:crystalcave12"
     short: &+CCrystal Caves&N
     sight: >
       &+BWater&N spills down the west wall reflecting the &+Wlight&N making it seem like liquid &+Wcrystal&N.

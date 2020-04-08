@@ -1,11 +1,13 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9991"
     short: Small Opening
     sight: >
       Behind that boulder appears to be a small area just big enough for you to move around freely. Seems
       someone went to great lengths to keep something hid in here.
 flag:
   - dark
-  - oneperson
+  - one-person

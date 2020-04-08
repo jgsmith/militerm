@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere52"
       west:
         target: "scene:aber:brookmere:brookmere49"
     short: Alcove

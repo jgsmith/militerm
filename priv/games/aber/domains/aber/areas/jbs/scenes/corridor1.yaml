@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:jbs:guard"
       south:
         target: "scene:aber:jbs:seargent"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:corridor2"
     short: Dungeon Corridor
     sight: >
       This is a large, dim, smoky corridor that is lit by sparsely separated torches that are giving of

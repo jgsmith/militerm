@@ -1,12 +1,14 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9504"
     short: The Lavatory
     sight: >
       The lavatory is quite cramped and the smell around exactly what it uses to be in places like this.
       However the inside is very tidy, seemingly taken care often. Anyway, you are ready to leave now...
 flag:
-  - oneperson
-  - nomobiles
+  - one-person
+  - no-mobiles
   - dark

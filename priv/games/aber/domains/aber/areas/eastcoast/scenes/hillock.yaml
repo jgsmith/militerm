@@ -18,4 +18,4 @@ detail:
       to your south. You nearly overlook an almost abandoned trail to the north.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -15,6 +15,6 @@ detail:
       to the north and south they swirl around huge lava flows, evidently from the volcano visible to the
       east. To the west is the open sea.
 flag:
-  - nomobiles
-  - onwater
+  - no-mobiles
+  - on-water
   - outdoors

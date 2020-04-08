@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:slott:slott43"
     short: Coffin
     sight: >
       A coffin, bigger then the average coffin. But nonetheless just a wooden coffin, the type you use to bury

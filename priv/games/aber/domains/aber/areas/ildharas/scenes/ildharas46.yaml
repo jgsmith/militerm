@@ -3,8 +3,12 @@ detail:
     exits:
       east:
         target: "scene:aber:ildharas:ildharas49"
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas47"
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas45"
       west:
         target: "scene:aber:ildharas:ildharas44"
     short: Dark Corridor

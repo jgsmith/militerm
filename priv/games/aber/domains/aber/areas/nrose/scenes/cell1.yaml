@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:nrose:northdorm"
     short: Cell
     sight: >
       You have entered a monk's cell. There is a feather bed along one wall and a table and chair along the

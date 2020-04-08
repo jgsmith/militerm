@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:kastle:2"
+      south:
+        guarded: true
+        target: "scene:aber:kastle:4"
     short: Side Hallway
     sight: >
       This is a small alcove off the main passageway. The walls are paneled with wood finely painted and

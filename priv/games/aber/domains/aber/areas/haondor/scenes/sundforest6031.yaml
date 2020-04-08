@@ -12,6 +12,6 @@ detail:
       wind. To your north you can see a small log cabin through the trees, and to the southeast there seems to
       be some sort of clearing, with many birds circling above it.
 flag:
-  - nomobiles
+  - no-mobiles
   - real
   - outdoors

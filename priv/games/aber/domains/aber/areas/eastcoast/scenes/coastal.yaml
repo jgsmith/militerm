@@ -15,4 +15,4 @@ detail:
       path, only a crack in the rock, leading down near the rocks below.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

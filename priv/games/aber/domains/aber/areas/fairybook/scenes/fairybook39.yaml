@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fairybook:fairybook40"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook38"
     short: Inside the Tree
     sight: >
       You stand inside a tree, the inside of which is covered with crystal. There are two doors, one to the

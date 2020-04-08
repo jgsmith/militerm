@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:adept:adept66"
       east:
         target: "scene:aber:adept:adept42"
       north:

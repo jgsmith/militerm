@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:catacomb:hall"
     short: The Final Resting Place
     sight: >
       You are in a rectangular hall, with smooth stone walls, and a marble floor. An overwhelming sense of

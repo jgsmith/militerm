@@ -1,0 +1,23 @@
+groups:
+locations:
+  cave:
+    npcs:
+      troll: 1
+npcs:
+  troll:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - troll
+          short: The Troll
+          sight: >
+            A large hulking troll snarls at you as he prepares to do you in.
+      flag:
+      identity:
+        name: The Troll
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -6,5 +6,5 @@ detail:
     short: Barracks
     sight: The barracks of the Knights of the White Phoenix.
 flag:
-  - cantsummon
-  - nosummon
+  - cant-summon
+  - no-summon

@@ -1,0 +1,224 @@
+groups:
+locations:
+  336:
+    npcs:
+      forgemaster: 1
+  342:
+    npcs:
+      firedrake: 1
+  gatehall:
+    npcs:
+      dio: 1
+  great:
+    npcs:
+      glowin: 1
+  guardroom:
+    npcs:
+      bomber: 1
+  haggis:
+    npcs:
+      haggis: 1
+  limbo@limbo:
+    npcs:
+      keeper: 1
+  smithy:
+    npcs:
+      smythe: 1
+  store2:
+    npcs:
+      owin: 1
+  treasury:
+    npcs:
+      dragon: 1
+  w_tower:
+    npcs:
+      diamar: 1
+npcs:
+  bomber:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bomber
+          short: bomber
+          sight: Bomber The Heavy-Fan Dwarf glares evilly at you.
+      flag:
+      identity:
+        name: bomber
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  diamar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diamar
+          short: Diamar
+          sight: >
+            Diamar says 'Have you seen my axe? I wrote on it to return it to me.'
+      flag:
+      identity:
+        name: Diamar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dio
+          short: dio
+          sight: >
+            Dio The Singing Dwarf wanders around, singing arias.
+      flag:
+      identity:
+        name: dio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dragon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragon
+          short: The Dragon
+          sight: >
+            A huge fire-breathing dragon stares menacingly in your direction.
+      flag:
+        - imm-fireball
+        - no-summon
+      identity:
+        name: The Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  firedrake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - firedrake
+          short: The Firedrake
+          sight: >
+            The Firedrake of Thorbadin rests lazily on a pile of treasure.
+      flag:
+        - fireball
+      identity:
+        name: The Firedrake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  forgemaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - forgemaster
+          short: The Forgemaster
+          sight: >
+            The Forgemaster, Master Craftsman of Thorbadin, works here on some powerful magical weapon.
+      flag:
+      identity:
+        name: The Forgemaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glowin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - glowin
+          short: glowin
+          sight: >
+            Glowin The Radioactive Dwarf looks menacingly at you.
+      flag:
+      identity:
+        name: glowin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  haggis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haggis
+          short: The Haggis
+          sight: >
+            A large, vicious looking haggis runs around squeaking.
+      flag:
+      identity:
+        name: The Haggis
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  keeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - keeper
+          short: The Keeper
+          sight: >
+            The Keeper, Guardian of the Gates, challenges you to a duel to the DEATH!
+      flag:
+      identity:
+        name: The Keeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  owin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - owin
+          short: owin
+          sight: Owin The Broke Dwarf watches you suspiciously.
+      flag:
+      identity:
+        name: owin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  smythe:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smythe
+          short: smythe
+          sight: >
+            Smythe The Upper Class Dwarven Smith stands here, worn by years at the forge.
+      flag:
+      identity:
+        name: smythe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

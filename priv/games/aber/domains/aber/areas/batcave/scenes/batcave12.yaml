@@ -11,4 +11,4 @@ detail:
       gradually toward the north.
 flag:
   - dark
-  - nosummon
+  - no-summon

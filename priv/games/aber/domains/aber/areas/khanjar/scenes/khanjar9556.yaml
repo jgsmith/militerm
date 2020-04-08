@@ -10,5 +10,5 @@ detail:
       You are standing on the brink of the grassy hillside that begins to descend gently. Below there lies
       what appears very dense forest. To the north is a ditch.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

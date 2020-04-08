@@ -12,4 +12,4 @@ detail:
       &+Rtapestries&* hang from the walls. In the center of the room you see a table. Many kings have feasted
       at this &+Ctable.
 flag:
-  - nomobiles
+  - no-mobiles

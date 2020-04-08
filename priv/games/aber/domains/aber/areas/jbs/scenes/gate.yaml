@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:jbs:farmpath"
       south:
         target: "scene:aber:jbs:sepasture"
       west:

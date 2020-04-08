@@ -3,9 +3,11 @@ detail:
     exits:
       south:
         target: "scene:aber:graye:graye5547"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:graye:graye5549"
     short: "Tunnel's End"
     sight: >
       You reach the end of the tunnel. Just above you, sunlight peeks around the edge of a &+ytrapdoor&*.
 flag:
-  - nomobiles
+  - no-mobiles

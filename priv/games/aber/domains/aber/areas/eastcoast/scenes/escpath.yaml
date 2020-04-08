@@ -13,4 +13,4 @@ detail:
       continue above you, heading near some old castle walls, and down into the murky swamplands below.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

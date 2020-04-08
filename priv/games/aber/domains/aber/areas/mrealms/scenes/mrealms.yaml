@@ -1,12 +1,14 @@
 detail:
   default:
     exits:
-      # :
-      #   target: "scene:aber:mrealms:lounge"
       down:
         target: "scene:aber:start:temple"
       east:
         target: "scene:aber:mrealms:wildflowers"
+      northeast:
+        target: "scene:aber:mrealms:lounge"
+      northwest:
+        target: "scene:aber:mrealms:lounge"
       south:
         target: "scene:aber:mrealms:disco"
       up:
@@ -19,6 +21,6 @@ detail:
       Paradise to the south and continue on your quests.
 flag:
   - peace
-  - fastmana
-  - fastheal
-  - nomobiles
+  - fast-mana
+  - fast-heal
+  - no-mobiles

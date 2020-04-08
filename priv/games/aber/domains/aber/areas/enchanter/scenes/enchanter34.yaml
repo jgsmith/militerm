@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      up: null
+      north:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter35"
+      up:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter35"
       west:
         target: "scene:aber:enchanter:enchanter31"
     short: Guarded Door

@@ -13,4 +13,4 @@ detail:
       down, there is no way that you could manage to get back up again.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

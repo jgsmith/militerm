@@ -7,5 +7,5 @@ detail:
       | A | A | A | A | A | A | A | A | A | A &+W | | | | | | | | | | | | | | | | | | | | | | | | | | | | &+W
       | | | | | | | | | | | | | | | | | | | | | | | | | | | | &+RFATALITY!!!
 flag:
-  - nomobiles
+  - no-mobiles
   - death

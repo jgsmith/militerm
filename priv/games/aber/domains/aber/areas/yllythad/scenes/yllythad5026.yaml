@@ -17,5 +17,5 @@ detail:
       angle the city itself can be seen. You have come upon a number of floating docks to tie your boat up.
       Once you disembark, you can ascend the ladder up to the main dock.
 flag:
-  - onwater
+  - on-water
   - outdoors

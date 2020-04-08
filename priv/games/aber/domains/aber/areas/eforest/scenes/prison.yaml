@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:eforest:lich"
     short: Prison Cell
     sight: >
       You have entered a small prison cell. The floor is covered with hay, and a small bed sits against one

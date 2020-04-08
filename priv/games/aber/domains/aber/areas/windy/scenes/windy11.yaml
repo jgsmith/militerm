@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:windy:windy9"
       west:
         target: "scene:aber:windy:windy13"
     short: Mountain Trail

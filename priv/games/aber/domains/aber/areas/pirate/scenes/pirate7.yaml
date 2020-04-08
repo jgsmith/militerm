@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:pirate:pirate5"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:pirate:pirate9"
       west:
         target: "scene:aber:pirate:pirate8"
     short: Hallway

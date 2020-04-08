@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fjord:fjord47"
     short: Sulphurous Cave
     sight: >
       The interior of the cave is lined with hidden crevices and fissures which pump forth yellowish, pungent

@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:nrose:middorm"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nrose:cell3"
     short: Dormitory
     sight: >
       You are at the southern end of the hallway of the monk's dormitory. There is a door to the west.

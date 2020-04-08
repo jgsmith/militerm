@@ -17,6 +17,6 @@ detail:
       hundreds of small streams of bubbles float from the the base of the fountain to the top.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

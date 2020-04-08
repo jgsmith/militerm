@@ -17,6 +17,6 @@ detail:
 flag:
   - private
   - party
-  - nomobiles
-  - nomagic
+  - no-mobiles
+  - no-magic
   - soundproof

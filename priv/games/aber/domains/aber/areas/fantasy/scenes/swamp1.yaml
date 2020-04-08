@@ -10,4 +10,4 @@ detail:
       The forest seems to mix into a swamp here. The swamp looks to extend to the east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

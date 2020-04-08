@@ -8,5 +8,5 @@ detail:
       This is a small shop with assorted weapons hanging on the walls behind the large desk that the shopkeep
       is sitting at. The shopkeep smiles at you and gestures for you to sit down and rest.
 flag:
-  - nomobiles
+  - no-mobiles
   - peaceful

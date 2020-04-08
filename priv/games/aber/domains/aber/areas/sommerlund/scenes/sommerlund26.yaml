@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund25"
     short: The Speedster
     sight: >
       This is the coach of a magician. It has books abound in dealing with lore and arcane incantations. There

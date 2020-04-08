@@ -17,4 +17,4 @@ detail:
       the volcano, and small bushes can be seen to the north.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

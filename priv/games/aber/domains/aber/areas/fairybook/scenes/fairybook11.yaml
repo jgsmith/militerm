@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fairybook:fairybook12"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook10"
     short: Under the Table
     sight: >
       You stand beneath the glass table, staring up through it. From here, you realize that you can't reach

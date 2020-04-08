@@ -12,4 +12,4 @@ detail:
       the end of the street.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:village:vault1"
     short: Vault
     sight: >
       Luckily the vault itself is open. You enter a small, dull room made completely of steel. There are many

@@ -17,4 +17,4 @@ detail:
 flag:
   - soundproof
   - underwater
-  - nomobiles
+  - no-mobiles

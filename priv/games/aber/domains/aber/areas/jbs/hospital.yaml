@@ -1,0 +1,486 @@
+groups:
+  fwood6:
+    npcs:
+      jane: 1
+      mac: 1
+  sbedroom:
+    npcs:
+      belinda: 1
+      jack: 1
+locations:
+  campfire:
+    npcs:
+      hector: 1
+  cloud_gate:
+    npcs:
+      gatekeeper: 1
+  eyes:
+    npcs:
+      jesse: 1
+  fallow1:
+    npcs:
+      sheep: 1
+  fallow2:
+    npcs:
+      ruffles: 1
+  fountain5:
+    npcs:
+      fish: 1
+  foyer:
+    npcs:
+      bob: 1
+  fwood1:
+    npcs:
+      hedgehog: 1
+  fwood6:
+    groups:
+      fwood6: 1
+  gate:
+    npcs:
+      rosebud: 1
+  gopher_den:
+    npcs:
+      gopherr: 1
+  guard:
+    npcs:
+      john: 1
+  guest1:
+    npcs:
+      guest: 1
+  large:
+    npcs:
+      people_eater: 1
+  lkitchen:
+    npcs:
+      chef: 1
+  mugwumps:
+    npcs:
+      mugwump: 1
+  npond:
+    npcs:
+      eugene: 1
+  sbedroom:
+    groups:
+      sbedroom: 1
+  secret_treasury:
+    npcs:
+      goose: 1
+  sestall:
+    npcs:
+      goat: 1
+  vines:
+    npcs:
+      tree: 1
+  waiting:
+    npcs:
+      crier: 1
+npcs:
+  belinda:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - belinda
+          short: Belinda
+          sight: >
+            The farmer's daughter Belinda is here with her boyfriend.
+      flag:
+      identity:
+        name: Belinda
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bob:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - farmer
+            - bob
+          short: The farmer
+          sight: >
+            Farmer Bob is here, and he wants you to stay away from his daughter.
+      flag:
+      identity:
+        name: The farmer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chef:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swedish chef
+            - chef
+          short: The Swedish Chef
+          sight: >
+            The Swedish Chef is here throwing things at you! Bork Bork Bork!
+      flag:
+      identity:
+        name: The Swedish Chef
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crier:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crier
+          short: The Crier
+          sight: >
+            The king's crier is here waiting to announce the guests of the king. He knows that you are not a
+            guest.
+      flag:
+      identity:
+        name: The Crier
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eugene:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eugene
+          short: Eugene
+          sight: >
+            Eugene the duck is here quacking softly to himself.
+      flag:
+      identity:
+        name: Eugene
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fish:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fish
+          short: The fish
+          sight: >
+            A huge fish is here making you finally realize what fish-food must feel like.
+      flag:
+      identity:
+        name: The fish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gatekeeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gatekeeper
+          short: The Gatekeeper
+          sight: There is a giant gatekeeper here keeping you out.
+      flag:
+      identity:
+        name: The Gatekeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goat
+          short: The goat
+          sight: "There's a goat here with it's belly rumbling."
+      flag:
+      identity:
+        name: The goat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goose:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goose
+          short: The goose
+          sight: The goose that lays golden eggs is sitting here.
+      flag:
+      identity:
+        name: The goose
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gopherr:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gopher
+            - gopherr
+          short: The Gopher
+          sight: A giant gopher is here busily scurrying around
+      flag:
+      identity:
+        name: The Gopher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant dinnerguest
+            - guest
+          short: The Giant Dinnerguest
+          sight: >
+            There is a giant dinnerguest sitting in this giant room.
+      flag:
+      identity:
+        name: The Giant Dinnerguest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hector:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hector
+          short: Hector
+          sight: >
+            Hector the happy-go-lucky hippie is wandering absent mindedly by.
+      flag:
+      identity:
+        name: Hector
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hedgehog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hedgehog
+          short: The hedgehog
+          sight: >
+            A viscious little hedgehog leaps out of the mist at you!
+      flag:
+      identity:
+        name: The hedgehog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jack:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jack
+          short: Jack
+          sight: >
+            Belinda's boyfriend Jack is here fondling his girlfriend.
+      flag:
+      identity:
+        name: Jack
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jane:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mary jane
+            - jane
+          short: Mary Jane
+          sight: Mary Jane is here wondering where up is.
+      flag:
+      identity:
+        name: Mary Jane
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jesse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jesse
+          short: Jesse
+          sight: >
+            Jesse, the man inside the giant, is here, and he isn't happy to see you.
+      flag:
+      identity:
+        name: Jesse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  john:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - john
+          short: John
+          sight: >
+            John the guard is here, and he doesn't look happy to see you.
+      flag:
+      identity:
+        name: John
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seargent big mac
+            - mac
+          short: Seargent Big Mac
+          sight: >
+            Seargent Big Mac is here waiting to arrest you for eating one too many hamburgers.
+      flag:
+      identity:
+        name: Seargent Big Mac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mugwump:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mugwump
+          short: The mugwump
+          sight: >
+            A tall, skinny, ugly, slimy mugwump is here sneering greedily at you.
+      flag:
+      identity:
+        name: The mugwump
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  people_eater:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - people eater
+            - people_eater
+          short: The People Eater
+          sight: >
+            The One-eyed-one-horned-flying-purple-people-eater is here and he's hungry!
+      flag:
+      identity:
+        name: The People Eater
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rosebud:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rosebud
+          short: Rosebud
+          sight: >
+            Rosebud the killer attack cow is here guarding the gate.
+      flag:
+      identity:
+        name: Rosebud
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ruffles:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ruffles
+          short: Ruffles
+          sight: Ruffles the sheepdog is here guarding his flock.
+      flag:
+      identity:
+        name: Ruffles
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sheep:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sheep
+          short: The sheep
+          sight: A sheep is here bleating softly.
+      flag:
+      identity:
+        name: The sheep
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tree:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tree
+          short: The Tree
+          sight: >
+            A large tree is looming over you preparing to do you in
+      flag:
+      identity:
+        name: The Tree
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

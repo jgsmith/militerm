@@ -1,0 +1,46 @@
+groups:
+  church:
+    npcs:
+      bob: 1
+      puff: 1
+locations:
+  church:
+    groups:
+      church: 1
+npcs:
+  bob:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bob
+          short: Bob
+          sight: >
+            Bob is here, looking eager to answer your questions.
+      flag:
+        - no-summon
+      identity:
+        name: Bob
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  puff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - puff
+          short: puff
+          sight: >
+            Puff The Fractal Dragon is here with a faraway look in her eyes.
+      flag:
+        - neg-fireball
+      identity:
+        name: puff
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

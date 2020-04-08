@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:slott:slott8"
       up:
         target: "scene:aber:slott:slott28"
     short: Southeast tower

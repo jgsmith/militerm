@@ -10,7 +10,7 @@ defmodule Militerm.Accounts do
 
   alias Militerm.Accounts.User
 
-  @start_location {"in", {:thing, "scene:aber:village:seadog", "default"}}
+  @start_location {"in", {:thing, "scene:aber:start:between", "default"}}
 
   @doc """
   Returns the list of users.

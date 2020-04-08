@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:kastle:escape"
       south:
         target: "scene:aber:kastle:2"
     short: Escape Passage South

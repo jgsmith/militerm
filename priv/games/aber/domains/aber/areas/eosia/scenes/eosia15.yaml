@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eosia:eosia14"
     short: "Elenia's Throne Room"
     sight: >
       From this room Queen Ehlana used to rule the whole Kingdom of Elenia. Now, it lies empty, sealed by

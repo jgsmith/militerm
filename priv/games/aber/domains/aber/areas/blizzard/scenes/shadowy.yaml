@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:blizzard:limestone"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:blizzard:laboratory"
       west:
         target: "scene:aber:blizzard:dark_cave"
     short: Shadowy Corridor

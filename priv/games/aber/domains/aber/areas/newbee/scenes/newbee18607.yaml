@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:newbee:newbee18603"
       south:
         target: "scene:aber:newbee:newbee18611"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:newbee:newbee18606"
     short: More Of The Hallway
     sight: >
       Oh joy! More of this annoying passage. Perhaps there is something more exciting through that door to the

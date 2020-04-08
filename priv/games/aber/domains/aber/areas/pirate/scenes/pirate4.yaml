@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:pirate:pirate5"
       up:
         target: "scene:aber:pirate:pirate2"
     short: "Ship's Hold"

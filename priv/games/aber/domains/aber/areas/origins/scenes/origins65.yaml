@@ -17,7 +17,7 @@ detail:
       leave us, simply &+Wcast away your fears and jump.&n'
 flag:
   - outdoors
-  - cantsummon
-  - nosummon
+  - cant-summon
+  - no-summon
   - party
   - peaceful

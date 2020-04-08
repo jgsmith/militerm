@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:chess:chessqq86"
       west:
         target: "scene:aber:chess:chessqq84"
     short: The Second Dock

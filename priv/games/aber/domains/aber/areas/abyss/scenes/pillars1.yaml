@@ -15,4 +15,4 @@ detail:
       you as you decide which way to go.
 flag:
   - dark
-  - nomagic
+  - no-magic

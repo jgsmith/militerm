@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6741"
     short: A secret hideaway
     sight: >
       You slip down into the hideaway. A pleasant room encloses you, a windowless dugout hidden from the

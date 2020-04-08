@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:adept:adept45"
     short: Overgrown House
     sight: >
       This appears to be a former two-room house, the back bedroom entrance now completely blocked by the

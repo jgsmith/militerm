@@ -15,4 +15,4 @@ detail:
 flag:
   - peaceful
   - party
-  - nomobiles
+  - no-mobiles

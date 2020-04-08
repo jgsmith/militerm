@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas46"
     short: Empty Cell
     sight: >
       Somewhat cleaner and larger than most, it must have been used to house more important guests. Clean

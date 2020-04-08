@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:catacomb:17"
     short: The Closet
     sight: >
       You are in a small closet. Discarded rags on the floor suggest that it may once have been used as a

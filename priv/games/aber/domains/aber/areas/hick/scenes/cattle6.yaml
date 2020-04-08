@@ -11,4 +11,4 @@ detail:
       leads south into the livestock area.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

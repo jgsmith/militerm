@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:rainforest:forest135"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:rainforest:city2"
     short: Golden Archway
     sight: >
       You have come upon a high archway made of stone but overlaid with gold leaf in some places. Mostly it
@@ -11,4 +13,4 @@ detail:
       city of El Dorado? You can go through the archway to the west or head out into the forest to the east.
 flag:
   - outdoors
-  - rainforest
+  - rain-forest

@@ -10,6 +10,6 @@ detail:
       You are standing on a grassy bottom of the ditch, seemingly trampled. Low bushes grow around. The ditch
       leads west, while there is a grove to the east.
 flag:
-  - nomobiles
+  - no-mobiles
   - real
   - outdoors

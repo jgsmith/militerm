@@ -1,10 +1,14 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:orcholdii:neroom2"
       south:
         target: "scene:aber:orcholdii:arch3"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:orcholdii:nwroom2"
     short: Grand Hallway
     sight: >
       You are standing at the end of the northern hallway. The hall continues to be grandiose. There is a

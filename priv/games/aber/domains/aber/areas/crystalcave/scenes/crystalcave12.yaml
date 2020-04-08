@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:crystalcave:crystalcave11"
     short: &+CCrystal Grotto&N
     sight: >
       Stepping inside, you see a large grotto formed entirely out of glowing &+Wcrystals&N. Light pouring in

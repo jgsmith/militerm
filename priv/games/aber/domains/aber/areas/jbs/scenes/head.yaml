@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:jbs:nose_chamber"
       east:
         target: "scene:aber:jbs:eyes"
     short: Inside the Head

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:fjord:fjord2"
       south:
         target: "scene:aber:jbs:jbs163"
     short: Gravel Pathway
@@ -12,4 +14,4 @@ detail:
       sides accurately spaced by rocks lining the length of the trail.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

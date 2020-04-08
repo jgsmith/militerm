@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:balharbor:balhar37"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:balharbor:balhar45"
     short: The Courtroom
     sight: >
       You are inside the city's court house where criminals are tried and convicted of their crimes. This
@@ -17,6 +19,6 @@ detail:
       going to the judge's chambers is set next to the judge's bench. You can leave the courthouse through the
       east door.
 flag:
-  - noquit
-  - nomagic
-  - nomobiles
+  - no-quit
+  - no-magic
+  - no-mobiles

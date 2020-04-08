@@ -12,4 +12,4 @@ detail:
       To find out what he charges for his lessons, type "&+Clearn info&*".
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles

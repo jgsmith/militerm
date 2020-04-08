@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:eosia:eosia48"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eosia:eosia50"
     short: By the Mountainside
     sight: >
       You are at the base of one of the tallest mountains you have ever seen. Just avove the clouds, you think

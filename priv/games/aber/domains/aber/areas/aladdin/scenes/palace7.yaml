@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      south: null
-      west: null
+      south:
+        guarded: true
+        target: "scene:aber:aladdin:palace6"
+      west:
+        guarded: true
+        target: "scene:aber:aladdin:palace8"
     short: The Hidden Guard Room
     sight: >
       It appears as though Jafar assumed you would make it this far. There is nothing of particular interest

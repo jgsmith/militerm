@@ -1,9 +1,15 @@
 detail:
   default:
     exits:
-      down: null
-      east: null
-      north: null
+      down:
+        guarded: true
+        target: "scene:aber:newbee:newbee18605"
+      east:
+        guarded: true
+        target: "scene:aber:newbee:newbee18607"
+      north:
+        guarded: true
+        target: "scene:aber:newbee:newbee18602"
     short: A Small Room
     sight: >
       Hmmm... this is an interesting little room. Ack, and there is an interesting little creature staring at

@@ -15,4 +15,4 @@ detail:
 flag:
   - outdoors
   - cold
-  - nomobiles
+  - no-mobiles

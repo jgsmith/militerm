@@ -18,5 +18,5 @@ detail:
       You start 	 || F || 	 || A || 	 || L || 	 || L || 	 || I || 	 || N || 	 || G || 	 || || 	 || A|| 	 || N
       || 	 || D || 	 || || 	 || F || 	 || A || 	 || L || 	 || L || 	 || I || 	 || N || 	 ||G || 	 || ||
 flag:
-  - nomobiles
-  - negregen
+  - no-mobiles
+  - neg-regen

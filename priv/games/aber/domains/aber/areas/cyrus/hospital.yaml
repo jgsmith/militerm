@@ -1,0 +1,693 @@
+groups:
+  4:
+    npcs:
+      bartender: 1
+      oruc: 1
+  65:
+    npcs:
+      pguard1: 1
+      pguard2: 1
+      pguard3: 1
+locations:
+  14:
+    npcs:
+      wrestler: 1
+  18:
+    npcs:
+      bogowa: 1
+  19:
+    npcs:
+      bebaji: 1
+  2:
+    npcs:
+      villager: 1
+  20:
+    npcs:
+      lutix: 1
+  21:
+    npcs:
+      keprek: 1
+  22:
+    npcs:
+      gaav: 1
+  23:
+    npcs:
+      jayl: 1
+  24:
+    npcs:
+      efnel: 1
+  31:
+    npcs:
+      guard13: 1
+  32:
+    npcs:
+      guard12: 1
+  33:
+    npcs:
+      guard11: 1
+  34:
+    npcs:
+      guard10: 1
+  35:
+    npcs:
+      guard9: 1
+  36:
+    npcs:
+      guard8: 1
+  37:
+    npcs:
+      guard7: 1
+  38:
+    npcs:
+      guard6: 1
+  39:
+    npcs:
+      guard5: 1
+  4:
+    groups:
+      4: 1
+  40:
+    npcs:
+      guard4: 1
+  46:
+    npcs:
+      guard3: 1
+  47:
+    npcs:
+      guard2: 1
+  51:
+    npcs:
+      guard1: 1
+  6:
+    npcs:
+      catix: 1
+  61:
+    npcs:
+      bwark: 1
+  62:
+    npcs:
+      sijone: 1
+  63:
+    npcs:
+      uzsmo: 1
+  64:
+    npcs:
+      cyrus: 1
+  65:
+    groups:
+      65: 1
+  73:
+    npcs:
+      hermit: 1
+  8:
+    npcs:
+      guardian: 1
+  80:
+    npcs:
+      creature: 1
+npcs:
+  wrestler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wrestler
+          short: wrestler
+          sight: A huge, powerful-looking wrestler is here.
+      flag:
+      identity:
+        name: wrestler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard13:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pguard1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sawdor
+            - pguard
+          short: sawdor
+          sight: Sawdor, the guard is here.
+      flag:
+      identity:
+        name: sawdor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  villager:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - man
+            - villager
+          short: man
+          sight: A man is fleeing, in total panic.
+      flag:
+      identity:
+        name: man
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hermit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hermit
+          short: hermit
+          sight: A smelly hermit is here.
+      flag:
+      identity:
+        name: hermit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pguard2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gumpam
+            - pguard
+          short: gumpam
+          sight: Gumpam, the guard is here.
+      flag:
+      identity:
+        name: gumpam
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  creature:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creature
+          short: creature
+          sight: A smelly &+Rcreature&* is sleeping here.
+      flag:
+      identity:
+        name: creature
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bwark:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bwark
+          short: bwark
+          sight: An evil presence is here.
+      flag:
+      identity:
+        name: bwark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  uzsmo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - uzsmo
+          short: uzsmo
+          sight: An evil presence is here.
+      flag:
+      identity:
+        name: uzsmo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bogowa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bogowa
+          short: Bogowa
+          sight: >
+            Bogowa, the father of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Bogowa
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard12:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oruc:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oruc
+          short: oruc
+          sight: >
+            Oruc, the village elder, is here, sipping his tea and humming a little plainting ballad.
+      flag:
+      identity:
+        name: oruc
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bartender:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bartender
+          short: bartender
+          sight: >
+            The bartender is here, with a sad look on his face.
+      flag:
+      identity:
+        name: bartender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bebaji:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bebaji
+          short: Bebaji
+          sight: >
+            Bebaji, the older sister of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Bebaji
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jayl:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jayl
+          short: Jayl
+          sight: >
+            Jayl, the father of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Jayl
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  catix:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - catix
+          short: catix
+          sight: >
+            Catix the wiseman is sitting at the table, mumbling.
+      flag:
+      identity:
+        name: catix
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian
+          short: guardian
+          sight: A guardian is here, sleeping.
+      flag:
+      identity:
+        name: guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sijone:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sijone
+          short: sijone
+          sight: An evil presence is here.
+      flag:
+      identity:
+        name: sijone
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  efnel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - efnel
+          short: Efnel
+          sight: >
+            Efnel, the ugly freak Wajsyg is here looking at you meaningly.
+      flag:
+      identity:
+        name: Efnel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pguard3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - qzedo
+            - pguard
+          short: qzedo
+          sight: Qzedo, the guard is here.
+      flag:
+      identity:
+        name: qzedo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: guard
+          sight: A guard is here, guarding the maze.
+      flag:
+      identity:
+        name: guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lutix:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lutix
+          short: Lutix
+          sight: >
+            Lutix, the younger brother of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Lutix
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  keprek:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - keprek
+          short: Keprek
+          sight: >
+            Keprek, the older brother of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Keprek
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cyrus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cyrus
+          short: cyrus
+          sight: Cyrus, the source of evil is here.
+      flag:
+        - fireball
+        - frost
+        - shock
+        - ice-storm
+        - b-hands
+        - missile
+        - vtouch
+        - neg-fireball
+        - neg-missile
+        - neg-b-hands
+        - neg-vtouch
+      identity:
+        name: cyrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gaav:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gaav
+          short: Gaav
+          sight: >
+            Gaav, the mother of the Wajsyg family is standing here.
+      flag:
+      identity:
+        name: Gaav
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

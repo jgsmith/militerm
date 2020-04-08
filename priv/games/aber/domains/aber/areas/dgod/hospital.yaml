@@ -1,0 +1,23 @@
+groups:
+locations:
+  arctica1:
+    npcs:
+      acanthostega: 1
+npcs:
+  acanthostega:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acanthostega
+          short: Acanthostega
+          sight: >
+            The early tetrapod Acanthostega is crawling about on the floor.
+      flag:
+      identity:
+        name: Acanthostega
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

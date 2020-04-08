@@ -16,4 +16,4 @@ detail:
       continues to the west and east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

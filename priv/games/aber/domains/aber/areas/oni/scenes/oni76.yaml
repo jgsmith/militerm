@@ -11,4 +11,4 @@ detail:
       few set of tracks, but most of them lead to wine barrels. One does stop in front of an empty portion of
       the east wall, but it looks like they turn around right away.
 flag:
-  - cantsummon
+  - cant-summon

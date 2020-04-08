@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cathedral:eastcat"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cathedral:sorbtomb"
       west:
         target: "scene:aber:cathedral:westcat"
     short: Catacombs

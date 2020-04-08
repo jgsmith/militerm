@@ -16,5 +16,5 @@ detail:
       to land.
 flag:
   - light
-  - onwater
+  - on-water
   - outdoors

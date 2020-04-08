@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:sommerlund:sommerlund21"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund23"
     short: Before the Monastery
     sight: >
       You stand straight before the massive doors at the entrance to the Monastery. The doors are easily ten

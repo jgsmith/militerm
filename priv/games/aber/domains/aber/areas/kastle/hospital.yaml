@@ -1,0 +1,103 @@
+groups:
+  19:
+    npcs:
+      flosi: 1
+      skapti: 1
+locations:
+  13:
+    npcs:
+      blix: 1
+  16:
+    npcs:
+      crud: 1
+  19:
+    groups:
+      19: 1
+  4:
+    npcs:
+      knight: 1
+npcs:
+  blix:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blix
+          short: blix
+          sight: Blix the Goblin looks happy to see you.
+      flag:
+      identity:
+        name: blix
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crud:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crud
+          short: crud
+          sight: >
+            A Creeping Crud is slushing around, trying to get at you.
+      flag:
+      identity:
+        name: crud
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flosi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flosi
+          short: flosi
+          sight: >
+            Flosi the Tax Collector wrings his hands at the prospect of new taxes.
+      flag:
+      identity:
+        name: flosi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: The Knight
+          sight: >
+            A Skeletal Knight is waiting here for someone to strangle.
+      flag:
+      identity:
+        name: The Knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skapti:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skapti
+          short: skapti
+          sight: >
+            Skapti the Tax Collector wrings his hands at the prospect of new taxes.
+      flag:
+      identity:
+        name: skapti
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -1,0 +1,374 @@
+groups:
+  palace:
+    npcs:
+      jafar: 1
+      princess: 1
+      sultan: 1
+  palace4:
+    npcs:
+      guard3: 1
+      guard7: 1
+  palace7:
+    npcs:
+      guard5: 1
+      guard6: 1
+locations:
+  cave:
+    npcs:
+      abu: 1
+  cliff:
+    npcs:
+      beast: 1
+  lamp1:
+    npcs:
+      genie1: 1
+  oasis3:
+    npcs:
+      snake: 1
+  palace:
+    groups:
+      palace: 1
+  palace11:
+    npcs:
+      guard8: 1
+  palace12:
+    npcs:
+      guard9: 1
+  palace2:
+    npcs:
+      guard1: 1
+  palace3:
+    npcs:
+      guard2: 1
+  palace4:
+    groups:
+      palace4: 1
+  palace5:
+    npcs:
+      guard4: 1
+  palace7:
+    groups:
+      palace7: 1
+  palace8:
+    npcs:
+      iago: 1
+  tower:
+    npcs:
+      genie2: 1
+npcs:
+  abu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - abu
+          short: Abu
+          sight: There is a playful monkey swinging around here.
+      flag:
+        - no-hassle
+      identity:
+        name: Abu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beast:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - icy beast
+            - beast
+          short: The Icy Beast
+          sight: >
+            The Icy Beast roars at the sight of its new found dinner.
+      flag:
+      identity:
+        name: The Icy Beast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  genie1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - genie
+          short: Genie
+          sight: An allpowerful, blue Genie floats here.
+      flag:
+        - no-hassle
+      identity:
+        name: Genie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  genie2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - genie
+          short: Genie
+          sight: >
+            An all powerful, blue Genie floats here looking at you with hopeful eyes. He longs to be free and
+            all you have to do is say it.
+      flag:
+        - no-hassle
+      identity:
+        name: Genie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - abdul
+            - guard
+          short: Abdul
+          sight: >
+            Abdul is one of the more fashionably dressed castle guards.
+      flag:
+      identity:
+        name: Abdul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ali
+            - guard
+          short: Ali
+          sight: Ali, a castle guard, prepares to attack.
+      flag:
+      identity:
+        name: Ali
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mohammed
+            - guard
+          short: Mohammed
+          sight: Mohammed, a castle guard, prepares to attack.
+      flag:
+      identity:
+        name: Mohammed
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hooman
+            - guard
+          short: Hooman
+          sight: >
+            Hooman the guard sharpens his sword looking forward to killing you.
+      flag:
+      identity:
+        name: Hooman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mammad
+            - guard
+          short: Mammad
+          sight: Mammad has been awaiting your arrival.
+      flag:
+      identity:
+        name: Mammad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - omid
+            - guard
+          short: Omid
+          sight: Omid smiles, showing off his golden tooth.
+      flag:
+      identity:
+        name: Omid
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - amon
+            - guard
+          short: Amon
+          sight: Amon, a castle guard, prepares to attack.
+      flag:
+      identity:
+        name: Amon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bijan
+            - guard
+          short: Bijan
+          sight: >
+            Bijan is really tired and really wants to kill you so he can take a nap.
+      flag:
+      identity:
+        name: Bijan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ashkan
+            - guard
+          short: Ashkan
+          sight: >
+            Ashkan, the guard leader, is not pleased to see you.
+      flag:
+      identity:
+        name: Ashkan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  iago:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - iago
+          short: Iago
+          sight: >
+            Iago screechs 'I will kill you if you give me another cracker!'
+      flag:
+      identity:
+        name: Iago
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jafar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jafar
+          short: Jafar
+          sight: >
+            Jafar says, 'I dare you to challenge me... You street rat!'
+      flag:
+      identity:
+        name: Jafar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  princess:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - princess jasmine
+            - princess
+          short: Princess Jasmine
+          sight: Princess Jasmine stares deeply into your eyes.
+      flag:
+        - no-hassle
+      identity:
+        name: Princess Jasmine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slimey the snake
+            - snake
+          short: Slimey the Snake
+          sight: >
+            Slimey the Snake hung quietly from a tree... until you wandered in.
+      flag:
+      identity:
+        name: Slimey the Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sultan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sultan
+          short: Sultan
+          sight: >
+            The Sultan of Agrabah, Jasmine's father, is very pleased to see you.
+      flag:
+        - no-hassle
+      identity:
+        name: Sultan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

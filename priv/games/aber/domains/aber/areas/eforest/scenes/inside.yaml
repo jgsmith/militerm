@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eforest:shattered"
     short: Inside the Grand Oak
     sight: >
       You gasp out in awe at the quiet beauty of this hidden hollow. Looking around, 'majesty' is the word

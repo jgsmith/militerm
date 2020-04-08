@@ -13,4 +13,4 @@ detail:
       is a path leading to the garden, and to the east you see a low building.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -13,7 +13,7 @@ detail:
       is starting to crack, and one of larger ones continues north. The arena extend to the north, east and
       west.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - dark
   - pkzone

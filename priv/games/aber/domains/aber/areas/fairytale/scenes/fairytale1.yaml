@@ -10,4 +10,4 @@ detail:
       You stand in an unexplored section of the garden. The way back to the rest of the mansion gardens is to
       the south. Before you stands a huge vine, rising up into the clouds. It looks strong enough to hold you.
 flag:
-  - nomobiles
+  - no-mobiles

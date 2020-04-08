@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cathedral:catacomb"
     short: &+MThe &+GTomb &+Bof &+YSorbet&*
     sight: >
       The place looks like some &+CP&+Rs&+Yy&+Wc&+Bh&+Go&+Md&+Ce&+Rl&+Yi&+Wc &+BNightmare&+W!

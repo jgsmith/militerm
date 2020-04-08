@@ -8,4 +8,4 @@ detail:
       This room is devoid of anything except a large icebox. There is a note attached to the icebox door that
       reminds you to buy more Mountain Dew.
 flag:
-  - nomobiles
+  - no-mobiles

@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:oaktree:mansion"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:oaktree:ilex"
       west:
         target: "scene:aber:oaktree:bedroom"
     short: Mansion Landing

@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:oni:oni28"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:oni:oni25"
     short: Inside the Temple
     sight: >
       The interior of the temple is larger then one would expect from the outside. Large stone steps lead down

@@ -34,7 +34,13 @@ defmodule Militerm.Gossip do
       "Gossip - message broadcast #{inspect(message)}"
     end)
 
-    :ok
+    case message do
+      %{channel: channel, game: from_game, message: message, name: player} ->
+        Militerm.Systems.Gossip.message_broadcast(from_game, player, channel, message)
+
+      _ ->
+        :ok
+    end
   end
 
   @impl true

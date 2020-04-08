@@ -9,7 +9,7 @@ detail:
       same moment you feel a touch on your feet. This feels ominous, as though there were something housing
       the bloody pool.
 flag:
-  - nomagic
-  - nomobiles
-  - onwater
+  - no-magic
+  - no-mobiles
+  - on-water
   - outdoors

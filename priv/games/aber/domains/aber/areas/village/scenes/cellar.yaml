@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:village:passage"
       up:
         target: "scene:aber:village:steps"
     short: Cellars

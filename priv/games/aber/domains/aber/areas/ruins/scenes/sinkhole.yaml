@@ -8,4 +8,4 @@ detail:
       level!
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

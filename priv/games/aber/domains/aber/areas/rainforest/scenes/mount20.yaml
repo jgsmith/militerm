@@ -9,4 +9,4 @@ detail:
       a deep crevasse, where your remains will never be found...
 flag:
   - death
-  - nomobiles
+  - no-mobiles

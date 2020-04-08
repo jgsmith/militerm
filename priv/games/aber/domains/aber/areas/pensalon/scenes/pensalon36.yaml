@@ -11,4 +11,4 @@ detail:
       distance and you can hear a rumbling of some unknown source faintly coming to your ears. To the west is
       the lake and back to the east is a large cave.
 flag:
-  - nomobiles
+  - no-mobiles

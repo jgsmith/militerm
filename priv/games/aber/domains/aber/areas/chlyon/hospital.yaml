@@ -1,0 +1,147 @@
+groups:
+  chlyon13:
+    npcs:
+      ferin: 1
+      igurd: 1
+  chlyon23:
+    npcs:
+      ellin: 1
+      rexx: 1
+locations:
+  chlyon13:
+    groups:
+      chlyon13: 1
+  chlyon15:
+    npcs:
+      chimera: 1
+  chlyon17:
+    npcs:
+      akhalton: 1
+  chlyon20:
+    npcs:
+      akhton: 1
+  chlyon23:
+    groups:
+      chlyon23: 1
+npcs:
+  akhalton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - akhalton
+          short: Akhalton
+          sight: >
+            Akhalton, the King of Thyreen, stands here observing you.
+      flag:
+      identity:
+        name: Akhalton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  akhton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - akhton
+          short: Akhton
+          sight: >
+            Akhton, the guardian of the forges is here.. guarding the forges!
+      flag:
+        - shock
+        - no-summon
+      identity:
+        name: Akhton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chimera:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chimera
+          short: Chimera
+          sight: >
+            The infamous Chimera prepares to rip your heart out!
+      flag:
+      identity:
+        name: Chimera
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ellin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ellin
+          short: Ellin
+          sight: >
+            Ellin, the son of the king of Thyreen, is out here having a picnic.
+      flag:
+      identity:
+        name: Ellin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ferin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ferin
+          short: Ferin
+          sight: >
+            Ferin, the Thyreenean mercenary blocks your progress!
+      flag:
+      identity:
+        name: Ferin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  igurd:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - igurd
+          short: Igurd
+          sight: >
+            Igurd, the Thyreenean commander watches you bemused.
+      flag:
+      identity:
+        name: Igurd
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rexx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rexx
+          short: Rexx
+          sight: >
+            Ellin's dog Rexx is running around chasing its tail.
+      flag:
+      identity:
+        name: Rexx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

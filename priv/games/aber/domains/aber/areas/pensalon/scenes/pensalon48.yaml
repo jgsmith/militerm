@@ -15,5 +15,5 @@ detail:
       try to figure your way out. A deep thick mist hangs all about causing even more confusion.
 flag:
   - dark
-  - nomobiles
-  - onwater
+  - no-mobiles
+  - on-water

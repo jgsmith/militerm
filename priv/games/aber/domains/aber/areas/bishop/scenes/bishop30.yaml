@@ -12,7 +12,7 @@ detail:
       here himself to protect to artifacts, but the bishop has gone missing for days now.
 flag:
   - private
-  - noat
+  - no-at
   - soundproof
-  - nosummon
-  - nomobiles
+  - no-summon
+  - no-mobiles

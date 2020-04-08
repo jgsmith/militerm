@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6733"
     short: The House of Witches
     sight: >
       Dangling mirrors reflect your face a thousand times from the walls and ceiling of this supply house of
@@ -10,5 +12,5 @@ detail:
       voodoo doll pinned to one wall seems to be eyeing you. Let's hope you are not already earmarked for
       demise by someone.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

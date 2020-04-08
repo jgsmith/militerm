@@ -1,0 +1,976 @@
+groups:
+  khanjar9506:
+    npcs:
+      mob9503: 1
+      mob9504: 1
+  khanjar9507:
+    npcs:
+      mob9500: 1
+      mob9501: 1
+      mob9501_1: 1
+      mob9501_2: 1
+      mob9502: 1
+  khanjar9517:
+    npcs:
+      mob9508: 1
+      mob9508_1: 1
+  khanjar9518:
+    npcs:
+      mob9508_2: 1
+      mob9508_3: 1
+      mob9509: 1
+  khanjar9519:
+    npcs:
+      mob9508_4: 1
+      mob9508_5: 1
+  khanjar9529:
+    npcs:
+      mob9506: 1
+      mob9506_1: 1
+      mob9506_2: 1
+  khanjar9532:
+    npcs:
+      mob9508_6: 1
+      mob9508_7: 1
+      mob9508_8: 1
+  khanjar9533:
+    npcs:
+      mob9508_10: 1
+      mob9508_9: 1
+  khanjar9534:
+    npcs:
+      mob9508_11: 1
+      mob9508_12: 1
+      mob9508_13: 1
+      mob9508_14: 1
+  khanjar9536:
+    npcs:
+      mob9507_1: 1
+      mob9509_1: 1
+  khanjar9541:
+    npcs:
+      mob9512_1: 1
+      mob9512_2: 1
+  khanjar9545:
+    npcs:
+      mob9512_4: 1
+      mob9512_5: 1
+      mob9512_6: 1
+  khanjar9546:
+    npcs:
+      mob9513: 1
+      mob9513_1: 1
+  khanjar9550:
+    npcs:
+      mob9509_2: 1
+      mob9509_3: 1
+  khanjar9568:
+    npcs:
+      mob9514: 1
+      mob9515: 1
+locations:
+  khanjar9506:
+    groups:
+      khanjar9506: 1
+  khanjar9507:
+    groups:
+      khanjar9507: 1
+  khanjar9511:
+    npcs:
+      mob9505: 1
+  khanjar9517:
+    groups:
+      khanjar9517: 1
+  khanjar9518:
+    groups:
+      khanjar9518: 1
+  khanjar9519:
+    groups:
+      khanjar9519: 1
+  khanjar9523:
+    npcs:
+      mob9510: 1
+  khanjar9529:
+    groups:
+      khanjar9529: 1
+  khanjar9530:
+    npcs:
+      mob9506_3: 1
+  khanjar9532:
+    groups:
+      khanjar9532: 1
+  khanjar9533:
+    groups:
+      khanjar9533: 1
+  khanjar9534:
+    groups:
+      khanjar9534: 1
+  khanjar9535:
+    npcs:
+      mob9508_15: 1
+  khanjar9536:
+    groups:
+      khanjar9536: 1
+  khanjar9538:
+    npcs:
+      mob9511: 1
+  khanjar9540:
+    npcs:
+      mob9512: 1
+  khanjar9541:
+    groups:
+      khanjar9541: 1
+  khanjar9543:
+    npcs:
+      mob9512_3: 1
+  khanjar9545:
+    groups:
+      khanjar9545: 1
+  khanjar9546:
+    groups:
+      khanjar9546: 1
+  khanjar9548:
+    npcs:
+      mob9507: 1
+  khanjar9550:
+    groups:
+      khanjar9550: 1
+  khanjar9561:
+    npcs:
+      mob9509_4: 1
+  khanjar9568:
+    groups:
+      khanjar9568: 1
+npcs:
+  mob9508_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9503:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dwarf
+            - mob
+          short: The dwarf
+          sight: >
+            A taciturn dwarf is standing here, fingering his beard.
+      flag:
+      identity:
+        name: The dwarf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_12:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9506:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ragamuffin
+            - mob
+          short: A ragamuffin
+          sight: >
+            A fierce ragamuffin rushes toward you from the shadows.
+      flag:
+      identity:
+        name: A ragamuffin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9506_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ragamuffin
+            - mob9506_
+          short: A ragamuffin
+          sight: >
+            A fierce ragamuffin rushes toward you from the shadows.
+      flag:
+      identity:
+        name: A ragamuffin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9509:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob
+          short: The Brownie
+          sight: >
+            A small man with a long, greenish beard stands here, barely seen.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9509_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9509_
+          short: The Brownie
+          sight: >
+            A small man with a long, greenish beard stands here, barely seen.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9510:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gwytehydra
+            - mob
+          short: The Gwytehydra
+          sight: >
+            A greenish creature with many tentacles rises from the pond!
+      flag:
+      identity:
+        name: The Gwytehydra
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9509_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9509_
+          short: The Brownie
+          sight: >
+            A small man with a long, greenish beard stands here, barely seen.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9506_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ragamuffin
+            - mob9506_
+          short: A ragamuffin
+          sight: >
+            A fierce ragamuffin rushes toward you from the shadows.
+      flag:
+      identity:
+        name: A ragamuffin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_15:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9513_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hobgoblin
+            - mob9513_
+          short: The Hobgoblin
+          sight: A hobgoblin stands here, grinning at you broadly.
+      flag:
+      identity:
+        name: The Hobgoblin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9509_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9509_
+          short: The Brownie
+          sight: >
+            A small man with a long, greenish beard stands here, barely seen.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9501:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - herdsman
+            - mob
+          short: A herdsman
+          sight: A herdsman sits here, concentrating on his beer.
+      flag:
+      identity:
+        name: A herdsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9504:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - barumafir
+            - mob
+          short: Barumafir
+          sight: >
+            Barumafir, the keeper of this tavern is standing here.
+      flag:
+      identity:
+        name: Barumafir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9509_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9509_
+          short: The Brownie
+          sight: >
+            A small man with a long, greenish beard stands here, barely seen.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9502:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hooded man
+            - mob
+          short: The hooded man
+          sight: >
+            You barely notice a hooded man, sitting at the corner.
+      flag:
+      identity:
+        name: The hooded man
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9500:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - female
+            - mob
+          short: The female
+          sight: >
+            A pretty female sits on the edge of a table, talking with someone.
+      flag:
+      identity:
+        name: The female
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9512_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9501_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - herdsman
+            - mob9501_
+          short: A herdsman
+          sight: A herdsman sits here, concentrating on his beer.
+      flag:
+      identity:
+        name: A herdsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9515:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grand brownie
+            - mob
+          short: The Grand Brownie
+          sight: >
+            An impressive brownie sits here, talking with the centaur.
+      flag:
+      identity:
+        name: The Grand Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9506_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ragamuffin
+            - mob9506_
+          short: A ragamuffin
+          sight: >
+            A fierce ragamuffin rushes toward you from the shadows.
+      flag:
+      identity:
+        name: A ragamuffin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9507_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pinemarten
+            - mob9507_
+          short: The pinemarten
+          sight: A brown pinemarten stares at you.
+      flag:
+      identity:
+        name: The pinemarten
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9507:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pinemarten
+            - mob
+          short: The pinemarten
+          sight: A brown pinemarten stares at you.
+      flag:
+      identity:
+        name: The pinemarten
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9511:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hraen
+            - mob
+          short: Hraen
+          sight: >
+            A tall hunter stands here, glancing over the edge of the forest.
+      flag:
+      identity:
+        name: Hraen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9513:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hobgoblin
+            - mob
+          short: The Hobgoblin
+          sight: A hobgoblin stands here, grinning at you broadly.
+      flag:
+      identity:
+        name: The Hobgoblin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9501_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - herdsman
+            - mob9501_
+          short: A herdsman
+          sight: A herdsman sits here, concentrating on his beer.
+      flag:
+      identity:
+        name: A herdsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9512_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - steinbock
+            - mob9512_
+          short: the steinbock
+          sight: A large steinbock is here.
+      flag:
+      identity:
+        name: the steinbock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9508_13:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9505:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guest
+            - mob
+          short: The guest
+          sight: A pale man is lying on the bed, moaning faintly.
+      flag:
+      identity:
+        name: The guest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob9514:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - centaur
+            - mob
+          short: The Centaur
+          sight: A beautiful centaur rests on the dais.
+      flag:
+      identity:
+        name: The Centaur
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob9508_14:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brownie
+            - mob9508_
+          short: The Brownie
+          sight: A small, long-bearded man is standing here.
+      flag:
+      identity:
+        name: The Brownie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

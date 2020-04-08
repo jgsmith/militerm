@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:khanjar:khanjar9500"
       south:
         target: "scene:aber:sundhaven:sundhaven6761"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6644"
     short: A stone path
     sight: >
       You stand just outside the eastern gate of the town of Sundhaven. Fresh bread and cool drink await those

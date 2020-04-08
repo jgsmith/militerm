@@ -11,4 +11,4 @@ detail:
       lead back out to the black sandy street.
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles

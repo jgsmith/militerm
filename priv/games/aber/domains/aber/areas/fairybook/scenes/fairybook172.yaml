@@ -7,4 +7,4 @@ detail:
     sight: >
       You stand in the room used by guests to clean up. The exit is west.
 flag:
-  - nomobiles
+  - no-mobiles

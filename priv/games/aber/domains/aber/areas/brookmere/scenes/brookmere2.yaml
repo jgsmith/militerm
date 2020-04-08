@@ -13,4 +13,4 @@ detail:
       into the wide, gaping maw you see a rockfall that would take you down to the dungeon level if you are
       careful.
 flag:
-  - nomobiles
+  - no-mobiles

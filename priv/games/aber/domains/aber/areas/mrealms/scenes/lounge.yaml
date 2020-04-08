@@ -1,8 +1,10 @@
 detail:
   default:
     exits:
-      # :
-      #   target: "scene:aber:mrealms:mrealms"
+      southeast:
+        target: "scene:aber:mrealms:mrealms"
+      southwest:
+        target: "scene:aber:mrealms:mrealms"
     short: The Mortal Lounge
     sight: >
       You step into the lounge and begin to feel relaxed right away. A large plush couch sits right in the
@@ -13,5 +15,5 @@ detail:
       please, pour yourself a drink, sit back and relax.
 flag:
   - peace
-  - fastmana
-  - fastheal
+  - fast-mana
+  - fast-heal

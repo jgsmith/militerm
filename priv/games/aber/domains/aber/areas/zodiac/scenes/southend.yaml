@@ -13,4 +13,4 @@ detail:
       you're confident you can make it back without a problem. Just to the south you can see some creatures
       moving about and you can hear one of them shouting 'Toro, Toro!'.
 flag:
-  - nomobiles
+  - no-mobiles

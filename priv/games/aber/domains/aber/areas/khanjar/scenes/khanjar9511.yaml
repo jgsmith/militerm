@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9510"
     short: A Guest Room
     sight: >
       The air in this room is musty, and it smells of hard liquor. On the floor there lie a bundle of creased

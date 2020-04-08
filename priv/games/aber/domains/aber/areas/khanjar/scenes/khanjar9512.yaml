@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:khanjar:khanjar9510"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9513"
     short: At The Top Floor
     sight: >
       The corridor ends here, and you find yourself standing by a small window. Vast fields and forest are

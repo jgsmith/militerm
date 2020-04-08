@@ -119,7 +119,10 @@ defmodule Militerm.Systems.Location do
         _ -> []
       end
 
-    to_string([placement, long])
+    [placement, long]
+    |> List.flatten()
+    |> Enum.reject(&is_nil/1)
+    |> to_string
   end
 
   def do_describe(sense, thing, options) do
@@ -287,18 +290,22 @@ defmodule Militerm.Systems.Location do
         [location] ->
           case String.split(location, "@", parts: 2) do
             [entity_id] ->
+              Militerm.Systems.Entity.whereis({:thing, entity_id})
               {"in", {:thing, entity_id, "default"}}
 
             [coord, entity_id] ->
+              Militerm.Systems.Entity.whereis({:thing, entity_id})
               {"in", {:thing, entity_id, coord}}
           end
 
         [prep, location] ->
           case String.split(location, "@", parts: 2) do
             [entity_id] ->
+              Militerm.Systems.Entity.whereis({:thing, entity_id})
               {prep, {:thing, entity_id, "default"}}
 
             [coord, entity_id] ->
+              Militerm.Systems.Entity.whereis({:thing, entity_id})
               {prep, {:thing, entity_id, coord}}
           end
 

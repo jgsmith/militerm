@@ -1,0 +1,259 @@
+groups:
+  heaven22:
+    npcs:
+      giant: 1
+      valkyrie: 1
+  heaven25:
+    npcs:
+      agnes: 1
+      odin: 1
+      thorr: 1
+locations:
+  heaven1:
+    npcs:
+      peter: 1
+  heaven18:
+    npcs:
+      petitioner: 1
+  heaven22:
+    groups:
+      heaven22: 1
+  heaven23:
+    npcs:
+      terrance: 1
+  heaven25:
+    groups:
+      heaven25: 1
+  heaven29:
+    npcs:
+      bison: 1
+  heaven32:
+    npcs:
+      great: 1
+  heaven34:
+    npcs:
+      coyote: 1
+  heaven7:
+    npcs:
+      olaf: 1
+  limbo@limbo:
+    npcs:
+      snake: 1
+npcs:
+  agnes:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - agnes
+          short: Agnes
+          sight: >
+            Agnes laughs, prepared to meet all of Thor's needs.
+      flag:
+      identity:
+        name: Agnes
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bison:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bison
+          short: The Bison
+          sight: A bison grazes upon the land here.
+      flag:
+      identity:
+        name: The Bison
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  coyote:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - coyote
+          short: The Coyote
+          sight: A small coyote threatens to nip your ankles.
+      flag:
+      identity:
+        name: The Coyote
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  giant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant
+          short: The Giant
+          sight: A giant was relaxing here until you walked in.
+      flag:
+      identity:
+        name: The Giant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  great:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - great
+          short: The Great
+          sight: The Great Bear is here eating honey.
+      flag:
+      identity:
+        name: The Great
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  odin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - odin
+          short: Odin
+          sight: Odin glares at you with his one eye.
+      flag:
+      identity:
+        name: Odin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  olaf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - saint olaf
+            - olaf
+          short: Saint Olaf
+          sight: "Saint Olaf shouts 'CONVERT!'"
+      flag:
+        - no-summon
+      identity:
+        name: Saint Olaf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+          short: Peter
+          sight: Saint Peter observes you peacefully.
+      flag:
+        - no-summon
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  petitioner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - petitioner
+          short: Petitioner
+          sight: A newly arrived petitioner floats calmly by.
+      flag:
+        - no-summon
+      identity:
+        name: Petitioner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  snake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake
+          short: Snake
+          sight: >
+            An snake with very narrow slits for eyes swishes around on the ground.
+      flag:
+      identity:
+        name: Snake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  terrance:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - terrance
+          short: Terrance
+          sight: >
+            Terrance the ugly troll sits here preparing his dinner. He looks hungry.
+      flag:
+      identity:
+        name: Terrance
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  thorr:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thor
+            - thorr
+          short: Thor
+          sight: Thor stands here glaring at Agnes.
+      flag:
+        - no-summon
+      identity:
+        name: Thor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  valkyrie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - valkyrie
+          short: Valkyrie
+          sight: Valkyrie watches you carefully.
+      flag:
+      identity:
+        name: Valkyrie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

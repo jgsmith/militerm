@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:frobozz:cellar"
       north:
         target: "scene:aber:frobozz:kitchen"
     short: The Living-Room

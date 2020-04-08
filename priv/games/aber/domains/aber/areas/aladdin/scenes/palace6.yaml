@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:aladdin:palace7"
       west:
         target: "scene:aber:aladdin:palace5"
     short: Dead End?

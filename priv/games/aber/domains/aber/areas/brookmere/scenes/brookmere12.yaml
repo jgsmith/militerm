@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:brookmere:brookmere10"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere28"
     short: Decrepit Tunnel
     sight: >
       Enormous boulders, dirt and fallen timers half fill the passageway and block your path. This tunnel must
@@ -13,4 +15,4 @@ detail:
       collapse at any time. You decide to get out of it quickly just in case.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

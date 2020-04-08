@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eforest:entrance"
       north:
         target: "scene:aber:eforest:eforest"
       south:
@@ -14,4 +16,4 @@ detail:
       covered by a wall of &+ythorns&*. On the other side, just to the West is a sharp dropoff. Past it, you
       can see the entire elven forest. The corrupted view turns your stomach.
 flag:
-  - outdoors
+  - out-doors

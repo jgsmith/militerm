@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:grave:grave3497"
     short: Arch Devils Lair
     sight: >
       Centered squarely in this room is a &+Ythrone&*. Made of gold and silver the throne is exquisitely

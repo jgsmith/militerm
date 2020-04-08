@@ -1,0 +1,1 @@
+based on std:npc

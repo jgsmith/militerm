@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eforest:stairs"
       south:
         target: "scene:aber:eforest:treasury"
       up:

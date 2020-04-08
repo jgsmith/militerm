@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:aladdin:gold1"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:aladdin:entry"
     short: Cave of Wonders
     sight: >
       You walk through a large open lion's mouth and find yourself in the Cave of Wonders. As you move

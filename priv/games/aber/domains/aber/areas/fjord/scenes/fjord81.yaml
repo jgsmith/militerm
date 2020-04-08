@@ -19,4 +19,4 @@ detail:
 flag:
   - cold
   - outdoors
-  - noregen
+  - no-regen

@@ -10,7 +10,7 @@ detail:
       hand-carved into the side of the massive stone provides a means of getting down.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
-  - nomobiles
+  - one-person
+  - no-at
+  - cant-summon
+  - no-mobiles

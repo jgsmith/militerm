@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter57"
       south:
         target: "scene:aber:enchanter:enchanter59"
       up:

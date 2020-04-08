@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:orchold:tunnel"
       south:
         target: "scene:aber:orchold:audience"
     short: Orc Throne Room

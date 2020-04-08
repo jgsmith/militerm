@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:aladdin:palace9"
       north:
         target: "scene:aber:aladdin:tower"
     short: Stairway to Top of the Tower

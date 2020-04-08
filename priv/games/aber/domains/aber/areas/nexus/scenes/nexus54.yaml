@@ -10,6 +10,6 @@ detail:
       Perhaps it could be scaled.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

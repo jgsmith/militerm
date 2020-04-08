@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9901"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9958"
       south:
         target: "scene:aber:ghenna:ghenna9955"
     short: The streets of Ghenna.

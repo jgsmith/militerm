@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:pirate:pirate30"
     short: Temple Treasury
     sight: >
       You stand in the temple's treasure room. Rotted foodstuffs are scattered across the floor, but other

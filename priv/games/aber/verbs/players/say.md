@@ -3,7 +3,7 @@ verbs:
   - say
 brief: Say something
 syntaxes:
-  - <string'something>
+  - <string'message>
 see also:
   - ask
   - whisper

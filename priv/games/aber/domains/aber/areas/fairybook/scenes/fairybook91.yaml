@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fairybook:fairybook93"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook90"
       west:
         target: "scene:aber:fairybook:fairybook92"
     short: Inside the Tree

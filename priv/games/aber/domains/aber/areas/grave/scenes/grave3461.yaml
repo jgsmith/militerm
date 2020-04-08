@@ -9,6 +9,6 @@ detail:
       you swim around you can sense corpses, equipment, and SOMETHING else. Swimming up quickly would be a
       very good idea.
 flag:
-  - nosnoop
+  - no-snoop
   - dark
-  - underwater
+  - under-water

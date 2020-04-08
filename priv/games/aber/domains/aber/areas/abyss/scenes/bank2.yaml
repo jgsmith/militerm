@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:abyss:boggy"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:abyss:bank1"
     short: East Bank
     sight: >
       You are on the eastern bank of a river of mucus. The ground is soft and squishy here and someone's or

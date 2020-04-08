@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:eirias:wydyr"
     short: Beyond the Wheel
     sight: >
       A surge of darkness and fury and menace is streaming up the steps of the Tower towards you. You feel the

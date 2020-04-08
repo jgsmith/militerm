@@ -10,4 +10,4 @@ detail:
       Suddenly you notice that you no longer need a torch, because the walls of this cave are emitting dim
       light. The light turns brighter as you walk north along the cave.
 flag:
-  - nomobiles
+  - no-mobiles

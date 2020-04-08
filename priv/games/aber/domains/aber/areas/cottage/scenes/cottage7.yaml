@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cottage:cottage8"
       west:
         target: "scene:aber:cottage:cottage6"
     short: Driveway

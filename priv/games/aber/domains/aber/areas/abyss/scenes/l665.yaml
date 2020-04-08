@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:abyss:l666"
       north:
         target: "scene:aber:abyss:netherhells"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:abyss:l664"
     short: Level 665
     sight: >
       This is the next to last level of the Abyss. Below you, you can just make out the floor of the Abyss. To

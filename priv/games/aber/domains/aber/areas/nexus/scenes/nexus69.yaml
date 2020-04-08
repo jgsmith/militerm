@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:nexus:nexus71"
       up:
         target: "scene:aber:nexus:nexus70"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nexus:nexus68"
     short: House of Minions
     sight: >
       This is a place of residence without windows. The air is deathly still, and even the loudest scream from
@@ -14,7 +16,7 @@ detail:
       army of nine-limbed horrors. Revulsion, insatiable hunger, and disfigurement are the way of life here.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon
   - dark

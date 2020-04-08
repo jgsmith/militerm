@@ -15,4 +15,4 @@ detail:
       near to the ground that you have to keep stooping in order to avoid them.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

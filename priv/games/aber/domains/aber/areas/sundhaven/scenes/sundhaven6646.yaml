@@ -11,6 +11,6 @@ detail:
       shopowner prefers to seclude himself to the obsessive labors of his work. You wonder if he ever makes
       anything new, so fanatical he is about sharpening and re-sharpening the old.
 flag:
-  - nomagic
+  - no-magic
   - peaceful
-  - nomobiles
+  - no-mobiles

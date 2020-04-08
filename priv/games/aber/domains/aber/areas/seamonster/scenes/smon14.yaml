@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:seamonster:smon17"
       west:
         target: "scene:aber:seamonster:smon11"
     short: Shiny way
@@ -10,4 +12,4 @@ detail:
       around. It is very silent and a really nice place. You don't have to look for something special, it's
       special already.
 flag:
-  - outdoors
+  - out-doors

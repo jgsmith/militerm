@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:castle:path"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:castle:port"
     short: Castle Walls
     sight: >
       You stand at the walls of a large castle, out of which looms up a large tower, crackling with magical

@@ -1,10 +1,14 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:fire:fire47"
       north:
         target: "scene:aber:fire:fire45"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fire:fire48"
     short: Cross
     sight: >
       You are standing between two prison cells. It is smelling here terribly. You can see rats everywhere. It

@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:graye:graye5560"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:graye:graye5543"
     short: The secret passage
     sight: >
       You step into the musty passage and let your eyes grow accustomed to the light. Stone walls block every

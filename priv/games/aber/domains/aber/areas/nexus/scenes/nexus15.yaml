@@ -13,6 +13,6 @@ detail:
       vibrating the entire courtyard slightly.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

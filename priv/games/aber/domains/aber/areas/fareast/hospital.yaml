@@ -1,0 +1,561 @@
+groups:
+  cherorchcent:
+    npcs:
+      larva: 1
+      miyu: 1
+  dojo3:
+    npcs:
+      dummy: 1
+      ninja: 1
+  forthall:
+    npcs:
+      aikuchi: 1
+      samurai: 1
+locations:
+  cherblos:
+    npcs:
+      kashai: 1
+  cherent1:
+    npcs:
+      shubei: 1
+  cherent2:
+    npcs:
+      ogremage: 1
+  cherorch4:
+    npcs:
+      jago: 1
+  cherorch8:
+    npcs:
+      chunli: 1
+  cherorchcent:
+    groups:
+      cherorchcent: 1
+  cliffs2:
+    npcs:
+      kane: 1
+  countrya_5:
+    npcs:
+      ronin: 1
+  countryb_3:
+    npcs:
+      haohmaru: 1
+  curse1:
+    npcs:
+      subzero: 1
+  curse6:
+    npcs:
+      scorpion: 1
+  cursent1:
+    npcs:
+      tetsuo: 1
+  cursent2:
+    npcs:
+      shangtsung: 1
+  dojo3:
+    groups:
+      dojo3: 1
+  dojoent:
+    npcs:
+      naga: 1
+  forthall:
+    groups:
+      forthall: 1
+  ricepaddy:
+    npcs:
+      peasant: 1
+  ropebridge:
+    npcs:
+      liukang: 1
+  shoreline:
+    npcs:
+      raiden: 1
+  temple1:
+    npcs:
+      shaolin: 1
+  temple3:
+    npcs:
+      kunglao: 1
+  throneroom:
+    npcs:
+      umurshyo: 1
+  village3:
+    npcs:
+      ryu: 1
+npcs:
+  aikuchi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aikuchi
+          short: Aikuchi
+          sight: >
+            A dark figure with Samurai armor and glowing eyes stands here.
+      flag:
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Aikuchi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chunli:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chun li
+            - chunli
+          short: Chun Li
+          sight: >
+            Chun Li, a former tournament fighter, is practicing here.
+      flag:
+      identity:
+        name: Chun Li
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dummy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - training dummy
+            - dummy
+          short: The training dummy
+          sight: >
+            A training dummy, made of packed straw and bamboo limbs, waits to be hit.
+      flag:
+        - no-magic
+      identity:
+        name: The training dummy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  haohmaru:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haohmaru
+          short: Haohmaru
+          sight: >
+            The samurai Haohmaru is here, awaiting your challenge.
+      flag:
+      identity:
+        name: Haohmaru
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jago:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jago
+          short: Jago
+          sight: The tiger monk Jago stands here.
+      flag:
+      identity:
+        name: Jago
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kane:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kane
+          short: Kane
+          sight: >
+            Kane, a Shaolin priest in exile, stands in the road.
+      flag:
+      identity:
+        name: Kane
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kashai:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kashai
+          short: Kashai
+          sight: >
+            The serpentine body of the Dragon Kashai blocks the path.
+      flag:
+        - fireball
+        - imm-fireball
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Kashai
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kunglao:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kunglao
+          short: KungLao
+          sight: >
+            A warrior priest is here. He tips his razor-bladed hat to you.
+      flag:
+      identity:
+        name: KungLao
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  larva:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - larva
+          short: Larva
+          sight: >
+            A tall figure in black, with white mask and pale hands, stands at the girl's side.
+      flag:
+        - no-magic
+      identity:
+        name: Larva
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  liukang:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - liukang
+          short: LiuKang
+          sight: >
+            A shirtless fighter-priest is here, doing elaborate martial arts forms.
+      flag:
+        - fireball
+      identity:
+        name: LiuKang
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  miyu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - miyu
+          short: Miyu
+          sight: >
+            A young girl in white and a red sash watches your approach.
+      flag:
+        - fireball
+      identity:
+        name: Miyu
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  naga:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - naga
+          short: The Naga
+          sight: >
+            A serpent with a woman's head blocks your path to the west.
+      flag:
+      identity:
+        name: The Naga
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  ninja:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ninja
+          short: The Ninja
+          sight: An assassin leaps from the shadows and attacks!
+      flag:
+      identity:
+        name: The Ninja
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ogremage:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ogremage
+          short: The Ogremage
+          sight: >
+            A blue-skinned ogre in Samurai armor brandishes his weapon.
+      flag:
+        - frost
+        - shock
+        - fireball
+        - missile
+      identity:
+        name: The Ogremage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peasant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peasant
+          short: The Peasant
+          sight: >
+            A peasant in muddy robes trudges past, trying to fill his sack.
+      flag:
+      identity:
+        name: The Peasant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  raiden:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raiden
+          short: Raiden
+          sight: >
+            The thunder god, Raiden, hovers nearby, looking invincible.
+      flag:
+        - blind
+        - shock
+        - imm-shock
+        - no-zap
+        - no-exorcise
+        - no-magic
+      identity:
+        name: Raiden
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ronin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ronin
+          short: The Ronin
+          sight: >
+            A renegade samurai, without master or marking, stands in your path.
+      flag:
+      identity:
+        name: The Ronin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ryu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ryu
+          short: Ryu
+          sight: The aging street fighter, Ryu Haohmasa, is here.
+      flag:
+        - fireball
+      identity:
+        name: Ryu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  samurai:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - samurai
+          short: The Samurai
+          sight: >
+            A Samurai warrior, in ceremonial armor and mask, stands guard here.
+      flag:
+      identity:
+        name: The Samurai
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scorpion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scorpion
+          short: Scorpion
+          sight: >
+            A hooded ninja in yellow uniform glares from the shadows.
+      flag:
+        - fireball
+        - imm-fireball
+      identity:
+        name: Scorpion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shangtsung:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shangtsung
+          short: ShangTsung
+          sight: A wizard with glowing eyes is here.
+      flag:
+        - fireball
+        - missile
+        - imm-shock
+        - no-magic
+      identity:
+        name: ShangTsung
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shaolin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shaolin priest
+            - shaolin
+          short: The Shaolin Priest
+          sight: >
+            A man dressed in saffron robes stands here, watching you.
+      flag:
+      identity:
+        name: The Shaolin Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shubei:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shubei
+          short: Shubei
+          sight: >
+            The dragon Shubei watches your approach with glimmering eyes.
+      flag:
+        - frost
+        - imm-frost
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Shubei
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  subzero:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - subzero
+          short: SubZero
+          sight: A blue-clad ninja watches you warily.
+      flag:
+        - frost
+        - imm-frost
+      identity:
+        name: SubZero
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tetsuo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tetsuo
+          short: Tetsuo
+          sight: The dragonman, Tetsuo, is here.
+      flag:
+      identity:
+        name: Tetsuo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  umurshyo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - umurshyo
+          short: Umurshyo
+          sight: The demon lord Umurshyo is here.
+      flag:
+        - fireball
+        - shock
+        - frost
+        - missile
+        - no-zap
+        - no-exorcise
+      identity:
+        name: Umurshyo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:orchold:observation"
       north:
         target: "scene:aber:orchold:trap"
       south:

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale136"
       west:
         target: "scene:aber:fairytale:fairytale134"
     short: Warm Room

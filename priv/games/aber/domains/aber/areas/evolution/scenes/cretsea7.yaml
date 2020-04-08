@@ -13,4 +13,4 @@ detail:
       scraps of food.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

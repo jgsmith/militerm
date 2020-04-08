@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:sommerlund:sommerlund23"
       south:
         target: "scene:aber:sommerlund:sommerlund27"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund25"
     short: Grand Courtyard
     sight: >
       Festivities are abundant today! Flyers announcing this year's week-long Fehmarn festival and celebration

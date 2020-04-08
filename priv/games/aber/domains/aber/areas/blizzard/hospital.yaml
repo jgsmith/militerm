@@ -1,0 +1,183 @@
+groups:
+locations:
+  crypt:
+    npcs:
+      ghoul: 1
+  entrance:
+    npcs:
+      figure: 1
+  glittering:
+    npcs:
+      giant: 1
+  guard:
+    npcs:
+      ogre: 1
+  hut:
+    npcs:
+      hermit: 1
+  pass2:
+    npcs:
+      yeti: 1
+  specsimp:
+    npcs:
+      teacher: 1
+  stream:
+    npcs:
+      seamas: 1
+  temple:
+    npcs:
+      riatha: 1
+npcs:
+  figure:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - figure
+          short: The Figure
+          sight: A huge magical figure stands on guard.
+      flag:
+      identity:
+        name: The Figure
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghoul:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+          short: The Ghoul
+          sight: An evil looking ghoul skulks in the shadows.
+      flag:
+      identity:
+        name: The Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  giant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - giant
+          short: The Giant
+          sight: A giant snores loudly in one corner.
+      flag:
+      identity:
+        name: The Giant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hermit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hermit
+          short: The Hermit
+          sight: A hungry, unwashed hermit sits here.
+      flag:
+        - missile
+        - no-summon
+        - no-steal
+      identity:
+        name: The Hermit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ogre:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ogre
+          short: The Ogre
+          sight: >
+            A large ogre wanders past, looking for heads to break.
+      flag:
+      identity:
+        name: The Ogre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  riatha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - riatha
+          short: riatha
+          sight: Riatha The Acolyte stands arrogantly before you.
+      flag:
+      identity:
+        name: riatha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seamas:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seamas
+          short: seamas
+          sight: >
+            Seamas The Leprechaun eyes you cautiously, an evil grin upon his face.
+      flag:
+      identity:
+        name: seamas
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teacher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mortimer
+            - teacher
+          short: Mortimer
+          sight: >
+            The bespectacled headmaster, Mortimer, glances up as you approach.
+      flag:
+      identity:
+        name: Mortimer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yeti:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yeti
+          short: The Yeti
+          sight: >
+            A huge, furry yeti rears up threateningly in front of you!
+      flag:
+        - imm-frost
+      identity:
+        name: The Yeti
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

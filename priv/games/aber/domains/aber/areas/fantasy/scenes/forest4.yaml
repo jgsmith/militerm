@@ -14,4 +14,4 @@ detail:
       and to the east is what looks to be the beginning of a swamp.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

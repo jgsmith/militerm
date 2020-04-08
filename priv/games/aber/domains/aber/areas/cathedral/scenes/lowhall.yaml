@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:cathedral:astbed"
       south:
         target: "scene:aber:cathedral:lowpass"
       west:

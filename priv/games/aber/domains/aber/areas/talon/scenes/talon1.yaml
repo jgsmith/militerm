@@ -12,4 +12,4 @@ detail:
       branches seem to echo a whisper of warning and doom. There seems to be an entranceway carved out of the
       cliff face to the north, and the nearby trampled path from whence you came lies to the south.
 flag:
-  - nomobiles
+  - no-mobiles

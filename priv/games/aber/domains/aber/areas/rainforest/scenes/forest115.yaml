@@ -15,4 +15,4 @@ detail:
       most important-looking. To the east a path heads deeper into the jungle.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

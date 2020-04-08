@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:rats:coalstore"
       south:
         target: "scene:aber:rats:foodstore"
     short: Food store

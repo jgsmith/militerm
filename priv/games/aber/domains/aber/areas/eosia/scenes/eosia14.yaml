@@ -3,10 +3,14 @@ detail:
     exits:
       down:
         target: "scene:aber:eosia:eosia17"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:eosia:eosia16"
       south:
         target: "scene:aber:eosia:eosia13"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eosia:eosia15"
     short: The Front Hall
     sight: >
       Your footsteps echo on the marble flooring of the castle. Massive pillars stretch up into the darkness,

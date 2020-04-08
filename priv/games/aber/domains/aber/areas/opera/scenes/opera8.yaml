@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:opera:opera9"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:newvillage:road3e"
       up:
         target: "scene:aber:opera:opera9"
     short: The Grand Staircase

@@ -1,0 +1,111 @@
+groups:
+  pathtochurch:
+    npcs:
+      graham: 1
+      robin: 1
+locations:
+  altar:
+    npcs:
+      goldpriest: 1
+  entryway:
+    npcs:
+      lancelot: 1
+  pathtochurch:
+    groups:
+      pathtochurch: 1
+npcs:
+  goldpriest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - golden priest
+            - goldpriest
+          short: The Golden Priest
+          sight: >
+            There is a peaceful golden-skinned Priest here with an offering plate in his hands. He asks 'Will
+            you help us with a donation?'
+      flag:
+        - blind
+        - no-zap
+        - no-exorcise
+        - no-summon
+        - no-steal
+        - no-magic
+        - no-hassle
+        - no-alias
+      identity:
+        name: The Golden Priest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  graham:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir graham
+            - graham
+          short: Sir Graham
+          sight: >
+            Sir Graham, the Knight of the Square Table is here. It does not look as if you can pass him!
+      flag:
+        - neg-fireball
+        - neg-missile
+        - no-zap
+        - no-exorcise
+        - no-summon
+        - no-steal
+      identity:
+        name: Sir Graham
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lancelot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir lancelot
+            - lancelot
+          short: Sir Lancelot
+          sight: Sir Lancelot is waiting here to rip you apart!
+      flag:
+        - no-zap
+        - no-exorcise
+        - no-summon
+        - no-steal
+        - no-magic
+      identity:
+        name: Sir Lancelot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  robin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sir robin
+            - robin
+          short: Sir Robin
+          sight: >
+            Sir Robin, the knight of the Square Table is here. He looks like an Idiot!
+      flag:
+        - no-zap
+        - no-exorcise
+        - no-summon
+        - no-steal
+      identity:
+        name: Sir Robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

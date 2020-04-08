@@ -10,5 +10,5 @@ detail:
       You ascend the hillside, struggling between the trees and their twisted branches. A figure of grey
       building begins to discern slowly to the northwest.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

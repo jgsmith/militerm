@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:gold:churchpath"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:gold:goldgates"
     short: Path to Church
     sight: >
       In the distance, you can make out the outline of a steeple standing amidst a carefully groomed lines of

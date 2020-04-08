@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:cave:333"
+      south:
+        guarded: true
+        target: "scene:aber:cave:hall"
     short: Armoury
     sight: >
       You are in a small dwarven armoury. Strange, cobwebs adorn the walls... except for the northern wall. A

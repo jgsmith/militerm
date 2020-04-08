@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:camelot:camelot306"
       west:
         target: "scene:aber:camelot:camelot104"
     short: Sparkling Grotte

@@ -13,4 +13,4 @@ detail:
       path to the east.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

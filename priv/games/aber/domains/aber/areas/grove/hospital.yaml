@@ -1,0 +1,109 @@
+groups:
+  fates_cavern:
+    npcs:
+      atropos: 1
+      clotho: 1
+      lachesis: 1
+locations:
+  cottage:
+    npcs:
+      dinthiar: 1
+  fates_cavern:
+    groups:
+      fates_cavern: 1
+  lab:
+    npcs:
+      platydonk: 1
+npcs:
+  atropos:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - atropos
+          short: Atropos
+          sight: >
+            Old wise Atropos sits here, cutting the thread of life.
+      flag:
+      identity:
+        name: Atropos
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  clotho:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clotho
+          short: Clotho
+          sight: >
+            Young Clotho sits here, spinning the thread of life.
+      flag:
+      identity:
+        name: Clotho
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  dinthiar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - king dinthiar
+            - dinthiar
+          short: King Dinthiar
+          sight: >
+            Dinthiar, King of the Elves, sits here waiting for you.
+      flag:
+        - fireball
+        - missile
+        - shock
+        - frost
+        - no-magic
+      identity:
+        name: King Dinthiar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lachesis:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lachesis
+          short: Lachesis
+          sight: >
+            Middle-aged Lachesis is here, weaving the tapestry of life.
+      flag:
+      identity:
+        name: Lachesis
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  platydonk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - platydonk
+          short: The PlatyDonk
+          sight: >
+            The PlatyDonk, Nature's horrific mutation, shuffles here, drooling on the floor.
+      flag:
+        - no-magic
+      identity:
+        name: The PlatyDonk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

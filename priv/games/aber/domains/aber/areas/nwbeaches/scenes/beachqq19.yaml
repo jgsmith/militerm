@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq20"
       south:
         target: "scene:aber:nwbeaches:beachqq18"
     short: "Takker's Jetty at the Lighthouse"

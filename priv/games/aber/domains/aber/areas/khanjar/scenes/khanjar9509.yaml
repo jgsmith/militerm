@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9508"
     short: A Dusty Room
     sight: >
       The room has been furnished by a small elegant table, a strong bed, an old bookcase, and a chest of

@@ -3,6 +3,7 @@
 based on std:mobile
 
 is sentient
+is living
 
 ##
 # Marks the entity as a player
@@ -29,7 +30,7 @@ reacts to msg:sound with
 # channel:* supports chat channels
 #
 reacts to channel:receive as player with do
-  Emit( "{channel name='{{name}}'}{{ message }}{/channel}")
+  Emit( "{channel}[{{ player }}:{{ channel }}] {{ message }}{/channel}")
 end
 
 ##
@@ -49,6 +50,10 @@ end
 
 reacts to gossip:game:down as player with do
   Emit( "{info}{{ game }} went down{/info}")
+end
+
+reacts to gossip:channel:broadcast as player with do
+  Emit( "{channel}[{{ player }}@{{ game }}:{{ channel }}] {{ message }}{/channel}")
 end
 
 ##

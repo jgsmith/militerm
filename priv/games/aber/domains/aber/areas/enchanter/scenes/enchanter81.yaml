@@ -1,14 +1,20 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:enchanter:enchanter79"
       east:
         target: "scene:aber:enchanter:enchanter84"
       north:
         target: "scene:aber:enchanter:enchanter80"
+      northeast:
+        target: "scene:aber:enchanter:enchanter83"
+      northwest:
+        target: "scene:aber:enchanter:enchanter78"
       south:
         target: "scene:aber:enchanter:enchanter82"
+      southeast:
+        target: "scene:aber:enchanter:enchanter85"
+      southwest:
+        target: "scene:aber:enchanter:enchanter79"
       west:
         target: "scene:aber:enchanter:enchanter77"
     short: Courtyard
@@ -16,4 +22,4 @@ detail:
       You're in a barren, lifeless courtyard. To the east is the front door of a large temple. You can hear a
       low chanting from the temple.
 flag:
-  - outdoors
+  - out-doors

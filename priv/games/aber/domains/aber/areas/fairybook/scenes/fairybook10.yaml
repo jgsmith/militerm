@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook11"
       west:
         target: "scene:aber:fairybook:fairybook9"
     short: Low Hall

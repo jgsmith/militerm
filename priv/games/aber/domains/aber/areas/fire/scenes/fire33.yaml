@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fire:fire34"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:fire:fire26"
       south:
         target: "scene:aber:fire:fire36"
       west:

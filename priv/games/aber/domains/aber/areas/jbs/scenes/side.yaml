@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:jbs:throne"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:treasury"
     short: Side Room
     sight: >
       This is a small side room just south of the throne room.

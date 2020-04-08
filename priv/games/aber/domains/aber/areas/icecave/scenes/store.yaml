@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:icecave:bedroom"
     short: The Secret Store Room
     sight: >
       You are in a secret room. The thick stone walls are damp and the room smells musty and unpleasant. There

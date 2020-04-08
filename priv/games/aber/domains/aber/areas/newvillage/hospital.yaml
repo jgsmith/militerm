@@ -1,0 +1,198 @@
+groups:
+locations:
+  armor:
+    npcs:
+      armorer: 1
+  bank:
+    npcs:
+      teller: 1
+  bar:
+    npcs:
+      bartender: 1
+  genstore:
+    npcs:
+      owner: 1
+  locksmith:
+    npcs:
+      locksmith: 1
+  road2e:
+    npcs:
+      drunk: 1
+  shipyard:
+    npcs:
+      sailor: 1
+  smith:
+    npcs:
+      blacksmith: 1
+  under:
+    npcs:
+      crab: 1
+  weapons2:
+    npcs:
+      weaponsmith: 1
+npcs:
+  armorer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armorer
+          short: The Armorer
+          sight: The Armorer is pounding out a new shirt of mail.
+      flag:
+      identity:
+        name: The Armorer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bartender:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bartender
+          short: The Bartender
+          sight: The bartender is serving drinks to his customers.
+      flag:
+      identity:
+        name: The Bartender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blacksmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blacksmith
+          short: The Blacksmith
+          sight: >
+            A burly and sweaty blacksmith is at work over the forge.
+      flag:
+      identity:
+        name: The Blacksmith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crab
+          short: The Crab
+          sight: >
+            A fiesty-looking crab is walking about on the sand.
+      flag:
+      identity:
+        name: The Crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  drunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - drunk
+          short: The Drunk
+          sight: A drunk is passed out on the steps to the bar.
+      flag:
+      identity:
+        name: The Drunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  locksmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - locksmith
+          short: The Locksmith
+          sight: The locksmith is hard at work behind the counter.
+      flag:
+      identity:
+        name: The Locksmith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  owner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - owner
+          short: The Owner
+          sight: >
+            The owner of the store is sorting goods in the back of the store.
+      flag:
+      identity:
+        name: The Owner
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sailor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sailor
+          short: The Sailor
+          sight: >
+            A well-built sailor is doing minor repairs on his ship.
+      flag:
+      identity:
+        name: The Sailor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teller:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teller
+          short: The Teller
+          sight: The bank teller is adding up figures at his desk.
+      flag:
+      identity:
+        name: The Teller
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  weaponsmith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - weaponsmith
+          short: The Weaponsmith
+          sight: >
+            The weaponsmith is forging a new sword for a customer.
+      flag:
+      identity:
+        name: The Weaponsmith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

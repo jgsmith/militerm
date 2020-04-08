@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:eirias:wooddoor"
     short: The Lost Land
     sight: >
       You stand high up, on a golden roof, behind a low &+ylattice&* of wrought gold. Behind you, and at

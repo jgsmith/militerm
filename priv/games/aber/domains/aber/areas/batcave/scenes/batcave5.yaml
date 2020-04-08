@@ -14,4 +14,4 @@ detail:
       hear is quiet to the east.
 flag:
   - dark
-  - nosummon
+  - no-summon

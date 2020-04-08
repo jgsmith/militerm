@@ -1,16 +1,22 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:treadmill:tread9"
       down:
         target: "scene:aber:treadmill:tread6"
       east:
         target: "scene:aber:treadmill:tread3"
       north:
         target: "scene:aber:treadmill:tread1"
+      northeast:
+        target: "scene:aber:treadmill:tread8"
+      northwest:
+        target: "scene:aber:treadmill:tread7"
       south:
         target: "scene:aber:treadmill:tread4"
+      southeast:
+        target: "scene:aber:treadmill:tread10"
+      southwest:
+        target: "scene:aber:treadmill:tread9"
       up:
         target: "scene:aber:treadmill:tread5"
       west:

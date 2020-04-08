@@ -22,5 +22,5 @@ detail:
 flag:
   - dark
   - hot
-  - nomobiles
-  - deepwater
+  - no-mobiles
+  - deep-water

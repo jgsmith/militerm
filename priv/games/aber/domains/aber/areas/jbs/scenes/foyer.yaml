@@ -9,7 +9,9 @@ detail:
         target: "scene:aber:jbs:den"
       up:
         target: "scene:aber:jbs:top"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:jbs:front"
     short: The Foyer
     sight: >
       This is just a small entry room. Not much here to describe. Go to the kitchen to the east, the den to

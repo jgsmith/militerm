@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      south: null
-      west: null
+      south:
+        guarded: true
+        target: "scene:aber:cottage:cottage7"
+      west:
+        guarded: true
+        target: "scene:aber:cottage:cottage5"
     short: Inside the Barn
     sight: >
       This is a clean, well kept barn. A large, cherry-red, horse-buggy sits here; it seems to be leering at

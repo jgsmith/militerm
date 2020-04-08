@@ -11,4 +11,4 @@ detail:
       you the enter quickly.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

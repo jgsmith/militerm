@@ -1,12 +1,20 @@
 detail:
   default:
     exits:
-      east: null
-      north: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq28"
+      north:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq27"
+      south:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq29"
       up:
         target: "scene:aber:nwbeaches:beachqq25"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq30"
     short: "Lighthouse Keeper's Operating Room"
     sight: >
       You see all and more of what you saw from the staircase. Four cells lie in all cardinal directions, each

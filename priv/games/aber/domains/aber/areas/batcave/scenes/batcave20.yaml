@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:batcave:batcave21"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:batcave:batcave19"
     short: "Enkil's Chapel"
     sight: >
       This is a large room gorgeously decorated. Potted &+Cflowers&* of all hues are arranged on the floor.
@@ -12,4 +14,4 @@ detail:
       overpowering age this room exudes. If it's possible, you feel this chamber is even more ancient than the
       antechamber.
 flag:
-  - nosummon
+  - no-summon

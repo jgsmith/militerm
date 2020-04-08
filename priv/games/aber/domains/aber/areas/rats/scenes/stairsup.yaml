@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:rats:stairsdown"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:rats:guestroom"
       west:
         target: "scene:aber:rats:chbedroom"
     short: Hallway

@@ -9,4 +9,4 @@ detail:
       walls. There is a bench in the middle of the room, covered with smoking vials of all types. An ancient
       crone stands behind the bench, stirring a boiling pot. She hears you enter, and looks up.
 flag:
-  - nomobiles
+  - no-mobiles

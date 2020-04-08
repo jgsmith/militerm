@@ -9,4 +9,4 @@ detail:
       and could benefit from some fresh air. A huge &+Ypile&* of the town's wealth lies on the tile floor,
       guarded from your meddling by a protective amber shield.
 flag:
-  - nomobiles
+  - no-mobiles

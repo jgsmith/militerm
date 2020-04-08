@@ -11,8 +11,7 @@ defmodule Militerm.Systems.Commands.Binder do
   alias Militerm.Services
   alias Militerm.Systems
 
-  @not_slots ~w[command adverbs syntax events]a
-  @obj_slots ~w[direct indirect instrument]a
+  @obj_slots ~w[direct indirect instrument]
   @predefined_env ~w[me near here]a
 
   @doc """
@@ -23,17 +22,20 @@ defmodule Militerm.Systems.Commands.Binder do
 
   @spec bind(map, map) :: {map, map}
   def bind(context, command) do
-    {_, bound_slots} =
+    slots =
       command
+      |> Map.get(:slots, %{})
+
+    {_, bound_slots} =
+      slots
       |> Map.take(@obj_slots)
       |> ordered_slots()
       |> Enum.reduce({context, %{}}, fn slot, acc ->
-        bind_slot(slot, Map.get(command, slot), acc)
+        bind_slot(slot, Map.get(slots, slot), acc)
       end)
 
     bound_slots =
-      command
-      |> Map.drop(@not_slots)
+      slots
       |> Map.drop(@obj_slots)
       |> Enum.reduce(bound_slots, fn {slot, v}, acc ->
         Map.put(acc, slot, v)
@@ -77,8 +79,6 @@ defmodule Militerm.Systems.Commands.Binder do
     # we run through the envs list and see if we can match based on the env
     # rather than translate them into entities and then match in the entities
     # we need to handle distant-living
-
-    # IO.inspect({:bind_slot, :env_entities, env_entities})
 
     matches =
       case parse_noun_phrase(words) do
@@ -146,23 +146,22 @@ defmodule Militerm.Systems.Commands.Binder do
 
   ## Examples
 
-    iex> Binder.parse_noun_phrase(~w[duck])
+    iex> Binder.parse_noun_phrase(~s[duck])
     {:ok, [%{words: ["duck"]}]}
 
-    iex> Binder.parse_noun_phrase(~w[all ducks])
+    iex> Binder.parse_noun_phrase(~s[all ducks])
     {:ok, [%{quantity: :all, words: ["ducks"]}]}
 
-    iex> Binder.parse_noun_phrase(~w[the letter in the envelope])
+    iex> Binder.parse_noun_phrase(~s[the letter in the envelope])
     {:ok, [%{article: "the", words: ["envelope"], relation: {"in", %{article: "the", words: ["letter"]}}}]}
 
-    iex> Binder.parse_noun_phrase(~w[twenty six grams of flour])
+    iex> Binder.parse_noun_phrase(~s[twenty six grams of flour])
     {:ok, [%{words: ["flour"], relation: {"of", %{quantity: 26, words: ["grams"]}}}]}
   """
   def parse_noun_phrase(words) do
     # split words on prepositions
     lex =
       words
-      |> Enum.join(" ")
       |> String.to_charlist()
       |> :command_lexer.string()
 
@@ -181,12 +180,10 @@ defmodule Militerm.Systems.Commands.Binder do
             {:ok, cleanup_parse(structure)}
 
           otherwise ->
-            # IO.inspect(otherwise)
             {:error, "Unrecognizable phrase"}
         end
 
       {:error, {_, _, reason}} ->
-        # IO.inspect(reason)
         {:error, reason}
     end
   end

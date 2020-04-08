@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:oaktree:oaktree25"
       east:
         target: "scene:aber:oaktree:oaktree27"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree32"
       south:
         target: "scene:aber:oaktree:oaktree29"
       west:

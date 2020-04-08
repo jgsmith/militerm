@@ -1,0 +1,336 @@
+groups:
+  bishop40:
+    npcs:
+      corpse2: 1
+      vampire: 1
+  bishop56:
+    npcs:
+      body: 1
+      spirit: 1
+locations:
+  bishop10:
+    npcs:
+      fatrat: 1
+  bishop15:
+    npcs:
+      fred: 1
+  bishop23:
+    npcs:
+      monk1: 1
+  bishop30:
+    npcs:
+      crabapple: 1
+  bishop31:
+    npcs:
+      monk2: 1
+  bishop36:
+    npcs:
+      ghoul: 1
+  bishop38:
+    npcs:
+      corpse3: 1
+  bishop40:
+    groups:
+      bishop40: 1
+  bishop42:
+    npcs:
+      corpse1: 1
+  bishop43:
+    npcs:
+      monk3: 1
+  bishop46:
+    npcs:
+      packrat: 1
+  bishop50:
+    npcs:
+      mosquito: 1
+  bishop54:
+    npcs:
+      gator: 1
+  bishop56:
+    groups:
+      bishop56: 1
+npcs:
+  body:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archbishop
+            - body
+          short: Archbishop
+          sight: >
+            The possessed Archbishop waves his ankhed staff in preparation to decapitate you.
+      flag:
+      identity:
+        name: Archbishop
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corpse1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corpse
+          short: Corpse
+          sight: A corpse launches itself at you!
+      flag:
+      identity:
+        name: Corpse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corpse2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corpse
+          short: Corpse
+          sight: A corpse skulks in the shadows.
+      flag:
+        - mute
+      identity:
+        name: Corpse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  corpse3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corpse
+          short: Corpse
+          sight: The smell of a corpse lingers in the air.
+      flag:
+      identity:
+        name: Corpse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crabapple:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crabapple
+          short: Crabapple
+          sight: >
+            The head of domestic affairs, Crabapple, drinks to his demise.
+      flag:
+      identity:
+        name: Crabapple
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fatrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fatrat
+          short: Fatrat
+          sight: >
+            Fatrat squeaks in delight as he waddles through the plains.
+      flag:
+      identity:
+        name: Fatrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fred
+          short: Fred
+          sight: >
+            Fred is the head honcho of this house, and he is ordering you out!
+      flag:
+      identity:
+        name: Fred
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gator
+          short: Gator
+          sight: There is a red-scaled gator walking about.
+      flag:
+      identity:
+        name: Gator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghoul:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - handyghoul
+            - ghoul
+          short: Handyghoul
+          sight: >
+            The master mechanic, Handyghoul, mutters something about its stolen tool set.
+      flag:
+        - no-steal
+      identity:
+        name: Handyghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monk1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jon
+            - monk
+          short: Jon
+          sight: >
+            One of the armor-clad brothers, Jon, of the monastery is here.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: Jon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monk2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grizzdel
+            - monk
+          short: Grizzdel
+          sight: >
+            One of the armor-clad brothers, Grizzdel, of the monastery is here.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: Grizzdel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monk3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - illkoy
+            - monk
+          short: Illkoy
+          sight: >
+            One of the armor-clad brothers, Illkoy, of the monastery is here.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: Illkoy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mosquito:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marsh mosquito
+            - mosquito
+          short: Marsh Mosquito
+          sight: A hovering mosquito divebombs at a pulsing artery.
+      flag:
+      identity:
+        name: Marsh Mosquito
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  packrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - packrat
+          short: Packrat
+          sight: A hulking packrat of the marshland is here.
+      flag:
+        - no-steal
+      identity:
+        name: Packrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spirit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - damned
+            - spirit
+          short: The Damned
+          sight: >
+            A damned soul draws small bits of debris into its whirling core.
+      flag:
+      identity:
+        name: The Damned
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vampire:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stately vampire
+            - vampire
+          short: Stately Vampire
+          sight: >
+            A vampire dressed to the hilt ponders where to get his next meal.
+      flag:
+      identity:
+        name: Stately Vampire
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

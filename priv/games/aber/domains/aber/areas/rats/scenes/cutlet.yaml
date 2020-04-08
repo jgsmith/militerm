@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:rats:woodstore"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:rats:kitchen"
     short: Cutlet
     sight: >
       You are standing in the cutlet. The large stove dominates the room. You see many different pipes going
