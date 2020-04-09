@@ -11,4 +11,4 @@ detail:
       warm liquid.
 flag:
   - dark
-  - nosummon
+  - no-summon

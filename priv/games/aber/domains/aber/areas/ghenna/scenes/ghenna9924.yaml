@@ -19,6 +19,6 @@ detail:
       which way is which. It seems as though you could end up in any of several different places by choosing
       an exit.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - maze

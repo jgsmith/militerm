@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:treehouse:eside"
       west:
         target: "scene:aber:treehouse:house"
     short: Treehouse Porch

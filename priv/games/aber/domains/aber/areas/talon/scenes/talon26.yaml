@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:talon:innercave"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:talon:talon25"
     short: Inside the Peak
     sight: >
       This is a small quiet cave which appears to have not been disturbed for quite some time. It has been

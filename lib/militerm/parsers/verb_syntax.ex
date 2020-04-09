@@ -6,25 +6,45 @@ defmodule Militerm.Parsers.VerbSyntax do
 
   @doc """
   Parses the string into a set of directives and texts
+
   ## Examples
+
   iex> VerbSyntax.parse("[<adverb>] at <direct:object'thing> {through|with} <instrument:object:me>")
   %{
     pattern: [
-      {:optional, [{:word_list, :adverb}]}, "at",
+      {:optional, "adverb", "adverb"}, {:word_list, ["at"], nil},
       {:direct, :object, :singular, [:me, :near]},
-      {:word_list, ["through", "with"]},
+      {:word_list, ["through", "with"], nil},
       {:instrument, :object, :singular, [:me]}
     ],
     short: "[<adverb>] at <thing> {through|with} <object>",
     weight: 39
   }
 
+  iex> VerbSyntax.parse("<string'message>")
+  %{
+    pattern: [
+      {:string, "message"}
+    ],
+    short: "<message>",
+    weight: 5
+  }
+
+  iex> VerbSyntax.parse("<direct:object'thing>")
+  %{
+    pattern: [
+      {:direct, :object, :singular, [:me, :near]}
+    ],
+    short: "<thing>",
+    weight: 7
+  }
+
   iex> VerbSyntax.parse("<number> <direct:objects'things> with <indirect:object:me>")
   %{
     pattern: [
-      {:word_list, :number},
+      {:number, nil},
       {:direct, :object, :plural, [:me, :near]},
-      "with",
+      {:word_list, ["with"], nil},
       {:indirect, :object, :singular, [:me]}
     ],
     short: "<number> <things> with <object>",
@@ -35,8 +55,8 @@ defmodule Militerm.Parsers.VerbSyntax do
   %{
     pattern: [
       {:direct, :object, :singular, [:me]},
-      "with",
-      :quoted_string
+      {:word_list, ["with"], nil},
+      {:quoted_string, "phrase"}
     ],
     short: "<something> with \\"<phrase>\\"",
     weight: 25
@@ -60,6 +80,10 @@ defmodule Militerm.Parsers.VerbSyntax do
     state
     |> trim_leading_space()
     |> try_string()
+    |> trim_leading_space()
+    |> try_number()
+    |> trim_leading_space()
+    |> try_fraction()
     |> trim_leading_space()
     |> try_slot()
     |> trim_leading_space()
@@ -88,10 +112,10 @@ defmodule Militerm.Parsers.VerbSyntax do
       {:error, _} = error ->
         error
 
-      {type, name, heft, remaining} ->
+      {type, name, raw_name, heft, remaining} ->
         %{
           source: remaining,
-          pattern: [type | pattern],
+          pattern: [{type, raw_name} | pattern],
           short: [[" ", name] | short],
           weight: weight + heft
         }
@@ -108,7 +132,7 @@ defmodule Militerm.Parsers.VerbSyntax do
 
     %{
       source: rest,
-      pattern: [:string | pattern],
+      pattern: [{:string, nil} | pattern],
       short: [" string" | short],
       weight: weight + 5
     }
@@ -128,8 +152,8 @@ defmodule Militerm.Parsers.VerbSyntax do
       [name, remaining] ->
         %{
           source: remaining,
-          pattern: [:string | pattern],
-          short: [[" ", name] | short],
+          pattern: [{:string, name} | pattern],
+          short: [[" <", name, ">"] | short],
           weight: weight + 5
         }
     end
@@ -137,9 +161,97 @@ defmodule Militerm.Parsers.VerbSyntax do
 
   def try_string(state), do: state
 
+  def try_number(%{
+        source: <<"<number>", rest::binary>>,
+        pattern: pattern,
+        short: short,
+        weight: weight
+      }) do
+    %{
+      source: rest,
+      pattern: [{:number, nil} | pattern],
+      short: [[" <number>"] | short],
+      weight: weight + 10
+    }
+  end
+
+  def try_number(%{
+        source: <<"<number'", rest::binary>>,
+        pattern: pattern,
+        short: short,
+        weight: weight
+      }) do
+    case String.split(rest, ">", parts: 2) do
+      [_] ->
+        {:error, "Number slot not terminated"}
+
+      [name, remainder] ->
+        %{
+          source: rest,
+          pattern: [{:number, nil} | pattern],
+          short: [[" <", name, ">"] | short],
+          weight: weight + 10
+        }
+    end
+  end
+
+  def try_number(state), do: state
+
+  def try_fraction(%{
+        source: <<"<fraction>", rest::binary>>,
+        pattern: pattern,
+        short: short,
+        weight: weight
+      }) do
+    %{
+      source: rest,
+      pattern: [{:fraction, nil} | pattern],
+      short: [[" <fraction>"] | short],
+      weight: weight + 10
+    }
+  end
+
+  def try_fraction(%{
+        source: <<"<fraction'", rest::binary>>,
+        pattern: pattern,
+        short: short,
+        weight: weight
+      }) do
+    case String.split(rest, ">", parts: 2) do
+      [_] ->
+        {:error, "Fraction slot not terminated"}
+
+      [name, remainder] ->
+        %{
+          source: rest,
+          pattern: [{:fraction, name} | pattern],
+          short: [[" <", name, ">"] | short],
+          weight: weight + 10
+        }
+    end
+  end
+
+  def try_fraction(state), do: state
+
   def try_slot(%{source: <<"<", rest::binary>>, pattern: pattern, short: short, weight: weight}) do
     # parse slot description
     case parse_slot(rest) do
+      {:error, _} = error ->
+        error
+
+      {:ok, slot, short_bit, heft, remaining} ->
+        %{
+          source: remaining,
+          pattern: [slot | pattern],
+          short: [[" ", short_bit] | short],
+          weight: weight + heft
+        }
+    end
+  end
+
+  def try_slot(%{source: <<"[<", rest::binary>>, pattern: pattern, short: short, weight: weight}) do
+    # parse slot description
+    case parse_optional_slot(rest) do
       {:error, _} = error ->
         error
 
@@ -176,6 +288,27 @@ defmodule Militerm.Parsers.VerbSyntax do
     end
   end
 
+  def try_word_list(%{
+        source: <<"[{", rest::binary>>,
+        pattern: pattern,
+        short: short,
+        weight: weight
+      }) do
+    # parse word option list
+    case parse_options(rest) do
+      {:error, _} = error ->
+        error
+
+      {words, short_bit, heft, remaining} ->
+        %{
+          source: remaining,
+          pattern: [words | pattern],
+          short: [[" ", short_bit] | short],
+          weight: weight + heft
+        }
+    end
+  end
+
   def try_word_list(state), do: state
 
   def try_optional(%{
@@ -184,17 +317,28 @@ defmodule Militerm.Parsers.VerbSyntax do
         short: short,
         weight: weight
       }) do
-    # parse optional pattern
+    # parse optional word sequence
     case String.split(rest, "]", parts: 2) do
-      [optional, remaining] ->
-        %{pattern: optional_pattern, short: optional_short, weight: heft} = parse(optional)
+      [words, remaining] ->
+        bits = String.split(words, ~r{\s+}, trim: true)
 
-        %{
-          source: remaining,
-          pattern: [{:optional, optional_pattern} | pattern],
-          short: [[" [", optional_short, "]"] | short],
-          weight: weight + div(heft, 2)
-        }
+        type =
+          case bits do
+            [_] -> :optional
+            [_, _ | _] -> :optional_spaces
+            _ -> nil
+          end
+
+        if type do
+          %{
+            source: remaining,
+            pattern: [{type, bits, nil} | pattern],
+            short: [[" [", Enum.intersperse(bits, " "), "]"] | short],
+            weight: weight + 5
+          }
+        else
+          {:error, "empty []"}
+        end
 
       otherwise ->
         {:error, "missing closing ]"}
@@ -212,7 +356,7 @@ defmodule Militerm.Parsers.VerbSyntax do
         [word, remaining] ->
           %{
             source: remaining,
-            pattern: [word | pattern],
+            pattern: [{:word_list, [word], nil} | pattern],
             short: [[" ", word] | short],
             weight: weight + 10
           }
@@ -220,7 +364,7 @@ defmodule Militerm.Parsers.VerbSyntax do
         [word] ->
           %{
             source: "",
-            pattern: [word | pattern],
+            pattern: [{:word_list, [word], nil} | pattern],
             short: [[" ", word] | short],
             weight: weight + 10
           }
@@ -246,7 +390,7 @@ defmodule Militerm.Parsers.VerbSyntax do
         [word] ->
           # pre-defined word list
           {
-            {:word_list, String.to_atom(word)},
+            {:word_list, word, if(is_nil(maybe_name), do: word, else: maybe_name)},
             if(is_nil(maybe_name), do: word, else: maybe_name),
             10
           }
@@ -270,34 +414,55 @@ defmodule Militerm.Parsers.VerbSyntax do
     {:ok, pattern, ["<", name, ">"], heft, remaining}
   end
 
+  def parse_optional_slot(string) do
+    [description, remaining] = String.split(string, ">]", parts: 2)
+
+    [list_name, maybe_name] =
+      case String.split(description, "'", parts: 2) do
+        [_, _] = result -> result
+        [result] -> [result, result]
+      end
+
+    {:ok, {:optional, list_name, maybe_name},
+     ["[<", if(is_nil(maybe_name), do: list_name, else: maybe_name), ">]"], 5, remaining}
+  end
+
   def parse_options(string) do
     [words, remaining] = String.split(string, "}", parts: 2)
     bits = String.split(words, "|", trim: true)
-    {{:word_list, bits}, ["{", Enum.join(bits, "|"), "}"], 10, remaining}
+
+    type =
+      if Enum.any?(bits, &String.contains?(&1, " ")) do
+        :word_list_spaces
+      else
+        :word_list
+      end
+
+    {{type, bits, nil}, ["{", Enum.join(bits, "|"), "}"], 10, remaining}
   end
 
   def parse_string_expectation(string) do
     case String.split(string, ">", parts: 2) do
       [definition, rest] ->
         case String.split(definition, "'", parts: 2) do
-          [type, name] ->
-            name = if type == "quoted", do: ["\"<", name, ">\""], else: ["<", name, ">"]
+          [type, raw_name] ->
+            name = if type == "quoted", do: ["\"<", raw_name, ">\""], else: ["<", raw_name, ">"]
 
             case type do
-              "quoted" -> {:quoted_string, name, 8, rest}
-              "small" -> {:short_string, name, 6, rest}
-              "long" -> {:long_string, name, 5, rest}
-              _ -> {:string, name, 5, rest}
+              "quoted" -> {:quoted_string, name, raw_name, 8, rest}
+              "small" -> {:short_string, name, raw_name, 6, rest}
+              "long" -> {:long_string, name, raw_name, 5, rest}
+              _ -> {:string, name, raw_name, 5, rest}
             end
 
           [type] ->
             name = if type == "quoted", do: "\"<string>\"", else: "<string>"
 
             case type do
-              "quoted" -> {:quoted_string, name, 8, rest}
-              "small" -> {:short_string, name, 6, rest}
-              "long" -> {:long_string, name, 5, rest}
-              _ -> {:string, name, 5, rest}
+              "quoted" -> {:quoted_string, name, nil, 8, rest}
+              "small" -> {:short_string, name, nil, 6, rest}
+              "long" -> {:long_string, name, nil, 5, rest}
+              _ -> {:string, name, nil, 5, rest}
             end
         end
 

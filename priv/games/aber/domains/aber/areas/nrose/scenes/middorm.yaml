@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:nrose:northdorm"
       south:
         target: "scene:aber:nrose:southdorm"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:nrose:cell2"
     short: Dormitory
     sight: >
       You are in the hallway of the monk's dormitory which continues to the north and south. To the west is a

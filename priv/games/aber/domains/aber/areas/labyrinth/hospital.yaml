@@ -1,0 +1,24 @@
+groups:
+locations:
+  k:
+    npcs:
+      minotaur: 1
+npcs:
+  minotaur:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minotaur
+          short: The Minotaur
+          sight: >
+            A minotaur snarls viciously at you, his huge bulk shaking with rage.
+      flag:
+        - no-steal
+      identity:
+        name: The Minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

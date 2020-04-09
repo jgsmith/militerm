@@ -10,4 +10,4 @@ detail:
       it because it looks quite fragile.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:talon:talon45"
     short: Center of Evil
     sight: >
       You enter a small, dark room which appears to be where the ruler of this castle practices his dark

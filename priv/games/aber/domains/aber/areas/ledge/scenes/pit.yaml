@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:ledge:cave"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ledge:pit"
     short: Bottom Of Pit
     sight: >
       You are standing at the bottom of a huge open pit. The pit walls are almost sheer, and well beyond

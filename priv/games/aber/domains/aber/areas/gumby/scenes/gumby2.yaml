@@ -23,5 +23,5 @@ detail:
 flag:
   - private
   - party
-  - nosnoop
-  - outdoors
+  - no-snoop
+  - out-doors

@@ -1,0 +1,265 @@
+groups:
+  windy12:
+    npcs:
+      bonz: 1
+      quirk: 1
+      spork: 1
+locations:
+  windy1:
+    npcs:
+      crow: 1
+  windy12:
+    groups:
+      windy12: 1
+  windy15:
+    npcs:
+      auster: 1
+  windy18:
+    npcs:
+      eurus: 1
+  windy20:
+    npcs:
+      zephyrus: 1
+  windy22:
+    npcs:
+      highpriest: 1
+  windy27:
+    npcs:
+      aquilo: 1
+  windy28:
+    npcs:
+      cumulonimbus: 1
+  windy6:
+    npcs:
+      ethereal_shape: 1
+  windy9:
+    npcs:
+      wind_elemental: 1
+npcs:
+  aquilo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aquilo
+          short: Aquilo
+          sight: Aquilo, the North Wind, prepares to do you in.
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-frost
+        - neg-ice-storm
+        - neg-bhands
+        - neg-missile
+        - neg-shock
+        - neg-v-touch
+      identity:
+        name: Aquilo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  auster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - auster
+          short: Auster
+          sight: Auster, the South Wind, blows furiously at you!
+      flag:
+        - frost
+        - neg-frost
+      identity:
+        name: Auster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bonz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bonz
+          short: Bonz
+          sight: >
+            Bonz the skeleton glares at you, angry that you're not dead yet, Jim.
+      flag:
+        - neg-frost
+        - neg-shock
+      identity:
+        name: Bonz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A large crow eyes you from atop the signpost.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cumulonimbus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cumulonimbus
+          short: Cumulonimbus
+          sight: >
+            Cumulonimbus, the Cloud God, thunders at you angrily.
+      flag:
+        - fireball
+        - neg-ice-storm
+        - neg-bhands
+        - neg-fireball
+        - neg-frost
+        - neg-missile
+        - neg-shock
+      identity:
+        name: Cumulonimbus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ethereal_shape:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ethereal shape
+            - ethereal_shape
+          short: Ethereal Shape
+          sight: An ethereal shape guards the southern trail.
+      flag:
+      identity:
+        name: Ethereal Shape
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eurus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eurus
+          short: Eurus
+          sight: Eurus, the East Wind, fumes darkly at you.
+      flag:
+        - shock
+        - neg-shock
+      identity:
+        name: Eurus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  highpriest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - highpriest
+          short: HighPriest
+          sight: The highpriest is in.
+      flag:
+        - shock
+      identity:
+        name: HighPriest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quirk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - quirk
+          short: Quirk
+          sight: Captain Quirk wanders about, smiling charmingly.
+      flag:
+      identity:
+        name: Quirk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spork:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spork
+          short: Spork
+          sight: Science Officer Spork raises an eyebrow at you.
+      flag:
+      identity:
+        name: Spork
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wind_elemental:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wind elemental
+            - wind_elemental
+          short: Wind Elemental
+          sight: >
+            A wind elemental is blowing around the rubble, and it looks mad!
+      flag:
+        - neg-ice-storm
+        - neg-bhands
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - neg-shock
+      identity:
+        name: Wind Elemental
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  zephyrus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zephyrus
+          short: Zephyrus
+          sight: Zephyrus, the West Wind, glares hotly at you.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: Zephyrus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

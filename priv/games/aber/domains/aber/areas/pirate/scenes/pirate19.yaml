@@ -15,4 +15,4 @@ detail:
       north here, winding down the side of the volcano.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

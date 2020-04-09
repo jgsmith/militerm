@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      up: null
+      east:
+        guarded: true
+        target: "scene:aber:aladdin:palace8"
+      up:
+        guarded: true
+        target: "scene:aber:aladdin:tower"
     short: "Jafar's Throne Room"
     sight: >
       Jafar has created himself quite a nice throne room since last you saw him. He has evidentally wished for

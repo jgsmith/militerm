@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:balharbor:balhar20"
       south:
         target: "scene:aber:balharbor:balhar8"
     short: The Adventurers Guild

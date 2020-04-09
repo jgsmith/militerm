@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter14"
+      southwest:
         target: "scene:aber:enchanter:enchanter16"
     short: Village Outskirts
     sight: >
@@ -10,4 +12,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

@@ -1,0 +1,432 @@
+groups:
+  castle2:
+    npcs:
+      humming1: 1
+      humming2: 1
+  jungle11:
+    npcs:
+      crow3: 1
+      crow4: 1
+locations:
+  castle10:
+    npcs:
+      humming6: 1
+  castle13:
+    npcs:
+      humming4: 1
+  castle17:
+    npcs:
+      humming3: 1
+  castle2:
+    groups:
+      castle2: 1
+  castle20:
+    npcs:
+      humming5: 1
+  castle26:
+    npcs:
+      pigeon: 1
+  castle27:
+    npcs:
+      rothbart: 1
+  castle6:
+    npcs:
+      chef: 1
+  cave2:
+    npcs:
+      parrot: 1
+  jungle1:
+    npcs:
+      vulture: 1
+  jungle11:
+    groups:
+      jungle11: 1
+  jungle3:
+    npcs:
+      vulture2: 1
+  jungle4:
+    npcs:
+      crow2: 1
+  jungle5:
+    npcs:
+      crow1: 1
+  pond1:
+    npcs:
+      blackswan: 1
+  shore10:
+    npcs:
+      crab1: 1
+  shore15:
+    npcs:
+      crab2: 1
+  shore5:
+    npcs:
+      crab3: 1
+  tower:
+    npcs:
+      swan: 1
+npcs:
+  blackswan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black swan
+            - blackswan
+          short: The Black Swan
+          sight: A black swan stands here trying to seduce you.
+      flag:
+      identity:
+        name: The Black Swan
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  chef:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cooking bird
+            - chef
+          short: Cooking Bird
+          sight: >
+            The cooking bird is chopping up some steamed words.
+      flag:
+      identity:
+        name: Cooking Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crabbie
+            - crab
+          short: Crabbie
+          sight: An abnormally large crab tries to grab you.
+      flag:
+      identity:
+        name: Crabbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crabbie
+            - crab
+          short: Crabbie
+          sight: An abnormally large crab tries to grab you.
+      flag:
+      identity:
+        name: Crabbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crabbie
+            - crab
+          short: Crabbie
+          sight: An abnormally large crab tries to grab you.
+      flag:
+      identity:
+        name: Crabbie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A crow flies through the trees above.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A crow flies through the trees above.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A crow flies through the trees above.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crow4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crow
+          short: Crow
+          sight: A crow flies through the trees above.
+      flag:
+      identity:
+        name: Crow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  humming6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - humming bird
+            - humming
+          short: Humming Bird
+          sight: A humming bird guard buzzes busily.
+      flag:
+      identity:
+        name: Humming Bird
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  parrot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wize parrot
+            - parrot
+          short: The WiZe ParrOt
+          sight: The WiZe Parr0t stand here with a straw cane.
+      flag:
+        - no-hassle
+      identity:
+        name: The WiZe ParrOt
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pigeon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stage pigeon
+            - pigeon
+          short: The Stage Pigeon
+          sight: >
+            The castle pigeon walks back and forth looking for worms.
+      flag:
+        - no-hassle
+      identity:
+        name: The Stage Pigeon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rothbart:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rothbart
+          short: Rothbart
+          sight: >
+            The evil sorceror Rothbart wonders who the stool pigeon was that ratted him out. Now he has to
+            totally anniliate you.
+      flag:
+        - fireball
+        - neg-fireball
+        - b-hands
+        - neg-bhands
+        - missile
+        - neg-missile
+        - mute
+      identity:
+        name: Rothbart
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  swan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - swan princess
+            - swan
+          short: The Swan Princess
+          sight: The Swan Princess looks at you thankfully.
+      flag:
+        - no-hassle
+      identity:
+        name: The Swan Princess
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vulture:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vulture
+          short: Vulture
+          sight: A large vulture flies through the trees above.
+      flag:
+      identity:
+        name: Vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vulture2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vulture
+          short: Vulture
+          sight: A large vulture flies through the trees above.
+      flag:
+      identity:
+        name: Vulture
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

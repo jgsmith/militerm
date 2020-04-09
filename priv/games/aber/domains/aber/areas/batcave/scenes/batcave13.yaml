@@ -12,7 +12,7 @@ detail:
       sense of peacefulness is strongly washing over you, and you realize how long it has been since you've
       felt safe. The floor tilts upwards to the south, and there is a small, dark opening in the eastern wall.
 flag:
-  - nomagic
+  - no-magic
   - peaceful
   - party
-  - nosummon
+  - no-summon

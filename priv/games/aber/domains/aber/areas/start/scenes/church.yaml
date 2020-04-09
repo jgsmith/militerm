@@ -13,6 +13,6 @@ detail:
       which dances in the sunbeams that shine faintly through the windows. A doorway leads south.
 flag:
   - peace
-  - fastmana
-  - fastheal
+  - fast-mana
+  - fast-heal
   - party

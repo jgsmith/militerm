@@ -8,4 +8,4 @@ detail:
       A large balloon is in the docking bay here. It looks like it would be strong enough to lift you off the
       ground. Smaller versions of the balloon are tied to the railing around the ride for decoration.
 flag:
-  - nomobiles
+  - no-mobiles

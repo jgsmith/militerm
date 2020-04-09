@@ -14,5 +14,5 @@ detail:
       instead of passing through the castle. You can enter into the courtyard by swimming south or head back
       to Main Street to the north.
 flag:
-  - underwater
-  - nomobiles
+  - under-water
+  - no-mobiles

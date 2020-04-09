@@ -1,0 +1,135 @@
+groups:
+locations:
+  clearing:
+    npcs:
+      skeleton: 1
+  garden:
+    npcs:
+      minion: 1
+  light:
+    npcs:
+      gwion: 1
+  river:
+    npcs:
+      rider: 1
+  toproom:
+    npcs:
+      gwyddno: 1
+  tree7:
+    npcs:
+      blackrider: 1
+npcs:
+  blackrider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black rider
+            - blackrider
+          short: Black Rider
+          sight: >
+            The Black Rider of the Dark stands here, barring your way to the seventh tree.
+      flag:
+        - neg-fireball
+        - neg-frost
+        - neg-shock
+      identity:
+        name: Black Rider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gwion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gwion
+          short: gwion
+          sight: A small man stands here watching you.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: gwion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gwyddno:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gwyddno
+          short: gwyddno
+          sight: >
+            The King of the Lost Land, Gwyddno Garanhir, sits here.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: gwyddno
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  minion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minion
+          short: minion
+          sight: >
+            A threatening minion of the dark powers blocks your way north.
+      flag:
+      identity:
+        name: minion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white rider
+            - rider
+          short: White Rider
+          sight: >
+            The White Rider of the Dark stands here, sneering at you contemptuously.
+      flag:
+        - neg-frost
+      identity:
+        name: White Rider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skeleton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mari llwyd
+            - skeleton
+          short: Mari Llwyd
+          sight: >
+            The skeleton of a giant horse prances in front of you blocking the way north.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: Mari Llwyd
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

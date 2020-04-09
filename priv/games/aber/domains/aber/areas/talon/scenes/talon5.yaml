@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:talon:talon6"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:talon:talon4"
     short: Into the Depths
     sight: >
       This is a narrow dark hole carved out of solid granite. It looks as if it was hollowed out with crude

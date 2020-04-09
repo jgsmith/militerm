@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:abyss:trees"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:abyss:l663"
     short: Slimy Bank
     sight: >
       You are standing on the western bank of a river of slime. The slime level is high here and some of the

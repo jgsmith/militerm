@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cave:wide"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cave:armory"
       south:
         target: "scene:aber:cave:long"
     short: Dwarven Hall

@@ -1,0 +1,61 @@
+groups:
+  oshul:
+    npcs:
+      archpriest: 1
+      oshul: 1
+locations:
+  oshul:
+    groups:
+      oshul: 1
+npcs:
+  archpriest:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - archpriest
+          short: ArchPriest
+          sight: >
+            Clad in red and black satin, an ArchPriest of Oshul measures you up!
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-frost
+        - neg-missile
+      identity:
+        name: ArchPriest
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  oshul:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - oshul
+          short: Oshul
+          sight: >
+            &+LThe dark god &+ROshul&+L, is here, in the form of a nightblack dragon. &+LHe sits atop his pile
+            of gold, smirking down at you.
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-frost
+        - neg-missile
+        - no-punt
+        - no-alias
+        - no-zap
+        - no-exorcise
+        - no-hassle
+        - no-burn
+        - no-summon
+        - no-steal
+      identity:
+        name: Oshul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

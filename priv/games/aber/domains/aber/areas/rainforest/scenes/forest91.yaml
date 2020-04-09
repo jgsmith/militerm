@@ -12,4 +12,4 @@ detail:
       the surface a little further out in the river.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

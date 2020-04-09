@@ -1,14 +1,18 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9999"
       east:
         target: "scene:aber:ghenna:ghenna9928"
       north:
         target: "scene:aber:ghenna:ghenna9925"
       south:
         target: "scene:aber:ghenna:ghenna9927"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9934"
       west:
         target: "scene:aber:ghenna:ghenna9925"
     short: The mouth of a large cave.

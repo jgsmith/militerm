@@ -12,4 +12,4 @@ detail:
       some time.
 flag:
   - dark
-  - nomagic
+  - no-magic

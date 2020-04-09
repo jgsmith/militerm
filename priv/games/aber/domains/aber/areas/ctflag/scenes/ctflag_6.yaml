@@ -1,7 +1,7 @@
 detail:
   default:
     exits:
-      :
+      northeast:
         target: "scene:aber:ctflag:ctflag_10"
     short: &=lWBlack Locker Room&*
     sight: >

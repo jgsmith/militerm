@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:waste:fire"
     short: "The Fiery King's Hall"
     sight: >
       You stand in a small fantastically carved hall, decorated with millions of reflecting crystals which

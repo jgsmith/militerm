@@ -10,9 +10,9 @@ detail:
       chanting your mantra.
 flag:
   - cold
-  - nomagic
-  - nomobiles
-  - nosummon
+  - no-magic
+  - no-mobiles
+  - no-summon
   - peaceful
   - soundproof
-  - oneperson
+  - one-person

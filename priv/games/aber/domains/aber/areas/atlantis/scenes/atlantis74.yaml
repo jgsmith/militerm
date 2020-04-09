@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:atlantis:atlantis75"
       south:
         target: "scene:aber:atlantis:atlantis73"
     short: Before the Door

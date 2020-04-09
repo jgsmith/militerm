@@ -21,10 +21,10 @@ defmodule Militerm.Systems.Commands do
     |> interpret_pipeline_results()
   end
 
-  def interpret_pipeline_results(%{error: message, entity_id: entity_id, state: state} = result)
+  def interpret_pipeline_results(%{error: message, entity: entity, state: state} = result)
       when state in ~w[unhandled error]a do
     Militerm.Systems.Entity.receive_message(
-      entity_id,
+      entity,
       "error:command",
       "{red}{{message}}{/red}",
       %{"message" => message}

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:playhouse:house25"
       west:
         target: "scene:aber:playhouse:house23"
     short: On Your Way to the Closet

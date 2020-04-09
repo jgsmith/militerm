@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      north: null
-      south: null
+      north:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9506"
+      south:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9501"
       west:
         target: "scene:aber:khanjar:khanjar9503"
     short: The Yard Of The Tavern

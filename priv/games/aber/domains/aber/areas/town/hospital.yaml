@@ -1,0 +1,249 @@
+groups:
+  town52:
+    npcs:
+      ambusher: 1
+      mage: 1
+locations:
+  town1:
+    npcs:
+      krakken: 1
+  town21:
+    npcs:
+      clerk: 1
+  town22:
+    npcs:
+      veteran: 1
+  town27:
+    npcs:
+      mercenary: 1
+  town34:
+    npcs:
+      wench: 1
+  town38:
+    npcs:
+      assassin: 1
+  town47:
+    npcs:
+      raider: 1
+  town52:
+    groups:
+      town52: 1
+  town54:
+    npcs:
+      traveler: 1
+  town63:
+    npcs:
+      wizard: 1
+  town9:
+    npcs:
+      thief: 1
+npcs:
+  ambusher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ambusher
+          short: Ambusher
+          sight: >
+            A mean looking man is hiding behind the bushes waiting to kill you.
+      flag:
+      identity:
+        name: Ambusher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  assassin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - assassin
+          short: The Assassin
+          sight: >
+            A professional killer is here waiting for his next job.
+      flag:
+      identity:
+        name: The Assassin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  clerk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clerk
+          short: Clerk
+          sight: >
+            A local food clerk runs around the shop readying it for opening.
+      flag:
+      identity:
+        name: Clerk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  krakken:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - krakken
+          short: Krakken
+          sight: >
+            A giant Krakken sits here ready to bash all boats that pass to a pulp!
+      flag:
+      identity:
+        name: Krakken
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mage:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mage
+          short: Mage
+          sight: >
+            A hired mage prepares to help the Ambusher kill you.
+      flag:
+        - shock
+        - no-summon
+      identity:
+        name: Mage
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mercenary:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mercenary
+          short: Mercenary
+          sight: >
+            A drunk mercenary sits here readying himself for a night at the Brothel.
+      flag:
+      identity:
+        name: Mercenary
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  raider:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raider
+          short: Raider
+          sight: >
+            A dying raider lies in the campsite trying to hide.
+      flag:
+      identity:
+        name: Raider
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  thief:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thief
+          short: The Thief
+          sight: >
+            A sly thief lurks in the corners waiting to steal everything you have.
+      flag:
+      identity:
+        name: The Thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  traveler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - traveler
+          short: Traveler
+          sight: >
+            A cheerful traveler wanders the roads of this land looking for an adventure.
+      flag:
+      identity:
+        name: Traveler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  veteran:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - veteran
+          short: Veteran
+          sight: >
+            A seasoned Veteran sits here sharpening his bastardsword.
+      flag:
+      identity:
+        name: Veteran
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wench:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wench
+          short: The Wench
+          sight: >
+            The Lustful Wench lies here waiting for fulfillment.
+      flag:
+      identity:
+        name: The Wench
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  wizard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wizard
+          short: Wizard
+          sight: >
+            An old and very wise wizard sits here in the cave, studying an old tome.
+      flag:
+        - b-hands
+        - fireball
+        - no-summon
+      identity:
+        name: Wizard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

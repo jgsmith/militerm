@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:talon:talon26"
     short: Atop the Mountain
     sight: >
       You stand at the peak of the tallest mountain in the land. To the east, a large canyon separates two

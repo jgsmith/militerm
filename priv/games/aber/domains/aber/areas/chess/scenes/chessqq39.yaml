@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:chess:chessqq24"
       south:
         target: "scene:aber:chess:chessqq40"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:chess:chessqq77"
     short: The White Square
     sight: >
       You are standing on a highly polished white marble tile, which extends about six feet in either

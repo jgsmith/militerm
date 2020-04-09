@@ -7,7 +7,7 @@ detail:
     sight: >
       ...On your ship, the Rocinante, spinning through the galaxies. Headed for...
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

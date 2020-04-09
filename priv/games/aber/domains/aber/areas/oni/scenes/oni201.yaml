@@ -10,5 +10,5 @@ detail:
       The main tower of the Wizards of the White Phoenix is pretty empty. Most of the important stuff are kept
       elsewhere.
 flag:
-  - cantsummon
-  - nosummon
+  - cant-summon
+  - no-summon

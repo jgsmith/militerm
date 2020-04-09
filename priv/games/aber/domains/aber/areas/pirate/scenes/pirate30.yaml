@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:pirate:pirate29"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:pirate:pirate31"
     short: Accounting Room
     sight: >
       You are in a room that through some miracle is still full of air. Though stale, it appears to be

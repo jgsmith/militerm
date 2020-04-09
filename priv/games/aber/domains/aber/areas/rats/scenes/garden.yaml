@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:rats:hallway_1"
       west:
         target: "scene:aber:village:road10"
     short: Small garden
@@ -9,5 +11,5 @@ detail:
       You are standing in a small garden. There are just some flowers growing here. It will need much work to
       make it larger and more beautiful.
 flag:
-  - nomobiles
-  - outdoors
+  - no-mobiles
+  - out-doors

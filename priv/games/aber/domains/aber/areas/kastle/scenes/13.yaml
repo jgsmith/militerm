@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:kastle:14"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:kastle:12"
     short: Under the Snow Temple
     sight: >
       You are in a secret chamber beneath an old temple. It looks as though the place is ready to fall in. The
@@ -13,4 +15,4 @@ flag:
   - dark
   - cold
   - soundproof
-  - nomagic
+  - no-magic

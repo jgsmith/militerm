@@ -1,0 +1,102 @@
+groups:
+locations:
+  limbo@limbo:
+    npcs:
+      workman: 1
+  opera10:
+    npcs:
+      carlotta: 1
+  opera17:
+    npcs:
+      ratcatcher: 1
+  opera25:
+    npcs:
+      joseph: 1
+  opera9:
+    npcs:
+      andre: 1
+npcs:
+  andre:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andre
+          short: Andre
+          sight: >
+            Mr. Andre, in his pressed tuxedo, stands here flitting nervously.
+      flag:
+      identity:
+        name: Andre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  carlotta:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - carlotta
+          short: Carlotta
+          sight: "La Carlotta says \"Out of my way, churl!\""
+      flag:
+      identity:
+        name: Carlotta
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  joseph:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - joseph
+          short: Joseph
+          sight: >
+            Joseph, the scene-shifter, stands here shifting the scene.
+      flag:
+      identity:
+        name: Joseph
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ratcatcher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ratcatcher
+          short: Ratcatcher
+          sight: >
+            The Ratcatcher says "I am the Ratcatcher, let me pass with my rats."
+      flag:
+      identity:
+        name: Ratcatcher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  workman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - workman
+          short: Workman
+          sight: >
+            A workman looks at you and says, "Hey, get outta here."
+      flag:
+      identity:
+        name: Workman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

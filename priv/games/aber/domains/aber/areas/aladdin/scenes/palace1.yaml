@@ -13,4 +13,4 @@ detail:
       stuck.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

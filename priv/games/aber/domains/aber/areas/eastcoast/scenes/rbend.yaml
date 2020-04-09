@@ -12,4 +12,4 @@ detail:
       stick around to confirm your suspicions.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -11,5 +11,5 @@ detail:
       the trees. The walk way is bordered with beautiful &+Yflowers&*. You see the deep, dark forest looming
       to the south.
 flag:
-  - nomobiles
-  - outdoors
+  - no-mobiles
+  - out-doors

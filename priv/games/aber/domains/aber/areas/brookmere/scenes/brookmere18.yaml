@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:brookmere:brookmere19"
       south:
         target: "scene:aber:brookmere:brookmere17"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere54"
     short: Enormous Cavern
     sight: >
       The roof of the cavern flickers in the red light of many torches. The walls are known to learned people

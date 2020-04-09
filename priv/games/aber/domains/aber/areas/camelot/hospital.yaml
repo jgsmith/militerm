@@ -1,0 +1,2846 @@
+groups:
+  camelot1:
+    npcs:
+      armadillo: 1
+      kay: 1
+  camelot108:
+    npcs:
+      marsha: 1
+      masha: 1
+      misha: 1
+      morsha: 1
+  camelot109:
+    npcs:
+      baasheeba: 1
+      bella: 1
+      bertha: 1
+      bulla: 1
+  camelot217:
+    npcs:
+      erkki: 1
+      himo: 1
+      juba: 1
+      mika: 1
+  camelot218:
+    npcs:
+      pelle: 1
+      pomo: 1
+  camelot228:
+    npcs:
+      hoppari: 1
+      jarmo: 1
+  camelot235:
+    npcs:
+      brunno: 1
+      fang: 1
+      palli: 1
+      spike: 1
+  camelot236:
+    npcs:
+      fletching: 1
+      peregrine: 1
+      taru: 1
+  camelot237:
+    npcs:
+      kirsi: 1
+      naaras: 1
+  camelot247:
+    npcs:
+      kati: 1
+      vaino: 1
+  camelot248:
+    npcs:
+      jallu: 1
+      vesa: 1
+  camelot250:
+    npcs:
+      bultsi: 1
+      mikko: 1
+  camelot251:
+    npcs:
+      mikka: 1
+      seapas: 1
+  camelot252:
+    npcs:
+      jussy: 1
+      spede: 1
+  camelot254:
+    npcs:
+      asko: 1
+      kamu: 1
+locations:
+  camelot144:
+    npcs:
+      leech: 1
+  camelot62:
+    npcs:
+      katar: 1
+  camelot251:
+    groups:
+      camelot251: 1
+  camelot79:
+    npcs:
+      raccoon: 1
+  camelot113:
+    npcs:
+      cara: 1
+  camelot233:
+    npcs:
+      jyri: 1
+  camelot68:
+    npcs:
+      helius: 1
+  camelot59:
+    npcs:
+      andred: 1
+  camelot146:
+    npcs:
+      cavelion: 1
+  camelot271:
+    npcs:
+      bedmonster: 1
+  camelot298:
+    npcs:
+      balor: 1
+  camelot289:
+    npcs:
+      grippli: 1
+  camelot296:
+    npcs:
+      amon: 1
+  camelot70:
+    npcs:
+      bankguard: 1
+  camelot3:
+    npcs:
+      someone: 1
+  camelot238:
+    npcs:
+      tiina: 1
+  camelot294:
+    npcs:
+      moloch: 1
+  camelot17:
+    npcs:
+      pellinore: 1
+  camelot241:
+    npcs:
+      panu: 1
+  camelot290:
+    npcs:
+      tarrasque: 1
+  camelot300:
+    npcs:
+      nalfeshnee: 1
+  camelot8:
+    npcs:
+      ewaine: 1
+  camelot260:
+    npcs:
+      helsa: 1
+  camelot239:
+    npcs:
+      teuvo: 1
+  camelot249:
+    npcs:
+      make: 1
+  camelot230:
+    npcs:
+      jalovoara: 1
+  camelot78:
+    npcs:
+      bartender: 1
+  camelot228:
+    groups:
+      camelot228: 1
+  camelot6:
+    npcs:
+      mordred: 1
+  camelot7:
+    npcs:
+      percivale: 1
+  camelot221:
+    npcs:
+      vuno: 1
+  camelot67:
+    npcs:
+      hue: 1
+  camelot148:
+    npcs:
+      centipede: 1
+  camelot150:
+    npcs:
+      cavebear: 1
+  camelot235:
+    groups:
+      camelot235: 1
+  camelot244:
+    npcs:
+      kuppi: 1
+  camelot219:
+    npcs:
+      kalle: 1
+  camelot142:
+    npcs:
+      firedemon: 1
+  camelot293:
+    npcs:
+      bael: 1
+  camelot255:
+    npcs:
+      jeeves: 1
+  camelot237:
+    groups:
+      camelot237: 1
+  camelot151:
+    npcs:
+      corledge: 1
+  camelot301:
+    npcs:
+      demogorgon: 1
+  camelot229:
+    npcs:
+      koorina: 1
+  camelot285:
+    npcs:
+      crusher: 1
+  camelot108:
+    groups:
+      camelot108: 1
+  camelot250:
+    groups:
+      camelot250: 1
+  camelot5:
+    npcs:
+      lionel: 1
+  camelot288:
+    npcs:
+      duergar: 1
+  camelot222:
+    npcs:
+      ensio: 1
+  camelot297:
+    npcs:
+      marilith: 1
+  camelot216:
+    npcs:
+      gramph: 1
+  camelot98:
+    npcs:
+      falcon: 1
+  camelot227:
+    npcs:
+      koski: 1
+  camelot243:
+    npcs:
+      reisi: 1
+  camelot1:
+    groups:
+      camelot1: 1
+  camelot265:
+    npcs:
+      percy: 1
+  camelot73:
+    npcs:
+      phelot: 1
+  camelot11:
+    npcs:
+      gawaine: 1
+  camelot242:
+    npcs:
+      pallo: 1
+  camelot14:
+    npcs:
+      lamorak: 1
+  camelot61:
+    npcs:
+      damas: 1
+  camelot20:
+    npcs:
+      launcelot: 1
+  camelot218:
+    groups:
+      camelot218: 1
+  camelot2:
+    npcs:
+      questor: 1
+  camelot64:
+    npcs:
+      dumbar: 1
+  camelot119:
+    npcs:
+      bruce: 1
+  camelot224:
+    npcs:
+      tapi: 1
+  camelot19:
+    npcs:
+      tristam: 1
+  camelot72:
+    npcs:
+      pinell: 1
+  camelot232:
+    npcs:
+      kirtesnie: 1
+  camelot246:
+    npcs:
+      mira: 1
+  camelot252:
+    groups:
+      camelot252: 1
+  camelot240:
+    npcs:
+      aki: 1
+  camelot63:
+    npcs:
+      gringamore: 1
+  camelot69:
+    npcs:
+      millionaire: 1
+  camelot292:
+    npcs:
+      glasya: 1
+  camelot109:
+    groups:
+      camelot109: 1
+  camelot4:
+    npcs:
+      ector: 1
+  camelot28:
+    npcs:
+      hector: 1
+  camelot268:
+    npcs:
+      jerome: 1
+  camelot291:
+    npcs:
+      mongrelman: 1
+  camelot226:
+    npcs:
+      keijo: 1
+  camelot217:
+    groups:
+      camelot217: 1
+  camelot124:
+    npcs:
+      kurtulmak: 1
+  camelot215:
+    npcs:
+      gromph: 1
+  camelot223:
+    npcs:
+      katriina: 1
+  camelot10:
+    npcs:
+      gareth: 1
+  camelot25:
+    npcs:
+      morgana: 1
+  camelot245:
+    npcs:
+      poro: 1
+  camelot304:
+    npcs:
+      buddy: 1
+  camelot254:
+    groups:
+      camelot254: 1
+  camelot13:
+    npcs:
+      galahad: 1
+  camelot253:
+    npcs:
+      tomi: 1
+  camelot234:
+    npcs:
+      eki: 1
+  camelot236:
+    groups:
+      camelot236: 1
+  camelot16:
+    npcs:
+      palomides: 1
+  camelot247:
+    groups:
+      camelot247: 1
+  camelot295:
+    npcs:
+      titivilus: 1
+  camelot83:
+    npcs:
+      alligator: 1
+  camelot29:
+    npcs:
+      uwaine: 1
+  camelot262:
+    npcs:
+      chef: 1
+  camelot231:
+    npcs:
+      talonen: 1
+  camelot225:
+    npcs:
+      hannu: 1
+  camelot248:
+    groups:
+      camelot248: 1
+  camelot220:
+    npcs:
+      jussi: 1
+  camelot299:
+    npcs:
+      yeenoghu: 1
+  camelot65:
+    npcs:
+      mirlyn: 1
+npcs:
+  marilith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marilith
+          short: Marilith
+          sight: >
+            Marilith smiles happily and reaches for you. Not for a hug though...
+      flag:
+        - shock
+      identity:
+        name: Marilith
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  millionaire:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - millionaire
+          short: Millionaire
+          sight: >
+            The millionaire sure seems bored, despite all the money people are giving him.
+      flag:
+        - blind
+        - mute
+        - imm-missile
+        - neg-shock
+      identity:
+        name: Millionaire
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kirsi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kirsi
+          short: Kirsi
+          sight: Kirsi the guardsman paces out his patrol.
+      flag:
+        - protect
+        - blind
+        - neg-missile
+      identity:
+        name: Kirsi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jalovoara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jalovoara
+          short: Jalovoara
+          sight: >
+            Jalovoara the Orcharder is picking fresh fruit for dessert tonight.
+      flag:
+        - bhands
+        - neg-missile
+        - neg-frost
+      identity:
+        name: Jalovoara
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  corledge:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corledge
+          short: Corledge
+          sight: >
+            Corledge the Cave Wight blacksmith looks angry at your intrusion.
+      flag:
+        - v-touch
+        - neg-vtouch
+      identity:
+        name: Corledge
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moloch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moloch
+          short: Moloch
+          sight: Moloch snarls and reaches for your throat.
+      flag:
+        - shock
+      identity:
+        name: Moloch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  poro:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - poro
+          short: Poro
+          sight: Poro the guard is here.
+      flag:
+        - fear-bhands
+        - missile
+        - neg-missile
+      identity:
+        name: Poro
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pelle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelle
+          short: Pelle
+          sight: Pelle the guardsman is here.
+      flag:
+        - imm-fireball
+        - missile
+        - shock
+      identity:
+        name: Pelle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  keijo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - keijo
+          short: Keijo
+          sight: Keijo is daydreaming. He hates to be bothered.
+      flag:
+        - imm-cripple
+        - imm-blind
+        - missile
+      identity:
+        name: Keijo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tapi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tapi
+          short: Tapi
+          sight: "Tapi is very angry. You've interrupted his lunch."
+      flag:
+        - ice-storm
+        - frost
+        - imm-cripple
+        - imm-deaf
+      identity:
+        name: Tapi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  balor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - balor
+          short: Balor
+          sight: >
+            Balor climbs down off his rock and rushes towards you.
+      flag:
+        - shock
+      identity:
+        name: Balor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kamu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kamu
+          short: Kamu
+          sight: >
+            Kamu says 'Hey, aren't you the thief we chased out of here last week?'
+      flag:
+        - blind
+        - deaf
+        - imm-cripple
+        - imm-missile
+        - shock
+      identity:
+        name: Kamu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  someone:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - garlon
+            - someone
+          short: Garlon
+          sight: >
+            Sir Garlon the invisible knight has just disappeared!
+      flag:
+        - missile
+        - shock
+        - neg-frost
+      identity:
+        name: Garlon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  aki:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aki
+          short: Aki
+          sight: Aki grabs his sword in suprise when you walk in.
+      flag:
+        - ice-storm
+        - imm-missile
+        - imm-frost
+      identity:
+        name: Aki
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  talonen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - talonen
+          short: Talonen
+          sight: >
+            Talonen the Gardener says 'Watch your step, there's veggies there!'
+      flag:
+        - imm-frost
+        - imm-shock
+        - missile
+      identity:
+        name: Talonen
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mirlyn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mirlyn
+          short: Mirlyn
+          sight: >
+            Mirlyn the Magician is looking for a woman to saw in half. Know of any?
+      flag:
+        - frost
+        - shock
+        - imm-shock
+        - imm-frost
+      identity:
+        name: Mirlyn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  asko:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - asko
+          short: Asko
+          sight: >
+            Asko thinks you are here to practice swordsmanship with.
+      flag:
+        - missile
+        - frost
+        - neg-missile
+        - imm-frost
+      identity:
+        name: Asko
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fletching:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fletching
+          short: Fletching
+          sight: >
+            Fletching, Merlin's favorite bird, dives at your face.
+      flag:
+      identity:
+        name: Fletching
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  naaras:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - naaras
+          short: Naaras
+          sight: Naaras smiles happily as he walks his rounds.
+      flag:
+        - vtouch
+        - neg-vtouch
+        - fear-missile
+      identity:
+        name: Naaras
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  helsa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - helsa
+          short: Helsa
+          sight: >
+            Helsa, Merlin's maid is bustling around cleaning everything.
+      flag:
+        - shock
+      identity:
+        name: Helsa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  kay:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kay
+          short: Kay
+          sight: >
+            Sir Kay, Seneschal, bids you welcome and asks your business here.
+      flag:
+      identity:
+        name: Kay
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teuvo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teuvo
+          short: Teuvo
+          sight: >
+            Teuvo was resting here. Until you walked in and disturbed him.
+      flag:
+        - imm-cripple
+        - neg-frost
+        - imm-shock
+        - bhands
+      identity:
+        name: Teuvo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cavelion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cavelion
+          short: Cavelion
+          sight: >
+            You are just in time to join the Cave Lion for lunch.
+      flag:
+      identity:
+        name: Cavelion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bruce:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bruce
+          short: Bruce
+          sight: >
+            Bruce the kobold butler looks at you and raises his eyebrow scornfully.
+      flag:
+      identity:
+        name: Bruce
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mordred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mordred
+          short: Mordred
+          sight: >
+            Sir Mordred wants Arthurs Crown. He thinks you may have it.
+      flag:
+        - damage
+        - bhands
+        - fireball
+        - imm-blind
+      identity:
+        name: Mordred
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pomo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pomo
+          short: Pomo
+          sight: >
+            Pomo takes one look at you and falls down laughing.
+      flag:
+        - shock
+        - imm-shock
+        - imm-missile
+      identity:
+        name: Pomo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  himo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - himo
+          short: Himo
+          sight: >
+            Himo the guard is here, protecting his masters property.
+      flag:
+        - imm-blind
+        - neg-bhands
+        - missile
+      identity:
+        name: Himo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pinell:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pinell
+          short: Pinell
+          sight: Sir Pinell has wandered in.
+      flag:
+        - imm-shock
+        - shock
+        - frost
+      identity:
+        name: Pinell
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hector:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hector
+          short: Hector
+          sight: >
+            Sir Hector hates it when people interrupt his meditations.
+      flag:
+        - neg-ice-storm
+        - imm-missile
+        - frost
+        - shock
+      identity:
+        name: Hector
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  andred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andred
+          short: Andred
+          sight: >
+            Sir Andred wants to go pillage the village. He'll start with you!
+      flag:
+        - protect
+        - neg-shock
+        - shock
+      identity:
+        name: Andred
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mika:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mika
+          short: Mika
+          sight: Mika is here, on his patrol.
+      flag:
+        - imm-cripple
+        - missile
+        - imm-missile
+      identity:
+        name: Mika
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hoppari:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hoppari
+          short: Hoppari
+          sight: >
+            Hoppari thinks you look like a wandering bum, and wants to throw you out.
+      flag:
+        - vtouch
+        - bhands
+        - neg-fireball
+        - neg-shock
+      identity:
+        name: Hoppari
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eki:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eki
+          short: Eki
+          sight: Eki the Hostler just finished polishing the tack.
+      flag:
+        - v-touch
+        - imm-vtouch
+        - shock
+      identity:
+        name: Eki
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bella:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bella
+          short: Bella
+          sight: Bella the off-duty guardsman is here.
+      flag:
+      identity:
+        name: Bella
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chef:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chef
+          short: Chef
+          sight: >
+            Jean-Claude the Chef is fixing a marvelous feast for tonight!
+      flag:
+      identity:
+        name: Chef
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tomi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tomi
+          short: Tomi
+          sight: Tomi asks if you are lost.
+      flag:
+        - neg-v-touch
+        - shock
+        - protect
+      identity:
+        name: Tomi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kurtulmak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kurtulmak
+          short: Kurtulmak
+          sight: >
+            Kurtulmak the Supreme Kobold sneers contemptuously at you.
+      flag:
+      identity:
+        name: Kurtulmak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  centipede:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - centipede
+          short: Centipede
+          sight: >
+            There is a giant centipede crawling down the wall towards you.
+      flag:
+        - fireball
+      identity:
+        name: Centipede
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  marsha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - marsha
+          short: Marsha
+          sight: Marsha the Kobold Guardsman is here.
+      flag:
+      identity:
+        name: Marsha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spede:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spede
+          short: Spede
+          sight: Spede sneers at you in contempt.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - frost
+        - icestorm
+      identity:
+        name: Spede
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  make:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - make
+          short: Make
+          sight: >
+            Make is napping in the corner. Must be his break huh?
+      flag:
+        - deaf
+        - mute
+        - frost
+        - neg-frost
+        - neg-missile
+      identity:
+        name: Make
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brunno:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brunno
+          short: Brunno
+          sight: Brunno growls deep in his throat.
+      flag:
+      identity:
+        name: Brunno
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  morsha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - morsha
+          short: Morsha
+          sight: Morsha the Kobold Guardsman is here.
+      flag:
+      identity:
+        name: Morsha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jussi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jussi
+          short: Jussi
+          sight: Jussi wonders what you are doing in here.
+      flag:
+        - frost
+        - nomagic
+      identity:
+        name: Jussi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  masha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - masha
+          short: Masha
+          sight: Masha the Kobold Guardsman is here.
+      flag:
+      identity:
+        name: Masha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  leech:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - leech
+          short: Leech
+          sight: "Gross! There's a huge disgusting leech in here!"
+      flag:
+      identity:
+        name: Leech
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jeeves:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jeeves
+          short: Jeeves
+          sight: >
+            Jeeves says 'You may wait in the sitting room until the Master arrives.'
+      flag:
+        - imm-shock
+        - fear-fireball
+        - missile
+      identity:
+        name: Jeeves
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  koski:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - koski
+          short: Koski
+          sight: >
+            Koski thinks you look like the person who cheated him at cards last night.
+      flag:
+        - mute
+        - deaf
+        - frost
+        - imm-shock
+      identity:
+        name: Koski
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seapas:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seapas
+          short: Seapas
+          sight: >
+            Seapas woke up in a really bad mood today. Don't bug him.
+      flag:
+        - frost
+        - ice-storm
+        - nomagic
+      identity:
+        name: Seapas
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  falcon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - falcon
+          short: Falcon
+          sight: "You've come too near this falcon's roost."
+      flag:
+      identity:
+        name: Falcon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gawaine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gawaine
+          short: Gawaine
+          sight: >
+            Sir Gawaine has been sharpening his sword. He would like to test it now.
+      flag:
+        - imm-missile
+        - frost
+        - imm-b-hands
+      identity:
+        name: Gawaine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  misha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - misha
+          short: Misha
+          sight: Misha the Kobold Guardsman is here.
+      flag:
+      identity:
+        name: Misha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  koorina:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - koorina
+          short: Koorina
+          sight: >
+            Koorina the Groundskeeper says 'Hey, watch your big feet!'
+      flag:
+        - missile
+        - nomagic
+      identity:
+        name: Koorina
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  cara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cara
+          short: Cara
+          sight: >
+            Cara the baby kobold lies here. He thinks your fingers look yummy.
+      flag:
+      identity:
+        name: Cara
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  morgana:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - morgana
+          short: Morgana
+          sight: >
+            You have interupted Morgana Le Fay in one of her plots against Arthur!
+      flag:
+        - mute
+        - cripple
+        - neg-b-hands
+        - neg-fireball
+      identity:
+        name: Morgana
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  raccoon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - raccoon
+          short: Raccoon
+          sight: >
+            There is a raccoon digging through the trash looking for his lunch.
+      flag:
+      identity:
+        name: Raccoon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peregrine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peregrine
+          short: Peregrine
+          sight: A Peregrine falcon swoops down from the sky.
+      flag:
+      identity:
+        name: Peregrine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kalle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kalle
+          short: Kalle
+          sight: Kalle looks at you in suprise.
+      flag:
+        - missile
+        - nomagic
+      identity:
+        name: Kalle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mongrelman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mongrelman
+          short: Mongrelman
+          sight: The favorite sport of the Mongrelman is killing.
+      flag:
+      identity:
+        name: Mongrelman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gramph:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gramph
+          short: Gramph
+          sight: On no! The moat monster is about to eat you!
+      flag:
+      identity:
+        name: Gramph
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bulla:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bulla
+          short: Bulla
+          sight: Bulla the off-duty guardsman is here.
+      flag:
+      identity:
+        name: Bulla
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  duergar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - duergar
+          short: Duergar
+          sight: >
+            A Duergar climbs out of the slimy water and attacks.
+      flag:
+      identity:
+        name: Duergar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gromph:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gromph
+          short: Gromph
+          sight: Oh no! The moat monster is about to eat you!
+      flag:
+      identity:
+        name: Gromph
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bultsi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bultsi
+          short: Bultsi
+          sight: Bultsi the guard watches you suspiciously.
+      flag:
+        - damage
+        - blur
+        - shock
+      identity:
+        name: Bultsi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gareth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gareth
+          short: Gareth
+          sight: "Sir Gareth says 'Why have you disturbed my rest?'"
+      flag:
+        - imm-blind
+        - missile
+        - imm-shock
+      identity:
+        name: Gareth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dumbar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dumbar
+          short: Dumbar
+          sight: >
+            Dumbar the blacksmith comes to see if he can help you.
+      flag:
+        - neg-b-hands
+        - bhands
+        - imm-missile
+      identity:
+        name: Dumbar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jyri:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jyri
+          short: Jyri
+          sight: Jyri the Armorer is here, forging a new sword.
+      flag:
+        - neg-b-hands
+        - imm-fireball
+        - b-hands
+      identity:
+        name: Jyri
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mikko:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mikko
+          short: Mikko
+          sight: Mikko is here, looking mean.
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - imm-bhands
+      identity:
+        name: Mikko
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gringamore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gringamore
+          short: Gringamore
+          sight: Sir Gringamore is here, and man does he look mean!
+      flag:
+        - fear-ice-storm
+        - neg-fireball
+        - b-hands
+      identity:
+        name: Gringamore
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hannu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hannu
+          short: Hannu
+          sight: Hannu the guardsman is here.
+      flag:
+        - fireball
+        - neg-bhands
+        - imm-fireball
+      identity:
+        name: Hannu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ector:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ector
+          short: Ector
+          sight: >
+            Sir Ector has a new sword. He wants to try it out on you!
+      flag:
+      identity:
+        name: Ector
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kuppi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kuppi
+          short: Kuppi
+          sight: Kuppi got demoted yesterday, and boy is he mad!
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - neg-bhands
+      identity:
+        name: Kuppi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  damas:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - damas
+          short: Damas
+          sight: Sir Damas is here, checking on his horse.
+      flag:
+        - missile
+        - frost
+        - neg-fireball
+        - imm-shock
+      identity:
+        name: Damas
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  launcelot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - launcelot
+          short: Launcelot
+          sight: >
+            Sir Launcelot Du Lake is here, ready to defend his King against all comers.
+      flag:
+        - neg-missile
+        - imm-shock
+        - frost
+      identity:
+        name: Launcelot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jussy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jussy
+          short: Jussy
+          sight: >
+            Jussy is on patrol here. He doesn't seem to trust you.
+      flag:
+        - cripple
+        - deaf
+        - frost
+        - nomagic
+      identity:
+        name: Jussy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mira:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mira
+          short: Mira
+          sight: >
+            Mira looks at you and growls 'What're you doing in here bub?'
+      flag:
+        - bhands
+        - nomagic
+      identity:
+        name: Mira
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nalfeshnee:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nalfeshnee
+          short: Nalfeshnee
+          sight: >
+            Look out! He was hiding beside the door behind you!
+      flag:
+        - shock
+      identity:
+        name: Nalfeshnee
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  katriina:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - katriina
+          short: Katriina
+          sight: >
+            Katriina leaps to bar your way and asks 'What do you think you're doing?'.
+      flag:
+        - missile
+        - imm-shock
+        - imm-bhands
+      identity:
+        name: Katriina
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  vesa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vesa
+          short: Vesa
+          sight: Vesa is here, polishing his sword.
+      flag:
+        - shock
+        - imm-shock
+        - damage
+      identity:
+        name: Vesa
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bedmonster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bedmonster
+          short: BedMonster
+          sight: >
+            The monster under the bed leaps out and grabs your ankles!
+      flag:
+      identity:
+        name: BedMonster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  firedemon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - firedemon
+          short: Firedemon
+          sight: >
+            There is a Fire Demon here, and he wants your soul!
+      flag:
+        - fireball
+        - bhands
+        - neg-fireball
+        - neg-bhands
+        - fear-frost
+        - fear-ice-storm
+      identity:
+        name: Firedemon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  questor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - questor
+          short: Questor
+          sight: >
+            The Questing Beast is here, trying to hide from King Pellinore.
+      flag:
+      identity:
+        name: Questor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bartender:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bartender
+          short: Bartender
+          sight: "Bart the Bartender asks what you'd like to drink."
+      flag:
+      identity:
+        name: Bartender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pellinore:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pellinore
+          short: Pellinore
+          sight: >
+            King Pellinore is looking for Questor, The Questing Beast.
+      flag:
+        - neg-missile
+        - fear-fireball
+        - cripple
+        - frost
+      identity:
+        name: Pellinore
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  phelot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - phelot
+          short: Phelot
+          sight: >
+            Sir Phelot has a hangover, and the icy water is not helping any!
+      flag:
+        - fear-frost
+        - imm-shock
+        - blur
+      identity:
+        name: Phelot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crusher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crusher
+          short: Crusher
+          sight: >
+            Crusher, Merlin's latest creation, is waiting here.
+      flag:
+        - shock
+      identity:
+        name: Crusher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alligator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+          short: Alligator
+          sight: "There's a big, hungry alligator sitting here."
+      flag:
+      identity:
+        name: Alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  panu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - panu
+          short: Panu
+          sight: Panu watches you suspiciously.
+      flag:
+        - imm-vtouch
+        - fireball
+        - neg-bhands
+      identity:
+        name: Panu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yeenoghu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yeenoghu
+          short: Yeenoghu
+          sight: Yeenoghu sneers at you.
+      flag:
+        - shock
+      identity:
+        name: Yeenoghu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  baasheeba:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baasheeba
+          short: Baasheeba
+          sight: Baasheeba the off-duty guardsman is here.
+      flag:
+      identity:
+        name: Baasheeba
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  amon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - amon
+          short: Amon
+          sight: >
+            Amon snarls at you and leaps forward to the attack.
+      flag:
+        - shock
+      identity:
+        name: Amon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ensio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ensio
+          short: Ensio
+          sight: Ensio thinks you look mighty suspicious.
+      flag:
+        - v-touch
+        - neg-ice-storm
+        - imm-missile
+      identity:
+        name: Ensio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hue
+          short: Hue
+          sight: >
+            Sir Hue raises a hue and cry about the lack of provisions!
+      flag:
+        - imm-mute
+        - missile
+        - neg-missile
+      identity:
+        name: Hue
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  percy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - percy
+          short: Percy
+          sight: Percy the Major Domo looks down his nose at you.
+      flag:
+        - shock
+        - imm-cripple
+        - imm-blind
+      identity:
+        name: Percy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jerome:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jerome
+          short: Jerome
+          sight: >
+            Jerome the Valet is considering what to lay out for the feast tonight.
+      flag:
+        - shock
+      identity:
+        name: Jerome
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  titivilus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - titivilus
+          short: Titivilus
+          sight: >
+            Uh Oh, looks like Merlin forgot to feed the demons this morning...
+      flag:
+        - shock
+      identity:
+        name: Titivilus
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  palli:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - palli
+          short: Palli
+          sight: >
+            Palli the Dog Trainer says 'Bruno! Fang! Spike! Sic 'em boys!'
+      flag:
+      identity:
+        name: Palli
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  katar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - katar
+          short: Katar
+          sight: >
+            Katar wants to sell you some Dragon bits. What sort of dragon do you have?
+      flag:
+        - fireball
+        - neg-fireball
+        - bhands
+      identity:
+        name: Katar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kirtesnie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kirtesnie
+          short: Kirtesnie
+          sight: >
+            Kirtesnie the Carpenter says 'I'll be done here in a minute.'
+      flag:
+        - neg-missile
+        - neg-shock
+        - frost
+      identity:
+        name: Kirtesnie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tristam:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tristam
+          short: Tristam
+          sight: >
+            Sir Tristam of Lyoness is here, thinking about his Lady, Isolde.
+      flag:
+        - vtouch
+        - neg-v-touch
+        - fear-missile
+      identity:
+        name: Tristam
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  percivale:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - percivale
+          short: Percivale
+          sight: >
+            Sir Percivale is here, thinking about the Grail Quest.
+      flag:
+        - deaf
+        - imm-cripple
+        - v-touch
+      identity:
+        name: Percivale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pallo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pallo
+          short: Pallo
+          sight: "Pallo says 'Hey you! Hold it right there!'"
+      flag:
+        - cripple
+        - blur
+        - shock
+      identity:
+        name: Pallo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demogorgon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - demogorgon
+          short: Demogorgon
+          sight: >
+            Demogorgon doesn't look like he's in the mood to play today...
+      flag:
+        - shock
+      identity:
+        name: Demogorgon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  uwaine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - uwaine
+          short: Uwaine
+          sight: >
+            Sir Uwaine sits here quietly, lost in his thoughts.
+      flag:
+        - fear-missile
+        - imm-frost
+        - neg-fireball
+        - shock
+      identity:
+        name: Uwaine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  helius:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - helius
+          short: Helius
+          sight: >
+            Sir Helius has had a bit much to drink. Such a nasty drunk too!
+      flag:
+        - imm-bhands
+        - deaf
+        - imm-deaf
+      identity:
+        name: Helius
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  taru:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - taru
+          short: Taru
+          sight: Taru the Falconer is ready to feed his birds.
+      flag:
+      identity:
+        name: Taru
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  galahad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - galahad
+          short: Galahad
+          sight: Sir Galahad, the White Knight, is here.
+      flag:
+        - frost
+        - blind
+        - imm-frost
+        - imm-icestorm
+      identity:
+        name: Galahad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cavebear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cavebear
+          short: Cavebear
+          sight: >
+            There is a huge Cave Bear in here. And he's hungry!
+      flag:
+      identity:
+        name: Cavebear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  armadillo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armadillo
+          short: Armadillo
+          sight: A Spanish armadillo is here, looking for pickles.
+      flag:
+      identity:
+        name: Armadillo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grippli:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grippli
+          short: Grippli
+          sight: A Grippli leaps at you from atop the rocks!
+      flag:
+      identity:
+        name: Grippli
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vuno:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vuno
+          short: Vuno
+          sight: "Vuno takes this guard job seriously, doesn't he..."
+      flag:
+        - shock
+        - bhands
+        - nomagic
+      identity:
+        name: Vuno
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  juba:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - juba
+          short: Juba
+          sight: Juba the Gatekeeper stands watch.
+      flag:
+      identity:
+        name: Juba
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  vaino:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vaino
+          short: Vaino
+          sight: >
+            Vaino is sharpening his sword. I wonder how it got dulled?
+      flag:
+        - fear-shock
+        - missile
+        - imm-missile
+        - neg-frost
+      identity:
+        name: Vaino
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spike:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spike
+          short: Spike
+          sight: Spike looks ready to eat you for lunch.
+      flag:
+      identity:
+        name: Spike
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tiina:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tiina
+          short: Tiina
+          sight: Tiina is standing vigilant watch here.
+      flag:
+        - bhands
+        - fireball
+        - nomagic
+      identity:
+        name: Tiina
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  jarmo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jarmo
+          short: Jarmo
+          sight: "I'm Sgt Jarmo. Who the hell are you?"
+      flag:
+        - v-touch
+        - neg-frost
+        - missile
+      identity:
+        name: Jarmo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lionel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lionel
+          short: Lionel
+          sight: >
+            Sir Lionel is practicing his swordplay. Would you like to play?
+      flag:
+      identity:
+        name: Lionel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ewaine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ewaine
+          short: Ewaine
+          sight: >
+            Duke Ewaine says 'Stop! None may pass save with the Kings leave!'
+      flag:
+      identity:
+        name: Ewaine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jallu:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jallu
+          short: Jallu
+          sight: >
+            Jallu draws his sword and says 'And where do you think you're going?'
+      flag:
+        - imm-blind
+        - neg-b-hands
+        - fear-missile
+      identity:
+        name: Jallu
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erkki:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - erkki
+          short: Erkki
+          sight: Erkki is here, making his rounds.
+      flag:
+        - neg-frost
+        - frost
+        - imm-shock
+      identity:
+        name: Erkki
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mikka:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mikka
+          short: Mikka
+          sight: Mikka holds his pike ready, baring your path.
+      flag:
+        - fear-ice-storm
+        - missile
+        - imm-missile
+      identity:
+        name: Mikka
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  glasya:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - glasya
+          short: Glasya
+          sight: Glasya thinks you look tasty.
+      flag:
+        - shock
+      identity:
+        name: Glasya
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bael:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bael
+          short: Bael
+          sight: >
+            Bael hasn't killed anybody in weeks. He'll try to remember how...
+      flag:
+        - shock
+      identity:
+        name: Bael
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kati:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kati
+          short: Kati
+          sight: "You have interrupted Kati's coffee break."
+      flag:
+        - fear-frost
+        - imm-cripple
+        - shock
+      identity:
+        name: Kati
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bankguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bankguard
+          short: Bankguard
+          sight: >
+            The Bankguard says "Hold it right there buddy! Where do you think you're going?"
+      flag:
+        - v-touch
+        - missile
+        - neg-v-touch
+      identity:
+        name: Bankguard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lamorak:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lamorak
+          short: Lamorak
+          sight: Sir Lamorak stands before you, ready to do battle.
+      flag:
+        - bhands
+        - fear-shock
+        - imm-fireball
+      identity:
+        name: Lamorak
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bertha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bertha
+          short: Bertha
+          sight: Bertha the off-duty guardsman is here.
+      flag:
+      identity:
+        name: Bertha
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buddy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buddy
+          short: buddy
+          sight: >
+            The mighty King Arthur is here. He says''You can call me buddy.'
+      flag:
+      identity:
+        name: buddy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  reisi:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - reisi
+          short: Reisi
+          sight: "Reisi says 'Go ahead, make my reset...'"
+      flag:
+        - fear-missile
+        - imm-shock
+        - imm-frost
+        - bhands
+      identity:
+        name: Reisi
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tarrasque:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarrasque
+          short: Tarrasque
+          sight: "The Tarrasque is hungry. You'd make a nice snack."
+      flag:
+      identity:
+        name: Tarrasque
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fang:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fang
+          short: Fang
+          sight: Fang snarls as he leaps for your throat!
+      flag:
+      identity:
+        name: Fang
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  palomides:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - palomides
+          short: Palomides
+          sight: >
+            Sir Palomides the Saracen draws his scimitar and turns to meet you.
+      flag:
+        - neg-v-touch
+        - neg-frost
+        - missile
+        - frost
+      identity:
+        name: Palomides
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

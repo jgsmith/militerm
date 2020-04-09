@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:golden:golden36"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:golden:golden38"
     short: &+WEntrance to the Treasury&*
     sight: >
       Standing in front of a massive bronze door, you are confused as to how anyone, or anything for that

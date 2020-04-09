@@ -16,4 +16,4 @@ detail:
       out.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

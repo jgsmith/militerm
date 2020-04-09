@@ -1,0 +1,318 @@
+groups:
+locations:
+  bottom:
+    npcs:
+      paddy: 1
+  end:
+    npcs:
+      millie: 1
+  entrance:
+    npcs:
+      stanley: 1
+  hill:
+    npcs:
+      mike: 1
+  lawn:
+    npcs:
+      malcomb: 1
+  mine:
+    npcs:
+      sally: 1
+  pool:
+    npcs:
+      shanon: 1
+  roots:
+    npcs:
+      scottie: 1
+  square:
+    npcs:
+      erik: 1
+  stream:
+    npcs:
+      tricia: 1
+  stream_2:
+    npcs:
+      molley: 1
+  stream_3:
+    npcs:
+      tallie: 1
+  track:
+    npcs:
+      colleen: 1
+  tree:
+    npcs:
+      clyde: 1
+  tunnel:
+    npcs:
+      samson: 1
+  valley:
+    npcs:
+      danny: 1
+npcs:
+  clyde:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - clyde
+          short: clyde
+          sight: Clyde rushes after his wife, Sally.
+      flag:
+      identity:
+        name: clyde
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  colleen:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - colleen
+          short: colleen
+          sight: Colleen is here, quietly picking flowers.
+      flag:
+      identity:
+        name: colleen
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  danny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - danny
+          short: danny
+          sight: >
+            Danny wonders where he should hide his new pot of gold.
+      flag:
+      identity:
+        name: danny
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erik:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - erik
+          short: erik
+          sight: >
+            Erik whistles happily as he darts from tree to tree.
+      flag:
+      identity:
+        name: erik
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  malcomb:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - malcomb
+          short: malcomb
+          sight: >
+            Malcomb is carrying a handful of clover to his girlfriend.
+      flag:
+      identity:
+        name: malcomb
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mike:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mike
+          short: mike
+          sight: >
+            Mike thinks he's doing a pretty good job at blocking your way west.
+      flag:
+        - no-summon
+      identity:
+        name: mike
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  millie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - millie
+          short: millie
+          sight: You caught Millie dancing happily in the grass.
+      flag:
+      identity:
+        name: millie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  molley:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - molley
+          short: molley
+          sight: Molley smiles happily as she skips stones.
+      flag:
+      identity:
+        name: molley
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  paddy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - paddy
+          short: paddy
+          sight: >
+            Paddy looks at you curiously from behind a tree stump.
+      flag:
+      identity:
+        name: paddy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sally:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sally
+          short: sally
+          sight: >
+            Sally is rushing home to fix dinner for her children.
+      flag:
+      identity:
+        name: sally
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  samson:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - samson
+          short: samson
+          sight: >
+            Samson found a four-leaf clover and is running home to show it off.
+      flag:
+      identity:
+        name: samson
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scottie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scottie
+          short: scottie
+          sight: Scottie peers at you curiously from the shadows.
+      flag:
+      identity:
+        name: scottie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shanon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shanon
+          short: shanon
+          sight: >
+            Shanon giggles at you as you vainly watch your reflection in the pool.
+      flag:
+      identity:
+        name: shanon
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  stanley:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stanley
+          short: stanley
+          sight: Stanley giggles at you as you pass him unaware.
+      flag:
+      identity:
+        name: stanley
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tallie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tallie
+          short: tallie
+          sight: >
+            Tallie quickly darts behind a rock as you approach her.
+      flag:
+      identity:
+        name: tallie
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  tricia:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tricia
+          short: tricia
+          sight: >
+            Tricia is sitting on a stone, gazing out over the water.
+      flag:
+      identity:
+        name: tricia
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

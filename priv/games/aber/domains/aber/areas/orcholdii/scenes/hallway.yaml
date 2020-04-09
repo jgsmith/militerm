@@ -10,5 +10,5 @@ detail:
       Like most orc-built hallways, this one is crooked, rough, and damp. It looks as if there is a crowded
       open area to the west. You wonder what the commotion is. The hallway also leads back to the east.
 flag:
-  - dark
-  - nomobiles
+  - d-a-r-k
+  - no-mobiles

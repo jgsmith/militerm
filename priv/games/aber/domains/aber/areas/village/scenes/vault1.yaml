@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:village:vault2"
       up:
         target: "scene:aber:village:bank"
     short: Before the Vault

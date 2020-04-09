@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:cave:hall"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:cave:n_stairs2"
     short: Long Passage
     sight: >
       You are following a long narrow passage which runs west to a door, and turns north into a hall.

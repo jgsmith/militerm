@@ -1,0 +1,204 @@
+groups:
+  app13:
+    npcs:
+      wolf_1: 1
+      wolf_2: 1
+      wolf_3: 1
+locations:
+  app11:
+    npcs:
+      wolf: 1
+  app13:
+    groups:
+      app13: 1
+  app22:
+    npcs:
+      utgar: 1
+  app31:
+    npcs:
+      creation: 1
+  app32:
+    npcs:
+      almin: 1
+  app5:
+    npcs:
+      elaine: 1
+  app7:
+    npcs:
+      hermit: 1
+npcs:
+  almin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - master almin
+            - almin
+          short: Master Almin
+          sight: >
+            Master Almin, the dark master mage stands before you.
+      flag:
+        - blind
+        - fireball
+        - frost
+        - shock
+        - vtouch
+        - icestorm
+        - missile
+        - damage
+        - protect
+        - no-zap
+      identity:
+        name: Master Almin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  creation:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - creation
+          short: creation
+          sight: "One of Almin's horrible creations lumbers around."
+      flag:
+      identity:
+        name: creation
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  elaine:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elaine
+          short: Elaine
+          sight: >
+            Elaine looks up and says, 'Are you here to help us?'.
+      flag:
+        - vtouch
+        - icestorm
+        - blind
+        - protect
+      identity:
+        name: Elaine
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hermit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hermit
+          short: hermit
+          sight: >
+            An old hermit stares at you from the corner of the room.
+      flag:
+        - no-hassle
+        - no-zap
+      identity:
+        name: hermit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  utgar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - utgar
+          short: Utgar
+          sight: Utgar stares at you intently.
+      flag:
+        - fireball
+        - frost
+        - missile
+      identity:
+        name: Utgar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frost wolf
+            - wolf
+          short: Frost Wolf
+          sight: An icy frost wolf gets ready to pounce you.
+      flag:
+        - frost
+      identity:
+        name: Frost Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frost wolf
+            - wolf_
+          short: Frost Wolf
+          sight: An icy frost wolf gets ready to pounce you.
+      flag:
+        - frost
+      identity:
+        name: Frost Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frost wolf
+            - wolf_
+          short: Frost Wolf
+          sight: An icy frost wolf gets ready to pounce you.
+      flag:
+        - frost
+      identity:
+        name: Frost Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - frost wolf
+            - wolf_
+          short: Frost Wolf
+          sight: An icy frost wolf gets ready to pounce you.
+      flag:
+        - frost
+      identity:
+        name: Frost Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

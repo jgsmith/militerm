@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:sundhaven:sundhaven6659"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6609"
     short: Standing at the brink
     sight: >
       A sea of light, floating fog opens up before you, swallowing most of the cliff and the lands beyond in

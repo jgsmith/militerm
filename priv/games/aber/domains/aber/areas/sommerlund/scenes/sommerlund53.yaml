@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:sommerlund:sommerlund51"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund55"
     short: Cave Mouth
     sight: >
       This appears to be where an animal lives and to take shelter from the constant wetness outside, but the

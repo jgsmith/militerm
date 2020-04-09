@@ -1,12 +1,16 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:orcholdii:neroom1"
       north:
         target: "scene:aber:orcholdii:arch3p2"
       south:
         target: "scene:aber:orcholdii:entry"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:orcholdii:nwroom1"
     short: Through the Arch
     sight: >
       This is a grand hallway that archs well over your head. The floor is a soothing white marble and the

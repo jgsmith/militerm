@@ -15,4 +15,4 @@ detail:
       eastern way is clear.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

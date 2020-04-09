@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:grave:grave3451"
       north:
         target: "scene:aber:grave:grave3439"
       west:

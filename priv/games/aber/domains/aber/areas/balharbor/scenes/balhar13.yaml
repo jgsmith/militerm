@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:balharbor:balhar15"
       west:
         target: "scene:aber:balharbor:balhar12"
     short: Armor Shop

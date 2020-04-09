@@ -6,4 +6,4 @@ detail:
       This room simply holds fjord material until it is needed or has unconditionally bought the farm.
 flag:
   - death
-  - noat
+  - no-at

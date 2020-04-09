@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq25"
       west:
         target: "scene:aber:nwbeaches:beachqq21"
     short: "Lighthouse Keeper's Bedroom"

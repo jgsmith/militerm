@@ -6,7 +6,7 @@ detail:
     short: Constellation Lyra
     sight: You set a course just east of Lyra...
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

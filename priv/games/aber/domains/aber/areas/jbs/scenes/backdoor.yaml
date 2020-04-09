@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:jbs:fallow2"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:jbs:pantry"
     short: The Back Porch
     sight: >
       You are right outside the backdoor of a small, somewhat quaint farmhouse. To the north there is a short

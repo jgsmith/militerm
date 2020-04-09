@@ -16,5 +16,5 @@ detail:
       wondering, why is this place called the room of the lost hope...
 flag:
   - dark
-  - nomagic
-  - soundproof
+  - no-magic
+  - sound-proof

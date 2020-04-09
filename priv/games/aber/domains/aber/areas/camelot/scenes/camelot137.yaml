@@ -10,6 +10,6 @@ detail:
 flag:
   - dark
   - party
-  - nomagic
-  - nomobiles
-  - nosummon
+  - no-magic
+  - no-mobiles
+  - no-summon

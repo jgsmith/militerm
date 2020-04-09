@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9908"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9998"
       south:
         target: "scene:aber:ghenna:ghenna9905"
       west:
@@ -14,6 +16,6 @@ detail:
       all cardinal directions. Uh no, looks like you lost your way...you can't tell where you were.
 flag:
   - maze
-  - nomobiles
+  - no-mobiles
   - dark
   - outdoors

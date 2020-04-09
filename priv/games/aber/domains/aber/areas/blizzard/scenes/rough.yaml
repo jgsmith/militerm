@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:blizzard:glittering"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:blizzard:throne"
     short: Low, Rough Passage
     sight: >
       You are in a low rough passage which winds around and is clearly only an escape route of some form. A

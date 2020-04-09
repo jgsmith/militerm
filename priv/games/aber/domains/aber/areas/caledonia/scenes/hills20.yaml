@@ -13,4 +13,4 @@ detail:
       fork.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

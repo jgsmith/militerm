@@ -1,0 +1,233 @@
+groups:
+  batcave2:
+    npcs:
+      bat1: 1
+      bat2: 1
+      bat3: 1
+      bat4: 1
+      bat5: 1
+locations:
+  batcave10:
+    npcs:
+      mrs_werewolf: 1
+  batcave11:
+    npcs:
+      werewolf: 1
+  batcave16:
+    npcs:
+      riddlemaster: 1
+  batcave2:
+    groups:
+      batcave2: 1
+  batcave20:
+    npcs:
+      enkil: 1
+  batcave21:
+    npcs:
+      akasha: 1
+  batcave4:
+    npcs:
+      spirit: 1
+npcs:
+  akasha:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - queen akasha
+            - akasha
+          short: Queen Akasha
+          sight: >
+            Akasha, Queen of the Damned, is finally free of Enkil. She looks at you as at a fly.
+      flag:
+        - fireball
+        - imm-v-touch
+      identity:
+        name: Queen Akasha
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bat1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gatesvambat
+            - bat
+          short: GatesVamBat
+          sight: >
+            A bat is hanging out here, sensing fresh warm blood.
+      flag:
+      identity:
+        name: GatesVamBat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bat2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aminvambat
+            - bat
+          short: AminVamBat
+          sight: >
+            A bat is hanging out here, sensing fresh warm blood.
+      flag:
+      identity:
+        name: AminVamBat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bat3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - polpotvambat
+            - bat
+          short: PolPotVamBat
+          sight: >
+            A bat is hanging out here, sensing fresh warm blood.
+      flag:
+      identity:
+        name: PolPotVamBat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bat4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - morganvambat
+            - bat
+          short: MorganVamBat
+          sight: >
+            A bat is hanging out here, sensing fresh warm blood.
+      flag:
+      identity:
+        name: MorganVamBat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bat5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stalinvambat
+            - bat
+          short: StalinVamBat
+          sight: >
+            A Bat is hanging out here, sensing fresh warm blood.
+      flag:
+      identity:
+        name: StalinVamBat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  enkil:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - statue of enkil
+            - enkil
+          short: The Statue of Enkil
+          sight: >
+            A white marble statue is standing here, fully dressed in clothes and jewels.
+      flag:
+        - fireball
+        - imm-vtouch
+      identity:
+        name: The Statue of Enkil
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mrs_werewolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - she-werewolf
+            - mrs_werewolf
+          short: She-Werewolf
+          sight: >
+            This She-Werewolf is engaged in the never-ending struggle against hair on the furniture.
+      flag:
+      identity:
+        name: She-Werewolf
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  riddlemaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - riddlemaster
+          short: Riddlemaster
+          sight: >
+            The Master of Riddles stands firmly before the north exit.
+      flag:
+        - no-hassle
+        - no-magic
+      identity:
+        name: Riddlemaster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spirit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spirit
+          short: spirit
+          sight: >
+            The spirit of the dead hero is here, hovering over his worldly body.
+      flag:
+        - nomagic
+      identity:
+        name: spirit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  werewolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - werewolf
+          short: The Werewolf
+          sight: >
+            A werewolf seems to have spotted his next meal . . .
+      flag:
+      identity:
+        name: The Werewolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

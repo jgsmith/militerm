@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:castle:walls"
       south:
         target: "scene:aber:castle:court"
     short: Portcullis

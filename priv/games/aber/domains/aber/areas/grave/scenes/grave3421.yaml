@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:grave:grave3422"
       west:
         target: "scene:aber:grave:grave3418"
     short: The Bottom of the Belltower
@@ -11,5 +13,5 @@ detail:
       surrounding Shadowdale patrons to their church. Up is the top of the Belltower and to the west is
       another exit to this now deserted room.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

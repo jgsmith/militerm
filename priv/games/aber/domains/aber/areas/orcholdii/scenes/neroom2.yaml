@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:orcholdii:arch3p2"
     short: Fine Bedroom
     sight: >
       This room is a bit more finished then the others closer to the entryway. The walls have been smoothed

@@ -1,0 +1,29 @@
+groups:
+locations:
+  saic:
+    npcs:
+      saic: 1
+npcs:
+  saic:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - saic
+          short: saic
+          sight: &+RSaic &+Wis here, slaying fools.&*
+      flag:
+        - no-punt
+        - no-zap
+        - no-hassle
+        - no-summon
+        - no-alias
+        - no-exorcise
+        - no-sic
+      identity:
+        name: saic
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

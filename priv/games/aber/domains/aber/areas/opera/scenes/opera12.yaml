@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:opera:opera11"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:opera:opera13"
     short: A Dressing Room
     sight: >
       You stand in a plainly furnished room in which there is a table and some chairs, a few makeup cases, and

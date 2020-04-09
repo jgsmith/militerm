@@ -7,12 +7,14 @@ detail:
         target: "scene:aber:valley:tforest"
       south:
         target: "scene:aber:valley:fedge3"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:valley:porch"
     short: Eastern Side Of Valley
     sight: >
       You are standing amidst some trees on the eastern edge of the valley. The forest continues to the north
       south and west, although a deep stream bars any exit west. To the east the trees thin out rapidly,
       giving way to a steep bare rocky rise.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

@@ -12,6 +12,6 @@ detail:
       telegrams has even been opened and read.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

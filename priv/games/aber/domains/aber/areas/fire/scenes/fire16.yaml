@@ -11,4 +11,4 @@ detail:
       south, where it is much &+Ldarker&* or you can go back.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

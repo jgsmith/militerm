@@ -1,13 +1,15 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:arena:arena3"
     short: Tunnel
     sight: >
       A damp tunnel extends southward, but suddenly blocked by a pile of stones, with bright red spray paint
       on them reading '&+rUnder construction&N'
 flag:
-  - nomagic
+  - no-magic
   - pkzone
   - nosummon
   - cantsummon

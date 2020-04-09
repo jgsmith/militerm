@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:volcano:bandilbar39"
       north:
         target: "scene:aber:volcano:bandilbar41"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:volcano:bandilbar39"
     short: Royal Chamber
     sight: >
       You are in the chamber of the Queen ant. It smells somewhat musty to your way of thinking, and the acrid

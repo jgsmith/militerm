@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:cathedral:cryptent"
     short: The Secret Reliquary
     sight: >
       There is little to see here in this tiny round chamber. The whole thing is crudely built of blocks of

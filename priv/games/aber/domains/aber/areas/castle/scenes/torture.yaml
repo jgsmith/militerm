@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:castle:maiden"
+      south:
+        guarded: true
+        target: "scene:aber:castle:18"
       west:
         target: "scene:aber:castle:chamber"
     short: Torture Chamber

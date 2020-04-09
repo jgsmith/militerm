@@ -9,4 +9,4 @@ detail:
       water, and smash against the rocks below, dying almost instantly.
 flag:
   - death
-  - nomobiles
+  - no-mobiles

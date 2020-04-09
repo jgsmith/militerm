@@ -1,14 +1,18 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:oni:oni90"
       north:
         target: "scene:aber:oni:oni92"
       south:
         target: "scene:aber:oni:oni86"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:oni:oni91"
     short: Prison Hall - Halfway
     sight: >
       The halfway point of the hallway is surrounded by medium threat demons.
 flag:
-  - cantsummon
+  - cant-summon

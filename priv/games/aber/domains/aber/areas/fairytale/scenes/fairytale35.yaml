@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale33"
       up:
         target: "scene:aber:fairytale:fairytale36"
     short: On the Branch

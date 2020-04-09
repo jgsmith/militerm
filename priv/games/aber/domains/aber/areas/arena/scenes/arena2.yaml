@@ -12,6 +12,6 @@ detail:
       been torn open leaving a small hole. Well out of your reach. The eastern wall looks very solid and
       extends all the way to the roof.
 flag:
-  - nosummon
-  - cantsummon
+  - no-summon
+  - cant-summon
   - pkzone

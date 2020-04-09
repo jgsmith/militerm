@@ -14,6 +14,6 @@ flag:
   - nomagic
   - peaceful
   - party
-  - nosnoop
+  - no-snoop
   - fastheal
-  - fastmana
+  - fast-mana

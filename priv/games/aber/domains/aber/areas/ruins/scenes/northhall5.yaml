@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ruins:sittingroom"
       south:
         target: "scene:aber:ruins:northhall4"
       west:

@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      west: null
+      down:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale39"
+      west:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale37"
     short: "The Giant's Table"
     sight: >
       You enter a room whose size overwhelms you. The floor is wood, but the planks are bigger than you have

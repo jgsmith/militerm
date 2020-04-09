@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:slott:slott23"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:slott:slott36"
     short: The masters hideout
     sight: >
       This room is comfortably furnished with a small bed, a table and some chairs. It almost looks like a

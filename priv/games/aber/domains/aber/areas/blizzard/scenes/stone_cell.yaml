@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:blizzard:fissure"
+      west:
+        guarded: true
+        target: "scene:aber:blizzard:dungeon"
     short: Stone Cell
     sight: >
       You are in a cold and bare stone cell, scratches on the walls mark where prisoners have left their last

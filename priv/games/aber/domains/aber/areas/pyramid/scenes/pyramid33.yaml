@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid25"
     short: Treasure Room
     sight: >
       &+YGold&N! The glint of it is everywhere as you gaze around the room. The walls have been &+Yglided&N

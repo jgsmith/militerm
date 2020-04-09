@@ -3,8 +3,12 @@ detail:
     exits:
       down:
         target: "scene:aber:newbee:newbee18632"
-      north: null
-      west: null
+      north:
+        guarded: true
+        target: "scene:aber:newbee:newbee18604"
+      west:
+        guarded: true
+        target: "scene:aber:newbee:newbee18611"
     short: "The Alchemist's Room"
     sight: >
       Lots of bottles and flasks lie about this room, but it all looks like worthless clutter. It appears

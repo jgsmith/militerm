@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:golden:golden40"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:golden:golden38"
     short: &+WSecret Passage&*
     sight: >
       After pushing the statue aside, you have crawled down into a tiny, cramped hand-dug tunnel. There are

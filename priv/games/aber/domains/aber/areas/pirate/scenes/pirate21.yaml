@@ -14,5 +14,5 @@ detail:
       building. A small set of stairs lead down into the water toward the building, and to the east, a pathway
       leads through the side of the volcano.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

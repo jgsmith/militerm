@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:abyss:bones"
       west:
         target: "scene:aber:abyss:river"
     short: Gloomy Plain

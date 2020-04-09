@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:rats:hallway_1"
     short: Toilet
     sight: >
       You are standing in the smallest room in the whole house. There is just one thing here and that is the

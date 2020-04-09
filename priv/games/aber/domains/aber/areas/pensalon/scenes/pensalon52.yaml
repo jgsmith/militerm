@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon51"
     short: "Armorer's Prize Possession Store Room"
     sight: >
       This is a small circular room with many pegs and hooks on the wall. Unlike the secret passage you just
@@ -9,4 +11,4 @@ detail:
       magic is being used in this room.
 flag:
   - dark
-  - nomagic
+  - no-magic

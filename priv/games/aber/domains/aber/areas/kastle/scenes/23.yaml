@@ -5,6 +5,6 @@ detail:
     sight: >
       You dive headlong into the sewage. Oh dear, you seemed to have drowned in.. er, well you know.
 flag:
-  - nomobiles
-  - nosummon
+  - no-mobiles
+  - no-summon
   - death

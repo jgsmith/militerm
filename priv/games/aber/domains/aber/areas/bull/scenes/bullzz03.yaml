@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:bull:bullzz05"
       south:
         target: "scene:aber:bull:bullzz02"
     short: Under the Arch

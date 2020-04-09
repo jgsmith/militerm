@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northwest:
+        target: "scene:aber:enchanter:enchanter9"
+      southwest:
         target: "scene:aber:enchanter:enchanter7"
     short: Overgrown Trail
     sight: >
@@ -9,4 +11,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

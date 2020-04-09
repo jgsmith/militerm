@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:eforest:narrow"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eforest:storage"
     short: "Captain's Office"
     sight: >
       You are standing in a sparsely furnished office. Sputtering torches provide light, but many shadows

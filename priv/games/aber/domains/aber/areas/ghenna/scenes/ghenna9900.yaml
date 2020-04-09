@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9901"
       south:
         target: "scene:aber:ghenna:ghenna1"
     short: A barrow mound.
@@ -10,6 +12,6 @@ detail:
       inside the circle, strangely enough. A low cumulous of swirling mist engulfs you from the knees down,
       making it look as though you are partially buried.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - outdoors

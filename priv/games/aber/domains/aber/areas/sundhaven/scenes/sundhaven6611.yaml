@@ -9,6 +9,6 @@ detail:
       the north wall sits a bizarre golden squid-like creature in a jar, glinting in the sun. You wonder what
       oddities could be found in storage.
 flag:
-  - nomagic
+  - no-magic
   - peaceful
-  - nomobiles
+  - no-mobiles

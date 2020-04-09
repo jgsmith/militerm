@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9512"
     short: A Tidy Room
     sight: >
       The room is in extremely good order. Every particle of dust or dirt of any kind appear to be wiped out.

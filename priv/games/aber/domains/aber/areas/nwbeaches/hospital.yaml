@@ -1,0 +1,527 @@
+groups:
+  beachqq04:
+    npcs:
+      mobqq00: 1
+      mobqq01_1: 1
+  beachqq05:
+    npcs:
+      mobqq01_2: 1
+      mobqq02_3: 1
+  beachqq06:
+    npcs:
+      mobqq00_2: 1
+      mobqq02_2: 1
+  beachqq08:
+    npcs:
+      mobqq02: 1
+      mobqq02_1: 1
+  beachqq17:
+    npcs:
+      mobqq01: 1
+      mobqq12_4: 1
+  beachqq18:
+    npcs:
+      mobqq11: 1
+      mobqq12_2: 1
+      mobqq12_3: 1
+  beachqq19:
+    npcs:
+      mobqq12: 1
+      mobqq12_1: 1
+  beachqq21:
+    npcs:
+      mobqq08: 1
+      mobqq09: 1
+locations:
+  beachqq04:
+    groups:
+      beachqq04: 1
+  beachqq05:
+    groups:
+      beachqq05: 1
+  beachqq06:
+    groups:
+      beachqq06: 1
+  beachqq07:
+    npcs:
+      mobqq00_1: 1
+  beachqq08:
+    groups:
+      beachqq08: 1
+  beachqq17:
+    groups:
+      beachqq17: 1
+  beachqq18:
+    groups:
+      beachqq18: 1
+  beachqq19:
+    groups:
+      beachqq19: 1
+  beachqq21:
+    groups:
+      beachqq21: 1
+  beachqq24:
+    npcs:
+      mobqq10: 1
+  beachqq26:
+    npcs:
+      mobqq03: 1
+  beachqq27:
+    npcs:
+      mobqq07: 1
+  beachqq28:
+    npcs:
+      mobqq04: 1
+  beachqq29:
+    npcs:
+      mobqq06: 1
+  beachqq30:
+    npcs:
+      mobqq05: 1
+  beachqq34:
+    npcs:
+      mobqq13: 1
+npcs:
+  mobqq00:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mobqq
+          short: a pelican
+          sight: A pelican is here, taking a break in the sun.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq00_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mobqq00_
+          short: a pelican
+          sight: A pelican is here, taking a break in the sun.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq00_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pelican
+            - mobqq00_
+          short: a pelican
+          sight: A pelican is here, taking a break in the sun.
+      flag:
+      identity:
+        name: a pelican
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea otter
+            - mobqq
+          short: a sea otter
+          sight: >
+            A sea otter is here, basking in the warmth of the sun.
+      flag:
+      identity:
+        name: a sea otter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea otter
+            - mobqq01_
+          short: a sea otter
+          sight: >
+            A sea otter is here, basking in the warmth of the sun.
+      flag:
+      identity:
+        name: a sea otter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq01_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea otter
+            - mobqq01_
+          short: a sea otter
+          sight: >
+            A sea otter is here, basking in the warmth of the sun.
+      flag:
+      identity:
+        name: a sea otter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seagull
+            - mobqq
+          short: a seagull
+          sight: A seagull pokes about, looking for scraps.
+      flag:
+      identity:
+        name: a seagull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seagull
+            - mobqq02_
+          short: a seagull
+          sight: A seagull pokes about, looking for scraps.
+      flag:
+      identity:
+        name: a seagull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seagull
+            - mobqq02_
+          short: a seagull
+          sight: A seagull pokes about, looking for scraps.
+      flag:
+      identity:
+        name: a seagull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq02_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seagull
+            - mobqq02_
+          short: a seagull
+          sight: A seagull pokes about, looking for scraps.
+      flag:
+      identity:
+        name: a seagull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq03:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lighthouse keeper
+            - mobqq
+          short: the Lighthouse Keeper
+          sight: >
+            The Lighthouse Keeper is here, looking unsure of what he should do about you being here.
+      flag:
+      identity:
+        name: the Lighthouse Keeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq04:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hermaphrodite
+            - mobqq
+          short: the hermaphrodite
+          sight: >
+            A strange looking.. thing(?) is standing here, no expression on it's face at all.
+      flag:
+      identity:
+        name: the hermaphrodite
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq05:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - battered woman
+            - mobqq
+          short: the battered woman
+          sight: >
+            A woman lies here on her cot, bruised, naked, and bleeding.
+      flag:
+      identity:
+        name: the battered woman
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobqq06:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - deformed man
+            - mobqq
+          short: Deformed Man
+          sight: A naked man stands, shockingly deformed.
+      flag:
+      identity:
+        name: Deformed Man
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq07:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - perfect companion
+            - mobqq
+          short: the Perfect Companion
+          sight: >
+            The Perfect Companion lies stretched out on the bed, waiting to give pleasure.
+      flag:
+      identity:
+        name: the Perfect Companion
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq08:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "lighthouse keeper's wife"
+            - mobqq
+          short: "the Lighthouse Keeper's Wife"
+          sight: >
+            The Lighthouse Keeper's wife is here, sewing and humming a happy song.
+      flag:
+      identity:
+        name: "the Lighthouse Keeper's Wife"
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobqq09:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - max
+            - mobqq
+          short: Max
+          sight: >
+            Max, the Lighthouse Keeper's dog rests before the fire.
+      flag:
+      identity:
+        name: Max
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "lighthouse keeper's daughter"
+            - mobqq
+          short: "the Lighthouse Keeper's Daughter"
+          sight: >
+            The Lighthouse Keeper's Daughter is here, playing house.
+      flag:
+      identity:
+        name: "the Lighthouse Keeper's Daughter"
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mobqq11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - takker
+            - mobqq
+          short: Takker
+          sight: Old man Takker sits here, fishing away his life.
+      flag:
+      identity:
+        name: Takker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "takker's disciple"
+            - mobqq
+          short: "Takker's Disciple"
+          sight: >
+            A fisherman sits here, trying to imitate Takker as best he can.
+      flag:
+      identity:
+        name: "Takker's Disciple"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "takker's disciple"
+            - mobqq12_
+          short: "Takker's Disciple"
+          sight: >
+            A fisherman sits here, trying to imitate Takker as best he can.
+      flag:
+      identity:
+        name: "Takker's Disciple"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "takker's disciple"
+            - mobqq12_
+          short: "Takker's Disciple"
+          sight: >
+            A fisherman sits here, trying to imitate Takker as best he can.
+      flag:
+      identity:
+        name: "Takker's Disciple"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "takker's disciple"
+            - mobqq12_
+          short: "Takker's Disciple"
+          sight: >
+            A fisherman sits here, trying to imitate Takker as best he can.
+      flag:
+      identity:
+        name: "Takker's Disciple"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq12_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - "takker's disciple"
+            - mobqq12_
+          short: "Takker's Disciple"
+          sight: >
+            A fisherman sits here, trying to imitate Takker as best he can.
+      flag:
+      identity:
+        name: "Takker's Disciple"
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mobqq13:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kracken
+            - mobqq
+          short: the Kracken
+          sight: >
+            With a tremendous blast of force, the Kracken lunges up from the water!
+      flag:
+        - no-summon
+        - no-trace
+      identity:
+        name: the Kracken
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

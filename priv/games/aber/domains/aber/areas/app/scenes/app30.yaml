@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:app:app28"
     short: Prison Cell
     sight: >
       The prisoners within this room look like they haven't been fed for a long time. Many of them barely move

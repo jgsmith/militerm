@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:dragonslueth:ds31"
     short: Holding Cell
     sight: >
       This is the place where all the bad people in the castle go. There are various types of whips and chains

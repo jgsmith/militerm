@@ -12,8 +12,8 @@ detail:
       geysers far below, creating a hideous song.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon
   - dark
   - hot

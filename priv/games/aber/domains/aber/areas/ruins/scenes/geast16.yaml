@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ruins:thirdlvlend"
       north:
         target: "scene:aber:ruins:geast17"
       south:

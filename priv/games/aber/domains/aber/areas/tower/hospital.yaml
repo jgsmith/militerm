@@ -1,0 +1,67 @@
+groups:
+  sorceror:
+    npcs:
+      cat: 1
+      shazareth: 1
+locations:
+  sorceror:
+    groups:
+      sorceror: 1
+  wraith:
+    npcs:
+      wraith: 1
+npcs:
+  cat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cat
+          short: The Cat
+          sight: >
+            A black cat stares at you from the shadows, purring gently.
+      flag:
+        - blind
+      identity:
+        name: The Cat
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  shazareth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shazareth
+          short: Shazareth
+          sight: Shazareth The Sorceror stands here.
+      flag:
+        - frost
+        - no-summon
+      identity:
+        name: Shazareth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wraith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wraith
+          short: The Wraith
+          sight: >
+            The chill shadowy form of a wraith swirls and dances around you.
+      flag:
+        - no-summon
+      identity:
+        name: The Wraith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

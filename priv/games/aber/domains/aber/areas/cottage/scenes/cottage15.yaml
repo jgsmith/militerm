@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cottage:cottage16"
       west:
         target: "scene:aber:cottage:cottage14"
     short: Huge Entryway
@@ -11,4 +13,4 @@ detail:
       are written another set of weatherbeaten runes.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

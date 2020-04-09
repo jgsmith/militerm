@@ -1,0 +1,124 @@
+groups:
+  connecting:
+    npcs:
+      sentinal: 1
+      thief: 1
+locations:
+  connecting:
+    groups:
+      connecting: 1
+  crossection:
+    npcs:
+      cyclops: 1
+  dark:
+    npcs:
+      adventurer: 1
+  office:
+    npcs:
+      maintainer: 1
+  tellers:
+    npcs:
+      teller: 1
+npcs:
+  adventurer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adventurer
+          short: adventurer
+          sight: An old adventurer is here, taking a rest.
+      flag:
+      identity:
+        name: adventurer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cyclops:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cyclops
+          short: The Cyclops
+          sight: >
+            A giant man-eating cyclops looks down at you wondering whether he should eat you or not.
+      flag:
+      identity:
+        name: The Cyclops
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maintainer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maintainer
+          short: The Maintainer
+          sight: >
+            A very old maintainer walks slowly around mumbling to himself, 'Why has my shift down here lasted
+            for 70 years ?'
+      flag:
+      identity:
+        name: The Maintainer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sentinal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sentinal
+          short: sentinal
+          sight: >
+            The Sentinal watches you carefully but doesn't move.
+      flag:
+      identity:
+        name: sentinal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teller:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teller
+          short: The Teller
+          sight: >
+            An old greyhaired teller walks around searching for money.
+      flag:
+      identity:
+        name: The Teller
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  thief:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thief
+          short: The Thief
+          sight: >
+            Someone looking like a thief leans casually against the wall.
+      flag:
+      identity:
+        name: The Thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

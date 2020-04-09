@@ -1,0 +1,391 @@
+groups:
+  ds2:
+    npcs:
+      guildonstern: 1
+      rosencrit: 1
+  ds32:
+    npcs:
+      biff: 1
+      buff: 1
+locations:
+  ds12:
+    npcs:
+      black: 1
+  ds13:
+    npcs:
+      purple: 1
+  ds17:
+    npcs:
+      dragonsluth: 1
+  ds2:
+    groups:
+      ds2: 1
+  ds21:
+    npcs:
+      teenage: 1
+  ds22:
+    npcs:
+      mike: 1
+  ds23:
+    npcs:
+      assistant: 1
+  ds24:
+    npcs:
+      armorer: 1
+  ds27:
+    npcs:
+      knight: 1
+  ds3:
+    npcs:
+      blue: 1
+  ds30:
+    npcs:
+      baby: 1
+  ds32:
+    groups:
+      ds32: 1
+  ds39:
+    npcs:
+      thief: 1
+  ds4:
+    npcs:
+      white: 1
+  ds6:
+    npcs:
+      green: 1
+  ds9:
+    npcs:
+      red: 1
+npcs:
+  armorer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - armorer
+          short: armorer
+          sight: >
+            A very old &+Rarmorer&* is here, working on his armor.
+      flag:
+      identity:
+        name: armorer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  assistant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - assistant
+          short: The Assistant
+          sight: Here is the &+Rassistant&* cook.
+      flag:
+      identity:
+        name: The Assistant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  baby:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - baby dragon
+            - baby
+          short: Baby Dragon
+          sight: >
+            Here is a &+Rbaby dragon&* looking for someone to eat.
+      flag:
+        - missile
+        - negmissile
+        - negfrost
+      identity:
+        name: Baby Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  biff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - biff
+          short: biff
+          sight: &+RBiff&* is here and he looks very upset.
+      flag:
+      identity:
+        name: biff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  black:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black dragon
+            - black
+          short: Black Dragon
+          sight: >
+            Here is the &+Rblack dragon&* who doesn't want to bother with you.
+      flag:
+        - fireball
+        - negfireball
+        - negmissile
+      identity:
+        name: Black Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blue:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blue dragon
+            - blue
+          short: Blue Dragon
+          sight: A huge &+Rblue dragon&* is lying around here.
+      flag:
+        - fireball
+        - negfireball
+        - negfrost
+      identity:
+        name: Blue Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  buff:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - buff
+          short: buff
+          sight: &+RBuff&* is here and very upset also.
+      flag:
+      identity:
+        name: buff
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dragonsluth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dragonsluth
+          short: dragonsluth
+          sight: >
+            The legendary &+RDragonsluth&* himself is here, ready to kill you.
+      flag:
+        - fireball
+        - frost
+        - icestorm
+      identity:
+        name: dragonsluth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  green:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - green dragon
+            - green
+          short: Green Dragon
+          sight: The &+RGreen Dragon&* is here.
+      flag:
+        - missile
+        - negmissile
+      identity:
+        name: Green Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guildonstern:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guildonstern
+          short: guildonstern
+          sight: >
+            The Poetic &+RGuildonstern&* disagrees with Rosencrit.
+      flag:
+      identity:
+        name: guildonstern
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  knight:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - knight
+          short: knight
+          sight: An old style &+Rknight&* sits here.
+      flag:
+      identity:
+        name: knight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mike:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mike
+          short: Mike
+          sight: >
+            &+RMike the Cook&* is here and he's mad that you are too!
+      flag:
+      identity:
+        name: Mike
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  purple:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - purple dragon
+            - purple
+          short: Purple Dragon
+          sight: A &+RPurple Dragon&* is sitting here.
+      flag:
+        - frost
+        - negfrost
+        - negmissile
+      identity:
+        name: Purple Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  red:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red dragon
+            - red
+          short: Red Dragon
+          sight: >
+            The All famous &+RRed Dragon&* is here laughing at you.
+      flag:
+        - frost
+        - negfrost
+        - negshock
+      identity:
+        name: Red Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rosencrit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rosencrit
+          short: rosencrit
+          sight: >
+            The Artistic &+RRosencrit&* tries persuade you to leave.
+      flag:
+      identity:
+        name: rosencrit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teenage:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teenage dragon
+            - teenage
+          short: Teenage Dragon
+          sight: >
+            Here is the &+Rteenage dragon&* trying to avoid society.
+      flag:
+        - fireball
+        - shock
+        - negfireball
+      identity:
+        name: Teenage Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  thief:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thief
+          short: thief
+          sight: The &+Rthief&* who took the throne is here.
+      flag:
+      identity:
+        name: thief
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  white:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white dragon
+            - white
+          short: White Dragon
+          sight: >
+            The &+RWhite Dragon&* is about to make history of you.
+      flag:
+        - frost
+        - negfrost
+        - negfireball
+      identity:
+        name: White Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

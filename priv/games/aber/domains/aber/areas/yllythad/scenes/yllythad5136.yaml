@@ -13,5 +13,5 @@ detail:
       direction, regardless of the wind or weather topside. The beach area to the south has begun to get
       covered in rocks, making it unsafe to attempt travel onto land. It looks a bit more safe to the east.
 flag:
-  - onwater
+  - on-water
   - outdoors

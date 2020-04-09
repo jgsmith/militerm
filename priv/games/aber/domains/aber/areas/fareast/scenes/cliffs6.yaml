@@ -13,4 +13,4 @@ detail:
       higher cliffside.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -12,4 +12,4 @@ detail:
       vegetation gets to you after a while, and you feel anxious to move out of the area.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

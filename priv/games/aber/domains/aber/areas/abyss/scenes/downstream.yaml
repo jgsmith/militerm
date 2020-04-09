@@ -14,5 +14,5 @@ detail:
       The current is getting swifter as it pushes you up to the east bank of the river, allowing you to climb
       out. Further down, the river seems to boil.
 flag:
-  - onwater
+  - on-water
   - outdoors

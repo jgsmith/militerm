@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:playhouse:house26"
+      west:
+        guarded: true
+        target: "scene:aber:playhouse:house28"
     short: "Child's Nightmare: Middle of the Attic"
     sight: >
       This is TERRIBLE!! Reminding you of what you used to think of the attic when you were barely knee-high

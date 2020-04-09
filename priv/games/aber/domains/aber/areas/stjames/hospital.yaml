@@ -1,0 +1,335 @@
+groups:
+  22:
+    npcs:
+      cardinal: 1
+      peacock: 1
+      rabbit: 1
+  30:
+    npcs:
+      goose: 1
+      mallard: 1
+  55:
+    npcs:
+      squirrel1: 1
+      squirrel2: 1
+locations:
+  10:
+    npcs:
+      robin: 1
+  22:
+    groups:
+      22: 1
+  30:
+    groups:
+      30: 1
+  33:
+    npcs:
+      moth: 1
+  37:
+    npcs:
+      goldfish2: 1
+  38:
+    npcs:
+      goldfish3: 1
+  40:
+    npcs:
+      sparrow: 1
+  44:
+    npcs:
+      rabbit2: 1
+  50:
+    npcs:
+      butterfly: 1
+  51:
+    npcs:
+      goldfish1: 1
+  54:
+    npcs:
+      grasshopper: 1
+  55:
+    groups:
+      55: 1
+  56:
+    npcs:
+      chipmunk: 1
+npcs:
+  butterfly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - butterfly
+          short: The Butterfly
+          sight: A butterfly slowly flutters by.
+      flag:
+      identity:
+        name: The Butterfly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cardinal:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cardinal
+          short: The Cardinal
+          sight: A bright red cardinal flies past you.
+      flag:
+      identity:
+        name: The Cardinal
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  chipmunk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chipmunk
+          short: The Chipmunk
+          sight: >
+            A small brown-red chipmunk dashes from tree to tree here.
+      flag:
+      identity:
+        name: The Chipmunk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goldfish1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goldfish
+          short: The Goldfish
+          sight: A large goldfish swims in the pond.
+      flag:
+      identity:
+        name: The Goldfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goldfish2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goldfish
+          short: The Goldfish
+          sight: A large goldfish swims in the pond.
+      flag:
+      identity:
+        name: The Goldfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goldfish3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goldfish
+          short: The Goldfish
+          sight: A large goldfish swims in the pond.
+      flag:
+      identity:
+        name: The Goldfish
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  goose:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - goose
+          short: The Goose
+          sight: A large white goose honks at you.
+      flag:
+      identity:
+        name: The Goose
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grasshopper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grasshopper
+          short: The Grasshopper
+          sight: >
+            A lone grasshopper jumps from grass stalk to grass stalk.
+      flag:
+      identity:
+        name: The Grasshopper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mallard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mallard
+          short: The Mallard
+          sight: A mallard waddles by.
+      flag:
+      identity:
+        name: The Mallard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  moth:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - moth
+          short: The Moth
+          sight: A small moth flits about nearby.
+      flag:
+      identity:
+        name: The Moth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peacock:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peacock
+          short: The Peacock
+          sight: >
+            A peacock stands here with its plumage fully unfurled.
+      flag:
+      identity:
+        name: The Peacock
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rabbit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown rabbit
+            - rabbit
+          short: The Brown Rabbit
+          sight: A brown rabbit hops along merrily.
+      flag:
+      identity:
+        name: The Brown Rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rabbit2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rabbit
+          short: The Rabbit
+          sight: A small rabbit is foraging in the bushes here.
+      flag:
+      identity:
+        name: The Rabbit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  robin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - robin
+          short: The Robin
+          sight: A red robin flies past you.
+      flag:
+      identity:
+        name: The Robin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sparrow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sparrow
+          short: The Sparrow
+          sight: A sparrow flies past you.
+      flag:
+      identity:
+        name: The Sparrow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squirrel1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grey squirrel
+            - squirrel
+          short: The Grey Squirrel
+          sight: >
+            A grey squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: The Grey Squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  squirrel2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red squirrel
+            - squirrel
+          short: The Red Squirrel
+          sight: >
+            A red squirrel with a bushy tail is foraging for nuts here.
+      flag:
+      identity:
+        name: The Red Squirrel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

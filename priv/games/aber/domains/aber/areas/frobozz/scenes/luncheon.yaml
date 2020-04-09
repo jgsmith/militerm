@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:frobozz:tellers"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:frobozz:side"
     short: Luncheon Room
     sight: >
       You have just entered the bank-personells luncheon room. The room is abandoned just af if something

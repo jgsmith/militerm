@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:graye:graye5556"
       south:
         target: "scene:aber:graye:graye5554"
     short: "Irgon's Guard Room"

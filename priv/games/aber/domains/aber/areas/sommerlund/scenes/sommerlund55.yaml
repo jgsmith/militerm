@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:sommerlund:sommerlund56"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund53"
       south:
         target: "scene:aber:sommerlund:sommerlund58"
       west:

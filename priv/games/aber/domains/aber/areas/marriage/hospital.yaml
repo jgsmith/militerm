@@ -1,0 +1,45 @@
+groups:
+  marriage1:
+    npcs:
+      preacher: 1
+      ring_bearer: 1
+locations:
+  marriage1:
+    groups:
+      marriage1: 1
+npcs:
+  preacher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - preacher
+          short: preacher
+          sight: >
+            The faithul, and quaint preacher of the MUD stands here, viewing you with a calm, kind eye.
+      flag:
+      identity:
+        name: preacher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ring_bearer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ring bearer
+            - ring_bearer
+          short: Ring Bearer
+          sight: >
+            A young boy, dressed in a tuxedo stands here dressed in a small childs tuxedo.
+      flag:
+      identity:
+        name: Ring Bearer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

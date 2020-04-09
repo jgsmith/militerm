@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:catacomb:resting_place"
       south:
         target: "scene:aber:catacomb:nledge2"
     short: The Hall of Challenging
@@ -12,4 +14,4 @@ detail:
       south. There is a heavy wooden door, made of cedar and overlayed with gold, at the northern end of the
       Hall.
 flag:
-  - nomagic
+  - no-magic

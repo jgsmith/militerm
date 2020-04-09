@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cave:guardroom"
       south:
         target: "scene:aber:cave:tunnel"
       west:

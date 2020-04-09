@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:orchold:tunnel"
     short: "King Orc's Treasury"
     sight: >
       This is apparently where the King Orc likes to store his valuables. The room itself is quite plain, and

@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:newbee:newbee18603"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:newbee:newbee18606"
       west:
         target: "scene:aber:newbee:newbee18601"
     short: The Dirty Hallway

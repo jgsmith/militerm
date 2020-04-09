@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:eforest:captain"
     short: Storage Room
     sight: >
       You have walked into a small stone cubical acting as a storage room. The walls are lined with wooden

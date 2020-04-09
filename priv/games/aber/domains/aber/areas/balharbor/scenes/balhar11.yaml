@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:balharbor:balhar12"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:balharbor:balhar10"
     short: Weapon Shop
     sight: >
       Untouched by the riots this shop has many different weapons for sale. Swords, knives, daggers, and other

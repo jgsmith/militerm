@@ -5,12 +5,14 @@ detail:
         target: "scene:aber:ghenna:ghenna9933"
       north:
         target: "scene:aber:ghenna:ghenna9935"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9938"
     short: Inside the cave entrance.
     sight: >
       You are standing inside the cave entrance, where a strong smell of sulfur makes you gag. Large stone
       steps lead back downward to where a labyrinth of bodies can be seen. A steady stream of blood seems to
       be trickling from somewhere up north, where a sound similar to a giant bellows can be heard.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark

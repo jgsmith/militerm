@@ -11,6 +11,6 @@ detail:
       beach lies a half mile to the west while an island is eastward.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

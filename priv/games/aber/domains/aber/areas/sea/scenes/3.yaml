@@ -14,5 +14,5 @@ detail:
       You are lost out at sea. The waves pound heavily all around you, although it looks slightly safer to the
       south and east.
 flag:
-  - onwater
+  - on-water
   - outdoors

@@ -12,6 +12,6 @@ detail:
 flag:
   - party
   - peaceful
-  - nomagic
-  - nomobiles
-  - nosummon
+  - no-magic
+  - no-mobiles
+  - no-summon

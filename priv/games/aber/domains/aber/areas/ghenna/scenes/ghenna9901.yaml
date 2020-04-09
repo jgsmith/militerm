@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:ghenna:ghenna9902"
       south:
         target: "scene:aber:ghenna:ghenna9903"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9900"
       west:
         target: "scene:aber:ghenna:ghenna9957"
     short: City limits of Ghenna.

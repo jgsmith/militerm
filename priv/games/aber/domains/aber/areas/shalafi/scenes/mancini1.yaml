@@ -21,7 +21,7 @@ detail:
       and the like.
 flag:
   - light
-  - nomobiles
-  - nomagic
+  - no-mobiles
+  - no-magic
   - peaceful
   - party

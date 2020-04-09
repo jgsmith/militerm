@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:cave:store"
       west:
         target: "scene:aber:cave:tunnel"
     short: Dwarven Store Room

@@ -1,0 +1,539 @@
+groups:
+locations:
+  saxon1:
+    npcs:
+      crab: 1
+  saxon10:
+    npcs:
+      guard1: 1
+  saxon11:
+    npcs:
+      guard2: 1
+  saxon13:
+    npcs:
+      beowulf: 1
+  saxon15:
+    npcs:
+      guard3: 1
+  saxon16:
+    npcs:
+      cook: 1
+  saxon17:
+    npcs:
+      wealhtheow: 1
+  saxon18:
+    npcs:
+      hrothgar: 1
+  saxon23:
+    npcs:
+      whale: 1
+  saxon25:
+    npcs:
+      bass: 1
+  saxon27:
+    npcs:
+      rat: 1
+  saxon3:
+    npcs:
+      hawk: 1
+  saxon30:
+    npcs:
+      grendel: 1
+  saxon31:
+    npcs:
+      reptile: 1
+  saxon34:
+    npcs:
+      serpent: 1
+  saxon36:
+    npcs:
+      shark: 1
+  saxon38:
+    npcs:
+      demon: 1
+  saxon40:
+    npcs:
+      mother: 1
+  saxon42:
+    npcs:
+      bandit2: 1
+  saxon46:
+    npcs:
+      bandit1: 1
+  saxon48:
+    npcs:
+      widow: 1
+  saxon52:
+    npcs:
+      dragon: 1
+  saxon7:
+    npcs:
+      gateguard: 1
+  saxon9:
+    npcs:
+      peasant: 1
+npcs:
+  bandit1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bandit
+          short: Bandit
+          sight: >
+            A bandit eyes you from a distance, wondering if you are worth killing.
+      flag:
+      identity:
+        name: Bandit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bandit2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bandit
+          short: Bandit
+          sight: >
+            A figure lurks in the shadows, contemplating how much you value your life.
+      flag:
+      identity:
+        name: Bandit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bass:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - small mouth bass
+            - bass
+          short: Small Mouth Bass
+          sight: >
+            A small mouth bass swims by you, its back glittering in the sun.
+      flag:
+      identity:
+        name: Small Mouth Bass
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  beowulf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beowulf
+          short: Beowulf
+          sight: >
+            Beowulf, the greatest warrior ever born, stands proudly here.
+      flag:
+        - no-steal
+        - no-exorcise
+        - no-alias
+        - no-zap
+        - no-summon
+        - no-magic
+      identity:
+        name: Beowulf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cook:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cook
+          short: Cook
+          sight: >
+            Hrothgar's cook is preparing a feast for the warriors.
+      flag:
+      identity:
+        name: Cook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crab:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crab
+          short: Crab
+          sight: >
+            A small crab, about the size of a baseball nips at your toes.
+      flag:
+      identity:
+        name: Crab
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  demon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea demon
+            - demon
+          short: Sea Demon
+          sight: >
+            A Demon made of blood and fire draws his axe at the site of you.
+      flag:
+        - neg-fireball
+        - fireball
+      identity:
+        name: Sea Demon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dragon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red dragon
+            - dragon
+          short: Red Dragon
+          sight: >
+            A hulking mass emerges from the shadows, flames erupting from it's nostrils.
+      flag:
+        - fireball
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - no-exorcise
+        - no-alias
+        - no-zap
+        - no-summon
+      identity:
+        name: Red Dragon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gateguard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - thomas
+            - gateguard
+          short: Thomas
+          sight: >
+            Thomas stares at you, trying to decipher if you pose a threat to the king.
+      flag:
+      identity:
+        name: Thomas
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grendel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grendel
+          short: Grendel
+          sight: >
+            The midnight marauder of Heorot growls angrily at your approach.
+      flag:
+        - neg-frost
+        - frost
+        - no-exorcise
+        - no-alias
+        - no-zap
+        - no-summon
+      identity:
+        name: Grendel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - andrew
+            - guard
+          short: Andrew
+          sight: >
+            Andrew paces back and forth, readying himself for another attack on Heorot.
+      flag:
+      identity:
+        name: Andrew
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - james
+            - guard
+          short: James
+          sight: >
+            James stands here pondering how to kill the awesome monster Grendel.
+      flag:
+      identity:
+        name: James
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peter
+            - guard
+          short: Peter
+          sight: >
+            Peter is staring at the wall, pictures of the cruel monster Grendel running through his mind.
+      flag:
+      identity:
+        name: Peter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hawk:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hawk
+          short: Hawk
+          sight: >
+            A red tailed hawk swoops out of the sky and tears at your face.
+      flag:
+      identity:
+        name: Hawk
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hrothgar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hrothgar
+          short: Hrothgar
+          sight: >
+            Hrothgar, son of Healfdene, lord of the Danes is here.
+      flag:
+        - no-exorcise
+        - no-zap
+      identity:
+        name: Hrothgar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mother:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grendels mother
+            - mother
+          short: Grendels Mother
+          sight: >
+            A hideous growl shoots from a corner of the room as Grendel's mother senses your arrival.
+      flag:
+        - neg-fireball
+        - fireball
+        - no-exorcise
+        - no-alias
+        - no-zap
+        - no-summon
+      identity:
+        name: Grendels Mother
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  peasant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peasant
+          short: Peasant
+          sight: A peasant is here tending to his flock.
+      flag:
+      identity:
+        name: Peasant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rat
+          short: Rat
+          sight: >
+            A rat scrambles here on the floor, looking for food.
+      flag:
+      identity:
+        name: Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  reptile:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sea reptile
+            - reptile
+          short: Sea Reptile
+          sight: >
+            A massive Sea Reptile lurks here, hungry to feed on you.
+      flag:
+        - neg-fireball
+        - fireball
+      identity:
+        name: Sea Reptile
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  serpent:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - serpent
+          short: Serpent
+          sight: >
+            A small serpent, its veins glowing with fire slithers by you.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - fireball
+      identity:
+        name: Serpent
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shark:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fire shark
+            - shark
+          short: Fire Shark
+          sight: >
+            A flame swims by, and you notice it resembles a Great White shark.
+      flag:
+        - neg-fireball
+        - fireball
+        - fear-frost
+      identity:
+        name: Fire Shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wealhtheow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wealhtheow
+          short: Wealhtheow
+          sight: >
+            Wealhtheow, Hrothgar's queen, is here adorned in gold.
+      flag:
+        - no-steal
+        - no-exorcise
+        - no-zap
+      identity:
+        name: Wealhtheow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  whale:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - killer whale
+            - whale
+          short: Killer Whale
+          sight: >
+            There is a killer whale frolicking here in the sea.
+      flag:
+      identity:
+        name: Killer Whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  widow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - widow
+          short: Widow
+          sight: An old woman cries out at the site of you.
+      flag:
+        - no-steal
+        - no-exorcise
+        - no-hassle
+        - no-alias
+        - no-zap
+        - no-summon
+      identity:
+        name: Widow
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

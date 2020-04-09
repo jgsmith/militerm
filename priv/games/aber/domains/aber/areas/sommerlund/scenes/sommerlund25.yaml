@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund24"
+      west:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund26"
     short: Dark Passage
     sight: >
       A long passage extends from the courtyard to a window of light. There is a nobleman's coach here.

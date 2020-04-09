@@ -10,4 +10,4 @@ detail:
       center of the room, and couches line the walls. You look out the window and are vaguely surprised that
       you can't see the ground.
 flag:
-  - nomobiles
+  - no-mobiles

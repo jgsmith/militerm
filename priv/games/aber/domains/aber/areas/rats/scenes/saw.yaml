@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:rats:chbedroom"
       up:
         target: "scene:aber:rats:hallway_3"
     short: Saw

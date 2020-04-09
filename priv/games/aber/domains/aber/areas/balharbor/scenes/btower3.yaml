@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:balharbor:btower2"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:balharbor:btower4"
     short: Entrance to Tower
     sight: >
       Having successfully getting past the guards, you stand at the front door of the tower. If you can figure

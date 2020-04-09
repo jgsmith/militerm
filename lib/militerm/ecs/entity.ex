@@ -94,7 +94,6 @@ defmodule Militerm.ECS.Entity do
       if not is_nil(module), do: module.set(entity_id, module_data)
     end
 
-    # N.B.: We don't start the entity controller until we need to send an event to it.
     Militerm.Components.Entity.register(entity_id, entity_module, archetype)
 
     entity_id

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9948"
       west:
         target: "scene:aber:ghenna:ghenna9944"
     short: A backwall niche.

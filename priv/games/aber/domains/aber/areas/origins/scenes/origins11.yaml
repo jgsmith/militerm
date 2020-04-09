@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:origins:origins12"
       north:
         target: "scene:aber:origins:origins14"
       south:
@@ -20,5 +22,5 @@ detail:
       home, and a large threshold to your left. The city continues on to the north.
 flag:
   - outdoors
-  - tempreal
-  - nomobiles
+  - temp-real
+  - no-mobiles

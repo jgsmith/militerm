@@ -16,4 +16,4 @@ detail:
       begin studies here.
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles

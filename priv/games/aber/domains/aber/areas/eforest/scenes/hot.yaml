@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:eforest:fungus"
       up:
         target: "scene:aber:eforest:stairs"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eforest:boiling"
     short: Hot Cavern
     sight: >
       You stand in a huge, natural cavern. It is not just hot, but rather almost unbearable. There certainly

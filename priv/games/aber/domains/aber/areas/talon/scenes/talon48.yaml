@@ -11,4 +11,4 @@ detail:
       the bottom of the tower, which is barely visible. The ladder seems to lead up to the top of the tower,
       where bright yellow sunlight streams in from above.
 flag:
-  - nomobiles
+  - no-mobiles

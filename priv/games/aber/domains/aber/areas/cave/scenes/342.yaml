@@ -10,5 +10,5 @@ detail:
       The room is very large, you can not see the ceiling for it is lost in the darkness. A large crack is
       releasing large amounts of heat causing you to sweat profusely.
 flag:
-  - nomagic
+  - no-magic
   - dark

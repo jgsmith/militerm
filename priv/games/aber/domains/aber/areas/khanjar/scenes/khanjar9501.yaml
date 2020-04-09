@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:khanjar:khanjar9514"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9502"
       west:
         target: "scene:aber:khanjar:khanjar9500"
     short: Before A Small Gate

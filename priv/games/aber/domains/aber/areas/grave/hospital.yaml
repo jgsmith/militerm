@@ -1,0 +1,1107 @@
+groups:
+  grave3419:
+    npcs:
+      mob3405: 1
+      mob3405_1: 1
+      mob3406: 1
+  grave3420:
+    npcs:
+      mob221: 1
+      mob3407: 1
+  grave3466:
+    npcs:
+      mob3404_1: 1
+      mob3404_2: 1
+  grave3469:
+    npcs:
+      mob3409: 1
+      mob3409_1: 1
+  grave3495:
+    npcs:
+      mob3410: 1
+      mob3410_1: 1
+locations:
+  grave3456:
+    npcs:
+      mob3413_2: 1
+  grave3411:
+    npcs:
+      mob3401_8: 1
+  grave3407:
+    npcs:
+      mob3401_4: 1
+  grave3493:
+    npcs:
+      mob3419: 1
+  grave3455:
+    npcs:
+      mob3413_1: 1
+  grave3423:
+    npcs:
+      mob3404: 1
+  grave3416:
+    npcs:
+      mob3403_1: 1
+  grave3409:
+    npcs:
+      mob3401_6: 1
+  grave3433:
+    npcs:
+      mob3402_3: 1
+  grave3487:
+    npcs:
+      mob3420: 1
+  grave3402:
+    npcs:
+      mob3401_1: 1
+  grave3412:
+    npcs:
+      mob3401_9: 1
+  grave3477:
+    npcs:
+      mob3412: 1
+  grave3495:
+    groups:
+      grave3495: 1
+  grave3466:
+    groups:
+      grave3466: 1
+  grave3492:
+    npcs:
+      mob3423: 1
+  grave3485:
+    npcs:
+      mob3411: 1
+  grave3419:
+    groups:
+      grave3419: 1
+  grave3406:
+    npcs:
+      mob3401_3: 1
+  grave3484:
+    npcs:
+      mob3414: 1
+  grave3410:
+    npcs:
+      mob3401_7: 1
+  grave3494:
+    npcs:
+      mob3415: 1
+  grave3490:
+    npcs:
+      mob3421: 1
+  grave3403:
+    npcs:
+      mob3401_2: 1
+  grave3430:
+    npcs:
+      mob3402: 1
+  grave3469:
+    groups:
+      grave3469: 1
+  grave3408:
+    npcs:
+      mob3401_5: 1
+  grave3489:
+    npcs:
+      mob3422: 1
+  grave3467:
+    npcs:
+      mob3426: 1
+  grave3401:
+    npcs:
+      mob3401: 1
+  grave3422:
+    npcs:
+      mob3418: 1
+  grave3434:
+    npcs:
+      mob3402_4: 1
+  grave3457:
+    npcs:
+      mob3413_3: 1
+  grave3435:
+    npcs:
+      mob3402_5: 1
+  grave3413:
+    npcs:
+      mob3401_10: 1
+  grave3450:
+    npcs:
+      mob3401_11: 1
+  grave3432:
+    npcs:
+      mob3402_2: 1
+  grave3458:
+    npcs:
+      mob3417: 1
+  grave3436:
+    npcs:
+      mob3402_6: 1
+  grave3483:
+    npcs:
+      mob3408: 1
+  grave3475:
+    npcs:
+      mob3416: 1
+  grave3461:
+    npcs:
+      mob3425: 1
+  grave3431:
+    npcs:
+      mob3402_1: 1
+  grave3415:
+    npcs:
+      mob3403: 1
+  grave3454:
+    npcs:
+      mob3413: 1
+  grave3496:
+    npcs:
+      mob3424: 1
+  grave3420:
+    groups:
+      grave3420: 1
+npcs:
+  mob3412:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - medusa
+            - mob
+          short: The Medusa
+          sight: The &+GMedusa&* peers at you.
+      flag:
+      identity:
+        name: The Medusa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob3401_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3422:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mahat
+            - mob
+          short: Mahat
+          sight: >
+            &+RMahat&* the Devil stares at you with piercing eyes.
+      flag:
+        - fireball
+        - bhands
+        - imm-b-hands
+        - imm-fireball
+      identity:
+        name: Mahat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3414:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spirit naga
+            - mob
+          short: A Spirit Naga
+          sight: A &+RSpirit Naga&* slithers toward you.
+      flag:
+        - missile
+        - fireball
+      identity:
+        name: A Spirit Naga
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mob3401_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3408:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghost
+            - mob
+          short: The Ghost
+          sight: The &+Rghost&* flies toward you.
+      flag:
+      identity:
+        name: The Ghost
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3413_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minotaur
+            - mob3413_
+          short: The minotaur
+          sight: The &+Rminotaur&* springs to attack.
+      flag:
+      identity:
+        name: The minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3404_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wight
+            - mob3404_
+          short: A wight
+          sight: An evil &+Rwight&* is here.
+      flag:
+      identity:
+        name: A wight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_11:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3404:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wight
+            - mob
+          short: A wight
+          sight: An evil &+Rwight&* is here.
+      flag:
+      identity:
+        name: A wight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3423:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dogretch
+            - mob
+          short: Dogretch
+          sight: >
+            &+RDogretch&* the Evil Devil grins at you, then rushes to attack.
+      flag:
+        - fireball
+        - bhands
+        - neg-b-hands
+        - neg-fireball
+      identity:
+        name: Dogretch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3419:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vampire
+            - mob
+          short: A Vampire
+          sight: A Dark &+RVampire&* grins at you.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Vampire
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3405_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ogre
+            - mob3405_
+          short: An ogre
+          sight: A Large &+GOgre&* is here.
+      flag:
+      identity:
+        name: An ogre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3404_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wight
+            - mob3404_
+          short: A wight
+          sight: An evil &+Rwight&* is here.
+      flag:
+      identity:
+        name: A wight
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3420:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rilke
+            - mob
+          short: Rilke
+          sight: &+RRilke&* the Demon stands grinning at you.
+      flag:
+        - fireball
+        - b-hands
+        - imm-b-hands
+        - imm-fireball
+      identity:
+        name: Rilke
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_10:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3405:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ogre
+            - mob
+          short: An ogre
+          sight: A Large &+GOgre&* is here.
+      flag:
+      identity:
+        name: An ogre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3425:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - froghemoth
+            - mob
+          short: A froghemoth
+          sight: A &+Gfroghemoth&* swims here.
+      flag:
+      identity:
+        name: A froghemoth
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3403:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombie
+            - mob
+          short: A zombie
+          sight: A normal sized &+Rzombie&* is here.
+      flag:
+      identity:
+        name: A zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3417:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large troll
+            - mob
+          short: A large troll
+          sight: A &+RLarge Troll&* steps toward you.
+      flag:
+      identity:
+        name: A large troll
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3409:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghast
+            - mob
+          short: A Ghast
+          sight: A &+RGhast&* is here.
+      flag:
+      identity:
+        name: A Ghast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3410_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hell hound
+            - mob3410_
+          short: A Hell Hound
+          sight: A &+RHell Hound&* growls at you.
+      flag:
+      identity:
+        name: A Hell Hound
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3421:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - balor
+            - mob
+          short: Balor
+          sight: &+RBalor&* the mighty Demon stands here.
+      flag:
+      identity:
+        name: Balor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3416:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spectre
+            - mob
+          short: A Spectre
+          sight: A &+RSpectre&* is standing here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Spectre
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3403_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - zombie
+            - mob3403_
+          short: A zombie
+          sight: A normal sized &+Rzombie&* is here.
+      flag:
+      identity:
+        name: A zombie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3413_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minotaur
+            - mob3413_
+          short: The minotaur
+          sight: The &+Rminotaur&* springs to attack.
+      flag:
+      identity:
+        name: The minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3411:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - very evil lich
+            - mob
+          short: The Very Evil Lich
+          sight: A &+RVery Evil Lich&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: The Very Evil Lich
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3409_1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghast
+            - mob3409_
+          short: A Ghast
+          sight: A &+RGhast&* is here.
+      flag:
+        - v-touch
+      identity:
+        name: A Ghast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3415:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jet black hell horse
+            - mob
+          short: A Jet Black Hell Horse
+          sight: A &+RJet Black Hell Horse&* is standing here.
+      flag:
+      identity:
+        name: A Jet Black Hell Horse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3406:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ogre chieftain
+            - mob
+          short: An ogre chieftain
+          sight: An &+GOgre Chieftain&* screams at you.
+      flag:
+      identity:
+        name: An ogre chieftain
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3413_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minotaur
+            - mob3413_
+          short: The minotaur
+          sight: The &+Rminotaur&* springs to attack.
+      flag:
+      identity:
+        name: The minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3426:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton king
+            - mob
+          short: The skeleton King
+          sight: A large bony &+Rskeleton king&* is standing here.
+      flag:
+      identity:
+        name: The skeleton King
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob221:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugbear
+            - mob
+          short: a bugbear
+          sight: A &+Rbugbear&* stands here.
+      flag:
+      identity:
+        name: a bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3401_9:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+            - mob3401_
+          short: A Skeleton
+          sight: A bony &+Rskeleton&* is here.
+      flag:
+      identity:
+        name: A Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3410:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hell hound
+            - mob
+          short: A Hell Hound
+          sight: A &+RHell Hound&* growls at you.
+      flag:
+      identity:
+        name: A Hell Hound
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3402_3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghoul
+            - mob3402_
+          short: A Ghoul
+          sight: An ugly &+Rghoul&* is here.
+      flag:
+        - v-touch
+        - imm-v-touch
+      identity:
+        name: A Ghoul
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3418:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - trembling hunchback
+            - mob
+          short: A trembling hunchback
+          sight: &+CA trembling hunchback cowers from you.
+      flag:
+      identity:
+        name: A trembling hunchback
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3413:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - minotaur
+            - mob
+          short: The minotaur
+          sight: The &+Rminotaur&* springs to attack.
+      flag:
+      identity:
+        name: The minotaur
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3424:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slavalous
+            - mob
+          short: Slavalous
+          sight: &+RSlavalous&* The Devil Sits here smiling at you.
+      flag:
+        - fireball
+        - bhands
+        - neg-b-hands
+        - neg-fireball
+      identity:
+        name: Slavalous
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mob3407:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - large bugbear
+            - mob
+          short: A large bugbear
+          sight: A large &+Rbugbear&* rushes toward you.
+      flag:
+      identity:
+        name: A large bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

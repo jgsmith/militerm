@@ -13,4 +13,4 @@ detail:
 flag:
   - outdoors
   - light
-  - nomagic
+  - no-magic

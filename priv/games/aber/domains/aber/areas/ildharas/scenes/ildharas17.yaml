@@ -12,4 +12,4 @@ detail:
       directly to the north and its courtyard to the south.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

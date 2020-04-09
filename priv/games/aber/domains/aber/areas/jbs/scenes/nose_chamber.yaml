@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:jbs:nose"
       east:
         target: "scene:aber:jbs:nose"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:jbs:head"
     short: Small Chamber in the Nose
     sight: >
       You have reached a small somewhat square chamber deep in the giants nose and to your great amazement

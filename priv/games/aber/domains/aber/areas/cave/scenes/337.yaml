@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:cave:340"
       north:
         target: "scene:aber:cave:338"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:cave:336"
     short: Entrance to the Thorbadin Mines
     sight: >
       Tunnels are delved into the darkness to the east and to the north.

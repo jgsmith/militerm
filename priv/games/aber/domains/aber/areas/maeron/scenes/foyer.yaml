@@ -7,7 +7,9 @@ detail:
         target: "scene:aber:maeron:livingroom"
       north:
         target: "scene:aber:maeron:lab"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:maeron:entrance"
       up:
         target: "scene:aber:maeron:upstairs"
       west:

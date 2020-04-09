@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas46"
     short: Empty Cell
     sight: >
       Damp, cramped and dreary, this cell reminds of you of all the other cells you've seen and reinforces the

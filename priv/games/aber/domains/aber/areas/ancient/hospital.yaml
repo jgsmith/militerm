@@ -1,0 +1,411 @@
+groups:
+  anc18:
+    npcs:
+      bloodthirsty: 1
+      hungry: 1
+      mosquito: 1
+      old: 1
+      tiny: 1
+  anc44:
+    npcs:
+      alligator: 1
+      bloodyjaws: 1
+  anc46:
+    npcs:
+      cuezcon: 1
+      pacamac: 1
+      tenoc: 1
+locations:
+  anc18:
+    groups:
+      anc18: 1
+  anc22:
+    npcs:
+      mummy: 1
+  anc25:
+    npcs:
+      monolith: 1
+  anc42:
+    npcs:
+      cockroach: 1
+  anc44:
+    groups:
+      anc44: 1
+  anc46:
+    groups:
+      anc46: 1
+  anc48:
+    npcs:
+      anara: 1
+  anc50:
+    npcs:
+      emperor: 1
+  anc51:
+    npcs:
+      aczuma: 1
+  anc53:
+    npcs:
+      arantxa: 1
+  anc54:
+    npcs:
+      mano: 1
+  anc55:
+    npcs:
+      rattlesnake: 1
+  anc7:
+    npcs:
+      quetzalcoatl: 1
+npcs:
+  aczuma:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - aczuma
+          short: Aczuma
+          sight: Aczuma the Warlord is practising his spells.
+      flag:
+        - missile
+        - imm-mute
+        - blind
+        - imm-cripple
+      identity:
+        name: Aczuma
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  alligator:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alligator
+          short: alligator
+          sight: >
+            A huge alligator thinks you could do as dinner for him.
+      flag:
+      identity:
+        name: alligator
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  anara:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anara
+          short: Anara
+          sight: >
+            A female servant is cleaning the floor with a broom.
+      flag:
+      identity:
+        name: Anara
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  arantxa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - arantxa
+          short: Arantxa
+          sight: >
+            Arantxa the Astronomer is radiating the light of ancient wisdom around her.
+      flag:
+        - frost
+        - deaf
+        - mute
+      identity:
+        name: Arantxa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bloodthirsty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bloodthirsty
+          short: bloodthirsty
+          sight: >
+            A bloodthirsty mosquito thinks your blood would taste good.
+      flag:
+      identity:
+        name: bloodthirsty
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bloodyjaws:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bloodyjaws
+          short: bloodyjaws
+          sight: >
+            Another alligator stares hungrily at you blood in his jaws.
+      flag:
+      identity:
+        name: bloodyjaws
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cockroach:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cockroach
+          short: The cockroach
+          sight: A giant cockroach runs around the floor.
+      flag:
+      identity:
+        name: The cockroach
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cuezcon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cuezcon
+          short: Cuezcon
+          sight: A male servant is carrying food to someone.
+      flag:
+      identity:
+        name: Cuezcon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  emperor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - emperor
+          short: The Emperor
+          sight: >
+            The Son of the Sun God is sitting here on his throne.
+      flag:
+        - cripple
+        - mute
+        - imm-blind
+        - imm-mute
+      identity:
+        name: The Emperor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hungry:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hungry
+          short: hungry
+          sight: >
+            A very hungry mosquito orders a bloody mary (a la you).
+      flag:
+      identity:
+        name: hungry
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mano:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mano
+          short: Mano
+          sight: >
+            An evil glance of Mano the Priest nails your boots to the floor.
+      flag:
+        - shock
+        - blind
+        - mute
+        - cripple
+        - imm-cripple
+        - imm-mute
+      identity:
+        name: Mano
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  monolith:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - monolith
+          short: The monolith
+          sight: >
+            A huge monolith stands before you black as the night.
+      flag:
+      identity:
+        name: The monolith
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mosquito:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mosquito
+          short: The Mosquito
+          sight: A giant mosquito is thinking no good about you.
+      flag:
+      identity:
+        name: The Mosquito
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mummy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mummy
+          short: The mummy
+          sight: "There's something rotten in the corner."
+      flag:
+      identity:
+        name: The mummy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  old:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - old
+          short: old
+          sight: An old mosquito is considering attacking you.
+      flag:
+      identity:
+        name: old
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pacamac:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pacamac
+          short: Pacamac
+          sight: Pacamac the town guardsman is blocking your way.
+      flag:
+      identity:
+        name: Pacamac
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  quetzalcoatl:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - snake head
+            - quetzalcoatl
+          short: The snake head
+          sight: This monolith is alive!!!
+      flag:
+        - imm-blind
+        - no-summon
+      identity:
+        name: The snake head
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rattlesnake:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rattlesnake
+          short: The rattlesnake
+          sight: >
+            The rattlesnake is keeping horrifying noises before you.
+      flag:
+        - immdeaf
+      identity:
+        name: The rattlesnake
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tenoc:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tenoc
+          short: Tenoc
+          sight: >
+            Tenoc the younger guardsman looks at you curiously.
+      flag:
+      identity:
+        name: Tenoc
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tiny:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tiny
+          short: tiny
+          sight: >
+            A tiny mosquito before you looks even more energetic than the others.
+      flag:
+      identity:
+        name: tiny
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

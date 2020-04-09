@@ -16,5 +16,5 @@ detail:
       directions from here.
 flag:
   - outdoors
-  - tempreal
-  - nomobiles
+  - temp-real
+  - no-mobiles

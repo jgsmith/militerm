@@ -14,5 +14,5 @@ detail:
       food on the surface. A rock littered shore lies to the south, so jumbled and covered in rock as to be
       unpassable.
 flag:
-  - onwater
+  - on-water
   - outdoors

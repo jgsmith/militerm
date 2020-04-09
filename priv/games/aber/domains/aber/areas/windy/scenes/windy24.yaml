@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:windy:windy25"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:windy:windy23"
     short: End of Passage
     sight: >
       You are standing at the end of a dark passage which extends north and south. A solid oak door is fitted

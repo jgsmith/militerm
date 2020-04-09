@@ -9,6 +9,6 @@ detail:
       wands, odd regents and components. The place has an unmistakable scent of sulfur that makes you wonder,
       but the sorceress seems knowledgeable. &+GTo see what she teaches, type &+M'learn info&+G'.
 flag:
-  - nomagic
+  - no-magic
   - peaceful
-  - nomobiles
+  - no-mobiles

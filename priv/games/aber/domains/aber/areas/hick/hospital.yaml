@@ -1,0 +1,280 @@
+groups:
+locations:
+  cattle4:
+    npcs:
+      cow: 1
+  cattle5:
+    npcs:
+      horse: 1
+  cattle7:
+    npcs:
+      firstpig: 1
+  cattle8:
+    npcs:
+      secondpig: 1
+  cattle9:
+    npcs:
+      bull: 1
+  field13:
+    npcs:
+      cornworker: 1
+  field14:
+    npcs:
+      wheatworker: 1
+  field15:
+    npcs:
+      worker: 1
+  hick3:
+    npcs:
+      jeremy: 1
+  hick8:
+    npcs:
+      tom: 1
+  house1:
+    npcs:
+      grandpa: 1
+  house10:
+    npcs:
+      mother: 1
+  house15:
+    npcs:
+      grandma: 1
+  house5:
+    npcs:
+      father: 1
+npcs:
+  bull:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bull
+          short: Bull
+          sight: >
+            A very large bull is here snorting at you ready to charge.
+      flag:
+      identity:
+        name: Bull
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cornworker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - corn worker
+            - cornworker
+          short: Corn Worker
+          sight: A cornworker is here examining the corn stalks.
+      flag:
+      identity:
+        name: Corn Worker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cow
+          short: Cow
+          sight: A cow is here mooing softly.
+      flag:
+      identity:
+        name: Cow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  father:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bill
+            - father
+          short: Bill
+          sight: >
+            Bill, the Hickdale father is here going over bills.
+      flag:
+      identity:
+        name: Bill
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  firstpig:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hog
+            - firstpig
+          short: Hog
+          sight: A large, smelly hog is here oinking happily.
+      flag:
+      identity:
+        name: Hog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grandma:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grandma
+          short: Grandma
+          sight: >
+            Grandma is here with fire in her eyes and says 'Get out! You invader!'
+      flag:
+      identity:
+        name: Grandma
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grandpa:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grandpa
+          short: Grandpa
+          sight: >
+            Grandpa Hickdale is sitting on the porch swing snoozing.
+      flag:
+      identity:
+        name: Grandpa
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  horse:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - horse
+          short: Horse
+          sight: A horse is here looking at you curiously.
+      flag:
+      identity:
+        name: Horse
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jeremy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jeremy
+          short: Jeremy
+          sight: Jeremy is here looking very dumb and confused.
+      flag:
+      identity:
+        name: Jeremy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mother:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jane
+            - mother
+          short: Jane
+          sight: Jane, the Hickdale mother is here cooking food.
+      flag:
+      identity:
+        name: Jane
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  secondpig:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sow
+            - secondpig
+          short: Sow
+          sight: A large, smelly sow is here oinking happily.
+      flag:
+      identity:
+        name: Sow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tom:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tom
+          short: Tom
+          sight: >
+            Tom, Jeremy's older brother, is here looking for Jeremy.
+      flag:
+      identity:
+        name: Tom
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wheatworker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wheat worker
+            - wheatworker
+          short: Wheat Worker
+          sight: A wheatworker is here looking at the wheat.
+      flag:
+      identity:
+        name: Wheat Worker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  worker:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - worker
+          short: Worker
+          sight: A worker is here walking around looking at things.
+      flag:
+      identity:
+        name: Worker
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

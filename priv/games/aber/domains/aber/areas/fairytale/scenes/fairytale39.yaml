@@ -3,9 +3,11 @@ detail:
     exits:
       down:
         target: "scene:aber:fairytale:fairytale40"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:fairytale:fairytale38"
     short: Slide
     sight: >
       You stand at the top of a slide. Below you is the entrance to Fairyland.
 flag:
-  - nomobiles
+  - no-mobiles

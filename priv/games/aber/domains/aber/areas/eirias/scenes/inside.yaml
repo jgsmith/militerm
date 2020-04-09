@@ -3,7 +3,9 @@ detail:
     exits:
       up:
         target: "scene:aber:eirias:gallery"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eirias:wooddoor"
     short: Inside
     sight: >
       A glimmer of light from somewhere, untraceable, shows you that you are in a narrow corridor, low-roofed,

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:balharbor:balhar36"
     short: "Judge's Chambers"
     sight: >
       This cozy little chamber is where the judge sits to review the arguments presented by attorneys or give
@@ -9,8 +11,8 @@ detail:
       shelves containing many volumes on law. You can exit the chambers and head back to court through the
       door south.
 flag:
-  - noquit
+  - no-quit
   - soundproof
-  - nosnoop
+  - no-snoop
   - party
-  - cantsummon
+  - cant-summon

@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      south: null
+      east:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter58"
+      south:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter56"
     short: Dungeon Cell
     sight: >
       This is the only cell in the castle's dungeon. In one corner there is a deep hole, with an evil smell

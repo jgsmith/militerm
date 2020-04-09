@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:fjord:fjord3"
       north:
         target: "scene:aber:fjord:fjord7"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:fjord:fjord1"
     short: Gravel Pathway
     sight: >
       The finely made trail continues north and south across untapped wilderness. Some wayward pines pock mark

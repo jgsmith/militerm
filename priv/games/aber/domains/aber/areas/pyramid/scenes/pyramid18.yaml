@@ -7,4 +7,4 @@ detail:
       your lungs. Belatedly you realize you have stumbled onto Neferteri's curse.
 flag:
   - death
-  - nomobiles
+  - no-mobiles

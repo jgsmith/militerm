@@ -1,0 +1,141 @@
+groups:
+  beach24:
+    npcs:
+      dove: 1
+      parrot: 1
+locations:
+  beach15:
+    npcs:
+      whale: 1
+  beach17:
+    npcs:
+      porpoise: 1
+  beach24:
+    groups:
+      beach24: 1
+  beach25:
+    npcs:
+      finch: 1
+  beach26:
+    npcs:
+      cockatiel: 1
+  beach27:
+    npcs:
+      flamingo: 1
+npcs:
+  cockatiel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cockatiel
+          short: cockatiel
+          sight: A bright Cockatiel is here, looking beautiful.
+      flag:
+      identity:
+        name: cockatiel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dove:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dove
+          short: dove
+          sight: A peaceful white dove is perched here, resting.
+      flag:
+      identity:
+        name: dove
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  finch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - finch
+          short: finch
+          sight: >
+            A lovely long-tailed finch is perched on a tree here.
+      flag:
+      identity:
+        name: finch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flamingo:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flamingo
+          short: flamingo
+          sight: >
+            There is a large pink flamingo here, looking for food
+      flag:
+      identity:
+        name: flamingo
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  parrot:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - parrot
+          short: parrot
+          sight: >
+            A beautiful parrot is here, maybe you could teach him to talk?
+      flag:
+      identity:
+        name: parrot
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  porpoise:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - porpoise
+          short: porpoise
+          sight: A playful porpoise is here, playing some games.
+      flag:
+      identity:
+        name: porpoise
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  whale:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - whale
+          short: whale
+          sight: >
+            A large humpbacked whale is here, enjoying the calm open water.
+      flag:
+      identity:
+        name: whale
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

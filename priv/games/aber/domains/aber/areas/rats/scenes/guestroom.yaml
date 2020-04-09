@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:rats:stairsup"
     short: Guest room
     sight: >
       You are standing in the guest room. It is very nicely decorated. The ceiling follows the shape of the

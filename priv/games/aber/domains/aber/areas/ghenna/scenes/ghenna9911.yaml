@@ -18,8 +18,8 @@ detail:
       draining from your body. To stay here long would surely mean the end of you. You feel a strong draft
       coming from the north.
 flag:
-  - nomobiles
+  - no-mobiles
   - dark
   - outdoors
-  - negregen
+  - neg-regen
   - maze

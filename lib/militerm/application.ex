@@ -15,6 +15,7 @@ defmodule Militerm.Application do
       Militerm.Services.Commands,
       Militerm.Services.GlobalMap,
       Militerm.Services.Verbs,
+      Militerm.Services.Socials,
       Militerm.Services.Archetypes,
       Militerm.Services.Mixins,
       Militerm.Services.MML,

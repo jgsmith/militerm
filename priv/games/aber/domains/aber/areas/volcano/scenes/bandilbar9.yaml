@@ -11,4 +11,4 @@ detail:
       scattered over the floor. Nothing of value has been left here. A staircase in one corner leads up to the
       quarters of Yorrin's mayor.
 flag:
-  - nomobiles
+  - no-mobiles

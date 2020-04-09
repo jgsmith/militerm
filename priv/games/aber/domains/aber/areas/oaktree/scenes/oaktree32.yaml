@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:oaktree:oaktree33"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree26"
     short: Between Worlds
     sight: >
       The air seems heavy, almost wooden, and gray mists prevent you from seeing more than two feet in front

@@ -13,4 +13,4 @@ detail:
       it is not still hungry.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

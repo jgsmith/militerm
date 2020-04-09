@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:sommerlund:sommerlund82"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund84"
     short: Nadgazad Plaza
     sight: >
       A fountain stands in the middle of this wide, open square. Instead of running water, a lava flow courses

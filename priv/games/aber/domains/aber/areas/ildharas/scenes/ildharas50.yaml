@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas49"
     short: "Yorjudek's Cell"
     sight: >
       This cell is circular, somewhat larger than the others. Silver-runed manacles hang broken and useless
@@ -9,5 +11,5 @@ detail:
       with hatred and frustration.
 flag:
   - dark
-  - cantsummon
-  - soundproof
+  - cant-summon
+  - sound-proof

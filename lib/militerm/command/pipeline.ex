@@ -2,6 +2,8 @@ defmodule Militerm.Command.Pipeline do
   defstruct input: "",
             entity: nil,
             context: %{},
+            error: nil,
+            phase: nil,
             state: :unhandled
 
   def run_pipeline(info, pipeline) do
@@ -44,8 +46,12 @@ defmodule Militerm.Command.Pipeline do
   def pipeline(:players) do
     [
       Militerm.Command.Plugs.Commands,
-      {Militerm.Command.Plugs.Parse, [parser: Militerm.Parsers.Command]},
-      Militerm.Command.Plugs.RunEvents
+      {Militerm.Command.Plugs.Parse,
+       [parser: Militerm.Parsers.Command, service: Militerm.Services.Verbs]},
+      Militerm.Command.Plugs.RunEvents,
+      {Militerm.Command.Plugs.Parse,
+       [parser: Militerm.Parsers.Command, service: Militerm.Services.Socials]},
+      Militerm.Command.Plugs.RunSocial
     ]
   end
 end

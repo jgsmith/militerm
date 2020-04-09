@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:khanjar:khanjar9502"
       up:
         target: "scene:aber:khanjar:khanjar9508"
       west:

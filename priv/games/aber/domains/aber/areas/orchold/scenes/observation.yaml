@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      west: null
+      down:
+        guarded: true
+        target: "scene:aber:orchold:guardroom"
+      west:
+        guarded: true
+        target: "scene:aber:orchold:damp"
     short: Observation Room
     sight: >
       This room was obviously designed for spying on people entering the hallway. You notice a hole in the

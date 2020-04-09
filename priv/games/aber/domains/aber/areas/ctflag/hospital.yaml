@@ -1,0 +1,198 @@
+groups:
+  limbo@limbo:
+    npcs:
+      black_guard: 1
+      blue_guard: 1
+      gray_guard: 1
+      green_guard: 1
+      purple_guard: 1
+      red_guard: 1
+      tan_guard: 1
+      teal_guard: 1
+      white_guard: 1
+      yellow_guard: 1
+locations:
+  limbo@limbo:
+    groups:
+      limbo@limbo: 1
+npcs:
+  black_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - black-guardian
+            - black_guard
+          short: Black-Guardian
+          sight: &=lWThe Black-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Black-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  blue_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - blue-guardian
+            - blue_guard
+          short: Blue-Guardian
+          sight: &=WBThe Blue-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Blue-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gray_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gray-guardian
+            - gray_guard
+          short: Gray-Guardian
+          sight: &+wThe Gray-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Gray-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  green_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - green-guardian
+            - green_guard
+          short: Green-Guardian
+          sight: &=WGThe Green-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Green-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  purple_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - purple-guardian
+            - purple_guard
+          short: Purple-Guardian
+          sight: &=WmThe Purple-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Purple-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  red_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red-guardian
+            - red_guard
+          short: Red-Guardian
+          sight: &=WRThe Red-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Red-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tan_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tan-guardian
+            - tan_guard
+          short: Tan-Guardian
+          sight: &=WyThe Tan-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Tan-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teal_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - teal-guardian
+            - teal_guard
+          short: Teal-Guardian
+          sight: &=WcThe Teal-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Teal-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  white_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white-guardian
+            - white_guard
+          short: White-Guardian
+          sight: The White-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: White-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yellow_guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yellow-guardian
+            - yellow_guard
+          short: Yellow-Guardian
+          sight: &+YThe Yellow-Guardian is here guarding the flag.
+      flag:
+        - no-steal
+      identity:
+        name: Yellow-Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

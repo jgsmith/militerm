@@ -12,5 +12,5 @@ detail:
       stationed nearby.
 flag:
   - outdoors
-  - nomobiles
-  - cantsummon
+  - no-mobiles
+  - cant-summon

@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:nibelung:nibelung86"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung84"
     short: Tunnel
     sight: >
       As far as you can tell, the tunnel continues to the south, or you can crawl back up into the dungeon

@@ -1,0 +1,248 @@
+groups:
+locations:
+  ildharas04:
+    npcs:
+      fluffy: 1
+  ildharas11:
+    npcs:
+      rodney: 1
+  ildharas18:
+    npcs:
+      bear: 1
+  ildharas23:
+    npcs:
+      tarphalir: 1
+  ildharas25:
+    npcs:
+      ardast: 1
+  ildharas31:
+    npcs:
+      dijek: 1
+  ildharas40:
+    npcs:
+      periol: 1
+  ildharas50:
+    npcs:
+      yorjudek: 1
+  ildharas55:
+    npcs:
+      haog: 1
+  ildharas64:
+    npcs:
+      maric: 1
+  ildharas65:
+    npcs:
+      falathzar: 1
+npcs:
+  ardast:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ardast
+          short: Ardast
+          sight: >
+            Ardast the Not-Quite-Necromancer slouches in a corner, looking for something easy to kill.
+      flag:
+        - fireball
+        - frost
+        - shock
+      identity:
+        name: Ardast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brown bear
+            - bear
+          short: Brown Bear
+          sight: A brown bear regards you curiously.
+      flag:
+      identity:
+        name: Brown Bear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  dijek:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - dijek
+          short: Dijek
+          sight: Dijek inspects the castle.
+      flag:
+        - fireball
+        - frost
+        - no-summon
+        - no-magic
+        - no-alias
+      identity:
+        name: Dijek
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  falathzar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - falathzar
+          short: Falathzar
+          sight: Falathzar sneers coldly at you.
+      flag:
+        - fireball
+        - neg-fireball
+        - no-alias
+        - no-summon
+        - no-exorcise
+      identity:
+        name: Falathzar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fluffy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fluffy the squirrel
+            - fluffy
+          short: Fluffy the squirrel
+          sight: >
+            Fluffy the Squirrel is here, soliciting a free peanut.
+      flag:
+      identity:
+        name: Fluffy the squirrel
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  haog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haog the albino rat
+            - haog
+          short: Haog the Albino Rat
+          sight: Haog the Albino Rat skitters across the floor.
+      flag:
+        - fireball
+        - neg-fireball
+      identity:
+        name: Haog the Albino Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maric:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maric
+          short: Maric
+          sight: >
+            Maric wanders by, digesting the consequences of a drunken boast.
+      flag:
+        - no-exorcise
+        - no-summon
+        - no-steal
+        - no-alias
+      identity:
+        name: Maric
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  periol:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - periol tarhmenin
+            - periol
+          short: Periol Tarhmenin
+          sight: >
+            Periol Tarhmenin wanders by, looking for small valuables.
+      flag:
+      identity:
+        name: Periol Tarhmenin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  rodney:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rodney the pigeon
+            - rodney
+          short: Rodney the pigeon
+          sight: Rodney the pigeon flutters by.
+      flag:
+      identity:
+        name: Rodney the pigeon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tarphalir:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tarphalir
+          short: Tarphalir
+          sight: >
+            Tarphalir, Falathzar's lieutenant, snacks on the pages.
+      flag:
+        - fireball
+        - neg-fireball
+        - no-summon
+      identity:
+        name: Tarphalir
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yorjudek:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yorjudek
+          short: Yorjudek
+          sight: Yorjudek the Third plots his revenge.
+      flag:
+        - fireball
+        - shock
+        - no-summon
+        - no-alias
+      identity:
+        name: Yorjudek
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

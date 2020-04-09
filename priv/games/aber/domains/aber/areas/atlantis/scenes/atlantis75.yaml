@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:atlantis:atlantis74"
     short: The Lost Altar
     sight: >
       You have entered upon a simple altar. Against the far wall of the room is a small block altar that

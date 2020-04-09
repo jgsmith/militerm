@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:blizzard:pass2"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:icecave:g_hall"
     short: Snow Cave
     sight: >
       You are in a glittering ice cave, its floor and walls covered with loose, deep snow. The cavemouth is

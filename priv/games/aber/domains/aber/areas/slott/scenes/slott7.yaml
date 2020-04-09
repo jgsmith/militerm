@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:slott:slott5"
       up:
         target: "scene:aber:slott:slott27"
     short: Southwest tower

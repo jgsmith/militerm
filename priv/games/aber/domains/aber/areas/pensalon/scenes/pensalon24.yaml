@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:pensalon:pensalon23"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon25"
       west:
         target: "scene:aber:pensalon:pensalon36"
     short: Large Cavern

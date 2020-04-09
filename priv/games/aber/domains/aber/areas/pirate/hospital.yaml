@@ -1,0 +1,201 @@
+groups:
+  pirate8:
+    npcs:
+      hook: 1
+      scurge: 1
+locations:
+  pirate0:
+    npcs:
+      scurvy: 1
+  pirate1:
+    npcs:
+      patch: 1
+  pirate11:
+    npcs:
+      redbeard: 1
+  pirate14:
+    npcs:
+      headhunter: 1
+  pirate25:
+    npcs:
+      shark: 1
+  pirate28:
+    npcs:
+      mermaid: 1
+  pirate4:
+    npcs:
+      pegleg: 1
+  pirate6:
+    npcs:
+      gruel: 1
+  pirate8:
+    groups:
+      pirate8: 1
+npcs:
+  gruel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gruel
+          short: Gruel
+          sight: >
+            Gruel the cook is here, looking angry at being disturbed.
+      flag:
+      identity:
+        name: Gruel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  headhunter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - headhunter
+          short: The Headhunter
+          sight: >
+            A headhunter is wandering around, looking for heads.
+      flag:
+      identity:
+        name: The Headhunter
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  hook:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hook
+          short: Hook
+          sight: Hook is here, brandishing his namesake menacingly.
+      flag:
+      identity:
+        name: Hook
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mermaid:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mermaid
+          short: The Mermaid
+          sight: >
+            A lovely mermaid is here, singing a beautiful song.
+      flag:
+        - no-zap
+      identity:
+        name: The Mermaid
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  patch:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - patch
+          short: Patch
+          sight: Patch is here, trying to sight land.
+      flag:
+      identity:
+        name: Patch
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  pegleg:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - pegleg
+          short: Pegleg
+          sight: >
+            Pegleg, the ship's steward, is taking inventory here.
+      flag:
+      identity:
+        name: Pegleg
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redbeard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - redbeard
+          short: Redbeard
+          sight: >
+            Redbeard the cutthroat pirate, scurge of the sea, is here.
+      flag:
+      identity:
+        name: Redbeard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scurge:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scurge
+          short: Scurge
+          sight: Scurge is here, and he looks mean!
+      flag:
+      identity:
+        name: Scurge
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  scurvy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - scurvy
+          short: Scurvy
+          sight: >
+            A sailor with scurvy looks at you preparing to attack.
+      flag:
+      identity:
+        name: Scurvy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shark:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shark
+          short: The Shark
+          sight: A shark circles you warily, preparing to attack.
+      flag:
+      identity:
+        name: The Shark
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

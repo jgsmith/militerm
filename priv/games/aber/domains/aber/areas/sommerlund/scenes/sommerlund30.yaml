@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:sommerlund:sommerlund29"
       west:
         target: "scene:aber:sommerlund:sommerlund31"
     short: Tower Top

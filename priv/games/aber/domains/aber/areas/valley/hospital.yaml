@@ -1,0 +1,111 @@
+groups:
+  send:
+    npcs:
+      chicken: 1
+      mindy: 1
+locations:
+  bank:
+    npcs:
+      deer: 1
+  edge:
+    npcs:
+      fox: 1
+  fedge5:
+    npcs:
+      piper: 1
+  send:
+    groups:
+      send: 1
+npcs:
+  chicken:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chicken
+          short: chicken
+          sight: >
+            Chicken Little is here, with a worried look on his face.
+      flag:
+        - no-magic
+      identity:
+        name: chicken
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  deer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - white-tailed deer
+            - deer
+          short: The White-tailed Deer
+          sight: A majestic white-tailed deer grazes here.
+      flag:
+      identity:
+        name: The White-tailed Deer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fox:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red fox
+            - fox
+          short: The Red Fox
+          sight: A red fox forages for food nearby.
+      flag:
+      identity:
+        name: The Red Fox
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mindy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mindy
+          short: mindy
+          sight: >
+            Mindy, the cute little dog is here wagging her tail happily.
+      flag:
+        - no-hassle
+        - no-zap
+        - no-exorcise
+        - no-magic
+        - no-alias
+        - no-punt
+      identity:
+        name: mindy
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  piper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - piper
+          short: The Piper
+          sight: The Piper stands here.
+      flag:
+        - no-steal
+      identity:
+        name: The Piper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

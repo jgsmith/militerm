@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cathedral:n_aisle2"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cathedral:side2"
       south:
         target: "scene:aber:cathedral:nave2"
     short: North Aisle

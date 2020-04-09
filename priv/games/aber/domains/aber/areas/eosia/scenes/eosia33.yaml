@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:eosia:eosia34"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:eosia:eosia30"
     short: Secret Road
     sight: >
       You have discovered a secret road leading out from Chyrellos. This road was once used by the clergy as

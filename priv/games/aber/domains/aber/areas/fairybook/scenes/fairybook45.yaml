@@ -8,4 +8,4 @@ detail:
       You stand behind the great desk, overlooking the courtroom. It is littered with bodies. An escape hatch
       is hidden here beneath the desk.
 flag:
-  - nomobiles
+  - no-mobiles

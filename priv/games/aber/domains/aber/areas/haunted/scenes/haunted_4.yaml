@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:haunted:haunted_5"
       south:
         target: "scene:aber:haunted:haunted_3"
     short: Porch of the House

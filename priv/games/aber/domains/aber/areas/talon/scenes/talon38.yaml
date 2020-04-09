@@ -11,4 +11,4 @@ detail:
       stairs here leading to the top of the tower. There is a set of stairs here leading to the top of the
       tower.
 flag:
-  - nomobiles
+  - no-mobiles

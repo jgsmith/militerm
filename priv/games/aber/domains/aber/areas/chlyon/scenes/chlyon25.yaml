@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:chlyon:chlyon26"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:chlyon:chlyon17"
     short: Escape Tunel
     sight: >
       You are following a narrow path that descends abruptly along the face of the mountain. Below you,

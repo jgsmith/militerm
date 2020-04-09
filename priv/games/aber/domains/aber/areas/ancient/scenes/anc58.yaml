@@ -13,4 +13,4 @@ detail:
 flag:
   - cold
   - peaceful
-  - nomagic
+  - no-magic

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:eforest:cathedral"
       east:
         target: "scene:aber:eforest:cathedral"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:eforest:thorny"
     short: The Cave Entrance
     sight: >
       You stand at the entrance to what appears to be a vast system of caves. A cool breeze strikes you in the

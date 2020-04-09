@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:ruins:geast9"
       south:
         target: "scene:aber:ruins:geast11"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ruins:spellroom"
     short: Western Corridor
     sight: >
       You are in the western corridor of a large catacomb. Old torn banners hang from the eastern wall and

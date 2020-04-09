@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:cathedral:lowhall"
       north:
         target: "scene:aber:cathedral:vaulhall"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:cathedral:crossbay"
     short: Vaulted Chamber
     sight: >
       The ceiling here is of crude concrete vaulting, with no decorative aspect. The hall branches off to the

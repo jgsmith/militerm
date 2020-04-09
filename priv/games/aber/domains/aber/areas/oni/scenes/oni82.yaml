@@ -13,4 +13,4 @@ detail:
       barracks, something you probably want to avoid. Down some stairs to the east is the prison section. To
       the south is the courtyard.
 flag:
-  - cantsummon
+  - cant-summon

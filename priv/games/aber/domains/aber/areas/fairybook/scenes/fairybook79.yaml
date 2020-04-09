@@ -10,4 +10,4 @@ detail:
       with the letter 'A' in various places: on banners, flags, paintings - even carved into the floor. The
       exit is to the south.
 flag:
-  - nomobiles
+  - no-mobiles

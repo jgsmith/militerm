@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:graye:graye5543"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:graye:graye5556"
     short: "Relnar's Cell"
     sight: >
       You stumble into a tiny cell, lit by a single candle. A portal seems to have been opened up for you on

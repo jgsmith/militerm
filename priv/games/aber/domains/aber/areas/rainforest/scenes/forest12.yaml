@@ -12,4 +12,4 @@ detail:
       down and begins to crawl eastward at a far more leisurely pace.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -12,4 +12,4 @@ detail:
       be the source of the restoring air, leading back to the west, far underground.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

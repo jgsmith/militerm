@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:frobozz:luncheon"
       south:
         target: "scene:aber:frobozz:by"
     short: Side Entrance

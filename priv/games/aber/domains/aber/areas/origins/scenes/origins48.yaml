@@ -11,7 +11,7 @@ detail:
       fly without effort. You have never seen such wonder. You are still too far outside the Spaceport to see
       any more detail. You may return north to Megadon or enter the Spaceport to the south.
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

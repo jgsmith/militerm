@@ -8,4 +8,4 @@ detail:
       The sand is too loose, too unstable to allow you to climb and you slide back toward the sea of sand.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

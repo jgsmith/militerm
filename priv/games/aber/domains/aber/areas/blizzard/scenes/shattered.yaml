@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:blizzard:narrow"
       west:
         target: "scene:aber:blizzard:landing"
     short: Shattered Hall

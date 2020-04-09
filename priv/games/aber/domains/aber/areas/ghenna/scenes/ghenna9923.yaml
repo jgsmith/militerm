@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9922"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9943"
     short: The bathroom.
     sight: >
       Boy, the smell of feces here is awful!! There is a hole in the floor which serves as the toilet - pretty

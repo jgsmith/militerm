@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:dragonslueth:ds32"
       up:
         target: "scene:aber:dragonslueth:ds26"
       west:

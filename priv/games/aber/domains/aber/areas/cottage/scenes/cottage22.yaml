@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:cottage:cottage18"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:cottage:cottage21"
       west:
         target: "scene:aber:cottage:cottage23"
     short: Resevoir Bottom
@@ -14,4 +16,4 @@ detail:
       narrow stair. There are some ancient runes here that catch your eye.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ancient:anc38"
       up:
         target: "scene:aber:ancient:anc32"
       west:
@@ -11,4 +13,4 @@ detail:
       You are standing in front of a large green opening. The sun casts it last faint rays to the side of the
       sun pyramid. It gives an impression of a snake climbing down from the top of the pyramid
 flag:
-  - outdoors
+  - out-doors

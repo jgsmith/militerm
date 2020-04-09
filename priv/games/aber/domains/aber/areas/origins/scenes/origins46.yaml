@@ -12,7 +12,7 @@ flag:
   - peaceful
   - party
   - private
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

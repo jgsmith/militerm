@@ -11,4 +11,4 @@ detail:
       small light appears in the room south of you and curious flapping sounds can be heard from the west.
 flag:
   - dark
-  - nosummon
+  - no-summon

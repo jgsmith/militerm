@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:sundhaven:sundhaven6613"
       north:
         target: "scene:aber:sundhaven:sundhaven6615"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6665"
     short: At a swinging wooden gate
     sight: >
       You pass through a creaking gate of weathered wood, swinging idly in the wind. To the west rise the

@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:castle:torture"
       north:
         target: "scene:aber:castle:sanctum"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:castle:escape"
       west:
         target: "scene:aber:castle:kitchens"
     short: "King's Chamber"

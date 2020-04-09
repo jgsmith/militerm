@@ -21,7 +21,7 @@ detail:
       pentagram inscribed within a circle, all in red. The topmost point of the pentagram points directly to
       the central throne.
 flag:
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

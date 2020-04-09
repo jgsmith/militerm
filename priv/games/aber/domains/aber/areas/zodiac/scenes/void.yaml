@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:start:temple"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:zodiac:library"
     short: The Void
     sight: >
       You stand in the void, which is an infinitely large room. There is almost nothing here.

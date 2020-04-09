@@ -12,4 +12,4 @@ detail:
       scrolls he made. Looking at the shelves, you can see some scrolls for sale. There's a sign on the wall
       that says 'No Spell-Casting Allowed'.
 flag:
-  - nomagic
+  - no-magic

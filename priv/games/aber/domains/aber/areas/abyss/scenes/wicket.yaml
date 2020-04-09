@@ -14,4 +14,4 @@ detail:
       tunnel. You could also climb up a single strand of webbing that hangs down directly over the tunnel. Or
       you could cross the bridge back to the south.
 flag:
-  - nosummon
+  - no-summon

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas49"
     short: Empty Cell
     sight: >
       The wood on the inside of this door has been scratched to a smooth finish long ago. The ensuing years

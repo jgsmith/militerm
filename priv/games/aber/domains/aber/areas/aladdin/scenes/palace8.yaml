@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:aladdin:palace7"
+      west:
+        guarded: true
+        target: "scene:aber:aladdin:palace9"
     short: "Iago's Room"
     sight: >
       This room is filled with various perches, parrot toys, and gold coins. Pictures of various birds line

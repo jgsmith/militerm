@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      south: null
+      down:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter34"
+      south:
+        guarded: true
+        target: "scene:aber:enchanter:enchanter34"
     short: Map Room
     sight: >
       This room was once a library, but Krill's ransacked it. Now, there's nothing left here but a large

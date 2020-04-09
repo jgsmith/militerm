@@ -9,5 +9,5 @@ detail:
       advance towards him, he begins mumbling the words to some ancient, terrible spell.
 flag:
   - dark
-  - nosummon
-  - noquit
+  - no-summon
+  - no-quit

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:cathedral:lowhall"
     short: "&+MAstasia's BedChamber"
     sight: >
       As you enter the room, you marvel at the huge posterbed before you. The room has a rather ethereal

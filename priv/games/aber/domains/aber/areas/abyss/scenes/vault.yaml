@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:l664"
       west:
         target: "scene:aber:abyss:pillars1"
     short: "Demon's Vault"

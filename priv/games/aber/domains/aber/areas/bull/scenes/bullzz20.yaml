@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:bull:bullzz21"
       south:
         target: "scene:aber:bull:bullzz22"
     short: "The Bull's Chamber"

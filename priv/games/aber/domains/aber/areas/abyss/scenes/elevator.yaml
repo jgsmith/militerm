@@ -1,10 +1,12 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:abyss:hall"
     short: The Elevator
     sight: >
       You are in a small enclosure without features save a large red button. You hear Van Morrison singing in
       the background.
 flag:
-  - oneperson
+  - one-person

@@ -16,4 +16,4 @@ detail:
       a good place to start.
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles

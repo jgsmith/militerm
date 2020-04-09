@@ -13,7 +13,7 @@ detail:
       exactly parallel, a feat you know to be otherwise impossible in nature), and perhaps five feet above
       your head.
 flag:
-  - cantsummon
-  - noquit
+  - cant-summon
+  - no-quit
   - soundproof
-  - nosummon
+  - no-summon

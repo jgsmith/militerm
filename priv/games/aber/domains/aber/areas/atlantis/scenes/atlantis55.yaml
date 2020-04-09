@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:atlantis:atlantis54"
     short: "Hermit's Home"
     sight: >
       You enter a home that is jammed with everything imaginable. There are bits of seashell, jade pottery, a
@@ -13,4 +15,4 @@ detail:
       the floor, pinned down by four huge rocks at the corners. It's a cozy little home, albiet somewhat
       cluttered.
 flag:
-  - underwater
+  - under-water

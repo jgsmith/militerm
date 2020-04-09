@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:nwbeaches:beachqq26"
     short: Cell
     sight: >
       This bleak cell hosts only an uncomfortable looking cot and small hole in one corner for necessary

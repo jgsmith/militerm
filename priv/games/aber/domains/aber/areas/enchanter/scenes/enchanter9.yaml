@@ -1,7 +1,7 @@
 detail:
   default:
     exits:
-      :
+      southeast:
         target: "scene:aber:enchanter:enchanter8"
     short: End of the Trail
     sight: >
@@ -10,4 +10,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

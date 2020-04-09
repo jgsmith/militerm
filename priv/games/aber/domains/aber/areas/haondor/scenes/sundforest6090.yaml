@@ -14,5 +14,5 @@ detail:
       the road ends at the head of a narrow trail into a large forest. To the north lies the yard of a large
       house.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

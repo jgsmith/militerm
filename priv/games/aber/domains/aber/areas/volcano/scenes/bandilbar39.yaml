@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:volcano:bandilbar38"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:volcano:bandilbar40"
     short: Pivotal Chamber
     sight: >
       You are in a wide chamber, carved into an almost perfect sphere. It is very warm here, and you can hear
@@ -11,4 +13,4 @@ detail:
       with empty storage jars, each smelling vaguely of honey. You can hear faint voices coming from beyond
       the north wall.
 flag:
-  - nomobiles
+  - no-mobiles

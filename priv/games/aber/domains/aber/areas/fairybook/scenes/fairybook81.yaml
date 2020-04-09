@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:fairytale:fairytale99"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook82"
     short: The Room
     sight: >
       You stand in a bedroom. The door to the east leads to a library. A window is to the east. Three empty

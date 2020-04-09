@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:atlantis:atlantis19"
     short: Shell Pile
     sight: >
       You have never seen so many shells in your entire life. It seems this is where the denizens of Atlantis
@@ -11,4 +13,4 @@ detail:
       Scattered around the pile are smaller versions of that shell along with discarded oyster, clam and crab
       shells. This would be quite the treasure if you could bring them all back with you.
 flag:
-  - underwater
+  - under-water

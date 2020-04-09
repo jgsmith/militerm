@@ -9,7 +9,7 @@ detail:
       it fills again or you could just hang here for the rest of your mortal life. Well?.. get going.
 flag:
   - dark
-  - oneperson
+  - one-person
   - soundproof
-  - nomobiles
-  - nosummon
+  - no-mobiles
+  - no-summon

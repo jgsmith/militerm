@@ -28,6 +28,33 @@ defmodule Militerm.Systems.Entity do
   defdelegate get_context(entity_id), to: Controller
   defdelegate set_context(entity_id, context), to: Controller
 
+  defscript create(archetype), for: %{"this" => this} = _objects do
+    do_create(this, archetype)
+  end
+
+  defscript create(archetype, data), for: %{"this" => this} = _objects do
+    do_create(this, archetype, data)
+  end
+
+  def do_create(target, archetype, data \\ %{}) do
+    entity_id = "#{archetype}##{UUID.uuid4()}"
+    entity = {:thing, entity_id}
+
+    Militerm.Entities.Thing.create(entity_id, archetype, data)
+    Militerm.Systems.Location.place(entity, {"in", target})
+    Militerm.Systems.Events.trigger(entity_id, "object:created", %{"this" => entity})
+    entity
+  end
+
+  defscript destroy(), for: %{"this" => {:thing, entity_id} = entity} = _objects do
+    # actually destroy the entity
+    Militerm.Entities.Thing.delete_entity(entity_id)
+  end
+
+  defscript destroy({:thing, entity_id} = entity) do
+    Militerm.Systems.Events.trigger(entity_id, "object:destroy", %{"this" => entity})
+  end
+
   def register_interface(entity_id, module) do
     case whereis(entity_id) do
       {:ok, pid} ->
@@ -143,6 +170,8 @@ defmodule Militerm.Systems.Entity do
         :ok
     end
   end
+
+  def whereis({:thing, entity_id, _}), do: whereis({:thing, entity_id})
 
   def whereis({:thing, entity_id}) do
     # we want to find the module for the entity_id that we'll use to run events, etc.

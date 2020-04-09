@@ -13,7 +13,7 @@ defmodule Militerm.Systems.Events do
     {prep, loc} = Militerm.Services.Location.where({:thing, entity_id})
     observers = Militerm.Services.Location.find_in(loc)
 
-    args = Map.put(args, :trigger, entity_id)
+    args = Map.put(args, "trigger", entity_id)
     observed = {:thing, entity_id}
     Militerm.Systems.Entity.event(observed, event, "observed", args)
 
@@ -32,6 +32,8 @@ defmodule Militerm.Systems.Events do
     {prep, loc_id, coord} = loc = Militerm.Components.Location.where(entity_id)
     observers = Militerm.Components.Location.find_in(loc_id)
     used_slots = MML.used_slots(binding)
+
+    used_slots = if "actor" in used_slots, do: used_slots, else: ["this" | used_slots]
 
     # now go through each used slot and send the right message... and send to any observers
     # at the end who haven't seen the message yet

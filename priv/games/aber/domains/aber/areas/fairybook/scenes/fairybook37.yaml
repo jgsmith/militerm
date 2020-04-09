@@ -11,4 +11,4 @@ detail:
       is padded. In random places around the room, someone has left hats lying around. Below you is a large
       room.
 flag:
-  - nomobiles
+  - no-mobiles

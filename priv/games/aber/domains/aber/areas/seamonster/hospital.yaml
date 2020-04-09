@@ -1,0 +1,48 @@
+groups:
+locations:
+  smon20:
+    npcs:
+      seamonster: 1
+  smon21:
+    npcs:
+      boatsman: 1
+npcs:
+  boatsman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boatsman
+          short: Boatsman
+          sight: >
+            As the village people heard the last scream of the seamonster, they sent a brave man to look for
+            the possibly alive hero who slaughtered it.
+      flag:
+        - no-hassle
+      identity:
+        name: Boatsman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seamonster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seamonster
+          short: Seamonster
+          sight: The huge seamonster is sleeping here.
+      flag:
+        - imm-shock
+        - imm-fireball
+        - imm-frost
+        - imm-missile
+      identity:
+        name: Seamonster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

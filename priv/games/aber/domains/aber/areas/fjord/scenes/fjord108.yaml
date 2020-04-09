@@ -20,5 +20,5 @@ detail:
       for the ocean forces to move.
 flag:
   - outdoors
-  - onwater
+  - on-water
   - cold

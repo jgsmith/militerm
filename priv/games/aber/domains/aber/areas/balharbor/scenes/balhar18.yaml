@@ -15,4 +15,4 @@ detail:
       clean up the criminal infested streets and restore peace to the city.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

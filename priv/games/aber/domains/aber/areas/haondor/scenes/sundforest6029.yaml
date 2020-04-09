@@ -11,6 +11,6 @@ detail:
       the forest in an unreal twilight illumination. This rough clearing is dominated by a very large &+yoak&*
       tree, probably the largest in this part of the forest. The path leads back to the north.
 flag:
-  - nomobiles
+  - no-mobiles
   - real
   - outdoors

@@ -10,4 +10,4 @@ detail:
       The building before you is marked, quite clearly, "Court House." Headless bodies have been randomly
       scattered around the entrance. Inside, to the east, is the court room. To the west is the croquet field.
 flag:
-  - nomobiles
+  - no-mobiles

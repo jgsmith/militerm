@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:abyss:l664"
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:abyss:slimy"
       up:
         target: "scene:aber:abyss:l662"
     short: Level 663

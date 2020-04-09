@@ -12,6 +12,6 @@ detail:
       inside the devastated tree. The trail leads to the beach to the west and comes to and end to the south.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

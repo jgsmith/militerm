@@ -1,0 +1,165 @@
+groups:
+locations:
+  2:
+    npcs:
+      wolf: 1
+  crack:
+    npcs:
+      lavaman: 1
+  flaming:
+    npcs:
+      beast: 1
+  guard:
+    npcs:
+      efreet: 1
+  hall:
+    npcs:
+      flame: 1
+  king:
+    npcs:
+      djinni: 1
+  top:
+    npcs:
+      guard: 1
+npcs:
+  beast:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beast
+          short: The Beast
+          sight: >
+            A huge, fiery beast stands before you, 12 feet tall and rippling with muscle.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - fear-frost
+        - fear-ice-storm
+        - no-summon
+      identity:
+        name: The Beast
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  djinni:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - djinni
+          short: The Djinni
+          sight: >
+            A huge djinni glares at you and flexes his muscles.
+      flag:
+        - no-summon
+      identity:
+        name: The Djinni
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  efreet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - efreet
+          short: The Efreet
+          sight: A huge, flaming efreet glares ferociously at you.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - fear-frost
+        - fear-ice-storm
+        - no-summon
+      identity:
+        name: The Efreet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flame:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flame
+          short: The Flame
+          sight: >
+            A giant, flickering and glowing flame dances before you in an incandescent haze of heat. It seems
+            almost alive.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - fear-frost
+        - fear-ice-storm
+        - no-summon
+      identity:
+        name: The Flame
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guard:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guard
+          short: The Guard
+          sight: >
+            A strange looking guard of some sort watches you cautiously.
+      flag:
+        - no-summon
+      identity:
+        name: The Guard
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lavaman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lavaman
+          short: The Lavaman
+          sight: A lavaman snarls harshly as he sees you.
+      flag:
+        - neg-fireball
+        - neg-b-hands
+        - fear-ice-storm
+        - fear-frost
+        - no-summon
+      identity:
+        name: The Lavaman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolf:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolf
+          short: The Wolf
+          sight: >
+            A huge slavering dust wolf stalks you, ready to pounce at any moment.
+      flag:
+        - no-summon
+      identity:
+        name: The Wolf
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

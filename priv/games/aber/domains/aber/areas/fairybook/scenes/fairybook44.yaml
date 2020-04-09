@@ -15,4 +15,4 @@ detail:
       creatures are merely ghosts of those you have killed. A great desk looms above you, behind which sits
       the Judge.
 flag:
-  - nomobiles
+  - no-mobiles

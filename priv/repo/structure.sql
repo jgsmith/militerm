@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.2
--- Dumped by pg_dump version 12.2
+-- Dumped from database version 11.2
+-- Dumped by pg_dump version 11.2
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -12,13 +12,12 @@ SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
-SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
 SET default_tablespace = '';
 
-SET default_table_access_method = heap;
+SET default_with_oids = false;
 
 --
 -- Name: characters; Type: TABLE; Schema: public; Owner: -
@@ -154,6 +153,38 @@ CREATE SEQUENCE public.core_scenes_id_seq
 --
 
 ALTER SEQUENCE public.core_scenes_id_seq OWNED BY public.core_scenes.id;
+
+
+--
+-- Name: counters; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.counters (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: counters_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.counters_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: counters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.counters_id_seq OWNED BY public.counters.id;
 
 
 --
@@ -323,6 +354,38 @@ ALTER SEQUENCE public.locations_id_seq OWNED BY public.locations.id;
 
 
 --
+-- Name: resources; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.resources (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: resources_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.resources_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: resources_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.resources_id_seq OWNED BY public.resources.id;
+
+
+--
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -330,6 +393,70 @@ CREATE TABLE public.schema_migrations (
     version bigint NOT NULL,
     inserted_at timestamp(0) without time zone
 );
+
+
+--
+-- Name: skills; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.skills (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: skills_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.skills_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: skills_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.skills_id_seq OWNED BY public.skills.id;
+
+
+--
+-- Name: stats; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.stats (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: stats_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.stats_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: stats_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.stats_id_seq OWNED BY public.stats.id;
 
 
 --
@@ -459,6 +586,13 @@ ALTER TABLE ONLY public.core_scenes ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: counters id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.counters ALTER COLUMN id SET DEFAULT nextval('public.counters_id_seq'::regclass);
+
+
+--
 -- Name: details id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -491,6 +625,27 @@ ALTER TABLE ONLY public.identities ALTER COLUMN id SET DEFAULT nextval('public.i
 --
 
 ALTER TABLE ONLY public.locations ALTER COLUMN id SET DEFAULT nextval('public.locations_id_seq'::regclass);
+
+
+--
+-- Name: resources id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.resources ALTER COLUMN id SET DEFAULT nextval('public.resources_id_seq'::regclass);
+
+
+--
+-- Name: skills id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.skills ALTER COLUMN id SET DEFAULT nextval('public.skills_id_seq'::regclass);
+
+
+--
+-- Name: stats id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.stats ALTER COLUMN id SET DEFAULT nextval('public.stats_id_seq'::regclass);
 
 
 --
@@ -547,6 +702,14 @@ ALTER TABLE ONLY public.core_scenes
 
 
 --
+-- Name: counters counters_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.counters
+    ADD CONSTRAINT counters_pkey PRIMARY KEY (id);
+
+
+--
 -- Name: details details_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -587,11 +750,35 @@ ALTER TABLE ONLY public.locations
 
 
 --
+-- Name: resources resources_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.resources
+    ADD CONSTRAINT resources_pkey PRIMARY KEY (id);
+
+
+--
 -- Name: schema_migrations schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public.schema_migrations
     ADD CONSTRAINT schema_migrations_pkey PRIMARY KEY (version);
+
+
+--
+-- Name: skills skills_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.skills
+    ADD CONSTRAINT skills_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: stats stats_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.stats
+    ADD CONSTRAINT stats_pkey PRIMARY KEY (id);
 
 
 --
@@ -682,6 +869,13 @@ CREATE UNIQUE INDEX core_scenes_area_id_plug_index ON public.core_scenes USING b
 
 
 --
+-- Name: counters_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX counters_entity_id_index ON public.counters USING btree (entity_id);
+
+
+--
 -- Name: details_entity_id_index; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -721,6 +915,27 @@ CREATE UNIQUE INDEX locations_entity_id_index ON public.locations USING btree (e
 --
 
 CREATE INDEX locations_target_id_index ON public.locations USING btree (target_id);
+
+
+--
+-- Name: resources_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX resources_entity_id_index ON public.resources USING btree (entity_id);
+
+
+--
+-- Name: skills_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX skills_entity_id_index ON public.skills USING btree (entity_id);
+
+
+--
+-- Name: stats_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX stats_entity_id_index ON public.stats USING btree (entity_id);
 
 
 --
@@ -779,5 +994,5 @@ ALTER TABLE ONLY public.core_scenes
 -- PostgreSQL database dump complete
 --
 
-INSERT INTO public."schema_migrations" (version) VALUES (20200105205630), (20200105205808), (20200106003951), (20200106133028), (20200107005156), (20200115125732), (20200115125928), (20200119003816), (20200204173613), (20200209201958), (20200209203051), (20200306184600);
+INSERT INTO public."schema_migrations" (version) VALUES (20200105205630), (20200105205808), (20200106003951), (20200106133028), (20200107005156), (20200115125732), (20200115125928), (20200119003816), (20200204173613), (20200209201958), (20200209203051), (20200306184600), (20200401210958), (20200401211401), (20200401211408), (20200401211417);
 

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sdesert:desertsd65"
     short: Inside A Small Stone Dwelling
     sight: >
       It is very dark in here, and you shiver despite the heat of the desert outside. A circle of stones lies
@@ -10,4 +12,4 @@ detail:
 flag:
   - dark
   - cold
-  - fastmana
+  - fast-mana

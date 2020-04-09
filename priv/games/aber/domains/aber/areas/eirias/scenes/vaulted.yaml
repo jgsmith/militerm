@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:eirias:staircase"
     short: Vaulted Hall
     sight: >
       You are in a high vaulted hall, whose white walls are hung with rich tapestries and brilliant paintings.

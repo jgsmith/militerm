@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere45"
     short: Treasure Storeroom
     sight: >
       This must be where the orcs store all their loot - The room is filled with &+ychests&* in various states

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northwest:
+        target: "scene:aber:enchanter:enchanter4"
+      southeast:
         target: "scene:aber:enchanter:enchanter16"
     short: Hairpin Turn
     sight: >
@@ -10,4 +12,4 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real

@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:cathedral:cryptent"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:cathedral:library"
     short: "The &+rVampire's &+gBedchamber"
     sight: >
       As you step in, you nearly trip, as the floor is not too solid. You notice that the floor here is one

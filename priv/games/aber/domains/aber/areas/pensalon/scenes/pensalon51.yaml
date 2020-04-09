@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      east: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon52"
+      west:
+        guarded: true
+        target: "scene:aber:pensalon:pensalon38"
     short: Secret Passage
     sight: >
       You enter a low dark tunnel that is covered with many cobwebs, and the dust is very thick on the floor.

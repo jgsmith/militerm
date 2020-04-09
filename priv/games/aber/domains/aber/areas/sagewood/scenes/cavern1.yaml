@@ -1,12 +1,16 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:sagewood:alcove"
       north:
         target: "scene:aber:sagewood:sagewood1"
       south:
         target: "scene:aber:sagewood:cavern2"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sagewood:jharn"
     short: Entrace To Ominous Cavern
     sight: >
       This gigantic hall appears to only lead &+CNorth&* and &+CSouth&*. Waves of blinding heat eminate from

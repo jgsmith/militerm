@@ -12,5 +12,5 @@ detail:
       surface of the water.
 flag:
   - light
-  - nomobiles
+  - no-mobiles
   - outdoors

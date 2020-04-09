@@ -13,4 +13,4 @@ detail:
       north.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

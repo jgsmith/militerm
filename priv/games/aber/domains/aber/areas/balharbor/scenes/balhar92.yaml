@@ -14,5 +14,5 @@ detail:
       Avoiding getting lost can be achieved by returning to the west, although you think you see more people
       than trees...what's that all about?
 flag:
-  - tempreal
-  - nomobiles
+  - temp-real
+  - no-mobiles

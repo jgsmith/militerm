@@ -11,4 +11,4 @@ detail:
       must cover the entire area around the cave.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

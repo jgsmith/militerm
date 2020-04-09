@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:ruins:northhall5"
     short: A Small Room
     sight: >
       This is a small room that resembles a sitting room. A few decaying chairs are scattered around the room
@@ -10,4 +12,4 @@ detail:
       here.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

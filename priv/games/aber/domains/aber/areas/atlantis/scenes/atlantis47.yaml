@@ -13,5 +13,5 @@ detail:
       guarantee--no customer waits longer than their natural life.' An opening in the building leads back out
       west onto Main Street.
 flag:
-  - underwater
-  - nomobiles
+  - under-water
+  - no-mobiles

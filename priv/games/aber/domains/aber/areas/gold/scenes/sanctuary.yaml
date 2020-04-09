@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:gold:passage1"
       up:
         target: "scene:aber:gold:altar"
       west:

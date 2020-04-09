@@ -1,4 +1,11 @@
 ---
+resource:
+  health: 100
+  stamina: 100
+  mana: 100
+counter:
+  experience: 0
+  level: 1
 ---
 based on std:thing
 

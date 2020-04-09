@@ -1,0 +1,328 @@
+groups:
+locations:
+  limbo@limbo:
+    npcs:
+      vampire: 1
+  nibellearn:
+    npcs:
+      teacher: 1
+  nibelung13:
+    npcs:
+      nimbus: 1
+  nibelung28:
+    npcs:
+      boatman: 1
+  nibelung29:
+    npcs:
+      gatekeeper: 1
+  nibelung32:
+    npcs:
+      bratty: 1
+  nibelung35:
+    npcs:
+      bully: 1
+  nibelung41:
+    npcs:
+      racoon: 1
+  nibelung45:
+    npcs:
+      protector: 1
+  nibelung55:
+    npcs:
+      wolfgang: 1
+  nibelung60:
+    npcs:
+      gunther: 1
+  nibelung78:
+    npcs:
+      bookwyrm: 1
+  nibelung80:
+    npcs:
+      stefan: 1
+  nibelung84:
+    npcs:
+      kenin: 1
+  nibelung87:
+    npcs:
+      faffner: 1
+  nibelung97:
+    npcs:
+      maitred: 1
+npcs:
+  boatman:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - boatman
+          short: The Boatman
+          sight: >
+            A haggard looking boatman is here with a wild look in his eyes.
+      flag:
+      identity:
+        name: The Boatman
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bookwyrm:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bookwyrm
+          short: Bookwyrm
+          sight: A bookwyrm is here, looking for some books to eat.
+      flag:
+      identity:
+        name: Bookwyrm
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bratty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bratty
+          short: Bratty
+          sight: >
+            A girl is here with bright red hair in pony tails. She has really thick glasses on, and is
+            polishing an apple.
+      flag:
+      identity:
+        name: Bratty
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  bully:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bully
+          short: Bully
+          sight: >
+            A burly kid is here, who looks like he should be finished with school. You wish he were finished
+            with life in general.
+      flag:
+      identity:
+        name: Bully
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  faffner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - faffner
+          short: Faffner
+          sight: >
+            Faffner the Dracolich contemplates how to kill you.
+      flag:
+        - fireball
+        - frost
+        - missile
+        - shock
+      identity:
+        name: Faffner
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  gatekeeper:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gatekeeper
+          short: The Gatekeeper
+          sight: >
+            A large man stands before you in some sort of uniform. A ring with many keys is hanging from his
+            belt.
+      flag:
+      identity:
+        name: The Gatekeeper
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gunther:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gunther
+          short: Gunther
+          sight: Gunther the Nibelung wanders about aimlessly.
+      flag:
+      identity:
+        name: Gunther
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kenin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kenin
+          short: Kenin
+          sight: Kenin the Nibelung searches for his jailors.
+      flag:
+      identity:
+        name: Kenin
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  maitred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - maitred
+          short: MaitreD
+          sight: >
+            The Maitre D' stares down her nose at you condecendingly.
+      flag:
+      identity:
+        name: MaitreD
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  nimbus:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - nimbus
+          short: Nimbus
+          sight: A Nimbus hovers above you.
+      flag:
+      identity:
+        name: Nimbus
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  protector:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - protector
+          short: Protector
+          sight: The Protector is here guarding his lands.
+      flag:
+      identity:
+        name: Protector
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  racoon:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - racoon
+          short: Racoon
+          sight: >
+            There is a small brown racoon here, foaming about the mouth as it searches for some garbage to dig
+            through.
+      flag:
+      identity:
+        name: Racoon
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stefan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stefan
+          short: Stefan
+          sight: Stefan the Nibelung roams about, pondering life.
+      flag:
+      identity:
+        name: Stefan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  teacher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - laessa
+            - teacher
+          short: Laessa
+          sight: >
+            The young womans &+Ggreen&* eyed stare penetrates you, and seems to inquire what it is you are
+            here for?
+      flag:
+      identity:
+        name: Laessa
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  vampire:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vampire
+          short: Vampire
+          sight: >
+            A man stands before you with dark brown hair, wearing a cape. He has unusually large, sharp teeth
+            and a fixating gaze.
+      flag:
+      identity:
+        name: Vampire
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  wolfgang:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - wolfgang
+          short: Wolfgang
+          sight: >
+            Wolfgang the Guard is marching about, keeping watch over the castle.
+      flag:
+      identity:
+        name: Wolfgang
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

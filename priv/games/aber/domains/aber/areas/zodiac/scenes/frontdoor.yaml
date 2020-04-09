@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:zodiac:library"
     short: The Front Door
     sight: >
       You're standing at the entrance of large mansion. You find it odd that there is no possible exit other

@@ -13,4 +13,4 @@ detail:
       west is the village's main street.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

@@ -16,4 +16,4 @@ detail:
       water.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

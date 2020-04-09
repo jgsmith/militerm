@@ -1,12 +1,16 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6743"
       east:
         target: "scene:aber:sundhaven:sundhaven6742"
       north:
         target: "scene:aber:sundhaven:sundhaven6744"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:sundhaven:sundhaven6740"
     short: A hall in the Assassins Guild
     sight: >
       You stand in a wide, dark hallway of the Assassins Guild. On the ceiling spreads a gigantic mural of the

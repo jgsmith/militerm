@@ -14,5 +14,5 @@ detail:
       portal.
 flag:
   - dark
-  - nomagic
-  - nosummon
+  - no-magic
+  - no-summon

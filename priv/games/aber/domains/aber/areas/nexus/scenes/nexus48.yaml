@@ -12,6 +12,6 @@ detail:
       the rest of the plateau, where the weather continually gnaws away at the nutrients in the soil.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

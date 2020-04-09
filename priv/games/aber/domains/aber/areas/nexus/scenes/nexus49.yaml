@@ -12,6 +12,6 @@ detail:
       except for small pieces of driftwood.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon

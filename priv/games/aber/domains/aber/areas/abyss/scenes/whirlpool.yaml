@@ -6,5 +6,5 @@ detail:
       The river is moving very fast now and begins to spin in a circle, sucking you down. You are soon
       drowning in snot...
 flag:
-  - nomobiles
+  - no-mobiles
   - death

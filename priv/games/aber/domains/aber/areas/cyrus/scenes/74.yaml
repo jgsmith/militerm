@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:cyrus:73"
     short: In the basement
     sight: >
       You are now in a a dark, smelly basement. The floor is made of smooth earth. A corner of the basement

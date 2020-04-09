@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:frobozz:behind"
       south:
         target: "scene:aber:frobozz:tellers"
     short: Chairmans Office

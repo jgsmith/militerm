@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:village:chamber"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:village:cellar"
     short: Passage End
     sight: >
       The passage here ends with a blank stone wall, possibly foundations to a building. Above you is a set of

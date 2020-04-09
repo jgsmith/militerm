@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:nibelung:nibelung62"
       north:
         target: "scene:aber:nibelung:nibelung66"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:nibelung:nibelung68"
       west:
         target: "scene:aber:nibelung:nibelung78"
     short: Anteroom

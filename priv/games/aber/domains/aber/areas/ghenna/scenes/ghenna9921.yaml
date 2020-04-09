@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ghenna:ghenna9918"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9922"
     short: An upstairs hallway.
     sight: >
       You are standing in an upstairs hallway in Blood Tavern. A door lies South, while to the East is the top

@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:slott:slott40"
       north:
         target: "scene:aber:slott:slott15"
     short: Family Sanctuary

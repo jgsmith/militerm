@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:frobozz:kitchen"
       north:
         target: "scene:aber:frobozz:housen"
       south:

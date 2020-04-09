@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:nrose:aedificium"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:nrose:dampstair"
     short: Scriptorium
     sight: >
       You have entered the monastery scriptorium. Along one side of the room are a set of stained-glass

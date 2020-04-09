@@ -17,4 +17,4 @@ detail:
       you back to the crossroads.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

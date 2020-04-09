@@ -13,4 +13,4 @@ detail:
       smell of methane fumes begins to increase. Footprints go right into a side tunnel going east.
 flag:
   - dark
-  - noregen
+  - no-regen

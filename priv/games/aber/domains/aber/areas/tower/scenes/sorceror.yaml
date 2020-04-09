@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:tower:ledge"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:tower:treasure"
       west:
         target: "scene:aber:tower:ante"
     short: "Sorceror's Room"

@@ -12,7 +12,7 @@ detail:
       resulting crater. It is now filled to the brim and maintained as a sort of bay.
 flag:
   - soundproof
-  - oneperson
-  - noat
-  - cantsummon
+  - one-person
+  - no-at
+  - cant-summon
   - dark

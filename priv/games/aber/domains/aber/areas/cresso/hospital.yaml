@@ -1,0 +1,74 @@
+groups:
+  closet1:
+    npcs:
+      charlie: 1
+      guardian: 1
+locations:
+  closet1:
+    groups:
+      closet1: 1
+  cresso1:
+    npcs:
+      cathy: 1
+npcs:
+  cathy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cathy
+          short: Cathy
+          sight: >
+            The big cat, &+RCathy&*, is here looking if you have some food on you.
+      flag:
+        - nopunt
+        - nozap
+        - noexorcise
+        - noalias
+        - nosummon
+        - nosteal
+        - noforce
+        - noburn
+        - nosic
+      identity:
+        name: Cathy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  charlie:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - charlie the hamster
+            - charlie
+          short: Charlie the Hamster
+          sight: >
+            A small brown hamster with a white spot on its left ear runs on his wheel here.
+      flag:
+      identity:
+        name: Charlie the Hamster
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian
+          short: The Guardian
+          sight: >
+            A large, hulking figure prevents you from entering Cresso's Bedroom.
+      flag:
+      identity:
+        name: The Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

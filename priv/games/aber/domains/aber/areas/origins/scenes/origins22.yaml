@@ -19,6 +19,6 @@ detail:
 flag:
   - outdoors
   - soundproof
-  - nomobiles
-  - negregen
+  - no-mobiles
+  - neg-regen
   - soundproof

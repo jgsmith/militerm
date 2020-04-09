@@ -18,5 +18,5 @@ detail:
       in all directions.
 flag:
   - outdoors
-  - rainforest
-  - nomobiles
+  - rain-forest
+  - no-mobiles

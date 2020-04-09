@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:frobozz:blocked"
       north:
         target: "scene:aber:frobozz:by"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:frobozz:top"
     short: Passageway
     sight: >
       You are in a wide and highvaulted passageway which comes in from the north and branches off into an

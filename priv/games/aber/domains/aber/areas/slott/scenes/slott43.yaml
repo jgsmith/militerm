@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:slott:slott44"
       west:
         target: "scene:aber:slott:slott42"
     short: Here be evil...

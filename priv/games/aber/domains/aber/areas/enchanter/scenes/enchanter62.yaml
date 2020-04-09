@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      :
+      northeast:
+        target: "scene:aber:enchanter:enchanter63"
+      southwest:
         target: "scene:aber:enchanter:enchanter61"
       west:
         target: "scene:aber:enchanter:enchanter60"

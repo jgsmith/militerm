@@ -1,8 +1,12 @@
 detail:
   default:
     exits:
-      down: null
-      south: null
+      down:
+        guarded: true
+        target: "scene:aber:cyrus:74"
+      south:
+        guarded: true
+        target: "scene:aber:cyrus:72"
     short: Inside the house
     sight: >
       You are standing inside the small house. You are surprised that someone is actually living in there. The

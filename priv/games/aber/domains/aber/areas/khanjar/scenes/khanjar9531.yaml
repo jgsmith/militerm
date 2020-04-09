@@ -10,5 +10,5 @@ detail:
       The forest appears thicker now. Massive trees tower around, making you feel yourself tiny and pitiful
       compared to those old giants. The trail here is quite narrow.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

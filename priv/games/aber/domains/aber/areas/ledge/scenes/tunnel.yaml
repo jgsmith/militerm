@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:ledge:ledge9"
       west:
         target: "scene:aber:ledge:cave"
     short: Narrow Tunnel

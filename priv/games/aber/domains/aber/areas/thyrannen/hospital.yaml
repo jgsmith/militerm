@@ -1,0 +1,601 @@
+groups:
+  thyrannen10:
+    npcs:
+      adam: 1
+      commander: 1
+      conrad: 1
+      fred: 1
+      jason: 1
+      yergun: 1
+  thyrannen38:
+    npcs:
+      craz: 1
+      spaz: 1
+      waaz: 1
+  thyrannen40:
+    npcs:
+      gazz: 1
+      razmataz: 1
+  thyrannen54:
+    npcs:
+      bill: 1
+      daniel: 1
+      plato: 1
+locations:
+  thyrannen10:
+    groups:
+      thyrannen10: 1
+  thyrannen13:
+    npcs:
+      flog: 1
+  thyrannen21:
+    npcs:
+      brother1: 1
+  thyrannen26:
+    npcs:
+      bugbear: 1
+  thyrannen35:
+    npcs:
+      brother2: 1
+  thyrannen38:
+    groups:
+      thyrannen38: 1
+  thyrannen39:
+    npcs:
+      jazz: 1
+  thyrannen40:
+    groups:
+      thyrannen40: 1
+  thyrannen41:
+    npcs:
+      lazz: 1
+  thyrannen45:
+    npcs:
+      slimy: 1
+  thyrannen46:
+    npcs:
+      puddle: 1
+  thyrannen48:
+    npcs:
+      ghastly: 1
+  thyrannen5:
+    npcs:
+      grog: 1
+  thyrannen50:
+    npcs:
+      ghouly: 1
+  thyrannen51:
+    npcs:
+      callous: 1
+  thyrannen52:
+    npcs:
+      grimy: 1
+  thyrannen54:
+    groups:
+      thyrannen54: 1
+  thyrannen56:
+    npcs:
+      slart: 1
+  thyrannen58:
+    npcs:
+      draknor: 1
+  thyrannen64:
+    npcs:
+      miner: 1
+npcs:
+  adam:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - adam
+          short: Adam
+          sight: >
+            Adam the Verbeeg footsoldier is here, looking down the barrel of his spear.
+      flag:
+      identity:
+        name: Adam
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bill:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bill
+          short: Bill
+          sight: >
+            Bill the undead fisherman, summoned at Draknor's command stands here, wishing he was fishing.
+      flag:
+      identity:
+        name: Bill
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brother1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - haggardly
+            - brother
+          short: Haggardly
+          sight: >
+            A Haggardly old man looks up at your entrance, and smiles
+      flag:
+      identity:
+        name: Haggardly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  brother2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - alchemist
+            - brother
+          short: Alchemist
+          sight: >
+            Standing near the cauldron, is an old alchemist, smiling.
+      flag:
+      identity:
+        name: Alchemist
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  bugbear:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bugbear
+          short: Bugbear
+          sight: >
+            An ugly bugbear charges you, with hate in its eyes.
+      flag:
+      identity:
+        name: Bugbear
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  callous:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - callous
+          short: Callous
+          sight: >
+            Callous the undead creature, summoned at Draknor's command stands here, thirsting your blood.
+      flag:
+      identity:
+        name: Callous
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  commander:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - commander
+          short: Commander
+          sight: >
+            The commander of a Verbeeg patrol stands here, drooling.
+      flag:
+      identity:
+        name: Commander
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  conrad:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - conrad
+          short: Conrad
+          sight: >
+            Conrad The Verbeeg stands here, admiring a very green plant.
+      flag:
+      identity:
+        name: Conrad
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  craz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - craz
+          short: Craz
+          sight: >
+            Craz the mutant vampire bat swoops down from the ceiling, flying straight for your neck!
+      flag:
+      identity:
+        name: Craz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  daniel:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - daniel
+          short: Daniel
+          sight: >
+            Daniel the undead creature, summoned at Draknor's command stands here, asking you for a hit.
+      flag:
+      identity:
+        name: Daniel
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  draknor:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - draknor
+          short: Draknor
+          sight: >
+            The evil wizard Draknor slips into view, and asks you, 'And what brings you to visit me puny
+            mortal?' without moving his lips.
+      flag:
+        - blind
+        - fireball
+      identity:
+        name: Draknor
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  flog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - flog
+          short: Flog
+          sight: >
+            Flog the ugly Tree Giant stands here, looking at you, his breakfast.
+      flag:
+      identity:
+        name: Flog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fred
+          short: Fred
+          sight: Fred the Verbeeg footsoldier is here, practicing.
+      flag:
+      identity:
+        name: Fred
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  gazz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gazz
+          short: Gazz
+          sight: >
+            Gazz the Mutant Vampire bat, swoops down from the ceiling, begging for forgiveness.
+      flag:
+      identity:
+        name: Gazz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghastly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghastly
+          short: Ghastly
+          sight: >
+            Ghastly the undead creature, summoned at Draknor's command stands here, thirsting your blood.
+      flag:
+      identity:
+        name: Ghastly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghouly:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghouly
+          short: Ghouly
+          sight: >
+            Ghouly the undead, summoned at Draknor's command stands here, hungering for your heart.
+      flag:
+      identity:
+        name: Ghouly
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grimy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grimy
+          short: Grimy
+          sight: >
+            Grimy the undead creature, summoned at Draknor's command stands here, licking his chops.
+      flag:
+      identity:
+        name: Grimy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  grog:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - grog
+          short: Grog
+          sight: >
+            Grog the ugly Tree Giant stands here, glaring down at you.
+      flag:
+      identity:
+        name: Grog
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jason:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jason
+          short: Jason
+          sight: >
+            Jason the Verbeeg foot soldier stands here, trying to remember his orders.
+      flag:
+      identity:
+        name: Jason
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jazz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jazz
+          short: Jazz
+          sight: >
+            Jazz the huge mutant vampire bat swoops down from the ceiling, flying straight for your neck!
+      flag:
+      identity:
+        name: Jazz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  lazz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - lazz
+          short: Lazz
+          sight: >
+            Lazz the huge mutant vampire bat swoops down from the ceiling, flying around you at a distance.
+      flag:
+      identity:
+        name: Lazz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  miner:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - hairy
+            - miner
+          short: Hairy
+          sight: >
+            Hairy is here, mining his ages old mine, with of all things, his age old axe.
+      flag:
+      identity:
+        name: Hairy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  plato:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - plato
+          short: Plato
+          sight: >
+            Plato the philosophically undead creature, summoned at Draknor's command stands here, pondering
+            the moral benefit of tearing you limb from limb.
+      flag:
+      identity:
+        name: Plato
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  puddle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - puddle
+          short: Puddle
+          sight: >
+            At your feet lies a puddle of black goo, another failed attempt by Draknor at creating life.
+      flag:
+      identity:
+        name: Puddle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  razmataz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - razmataz
+          short: RazMataz
+          sight: >
+            RazMataz the Mutant Vampire bat is here, putting on a show.
+      flag:
+      identity:
+        name: RazMataz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slart:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slart
+          short: Slart
+          sight: >
+            Slart the undead creature, summoned at Draknor's command stands here, looking at you, confused.
+      flag:
+      identity:
+        name: Slart
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  slimy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - slimy
+          short: Slimy
+          sight: >
+            One of Draknor's failed experiments, Slimy is here asking you to end the pain of life.
+      flag:
+      identity:
+        name: Slimy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  spaz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - spaz
+          short: Spaz
+          sight: >
+            Spaz the mutant vampire bat swoops down from the ceiling, flying straight for your neck!
+      flag:
+      identity:
+        name: Spaz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  waaz:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - waaz
+          short: Waaz
+          sight: >
+            Waaz the mutant vampire bat swoops down from the ceiling, flying straight for your neck!
+      flag:
+      identity:
+        name: Waaz
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yergun:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yergun
+          short: Yergun
+          sight: >
+            Yergun the Verbeeg foot soldier stands here, trying to shake off his hangover.
+      flag:
+      identity:
+        name: Yergun
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

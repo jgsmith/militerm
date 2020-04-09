@@ -19,5 +19,5 @@ detail:
       A|| 	 || N || 	 || D || 	 || || 	 || F || 	 || A || 	 || L || 	 || L || 	 || I || 	 || N || 	 ||G || 	
       || || You better teleport outta here!
 flag:
-  - nomobiles
-  - negregen
+  - no-mobiles
+  - neg-regen

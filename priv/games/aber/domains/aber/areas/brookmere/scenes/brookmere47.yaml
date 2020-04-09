@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:brookmere:brookmere45"
     short: Weapon Storeroom
     sight: >
       This room is full of oversized swords, scabbards, shields and other implements of war, belonging to the

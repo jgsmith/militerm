@@ -12,4 +12,4 @@ detail:
       ruins.
 flag:
   - dark
-  - nomobiles
+  - no-mobiles

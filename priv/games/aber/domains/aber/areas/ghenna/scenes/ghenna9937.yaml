@@ -3,7 +3,9 @@ detail:
     exits:
       down:
         target: "scene:aber:ghenna:ghenna9936"
-      up: null
+      up:
+        guarded: true
+        target: "scene:aber:ghenna:ghenna9953"
     short: A lair full of corpses.
     sight: >
       This ledge is slippery with the blood of hundreds of vanquished adventurers who made the mistake of

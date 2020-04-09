@@ -1,0 +1,340 @@
+groups:
+  credits:
+    npcs:
+      credit: 1
+      erat1: 1
+      erat2: 1
+      erat3: 1
+      erat6: 1
+  foodstore:
+    npcs:
+      erat4: 1
+      erat5: 1
+  rat2:
+    npcs:
+      guardrat: 1
+      guardrat2: 1
+  rat3:
+    npcs:
+      guardrat3: 1
+      guardrat4: 1
+locations:
+  credits:
+    groups:
+      credits: 1
+  cutlet:
+    npcs:
+      erat7: 1
+  foodstore:
+    groups:
+      foodstore: 1
+  hallway_1:
+    npcs:
+      erat8: 1
+  livroom:
+    npcs:
+      mom: 1
+  nibelung59@nibelung:
+    npcs:
+      eagle: 1
+  rat1:
+    npcs:
+      mrat: 1
+  rat2:
+    groups:
+      rat2: 1
+  rat3:
+    groups:
+      rat3: 1
+  rat4:
+    npcs:
+      masterrat: 1
+npcs:
+  credit:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - credit
+          short: Credit
+          sight: Credit is standing here.
+      flag:
+      identity:
+        name: Credit
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  eagle:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - eagle
+          short: Eagle
+          sight: A proud &+Yeagle&* is sitting here.
+      flag:
+      identity:
+        name: Eagle
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bookrat
+            - erat
+          short: The Bookrat
+          sight: A book rat is running here.
+      flag:
+      identity:
+        name: The Bookrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sinkrat
+            - erat
+          short: The Sinkrat
+          sight: A sink rat is running here.
+      flag:
+      identity:
+        name: The Sinkrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - roberat
+            - erat
+          short: The Roberat
+          sight: A robe rat is running here.
+      flag:
+      identity:
+        name: The Roberat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rattattouille
+            - erat
+          short: Rattattouille
+          sight: "It's Rat-tat-touille!"
+      flag:
+      identity:
+        name: Rattattouille
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rattattailie
+            - erat
+          short: Rattattailie
+          sight: "It's Rat-tat-tailie!"
+      flag:
+      identity:
+        name: Rattattailie
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - bedrat
+            - erat
+          short: The Bedrat
+          sight: A bed rat is running here.
+      flag:
+      identity:
+        name: The Bedrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat7:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smokerat
+            - erat
+          short: The Smokerat
+          sight: A smoke rat is running here.
+      flag:
+      identity:
+        name: The Smokerat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  erat8:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rat
+            - erat
+          short: Rat
+          sight: A rat is running here.
+      flag:
+      identity:
+        name: Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardrat
+          short: The Guardrat
+          sight: A guard rat is guarding here.
+      flag:
+      identity:
+        name: The Guardrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardrat2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - rattatattat
+            - guardrat
+          short: Rattatattat
+          sight: "It's Ratta-tat-tat!."
+      flag:
+      identity:
+        name: Rattatattat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardrat3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ratty
+            - guardrat
+          short: Ratty
+          sight: Ratty the guard rat is guarding here.
+      flag:
+      identity:
+        name: Ratty
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardrat4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - elite guardrat
+            - guardrat
+          short: The Elite Guardrat
+          sight: An elite guardrat is guarding here.
+      flag:
+      identity:
+        name: The Elite Guardrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  masterrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - master rat
+            - masterrat
+          short: The Master Rat
+          sight: >
+            The master rat is licking the &+Ggreen&* liquid coming out of the pipe.
+      flag:
+      identity:
+        name: The Master Rat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  mom:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mom
+          short: Mom
+          sight: >
+            Mom, holding her baby, is standing here. She says, 'Help us from the rats.'
+      flag:
+        - no-hassle
+      identity:
+        name: Mom
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mrat:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fatrat
+            - mrat
+          short: The Fatrat
+          sight: A fat rat is running here.
+      flag:
+      identity:
+        name: The Fatrat
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

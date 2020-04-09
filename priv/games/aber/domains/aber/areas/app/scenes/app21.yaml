@@ -10,5 +10,5 @@ detail:
       You have finally reached the dark mage's fortress. The entrance does not appear to be guarded. It looks
       like you'll have an easy time getting in.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

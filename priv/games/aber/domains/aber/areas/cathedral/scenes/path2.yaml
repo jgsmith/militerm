@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:cathedral:path1"
       south:
         target: "scene:aber:cathedral:path3"
     short: Hidden Path

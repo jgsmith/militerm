@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:ildharas:ildharas39"
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas41"
       south:
         target: "scene:aber:ildharas:ildharas36"
     short: Hallway

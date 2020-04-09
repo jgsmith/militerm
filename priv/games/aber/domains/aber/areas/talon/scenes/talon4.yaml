@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:talon:talon5"
       west:
         target: "scene:aber:talon:talon2"
     short: Study

@@ -1,0 +1,38 @@
+---
+verb: agree
+syntaxes:
+  - "[with] <direct:living>"
+  - "<string'string>"
+  - "<string'string> [with] <direct:living>"
+  - "[with] <direct:living> <string'string>"
+  - ""
+no-target:
+  argument:
+    arguments:
+      - wholeheartedly
+      - partially
+      - wearily
+      - sadly
+      - belatedly
+      - happily
+      - under duress
+      - about everything
+      - out of stubborness
+    narrative: "<Actor> <agree> {{ string }}."
+  no-argument:
+    narrative: "<Actor> <agree>."
+target:
+  argument:
+    arguments:
+      - wholeheartedly
+      - partially
+      - wearily
+      - sadly
+      - belatedly
+      - happily
+      - under duress
+      - about everything
+      - out of stubborness
+    narrative: "<Actor> <agree> with <direct> {{ string }}."
+  no-argument:
+    narrative: "<Actor> <agree> with <direct>."

@@ -1,9 +1,15 @@
 detail:
   default:
     exits:
-      east: null
-      up: null
-      west: null
+      east:
+        guarded: true
+        target: "scene:aber:eirias:inside"
+      up:
+        guarded: true
+        target: "scene:aber:eirias:lostland"
+      west:
+        guarded: true
+        target: "scene:aber:eirias:country"
     short: Wooden Door
     sight: >
       You are standing in front of a &+ywooden door&*, its surface scarred and pitted as if by age.

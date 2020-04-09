@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      east: null
+      east:
+        guarded: true
+        target: "scene:aber:jbs:bathroom"
       north:
         target: "scene:aber:jbs:nbedroom"
       south:

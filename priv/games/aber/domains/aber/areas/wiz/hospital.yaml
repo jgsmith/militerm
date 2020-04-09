@@ -1,0 +1,203 @@
+groups:
+  marriage1:
+    npcs:
+      preacher: 1
+      ring_bearer: 1
+locations:
+  arctica1:
+    npcs:
+      acanthostega: 1
+  chump1:
+    npcs:
+      anook: 1
+  marriage1:
+    groups:
+      marriage1: 1
+  raymond1:
+    npcs:
+      defender: 1
+  shi1:
+    npcs:
+      fabio: 1
+  snow_temple@blizzard:
+    npcs:
+      yanoszh: 1
+  spokes1:
+    npcs:
+      stallion: 1
+  tinkerbell1:
+    npcs:
+      peter: 1
+npcs:
+  acanthostega:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - acanthostega
+          short: Acanthostega
+          sight: >
+            The early tetrapod Acanthostega is crawling about on the floor.
+      flag:
+      identity:
+        name: Acanthostega
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  anook:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - anook
+          short: Anook
+          sight: >
+            The eskimo you see before you looks lost and forlorn, for she is without her igloo and dogteam.
+      flag:
+        - negfrost
+        - no-steal
+      identity:
+        name: Anook
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  defender:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - defender
+          short: Defender
+          sight: >
+            You see the Defender of Raymond's armor, released from the closet.
+      flag:
+        - fireball
+        - frost
+        - shock
+        - missile
+        - neg-fireball
+        - neg-frost
+        - neg-shock
+        - neg-missile
+      identity:
+        name: Defender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  fabio:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - fabio
+          short: Fabio
+          sight: >
+            Fabio the Barbarian, proud and vain, stands before you.
+      flag:
+        - neg-fireball
+        - neg-missile
+        - neg-frost
+        - neg-shock
+        - no-exorcise
+        - no-zap
+      identity:
+        name: Fabio
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  peter:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - peterpan
+            - peter
+          short: PeterPan
+          sight: &+CPeter Pan &Nis flitting around the room.
+      flag:
+      identity:
+        name: PeterPan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  preacher:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - preacher
+          short: preacher
+          sight: >
+            The faithul, and quaint preacher of the MUD stands here, viewing you with a calm, kind eye.
+      flag:
+      identity:
+        name: preacher
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ring_bearer:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ring bearer
+            - ring_bearer
+          short: Ring Bearer
+          sight: >
+            A young boy, dressed in a tuxedo stands here dressed in a small childs tuxedo.
+      flag:
+      identity:
+        name: Ring Bearer
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stallion:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - diana
+            - stallion
+          short: Diana
+          sight: >
+            Spokes' beautiful black stallion roams here looking for Spokes.
+      flag:
+      identity:
+        name: Diana
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  yanoszh:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - yanoszh
+          short: Yanoszh
+          sight: >
+            Janoszh's evil mutant twin sister Yanoszh roams the land, darkly hunting her brother in maddness.
+      flag:
+        - blind
+      identity:
+        name: Yanoszh
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true

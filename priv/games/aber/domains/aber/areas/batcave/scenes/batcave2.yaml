@@ -13,4 +13,4 @@ detail:
       floor, and that what you thought were stalactites are actually hundreds of vampire bats.
 flag:
   - dark
-  - nosummon
+  - no-summon

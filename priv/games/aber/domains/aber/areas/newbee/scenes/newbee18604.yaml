@@ -3,7 +3,9 @@ detail:
     exits:
       north:
         target: "scene:aber:newbee:newbee18647"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:newbee:newbee18612"
     short: A Narrow Passage
     sight: >
       The thin passage is plain and undecorated, but still clean. It ends abruptly to the south at a small oak

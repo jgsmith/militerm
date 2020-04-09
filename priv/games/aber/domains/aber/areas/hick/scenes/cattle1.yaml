@@ -12,4 +12,4 @@ detail:
       through the livestock area to the north and you can leave to the south.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

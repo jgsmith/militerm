@@ -16,5 +16,5 @@ detail:
       choices they make.
 flag:
   - peaceful
-  - nomobiles
+  - no-mobiles
   - outdoors

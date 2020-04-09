@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:tower:candle"
       west:
         target: "scene:aber:tower:base"
     short: Black Tower

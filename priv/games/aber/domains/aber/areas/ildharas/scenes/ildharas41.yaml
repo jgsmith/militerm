@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:ildharas:ildharas38"
       west:
         target: "scene:aber:ildharas:ildharas66"
     short: "The King's Chambers"

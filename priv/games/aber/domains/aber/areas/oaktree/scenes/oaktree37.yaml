@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:oaktree:oaktree36"
     short: "The Grue's Den"
     sight: >
       This is a small dry cave that has been carved from the living rock. Some dilapidated furniture has been

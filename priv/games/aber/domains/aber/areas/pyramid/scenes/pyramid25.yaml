@@ -3,7 +3,9 @@ detail:
     exits:
       east:
         target: "scene:aber:pyramid:pyramid24"
-      south: null
+      south:
+        guarded: true
+        target: "scene:aber:pyramid:pyramid33"
       west:
         target: "scene:aber:pyramid:pyramid26"
     short: "Queen's Tomb"

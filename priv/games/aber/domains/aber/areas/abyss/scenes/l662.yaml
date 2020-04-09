@@ -5,7 +5,9 @@ detail:
         target: "scene:aber:abyss:l663"
       up:
         target: "scene:aber:abyss:stairway"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:abyss:city"
     short: Level 662
     sight: >
       You stand at the entrance to the 662nd level of the Abyss. A tunnel has been bored into the western face

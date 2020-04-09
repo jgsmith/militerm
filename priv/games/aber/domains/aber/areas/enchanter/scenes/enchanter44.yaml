@@ -1,10 +1,10 @@
 detail:
   default:
     exits:
-      :
-        target: "scene:aber:enchanter:enchanter45"
       north:
         target: "scene:aber:enchanter:enchanter43"
+      southwest:
+        target: "scene:aber:enchanter:enchanter45"
     short: Green Meadow
     sight: >
       You momentarily forget about the horror of the castle as you look around in awe. The meadow is green,
@@ -14,7 +14,7 @@ detail:
 flag:
   - outdoors
   - real
-  - tempreal
+  - temp-real
   - peaceful
   - party
-  - nomobiles
+  - no-mobiles

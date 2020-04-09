@@ -11,4 +11,4 @@ detail:
       wizards, winding towards the ceiling in a sloping spiral. A stairwell has its foot at the north wall,
       rickety but presumably stable enough to support you. A dim violet faerie glow illuminates the room.
 flag:
-  - nomobiles
+  - no-mobiles

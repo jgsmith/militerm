@@ -10,5 +10,5 @@ detail:
       You are standing at the edge of the city. From here, a short, paved path leads toward the east. To the
       northeast is a large building, its yard lined by an old fence of stone.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

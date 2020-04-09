@@ -10,4 +10,4 @@ detail:
       You are crouched in a low damp tunnel. A single exit leads west out of the tunnel. A treacherous wooden
       ladder leads down into the darkness below
 flag:
-  - nomobiles
+  - no-mobiles

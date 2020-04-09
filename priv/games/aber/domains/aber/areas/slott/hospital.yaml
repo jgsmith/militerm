@@ -1,0 +1,244 @@
+groups:
+  slott43:
+    npcs:
+      family: 1
+      muryan: 1
+locations:
+  slott11:
+    npcs:
+      william: 1
+  slott13:
+    npcs:
+      redcap3: 1
+  slott2:
+    npcs:
+      stableboy: 1
+  slott22:
+    npcs:
+      redcap1: 1
+  slott3:
+    npcs:
+      manfred: 1
+  slott32:
+    npcs:
+      redcap6: 1
+  slott35:
+    npcs:
+      housemaster: 1
+  slott38:
+    npcs:
+      redcap5: 1
+  slott43:
+    groups:
+      slott43: 1
+  slott7:
+    npcs:
+      redcap4: 1
+  slott8:
+    npcs:
+      redcap2: 1
+npcs:
+  family:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - family
+          short: The Family
+          sight: The &+RFamily&* is here!
+      flag:
+        - no-hassle
+      identity:
+        name: The Family
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  housemaster:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - master
+            - housemaster
+          short: The Master
+          sight: >
+            &+RThe Master&* is standing in the middle of the room!
+      flag:
+      identity:
+        name: The Master
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  manfred:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - manfred
+          short: Manfred
+          sight: >
+            &+RManfred&* the butler stands here, wondering about who you are!
+      flag:
+      identity:
+        name: Manfred
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  muryan:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - muryan
+          short: Muryan
+          sight: >
+            &+RMuryan stands here, giving you a chill down you spinalcord!
+      flag:
+      identity:
+        name: Muryan
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap1:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap2:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap3:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap4:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap5:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  redcap6:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - red cap
+            - redcap
+          short: Red Cap
+          sight: &+RRed Cap&* is here, glowing of evil!
+      flag:
+      identity:
+        name: Red Cap
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  stableboy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - stableboy
+          short: The Stableboy
+          sight: >
+            The &+RStableboy&* stands here, staring into nothing!
+      flag:
+      identity:
+        name: The Stableboy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  william:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - william
+          short: William
+          sight: &+RWilliam the cook&* is here, making a sandwich!
+      flag:
+      identity:
+        name: William
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

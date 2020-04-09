@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      north: null
+      north:
+        guarded: true
+        target: "scene:aber:origins:origins45"
       south:
         target: "scene:aber:origins:origins43"
     short: The Waterfall
@@ -13,7 +15,7 @@ flag:
   - peaceful
   - party
   - private
-  - nomagic
+  - no-magic
   - soundproof
   - cantsummon
   - nosummon

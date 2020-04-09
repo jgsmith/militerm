@@ -15,5 +15,5 @@ detail:
       lurch horribly, sending you staggering as you try to keep your balance. The seas ease off to the north
       and east and your craft might just about make it.
 flag:
-  - onwater
+  - on-water
   - outdoors

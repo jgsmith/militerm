@@ -1,0 +1,142 @@
+groups:
+locations:
+  limbo@limbo:
+    npcs:
+      jinx: 1
+  pensalon13:
+    npcs:
+      tinglera: 1
+  pensalon18:
+    npcs:
+      symber: 1
+  pensalon26:
+    npcs:
+      crazed: 1
+  pensalon32:
+    npcs:
+      smuggler: 1
+  pensalon33:
+    npcs:
+      chef: 1
+  pensalon42:
+    npcs:
+      serpeant: 1
+npcs:
+  chef:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - chef
+          short: Chef
+          sight: >
+            The King's personal Chef looks around for his favorite knife.
+      flag:
+      identity:
+        name: Chef
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  crazed:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - crazed
+          short: Crazed
+          sight: >
+            The Crazed King's Guard runs about in fits of madness.
+      flag:
+      identity:
+        name: Crazed
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  jinx:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - jinx
+          short: Jinx
+          sight: >
+            The shadowy form of the Jinx blinks in and out of existence.
+      flag:
+        - shock
+      identity:
+        name: Jinx
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  serpeant:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - serpeant
+          short: Serpeant
+          sight: A large Serpeant swims around the lake.
+      flag:
+        - shock
+      identity:
+        name: Serpeant
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  smuggler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - smuggler
+          short: Smuggler
+          sight: >
+            A haggard Smuggler looks a little annoyed at the disturbance of his sleep.
+      flag:
+      identity:
+        name: Smuggler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  symber:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - symber
+          short: Symber
+          sight: Symber the skeleton guard rambles around the room.
+      flag:
+      identity:
+        name: Symber
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  tinglera:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - tinglera
+          short: Tinglera
+          sight: Tinglera leans back against the wall resting.
+      flag:
+      identity:
+        name: Tinglera
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

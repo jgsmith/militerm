@@ -9,7 +9,7 @@ detail:
       you begin to think this is a nice quiet place to rest. There is certainly no other way in here, and any
       creature larger than human size would not fit.
 flag:
-  - nosummon
-  - cantsummon
-  - negregen
+  - no-summon
+  - cant-summon
+  - neg-regen
   - pkzone

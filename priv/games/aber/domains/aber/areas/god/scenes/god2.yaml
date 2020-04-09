@@ -8,13 +8,13 @@ detail:
       This is a large dome shaped room, in the center of the room is a long table with many comfortable
       looking chairs. This is where the powers come for meetings and parties.
 flag:
-  - nosummon
-  - cantsummon
-  - noat
+  - no-summon
+  - cant-summon
+  - no-at
   - god
   - private
   - party
   - soundproof
   - peaceful
-  - nosnoop
-  - nomobiles
+  - no-snoop
+  - no-mobiles

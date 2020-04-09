@@ -10,5 +10,5 @@ detail:
       The dazzling white stone walls of the temple momentarily blind you. Great columns are spaced evenly
       around the perimeter of the temple, and an arch beckons you inside.
 flag:
-  - nomobiles
+  - no-mobiles
   - outdoors

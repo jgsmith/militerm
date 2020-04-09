@@ -1,0 +1,65 @@
+groups:
+locations:
+  gambling:
+    npcs:
+      gambler: 1
+  pool:
+    npcs:
+      unicorn: 1
+  store:
+    npcs:
+      guardian: 1
+npcs:
+  gambler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - gambler
+          short: The Gambler
+          sight: >
+            A gambler dressed in rags and tatters is dropping coins into the slot.
+      flag:
+      identity:
+        name: The Gambler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  guardian:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - guardian
+          short: The Guardian
+          sight: >
+            A guardian of pure ice stands, silent and still, observing you.
+      flag:
+        - neg-frost
+      identity:
+        name: The Guardian
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  unicorn:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - unicorn
+          short: The Unicorn
+          sight: >
+            A unicorn is standing here, gazing quietly at its reflection.
+      flag:
+        - no-summon
+      identity:
+        name: The Unicorn
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

@@ -16,4 +16,4 @@ detail:
       the walls less well-hewn. Torches line the walls down every tunnel, and you have no problem seeing where
       you are going.
 flag:
-  - nomobiles
+  - no-mobiles

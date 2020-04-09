@@ -3,7 +3,9 @@ detail:
     exits:
       south:
         target: "scene:aber:fairybook:fairybook16"
-      west: null
+      west:
+        guarded: true
+        target: "scene:aber:fairybook:fairybook14"
     short: Little Path
     sight: >
       You stand on a garden path, which stretches out to the east and west. For some reason, you are certain

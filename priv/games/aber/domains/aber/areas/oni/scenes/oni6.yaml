@@ -8,4 +8,4 @@ detail:
       Wait...you are no longer on the hidden forest path. Instead, you are standing in mid-air over a ravine.
 flag:
   - outdoors
-  - nomobiles
+  - no-mobiles

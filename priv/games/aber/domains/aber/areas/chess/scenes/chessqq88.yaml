@@ -1,7 +1,9 @@
 detail:
   default:
     exits:
-      down: null
+      down:
+        guarded: true
+        target: "scene:aber:chess:chessqq02"
       south:
         target: "scene:aber:chess:chessqq87"
     short: "The Joker's Throne"

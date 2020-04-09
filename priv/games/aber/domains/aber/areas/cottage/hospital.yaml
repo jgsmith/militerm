@@ -1,0 +1,206 @@
+groups:
+  cottage2:
+    npcs:
+      brother: 1
+      cousin: 1
+  cottage5:
+    npcs:
+      mother: 1
+      sister: 1
+locations:
+  cottage16:
+    npcs:
+      vet: 1
+  cottage2:
+    groups:
+      cottage2: 1
+  cottage24:
+    npcs:
+      ramses: 1
+  cottage4:
+    npcs:
+      father: 1
+  cottage5:
+    groups:
+      cottage5: 1
+  cottage6:
+    npcs:
+      doggy: 1
+  cottage7:
+    npcs:
+      kitty: 1
+  cottage8:
+    npcs:
+      prowler: 1
+npcs:
+  brother:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - brother john
+            - brother
+          short: Brother John
+          sight: >
+            Brother John is here with his cousin plotting to kill the dog.
+      flag:
+      identity:
+        name: Brother John
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  cousin:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - cousin joe
+            - cousin
+          short: Cousin Joe
+          sight: >
+            Cousin Joe has a very shifty look in his eye as he listens to John.
+      flag:
+      identity:
+        name: Cousin Joe
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  doggy:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - doggy
+          short: Doggy
+          sight: Doggy, the pet doberman wants to play with you.
+      flag:
+      identity:
+        name: Doggy
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  father:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - father
+          short: Father
+          sight: >
+            Father is walking around looking for his newspaper and he's mad.
+      flag:
+      identity:
+        name: Father
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  kitty:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - kitty
+          short: Kitty
+          sight: >
+            Kitty da kitty-cat is amusing herself with a ball of yarn.
+      flag:
+      identity:
+        name: Kitty
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  mother:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - mother
+          short: Mother
+          sight: >
+            Mother is preparing dinner and she doesn't look too happy about it.
+      flag:
+      identity:
+        name: Mother
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  prowler:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - prowler
+          short: Prowler
+          sight: >
+            Yikes!!! A prowler is here trying to steal the buggy.
+      flag:
+      identity:
+        name: Prowler
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ramses:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ramses
+          short: Ramses
+          sight: Ramses has been waiting a LONG time for you.
+      flag:
+      identity:
+        name: Ramses
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  sister:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - sister kate
+            - sister
+          short: Sister Kate
+          sight: >
+            Sister Kate is sneaking pieces of cake as she eyes her mom's movements.
+      flag:
+      identity:
+        name: Sister Kate
+        nominative: she
+        objective: her
+        possessive: her
+    is_unique: true
+  vet:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - vet
+          short: Vet
+          sight: >
+            Vet, the veteran, is here mumbling 'Kill! Kill! Kill!'
+      flag:
+      identity:
+        name: Vet
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true

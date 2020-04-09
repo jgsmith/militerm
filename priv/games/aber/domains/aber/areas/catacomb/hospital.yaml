@@ -1,0 +1,123 @@
+groups:
+locations:
+  19:
+    npcs:
+      shadow: 1
+  8:
+    npcs:
+      ghost: 1
+  beggar:
+    npcs:
+      beggar: 1
+  closet:
+    npcs:
+      skeleton: 1
+  hall:
+    npcs:
+      defender: 1
+  resting_place:
+    npcs:
+      seraph: 1
+npcs:
+  beggar:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - beggar
+          short: The Beggar
+          sight: >
+            An aged and emaciated beggar sits cross-legged on a mat on the floor.
+      flag:
+      identity:
+        name: The Beggar
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  defender:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - defender
+          short: The Defender
+          sight: >
+            An ancient knight stands here, readying himself for battle.
+      flag:
+      identity:
+        name: The Defender
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  ghost:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - ghost
+          short: The Ghost
+          sight: >
+            A ghostly apparition hovers about you, preparing to strike.
+      flag:
+      identity:
+        name: The Ghost
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  seraph:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - seraph
+          short: The Seraph
+          sight: >
+            An enormous six-winged seraph stands over you in solemn judgement.
+      flag:
+        - no-summon
+      identity:
+        name: The Seraph
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  shadow:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - shadow
+          short: The Shadow
+          sight: >
+            A spooky black shadow, human in shape, slides across the wall.
+      flag:
+      identity:
+        name: The Shadow
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
+  skeleton:
+    archetype: "aber:npc"
+    data:
+      detail:
+        default:
+          nouns:
+            - skeleton
+          short: The Skeleton
+          sight: A human skeleton stands upright before you.
+      flag:
+      identity:
+        name: The Skeleton
+        nominative: he
+        objective: him
+        possessive: his
+    is_unique: true
