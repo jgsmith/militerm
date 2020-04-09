@@ -317,17 +317,28 @@ defmodule Militerm.Parsers.VerbSyntax do
         short: short,
         weight: weight
       }) do
-    # parse optional pattern
+    # parse optional word sequence
     case String.split(rest, "]", parts: 2) do
-      [optional, remaining] ->
-        %{pattern: optional_pattern, short: optional_short, weight: heft} = parse(optional)
+      [words, remaining] ->
+        bits = String.split(words, ~r{\s+}, trim: true)
 
-        %{
-          source: remaining,
-          pattern: [{:optional, optional_pattern} | pattern],
-          short: [[" [", optional_short, "]"] | short],
-          weight: weight + div(heft, 2)
-        }
+        type =
+          case bits do
+            [_] -> :optional
+            [_, _ | _] -> :optional_spaces
+            _ -> nil
+          end
+
+        if type do
+          %{
+            source: remaining,
+            pattern: [{type, bits, nil} | pattern],
+            short: [[" [", Enum.intersperse(bits, " "), "]"] | short],
+            weight: weight + 5
+          }
+        else
+          {:error, "empty []"}
+        end
 
       otherwise ->
         {:error, "missing closing ]"}

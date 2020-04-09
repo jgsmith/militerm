@@ -67,7 +67,7 @@ defmodule Militerm.Systems.Gossip do
         Entity.receive_message(
           this,
           "cmd",
-          "There no players on #{real_game_name}:"
+          "There are no players on #{real_game_name}:"
         )
 
       [_] ->

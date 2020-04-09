@@ -24,10 +24,10 @@ defmodule Militerm.Parsers.Command do
               actor: nil
   end
 
-  def parse(command, actor) do
-    %{command: String.split(command, ~r{\s+}), actor: actor}
+  def parse(command, context, syntax_provider) do
+    %{command: String.split(command, ~r{\s+}), context: context}
     |> take_adverbs()
-    |> fetch_syntaxes()
+    |> fetch_syntaxes(syntax_provider)
     |> match_syntax()
   end
 
@@ -35,12 +35,12 @@ defmodule Militerm.Parsers.Command do
   # adverbs can go after the first word that isn't an adverb
   def take_adverbs(state), do: Map.put(state, :adverbs, [])
 
-  def fetch_syntaxes(%{command: [word | _]} = state) do
+  def fetch_syntaxes(%{command: [word | _]} = state, syntax_provider) do
     # get all syntaxes that start with the given word ... then whittle down
     # each syntax will be associated with a given event seqence (multiple syntaxes can go with the
     # same sequence, but only one sequence per syntax)
     # syntaxes should be sorted by weight - heaviest weight first
-    syntaxes = Services.Verbs.get_syntaxes(:players, word)
+    syntaxes = syntax_provider.get_syntaxes(:players, word)
 
     syntaxes =
       syntaxes
@@ -58,46 +58,45 @@ defmodule Militerm.Parsers.Command do
 
   ## Examples
 
-    iex> syntax = VerbSyntax.parse("at <direct:object'thing>")
-    ...> Command.match_syntax(%{actor: :actor, command: ["look", "at", "the", "lamp"], syntaxes: [syntax], adverbs: []})
-    %{command: ["look", "at", "the", "lamp"], adverbs: [], slots: %{"direct" => [{:object, :singular, [:me, :near], "the lamp"}]}, syntax: VerbSyntax.parse("at <direct:object'thing>")}
-
-    iex> syntax = VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")
-    ...> Command.match_syntax(%{
-    ...>   actor: :actor,
-    ...>   command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"],
-    ...>   syntaxes: [syntax], adverbs: []
-    ...> })
-    %{
-      adverbs: [],
-      command: ["look", "at", "the", "lit", "lamp", "through", "the",
-       "big", "telescope"],
-      slots: %{
-        "direct" => [
-          {:object, :singular, [:me, :near], "the lit lamp"}
-        ],
-        "instrument" => [
-          {:object, :singular, [:me, :near], "the big telescope"}
-        ]
-      },
-      syntax: %{
-        pattern: [
-          {:word_list, ["at"], nil},
-          {:direct, :object, :singular, [:me, :near]},
-          {:word_list, ["through"], nil},
-          {:instrument, :object, :singular, [:me, :near]}
-        ],
-        short: "at <thing> through <object>",
-        weight: 34
-      }
-    }
+    # iex> syntax = VerbSyntax.parse("at <direct:object'thing>")
+    # ...> Command.match_syntax(%{actor: :actor, command: ["look", "at", "the", "lamp"], syntaxes: [syntax], adverbs: []})
+    # %{command: ["look", "at", "the", "lamp"], adverbs: [], slots: %{"direct" => [{:object, :singular, [:me, :near], "the lamp"}]}, syntax: VerbSyntax.parse("at <direct:object'thing>")}
+    #
+    # iex> syntax = VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")
+    # ...> Command.match_syntax(%{
+    # ...>   actor: :actor,
+    # ...>   command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"],
+    # ...>   syntaxes: [syntax], adverbs: []
+    # ...> })
+    # %{
+    #   adverbs: [],
+    #   command: ["look", "at", "the", "lit", "lamp", "through", "the",
+    #    "big", "telescope"],
+    #   slots: %{
+    #     "direct" => [
+    #       {:object, :singular, [:me, :near], "the lit lamp"}
+    #     ],
+    #     "instrument" => [
+    #       {:object, :singular, [:me, :near], "the big telescope"}
+    #     ]
+    #   },
+    #   syntax: %{
+    #     pattern: [
+    #       {:word_list, ["at"], nil},
+    #       {:direct, :object, :singular, [:me, :near]},
+    #       {:word_list, ["through"], nil},
+    #       {:instrument, :object, :singular, [:me, :near]}
+    #     ],
+    #     short: "at <thing> through <object>",
+    #     weight: 34
+    #   }
+    # }
   """
   # %{command: ["look", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"], adverbs: [], direct: [{:object, :singular, [:me, :near], ["the", "lit", "lamp"]}], instrument: [{:object, :singular, [:me, :near], ["the", "big", "telescope"]}], syntax: VerbSyntax.parse("at <direct:object'thing> through <instrument:object>")}
   def match_syntax(
-        %{actor: actor, command: [verb | bits] = command, syntaxes: syntaxes, adverbs: adverbs} =
-          state
+        %{context: context, command: command, syntaxes: syntaxes, adverbs: adverbs} = state
       ) do
-    case first_syntax_match(command, syntaxes) do
+    case first_syntax_match(command, context, syntaxes) do
       nil ->
         nil
 
@@ -108,30 +107,30 @@ defmodule Militerm.Parsers.Command do
     end
   end
 
-  def first_syntax_match(_, []), do: nil
+  def first_syntax_match(_, _, []), do: nil
 
-  def first_syntax_match(bits, [syntax | rest]) do
-    case try_syntax_match(bits, syntax) do
-      nil -> first_syntax_match(bits, rest)
+  def first_syntax_match(bits, context, [syntax | rest]) do
+    case try_syntax_match(bits, context, syntax) do
+      nil -> first_syntax_match(bits, context, rest)
       match -> Map.put(match, :syntax, syntax)
     end
   end
 
   @doc """
   ## Examples
-
     iex> Command.try_syntax_match(["a", "red", "truck"], %{pattern: []})
     nil
   """
-  def try_syntax_match(bits, %{pattern: pattern} = syntax) do
+  def try_syntax_match(bits, context, %{pattern: pattern} = syntax) do
     # return nil if not a match - otherwise, return a structure with slots and such identified
     case Militerm.Parsers.Command.PatternMatcher.pattern_match(bits, pattern) do
       nil ->
         nil
 
       matches ->
-        %{slots: assign_matches_to_slots(bits, pattern, matches)}
-        # now see if we can bind to objects given the matches
+        Militerm.Systems.Commands.Binder.bind(context, %{
+          slots: assign_matches_to_slots(bits, pattern, matches)
+        })
     end
   end
 

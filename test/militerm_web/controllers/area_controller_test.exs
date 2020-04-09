@@ -25,6 +25,11 @@ defmodule MilitermWeb.AreaControllerTest do
     domain
   end
 
+  def fixture(:user) do
+    {:ok, user} = Accounts.create_user(@create_user_attrs)
+    user
+  end
+
   def fixture(:area) do
     domain = fixture(:domain)
     {:ok, area} = Game.create_area(domain, @create_attrs)
@@ -34,11 +39,6 @@ defmodule MilitermWeb.AreaControllerTest do
   def fixture(:area, domain) do
     {:ok, area} = Game.create_area(domain, @create_attrs)
     area
-  end
-
-  def fixture(:user) do
-    {:ok, user} = Accounts.create_user(@create_user_attrs)
-    user
   end
 
   describe "new area" do

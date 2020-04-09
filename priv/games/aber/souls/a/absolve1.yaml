@@ -1,0 +1,22 @@
+---
+verb: absolve
+syntaxes:
+  - "<direct:living>"
+  - "<string'string> <direct:living>"
+  - "<direct:living> <string'string>"
+target:
+  argument:
+    arguments:
+      - wholeheartedly
+      - partially
+      - wearily
+      - sadly
+      - belatedly
+      - happily
+      - under duress
+      - about everything
+      - out of stubborness
+    narrative: "<Actor> <absolve> <direct> {{ string }}."
+  no-argument:
+    narrative: "<Actor> <absolve> <direct>."
+---

@@ -1,0 +1,38 @@
+---
+verb: disagree
+syntaxes:
+  - "[with] <direct:living>"
+  - "<string'string>"
+  - "<string'string> [with] <direct:living>"
+  - "[with] <direct:living> <string'string>"
+  - ""
+no-target:
+  argument:
+    arguments:
+      - wholeheartedly
+      - partially
+      - wearily
+      - sadly
+      - belatedly
+      - happily
+      - under duress
+      - about everything
+      - out of stubborness
+    narrative: "<Actor> <disagree> {{ string }}."
+  no-argument:
+    narrative: "<Actor> <disagree>."
+target:
+  argument:
+    arguments:
+      - wholeheartedly
+      - partially
+      - wearily
+      - sadly
+      - belatedly
+      - happily
+      - under duress
+      - about everything
+      - out of stubborness
+    narrative: "<Actor> <disagree> with <direct> {{ string }}."
+  no-argument:
+    narrative: "<Actor> <disagree> with <direct>."

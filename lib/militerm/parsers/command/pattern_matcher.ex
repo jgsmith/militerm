@@ -1,16 +1,22 @@
 defmodule Militerm.Parsers.Command.PatternMatcher do
+  @moduledoc false
+
+  #
+  # Based on the pattern matcher in the Discworld mudlib.
+  #
+
   @doc """
   ## Examples
 
     iex> PatternMatcher.pattern_match(["", "at", "this"], [{:word_list, ["at"], nil}, {:word_list, ["this"], nil}])
     [0, 1, 2, 3]
-    
+
     iex> PatternMatcher.pattern_match(["", "under", "neath", "this"], [{:word_list_spaces, [~w[under neath]], nil}, {:word_list, ["this"], nil}])
     [0, 1, 3, 4]
-    
+
     iex> PatternMatcher.pattern_match(["", "at", "the", "lamp"], [{:word_list, ["at"], nil}, {:direct, :object, :singular, [:me, :here]}])
     [0, 1, 2, 4]
-    
+
     iex> PatternMatcher.pattern_match(["", "at", "the", "lit", "lamp", "through", "the", "big", "telescope"], [
     ...>   {:word_list, ["at"], nil},
     ...>   {:direct, :object, :singular, [:me, :near]},
@@ -165,7 +171,9 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
 
     %{failed: failed, bits: bits, matches: matches} = state
 
-    if not failed do
+    if failed do
+      state
+    else
       quote_char = String.first(Enum.at(bits, pos))
 
       if quote_char in ~w[" ' `] do
@@ -185,8 +193,6 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
       else
         %{state | failed: true}
       end
-    else
-      state
     end
   end
 
@@ -391,10 +397,10 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
 
     cond do
       opt and failed ->
-        if !last do
-          %{state | failed: false, matches: [pos - 1 | matches], last: nil}
-        else
+        if last do
           %{state | failed: false, delayed: [:optional | delayed], last: nil}
+        else
+          %{state | failed: false, matches: [pos - 1 | matches], last: nil}
         end
 
       not failed ->
@@ -445,12 +451,10 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
 
     cond do
       !(last || failed || spaces) ->
-        %{matches: matches} = state
-
-        if Enum.at(bits, pos) not in elms do
-          %{state | failed: true}
-        else
+        if Enum.at(bits, pos) in elms do
           state
+        else
+          %{state | failed: true}
         end
 
       Enum.count(elms) == 1 && last == :find_first && !spaces ->
@@ -472,7 +476,7 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
 
       not spaces ->
         tmp = Enum.drop(bits, pos) -- elms
-  
+
         if Enum.count(tmp) < bits_size - pos do
           if last == :find_first do
             {{_, i}, _} =
@@ -499,22 +503,7 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
         end
 
       :else_spaces ->
-
-        if !last do
-          bits_here = Enum.drop(bits, pos)
-
-          elem =
-            elms
-            |> Enum.find(fn e ->
-              e == Enum.take(bits_here, Enum.count(e))
-            end)
-
-          if elem do
-            %{state | wcount: Enum.count(elem)}
-          else
-            %{state | failed: true}
-          end
-        else
+        if last do
           bits_here =
             bits
             |> Enum.with_index()
@@ -575,6 +564,20 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
               {pos, wcount} -> %{state | pos: pos, wcount: wcount}
               _ -> %{state | failed: true}
             end
+          end
+        else
+          bits_here = Enum.drop(bits, pos)
+
+          elem =
+            elms
+            |> Enum.find(fn e ->
+              e == Enum.take(bits_here, Enum.count(e))
+            end)
+
+          if elem do
+            %{state | wcount: Enum.count(elem)}
+          else
+            %{state | failed: true}
           end
         end
     end
