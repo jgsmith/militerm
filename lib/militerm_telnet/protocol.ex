@@ -150,6 +150,7 @@ defmodule MilitermTelnet.Protocol do
   """
   def handle_info({:authenticate_session, session_key, user_id}, %{mode: mode} = state) do
     if session_key == state.session_key && is_nil(state.user_id) do
+      register_session_start(state)
       {:noreply, mode.authenticated(%{state | user_id: user_id})}
     else
       {:noreply, state}
@@ -169,6 +170,8 @@ defmodule MilitermTelnet.Protocol do
   defp deflate(data, %{zlib_context: zlib_context}), do: :zlib.deflate(zlib_context, data, :full)
 
   def handle_disconnect(%{socket: socket, transport: transport} = state) do
+    register_session_stop(state)
+
     case state do
       %{entity_id: entity_id} when not is_nil(entity_id) ->
         Militerm.Services.Characters.leave_game({:thing, entity_id})
@@ -194,6 +197,22 @@ defmodule MilitermTelnet.Protocol do
     end
 
     transport.close(socket)
+  end
+
+  def register_session_start(%{zlib_context: z, mxp: mxp} = state) do
+    security = :none
+    richness = if mxp, do: :mxp, else: :none
+    compression = if z, do: :zlib, else: :none
+
+    Militerm.Metrics.PlayerInstrumenter.start_session(:telnet, security, richness, compression)
+  end
+
+  def register_session_stop(%{zlib_context: z, mxp: mxp} = state) do
+    security = :none
+    richness = if mxp, do: :mxp, else: :none
+    compression = if z, do: :mccp, else: :none
+
+    Militerm.Metrics.PlayerInstrumenter.stop_session(:telnet, security, richness, compression)
   end
 
   def process_options(<<>>, state, acc) do
@@ -252,6 +271,12 @@ defmodule MilitermTelnet.Protocol do
       # <<@iac, @ayt, data::binary>> ->
       #   forward_options(socket, data)
       #   fun.(:ayt)
+
+      <<@iac, @telnet_do, _, data::binary>> ->
+        process_options(data, state, acc)
+
+      <<@iac, @telnet_dont, _, data::binary>> ->
+        process_options(data, state, acc)
 
       <<@iac, data::binary>> ->
         Logger.warn("Got weird iac data - #{inspect(data)}")

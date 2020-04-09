@@ -51,13 +51,15 @@ defmodule Militerm.MixProject do
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
+      {:prometheus_ex, "~> 3.0"},
+      {:prometheus_ecto, "~> 1.4.1"},
+      {:prometheus_phoenix, "~> 1.3.0"},
+      {:prometheus_plugs, "~> 1.1.1"},
+#      {:prometheus_process_collector, "~> 1.4.3"},
       {:secure_random, "~> 0.5"},
       {:swarm, "~> 3.0"},
       {:yaml_elixir, "~> 2.0"},
       {:ueberauth, "~> 0.4"},
-      #      {:prometheus_process_collector, "~> 1.4.3"},
-      #      {:prometheus_ecto, "~> 1.4.1"},
-      #      {:prometheus_ex, "~> 3.0"},
       {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
