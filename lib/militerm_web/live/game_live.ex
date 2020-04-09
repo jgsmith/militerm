@@ -50,6 +50,8 @@ defmodule MilitermWeb.GameLive do
 
     Militerm.Services.Characters.enter_game({:thing, entity_id}, receiver: __MODULE__)
 
+    Militerm.Metrics.PlayerInstrumenter.start_session(:web, :https, :html, :default)
+
     ident = Militerm.Components.Identity.get(entity_id)
 
     character = %{name: ident["name"]}
@@ -70,6 +72,7 @@ defmodule MilitermWeb.GameLive do
 
   def terminate(reason, socket) do
     # unload character
+    Militerm.Metrics.PlayerInstrumenter.stop_session(:web, :https, :html, :default)
     Militerm.Services.Characters.leave_game({:thing, socket.assigns.entity_id})
     :ok
   end
