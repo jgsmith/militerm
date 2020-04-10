@@ -6,6 +6,19 @@ defmodule Militerm.Application do
   use Application
 
   def start(_type, _args) do
+    Militerm.Metrics.PlayerInstrumenter.setup()
+    Militerm.Metrics.RepoInstrumenter.setup()
+    Militerm.Metrics.PhoenixInstrumenter.setup()
+    MilitermWeb.MetricsExporter.setup()
+
+    :ok =
+      :telemetry.attach(
+        "prometheus-ecto",
+        [:militerm, :repo, :query],
+        &Militerm.Metrics.RepoInstrumenter.handle_event/4,
+        %{}
+      )
+
     # List all child processes to be supervised
     standalone = Application.get_env(:militerm, :standalone, false)
 

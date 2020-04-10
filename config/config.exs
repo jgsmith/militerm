@@ -25,6 +25,7 @@ config :militerm,
 # Configures the endpoint
 config :militerm, MilitermWeb.Endpoint,
   url: [host: "localhost"],
+  instrumenters: [Militerm.Metrics.PhoenixInstrumenter],
   secret_key_base: "QLq/13OQPLLM2dajw9qp5D/1LVQsJ0eeddK8dx2QWg7Kl2ZiSnT2eaIz7QxdqhI/",
   render_errors: [view: MilitermWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Militerm.PubSub, adapter: Phoenix.PubSub.PG2]

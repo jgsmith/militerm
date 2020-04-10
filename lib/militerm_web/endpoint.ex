@@ -33,6 +33,7 @@ defmodule MilitermWeb.Endpoint do
 
   plug Plug.RequestId
   plug Plug.Logger
+  plug MilitermWeb.MetricsExporter
 
   plug Plug.Parsers,
     parsers: [:urlencoded, :multipart, :json],
