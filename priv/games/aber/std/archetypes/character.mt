@@ -30,7 +30,7 @@ reacts to msg:sound with
 # channel:* supports chat channels
 #
 reacts to channel:receive as player with do
-  Emit( "{channel}[{{ player }}:{{ channel }}] {{ message }}{/channel}")
+  Emit( "{channel}[{{ channel }}] {{player}}: {{ message }}{/channel}")
 end
 
 ##
@@ -53,7 +53,7 @@ reacts to gossip:game:down as player with do
 end
 
 reacts to gossip:channel:broadcast as player with do
-  Emit( "{channel}[{{ player }}@{{ game }}:{{ channel }}] {{ message }}{/channel}")
+  Emit( "{channel}[{{ channel }}] {{ player }}@{{ game }}: {{ message }}{/channel}")
 end
 
 ##
@@ -71,7 +71,7 @@ end
 # tell:remote supports player-to-player chat across games via gossip
 #
 reacts to tell:remote as player with do
-  Emit( "{remote-tell from='{{from}}'}{{ message }}{/remote-tell}")
+  Emit( "{remote-tell}{{from}}: {{ message }}{/remote-tell}")
 end
 
 ##

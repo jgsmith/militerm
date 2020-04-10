@@ -31,6 +31,8 @@ defmodule Militerm.Services.Verbs do
     GenServer.call(__MODULE__, {:add, scope, first_word, syntax})
   end
 
+  def reload_file(file), do: GenServer.call(__MODULE__, {:reload, file})
+
   def get_syntaxes(scope, word) do
     # removes the thing from the global map registry
     GenServer.call(__MODULE__, {:get_syntaxes, scope, word})
@@ -59,6 +61,11 @@ defmodule Militerm.Services.Verbs do
     {:reply, do_get_syntaxes(store, scope, word), store}
   end
 
+  @impl true
+  def handle_call({:reload, file}, _from, store) do
+    {:reply, :ok, reload_file(file, store)}
+  end
+
   def handle_info(:load_verbs, store) do
     {:noreply, load_verbs(Config.game_dir() <> "/verbs", store)}
   end
@@ -83,6 +90,55 @@ defmodule Militerm.Services.Verbs do
     |> Enum.map(fn {scope, info} -> info end)
   end
 
+  def reload_file(file, store) do
+    case load_and_parse(file) do
+      %{"syntaxes" => syntaxes, "verbs" => words} = parse ->
+        [_, scope | _] =
+          file
+          |> Path.split()
+          |> Enum.reverse()
+
+        store =
+          store
+          |> Enum.map(fn {word, list} ->
+            {word,
+             Enum.reject(list, fn
+               {^scope, %{"source" => ^file}} -> true
+               _ -> false
+             end)}
+          end)
+          |> Enum.into(%{})
+
+        Enum.reduce(syntaxes, store, fn syntax, syn_store ->
+          syntax = Map.put(syntax, :source, file)
+
+          Enum.reduce(words, syn_store, fn word, word_store ->
+            case String.split(word, " ", trim: true) do
+              [word] ->
+                do_add(word_store, scope, word, syntax)
+
+              [word | rest] ->
+                rest_pattern =
+                  rest
+                  |> Enum.map(&{:word_list, [&1], nil})
+
+                aug_syntax = %{
+                  syntax
+                  | pattern: rest_pattern ++ syntax.pattern,
+                    short: Enum.join(rest, " ") <> " " <> syntax.short,
+                    weight: Enum.count(rest) * 10 + syntax.weight
+                }
+
+                do_add(word_store, scope, word, aug_syntax)
+            end
+          end)
+        end)
+
+      _ ->
+        store
+    end
+  end
+
   def load_verbs(path, store) do
     # path / scope / verb.md
     paths = Path.wildcard(path <> "/*/*.md")
@@ -90,7 +146,7 @@ defmodule Militerm.Services.Verbs do
     Enum.reduce(paths, store, fn path, store ->
       [_, scope | _] =
         path
-        |> String.split("/", trim: true)
+        |> Path.split()
         |> Enum.reverse()
 
       scope = String.to_atom(scope)
@@ -98,6 +154,8 @@ defmodule Militerm.Services.Verbs do
       case load_and_parse(path) do
         %{"syntaxes" => syntaxes, "verbs" => words} = parse ->
           Enum.reduce(syntaxes, store, fn syntax, syn_store ->
+            syntax = Map.put(syntax, :source, path)
+
             Enum.reduce(words, syn_store, fn word, word_store ->
               case String.split(word, " ", trim: true) do
                 [word] ->

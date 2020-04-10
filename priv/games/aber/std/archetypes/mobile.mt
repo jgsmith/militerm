@@ -9,7 +9,7 @@ counter:
 ---
 based on std:thing
 
-is going, positioning
+is going, walking, positioning
 
 can move:accept as actor
 

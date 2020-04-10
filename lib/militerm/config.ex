@@ -26,6 +26,12 @@ defmodule Militerm.Config do
     end
   end
 
+  def watch_game_files do
+    :militerm
+    |> Application.fetch_env!(:game)
+    |> Keyword.get(:watch_files, false)
+  end
+
   def character_finder do
     :militerm
     |> Application.fetch_env!(:game)

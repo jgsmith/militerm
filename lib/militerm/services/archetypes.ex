@@ -118,6 +118,11 @@ defmodule Militerm.Services.Archetypes do
 
   def resolve(ur_name), do: resolve("", ur_name)
 
+  def reload(name) do
+    remove(name)
+    get(name)
+  end
+
   defp do_load(name) do
     name
     |> String.split(":")
@@ -138,7 +143,7 @@ defmodule Militerm.Services.Archetypes do
     |> Enum.join("/")
   end
 
-  defp file_for_math(["scene", domain, area | path]) do
+  defp file_for_path(["scene", domain, area | path]) do
     [
       Config.game_dir()
       | [

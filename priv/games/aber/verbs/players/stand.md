@@ -11,3 +11,4 @@ see also:
   - kneel
   - crouch
 ---
+Lets you stand up if you aren't already.

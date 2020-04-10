@@ -506,6 +506,5 @@ defmodule Militerm.Systems.Location do
     # we have to find a chain from where we are to where we want to go
     # it has to be within a certain range -- can't go moving quicly through
     # everything -- chain can be no more than 2-3 nodes long
-    
   end
 end

@@ -20,8 +20,8 @@ validates location:position with
   end
 
 calculates trait:allowed:positions with do
-  if location:location.detail:default:allowed-proximities then
-    location:location.detail:default:allowed-proximities & ([ "standing", "sitting", "kneeling", "crouching" ])
+  if location:location.detail:default:allowed-positions then
+    location:location.detail:default:allowed-positions & ([ "standing", "sitting", "kneeling", "crouching" ])
   else
     Debug( ([ "standing", "sitting", "kneeling", "crouching" ]) )
     ([ "standing", "sitting", "kneeling", "crouching" ])

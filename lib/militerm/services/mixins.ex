@@ -90,6 +90,11 @@ defmodule Militerm.Services.Mixins do
 
   def resolve(ur_name), do: resolve("", ur_name)
 
+  def reload(name) do
+    remove(name)
+    get(name)
+  end
+
   defp do_load(name) do
     name
     |> String.split(":")

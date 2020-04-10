@@ -35,7 +35,6 @@ defmodule Militerm.MixProject do
     [
       {:cachex, "~> 3.2"},
       {:ecto_sql, "~> 3.0"},
-      {:floki, ">= 0.0.0", only: :test},
       {:gettext, "~> 0.11"},
       {:gossip, "~> 1.0", runtime: false},
       {:guardian, "~> 2.0"},
@@ -46,7 +45,6 @@ defmodule Militerm.MixProject do
       {:phoenix, "~> 1.4.0"},
       {:phoenix_ecto, "~> 4.0"},
       {:phoenix_html, "~> 2.11"},
-      {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.10.0"},
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
@@ -55,11 +53,17 @@ defmodule Militerm.MixProject do
       {:prometheus_ecto, "~> 1.4.1"},
       {:prometheus_phoenix, "~> 1.3.0"},
       {:prometheus_plugs, "~> 1.1.1"},
-#      {:prometheus_process_collector, "~> 1.4.3"},
       {:secure_random, "~> 0.5"},
       {:swarm, "~> 3.0"},
       {:yaml_elixir, "~> 2.0"},
       {:ueberauth, "~> 0.4"},
+
+      # Dev-only
+      {:file_system, "~> 0.2.8", only: :dev},
+      {:phoenix_live_reload, "~> 1.2", only: :dev},
+
+      # Dev- or test-only
+      {:floki, ">= 0.0.0", only: :test},
       {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
