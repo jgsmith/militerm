@@ -218,8 +218,6 @@ defmodule Militerm.Accounts do
 
   """
   def create_character(attrs \\ %{}) do
-    # TODO: make archetype configurable
-
     entity_id = "std:character#" <> UUID.uuid4()
 
     using_atoms = Enum.any?(attrs, fn {k, _} -> is_atom(k) end)
@@ -234,7 +232,6 @@ defmodule Militerm.Accounts do
       |> Character.changeset(attrs)
       |> Config.repo().insert
 
-    # TODO: make the following customizable, especially the details.
     case result do
       {:ok, character} ->
         {nominative, objective, possessive} =

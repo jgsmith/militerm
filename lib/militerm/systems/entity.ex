@@ -11,6 +11,22 @@ defmodule Militerm.Systems.Entity do
   Manages control of an entity -- managing events more than anything else.
   """
 
+  defscript id(), for: %{"this" => this} do
+    case this do
+      {:thing, entity_id} -> entity_id
+      {:thing, entity_id, _} -> entity_id
+      _ -> nil
+    end
+  end
+
+  defscript id(thing) do
+    case thing do
+      {:thing, entity_id} -> entity_id
+      {:thing, entity_id, _} -> entity_id
+      _ -> nil
+    end
+  end
+
   defdelegate set_property(entity_id, path, value, args), to: Controller
   defdelegate reset_property(entity_id, path, args), to: Controller
   defdelegate remove_property(entity_id, path), to: Controller
@@ -25,8 +41,6 @@ defmodule Militerm.Systems.Entity do
   defdelegate post_event(entity_id, event, role, args), to: Controller
   defdelegate can?(entity_id, ability, role, args), to: Controller
   defdelegate is?(entity_id, trait, args \\ %{}), to: Controller
-  defdelegate get_context(entity_id), to: Controller
-  defdelegate set_context(entity_id, context), to: Controller
 
   defscript create(archetype), for: %{"this" => this} = _objects do
     do_create(this, archetype)
@@ -48,7 +62,7 @@ defmodule Militerm.Systems.Entity do
 
   defscript destroy(), for: %{"this" => {:thing, entity_id} = entity} = _objects do
     # actually destroy the entity
-    Militerm.Entities.Thing.delete_entity(entity_id)
+    Militerm.ECS.Entity.delete_entity(entity_id)
   end
 
   defscript destroy({:thing, entity_id} = entity) do
@@ -88,7 +102,7 @@ defmodule Militerm.Systems.Entity do
   def hibernate({:thing, entity_id} = entity) do
     case whereis(entity_id) do
       {:ok, pid} ->
-        # TODO: stop the clocks/alarms
+        # stop the clocks/alarms
         Militerm.Components.Entity.hibernate(entity_id)
         Militerm.Components.Location.hibernate(entity_id)
 
@@ -103,7 +117,7 @@ defmodule Militerm.Systems.Entity do
         Militerm.Components.Entity.unhibernate(entity_id)
         Militerm.Components.Location.unhibernate(entity_id)
 
-      # TODO: start the clocks/alarms
+      # start the clocks/alarms
       _ ->
         :noent
     end
@@ -133,7 +147,7 @@ defmodule Militerm.Systems.Entity do
 
   def receive_message(entity_id, message_type, raw_message, args \\ %{}) do
     message =
-      case Militerm.Systems.MML.bind(raw_message, args) do
+      case MML.bind(raw_message, args) do
         {:ok, binding} -> binding
         _ -> raw_message
       end
@@ -204,7 +218,7 @@ defmodule Militerm.Systems.Entity do
     [domain, area | path] = String.split(rest, ":", trim: true)
 
     filename_base =
-      Path.join([Militerm.Config.game_dir(), "domains", domain, "areas", area, "scenes" | path])
+      Path.join([Config.game_dir(), "domains", domain, "areas", area, "scenes" | path])
 
     extension =
       [".mt", ".yaml"]

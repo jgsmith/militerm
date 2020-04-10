@@ -341,7 +341,7 @@ defmodule Militerm.Systems.Location do
         "You see nothing."
 
       _ ->
-        Militerm.Services.MML.bind("You see: {{items}}.", %{"items" => items})
+        Militerm.Systems.MML.bind!("You see: {{items}}.", %{"items" => items})
     end
   end
 
@@ -446,7 +446,7 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defp finalize_move({:error, _} = error, _, _, _, _, _), do: error
+  defp finalize_move({:halt, _} = halt, _, _, _, _, _), do: halt
 
   defp finalize_move({:cont, pre, post}, entity_id, class, actor_id, from, dest) do
     {slot_names, slots} =
@@ -471,7 +471,7 @@ defmodule Militerm.Systems.Location do
     case Militerm.Systems.Entity.pre_event(leaving_id, "move:release:#{class}", :environment, %{
            direct: [{:thing, entity_id}]
          }) do
-      {:halt, message} = halt -> halt
+      {:halt, _} = halt -> halt
       {:cont, _, _} = continue -> continue
       _ -> {:cont, [], []}
     end
@@ -479,32 +479,33 @@ defmodule Militerm.Systems.Location do
 
   defp permission_to_arrive({:halt, _} = halt, _, _, _), do: halt
 
-  defp permission_to_arrive({:cont, pre, post} = c, entity_id, class, arriving_id) do
-    c
-    # case Militerm.EntityController.pre_event(arriving_id, "move:receive", :environment, %{
-    #        direct: [entity_id]
-    #      }) do
-    #   {:halt, message} -> {:error, message}
-    #   {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
-    #   _ -> {:cont, pre, post}
-    # end
+  defp permission_to_arrive({:cont, pre, post} = continue, entity_id, class, arriving_id) do
+    case Militerm.Systems.Entity.pre_event(arriving_id, "move:receive", :environment, %{
+           direct: [entity_id]
+         }) do
+      {:halt, _} = halt -> halt
+      {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
+      _ -> continue
+    end
   end
 
-  defp permission_to_accept({:halt, _} = halt, _, _, _), do: halt
+  defp permission_to_accept({:halt, _} = halt, _, _, _, _), do: halt
 
-  defp permission_to_accept({:cont, pre, post} = c, entity_id, class, from, to) do
-    c
-    # case Militerm.EntityController.pre_event(entity_id, "move:accept", :actor, %{
-    #        from: from,
-    #        to: to
-    #      }) do
-    #   {:halt, message} -> {:error, message}
-    #   {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
-    #   _ -> {:cont, pre, post}
-    # end
+  defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, from, to) do
+    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept", :actor, %{
+           from: from,
+           to: to
+         }) do
+      {:halt, _} = halt -> halt
+      {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
+      _ -> continue
+    end
   end
 
   defp motion_in_target(entity_id, from_loc, to_loc) do
-    # we just do it for now
+    # we have to find a chain from where we are to where we want to go
+    # it has to be within a certain range -- can't go moving quicly through
+    # everything -- chain can be no more than 2-3 nodes long
+    
   end
 end

@@ -1,0 +1,20 @@
+---
+archetype: "std:elevator"
+detail:
+  default:
+    short: an elevator
+    sight: A box of a place that seems to take you to different places.
+trait:
+  elevator-level: "1"
+thing:
+  elevator:level1:
+    entity_id: "scene:test:area:start"
+    coord: "default"
+  elevator:level2:
+      entity_id: "scene:test:area:north"
+      coord: "default"
+identity:
+  name: the elevator
+  nominative: it
+  possessive: its
+  objective: it

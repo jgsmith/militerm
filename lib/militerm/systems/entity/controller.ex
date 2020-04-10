@@ -2,7 +2,7 @@ defmodule Militerm.Systems.Entity.Controller do
   use GenServer
 
   alias Militerm.Config
-  alias Militerm.MML
+  alias Militerm.Systems.MML
 
   alias Militerm.Systems.Entity
 

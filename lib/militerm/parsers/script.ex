@@ -519,9 +519,6 @@ defmodule Militerm.Parsers.Script do
 
     with {:ok, name} <- parse_nc_name(source),
          {:ok, pov} <- parse_pov(source) do
-      # TODO: "if" and "unless" introduce their construct
-      #       "when" introduces an independent block
-      #       or we always expect "when"
       if Scanner.scan(source, ~r/(if|unless|when)\b/) do
         negated =
           case Scanner.matches(source) do

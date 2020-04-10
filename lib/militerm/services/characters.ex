@@ -19,7 +19,6 @@ defmodule Militerm.Services.Characters do
 
     Militerm.Systems.Entity.unhibernate(entity)
     Militerm.Systems.Entity.register_interface(entity, receiver)
-    # TODO: increment player count in-game
 
     Militerm.Systems.Entity.event(entity, "enter:game", "actor", %{
       "this" => entity,
@@ -33,8 +32,6 @@ defmodule Militerm.Services.Characters do
   end
 
   def leave_game({:thing, entity_id} = entity) do
-    # TODO: decrement player count in-game
-
     {:ok, entity_pid} = Militerm.Systems.Entity.whereis(entity)
     %{cap_name: cap_name} = Accounts.get_character(entity_id: entity_id)
 

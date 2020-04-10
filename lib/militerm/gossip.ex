@@ -22,7 +22,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def players() do
-    []
+    Militerm.Systems.Gossip.players()
   end
 
   @impl true
@@ -30,7 +30,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def message_broadcast(message) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - message broadcast #{inspect(message)}"
     end)
 
@@ -45,7 +45,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def player_sign_in(game_name, player_name) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - new player sign in #{player_name}@#{game_name}"
     end)
 
@@ -54,7 +54,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def player_sign_out(game_name, player_name) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - new player sign out #{player_name}@#{game_name}"
     end)
 
@@ -70,7 +70,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def tell_receive(from_game, from_player, to_player, message) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - received tell from #{from_player}@#{from_game} for #{to_player}"
     end)
 
@@ -84,7 +84,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def game_connect(game) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - #{game} up"
     end)
 
@@ -93,7 +93,7 @@ defmodule Militerm.Gossip do
 
   @impl true
   def game_disconnect(game) do
-    Logger.info(fn ->
+    Logger.debug(fn ->
       "Gossip - #{game} down"
     end)
 

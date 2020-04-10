@@ -275,7 +275,7 @@ defmodule Militerm.Machines.Script do
 
   defp execute_step(:uhoh, %{stack: [message | stack], objects: objects} = state) do
     with {:ok, parse} <- Militerm.Parsers.MML.parse(message),
-         {:ok, bound_message} <- Militerm.MML.bind(parse, objects) do
+         {:ok, bound_message} <- Militerm.Systems.MML.bind(parse, objects) do
       %{
         state
         | stack: [
@@ -300,7 +300,6 @@ defmodule Militerm.Machines.Script do
 
   defp execute_step(:index, %{stack: [prop | [base | stack]], objects: objects} = state)
        when is_list(base) do
-    # TODO: make these async so we can run multiple property calls at the same time
     %{
       state
       | stack: [
@@ -311,8 +310,6 @@ defmodule Militerm.Machines.Script do
           | stack
         ]
     }
-
-    #    %{state | stack: [ base |> Enum.map(&(Entity.property(&1, prop, objects))) | stack]}
   end
 
   defp execute_step(:index, %{stack: [idx | [base | stack]]} = state) when is_map(base) do
@@ -365,10 +362,16 @@ defmodule Militerm.Machines.Script do
       |> Militerm.Services.Location.find_near()
       |> Enum.map(fn item -> {item, "observer"} end)
 
+    observers =
+      case Militerm.Services.Location.where(this) do
+        {_, loc} -> [{loc, "observer"} | observers]
+        _ -> observers
+      end
+
     {:ok, bound_message} =
       message
       |> Militerm.Parsers.MML.parse!()
-      |> Militerm.MML.bind(
+      |> Militerm.Systems.MML.bind(
         objects
         |> Map.put("actor", to_list(this))
       )
@@ -612,9 +615,9 @@ defmodule Militerm.Machines.Script do
   defp resolve_var_references(bits, pad) do
     Enum.flat_map(bits, fn bit ->
       case bit do
-        <<"$", rest::binary>> ->
+        <<"$", _::binary>> = var ->
           pad
-          |> Map.get(rest, "")
+          |> Map.get(var, "")
           |> String.split(":")
 
         _ ->
@@ -671,6 +674,12 @@ defmodule Militerm.Machines.Script do
 
   defp do_series_op(init, op, type, %{stack: [n | rest]} = state) when n > 0 do
     {values, new_stack} = Enum.split(rest, n)
+
+    values =
+      case values do
+        [a, b] -> [b, a]
+        _ -> values
+      end
 
     %{
       state

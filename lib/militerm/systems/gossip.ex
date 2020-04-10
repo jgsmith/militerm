@@ -3,8 +3,8 @@ defmodule Militerm.Systems.Gossip do
   Provides a system interface between the Gossip network and the game.
   """
   use Militerm.ECS.System
-  alias Militerm.Systems.{Entity, Events}
-  alias Militerm.English
+  alias Militerm.Systems.{Entity}
+  alias Militerm.{Accounts, English}
 
   defcommand who(bits), for: %{"this" => this} = args do
     do_who_command(bits, this)
@@ -86,6 +86,56 @@ defmodule Militerm.Systems.Gossip do
           }"
         )
     end
+  end
+
+  defscript gossip_channel_broadcast(channel, message), for: %{"this" => {:thing, entity_id}} do
+    case Militerm.Components.Identity.get(entity_id) do
+      %{"name" => name} ->
+        Gossip.broadcast(channel, %{name: name, message: message})
+        true
+
+      _ ->
+        false
+    end
+  end
+
+  defscript gossip_tell(target_game, target_player, message),
+    for: %{"this" => {:thing, entity_id}} do
+    if player_at_game?(String.downcase(target_game), String.downcase(target_player)) do
+      case Militerm.Components.Identity.get(entity_id) do
+        %{"name" => name} ->
+          Gossip.send_tell(target_player, target_game, name, message)
+          true
+
+        _ ->
+          false
+      end
+    else
+      false
+    end
+  end
+
+  def player_at_game?(target_game, target_player) do
+    {_, players} =
+      Gossip.who()
+      |> Enum.find({nil, []}, fn {name, _} ->
+        String.downcase(name) == target_game
+      end)
+
+    Enum.any?(players, fn name ->
+      String.downcase(name) == target_player
+    end)
+  end
+
+  def players() do
+    Militerm.Services.Characters.list_characters()
+    |> Enum.map(fn entity_id ->
+      case Militerm.Components.Identity.get(entity_id) do
+        %{"name" => name} -> name
+        _ -> nil
+      end
+    end)
+    |> Enum.reject(&is_nil/1)
   end
 
   def player_sign_in(game_name, player_name) do

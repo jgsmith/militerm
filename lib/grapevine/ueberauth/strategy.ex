@@ -1,8 +1,11 @@
 defmodule Grapevine.Ueberauth.Strategy do
   @moduledoc """
   Grapevine authentication strategy for Ueberauth.
-  Borrowed from exventure with changes for militerm.
   """
+
+  #
+  # Based on the grapevine support in ex_venture
+  #
 
   use Ueberauth.Strategy, default_scope: "profile email"
 

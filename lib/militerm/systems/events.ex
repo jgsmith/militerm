@@ -10,11 +10,15 @@ defmodule Militerm.Systems.Events do
   """
   def trigger(entity_id, event, args) do
     # shares the event with anything that can observe the entity
-    {prep, loc} = Militerm.Services.Location.where({:thing, entity_id})
-    observers = Militerm.Services.Location.find_in(loc)
+    observers =
+      case Militerm.Services.Location.where({:thing, entity_id}) do
+        {prep, loc} -> [loc | Militerm.Services.Location.find_in(loc)]
+        _ -> Militerm.Services.Location.find_in({:thing, entity_id})
+      end
 
     args = Map.put(args, "trigger", entity_id)
     observed = {:thing, entity_id}
+    args = Map.put(args, :trigger, observed)
     Militerm.Systems.Entity.event(observed, event, "observed", args)
 
     for observer <- observers -- [observed] do
@@ -24,13 +28,28 @@ defmodule Militerm.Systems.Events do
     :ok
   end
 
+  def trigger(entity_id, event, role, args) do
+    entity = {:thing, entity_id}
+    args = Map.put(args, "trigger", entity)
+    Militerm.Systems.Entity.event(entity, event, role, args)
+
+    :ok
+  end
+
+  def async_trigger(entity_id, event, role, args) do
+    entity = {:thing, entity_id}
+    args = Map.put(args, "trigger", entity)
+    Militerm.Services.Events.queue_event(entity_id, event, role, args)
+    :ok
+  end
+
   @doc """
   Shares narration with observers and participants.
   """
   def narrate(entity_id, message, slots, sense, ignore \\ []) do
     binding = MML.bind(message, slots)
-    {prep, loc_id, coord} = loc = Militerm.Components.Location.where(entity_id)
-    observers = Militerm.Components.Location.find_in(loc_id)
+    {prep, location} = Militerm.Services.Location.where(entity_id)
+    observers = Militerm.Services.Location.find_in(location)
     used_slots = MML.used_slots(binding)
 
     used_slots = if "actor" in used_slots, do: used_slots, else: ["this" | used_slots]
@@ -49,7 +68,7 @@ defmodule Militerm.Systems.Events do
 
     for thing <- targets do
       Militerm.Systems.Entity.async_event(thing, "env:#{sense}", :observer, %{
-        text: MML.render_slots(thing, message)
+        text: message
       })
     end
 

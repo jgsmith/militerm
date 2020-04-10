@@ -18,7 +18,7 @@ defmodule Militerm.Components.Traits do
 
     update(entity_id, fn
       nil -> nil
-      map -> Map.delete(map, path)
+      map -> Map.delete(map, spath)
     end)
   end
 

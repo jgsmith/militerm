@@ -1,4 +1,4 @@
-defmodule Militerm.Utils.AberToMiliterm do
+defmodule Militerm.Util.AberToMiliterm do
   @moduledoc """
   Provides utilities to create militerm areas out of Abermud zone files.
   """
@@ -135,7 +135,6 @@ defmodule Militerm.Utils.AberToMiliterm do
              %{
                "target" => scene_id,
                "guarded" => true
-               # TODO: figure out door/guard situation
              }}
 
           _ ->
@@ -156,7 +155,6 @@ defmodule Militerm.Utils.AberToMiliterm do
              %{
                "target" => scene_id,
                "guarded" => true
-               # TODO: figure out door/guard situation
              }}
 
           _ ->

@@ -6,7 +6,6 @@ defmodule Militerm.Accounts.Character do
     field :cap_name, :string
     field :name, :string
     field :user_id, :id
-    # TODO: make this ephemeral - doesn't need to be saved to the DB
     field :gender, :string
     field :entity_id, :string
 

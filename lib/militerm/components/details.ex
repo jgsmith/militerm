@@ -25,7 +25,6 @@ defmodule Militerm.Components.Details do
 
   def get_raw_value(entity_id, []), do: details(entity_id)
 
-  # TODO: make more efficient using a Repo.exists? query on entity_id/detail
   def get_raw_value(entity_id, [detail]) do
     0 !=
       entity_id
