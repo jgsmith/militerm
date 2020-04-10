@@ -55,6 +55,8 @@ defmodule Militerm.Application do
 
     repos = if standalone, do: [Militerm.Repo], else: []
 
+    watchers = if Militerm.Config.watch_game_files(), do: [Militerm.Dev.GameWatcher], else: []
+
     cluster = [
       {Cluster.Supervisor,
        [
@@ -63,7 +65,8 @@ defmodule Militerm.Application do
        ]}
     ]
 
-    children = cluster ++ repos ++ caches ++ services ++ components ++ endpoints ++ interfaces
+    children =
+      cluster ++ repos ++ caches ++ services ++ components ++ watchers ++ endpoints ++ interfaces
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options

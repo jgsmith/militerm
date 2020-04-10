@@ -31,6 +31,8 @@ defmodule Militerm.Services.Socials do
     GenServer.call(__MODULE__, {:add, scope, first_word, syntax})
   end
 
+  def reload_file(file), do: GenServer.call(__MODULE__, {:reload, file})
+
   def get_syntaxes(_scope, word) do
     # removes the thing from the global map registry
     GenServer.call(__MODULE__, {:get_syntaxes, word})
@@ -59,6 +61,11 @@ defmodule Militerm.Services.Socials do
     {:reply, Map.get(store, word, []), store}
   end
 
+  @impl true
+  def handle_call({:reload, file}, _from, store) do
+    {:reply, :ok, reload_file(file, store)}
+  end
+
   def handle_info(:load_souls, store) do
     {:noreply, load_souls(Config.game_dir() <> "/souls", store)}
   end
@@ -73,6 +80,49 @@ defmodule Militerm.Services.Socials do
     Map.put(store, first_word, [syntax | word_syntaxes])
   end
 
+  def reload_file(file, store) do
+    case load_and_parse(file) do
+      %{"syntaxes" => syntaxes, "verb" => word} = parse ->
+        metadata =
+          parse
+          |> Map.drop(["syntaxes", "verb"])
+          |> Map.put("source", file)
+
+        store =
+          store
+          |> Enum.map(fn {word, list} ->
+            {word, Enum.reject(list, fn map -> Map.get(map, "source") == file end)}
+          end)
+          |> Enum.into(%{})
+
+        Enum.reduce(syntaxes, store, fn syntax, word_store ->
+          case String.split(word, " ", trim: true) do
+            [word] ->
+              do_add(word_store, word, Map.merge(syntax, metadata))
+
+            [word | rest] ->
+              rest_pattern =
+                rest
+                |> Enum.map(&{:word_list, [&1], nil})
+
+              aug_syntax =
+                %{
+                  syntax
+                  | pattern: rest_pattern ++ syntax.pattern,
+                    short: Enum.join(rest, " ") <> " " <> syntax.short,
+                    weight: Enum.count(rest) * 10 + syntax.weight
+                }
+                |> Map.merge(metadata)
+
+              do_add(word_store, word, aug_syntax)
+          end
+        end)
+
+      _ ->
+        store
+    end
+  end
+
   def load_souls(path, store) do
     # path / * / soul.md
     paths = Path.wildcard(path <> "/*/*.yaml")
@@ -80,7 +130,10 @@ defmodule Militerm.Services.Socials do
     Enum.reduce(paths, store, fn path, store ->
       case load_and_parse(path) do
         %{"syntaxes" => syntaxes, "verb" => word} = parse ->
-          metadata = Map.drop(parse, ["syntaxes", "verb"])
+          metadata =
+            parse
+            |> Map.drop(["syntaxes", "verb"])
+            |> Map.put("source", path)
 
           Enum.reduce(syntaxes, store, fn syntax, word_store ->
             case String.split(word, " ", trim: true) do

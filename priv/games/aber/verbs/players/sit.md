@@ -11,3 +11,4 @@ see also:
   - kneel
   - crouch
 ---
+Lets you sit down if you aren't already.

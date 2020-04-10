@@ -24,7 +24,9 @@ config :militerm, MilitermWeb.Endpoint,
     ]
   ]
 
-config :militerm, :game, dir: "priv/games/aber"
+config :militerm, :game,
+  dir: "priv/games/aber",
+  watch_files: true
 
 config :militerm, MilitermTelnet.Endpoint,
   tcp: [port: 6666],

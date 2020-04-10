@@ -3,7 +3,7 @@ defmodule MilitermWeb.GameController do
 
   alias Militerm.Accounts
   alias Militerm.Components.Identity
-  
+
   import Ecto.Query
 
   def index(conn, _params) do
