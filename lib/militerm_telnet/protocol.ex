@@ -3,6 +3,12 @@ defmodule MilitermTelnet.Protocol do
 
   require Logger
 
+  #
+  # Based on the telnet support in ex_venture
+  #
+
+  @behaviour :ranch_protocol
+
   @iac 255
   @will 251
   @wont 252
@@ -27,7 +33,7 @@ defmodule MilitermTelnet.Protocol do
 
   @impl :ranch_protocol
   def start_link(ref, _socket, transport, opts) do
-    pid = :proc_lib.spawn_link(__MODULE__, :init, [ref, transport, opts])
+    pid = :proc_lib.spawn_link(__MODULE__, :init, [[ref, transport, opts]])
     {:ok, pid}
   end
 
@@ -59,7 +65,8 @@ defmodule MilitermTelnet.Protocol do
 
   def send_prompt(state, prompt), do: send_data(state, prompt)
 
-  def init(ref, transport, _opts) do
+  @impl true
+  def init([ref, transport, _opts]) do
     # Logger.info("Player connecting", type: :socket)
     # PlayerInstrumenter.session_started(:telnet)
 
@@ -90,11 +97,8 @@ defmodule MilitermTelnet.Protocol do
     })
   end
 
-  def handle_cast(
-        :start_session,
-        %{mode: mode, ref: ref, socket: socket, transport: transport} = state
-      ) do
-    # :ok = :ranch.accept_ack(ref)
+  @impl true
+  def handle_cast(:start_session, %{mode: mode} = state) do
     Swarm.join(:telnet, self())
     send_data(state, <<@iac, @will, @mccp>>)
     send_data(state, <<@iac, @will, @mssp>>)
@@ -109,7 +113,7 @@ defmodule MilitermTelnet.Protocol do
     {:stop, :normal, state}
   end
 
-  def handle_cast({:receive_message, message_type, message}, %{entity_id: entity_id} = state) do
+  def handle_cast({:receive_message, _message_type, message}, %{entity_id: entity_id} = state) do
     if not is_nil(entity_id) do
       send_data(state, [render_mml(entity_id, message), @crlf])
     end
@@ -122,6 +126,7 @@ defmodule MilitermTelnet.Protocol do
     {:noreply, state}
   end
 
+  @impl true
   def handle_info({:tcp, _port, data}, %{mode: mode} = state) do
     {text, new_state} = process_options(data, state)
     new_state = mode.process_input(new_state, text)
@@ -181,26 +186,28 @@ defmodule MilitermTelnet.Protocol do
   end
 
   defp disconnect(transport, socket, state) do
-    # terminate_zlib_context(state)
-
-    case state do
-      %{session: pid} ->
-        Logger.info("Disconnecting player", type: :socket)
-
-      # pid |> Game.Session.disconnect()
-
-      _ ->
-        nil
-    end
+    terminate_zlib_context(state)
 
     transport.close(socket)
   end
+
+  defp terminate_zlib_context(%{zlib_context: nil} = state), do: state
+
+  defp terminate_zlib_context(%{zlib_context: zlib_context} = state) do
+    :zlib.deflate(zlib_context, "", :finish)
+    :zlib.deflateEnd(zlib_context)
+    %{state | zlib_context: nil}
+  end
+
+  defp terminate_zlib_context(state), do: state
+
+  def process_options(data, state, acc \\ [])
 
   def process_options(<<>>, state, acc) do
     {to_string(Enum.reverse(acc)), state}
   end
 
-  def process_options(data, state, acc \\ []) do
+  def process_options(data, state, acc) do
     case data do
       <<@iac, @telnet_do, @mccp, data::binary>> ->
         Logger.info("Starting MCCP", type: :socket)

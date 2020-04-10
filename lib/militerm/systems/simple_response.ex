@@ -16,79 +16,69 @@ defmodule Militerm.Systems.SimpleResponse do
 
   This should be sufficient to build a bot based on the old Eliza game.
   """
+  use Militerm.ECS.System
 
-  @doc """
-  Takes a pattern and returns the Elixir regex that can match against
-  a string.
-
-  Patterns:
-    $name - a single word
-    $name* - zero, one, or more words
-    $name? - zero or one word
-    $name+ - one or more words
-    $$ - literal dollar sign
-    
-  ## Examples
-
-    iex> Regex.named_captures(SimpleResponse.compile_pattern("This is fun!"), "This is fun!")
-    %{}
-    
-    iex> Regex.named_captures(SimpleResponse.compile_pattern("$x* hello $y*"), "Why hello there")
-    %{"x" => "Why", "y" => "there"}
-  """
-  def compile_pattern(pattern) do
-    [literal | rest] = String.split(pattern, ~r{\s*\$})
-
-    raw =
-      [prepare_literal(literal) | compile_pattern_bits(rest)]
-      |> Enum.map(&Regex.source/1)
-      |> Enum.join("")
-
-    Regex.compile!("^#{raw}$")
+  defscript simple_response_trigger_event(set, text), for: objects do
+    do_sr_trigger_event(objects, set, text)
   end
 
-  def compile_pattern_bits(list, acc \\ [])
-
-  def compile_pattern_bits([], acc), do: Enum.reverse(acc)
-
-  def compile_pattern_bits([<<"$", _::binary>> = literal | rest], acc) do
-    compile_pattern_bits(rest, [Regex.escape(literal) | acc])
+  defscript simple_response_trigger_event(set, text, default_event), for: objects do
+    do_sr_trigger_event(objects, set, text, default_event)
   end
 
-  def compile_pattern_bits([match | rest], acc) do
-    case Regex.run(~r{([a-zA-Z]+)([?*+]?)\s*(.*)}, match, capture: :all_but_first) do
-      [name, quantifier, literal] ->
-        compile_pattern_bits(rest, [
-          prepare_literal(literal),
-          prepare_match(name, quantifier)
-          | acc
-        ])
-
-      nil ->
-        compile_pattern_bits(rest, [prepare_literal("$#{match}") | acc])
-    end
+  def do_sr_trigger_event(%{"this" => this} = objects, set, [text], default_event \\ nil) do
+    this
+    |> get_pattern_set(set)
+    |> find_match(text)
+    |> trigger_event(objects, default_event)
   end
 
-  def prepare_literal(literal) do
-    literal
-    |> Regex.escape()
-    |> String.replace(~r{(\\ )+}, ~S"\s+")
-    |> Regex.compile!()
+  def do_sr_trigger_event(_, _, _, _), do: false
+
+  def get_pattern_set({:thing, thing_id}, set) do
+    Militerm.Components.SimpleResponses.get_set(thing_id, set)
   end
 
-  def prepare_match(name, "") do
-    Regex.compile!("\\b\\s*(?<#{name}>\\S+)\\b\\s*")
+  def get_pattern_set({:thing, thing_id, _}, set) do
+    Militerm.Components.SimpleResponses.get_set(thing_id, set)
   end
 
-  def prepare_match(name, "?") do
-    Regex.compile!("\\b\\s*(?<#{name}>(\\S+)?)\\b\\s*")
+  def find_match(patterns, text) do
+    patterns
+    |> Enum.find_value(fn %{"regex" => regex, "event" => event} ->
+      case Regex.named_captures(regex, text) do
+        %{} = captures -> {event, captures}
+        _ -> false
+      end
+    end)
   end
 
-  def prepare_match(name, "*") do
-    Regex.compile!("\\b\\s*(?<#{name}>((\\S+(\\s+\\S+)*))?)\\b\\s*")
+  def trigger_event(nil, _, nil), do: false
+
+  def trigger_event(nil, %{"this" => this} = objects, event) do
+    do_trigger_event(this, event, objects)
+    false
   end
 
-  def prepare_match(name, "+") do
-    Regex.compile!("\\b\\s*(?<#{name}>(\\S+(\\s+\\S+)*))\\b\\s*")
+  def trigger_event({event, captures}, %{"this" => this} = objects, _) do
+    do_trigger_event(this, event, Map.merge(captures, objects))
+  end
+
+  def trigger_event(event, %{"this" => this} = objects, _) do
+    do_trigger_event(this, event, objects)
+    true
+  end
+
+  def do_trigger_event({:thing, thing_id}, event, args) do
+    do_trigger_event(thing_id, event, args)
+  end
+
+  def do_trigger_event({:thing, thing_id, _}, event, args) do
+    do_trigger_event(thing_id, event, args)
+  end
+
+  def do_trigger_event(thing_id, event, args) do
+    Militerm.Systems.Events.async_trigger(thing_id, event, "responder", args)
+    true
   end
 end

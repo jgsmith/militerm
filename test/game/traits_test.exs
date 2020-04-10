@@ -1,7 +1,7 @@
 defmodule Game.TraitsTest do
   use Militerm.DataCase, async: false
 
-  alias Militerm.Test.{Entity, Scene}
+  alias Militerm.Test.{Entity}
 
   setup do
     Militerm.Systems.Entity.whereis("scene:test:area:start")

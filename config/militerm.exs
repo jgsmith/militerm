@@ -14,6 +14,7 @@ config :militerm, :components,
   resource: Components.Resources,
   skill: Components.Skills,
   stat: Components.Stats,
+  "simple-response": Components.SimpleResponses,
   thing: Components.Things,
   trait: Components.Traits
 

@@ -10,6 +10,8 @@ is player
 
 can finish:verb as actor
 
+can say as actor
+
 calculates foo:bar with "Foo is Bar"
 
 ##
@@ -18,7 +20,7 @@ calculates foo:bar with "Foo is Bar"
 # Used to report on events around that can be seen.
 #
 reacts to msg:sight with
-  Emit("{narrative class='sight'}" _ text _ "{/narrative}")
+  Emit("{narrative class='sight'}{{ text }}{/narrative}")
 
 ##
 # enter:game
@@ -26,7 +28,7 @@ reacts to msg:sight with
 # Used when a character enters the game.
 #
 reacts to enter:game as actor with
-  Emit("{env sense='sight'}" _ Describe() _ "{/env}")
+  Emit("{env sense='sight'}{{ Describe() }}{/env}")
 
 ##
 # leave:game

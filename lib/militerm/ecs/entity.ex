@@ -90,7 +90,6 @@ defmodule Militerm.ECS.Entity do
 
     for {module_key, module_data} <- data do
       module = Map.get(component_mapping, as_atom(module_key), nil)
-
       if not is_nil(module), do: module.set(entity_id, module_data)
     end
 

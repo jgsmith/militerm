@@ -31,8 +31,6 @@ defmodule Militerm.Parsers.Command do
     |> match_syntax()
   end
 
-  # TODO: parse out adverbs at the bigging of the command - let syntaxes determine where
-  # adverbs can go after the first word that isn't an adverb
   def take_adverbs(state), do: Map.put(state, :adverbs, [])
 
   def fetch_syntaxes(%{command: [word | _]} = state, syntax_provider) do

@@ -6,7 +6,6 @@ defmodule Militerm.Accounts.User do
 
   schema "users" do
     field :email, :string
-    # TODO: modify as needed for grapevine auth
     field :uid, :string
     field :name, :string
     field :is_admin, :boolean

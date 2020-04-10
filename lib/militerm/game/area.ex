@@ -20,9 +20,6 @@ defmodule Militerm.Game.Area do
     |> cast(attrs, [:name, :description])
     |> update_plug()
     |> validate_required([:name, :plug, :description])
-
-    # |> unique_constraint(:name)
-    # TODO: unique_constraint - core_areas_domain_id_name_index
   end
 
   def update_plug(%{changes: %{name: nil}} = changeset), do: changeset

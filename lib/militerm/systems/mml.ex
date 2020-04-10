@@ -62,6 +62,40 @@ defmodule Militerm.Systems.MML do
     end
   end
 
+  def used_slots({:bound, message, _}), do: used_slots(message)
+
+  def used_slots([], slots), do: Enum.uniq(Enum.reverse(slots))
+
+  def used_slots([{:slot, slot} | rest], slots) do
+    used_slots(rest, [slot | slots])
+  end
+
+  def used_slots([{:slot, slot, _} | rest], slots) do
+    used_slots(rest, [slot | slots])
+  end
+
+  def used_slots([{:tag, attributes, nodes} | rest], slots) do
+    # attributes first, then nodes
+    used_slots(
+      rest,
+      used_slots_in_attributes(attributes) ++ used_slots(nodes) ++ slots
+    )
+  end
+
+  def used_slots([_ | rest], slots), do: used_slots(rest, slots)
+
+  def used_slots_in_attributes(attributes) do
+    case Keyword.fetch(attributes, :attributes) do
+      {:ok, list} ->
+        list
+        |> Enum.flat_map(fn {_, value} -> used_slots(value) end)
+        |> Enum.uniq()
+
+      _ ->
+        []
+    end
+  end
+
   def render({:bound, parse, bindings}, pov, device) do
     parse
     |> Enum.map(fn item -> render_item(item, bindings, pov, device) end)

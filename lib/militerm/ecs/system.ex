@@ -45,7 +45,7 @@ defmodule Militerm.ECS.System do
   @doc false
   def define_script_function({name, loc, args} = header, opts) do
     arity = Enum.count(args)
-    script_name = Keyword.get(opts, :as, name |> to_string |> String.capitalize())
+    script_name = Keyword.get(opts, :as, name |> to_string |> camel_case)
     # script_name = as |> to_string() |> String.capitalize()
     function_name = String.to_atom("script_" <> to_string(name))
     body = Keyword.fetch!(opts, :do)
@@ -75,5 +75,13 @@ defmodule Militerm.ECS.System do
         {unquote(command), {unquote(function_name), []}} | @commands
       ]
     end
+  end
+
+  defp camel_case(string) do
+    string
+    |> String.capitalize()
+    |> String.replace(~r{_(.)}, fn <<"_", rest::binary>> ->
+      String.capitalize(rest)
+    end)
   end
 end

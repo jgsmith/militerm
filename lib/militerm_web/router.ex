@@ -22,6 +22,9 @@ defmodule MilitermWeb.Router do
     plug Guardian.Plug.EnsureAuthenticated
   end
 
+  pipeline :ensure_admin do
+  end
+
   scope "/", MilitermWeb do
     pipe_through [:browser, :auth]
 
@@ -43,8 +46,7 @@ defmodule MilitermWeb.Router do
   end
 
   scope "/admin", MilitermWeb do
-    # TODO: :ensure_admin
-    pipe_through [:browser, :auth, :ensure_auth]
+    pipe_through [:browser, :auth, :ensure_auth, :ensure_admin]
 
     get "/", AdminController, :index
 

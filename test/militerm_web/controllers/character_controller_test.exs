@@ -4,7 +4,6 @@ defmodule MilitermWeb.CharacterControllerTest do
   alias Militerm.Accounts
 
   @create_attrs %{cap_name: "SomeCap-Name", gender: "male"}
-  @update_attrs %{cap_name: "SomeUpdatedCap-Name", gender: "female"}
   @invalid_attrs %{cap_name: "some-cap--name", gender: nil}
 
   @create_user_attrs %{
@@ -80,11 +79,6 @@ defmodule MilitermWeb.CharacterControllerTest do
 
       assert html_response(conn, 200) =~ "New Character"
     end
-  end
-
-  defp create_character(_) do
-    character = fixture(:character)
-    {:ok, character: character}
   end
 
   defp authenticate(conn, %{} = user) do

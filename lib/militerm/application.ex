@@ -13,6 +13,7 @@ defmodule Militerm.Application do
       # Starts a worker by calling: Militerm.Worker.start_link(arg)
       # {Militerm.Worker, arg},
       Militerm.Services.Commands,
+      Militerm.Services.Events,
       Militerm.Services.GlobalMap,
       Militerm.Services.Verbs,
       Militerm.Services.Socials,
@@ -58,12 +59,12 @@ defmodule Militerm.Application do
 
     Swarm.register_name(Gossip, Militerm.Gossip.Process, :start_link, [])
 
-    # TODO: make this easier to manage
     Task.async(&Militerm.Systems.Logger.initialize/0)
     Task.async(&Militerm.Systems.Entity.initialize/0)
     Task.async(&Militerm.Systems.Gossip.initialize/0)
     Task.async(&Militerm.Systems.MML.initialize/0)
     Task.async(&Militerm.Systems.Location.initialize/0)
+    Task.async(&Militerm.Systems.SimpleResponse.initialize/0)
     Task.async(&MilitermWeb.Tags.Colors.initialize/0)
     Task.async(&MilitermWeb.Tags.Environment.initialize/0)
     Task.async(&Militerm.Tags.English.initialize/0)

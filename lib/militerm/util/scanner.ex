@@ -216,13 +216,11 @@ defmodule Militerm.Util.Scanner do
   end
 
   def handle_call({:error, message, regex}, _from, {string, _, _, _} = state) do
-    # TODO: put in line/column
     message_tuple =
       {message, state_coords(state), string |> String.slice(0, 20) |> escape_escapes}
 
     case do_scan_until(regex, true, state) do
       {new_state, _} ->
-        # TODO: put in line/column
         {:reply, message_tuple, new_state}
 
       _ ->

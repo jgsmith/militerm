@@ -13,7 +13,7 @@ defmodule Militerm.Command.Plugs.RunSocial do
       {:ok, bound_message} =
         narrative
         |> Militerm.Parsers.MML.parse!()
-        |> Militerm.MML.bind(
+        |> Militerm.Systems.MML.bind(
           slots
           |> Map.put("actor", to_list(entity))
         )

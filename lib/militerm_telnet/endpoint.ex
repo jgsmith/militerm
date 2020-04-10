@@ -4,7 +4,9 @@ defmodule MilitermTelnet.Endpoint do
   communication.
   """
 
-  # @port Keyword.fetch!(IO.inspect(Application.get_env(:militerm, __MODULE__))[:tcp], :port)
+  #
+  # Based on the telnet support in ex_venture
+  #
 
   require Logger
 
