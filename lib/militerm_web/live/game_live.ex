@@ -37,6 +37,11 @@ defmodule MilitermWeb.GameLive do
     """
   end
 
+  def receive_message(pid, "prompt", message) do
+    # we don't display a prompt in the web client
+    :ok
+  end
+
   def receive_message(pid, message_type, message) do
     GenServer.cast(pid, {:receive_message, message_type, message})
   end

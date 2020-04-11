@@ -649,10 +649,7 @@ defmodule Militerm.Machines.Script do
     [prime | sets] =
       list
       |> Enum.map(fn x ->
-        cond do
-          is_list(x) -> MapSet.new(x)
-          true -> MapSet.new([x])
-        end
+        if is_list(x), do: MapSet.new(x), else: MapSet.new([x])
       end)
 
     %{

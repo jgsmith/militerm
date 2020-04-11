@@ -19,7 +19,6 @@ defmodule MilitermTelnet.Modes.Play do
     else
       Militerm.Systems.Entity.process_input({:thing, entity_id}, input)
 
-      GenServer.cast(self(), {:prompt, "> "})
       state
     end
   end

@@ -14,19 +14,12 @@ defmodule Militerm.Systems.MML do
   event handling cycle.
   """
   defscript emit(content), for: %{"this" => this} = objects do
-    case content do
-      {:bound, _, _} = message ->
-        Militerm.Systems.Entity.receive_message(
-          this,
-          "emit",
-          message,
-          objects
-        )
+    Militerm.Systems.Entity.receive_message(this, "emit", content, objects)
+    true
+  end
 
-      string ->
-        Militerm.Systems.Entity.receive_message(this, "emit", string, objects)
-    end
-
+  defscript prompt(content), for: %{"this" => this} = objects do
+    Militerm.Systems.Entity.receive_message(this, "prompt", content, objects)
     true
   end
 
