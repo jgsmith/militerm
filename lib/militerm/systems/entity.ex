@@ -103,6 +103,7 @@ defmodule Militerm.Systems.Entity do
     case whereis(entity) do
       {:ok, _pid} ->
         # stop the clocks/alarms
+        Militerm.Components.EphemeralGroup.hibernate(entity_id)
         Militerm.Components.Entity.hibernate(entity_id)
         Militerm.Components.Location.hibernate(entity_id)
 

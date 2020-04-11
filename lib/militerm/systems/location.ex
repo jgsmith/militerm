@@ -284,39 +284,43 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defcommand goto(bits), for: %{"this" => this} = args do
-    target =
-      case bits do
-        [location] ->
-          case String.split(location, "@", parts: 2) do
-            [entity_id] ->
-              Militerm.Systems.Entity.whereis({:thing, entity_id})
-              {"in", {:thing, entity_id, "default"}}
+  defcommand goto(bits), for: %{"this" => {:thing, entity_id} = this} = args do
+    if Components.EphemeralGroup.get_value(entity_id, ["admin"]) do
+      target =
+        case bits do
+          [location] ->
+            case String.split(location, "@", parts: 2) do
+              [entity_id] ->
+                Militerm.Systems.Entity.whereis({:thing, entity_id})
+                {"in", {:thing, entity_id, "default"}}
 
-            [coord, entity_id] ->
-              Militerm.Systems.Entity.whereis({:thing, entity_id})
-              {"in", {:thing, entity_id, coord}}
-          end
+              [coord, entity_id] ->
+                Militerm.Systems.Entity.whereis({:thing, entity_id})
+                {"in", {:thing, entity_id, coord}}
+            end
 
-        [prep, location] ->
-          case String.split(location, "@", parts: 2) do
-            [entity_id] ->
-              Militerm.Systems.Entity.whereis({:thing, entity_id})
-              {prep, {:thing, entity_id, "default"}}
+          [prep, location] ->
+            case String.split(location, "@", parts: 2) do
+              [entity_id] ->
+                Militerm.Systems.Entity.whereis({:thing, entity_id})
+                {prep, {:thing, entity_id, "default"}}
 
-            [coord, entity_id] ->
-              Militerm.Systems.Entity.whereis({:thing, entity_id})
-              {prep, {:thing, entity_id, coord}}
-          end
+              [coord, entity_id] ->
+                Militerm.Systems.Entity.whereis({:thing, entity_id})
+                {prep, {:thing, entity_id, coord}}
+            end
 
-        _ ->
-          nil
+          _ ->
+            nil
+        end
+
+      if target && Militerm.Services.Location.place(this, target) do
+        Events.run_event_set(["scan:env:brief"], ["actor"], Map.put(args, "actor", [this]))
+      else
+        Entity.receive_message(this, "cmd", "Unable to move to #{Enum.join(bits, " ")}", args)
       end
-
-    if target && Militerm.Services.Location.place(this, target) do
-      Events.run_event_set(["scan:env:brief"], ["actor"], Map.put(args, "actor", [this]))
     else
-      Entity.receive_message(this, "cmd", "Unable to move to #{Enum.join(bits, " ")}", args)
+      Entity.receive_message(this, "cmd:error", "You aren't allowed to use the @goto command.")
     end
   end
 
