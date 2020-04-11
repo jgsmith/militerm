@@ -1,5 +1,7 @@
 # Militerm
 
+[![CircleCI](https://circleci.com/gh/jgsmith/militerm/tree/master.svg?style=svg)](https://circleci.com/gh/jgsmith/militerm/tree/master)
+
 A text-based MMORPG engine written in Elixir, Militerm builds on the pattern of LPC muds with a
 core driver, mudlib, and content.
 
