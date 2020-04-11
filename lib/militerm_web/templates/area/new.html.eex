@@ -1,5 +1,0 @@
-<h1>New Area for <%= @domain.name %></h1>
-
-<%= render "form.html", Map.put(assigns, :action, AdminRoutes.domain_area_path(@conn, :create, @domain)) %>
-
-<span><%= link "Back", to: AdminRoutes.domain_path(@conn, :show, @domain) %></span>

@@ -1,5 +1,0 @@
-<h1>Edit Scene</h1>
-
-<%= render "form.html", Map.put(assigns, :action, AdminRoutes.scene_path(@conn, :update, @scene)) %>
-
-<span><%= link "Back", to: AdminRoutes.scene_path(@conn, :show, @scene) %></span>
