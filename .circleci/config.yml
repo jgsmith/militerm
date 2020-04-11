@@ -14,7 +14,7 @@ jobs:
       - image: circleci/postgres:10.1-alpine
         environment:
           POSTGRES_USER: postgres
-          POSTGRES_DB: wlc_engine_test
+          POSTGRES_DB: militerm_test
           POSTGRES_PASSWORD: postgres
     working_directory: ~/app
     steps:
@@ -56,6 +56,6 @@ jobs:
        - run:
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
-
+      - run: mix ecto.setup
       - run: mix test --exclude feature:true --exclude unreliable:true
       
