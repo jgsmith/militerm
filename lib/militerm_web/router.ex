@@ -49,16 +49,6 @@ defmodule MilitermWeb.Router do
     pipe_through [:browser, :auth, :ensure_auth, :ensure_admin]
 
     get "/", AdminController, :index
-
-    resources "/domains", DomainController do
-      resources "/areas", AreaController, only: [:new, :create]
-    end
-
-    resources "/areas", AreaController, only: [:show, :edit, :update, :delete] do
-      resources "/scenes", SceneController, only: [:new, :create]
-    end
-
-    resources "/scenes", SceneController, only: [:show, :edit, :update, :delete]
   end
 
   # Other scopes may use custom stacks.

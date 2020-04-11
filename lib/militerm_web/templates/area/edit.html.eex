@@ -1,5 +1,0 @@
-<h1>Edit Area</h1>
-
-<%= render "form.html", Map.put(assigns, :action, AdminRoutes.area_path(@conn, :update, @area)) %>
-
-<span><%= link "Back", to: AdminRoutes.domain_path(@conn, :show, @area.domain) %></span>
