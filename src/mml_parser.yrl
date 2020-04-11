@@ -62,6 +62,7 @@ markup -> new_line : string('$1').
 markup -> dash : string('$1').
 markup -> script : parse_script(val('$1')).
 
+markup -> '>' : string('$1').
 markup -> '=' : string('$1').
 markup -> '\\' : string('$1').
 markup -> '\\<' : string('$1').

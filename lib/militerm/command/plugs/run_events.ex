@@ -1,25 +1,6 @@
 defmodule Militerm.Command.Plugs.RunEvents do
   @obj_slots ~w[actor direct indirect instrument]
 
-  %{
-    __struct__: Militerm.Command.Pipeline,
-    context: %{
-      actor: {:thing, "std:character#9259d0e8-c4ff-4313-a5e7-55f91b437a1c"}
-    },
-    entity: {:thing, "std:character#9259d0e8-c4ff-4313-a5e7-55f91b437a1c"},
-    error: nil,
-    input: "look",
-    parse: %{
-      adverbs: [],
-      command: ["look"],
-      slots: %{},
-      syntax: %{actions: ["scan:env"], pattern: [], short: "", weight: 0}
-    },
-    parser: Militerm.Parsers.Command,
-    phase: nil,
-    state: :unhandled
-  }
-
   def run(%{parse: %{syntax: %{actions: events}, slots: slots}, entity: entity}, _) do
     actor_can =
       Enum.all?(events, fn event ->
@@ -29,11 +10,23 @@ defmodule Militerm.Command.Plugs.RunEvents do
     if actor_can do
       result =
         Militerm.Systems.Events.run_event_set(
-          events,
+          events ++ ["action:done"],
           @obj_slots,
           Map.put(slots, "actor", [entity])
         )
 
+      entity_id =
+        case entity do
+          {:thing, id} -> id
+          {:thing, id, _} -> id
+        end
+
+      # args = slots
+      #   |> Map.put("actor", [entity])
+      #   |> Map.put("this", entity)
+      # IO.inspect({:async_trigger, entity_id, "action:done", "actor", args})
+      # Militerm.Systems.Events.async_trigger(entity_id, "action:done", "actor", args)
+      # 
       case result do
         {:halt, message} ->
           {:error, message}

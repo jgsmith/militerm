@@ -874,18 +874,16 @@ defmodule Militerm.Parsers.Script do
   end
 
   defp parse_indices(source, acc) do
-    cond do
-      Scanner.scan(source, ~r/\[/) ->
-        case parse_expression(source, ~r/]/) do
-          {:ok, exp} ->
-            parse_indices(source, [exp | acc])
+    if Scanner.scan(source, ~r/\[/) do
+      case parse_expression(source, ~r/]/) do
+        {:ok, exp} ->
+          parse_indices(source, [exp | acc])
 
-          otherwise ->
-            otherwise
-        end
-
-      true ->
-        {:ok, acc |> Enum.reverse()}
+        otherwise ->
+          otherwise
+      end
+    else
+      {:ok, acc |> Enum.reverse()}
     end
   end
 

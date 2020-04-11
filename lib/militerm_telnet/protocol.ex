@@ -41,6 +41,10 @@ defmodule MilitermTelnet.Protocol do
     Swarm.publish(:telnet, {:authenticate_session, session_key, user_id})
   end
 
+  def receive_message(pid, "prompt", message) do
+    GenServer.cast(pid, {:prompt, message})
+  end
+
   def receive_message(pid, message_type, message) do
     GenServer.cast(pid, {:receive_message, message_type, message})
   end
@@ -101,9 +105,9 @@ defmodule MilitermTelnet.Protocol do
   def handle_cast(:start_session, %{mode: mode} = state) do
     Swarm.join(:telnet, self())
     send_data(state, <<@iac, @will, @mccp>>)
-    send_data(state, <<@iac, @will, @mssp>>)
-    send_data(state, <<@iac, @will, @gmcp>>)
-    send_data(state, <<@iac, @will, @mxp>>)
+    # send_data(state, <<@iac, @will, @mssp>>)
+    # send_data(state, <<@iac, @will, @gmcp>>)
+    # send_data(state, <<@iac, @will, @mxp>>)
 
     {:noreply, mode.start_session(state)}
   end
@@ -113,16 +117,16 @@ defmodule MilitermTelnet.Protocol do
     {:stop, :normal, state}
   end
 
-  def handle_cast({:receive_message, _message_type, message}, %{entity_id: entity_id} = state) do
-    if not is_nil(entity_id) do
-      send_data(state, [render_mml(entity_id, message), @crlf])
-    end
+  def handle_cast({:receive_message, _message_type, message}, state) do
+    send_data(state, [render_mml(state, message), @crlf])
 
     {:noreply, state}
   end
 
   def handle_cast({:prompt, prompt}, state) do
-    send_data(state, prompt)
+    # Sending IAC GA after the prompt helps clients like Mudlet
+
+    send_data(state, [render_mml(state, prompt), @iac, @ga])
     {:noreply, state}
   end
 
@@ -162,8 +166,12 @@ defmodule MilitermTelnet.Protocol do
     end
   end
 
-  defp render_mml(entity_id, {:bound, _, _} = binding) do
+  defp render_mml(%{entity_id: entity_id} = state, {:bound, _, _} = binding) do
     Militerm.Systems.MML.render(binding, {:thing, entity_id}, :telnet)
+  end
+
+  defp render_mml(_state, binary) when is_binary(binary) do
+    binary
   end
 
   defp send_data(%{socket: socket, transport: transport} = state, data) do
@@ -265,9 +273,10 @@ defmodule MilitermTelnet.Protocol do
         process_options(data, state, acc)
 
       # <<@iac, @sb, @gmcp, data::binary>> ->
-      #   {data, forward} = split_iac_sb(data)
-      #   forward_options(socket, forward)
-      #   fun.({:gmcp, data})
+
+      # {data, forward} = split_iac_sb(data)
+      # forward_options(socket, forward)
+      # fun.({:gmcp, data})
 
       <<@iac, @telnet_do, @telnet_option_echo, data::binary>> ->
         process_options(data, state, acc)

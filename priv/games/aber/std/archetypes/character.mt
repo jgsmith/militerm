@@ -75,6 +75,15 @@ reacts to tell:remote as player with do
 end
 
 ##
+# action:done - triggered after a verb's event set is run
+#
+# allows us to send a prompt.
+#
+reacts to action:done as actor with do
+  Prompt("> ")
+end
+
+##
 # enter:game
 #
 # Used when a character enters the game.

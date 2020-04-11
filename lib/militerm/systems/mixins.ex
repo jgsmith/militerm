@@ -182,7 +182,8 @@ defmodule Militerm.Systems.Mixins do
   defp do_validation(mixin, entity_id, path, args) do
     with %{validations: validations, mixins: mixins} <- mixin,
          {:ok, value} <-
-           execute_if_in_map(validations, entity_id, path, args)
+           validations
+           |> execute_if_in_map(entity_id, path, args)
            |> execute_if_mixin(
              mixins,
              :has_validation?,
@@ -235,7 +236,8 @@ defmodule Militerm.Systems.Mixins do
   defp do_calculation(mixin, entity_id, path, args) do
     with %{calculations: calculations, mixins: mixins} <- mixin,
          {:ok, value} <-
-           execute_if_in_map(calculations, entity_id, path, args)
+           calculations
+           |> execute_if_in_map(entity_id, path, args)
            |> execute_if_mixin(
              mixins,
              :calculates?,

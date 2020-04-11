@@ -278,12 +278,10 @@ defmodule Militerm.Util.AberToMiliterm do
     sflags = as_list(Map.get(info, "sflags", []))
 
     {nominative, objective, possessive} =
-      cond do
-        "Female" in sflags ->
-          {"she", "her", "her"}
-
-        :else ->
-          {"he", "him", "his"}
+      if "Female" in sflags do
+        {"she", "her", "her"}
+      else
+        {"he", "him", "his"}
       end
 
     # {"domains/aber/areas/#{area}/npcs/#{name}.yaml",
@@ -324,10 +322,15 @@ defmodule Militerm.Util.AberToMiliterm do
   end
 
   def collect_npc_nouns(info) do
-    pname = Map.get(info, "pname", "") |> String.downcase() |> English.remove_article()
+    pname =
+      info
+      |> Map.get("pname", "")
+      |> String.downcase()
+      |> English.remove_article()
 
     name =
-      Map.get(info, "name", "")
+      info
+      |> Map.get("name", "")
       |> String.downcase()
       |> English.remove_article()
       |> String.replace(~r{\d+$}, "")

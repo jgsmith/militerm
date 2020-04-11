@@ -239,7 +239,8 @@ defmodule Militerm.Systems.Archetypes do
     case archetype do
       %{validations: validations, mixins: mixins, ur_name: ur} ->
         handled =
-          execute_if_in_map(validations, entity_id, path, args)
+          validations
+          |> execute_if_in_map(entity_id, path, args)
           |> execute_if_mixin(
             mixins,
             :has_validation?,
@@ -315,7 +316,8 @@ defmodule Militerm.Systems.Archetypes do
     case archetype do
       %{calculations: calculations, mixins: mixins, ur_name: ur} ->
         handled =
-          execute_if_in_map(calculations, entity_id, path, args)
+          calculations
+          |> execute_if_in_map(entity_id, path, args)
           |> execute_if_mixin(
             mixins,
             :calculates?,
