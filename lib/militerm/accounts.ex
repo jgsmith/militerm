@@ -8,7 +8,7 @@ defmodule Militerm.Accounts do
 
   alias Ecto.Multi
 
-  alias Militerm.Accounts.User
+  alias Militerm.Accounts.{Group, GroupMembership, User}
 
   @start_location {"in", {:thing, "scene:aber:start:between", "default"}}
 
@@ -81,6 +81,7 @@ defmodule Militerm.Accounts do
     |> maybe_find_user_by(:uid)
     |> maybe_find_user_by(params, :email)
     |> maybe_create_or_update_user(params)
+    |> maybe_add_admin_group_to_user()
   end
 
   defp maybe_find_user_by(opts, field) do
@@ -112,6 +113,22 @@ defmodule Militerm.Accounts do
     |> Config.repo().one
     |> is_nil
   end
+
+  def maybe_add_admin_group_to_user({:ok, %User{id: user_id, is_admin: true}} = result) do
+    case get_group_by_name("admin") do
+      %{id: group_id} ->
+        %GroupMembership{}
+        |> GroupMembership.changeset(%{user_id: user_id, group_id: group_id})
+        |> Config.repo().insert!()
+
+        result
+
+      _ ->
+        result
+    end
+  end
+
+  def maybe_add_admin_group_to_user(result), do: result
 
   @doc """
   Updates a user.
@@ -325,5 +342,118 @@ defmodule Militerm.Accounts do
 
   defp add_constraint(id, query) when is_binary(id) or is_number(id) do
     where(query, [q], q.id == ^id)
+  end
+
+  alias Militerm.Accounts.Group
+
+  @doc """
+  Returns the list of groups.
+
+  ## Examples
+
+      iex> list_groups()
+      [%Group{}, ...]
+
+  """
+  def list_groups do
+    Config.repo().all(Group)
+  end
+
+  @doc """
+  Gets a single group.
+
+  Raises `Ecto.NoResultsError` if the Group does not exist.
+
+  ## Examples
+
+      iex> get_group!(123)
+      %Group{}
+
+      iex> get_group!(456)
+      ** (Ecto.NoResultsError)
+
+  """
+  def get_group!(id), do: Config.repo().get!(Group, id)
+
+  def get_group_by_name(name) do
+    Group
+    |> where([g], g.name == ^name)
+    |> Config.repo().one()
+  end
+
+  @doc """
+  Creates a group.
+
+  ## Examples
+
+      iex> create_group(%{field: value})
+      {:ok, %Group{}}
+
+      iex> create_group(%{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def create_group(attrs \\ %{}) do
+    %Group{}
+    |> Group.changeset(attrs)
+    |> Config.repo().insert()
+  end
+
+  @doc """
+  Updates a group.
+
+  ## Examples
+
+      iex> update_group(group, %{field: new_value})
+      {:ok, %Group{}}
+
+      iex> update_group(group, %{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def update_group(%Group{} = group, attrs) do
+    group
+    |> Group.changeset(attrs)
+    |> Config.repo().update()
+  end
+
+  @doc """
+  Deletes a group.
+
+  ## Examples
+
+      iex> delete_group(group)
+      {:ok, %Group{}}
+
+      iex> delete_group(group)
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def delete_group(%Group{} = group) do
+    Config.repo().delete(group)
+  end
+
+  @doc """
+  Returns an `%Ecto.Changeset{}` for tracking group changes.
+
+  ## Examples
+
+      iex> change_group(group)
+      %Ecto.Changeset{source: %Group{}}
+
+  """
+  def change_group(%Group{} = group) do
+    Group.changeset(group, %{})
+  end
+
+  def is_group_allowed?(entity_id, group_name) do
+    result =
+      Character
+      |> join(:left, [c], g in assoc(c, :groups))
+      |> where([c, g], c.entity_id == ^entity_id and g.name == ^group_name)
+      |> limit(1)
+      |> Config.repo().one()
+
+    !is_nil(result)
   end
 end

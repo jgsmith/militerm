@@ -78,6 +78,7 @@ defmodule Militerm.Application do
     Task.async(&Militerm.Systems.Logger.initialize/0)
     Task.async(&Militerm.Systems.Entity.initialize/0)
     Task.async(&Militerm.Systems.Gossip.initialize/0)
+    Task.async(&Militerm.Systems.Groups.initialize/0)
     Task.async(&Militerm.Systems.MML.initialize/0)
     Task.async(&Militerm.Systems.Location.initialize/0)
     Task.async(&Militerm.Systems.SimpleResponse.initialize/0)

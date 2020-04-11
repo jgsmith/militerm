@@ -236,6 +236,9 @@ defmodule MilitermTelnet.Protocol do
 
   def process_options(data, state, acc) do
     case data do
+      <<@iac, @iac, data::binary>> ->
+        process_options(data, state, [<<@iac>> | acc])
+
       <<@iac, @telnet_do, @mccp, data::binary>> ->
         Logger.info("Starting MCCP", type: :socket)
         zlib_context = :zlib.open()

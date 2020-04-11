@@ -2,12 +2,20 @@ defmodule Militerm.Accounts.Character do
   use Ecto.Schema
   import Ecto.Changeset
 
+  alias Militerm.Accounts.{Group, GroupMembership, User}
+
   schema "characters" do
     field :cap_name, :string
     field :name, :string
-    field :user_id, :id
+    # field :user_id, :id
     field :gender, :string, virtual: true
     field :entity_id, :string
+    belongs_to :user, User
+
+    many_to_many :groups, Group,
+      join_through: GroupMembership,
+      join_keys: [user_id: :user_id, group_id: :id],
+      unique: true
 
     timestamps()
   end

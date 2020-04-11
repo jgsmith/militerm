@@ -2,7 +2,7 @@ defmodule Militerm.Accounts.User do
   use Ecto.Schema
   import Ecto.Changeset
 
-  alias Militerm.Accounts.Character
+  alias Militerm.Accounts.{Character, Group, GroupMembership}
 
   schema "users" do
     field :email, :string
@@ -10,6 +10,7 @@ defmodule Militerm.Accounts.User do
     field :name, :string
     field :is_admin, :boolean
     has_many :characters, Character
+    many_to_many :groups, Group, join_through: GroupMembership, unique: true
 
     timestamps()
   end
