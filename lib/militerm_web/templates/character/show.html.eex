@@ -7,11 +7,6 @@
     <%= @character.cap_name %>
   </li>
 
-  <li>
-    <strong>Gender:</strong>
-    <%= @character.gender %>
-  </li>
-
 </ul>
 
 <span><%= link "Enter Game", to: Routes.character_path(@conn, :play, @character.name) %></span>

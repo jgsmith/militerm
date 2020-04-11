@@ -60,7 +60,7 @@ defmodule Militerm.Systems.Entity do
     entity
   end
 
-  defscript destroy(), for: %{"this" => {:thing, entity_id} = entity} = _objects do
+  defscript destroy(), for: %{"this" => {:thing, entity_id} = _entity} = _objects do
     # actually destroy the entity
     Militerm.ECS.Entity.delete_entity(entity_id)
   end
@@ -100,8 +100,8 @@ defmodule Militerm.Systems.Entity do
   end
 
   def hibernate({:thing, entity_id} = entity) do
-    case whereis(entity_id) do
-      {:ok, pid} ->
+    case whereis(entity) do
+      {:ok, _pid} ->
         # stop the clocks/alarms
         Militerm.Components.Entity.hibernate(entity_id)
         Militerm.Components.Location.hibernate(entity_id)
@@ -112,8 +112,8 @@ defmodule Militerm.Systems.Entity do
   end
 
   def unhibernate({:thing, entity_id} = entity) do
-    case whereis(entity_id) do
-      {:ok, pid} ->
+    case whereis(entity) do
+      {:ok, _pid} ->
         Militerm.Components.Entity.unhibernate(entity_id)
         Militerm.Components.Location.unhibernate(entity_id)
 

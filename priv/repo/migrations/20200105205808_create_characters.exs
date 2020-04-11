@@ -6,7 +6,6 @@ defmodule Militerm.Repo.Migrations.CreateCharacters do
       add :name, :string
       add :cap_name, :string
       add :user_id, references(:users, on_delete: :nothing)
-      add :gender, :string
       add :entity_id, :string
 
       timestamps()

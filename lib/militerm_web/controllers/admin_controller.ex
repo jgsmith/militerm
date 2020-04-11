@@ -5,7 +5,6 @@ defmodule MilitermWeb.AdminController do
   alias Militerm.Game.Domain
 
   def index(conn, _params) do
-    domains = Game.list_domains()
-    render(conn, "index.html", domains: domains)
+    render(conn, "index.html", domains: [])
   end
 end

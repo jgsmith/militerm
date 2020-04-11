@@ -101,12 +101,12 @@ defmodule Militerm.AccountsTest do
 
     test "list_characters/0 returns all characters" do
       character = character_fixture()
-      assert Accounts.list_characters() == [character]
+      assert Accounts.list_characters() == [%{character | gender: nil}]
     end
 
     test "get_character!/1 returns the character with given id" do
       character = character_fixture()
-      assert Accounts.get_character!(character.id) == character
+      assert Accounts.get_character!(character.id) == %{character | gender: nil}
     end
 
     test "create_character/1 with valid data creates a character" do
@@ -123,9 +123,9 @@ defmodule Militerm.AccountsTest do
       assert {:ok, %Character{} = character} = Accounts.create_character(attrs)
       identity_info = Militerm.Components.Identity.get(character.entity_id)
       detail_info = Militerm.Components.Details.get(character.entity_id, "default")
-      assert identity_info.name == "SomeCapName"
-      assert identity_info.nominative == "they"
-      assert detail_info.nouns == ["somecapname"]
+      assert identity_info["name"] == "SomeCapName"
+      assert identity_info["nominative"] == "they"
+      assert detail_info["nouns"] == ["somecapname"]
       {:ok, module} = Militerm.Components.Entity.module(character.entity_id)
       assert is_atom(module)
     end
@@ -144,7 +144,7 @@ defmodule Militerm.AccountsTest do
     test "update_character/2 with invalid data returns error changeset" do
       character = character_fixture()
       assert {:error, %Ecto.Changeset{}} = Accounts.update_character(character, @invalid_attrs)
-      assert character == Accounts.get_character!(character.id)
+      assert %{character | gender: nil} == Accounts.get_character!(character.id)
     end
 
     test "delete_character/1 deletes the character" do
