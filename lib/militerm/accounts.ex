@@ -239,21 +239,21 @@ defmodule Militerm.Accounts do
             "male" -> {"he", "him", "his"}
             "female" -> {"she", "her", "her"}
             "neuter" -> {"hi", "hir", "hir"}
-            "none" -> {"they", "them", "their"}
+            _ -> {"they", "them", "their"}
           end
 
         Militerm.Entities.Thing.create(entity_id, "std:character",
           identity: %{
-            name: character.cap_name,
-            nominative: nominative,
-            objective: objective,
-            possessive: possessive
+            "name" => character.cap_name,
+            "nominative" => nominative,
+            "objective" => objective,
+            "possessive" => possessive
           },
           detail: %{
             "default" => %{
-              nouns: [character.name],
-              short: character.cap_name,
-              adjectives: []
+              "nouns" => [character.name],
+              "short" => character.cap_name,
+              "adjectives" => []
             }
           }
         )

@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 11.2
--- Dumped by pg_dump version 11.2
+-- Dumped from database version 12.2
+-- Dumped by pg_dump version 12.2
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -12,12 +12,13 @@ SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
+SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
 SET default_tablespace = '';
 
-SET default_with_oids = false;
+SET default_table_access_method = heap;
 
 --
 -- Name: characters; Type: TABLE; Schema: public; Owner: -
@@ -28,7 +29,6 @@ CREATE TABLE public.characters (
     name character varying(255),
     cap_name character varying(255),
     user_id bigint,
-    gender character varying(255),
     entity_id character varying(255),
     inserted_at timestamp(0) without time zone NOT NULL,
     updated_at timestamp(0) without time zone NOT NULL
@@ -52,107 +52,6 @@ CREATE SEQUENCE public.characters_id_seq
 --
 
 ALTER SEQUENCE public.characters_id_seq OWNED BY public.characters.id;
-
-
---
--- Name: core_areas; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.core_areas (
-    id bigint NOT NULL,
-    name character varying(255),
-    plug character varying(255),
-    description text,
-    domain_id bigint,
-    inserted_at timestamp(0) without time zone NOT NULL,
-    updated_at timestamp(0) without time zone NOT NULL
-);
-
-
---
--- Name: core_areas_id_seq; Type: SEQUENCE; Schema: public; Owner: -
---
-
-CREATE SEQUENCE public.core_areas_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
---
--- Name: core_areas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
---
-
-ALTER SEQUENCE public.core_areas_id_seq OWNED BY public.core_areas.id;
-
-
---
--- Name: core_domains; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.core_domains (
-    id bigint NOT NULL,
-    name character varying(255),
-    plug character varying(255),
-    description text,
-    inserted_at timestamp(0) without time zone NOT NULL,
-    updated_at timestamp(0) without time zone NOT NULL
-);
-
-
---
--- Name: core_domains_id_seq; Type: SEQUENCE; Schema: public; Owner: -
---
-
-CREATE SEQUENCE public.core_domains_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
---
--- Name: core_domains_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
---
-
-ALTER SEQUENCE public.core_domains_id_seq OWNED BY public.core_domains.id;
-
-
---
--- Name: core_scenes; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.core_scenes (
-    id bigint NOT NULL,
-    archetype character varying(255) NOT NULL,
-    description text,
-    plug character varying(255) NOT NULL,
-    area_id bigint NOT NULL,
-    inserted_at timestamp(0) without time zone NOT NULL,
-    updated_at timestamp(0) without time zone NOT NULL
-);
-
-
---
--- Name: core_scenes_id_seq; Type: SEQUENCE; Schema: public; Owner: -
---
-
-CREATE SEQUENCE public.core_scenes_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
---
--- Name: core_scenes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
---
-
-ALTER SEQUENCE public.core_scenes_id_seq OWNED BY public.core_scenes.id;
 
 
 --
@@ -396,6 +295,38 @@ CREATE TABLE public.schema_migrations (
 
 
 --
+-- Name: simple_responses; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.simple_responses (
+    id bigint NOT NULL,
+    entity_id character varying(255),
+    data jsonb,
+    inserted_at timestamp(0) without time zone NOT NULL,
+    updated_at timestamp(0) without time zone NOT NULL
+);
+
+
+--
+-- Name: simple_responses_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.simple_responses_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: simple_responses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.simple_responses_id_seq OWNED BY public.simple_responses.id;
+
+
+--
 -- Name: skills; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -565,27 +496,6 @@ ALTER TABLE ONLY public.characters ALTER COLUMN id SET DEFAULT nextval('public.c
 
 
 --
--- Name: core_areas id; Type: DEFAULT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_areas ALTER COLUMN id SET DEFAULT nextval('public.core_areas_id_seq'::regclass);
-
-
---
--- Name: core_domains id; Type: DEFAULT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_domains ALTER COLUMN id SET DEFAULT nextval('public.core_domains_id_seq'::regclass);
-
-
---
--- Name: core_scenes id; Type: DEFAULT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_scenes ALTER COLUMN id SET DEFAULT nextval('public.core_scenes_id_seq'::regclass);
-
-
---
 -- Name: counters id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -635,6 +545,13 @@ ALTER TABLE ONLY public.resources ALTER COLUMN id SET DEFAULT nextval('public.re
 
 
 --
+-- Name: simple_responses id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.simple_responses ALTER COLUMN id SET DEFAULT nextval('public.simple_responses_id_seq'::regclass);
+
+
+--
 -- Name: skills id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -675,30 +592,6 @@ ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_
 
 ALTER TABLE ONLY public.characters
     ADD CONSTRAINT characters_pkey PRIMARY KEY (id);
-
-
---
--- Name: core_areas core_areas_pkey; Type: CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_areas
-    ADD CONSTRAINT core_areas_pkey PRIMARY KEY (id);
-
-
---
--- Name: core_domains core_domains_pkey; Type: CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_domains
-    ADD CONSTRAINT core_domains_pkey PRIMARY KEY (id);
-
-
---
--- Name: core_scenes core_scenes_pkey; Type: CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_scenes
-    ADD CONSTRAINT core_scenes_pkey PRIMARY KEY (id);
 
 
 --
@@ -763,6 +656,14 @@ ALTER TABLE ONLY public.resources
 
 ALTER TABLE ONLY public.schema_migrations
     ADD CONSTRAINT schema_migrations_pkey PRIMARY KEY (version);
+
+
+--
+-- Name: simple_responses simple_responses_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.simple_responses
+    ADD CONSTRAINT simple_responses_pkey PRIMARY KEY (id);
 
 
 --
@@ -834,41 +735,6 @@ CREATE INDEX characters_user_id_index ON public.characters USING btree (user_id)
 
 
 --
--- Name: core_areas_domain_id_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX core_areas_domain_id_index ON public.core_areas USING btree (domain_id);
-
-
---
--- Name: core_areas_domain_id_plug_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE UNIQUE INDEX core_areas_domain_id_plug_index ON public.core_areas USING btree (domain_id, plug);
-
-
---
--- Name: core_domains_plug_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE UNIQUE INDEX core_domains_plug_index ON public.core_domains USING btree (plug);
-
-
---
--- Name: core_scenes_area_id_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE INDEX core_scenes_area_id_index ON public.core_scenes USING btree (area_id);
-
-
---
--- Name: core_scenes_area_id_plug_index; Type: INDEX; Schema: public; Owner: -
---
-
-CREATE UNIQUE INDEX core_scenes_area_id_plug_index ON public.core_scenes USING btree (area_id, plug);
-
-
---
 -- Name: counters_entity_id_index; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -925,6 +791,13 @@ CREATE UNIQUE INDEX resources_entity_id_index ON public.resources USING btree (e
 
 
 --
+-- Name: simple_responses_entity_id_index; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX simple_responses_entity_id_index ON public.simple_responses USING btree (entity_id);
+
+
+--
 -- Name: skills_entity_id_index; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -975,24 +848,8 @@ ALTER TABLE ONLY public.characters
 
 
 --
--- Name: core_areas core_areas_domain_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_areas
-    ADD CONSTRAINT core_areas_domain_id_fkey FOREIGN KEY (domain_id) REFERENCES public.core_domains(id);
-
-
---
--- Name: core_scenes core_scenes_area_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.core_scenes
-    ADD CONSTRAINT core_scenes_area_id_fkey FOREIGN KEY (area_id) REFERENCES public.core_areas(id);
-
-
---
 -- PostgreSQL database dump complete
 --
 
-INSERT INTO public."schema_migrations" (version) VALUES (20200105205630), (20200105205808), (20200106003951), (20200106133028), (20200107005156), (20200115125732), (20200115125928), (20200119003816), (20200204173613), (20200209201958), (20200209203051), (20200306184600), (20200401210958), (20200401211401), (20200401211408), (20200401211417);
+INSERT INTO public."schema_migrations" (version) VALUES (20200105205630), (20200105205808), (20200106003951), (20200106133028), (20200107005156), (20200119003816), (20200209201958), (20200209203051), (20200306184600), (20200401210958), (20200401211401), (20200401211408), (20200401211417), (20200408153522);
 

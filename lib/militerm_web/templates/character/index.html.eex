@@ -4,7 +4,6 @@
   <thead>
     <tr>
       <th>Cap name</th>
-      <th>Gender</th>
 
       <th></th>
     </tr>
@@ -13,7 +12,6 @@
 <%= for character <- @characters do %>
     <tr>
       <td><%= character.cap_name %></td>
-      <td><%= character.gender %></td>
 
       <td>
         <span><%= link "Show", to: Routes.character_path(@conn, :show, character.name) %></span>

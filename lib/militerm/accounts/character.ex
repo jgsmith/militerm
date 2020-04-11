@@ -6,7 +6,7 @@ defmodule Militerm.Accounts.Character do
     field :cap_name, :string
     field :name, :string
     field :user_id, :id
-    field :gender, :string
+    field :gender, :string, virtual: true
     field :entity_id, :string
 
     timestamps()
