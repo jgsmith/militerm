@@ -149,22 +149,23 @@ defmodule Militerm.Services.Location do
 
   def find_near({:thing, entity_id}, steps) when is_binary(entity_id) do
     case Militerm.Components.Location.get(entity_id) do
+      %{hibernated: true} -> []
       %{target_id: target_id, detail: detail} -> find_near({:thing, target_id, detail}, steps - 1)
       _ -> []
     end
   end
 
   def find_near({:thing, target_id, _} = target, steps) do
-    find_near([target], Militerm.Components.Details.details(target_id), steps)
+    case Militerm.Components.Location.get(target_id) do
+      %{hibernated: true} ->
+        []
+
+      _ ->
+        find_near([target], Militerm.Components.Details.details(target_id), steps)
+    end
   end
 
   def find_near(list, _, 0) when is_list(list), do: list
-  #   list
-  #   |> Enum.flat_map(fn {target_id, detail} = item ->
-  #     [item | Militerm.Components.Location.find_at(target_id, detail)]
-  #   end)
-  #   |> Enum.uniq
-  # end
 
   def find_near(list, details, steps) when is_list(list) do
     scene_details =

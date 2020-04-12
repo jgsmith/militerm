@@ -379,21 +379,25 @@ defmodule Militerm.Systems.Location do
     items = Militerm.Services.Location.find_in(scene) -- excluding
 
     for item <- items do
-      {prep, loc} = Militerm.Services.Location.where(item)
+      case Militerm.Services.Location.where(item) do
+        {prep, loc} ->
+          case Militerm.Systems.Entity.property(item, ["location", "position"], %{"this" => item}) do
+            nil ->
+              Militerm.Systems.MML.bind!("{capitalize}<this:name>{/capitalize} is here. ", %{
+                "this" => item,
+                "prep" => prep,
+                "loc" => loc
+              })
 
-      case Militerm.Systems.Entity.property(item, ["location", "position"], %{"this" => item}) do
-        nil ->
-          Militerm.Systems.MML.bind!("{capitalize}<this:name>{/capitalize} is here. ", %{
-            "this" => item,
-            "prep" => prep,
-            "loc" => loc
-          })
+            position ->
+              Militerm.Systems.MML.bind!(
+                "{capitalize}<this:name>{/capitalize} is {{position}} here. ",
+                %{"this" => item, "position" => position, "prep" => prep, "loc" => loc}
+              )
+          end
 
-        position ->
-          Militerm.Systems.MML.bind!(
-            "{capitalize}<this:name>{/capitalize} is {{position}} here. ",
-            %{"this" => item, "position" => position, "prep" => prep, "loc" => loc}
-          )
+        _ ->
+          ""
       end
     end
   end

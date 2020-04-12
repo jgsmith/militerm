@@ -35,21 +35,23 @@ defmodule Game.CommandsTest do
   end
 
   describe "look at the floor" do
+    @tag diegetic: true
     test "matches something", %{entity: entity} do
       entity
       |> Entity.send_input("look at the floor")
-      |> Entity.await_event("pre-finish:verb")
+      |> Entity.await_event("action:done")
       |> Entity.get_output()
     end
   end
 
   describe "move near the table" do
+    @tag diegetic: true
     test "moves", %{entity: entity} do
       entity
       |> Entity.send_input("move near the table")
-      |> Entity.await_event("pre-finish:verb")
+      |> Entity.await_event("action:done")
       |> Entity.get_output()
-
+      
       final_location = Militerm.Services.Location.where(entity)
       assert final_location == {"near", {:thing, "scene:test:area:start", "table"}}
     end

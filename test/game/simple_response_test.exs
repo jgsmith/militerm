@@ -50,10 +50,11 @@ defmodule Game.SimpleResponseTest do
   end
 
   describe "the elevator hears things" do
+    @tag diegetic: true
     test "saying a level", %{entity: entity} do
       entity
       |> Entity.send_input("say take me to level 2")
-      |> Entity.await_event("post-say:normal")
+      |> Entity.await_event("action:done")
       |> Entity.get_output()
     end
   end
