@@ -21,6 +21,8 @@ config :militerm, :components,
 
 config :militerm, :repo, Militerm.Repo
 
+config :militerm, :game, character_archetype: "std:character"
+
 config :gossip, :callback_modules,
   core: Militerm.Gossip,
   players: Militerm.Gossip,
