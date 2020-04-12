@@ -230,44 +230,70 @@ defmodule Militerm.Systems.Location do
   defscript present(string, env), for: %{"this" => this} = _objects do
   end
 
-  defscript move_to(class, entity_id, target_id, coord), for: %{"this" => this}, as: "MoveTo" do
-    move_to(class, entity_id, target_id, coord, this)
+  defscript move_to(class, entity_id, prep, target_id, coord),
+    for: %{"this" => this},
+    as: "MoveTo" do
+    move_to(class, entity_id, prep, target_id, coord, this)
   end
 
-  defscript move_to(class, entity_id, coord), for: %{"this" => this} = _objects, as: "MoveTo" do
-    case coord do
-      %{target: target_id, detail: detail} ->
-        move_to(class, entity_id, target_id, detail, this)
-
-      %{target: target_id} ->
-        move_to(class, entity_id, target_id, "default", this)
-
-      _ ->
-        move_to(class, this, entity_id, coord, this)
-    end
-  end
-
-  defscript move_to(class, target), for: %{"this" => this} = _objects, as: "MoveTo" do
-    target =
-      case target do
-        [t | _] -> t
-        t -> t
-      end
-
-    case target do
-      %{"target" => target_id, "detail" => coord} ->
-        move_to(class, this, target_id, coord, this)
-
-      %{"target" => target_id} ->
-        move_to(class, this, target_id, "default", this)
-
-      [single_target] ->
-        move_to(class, this, target, "default", this)
+  defscript move_to(class, thing, default_prox, target),
+    for: %{"this" => this} = _objects,
+    as: "MoveTo" do
+    case prox_target(target, default_prox) do
+      {prox, target_id, target_coord} ->
+        move_to(class, thing, prox, target_id, target_coord, this)
 
       nil ->
         nil
     end
   end
+
+  defscript move_to(class, default_prox, target), for: %{"this" => this} = _objects, as: "MoveTo" do
+    case prox_target(target, default_prox) do
+      {prox, target_id, target_coord} ->
+        move_to(class, this, prox, target_id, target_coord, this)
+
+      nil ->
+        nil
+    end
+  end
+
+  defp prox_target({prox, {:thing, target_id, coord}}, _) do
+    {prox, target_id, coord}
+  end
+
+  defp prox_target({prox, {:thing, target_id}}, _) do
+    {prox, target_id, "default"}
+  end
+
+  defp prox_target({:thing, target_id, coord}, prox) do
+    {prox, target_id, coord}
+  end
+
+  defp prox_target({:thing, target_id}, prox) do
+    {prox, target_id, "default"}
+  end
+
+  defp prox_target(%{"target" => target_id, "detail" => coord, "proximity" => prox}, _)
+       when not is_nil(prox) and not is_nil(coord) do
+    {prox, target_id, coord}
+  end
+
+  defp prox_target(%{"target" => target_id, "detail" => coord}, prox) when not is_nil(coord) do
+    {prox, target_id, coord}
+  end
+
+  defp prox_target(%{"target" => target_id, "proximity" => prox}, _) when not is_nil(prox) do
+    {prox, target_id, "default"}
+  end
+
+  defp prox_target(%{"target" => target_id}, prox) do
+    {prox, target_id, "default"}
+  end
+
+  defp prox_target([target], prox), do: prox_target(target, prox)
+
+  defp prox_target(_, _), do: nil
 
   defscript place(target), for: %{"this" => this} do
     case target do
@@ -428,23 +454,30 @@ defmodule Militerm.Systems.Location do
   @doc """
   Move to a location. Handles calling all the right events.
   """
-  def move_to(class, {:thing, entity_id} = entity, target_id, coord, {:thing, actor_id} = actor) do
-    dest = {"in", {:thing, target_id, coord}}
+  def move_to(
+        class,
+        {:thing, entity_id} = entity,
+        prox,
+        target_id,
+        coord,
+        {:thing, actor_id} = actor
+      ) do
+    dest = {prox, {:thing, target_id, coord}}
 
     case Militerm.Services.Location.where(entity) do
       {_, {:thing, ^target_id, _}} = from ->
-        motion_in_target(entity, from, dest)
+        motion_in_target(entity, class, from, dest, actor)
 
       {leaving_prep, {:thing, leaving_id, leaving_coord}} = from ->
         entity_id
-        |> permission_to_leave(class, leaving_id)
-        |> permission_to_arrive(entity_id, class, {:thing, target_id})
+        |> permission_to_leave(class, leaving_id, leaving_coord)
+        |> permission_to_arrive(entity_id, class, {:thing, target_id}, coord)
         |> permission_to_accept(entity_id, class, from, dest)
         |> finalize_move(entity_id, class, actor_id, from, dest)
 
       nil ->
         {:cont, [], []}
-        |> permission_to_arrive(entity_id, class, {:thing, target_id})
+        |> permission_to_arrive(entity_id, class, {:thing, target_id}, coord)
         |> permission_to_accept(entity_id, class, nil, dest)
         |> finalize_move(entity_id, class, actor_id, nil, dest)
     end
@@ -469,11 +502,10 @@ defmodule Militerm.Systems.Location do
     )
   end
 
-  defp permission_to_leave(entity_id, class, leaving_id) do
-    {:cont, [], []}
-
+  defp permission_to_leave(entity_id, class, leaving_id, coord) do
     case Militerm.Systems.Entity.pre_event(leaving_id, "move:release:#{class}", :environment, %{
-           direct: [{:thing, entity_id}]
+           "direct" => [{:thing, entity_id}],
+           "coord" => coord
          }) do
       {:halt, _} = halt -> halt
       {:cont, _, _} = continue -> continue
@@ -481,11 +513,12 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defp permission_to_arrive({:halt, _} = halt, _, _, _), do: halt
+  defp permission_to_arrive({:halt, _} = halt, _, _, _, _), do: halt
 
-  defp permission_to_arrive({:cont, pre, post} = continue, entity_id, class, arriving_id) do
+  defp permission_to_arrive({:cont, pre, post} = continue, entity_id, class, arriving_id, coord) do
     case Militerm.Systems.Entity.pre_event(arriving_id, "move:receive", :environment, %{
-           direct: [entity_id]
+           "direct" => [entity_id],
+           "coord" => coord
          }) do
       {:halt, _} = halt -> halt
       {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
@@ -497,8 +530,8 @@ defmodule Militerm.Systems.Location do
 
   defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, from, to) do
     case Militerm.Systems.Entity.pre_event(entity_id, "move:accept", :actor, %{
-           from: from,
-           to: to
+           "from" => from,
+           "to" => to
          }) do
       {:halt, _} = halt -> halt
       {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
@@ -506,9 +539,99 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defp motion_in_target(entity_id, from_loc, to_loc) do
+  defp motion_in_target(
+         {:thing, entity_id},
+         class,
+         {_, from_loc} = from,
+         {to_prox, to_loc},
+         actor
+       ) do
     # we have to find a chain from where we are to where we want to go
-    # it has to be within a certain range -- can't go moving quicly through
+    # it has to be within a certain range -- can't go moving quickly through
     # everything -- chain can be no more than 2-3 nodes long
+    #
+    # or... we generate an event for each step on the chain
+    #
+    path =
+      case Militerm.Services.Location.shortest_path(from_loc, to_loc) do
+        [^from_loc | _] = answer -> answer
+        [^to_loc | _] = answer -> Enum.reverse(answer)
+        _ -> []
+      end
+
+    traverse_path(entity_id, class, from, to_prox, path, actor)
   end
+
+  defp traverse_path(
+         entity_id,
+         class,
+         from,
+         final_prox,
+         [
+           {:thing, current_entity_id, _} = current_loc,
+           {:thing, next_entity_id, next_coord} = next_loc
+         ],
+         {:thing, actor_id} = _actor
+       ) do
+    # {current_prep, {:thing, current_parent_id, _}} = Militerm.Services.Location.where(current_loc)
+
+    # prox = if current_parent_id == next_entity_id, do: current_prep, else: final_prep
+
+    {leaving_prep, {:thing, leaving_id, leaving_coord}} = from
+    dest = {final_prox, next_loc}
+
+    entity_id
+    |> permission_to_leave(class, leaving_id, leaving_coord)
+    |> permission_to_arrive(entity_id, class, {:thing, next_entity_id}, next_coord)
+    |> permission_to_accept(entity_id, class, from, dest)
+    |> finalize_move(entity_id, class, actor_id, from, dest)
+  end
+
+  defp traverse_path(
+         entity_id,
+         class,
+         from,
+         final_prox,
+         [
+           {:thing, current_entity_id, _} = current_loc,
+           {:thing, next_entity_id, next_coord} = next_loc,
+           next_next_loc | rest
+         ] = chain,
+         {:thing, actor_id} = actor
+       ) do
+    {current_prep, {:thing, current_parent_id, _}} =
+      case Militerm.Services.Location.where(current_loc) do
+        nil -> {"in", {:thing, nil, nil}}
+        otherwise -> otherwise
+      end
+
+    {next_prep, _} =
+      next_loc_where =
+      case Militerm.Services.Location.where(next_next_loc) do
+        nil -> {"in", {:thing, nil, nil}}
+        otherwise -> otherwise
+      end
+
+    prep = if current_parent_id == next_entity_id, do: current_prep, else: next_prep
+
+    {leaving_prep, {:thing, leaving_id, leaving_coord}} = from
+    dest = {prep, next_loc}
+
+    result =
+      entity_id
+      |> permission_to_leave(class, leaving_id, leaving_coord)
+      |> permission_to_arrive(entity_id, class, {:thing, next_entity_id}, next_coord)
+      |> permission_to_accept(entity_id, class, from, dest)
+      |> finalize_move(entity_id, class, actor_id, from, dest)
+
+    case result do
+      {:halt, _} = halt ->
+        halt
+
+      _ ->
+        traverse_path(entity_id, class, dest, final_prox, [next_loc, next_next_loc | rest], actor)
+    end
+  end
+
+  defp traverse_path(_, _, _, _, _, _), do: false
 end

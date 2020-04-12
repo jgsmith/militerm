@@ -38,8 +38,20 @@ defmodule Game.CommandsTest do
     test "matches something", %{entity: entity} do
       entity
       |> Entity.send_input("look at the floor")
-      |> Entity.await_event("post-scan:item:brief")
+      |> Entity.await_event("pre-finish:verb")
       |> Entity.get_output()
+    end
+  end
+
+  describe "move near the table" do
+    test "moves", %{entity: entity} do
+      entity
+      |> Entity.send_input("move near the table")
+      |> Entity.await_event("pre-finish:verb")
+      |> Entity.get_output()
+
+      final_location = Militerm.Services.Location.where(entity)
+      assert final_location == {"near", {:thing, "scene:test:area:start", "table"}}
     end
   end
 end

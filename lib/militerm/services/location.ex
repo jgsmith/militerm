@@ -94,48 +94,54 @@ defmodule Militerm.Services.Location do
     end
   end
 
-  def find_in(thing, steps \\ 1) when is_tuple(thing) do
-    find_in([thing], steps)
+  def find_in(thing, steps \\ 1, acc \\ []) when is_tuple(thing) do
+    find_in([thing], steps, acc)
   end
 
-  def find_in(things, 0) when is_list(things), do: things
+  def find_in([], _, acc), do: acc
 
-  def find_in(things, steps) when is_list(things) do
-    things
-    |> Enum.flat_map(fn
-      {:thing, thing_id, coord} ->
-        other_things =
-          thing_id
-          |> Militerm.Components.Location.find_at(coord)
-          |> Enum.map(fn entity_id -> {:thing, entity_id} end)
+  def find_in(things, 0, acc) when is_list(things), do: things ++ acc
 
-        other_details =
-          thing_id
-          |> Militerm.Components.Details.get()
-          |> Enum.filter(fn {detail, info} ->
-            Map.get(info, "related_to") == coord
-          end)
-          |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
+  def find_in(things, steps, acc) when is_list(things) do
+    next_steps = if steps == :infinite, do: :infinite, else: steps - 1
 
-        other_things ++ other_details
+    new_things =
+      things
+      |> Enum.flat_map(fn
+        {:thing, thing_id, coord} ->
+          other_things =
+            thing_id
+            |> Militerm.Components.Location.find_at(coord)
+            |> Enum.map(fn entity_id -> {:thing, entity_id} end)
 
-      {:thing, thing_id} ->
-        other_things =
-          thing_id
-          |> Militerm.Components.Location.find_at("default")
-          |> Enum.map(fn entity_id -> {:thing, entity_id} end)
+          other_details =
+            thing_id
+            |> Militerm.Components.Details.get()
+            |> Enum.filter(fn {detail, info} ->
+              Map.get(info, "related_to") == coord
+            end)
+            |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
 
-        other_details =
-          thing_id
-          |> Militerm.Components.Details.get()
-          |> Enum.filter(fn {detail, info} ->
-            Map.get(info, "related_to") == "default"
-          end)
-          |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
+          other_things ++ (other_details -- things)
 
-        other_things ++ other_details
-    end)
-    |> find_in(steps - 1)
+        {:thing, thing_id} ->
+          other_things =
+            thing_id
+            |> Militerm.Components.Location.find_at("default")
+            |> Enum.map(fn entity_id -> {:thing, entity_id} end)
+
+          other_details =
+            thing_id
+            |> Militerm.Components.Details.get()
+            |> Enum.filter(fn {detail, info} ->
+              Map.get(info, "related_to") == "default"
+            end)
+            |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
+
+          other_things ++ (other_details -- things)
+      end)
+
+    find_in(new_things, next_steps, things ++ acc)
   end
 
   def find_near({:thing, _} = target), do: find_near(target, 2)
@@ -263,6 +269,8 @@ defmodule Militerm.Services.Location do
     [{:thing, "chair", "default"}, {:thing, "table", "default"}, {:thing, "koom", "southwall"}, {:thing, "koom", "default"}, {:thing, "koom", "northwall"}, {:thing, "pedestal", "default"}]
     ...> Location.shortest_path({:thing, "chair", "default"}, {:thing, "table", "default"})
     [{:thing, "chair", "default"}, {:thing, "table", "default"}]
+    ...> Location.shortest_path({:thing, "table", "default"}, {:thing, "chair", "default"})
+    [{:thing, "table", "default"}, {:thing, "chair", "default"}]
   """
   def shortest_path(a, b) do
     shortest_path(a, b, [], [])

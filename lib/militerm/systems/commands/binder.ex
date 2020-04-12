@@ -103,7 +103,7 @@ defmodule Militerm.Systems.Commands.Binder do
     # look in env - if we find nothing, go to rest - otherwise, return what we find
     match =
       env
-      |> Services.Location.find_in()
+      |> Services.Location.find_in(:infinite)
       |> Enum.filter(fn thing -> Systems.Identity.parse_match?(thing, words) end)
 
     case match do

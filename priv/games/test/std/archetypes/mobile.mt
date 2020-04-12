@@ -20,9 +20,30 @@ can scan:brief as actor
 can scan:item as actor
 
 can move:accept as actor
+can move:prox:near as actor
 can see as actor
 can smell as actor
 can go as actor
+
+reacts to pre-move:prox as actor with do
+  set eflag:moving-prox
+  set eflag:moving
+  :"<Actor> <move> toward <direct>."
+end
+
+reacts to move:prox:near as actor with do
+  if eflag:moving then
+    if not MoveTo("normal", "near", direct) then
+      reset eflag:moving
+      uhoh "You can't get there from here."
+    end
+  end
+end
+
+reacts to post-move:prox as actor with do
+  reset eflag:moving-prox
+  reset eflag:moving
+end
 
 reacts to pre-go:direction as actor with do
   if direction & Exits() then
@@ -36,8 +57,9 @@ end
 
 reacts to go:direction as actor with do
   if eflag:going then
-    if not MoveTo("normal", Exit( direction ) ) then
+    if not MoveTo("normal", "in", Exit( direction ) ) then
       reset eflag:going
+      reset eflag:moving
       uhoh "You can't go that way"
     end
   end
@@ -45,8 +67,8 @@ end
 
 reacts to post-go:direction as actor with do
   if eflag:going then
+    reset eflag:moving
     :"<Actor> <verb:enter>."
-    reset eflag:going
   end
 end
 
@@ -56,9 +78,7 @@ reacts to pre-move:accept with do
 end
 
 reacts to move:normal as actor with do
-  Debug("We're moving!!!")
   if eflag:moving then
-    reset eflag:moving
     Place(moving_to)
   end
 end

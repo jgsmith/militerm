@@ -16,7 +16,7 @@ end
 
 reacts to go:direction as actor with do
   if eflag:going then
-    if not MoveTo("normal", Exit( direction ) ) then
+    if not MoveTo("normal", "in", Exit( direction ) ) then
       reset eflag:going
       reset eflag:moving
       uhoh "You can't go that way."
