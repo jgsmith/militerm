@@ -28,7 +28,7 @@ defmodule Militerm.Data.Location do
       :point,
       :hibernated
     ])
-    |> validate_required([:entity_id, :target_id])
+    |> validate_required([:entity_id])
     |> unique_constraint(:entity_id)
   end
 end
