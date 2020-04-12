@@ -49,7 +49,7 @@ defmodule Game.DescribeTest do
     test "gets the right event", %{entity: entity} do
       entity
       |> Entity.send_input("look")
-      |> Entity.await_event("post-finish:verb")
+      |> Entity.await_event("finish:verb")
       |> Entity.get_output()
     end
   end
@@ -58,7 +58,7 @@ defmodule Game.DescribeTest do
     test "moves to the right scene", %{entity: entity} do
       entity
       |> Entity.send_input("go north")
-      |> Entity.await_event("post-finish:verb")
+      |> Entity.await_event("finish:verb")
 
       assert Militerm.Services.Location.where(entity) ==
                {"in", {:thing, "scene:test:area:north", "default"}}
