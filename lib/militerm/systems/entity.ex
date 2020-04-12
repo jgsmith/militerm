@@ -2,6 +2,7 @@ defmodule Militerm.Systems.Entity do
   use Militerm.ECS.System
 
   alias Militerm.Config
+  alias Militerm.Components
   alias Militerm.Systems.MML
   alias Militerm.Systems.Entity.Controller
 
@@ -68,6 +69,112 @@ defmodule Militerm.Systems.Entity do
   defscript destroy({:thing, entity_id} = entity) do
     Militerm.Systems.Events.trigger(entity_id, "object:destroy", %{"this" => entity})
   end
+
+  defcommand update(bits), for: %{"this" => {:thing, this_id} = this} = args do
+    if Enum.any?(["admin", "builders"], &Components.EphemeralGroup.get_value(this_id, [&1])) do
+      entity_id =
+        case bits do
+          # update this location
+          [] ->
+            case Militerm.Services.Location.where(this) do
+              {_, {:thing, id, _}} -> id
+              _ -> nil
+            end
+
+          ["me"] ->
+            this_id
+
+          # might be an entity_id
+          [bit] ->
+            case whereis(bit) do
+              {:ok, _} ->
+                bit
+
+              # it's a thing - let's find it!
+              _ ->
+                case Militerm.Systems.Commands.Binder.bind_slot(
+                       :direct,
+                       {:object, :singular, [:here], bit},
+                       {%{}, %{}}
+                     ) do
+                  {_, %{direct: [{:thing, id} | _]}} -> id
+                  {_, %{direct: [{:thing, id, _} | _]}} -> id
+                  _ -> nil
+                end
+            end
+
+          # find the thing and then update it
+          _ ->
+            case Militerm.Systems.Commands.Binder.bind_slot(
+                   :direct,
+                   {:object, :singular, [:here], Enum.join(bits, " ")},
+                   {%{}, %{}}
+                 ) do
+              {_, %{direct: [{:thing, id} | _]}} -> id
+              {_, %{direct: [{:thing, id, _} | _]}} -> id
+              _ -> nil
+            end
+        end
+
+      if entity_id do
+        # update entity_id - means redoing the data
+        # doesn't erase anything -- just replaces any data with the settings
+        # from the archetype
+        data =
+          case Militerm.Components.Entity.archetype(entity_id) do
+            {:ok, archetype} ->
+              case Militerm.Services.Archetypes.get(archetype) do
+                %{data: data} -> data
+                _ -> %{}
+              end
+
+            _ ->
+              %{}
+          end
+
+        component_mapping = Militerm.Config.components()
+
+        for {module_key, ur_data} <- data do
+          module = Map.get(component_mapping, as_atom(module_key), nil)
+
+          if not is_nil(module) do
+            module_data = module.get(entity_id)
+            module.set(entity_id, merge(module_data, ur_data))
+          end
+        end
+
+        receive_message(this, "cmd", "Updated #{entity_id}")
+      else
+        # uhoh - we can't find anything that matches!
+        receive_message(this, "cmd:error", "No such thing exists: #{Enum.join(bits, " ")}")
+      end
+    else
+      receive_message(this, "cmd:error", "You don't have permission to do that.")
+    end
+  end
+
+  defp merge(a, b) when is_map(a) and is_map(b) do
+    Map.merge(a, b, fn _, sa, sb -> merge(sa, sb) end)
+  end
+
+  defp merge(a, b) when is_map(a) and is_list(b) do
+    if Keyword.keyword?(b), do: merge(a, Map.new(b)), else: a
+  end
+
+  defp merge(a, b) when is_list(a) and is_map(b) do
+    if Keyword.keyword?(a), do: merge(Map.new(a), b), else: a
+  end
+
+  defp merge(a, b) when is_list(a) and is_list(b) do
+    if Keyword.keyword?(a) and Keyword.keyword?(b),
+      do: Keyword.merge(a, b),
+      else: Enum.uniq(a ++ b)
+  end
+
+  defp merge(a, b), do: b
+
+  defp as_atom(atom) when is_atom(atom), do: atom
+  defp as_atom(bin) when is_binary(bin), do: String.to_atom(bin)
 
   def register_interface(entity_id, module) do
     case whereis(entity_id) do
