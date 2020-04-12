@@ -43,4 +43,10 @@ defmodule Militerm.Config do
   def post_events_async do
     Application.get_env(:militerm, :post_events_async, true)
   end
+
+  def character_archetype do
+    :militerm
+    |> Application.fetch_env!(:game)
+    |> Keyword.get(:character_archetype)
+  end
 end

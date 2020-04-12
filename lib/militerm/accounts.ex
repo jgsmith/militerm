@@ -235,7 +235,9 @@ defmodule Militerm.Accounts do
 
   """
   def create_character(attrs \\ %{}) do
-    entity_id = "std:character#" <> UUID.uuid4()
+    character_archetype = get_character_archetype(attrs)
+
+    entity_id = character_archetype <> "#" <> UUID.uuid4()
 
     using_atoms = Enum.any?(attrs, fn {k, _} -> is_atom(k) end)
     entity_id_key = if using_atoms, do: :entity_id, else: "entity_id"
@@ -259,7 +261,7 @@ defmodule Militerm.Accounts do
             _ -> {"they", "them", "their"}
           end
 
-        Militerm.Entities.Thing.create(entity_id, "std:character",
+        Militerm.Entities.Thing.create(entity_id, character_archetype,
           identity: %{
             "name" => character.cap_name,
             "nominative" => nominative,
@@ -455,5 +457,14 @@ defmodule Militerm.Accounts do
       |> Config.repo().one()
 
     !is_nil(result)
+  end
+
+  defp get_character_archetype(attrs) do
+    case Militerm.Config.character_archetype() do
+      binary when is_binary(binary) -> binary
+      {m, f} -> apply(m, f, [attrs])
+      {m, f, a} -> apply(m, f, a ++ [attrs])
+      _ -> "std:character"
+    end
   end
 end
