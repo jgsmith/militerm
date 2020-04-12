@@ -84,7 +84,9 @@ defmodule MilitermWeb.GameLive do
 
   def handle_event("command", %{"command" => command}, socket) do
     # send command through parser / event system
-    Militerm.Systems.Entity.process_input_async({:thing, socket.assigns.entity_id}, command)
+    entity = {:thing, socket.assigns.entity_id}
+    Militerm.Systems.Entity.register_interface(entity, __MODULE__)
+    Militerm.Systems.Entity.process_input_async(entity, command)
 
     {:noreply,
      assign(socket,

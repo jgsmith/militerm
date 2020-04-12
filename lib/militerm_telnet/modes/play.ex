@@ -17,7 +17,10 @@ defmodule MilitermTelnet.Modes.Play do
     if input == "@quit" || input == "quit" do
       %{state | mode_state: :disconnect}
     else
-      Militerm.Systems.Entity.process_input({:thing, entity_id}, input)
+      entity = {:thing, entity_id}
+      Militerm.Systems.Entity.register_interface(entity, MilitermTelnet.Protocol)
+
+      Militerm.Systems.Entity.process_input(entity, input)
 
       state
     end

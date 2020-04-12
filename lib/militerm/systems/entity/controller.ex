@@ -558,7 +558,13 @@ defmodule Militerm.Systems.Entity.Controller do
         {pid, _} = _from,
         %{interfaces: interfaces} = state
       ) do
-    {:reply, :ok, %{state | interfaces: [{pid, module} | interfaces]}}
+    pair = {pid, module}
+
+    if pair in interfaces do
+      {:reply, :ok, state}
+    else
+      {:reply, :ok, %{state | interfaces: [{pid, module} | interfaces]}}
+    end
   end
 
   @impl true
