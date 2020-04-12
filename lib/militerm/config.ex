@@ -49,4 +49,10 @@ defmodule Militerm.Config do
     |> Application.fetch_env!(:game)
     |> Keyword.get(:character_archetype)
   end
+
+  def character_start_location do
+    :militerm
+    |> Application.fetch_env!(:game)
+    |> Keyword.get(:character_start_location)
+  end
 end

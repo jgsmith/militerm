@@ -10,8 +10,6 @@ defmodule Militerm.Accounts do
 
   alias Militerm.Accounts.{Group, GroupMembership, User}
 
-  @start_location {"in", {:thing, "scene:aber:start:between", "default"}}
-
   @doc """
   Returns the list of users.
 
@@ -277,7 +275,7 @@ defmodule Militerm.Accounts do
           }
         )
 
-        Militerm.Systems.Location.place({:thing, entity_id}, @start_location)
+        Militerm.Systems.Location.place({:thing, entity_id}, get_character_start_location(attrs))
         Militerm.Systems.Entity.hibernate({:thing, entity_id})
 
         {:ok, character}
@@ -465,6 +463,28 @@ defmodule Militerm.Accounts do
       {m, f} -> apply(m, f, [attrs])
       {m, f, a} -> apply(m, f, a ++ [attrs])
       _ -> "std:character"
+    end
+  end
+
+  defp get_character_start_location(attrs) do
+    case Militerm.Config.character_start_location() do
+      binary when is_binary(binary) ->
+        {"in", {:thing, binary, "default"}}
+
+      {entity_id, coord} when is_binary(entity_id) ->
+        {"in", {:thing, entity_id, coord}}
+
+      {prep, entity_id, coord} when is_binary(prep) and is_binary(entity_id) ->
+        {prep, {:thing, entity_id, coord}}
+
+      {m, f} ->
+        apply(m, f, [attrs])
+
+      {m, f, a} ->
+        apply(m, f, a ++ [attrs])
+
+      _ ->
+        {"in", {:thing, "scene:start:start:start", "default"}}
     end
   end
 end

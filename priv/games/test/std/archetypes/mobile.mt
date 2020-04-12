@@ -1,6 +1,8 @@
 ---
 flag:
   - living
+location:
+  position: standing
 detail:
   default:
     noun:
