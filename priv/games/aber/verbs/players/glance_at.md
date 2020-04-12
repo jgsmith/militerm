@@ -12,5 +12,6 @@ published: true
 senses:
   - see
 class: action
+error: "Glance at what?"
 ---
 This command allows you to see a brief description of something in the area around you.

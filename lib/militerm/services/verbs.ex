@@ -110,7 +110,10 @@ defmodule Militerm.Services.Verbs do
           |> Enum.into(%{})
 
         Enum.reduce(syntaxes, store, fn syntax, syn_store ->
-          syntax = Map.put(syntax, :source, file)
+          syntax =
+            syntax
+            |> Map.put(:source, file)
+            |> Map.put(:error, Map.get(parse, "error"))
 
           Enum.reduce(words, syn_store, fn word, word_store ->
             case String.split(word, " ", trim: true) do
@@ -154,7 +157,10 @@ defmodule Militerm.Services.Verbs do
       case load_and_parse(path) do
         %{"syntaxes" => syntaxes, "verbs" => words} = parse ->
           Enum.reduce(syntaxes, store, fn syntax, syn_store ->
-            syntax = Map.put(syntax, :source, path)
+            syntax =
+              syntax
+              |> Map.put(:source, path)
+              |> Map.put(:error, Map.get(parse, "error"))
 
             Enum.reduce(words, syn_store, fn word, word_store ->
               case String.split(word, " ", trim: true) do
