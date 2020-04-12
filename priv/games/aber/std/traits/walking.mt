@@ -16,7 +16,7 @@ end
 
 reacts to walk:direction as actor with do
   if eflag:walking then
-    if not MoveTo("normal", Exit( direction ) ) then
+    if not MoveTo("normal", "in", Exit( direction ) ) then
       reset eflag:walking
       reset eflag:moving
       uhoh "You can't walk that way."

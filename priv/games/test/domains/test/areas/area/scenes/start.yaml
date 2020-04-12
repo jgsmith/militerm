@@ -13,3 +13,11 @@ detail:
     related_by: in
     nouns: ["floor"]
     adjectives: []
+  table:
+    short: a table
+    sight: "The table stands proudly on the floor."
+    related_to: floor
+    related_by: "on"
+    nouns: ["table"]
+    adjectives: ["proud"]
+  
