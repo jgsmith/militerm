@@ -125,7 +125,7 @@ defmodule Militerm.AccountsTest do
       detail_info = Militerm.Components.Details.get(character.entity_id, "default")
       assert identity_info["name"] == "SomeCapName"
       assert identity_info["nominative"] == "they"
-      assert detail_info["nouns"] == ["somecapname"]
+      assert Enum.sort(detail_info["nouns"]) == ["human", "somecapname"]
       {:ok, module} = Militerm.Components.Entity.module(character.entity_id)
       assert is_atom(module)
     end

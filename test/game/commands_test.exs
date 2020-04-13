@@ -51,7 +51,7 @@ defmodule Game.CommandsTest do
       |> Entity.send_input("move near the table")
       |> Entity.await_event("action:done")
       |> Entity.get_output()
-      
+
       final_location = Militerm.Services.Location.where(entity)
       assert final_location == {"near", {:thing, "scene:test:area:start", "table"}}
     end

@@ -25,12 +25,6 @@ defmodule Militerm.Command.Plugs.RunEvents do
             {:thing, id, _} -> id
           end
 
-        # args = slots
-        #   |> Map.put("actor", [entity])
-        #   |> Map.put("this", entity)
-        # IO.inspect({:async_trigger, entity_id, "action:done", "actor", args})
-        # Militerm.Systems.Events.async_trigger(entity_id, "action:done", "actor", args)
-        # 
         case result do
           {:halt, message} ->
             {:error, message}

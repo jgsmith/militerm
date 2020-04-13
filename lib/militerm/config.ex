@@ -50,6 +50,12 @@ defmodule Militerm.Config do
     |> Keyword.get(:character_archetype)
   end
 
+  def character_start_data do
+    :militerm
+    |> Application.fetch_env!(:game)
+    |> Keyword.get(:character_start_data)
+  end
+
   def character_start_location do
     :militerm
     |> Application.fetch_env!(:game)

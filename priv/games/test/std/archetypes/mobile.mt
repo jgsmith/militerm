@@ -5,9 +5,9 @@ location:
   position: standing
 detail:
   default:
-    noun:
+    nouns:
       - human
-    adjective:
+    adjectives:
       - simple
 ---
 based on std:item

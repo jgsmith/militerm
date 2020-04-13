@@ -237,12 +237,13 @@ defmodule Militerm.Accounts do
 
     entity_id = character_archetype <> "#" <> UUID.uuid4()
 
-    using_atoms = Enum.any?(attrs, fn {k, _} -> is_atom(k) end)
-    entity_id_key = if using_atoms, do: :entity_id, else: "entity_id"
-
     attrs =
       attrs
-      |> Map.put(entity_id_key, entity_id)
+      |> Enum.map(fn {k, v} -> {to_string(k), v} end)
+      |> Enum.into(%{})
+      |> Map.put("entity_id", entity_id)
+
+    create_character_entity(entity_id, character_archetype, attrs)
 
     result =
       %Character{}
@@ -250,39 +251,24 @@ defmodule Militerm.Accounts do
       |> Config.repo().insert
 
     case result do
-      {:ok, character} ->
-        {nominative, objective, possessive} =
-          case character.gender do
-            "male" -> {"he", "him", "his"}
-            "female" -> {"she", "her", "her"}
-            "neuter" -> {"hi", "hir", "hir"}
-            _ -> {"they", "them", "their"}
-          end
-
-        Militerm.Entities.Thing.create(entity_id, character_archetype,
-          identity: %{
-            "name" => character.cap_name,
-            "nominative" => nominative,
-            "objective" => objective,
-            "possessive" => possessive
-          },
-          detail: %{
-            "default" => %{
-              "nouns" => [character.name],
-              "short" => character.cap_name,
-              "adjectives" => []
-            }
-          }
-        )
-
-        Militerm.Systems.Location.place({:thing, entity_id}, get_character_start_location(attrs))
-        Militerm.Systems.Entity.hibernate({:thing, entity_id})
-
-        {:ok, character}
+      {:ok, character} = done ->
+        done
 
       {:error, _} = error ->
+        remove_character_entity(entity_id)
         error
     end
+  end
+
+  defp create_character_entity(entity_id, archetype, attrs) do
+    Militerm.Entities.Thing.create(entity_id, archetype, get_character_start_data(attrs))
+
+    Militerm.Systems.Location.place({:thing, entity_id}, get_character_start_location(attrs))
+    Militerm.Systems.Entity.hibernate({:thing, entity_id})
+  end
+
+  defp remove_character_entity(entity_id) do
+    Militerm.Entities.Thing.delete(entity_id)
   end
 
   @doc """
@@ -485,6 +471,44 @@ defmodule Militerm.Accounts do
 
       _ ->
         {"in", {:thing, "scene:start:start:start", "default"}}
+    end
+  end
+
+  def get_character_start_data(attrs) do
+    case Militerm.Config.character_start_data() do
+      %{} = data ->
+        data
+
+      {m, f} ->
+        apply(m, f, [attrs])
+
+      {m, f, a} ->
+        apply(m, f, a ++ [attrs])
+
+      _ ->
+        {nominative, objective, possessive} =
+          case attrs["gender"] do
+            "male" -> {"he", "him", "his"}
+            "female" -> {"she", "her", "her"}
+            "neuter" -> {"hi", "hir", "hir"}
+            _ -> {"they", "them", "their"}
+          end
+
+        %{
+          identity: %{
+            "name" => attrs["cap_name"],
+            "nominative" => nominative,
+            "objective" => objective,
+            "possessive" => possessive
+          },
+          detail: %{
+            "default" => %{
+              "nouns" => [attrs["name"]],
+              "short" => attrs["cap_name"],
+              "adjectives" => []
+            }
+          }
+        }
     end
   end
 end
