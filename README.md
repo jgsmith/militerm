@@ -5,10 +5,9 @@
 A text-based MMORPG engine written in Elixir, Militerm builds on the pattern of LPC muds with a
 core driver, mudlib, and content.
 
-Militerm provides the driver and scripting support to develop the core content. Content can
-be created through a web-based content creation system.
+Militerm provides the driver and scripting support to develop the core content. Content is managed through files, allowing the use of a revision control system of your choice.
 
-See [the example game](https://github.com/jgsmith/militerm-example) for a demonstration.
+See [an example game](https://github.com/jgsmith/exinfiltr8) for a demonstration.
 
 ## Development
 

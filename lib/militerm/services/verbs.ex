@@ -28,14 +28,14 @@ defmodule Militerm.Services.Verbs do
   def add_verb(scope, first_word, syntax) do
     # figure out bounds - what do we call for that?
     # can also move the thing since a _thing_ can only appear once in this data
-    GenServer.call(__MODULE__, {:add, scope, first_word, syntax})
+    GenServer.call(__MODULE__, {:add, to_string(scope), first_word, syntax})
   end
 
   def reload_file(file), do: GenServer.call(__MODULE__, {:reload, file})
 
   def get_syntaxes(scope, word) do
     # removes the thing from the global map registry
-    GenServer.call(__MODULE__, {:get_syntaxes, scope, word})
+    GenServer.call(__MODULE__, {:get_syntaxes, to_string(scope), word})
   end
 
   ###
@@ -151,8 +151,6 @@ defmodule Militerm.Services.Verbs do
         path
         |> Path.split()
         |> Enum.reverse()
-
-      scope = String.to_atom(scope)
 
       case load_and_parse(path) do
         %{"syntaxes" => syntaxes, "verbs" => words} = parse ->

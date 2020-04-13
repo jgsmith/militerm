@@ -1,0 +1,8 @@
+The @su command lets you escalate your privileges by taking on the aspects of
+a group you are in. These privileges are regardless of which character you are
+playing. They are based on your account.
+
+By requiring this escalation, you don't accidentally use a privileged command
+when you don't want to.
+
+Use the @unsu command to remove a group or all groups.
