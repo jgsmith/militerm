@@ -35,6 +35,7 @@ defmodule Game.DescribeTest do
                {"in", {:thing, "scene:test:area:start", "default"}}
     end
 
+    @tag unreliable: true
     test "with a north exit", %{entity: entity} do
       assert Militerm.Systems.Location.find_exits(entity) == ["north"]
     end

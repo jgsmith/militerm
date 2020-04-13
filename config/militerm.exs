@@ -23,7 +23,8 @@ config :militerm, :repo, Militerm.Repo
 
 config :militerm, :game,
   character_archetype: "std:character",
-  character_start_location: {"in", "scene:aber:start:between", "default"}
+  character_start_location: "scene:aber:start:between",
+  character_start_data: nil
 
 config :gossip, :callback_modules,
   core: Militerm.Gossip,
