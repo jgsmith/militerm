@@ -6,8 +6,6 @@ defmodule Militerm.Systems.Entity.Controller do
 
   alias Militerm.Systems.Entity
 
-  @async_post_events Config.post_events_async()
-
   @moduledoc """
   Manages control of an entity -- managing events more than anything else.
   """
@@ -64,7 +62,7 @@ defmodule Militerm.Systems.Entity.Controller do
     else
       component_atom = String.to_existing_atom(component)
 
-      case Map.fetch(Militerm.Config.components(), component_atom) do
+      case Map.fetch(Militerm.Config.master().components(), component_atom) do
         {:ok, module} ->
           module.set_value(entity_id, path, validated_value)
 
@@ -99,7 +97,7 @@ defmodule Militerm.Systems.Entity.Controller do
   def reset_property({:thing, entity_id}, [component | path], args) do
     component_atom = String.to_existing_atom(component)
 
-    case Map.fetch(Militerm.Config.components(), component_atom) do
+    case Map.fetch(Militerm.Config.master().components(), component_atom) do
       {:ok, module} ->
         module.reset_value(entity_id, path)
 
@@ -122,7 +120,7 @@ defmodule Militerm.Systems.Entity.Controller do
   def remove_property({:thing, entity_id}, [component | path]) do
     component_atom = String.to_existing_atom(component)
 
-    case Map.fetch(Militerm.Config.components(), component_atom) do
+    case Map.fetch(Militerm.Config.master().components(), component_atom) do
       {:ok, module} ->
         module.remove_value(entity_id, path)
 
@@ -167,7 +165,7 @@ defmodule Militerm.Systems.Entity.Controller do
   def raw_property({:thing, entity_id}, [component | path], _args) do
     component_atom = String.to_existing_atom(component)
 
-    case Map.fetch(Militerm.Config.components(), component_atom) do
+    case Map.fetch(Militerm.Config.master().components(), component_atom) do
       {:ok, module} ->
         module.get_value(entity_id, path)
 

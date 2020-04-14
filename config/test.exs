@@ -12,9 +12,6 @@ config :militerm, MilitermTelnet.Endpoint,
 
 config :militerm, :game, dir: "priv/games/test"
 
-config :militerm,
-  post_events_async: false
-
 # Print only warnings and errors during test
 config :logger, level: :warn
 

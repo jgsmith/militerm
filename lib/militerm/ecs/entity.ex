@@ -80,7 +80,7 @@ defmodule Militerm.ECS.Entity do
     # components have ot be listed in the defaults
     archetype_data = get_archetype_data(archetype)
 
-    component_mapping = Militerm.Config.components()
+    component_mapping = Militerm.Config.master().components()
 
     data =
       defaults
@@ -108,7 +108,7 @@ defmodule Militerm.ECS.Entity do
   end
 
   def delete_entity(entity_id) do
-    component_mapping = Militerm.Config.components()
+    component_mapping = Militerm.Config.master().components()
 
     # make sure the entity isn't running
     Militerm.Systems.Entity.shutdown(entity_id)

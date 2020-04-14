@@ -1,12 +1,7 @@
 defmodule Militerm.Config do
-  @components Map.new([
-                {:entity, Militerm.Components.Entity}
-                | Application.get_env(:militerm, :components, [])
-              ])
-
   @repo Application.fetch_env!(:militerm, :repo)
 
-  def components, do: @components
+  def components, do: master.components()
 
   def game_dir do
     game_dir =
@@ -40,10 +35,6 @@ defmodule Militerm.Config do
 
   def repo, do: @repo
 
-  def post_events_async do
-    Application.get_env(:militerm, :post_events_async, true)
-  end
-
   def character_archetype do
     :militerm
     |> Application.fetch_env!(:game)
@@ -60,5 +51,9 @@ defmodule Militerm.Config do
     :militerm
     |> Application.fetch_env!(:game)
     |> Keyword.get(:character_start_location)
+  end
+
+  def master do
+    Application.get_env(:militerm, :master, Militerm.Master.Default)
   end
 end

@@ -68,7 +68,7 @@ defmodule Militerm.Components.Entity do
   end
 
   def update_components(entity_id, data) do
-    for {key, module} <- Militerm.Config.components() do
+    for {key, module} <- Militerm.Config.master().components() do
       if Map.has_key?(data, key) do
         module.set(entity_id, Map.get(data, key))
       end
@@ -78,7 +78,7 @@ defmodule Militerm.Components.Entity do
   end
 
   def get_components(entity_id) do
-    Militerm.Config.components()
+    Militerm.Config.master().components()
     |> Enum.reduce(%{}, fn {key, module}, acc ->
       acc
       |> Map.put(
