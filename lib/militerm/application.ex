@@ -19,22 +19,12 @@ defmodule Militerm.Application do
         %{}
       )
 
+    master = Militerm.Config.master()
+
     # List all child processes to be supervised
     standalone = Application.get_env(:militerm, :standalone, false)
 
-    services = [
-      # Starts a worker by calling: Militerm.Worker.start_link(arg)
-      # {Militerm.Worker, arg},
-      Militerm.Services.Commands,
-      Militerm.Services.Events,
-      Militerm.Services.GlobalMap,
-      Militerm.Services.Verbs,
-      Militerm.Services.Socials,
-      Militerm.Services.Archetypes,
-      Militerm.Services.Mixins,
-      Militerm.Services.MML,
-      Militerm.Services.Script
-    ]
+    services = master.services()
 
     interfaces =
       [
@@ -49,7 +39,7 @@ defmodule Militerm.Application do
       {Militerm.Cache.Session, []}
     ]
 
-    components = Map.values(Militerm.Config.components())
+    components = Map.values(master.components())
 
     endpoints = if standalone, do: [MilitermWeb.Endpoint], else: []
 
@@ -75,17 +65,8 @@ defmodule Militerm.Application do
 
     Swarm.register_name(Gossip, Militerm.Gossip.Process, :start_link, [])
 
-    Task.async(&Militerm.Systems.Logger.initialize/0)
-    Task.async(&Militerm.Systems.Entity.initialize/0)
-    Task.async(&Militerm.Systems.Gossip.initialize/0)
-    Task.async(&Militerm.Systems.Groups.initialize/0)
-    Task.async(&Militerm.Systems.Help.initialize/0)
-    Task.async(&Militerm.Systems.MML.initialize/0)
-    Task.async(&Militerm.Systems.Location.initialize/0)
-    Task.async(&Militerm.Systems.SimpleResponse.initialize/0)
-    Task.async(&MilitermWeb.Tags.Colors.initialize/0)
-    Task.async(&MilitermWeb.Tags.Environment.initialize/0)
-    Task.async(&Militerm.Tags.English.initialize/0)
+    for system <- master.systems(), do: system.initialize()
+    for tag <- master.tags(), do: tag.initialize()
 
     result
   end

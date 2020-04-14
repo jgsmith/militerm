@@ -132,7 +132,7 @@ defmodule Militerm.Systems.Entity do
               %{}
           end
 
-        component_mapping = Militerm.Config.components()
+        component_mapping = Militerm.Config.master().components()
 
         for {module_key, ur_data} <- data do
           module = Map.get(component_mapping, as_atom(module_key), nil)
