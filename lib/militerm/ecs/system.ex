@@ -63,7 +63,7 @@ defmodule Militerm.ECS.System do
 
   @doc false
   def define_command_function({name, loc, args} = header, opts) do
-    command = name |> to_string()
+    command = Keyword.get(opts, :as, name |> to_string())
     function_name = String.to_atom("cmd_" <> to_string(name))
     body = Keyword.fetch!(opts, :do)
     object_ref = Keyword.get(opts, :for, {:_, loc, nil})

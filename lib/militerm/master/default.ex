@@ -2,13 +2,13 @@ defmodule Militerm.Master.Default do
   @moduledoc ~S"""
   The default master module provides as reasonable baseline for the components,
   services, systems, and tag sets in a game.
-  
+
   To use this as a base for your game:
-  
+
   ```
   defmodule MyGame.Master do
     use Militerm.Master, based_on: Militerm.Master.Default
-    
+
     ...
   end
   ```
@@ -18,6 +18,7 @@ defmodule Militerm.Master.Default do
 
   alias Militerm.{Components, Services, Systems}
 
+  component(:alias, Components.Aliases)
   component(:counter, Components.Counters)
   component(:detail, Components.Details)
   component(:eflag, Components.EphemeralFlag)
@@ -43,6 +44,7 @@ defmodule Militerm.Master.Default do
   service(Services.MML)
   service(Services.Script)
 
+  system(Systems.Aliases)
   system(Systems.Logger)
   system(Systems.Entity)
   system(Systems.Gossip)

@@ -310,7 +310,9 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defcommand goto(bits), for: %{"this" => {:thing, entity_id} = this} = args do
+  defcommand goto(arg), for: %{"this" => {:thing, entity_id} = this} = args do
+    bits = String.split(arg, ~r{\s+}, trim: true)
+
     if Components.EphemeralGroup.get_value(entity_id, ["admin"]) do
       target =
         case bits do
