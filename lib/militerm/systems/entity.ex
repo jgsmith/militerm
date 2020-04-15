@@ -70,22 +70,22 @@ defmodule Militerm.Systems.Entity do
     Militerm.Systems.Events.trigger(entity_id, "object:destroy", %{"this" => entity})
   end
 
-  defcommand update(bits), for: %{"this" => {:thing, this_id} = this} = args do
+  defcommand update(thing), for: %{"this" => {:thing, this_id} = this} = args do
     if Enum.any?(["admin", "builders"], &Components.EphemeralGroup.get_value(this_id, [&1])) do
       entity_id =
-        case bits do
+        case thing do
           # update this location
-          [] ->
+          "" ->
             case Militerm.Services.Location.where(this) do
               {_, {:thing, id, _}} -> id
               _ -> nil
             end
 
-          ["me"] ->
+          "me" ->
             this_id
 
           # might be an entity_id
-          [bit] ->
+          bit ->
             case whereis(bit) do
               {:ok, _} ->
                 bit
@@ -101,18 +101,6 @@ defmodule Militerm.Systems.Entity do
                   {_, %{direct: [{:thing, id, _} | _]}} -> id
                   _ -> nil
                 end
-            end
-
-          # find the thing and then update it
-          _ ->
-            case Militerm.Systems.Commands.Binder.bind_slot(
-                   :direct,
-                   {:object, :singular, [:here], Enum.join(bits, " ")},
-                   {%{}, %{}}
-                 ) do
-              {_, %{direct: [{:thing, id} | _]}} -> id
-              {_, %{direct: [{:thing, id, _} | _]}} -> id
-              _ -> nil
             end
         end
 
@@ -146,7 +134,7 @@ defmodule Militerm.Systems.Entity do
         receive_message(this, "cmd", "Updated #{entity_id}")
       else
         # uhoh - we can't find anything that matches!
-        receive_message(this, "cmd:error", "No such thing exists: #{Enum.join(bits, " ")}")
+        receive_message(this, "cmd:error", "No such thing exists: #{thing}")
       end
     else
       receive_message(this, "cmd:error", "You don't have permission to do that.")

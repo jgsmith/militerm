@@ -45,6 +45,7 @@ defmodule Militerm.Command.Pipeline do
 
   def pipeline(:players) do
     [
+      Militerm.Command.Plugs.Aliases,
       Militerm.Command.Plugs.Commands,
       {Militerm.Command.Plugs.Parse,
        [parser: Militerm.Parsers.Command, service: Militerm.Services.Verbs]},

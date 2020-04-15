@@ -16,7 +16,7 @@ defmodule Militerm.Systems.Groups do
   defcommand su(bits), for: %{"this" => {:thing, entity_id} = this} = args do
     # the user has to have been granted the group membership in order to
     # add it to their session
-    case bits do
+    case String.split(bits, ~r{\s+}, trim: true) do
       [] ->
         # list out the current groups turned on
         list =
@@ -31,8 +31,8 @@ defmodule Militerm.Systems.Groups do
           }"
         )
 
-      [_ | _] ->
-        candidates = bits -- EphemeralGroup.get_groups(entity_id)
+      groups ->
+        candidates = groups -- EphemeralGroup.get_groups(entity_id)
 
         list =
           candidates
@@ -48,9 +48,9 @@ defmodule Militerm.Systems.Groups do
 
   defcommand unsu(bits), for: %{"this" => {:thing, entity_id} = this} = args do
     list =
-      case bits do
+      case String.split(bits, ~r{\s+}, trim: true) do
         [] -> EphemeralGroup.get_groups(entity_id) -- ["players"]
-        [_ | _] -> bits -- ["players"]
+        groups -> groups -- ["players"]
       end
 
     for group <- list, do: EphemeralGroup.set_value(entity_id, [group], false)

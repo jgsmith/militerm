@@ -6,11 +6,18 @@ defmodule Militerm.Systems.Help do
   the contents of help documentation.
   """
 
-  defcommand help(bits), for: %{"this" => this} do
+  defcommand help(phrase), for: %{"this" => this} do
     # look first for a document - then for a verb
     # needs to be a pipeline so we can include other options down the road
     # like spells or crafting
-    request = %{arg: bits, actor: this, handled: false, nroff: nil, mml: nil, text: nil}
+    request = %{
+      arg: String.split(phrase, ~r{\s+}, trim: true),
+      actor: this,
+      handled: false,
+      nroff: nil,
+      mml: nil,
+      text: nil
+    }
 
     pipeline()
     |> Enum.reduce(request, &apply(&1, :call, [&2]))

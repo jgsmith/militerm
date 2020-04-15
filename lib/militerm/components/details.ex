@@ -184,7 +184,7 @@ defmodule Militerm.Components.Details do
         nil
 
       map ->
-        new_map = Map.drop(map, detail)
+        new_map = Map.drop(map, [detail])
         if map_size(new_map) == 0, do: nil, else: new_map
     end)
   end

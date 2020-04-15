@@ -1,4 +1,37 @@
 ---
+alias:
+  l: look $*
+  i: inventory
+  n: go north
+  s: go south
+  e: go east
+  w: go west
+  ne: go northeast
+  nw: go northwest
+  se: go southeast
+  sw: go southwest
+  d: go down
+  u: go up
+  out: go out
+  exa: look at $*
+  p: @who
+  help: @help $*
+  quit: @quit
+  northwest: go northwest
+  northeast: go northeast
+  southwest: go southwest
+  southeast: go southeast
+  north: go north
+  south: go south
+  east: go east
+  west: go west
+  up: go up
+  down: go down
+  inv: inventory
+  x: look at $*
+  "'": say $*
+  ":": emote $*
+  '"': say $*
 ---
 based on std:mobile
 
