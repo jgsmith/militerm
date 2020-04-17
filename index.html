@@ -1,18 +1,46 @@
-Militerm is an open-source platform for building multi-player online text games
+---
+layout: default
+---
+<style>
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    width: 30%;
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  .sidebar-content {
+    font-size: 90%;
+  }
+}
+</style>
+
+<p>Militerm is an open-source platform for building multi-player online text games
 (MUD, MUX, MUSH, MUCK, and other MU*). You design your entire game using a
 custom scripting language that can be extended with collections of functions
-and entirely new game systems written in Elixir.
+and entirely new game systems written in Elixir.</p>
 
-<!-- ## What's Here
+<div class="sidebar">
+  <div class="sidebar-content">
 
-_Ramblings_ is where we discuss general game design with an eye to the kind of
-game we want to enable with Militerm. _Ideas_ is a dumping ground for half-formed
-thoughts that we don't want to lose. _Documentation_ is where we describe the API. -->
+<!-- <h2>What's Here</h2>
 
-## Where Can I Get It?
+<p><em>Ramblings</em> is where we discuss general game design with an eye to the kind of
+game we want to enable with Militerm. <em>Ideas</em> is a dumping ground for half-formed
+thoughts that we don't want to lose. <em>Documentation</em> is where we describe the API.</p> -->
 
-Militerm's source code is hosted on Github. This is where you can download the
-game and report bugs or ideas in the issue tracker.
+<h2>Where Can I Get It?</h2>
+
+<p>Militerm's source code is hosted on Github. This is where you can download the
+game and report bugs or ideas in the issue tracker.</p>
+
+  </div>
+</div>
+
+  {% for post in site.posts %}
+      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      {{ post.excerpt }}
+  {% endfor %}
 
 <!-- ## What Does It Look Like?
 
