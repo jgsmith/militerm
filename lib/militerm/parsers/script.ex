@@ -94,6 +94,11 @@ defmodule Militerm.Parsers.Script do
       ...>       sight:"<actor:name> <foo> around."
       ...>     end
       ...>
+      ...>     reacts to some:event with do
+      ...>       [ <- foo:bar ]
+      ...>       [ direct <- bar:baz as observer with bit: 4]
+      ...>     end
+      ...>
       ...>     reacts to post-foo:gaz with do
       ...>       :"<Actor:name> <foo> around."
       ...>     end
@@ -694,6 +699,11 @@ defmodule Militerm.Parsers.Script do
     scan_token(source, ~r/\#([a-z][-a-z_A-Z0-9]*(:\$?[a-z][-a-z_A-Z0-9]*)*)/)
   end
 
+  defp parse_named_argument_name(source) do
+    skip_space(source)
+    scan_token(source, ~r/([a-z][-a-z_A-Z0-9]*)/)
+  end
+
   defp parse_uhoh(source) do
     skip_space(source)
 
@@ -930,7 +940,13 @@ defmodule Militerm.Parsers.Script do
         parse_is_can_q(source, :this_can)
 
       Scanner.scan(source, ~r/\(\{/) ->
-        parse_dictionary_entry(source)
+        case parse_dictionary_entry(source) do
+          {dict, []} ->
+            {:ok, {:make_dict, dict}}
+
+          {_, errors} ->
+            {:error, errors}
+        end
 
       Scanner.scan(source, ~r/\(\[/) ->
         case parse_list(source) do
@@ -1273,28 +1289,42 @@ defmodule Militerm.Parsers.Script do
     end
   end
 
-  defp parse_list_processing(_source, _style) do
+  defp parse_list_processing(source, style) do
+    if Scanner.scan(source, ~r/as\b/) do
+      skip_space(source)
+
+      if Scanner.scan(source, ~r/(\$[a-z][-a-zA-Z0-9_]*)\b/) do
+        [_, var_name | _] = Scanner.matches(source)
+
+        case parse_expression(source) do
+          {:ok, expression} ->
+            {style, var_name, expression}
+
+          {:error, _} = error ->
+            error
+        end
+      else
+        {:error, Scanner.error(source, "Expected a variable name following 'as'")}
+      end
+    else
+      case parse_expression(source) do
+        {:ok, expression} ->
+          {style, "$it", expression}
+
+        {:error, _} = error ->
+          error
+      end
+    end
   end
 
   defp parse_is_can_q(source, style) do
     negated = Scanner.scan(source |> skip_space, ~r/not\b/)
 
-    case source |> skip_space |> parse_nc_name do
-      {:ok, adjective} ->
-        if Scanner.scan(source |> skip_space, ~r/as\b/) do
-          case source |> skip_space |> parse_pov do
-            {:ok, pov} ->
-              {:ok, {style, negated, {adjective, pov}}}
-
-            {:error, _} = otherwise ->
-              otherwise
-          end
-        else
-          {:ok, {style, negated, {adjective, "any"}}}
-        end
-
-      _ ->
-        {:error, Scanner.error(source, "Expected a NCNAME")}
+    with {:ok, adjective} <- source |> skip_space |> parse_nc_name,
+         {:ok, pov} <- source |> skip_space |> parse_pov do
+      {:ok, {style, negated, {adjective, pov}}}
+    else
+      otherwise -> otherwise
     end
   end
 
@@ -1333,7 +1363,7 @@ defmodule Militerm.Parsers.Script do
         end
 
       Scanner.scan(source, ~r/\[/) ->
-        skip_all_space(source)
+        # skip_all_space(source)
         # msg_type: %w(env whisper spoken shout yell scream)
         # msg_itensity: [+-] integer
         # message: (string | expression) ('@' msg_type msg_intensity?)?
@@ -1371,7 +1401,14 @@ defmodule Militerm.Parsers.Script do
         # [ '#' nc_name ]
         # [ exp '#' nc_name ':' arg list ]
         # [ '#' nc_name ':' arg list ]
-        parse_event_invocation(source)
+        case parse_event_invocation(source) do
+          {:ok, exp} ->
+            parse_compound_expression(source, ending, [exp | acc])
+
+          {:error, _} = otherwise ->
+            Scanner.scan_until(source, ending)
+            otherwise
+        end
 
       # {:error, Scanner.error(source, "Who knows?")}
 
@@ -1513,30 +1550,36 @@ defmodule Militerm.Parsers.Script do
   end
 
   # this is an event invocation
-  # [ exp '#' nc_name ]
-  # [ '#' nc_name ]
-  # [ exp '#' nc_name ':' arg list ]
-  # [ '#' nc_name ':' arg list ]
+  # [ exp <- nc_name ]
+  # [ <- nc_name ]
+  # [ exp <- nc_name as role with arg list ]
+  # [ <- nc_name as role with arg list ]
   defp parse_event_invocation(source) do
-    skip_space(source)
-
     item =
-      if Scanner.match?(source, '#') do
-        {:ok, :self}
+      if Scanner.scan(source, ~r{\s*<-}) do
+        {:ok, "this"}
       else
-        parse_expression(source, ~r/[#\]]/)
+        parse_expression(source, ~r/(<-|\])/)
+      end
+
+    as =
+      if Scanner.scan(source |> skip_space, ~r/as\b/) do
+        source |> skip_space |> parse_pov
+      else
+        {:ok, "any"}
       end
 
     with {:ok, item} <- item,
-         {:ok, event} <- parse_method_name(source) do
+         {:ok, event} <- parse_nc_name(source),
+         {:ok, pov} <- parse_pov(source) do
       skip_all_space(source)
 
-      if Scanner.scan(source, ~r/:/) do
+      if Scanner.scan(source, ~r/with\b/) do
         skip_all_space(source)
 
-        case parse_arg_list(source, ~r/\]/) do
-          {:ok, args} ->
-            {:ok, {:event, item, event, args}}
+        case parse_named_args(source, ~r/\]/) do
+          {args, _errors} ->
+            {:ok, {:event, item, event, pov, args}}
 
           _ ->
             {:error, Scanner.error(source, "Expected argument list for event", ~r/\]/)}
@@ -1549,7 +1592,9 @@ defmodule Militerm.Parsers.Script do
             {:error, Scanner.error(source, "Unterminated event invocation")}
 
           Scanner.scan(source, ~r/]/) ->
-            {:ok, {:event, item, event, []}}
+            skip_all_space(source)
+
+            {:ok, {:event, item, event, pov, []}}
 
           true ->
             {:error, Scanner.error(source, "Expected \"]\" to terminate an event invocation")}
@@ -1689,7 +1734,7 @@ defmodule Militerm.Parsers.Script do
                     ending
                   )
 
-                value ->
+                {:ok, value} ->
                   parse_dictionary_entry(source, [{key, value} | dict], errors, ending)
               end
             else
@@ -1705,6 +1750,77 @@ defmodule Militerm.Parsers.Script do
                   | errors
                 ],
                 ending
+              )
+            end
+        end
+    end
+  end
+
+  @spec parse_named_args(PID, Regex.t(), List, List) :: List
+  defp parse_named_args(source, ending \\ ~r/\]/, dict \\ [], errors \\ []) do
+    skip_all_space(source)
+
+    cond do
+      Scanner.eos?(source) ->
+        {dict, [Scanner.error(source, "End of file unexpected in named argument list") | errors]}
+
+      Scanner.scan(source, ending) ->
+        {dict, errors}
+
+      true ->
+        case parse_named_argument_name(source) do
+          {:error, message} ->
+            Scanner.scan_until(source, ~r/[,\n]/)
+            parse_named_args(source, ending, dict, [message | errors])
+
+          nil ->
+            parse_named_args(
+              source,
+              ending,
+              dict,
+              [
+                Scanner.error(source, "Expected a key name", ~r/[,\n]/)
+                | errors
+              ]
+            )
+
+          {:ok, key} ->
+            skip_all_space(source)
+
+            if Scanner.scan(source, ~r/:/) do
+              skip_all_space(source)
+
+              case parse_expression(source, ~r/,/) do
+                {:error, message} ->
+                  parse_named_args(source, ending, dict, [message | errors])
+
+                nil ->
+                  parse_named_args(
+                    source,
+                    ending,
+                    dict,
+                    [
+                      Scanner.error(source, "Expected an expression")
+                      | errors
+                    ]
+                  )
+
+                {:ok, value} ->
+                  parse_named_args(source, ending, [{key, value} | dict], errors)
+              end
+            else
+              parse_named_args(
+                source,
+                ending,
+                dict,
+                [
+                  Scanner.error(
+                    source,
+                    "Expected a \":\" separating the key from the value",
+                    ~r/[,\n]/
+                  )
+                  | errors
+                ]
               )
             end
         end

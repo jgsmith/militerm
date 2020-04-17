@@ -26,6 +26,11 @@ defmodule Game.DescribeTest do
 
     Militerm.Services.Location.place(entity, {"in", {:thing, "scene:test:area:start", "default"}})
 
+    Militerm.Systems.Entity.event(entity, "enter:game", "actor", %{
+      "this" => entity,
+      "actor" => [entity]
+    })
+
     {:ok, entity: entity}
   end
 
@@ -33,6 +38,12 @@ defmodule Game.DescribeTest do
     test "in the right location", %{entity: entity} do
       assert Militerm.Services.Location.where(entity) ==
                {"in", {:thing, "scene:test:area:start", "default"}}
+    end
+
+    test "triggers the scan:env:brief event", %{entity: entity} do
+      entity
+      |> Entity.await_event("scan:env:brief")
+      |> Entity.get_output()
     end
 
     @tag unreliable: true

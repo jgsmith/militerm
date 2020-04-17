@@ -404,6 +404,42 @@ defmodule Militerm.Machines.Script do
     end
   end
 
+  defp execute_step(:make_dict, %{stack: [n | stack]} = state) do
+    with {list, new_stack} <- Enum.split(stack, 2 * n) do
+      map =
+        list
+        |> Enum.chunk_every(2)
+        |> Enum.map(&List.to_tuple/1)
+        |> Enum.into(%{})
+
+      %{state | stack: [map | new_stack]}
+    end
+  end
+
+  defp execute_step(:trigger_event, %{stack: [target, event, pov, args | stack]} = state) do
+    targets = if is_list(target), do: target, else: [target]
+
+    targets =
+      targets
+      |> Enum.filter(fn thing ->
+        case Militerm.Systems.Entity.pre_event(thing, event, pov, Map.put(args, "this", thing)) do
+          {:halt, _} -> false
+          :halt -> false
+          _ -> true
+        end
+      end)
+
+    for thing <- targets do
+      Militerm.Systems.Entity.event(thing, event, pov, Map.put(args, "this", thing))
+    end
+
+    for thing <- targets do
+      Militerm.Systems.Entity.post_event(thing, event, pov, Map.put(args, "this", thing))
+    end
+
+    %{state | stack: [Enum.any?(targets) | stack]}
+  end
+
   defp execute_step(:sum, state) do
     do_series_op(0, &+/2, :numeric, state)
   end
@@ -581,8 +617,10 @@ defmodule Militerm.Machines.Script do
         |> Enum.map(fn base ->
           Entity.property(base, path, objects)
         end)
-        |> Enum.filter(fn {x, _} -> x == :ok end)
-        |> Enum.map(&elem(&1, 1))
+        |> Enum.reject(&is_nil/1)
+
+        # |> Enum.filter(fn {x, _} -> x == :ok end)
+        # |> Enum.map(&elem(&1, 1))
       end)
 
     %{state | stack: [values | stack]}

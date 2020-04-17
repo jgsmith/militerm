@@ -122,9 +122,7 @@ end
 # Used when a character enters the game.
 #
 reacts to enter:game as actor with do
-  Emit( "{title}{{ location:environment }}{/title}" )
-  Emit( "{env sense='sight'}{{ DescribeLong() }}{/env}") #"
-  Emit( "Obvious exits: {{ ItemList( Exits() ) }}." ) #"
+  [ <- scan:env as actor with actor: this ]
 end
 
 ##

@@ -50,11 +50,34 @@ defmodule Militerm.Compilers.Script do
   end
 
   def compile(acc, [{:make_list, list} | rest]) do
-    list
+    acc
     |> compile(Enum.reverse(list))
     |> push(Enum.count(list))
     |> encode(:make_list)
     |> compile(rest)
+  end
+
+  def compile(acc, [{:make_dict, list} | rest]) do
+    list
+    |> Enum.reverse()
+    |> Enum.reduce(acc, fn {key, expr}, acc ->
+      acc
+      |> compile(expr)
+      |> push(key)
+    end)
+    |> push(Enum.count(list))
+    |> encode(:make_dict)
+    |> compile(rest)
+  end
+
+  def compile(acc, [{:event, target, event, pov, args}]) do
+    args
+    |> compile([{:make_dict, args}])
+    |> push(pov)
+    |> push(event)
+    |> push(target)
+    |> encode(:get_obj)
+    |> encode(:trigger_event)
   end
 
   def compile(acc, [{:const, name} | rest]) do

@@ -232,6 +232,10 @@ defmodule Militerm.Util.Scanner do
     {:reply, {message, state_coords(state), String.slice(string, 0, 20)}, state}
   end
 
+  def handle_call({:match?, binary}, _from, {string, _, _, _} = state) when is_binary(binary) do
+    {:reply, String.starts_with?(string, binary), state}
+  end
+
   def handle_call({:match?, regex}, _from, {string, _, _, _} = state) do
     case fix_regex("\\A", regex) do
       {:ok, fixed_regex} ->
