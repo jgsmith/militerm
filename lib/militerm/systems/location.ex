@@ -378,6 +378,7 @@ defmodule Militerm.Systems.Location do
   end
 
   def describe_scene_inventory(scene, excluding) do
+    excluding = if is_list(excluding), do: excluding, else: [excluding]
     items = Militerm.Services.Location.find_in(scene) -- excluding
 
     for item <- items do
