@@ -15,6 +15,8 @@ defmodule Militerm.Systems.Help.Verbs do
     end
   end
 
+  def call(request), do: request
+
   def get_document(request), do: request
 
   def fulfill_request([], _word, request), do: request

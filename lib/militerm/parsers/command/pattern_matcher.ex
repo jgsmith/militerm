@@ -607,6 +607,6 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
   def to_tuple(list) when is_list(list), do: List.to_tuple(list)
 
   def query_word_list("direction") do
-    ~w[north south east west up down northeast northwest southeast southwest]
+    ~w[north south east west up down northeast northwest southeast southwest out]
   end
 end

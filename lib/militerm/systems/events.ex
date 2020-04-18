@@ -99,6 +99,27 @@ defmodule Militerm.Systems.Events do
   def run_event_set([], _, _), do: :ok
 
   def run_event_set([event | events], slots, args) do
+    entity =
+      case Map.get(args, "actor", Map.get(args, "this")) do
+        [thing] -> thing
+        thing -> thing
+      end
+
+    observers =
+      case Militerm.Services.Location.where(entity) do
+        {prep, loc} -> [loc | Militerm.Services.Location.find_in(loc)]
+        _ -> Militerm.Services.Location.find_near(entity)
+      end
+
+    observers =
+      args
+      |> Enum.reduce(observers, fn
+        {_, list}, obs when is_list(list) -> obs -- list
+        {_, thing}, obs -> obs -- [thing]
+      end)
+
+    args = Map.put(args, "observer", observers)
+
     pre_result = run_event_pre(event, slots, args)
     run_event_main(event, slots, args)
     run_event_post(event, slots, args)

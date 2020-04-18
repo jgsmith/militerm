@@ -199,19 +199,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def pre_event({:thing, entity_id} = entity, event, role, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :handle_event, [entity_id, "pre-" <> event, role, args])
-
-            _ ->
-              false
-          end
-        else
-          GenServer.call(pid, {:pre_event, event, role, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :handle_event, [entity_id, "pre-" <> event, role, args])
 
       _ ->
         false
@@ -225,19 +215,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def event({:thing, entity_id} = entity, event, role, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :handle_event, [entity_id, event, role, args])
-
-            _ ->
-              nil
-          end
-        else
-          GenServer.call(pid, {:event, event, role, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :handle_event, [entity_id, event, role, args])
 
       _ ->
         nil
@@ -254,21 +234,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def async_event({:thing, entity_id} = entity, event, role, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              Task.start(module, :handle_event, [entity_id, event, role, args])
-
-            _ ->
-              Task.start(fn -> nil end)
-          end
-        else
-          Task.start(fn ->
-            GenServer.call(pid, {:event, event, role, args})
-          end)
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        Task.start(module, :handle_event, [entity_id, event, role, args])
 
       _ ->
         nil
@@ -282,19 +250,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def post_event({:thing, entity_id} = entity, event, role, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :handle_event, [entity_id, "post-" <> event, role, args])
-
-            _ ->
-              nil
-          end
-        else
-          GenServer.call(pid, {:post_event, event, role, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :handle_event, [entity_id, "post-" <> event, role, args])
 
       _ ->
         nil
@@ -308,19 +266,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def can?({:thing, entity_id} = entity, ability, role, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :can?, [entity_id, ability, role, args])
-
-            _ ->
-              false
-          end
-        else
-          GenServer.call(pid, {:can, ability, role, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :can?, [entity_id, ability, role, args])
 
       _ ->
         false
@@ -336,19 +284,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def is?({:thing, entity_id} = entity, trait, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :is?, [entity_id, trait, args])
-
-            _ ->
-              false
-          end
-        else
-          GenServer.call(pid, {:is, trait, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :is?, [entity_id, trait, args])
 
       _ ->
         false
@@ -358,19 +296,9 @@ defmodule Militerm.Systems.Entity.Controller do
   def is?(_, _, _), do: false
 
   def validates?({:thing, entity_id} = entity, path) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :validates?, [entity_id, path])
-
-            _ ->
-              false
-          end
-        else
-          GenServer.call(pid, {:validates?, path})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :validates?, [entity_id, path])
 
       _ ->
         false
@@ -378,19 +306,9 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def validate({:thing, entity_id} = entity, path, value, args) do
-    case Entity.whereis(entity) do
-      {:ok, pid} ->
-        if pid == self() do
-          case Militerm.Components.Entity.module(entity_id) do
-            {:ok, module} ->
-              apply(module, :validate, [entity_id, path, value, args])
-
-            _ ->
-              false
-          end
-        else
-          GenServer.call(pid, {:validate, path, value, args})
-        end
+    case Militerm.Components.Entity.module(entity_id) do
+      {:ok, module} ->
+        apply(module, :validate, [entity_id, path, value, args])
 
       _ ->
         false
@@ -507,15 +425,6 @@ defmodule Militerm.Systems.Entity.Controller do
     {:noreply, state}
   end
 
-  # @impl true
-  # def handle_cast(
-  #       {:post_event, event, role, args},
-  #       %{module: module, entity_id: entity_id} = state
-  #     ) do
-  #   apply(module, :handle_event, [entity_id, "post-" <> event, role, args])
-  #   {:noreply, state}
-  # end
-
   @impl true
   def handle_cast(
         {:process_input, input},
@@ -539,15 +448,6 @@ defmodule Militerm.Systems.Entity.Controller do
 
   def handle_call(:get_entity_id, _from, %{entity_id: entity_id} = state) do
     {:reply, entity_id, state}
-  end
-
-  @impl true
-  def handle_call(
-        {:post_event, event, role, args},
-        _from,
-        %{module: module, entity_id: entity_id} = state
-      ) do
-    {:reply, apply(module, :handle_event, [entity_id, "post-" <> event, role, args]), state}
   end
 
   @impl true
@@ -602,22 +502,6 @@ defmodule Militerm.Systems.Entity.Controller do
 
   def handle_call(:shutdown, state) do
     {:stop, :shutdown, state}
-  end
-
-  def handle_call(
-        {:pre_event, event, role, args},
-        _from,
-        %{module: module, entity_id: entity_id} = state
-      ) do
-    {:reply, apply(module, :handle_event, [entity_id, "pre-" <> event, role, args]), state}
-  end
-
-  def handle_call(
-        {:event, event, role, args},
-        _from,
-        %{module: module, entity_id: entity_id} = state
-      ) do
-    {:reply, apply(module, :handle_event, [entity_id, event, role, args]), state}
   end
 
   def handle_call(

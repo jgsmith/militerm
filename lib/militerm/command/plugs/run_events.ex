@@ -1,5 +1,5 @@
 defmodule Militerm.Command.Plugs.RunEvents do
-  @obj_slots ~w[actor direct indirect instrument]
+  @obj_slots ~w[actor direct indirect instrument observer]
 
   def run(
         %{parse: %{syntax: %{actions: events} = syntax, slots: slots}, entity: entity} = state,

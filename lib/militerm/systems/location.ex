@@ -131,70 +131,69 @@ defmodule Militerm.Systems.Location do
 
   defscript describe(), for: %{"this" => {:thing, this_id} = this} = _objects do
     # exits = ["Obvious exits: ", Militerm.English.item_list(find_exits(this)), "."]
-
-    case Militerm.Services.Location.where(this) do
-      {prep, {:thing, target_id, detail}} when is_binary(detail) ->
-        position = Components.Location.position(this_id) || "standing"
-
-        case Components.Details.get(target_id, detail) do
-          %{"short" => short} ->
-            description = ["You are ", position, " ", prep, " ", short, "."]
-            to_string(description)
-
-          _ ->
-            description = ["You are ", position, " ", prep, " something somewhere."]
-            to_string(description)
-        end
-
-      {prep, {:thing, target_id, _}} ->
-        position = Components.Location.position(this, "standing")
-
-        %{"short" => short} = detail_info = Components.Details.get(target_id, "default")
-
-        description = ["You are ", position, " ", prep, " ", short, "."]
-        to_string(description)
-
-      _ ->
-        position = Components.Location.position(this_id, "standing")
-
-        description = ["You are ", position, " somewhere."]
-        to_string(description)
-    end
+    {start, _, _} = start_sight_inventory(this)
+    to_string(["You are ", start])
   end
 
-  defscript describe_long(),
-    as: "DescribeLong",
-    for: %{"this" => {:thing, this_id} = this} = _objects do
-    {start, sight} =
+  def start_sight_inventory({:thing, this_id}) do
+    start_sight_inventory({:thing, this_id, "default"})
+  end
+
+  def start_sight_inventory({:thing, this_id, detail} = this) do
+    {start, sight, inventory} =
       case Services.Location.where(this) do
-        {prep, {:thing, target_id, detail}} when is_binary(detail) ->
+        {prep, {:thing, target_id, detail} = loc} when is_binary(detail) ->
           position = Components.Location.position(this_id) || "standing"
 
           description =
             case Components.Details.get(target_id, detail) do
               %{"short" => short} ->
-                to_string(["You are ", position, " ", prep, " ", short, "."])
+                [position, " ", prep, " ", short]
 
               _ ->
-                to_string(["You are ", position, " ", prep, " something somewhere."])
+                [position, " ", prep, " something"]
             end
 
-          {description, Map.get(Components.Details.get(target_id, detail, %{}), "sight")}
+          description =
+            case Components.Details.get(target_id, detail) do
+              %{"related_to" => parent_detail, "related_by" => prox} ->
+                case Components.Details.get(target_id, parent_detail) do
+                  %{"short" => short} ->
+                    [description, " ", prox, " ", short, "."]
 
-        {prep, {:thing, target_id, _}} ->
+                  _ ->
+                    [description, " ", prox, " somewhere."]
+                end
+
+              _ ->
+                [description, "."]
+            end
+
+          {to_string(description),
+           Map.get(Components.Details.get(target_id, detail, %{}), "sight"),
+           Militerm.Services.Location.find_near(loc)}
+
+        {prep, {:thing, target_id, _} = loc} ->
           position = Components.Location.position(this, "standing")
 
           %{"short" => short} = detail_info = Components.Details.get(target_id, "default")
 
           description = to_string(["You are ", position, " ", prep, " ", short, "."])
-          {description, Map.get(Components.Details.get(target_id, "default", %{}), "sight")}
+
+          {description, Map.get(Components.Details.get(target_id, "default", %{}), "sight"),
+           Militerm.Services.Location.find_near(loc)}
 
         _ ->
           position = Components.Location.position(this_id, "standing")
 
           description = to_string(["You are ", position, " somewhere."])
-          {description, ""}
+          {description, "", []}
       end
+  end
+
+  defscript describe_long(),
+    for: %{"this" => {:thing, this_id} = this} = _objects do
+    {start, sight, inventory} = start_sight_inventory(this)
 
     long =
       case sight do
@@ -204,7 +203,85 @@ defmodule Militerm.Systems.Location do
         _ -> ""
       end
 
-    Enum.join([start, long], " ")
+    extras =
+      inventory
+      |> Enum.map(fn
+        {:thing, entity_id, detail} ->
+          Components.Details.get(entity_id, detail)
+
+        {:thing, entity_id} ->
+          Components.Details.get(entity_id, "default")
+      end)
+      |> Enum.map(fn
+        %{"extra" => %{"sight" => extra}} ->
+          case extra do
+            string when is_binary(string) -> string
+            %{"day" => day} -> day
+            %{"night" => night} -> night
+            _ -> nil
+          end
+
+        _ ->
+          nil
+      end)
+      |> Enum.reject(&is_nil/1)
+
+    Enum.join(["You are", start, long | extras], " ")
+  end
+
+  defscript describe_long(entity), for: %{"this" => {:thing, this_id} = this} = _objects do
+    entity = if is_list(entity), do: List.first(entity), else: entity
+
+    detail =
+      case entity do
+        {:thing, _, d} when is_binary(d) -> d
+        _ -> "default"
+      end
+
+    short =
+      case Components.Details.get(elem(entity, 1), detail) do
+        %{"short" => short} -> short
+        _ -> "something"
+      end
+
+    {start, sight, inventory} = start_sight_inventory(entity)
+
+    long =
+      case sight do
+        string when is_binary(string) -> string
+        %{"day" => day} -> day
+        %{"night" => night} -> night
+        _ -> ""
+      end
+
+    extras =
+      inventory
+      |> Enum.map(fn
+        {:thing, entity_id, detail} ->
+          Components.Details.get(entity_id, detail)
+
+        {:thing, entity_id} ->
+          Components.Details.get(entity_id, "default")
+      end)
+      |> Enum.map(fn
+        %{"extra" => %{"sight" => extra}} ->
+          case extra do
+            string when is_binary(string) -> string
+            %{"day" => day} -> day
+            %{"night" => night} -> night
+            _ -> nil
+          end
+
+        _ ->
+          nil
+      end)
+      |> Enum.reject(&is_nil/1)
+
+    Enum.join([initial_capital(short), "is", start, long | extras], " ")
+  end
+
+  defp initial_capital(<<first_letter::binary-1, rest::binary>>) do
+    String.capitalize(first_letter) <> rest
   end
 
   @doc """
@@ -212,8 +289,32 @@ defmodule Militerm.Systems.Location do
   """
   defscript inventory(), for: %{"this" => this} = objects do
     excluding = Map.get(objects, "actor", [])
+    excluding = if is_list(excluding), do: excluding, else: [excluding]
 
-    describe_inventory(this, excluding)
+    extras =
+      this
+      |> Militerm.Services.Location.find_near()
+      |> Enum.map(fn
+        {:thing, entity_id, detail} ->
+          Components.Details.get(entity_id, detail)
+
+        {:thing, entity_id} ->
+          Components.Details.get(entity_id, "default")
+      end)
+      |> Enum.filter(fn
+        %{"extra" => %{"sight" => extra}} ->
+          case extra do
+            string when is_binary(string) -> true
+            %{"day" => day} -> true
+            %{"night" => night} -> true
+            _ -> false
+          end
+
+        _ ->
+          false
+      end)
+
+    describe_inventory(this, [this | excluding ++ extras])
   end
 
   @doc """
@@ -221,7 +322,34 @@ defmodule Militerm.Systems.Location do
   """
   defscript inventory(entity), for: %{"this" => this} = objects do
     excluding = Map.get(objects, "actor", [])
-    describe_inventory(entity, excluding)
+
+    excluding = if is_list(excluding), do: excluding, else: [excluding]
+
+    extras =
+      entity
+      |> Militerm.Services.Location.find_near()
+      |> Enum.map(fn
+        {:thing, entity_id, detail} = thing ->
+          {thing, Components.Details.get(entity_id, detail)}
+
+        {:thing, entity_id} = thing ->
+          {thing, Component.Details.get(entity_id, "default")}
+      end)
+      |> Enum.filter(fn
+        {_, %{"extra" => %{"sight" => extra}}} ->
+          case extra do
+            string when is_binary(string) -> true
+            %{"day" => day} -> true
+            %{"night" => night} -> true
+            _ -> false
+          end
+
+        _ ->
+          false
+      end)
+      |> Enum.map(&elem(&1, 0))
+
+    describe_inventory(entity, [entity | excluding ++ extras])
   end
 
   defscript present(string), for: %{"this" => this} = _objects do
@@ -366,6 +494,7 @@ defmodule Militerm.Systems.Location do
     # wieldeds = things held
     # worns = things worn
     # for now, we don't have held or worn
+    excluding = if is_list(excluding), do: excluding, else: [excluding]
     items = Militerm.Services.Location.find_near(entity) -- excluding
 
     case items do

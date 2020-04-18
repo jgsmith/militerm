@@ -67,7 +67,7 @@ defmodule Militerm.Services.Socials do
   end
 
   def handle_info(:load_souls, store) do
-    {:noreply, load_souls(Config.game_dir() <> "/souls", store)}
+    {:noreply, load_souls(Config.game_dir() <> "/socials", store)}
   end
 
   ###
@@ -205,4 +205,6 @@ defmodule Militerm.Services.Socials do
 
     %{parse | "syntaxes" => compiled}
   end
+
+  defp parse_syntaxes(%{} = parse), do: parse
 end
