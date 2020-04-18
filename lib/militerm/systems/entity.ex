@@ -81,6 +81,12 @@ defmodule Militerm.Systems.Entity do
               _ -> nil
             end
 
+          "here" ->
+            case Militerm.Services.Location.where(this) do
+              {_, {:thing, id, _}} -> id
+              _ -> nil
+            end
+
           "me" ->
             this_id
 
@@ -119,6 +125,8 @@ defmodule Militerm.Systems.Entity do
             _ ->
               %{}
           end
+
+        data = merge(data, load_data_from_file(entity_id))
 
         component_mapping = Militerm.Config.master().components()
 
@@ -308,6 +316,26 @@ defmodule Militerm.Systems.Entity do
 
   def whatis(pid) when is_pid(pid) do
     GenServer.call(pid, :get_entity_id)
+  end
+
+  def load_data_from_file(<<"scene:", rest::binary>> = entity_id) do
+    [domain, area | path] = String.split(rest, ":", trim: true)
+
+    filename_base =
+      Path.join([Config.game_dir(), "domains", domain, "areas", area, "scenes" | path])
+
+    extension =
+      [".mt", ".yaml"]
+      |> Enum.find(&File.exists?(filename_base <> &1))
+
+    if extension == ".yaml" do
+      case YamlElixir.read_from_file(filename_base <> extension) do
+        {:ok, data} -> data
+        _ -> %{}
+      end
+    else
+      %{}
+    end
   end
 
   def try_loading_from_files(<<"scene:", rest::binary>> = entity_id) do

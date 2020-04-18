@@ -144,8 +144,8 @@ defmodule Militerm.Services.Location do
     find_in(new_things, next_steps, things ++ acc)
   end
 
-  def find_near({:thing, _} = target), do: find_near(target, 2)
-  def find_near({:thing, _, _} = target), do: find_near(target, 1)
+  def find_near({:thing, _} = target), do: find_near(target, 3)
+  def find_near({:thing, _, _} = target), do: find_near(target, 2)
 
   def find_near({:thing, entity_id}, steps) when is_binary(entity_id) do
     case Militerm.Components.Location.get(entity_id) do
@@ -181,12 +181,18 @@ defmodule Militerm.Services.Location do
     |> find_near(details, steps - 1)
   end
 
+  def do_find_related({:thing, target_id}), do: do_find_related({:thing, target_id, "default"})
+
   def do_find_related({:thing, target_id, coord}) do
     target_id
     |> Militerm.Components.Location.find_at(coord)
     |> Enum.map(fn
       entity_id when is_binary(entity_id) -> {:thing, entity_id}
     end)
+  end
+
+  def do_find_near({:thing, target_id}, details) do
+    do_find_near({:thing, target_id, "default"}, details)
   end
 
   def do_find_near({:thing, target_id, detail}, details) when is_binary(detail) do

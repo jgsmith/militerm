@@ -84,4 +84,8 @@ defmodule Militerm.Components.Things do
   def rehydrate(entity_id) when is_binary(entity_id) do
     {:thing, entity_id}
   end
+
+  def rehydrate(something) do
+    nil
+  end
 end

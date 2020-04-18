@@ -10,7 +10,7 @@ defmodule Militerm.Systems.Gossip do
     do_who_command(bits, this)
   end
 
-  def do_who_command([], {:thing, this_id} = this) do
+  def do_who_command("", {:thing, this_id} = this) do
     players =
       [this_id | Militerm.Services.Characters.list_characters()]
       |> Enum.map(fn entity_id ->
@@ -45,10 +45,9 @@ defmodule Militerm.Systems.Gossip do
     end
   end
 
-  def do_who_command([<<"@", first::binary>> | rest], this) do
+  def do_who_command(<<"@", game_name::binary>>, this) do
     # get the player list for a game
-    given_game = Enum.join([first | rest], " ")
-    lc_game_name = String.downcase(given_game)
+    lc_game_name = String.downcase(game_name)
 
     record =
       Gossip.who()
@@ -59,7 +58,7 @@ defmodule Militerm.Systems.Gossip do
     {real_game_name, players} =
       case record do
         {_, _} -> record
-        _ -> {given_game, []}
+        _ -> {game_name, []}
       end
 
     case players do
@@ -86,6 +85,14 @@ defmodule Militerm.Systems.Gossip do
           }"
         )
     end
+  end
+
+  def do_who_command(_, this) do
+    Entity.receive_message(
+      this,
+      "cmd:error",
+      "Use @who with no argument or with the name of a mud preceded by an @ (for example, '@who @somemud')."
+    )
   end
 
   defscript gossip_channel_broadcast(channel, message), for: %{"this" => {:thing, entity_id}} do

@@ -227,4 +227,6 @@ defmodule Militerm.Services.Verbs do
 
     %{parse | "syntaxes" => compiled}
   end
+
+  defp parse_syntaxes(%{} = parse), do: parse
 end
