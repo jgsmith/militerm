@@ -113,7 +113,7 @@ defmodule Militerm.Systems.Events do
 
     observers =
       args
-      |> Enum.reduce(observers, fn
+      |> Enum.reduce(Enum.uniq(observers), fn
         {_, list}, obs when is_list(list) -> obs -- list
         {_, thing}, obs -> obs -- [thing]
       end)
@@ -139,13 +139,31 @@ defmodule Militerm.Systems.Events do
     end
   end
 
-  defp run_event_pre(event, [slot | slots], args) do
+  defp run_event_pre(event, slots, args) do
     result =
-      Enum.reduce_while(to_list(Map.get(args, slot, [])), {:cont, [], false}, fn entity_id,
-                                                                                 {:cont,
-                                                                                  events_acc,
-                                                                                  halted} = acc ->
-        case Militerm.Systems.Entity.pre_event(entity_id, event, slot, args) do
+      slots
+      |> Enum.reduce_while({:cont, [], false}, fn slot, {:cont, events_acc, halted} = acc ->
+        result =
+          args
+          |> Map.get(slot, [])
+          |> to_list
+          |> Enum.reduce_while(acc, fn entity_id, {:cont, events_acc, halted} = acc ->
+            case Militerm.Systems.Entity.pre_event(entity_id, event, slot, args) do
+              {:halt, message} ->
+                {:halt, {:halt, message}}
+
+              :halt ->
+                {:cont, {:cont, events_acc, true}}
+
+              {:cont, new_events} ->
+                {:cont, {:cont, events_acc ++ new_events, halted}}
+
+              _ ->
+                {:cont, acc}
+            end
+          end)
+
+        case result do
           {:halt, message} ->
             {:halt, {:halt, message}}
 

@@ -361,7 +361,13 @@ defmodule Militerm.Systems.Location do
   defscript move_to(class, entity_id, prep, target_id, coord),
     for: %{"this" => this},
     as: "MoveTo" do
-    move_to(class, entity_id, prep, target_id, coord, this)
+    case entity_id do
+      [thing | _] ->
+        move_to(class, thing, prep, target_id, coord, this)
+
+      thing ->
+        move_to(class, thing, prep, target_id, coord, this)
+    end
   end
 
   defscript move_to(class, thing, default_prox, target),
@@ -369,7 +375,13 @@ defmodule Militerm.Systems.Location do
     as: "MoveTo" do
     case prox_target(target, default_prox) do
       {prox, target_id, target_coord} ->
-        move_to(class, thing, prox, target_id, target_coord, this)
+        case thing do
+          [one_thing | _] ->
+            move_to(class, one_thing, prox, target_id, target_coord, this)
+
+          one_thing ->
+            move_to(class, one_thing, prox, target_id, target_coord, this)
+        end
 
       nil ->
         nil
@@ -393,6 +405,8 @@ defmodule Militerm.Systems.Location do
   defp prox_target({prox, {:thing, target_id}}, _) do
     {prox, target_id, "default"}
   end
+
+  defp prox_target(thing, [prox | _]), do: prox_target(thing, prox)
 
   defp prox_target({:thing, target_id, coord}, prox) do
     {prox, target_id, coord}

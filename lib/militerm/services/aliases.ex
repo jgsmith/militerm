@@ -1,4 +1,6 @@
 defmodule Militerm.Services.Aliases do
+  def expand(_, ""), do: ""
+
   def expand({:thing, entity_id}, input) do
     [bit | bits] =
       if String.first(input) in ~w{' " : ]} do

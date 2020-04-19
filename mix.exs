@@ -40,7 +40,7 @@ defmodule Militerm.MixProject do
       {:guardian, "~> 2.0"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.1.1"},
-      {:nebulex, "~> 1.1.1"},
+      {:nebulex, "~> 1.2.1"},
       {:oauth2, "~> 0.9"},
       {:phoenix, "~> 1.4.0"},
       {:phoenix_ecto, "~> 4.0"},
