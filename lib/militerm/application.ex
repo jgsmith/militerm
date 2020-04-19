@@ -33,10 +33,10 @@ defmodule Militerm.Application do
       |> Enum.filter(& &1.start_server?())
 
     caches = [
-      {Militerm.Cache.LocalComponent, []},
-      {Militerm.Cache.LocalSession, []},
       {Militerm.Cache.Component, []},
-      {Militerm.Cache.Session, []}
+      {Militerm.Cache.Session, []},
+      {Militerm.Cache.Component.Primary, []},
+      {Militerm.Cache.Session.Primary, []}
     ]
 
     components = Map.values(master.components())

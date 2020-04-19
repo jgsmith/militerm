@@ -45,38 +45,48 @@ defmodule Militerm.Components.EphemeralFlag do
   def add_flag(entity_id, flags) when is_list(flags) do
     update(entity_id, fn
       nil -> MapSet.new(flags)
-      set -> Enum.reduce(flags, set, fn f, s -> MapSet.put(s, f) end)
+      set -> Enum.reduce(flags, as_set(set), fn f, s -> MapSet.put(s, f) end)
     end)
   end
 
   def add_flag(entity_id, flag) do
     update(entity_id, fn
       nil -> MapSet.new([flag])
-      set -> MapSet.put(set, flag)
+      set -> 
+        MapSet.put(as_set(set), flag)
     end)
   end
 
   def remove_flag(entity_id, flags) when is_list(flags) do
     update(entity_id, fn
       nil -> nil
-      set -> Enum.reduce(flags, set, fn f, s -> MapSet.delete(s, f) end)
+      set -> Enum.reduce(flags, as_set(set), fn f, s -> MapSet.delete(s, f) end)
     end)
   end
 
   def remove_flag(entity_id, flag) do
     update(entity_id, fn
       nil -> nil
-      set -> MapSet.delete(set, flag)
+      set -> MapSet.delete(as_set(set), flag)
     end)
   end
 
   def flag_set?(entity_id, flag) do
     case get(entity_id) do
       nil -> false
-      set -> MapSet.member?(set, flag)
+      set -> MapSet.member?(as_set(set), flag)
     end
   end
 
   def hibernate(_entity_id), do: :ok
   def unhibernate(_entity_id), do: :ok
+
+  defp as_set(thing) do
+    case thing do
+      %MapSet{} = mapset -> mapset
+      map when is_map(map) -> MapSet.new(Map.keys(map))
+      list when is_list(list) -> MapSet.new(list)
+      other -> other
+    end
+  end
 end

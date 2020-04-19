@@ -99,6 +99,8 @@ defmodule Militerm.Parsers.Script do
       ...>       [ direct <- bar:baz as observer with bit: 4]
       ...>     end
       ...>
+      ...>     calculates fooo with direct.detail:default:enter:target
+      ...>
       ...>     reacts to post-foo:gaz with do
       ...>       :"<Actor:name> <foo> around."
       ...>     end
@@ -153,7 +155,14 @@ defmodule Militerm.Parsers.Script do
                     {:mpy, [{:int, 1}, {:int, 2}, {:int, 3}]},
                     {:mpy, [{:int, 4}, {:int, 5}]}
                   ]
-                }}
+                }},
+        {"fooo", {
+                 :prop,
+                 [
+                  {:prop, "detail:default:enter:target"},
+                  {:context, "direct"}
+               ]
+        }}
       ]
 
   ### Quality or Mixin

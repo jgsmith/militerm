@@ -513,9 +513,15 @@ defmodule Militerm.Machines.Script do
            state
        ) do
     path =
-      name
-      |> String.split(":", trim: true)
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.set_property(this, path, value, objects)
     %{state | stack: stack}
@@ -526,9 +532,15 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this} = objects} = state
        ) do
     path =
-      name
-      |> String.split(":", trim: true)
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.reset_property(this, path, objects)
     %{state | stack: [nil | stack]}
@@ -539,9 +551,15 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this} = objects} = state
        ) do
     path =
-      name
-      |> String.split(":")
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     %{state | stack: [Entity.property(this, path, objects) | stack]}
   end
@@ -551,16 +569,21 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this}} = state
        ) do
     path =
-      name
-      |> String.split(":")
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.remove_property(this, path)
     %{state | stack: stack}
   end
 
   defp execute_step(:get_obj, %{stack: [name | stack], objects: objects} = state) do
-    # name = name |> maybe_atom
     %{state | stack: [Map.get(objects, name, nil) | stack]}
   end
 
@@ -591,8 +614,7 @@ defmodule Militerm.Machines.Script do
         |> Enum.flat_map(fn base ->
           to_list(Entity.property(base, path, objects))
         end)
-        |> Enum.filter(fn {x, _} -> x == :ok end)
-        |> Enum.map(&elem(&1, 1))
+        |> Enum.reject(&is_nil/1)
       end)
 
     %{state | stack: [values | stack]}
@@ -618,9 +640,6 @@ defmodule Militerm.Machines.Script do
           Entity.property(base, path, objects)
         end)
         |> Enum.reject(&is_nil/1)
-
-        # |> Enum.filter(fn {x, _} -> x == :ok end)
-        # |> Enum.map(&elem(&1, 1))
       end)
 
     %{state | stack: [values | stack]}
@@ -654,9 +673,13 @@ defmodule Militerm.Machines.Script do
     Enum.flat_map(bits, fn bit ->
       case bit do
         <<"$", _::binary>> = var ->
-          pad
-          |> Map.get(var, "")
-          |> String.split(":")
+          val = Map.get(pad, var, "")
+
+          case val do
+            nil -> ""
+            v when is_binary(v) -> String.split(v, ":", trim: true)
+            [v | _] -> String.split(v, ":", trim: true)
+          end
 
         _ ->
           [bit]

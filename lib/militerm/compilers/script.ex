@@ -255,10 +255,20 @@ defmodule Militerm.Compilers.Script do
   end
 
   def compile(acc, [{:prop, list} | rest]) when is_list(list) do
+    context =
+      Enum.find(list, fn
+        {:context, _} -> true
+        _ -> false
+      end)
+
+    {:context, context_var} = if is_nil(context), do: {:context, "this"}, else: context
+
+    list = list -- [context]
+
     acc
     |> compile_prop_args(list)
     |> push(Enum.count(list))
-    |> push("this")
+    |> push(context_var)
     |> encode(:get_context_var)
     |> encode(:get_prop)
     |> compile(rest)

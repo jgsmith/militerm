@@ -7,10 +7,12 @@ detail:
 trait:
   elevator-level: "1"
 thing:
-  elevator:level1:
-    entity_id: "scene:test:area:start"
-    coord: "default"
-  elevator:level2:
+  elevator:
+    level1:
+      entity_id: "scene:test:area:start"
+      coord: "default"
+  elevator:
+    level2:
       entity_id: "scene:test:area:north"
       coord: "default"
 identity:
