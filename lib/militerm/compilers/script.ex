@@ -75,8 +75,7 @@ defmodule Militerm.Compilers.Script do
     |> compile([{:make_dict, args}])
     |> push(pov)
     |> push(event)
-    |> push(target)
-    |> encode(:get_obj)
+    |> compile(target)
     |> encode(:trigger_event)
   end
 
