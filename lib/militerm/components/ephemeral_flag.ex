@@ -51,8 +51,10 @@ defmodule Militerm.Components.EphemeralFlag do
 
   def add_flag(entity_id, flag) do
     update(entity_id, fn
-      nil -> MapSet.new([flag])
-      set -> 
+      nil ->
+        MapSet.new([flag])
+
+      set ->
         MapSet.put(as_set(set), flag)
     end)
   end

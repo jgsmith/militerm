@@ -1563,12 +1563,14 @@ defmodule Militerm.Parsers.Script do
   # [ <- nc_name ]
   # [ exp <- nc_name as role with arg list ]
   # [ <- nc_name as role with arg list ]
+  #
+
   defp parse_event_invocation(source) do
     item =
       if Scanner.scan(source, ~r{\s*<-}) do
-        {:ok, "this"}
+        {:ok, {:context, "this"}}
       else
-        parse_expression(source, ~r/(<-|\])/)
+        parse_expression(source, ~r{\s*<-})
       end
 
     as =

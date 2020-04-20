@@ -238,8 +238,15 @@ defmodule Militerm.Systems.Location do
         _ -> "default"
       end
 
+    entity_id =
+      case entity do
+        {:thing, id} -> id
+        {:thing, id, _} -> id
+        _ -> nil
+      end
+
     short =
-      case Components.Details.get(elem(entity, 1), detail) do
+      case Components.Details.get(entity_id, detail) do
         %{"short" => short} -> short
         _ -> "something"
       end

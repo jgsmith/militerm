@@ -443,7 +443,7 @@ defmodule Militerm.Accounts do
     !is_nil(result)
   end
 
-  defp get_character_archetype(attrs) do
+  def get_character_archetype(attrs) do
     case Militerm.Config.character_archetype() do
       binary when is_binary(binary) -> binary
       {m, f} -> apply(m, f, [attrs])
@@ -452,7 +452,7 @@ defmodule Militerm.Accounts do
     end
   end
 
-  defp get_character_start_location(attrs) do
+  def get_character_start_location(attrs) do
     case Militerm.Config.character_start_location() do
       binary when is_binary(binary) ->
         {"in", {:thing, binary, "default"}}

@@ -92,8 +92,13 @@ defmodule Militerm.ECS.Component do
     :ok
   """
   def set(component, thing, data) do
-    apply(component, :store, [thing, data])
-    Militerm.Cache.Component.set({component, thing}, data)
+    Militerm.Cache.Component.transaction(
+      fn ->
+        apply(component, :store, [thing, data])
+        Militerm.Cache.Component.set({component, thing}, data)
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   @doc """
@@ -104,17 +109,22 @@ defmodule Militerm.ECS.Component do
     %{xp: 123, level: 2}
   """
   def get(component, thing, default \\ %{}) do
-    if value = Militerm.Cache.Component.get({component, thing}) do
-      value
-    else
-      case component.fetch(thing) do
-        nil ->
-          default
+    Militerm.Cache.Component.transaction(
+      fn ->
+        if value = Militerm.Cache.Component.get({component, thing}) do
+          value
+        else
+          case component.fetch(thing) do
+            nil ->
+              default
 
-        value ->
-          Militerm.Cache.Component.set({component, thing}, value)
-      end
-    end
+            value ->
+              Militerm.Cache.Component.set({component, thing}, value)
+          end
+        end
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   @doc """
@@ -129,18 +139,26 @@ defmodule Militerm.ECS.Component do
     %{xp: 133, level: 2}
   """
   def update(component, thing, callback) do
-    old_value = get(component, thing)
+    Militerm.Cache.Component.transaction(
+      fn ->
+        old_value = get(component, thing)
 
-    case {old_value, execute_callback(callback, old_value)} do
-      {x, x} ->
-        x
+        case {old_value, execute_callback(callback, old_value)} do
+          {x, x} ->
+            x
 
-      {_, nil} ->
-        remove(component, thing)
+          {_, nil} ->
+            apply(component, :delete, [thing])
+            Militerm.Cache.Component.delete({component, thing})
+            nil
 
-      {_, new_value} ->
-        set(component, thing, new_value)
-    end
+          {_, new_value} ->
+            apply(component, :store, [thing, new_value])
+            Militerm.Cache.Component.set({component, thing}, new_value)
+        end
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   defp execute_callback(callback, arg) when is_function(callback) do
@@ -162,8 +180,14 @@ defmodule Militerm.ECS.Component do
     nil
   """
   def remove(component, thing) do
-    apply(component, :delete, [thing])
-    Militerm.Cache.Component.delete({component, thing})
+    Militerm.Cache.Component.transaction(
+      fn ->
+        apply(component, :delete, [thing])
+        Militerm.Cache.Component.delete({component, thing})
+      end,
+      keys: [{component, thing}]
+    )
+
     nil
   end
 

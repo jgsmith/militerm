@@ -19,7 +19,21 @@ defmodule Militerm.Test.Entity do
   @doc """
   Sets up a new entity with the given archetype. Returns the entity identifier.
   """
-  def new(archetype, data \\ %{}) do
+  def new(data) when is_map(data) do
+    {_, start_thing} = start_loc = Militerm.Accounts.get_character_start_location(data)
+    Militerm.Systems.Entity.whereis(start_thing)
+
+    entity =
+      new(
+        Militerm.Accounts.get_character_archetype(data),
+        Militerm.Accounts.get_character_start_data(data)
+      )
+
+    Militerm.Services.Location.place(entity, start_loc)
+    entity
+  end
+
+  def new(archetype, data) do
     entity_id = archetype <> "#" <> UUID.uuid4()
 
     create(entity_id, archetype, data)
@@ -49,6 +63,12 @@ defmodule Militerm.Test.Entity do
     entity
   end
 
+  def send_command(entity, input) do
+    entity
+    |> send_input(input)
+    |> await_event("action:done")
+  end
+
   def get_output(entity) do
     Militerm.Test.Interface.get_output(entity)
   end
@@ -74,5 +94,19 @@ defmodule Militerm.Test.Entity do
   def await_event(entity, event) do
     Militerm.Test.Interface.await_event(entity, event)
     entity
+  end
+
+  def location(entity) do
+    case Militerm.Services.Location.where(entity) do
+      {_, thing} -> thing
+      _ -> nil
+    end
+  end
+
+  def proximity(entity) do
+    case Militerm.Services.Location.where(entity) do
+      {prox, _} -> prox
+      _ -> nil
+    end
   end
 end
