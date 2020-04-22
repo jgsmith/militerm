@@ -51,6 +51,16 @@ defmodule Militerm.Systems.Entity do
     do_create(this, archetype, data)
   end
 
+  def create(archetype, location, data \\ %{}) do
+    entity_id = "#{archetype}##{UUID.uuid4()}"
+    entity = {:thing, entity_id}
+
+    Militerm.Entities.Thing.create(entity_id, archetype, data)
+    Militerm.Systems.Location.place(entity, location)
+    Militerm.Systems.Events.trigger(entity_id, "object:created", %{"this" => entity})
+    entity
+  end
+
   def do_create(target, archetype, data \\ %{}) do
     entity_id = "#{archetype}##{UUID.uuid4()}"
     entity = {:thing, entity_id}
@@ -61,8 +71,9 @@ defmodule Militerm.Systems.Entity do
     entity
   end
 
-  defscript destroy(), for: %{"this" => {:thing, entity_id} = _entity} = _objects do
+  defscript destroy(), for: %{"this" => {:thing, entity_id} = entity} = _objects do
     # actually destroy the entity
+    Militerm.Systems.Location.remove_entity(entity)
     Militerm.ECS.Entity.delete_entity(entity_id)
   end
 

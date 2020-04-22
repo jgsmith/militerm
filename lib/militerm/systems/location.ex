@@ -69,59 +69,45 @@ defmodule Militerm.Systems.Location do
     end
   end
 
-  defscript describe(sense, entity), for: options do
-    do_describe(sense, entity, options)
+  @doc """
+  Describes the given _entity_ using the _sense_.
+
+  It starts by stating the position/proximity/location of the entity.
+  Then the detail:default:$sense for the entity.
+  Then anything nearby the entity (thing -[_prox_]-> entity).
+
+  Then a listing of entities visible on/in this entity (worn or visibly contained).
+  If these entities have detail:default:extra, then that's added to the description and the entity is
+  not included in the general inventory.
+
+  This needs all data to be calculable rather than diving into the data directly.
+  """
+  defscript describe(entity), for: objects do
+    do_describe("sight", entity, objects)
   end
 
-  def do_describe(sense, things, options) when is_list(things) do
+  defscript describe(sense, entity), for: objects do
+    do_describe(sense, entity, objects)
+  end
+
+  def do_describe(sense, things, objects) when is_list(things) do
     things
-    |> Enum.map(&do_describe(sense, &1, options))
+    |> Enum.map(&do_describe(sense, &1, objects))
     |> Enum.intersperse(" ")
   end
 
-  def do_describe(sense, {:thing, entity_id}, options) do
-    do_describe(sense, {:thing, entity_id, "default"}, options)
+  def do_describe(sense, {:thing, entity_id}, objects) do
+    do_describe(sense, {:thing, entity_id, "default"}, objects)
   end
 
-  def do_describe(sense, {:thing, entity_id, detail} = this, options) do
-    detail_info = Militerm.Components.Details.get(entity_id, detail)
+  def do_describe(sense, {:thing, entity_id, detail} = this, objects) do
+    placement = describe_placement(sense, this, objects)
 
-    placement =
-      case Militerm.Services.Location.where(this) do
-        {prep, {:thing, target_id, target_detail}} when is_binary(detail) ->
-          position =
-            case detail do
-              "default" -> Components.Location.position(entity_id)
-              _ -> Map.get(detail_info, "position", "")
-            end
+    long = Militerm.Systems.Entity.property(this, ["detail", "default", sense], objects)
 
-          case Components.Details.get(target_id, target_detail) do
-            %{"short" => short} ->
-              [
-                String.capitalize(Map.get(detail_info, "short")),
-                " is ",
-                position,
-                " ",
-                prep,
-                " ",
-                short,
-                "."
-              ]
-
-            _ ->
-              [String.capitalize(Map.get(detail_info, "short")), " is ", position, " here."]
-          end
-      end
-
-    long =
-      case detail_info do
-        %{^sense => value} -> [" ", value]
-        _ -> []
-      end
-
-    [placement, long]
+    [placement, " ", long]
     |> List.flatten()
-    |> Enum.reject(&is_nil/1)
+    |> without_nils
     |> to_string
   end
 
@@ -129,162 +115,188 @@ defmodule Militerm.Systems.Location do
     ""
   end
 
-  defscript describe(), for: %{"this" => {:thing, this_id} = this} = _objects do
+  defp describe_placement("sight", thing, objects) do
+    proximity = proximity(thing, objects)
+    position = position(thing, objects)
+    location = location(thing, objects)
+
+    loc_short =
+      Militerm.Systems.Entity.property(
+        location,
+        ~w[detail default short],
+        Map.put(objects, "this", location)
+      ) || "here"
+
+    this_short = Militerm.Systems.Entity.property(thing, ~w[detail default short], objects)
+
+    cardinality = Militerm.Systems.Entity.property(thing, ~w[detail default cardinality], objects)
+    is = if cardinality == "plural", do: " are ", else: " is "
+
+    without_nils([
+      String.capitalize(this_short),
+      is,
+      position,
+      " ",
+      proximity,
+      " ",
+      loc_short,
+      "."
+    ])
+  end
+
+  defp describe_placement(_, _, _), do: ""
+
+  defscript describe(), for: %{"this" => {:thing, this_id} = this} = objects do
     # exits = ["Obvious exits: ", Militerm.English.item_list(find_exits(this)), "."]
-    {start, _, _} = start_sight_inventory(this)
+    {start, _, _} = start_sight_inventory(this, objects)
     to_string(["You are ", start])
   end
 
-  def start_sight_inventory({:thing, this_id}) do
-    start_sight_inventory({:thing, this_id, "default"})
+  def extra_look(sense, thing, objects) do
+    objects = Map.put(objects, "this", thing)
+
+    extra =
+      Militerm.Systems.Entity.property(thing, ["detail", "default", "extra", sense], objects)
+
+    if extra do
+      this_short = Militerm.Systems.Entity.property(thing, ~w[detail default short], objects)
+      proximity = proximity(thing, objects)
+      position = position(thing, objects)
+      location = location(thing, objects)
+
+      loc_short =
+        Militerm.Systems.Entity.property(
+          location,
+          ~w[detail default short],
+          Map.put(objects, "this", location)
+        ) || "here"
+
+      without_nils([
+        String.capitalize(this_short),
+        " ",
+        position,
+        " ",
+        proximity,
+        " ",
+        loc_short,
+        " ",
+        extra
+      ])
+    else
+      nil
+    end
   end
 
-  def start_sight_inventory({:thing, this_id, detail} = this) do
-    {start, sight, inventory} =
-      case Services.Location.where(this) do
-        {prep, {:thing, target_id, detail} = loc} when is_binary(detail) ->
-          position = Components.Location.position(this_id) || "standing"
+  def proximity({:thing, _} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location proximity], objects)
+  end
 
-          description =
-            case Components.Details.get(target_id, detail) do
-              %{"short" => short} ->
-                [position, " ", prep, " ", short]
+  def proximity({:thing, _, "default"} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location proximity], objects)
+  end
 
-              _ ->
-                [position, " ", prep, " something"]
-            end
+  def proximity({:thing, _, coord} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[detail default related_by], objects)
+  end
 
-          description =
-            case Components.Details.get(target_id, detail) do
-              %{"related_to" => parent_detail, "related_by" => prox} ->
-                case Components.Details.get(target_id, parent_detail) do
-                  %{"short" => short} ->
-                    [description, " ", prox, " ", short, "."]
+  def position({:thing, _} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location position], objects)
+  end
 
-                  _ ->
-                    [description, " ", prox, " somewhere."]
-                end
+  def position({:thing, _, "default"} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location position], objects)
+  end
 
-              _ ->
-                [description, "."]
-            end
+  def position({:thing, _, coord} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[detail default position], objects)
+  end
 
-          {to_string(description),
-           Map.get(Components.Details.get(target_id, detail, %{}), "sight"),
-           Militerm.Services.Location.find_near(loc)}
+  def location({:thing, _} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location location], objects)
+  end
 
-        {prep, {:thing, target_id, _} = loc} ->
-          position = Components.Location.position(this, "standing")
+  def location({:thing, _, "default"} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location location], objects)
+  end
 
-          %{"short" => short} = detail_info = Components.Details.get(target_id, "default")
+  def location({:thing, thing_id, coord} = thing, objects) do
+    parent_coord = Militerm.Systems.Entity.property(thing, ~w[detail default related_to], objects)
+    {:thing, thing_id, parent_coord}
+  end
 
-          description = to_string(["You are ", position, " ", prep, " ", short, "."])
+  def start_sight_inventory({:thing, this_id}, objects) do
+    start_sight_inventory({:thing, this_id, "default"}, objects)
+  end
 
-          {description, Map.get(Components.Details.get(target_id, "default", %{}), "sight"),
-           Militerm.Services.Location.find_near(loc)}
+  def start_sight_inventory({:thing, this_id, detail} = this, objects) do
+    proximity = proximity(this, objects)
+    position = position(this, objects)
+    location = location(this, objects)
 
-        _ ->
-          position = Components.Location.position(this_id, "standing")
+    loc_short =
+      Militerm.Systems.Entity.property(
+        location,
+        ~w[detail default short],
+        Map.put(objects, "this", location)
+      ) || "here"
 
-          description = to_string(["You are ", position, " somewhere."])
-          {description, "", []}
-      end
+    start = without_nils([position, " ", proximity, " ", loc_short, "."])
+
+    this_long =
+      this
+      |> Militerm.Systems.Entity.property(~w[detail default sight], objects)
+      |> as_mml(Map.put(objects, "this", this))
+
+    inventory = Militerm.Services.Location.find_near(location) -- [this]
+    {to_string(start), this_long, inventory}
   end
 
   defscript describe_long(),
-    for: %{"this" => {:thing, this_id} = this} = _objects do
-    {start, sight, inventory} = start_sight_inventory(this)
+    for: %{"this" => {:thing, this_id} = this} = objects do
+    {start, _, inventory} = start_sight_inventory(this, objects)
+
+    location = location(this, objects)
 
     long =
-      case sight do
-        string when is_binary(string) -> string
-        %{"day" => day} -> day
-        %{"night" => night} -> night
-        _ -> ""
-      end
+      location
+      |> Militerm.Systems.Entity.property(
+        ~w[detail default sight],
+        Map.put(objects, "this", location)
+      )
+      |> as_mml(Map.put(objects, "this", location))
 
     extras =
       inventory
-      |> Enum.map(fn
-        {:thing, entity_id, detail} ->
-          Components.Details.get(entity_id, detail)
+      |> Enum.map(&extra_look("sight", &1, objects))
+      |> without_nils()
 
-        {:thing, entity_id} ->
-          Components.Details.get(entity_id, "default")
-      end)
-      |> Enum.map(fn
-        %{"extra" => %{"sight" => extra}} ->
-          case extra do
-            string when is_binary(string) -> string
-            %{"day" => day} -> day
-            %{"night" => night} -> night
-            _ -> nil
-          end
-
-        _ ->
-          nil
-      end)
-      |> Enum.reject(&is_nil/1)
-
-    Enum.join(["You are", start, long | extras], " ")
+    Enum.intersperse(["You are", start, long | extras], " ")
   end
 
-  defscript describe_long(entity), for: %{"this" => {:thing, this_id} = this} = _objects do
-    entity = if is_list(entity), do: List.first(entity), else: entity
+  defscript describe_long(entity), for: %{"this" => {:thing, this_id} = this} = objects do
+    thing = if is_list(entity), do: List.first(entity), else: entity
 
-    detail =
-      case entity do
-        {:thing, _, d} when is_binary(d) -> d
-        _ -> "default"
-      end
+    placement = describe_placement("sight", thing, objects)
 
-    entity_id =
-      case entity do
-        {:thing, id} -> id
-        {:thing, id, _} -> id
-        _ -> nil
-      end
+    long = thing
+      |> Militerm.Systems.Entity.property(["detail", "default", "sight"], objects)
+      |> as_mml(Map.put(objects, "this", thing))
+      
+    start =
+      [placement, " ", long]
+      |> List.flatten()
+      |> without_nils
 
-    short =
-      case Components.Details.get(entity_id, detail) do
-        %{"short" => short} -> short
-        _ -> "something"
-      end
+    location = location(thing, objects)
 
-    {start, sight, inventory} = start_sight_inventory(entity)
-
-    long =
-      case sight do
-        string when is_binary(string) -> string
-        %{"day" => day} -> day
-        %{"night" => night} -> night
-        _ -> ""
-      end
+    inventory = Militerm.Services.Location.find_in(location) -- [thing]
 
     extras =
       inventory
-      |> Enum.map(fn
-        {:thing, entity_id, detail} ->
-          Components.Details.get(entity_id, detail)
+      |> Enum.map(&extra_look("sight", &1, objects))
+      |> without_nils()
 
-        {:thing, entity_id} ->
-          Components.Details.get(entity_id, "default")
-      end)
-      |> Enum.map(fn
-        %{"extra" => %{"sight" => extra}} ->
-          case extra do
-            string when is_binary(string) -> string
-            %{"day" => day} -> day
-            %{"night" => night} -> night
-            _ -> nil
-          end
-
-        _ ->
-          nil
-      end)
-      |> Enum.reject(&is_nil/1)
-
-    Enum.join([initial_capital(short), "is", start, long | extras], " ")
+    Enum.intersperse([start | extras], " ")
   end
 
   defp initial_capital(<<first_letter::binary-1, rest::binary>>) do
@@ -298,30 +310,18 @@ defmodule Militerm.Systems.Location do
     excluding = Map.get(objects, "actor", [])
     excluding = if is_list(excluding), do: excluding, else: [excluding]
 
-    extras =
-      this
-      |> Militerm.Services.Location.find_near()
-      |> Enum.map(fn
-        {:thing, entity_id, detail} ->
-          Components.Details.get(entity_id, detail)
+    inventory = Militerm.Services.Location.find_in(this)
 
-        {:thing, entity_id} ->
-          Components.Details.get(entity_id, "default")
-      end)
-      |> Enum.filter(fn
-        %{"extra" => %{"sight" => extra}} ->
-          case extra do
-            string when is_binary(string) -> true
-            %{"day" => day} -> true
-            %{"night" => night} -> true
-            _ -> false
-          end
+    extra_items =
+      inventory
+      |> Enum.map(&{&1, extra_look("sight", &1, objects)})
 
-        _ ->
-          false
-      end)
+    extra_exclusions =
+      extra_items
+      |> Enum.reject(fn {_, x} -> is_nil(x) end)
+      |> Enum.map(&elem(&1, 0))
 
-    describe_inventory(this, [this | excluding ++ extras])
+    describe_inventory(this, [this | excluding ++ extra_exclusions])
   end
 
   @doc """
@@ -332,31 +332,18 @@ defmodule Militerm.Systems.Location do
 
     excluding = if is_list(excluding), do: excluding, else: [excluding]
 
-    extras =
-      entity
-      |> Militerm.Services.Location.find_near()
-      |> Enum.map(fn
-        {:thing, entity_id, detail} = thing ->
-          {thing, Components.Details.get(entity_id, detail)}
+    inventory = Militerm.Services.Location.find_in(this)
 
-        {:thing, entity_id} = thing ->
-          {thing, Component.Details.get(entity_id, "default")}
-      end)
-      |> Enum.filter(fn
-        {_, %{"extra" => %{"sight" => extra}}} ->
-          case extra do
-            string when is_binary(string) -> true
-            %{"day" => day} -> true
-            %{"night" => night} -> true
-            _ -> false
-          end
+    extra_items =
+      inventory
+      |> Enum.map(&{&1, extra_look("sight", &1, objects)})
 
-        _ ->
-          false
-      end)
+    extra_exclusions =
+      extra_items
+      |> Enum.reject(fn {_, x} -> is_nil(x) end)
       |> Enum.map(&elem(&1, 0))
 
-    describe_inventory(entity, [entity | excluding ++ extras])
+    describe_inventory(entity, [entity | excluding ++ extra_exclusions])
   end
 
   defscript present(string), for: %{"this" => this} = _objects do
@@ -402,6 +389,15 @@ defmodule Militerm.Systems.Location do
 
       nil ->
         nil
+    end
+  end
+
+  defp as_mml(nil, _), do: ""
+
+  defp as_mml(string, objects) do
+    case Militerm.Systems.MML.bind(string, objects) do
+      {:ok, binding} -> binding
+      _ -> string
     end
   end
 
@@ -650,6 +646,9 @@ defmodule Militerm.Systems.Location do
         {["actor", "direct"], %{"actor" => {:thing, actor_id}, "direct" => [{:thing, entity_id}]}}
       end
 
+    # move everything in relation to the thing being moved that isn't part of
+    # that things inventory.
+
     Militerm.Systems.Events.run_event_set(
       pre ++ ["move:#{class}"] ++ post,
       slot_names,
@@ -660,7 +659,7 @@ defmodule Militerm.Systems.Location do
   end
 
   defp permission_to_leave(entity_id, class, leaving_id, coord) do
-    case Militerm.Systems.Entity.pre_event(leaving_id, "move:release:#{class}", :environment, %{
+    case Militerm.Systems.Entity.pre_event(leaving_id, "move:release:#{class}", "environment", %{
            "direct" => [{:thing, entity_id}],
            "coord" => coord
          }) do
@@ -673,7 +672,7 @@ defmodule Militerm.Systems.Location do
   defp permission_to_arrive({:halt, _} = halt, _, _, _, _), do: halt
 
   defp permission_to_arrive({:cont, pre, post} = continue, entity_id, class, arriving_id, coord) do
-    case Militerm.Systems.Entity.pre_event(arriving_id, "move:receive", :environment, %{
+    case Militerm.Systems.Entity.pre_event(arriving_id, "move:receive", "environment", %{
            "direct" => [entity_id],
            "coord" => coord
          }) do
@@ -686,7 +685,7 @@ defmodule Militerm.Systems.Location do
   defp permission_to_accept({:halt, _} = halt, _, _, _, _), do: halt
 
   defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, from, to) do
-    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept", :actor, %{
+    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept", "actor", %{
            "from" => from,
            "to" => to
          }) do
@@ -791,4 +790,9 @@ defmodule Militerm.Systems.Location do
   end
 
   defp traverse_path(_, _, _, _, _, _), do: false
+
+  defp without_nils(list) do
+    list
+    |> Enum.reject(&is_nil/1)
+  end
 end

@@ -94,7 +94,26 @@ defmodule Militerm.Services.Location do
     end
   end
 
-  def find_in(thing, steps \\ 1, acc \\ []) when is_tuple(thing) do
+  @doc """
+  Returns all the entities in thing, but not details of thing.
+  """
+  def all_entities(thing) do
+    thing_id =
+      case thing do
+        {:thing, id} -> id
+        {:thing, id, _} -> id
+      end
+
+    thing_id
+    |> Militerm.Components.Location.find_in()
+    |> Enum.map(fn id -> {:thing, id} end)
+  end
+
+  def find_in(thing, steps \\ 1, acc \\ [])
+
+  def find_in(nil, _, acc), do: acc
+
+  def find_in(thing, steps, acc) when is_tuple(thing) do
     find_in([thing], steps, acc)
   end
 
@@ -146,6 +165,7 @@ defmodule Militerm.Services.Location do
 
   def find_near({:thing, _} = target), do: find_near(target, 3)
   def find_near({:thing, _, _} = target), do: find_near(target, 2)
+  def find_near(nil), do: []
 
   def find_near({:thing, entity_id}, steps) when is_binary(entity_id) do
     case Militerm.Components.Location.get(entity_id) do

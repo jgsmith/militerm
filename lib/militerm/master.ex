@@ -16,6 +16,7 @@ defmodule Militerm.Master do
         @systems unquote(prior).systems
         @services unquote(prior).services
         @tags unquote(prior).tags
+        @caches unquote(prior).caches
 
         @before_compile Militerm.Master
       end
@@ -27,6 +28,7 @@ defmodule Militerm.Master do
         @systems []
         @services []
         @tags []
+        @caches []
 
         @before_compile Militerm.Master
       end
@@ -39,6 +41,7 @@ defmodule Militerm.Master do
       def systems, do: @systems
       def components, do: Map.new(@components)
       def tags, do: @tags
+      def caches, do: @caches
     end
   end
 
@@ -63,6 +66,12 @@ defmodule Militerm.Master do
   defmacro tags(module, opts \\ []) do
     quote do
       @tags [unquote(module) | @tags]
+    end
+  end
+
+  defmacro cache(module, opts \\ []) do
+    quote do
+      @caches [unquote(module) | @caches]
     end
   end
 end

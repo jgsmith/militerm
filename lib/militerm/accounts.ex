@@ -262,8 +262,10 @@ defmodule Militerm.Accounts do
 
   defp create_character_entity(entity_id, archetype, attrs) do
     Militerm.Entities.Thing.create(entity_id, archetype, get_character_start_data(attrs))
-
-    Militerm.Systems.Location.place({:thing, entity_id}, get_character_start_location(attrs))
+    {_, thing} = loc = get_character_start_location(attrs)
+    # ensure it's loaded
+    Militerm.Systems.Entity.whereis(thing)
+    Militerm.Systems.Location.place({:thing, entity_id}, loc)
     Militerm.Systems.Entity.hibernate({:thing, entity_id})
   end
 
