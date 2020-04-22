@@ -370,7 +370,6 @@ defmodule Militerm.Machines.Script do
 
     {:ok, bound_message} =
       message
-      |> Militerm.Parsers.MML.parse!()
       |> Militerm.Systems.MML.bind(
         objects
         |> Map.put("actor", to_list(this))
