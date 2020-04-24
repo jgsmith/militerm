@@ -43,6 +43,8 @@ is living
 #
 is player
 
+can light as actor
+
 ##
 # msg:sight
 #

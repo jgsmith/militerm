@@ -9,6 +9,8 @@ defmodule Militerm.Components.Traits do
     set_raw_value(entity_id, path, value)
   end
 
+  def reset_value(entity_id, path), do: remove_value(entity_id, path)
+
   def get_value(entity_id, path) do
     get_raw_value(entity_id, path)
   end

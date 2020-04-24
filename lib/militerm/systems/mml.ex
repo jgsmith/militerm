@@ -43,13 +43,14 @@ defmodule Militerm.Systems.MML do
   end
 
   def bind(message, slots) when is_list(message) do
-    result = Enum.reduce_while(message, [], fn line, acc ->
-      case bind(line, slots) do
-        {:ok, binding} -> {:cont, [binding | acc]}
-        {:error, error} -> {:halt, {:error, error}}
-      end
-    end)
-    
+    result =
+      Enum.reduce_while(message, [], fn line, acc ->
+        case bind(line, slots) do
+          {:ok, binding} -> {:cont, [binding | acc]}
+          {:error, error} -> {:halt, {:error, error}}
+        end
+      end)
+
     case result do
       {:error, _} -> result
       list -> {:ok, {:bound, Enum.reverse(list), %{}}}

@@ -28,6 +28,26 @@ defmodule Militerm.Systems.Entity do
     end
   end
 
+  defscript every(event_name, delta), for: %{"this" => this} do
+    add_recurring_timer(this, delta, event_name, %{"this" => this})
+  end
+
+  defscript every(event_name, delta, args), for: %{"this" => this} do
+    add_recurring_timer(this, delta, event_name, Map.put(args, "this", this))
+  end
+
+  defscript delay(event_name, delta), for: %{"this" => this} do
+    add_delayed_timer(this, delta, event_name, %{"this" => this})
+  end
+
+  defscript delay(event_name, delta, args), for: %{"this" => this} do
+    add_delayed_timer(this, delta, event_name, Map.put(args, "this", this))
+  end
+
+  defscript stop_timer(timer_id), for: %{"this" => this} do
+    remove_timer(this, timer_id)
+  end
+
   defdelegate set_property(entity_id, path, value, args), to: Controller
   defdelegate reset_property(entity_id, path, args), to: Controller
   defdelegate remove_property(entity_id, path), to: Controller
@@ -42,6 +62,9 @@ defmodule Militerm.Systems.Entity do
   defdelegate post_event(entity_id, event, role, args), to: Controller
   defdelegate can?(entity_id, ability, role, args), to: Controller
   defdelegate is?(entity_id, trait, args \\ %{}), to: Controller
+  defdelegate add_recurring_timer(entity_id, delay, event, args), to: Controller
+  defdelegate add_delayed_timer(entity_id, delay, event, args), to: Controller
+  defdelegate remove_timer(entity_id, timer_id), to: Controller
 
   defscript create(archetype), for: %{"this" => this} = _objects do
     do_create(this, archetype)
@@ -215,8 +238,9 @@ defmodule Militerm.Systems.Entity do
 
   def hibernate({:thing, entity_id} = entity) do
     case whereis(entity) do
-      {:ok, _pid} ->
-        # stop the clocks/alarms
+      {:ok, pid} ->
+        GenServer.call(pid, :hibernate)
+
         Militerm.Components.EphemeralGroup.hibernate(entity_id)
         Militerm.Components.Entity.hibernate(entity_id)
         Militerm.Components.Location.hibernate(entity_id)
@@ -228,11 +252,11 @@ defmodule Militerm.Systems.Entity do
 
   def unhibernate({:thing, entity_id} = entity) do
     case whereis(entity) do
-      {:ok, _pid} ->
+      {:ok, pid} ->
         Militerm.Components.Entity.unhibernate(entity_id)
         Militerm.Components.Location.unhibernate(entity_id)
+        GenServer.call(pid, :unhibernate)
 
-      # start the clocks/alarms
       _ ->
         :noent
     end

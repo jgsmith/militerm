@@ -34,6 +34,7 @@ defmodule Militerm.Master.Default do
   component(:stat, Components.Stats)
   component(:"simple-response", Components.SimpleResponses)
   component(:thing, Components.Things)
+  component(:timers, Components.Timers)
   component(:trait, Components.Traits)
 
   service(Services.Commands)

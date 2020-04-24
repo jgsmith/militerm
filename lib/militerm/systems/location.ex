@@ -278,10 +278,11 @@ defmodule Militerm.Systems.Location do
 
     placement = describe_placement("sight", thing, objects)
 
-    long = thing
+    long =
+      thing
       |> Militerm.Systems.Entity.property(["detail", "default", "sight"], objects)
       |> as_mml(Map.put(objects, "this", thing))
-      
+
     start =
       [placement, " ", long]
       |> List.flatten()

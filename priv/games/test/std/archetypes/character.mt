@@ -12,6 +12,8 @@ can finish:verb as actor
 
 can say as actor
 
+can light:item as actor
+
 calculates foo:bar with "Foo is Bar"
 
 ##
@@ -39,3 +41,10 @@ end
 #
 reacts to leave:game as actor with
   Emit("Goodbye!")
+
+reacts to pre-light:item as actor with
+  True
+
+reacts to post-light:item as actor with do
+  :"<Actor> <light> <direct>."
+end

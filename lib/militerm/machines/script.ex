@@ -76,6 +76,16 @@ defmodule Militerm.Machines.Script do
       ...>   :jump, 1, 3, 7
       ...> })
       7
+
+  ### Comparisons
+
+      iex> {:ok, ast} = Militerm.Parsers.Script.parse_expression(Militerm.Util.Scanner.new("123 > 456"))
+      ...> Script.run(Militerm.Compilers.Script.compile(ast))
+      false
+
+      iex> {:ok, ast} = Militerm.Parsers.Script.parse_expression(Militerm.Util.Scanner.new("123 < 456"))
+      ...> Script.run(Militerm.Compilers.Script.compile(ast))
+      true
   """
   def run(code, objects \\ %{}) do
     # IO.inspect({:running, code})
@@ -483,7 +493,7 @@ defmodule Militerm.Machines.Script do
     end
   end
 
-  defp execute_step(:difference, %{stack: [l, r | stack]} = state) do
+  defp execute_step(:difference, %{stack: [r, l | stack]} = state) do
     %{state | stack: [l - r | stack]}
   end
 
@@ -688,7 +698,7 @@ defmodule Militerm.Machines.Script do
 
   defp do_ordered_op(op, %{stack: [n | stack]} = state) do
     with {list, new_stack} <- Enum.split(stack, n) do
-      %{state | stack: [ordering_satisfied?(op, list) | new_stack]}
+      %{state | stack: [ordering_satisfied?(op, Enum.reverse(list)) | new_stack]}
     end
   end
 
