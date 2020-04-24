@@ -7,14 +7,6 @@ defmodule Militerm.Components.Resources do
   For now, we don't track debt and max.
   """
 
-  def set_value(entity_id, path, value) do
-    set_raw_value(entity_id, path, value)
-  end
-
-  def get_value(entity_id, path) do
-    get_raw_value(entity_id, path)
-  end
-
   def remove_value(entity_id, path) do
     path_keys = Enum.map(path, &Access.key(&1, %{}))
 
