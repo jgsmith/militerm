@@ -32,14 +32,13 @@ defmodule Militerm.Application do
       ]
       |> Enum.filter(& &1.start_server?())
 
-    caches = [
-      {Militerm.Cache.LocalComponent, []},
-      {Militerm.Cache.LocalSession, []},
-      {Militerm.Cache.Component, []},
-      {Militerm.Cache.Session, []}
-    ]
-
-    components = Map.values(master.components())
+    caches =
+      [
+        {Militerm.Cache.Component, []},
+        {Militerm.Cache.Session, []},
+        {Militerm.Cache.Component.Primary, []},
+        {Militerm.Cache.Session.Primary, []}
+      ] ++ master.caches()
 
     endpoints = if standalone, do: [MilitermWeb.Endpoint], else: []
 
@@ -55,8 +54,7 @@ defmodule Militerm.Application do
        ]}
     ]
 
-    children =
-      cluster ++ repos ++ caches ++ services ++ components ++ watchers ++ endpoints ++ interfaces
+    children = cluster ++ repos ++ caches ++ services ++ watchers ++ endpoints ++ interfaces
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options

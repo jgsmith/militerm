@@ -6,9 +6,29 @@ defmodule Militerm.Systems.Aliases do
   defcommand alias_(arg),
     for: %{"this" => {:thing, entity_id} = this},
     as: "alias" do
-    [word, definition] = String.split(arg, ~r{\s+}, parts: 2, trim: true)
-    Militerm.Components.Aliases.set(entity_id, word, definition)
-    Entity.receive_message(this, "cmd", "Added definition for #{word}.")
+    case String.split(arg, ~r{\s+}, parts: 2, trim: true) do
+      [word, definition] ->
+        Militerm.Components.Aliases.set(entity_id, word, definition)
+        Entity.receive_message(this, "cmd", "Added definition for #{word}.")
+
+      [word] ->
+        case Militerm.Components.Aliases.get(entity_id) do
+          nil ->
+            Entity.receive_message(this, "cmd", "There is no such alias.")
+
+          map ->
+            case Map.get(map, word) do
+              nil ->
+                Entity.receive_message(this, "cmd", "There is no such alias.")
+
+              definition ->
+                show_alias(this, word, definition)
+            end
+        end
+
+      [] ->
+        list_aliases(this)
+    end
   end
 
   defcommand unalias(word), for: %{"this" => {:thing, entity_id} = this} do
@@ -16,7 +36,11 @@ defmodule Militerm.Systems.Aliases do
     Entity.receive_message(this, "cmd", "Removed definition of #{word}.")
   end
 
-  defcommand aliases(_), for: %{"this" => {:thing, entity_id} = this} do
+  defcommand aliases(_), for: %{"this" => this} do
+    list_aliases(this)
+  end
+
+  def list_aliases({:thing, entity_id} = this) do
     case Militerm.Components.Aliases.get(entity_id) do
       nil ->
         Entity.receive_message(this, "cmd", "You have no aliases.")
@@ -25,9 +49,13 @@ defmodule Militerm.Systems.Aliases do
         Entity.receive_message(this, "cmd", "You have no aliases.")
 
       map ->
-        for {word, definition} <- map do
-          Entity.receive_message(this, "cmd", "#{word} : #{definition}")
+        for {word, definition} <- Enum.sort(map) do
+          show_alias(this, word, definition)
         end
     end
+  end
+
+  def show_alias(this, word, definition) do
+    Entity.receive_message(this, "cmd", "#{word} : #{definition}")
   end
 end

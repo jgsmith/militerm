@@ -50,11 +50,33 @@ defmodule Militerm.Compilers.Script do
   end
 
   def compile(acc, [{:make_list, list} | rest]) do
-    list
+    acc
     |> compile(Enum.reverse(list))
     |> push(Enum.count(list))
     |> encode(:make_list)
     |> compile(rest)
+  end
+
+  def compile(acc, [{:make_dict, list} | rest]) do
+    list
+    |> Enum.reverse()
+    |> Enum.reduce(acc, fn {key, expr}, acc ->
+      acc
+      |> compile(expr)
+      |> push(key)
+    end)
+    |> push(Enum.count(list))
+    |> encode(:make_dict)
+    |> compile(rest)
+  end
+
+  def compile(acc, [{:event, target, event, pov, args}]) do
+    args
+    |> compile([{:make_dict, args}])
+    |> push(pov)
+    |> push(event)
+    |> compile(target)
+    |> encode(:trigger_event)
   end
 
   def compile(acc, [{:const, name} | rest]) do
@@ -232,10 +254,20 @@ defmodule Militerm.Compilers.Script do
   end
 
   def compile(acc, [{:prop, list} | rest]) when is_list(list) do
+    context =
+      Enum.find(list, fn
+        {:context, _} -> true
+        _ -> false
+      end)
+
+    {:context, context_var} = if is_nil(context), do: {:context, "this"}, else: context
+
+    list = list -- [context]
+
     acc
     |> compile_prop_args(list)
     |> push(Enum.count(list))
-    |> push("this")
+    |> push(context_var)
     |> encode(:get_context_var)
     |> encode(:get_prop)
     |> compile(rest)

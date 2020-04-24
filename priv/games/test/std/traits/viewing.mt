@@ -37,8 +37,8 @@ end
 reacts to post-scan:env:brief as actor with
   if eflag:brief-scan then
     :"<Actor:name> <look> around."
-    Emit( "{env sense='sight'}" _ Describe() _ "{/env}")
-    Emit( "Obvious exits: " _ Exits() _ "." )
+    Emit( "{env sense='sight'}{{ Describe() }}{/env}")
+    Emit( "Obvious exits: {{ Exits() }}." )
     reset eflag:brief-scan
     reset eflag:scanning
   end

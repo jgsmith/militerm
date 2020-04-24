@@ -76,6 +76,16 @@ defmodule Militerm.Machines.Script do
       ...>   :jump, 1, 3, 7
       ...> })
       7
+
+  ### Comparisons
+
+      iex> {:ok, ast} = Militerm.Parsers.Script.parse_expression(Militerm.Util.Scanner.new("123 > 456"))
+      ...> Script.run(Militerm.Compilers.Script.compile(ast))
+      false
+
+      iex> {:ok, ast} = Militerm.Parsers.Script.parse_expression(Militerm.Util.Scanner.new("123 < 456"))
+      ...> Script.run(Militerm.Compilers.Script.compile(ast))
+      true
   """
   def run(code, objects \\ %{}) do
     # IO.inspect({:running, code})
@@ -370,7 +380,6 @@ defmodule Militerm.Machines.Script do
 
     {:ok, bound_message} =
       message
-      |> Militerm.Parsers.MML.parse!()
       |> Militerm.Systems.MML.bind(
         objects
         |> Map.put("actor", to_list(this))
@@ -402,6 +411,42 @@ defmodule Militerm.Machines.Script do
     with {list, new_stack} <- Enum.split(stack, n) do
       %{state | stack: [list | new_stack]}
     end
+  end
+
+  defp execute_step(:make_dict, %{stack: [n | stack]} = state) do
+    with {list, new_stack} <- Enum.split(stack, 2 * n) do
+      map =
+        list
+        |> Enum.chunk_every(2)
+        |> Enum.map(&List.to_tuple/1)
+        |> Enum.into(%{})
+
+      %{state | stack: [map | new_stack]}
+    end
+  end
+
+  defp execute_step(:trigger_event, %{stack: [target, event, pov, args | stack]} = state) do
+    targets = if is_list(target), do: target, else: [target]
+
+    targets =
+      targets
+      |> Enum.filter(fn thing ->
+        case Militerm.Systems.Entity.pre_event(thing, event, pov, Map.put(args, "this", thing)) do
+          {:halt, _} -> false
+          :halt -> false
+          _ -> true
+        end
+      end)
+
+    for thing <- targets do
+      Militerm.Systems.Entity.event(thing, event, pov, Map.put(args, "this", thing))
+    end
+
+    for thing <- targets do
+      Militerm.Systems.Entity.post_event(thing, event, pov, Map.put(args, "this", thing))
+    end
+
+    %{state | stack: [Enum.any?(targets) | stack]}
   end
 
   defp execute_step(:sum, state) do
@@ -448,7 +493,7 @@ defmodule Militerm.Machines.Script do
     end
   end
 
-  defp execute_step(:difference, %{stack: [l, r | stack]} = state) do
+  defp execute_step(:difference, %{stack: [r, l | stack]} = state) do
     %{state | stack: [l - r | stack]}
   end
 
@@ -477,9 +522,15 @@ defmodule Militerm.Machines.Script do
            state
        ) do
     path =
-      name
-      |> String.split(":", trim: true)
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.set_property(this, path, value, objects)
     %{state | stack: stack}
@@ -490,9 +541,15 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this} = objects} = state
        ) do
     path =
-      name
-      |> String.split(":", trim: true)
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.reset_property(this, path, objects)
     %{state | stack: [nil | stack]}
@@ -503,9 +560,15 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this} = objects} = state
        ) do
     path =
-      name
-      |> String.split(":")
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     %{state | stack: [Entity.property(this, path, objects) | stack]}
   end
@@ -515,16 +578,21 @@ defmodule Militerm.Machines.Script do
          %{pad: pad, stack: [name | stack], objects: %{"this" => this}} = state
        ) do
     path =
-      name
-      |> String.split(":")
-      |> resolve_var_references(pad)
+      case name do
+        nil ->
+          ""
+
+        _ ->
+          name
+          |> String.split(":", trim: true)
+          |> resolve_var_references(pad)
+      end
 
     Entity.remove_property(this, path)
     %{state | stack: stack}
   end
 
   defp execute_step(:get_obj, %{stack: [name | stack], objects: objects} = state) do
-    # name = name |> maybe_atom
     %{state | stack: [Map.get(objects, name, nil) | stack]}
   end
 
@@ -555,8 +623,7 @@ defmodule Militerm.Machines.Script do
         |> Enum.flat_map(fn base ->
           to_list(Entity.property(base, path, objects))
         end)
-        |> Enum.filter(fn {x, _} -> x == :ok end)
-        |> Enum.map(&elem(&1, 1))
+        |> Enum.reject(&is_nil/1)
       end)
 
     %{state | stack: [values | stack]}
@@ -581,8 +648,7 @@ defmodule Militerm.Machines.Script do
         |> Enum.map(fn base ->
           Entity.property(base, path, objects)
         end)
-        |> Enum.filter(fn {x, _} -> x == :ok end)
-        |> Enum.map(&elem(&1, 1))
+        |> Enum.reject(&is_nil/1)
       end)
 
     %{state | stack: [values | stack]}
@@ -616,9 +682,13 @@ defmodule Militerm.Machines.Script do
     Enum.flat_map(bits, fn bit ->
       case bit do
         <<"$", _::binary>> = var ->
-          pad
-          |> Map.get(var, "")
-          |> String.split(":")
+          val = Map.get(pad, var, "")
+
+          case val do
+            nil -> ""
+            v when is_binary(v) -> String.split(v, ":", trim: true)
+            [v | _] -> String.split(v, ":", trim: true)
+          end
 
         _ ->
           [bit]
@@ -628,7 +698,7 @@ defmodule Militerm.Machines.Script do
 
   defp do_ordered_op(op, %{stack: [n | stack]} = state) do
     with {list, new_stack} <- Enum.split(stack, n) do
-      %{state | stack: [ordering_satisfied?(op, list) | new_stack]}
+      %{state | stack: [ordering_satisfied?(op, Enum.reverse(list)) | new_stack]}
     end
   end
 

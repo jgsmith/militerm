@@ -16,7 +16,9 @@ defmodule Militerm.Master.Default do
 
   use Militerm.Master
 
-  alias Militerm.{Components, Services, Systems}
+  alias Militerm.{Cache, Components, Services, Systems}
+
+  cache(Cache.Hospital)
 
   component(:alias, Components.Aliases)
   component(:counter, Components.Counters)
@@ -32,6 +34,7 @@ defmodule Militerm.Master.Default do
   component(:stat, Components.Stats)
   component(:"simple-response", Components.SimpleResponses)
   component(:thing, Components.Things)
+  component(:timers, Components.Timers)
   component(:trait, Components.Traits)
 
   service(Services.Commands)
@@ -50,6 +53,7 @@ defmodule Militerm.Master.Default do
   system(Systems.Gossip)
   system(Systems.Groups)
   system(Systems.Help)
+  system(Systems.Hospital)
   system(Systems.MML)
   system(Systems.Location)
   system(Systems.SimpleResponse)

@@ -35,13 +35,13 @@ defmodule Militerm.Components.Location do
 
   defp get_location(entity_id) do
     case get(entity_id) do
-      %{target_id: target_id, t: t} ->
+      %{target_id: target_id, t: t} when not is_nil(t) ->
         {:thing, target_id, t}
 
-      %{target_id: target_id, point: p} ->
+      %{target_id: target_id, point: p} when not is_nil(p) ->
         {:thing, target_id, List.to_tuple(p)}
 
-      %{target_id: target_id, detail: detail} ->
+      %{target_id: target_id, detail: detail} when not is_nil(detail) ->
         {:thing, target_id, detail}
 
       _ ->

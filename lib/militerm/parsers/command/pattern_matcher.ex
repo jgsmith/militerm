@@ -25,7 +25,7 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
     ...> ])
     [0, 1, 2, 5, 6, 9]
   """
-  def pattern_match(bits, pattern) do
+  def pattern_match(bits, pattern, word_lists \\ %{}) do
     state =
       do_pattern_match(
         %{
@@ -37,7 +37,8 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
           failed: false,
           word_offset: 0,
           bits: bits,
-          bits_size: Enum.count(bits)
+          bits_size: Enum.count(bits),
+          word_lists: word_lists
         },
         pattern
       )
@@ -359,14 +360,19 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
     do_word_list_match(state, pattern_bit, true, false)
   end
 
-  def do_word_list_match(state, {_, elem_type, _}, spaces \\ false, opt \\ false) do
+  def do_word_list_match(
+        %{word_lists: word_lists} = state,
+        {_, elem_type, _},
+        spaces \\ false,
+        opt \\ false
+      ) do
     {spaces, elms} =
       case elem_type do
         words when is_list(words) ->
           {spaces, words}
 
         binary when is_binary(binary) ->
-          case query_word_list(binary) do
+          case query_word_list(binary, word_lists) do
             nil ->
               {false, nil}
 
@@ -606,7 +612,11 @@ defmodule Militerm.Parsers.Command.PatternMatcher do
   def to_tuple(tuples) when is_tuple(tuples), do: tuples
   def to_tuple(list) when is_list(list), do: List.to_tuple(list)
 
-  def query_word_list("direction") do
-    ~w[north south east west up down northeast northwest southeast southwest]
+  @directions ~w[north south east west up down northeast northwest southeast southwest out]
+
+  def query_word_list("direction", _), do: @directions
+
+  def query_word_list(name, word_lists) do
+    Map.get(word_lists, name)
   end
 end

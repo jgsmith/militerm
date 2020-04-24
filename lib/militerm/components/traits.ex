@@ -9,38 +9,52 @@ defmodule Militerm.Components.Traits do
     set_raw_value(entity_id, path, value)
   end
 
+  def reset_value(entity_id, path), do: remove_value(entity_id, path)
+
   def get_value(entity_id, path) do
     get_raw_value(entity_id, path)
   end
 
   def remove_value(entity_id, path) do
-    spath = Enum.join(path, ":")
+    path_keys = Enum.map(path, &Access.key(&1, %{}))
 
     update(entity_id, fn
-      nil -> nil
-      map -> Map.delete(map, spath)
+      nil ->
+        nil
+
+      map ->
+        {_, new_map} = Access.pop(map, path_keys)
+        new_map
     end)
+  end
+
+  def set_raw_value(entity_id, path, value) when is_binary(path) do
+    set_raw_value(entity_id, String.split(path, ":", trim: true), value)
   end
 
   def set_raw_value(entity_id, path, value) when is_list(path) do
-    set_raw_value(entity_id, Enum.join(path, ":"), value)
-  end
+    path_keys = Enum.map(path, &Access.key(&1, %{}))
 
-  def set_raw_value(entity_id, path, value) do
     update(entity_id, fn
-      nil -> %{path => value}
-      map -> Map.put(map, path, value)
+      nil -> put_in(%{}, path_keys, value)
+      map -> put_in(map, path_keys, value)
     end)
   end
 
-  def get_raw_value(entity_id, path) when is_list(path) do
-    get_raw_value(entity_id, Enum.join(path, ":"))
+  def get_raw_value(entity_id, path) when is_binary(path) do
+    get_raw_value(entity_id, String.split(path, ":", trim: true))
   end
 
-  def get_raw_value(entity_id, path) do
+  def get_raw_value(entity_id, path) when is_list(path) do
+    [last_key | rpath] = Enum.reverse(path)
+
+    rpath_keys = Enum.map(rpath, &Access.key(&1, %{}))
+
+    path_keys = Enum.reverse([Access.key(last_key) | rpath_keys])
+
     case get(entity_id) do
       nil -> nil
-      map -> Map.get(map, path)
+      map -> get_in(map, path_keys)
     end
   end
 

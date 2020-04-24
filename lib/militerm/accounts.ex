@@ -262,8 +262,10 @@ defmodule Militerm.Accounts do
 
   defp create_character_entity(entity_id, archetype, attrs) do
     Militerm.Entities.Thing.create(entity_id, archetype, get_character_start_data(attrs))
-
-    Militerm.Systems.Location.place({:thing, entity_id}, get_character_start_location(attrs))
+    {_, thing} = loc = get_character_start_location(attrs)
+    # ensure it's loaded
+    Militerm.Systems.Entity.whereis(thing)
+    Militerm.Systems.Location.place({:thing, entity_id}, loc)
     Militerm.Systems.Entity.hibernate({:thing, entity_id})
   end
 
@@ -443,7 +445,7 @@ defmodule Militerm.Accounts do
     !is_nil(result)
   end
 
-  defp get_character_archetype(attrs) do
+  def get_character_archetype(attrs) do
     case Militerm.Config.character_archetype() do
       binary when is_binary(binary) -> binary
       {m, f} -> apply(m, f, [attrs])
@@ -452,7 +454,7 @@ defmodule Militerm.Accounts do
     end
   end
 
-  defp get_character_start_location(attrs) do
+  def get_character_start_location(attrs) do
     case Militerm.Config.character_start_location() do
       binary when is_binary(binary) ->
         {"in", {:thing, binary, "default"}}

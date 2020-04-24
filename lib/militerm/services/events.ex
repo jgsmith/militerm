@@ -34,8 +34,18 @@ defmodule Militerm.Services.Events do
     {:ok, %{}}
   end
 
+  def handle_cast({:trigger_event, {:thing, _} = entity, event, role, args}, state) do
+    Militerm.Systems.Entity.event(entity, event, role, args)
+    {:noreply, state}
+  end
+
+  def handle_cast({:trigger_event, {:thing, _, _} = entity, event, role, args}, state) do
+    Militerm.Systems.Entity.event(entity, event, role, args)
+    {:noreply, state}
+  end
+
   def handle_cast({:trigger_event, entity_id, event, role, args}, state) do
-    Militerm.Systems.Entity.event(entity_id, event, role, args)
+    Militerm.Systems.Entity.event({:thing, entity_id}, event, role, args)
     {:noreply, state}
   end
 end

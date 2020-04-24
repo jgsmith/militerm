@@ -16,38 +16,45 @@ defmodule Militerm.Components.Things do
   end
 
   def remove_value(entity_id, path) do
-    spath = Enum.join(path, ":")
+    path_keys = Enum.map(path, &Access.key(&1, %{}))
 
     update(entity_id, fn
-      nil -> nil
-      map -> Map.delete(map, path)
-    end)
-  end
-
-  def set_raw_value(entity_id, path, value) when is_list(path) do
-    set_raw_value(entity_id, Enum.join(path, ":"), value)
-  end
-
-  def set_raw_value(entity_id, path, value) do
-    update(entity_id, fn
-      nil -> %{path => dehydrate(value)}
-      map -> Map.put(map, path, dehydrate(value))
-    end)
-  end
-
-  def get_raw_value(entity_id, path) when is_list(path) do
-    get_raw_value(entity_id, Enum.join(path, ":"))
-  end
-
-  def get_raw_value(entity_id, path) do
-    case get(entity_id) do
       nil ->
         nil
 
       map ->
-        map
-        |> Map.get(path)
-        |> rehydrate
+        {_, new_map} = Access.pop(map, path_keys)
+        new_map
+    end)
+  end
+
+  def set_raw_value(entity_id, path, value) when is_binary(path) do
+    set_raw_value(entity_id, String.split(path, ":", trim: true), value)
+  end
+
+  def set_raw_value(entity_id, path, value) when is_list(path) do
+    path_keys = Enum.map(path, &Access.key(&1, %{}))
+
+    update(entity_id, fn
+      nil -> put_in(%{}, path_keys, dehydrate(value))
+      map -> put_in(map, path_keys, dehydrate(value))
+    end)
+  end
+
+  def get_raw_value(entity_id, path) when is_binary(path) do
+    get_raw_value(entity_id, String.split(path, ":", trim: true))
+  end
+
+  def get_raw_value(entity_id, path) when is_list(path) do
+    [last_key | rpath] = Enum.reverse(path)
+
+    rpath_keys = Enum.map(rpath, &Access.key(&1, %{}))
+
+    path_keys = Enum.reverse([Access.key(last_key) | rpath_keys])
+
+    case get(entity_id) do
+      nil -> nil
+      map -> rehydrate(get_in(map, path_keys))
     end
   end
 
@@ -83,5 +90,9 @@ defmodule Militerm.Components.Things do
 
   def rehydrate(entity_id) when is_binary(entity_id) do
     {:thing, entity_id}
+  end
+
+  def rehydrate(something) do
+    nil
   end
 end

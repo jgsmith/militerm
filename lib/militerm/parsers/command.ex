@@ -119,9 +119,9 @@ defmodule Militerm.Parsers.Command do
     iex> Command.try_syntax_match(["a", "red", "truck"], %{pattern: []})
     nil
   """
-  def try_syntax_match(bits, context, %{pattern: pattern} = syntax) do
+  def try_syntax_match(bits, context, %{word_lists: word_lists, pattern: pattern} = syntax) do
     # return nil if not a match - otherwise, return a structure with slots and such identified
-    case Militerm.Parsers.Command.PatternMatcher.pattern_match(bits, pattern) do
+    case Militerm.Parsers.Command.PatternMatcher.pattern_match(bits, pattern, word_lists) do
       nil ->
         nil
 
@@ -143,10 +143,14 @@ defmodule Militerm.Parsers.Command do
     |> Enum.reject(&is_nil/1)
     |> Enum.group_by(&elem(&1, 0))
     |> Enum.map(fn {key, values} ->
-      {key, Enum.map(values, &elem(&1, 1))}
+      {key, maybe_scalar(Enum.map(values, &elem(&1, 1)))}
     end)
     |> Enum.into(%{})
   end
+
+  defp maybe_scalar([]), do: nil
+  defp maybe_scalar([thing]), do: thing
+  defp maybe_scalar(list), do: list
 
   def assign_match_to_slot({pattern, [start, stop]}, bits) do
     phrase = Enum.join(Enum.slice(bits, start, stop - start), " ")

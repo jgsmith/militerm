@@ -92,10 +92,13 @@ defmodule Militerm.ECS.Component do
     :ok
   """
   def set(component, thing, data) do
-    Cachex.transaction!(component, [thing], fn cache ->
-      Cachex.put(cache, thing, data)
-      apply(component, :store, [thing, data])
-    end)
+    Militerm.Cache.Component.transaction(
+      fn ->
+        apply(component, :store, [thing, data])
+        Militerm.Cache.Component.set({component, thing}, data)
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   @doc """
@@ -106,26 +109,22 @@ defmodule Militerm.ECS.Component do
     %{xp: 123, level: 2}
   """
   def get(component, thing, default \\ %{}) do
-    Cachex.transaction!(component, [thing], fn cache ->
-      case Cachex.get(cache, thing) do
-        {:ok, nil} ->
-          # fetch and store
+    Militerm.Cache.Component.transaction(
+      fn ->
+        if value = Militerm.Cache.Component.get({component, thing}) do
+          value
+        else
           case component.fetch(thing) do
             nil ->
               default
 
             value ->
-              Cachex.put(cache, thing, value)
-              value
+              Militerm.Cache.Component.set({component, thing}, value)
           end
-
-        {:ok, value} ->
-          value
-
-        {:error, _} ->
-          default
-      end
-    end)
+        end
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   @doc """
@@ -140,42 +139,26 @@ defmodule Militerm.ECS.Component do
     %{xp: 133, level: 2}
   """
   def update(component, thing, callback) do
-    Cachex.transaction!(component, [thing], fn cache ->
-      current_data =
-        case Cachex.get(cache, thing) do
-          {:ok, value} ->
-            value
+    Militerm.Cache.Component.transaction(
+      fn ->
+        old_value = get(component, thing)
 
-          {:error, _} ->
-            case component.fetch(thing) do
-              nil ->
-                nil
+        case {old_value, execute_callback(callback, old_value)} do
+          {x, x} ->
+            x
 
-              value ->
-                Cachex.put(cache, thing, value)
-                value
-            end
+          {_, nil} ->
+            apply(component, :delete, [thing])
+            Militerm.Cache.Component.delete({component, thing})
+            nil
+
+          {_, new_value} ->
+            apply(component, :store, [thing, new_value])
+            Militerm.Cache.Component.set({component, thing}, new_value)
         end
-
-      case {current_data, execute_callback(callback, current_data)} do
-        {nil, nil} ->
-          :ok
-
-        {_, nil} ->
-          Cachex.del(cache, thing)
-          apply(component, :delete, [thing])
-          :ok
-
-        # no change
-        {x, x} ->
-          :ok
-
-        {old_data, new_data} ->
-          Cachex.put(cache, thing, new_data)
-          apply(component, :update, [thing, old_data, new_data])
-          :ok
-      end
-    end)
+      end,
+      keys: [{component, thing}]
+    )
   end
 
   defp execute_callback(callback, arg) when is_function(callback) do
@@ -197,16 +180,19 @@ defmodule Militerm.ECS.Component do
     nil
   """
   def remove(component, thing) do
-    Cachex.transaction!(component, [thing], fn cache ->
-      {:ok, true} = Cachex.del(cache, thing)
-      apply(component, :delete, [thing])
-    end)
+    Militerm.Cache.Component.transaction(
+      fn ->
+        apply(component, :delete, [thing])
+        Militerm.Cache.Component.delete({component, thing})
+      end,
+      keys: [{component, thing}]
+    )
 
-    :ok
+    nil
   end
 
   def reset(component) do
-    Cachex.reset(component)
+    Militerm.Cache.Component.flush()
     apply(component, :clear, [])
   end
 end

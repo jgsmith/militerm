@@ -12,6 +12,8 @@ can finish:verb as actor
 
 can say as actor
 
+can light:item as actor
+
 calculates foo:bar with "Foo is Bar"
 
 ##
@@ -27,8 +29,10 @@ reacts to msg:sight with
 #
 # Used when a character enters the game.
 #
-reacts to enter:game as actor with
-  Emit("{env sense='sight'}{{ Describe() }}{/env}")
+reacts to enter:game as actor with do
+  [ <- scan:env:brief as actor with actor: this ]
+  # Emit("{env sense='sight'}{{ Describe() }}{/env}")
+end
 
 ##
 # leave:game
@@ -37,3 +41,10 @@ reacts to enter:game as actor with
 #
 reacts to leave:game as actor with
   Emit("Goodbye!")
+
+reacts to pre-light:item as actor with
+  True
+
+reacts to post-light:item as actor with do
+  :"<Actor> <light> <direct>."
+end

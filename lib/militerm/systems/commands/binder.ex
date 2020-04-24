@@ -226,6 +226,7 @@ defmodule Militerm.Systems.Commands.Binder do
       |> Enum.reduce(%{}, fn {slot, refs}, acc ->
         referenced_slots =
           refs
+          |> to_list()
           |> Enum.flat_map(fn
             {_, _, envs} -> envs
             _ -> []
@@ -262,4 +263,8 @@ defmodule Militerm.Systems.Commands.Binder do
         :error
     end
   end
+
+  def to_list(nil), do: []
+  def to_list(list) when is_list(list), do: list
+  def to_list(thing), do: [thing]
 end

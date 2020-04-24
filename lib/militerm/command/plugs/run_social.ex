@@ -10,13 +10,12 @@ defmodule Militerm.Command.Plugs.RunSocial do
     narrative = select_narrative(parse)
 
     if narrative do
+      slots = Map.put(slots, "actor", to_list(entity))
+
       {:ok, bound_message} =
         narrative
         |> Militerm.Parsers.MML.parse!()
-        |> Militerm.Systems.MML.bind(
-          slots
-          |> Map.put("actor", to_list(entity))
-        )
+        |> Militerm.Systems.MML.bind(slots)
 
       event = "msg:sight"
 

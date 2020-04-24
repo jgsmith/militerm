@@ -154,11 +154,26 @@ defmodule Militerm.Services.Verbs do
 
       case load_and_parse(path) do
         %{"syntaxes" => syntaxes, "verbs" => words} = parse ->
+          word_lists =
+            parse
+            |> Map.get("word lists", [])
+            |> Enum.map(fn {name, words} ->
+              if Enum.any?(words, &String.contains?(&1, " ")) do
+                {name, Enum.map(words, &String.split(&1, ~r{\s+}, trim: true))}
+              else
+                {name, words}
+              end
+            end)
+            |> Enum.into(%{})
+
+          error = Map.get(parse, "error")
+
           Enum.reduce(syntaxes, store, fn syntax, syn_store ->
             syntax =
               syntax
               |> Map.put(:source, path)
-              |> Map.put(:error, Map.get(parse, "error"))
+              |> Map.put(:error, error)
+              |> Map.put(:word_lists, word_lists)
 
             Enum.reduce(words, syn_store, fn word, word_store ->
               case String.split(word, " ", trim: true) do
@@ -227,4 +242,6 @@ defmodule Militerm.Services.Verbs do
 
     %{parse | "syntaxes" => compiled}
   end
+
+  defp parse_syntaxes(%{} = parse), do: parse
 end
