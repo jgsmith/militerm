@@ -539,7 +539,7 @@ defmodule Militerm.Systems.Entity.Controller do
     {:reply, :ok, %{state | context: new_context}}
   end
 
-# {:add_recurring_timer, 1, "consume:fuel", %{}
+  # {:add_recurring_timer, 1, "consume:fuel", %{}
   def handle_call(
         {:add_recurring_timer, delta, event, args},
         _from,
@@ -619,9 +619,14 @@ defmodule Militerm.Systems.Entity.Controller do
      })}
   end
 
-  def handle_call({:remove_timer, timer_id}, _from, %{timers: timers, next_timer: next_timer} = state) do
-    new_timers = timers
-      |> PriorityQueue.to_list
+  def handle_call(
+        {:remove_timer, timer_id},
+        _from,
+        %{timers: timers, next_timer: next_timer} = state
+      ) do
+    new_timers =
+      timers
+      |> PriorityQueue.to_list()
       |> Enum.reject(fn {_, %{"id" => id}} -> id == timer_id end)
       |> Enum.into(PriorityQueue.new())
 
@@ -753,24 +758,30 @@ defmodule Militerm.Systems.Entity.Controller do
   end
 
   def run_timer(entity_id, %{"event" => event, "args" => args} = timer_info) do
-    Task.start fn ->
+    Task.start(fn ->
       Militerm.Systems.Entity.event({:thing, entity_id}, "timer:#{event}", "timer", args)
-    end
+    end)
   end
 
   def store_timer_state(%{entity_id: entity_id, epoch: epoch, timers: timer_queue} = state) do
     Militerm.Components.Timers.set(entity_id, %{
       epoch: DateTime.to_unix(DateTime.utc_now()) - epoch,
-      timers: timer_queue
+      timers:
+        timer_queue
         |> PriorityQueue.to_list()
         |> Enum.map(fn
           {v, %{"args" => args} = map} ->
-            {v, Map.put(map, "args",
-              args
-              |> :erlang.term_to_binary()
-              |> Base.encode64(padding: false)
-            )}
-          entry -> entry
+            {v,
+             Map.put(
+               map,
+               "args",
+               args
+               |> :erlang.term_to_binary()
+               |> Base.encode64(padding: false)
+             )}
+
+          entry ->
+            entry
         end)
         |> Enum.map(&Tuple.to_list/1)
     })
@@ -785,18 +796,25 @@ defmodule Militerm.Systems.Entity.Controller do
           state
 
         %{epoch: saved_epoch, timers: timer_list} ->
-          timers = timer_list
+          timers =
+            timer_list
             |> Enum.map(&List.to_tuple/1)
             |> Enum.map(fn
               {v, %{"args" => args} = map} ->
-                {v, Map.put(map, "args",
-                  args
-                  |> Base.decode64!(padding: false)
-                  |> :erlang.binary_to_term(:safe)
-                )}
-              entry -> entry
+                {v,
+                 Map.put(
+                   map,
+                   "args",
+                   args
+                   |> Base.decode64!(padding: false)
+                   |> :erlang.binary_to_term(:safe)
+                 )}
+
+              entry ->
+                entry
             end)
             |> Enum.into(PriorityQueue.new())
+
           epoch = DateTime.to_unix(DateTime.utc_now()) - saved_epoch
 
           next_timer =

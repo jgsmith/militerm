@@ -71,7 +71,8 @@ defmodule Game.TimersTest do
       entity
       |> Entity.get_output()
 
-      assert Militerm.Systems.Entity.property(torch, ~w[resource torch fuel], %{"this" => torch}) < 100
+      assert Militerm.Systems.Entity.property(torch, ~w[resource torch fuel], %{"this" => torch}) <
+               100
     end
   end
 end
