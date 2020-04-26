@@ -307,7 +307,7 @@ defmodule Militerm.Systems.Location do
   @doc """
   Returns the inventory of `this`.
   """
-  defscript inventory(), for: %{"this" => this} = objects do
+  defscript describe_inventory(), for: %{"this" => this} = objects do
     excluding = Map.get(objects, "actor", [])
     excluding = if is_list(excluding), do: excluding, else: [excluding]
 
@@ -328,7 +328,7 @@ defmodule Militerm.Systems.Location do
   @doc """
   Returns the inventory of the given entity.
   """
-  defscript inventory(entity), for: %{"this" => this} = objects do
+  defscript describe_inventory(entity), for: %{"this" => this} = objects do
     excluding = Map.get(objects, "actor", [])
 
     excluding = if is_list(excluding), do: excluding, else: [excluding]
@@ -345,6 +345,11 @@ defmodule Militerm.Systems.Location do
       |> Enum.map(&elem(&1, 0))
 
     describe_inventory(entity, [entity | excluding ++ extra_exclusions])
+  end
+
+  defscript inventory(), for: %{"this" => this} = objects do
+    inventory = Militerm.Services.Location.find_in(this)
+    inventory -- [this]
   end
 
   defscript present(string), for: %{"this" => this} = _objects do

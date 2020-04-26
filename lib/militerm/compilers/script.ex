@@ -170,6 +170,14 @@ defmodule Militerm.Compilers.Script do
     |> compile(rest)
   end
 
+  def compile(acc, [{:is, [{:context, trait}, expression]} | rest]) do
+    acc
+    |> push(trait)
+    |> compile(expression)
+    |> encode(:is)
+    |> compile(rest)
+  end
+
   def compile(acc, [{:uhoh, exp} | rest]) do
     acc
     |> compile(exp)
@@ -193,6 +201,16 @@ defmodule Militerm.Compilers.Script do
     acc
     |> compile_conditionals(conditionals)
     |> compile(rest)
+  end
+
+  def compile(acc, [{op, var_name, source, body} | rest]) when op in ~w[select map loop]a do
+    compiled_body = compile(body)
+
+    acc
+    |> compile(source)
+    |> encode(op)
+    |> encode(var_name)
+    |> encode(compiled_body)
   end
 
   def compile(acc, [[:index | indices] | rest]) do

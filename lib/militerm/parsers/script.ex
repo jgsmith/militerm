@@ -32,6 +32,8 @@ defmodule Militerm.Parsers.Script do
     :in => {"in", 2, :left},
     :above => {"above", 2, :left},
     :on => {"on", 2, :left},
+    :is => {"is", 3, :left},
+    :can => {"can", 3, :left},
     :intersection => {"&", 4, :left},
     :union => {"|", 3, :left},
     :diff => {"~", 3, :left}
@@ -1299,30 +1301,48 @@ defmodule Militerm.Parsers.Script do
   end
 
   defp parse_list_processing(source, style) do
-    if Scanner.scan(source, ~r/as\b/) do
-      skip_space(source)
+    skip_all_space(source)
 
-      if Scanner.scan(source, ~r/(\$[a-z][-a-zA-Z0-9_]*)\b/) do
-        [_, var_name | _] = Scanner.matches(source)
+    case parse_expression(source) do
+      {:ok, source_expression} ->
+        iter_var =
+          if Scanner.scan(source, ~r/as\b/) do
+            skip_all_space(source)
 
-        case parse_expression(source) do
-          {:ok, expression} ->
-            {style, var_name, expression}
+            if Scanner.scan(source, ~r/(\$[a-z][-a-zA-Z0-9_]*)\b/) do
+              [_, var_name | _] = Scanner.matches(source)
+              {:ok, var_name}
+            else
+              {:error, Scanner.error(source, "Expected a variable name following 'as'")}
+            end
+          else
+            {:ok, "$it"}
+          end
+
+        case iter_var do
+          {:ok, var} ->
+            skip_all_space(source)
+
+            if Scanner.scan(source, ~r/with\b/) do
+              skip_all_space(source)
+
+              case parse_expression(source) do
+                {:ok, expression} ->
+                  {:ok, {style, var, source_expression, expression}}
+
+                {:error, _} = error ->
+                  error
+              end
+            else
+              {:error, Scanner.error(source, "Expected 'with'")}
+            end
 
           {:error, _} = error ->
             error
         end
-      else
-        {:error, Scanner.error(source, "Expected a variable name following 'as'")}
-      end
-    else
-      case parse_expression(source) do
-        {:ok, expression} ->
-          {style, "$it", expression}
 
-        {:error, _} = error ->
-          error
-      end
+      _ ->
+        {:error, Scanner.error(source, "Expected a source expression")}
     end
   end
 

@@ -74,5 +74,23 @@ defmodule Game.TimersTest do
       assert Militerm.Systems.Entity.property(torch, ~w[resource torch fuel], %{"this" => torch}) <
                100
     end
+
+    @tag diegetic: true
+    test "lights the scene", %{entity: entity, torch: torch} do
+      scene = {:thing, "scene:test:area:start"}
+
+      assert Militerm.Systems.Entity.is?(torch, "lit", %{"this" => torch}) != true
+
+      assert Militerm.Systems.Entity.property(scene, ~w[flag is-darkened], %{"this" => scene}) ==
+               true
+
+      assert Militerm.Systems.Entity.is?(scene, "dark", %{"this" => scene}) == true
+
+      entity
+      |> Entity.send_input("light the torch")
+
+      assert Militerm.Systems.Entity.is?(torch, "lit", %{"this" => torch})
+      assert !Militerm.Systems.Entity.is?(scene, "dark", %{"this" => scene})
+    end
   end
 end
