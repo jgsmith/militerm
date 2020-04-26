@@ -1,6 +1,7 @@
 ---
 flag:
   - not-living
+  - is-darkened
 ---
 based on std:item
 
@@ -15,3 +16,18 @@ reacts to pre-move:receive with
 
 reacts to pre-move:release with
   True
+
+is dark when do
+  if flag:is-darkened then
+    # check if anything here has light
+    set $lighters to selecting Inventory() as $thing with $thing is lit
+
+    if $lighters then
+      False
+    else
+      True
+    end
+  else
+    False
+  end
+end

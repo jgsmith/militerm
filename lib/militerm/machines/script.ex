@@ -87,12 +87,13 @@ defmodule Militerm.Machines.Script do
       ...> Script.run(Militerm.Compilers.Script.compile(ast))
       true
   """
-  def run(code, objects \\ %{}) do
-    # IO.inspect({:running, code})
+  def run(code, objects \\ %{}, pad \\ %{}) do
+    # IO.inspect({:running, code}, limit: :infinity)
 
     machine = %Machine{
       code: code,
-      objects: objects
+      objects: objects,
+      pad: pad
     }
 
     case step_until_done(machine) do
@@ -257,6 +258,31 @@ defmodule Militerm.Machines.Script do
     end
   end
 
+  defp execute_step(:is, %{stack: [thing, trait | stack], objects: objects} = state) do
+    case thing do
+      nil ->
+        %{state | stack: [false | stack]}
+
+      [_ | _] = these ->
+        %{
+          state
+          | stack: [
+              Enum.any?(these, &Entity.is?(&1, trait, Map.put(objects, "this", &1)))
+              | stack
+            ]
+        }
+
+      this ->
+        %{
+          state
+          | stack: [
+              Entity.is?(this, trait, Map.put(objects, "this", this))
+              | stack
+            ]
+        }
+    end
+  end
+
   defp execute_step(:is, %{stack: [trait, base | stack], objects: objects} = state)
        when is_tuple(base) do
     %{
@@ -358,6 +384,52 @@ defmodule Militerm.Machines.Script do
           | rest
         ]
     }
+  end
+
+  defp execute_step(
+         :select,
+         %{code: code, ip: ip, stack: [list | stack], objects: objects, pad: pad} = state
+       ) do
+    var = elem(code, ip)
+    body = elem(code, ip + 1)
+
+    new_list =
+      list
+      |> Enum.filter(fn item ->
+        run(body, objects, Map.put(pad, var, item))
+      end)
+
+    %{state | ip: ip + 2, stack: [new_list | stack]}
+  end
+
+  defp execute_step(
+         :map,
+         %{code: code, ip: ip, stack: [list | stack], objects: objects, pad: pad} = state
+       ) do
+    var = elem(code, ip)
+    body = elem(code, ip + 1)
+
+    new_list =
+      list
+      |> Enum.flat_map(fn item ->
+        run(body, objects, Map.put(pad, var, item))
+      end)
+
+    %{state | ip: ip + 2, stack: [new_list | stack]}
+  end
+
+  defp execute_step(
+         :loop,
+         %{code: code, ip: ip, stack: [list | stack], objects: objects, pad: pad} = state
+       ) do
+    var = elem(code, ip)
+    body = elem(code, ip + 1)
+
+    for item <- list do
+      run(body, objects, Map.put(pad, var, item))
+    end
+
+    %{state | ip: ip + 2, stack: [true | stack]}
   end
 
   defp execute_step(

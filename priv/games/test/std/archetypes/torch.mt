@@ -7,6 +7,8 @@ based on std:item
 
 can light:item as direct
 
+is lit when flag:torch:burning
+
 reacts to change:flag:torch:burning with do
   if value then
     :"<This> <light> up."
