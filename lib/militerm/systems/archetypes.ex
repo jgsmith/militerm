@@ -10,8 +10,53 @@ defmodule Militerm.Systems.Archetypes do
   alias Militerm.Services.Archetypes
   alias Militerm.Systems.Mixins
 
+  require Logger
+
   def list_archetypes() do
     Militerm.Services.Archetypes.list_archetypes()
+  end
+
+  def introspect(archetype) do
+    data = Archetypes.get(archetype)
+
+    if map_size(data) > 0 do
+      ur_data =
+        case data do
+          %{ur_name: ur_name} when not is_nil(ur_name) ->
+            introspect(data.ur_name)
+
+          _ ->
+            %{}
+        end
+
+      data.mixins
+      |> Enum.reverse()
+      |> Enum.reduce(ur_data, fn mixin, acc ->
+        deep_merge(acc, Mixins.introspect(mixin))
+      end)
+      |> deep_merge(%{
+        calculations: keys_with_attribution(data.calculations, archetype),
+        reactions: keys_with_attribution(data.reactions, archetype),
+        abilities: keys_with_attribution(data.abilities, archetype),
+        traits: keys_with_attribution(data.traits, archetype),
+        validators: keys_with_attribution(data.validators, archetype)
+      })
+    else
+      %{}
+    end
+  end
+
+  defp deep_merge(into, from) when is_map(into) and is_map(from) do
+    Map.merge(into, from, fn _k, v1, v2 -> deep_merge(v1, v2) end)
+  end
+
+  defp deep_merge(v1, v2), do: v2
+
+  defp keys_with_attribution(map, attr) do
+    map
+    |> Map.keys()
+    |> Enum.map(fn k -> {k, attr} end)
+    |> Enum.into(%{})
   end
 
   def execute_event(entity_id, event, role, args) when is_binary(event) do
@@ -29,17 +74,58 @@ defmodule Militerm.Systems.Archetypes do
     end
   end
 
-  def execute_event({_archetype_name, archetype}, entity_id, path, role, args) do
+  def execute_event({archetype_name, archetype}, entity_id, path, role, args) do
     cond do
       do_has_event?(archetype, path, role) ->
+        Logger.debug(fn ->
+          [
+            entity_id,
+            " (",
+            archetype_name,
+            ") has event ",
+            Enum.join(Enum.reverse(path), ":"),
+            " as ",
+            role,
+            ": true"
+          ]
+        end)
+
         do_event(archetype, entity_id, path, role, args)
 
       do_has_event?(archetype, path, "any") ->
+        Logger.debug(fn ->
+          [
+            entity_id,
+            " (",
+            archetype_name,
+            ") has event ",
+            Enum.join(Enum.reverse(path), ":"),
+            " as any: true"
+          ]
+        end)
+
         do_event(archetype, entity_id, path, "any", args)
 
       :else ->
+        Logger.debug(fn ->
+          [
+            entity_id,
+            " (",
+            archetype_name,
+            ") has event ",
+            Enum.join(Enum.reverse(path), ":"),
+            " as ",
+            role,
+            ": false"
+          ]
+        end)
+
         false
     end
+  end
+
+  def has_event?({_archetype_name, archetype}, event, role) do
+    do_has_event?(archetype, event, role)
   end
 
   def has_event?(entity_id, event, role) when is_binary(event) do
@@ -49,7 +135,7 @@ defmodule Militerm.Systems.Archetypes do
 
   def has_event?(entity_id, event, role) do
     case get_entity_archetype(entity_id) do
-      {:ok, {archetype_name, archetype}} ->
+      {:ok, {_archetype_name, archetype}} ->
         do_has_event?(archetype, event, role)
 
       _ ->
@@ -566,7 +652,24 @@ defmodule Militerm.Systems.Archetypes do
   defp execute_if_in_map(events, entity_id, event, role, args) do
     case Map.get(events, {event, role}) do
       code when is_tuple(code) ->
-        {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+        # IO.inspect({:code, event, role, code}, limit: :infinity)
+        Logger.debug(fn ->
+          [
+            entity_id,
+            ": execute code for ",
+            inspect(event),
+            " as ",
+            role,
+            ": ",
+            inspect(code, limit: :infinity)
+          ]
+        end)
+
+        ret =
+          {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+
+        Logger.debug([entity_id, ": finished executing code for ", inspect(event), " as ", role])
+        ret
 
       _ ->
         :unhandled
@@ -576,7 +679,15 @@ defmodule Militerm.Systems.Archetypes do
   defp execute_if_in_map(events, entity_id, path, args) do
     case Map.get(events, path) do
       code when is_tuple(code) ->
-        {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+        Logger.debug(fn ->
+          [entity_id, ": execute code for ", inspect(path), ": ", inspect(code, limit: :infinity)]
+        end)
+
+        ret =
+          {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+
+        Logger.debug([entity_id, ": finished executing code for ", inspect(path)])
+        ret
 
       _ ->
         :unhandled
@@ -591,6 +702,7 @@ defmodule Militerm.Systems.Archetypes do
         :unhandled
 
       mixin ->
+        Logger.debug([entity_id, " handing off ", inspect(event), " as ", role, " to ", mixin])
         {:ok, apply(Mixins, method, [mixin, entity_id, event, role, args])}
     end
   end
@@ -603,6 +715,7 @@ defmodule Militerm.Systems.Archetypes do
         :unhandled
 
       mixin ->
+        Logger.debug([entity_id, " handing off ", inspect(event), " to ", mixin])
         {:ok, apply(Mixins, method, [mixin, entity_id, event, args])}
     end
   end
@@ -615,6 +728,7 @@ defmodule Militerm.Systems.Archetypes do
     case Archetypes.get(ur) do
       %{} = archetype ->
         if apply(__MODULE__, predicate, [{ur, archetype}, event, role]) do
+          Logger.debug([entity_id, " handing off ", inspect(event), " as ", role, " to ", ur])
           {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, role, args])}
         else
           :unhandled
@@ -633,6 +747,7 @@ defmodule Militerm.Systems.Archetypes do
     case Archetypes.get(ur) do
       %{} = archetype ->
         if apply(__MODULE__, predicate, [{ur, archetype}, event]) do
+          Logger.debug([entity_id, " handing off ", inspect(event), " to ", ur])
           {:ok, apply(__MODULE__, method, [{ur, archetype}, entity_id, event, args])}
         else
           :unhandled

@@ -130,9 +130,11 @@ defmodule Militerm.Components.Location do
     ...> Enum.sort(Location.find_in("234"))
     ["123", "456"]
   """
-  def find_in(target_id) do
+  def find_in(target_id, opts \\ []) do
     Militerm.Data.Location
-    |> where([u], u.target_id == ^target_id and not u.hibernated)
+    |> where([u], u.target_id == ^target_id)
+    |> excluding_proxes(opts)
+    |> including_proxes(opts)
     |> select([u], u.entity_id)
     |> Militerm.Config.repo().all()
   end
@@ -161,36 +163,69 @@ defmodule Militerm.Components.Location do
     |> Militerm.Config.repo().all()
   end
 
-  def find_at(target_id, t) when is_number(t), do: find_at(target_id, t, 0)
+  def find_at(target_id, coord, opts \\ [delta: 0])
 
-  def find_at(target_id, detail) when is_binary(detail) do
+  # def find_at(target_id, t) when is_number(t), do: find_at(target_id, t, delta: 0)
+
+  def find_at(target_id, detail, opts) when is_binary(detail) do
     Militerm.Data.Location
     |> where(
       [u],
       u.target_id == ^target_id and u.detail == ^detail and not u.hibernated
     )
+    |> excluding_proxes(opts)
+    |> including_proxes(opts)
     |> select([u], u.entity_id)
     |> Militerm.Config.repo().all()
   end
 
-  def find_at(target_id, {_, _, _} = p), do: find_at(target_id, p, 0)
+  # def find_at(target_id, {_, _, _} = p), do: find_at(target_id, p, delta: 0)
 
-  def find_at(target_id, t, delta) when is_number(t) do
+  def find_at(target_id, t, opts) when is_number(t) do
+    delta = Keyword.get(opts, :delta, 0)
+
     Militerm.Data.Location
     |> where([u], u.target_id == ^target_id and not u.hibernated)
+    |> excluding_proxes(opts)
+    |> including_proxes(opts)
     |> select([u], {u.entity_id, u.t})
     |> Militerm.Config.repo().all()
     |> Enum.filter(fn {_, tt} -> abs(t - tt) <= delta end)
     |> Enum.map(fn {entity_id, _} -> entity_id end)
   end
 
-  def find_at(target_id, {_, _, _} = c, delta) do
+  def find_at(target_id, {_, _, _} = c, opts) do
+    delta = Keyword.get(opts, :delta, 0)
+    excluded_proxes = Keyword.get(opts, :excluding, [])
+
     Militerm.Data.Location
     |> where([u], u.target_id == ^target_id and not u.hibernated)
+    |> excluding_proxes(opts)
+    |> including_proxes(opts)
     |> select([u], {u.entity_id, u.point})
     |> Militerm.Config.repo().all()
     |> Enum.filter(fn {_, p} -> distance(p, c) <= delta end)
     |> Enum.map(fn {entity_id, _} -> entity_id end)
+  end
+
+  defp excluding_proxes(query, opts) do
+    case Keyword.get(opts, :excluding, []) do
+      [_ | _] = proxes ->
+        where(query, [u], u.relationship not in ^proxes)
+
+      _ ->
+        query
+    end
+  end
+
+  defp including_proxes(query, opts) do
+    case Keyword.get(opts, :including, []) do
+      [_ | _] = proxes ->
+        where(query, [u], u.relationship in ^proxes)
+
+      _ ->
+        query
+    end
   end
 
   @spec distance(list, tuple) :: number

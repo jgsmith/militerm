@@ -70,13 +70,14 @@ defmodule Militerm.Compilers.Script do
     |> compile(rest)
   end
 
-  def compile(acc, [{:event, target, event, pov, args}]) do
-    args
+  def compile(acc, [{:event, target, event, pov, args} | rest]) do
+    acc
     |> compile([{:make_dict, args}])
     |> push(pov)
     |> push(event)
     |> compile(target)
     |> encode(:trigger_event)
+    |> compile(rest)
   end
 
   def compile(acc, [{:const, name} | rest]) do
@@ -211,6 +212,7 @@ defmodule Militerm.Compilers.Script do
     |> encode(op)
     |> encode(var_name)
     |> encode(compiled_body)
+    |> compile(rest)
   end
 
   def compile(acc, [[:index | indices] | rest]) do
@@ -259,6 +261,7 @@ defmodule Militerm.Compilers.Script do
       |> drop
       |> compile(right)
     end)
+    |> compile(rest)
   end
 
   def compile(acc, [{:prop, [{:context, context} | list]} | rest]) when is_list(list) do
@@ -271,22 +274,32 @@ defmodule Militerm.Compilers.Script do
     |> compile(rest)
   end
 
+  def compile(acc, [{:prop, [{:var, var} | list]} | rest]) when is_list(list) do
+    acc
+    |> compile_prop_args(list)
+    |> push(Enum.count(list))
+    |> push(var)
+    |> encode(:get_var)
+    |> encode(:get_prop)
+    |> compile(rest)
+  end
+
   def compile(acc, [{:prop, list} | rest]) when is_list(list) do
     context =
       Enum.find(list, fn
         {:context, _} -> true
+        {:var, _} -> true
         _ -> false
       end)
 
-    {:context, context_var} = if is_nil(context), do: {:context, "this"}, else: context
+    context = if is_nil(context), do: {:context, "this"}, else: context
 
     list = list -- [context]
 
     acc
     |> compile_prop_args(list)
     |> push(Enum.count(list))
-    |> push(context_var)
-    |> encode(:get_context_var)
+    |> compile(context)
     |> encode(:get_prop)
     |> compile(rest)
   end
@@ -425,8 +438,8 @@ defmodule Militerm.Compilers.Script do
     |> compile(rest)
   end
 
-  def compile(acc, list) do
-    []
+  def compile(acc, [unknown | rest]) do
+    compile(acc, rest)
   end
 
   defp compile_indices(acc, indices)
@@ -456,29 +469,29 @@ defmodule Militerm.Compilers.Script do
   end
 
   defp compile_conditionals(acc, [{guard, block}], locs) do
-    {next_loc, acc} =
+    {next_loc, acc1} =
       acc
       |> compile(guard)
       |> jump_unless
 
-    acc
+    acc1
     |> compile(block)
     |> jump_from(next_loc)
     |> compile_conditionals([], locs)
   end
 
   defp compile_conditionals(acc, [{guard, block} | rest], locs) do
-    {next_loc, acc} =
+    {next_loc, acc1} =
       acc
       |> compile(guard)
       |> jump_unless
 
-    {loc, acc} =
-      acc
+    {loc, acc2} =
+      acc1
       |> compile(block)
       |> jump
 
-    acc
+    acc2
     |> jump_from(next_loc)
     |> compile_conditionals(rest, [loc | locs])
   end
@@ -532,9 +545,9 @@ defmodule Militerm.Compilers.Script do
 
   @spec do_if([Any], Any) :: [Any]
   defp do_if(acc, function) do
-    {loc, code} = jump_unless(acc)
+    {loc, acc1} = jump_unless(acc)
 
-    code
+    acc1
     |> function.()
     |> jump_from(loc)
   end
@@ -547,15 +560,6 @@ defmodule Militerm.Compilers.Script do
       |> encode(:jump)
       |> encode(0)
     }
-  end
-
-  @spec jump([Any], Any) :: [Any]
-  defp jump(acc, function) do
-    {loc, code} = jump(acc)
-
-    code
-    |> function.()
-    |> jump_from(loc)
   end
 
   @spec jump_from([Any], integer) :: [Any]

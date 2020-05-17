@@ -16,7 +16,6 @@ defmodule Militerm.Services.Characters do
     receiver = Keyword.fetch!(opts, :receiver)
 
     %{cap_name: cap_name} = Accounts.get_character(entity_id: entity_id)
-
     Militerm.Systems.Entity.unhibernate(entity)
     Militerm.Systems.Entity.register_interface(entity, receiver)
 
@@ -26,7 +25,6 @@ defmodule Militerm.Services.Characters do
     })
 
     {:ok, entity_pid} = Militerm.Systems.Entity.whereis(entity)
-
     Swarm.join(:players, entity_pid)
     Militerm.Systems.Gossip.player_sign_in(cap_name)
   end

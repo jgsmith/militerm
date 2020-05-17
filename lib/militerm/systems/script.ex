@@ -8,6 +8,10 @@ defmodule Militerm.Systems.Script do
 
     case Services.Script.function_handler(function_name, arity) do
       {:ok, {module, fctn, extra_args}} ->
+        Logger.debug(fn ->
+          ["call ", function_name, " with ", inspect(args)]
+        end)
+
         apply(module, fctn, args ++ [objects] ++ extra_args)
 
       _ ->

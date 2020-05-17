@@ -5,10 +5,13 @@ defmodule Militerm.Systems.Events do
 
   alias Militerm.Systems.MML
 
+  require Logger
+
   @doc """
   Shares the event with any other entity that can observe the triggering entity.
   """
   def trigger(entity_id, event, args) do
+    Logger.debug([entity_id, ": trigger ", event])
     # shares the event with anything that can observe the entity
     observers =
       case Militerm.Services.Location.where({:thing, entity_id}) do
@@ -16,9 +19,8 @@ defmodule Militerm.Systems.Events do
         _ -> Militerm.Services.Location.find_in({:thing, entity_id})
       end
 
-    args = Map.put(args, "trigger", entity_id)
     observed = {:thing, entity_id}
-    args = Map.put(args, :trigger, observed)
+    args = Map.put(args, "trigger", observed)
     Militerm.Systems.Entity.event(observed, event, "observed", args)
 
     for observer <- observers -- [observed] do
@@ -50,11 +52,16 @@ defmodule Militerm.Systems.Events do
     binding = MML.bind(message, slots)
     {prep, location} = Militerm.Services.Location.where(entity_id)
     observers = Militerm.Services.Location.find_in(location)
-    used_slots = MML.used_slots(binding)
+    used_slots = Enum.uniq(["this", "actor" | MML.used_slots(binding)])
 
-    used_slots = if "actor" in used_slots, do: used_slots, else: ["this" | used_slots]
+    used_slots =
+      if Map.get(slots, "actor") == Map.get(slots, "this") do
+        used_slots -- ["actor"]
+      else
+        used_slots
+      end
 
-    used_slots = if "actor" in used_slots, do: used_slots, else: ["this" | used_slots]
+    Logger.debug([entity_id, " narrate to ", inspect(used_slots)])
 
     # now go through each used slot and send the right message... and send to any observers
     # at the end who haven't seen the message yet

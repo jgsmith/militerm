@@ -52,9 +52,7 @@ defmodule MilitermWeb.GameLive do
 
   def mount(_, %{"character" => character, "current_user" => user_id}, socket) do
     %{entity_id: entity_id} = Militerm.Accounts.get_character!(user_id: user_id, name: character)
-
     Militerm.Services.Characters.enter_game({:thing, entity_id}, receiver: __MODULE__)
-
     Militerm.Metrics.PlayerInstrumenter.start_session(:web, :https, :html, :default)
 
     ident = Militerm.Components.Identity.get(entity_id)

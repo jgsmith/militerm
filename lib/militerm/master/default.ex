@@ -54,6 +54,7 @@ defmodule Militerm.Master.Default do
   system(Systems.Groups)
   system(Systems.Help)
   system(Systems.Hospital)
+  system(Systems.Identity)
   system(Systems.MML)
   system(Systems.Location)
   system(Systems.SimpleResponse)

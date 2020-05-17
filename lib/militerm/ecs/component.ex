@@ -15,6 +15,7 @@ defmodule Militerm.ECS.Component do
   Each component defines its persistance mechanisms through the `store/2`, `update/3`, `fetch/1`,
   `delete/1`, and `clear/0` functions. These are required and do not have default definitions.
   """
+  require Logger
 
   @type callback :: {mfa, [term]} | function
   @type path :: String.t() | [String.t()]
@@ -92,13 +93,22 @@ defmodule Militerm.ECS.Component do
     :ok
   """
   def set(component, thing, data) do
+    Logger.debug([inspect(thing), " set ", to_string(component)])
+
     Militerm.Cache.Component.transaction(
       fn ->
-        apply(component, :store, [thing, data])
-        Militerm.Cache.Component.set({component, thing}, data)
+        Logger.debug([inspect(thing), " set ", to_string(component), " START TRANSACTION"])
+        ret = set_without_transaction(component, thing, data)
+        Logger.debug([inspect(thing), " set ", to_string(component), " END TRANSACTION"])
+        ret
       end,
       keys: [{component, thing}]
     )
+  end
+
+  def set_without_transaction(component, thing, data) do
+    apply(component, :store, [thing, data])
+    Militerm.Cache.Component.set({component, thing}, data)
   end
 
   @doc """
@@ -109,22 +119,32 @@ defmodule Militerm.ECS.Component do
     %{xp: 123, level: 2}
   """
   def get(component, thing, default \\ %{}) do
+    Logger.debug([inspect(thing), " get ", to_string(component)])
+
     Militerm.Cache.Component.transaction(
       fn ->
-        if value = Militerm.Cache.Component.get({component, thing}) do
-          value
-        else
-          case component.fetch(thing) do
-            nil ->
-              default
+        Logger.debug([inspect(thing), " get ", to_string(component), " START TRANSACTION"])
 
-            value ->
-              Militerm.Cache.Component.set({component, thing}, value)
-          end
-        end
+        ret = get_without_transaction(component, thing, default)
+        Logger.debug([inspect(thing), " get ", to_string(component), " END TRANSACTION"])
+        ret
       end,
       keys: [{component, thing}]
     )
+  end
+
+  def get_without_transaction(component, thing, default) do
+    if value = Militerm.Cache.Component.get({component, thing}) do
+      value
+    else
+      case component.fetch(thing) do
+        nil ->
+          default
+
+        value ->
+          Militerm.Cache.Component.set({component, thing}, value)
+      end
+    end
   end
 
   @doc """
@@ -139,26 +159,34 @@ defmodule Militerm.ECS.Component do
     %{xp: 133, level: 2}
   """
   def update(component, thing, callback) do
+    Logger.debug([inspect(thing), " update ", to_string(component)])
+
     Militerm.Cache.Component.transaction(
       fn ->
-        old_value = get(component, thing)
-
-        case {old_value, execute_callback(callback, old_value)} do
-          {x, x} ->
-            x
-
-          {_, nil} ->
-            apply(component, :delete, [thing])
-            Militerm.Cache.Component.delete({component, thing})
-            nil
-
-          {_, new_value} ->
-            apply(component, :store, [thing, new_value])
-            Militerm.Cache.Component.set({component, thing}, new_value)
-        end
+        Logger.debug([inspect(thing), " update ", to_string(component), " START TRANSACTION"])
+        ret = update_without_transaction(component, thing, callback)
+        Logger.debug([inspect(thing), " update ", to_string(component), " END TRANSACTION"])
+        ret
       end,
       keys: [{component, thing}]
     )
+  end
+
+  def update_without_transaction(component, thing, callback) do
+    old_value = get_without_transaction(component, thing, %{})
+
+    ret =
+      case {old_value, execute_callback(callback, old_value)} do
+        {x, x} ->
+          x
+
+        {_, nil} ->
+          remove_without_transaction(component, thing)
+          nil
+
+        {_, new_value} ->
+          set_without_transaction(component, thing, new_value)
+      end
   end
 
   defp execute_callback(callback, arg) when is_function(callback) do
@@ -182,13 +210,17 @@ defmodule Militerm.ECS.Component do
   def remove(component, thing) do
     Militerm.Cache.Component.transaction(
       fn ->
-        apply(component, :delete, [thing])
-        Militerm.Cache.Component.delete({component, thing})
+        remove_without_transaction(component, thing)
       end,
       keys: [{component, thing}]
     )
 
     nil
+  end
+
+  def remove_without_transaction(component, thing) do
+    apply(component, :delete, [thing])
+    Militerm.Cache.Component.delete({component, thing})
   end
 
   def reset(component) do

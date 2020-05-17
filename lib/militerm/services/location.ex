@@ -7,21 +7,31 @@ defmodule Militerm.Services.Location do
     ...> LocationComponent.get("123")
     %{target_id: "234", relationship: "near", detail: "default"}
   """
-  def place({:thing, entity_id}, {prep, {:thing, target_id, t}}) when is_number(t) do
+  def place(thing, loc) do
+    unhook_related_things(thing)
+
+    do_placement(thing, loc)
+  end
+
+  def do_placement(thing, {prep, {:thing, target_id}}) do
+    place(thing, {prep, {:thing, target_id, "default"}})
+  end
+
+  def do_placement({:thing, entity_id}, {prep, {:thing, target_id, t}}) when is_number(t) do
     new_data = %{
       target_id: target_id,
       t: t,
       relationship: prep
     }
 
-    # ensure the target location exists
     Militerm.Components.Location.update(entity_id, fn
       nil -> new_data
       old_data -> Map.merge(old_data, new_data)
     end)
   end
 
-  def place({:thing, entity_id}, {prep, {:thing, target_id, detail}}) when is_binary(detail) do
+  def do_placement({:thing, entity_id}, {prep, {:thing, target_id, detail}})
+      when is_binary(detail) do
     new_data = %{
       target_id: target_id,
       relationship: prep,
@@ -34,7 +44,7 @@ defmodule Militerm.Services.Location do
     end)
   end
 
-  def place({:thing, entity_id}, {prep, {:thing, target_id, {x, y, z}}}) do
+  def do_placement({:thing, entity_id}, {prep, {:thing, target_id, {x, y, z}}}) do
     new_data = %{
       target_id: target_id,
       relationship: prep,
@@ -45,6 +55,23 @@ defmodule Militerm.Services.Location do
       nil -> new_data
       old_data -> Map.merge(old_data, new_data)
     end)
+  end
+
+  # removes things not in the entity from relying on the entity
+  # places them in the same relationship entity has
+  def unhook_related_things(entity) do
+    things_to_move = all_entities(entity, excluding: ["in", "on", "worn by", "held by"])
+
+    case where(entity) do
+      # simply remove the location for things not "in" entity
+      nil ->
+        nil
+
+      loc ->
+        for thing <- things_to_move do
+          do_placement(thing, loc)
+        end
+    end
   end
 
   @doc """
@@ -97,7 +124,7 @@ defmodule Militerm.Services.Location do
   @doc """
   Returns all the entities in thing, but not details of thing.
   """
-  def all_entities(thing) do
+  def all_entities(thing, opts \\ []) do
     thing_id =
       case thing do
         {:thing, id} -> id
@@ -105,24 +132,27 @@ defmodule Militerm.Services.Location do
       end
 
     thing_id
-    |> Militerm.Components.Location.find_in()
+    |> Militerm.Components.Location.find_in(opts)
     |> Enum.map(fn id -> {:thing, id} end)
   end
 
-  def find_in(thing, steps \\ 1, acc \\ [])
+  def find_in(thing, steps \\ 1, opts \\ [], acc \\ [])
 
-  def find_in(nil, _, acc), do: acc
+  def find_in(nil, _, _, acc), do: acc
 
-  def find_in(thing, steps, acc) when is_tuple(thing) do
-    find_in([thing], steps, acc)
+  def find_in(thing, steps, opts, acc) when is_tuple(thing) do
+    find_in([thing], steps, opts, acc)
   end
 
-  def find_in([], _, acc), do: acc
+  def find_in([], _, _, acc), do: acc
 
-  def find_in(things, 0, acc) when is_list(things), do: things ++ acc
+  def find_in(things, 0, _, acc) when is_list(things), do: things ++ acc
 
-  def find_in(things, steps, acc) when is_list(things) do
+  def find_in(things, steps, opts, acc) when is_list(things) do
     next_steps = if steps == :infinite, do: :infinite, else: steps - 1
+
+    excluded_proxes = Keyword.get(opts, :excluding, [])
+    included_proxes = Keyword.get(opts, :including, nil)
 
     new_things =
       things
@@ -137,7 +167,11 @@ defmodule Militerm.Services.Location do
             thing_id
             |> Militerm.Components.Details.get()
             |> Enum.filter(fn {detail, info} ->
-              Map.get(info, "related_to") == coord
+              related_by = Map.get(info, "related_by")
+
+              Map.get(info, "related_to") == coord and
+                related_by not in excluded_proxes and
+                (is_nil(included_proxes) or related_by in included_proxes)
             end)
             |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
 
@@ -146,21 +180,25 @@ defmodule Militerm.Services.Location do
         {:thing, thing_id} ->
           other_things =
             thing_id
-            |> Militerm.Components.Location.find_at("default")
+            |> Militerm.Components.Location.find_at("default", excluded_proxes)
             |> Enum.map(fn entity_id -> {:thing, entity_id} end)
 
           other_details =
             thing_id
             |> Militerm.Components.Details.get()
             |> Enum.filter(fn {detail, info} ->
-              Map.get(info, "related_to") == "default"
+              related_by = Map.get(info, "related_by")
+
+              Map.get(info, "related_to") == "default" and
+                related_by not in excluded_proxes and
+                (is_nil(included_proxes) or related_by in included_proxes)
             end)
             |> Enum.map(fn {detail, _} -> {:thing, thing_id, detail} end)
 
           other_things ++ (other_details -- things)
       end)
 
-    find_in(new_things, next_steps, things ++ acc)
+    find_in(new_things, next_steps, excluded_proxes, things ++ acc)
   end
 
   def find_near({:thing, _} = target), do: find_near(target, 3)

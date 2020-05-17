@@ -77,6 +77,8 @@ defmodule Militerm.English do
   pluralize("f", "ves")
   pluralize("y", "ies")
 
+  def pluralize(nil), do: nil
+
   defp do_reverse_plural(str), do: "s" <> str
 
   def pluralize_list([], acc), do: Enum.reverse(acc)

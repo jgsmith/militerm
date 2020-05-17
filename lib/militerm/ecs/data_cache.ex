@@ -56,7 +56,7 @@ defmodule Militerm.ECS.DataCache do
 
       {:error, :no_cache} ->
         value = component.fetch(thing)
-        Cachex.set(component, thing, value)
+        Cachex.put(component, thing, value)
         value
 
       _ ->

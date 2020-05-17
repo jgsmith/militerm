@@ -1,4 +1,6 @@
 defmodule Militerm.Command.Pipeline do
+  require Logger
+
   defstruct input: "",
             entity: nil,
             context: %{},
@@ -13,13 +15,24 @@ defmodule Militerm.Command.Pipeline do
   end
 
   def run_phases(pipeline, info) do
+    pipeline_thread = UUID.uuid4()
+
     Enum.reduce_while(
       pipeline,
       info,
       fn phase_config, info ->
         {phase, options} = phase_invocation(phase_config)
+        run_result = phase.run(info, options)
 
-        case phase.run(info, options) do
+        Logger.debug([
+          pipeline_thread,
+          " Command Pipeline phase: ",
+          inspect(phase),
+          " returns ",
+          inspect(run_result)
+        ])
+
+        case run_result do
           {:cont, new_info} ->
             {:cont, new_info}
 

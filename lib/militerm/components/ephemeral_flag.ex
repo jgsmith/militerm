@@ -6,16 +6,20 @@ defmodule Militerm.Components.EphemeralFlag do
   These are useful to coordinate command execution.
   """
 
+  require Logger
+
   def set_value(entity_id, path, value) do
     {path, sense} =
       Enum.reduce(path, {[], if(value, do: true, else: false)}, fn p, {ps, s} ->
         case p do
+          "not-" <> f -> {[f | ps], !s}
           "not_" <> f -> {[f | ps], !s}
           f -> {[f | ps], s}
         end
       end)
 
     path = path |> Enum.reverse() |> Enum.join(":")
+    Logger.debug([entity_id, " set eflag:", path, " to ", inspect(sense)])
 
     if sense do
       add_flag(entity_id, path)
@@ -32,6 +36,7 @@ defmodule Militerm.Components.EphemeralFlag do
     {path, sense} =
       Enum.reduce(path, {[], true}, fn p, {ps, s} ->
         case p do
+          "not-" <> f -> {[f | ps], !s}
           "not_" <> f -> {[f | ps], !s}
           f -> {[f | ps], s}
         end
