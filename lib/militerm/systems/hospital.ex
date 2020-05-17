@@ -31,11 +31,17 @@ defmodule Militerm.Systems.Hospital do
     - NPCs
       - name
       - number (dice roll)
+  - Weapons
+  - Armors
+  - Items
+    
 
   Once we have a way to wear and wield things:
     The hospital works with the armory to create clothes and weapons for NPCs.
     The hospital works with the warehouse to create other items.
   """
+
+  alias Militerm.Logger
 
   defscript hospital_populate(), for: %{"this" => this} = objects do
     # figures out the hospital/zone and populates if necessary
@@ -43,13 +49,38 @@ defmodule Militerm.Systems.Hospital do
     # This function will usually be called *before* the player enters the room
     #
     # adds 'flag:transient' if the npc is transient
+    Logger.debug(">>>>>>>>> HospitalPopulate")
     stuff_here = Militerm.Services.Location.all_entities(this)
+
+    Logger.debug(this, "system:hospital", fn ->
+      [
+        "# of things here: ",
+        inspect(Enum.count(stuff_here)),
+        " hospital things? ",
+        inspect(hospital_things?(stuff_here)),
+        " players? ",
+        inspect(players?(stuff_here))
+      ]
+    end)
 
     if !hospital_things?(stuff_here) && !players?(stuff_here) do
       {domain, area, location} = domain_area_location(this, objects)
       zone = Militerm.Systems.Entity.property(this, ~w[trait hospital zone], objects)
 
       if domain && area && (location || zone) do
+        Logger.debug(this, "system:hospital", fn ->
+          [
+            "domain: ",
+            inspect(domain),
+            " area: ",
+            inspect(area),
+            " location: ",
+            inspect(location),
+            " zone: ",
+            inspect(zone)
+          ]
+        end)
+
         json =
           case Militerm.Cache.Hospital.get({domain, area}) do
             %{} = data -> data
@@ -81,6 +112,8 @@ defmodule Militerm.Systems.Hospital do
         end
       end
     end
+
+    Logger.debug("<<<<<<<<< HospitalPopulate")
   end
 
   defscript hospital_depopulate(), for: %{"this" => this} = objects do
@@ -108,6 +141,24 @@ defmodule Militerm.Systems.Hospital do
     # can come from the detail component.
   end
 
+  defscript hospital_create(type, name), for: %{"this" => this} = objects do
+    # creates an item of the given type
+    {domain, area, location} = domain_area_location(this, objects)
+    zone = Militerm.Systems.Entity.property(this, ~w[trait hospital zone], objects)
+
+    if domain && area && (location || zone) do
+      json =
+        case Militerm.Cache.Hospital.get({domain, area}) do
+          %{} = data -> data
+          _ -> Militerm.Cache.Hospital.get(domain)
+        end
+
+      if json do
+        create_item(json, type, name)
+      end
+    end
+  end
+
   def hospital_things?(things) do
     Enum.any?(things, fn entity ->
       Militerm.Systems.Entity.property(entity, ~w[flag made-by-hospital], %{"this" => entity})
@@ -128,17 +179,13 @@ defmodule Militerm.Systems.Hospital do
   end
 
   def players(things) do
-    Enum.filter?(things, fn entity ->
+    Enum.filter(things, fn entity ->
       Militerm.Systems.Entity.is?(entity, "player", %{"this" => entity})
     end)
   end
 
   def domain_area_location(this, objects) do
-    entity_id =
-      case this do
-        {:thing, id} -> id
-        {:thing, id, _} -> id
-      end
+    entity_id = entity_id(this)
 
     {implicit_domain, implicit_area, implicit_location} =
       case String.split(entity_id, ":", trim: true, parts: 4) do
@@ -208,6 +255,34 @@ defmodule Militerm.Systems.Hospital do
 
   def maybe_populate_with_group(_, _, _, _), do: false
 
+  def create_item(json, type, name, loc \\ nil) do
+    type_keys = [type, Militerm.English.pluralize(type)]
+
+    info =
+      json
+      |> Map.get(Militerm.English.pluralize(type), %{})
+      |> Map.get(name)
+
+    if info do
+      archetype = Map.get(info, "archetype", "std:#{type}")
+
+      data =
+        info
+        |> Map.get("data", %{})
+        |> put_in([Access.key("flag", %{}), Access.key("made-by-hospital")], true)
+
+      entity = Militerm.Systems.Entity.create(archetype, loc, data)
+
+      if Map.get(info, "is_transient") do
+        entity
+        |> entity_id()
+        |> Militerm.Components.Flags.set(["hospital:transient"])
+      end
+
+      entity
+    end
+  end
+
   def create_any_npc(this, npcs, json, data) do
     selected = select_item(npcs)
 
@@ -217,38 +292,11 @@ defmodule Militerm.Systems.Hospital do
   end
 
   def create_npc(this, npc, json, data, placement_data) do
-    info =
-      json
-      |> Map.get("npcs", %{})
-      |> Map.get(npc)
-
-    if info do
-      # create npc
-      archetype = Map.get(info, "archetype", "std:npc")
-
-      data =
-        info
-        |> Map.get("data", %{})
-        |> put_in([Access.key("flag", %{}), Access.key("made-by-hospital")], true)
-
-      loc = place(this, placement_data)
-
-      {:thing, entity_id} = entity = Militerm.Systems.Entity.create(archetype, loc, data)
-
-      if Map.get(info, "is_transient") do
-        Militerm.Components.Flags.set(entity_id, ["hospital:transient"])
-      end
-
-      entity
-    end
+    create_item(json, "npc", npc, place(this, placement_data))
   end
 
   defp place(thing, placement_data) do
-    entity_id =
-      case thing do
-        {:thing, id} -> id
-        {:thing, id, _} -> id
-      end
+    entity_id = entity_id(thing)
 
     {prox, detail} =
       case Map.get(placement_data, "placement") do
@@ -279,11 +327,11 @@ defmodule Militerm.Systems.Hospital do
           {"in", "default"}
       end
 
-    case thing do
-      {:thing, id} -> {prox, {:thing, id, detail}}
-      {:thing, id, _} -> {prox, {:thing, id, detail}}
-    end
+    {prox, {:thing, entity_id, detail}}
   end
+
+  defp entity_id({:thing, id}), do: id
+  defp entity_id({:thing, id, _}), do: id
 
   defp total_chance(set) do
     set

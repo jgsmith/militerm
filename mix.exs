@@ -34,18 +34,18 @@ defmodule Militerm.MixProject do
   defp deps do
     [
       {:cachex, "~> 3.2"},
-      {:ecto_sql, "~> 3.0"},
+      {:ecto_sql, "~> 3.4"},
       {:gettext, "~> 0.11"},
       {:gossip, "~> 1.0", runtime: false},
       {:guardian, "~> 2.0"},
       {:jason, "~> 1.0"},
-      {:libcluster, "~> 3.1.1"},
+      {:libcluster, "~> 3.2"},
       {:nebulex, "~> 1.2.1"},
       {:oauth2, "~> 0.9"},
       {:phoenix, "~> 1.4.0"},
       {:phoenix_ecto, "~> 4.0"},
       {:phoenix_html, "~> 2.11"},
-      {:phoenix_live_view, "~> 0.10.0"},
+      {:phoenix_live_view, "~> 0.12"},
       {:phoenix_pubsub, "~> 1.1"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
@@ -65,7 +65,7 @@ defmodule Militerm.MixProject do
 
       # Dev- or test-only
       {:floki, ">= 0.0.0", only: :test},
-      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.4.0", only: [:dev, :test], runtime: false}
     ]
   end
 

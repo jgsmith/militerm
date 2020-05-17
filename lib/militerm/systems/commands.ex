@@ -15,7 +15,11 @@ defmodule Militerm.Systems.Commands do
 
   alias Militerm.Command.Pipeline
 
+  require Logger
+
   def perform(entity, input, context) do
+    debug(entity, [": perform [", input, "]"])
+
     %{input: normalize(input), entity: entity, context: context}
     |> Pipeline.run_pipeline(Pipeline.pipeline(:players))
     |> interpret_pipeline_results()
@@ -23,6 +27,8 @@ defmodule Militerm.Systems.Commands do
 
   def interpret_pipeline_results(%{error: message, entity: entity, state: state} = result)
       when state in ~w[unhandled error]a do
+    debug(entity, [": perform ", to_string(state), " - ", inspect(message)])
+
     Militerm.Systems.Entity.receive_message(
       entity,
       "error:command",
@@ -34,6 +40,14 @@ defmodule Militerm.Systems.Commands do
   end
 
   def interpret_pipeline_results(result), do: result
+
+  def debug({:thing, entity_id}, msg) do
+    Logger.debug([entity_id, msg])
+  end
+
+  def debug({:thing, entity_id, _}, msg) do
+    Logger.debug([entity_id, msg])
+  end
 
   defp normalize(string) do
     string

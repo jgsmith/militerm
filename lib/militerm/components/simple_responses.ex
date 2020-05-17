@@ -122,6 +122,10 @@ defmodule Militerm.Components.SimpleResponses do
   end
 
   def add_regex(%{"pattern" => pattern} = info) do
-    Map.put(info, "regex", Militerm.Parsers.SimpleResponse.parse(pattern))
+    if is_list(pattern) do
+      Map.put(info, "regex", Enum.map(pattern, &Militerm.Parsers.SimpleResponse.parse/1))
+    else
+      Map.put(info, "regex", Militerm.Parsers.SimpleResponse.parse(pattern))
+    end
   end
 end

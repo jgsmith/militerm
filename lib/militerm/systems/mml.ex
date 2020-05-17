@@ -24,11 +24,23 @@ defmodule Militerm.Systems.MML do
   end
 
   defscript item_list(content), as: "ItemList" do
-    Militerm.English.item_list(content)
+    if is_nil(content) do
+      "nothing"
+    else
+      content
+      |> Enum.reject(&is_nil/1)
+      |> Militerm.English.item_list()
+    end
   end
 
   defscript item_list(content, conjunction), as: "ItemList" do
-    Militerm.English.item_list(content, conjunction)
+    if is_nil(content) do
+      "nothing"
+    else
+      content
+      |> Enum.reject(&is_nil/1)
+      |> Militerm.English.item_list(conjunction)
+    end
   end
 
   @doc """
@@ -151,7 +163,7 @@ defmodule Militerm.Systems.MML do
   end
 
   def render_item({:verb, verb}, bindings, pov, _device) do
-    objs = Map.get(bindings, "actor", [])
+    objs = as_list(Map.get(bindings, "actor", []))
 
     if pov not in objs and Enum.count(objs) == 1 do
       Militerm.English.pluralize(verb)
@@ -200,7 +212,7 @@ defmodule Militerm.Systems.MML do
     end
   end
 
-  def render_item({:slot, slot, _type}, bindings, pov, _device) do
+  def render_item({:slot, slot, type}, bindings, pov, _device) do
     this = Map.get(bindings, "this")
 
     case Map.get(bindings, to_string(slot)) do
@@ -212,7 +224,7 @@ defmodule Militerm.Systems.MML do
 
       list when is_list(list) ->
         list
-        |> Enum.map(&entity_name(&1, pov))
+        |> Enum.map(&entity_name(&1, pov, type))
         |> Militerm.English.item_list()
 
       thing when is_tuple(thing) ->
@@ -240,7 +252,7 @@ defmodule Militerm.Systems.MML do
     end
   end
 
-  def render_item({:Slot, slot, _type}, bindings, pov, _device) do
+  def render_item({:Slot, slot, type}, bindings, pov, _device) do
     this = Map.get(bindings, "this")
 
     case Map.get(bindings, to_string(slot)) do
@@ -252,7 +264,7 @@ defmodule Militerm.Systems.MML do
 
       list when is_list(list) ->
         list
-        |> Enum.map(&entity_name(&1, pov))
+        |> Enum.map(&entity_name(&1, pov, type))
         |> Militerm.English.item_list()
         |> String.capitalize()
 
@@ -282,6 +294,10 @@ defmodule Militerm.Systems.MML do
     end
   end
 
+  defp as_list(list) when is_list(list), do: list
+  defp as_list(nil), do: []
+  defp as_list(value), do: [value]
+
   defp entity_name(pov, pov), do: "you"
 
   defp entity_name({:thing, entity_id} = it, pov) do
@@ -293,6 +309,69 @@ defmodule Militerm.Systems.MML do
   end
 
   defp entity_name(string, _) when is_binary(string), do: string
+
+  defp entity_name({:thing, entity_id} = it, _, "name") do
+    entity_name_by_identity(entity_id) || entity_name_by_details(entity_id) || "something"
+  end
+
+  defp entity_name({:thing, entity_id, detail} = it, _, "name") do
+    entity_name_by_details({entity_id, detail}) || "something"
+  end
+
+  defp entity_name(string, _, "name") when is_binary(string), do: string
+
+  defp entity_name(pov, pov, "nominative"), do: "you"
+  defp entity_name(pov, pov, "objective"), do: "you"
+  defp entity_name(pov, pov, "reflexive"), do: "yourself"
+  defp entity_name(pov, pov, "possessive"), do: "your"
+
+  defp entity_name(thing, _, "nominative"), do: entity_nominative(thing)
+  defp entity_name(thing, _, "objective"), do: entity_objective(thing)
+  defp entity_name(thing, _, "reflexive"), do: entity_reflexive(thing)
+  defp entity_name(thing, _, "possessive"), do: entity_possessive(thing)
+
+  defp entity_nominative({:thing, entity_id}) do
+    case Militerm.Components.Identity.get(entity_id) do
+      %{"nominative" => nom} -> nom
+      _ -> "it"
+    end
+  end
+
+  defp entity_nominative({:thing, entity_id, "default"}) do
+    entity_nominative({:thing, entity_id})
+  end
+
+  defp entity_nominative(_), do: "it"
+
+  defp entity_objective({:thing, entity_id}) do
+    case Militerm.Components.Identity.get(entity_id) do
+      %{"objective" => obj} -> obj
+      _ -> "it"
+    end
+  end
+
+  defp entity_objective({:thing, entity_id, "default"}) do
+    entity_objective({:thing, entity_id})
+  end
+
+  defp entity_objective(_), do: "it"
+
+  defp entity_possessive({:thing, entity_id}) do
+    case Militerm.Components.Identity.get(entity_id) do
+      %{"possessive" => pos} -> pos
+      _ -> "its"
+    end
+  end
+
+  defp entity_possessive({:thing, entity_id, "default"}) do
+    entity_possessive({:thing, entity_id})
+  end
+
+  defp entity_possessive(_), do: "its"
+
+  def entity_reflexive(thing) do
+    entity_objective(thing) <> "self"
+  end
 
   defp entity_name_by_identity({entity_id, _}) do
     entity_name_by_identity(entity_id)

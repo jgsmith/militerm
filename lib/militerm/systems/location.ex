@@ -5,6 +5,8 @@ defmodule Militerm.Systems.Location do
   alias Militerm.Components
   alias Militerm.Services
 
+  require Logger
+
   @doc """
   Returns the exit names appropriate for the current location of the object calling this function.
   """
@@ -187,6 +189,8 @@ defmodule Militerm.Systems.Location do
     end
   end
 
+  def proximity(nil, _), do: ""
+
   def proximity({:thing, _} = thing, objects) do
     Militerm.Systems.Entity.property(thing, ~w[location proximity], objects)
   end
@@ -198,6 +202,8 @@ defmodule Militerm.Systems.Location do
   def proximity({:thing, _, coord} = thing, objects) do
     Militerm.Systems.Entity.property(thing, ~w[detail default related_by], objects)
   end
+
+  def position(nil, _), do: ""
 
   def position({:thing, _} = thing, objects) do
     Militerm.Systems.Entity.property(thing, ~w[location position], objects)
@@ -211,6 +217,8 @@ defmodule Militerm.Systems.Location do
     Militerm.Systems.Entity.property(thing, ~w[detail default position], objects)
   end
 
+  def location(nil, _), do: nil
+
   def location({:thing, _} = thing, objects) do
     Militerm.Systems.Entity.property(thing, ~w[location location], objects)
   end
@@ -222,6 +230,20 @@ defmodule Militerm.Systems.Location do
   def location({:thing, thing_id, coord} = thing, objects) do
     parent_coord = Militerm.Systems.Entity.property(thing, ~w[detail default related_to], objects)
     {:thing, thing_id, parent_coord}
+  end
+
+  def environment(nil, _), do: nil
+
+  def environment({:thing, _} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location environment], objects)
+  end
+
+  def environment({:thing, _, "default"} = thing, objects) do
+    Militerm.Systems.Entity.property(thing, ~w[location environment], objects)
+  end
+
+  def environment({:thing, thing_id, coord} = thing, objects) do
+    {:thing, thing_id, "default"}
   end
 
   def start_sight_inventory({:thing, this_id}, objects) do
@@ -447,6 +469,26 @@ defmodule Militerm.Systems.Location do
   defp prox_target(_, _), do: nil
 
   defscript place(target), for: %{"this" => this} do
+    this_id =
+      case this do
+        {:thing, id} -> id
+        {:thing, id, _} -> id
+      end
+
+    prox =
+      case target do
+        {p, _} -> p
+        _ -> "-"
+      end
+
+    target_id =
+      case target do
+        {_, {:thing, id}} -> id
+        {_, {:thing, id, detail}} -> [detail, "@", id]
+      end
+
+    Logger.debug([this_id, ": Place() ", prox, " ", target_id])
+
     case target do
       {_, {:thing, target_id, _}} ->
         if Militerm.Systems.Entity.whereis({:thing, target_id}) do
@@ -496,7 +538,12 @@ defmodule Militerm.Systems.Location do
       if target && Militerm.Services.Location.place(this, target) do
         Events.run_event_set(["scan:env:brief"], ["actor"], Map.put(args, "actor", [this]))
       else
-        Entity.receive_message(this, "cmd", "Unable to move to #{Enum.join(bits, " ")}", args)
+        Entity.receive_message(
+          this,
+          "cmd:error",
+          "Unable to move to #{Enum.join(bits, " ")}",
+          args
+        )
       end
     else
       Entity.receive_message(this, "cmd:error", "You aren't allowed to use the @goto command.")
@@ -621,7 +668,9 @@ defmodule Militerm.Systems.Location do
         coord,
         {:thing, actor_id} = actor
       ) do
-    dest = {prox, {:thing, target_id, coord}}
+    dest = {prox, dest_entity = {:thing, target_id, coord}}
+    # Ensure dest is loaded
+    Militerm.Systems.Entity.whereis(dest_entity)
 
     case Militerm.Services.Location.where(entity) do
       {_, {:thing, ^target_id, _}} = from ->
@@ -631,13 +680,13 @@ defmodule Militerm.Systems.Location do
         entity_id
         |> permission_to_leave(class, leaving_id, leaving_coord)
         |> permission_to_arrive(entity_id, class, {:thing, target_id}, coord)
-        |> permission_to_accept(entity_id, class, from, dest)
+        |> permission_to_accept(entity_id, class, actor_id, from, dest)
         |> finalize_move(entity_id, class, actor_id, from, dest)
 
       nil ->
         {:cont, [], []}
         |> permission_to_arrive(entity_id, class, {:thing, target_id}, coord)
-        |> permission_to_accept(entity_id, class, nil, dest)
+        |> permission_to_accept(entity_id, class, actor_id, nil, dest)
         |> finalize_move(entity_id, class, actor_id, nil, dest)
     end
   end
@@ -645,18 +694,19 @@ defmodule Militerm.Systems.Location do
   defp finalize_move({:halt, _} = halt, _, _, _, _, _), do: halt
 
   defp finalize_move({:cont, pre, post}, entity_id, class, actor_id, from, dest) do
-    {slot_names, slots} =
+    {event, slot_names, slots} =
       if entity_id == actor_id or is_nil(actor_id) do
-        {["actor"], %{"actor" => {:thing, entity_id}}}
+        {"move:#{class}:self", ["actor"], %{"actor" => {:thing, entity_id}}}
       else
-        {["actor", "direct"], %{"actor" => {:thing, actor_id}, "direct" => [{:thing, entity_id}]}}
+        {"move:#{class}:item", ["actor", "direct"],
+         %{"actor" => {:thing, actor_id}, "direct" => [{:thing, entity_id}]}}
       end
 
     # move everything in relation to the thing being moved that isn't part of
     # that things inventory.
 
     Militerm.Systems.Events.run_event_set(
-      pre ++ ["move:#{class}"] ++ post,
+      pre ++ [event | post],
       slot_names,
       slots
       |> Map.put("moving_from", from)
@@ -690,10 +740,22 @@ defmodule Militerm.Systems.Location do
 
   defp permission_to_accept({:halt, _} = halt, _, _, _, _), do: halt
 
-  defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, from, to) do
-    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept", "actor", %{
+  defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, entity_id, from, to) do
+    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept:self", "actor", %{
            "from" => from,
            "to" => to
+         }) do
+      {:halt, _} = halt -> halt
+      {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
+      _ -> continue
+    end
+  end
+
+  defp permission_to_accept({:cont, pre, post} = continue, entity_id, class, actor_id, from, to) do
+    case Militerm.Systems.Entity.pre_event(entity_id, "move:accept:item", "direct", %{
+           "from" => from,
+           "to" => to,
+           "actor" => {:thing, actor_id}
          }) do
       {:halt, _} = halt -> halt
       {:cont, more_pre, more_post} -> {:cont, pre ++ more_pre, more_post ++ post}
@@ -745,7 +807,7 @@ defmodule Militerm.Systems.Location do
     entity_id
     |> permission_to_leave(class, leaving_id, leaving_coord)
     |> permission_to_arrive(entity_id, class, {:thing, next_entity_id}, next_coord)
-    |> permission_to_accept(entity_id, class, from, dest)
+    |> permission_to_accept(entity_id, class, actor_id, from, dest)
     |> finalize_move(entity_id, class, actor_id, from, dest)
   end
 
@@ -783,7 +845,7 @@ defmodule Militerm.Systems.Location do
       entity_id
       |> permission_to_leave(class, leaving_id, leaving_coord)
       |> permission_to_arrive(entity_id, class, {:thing, next_entity_id}, next_coord)
-      |> permission_to_accept(entity_id, class, from, dest)
+      |> permission_to_accept(entity_id, class, actor_id, from, dest)
       |> finalize_move(entity_id, class, actor_id, from, dest)
 
     case result do

@@ -14,7 +14,7 @@ defmodule Militerm.Command.Plugs.RunEvents do
       actor_can ->
         result =
           Militerm.Systems.Events.run_event_set(
-            events ++ ["action:done"],
+            ["action:start"] ++ events ++ ["action:done"],
             @obj_slots,
             Map.put(slots, "actor", [entity])
           )

@@ -185,6 +185,9 @@ defmodule Militerm.Systems.Commands.Binder do
 
       {:error, {_, _, reason}} ->
         {:error, reason}
+
+      {:error, _, _} ->
+        {:error, "bad parse"}
     end
   end
 

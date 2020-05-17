@@ -1,7 +1,10 @@
 defmodule Militerm.Config do
   @repo Application.fetch_env!(:militerm, :repo)
+  @otp_app Application.get_env(:militerm, :otp_app, :militerm)
 
   def components, do: master.components()
+
+  def otp_app, do: @otp_app
 
   def game_dir do
     game_dir =
@@ -55,5 +58,9 @@ defmodule Militerm.Config do
 
   def master do
     Application.get_env(:militerm, :master, Militerm.Master.Default)
+  end
+
+  def get_debug_classes() do
+    %{}
   end
 end

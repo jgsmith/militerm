@@ -410,10 +410,19 @@ defmodule Militerm.Machines.Script do
     body = elem(code, ip + 1)
 
     new_list =
-      list
-      |> Enum.flat_map(fn item ->
-        run(body, objects, Map.put(pad, var, item))
-      end)
+      case list do
+        nil ->
+          []
+
+        _ ->
+          list
+          |> to_list()
+          |> Enum.flat_map(fn item ->
+            body
+            |> run(objects, Map.put(pad, var, item))
+            |> to_list()
+          end)
+      end
 
     %{state | ip: ip + 2, stack: [new_list | stack]}
   end
@@ -423,18 +432,35 @@ defmodule Militerm.Machines.Script do
          %{code: code, ip: ip, stack: [list | stack], objects: objects, pad: pad} = state
        ) do
     var = elem(code, ip)
+    prior_var_value = Map.get(pad, var)
     body = elem(code, ip + 1)
 
-    for item <- list do
-      run(body, objects, Map.put(pad, var, item))
-    end
+    %{pad: new_pad} =
+      list
+      |> Enum.reduce(state, fn item, state ->
+        %{pad: new_pad} =
+          step_until_done(%{state | ip: 0, code: body, pad: Map.put(pad, var, item)})
 
-    %{state | ip: ip + 2, stack: [true | stack]}
+        %{state | pad: new_pad}
+      end)
+
+    new_pad =
+      if is_nil(prior_var_value) do
+        Map.drop(new_pad, [var])
+      else
+        Map.put(new_pad, var, prior_var_value)
+      end
+
+    %{state | ip: ip + 2, pad: new_pad, stack: [true | stack]}
   end
 
   defp execute_step(
          :narrate,
-         %{stack: [sense, volume, message | stack], objects: %{"this" => this} = objects} = state
+         %{
+           stack: [sense, volume, message | stack],
+           pad: pad,
+           objects: %{"this" => this} = objects
+         } = state
        ) do
     # send the message out to everyone - it's a "msg:#{sense}" event that's tailored to them
     # so the target object decides if it gets displayed or not
@@ -454,13 +480,15 @@ defmodule Militerm.Machines.Script do
       message
       |> Militerm.Systems.MML.bind(
         objects
-        |> Map.put("actor", to_list(this))
+        |> Map.put_new("actor", to_list(this))
+        |> Map.put("this", to_list(this))
+        |> Map.merge(pad)
       )
 
     event = "msg:#{sense}"
 
     entities =
-      for slot <- ~w[actor direct indirect instrument],
+      for slot <- ~w[this actor direct indirect instrument],
           entities <- to_list(Map.get(objects, slot, [])),
           entity_id <- to_list(entities),
           do: {entity_id, slot}
@@ -522,7 +550,7 @@ defmodule Militerm.Machines.Script do
   end
 
   defp execute_step(:sum, state) do
-    do_series_op(0, &+/2, :numeric, state)
+    do_series_op(0, &series_sum/2, :numeric, state)
   end
 
   defp execute_step(:concat, state) do
@@ -557,7 +585,7 @@ defmodule Militerm.Machines.Script do
   defp execute_step(:le, state), do: do_ordered_op(&Kernel.<=/2, state)
   defp execute_step(:gt, state), do: do_ordered_op(&Kernel.>/2, state)
   defp execute_step(:ge, state), do: do_ordered_op(&Kernel.>=/2, state)
-  defp execute_step(:eq, state), do: do_ordered_op(&Kernel.==/2, state)
+  defp execute_step(:eq, state), do: do_ordered_op(&equal?/2, state)
 
   defp execute_step(:ne, %{stack: [n | stack]} = state) do
     with {list, new_stack} <- Enum.split(stack, n) do
@@ -642,6 +670,12 @@ defmodule Militerm.Machines.Script do
           |> resolve_var_references(pad)
       end
 
+    this =
+      case this do
+        [thing | _] -> thing
+        thing -> thing
+      end
+
     %{state | stack: [Entity.property(this, path, objects) | stack]}
   end
 
@@ -698,12 +732,16 @@ defmodule Militerm.Machines.Script do
         |> Enum.reject(&is_nil/1)
       end)
 
-    %{state | stack: [values | stack]}
+    %{state | stack: [values | new_stack]}
   end
 
   defp execute_step(:get_prop, %{stack: [base, n | stack], objects: objects, pad: pad} = state)
        when is_tuple(base) do
     {paths, new_stack} = Enum.split(stack, n)
+
+    Logger.debug(fn ->
+      ["Machine: get_prop ", inspect(base), " : ", inspect(paths)]
+    end)
 
     paths =
       paths
@@ -723,7 +761,7 @@ defmodule Militerm.Machines.Script do
         |> Enum.reject(&is_nil/1)
       end)
 
-    %{state | stack: [values | stack]}
+    %{state | stack: [values | new_stack]}
   end
 
   defp execute_step(:get_prop, %{stack: [_base, n | stack]} = state) do
@@ -757,9 +795,9 @@ defmodule Militerm.Machines.Script do
           val = Map.get(pad, var, "")
 
           case val do
-            nil -> ""
             v when is_binary(v) -> String.split(v, ":", trim: true)
-            [v | _] -> String.split(v, ":", trim: true)
+            [v | _] when is_binary(v) -> String.split(v, ":", trim: true)
+            _ -> []
           end
 
         _ ->
@@ -778,7 +816,14 @@ defmodule Militerm.Machines.Script do
   defp ordering_satisfied?(_, [_]), do: true
 
   defp ordering_satisfied?(op, [l | [r | _] = rest]) do
-    if op.(l, r) do
+    {real_l, real_r} =
+      case {l, r} do
+        {[l], r} -> {l, r}
+        {l, [r]} -> {l, r}
+        {x, y} -> {x, y}
+      end
+
+    if op.(real_l, real_r) do
       ordering_satisfied?(op, rest)
     else
       false
@@ -820,6 +865,21 @@ defmodule Militerm.Machines.Script do
         _ -> values
       end
 
+    Logger.debug(fn ->
+      [
+        "series op ",
+        inspect(type),
+        " ",
+        inspect(values),
+        " -> ",
+        values
+        |> convert_for(type)
+        |> inspect,
+        " -> ",
+        values |> convert_for(type) |> List.foldl(init, op) |> inspect
+      ]
+    end)
+
     %{
       state
       | stack: [
@@ -841,6 +901,10 @@ defmodule Militerm.Machines.Script do
 
   defp convert_for([nil | rest], type, acc), do: convert_for(rest, type, acc)
 
+  defp convert_for([list | rest], :numeric, acc) when is_list(list) do
+    convert_for(rest, :numeric, [convert_for(list, :numeric) | acc])
+  end
+
   defp convert_for([item | rest], type, acc) do
     convert_for(rest, type, [convert_item_for(type, item) | acc])
   end
@@ -853,10 +917,10 @@ defmodule Militerm.Machines.Script do
   defp convert_item_for(:string, item) when is_binary(item), do: item
   defp convert_item_for(:string, item) when is_integer(item), do: Integer.to_string(item)
   defp convert_item_for(:string, item) when is_float(item), do: Float.to_string(item)
-  defp convert_item_for(:string, {:thing, id}), do: "<Thing##{id}>"
-  defp convert_item_for(:string, {:detail, id, {x, y}}), do: "<Thing##{id}@#{x},#{y}>"
-  defp convert_item_for(:string, {:detail, id, {t}}), do: "<Thing##{id}@#{t}>"
-  defp convert_item_for(:string, {:detail, id, d}), do: "<Thing##{id}@#{d}>"
+  defp convert_item_for(:string, {:thing, id}), do: "<Thing##{id}@default>"
+  defp convert_item_for(:string, {:thing, id, {x, y}}), do: "<Thing##{id}@#{x},#{y}>"
+  defp convert_item_for(:string, {:thing, id, {t}}), do: "<Thing##{id}@#{t}>"
+  defp convert_item_for(:string, {:thing, id, d}), do: "<Thing##{id}@#{d}>"
 
   defp convert_item_for(:string, list) when is_list(list),
     do: Militerm.English.item_list(list)
@@ -881,11 +945,18 @@ defmodule Militerm.Machines.Script do
 
   defp convert_item_for(:numeric, _), do: 0
 
-  defp series_and(true, true), do: true
-  defp series_and(_, _), do: false
+  defp series_and(_, y) when y in @boolean_false_values, do: false
+  defp series_and(x, _) when x in @boolean_false_values, do: false
+  defp series_and(_, _), do: true
 
-  defp series_or(false, false), do: false
+  defp series_or(x, y) when x in @boolean_false_values and y in @boolean_false_values, do: false
   defp series_or(_, _), do: true
+
+  defp series_sum(x, y) do
+    [x, y]
+    |> List.flatten()
+    |> Enum.sum()
+  end
 
   defp execute_jump_unless(true, %{code: code, ip: ip} = state) do
     %{state | ip: ip + elem(code, ip) + 1}
@@ -898,4 +969,8 @@ defmodule Militerm.Machines.Script do
   defp to_list(list) when is_list(list), do: list
   defp to_list(nil), do: []
   defp to_list(scalar), do: [scalar]
+
+  def equal?({:thing, id}, {:thing, id, "default"}), do: true
+  def equal?({:thing, id, "default"}, {:thing, id}), do: true
+  def equal?(l, r), do: l == r
 end

@@ -119,8 +119,10 @@ defmodule Militerm.Parsers.Command do
     iex> Command.try_syntax_match(["a", "red", "truck"], %{pattern: []})
     nil
   """
-  def try_syntax_match(bits, context, %{word_lists: word_lists, pattern: pattern} = syntax) do
+  def try_syntax_match(bits, context, %{pattern: pattern} = syntax) do
     # return nil if not a match - otherwise, return a structure with slots and such identified
+    word_lists = Map.get(syntax, :word_lists, %{})
+
     case Militerm.Parsers.Command.PatternMatcher.pattern_match(bits, pattern, word_lists) do
       nil ->
         nil

@@ -7,6 +7,38 @@ defmodule Militerm.Systems.Mixins do
   alias Militerm.Services.Mixins, as: MixinService
   alias Militerm.Systems.Mixins
 
+  require Logger
+
+  def introspect(this_mixin) do
+    data = MixinService.get(this_mixin)
+
+    data.mixins
+    |> Enum.reverse()
+    |> Enum.reduce(%{}, fn mixin, acc ->
+      deep_merge(acc, introspect(mixin))
+    end)
+    |> deep_merge(%{
+      calculations: keys_with_attribution(data.calculations, this_mixin),
+      reactions: keys_with_attribution(data.reactions, this_mixin),
+      abilities: keys_with_attribution(data.abilities, this_mixin),
+      traits: keys_with_attribution(data.traits, this_mixin),
+      validators: keys_with_attribution(data.validators, this_mixin)
+    })
+  end
+
+  defp deep_merge(into, from) when is_map(into) and is_map(from) do
+    Map.merge(into, from, fn _k, v1, v2 -> deep_merge(v1, v2) end)
+  end
+
+  defp deep_merge(v1, v2), do: v2
+
+  defp keys_with_attribution(map, attr) do
+    map
+    |> Map.keys()
+    |> Enum.map(fn k -> {k, attr} end)
+    |> Enum.into(%{})
+  end
+
   def execute_event(name, entity_id, event, role, args) when is_binary(event) do
     path = event |> String.split(":", trim: true) |> Enum.reverse()
     execute_event(name, entity_id, path, role, args)
@@ -39,9 +71,36 @@ defmodule Militerm.Systems.Mixins do
   def has_event?(name, path, role) do
     case get_mixin(name) do
       {:ok, mixin} ->
-        do_has_event?(mixin, path, role)
+        res = do_has_event?(mixin, path, role)
+
+        Logger.debug(fn ->
+          [
+            "- (",
+            name,
+            ") has event ",
+            Enum.join(Enum.reverse(path), ":"),
+            " as ",
+            role,
+            ": ",
+            inspect(res)
+          ]
+        end)
+
+        res
 
       _ ->
+        Logger.debug(fn ->
+          [
+            "- (",
+            name,
+            ") has event ",
+            Enum.join(Enum.reverse(path), ":"),
+            " as ",
+            role,
+            ": false"
+          ]
+        end)
+
         false
     end
   end
@@ -427,7 +486,24 @@ defmodule Militerm.Systems.Mixins do
   defp execute_if_in_map(events, entity_id, event, role, args) do
     case Map.get(events, {event, role}) do
       code when is_tuple(code) ->
-        {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+        # IO.inspect({:code, event, role, code}, limit: :infinity)
+        Logger.debug(fn ->
+          [
+            entity_id,
+            ": execute code for ",
+            inspect(event),
+            " as ",
+            role,
+            ": ",
+            inspect(code, limit: :infinity)
+          ]
+        end)
+
+        ret =
+          {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+
+        Logger.debug([entity_id, ": finished executing code for ", inspect(event), " as ", role])
+        ret
 
       _ ->
         :unhandled
@@ -437,7 +513,21 @@ defmodule Militerm.Systems.Mixins do
   defp execute_if_in_map(events, entity_id, event, args) do
     case Map.get(events, event) do
       code when is_tuple(code) ->
-        {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+        Logger.debug(fn ->
+          [
+            entity_id,
+            ": execute code for ",
+            inspect(event),
+            ": ",
+            inspect(code, limit: :infinity)
+          ]
+        end)
+
+        ret =
+          {:ok, Militerm.Machines.Script.run(code, Map.put(args, "this", {:thing, entity_id}))}
+
+        Logger.debug([entity_id, ": finished executing code for ", inspect(event)])
+        ret
 
       _ ->
         :unhandled
@@ -452,6 +542,7 @@ defmodule Militerm.Systems.Mixins do
         :unhandled
 
       mixin ->
+        Logger.debug([entity_id, " handing off ", inspect(event), " as ", role, " to ", mixin])
         {:ok, apply(Mixins, method, [mixin, entity_id, event, role, args])}
     end
   end
@@ -464,6 +555,7 @@ defmodule Militerm.Systems.Mixins do
         :unhandled
 
       mixin ->
+        Logger.debug([entity_id, " handing off ", inspect(event), " to ", mixin])
         {:ok, apply(Mixins, method, [mixin, entity_id, event, args])}
     end
   end

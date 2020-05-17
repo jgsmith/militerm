@@ -8,6 +8,8 @@ defmodule Militerm.Test.Entity do
 
   alias Militerm.Systems.Archetypes
 
+  require Logger
+
   # defdelegate handle_event(entity_id, event, role, event_args), to: Archetypes, as: :execute_event
   defdelegate can?(entity_id, event, role, event_args), to: Archetypes, as: :ability
   defdelegate is?(entity_id, event, event_args), to: Archetypes, as: :trait
@@ -52,6 +54,8 @@ defmodule Militerm.Test.Entity do
   end
 
   def process_input(entity_id, input, context) do
+    Logger.debug([entity_id, " process input: [", input, "]"])
+
     case Militerm.Systems.Commands.perform({:thing, entity_id}, input, context) do
       {:ok, new_context} -> new_context
       _ -> context
@@ -96,6 +100,14 @@ defmodule Militerm.Test.Entity do
     entity
   end
 
+  def environment(entity) do
+    case Militerm.Services.Location.where(entity) do
+      {_, {:thing, _} = thing} -> thing
+      {_, {:thing, id, _}} -> {:thing, id}
+      _ -> nil
+    end
+  end
+
   def location(entity) do
     case Militerm.Services.Location.where(entity) do
       {_, thing} -> thing
@@ -108,5 +120,24 @@ defmodule Militerm.Test.Entity do
       {prox, _} -> prox
       _ -> nil
     end
+  end
+
+  def is?(entity, prop) do
+    Logger.debug([inspect(entity), " is ", prop])
+    Militerm.Systems.Entity.is?(entity, prop, %{"this" => entity})
+  end
+
+  def property(entity, prop, objs \\ %{}) do
+    Logger.debug([inspect(entity), " property ", prop])
+
+    res =
+      Militerm.Systems.Entity.property(
+        entity,
+        String.split(prop, ":", trim: true),
+        Map.put(objs, "this", entity)
+      )
+
+    Logger.debug([inspect(entity), " property ", prop, " is ", inspect(res)])
+    res
   end
 end
